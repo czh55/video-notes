@@ -21086,5 +21086,31 @@
     "svg_height": 3060,
     "slug": "pour-over-fundamentals",
     "primary": "coffee"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "达芬奇调色师操作动线",
+    "summary": "九段动线重排 Color 页：工作台→节点→清理→LUT前立轴→影调→二级分区→质感→动态→交付；含面板截图与达芬奇/FCP 工位对照。",
+    "tags": [
+      "个人专栏",
+      "达芬奇",
+      "调色",
+      "节点",
+      "白平衡",
+      "二级调色",
+      "HDR",
+      "LUT"
+    ],
+    "platform": "personal",
+    "url": "personal:davinci-colorist-workflow",
+    "duration": "讨论整理",
+    "outputs": {
+      "html": "davinci-colorist-workflow-图文实录.html",
+      "svg": "davinci-colorist-workflow-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 9,
+    "svg_height": 2250,
+    "slug": "davinci-colorist-workflow"
   }
 ]

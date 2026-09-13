@@ -9,6 +9,7 @@
 node scripts/personal/generate-a6700-slog-sunrise-practice-html.mjs
 node scripts/personal/generate-a6700-slog-sunrise-practice-svg.mjs
 node scripts/personal/generate-log-color-grading-notes-svg.mjs
+node scripts/personal/generate-davinci-colorist-workflow-svg.mjs
 python3 scripts/build-search-index.py
 ```
 
