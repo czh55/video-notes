@@ -643,7 +643,7 @@
 
     /* ====== 专题区 ====== */
     .topics-section {
-      max-width: 860px;
+      max-width: 960px;
       margin: 0 auto 40px;
       padding: 0 24px;
     }
@@ -652,7 +652,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
     .section-heading h2 {
       font-size: 24px;
@@ -664,13 +664,119 @@
       color: var(--text-muted);
       margin-top: 4px;
     }
+    .topics-nav {
+      position: sticky;
+      top: 12px;
+      z-index: 40;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(96,165,250,0.18);
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .topics-nav-chip {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text-secondary);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+      line-height: 1.2;
+    }
+    .topics-nav-chip .tn-count {
+      margin-left: 4px;
+      opacity: 0.7;
+      font-variant-numeric: tabular-nums;
+      font-weight: 500;
+    }
+    .topics-nav-chip:hover {
+      border-color: rgba(96,165,250,0.45);
+      color: var(--text);
+    }
+    .topics-nav-chip.active {
+      background: rgba(96,165,250,0.18);
+      border-color: rgba(96,165,250,0.55);
+      color: #93c5fd;
+    }
+    .topics-dir {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .topics-dir-card {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      text-align: left;
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(96,165,250,0.18);
+      background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(167,139,250,0.06));
+      color: inherit;
+      cursor: pointer;
+      font-family: inherit;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .topics-dir-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(96,165,250,0.45);
+    }
+    .topics-dir-card strong {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.35;
+    }
+    .topics-dir-card em {
+      font-style: normal;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .topics-dir-card .td-meta {
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 600;
+      margin-top: auto;
+    }
     .topic-series {
       background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(167,139,250,0.06));
       border: 1px solid rgba(96,165,250,0.18);
       border-radius: 18px;
       padding: 24px;
       margin-bottom: 16px;
+      scroll-margin-top: 88px;
     }
+    .topic-series.is-collapsed .topic-chapters { display: none; }
+    .topic-expand {
+      appearance: none;
+      border: 1px solid rgba(96,165,250,0.28);
+      background: rgba(96,165,250,0.08);
+      color: #93c5fd;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      margin: 0 0 14px;
+    }
+    .topic-expand:hover { border-color: rgba(96,165,250,0.55); }
     .topic-header {
       display: flex;
       justify-content: space-between;
@@ -1084,6 +1190,16 @@
       .mode-tab { padding: 10px 18px; font-size: 14px; }
       .phrasebook-row { grid-template-columns: 1fr; }
       .personal-hub { padding: 0 12px; }
+      .topics-section { padding: 0 12px; }
+      .topics-nav {
+        top: 8px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .topics-nav::-webkit-scrollbar { display: none; }
+      .topics-nav-chip { flex: none; }
+      .topics-dir { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -1149,9 +1265,10 @@
     <div class="section-heading">
       <div>
         <h2>专题</h2>
-        <p>类目导读与系列课程 · 与视频列表分开浏览</p>
+        <p>先点类目定位，再展开代表作 · 与视频列表分开浏览</p>
       </div>
     </div>
+    <nav class="topics-nav" id="topicsNav" aria-label="专题类目导航"></nav>
     <div id="topicsContainer"></div>
     <div class="empty-state" id="topicsEmpty" style="display:none;">没有匹配的专题</div>
   </div>
@@ -1217,22 +1334,43 @@
       let dateMap = {};
       let calYear, calMonth;
       let viewMode = modeFromHash();
-
+      let activeTopicId = topicIdFromHash();
       let activeCategory = null;
       let activeFacet = null; // { type: 'creator'|'tool', id: string }
 
       const $ = id => document.getElementById(id);
 
       function modeFromHash() {
-        if (location.hash === '#personal') return 'personal';
-        if (location.hash === '#topics') return 'topics';
+        const h = location.hash || '';
+        if (h === '#personal' || h.indexOf('#personal/') === 0) return 'personal';
+        if (h === '#topics' || h.indexOf('#topics/') === 0) return 'topics';
         return 'videos';
       }
 
-      function hashForMode(mode) {
+      function topicIdFromHash() {
+        const m = (location.hash || '').match(/^#topics(?:\/([^/?#]+))?$/);
+        if (!m) return null;
+        return m[1] ? decodeURIComponent(m[1]) : null;
+      }
+
+      function hashForMode(mode, topicId) {
         if (mode === 'personal') return '#personal';
-        if (mode === 'topics') return '#topics';
+        if (mode === 'topics') {
+          return topicId ? '#topics/' + encodeURIComponent(topicId) : '#topics';
+        }
         return '';
+      }
+
+      function topicShortLabel(topic) {
+        const title = topic.title || '';
+        const cut = title.split('·')[0].trim();
+        if (cut) return cut;
+        if (topic.tags && topic.tags[0]) return topic.tags[0];
+        return title || '未命名';
+      }
+
+      function topicKey(topic) {
+        return topic.primary || topic.id || topicShortLabel(topic);
       }
 
       function isPersonalItem(item) {
@@ -1383,7 +1521,9 @@
         document.querySelectorAll('.mode-tab').forEach(function(btn) {
           btn.addEventListener('click', function() {
             viewMode = btn.getAttribute('data-mode') || 'videos';
-            const hash = hashForMode(viewMode);
+            if (viewMode !== 'topics') activeTopicId = null;
+            else if (!activeTopicId) activeTopicId = topicIdFromHash();
+            const hash = hashForMode(viewMode, viewMode === 'topics' ? activeTopicId : null);
             history.replaceState(null, '', hash || (location.pathname + location.search));
             $('searchInput').value = '';
             activeCategory = null;
@@ -1394,14 +1534,32 @@
         });
         window.addEventListener('hashchange', function() {
           const next = modeFromHash();
-          if (next === viewMode) return;
+          const nextTopic = topicIdFromHash();
+          if (next === viewMode && next === 'topics' && nextTopic === activeTopicId) return;
           viewMode = next;
+          activeTopicId = next === 'topics' ? nextTopic : null;
           $('searchInput').value = '';
           activeCategory = null;
           activeFacet = null;
           syncModeTabs();
           render();
         });
+      }
+
+      function setActiveTopic(topicId, options) {
+        activeTopicId = topicId || null;
+        const opts = options || {};
+        const hash = hashForMode('topics', activeTopicId);
+        if (opts.replace === false) {
+          history.pushState(null, '', hash);
+        } else {
+          history.replaceState(null, '', hash);
+        }
+        if (viewMode !== 'topics') {
+          viewMode = 'topics';
+          syncModeTabs();
+        }
+        render();
       }
 
       function syncModeTabs() {
@@ -1923,11 +2081,45 @@
         return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       }
 
+      function buildTopicsNav(filteredTopics) {
+        const nav = $('topicsNav');
+        if (!nav) return;
+        nav.innerHTML = '';
+        const allBtn = document.createElement('button');
+        allBtn.type = 'button';
+        allBtn.className = 'topics-nav-chip' + (!activeTopicId ? ' active' : '');
+        allBtn.innerHTML = '全部目录<span class="tn-count">' + allTopics.length + '</span>';
+        allBtn.addEventListener('click', function() {
+          setActiveTopic(null);
+          $('searchInput').value = '';
+        });
+        nav.appendChild(allBtn);
+
+        allTopics.forEach(function(topic) {
+          const key = topicKey(topic);
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'topics-nav-chip' + (activeTopicId === key ? ' active' : '');
+          const n = (topic.stats && topic.stats.images) || (topic.items || []).filter(function(it) { return it.order !== 0; }).length || 0;
+          btn.innerHTML = escapeHtml(topicShortLabel(topic)) + '<span class="tn-count">' + n + '</span>';
+          btn.title = topic.title || '';
+          btn.addEventListener('click', function() {
+            setActiveTopic(key);
+            $('searchInput').value = '';
+          });
+          nav.appendChild(btn);
+        });
+
+        // If filter points at missing key, keep chips but directory handles empty
+        void filteredTopics;
+      }
+
       function buildTopics(query) {
         const container = $('topicsContainer');
         container.innerHTML = '';
 
         const filteredTopics = allTopics.filter(function(topic) {
+          if (activeTopicId && topicKey(topic) !== activeTopicId) return false;
           if (!query) return true;
           const haystack = [
             topic.title,
@@ -1940,18 +2132,55 @@
           return haystack.indexOf(query) !== -1;
         });
 
+        buildTopicsNav(filteredTopics);
         $('totalTopics').textContent = filteredTopics.length;
+
+        // Overview: compact directory when no topic selected and no search
+        if (!activeTopicId && !query) {
+          const dir = document.createElement('div');
+          dir.className = 'topics-dir';
+          allTopics.forEach(function(topic) {
+            const key = topicKey(topic);
+            const n = (topic.stats && topic.stats.images) || (topic.items || []).filter(function(it) { return it.order !== 0; }).length || 0;
+            const card = document.createElement('button');
+            card.type = 'button';
+            card.className = 'topics-dir-card';
+            card.innerHTML =
+              '<strong>' + escapeHtml(topicShortLabel(topic)) + '</strong>' +
+              '<em>' + escapeHtml(topic.summary || topic.subtitle || '') + '</em>' +
+              '<span class="td-meta">' + n + ' 篇 · 打开类目 →</span>';
+            card.addEventListener('click', function() { setActiveTopic(key); });
+            dir.appendChild(card);
+          });
+          container.appendChild(dir);
+          return allTopics.length;
+        }
 
         filteredTopics.forEach(function(topic) {
           const series = document.createElement('div');
-          series.className = 'topic-series';
+          const forceExpand = !!(query || activeTopicId);
+          series.className = 'topic-series' + (forceExpand ? '' : ' is-collapsed');
+          series.id = 'topic-' + topicKey(topic);
 
           const stats = topic.stats || {};
+          const chapterItems = (topic.items || []).filter(function(item) {
+            if (item.order === 0) return false;
+            if (!query) return true;
+            const itemHaystack = ((item.title || '') + ' ' + (item.summary || '')).toLowerCase();
+            const topicHaystack = [
+              topic.title,
+              topic.subtitle,
+              topic.summary,
+              (topic.tags || []).join(' ')
+            ].join(' ').toLowerCase();
+            return itemHaystack.indexOf(query) !== -1 || topicHaystack.indexOf(query) !== -1;
+          });
           const statsHtml = [
             stats.lessons ? '<span class="topic-stat"><strong>' + stats.lessons + '</strong> 节课</span>' : '',
             stats.images ? '<span class="topic-stat"><strong>' + stats.images + '</strong> 篇内容</span>' : '',
             stats.doctors ? '<span class="topic-stat"><strong>' + stats.doctors + '</strong> 位医生</span>' : '',
-            stats.duration ? '<span class="topic-stat">总时长 <strong>' + escapeHtml(stats.duration) + '</strong></span>' : ''
+            stats.duration ? '<span class="topic-stat">总时长 <strong>' + escapeHtml(stats.duration) + '</strong></span>' : '',
+            '<span class="topic-stat"><strong>' + chapterItems.length + '</strong> 篇代表作</span>'
           ].filter(Boolean).join('');
 
           let tagsHtml = '';
@@ -1962,6 +2191,10 @@
               }).join('') +
               '</div>';
           }
+
+          const expandLabel = forceExpand
+            ? '收起代表作'
+            : ('展开代表作 · ' + chapterItems.length + ' 篇');
 
           series.innerHTML =
             '<div class="topic-header">' +
@@ -1974,24 +2207,13 @@
             tagsHtml +
             '<div class="topic-summary">' + escapeHtml(topic.summary || '') + '</div>' +
             (statsHtml ? '<div class="topic-stats">' + statsHtml + '</div>' : '') +
-            (topic.cover ? '<a class="topic-cover-link" href="' + escapeHtml(topic.cover) + '" target="_blank">📖 打开总目录 →</a>' : '');
+            (topic.cover ? '<a class="topic-cover-link" href="' + escapeHtml(topic.cover) + '" target="_blank">📖 打开类目总结 →</a>' : '') +
+            '<button type="button" class="topic-expand" data-expand="1">' + expandLabel + '</button>';
 
           const chapters = document.createElement('div');
           chapters.className = 'topic-chapters';
 
-          (topic.items || []).forEach(function(item) {
-            if (item.order === 0) return;
-            if (query) {
-              const itemHaystack = ((item.title || '') + ' ' + (item.summary || '')).toLowerCase();
-              const topicHaystack = [
-                topic.title,
-                topic.subtitle,
-                topic.summary,
-                (topic.tags || []).join(' ')
-              ].join(' ').toLowerCase();
-              if (itemHaystack.indexOf(query) === -1 && topicHaystack.indexOf(query) === -1) return;
-            }
-
+          chapterItems.forEach(function(item) {
             const card = document.createElement('a');
             card.className = 'chapter-card';
             card.href = item.filename;
@@ -2001,11 +2223,21 @@
               '<div class="chapter-title">' + escapeHtml(item.title) + '</div>' +
               '<div class="chapter-summary">' + escapeHtml(item.summary || '') + '</div>' +
               (item.lessons ? '<div class="chapter-meta">' + item.lessons + ' 节课</div>' : '');
-
             chapters.appendChild(card);
           });
 
           series.appendChild(chapters);
+
+          const expandBtn = series.querySelector('[data-expand]');
+          if (expandBtn) {
+            expandBtn.addEventListener('click', function() {
+              const collapsed = series.classList.toggle('is-collapsed');
+              expandBtn.textContent = collapsed
+                ? ('展开代表作 · ' + chapterItems.length + ' 篇')
+                : '收起代表作';
+            });
+          }
+
           container.appendChild(series);
         });
         return filteredTopics.length;
