@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2771" viewBox="0 0 1320 2771">
+  <foreignObject x="0" y="0" width="1320" height="2771">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:16px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:10px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>跳绳标准动作之“体态篇”</h1>
+  <div class="meta">
+    <span class="tag tag-blue">运动动作</span>
+    <span class="tag tag-green">跳绳体态</span>
+    <span class="tag tag-orange">51秒</span>
+    <span class="tag tag-red">伤病预防</span>
+  </div>
+  <div class="summary-line">核心判断：跳绳效率不靠跳得高或后仰发力，而靠「上身稳 + 跳得低 + 落地软」。后仰伤腰、乱跳伤膝，是体态篇要先堵住的两个崩溃点。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">错误示范：上身后仰 → 腰椎风险</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:11</span><span class="timeline-text">收紧腹部核心，上身略前倾，收回下巴，目视前方</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">错误示范：胡乱高跳 → 膝盖风险；绳子很细，轻跳即可</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:27</span><span class="timeline-text">并脚插腰跟练：微屈膝 → 前脚掌脚踝上跳 → 离地腿直</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:36</span><span class="timeline-text">落地：前脚掌着地、脚跟不落地、膝如弹簧缓冲</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">人人都会跳<br/>还要学体态？</div>
+      <span class="arrow">→</span>
+      <div class="node node-orange">后仰 / 乱跳<br/>伤腰伤膝</div>
+      <span class="arrow">→</span>
+      <div class="node node-green">收核心略前倾<br/>轻跳 + 弹簧落地</div>
+      <span class="arrow">→</span>
+      <div class="node node-green">能练久、少受伤</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>跳绳不等于「跳得越高越有效」。作者立场（视频观点）：绳子很细，轻轻跳起就够；真正要练的是体态稳定与落地缓冲。后仰看起来用力，却把负荷堆到腰椎；硬邦邦落地则把冲击直传膝盖。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">体态三层：躯干 · 幅度 · 落地</h2>
+
+    <div class="card">
+      <h3>1. 躯干：核心收紧，略前倾 [00:05–00:20]</h3>
+      <p><strong>在讲什么：</strong>上身不能后仰；收紧腹部核心，上身略前倾，收回下巴，目视前方。</p>
+      <p><strong>关键理解：</strong>前倾不是弯腰塌背，而是用腹核心把肋骨—骨盆连成一条可控轴线，避免后仰把压力甩到腰椎。</p>
+      <div class="quote">原文依据：「上身一定不能后仰……跳绳时一定要收紧腹部核心，让你的上身是有点前倾的。」</div>
+      <div class="action">怎么用：开跳前先收腹、收下巴、眼睛看前方固定点，再摇绳。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>2. 幅度：轻跳过绳，拒绝胡乱高跳 [00:20–00:27]</h3>
+      <p><strong>在讲什么：</strong>不想伤膝盖就不要胡乱跳；绳子很细，轻轻跳起即可，不必跳高。</p>
+      <p><strong>关键理解：</strong>过绳所需净空很小；多余的垂直位移只会放大落地冲击。</p>
+      <div class="pitfall">避坑：把「有氧强度」等同于「跳得高」。强度应来自节奏与时长，而非弹跳高度。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>3. 落地：前脚掌 + 弹簧膝 [00:27–00:51]</h3>
+      <p><strong>在讲什么：</strong>并脚、双手插腰跟练；离地腿直；落地前脚掌先着地、脚跟始终不着地；膝盖由直到微屈，像弹簧缓冲；先原地再前后跳。</p>
+      <div class="quote">原文依据：「一定要让膝关节像弹簧一样起到缓冲的效果，不要硬邦邦的。」</div>
+      <div class="action">怎么用：落地瞬间主动微屈膝，脚跟悬空，用踝—膝连续弹性衔接下一跳。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>错误 vs 正确对照</h3>
+    <table>
+      <thead><tr><th>部位</th><th>错误（视频示范）</th><th>正确（作者要求）</th><th>主要风险</th></tr></thead>
+      <tbody>
+        <tr><td>上身</td><td>后仰</td><td>收核心、略前倾、收下巴</td><td>腰椎负荷</td></tr>
+        <tr><td>视线</td><td>看天花板或脚下</td><td>目视前方</td><td>体态代偿、平衡差</td></tr>
+        <tr><td>跳跃高度</td><td>胡乱高跳</td><td>轻轻跳起过绳</td><td>膝盖冲击</td></tr>
+        <tr><td>落地</td><td>硬邦邦、全脚掌砸地</td><td>前脚掌着地、膝如弹簧</td><td>关节缓冲失效</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:12px;font-size:14px;color:#64748b">立场分层：上表「风险」为基于视频讲解的推断；「正确动作」为作者演示与口播要求；是否适用于伤病史人群，视频未给出医学结论。</p>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <ul>
+      <li>适用于常规跳绳体态教学；已有腰椎/膝伤者应遵医嘱，视频未提供康复处方。</li>
+      <li>「脚跟始终不着地」是连续轻跳的技术提示，不是否认所有训练中的全脚掌落地场景。</li>
+      <li>前后跳练习属于进阶位移，需先掌握原地弹簧落地再叠加。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>体态先于强度：后仰与乱跳会先伤结构，再谈燃脂。</li>
+      <li>上身稳（核心+略前倾+收下巴）、跳得低、落地软（前脚掌+弹簧膝）。</li>
+      <li>练习顺序：原地轻跳 → 巩固缓冲 → 再前后跳。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>对镜检查：跳绳时上身是否后仰、下巴是否抬起。</li>
+      <li>把跳跃高度降到「刚好过绳」，连续跳 30–60 秒感受冲击变化。</li>
+      <li>双手插腰并脚原地跳，刻意练前脚掌落地与膝微屈缓冲。</li>
+      <li>缓冲稳定后再加前后小跳，不急着追求花式。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「跳绳就是使劲往上蹦」转向「用稳定体态和弹性落地把冲击管住，才能跳得久、伤得少」。</p>
+  </div>
+
+  <div class="footer">原视频 · 小红书 · 李柯憬 · 跳绳标准动作之“体态篇”</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2250" viewBox="0 0 1320 2250">
+  <foreignObject x="0" y="0" width="1320" height="2250">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>咖啡萃取三阶段：前酸中甜后苦如何叠成一杯</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡手作</span>
+    <span class="tag tag-green">意式浓缩</span>
+    <span class="tag tag-orange">分段杯测</span>
+    <span class="tag tag-purple">小红书 · 1分15秒</span>
+  </div>
+  <div class="summary-line">核心判断：意式浓缩沿时间轴可拆成前（深色高酸香）、中（甜与焦糖坚果）、后（淡色焦苦杂味）；作者主张尾段苦用于稀释并平衡前酸与中甜，再用 18g→36g、每段约 12g 的三杯分段 + 同量加水来验证色差与口感差。</div>
+  <a class="source-link" href="https://xhslink.cn/o/3jJQBf13ZOG">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">点题：萃取过程三个阶段的风味变化；三杯色阶开场</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:03</span><span class="timeline-text">前段：颜色最深、流量小 → 豆子特性风味与香气、酸度高</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:09</span><span class="timeline-text">中段：甜味；坚果、奶油、焦糖风味</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">后段：颜色变淡 → 苦味与杂味</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">转折：前两段好风味，但酸与甜未必融合 → 需要尾段苦来平衡</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:28</span><span class="timeline-text">演示：三杯接取；18g 粉 / 36g 液 / 每段约 12g</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:42</span><span class="timeline-text">油脂颜色：前段最深「像」过萃、中段正常、后段最浅「像」欠萃</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:52</span><span class="timeline-text">同量加水：前段酸质浓、中段显甜、尾段只剩焦苦</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">前段<br/>深色高酸香</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">中段<br/>甜焦糖坚果</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">后段<br/>淡色焦苦</div>
+      <div class="arrow">→</div>
+      <div class="node">整杯平衡<br/>（作者观点）</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「后段苦 = 一定要切掉」并非本片立场。作者明确说前两段好风味未必能自然融合，需要尾段苦来稀释、求得整体平衡。另：分段杯里前深后浅「像」过萃/欠萃，是颜色观感类比，不等于整杯浓缩已被判定过萃或欠萃。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三段对照</h2>
+    <div class="card">
+      <h3>横向对比：颜色 · 感官 · 作者角色</h3>
+      <table>
+        <thead>
+          <tr><th>阶段</th><th>可见特征</th><th>口感标签（视频）</th><th>在「整杯」中的角色</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>前段</td><td>颜色最深、流量小；油脂最深</td><td>豆子特性风味与香气、酸度高；加水后酸质、浓度大</td><td>提供鲜明酸香与风味物质（作者称好风味）</td></tr>
+          <tr><td>中段</td><td>颜色适中、油脂「正常」</td><td>甜；坚果、奶油、焦糖；加水后甜味仍明显</td><td>提供甜感主体（作者称好风味）</td></tr>
+          <tr><td>后段</td><td>颜色变淡、油脂最浅</td><td>苦味与杂味；加水后几乎只剩焦苦</td><td>作者观点：用苦稀释酸与甜，促成整体平衡</td></tr>
+        </tbody>
+      </table>
+      <div class="quote">原文依据：「这时我们就需要尾段的苦，来稀释他们的风味，使浓缩咖啡得到一个整体风味的平衡。」（约 00:21–00:28）</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>立场分层：事实 vs 观点</h3>
+      <p><strong>可核验画面/操作：</strong>无底手柄流速与颜色变化；三杯分段；粉液比 <span class="key-data">18g → 36g</span>、每段约 <span class="key-data">12g</span>；加水后三杯外观与口播描述。</p>
+      <p><strong>作者观点：</strong>尾段苦是平衡前酸与中甜所必需，而非应一律切除的「废液」。</p>
+      <p><strong>推断边界：</strong>未给出豆种、烘焙度、机型压力曲线；结论适用于本片演示的意式分段认知，不能外推为所有手冲或所有配方的唯一真理。</p>
+      <div class="insight">怎么用：若觉得浓缩「只有酸」或「只有苦」，可先做一次三杯分段，分清是前段过强、中段不足，还是后段过长——再调研磨、比例或截断点。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <div class="pitfall">不要把「后段颜色浅」直接等同于整杯萃取不足，或把「前段颜色深」直接等同于整杯过萃——分段本身就会制造浓度梯度。</div>
+      <div class="pitfall">不要只听「前两段都是好风味」就默认切掉后段；按作者逻辑，切掉后段可能失去用来平衡酸甜的苦感。</div>
+      <div class="pitfall">加水对照是为了放大风味差异，不是美式标准配方；加水比例视频只说「同样的水」，未给出精确克数。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">可复现实验骨架</h2>
+    <div class="card card-green">
+      <h3>在讲什么 → 关键理解 → 怎么用</h3>
+      <p><strong>在讲什么：</strong>用 salami / 分段杯把一次 1:2 浓缩拆成等质量的前中后三份，对照颜色与稀释后口感。</p>
+      <p><strong>关键理解：</strong>时间轴上溶出物顺序不同，导致「一杯浓缩」其实是三段叠加；平衡来自比例，而不仅来自「避开苦」。</p>
+      <div class="action">行动：下次出杯时准备三只小杯 + 秤，按约 12g / 12g / 12g 切换；先闻再小口尝，再同量加水复尝，记录哪一段主导了你日常觉得「太酸 / 太苦」的印象。</div>
+      <div class="quote">原文依据：「我们现在用三个杯子来分别接取三段咖啡；用18克粉萃取36克咖啡液，每段都接取12克咖啡液。」（转录「揭取」按语境校正）</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>前段：深、细流、酸香与豆子特性；中段：甜与焦糖坚果；后段：淡、苦杂。</li>
+      <li>作者核心主张：尾段苦用于稀释并平衡前酸与中甜，求得整杯结构。</li>
+      <li>三杯分段 + 油脂颜色 + 同量加水，是把抽象「阶段」变成可尝证据的方法。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>用 18g/36g（或你的常规 1:2）做一次三等分接取，拍照记色阶。</li>
+      <li>分段原液各尝一口，再同量加水复尝，分别写下酸 / 甜 / 苦关键词。</li>
+      <li>若整杯偏酸：检查是否中段不足或后段过短；若偏焦苦：检查后段是否过长。</li>
+      <li>调参前先固定豆与粉量，只改研磨或截断点，避免一次改太多变量。</li>
+      <li>把「像过萃 / 像欠萃」当作颜色比喻，勿直接当成整杯诊断结论。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：苦 = 坏，越早切掉越好 → 现在：苦可能是平衡酸甜的结构件（作者立场）。</li>
+      <li>以前：一杯浓缩味道均匀 → 现在：味道随时间轴分段变化，可拆开验证。</li>
+      <li>以前：颜色深浅直接等于过萃/欠萃 → 现在：分段色差首先是浓度梯度的视觉结果。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于视频口播与画面整理 · 简体中文 · 理性分析视角</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2924" viewBox="0 0 1320 2924">
+  <foreignObject x="0" y="0" width="1320" height="2924">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>网球人必看｜击球点大于一切</h1>
+  <div class="meta">
+    <span class="tag tag-blue">小红书</span>
+    <span class="tag tag-green">1分55秒</span>
+    <span class="tag tag-purple">打网球的小钟</span>
+    <span class="tag tag-orange">理性分析</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/Ah3DAzu6rf1">原视频链接</a>
+  <div class="summary-line">核心判断：正手击球点不是固定的「斜前方腰高」，而是「先有基准拍面朝前，再按线路前后调、按握拍高低调」；握拍与高度错配会直接变成关拍下坠或开拍出界。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-text">体感问题：顺畅 vs 差点意思 → 指向击球点</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:14</div><div class="timeline-text">关闭式站位三步定位 + 拍面垂直朝前 = 基准点</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:32</div><div class="timeline-text">斜线更靠前 / 直线稍晚（前脚同侧）</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:51</div><div class="timeline-text">东方式腰 → 半西肚脐 → 西方式胸口 → 超西肩膀</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:13</div><div class="timeline-text">错配：西方式打腰部关拍；东方式打高点开拍/被挤</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">体感不稳<br/>归咎击球点？</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">钉死基准点<br/>拍面垂直朝前</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">双轴微调<br/>线路前后·握拍高低</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">用错配后果<br/>自检拍面开合</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解：找到一个「标准击球点」（身体斜前方、腰高）就能一直舒服。<br/>纠偏：那只是某一握拍下的基准；线路与握拍一变，前后与高度都要跟着变，否则拍面开合失真。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点卡片</h2>
+
+    <div class="card card-green">
+      <h3>1. 基准点：可复现的「拍面状态」比玄学位置更重要</h3>
+      <p><strong>在讲什么：</strong>关闭式站位里，用「右脚前放拍 → 前移 15–20cm → 展开」找到接触区，并以拍面垂直地面、总体朝前作为合格标志。</p>
+      <p><strong>关键理解：</strong>作者给的不是抽象口号，而是可跟练的机械定位；「基本上没问题」指的是这个状态可当原点。</p>
+      <p><strong>怎么用：</strong>每次练习先静止卡这个拍面状态，再挥空拍确认空间感。</p>
+      <div class="quote">原文依据：「确保……拍面和地面是一个垂直的状态……拍面总体来说是要朝前的，这个位置的击球点基本上就没有问题。」[00:23–00:31]</div>
+      <div class="relation">立场：可验证的操作步骤（演示）+ 作者经验判断（「基本上」）。</div>
+    </div>
+
+    <div class="card">
+      <h3>2. 线路轴：斜线靠前、直线稍晚</h3>
+      <p><strong>在讲什么：</strong>同一站位下，斜线要求接触更早（靠前）以使拍面朝斜线；直线要求接触稍晚，约在前脚同侧。</p>
+      <p><strong>关键理解：</strong>前后微调的目的是让拍面朝向目标线路，而不是单纯「更猛」或「更稳」。</p>
+      <p><strong>怎么用：</strong>多球时固定握拍，只改接触早晚，对比斜线/直线落点与拍面朝向。</p>
+      <div class="quote">原文依据：「打斜线……击球点就要更加的靠前……直线……稍微晚一点点……前脚的同侧。」[00:35–00:50]</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 握拍轴：越西越高</h3>
+      <p><strong>在讲什么：</strong>东方式≈腰；半西≈肚脐；西方式≈胸口；超西≈肩膀。</p>
+      <p><strong>关键理解：</strong>握拍改变的是舒适接触平面的高度；强行在「错误高度」接触，等于强迫拍面开合偏离。</p>
+      <p><strong>怎么用：</strong>先确认自己常用握拍落在哪一档，再把多球喂球高度调到对应区间。</p>
+      <div class="quote">原文依据：「击球点的高度会由我们的握拍进行变化……东方式……腰部……半西……肚脐……西方式……胸口……超西……肩膀。」[00:51–01:13]</div>
+      <div class="highlight">注：口播 ASR 把「半西/西方式/超西」听成「半膝/膝方式/抄膝」，本文按网球握拍序列与画面字幕校正。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 错配诊断：关拍刷球 vs 开拍出界</h3>
+      <p><strong>在讲什么：</strong>西方式打腰部 → 拍面过关 → 下坠或猛刷、无力前冲；东方式打胸口/肩 → 被挤或拍面过开易出界。</p>
+      <p><strong>关键理解：</strong>「不舒服」往往能翻译成拍面开合问题，而不是笼统的「手感差」。</p>
+      <p><strong>怎么用：</strong>下网/刷球多 → 检查是否握得太西却打太低；长线出界/被挤 → 检查是否握得偏东却打太高。</p>
+      <div class="pitfall">避坑：不要把「斜前方腰高」当成所有握拍的通用答案。</div>
+      <div class="quote">原文依据：「西方式……在腰部去击球……拍面其实就已经太关了……东方式来到胸口/肩膀……被挤到……拍面太开了……出界。」[01:25–01:47]</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对照：握拍 × 舒适击球高度</h3>
+    <table>
+      <thead>
+        <tr><th>握拍</th><th>作者给出的约略高度</th><th>错配到腰部时</th><th>错配到胸口/肩时</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>东方式</td><td>腰部</td><td>较匹配（作者称「很舒服」）</td><td>易被挤 / 拍面过开、出界风险</td></tr>
+        <tr><td>半西</td><td>肚脐附近</td><td>略偏低，关拍倾向增加</td><td>略偏高</td></tr>
+        <tr><td>西方式</td><td>胸口</td><td>拍面过关：下坠或猛刷、无力</td><td>较匹配</td></tr>
+        <tr><td>超西</td><td>肩膀</td><td>严重关拍倾向</td><td>需更高接触（作者示意到肩）</td></tr>
+      </tbody>
+    </table>
+    <p>表中「约略高度」来自视频口播演示，属作者教学口径，非生物力学测量值。</p>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <ul>
+      <li><strong>适用：</strong>右手持拍、关闭式站位正手的击球点自检与握拍匹配；业余教学口径。</li>
+      <li><strong>未覆盖：</strong>开放式/半开放站位、反手、切削、高压；未给出厘米级精确坐标或拍头速度数据。</li>
+      <li><strong>上限：</strong>「15–20 公分」「腰/肚脐/胸口/肩」是身体比例示意，身材与拍长不同需自行微调。</li>
+      <li><strong>证据层级：</strong>操作步骤与拍面状态可画面核验；舒适感与出界风险为作者经验推断。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>击球点优先于玄学手感：先用拍面垂直朝前钉死基准。</li>
+      <li>两条调节轴：线路决定前后，握拍决定高低。</li>
+      <li>不舒服时先查开合：关拍刷球/下坠，开拍出界/被挤。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>关闭式站位按「放拍→前移 15–20cm→展开」卡一次基准点，拍照或请同伴确认拍面朝前。</li>
+      <li>固定东方式，分别打 10 球斜线（更靠前）与 10 球直线（稍晚），只改接触早晚。</li>
+      <li>确认自己常用握拍，把多球高度调到对应档（腰/肚脐/胸口/肩）。</li>
+      <li>若出现猛刷下坠，检查是否「握得偏西 + 打得偏低」；若长线出界或被挤，检查是否「握得偏东 + 打得偏高」。</li>
+      <li>每次只改一个变量（前后或高低），避免同时改握拍与站位导致无法归因。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：找一个「标准击球点」死记硬背。 → 现在：基准 + 双轴微调。</li>
+      <li>以前：球下网就怪力量或拍线。 → 现在：先看握拍与高度是否让拍面过关。</li>
+      <li>以前：西方式一定更高级。 → 现在：西方式要求更高接触平面，低点打会关拍。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于视频口播与画面整理 · 简体中文 · 非生物力学鉴定</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

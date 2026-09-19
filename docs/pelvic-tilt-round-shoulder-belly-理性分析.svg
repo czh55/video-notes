@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3413" viewBox="0 0 1320 3413">
+  <foreignObject x="0" y="0" width="1320" height="3413">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#faf5ff,#ede9fe);border-color:#c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:16px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:18px;font-weight:700;color:#1e40af;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>骨盆前倾 + 含胸：小肚子突出的体态解法</h1>
+  <div class="meta">
+    <span class="tag tag-blue">体态纠正</span>
+    <span class="tag tag-green">骨盆前倾</span>
+    <span class="tag tag-orange">含胸圆肩</span>
+    <span class="tag tag-purple">倒置呼吸</span>
+    <span class="tag tag-gray">1:58</span>
+  </div>
+  <div class="summary-line"><strong>核心命题：</strong>下腹突出未必只是「肚子肉」——骨盆前倾把腹向前推，脊柱代偿又造成含胸紧缩；被忽略的切入点是先恢复胸口前侧扩张。作者用倒置呼吸（椅子上放松、两组×10 次）借重力改变充盈方向，打开前侧空间。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">下腹突出主要来自体态两因素</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:03</span><span class="timeline-text">骨盆前倾 + 腰椎前伸 → 腹部被向前推</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:09</span><span class="timeline-text">脊柱局部前移 → 另一段反射性后移以保重心</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:18</span><span class="timeline-text">上背后移 → 胸口下沉受压 → 含胸放大显腹</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:25</span><span class="timeline-text">胸口卡住限制进气与扩张，长期更紧缩</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:41</span><span class="timeline-text">被忽略解法：改善胸口前侧扩张能力</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:57</span><span class="timeline-text">瓶子类比：倒置后充盈从上往下、偏向前侧</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:18</span><span class="timeline-text">椅子倒置：大腿承重、头颈胸肌放松</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:49</span><span class="timeline-text">两组×10 次慢呼吸；支撑过高可降低</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">骨盆前倾<br/><small>腹被前推</small></div>
+      <span class="arrow">→</span>
+      <div class="node node-orange">脊柱代偿<br/><small>上背后移含胸</small></div>
+      <span class="arrow">→</span>
+      <div class="node node-purple">胸口打不开<br/><small>显腹加重</small></div>
+      <span class="arrow">→</span>
+      <div class="node node-green">倒置呼吸<br/><small>打开前侧</small></div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>把小肚子只归因于「没练腹 / 吃太多」，可能错过体态链条：前倾推腹 + 含胸放大。视频立场是先打开胸口前侧，而不是立刻加大量卷腹。这是作者基于体态力学的观点，非医学诊断。</p>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">观点一：显腹是链条问题，不只局部脂肪</div>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>下腹突出由体态两因素启动：骨盆前倾与腰椎前伸把腹推前；再叠加含胸代偿，视觉上更「鼓」。</p>
+      <div class="quote">「首先骨盆前倾且腰椎向前伸展会把腹部向前推」「这种含胸的体态会进一步放大下腹部的突出」</div>
+      <p><strong>怎么用：</strong>自查侧影——骨盆是否前倾、胸口是否下沉；显腹时同时看上半身体态，而不是只摸肚子。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">观点二：重心平衡会「反射性」挪动另一段脊柱</div>
+    <div class="card card-purple">
+      <h3>在讲什么</h3>
+      <p>脊柱一段明显前移时，另一段常反射性后移以保重心——典型是上背后移、胸口下沉受压。</p>
+      <div class="quote">「如果脊柱的某一部分明显前移……通常就会反射性的向后移」「一般这意味着上背部会向后移」</div>
+      <p><strong>立场分层：</strong>可观察画面事实（侧视骨骼示意）+ 作者对代偿机制的解释（观点）。读者可对照自身侧影，但不宜自行诊断病理性脊柱问题。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">观点三：胸口扩张能力是被忽略的杠杆</div>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>胸口卡在压缩态会限制进气与扩张；越打不开越紧缩，显腹加重，上半身活动也受限。解法优先落在「胸口前侧打开」。</p>
+      <div class="highlight">关键理解：日常保持胸口空间打开，比只做腹部局部训练更贴近视频主张。</div>
+      <div class="quote">「一个很多人容易忽略的解决方案，就是改善胸口前侧的扩张能力」</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">观点四：倒置呼吸——用重力改充盈方向</div>
+    <div class="card">
+      <h3>机制（作者类比）</h3>
+      <p>直立时肺受重力影响多从下往上充气；倒置后更易从上往下充盈，并集中扩张前侧。瓶子装液体是教具，不是生理实验数据。</p>
+      <div class="action">做法：大腿下半放椅子/长凳 → 倒置放松 → 大腿承重 → 头颈与胸肌放松 → 鼻吸口呼、缓慢深呼吸 → 两组×10 次。过高不舒服就降低，支撑勿高于头。</div>
+      <div class="quote">「相对来说身体会更多地从上往下获得充盈，并且会更加集中在扩张身体前侧」</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">横向对比：常见「瘦肚子」路径 vs 本视频路径</div>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>路径</th><th>默认假设</th><th>主要动作</th><th>本视频态度</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>局部减脂 / 卷腹</td><td>显腹=腹肌不够或脂肪多</td><td>大量腹部收缩训练</td><td>未否定，但未作为入口；强调体态与胸口打开</td></tr>
+          <tr><td>骨盆后倾力量训练</td><td>前倾是主因，需肌力纠正</td><td>臀、腹、腘绳等强化</td><td>视频承认前倾推腹，但演示重点在倒置呼吸打开胸口</td></tr>
+          <tr><td>胸口前侧扩张（本片）</td><td>含胸紧缩放大显腹</td><td>倒置放松膈式呼吸</td><td>作者主张的「易忽略」解法</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">方法边界与避坑</div>
+    <div class="card card-orange">
+      <h3>适用边界</h3>
+      <ul>
+        <li>面向体态相关的「显肚子」主观感受，非医学诊断或产后腹直肌分离治疗方案。</li>
+        <li>倒置姿势对颈椎、血压、青光眼、孕期等可能有风险；视频未交代禁忌，需自行评估或咨询专业人士（补充资料）。</li>
+        <li>「内容物向上移动」是作者描述，非经测量的解剖结论。</li>
+      </ul>
+      <div class="pitfall">避坑：紧张着做倒置会限制扩张——必须大腿承重、头颈胸肌放松；支撑过高硬撑也无益，可降高度。</div>
+      <div class="pitfall">避坑：只收藏不做呼吸组数；处方是两组×10 次缓慢呼吸，不是随便倒一下。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>显腹可由骨盆前倾推腹 + 含胸代偿共同放大。</li>
+      <li>胸口打不开会限制呼吸扩张，长期更紧缩。</li>
+      <li>被忽略杠杆：恢复胸口前侧扩张能力。</li>
+      <li>倒置呼吸借重力改变充盈方向，偏向打开前侧。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>侧身拍照自查：骨盆前倾？胸口是否下沉含胸？</li>
+      <li>准备高度合适的椅子/长凳（勿高于头）。</li>
+      <li>大腿承重进入放松倒置，头颈与胸肌不绷紧。</li>
+      <li>鼻吸口呼，两组×10 次缓慢深呼吸。</li>
+      <li>不舒服就降低支撑；不适立即停止。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：显肚子 → 只加腹肌训练。</li>
+      <li>现在：显肚子 → 先问体态链条与胸口是否打开。</li>
+      <li>以前：呼吸随便喘两下。</li>
+      <li>现在：在放松倒置下刻意打开前侧，并完成固定组次。</li>
+    </ul>
+  </div>
+
+  <a class="source-link" href="https://www.xiaohongshu.com/discovery/item/6a8a6a600000000014029aee?app_platform=ios&amp;app_version=9.46&amp;share_from_user_hidden=true&amp;xsec_source=app_share&amp;type=video&amp;xsec_token=CB80n2NRW_fwvI96KopSHjOlz8xPulj6ipe5H3X7wL1Xk=&amp;author_share=1&amp;xhsshare=CopyLink&amp;shareRedId=N0hFMjNGST9KSjsyPjwwNjY0T01FNkhL&amp;apptime=1789799833&amp;share_id=a1e1a8f275ea4a048f58a49995efcc7b&amp;track_code=1RMhOllO0dv" target="_blank" rel="noopener">→ 原视频链接</a>
+  <div class="footer">理性分析 · 证据来自口播与画面 · 非医疗建议</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

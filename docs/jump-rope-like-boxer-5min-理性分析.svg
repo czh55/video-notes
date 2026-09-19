@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2892" viewBox="0 0 1320 2892">
+  <foreignObject x="0" y="0" width="1320" height="2892">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#faf5ff,#ede9fe);border-color:#c4b5fd;color:#6b21a8}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>5分钟，你就能像拳击手那样跳绳了</h1>
+  <div class="meta">
+    <span class="tag tag-blue">拳击跳绳</span>
+    <span class="tag tag-green">脚跟脚尖</span>
+    <span class="tag tag-orange">初学者</span>
+    <span class="tag tag-purple">居家锻炼</span>
+    <span class="tag tag-gray">0:45</span>
+  </div>
+  <div class="summary-line"><strong>一句话核心：</strong>像拳击手跳绳，关键不是先抡绳，而是先把<strong>脚跟—脚尖</strong>节奏练稳——用地面绳当线 → 加跳 → 左右换脚 → 再真正摇绳。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">拿起跳绳，当作一条线</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:06</span><span class="timeline-text">脚跟—脚尖（无跳）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:10</span><span class="timeline-text">加上跳跃，仍脚跟—脚尖</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">换脚；左右交替脚跟—脚尖</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:27</span><span class="timeline-text">拿起跳绳真正摇绳</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:37</span><span class="timeline-text">完成</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>怎么跳得像拳击手</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">先不摇绳<br/>铺线定节奏</div>
+      <div class="arrow">→</div>
+      <div class="node">脚跟—脚尖<br/>+跳跃+换脚</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">真绳接入<br/>完成</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>以为「像拳击手跳绳」=一上来就连续换脚抡绳。视频证据显示：教练先把绳当<strong>地面参照线</strong>，口令全程是脚跟—脚尖，真绳放在最后一步。</p>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">观点拆解</div>
+    <div class="card">
+      <h3>在讲什么：渐进四步</h3>
+      <p>把复杂的拳击式跳绳拆成可叠加的四层难度，而不是一次教完整动作。</p>
+      <div class="highlight">线（空间）→ 脚跟脚尖（节奏）→ 跳+换脚（动态）→ 真绳（整合）</div>
+      <div class="quote">原文依据：「把它当作一条线」→「加上跳跃」→「换脚」→「拿起跳绳」→「完成」</div>
+    </div>
+    <div class="card card-purple">
+      <h3>关键理解：脚跟—脚尖是主口令</h3>
+      <p>几乎每一层都在重复同一口令。这说明作者认为拳击跳绳的「像」，首先体现在<strong>脚掌节奏</strong>，而不是臂力抡绳。</p>
+      <div class="action">怎么用：练习时只盯一个变量——脚掌是否在脚跟与脚尖之间切换清楚。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑：跳过铺线阶段</h3>
+      <div class="pitfall">直接摇绳容易手脚不同步、绊绳。视频把「真绳」放在 00:27 之后，前面约 27 秒都在无真绳条件下建节奏。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">阶段对比</div>
+    <div class="card">
+      <table>
+        <tr><th>阶段</th><th>绳的状态</th><th>脚的任务</th><th>证据时间</th></tr>
+        <tr><td>定线</td><td>铺在地上</td><td>脚跟—脚尖踏步</td><td>00:00–00:10</td></tr>
+        <tr><td>加跳</td><td>仍在地上</td><td>轻跳 + 同口令</td><td>00:10–00:15</td></tr>
+        <tr><td>换脚</td><td>仍在地上</td><td>左右交替</td><td>00:15–00:27</td></tr>
+        <tr><td>真绳</td><td>手持摇动</td><td>左右脚跟—脚尖接入</td><td>00:27–00:39</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">方法边界</div>
+    <div class="card card-red">
+      <h3>适用与上限</h3>
+      <ul>
+        <li><strong>适用：</strong>初学者、想学拳击式换脚跳绳、需要先找脚掌节奏的人。</li>
+        <li><strong>上限：</strong>成片约45秒，只演示路径，不展开组数、间歇、绳长调节或体能负荷。</li>
+        <li><strong>标题边界：</strong>「5分钟」是练习承诺口径；本片是演示短片，不是5分钟跟练课。</li>
+        <li><strong>立场：</strong>以上为对视频演示的归纳；是否适合伤后恢复等需另询专业意见（视频未涉及）。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>先把跳绳当线，再谈摇绳</li>
+      <li>主口令始终是脚跟—脚尖</li>
+      <li>真绳是最后一步整合，不是第一步</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>铺绳成线，原地脚跟—脚尖 20–30 次</li>
+      <li>同一口令加上轻跳，不换脚</li>
+      <li>左右脚交替脚跟—脚尖跳跃</li>
+      <li>拿起真绳，按左右节奏接入摇绳</li>
+      <li>若绊绳，退回上一步只练脚，不增加臂速</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：像拳击手 = 一开始就抡绳换脚</li>
+      <li>现在：像拳击手 = 先把脚跟—脚尖跳清楚，再接真绳</li>
+    </ul>
+  </div>
+
+  <a class="source-link" href="https://xhslink.cn/o/2XhPmyHjCL0" target="_blank" rel="noopener">→ 原视频链接（小红书）</a>
+  <div class="footer">基于本地 Whisper 转录与画面证据 · 分析视角：动作教学结构化</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

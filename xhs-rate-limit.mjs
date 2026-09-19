@@ -40,5 +40,9 @@ try {
   fs.writeFileSync(stateFile, String(Date.now()));
 } finally {
   fs.closeSync(lockFd);
-  fs.unlinkSync(lockFile);
+  try {
+    fs.unlinkSync(lockFile);
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
 }
