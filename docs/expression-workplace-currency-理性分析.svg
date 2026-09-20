@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4712" viewBox="0 0 1320 4712">
+  <foreignObject x="0" y="0" width="1320" height="4712">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>表达能力是职场硬通货</h1>
+  <div class="meta">
+    <span class="tag tag-blue">职场表达</span>
+    <span class="tag tag-green">逻辑思维</span>
+    <span class="tag tag-orange">汇报结构</span>
+    <span class="tag tag-purple">小红书 · 6分43秒</span>
+  </div>
+  <div class="summary-line">核心判断：职场「表达强」多半是逻辑强——知其所以然、先抽主旨（主要矛盾），再在日常同步/开会/汇报里练结构；模板与框架是结论不是思考过程，教新人被追问「为什么」才是补洞训练。</div>
+  <a class="source-link" href="https://xhslink.cn/o/8ddW8Y5k4OP">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">自述：游刃有余靠逻辑，不是同级里最强口才</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:37</span><span class="timeline-text">说不清=没想清；有稿靠组织，无稿空白=不知其所以然</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">竞品降价三层：对方为何降 / 我们降解决什么 / 不降的备选证明</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:55</span><span class="timeline-text">发散散重点 vs 收束答一句就停；好表达能切换</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:40</span><span class="timeline-text">三场景足够：日常同步、开会、汇报</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:00</span><span class="timeline-text">汇报树：树干一句、树枝≤3、树叶挂证据；复盘找决策点</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:10</span><span class="timeline-text">框架是结论；模板黑话答不出「下周一做什么」</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:05</span><span class="timeline-text">教新人=最好训练；表达本质是逻辑思维</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">想清楚<br/>知其所以然</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">抽主旨<br/>主要矛盾</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">三场景结构<br/>同步/会/汇报</div>
+      <div class="arrow">→</div>
+      <div class="node">说清楚<br/>可行动</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「表达差」八成是没想明白，不是缺口才课。有稿表扬≠临场真强。闭环≠口头跟进；复盘≠过数据+下次注意。SWOT 等框架不能代替思考过程。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法拆解</h2>
+    <div class="card">
+      <h3>三层为什么（竞品降价例）</h3>
+      <table>
+        <tr><th>层</th><th>问题</th><th>作用</th></tr>
+        <tr><td>1</td><td>对方为何降</td><td>区分抢客 vs 清仓，避免白送利润</td></tr>
+        <tr><td>2</td><td>我们降解决什么</td><td>流量问题降价无效</td></tr>
+        <tr><td>3</td><td>不降的备选与证明</td><td>素材投放对比，证明是否最优</td></tr>
+      </table>
+      <div class="insight">关键理解：会上能答任意追问，是因为在讲理解闭环，不是背稿。</div>
+    </div>
+    <div class="card card-green">
+      <h3>三场景检查表</h3>
+      <ul>
+        <li>日常同步：先一句结果导向；三条消息/三分钟说清；对方零追问才合格；闭环含第四步调整。</li>
+        <li>开会：会前挖三层；出口前停三秒打腹稿。</li>
+        <li>汇报：树干一句≤约30字；树枝≤3；跑偏就拉回；复盘找可改决策点。</li>
+      </ul>
+      <div class="action">开口前只问一句：这次主要矛盾是要决策、要预算，还是只同步？</div>
+    </div>
+    <div class="card card-orange">
+      <h3>模板风险（作者观点）</h3>
+      <div class="quote">「别人是想明白了，才总结出 SWOT；你是想不明白，才去找 SWOT。」</div>
+      <div class="pitfall">通篇品效合一/增长闭环却答不出下周一具体动作 → 语言被 PPT 格式化，会说不会做。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>训练：教新人</h3>
+      <p>内部分享、复盘会、带新人。新人追问「为什么」会暴露知识漏洞——这是表达训练，也是思维体检。</p>
+      <div class="action">主动承担一次带教或复盘主讲，把答不上的「为什么」列成补洞清单。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>表达硬通货背后是逻辑：说清=想清。</li>
+      <li>三场景够用；统一动作是先抽主旨。</li>
+      <li>框架/模板不能代替思考；教新人补洞。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>下次同步先写一句「我需要的结果」再发消息。</li>
+      <li>重要会前写三层为什么各 2–3 条。</li>
+      <li>汇报强制一句话树干，树枝不超过三条。</li>
+      <li>复盘只保留「下次可改的决策点」作树干。</li>
+      <li>对模板话术追问「下周一具体做什么」。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：练口才 → 现在：练想明白再开口。</li>
+      <li>以前：堆框架壮胆 → 现在：框架是想通后的总结。</li>
+      <li>以前：怕被追问 → 现在：用教新人主动暴露漏洞。</li>
+    </ul>
+  </div>
+  <div class="footer">基于视频口播整理 · 案例与标准为作者个人方法</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

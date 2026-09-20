@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5823" viewBox="0 0 1320 5823">
+  <foreignObject x="0" y="0" width="1320" height="5823">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>格米莱猫头鹰 3006Go：加热块路线的功能收束</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡器材</span>
+    <span class="tag tag-green">半自动意式</span>
+    <span class="tag tag-orange">加热块机型</span>
+    <span class="tag tag-purple">小红书 · 8分17秒</span>
+  </div>
+  <div class="summary-line">核心判断：3006Go 把猫头鹰几代功能（双泵双加热块、双 PID、冷萃、定温打奶、纯钛接触件）焊在一台加热块机上，真正要解决的是「同时萃取打奶」与新手操作负担；是否值得买，取决于你是否已有 A/H，以及家里有没有约 3000W / 16A 供电条件。</div>
+  <a class="source-link" href="https://xhslink.cn/o/7RbfbCJxIxm">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:11</span><span class="timeline-text">补齐双泵双加热块、双 PID；首次定温打奶 + 纯钛配件叙事</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:59</span><span class="timeline-text">8K 镜面抛光；接触件改纯钛，耐腐蚀易清洁</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:20</span><span class="timeline-text">实操：92℃ 萃取 / 56℃ 停奶；建议萃取时长 25→32 秒</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:55</span><span class="timeline-text">双独立加热块互不抢热；PTC 补温 + 稳压 OPV</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:23</span><span class="timeline-text">定温打奶自动停；体感「不用练铁手」</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:07</span><span class="timeline-text">极限功率约 3000W，无 16A 需转接</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:11</span><span class="timeline-text">冷萃：长按 2 秒放水降温、关 PTC；压力表点泵起伏</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:41</span><span class="timeline-text">排序 Go&gt;H&gt;A&gt;基础款；从零一步到位 vs 已有机型按需升级</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">家用意式痛点<br/>同时操作 / 烫手</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">硬件答案<br/>双泵双加热块</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">体验加宽<br/>定温打奶·冷萃·纯钛</div>
+      <div class="arrow">→</div>
+      <div class="node">选型边界<br/>存量机型·电力</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「功能越多越好、闭眼上顶配」——作者自己也说已有 3006A/H 要看多出来的功能是否刚需。另一侧误解是「加热块一定弱」：视频立场是加热块不储水、开机约 1 分 15 秒，Go 已走到加热块顶背；但这是路线内评价，不是与锅炉机全面对决结论。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card card-green">
+      <h3>1. 双泵双加热块解决真痛点，不是参数表演</h3>
+      <p><strong>在讲什么：</strong>前几代猫头鹰缺的牌是同时萃取与打奶还不抢热。</p>
+      <p><strong>关键理解：</strong>双独立加热块 + 双 PID，让拿铁类流程在核心阶段并行，减少手忙脚乱。</p>
+      <p><strong>怎么用：</strong>若你日常大量做奶咖，优先确认机器是否支持真正的并行，而不是只看表头数量。</p>
+      <div class="quote">原文依据：「双泵双加热块解决的是同时操作这个真实的痛点。」（约 07:24）</div>
+    </div>
+
+    <div class="card">
+      <h3>2. 定温打奶降低新手失败面</h3>
+      <p><strong>在讲什么：</strong>蒸汽到设定温度自动停，新手老手都喜欢。</p>
+      <p><strong>关键理解：</strong>把「烫手手感」换成可复现温度目标（演示约 56℃ 停），降低技巧门槛。</p>
+      <div class="insight">立场：体感评价来自 UP 主演示，未给出第三方奶泡质检数据。</div>
+      <div class="quote">原文依据：「奶泡到了设定好的温度后就自动停止了。」（约 03:28）</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 冷萃是宽度功能，有明确操作边界</h3>
+      <p><strong>在讲什么：</strong>H2C 冷萃要关 PTC，可用放水模式快速带走冲煮头热量；研磨更粗，观察压力表点泵起伏。</p>
+      <p><strong>怎么用：</strong>默认两分钟可按冰块量缩短；作者大量加冰时常约 70 秒，因后段接近水。</p>
+      <div class="quote">原文依据：「你去长按冷萃的按钮两秒……放一个不到10秒。」（约 05:11）</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 选型看存量与电力，不只看榜单</h3>
+      <p><strong>从零：</strong>预算够可按「可以不用但不能没有」直接 Go。</p>
+      <p><strong>已有 A/H：</strong>评估定温打奶、纯钛件、功能宽度是否值得跳级。</p>
+      <div class="pitfall">避坑：极限功率约 3000W——没有 16A 条件先解决供电，再谈顶配。</div>
+      <div class="quote">原文依据：「家里没有安排16安的插座的话，就需要去配一个……转接头。」（约 04:07）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：猫头鹰家族（视频主张）</h3>
+    <table>
+      <thead>
+        <tr><th>机型</th><th>关键能力（视频描述）</th><th>相对位置</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3006</td><td>入门盘</td><td>基线</td></tr>
+        <tr><td>3006A</td><td>冷萃、可关 PTC、稳压 OPV</td><td>功能加宽</td></tr>
+        <tr><td>3006H</td><td>萃取与蒸汽同时开工</td><td>曾称入门机皇</td></tr>
+        <tr><td>3006Go</td><td>齐装 + 定温打奶 + 纯钛接触件</td><td>加热块顶背（作者观点）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <ul>
+      <li><span class="key-data">事实</span>演示了并行萃取打奶、定温停奶、冷萃放水降温、无底 Dirty；口播给出 92℃/56℃、建议 32 秒、约 3000W 等参数。</li>
+      <li><span class="key-data">观点</span>出品「秒杀精品咖啡馆」、性能排序 Go&gt;H&gt;A&gt;基础款、「配置相当顶」。</li>
+      <li><span class="key-data">推断</span>「收官之作」是开场设问，结尾未给出官方停产声明。</li>
+      <li>未提供第三方寿命、维修成本、与锅炉机横向盲测；价格「四级跳」未报具体数字。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>Go 的核心价值是并行作业 + 定温打奶降低操作负担。</li>
+      <li>冷萃与纯钛是宽度与风味加分，不是人人刚需。</li>
+      <li>供电条件与存量机型，决定「顶配」是否划算。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>先确认厨房是否有 16A / 高功率余量。</li>
+      <li>列出日常菜单：奶咖占比高 → 优先验证并行与定温打奶；冰饮多 → 再看冷萃流程。</li>
+      <li>若已有 3006A/H，把「多出来的功能」写成必须/可选清单再决定跳级。</li>
+      <li>上机后按作者建议核验：萃取时长、预浸泡分段、冷萃前关 PTC + 放水。</li>
+      <li>把「顶」当作者路线内评价，购前仍对照同价位锅炉机与售后。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：看参数表堆料是否吓人 → 现在：问是否解决同时操作与烫手失败。</li>
+      <li>以前：新品必升级 → 现在：存量机型差哪一级功能再掏钱。</li>
+      <li>以前：只盯杯中风味 → 现在：先问插座与功率能不能撑住极限工况。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于 Whisper 转录与本地截图的结构化分析 · 非厂商说明书</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2969" viewBox="0 0 1320 2969">
+  <foreignObject x="0" y="0" width="1320" height="2969">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>做手冲咖啡要用手冲咖啡豆</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡手作</span>
+    <span class="tag tag-green">手冲 vs 意式</span>
+    <span class="tag tag-orange">选豆取向</span>
+    <span class="tag tag-purple">小红书 · 3分48秒</span>
+  </div>
+  <div class="summary-line">核心判断：手冲豆与意式豆原料同类，但烘焙深浅、单品/拼配与萃取目标不同——手冲偏浅焙单品追天然复杂风味，意式偏更深、常拼配追浓缩的均衡冲击；交叉使用能喝不等于达标，浅焙硬做意式往往更糟。</div>
+  <a class="source-link" href="https://xhslink.cn/o/AYc2mREe1EV">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">评论区提问：手冲豆与意式豆是否一样？「豆都是豆，一样又不一样」</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:25</span><span class="timeline-text">手冲豆颜色更淡：一般更浅焙 + 常用单品，为喝天然风味</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">意式果香拼配更深：常拼配，追求强烈均衡感</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:20</span><span class="timeline-text">嘉宾：单品果香酸甜不够饱满 → 拼巴西、哥伦比亚</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:40</span><span class="timeline-text">手冲像泡茶过滤要复杂度；意式根源是浓缩要整体冲击</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:32</span><span class="timeline-text">意式豆做手冲：能好喝，但达不到目标状态</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:47</span><span class="timeline-text">手冲浅焙做意式：更难萃好，浓度与油脂感常不足</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:44</span><span class="timeline-text">收束：术业有专攻，什么豆干什么事</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">冲煮目标<br/>手冲 / 意式</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">选豆取向<br/>浅焙单品 / 深拼配</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">萃取路径<br/>过滤 / 高压浓缩</div>
+      <div class="arrow">→</div>
+      <div class="node">结果边界<br/>交叉≠最优</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「咖啡豆都一样，随便拿来冲」——原料同类不代表烘焙与拼配设计相同。另一侧误解是「交叉就一定难喝」：作者明确意式豆做手冲豆子够好也能好喝，问题是达不到设计目标；真正高风险的是浅焙手冲豆硬做意式浓缩。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card card-green">
+      <h3>1. 一样在原料，不一样在取向</h3>
+      <p><strong>在讲什么：</strong>评论区把「手冲豆 / 意式豆」当成两种物种；作者用「一样又不一样」拆开。</p>
+      <p><strong>关键理解：</strong>一样 = 都是咖啡豆；不一样 = 烘焙深度、单品/拼配、以及你想从杯子里拿到什么。</p>
+      <p><strong>怎么用：</strong>买豆先问「我主要冲什么」，再看包装上的烘焙与推荐冲煮，而不是只看产地名。</p>
+      <div class="quote">原文依据：「其实豆都是豆……你要说它一样吗，它又不一样。」（00:09–00:16）</div>
+    </div>
+
+    <div class="card">
+      <h3>2. 手冲：浅焙 + 单品 → 天然复杂度</h3>
+      <p><strong>在讲什么：</strong>一般把手冲豆烘焙更浅，并常用单品，因为手冲更想喝豆本身天然风味。</p>
+      <p><strong>关键理解：</strong>手冲无高压、类似过滤泡茶，浓度未必极高，但风味可以极其丰富。</p>
+      <div class="quote">原文依据：「手冲我要表现的是……豆本身天然的一些风味。」「它有点像泡茶……极其的丰富。」（01:05–02:00）</div>
+      <div class="insight">立场：这是作者/门店的取向说明（「一般情况」），不是全球唯一标准。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 意式：更深 + 常拼配 → 均衡冲击</h3>
+      <p><strong>在讲什么：</strong>意式示例更深、常拼配；根源是浓缩，要强烈均衡与刺激。</p>
+      <p><strong>嘉宾补强：</strong>单品果香酸甜常不够「饱满」，拼巴西、哥伦比亚才撑起整体口感。</p>
+      <div class="quote">原文依据：「我更想要的是那种强烈的均衡感。」「可能要拼点巴西，然后哥伦比亚。」（00:54–00:97）</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 交叉使用不对称</h3>
+      <p><strong>意式→手冲：</strong>豆子够好也能好喝，但达不到你/烘焙师想要的状态（作者观点）。</p>
+      <p><strong>手冲浅焙→意式：</strong>往往更糟——难磨够细、浓缩口感浓度与油脂感不足，甚至带发酵感不适。</p>
+      <div class="pitfall">避坑：不要用「反正都是咖啡豆」给浅焙硬上意式找借口；磨豆机与萃取窗口都更苛刻。</div>
+      <div class="quote">原文依据：「反过来你非得拿手冲咖啡豆去做意识，那个结果往往可能会更糟糕。」（02:47；「意识」=意式）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：手冲豆 vs 意式豆（视频主张）</h3>
+    <table>
+      <thead>
+        <tr><th>维度</th><th>手冲取向</th><th>意式取向</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>烘焙</td><td>一般更浅</td><td>示例更深</td></tr>
+        <tr><td>豆子结构</td><td>常用单品</td><td>常拼配（如巴西+哥伦比亚）</td></tr>
+        <tr><td>萃取</td><td>无高压，过滤，像泡茶</td><td>高温高压浓缩为根</td></tr>
+        <tr><td>目标口感</td><td>天然复杂、丰富</td><td>强烈均衡、冲击与油脂感</td></tr>
+        <tr><td>交叉风险</td><td>意式豆做手冲：能喝但不达标</td><td>浅焙做意式：更难萃、浓度/油脂常不足</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <ul>
+      <li><span class="key-data">事实</span>视频展示了浅色手冲豆与更深果香拼配的实物对照；口播区分手冲过滤与意式浓缩路径。</li>
+      <li><span class="key-data">观点</span>「一般情况」浅焙单品做手冲、更深拼配做意式；交叉能喝≠达到烘焙师目标状态。</li>
+      <li><span class="key-data">推断</span>「顶级磨豆机都不易把极浅豆磨到合格浓缩」属嘉宾经验判断，非实测数据表。</li>
+      <li>未给出具体烘焙度色值、粉液比或推荐豆单；落地时仍需按自家设备试。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>原料同类，目标分流：手冲追复杂度，意式追均衡冲击。</li>
+      <li>烘焙与拼配是服务目标的手段，不是标签游戏。</li>
+      <li>交叉使用不对称：浅焙硬做浓缩风险更高。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>买豆前写清主冲煮方式（手冲 / 意式），再选推荐用途匹配的豆。</li>
+      <li>对比豆色与包装说明：浅焙单品优先给手冲；拼配/更深优先给意式。</li>
+      <li>若用「错豆」试冲：先接受「能喝但不达标」，并记录与目标风味的差距。</li>
+      <li>浅焙豆想做意式：确认磨豆机细度上限，并准备接受浓度/油脂不足的结果。</li>
+      <li>向店员/烘焙师问一句：「这款更适合过滤还是浓缩？」比只问产地更有用。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：咖啡豆通用，差在手法 → 现在：豆的设计就绑定冲煮目标。</li>
+      <li>以前：交叉难喝才算错 → 现在：能喝也可能没吃到烘焙师设计。</li>
+      <li>以前：浅焙更高级所以万能 → 现在：浅焙做浓缩往往更难、更不划算。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于小宇宙林阳视频整理 · 分析视角 · 非品牌广告</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>
