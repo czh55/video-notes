@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-09-19",
+    "title": "20年摄影师：iPhone加光圈根本不是为了虚化",
+    "summary": "实体可变光圈主线是管光降噪与光学挡位，不是虚化滤镜；小底下 f/1.48 约等效全画幅 f/5.2，合影全清晰也不是真正痛点，多数人体感可能有限。",
+    "primary": "photo",
+    "tags": [
+      "可变光圈",
+      "iPhone 18 Pro",
+      "景深",
+      "手机摄影",
+      "光学"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5m8XlIA4vzZ",
+    "duration": "8分29秒",
+    "outputs": {
+      "html": "iphone-aperture-not-for-bokeh-图文实录.html",
+      "svg": "iphone-aperture-not-for-bokeh-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 5,
+    "svg_height": 5324,
+    "slug": "iphone-aperture-not-for-bokeh",
+    "skills": [
+      "手机摄影"
+    ]
+  },
+  {
+    "date": "2026-09-19",
     "title": "加一箱油一千六七，周日商店全关门",
     "summary": "欧洲高油价、周日停业与粗犷服务被读成休息与主体性优先；赞中国便利却不愿留下。出海需共情文明差异，勿俯视当地。",
     "primary": "other",
@@ -23,30 +50,6 @@
     "screenshot_count": 6,
     "transcript_segments": 77,
     "svg_height": 4493
-  },
-  {
-    "date": "2026-09-19",
-    "title": "20年摄影师：iPhone加光圈根本不是为了虚化",
-    "summary": "实体可变光圈主线是管光降噪与光学挡位，不是虚化滤镜；小底下 f/1.48 约等效全画幅 f/5.2，合影全清晰也不是真正痛点，多数人体感可能有限。",
-    "primary": "auto-digital",
-    "tags": [
-      "可变光圈",
-      "iPhone 18 Pro",
-      "景深",
-      "手机摄影",
-      "光学"
-    ],
-    "platform": "xiaohongshu",
-    "url": "https://xhslink.cn/o/5m8XlIA4vzZ",
-    "duration": "8分29秒",
-    "outputs": {
-      "html": "iphone-aperture-not-for-bokeh-图文实录.html",
-      "svg": "iphone-aperture-not-for-bokeh-理性分析.svg"
-    },
-    "screenshot_count": 6,
-    "transcript_segments": 5,
-    "svg_height": 5324,
-    "slug": "iphone-aperture-not-for-bokeh"
   },
   {
     "date": "2026-09-19",
