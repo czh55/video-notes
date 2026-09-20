@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2877" viewBox="0 0 1320 2877">
+  <foreignObject x="0" y="0" width="1320" height="2877">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>拉花练习：拯救油水分离的浓缩液</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡拉花</span>
+    <span class="tag tag-green">预融合</span>
+    <span class="tag tag-orange">硬油脂</span>
+    <span class="tag tag-purple">小红书 · 41秒</span>
+  </div>
+  <div class="summary-line">核心判断：放凉浓缩的油脂硬化（油水分离）不是直接判死刑——摇不开就用奶流<strong>预融合</strong>先救液面，再正式拉花；能出图，但边缘锯齿可能残留，验收标准应降到「可练习」而非「比赛杯」。</div>
+  <a class="source-link" href="https://xhslink.cn/o/AgmRR4LFtbY">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:01</span><span class="timeline-text">标题「拯救油水分离」+「拉花就是对抗硬油脂」——问题定性</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">口播/字幕：浓缩放一会儿就硬了；画面油脂结块斑驳</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08</span><span class="timeline-text">摇杯仍结块 → 转入预融合（画面字幕）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">奶缸细流注入杯心，打碎硬化油脂</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:17</span><span class="timeline-text">「看起来好多了」：液面转均匀，准备摆动</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:22+</span><span class="timeline-text">正式拉花至成杯；自评边缘仍有锯齿</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">放凉 → 油脂硬</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">摇不开</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">预融合救液面</div>
+      <div class="arrow">→</div>
+      <div class="node">再拉花（可锯齿）</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解：油水分离 = 这杯废了，只能倒掉。<br/>
+    纠偏（作者实践）：先预融合恢复可拉液面，仍可完成练习杯；代价是边缘锐利度可能打折，需接受「练习标准」。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card">
+      <h3>硬油脂是拉花的对抗对象</h3>
+      <p><strong>在讲什么：</strong>放凉后油脂结块，破坏均匀底液与干净画布。</p>
+      <p><strong>关键理解：</strong>标题把练习定义成「对抗硬油脂」，问题在底液物理状态，不只是手法。</p>
+      <p><strong>怎么用：</strong>开拉前先看液面：斑驳结块就别硬上图案，先处理底液。</p>
+      <div class="quote">画面文案：「拉花就是对抗硬油脂」；口播：「浓缩放了一会儿就这样硬了。」</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>预融合：摇不开时的 Plan B</h3>
+      <p><strong>在讲什么：</strong>摇杯无效后，用奶流细注做预融合，打碎硬化层。</p>
+      <p><strong>关键理解：</strong>预融合的目标是液面可用性，不是立刻出花；「看起来好多了」是进入摆动的通行证。</p>
+      <p><strong>怎么用：</strong>细流打中心 → 搅散结块 → 确认均匀 → 再贴近液面摆动。</p>
+      <div class="quote">画面字幕：「只好先预融合」；口播：「看起来好多了。」</div>
+      <div class="action">行动：硬油脂杯先预融合 3–5 秒再拉，不要一上来就大流量画图。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>边缘锯齿：救回来 ≠ 完美杯</h3>
+      <p><strong>在讲什么：</strong>成杯图案成立，但边缘仍可能锯齿。</p>
+      <p><strong>关键理解：</strong>硬油脂被处理到「可拉」，不保证对比度与边缘回到新鲜浓缩水平——这是作者立场，非实验室结论。</p>
+      <div class="pitfall">避坑：别用「能出花」反向证明放凉浓缩零代价；练习复盘应记录边缘瑕疵。</div>
+      <div class="quote">「边缘还是有点锯齿。」</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">横向对比：三种处理路径</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>路径</th><th>适用</th><th>代价</th><th>本视频证据</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>直接倒掉重萃</td><td>追求比赛级边缘</td><td>浪费浓缩与时间</td><td>未演示；视频选择挽救</td></tr>
+          <tr><td>只摇杯</td><td>轻微分离</td><td>结块顽固时无效</td><td>作者：摇了仍结块</td></tr>
+          <tr><td>预融合后再拉</td><td>练习复盘、机会稀缺</td><td>边缘可能锯齿</td><td>主路径；成杯可用</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-purple">
+      <ul>
+        <li><strong>事实（画面可核验）：</strong>油脂结块 → 预融合奶流 → 液面好转 → 拉出多层图案。</li>
+        <li><strong>作者观点：</strong>边缘仍有锯齿；拉花即对抗硬油脂。</li>
+        <li><strong>推断（非视频断言）：</strong>放得越久、油脂越硬，预融合后边缘瑕疵可能越明显；具体阈值未给出。</li>
+        <li><strong>未覆盖：</strong>豆种、萃取参数、奶温奶泡厚度、最佳放杯时限。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>油水分离/硬油脂先处理底液，再谈图案。</li>
+      <li>摇不开 → 预融合；预融合成功信号是液面均匀。</li>
+      <li>练习杯可接受锯齿边缘，别用它校准「完美标准」。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>开拉前俯拍一眼：斑驳结块就别直接画图。</li>
+      <li>先轻摇；仍结块则奶流细注杯心做预融合。</li>
+      <li>液面「好多了」后再贴近摆动出花。</li>
+      <li>成杯记录边缘是否锯齿，作为复盘项而非失败项。</li>
+      <li>若要锐利边缘，优先新鲜浓缩，不依赖挽救流程。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：油水分离 = 废杯 → 现在：可预融合救回练习机会。</li>
+      <li>以前：能出花就完美 → 现在：出花与边缘锐利度要分开验收。</li>
+      <li>以前：手法决定一切 → 现在：硬油脂是底液状态问题，手法前先处理物理层。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于 Whisper 转录与画面字幕整理 · 分析视角：理性拆解 · 一咖慢时光</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3383" viewBox="0 0 1320 3383">
+  <foreignObject x="0" y="0" width="1320" height="3383">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>你够胆放流量吗？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡拉花</span>
+    <span class="tag tag-green">出图原理</span>
+    <span class="tag tag-orange">流量 / 流距</span>
+    <span class="tag tag-purple">小红书 · 2分13秒</span>
+  </div>
+  <div class="summary-line">核心判断：入门拉花「出不了图」，首要矛盾往往是<strong>不敢放流量</strong>（注入量/流速过小），而不是手腕玄学；融合用高流距潜入混合，出图用低流距（约1厘米）贴面放白，再兼顾流量均匀与回杯节奏。</div>
+  <a class="source-link" href="https://xhslink.cn/o/8lFr0Gubp5L">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:01</span><span class="timeline-text">大字命题：够胆放流量 → 图案出来；面向入门学员</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:22</span><span class="timeline-text">字幕：融合一定要拉高；俯拍高位注入</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:35</span><span class="timeline-text">心形成品 + 字幕：出图要低一点</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:55</span><span class="timeline-text">低流距 / 「1厘米就够了」；高位对比演示</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:25</span><span class="timeline-text">口诀：一边贴近、一边注入、一边回杯；自嘲回杯太快</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:52</span><span class="timeline-text">总结：第一解决流量（是否均匀）；第二解决距离</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">出不了图？</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">流量太小<br/>（不敢倒）</div>
+      <div class="arrow">→</div>
+      <div class="node">高度换挡<br/>融合高 / 出图低</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">贴面放流量<br/>再调回杯</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「小心倒」不等于「会拉花」。流量掐死后冲击力不够，白泡推不开、纹路起不来——作者直说那是「为了不出图」。先把流量放出来，再谈均匀与距离；不要颠倒优先级。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card">
+      <h3>1. 流量是出图的第一变量</h3>
+      <p><strong>在讲什么：</strong>图案出不来，优先查注入量/流速够不够，而不是先怪手抖。</p>
+      <p><strong>关键理解：</strong>流量提供冲击与扩散；太小则奶泡「卡住」推不开（与同题材「流速不够」论述同构）。</p>
+      <div class="quote">字幕依据：你只要够胆放流量，你的图案一定能够出来｜第一解决就是你的流量问题</div>
+      <div class="action">用法：练习时先刻意加大注入（水练或牛奶均可），确认能冲开白泡后再追求细腻摆动。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>2. 高度要换挡：融合高、出图低</h3>
+      <p><strong>在讲什么：</strong>同一杯拉花里，融合与出图用不同流距。</p>
+      <p><strong>关键理解：</strong>高位让奶液潜入混合底色；低位（约1厘米）让白泡浮在表面成形。</p>
+      <div class="quote">字幕依据：融合一定要拉高｜一定得是要低一点｜1厘米就够了</div>
+      <div class="action">用法：脑中记两档——「搅底用高、画白用低」，不要全程贴死或全程吊高。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 出图口诀与回杯边界（作者观点）</h3>
+      <p><strong>在讲什么：</strong>贴近 + 注入 + 回杯同时发生；回杯过快会伤图案。</p>
+      <div class="quote">字幕依据：一边贴近一边注入一边回杯｜但是我回杯太快｜第二个就是要解决……距离</div>
+      <div class="insight">立场分层：口诀与1厘米量级为作者教学口径（画面字幕）；是否人人适用取决于杯型、奶泡厚度与流量——视频未给对照实验，作入门启发式而非硬标准。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 避坑</h3>
+      <div class="pitfall">全程小心掐流 → 白泡无冲击 → 看起来「手法很稳」其实注定不出图。</div>
+      <div class="pitfall">融合阶段也贴面倒 → 液面脏、底色不匀，后面再猛倒也难救。</div>
+      <div class="pitfall">流量还没稳就抠回杯手腕 → 优先级颠倒，越练越慌。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：两阶段高度</h3>
+    <table>
+      <thead>
+        <tr><th>阶段</th><th>流距策略</th><th>目的</th><th>视频证据</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>融合</td><td>拉高</td><td>奶液潜入、混合底色</td><td>「融合一定要拉高」+ 高位注入画面</td></tr>
+        <tr><td>出图</td><td>压低约1厘米</td><td>白泡贴面成形</td><td>「要低一点」「1厘米就够了」+ 心形成品</td></tr>
+        <tr><td>收尾</td><td>贴近 + 回杯</td><td>定型；避免回杯过快</td><td>三边口诀 + 自嘲回杯太快</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>方法边界</h3>
+    <ul>
+      <li><strong>适用：</strong>入门学员、大白心等基础图案、已有基本奶泡但仍「白不起来」的情况。</li>
+      <li><strong>上限：</strong>未系统讲摆动频率、奶泡厚度、浓缩油脂状态；复杂多层图案需另课。</li>
+      <li><strong>证据局限：</strong>Whisper 非空口播仅1段，论证主要依赖画面字幕与演示——当作教学口播复述，非实验室测量。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>出图第一关是流量胆识，不是细节完美。</li>
+      <li>融合高、出图低；低流距量级约一厘米。</li>
+      <li>流量均匀与距离是第二层问题，回杯节奏随后优化。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>下一杯练习：融合阶段刻意抬高奶缸，听/看潜入感。</li>
+      <li>出图时把缸嘴压到约一指宽（约1厘米）再放流量。</li>
+      <li>用口诀自检：贴近了吗？流量放了吗？回杯是否过早抬杯？</li>
+      <li>若仍不出白：先加大流量做对比杯，再缩小流量找边界。</li>
+      <li>录像俯拍自己的流距，对照「高融合 / 低出图」两档是否真的换挡。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：出不了图 → 怪手不稳、怪天赋。</li>
+      <li>现在：先问流量放了没有、高度换挡了没有。</li>
+      <li>以前：全程贴面或全程吊高。</li>
+      <li>现在：融合与出图分两档高度，细节服从优先级。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于小红书视频画面字幕与演示整理 · 理性分析视角 · 非平台官方内容</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

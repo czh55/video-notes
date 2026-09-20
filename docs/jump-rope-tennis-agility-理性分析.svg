@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2907" viewBox="0 0 1320 2907">
+  <foreignObject x="0" y="0" width="1320" height="2907">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>5个跳绳练习解锁敏捷步伐</h1>
+  <div class="meta">
+    <span class="tag tag-blue">小红书</span>
+    <span class="tag tag-green">31秒</span>
+    <span class="tag tag-orange">网球体能</span>
+    <span class="tag tag-purple">跳绳</span>
+    <span class="tag tag-gray">理性分析</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/4jmLPp3Hex4">原视频 →</a>
+  <div class="summary-line">核心判断：网球敏捷步伐可用「从易到难的五档跳绳」拆练——弹跳、协调频率、单腿稳定、抬腿频率、双摇节奏逐级叠加；画面次数是可执行剂量，两周收益属于作者承诺而非测量结论。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">立题：五个动作从易到难，每天练以解锁敏捷步伐</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:04</span><span class="timeline-text">兔子跳 → 激活弹跳/爆发力（画面 200/组）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08</span><span class="timeline-text">交替垫步 → 协调+频率（画面 200/组）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">单腿跳 → 单腿平衡控制+力量（左右各 50/组）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:16</span><span class="timeline-text">高抬腿跳 → 抬腿频率+核心稳定（60/组）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">进阶双摇 → 弹跳能力+节奏训练</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:24</span><span class="timeline-text">作者承诺：坚持两周 → 更快移动 + 更强下肢稳定 → 掌控全场节奏</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>场上步伐不够敏捷</div>
+      <div class="arrow">→</div>
+      <div class="node">方法<br/>五档跳绳递进</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">证据<br/>动作名+目的+次数</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">行动<br/>按组跟练两周</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>跳绳不是「随便跳跳热热身」这么简单：本片把弹跳、左右协调、单腿稳定、抬腿频率和双摇节奏拆开练。也不要把片尾「坚持两周」听成已被验证的成绩保证——那是作者观点与号召，视频没有对照数据。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点一：难度递进 = 能力分层</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>五个动作不是平行罗列，而是从双脚轻跳 → 交替着地 → 单腿 → 高抬腿 → 双摇，难度与神经肌肉要求递增。</p>
+      <div class="quote">原文依据：「五个跳绳动作 / 从易到难」</div>
+      <div class="insight">关键理解：先保证过绳稳定，再加频率、单侧负荷与空中时间，降低一次上强度就断节奏的概率。</div>
+      <div class="action">怎么用：跟练时按片中顺序；前一档还能稳住再进下一档。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点二：每个动作绑定单一训练目的</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>口播对每个动作只给一条主收益：弹跳爆发、协调频率、单腿平衡力量、抬腿频率核心、弹跳+节奏。</p>
+      <div class="quote">例：「激活腿部弹跳加爆发力」「提升单腿平衡控制加力量」</div>
+      <div class="relation">关系：目的单一，便于自检——跳完问自己「弹跳感 / 左右切换 / 单腿稳不稳」有没有对上。</div>
+      <div class="action">怎么用：把收益当检查清单，而不是把五个动作糊成「跳绳一组」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点三：画面次数是可执行剂量</h2>
+    <div class="card card-purple">
+      <h3>在讲什么</h3>
+      <p>口播几乎不报数字，但画面给出：兔子跳/垫步 200 每组，单腿左右各 50，高抬腿 60。双摇段未在截取帧中看到明确次数字幕。</p>
+      <div class="highlight">立场分层：次数 = 可核验画面事实；「两周见效」= 作者观点；是否适合你的膝关节与体能 = 视频未覆盖，需自行判断。</div>
+      <div class="action">怎么用：以画面次数为默认剂量；新手可先减半，优先保证动作质量。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>五档动作横向对照</h3>
+    <table>
+      <thead>
+        <tr><th>档位</th><th>动作</th><th>作者给出的主收益</th><th>画面剂量</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>基础兔子跳</td><td>腿部弹跳 + 爆发力</td><td><span class="key-data">200/组</span></td></tr>
+        <tr><td>2</td><td>交替垫步跳</td><td>腿部协调 + 频率</td><td><span class="key-data">200/组</span></td></tr>
+        <tr><td>3</td><td>单腿跳</td><td>单腿平衡控制 + 力量</td><td><span class="key-data">左右各50/组</span></td></tr>
+        <tr><td>4</td><td>高抬腿跳</td><td>抬腿频率 + 核心稳定</td><td><span class="key-data">60/组</span></td></tr>
+        <tr><td>5</td><td>进阶双摇</td><td>弹跳能力 + 节奏训练</td><td>截取帧未见明确次数</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界与避坑</h2>
+    <div class="card card-orange">
+      <h3>适用与不适用</h3>
+      <ul>
+        <li>适用：需要提升碎步频率、单腿稳定与节奏感的网球爱好者，作为场下体能块。</li>
+        <li>边界：视频未演示热身、护膝策略、心率区间；有膝踝不适者不宜硬冲满组。</li>
+        <li>上限：跳绳体能 ≠ 场上决策与击球质量；移动变快仍要回到对拉中检验。</li>
+      </ul>
+      <div class="pitfall">避坑：只追双摇次数而牺牲落地缓冲；单腿只练强侧；把「两周掌控全场」当保证而忽略技术课。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>敏捷步伐可拆成五档跳绳能力链：弹跳 → 协调频率 → 单腿 → 抬腿核心 → 双摇节奏。</li>
+      <li>剂量看画面字幕；收益承诺看作者立场，勿当实验结论。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>按片中顺序做一圈，记下哪一档最先崩节奏。</li>
+      <li>以画面次数为上限，质量优先时可减半。</li>
+      <li>单腿左右分开计，刻意补弱侧。</li>
+      <li>连续两周每周至少 3 次，再回场上看启动与变向是否更轻。</li>
+      <li>双摇放最后，作为节奏与弹跳的综合检验，而非开场动作。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：跳绳=热身随便跳 → 现在：按能力分层做专项剂量。</li>
+      <li>以前：只追高难度双摇 → 现在：先稳单腿与频率再上双摇。</li>
+      <li>以前：听「两周见效」就当真 → 现在：当跟练窗口，用场上反馈验收。</li>
+    </ul>
+  </div>
+  <div class="footer">基于 Whisper 转录与画面字幕整理 · 平台小红书 · 时长 31 秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

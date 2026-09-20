@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2877" viewBox="0 0 1320 2877">
+  <foreignObject x="0" y="0" width="1320" height="2877">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>关于球拍，能说的不能说的，吴易昺都说了</h1>
+  <div class="meta">
+    <span class="tag tag-blue">网球器材</span>
+    <span class="tag tag-green">HEAD Radical</span>
+    <span class="tag tag-orange">磅数与配重</span>
+    <span class="tag tag-purple">小红书 · 6分12秒</span>
+  </div>
+  <div class="summary-line">核心判断：吴易昺用 Radical 不是「同款迷信」，而是攻击型打法要更硬的操控；日常纠偏优先改磅与线床手感，重量分布服务控制而非一味加拍头功率；职业同款是否适合你，取决于你是否需要底线相持中的稳定掌控。</div>
+  <a class="source-link" href="https://xhslink.cn/o/57hB3pUp743">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">店拍是否同一回事？「这是能说的吗」——话题边界被点明</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:14</span><span class="timeline-text">非一见钟情：早年绿色拍 → Radical「始于颜值」；吸引点是更硬的操控</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:35</span><span class="timeline-text">攻击型网球：不想球脱离掌控 → 更喜欢硬拍</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">磅数敏感 &gt; 重量差两三克；美网加一磅；调整几乎都在球线</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:50</span><span class="timeline-text">线床 16×19；盲选只贴型号 1–6；无意透露定制</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:48</span><span class="timeline-text">适合人群：底线多拍相持业余球友；球商型未必适合</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:10</span><span class="timeline-text">配重：拍头→挥速/挥重/手臂负担；拍柄→控制与精细手感</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:40</span><span class="timeline-text">天气与球驱动改磅；常态约 53，备 52/53/54；HEAD Hawk；随身六把</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:15</span><span class="timeline-text">收藏与托运；摔拍 footage；「自己可以，别人不行」；不让教练用新线拍</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">打法要硬控</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">选更硬拍型</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">磅数/线床微调</div>
+      <div class="arrow">→</div>
+      <div class="node">配重服务控制</div>
+    </div>
+    <p style="text-align:center;color:#64748b;margin-top:8px">问题「如何让攻击型打法更稳」→ 证据「硬拍 + 改磅优先」→ 判断「同款不等于适合」→ 行动「先认打法再认参数」</p>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解一：用职业同款就能打出职业球——吴易昺明确球商型选手未必适合 Radical，更点名适合喜欢底线相持的业余球友。</p>
+    <p>误解二：器材党应优先抠克重——他反而说重量差两三克「一半都在装」，真正敏感的是磅数与线-球匹配。</p>
+    <p>误解三：一律在拍头加铅片提速——他手臂够快时选择把重量放拍柄换控制；拍头加重会抬升挥重与手臂负担。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card">
+      <h3>1. 拍型：硬操控服务攻击，不是品牌故事</h3>
+      <p><strong>在讲什么：</strong>从颜值切入后，真正绑定的是打法——攻击型网球需要球更可控，因此偏好更硬的拍。</p>
+      <p><strong>关键理解：</strong>「硬」在这里首先是操控反馈，而不是单纯甜区或功率口号。</p>
+      <div class="quote">「我不想要球脱离我的掌控，所以说我更喜欢用硬一点的拍子。」</div>
+      <div class="insight">怎么用：先问自己失误是「飞」还是「肉」，再决定要不要往更硬、更可控的方向选拍。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>2. 微调层级：磅数 &gt; 克重，线床手感优先</h3>
+      <p><strong>在讲什么：</strong>日常纠偏几乎都在球线磅数；美网球弹就加一磅；线床固定 16×19。</p>
+      <p><strong>关键理解：</strong>对攻击型、低容错打法，线与球的匹配失衡会直接放大失误。</p>
+      <div class="highlight">可核验偏好：<span class="key-data">16×19</span> 线床 · 常态约 <span class="key-data">53 磅</span> · 训练备 <span class="key-data">52 / 53 / 54</span> · 线材 HEAD Hawk</div>
+      <div class="action">怎么用：同一拍先做 ±1 磅对照，再谈换拍；试拍时可学他「只贴型号不贴参数」做盲选。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 配重：拍头换功率，拍柄换控制（UP 主立场）</h3>
+      <p><strong>在讲什么：</strong>重量分布在拍头提高挥速与挥重、也增加手臂风险；在拍柄则利于拦网、削球等精细手感。</p>
+      <p><strong>立场分层：</strong>这是吴易昺基于自身手臂速度已够快的选择，不是普适加铅片教程。</p>
+      <div class="quote">「我自身来讲我的手臂速度已经够快了，所以说我选择把重量更多的放在我的拍柄里面。」</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 环境变量：天气与球 &gt; 场地类型</h3>
+      <p><strong>在讲什么：</strong>冷则天硬球易飞要降磅；热或高海拔球飞也调磅；场地类型不是最大因素。</p>
+      <div class="pitfall">避坑：把「换场地」当第一反应，却忽略温度、海拔与用球导致的飞行变化。</div>
+    </div>
+
+    <div class="card card-red">
+      <h3>5. 适合边界与情感执念</h3>
+      <p><strong>适合：</strong>喜欢正面对抗、底线多拍相持的业余球友（作者观点）。</p>
+      <p><strong>不太适合：</strong>球商很高、主要靠理解比赛赢球的人（作者观点，证据强度为口述判断）。</p>
+      <p><strong>执念：</strong>可摔自己的拍，不容别人随便用新线拍；拍包托运优先于登机背负——属个人管理习惯，非器材性能结论。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对照：调什么、解决什么</h3>
+    <table>
+      <thead><tr><th>杠杆</th><th>他怎么做</th><th>主要解决</th><th>边界</th></tr></thead>
+      <tbody>
+        <tr><td>拍型硬度</td><td>Radical 更硬操控</td><td>攻击中球不失控</td><td>不等于人人都要同款</td></tr>
+        <tr><td>磅数</td><td>±1 磅；备 52–54</td><td>球弹/球飞与失误率</td><td>需结合当天球与天气</td></tr>
+        <tr><td>线床</td><td>16×19，不选 18×20</td><td>手感与穿线成本/习惯</td><td>童年穿线玩笑非硬指标</td></tr>
+        <tr><td>配重位置</td><td>偏拍柄</td><td>控制与网前精细</td><td>手臂已够快者适用</td></tr>
+        <tr><td>克重微调</td><td>认为两三克难真辨</td><td>避免参数表演</td><td>个体敏感度可能不同</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>选型先对齐打法：要硬控再谈同款。</li>
+      <li>日常优先改磅与线-球匹配，而不是沉迷克重差。</li>
+      <li>配重服务你的短板：缺速度才考虑拍头，缺控制看拍柄。</li>
+      <li>职业口述适合人群，只能作参考，不能当购买保证。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>写下自己最常见的失误类型（飞 / 下网 / 甜区外），再决定硬度方向。</li>
+      <li>固定拍型后，用同一线做 53±1 磅对照训练一周。</li>
+      <li>试拍时遮住参数标签，只留编号，记手感排序。</li>
+      <li>若加铅片，先明确目标是挥重还是手柄控制，避免两边同时乱加。</li>
+      <li>出门携带至少两把磅数相邻的拍，模拟他的「52/53/54」试错。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：追职业同款参数 → 现在：先问打法要不要这股「硬控」。</li>
+      <li>以前：器材升级先加克重 → 现在：先确认磅数与线床是否匹配当天的球。</li>
+      <li>以前：拍头贴铅=更强 → 现在：配重是控制/功率的取舍，有手臂成本。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于视频口述整理 · 区分可核验偏好与个人观点 · 非购拍医疗或损伤建议</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

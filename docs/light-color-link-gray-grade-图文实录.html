@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="壹方调色课堂用六色色相环演示：动曝光颜色变淡（光色联动），转黑白后黄最亮（色光联动）；调色时色相/饱和度/明度要一起动，否则画面发灰。">
+  <title>光色联动 × 色光联动｜调色发灰的底层原因｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}.c{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}h1{font-size:28px;font-weight:800;color:#1c1917;margin-bottom:8px}.meta{color:#78716c;font-size:14px;margin-bottom:24px}.intro{font-size:17px;color:#44403c;line-height:1.9;margin-bottom:32px}img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}figcaption{padding:14px 18px;color:#57534e}.sr{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}.sr .tm{flex-shrink:0;font-size:14px;color:#b45309;font-weight:700;min-width:100px}.sr strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}.sr p{color:#57534e;margin:0;font-size:15px}.tb{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}.tb strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}.tb p{color:#1e40af;margin:0;font-size:15px}h2{font-size:22px;font-weight:700;color:#1c1917;margin:32px 0 16px}h3{font-size:18px;font-weight:700;color:#1c1917;margin:28px 0 14px}.ss .trng{font-size:13px;color:#b45309;font-weight:600;margin-bottom:10px}.ss p{color:#44403c;margin-bottom:12px}.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}.sl{display:inline-block;color:#3b82f6;font-size:14px;text-decoration:none;margin-top:8px}.tsl{list-style:none;padding:0}.tr{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}.tr time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}.tr p{margin:0}.tc{border:none;padding:0}.tc summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;font-size:24px;font-weight:700;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}.tc summary::-webkit-details-marker,.tc summary::marker{display:none}.tc summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s}.tc[open] summary::before{transform:rotate(90deg)}.tc[open] summary{margin-bottom:16px}.note{font-size:14px;color:#78716c}@media(max-width:640px){.c{padding:28px 18px 56px}.tr{grid-template-columns:56px 1fr;gap:10px}.sr{flex-direction:column}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="c">
+  <header>
+    <h1>光色联动 × 色光联动｜调色发灰的底层原因</h1>
+    <div class="meta">时长 2 分 43 秒 · 作者 壹方调色课堂 · 摄影调色 · 小红书 · 2026-09-19</div>
+    <p class="intro">很多人把「光」和「色」当成两件独立的事，结果越调越发灰。壹方调色课堂用 Lightroom 里的六色色相环做现场实验：只动曝光，颜色会跟着变淡——这叫<strong>光色联动</strong>；把画面转成黑白，会发现黄区天然更亮——这叫<strong>色光联动</strong>。作者的实操结论很硬：色彩三要素（色相 / 饱和度 / 明度）动了一个，另外两个也要跟着补，不然画面就容易发灰、发飘。</p>
+    <a class="sl" href="https://xhslink.cn/o/3IOBRVxTPXl" target="_blank" rel="noopener">→ 查看原视频（小红书）</a>
+  </header>
+
+  <article>
+    <h2>内容要点</h2>
+    <h3>知识结构</h3>
+    <div class="sr"><span class="tm">[00:00→00:12]</span><div><strong>开场：六色色相环入门</strong><p>点题「光色联动」；打开电脑，先认识六色色相环，并对照 Lightroom 修改面板里的曝光、鲜艳度、饱和度等滑杆。</p></div></div>
+    <div class="sr"><span class="tm">[00:12→01:10]</span><div><strong>光色联动：动曝光，颜色变淡</strong><p>只抬曝光，色环明显变淡。动光会影响色彩，这就是调亮后画面越来越「发灰」的常见原因；补鲜艳度 / 饱和度才能重新均衡。</p></div></div>
+    <div class="sr"><span class="tm">[01:10→01:45]</span><div><strong>色光联动：黄在黑白里更亮</strong><p>复原后转黑白：除白色外，黄色明度最高。作者解释为自然界中黄光波长更长，所以显得偏白——此为口播观点。</p></div></div>
+    <div class="sr"><span class="tm">[01:45→02:23]</span><div><strong>混色器 HSL 与三要素联动</strong><p>影响光线的全局工具「牵一发而动全身」，要用混色器（HSL）做分通道；动色相/饱和度时明度也会变，三要素须一起调，否则发灰。</p></div></div>
+    <div class="sr"><span class="tm">[02:23→02:43]</span><div><strong>笔记延伸与连载预告</strong><p>更细的知识放在主页笔记；作者称做摄影调色十来年，若赞数过千打算每周日讲一个热门调色知识点。</p></div></div>
+    <div class="tb"><strong>总结</strong><p>调光时颜色跟着变，调色时明度也跟着变；不要只拧一个旋钮。曝光变化要补饱和，单色调整要用 HSL 同时照顾色相、饱和度与明度，才能避免发灰发飘。</p></div>
+
+    <section class="ss">
+      <h2>图文实录</h2>
+
+      <h3>开场：先认六色色相环</h3>
+      <div class="trng">00:00 – 00:12</div>
+      <p>视频以「光色联动你都不知道是啥，难怪你调色翻车」开场，随即切到电脑屏幕。作者先让常调色的同学辨认左侧图示——它叫<strong>六色色相环</strong>（红、黄、绿、青、蓝、品红，并标互补色 180°）。右侧是 Lightroom「修改」面板：曝光度、对比度、高光/阴影，以及底部的鲜艳度与饱和度，为后面的实验铺好控件。</p>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-01.jpg" alt="六色色相环与 Lightroom 修改面板并排，字幕写它叫六色色相环" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:09] 开场点出六色色相环，右侧是 Lightroom 修改面板的曝光与饱和度滑杆</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7f5b95536722.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening shot of the six-color hue wheel beside Lightroom Develop sliders for exposure and saturation</span></div>
+<audio class="cap-audio" src="audio/7f5b95536722.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>实验一：只动曝光，颜色跟着淡</h3>
+      <div class="trng">00:12 – 01:10</div>
+      <p>作者抛出问题：调整画面曝光，影响的是明亮程度，还是色彩？随即现场试做。对比前后可以看到：明明只动了曝光，色相环上的颜色却明显变淡。他把这种现象命名为<strong>光色联动</strong>——改光线或亮度时，色彩其实也在同步变化。</p>
+      <div class="quote">「我明明只动了它的曝光，它的色彩居然变淡了。这个现象就叫做光色联动。」</div>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-02.jpg" alt="曝光抬高后色相环变淡，中心显示 R=G=B=100%" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:35] 只抬曝光后色相环颜色明显变淡，引出「光色联动」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/31257b6e6b33.mp3" type="button" aria-label="Play English audio">🔊</button><span>After raising exposure only, the hue wheel looks washed out—introducing light-color linkage</span></div>
+<audio class="cap-audio" src="audio/31257b6e6b33.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>画面切成上下对照：上方色环饱和、下方粉白发飘；中间手机版 Lightroom 的曝光度被拉到约 <strong>+2.48</strong>，其他色调滑杆仍在零位，把「只动光」的因果钉死。</p>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-03.jpg" alt="上下色环对照，中间曝光滑杆约 +2.48" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:48] 上下对照：曝光拉到 +2.48，下方色环变粉白，说明动光时色彩同步变化</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/32d1f1ebbe2b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Before/after: exposure at +2.48 turns the lower wheel pastel, showing color shifts with light</span></div>
+<audio class="cap-audio" src="audio/32d1f1ebbe2b.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>由此解释「调色容易把画面调得越来越发灰」：只提亮却不补色彩，饱和感就被冲淡。作者建议动曝光的同时，去动鲜艳度、饱和度等参数，让画面重新达到均衡。</p>
+
+      <h3>实验二：转黑白，看见色光联动</h3>
+      <div class="trng">01:10 – 01:45</div>
+      <p>第二步先复原，再把画面变成黑白，其他参数不动。问题变成：为什么在黑白图里，除了白色以外，红黄蓝绿青橙里<strong>黄色显得最亮</strong>？作者的解释是：颜色靠光传播被看见，黄光波长更长，所以会显得偏白——他把这种现象叫做<strong>色光联动</strong>（颜色本身携带不同的明度信息）。</p>
+      <div class="quote">「这是因为在自然界当中，颜色是通过光的传播所看到的，而黄颜色的波长它是最长的……这种现象就叫做色光联动。」</div>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-04.jpg" alt="上彩色色环与下灰度色环对照，黄区在灰度中更亮" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:26] 转黑白后对比：除白色外，黄色明度最高，对应「色光联动」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/289d98405f68.mp3" type="button" aria-label="Play English audio">🔊</button><span>In black-and-white, yellow is brightest among hues—color-light linkage</span></div>
+<audio class="cap-audio" src="audio/289d98405f68.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>注意：这里「黄光波长最长」是作者口播说法，用于帮助记忆「色相会牵动明度」；是否与物理教材表述完全一致，视频未给出外部出处，阅读时按作者观点理解即可。</p>
+
+      <h3>实操：混色器 HSL，三要素一起动</h3>
+      <div class="trng">01:45 – 02:23</div>
+      <p>两者的区别被概括成：调整影响光线的全局工具时，「牵一发而动全身」——动一个点，整幅图都跟着动。此时要用<strong>混色器</strong>，也就是 HSL。作者演示动橙色的饱和度与色相后，该色看起来会比旁边颜色略亮一点，再次印证「动色也会动明」。</p>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-05.jpg" alt="互补色色相环与 Lightroom 混色器 HSL 面板" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:57] 切入混色器（HSL）：牵一发而动全身时用分通道色相/饱和度/明度</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4ff4c3282f1c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Switch to the HSL mixer: use per-channel hue/sat/luma when global light tools move everything</span></div>
+<audio class="cap-audio" src="audio/4ff4c3282f1c.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>本课重点落在一句话：调色过程中，如果动了色彩三要素里的某一个，另外两个也要跟着动，不然画面容易发灰。总结页把逻辑压成三行——</p>
+      <figure>
+        <img src="assets/light-color-link-gray-grade/shot-06.jpg" alt="黑色总结页：调光颜色变、调色明度变，三要素要联动" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:16] 总结页：调光颜色跟着变、调色明度跟着变；三要素要联动，否则发灰发飘</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7e560e4af490.mp3" type="button" aria-label="Play English audio">🔊</button><span>Summary: adjust light and color shifts; adjust color and luma shifts—link all three or the grade goes gray</span></div>
+<audio class="cap-audio" src="audio/7e560e4af490.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>收尾：笔记与连载预告</h3>
+      <div class="trng">02:23 – 02:43</div>
+      <p>篇幅不够展开的相关知识，作者放进了主页顶置笔记，并称自己做摄影调色十来年、积累了大量类似笔记。若视频赞数高于 1000，他打算每周日讲一个摄影调色热门知识点。全片没有额外实拍场景切换，证据链完全落在色相环演示与 Lightroom 控件上。</p>
+    </section>
+  </article>
+
+  <section id="transcript">
+    <details class="tc">
+      <summary>详细文字转录</summary>
+      <div>
+        <p class="note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差（如「光色联合→光色联动」「摄像环→色相环」「发挥→发灰」「解验度→鲜艳度」「薄荷度/色香→饱和度/色相」「笔系→笔记」等，正文已按语境校正）。</p>
+        <ol class="tsl">
+  <li class="tr" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>光色联合你都不知道是啥</p>
+  </li>
+  <li class="tr" id="transcript-2">
+    <time datetime="PT1S">00:01</time>
+    <p>难怪你调色范围</p>
+  </li>
+  <li class="tr" id="transcript-3">
+    <time datetime="PT3S">00:03</time>
+    <p>来 打开电脑我一步步带你做</p>
+  </li>
+  <li class="tr" id="transcript-4">
+    <time datetime="PT5S">00:05</time>
+    <p>我们打开啊</p>
+  </li>
+  <li class="tr" id="transcript-5">
+    <time datetime="PT6S">00:06</time>
+    <p>经常调色的总裁们</p>
+  </li>
+  <li class="tr" id="transcript-6">
+    <time datetime="PT7S">00:07</time>
+    <p>应该知道这个玩意叫啥</p>
+  </li>
+  <li class="tr" id="transcript-7">
+    <time datetime="PT9S">00:09</time>
+    <p>它叫六色摄像环</p>
+  </li>
+  <li class="tr" id="transcript-8">
+    <time datetime="PT10S">00:10</time>
+    <p>那么先问大家一个问题</p>
+  </li>
+  <li class="tr" id="transcript-9">
+    <time datetime="PT12S">00:12</time>
+    <p>我如果调整这个画面的曝光度</p>
+  </li>
+  <li class="tr" id="transcript-10">
+    <time datetime="PT16S">00:16</time>
+    <p>它影响的是这个画面的明亮程度</p>
+  </li>
+  <li class="tr" id="transcript-11">
+    <time datetime="PT19S">00:19</time>
+    <p>还是它的色彩方面的东西呢</p>
+  </li>
+  <li class="tr" id="transcript-12">
+    <time datetime="PT21S">00:21</time>
+    <p>来 我们花三秒钟试它</p>
+  </li>
+  <li class="tr" id="transcript-13">
+    <time datetime="PT26S">00:26</time>
+    <p>我们看一下结果</p>
+  </li>
+  <li class="tr" id="transcript-14">
+    <time datetime="PT27S">00:27</time>
+    <p>我们这样子好好有个对比</p>
+  </li>
+  <li class="tr" id="transcript-15">
+    <time datetime="PT28S">00:28</time>
+    <p>然后我们再调整它的一个曝光</p>
+  </li>
+  <li class="tr" id="transcript-16">
+    <time datetime="PT31S">00:31</time>
+    <p>哎 有没有发现神奇的画面来了</p>
+  </li>
+  <li class="tr" id="transcript-17">
+    <time datetime="PT34S">00:34</time>
+    <p>我明明只动了它的曝光</p>
+  </li>
+  <li class="tr" id="transcript-18">
+    <time datetime="PT35S">00:35</time>
+    <p>它的色彩居然变淡了</p>
+  </li>
+  <li class="tr" id="transcript-19">
+    <time datetime="PT37S">00:37</time>
+    <p>这个现象就叫做光色联动</p>
+  </li>
+  <li class="tr" id="transcript-20">
+    <time datetime="PT39S">00:39</time>
+    <p>我们在调整画面的曝光的时候</p>
+  </li>
+  <li class="tr" id="transcript-21">
+    <time datetime="PT42S">00:42</time>
+    <p>或者影响这个画面的亮度的时候</p>
+  </li>
+  <li class="tr" id="transcript-22">
+    <time datetime="PT45S">00:45</time>
+    <p>其实它的色彩也是在跟着变化的</p>
+  </li>
+  <li class="tr" id="transcript-23">
+    <time datetime="PT48S">00:48</time>
+    <p>这就是为什么有时候我们调色</p>
+  </li>
+  <li class="tr" id="transcript-24">
+    <time datetime="PT50S">00:50</time>
+    <p>容易把画面调的越来越发挥</p>
+  </li>
+  <li class="tr" id="transcript-25">
+    <time datetime="PT52S">00:52</time>
+    <p>所以为了我们的画面不发挥呢</p>
+  </li>
+  <li class="tr" id="transcript-26">
+    <time datetime="PT55S">00:55</time>
+    <p>我们在动它的曝光的同时</p>
+  </li>
+  <li class="tr" id="transcript-27">
+    <time datetime="PT58S">00:58</time>
+    <p>我们还得去动它的其他方面的参数</p>
+  </li>
+  <li class="tr" id="transcript-28">
+    <time datetime="PT61S">01:01</time>
+    <p>来达到均衡</p>
+  </li>
+  <li class="tr" id="transcript-29">
+    <time datetime="PT63S">01:03</time>
+    <p>比如说它的一个解验度 饱和度</p>
+  </li>
+  <li class="tr" id="transcript-30">
+    <time datetime="PT66S">01:06</time>
+    <p>这样子才能达到一个综合的一个效果</p>
+  </li>
+  <li class="tr" id="transcript-31">
+    <time datetime="PT69S">01:09</time>
+    <p>这是其一</p>
+  </li>
+  <li class="tr" id="transcript-32">
+    <time datetime="PT70S">01:10</time>
+    <p>那我们再换一个方式来看一看</p>
+  </li>
+  <li class="tr" id="transcript-33">
+    <time datetime="PT72S">01:12</time>
+    <p>我们先把它复原</p>
+  </li>
+  <li class="tr" id="transcript-34">
+    <time datetime="PT74S">01:14</time>
+    <p>然后把它变成黑白</p>
+  </li>
+  <li class="tr" id="transcript-35">
+    <time datetime="PT77S">01:17</time>
+    <p>其他地方我们一个都没动</p>
+  </li>
+  <li class="tr" id="transcript-36">
+    <time datetime="PT79S">01:19</time>
+    <p>那么问题来了</p>
+  </li>
+  <li class="tr" id="transcript-37">
+    <time datetime="PT80S">01:20</time>
+    <p>为什么在这个画面当中</p>
+  </li>
+  <li class="tr" id="transcript-38">
+    <time datetime="PT82S">01:22</time>
+    <p>除了白色</p>
+  </li>
+  <li class="tr" id="transcript-39">
+    <time datetime="PT83S">01:23</time>
+    <p>这其他的什么红黄蓝绿青橙子</p>
+  </li>
+  <li class="tr" id="transcript-40">
+    <time datetime="PT86S">01:26</time>
+    <p>这里面显得黄色的亮度是最高的</p>
+  </li>
+  <li class="tr" id="transcript-41">
+    <time datetime="PT89S">01:29</time>
+    <p>这是因为在自然界当中</p>
+  </li>
+  <li class="tr" id="transcript-42">
+    <time datetime="PT91S">01:31</time>
+    <p>颜色是通过光的传播所看到的</p>
+  </li>
+  <li class="tr" id="transcript-43">
+    <time datetime="PT95S">01:35</time>
+    <p>而黄颜色的波长它是最长的</p>
+  </li>
+  <li class="tr" id="transcript-44">
+    <time datetime="PT97S">01:37</time>
+    <p>所以它会显得这个颜色偏白</p>
+  </li>
+  <li class="tr" id="transcript-45">
+    <time datetime="PT100S">01:40</time>
+    <p>这种现象就叫做色光联动</p>
+  </li>
+  <li class="tr" id="transcript-46">
+    <time datetime="PT103S">01:43</time>
+    <p>那这两者有什么区别</p>
+  </li>
+  <li class="tr" id="transcript-47">
+    <time datetime="PT105S">01:45</time>
+    <p>我们在调整这种影响画面光线的工具的时候</p>
+  </li>
+  <li class="tr" id="transcript-48">
+    <time datetime="PT109S">01:49</time>
+    <p>它基本上都是牵一发而动全身的</p>
+  </li>
+  <li class="tr" id="transcript-49">
+    <time datetime="PT111S">01:51</time>
+    <p>你动一个点</p>
+  </li>
+  <li class="tr" id="transcript-50">
+    <time datetime="PT112S">01:52</time>
+    <p>它所有的地方都在跟着动</p>
+  </li>
+  <li class="tr" id="transcript-51">
+    <time datetime="PT114S">01:54</time>
+    <p>所以在这个时候我们得用到什么</p>
+  </li>
+  <li class="tr" id="transcript-52">
+    <time datetime="PT116S">01:56</time>
+    <p>用到混色器</p>
+  </li>
+  <li class="tr" id="transcript-53">
+    <time datetime="PT117S">01:57</time>
+    <p>也就是HSL</p>
+  </li>
+  <li class="tr" id="transcript-54">
+    <time datetime="PT119S">01:59</time>
+    <p>当然我们如果动它的时候</p>
+  </li>
+  <li class="tr" id="transcript-55">
+    <time datetime="PT120S">02:00</time>
+    <p>比如说我要动这个橙色</p>
+  </li>
+  <li class="tr" id="transcript-56">
+    <time datetime="PT122S">02:02</time>
+    <p>动了它的薄荷度</p>
+  </li>
+  <li class="tr" id="transcript-57">
+    <time datetime="PT123S">02:03</time>
+    <p>然后它的色香</p>
+  </li>
+  <li class="tr" id="transcript-58">
+    <time datetime="PT124S">02:04</time>
+    <p>我们会发现这个颜色看起来</p>
+  </li>
+  <li class="tr" id="transcript-59">
+    <time datetime="PT126S">02:06</time>
+    <p>好像比旁边的颜色</p>
+  </li>
+  <li class="tr" id="transcript-60">
+    <time datetime="PT128S">02:08</time>
+    <p>它的明亮程度好像要高那么一点</p>
+  </li>
+  <li class="tr" id="transcript-61">
+    <time datetime="PT131S">02:11</time>
+    <p>所以我们在调色过程当中</p>
+  </li>
+  <li class="tr" id="transcript-62">
+    <time datetime="PT133S">02:13</time>
+    <p>你如果说动了色彩三要素其中的一个</p>
+  </li>
+  <li class="tr" id="transcript-63">
+    <time datetime="PT137S">02:17</time>
+    <p>另外两个也要不能动</p>
+  </li>
+  <li class="tr" id="transcript-64">
+    <time datetime="PT139S">02:19</time>
+    <p>不然的话画面容易发挥</p>
+  </li>
+  <li class="tr" id="transcript-65">
+    <time datetime="PT141S">02:21</time>
+    <p>这个就是这节课的重点</p>
+  </li>
+  <li class="tr" id="transcript-66">
+    <time datetime="PT143S">02:23</time>
+    <p>相关的知识</p>
+  </li>
+  <li class="tr" id="transcript-67">
+    <time datetime="PT144S">02:24</time>
+    <p>因为篇幅原因</p>
+  </li>
+  <li class="tr" id="transcript-68">
+    <time datetime="PT145S">02:25</time>
+    <p>没有办法在这里展开的去说</p>
+  </li>
+  <li class="tr" id="transcript-69">
+    <time datetime="PT147S">02:27</time>
+    <p>所以我把它放到了我们这一篇笔系当中</p>
+  </li>
+  <li class="tr" id="transcript-70">
+    <time datetime="PT150S">02:30</time>
+    <p>更详细的情况可以去查看</p>
+  </li>
+  <li class="tr" id="transcript-71">
+    <time datetime="PT152S">02:32</time>
+    <p>我做摄影调色十来年了</p>
+  </li>
+  <li class="tr" id="transcript-72">
+    <time datetime="PT153S">02:33</time>
+    <p>这样的笔记本我记得很多</p>
+  </li>
+  <li class="tr" id="transcript-73">
+    <time datetime="PT155S">02:35</time>
+    <p>如果这个视频暂长高于1000</p>
+  </li>
+  <li class="tr" id="transcript-74">
+    <time datetime="PT157S">02:37</time>
+    <p>我打算每周的周日都讲一个</p>
+  </li>
+  <li class="tr" id="transcript-75">
+    <time datetime="PT160S">02:40</time>
+    <p>关于摄影调色的热门知识</p>
+  </li>
+  <li class="tr" id="transcript-76">
+    <time datetime="PT162S">02:42</time>
+    <p>下期见</p>
+  </li></ol>
+      </div>
+    </details>
+  </section>
+</main>
+<script>(function(){var d=document.querySelector(".tc");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

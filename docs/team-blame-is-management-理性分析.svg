@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2754" viewBox="0 0 1320 2754">
+  <foreignObject x="0" y="0" width="1320" height="2754">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>团队内部甩锅其实是管理的责任</h1>
+  <div class="meta">
+    <span class="tag tag-blue">职场管理</span>
+    <span class="tag tag-orange">甩锅话术</span>
+    <span class="tag tag-green">系统责任</span>
+    <span class="tag tag-purple">小红书 · 5分6秒</span>
+  </div>
+  <div class="summary-line">核心判断：跨组催数与「防甩锅」自保课，表面上是个人话术问题，实质上是优先级、授权与资源协调缺位；戴明比例约 94% 属系统、6% 属个别原因——系统是管理者的责任。</div>
+  <a class="source-link" href="https://xhslink.cn/o/3PZQrAJOsDT">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">催数截图：晚上七点多，其他组负责人说「就差你的数据」</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:18</span><span class="timeline-text">不对劲的不是消息，是看到对方反应那一秒蹦出的判断</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">太熟了：跨部门消息过敏、方案还在发第三版</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:29</span><span class="timeline-text">「防甩锅」选题会把系统问题描摹成「一个坑」</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:45</span><span class="timeline-text">表面上教自保，实际上拔高叙事、侵蚀判断事实</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:45</span><span class="timeline-text">话术样本：就差你的 / 配合不及时 / 领导跟领导说过了</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:38</span><span class="timeline-text">口诀：小协作横向解决，大任务纵向授权；守护优先级</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:50</span><span class="timeline-text">戴明《转危为安》：约 94% 系统 / 6% 个别；系统是管理者责任</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">催数话术<br/>压力落到节点</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">自保课<br/>拔高叙事</div>
+      <div class="arrow">→</div>
+      <div class="node">判断力被侵蚀<br/>动作变形</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">系统动作<br/>横向×纵向</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">管理者责任<br/>94/6</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>常见误解：甩锅是个人情商不够、回消息不够聪明。纠偏：若协作长期靠「就差你的」推进，问题在优先级、授权与资源协调；个人自保技巧练得越好，越可能看不见系统缺口。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card">
+      <h3>1. 催数句式如何完成「责任转移」</h3>
+      <p><strong>在讲什么：</strong>「我们做完了就差你的数据」把进度差表述成单点欠账。</p>
+      <p><strong>关键理解：</strong>句子本身可以是事实描述，但在晚上七点跨组催促的语境里，它同时完成了道德加压：你不交，就是卡大家。</p>
+      <div class="quote">原文依据：「我们这边做完了就差你的数据了」；「不对劲的不是那条消息」。</div>
+      <div class="action">怎么用：先问「谁有权改我的优先级 / 资源是否已对齐」，再决定是否即时响应催数。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>2. 「防甩锅」课为什么反而危险</h3>
+      <p><strong>在讲什么：</strong>把系统摩擦包装成个人技巧课。</p>
+      <p><strong>关键理解：</strong>表面上教自保，实际上拔高叙事：人更会留痕、更会包装，但更难看清事实；变形往往比想象更早发生。</p>
+      <div class="pitfall">避坑：别把「怎么防止被甩锅」当成默认选题；它会把系统问题描摹成「一个坑」。</div>
+      <div class="quote">原文依据：「表面上教你自保」「侵蚀一个人自己判断事实的能力」。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>3. 管理口诀：横向解决 × 纵向授权</h3>
+      <p><strong>UP 主观点：</strong>小协作横向解决，大任务纵向授权；并给自己定原则——不是任何人都有权改变工作优先级。</p>
+      <p><strong>边界：</strong>这是作者基于职场观察的行动框架，不是万能组织设计；若领导没有这套动作，员工只能在事情变形后做反应。</p>
+      <div class="highlight">若只靠群消息互相推，说明清晰度已经出问题，不是再练一句漂亮回复就能修好。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>4. 戴明 94/6：把锅放回系统</h3>
+      <p><strong>可核验引用：</strong>视频援引《转危为安》中的经验比例——约 94% 属于系统，只有 6% 是个别原因。</p>
+      <p><strong>立场分层：</strong>比例是戴明经验概括（视频口述），用于支持「系统是管理者责任」这一结论；不宜当作所有团队的精确统计。</p>
+      <div class="quote">原文依据：「94% 属于系统，只有 6% 是个别原因」「而系统是管理者的责任」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">横向对比</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>视角</th><th>默认问题定义</th><th>典型动作</th><th>风险</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>个人自保课</td><td>我怎么不被甩锅</td><td>留痕、包装、精修回复</td><td>侵蚀判断事实；动作变形</td></tr>
+          <tr><td>话术对抗</td><td>对方在推责</td><td>对喷、拉领导站台</td><td>冲突被刻意放大</td></tr>
+          <tr><td>系统管理</td><td>优先级/授权/资源缺位</td><td>横向解决小协作、纵向授权大任务</td><td>需要领导真正下场，否则仍停在口号</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>催数话术把压力落到个人节点；不适感应指向系统，而不是先练回嘴。</li>
+      <li>「防甩锅」课拔高叙事，可能侵蚀判断事实的能力。</li>
+      <li>戴明经验比例：约 94% 系统 / 6% 个别——系统是管理者的责任。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>定一条优先级原则：谁有权改你的工作排序，写清楚。</li>
+      <li>小协作先横向对齐；大任务要求纵向授权与资源承诺。</li>
+      <li>遇到「就差你的」先查前置条件：范围、截止、资源是否齐。</li>
+      <li>少消费「防甩锅」内容；多复盘协作变形从哪一句开始。</li>
+      <li>管理者自检：是否只在事后追责，而不是事前把清晰度做实。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：被催就慌，先想怎么回才不背锅 → 现在：先问系统缺口在哪。</li>
+      <li>以前：把甩锅当情商题 → 现在：把它当管理设计题。</li>
+      <li>以前：练自保话术 → 现在：练优先级与授权边界。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于小红书视频「团队内部甩锅其实是管理的责任」理性分析 · 佳期KK · 立场分层：话术样本与字幕为事实证据，管理口诀与戴明比例为作者观点/引用</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

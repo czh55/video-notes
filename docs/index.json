@@ -1,5 +1,254 @@
 [
   {
+    "date": "2026-09-19",
+    "title": "加一箱油一千六七，周日商店全关门",
+    "summary": "欧洲高油价、周日停业与粗犷服务被读成休息与主体性优先；赞中国便利却不愿留下。出海需共情文明差异，勿俯视当地。",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "欧洲生活",
+      "文明差异",
+      "企业出海",
+      "服务观",
+      "主体性"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/97Yl1f16teU",
+    "duration": "7分18秒",
+    "slug": "norway-gas-sunday-closed",
+    "outputs": {
+      "html": "norway-gas-sunday-closed-图文实录.html",
+      "svg": "norway-gas-sunday-closed-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 77,
+    "svg_height": 4493
+  },
+  {
+    "date": "2026-09-19",
+    "title": "20年摄影师：iPhone加光圈根本不是为了虚化",
+    "summary": "实体可变光圈主线是管光降噪与光学挡位，不是虚化滤镜；小底下 f/1.48 约等效全画幅 f/5.2，合影全清晰也不是真正痛点，多数人体感可能有限。",
+    "primary": "auto-digital",
+    "tags": [
+      "可变光圈",
+      "iPhone 18 Pro",
+      "景深",
+      "手机摄影",
+      "光学"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5m8XlIA4vzZ",
+    "duration": "8分29秒",
+    "outputs": {
+      "html": "iphone-aperture-not-for-bokeh-图文实录.html",
+      "svg": "iphone-aperture-not-for-bokeh-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 5,
+    "svg_height": 5324,
+    "slug": "iphone-aperture-not-for-bokeh"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "拉花练习｜拯救油水分离的浓缩液",
+    "summary": "41秒拉花复盘：浓缩放凉油脂硬化后，摇不开就先预融合救液面再拉花；成杯可用，边缘仍可能有锯齿。",
+    "primary": "coffee",
+    "skills": [
+      "拉花"
+    ],
+    "tags": [
+      "咖啡",
+      "拉花",
+      "油水分离",
+      "预融合",
+      "硬油脂"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AgmRR4LFtbY",
+    "duration": "41秒",
+    "outputs": {
+      "html": "fix-espresso-oil-water-split-图文实录.html",
+      "svg": "fix-espresso-oil-water-split-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 2,
+    "svg_height": 2877,
+    "slug": "fix-espresso-oil-water-split"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "iPhone Duo刚发布，苹果就给营销人上强度了",
+    "summary": "NotJustAgency 拆解 iPhone Duo 发布：苹果不先讲折叠屏理由，而用情侣构图、家庭立机、拍孩子三场景示范场景营销；出海应洞察未说出口需求并做成可传播场景，而非只翻译卖点。",
+    "primary": "workplace",
+    "tags": [
+      "场景营销",
+      "iPhone Duo",
+      "折叠屏",
+      "出海营销",
+      "消费者洞察"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://www.xiaohongshu.com/discovery/item/6aa2c11a000000002b02401b",
+    "duration": "1分27秒",
+    "outputs": {
+      "html": "iphone-duo-marketing-intensity-图文实录.html",
+      "svg": "iphone-duo-marketing-intensity-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 58,
+    "svg_height": 2847,
+    "slug": "iphone-duo-marketing-intensity"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "小ollie入门第二步：如何下蹲",
+    "summary": "34秒Ollie蹲伸课：垂直拉开大腿储能而非往后坐；髋膝踝三折叠压实后释放回弹，用大腿顶上身；半蹲够用，双脚受力落在前脚掌。",
+    "primary": "sports",
+    "tags": [
+      "滑板",
+      "ollie",
+      "下蹲",
+      "三折叠",
+      "新手入门"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8OFoTSbnZXl",
+    "duration": "34秒",
+    "outputs": {
+      "html": "ollie-dog-squat-step2-图文实录.html",
+      "svg": "ollie-dog-squat-step2-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 10,
+    "svg_height": 3398,
+    "slug": "ollie-dog-squat-step2"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "焚诀：如何引导素人拍照？",
+    "summary": "五年人像摄影师拆解引导素人四维：别空喊放松、口令落到站位与道具、眼神看具体物、夸具体优势；自然感来自精准引导后的预判，而非碰运气抓拍。",
+    "primary": "photo",
+    "tags": [
+      "素人引导",
+      "人像摄影",
+      "片场口令",
+      "眼神引导",
+      "自然感"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4gE3k08piM",
+    "duration": "2分13秒",
+    "outputs": {
+      "html": "guide-amateur-photo-fenjue-图文实录.html",
+      "svg": "guide-amateur-photo-fenjue-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 90,
+    "svg_height": 3504,
+    "slug": "guide-amateur-photo-fenjue"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "新手跳绳必看 | 六字心法：别乱买，别瞎跳！",
+    "summary": "作者用 8+6 毫米绳径组合讲跳绳心法：先用 8mm「定海绳」打磨省力安全动作，再加入 6mm 速度绳体验飞扬；真正意义是先跳对、再跳多，别急着追数字。",
+    "primary": "sports",
+    "skills": [
+      "跳绳"
+    ],
+    "tags": [
+      "跳绳",
+      "选绳",
+      "8+6",
+      "伤膝避坑",
+      "动作打磨"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6i8805bmsqz",
+    "duration": "1分45秒",
+    "outputs": {
+      "html": "jump-rope-six-word-mantra-图文实录.html",
+      "svg": "jump-rope-six-word-mantra-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 46,
+    "svg_height": 3504,
+    "slug": "jump-rope-six-word-mantra"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "5个跳绳练习解锁敏捷步伐",
+    "summary": "31秒网球跳绳清单：从易到难演示兔子跳、交替垫步、单腿跳、高抬腿、进阶双摇五档动作，画面给出每组次数；作者称坚持两周可获更快移动与更稳下肢，脚下掌控全场节奏。",
+    "primary": "sports",
+    "tags": [
+      "网球",
+      "跳绳",
+      "敏捷步伐",
+      "体能训练",
+      "双摇"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4jmLPp3Hex4",
+    "duration": "31秒",
+    "outputs": {
+      "html": "jump-rope-tennis-agility-图文实录.html",
+      "svg": "jump-rope-tennis-agility-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 17,
+    "svg_height": 2907,
+    "slug": "jump-rope-tennis-agility"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "跳绳标准动作之“体态篇”",
+    "summary": "跳绳体态课：上身勿后仰、收核心略前倾并收回下巴；绳子很细只需轻跳。落地前脚掌着地、脚跟不落地，膝盖像弹簧缓冲，先原地再前后跳练习。",
+    "primary": "sports",
+    "skills": [
+      "跳绳"
+    ],
+    "tags": [
+      "跳绳",
+      "体态",
+      "膝盖缓冲",
+      "核心"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/96hYYgOJsJE",
+    "duration": "51秒",
+    "outputs": {
+      "html": "jump-rope-posture-form-图文实录.html",
+      "svg": "jump-rope-posture-form-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 20,
+    "svg_height": 2771,
+    "slug": "jump-rope-posture-form"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "骨盆前倾圆肩驼背会让小肚子更突出？先打开胸口再练",
+    "summary": "下腹突出常来自体态链条：骨盆前倾推腹，脊柱代偿导致含胸紧缩再放大显腹；被忽略的解法是打开胸口前侧——椅子倒置放松呼吸，两组各十次。",
+    "primary": "sports",
+    "tags": [
+      "骨盆前倾",
+      "含胸",
+      "体态纠正",
+      "小肚子",
+      "倒置呼吸"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://www.xiaohongshu.com/discovery/item/6a8a6a600000000014029aee?app_platform=ios&app_version=9.46&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB80n2NRW_fwvI96KopSHjOlz8xPulj6ipe5H3X7wL1Xk=&author_share=1&xhsshare=CopyLink&shareRedId=N0hFMjNGST9KSjsyPjwwNjY0T01FNkhL&apptime=1789799833&share_id=a1e1a8f275ea4a048f58a49995efcc7b&track_code=1RMhOllO0dv",
+    "duration": "1:58",
+    "outputs": {
+      "html": "pelvic-tilt-round-shoulder-belly-图文实录.html",
+      "svg": "pelvic-tilt-round-shoulder-belly-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 48,
+    "svg_height": 3413,
+    "slug": "pelvic-tilt-round-shoulder-belly"
+  },
+  {
     "date": "2026-08-07",
     "title": "练妆日记 | 想上线下化妆课的姐妹先看看这",
     "summary": "报名化妆课之前先用27分钟看懂化妆基本原理和步骤顺序：毛发清理、补水锁水、防晒印法不搓泥、遮瑕按颜色配色（紫去黄/绿去红/三文鱼遮黑眼圈）、粉底第一笔落面中由内向外、提亮修容腮红骨相三件套、眼皮必定妆、眼影刷具选对、眼线填睫毛根、睫毛夹法、眉毛骨架、二次加深层层渲染、提亮大圈套小圈、口红唇线笔模糊唇缘——练完满意就不用花线下课的钱。",
@@ -21112,5 +21361,614 @@
     "transcript_segments": 9,
     "svg_height": 2250,
     "slug": "davinci-colorist-workflow"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "一个视频教会你如何正确收紧核心",
+    "summary": "23秒纠偏：吸肚子肋骨外翻≠收紧核心；吹蜡烛内收肋骨、咳嗽唤醒腹横肌、发嘶音维持，验收腰腹整体变硬。",
+    "tags": [
+      "核心训练",
+      "腹横肌",
+      "收紧核心",
+      "居家锻炼",
+      "肋骨外翻"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6lUKi1ytY4j",
+    "duration": "23秒",
+    "outputs": {
+      "html": "core-engage-correctly-图文实录.html",
+      "svg": "core-engage-correctly-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 6,
+    "svg_height": 3213,
+    "slug": "core-engage-correctly",
+    "primary": "sports"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "网球人必看 | 击球点大于一切",
+    "summary": "小钟用关闭式站位钉死「拍面垂直朝前」的基准击球点，再按斜线/直线前后微调、按东方式到超西握拍抬高接触高度，并说明握拍与高度错配会导致关拍刷球或开拍出界。",
+    "primary": "sports",
+    "tags": [
+      "网球",
+      "击球点",
+      "握拍",
+      "正手",
+      "关闭式站位"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Ah3DAzu6rf1",
+    "duration": "1分55秒",
+    "outputs": {
+      "html": "tennis-contact-point-first-图文实录.html",
+      "svg": "tennis-contact-point-first-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 71,
+    "svg_height": 2924,
+    "slug": "tennis-contact-point-first"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "如何快速成为咖啡老饕！",
+    "summary": "30秒风味话术：把酸/甜/苦/杂/余换成柑橘莓果调性、热带水果与糖感词、精品可可巧克力、层次丰富与绵长口鼻留香；是沟通模板而非杯测报告。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "咖啡风味",
+      "杯测话术",
+      "风味描述",
+      "精品咖啡",
+      "段子科普"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/71xW8h5UZjJ",
+    "duration": "30秒",
+    "outputs": {
+      "html": "become-coffee-connoisseur-fast-图文实录.html",
+      "svg": "become-coffee-connoisseur-fast-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 18,
+    "svg_height": 2847,
+    "slug": "become-coffee-connoisseur-fast"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "5分钟，你就能像拳击手那样跳绳了",
+    "summary": "拳击教练Artem用约45秒演示拳击式跳绳入门：先把跳绳铺成线练脚跟—脚尖，再加跳跃与左右换脚，最后真正摇绳完成；标题「5分钟」是练习承诺而非成片时长。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "跳绳",
+      "拳击",
+      "脚跟脚尖",
+      "初学者",
+      "居家锻炼"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2XhPmyHjCL0",
+    "duration": "0:45",
+    "outputs": {
+      "html": "jump-rope-like-boxer-5min-图文实录.html",
+      "svg": "jump-rope-like-boxer-5min-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 8,
+    "svg_height": 2892,
+    "slug": "jump-rope-like-boxer-5min"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "莫奈的太阳，一变黑白就不发光了？",
+    "summary": "去色后《日出·印象》的太阳仍在却不「发光」：明暗与天空接近，突出的是橙红对灰蓝；橙圆/白圆实验拆开颜色差与明暗差，结论是用周围色衬亮，不必把颜料画得更亮。",
+    "primary": "painting",
+    "skills": [],
+    "tags": [
+      "莫奈",
+      "日出印象",
+      "颜色对比",
+      "明暗",
+      "视觉实验"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Aalt6mESPHF",
+    "duration": "2分08秒",
+    "outputs": {
+      "html": "monet-sun-bw-not-glow-图文实录.html",
+      "svg": "monet-sun-bw-not-glow-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 68,
+    "svg_height": 3351,
+    "slug": "monet-sun-bw-not-glow"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "浓缩调不好，拉花就难搞",
+    "summary": "左右对照两杯研磨略有差异的浓缩：左杯更细、摇起来更黏稠，但融合与摆动脉冲时右杯液面更干净有弹性——浓缩不一定越黏稠越适合拉花。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "意式浓缩",
+      "拉花",
+      "研磨度",
+      "奶咖融合",
+      "咖啡对照"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6IcIgtEHwjp",
+    "duration": "58秒",
+    "outputs": {
+      "html": "espresso-bad-latte-art-hard-图文实录.html",
+      "svg": "espresso-bad-latte-art-hard-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 25,
+    "svg_height": 3000,
+    "slug": "espresso-bad-latte-art-hard"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "咖啡萃取的三个阶段风味变化，都有什么不同",
+    "summary": "意式浓缩前中后三段：前段深色高酸香、中段甜焦糖坚果、后段淡色焦苦；作者主张尾段苦用于平衡前酸与中甜，并用18g→36g三杯分段加水对照验证。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "意式浓缩",
+      "萃取阶段",
+      "分段杯",
+      "风味",
+      "油脂颜色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3jJQBf13ZOG",
+    "duration": "1分15秒",
+    "outputs": {
+      "html": "coffee-extraction-three-phases-图文实录.html",
+      "svg": "coffee-extraction-three-phases-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 34,
+    "svg_height": 2250,
+    "slug": "coffee-extraction-three-phases"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "格米莱猫头鹰咖啡机做到极致会是什么样？",
+    "summary": "二哥测评猫头鹰3006Go：双泵双加热块解决同时萃取打奶，定温打奶与H2C冷萃拉宽场景；从零可一步到位，已有A/H则按是否刚需跳级。",
+    "primary": "coffee",
+    "skills": [
+      "拉花"
+    ],
+    "tags": [
+      "格米莱",
+      "猫头鹰",
+      "半自动咖啡机",
+      "加热块",
+      "定温打奶",
+      "冷萃"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7RbfbCJxIxm",
+    "duration": "8分17秒",
+    "slug": "gemilai-owl-espresso-machine",
+    "outputs": {
+      "html": "gemilai-owl-espresso-machine-图文实录.html",
+      "svg": "gemilai-owl-espresso-machine-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 209,
+    "svg_height": 5823
+  },
+  {
+    "date": "2026-09-19",
+    "title": "别再靠感觉剪音乐了，快速学会底层逻辑！",
+    "summary": "配乐别硬砍后半段再淡出：按歌曲段落删中间重复、用loop拼接并对齐节拍；听不出接缝只是及格，音乐贴画面转折才是目标。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "音乐剪辑",
+      "配乐",
+      "loop",
+      "达芬奇",
+      "WaveMix",
+      "无缝剪辑"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AiaoCDY9g0Q",
+    "duration": "6分33秒",
+    "slug": "music-edit-logic-not-feel",
+    "outputs": {
+      "html": "music-edit-logic-not-feel-图文实录.html",
+      "svg": "music-edit-logic-not-feel-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 198,
+    "svg_height": 4877
+  },
+  {
+    "date": "2026-09-19",
+    "title": "按下快门的 0.01 秒，相机内部居然这么疯狂",
+    "summary": "用数万帧高速摄影拆开按下快门瞬间：焦平面缝扫、电子前帘、闪光同步与HSS、哈苏叶帘整幅受光，以及电子卷帘果冻与全局快门的取舍。",
+    "primary": "photo",
+    "tags": [
+      "快门",
+      "焦平面",
+      "叶帘快门",
+      "闪光同步",
+      "滚动快门",
+      "高速摄影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2CZ9TyM1bBD",
+    "duration": "18分48秒",
+    "outputs": {
+      "html": "shutter-0-01s-camera-inside-图文实录.html",
+      "svg": "shutter-0-01s-camera-inside-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 679,
+    "svg_height": 4584,
+    "slug": "shutter-0-01s-camera-inside"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "兴趣越多，未来10年越有优势",
+    "summary": "Dan Koe：避开拒AI的纯血统与交棒技术的赛博；用四象限保持完整，以兴趣广度喂养一项工艺，三层技能栈上移到品味判断，并把AI当单人事业杠杆。",
+    "primary": "workplace",
+    "tags": [
+      "AI",
+      "通才",
+      "兴趣",
+      "个人品牌",
+      "单人公司",
+      "数字文艺复兴"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6dlQQNiiUyl",
+    "duration": "35分58秒",
+    "outputs": {
+      "html": "more-interests-ten-year-edge-图文实录.html",
+      "svg": "more-interests-ten-year-edge-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 1577,
+    "svg_height": 5873,
+    "slug": "more-interests-ten-year-edge"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "关于球拍，能说的不能说的，吴易昺都说了",
+    "summary": "吴易昺谈 HEAD Radical：攻击型打法要更硬操控；日常优先调磅与16×19线床，配重偏拍柄换控制；更适合底线多拍相持的业余球友，而非盲目追职业同款。",
+    "primary": "sports",
+    "tags": [
+      "关于球拍，吴易昺都说",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/57hB3pUp743",
+    "outputs": {
+      "html": "wu-yibing-racket-talk-图文实录.html",
+      "svg": "wu-yibing-racket-talk-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 151,
+    "svg_height": 2877,
+    "slug": "wu-yibing-racket-talk",
+    "duration": "6分12秒",
+    "skills": []
+  },
+  {
+    "date": "2026-09-19",
+    "title": "别再乱说，她们身材对比和健身无关！在体态！",
+    "summary": "体态教练 C戈拿一张网传「健身 vs 不健身」对比图开刀：右边姑娘并非「没练」，臀形反而像练出来的；真正拉开差距的，除了天赋比例，最大是体态——上段腰椎变直后仰、髋关节深层不稳、骨盆前移，让身形显「坨」、腿短。后半段他现场演示：用毛巾垫在胸腰结合段建立腰曲，配合腹腔收紧与胸腔双向吸气，练完自查腰椎是否有「往上拔」的支撑感。",
+    "primary": "sports",
+    "tags": [
+      "身材对比和健身无关在",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6MjrlLVpCYJ",
+    "outputs": {
+      "html": "body-posture-not-fitness-compare-图文实录.html",
+      "svg": "body-posture-not-fitness-compare-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 96,
+    "svg_height": 2924,
+    "slug": "body-posture-not-fitness-compare",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "光色联动 × 色光联动｜调色发灰的底层原因",
+    "summary": "很多人把「光」和「色」当成两件独立的事，结果越调越发灰。壹方调色课堂用 Lightroom 里的六色色相环做现场实验：只动曝光，颜色会跟着变淡——这叫光色联动；把画面转成黑白，会发现黄区天然更亮——这叫色光联动。作者的实操结论很硬：色彩三要素（色相 / 饱和度 / 明度）动了一个，另外两个也要跟着补，不然画面就容易发灰、发飘。",
+    "primary": "video",
+    "tags": [
+      "光色联动色光联动调色",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3IOBRVxTPXl",
+    "outputs": {
+      "html": "light-color-link-gray-grade-图文实录.html",
+      "svg": "light-color-link-gray-grade-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 76,
+    "svg_height": 2924,
+    "slug": "light-color-link-gray-grade",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "团队内部甩锅其实是管理的责任",
+    "summary": "佳期KK用一位前同事的跨组催数截图开场：对方晚上七点多收到「我们这边做完了就差你的数据了」，来问该怎么回。她当下觉得不对劲的，不是这句话本身，而是看到对方反应的那一秒——太熟悉、熟到发毛。整段视频由此展开：把「怎么防止被甩锅」做成自保课，只会拔高叙事、侵蚀判断事实的能力；真正该问的是协作优先级、资源协调与授权是否到位。收束时她援引戴明《转危为安》：组织里约 ",
+    "primary": "career",
+    "tags": [
+      "团队内部甩锅其实是管",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3PZQrAJOsDT",
+    "outputs": {
+      "html": "team-blame-is-management-图文实录.html",
+      "svg": "team-blame-is-management-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 12,
+    "svg_height": 2754,
+    "slug": "team-blame-is-management",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "做手冲咖啡要用手冲咖啡豆",
+    "summary": "评论区总有人问：天天说手冲咖啡豆、意式咖啡豆，这两款豆到底一样不一样？小宇宙林阳约上店里的咖啡师嘉宾，用实物对比把答案拆开：豆都是咖啡豆，但烘焙深浅、单品/拼配与萃取目标不一样——手冲更想喝到豆子天然复杂风味，意式更想要浓缩带来的强烈均衡与冲击。视频末尾落到一句硬结论：术业有专攻，什么豆干什么事；尤其是浅焙手冲豆硬去做意式，往往更糟。",
+    "primary": "lifestyle",
+    "tags": [
+      "做手冲咖啡要用手冲咖",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AYc2mREe1EV",
+    "outputs": {
+      "html": "pourover-needs-pourover-beans-图文实录.html",
+      "svg": "pourover-needs-pourover-beans-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 118,
+    "svg_height": 2969,
+    "slug": "pourover-needs-pourover-beans",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "今天来讲讲气息",
+    "summary": "声乐老师用露腹演示拆解唱歌气息：气只进肺、横膈膜下沉四面扩张，吐气腰腹固定；丹田是隐喻；上场靠习惯，高音多给气当底盘。",
+    "primary": "other",
+    "tags": [
+      "声乐",
+      "气息",
+      "腹式呼吸",
+      "横膈膜",
+      "唱歌教学"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9dkE0Mh8Aim",
+    "outputs": {
+      "html": "breath-support-speaking-图文实录.html",
+      "svg": "breath-support-speaking-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 314,
+    "svg_height": 4736,
+    "slug": "breath-support-speaking",
+    "duration": "7分47秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "摄影大赛评委同质化？为什么审美十年不更新",
+    "summary": "常年坐在评审席上的摄影师刘翔，从一场「安静得可怕」的评委桌切入：一团和气往往说明评委精力太像、圈子太近、标准太接近。他批评许多号称权威的大赛，把新闻/纪实摄影与协会系统前辈名单互相抄来抄去，合影先替比赛证明权威；却识别不出早已被万人拍烂的网红机位。责任不该甩给评委或投稿者——风光本难划清抄袭边界——主办方该问的是「除了地点奇观，还带回什么新发现」。摄影早已进",
+    "primary": "video",
+    "tags": [
+      "摄影大赛评委同质化审",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9YYetBOKjTZ",
+    "outputs": {
+      "html": "photo-contest-judge-homogenized-图文实录.html",
+      "svg": "photo-contest-judge-homogenized-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 69,
+    "svg_height": 3336,
+    "slug": "photo-contest-judge-homogenized",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "民俗越震撼，照片越相似",
+    "summary": "摄影师刘翔用约三分钟拆穿民俗现场的同质化陷阱：打铁花、舞火龙、舞狮本身已经替你完成了视觉刺激，摄影师却很容易把这份震撼误认成自己的发现。他以一张「满分十分只给三分」的舞狮雨伞照为例，对照寇德卡《吉普赛人》三张照片，说明真正拉开差距的，不是节目高潮，而是你是否看见关系、距离与细节——并据此站位。",
+    "primary": "video",
+    "tags": [
+      "民俗越震撼照片越相似",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/25oMXGjsiMW",
+    "outputs": {
+      "html": "folk-spectacle-same-photos-图文实录.html",
+      "svg": "folk-spectacle-same-photos-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 67,
+    "svg_height": 3474,
+    "slug": "folk-spectacle-same-photos",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "表达能力是职场硬通货",
+    "summary": "职场「表达强」本质是逻辑：知其所以然、三层为什么、日常同步/开会/汇报抓主旨；框架是结论不是思考过程，教新人追问为什么才是训练。",
+    "primary": "workplace",
+    "tags": [
+      "职场表达",
+      "汇报",
+      "逻辑思维",
+      "闭环",
+      "复盘"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8ddW8Y5k4OP",
+    "outputs": {
+      "html": "expression-workplace-currency-图文实录.html",
+      "svg": "expression-workplace-currency-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 241,
+    "svg_height": 4712,
+    "slug": "expression-workplace-currency",
+    "duration": "6分43秒",
+    "skills": [
+      "结构化表达",
+      "向上管理"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "title": "iPhone 18 Pro & Duo：摄影师的第一反应",
+    "summary": "摄影师第一反应：18 Pro 可变光圈可开大至约 f/1.48 也可收至 F4，系统相机补白平衡与直方图，参考影像应对 AI 改图；Duo 赢在立机与双屏互看，多数创作者仍更适合 Pro。",
+    "primary": "auto-digital",
+    "tags": [
+      "iPhone 18 Pro",
+      "可变光圈",
+      "iPhone Duo",
+      "折叠屏",
+      "参考影像",
+      "手机摄影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/oJalVKMRow",
+    "duration": "10分57秒",
+    "outputs": {
+      "html": "iphone-18-pro-duo-first-reaction-图文实录.html",
+      "svg": "iphone-18-pro-duo-first-reaction-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 389,
+    "svg_height": 5523,
+    "slug": "iphone-18-pro-duo-first-reaction"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "用对气息最重要",
+    "summary": "李老师用近四分钟讲清一件事：唱歌时腰腹部的「气沉丹田」不是开唱前故意绷紧、内收小腹，而是发声过程中自动发生的动态对抗。刻意提前夹住肚子，声音会僵硬、失去流动性，喉咙照样紧；正确路径是出声前放松、吸气时兴奋打开口腔，唱时往下给气——肚子会自己绷起来配合你。",
+    "primary": "sports",
+    "tags": [
+      "用对气息最重要",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6DT7PSrYFp4",
+    "outputs": {
+      "html": "breath-correct-use-most-图文实录.html",
+      "svg": "breath-correct-use-most-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 92,
+    "svg_height": 3627,
+    "slug": "breath-correct-use-most",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "来自顶级媒婆的语言组织能力",
+    "summary": "这是一段约半分钟的影视混剪笑话：画面在「女方沙发自白」与「媒婆茶桌推销」之间快速交叉。两边都用同一套短句模板堆标签——一边是 985、政法单位、留学生、书香门第；一边是酒吧跳舞、父亲坐牢、母亲 ICU、四次离婚、通缉与「踩缝纫机」。收尾时媒婆把红灯经历改写成潮流人设「御姐纯欲风」，男方微笑拍板「不错就她了」，标题点出所谓「顶级语言组织能力」。",
+    "primary": "career",
+    "tags": [
+      "来自顶级媒婆的语言组",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7huh6x9jwzm",
+    "outputs": {
+      "html": "top-matchmaker-language-skill-图文实录.html",
+      "svg": "top-matchmaker-language-skill-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 2,
+    "svg_height": 2924,
+    "slug": "top-matchmaker-language-skill",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "运镜不是炫技，它有它的情绪",
+    "summary": "短片把运镜从「炫技清单」改写成「情绪开关」：想贴近内心用推、表现孤独用拉、增加代入感用跟，惊喜或惊吓则点名希区柯克式变焦。作者笔记开场就写着「切记！不要为了运镜而运镜」——技巧服务于情绪，而不是反过来。",
+    "primary": "video",
+    "tags": [
+      "运镜不是炫技它有它的",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1yVFxmXeuIY",
+    "outputs": {
+      "html": "camera-move-emotion-not-flex-图文实录.html",
+      "svg": "camera-move-emotion-not-flex-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 2,
+    "svg_height": 2771,
+    "slug": "camera-move-emotion-not-flex",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "嗝～｜赛车片怎么剪：倒计时 + 大慢特",
+    "summary": "标题只有一个「嗝～」，画面却把人直接扔进韩式烧烤店：汽车摄影博主高然坐在排烟管下托腮，字幕先抛出导演式灵魂拷问——「这片子怎么剪呀」。紧接着切进封闭赛道上的横屏赛车素材，再回到口播，把答案压成两条手法：把剪辑节奏钻进发车倒计时，再用大慢特（大特写慢动作）一把甩过去。Whisper 口播分段很少，以下叙述以画面字幕与可见操作为主，转录区保留原始识别结果。",
+    "primary": "video",
+    "tags": [
+      "嗝～",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ALfsFxmQ2qG",
+    "outputs": {
+      "html": "burp-xhs-clip-图文实录.html",
+      "svg": "burp-xhs-clip-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 3,
+    "svg_height": 2648,
+    "slug": "burp-xhs-clip",
+    "duration": "0秒"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "你够胆放流量吗？",
+    "summary": "「星星咖啡阳江私教」面向刚入门的拉花学员，用约两分钟把「出图原理」讲直白：你只要够胆放流量（加大注入量/流速），图案才会出来；细节可以后纠，但别一上来就小心翼翼把奶流掐死。视频以画面字幕与俯拍演示为主——Whisper 只稳定识别开场一句口播，后半多为操作演示与字幕旁白，下文按画面字幕还原。",
+    "primary": "video",
+    "tags": [
+      "你够胆放流量吗？",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8lFr0Gubp5L",
+    "outputs": {
+      "html": "dare-to-release-traffic-图文实录.html",
+      "svg": "dare-to-release-traffic-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 1,
+    "svg_height": 3383,
+    "slug": "dare-to-release-traffic",
+    "duration": "0秒"
   }
 ]

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3504" viewBox="0 0 1320 3504">
+  <foreignObject x="0" y="0" width="1320" height="3504">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>新手跳绳六字心法：8+6 绳径组合</h1>
+  <div class="meta">
+    <span class="tag tag-blue">运动动作</span>
+    <span class="tag tag-green">跳绳选绳</span>
+    <span class="tag tag-orange">伤膝避坑</span>
+    <span class="tag tag-purple">小红书 · 1分45秒</span>
+  </div>
+  <div class="summary-line">核心判断：8 与 6 是绳径毫米数，不是长度；先用 8mm 把发力磨到高效安全，再<strong>加入</strong> 6mm 提速——真正意义是「先跳对再跳多」，而不是一上来追数字。</div>
+  <a class="source-link" href="https://xhslink.cn/o/6i8805bmsqz">原视频（小红书短链）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">抛出定位：8+6 是入门还是进阶？定性为系统程序，非随便两根绳</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">定义：8/6 = 直径毫米，代表粗细与重量，不是长度</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:19</span><span class="timeline-text">8mm = 定海绳：有分量、稳轨迹、少绊绳</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:25</span><span class="timeline-text">核心任务：逼出最省力、最不受伤的跳法；打磨基本功</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:36</span><span class="timeline-text">错误清单：甩臂、跳得老高、核心松散、小腿代偿——在 8mm 前被放大</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:54</span><span class="timeline-text">加入 6mm（不是替代）= 速度绳，体验飞扬感</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:04</span><span class="timeline-text">避坑：心急追量、错误姿势重复 → 受伤退场；「资深新手」重质缺失</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:23</span><span class="timeline-text">六字心法收束：先跳对再跳多 / 能跳对能跳多</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">乱买乱跳<br/>追数字</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">8mm 打磨<br/>放大错误</div>
+      <div class="arrow">→</div>
+      <div class="node">发力高效<br/>经济安全</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">加入 6mm<br/>先对再多</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「8+6」不是两根随便搭配的绳子，也不是「越细越高级」。数字指绳径；训练顺序是先重后轻、先质后量。把 6mm 当成可以跳过基础的捷径，正是作者反对的做法。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+
+    <div class="card">
+      <h3>1. 规格先搞清：直径 ≠ 长度</h3>
+      <p><strong>在讲什么：</strong>买绳与选训练工具前，先统一计量语言。</p>
+      <p><strong>关键理解：</strong>8 / 6 表示毫米级绳径，映射到粗细与重量；长度是另一维度，视频未展开测长法。</p>
+      <p><strong>怎么用：</strong>下单或对比时先确认标注是直径还是长度，避免「以为买了进阶绳其实规格对不上」。</p>
+      <div class="quote">原文依据（约 00:12）：「首先 8 和 6 是绳子的直径，它不是长度，代表着粗细和重量。」</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>2. 8mm 定海绳：用重量做动作反馈</h3>
+      <p><strong>在讲什么：</strong>作者立场——8mm 是打磨期的主工具。</p>
+      <p><strong>关键理解：</strong>分量帮助稳轨迹、降低绊绳；更关键的是把甩臂、高跳、松核心、小腿代偿等问题立刻「放得很大」，让疲劳与不对劲成为纠错信号。</p>
+      <p><strong>怎么用：</strong>新手阶段优先用有反馈的绳，以「是否被迫收力、收核心」验收，而不是以跳够个数验收。</p>
+      <div class="highlight">立场分层：绳径与「逼出省力发力」是作者教学主张；个体伤病史、关节负荷仍须自行评估，视频未给出医学结论。</div>
+      <div class="quote">原文依据（约 00:25–00:48）：「核心任务是逼着我们学会用最省力、最不受伤的方式去跳……这些问题在 8 毫米的面前都会被立刻放大。」</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>3. 6mm：加入提速，不是替换打磨</h3>
+      <p><strong>在讲什么：</strong>速度绳的定位与接入时机。</p>
+      <p><strong>关键理解：</strong>6mm 更轻快，适合在「跳对跳稳」之后体验飞扬感；关键词是「加入」。</p>
+      <p><strong>怎么用：</strong>保留 8mm 作为动作校对工具，把 6mm 当作进阶速度刺激，而不是一上来就只跳细绳。</p>
+      <div class="action">行动：基础课用 8mm；动作稳定后再加入 6mm 间歇，而不是永久弃用粗绳。</div>
+      <div class="quote">原文依据（约 00:54）：「记住是加入，不是替代……它是我们的速度赤兔。」</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>4. 六字心法与「资深新手」陷阱</h3>
+      <p><strong>在讲什么：</strong>训练目标排序：质 → 量。</p>
+      <p><strong>关键理解：</strong>追数字却基础不牢，会在错误姿势上重复，效率低且易受伤退场；跳了两三年仍找不到核心发力，属于「没重质就追量」。</p>
+      <div class="pitfall">避坑：别用「今天跳了多少个」作为唯一 KPI；先问「发力是否省、落地是否软、核心是否在」。</div>
+      <div class="quote">原文依据（约 01:23）：「8+6 组合的真正意义是让我们先跳对再跳多；能跳对，能跳多。」</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">8mm vs 6mm 横向对比</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>维度</th><th>8mm 定海绳</th><th>6mm 速度绳</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>角色隐喻</td><td>定海绳 / 磨刀石</td><td>速度赤兔 / 飞扬感</td></tr>
+          <tr><td>物理特点</td><td>更有分量，轨迹更稳</td><td>更轻快</td></tr>
+          <tr><td>训练任务</td><td>放大错误、打磨发力</td><td>已跳对后的提速体验</td></tr>
+          <tr><td>接入时机</td><td>基础期优先</td><td>打磨后再「加入」</td></tr>
+          <tr><td>常见误用</td><td>嫌重直接弃用</td><td>一上来就只跳细绳追量</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card">
+      <ul>
+        <li><strong>适用：</strong>想建立正确跳绳发力、减少乱跳伤膝风险的新手；以及长期跳但「找不到核心」的练习者复盘工具组合。</li>
+        <li><strong>上限：</strong>视频讲的是绳径训练逻辑，不替代完整姿势课（落地、摆臂细节需另学）。</li>
+        <li><strong>例外：</strong>已有膝/踝伤痛者，「加重反馈」可能加重不适——作者强调「不受伤」，但未给出伤后复训方案；此类情况应降低负荷并咨询专业人士。</li>
+        <li><strong>证据层级：</strong>绳径定义与训练顺序为作者观点 + 口播论证；「伤膝来自错误发力」属教学经验陈述，非临床研究数据。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>8/6 = 毫米绳径；组合是程序，不是两根绳随便凑。</li>
+      <li>8mm 负责把错误放大并逼出省力安全发力。</li>
+      <li>6mm 在跳对之后加入提速，不可替代打磨期。</li>
+      <li>心法六字：先跳对再跳多。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>核对手头绳子标注：直径是否接近 8mm / 6mm，勿与长度混淆。</li>
+      <li>接下来 1–2 周主练 8mm：刻意检查甩臂、跳高度、核心与小腿是否代偿。</li>
+      <li>能连续跳稳且不靠瞎甩维持后，再加入 6mm 做短组速度。</li>
+      <li>训练日志改记「质量信号」（省力感、落地软、核心在）再记个数。</li>
+      <li>若膝痛反复出现，先减量停追数字，回到 8mm 慢速纠错或暂停。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：细绳 = 高级，越多越好 → 现在：粗绳打磨，细绳后置。</li>
+      <li>以前：累了硬撑追数字 → 现在：累和不对劲是纠错信号。</li>
+      <li>以前：跳了很久仍「资深新手」 → 现在：先重质，再追量。</li>
+    </ul>
+  </div>
+
+  <div class="footer">理性分析 · 基于 Whisper 转录与画面字幕 · 雪宝爱跳绳</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
