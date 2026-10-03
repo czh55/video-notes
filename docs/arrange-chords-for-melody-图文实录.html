@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="陈临用 C 调与键盘标号，演示「按强拍旋律音在一级到七级三和弦里找重合→试听→转位／挂留改手感」。七级要改才能用；结尾反对只背网上和弦公式，主张多尝试因为喜欢。作者备注拍剪七小时、成片约七分钟。">
+<title>编曲必看：怎么给旋律配和弦｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>编曲必看：怎么给旋律配和弦</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">7分33秒</span><span class="meta-tag tag-topic">编曲 和弦 旋律 转位 陈临</span></div>
+<a class="source-link" href="https://xhslink.cn/o/7ex08ISMUXS" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">前置：强拍与 C 调举例</a><a href="#ch2">按旋律音在七个和弦里取交集</a><a href="#ch3">转位改手感：高音翻下去</a><a href="#ch4">挂留、六级可用、七级要改</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>陈临用 C 调与键盘标号，演示「按强拍旋律音在一级到七级三和弦里找重合→试听→转位／挂留改手感」。七级要改才能用；结尾反对只背网上和弦公式，主张多尝试因为喜欢。作者备注拍剪七小时、成片约七分钟。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→01:40]</span><div><strong>强拍优先</strong><p>先看昨天音程课；用 C 调，第一拍强拍决定优先音。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:40→03:00]</span><div><strong>重合取和弦</strong><p>旋律 do 后跟 si、la 等，看哪些音在 1–7 级和弦里出现最多。</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:00→05:00]</span><div><strong>转位试听</strong><p>三种转位都能用时，她个人偏爱 C 大三第二转位；高音太尖就翻下去。</p></div></div>
+<div class="summary-row"><span class="time-marker">[05:00→07:33]</span><div><strong>挂留与七级</strong><p>可改挂留；七级特殊新手少直接用；公式不是唯一答案，多试。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>配和弦=在旋律关键音上找可支撑的和弦集合，再用转位／色彩音调听感；七级谨慎；喜欢与试听优先于背公式。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-01:40</span>前置：强拍与 C 调举例</h2><p>开场点题：写了旋律怎么配和弦，并提醒先看昨天视频（音程）。进入 C 调：第一拍是强拍，第二拍常是次强。白板准备「常规一到七级的三和弦」对照。</p><p>前 30 秒口播有重复噪声与空洞，以稍后白板与键盘演示为准。</p><figure><img src="assets/arrange-chords-for-melody/shot-01.jpg" alt="开场：写了旋律怎么配和弦" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:14] 开场：写了旋律怎么配和弦</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bbb982592a4f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening: how to put chords under a written melody</span></div>
+<audio class="cap-audio" src="audio/bbb982592a4f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/arrange-chords-for-melody/shot-02.jpg" alt="用C调举例，强调第一拍强拍" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:10] 用C调举例，强调第一拍强拍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/43fd7ae03646.mp3" type="button" aria-label="Play English audio">🔊</button><span>Uses key of C and stresses beat one as the strong beat</span></div>
+<audio class="cap-audio" src="audio/43fd7ae03646.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">01:40-03:20</span>按旋律音在七个和弦里取交集</h2><p>看第一强拍是 do，后面跟着 si、do 等——「谁比较多就取谁」。下一小节 do 后跟 si、la，发现 do/si/la 在多个和弦里都出现过；若前面已选六级、四级，后面一级到七级理论上都可接，要用耳朵筛。</p><p>方法本质是：旋律音提供约束，和弦提供候选，不是反向硬套进行公式。</p><figure><img src="assets/arrange-chords-for-melody/shot-03.jpg" alt="白板：常规一到七级三和弦表" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:40] 白板：常规一到七级三和弦表</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f177c289696c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Whiteboard: diatonic triads on degrees 1–7</span></div>
+<audio class="cap-audio" src="audio/f177c289696c.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/arrange-chords-for-melody/shot-04.jpg" alt="对照旋律音do/si/la与和弦重合" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:35] 对照旋律音do/si/la与和弦重合</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/81243f7d188b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Checks which chords contain melody tones do/si/la</span></div>
+<audio class="cap-audio" src="audio/81243f7d188b.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch3"><h2><span class="time-marker">03:20-05:30</span>转位改手感：高音翻下去</h2><p>演示原位与转位：变成 mi sol do、sol do mi 等。「刚刚这三种都可以，但我个人比较喜欢第二转位」。试听时觉得 fa 怪、高音 do 太高，就把高音翻到底部，变成更顺的排列。</p><p>还提到 B 小七降13、fa la do 能否直接用——能，但要听。</p><figure><img src="assets/arrange-chords-for-melody/shot-05.jpg" alt="试听后觉得fa/高音怪，准备转位" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:02] 试听后觉得fa/高音怪，准备转位</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/925a9d257bbb.mp3" type="button" aria-label="Play English audio">🔊</button><span>After listening, fa/high note feels odd; prepares an inversion</span></div>
+<audio class="cap-audio" src="audio/925a9d257bbb.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch4"><h2><span class="time-marker">05:30-07:33</span>挂留、六级可用、七级要改</h2><p>把和弦改成挂留（如 5–1–2），再转位成 2–5–1 也可。六级 la do mi 因包含 do 与 la 能用，也可第一转位。七级「非常特殊」，新手尽量避免直接用；要用就改（片中出现半减七第一转位加降九等进阶写法）。</p><p>结尾明确立场：她犹豫要不要按和弦公式拍给你们看——那样很简单，但「因为你喜欢」「多尝试」「没有标准答案」。</p><figure><img src="assets/arrange-chords-for-melody/shot-06.jpg" alt="改成挂留和弦并转位试听" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:25] 改成挂留和弦并转位试听</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/25fcce483645.mp3" type="button" aria-label="Play English audio">🔊</button><span>Changes to a sus chord and audition inversions</span></div>
+<audio class="cap-audio" src="audio/25fcce483645.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/arrange-chords-for-melody/shot-07.jpg" alt="七级特殊：新手尽量避免直接用" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:55] 七级特殊：新手尽量避免直接用</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b821ebf17b46.mp3" type="button" aria-label="Play English audio">🔊</button><span>Degree vii is special: beginners should avoid using it raw</span></div>
+<audio class="cap-audio" src="audio/b821ebf17b46.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/arrange-chords-for-melody/shot-08.jpg" alt="收束：别死磕公式，多试因为喜欢" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:48] 收束：别死磕公式，多试因为喜欢</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5549ef524fb9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Close: don’t cling to formulas—try more because you like it</span></div>
+<audio class="cap-audio" src="audio/5549ef524fb9.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（69段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>写了旋循律律怎么配合先首先你应该先看过昨天的视频你</p></div>
+<div class="transcript-row"><time>00:30</time><p>就不在</p></div>
+<div class="transcript-row"><time>01:00</time><p>他也是很很很很很很很很很很很</p></div>
+<div class="transcript-row"><time>01:30</time><p>我们用C调来举例啊第一拍就是强拍动</p></div>
+<div class="transcript-row"><time>01:34</time><p>那是强拍那是次强拍来看第二边常规的一到七级的三和弦</p></div>
+<div class="transcript-row"><time>01:43</time><p>走开上课呢看第一个强拍是什么多对不对多后面跟著谁啊多后面跟了C多多</p></div>
+<div class="transcript-row"><time>01:50</time><p>所以这里谁比较多呢</p></div>
+<div class="transcript-row"><time>01:52</time><p>都比较多我们就取多这七个和弦里面那</p></div>
+<div class="transcript-row"><time>02:22</time><p>这里用</p></div>
+<div class="transcript-row"><time>02:22</time><p>我上课了你别捣乱那到第二个小节了第二个小节的多他后面跟了谁呀</p></div>
+<div class="transcript-row"><time>02:31</time><p>跟了C和拉那你会发现多C拉这三个音是不是在所有的和弦里面都有出现过</p></div>
+<div class="transcript-row"><time>02:40</time><p>那我们取谁呢好的朋友们假设前面两个和弦就是六级和四级</p></div>
+<div class="transcript-row"><time>02:45</time><p>那么接下来这个和弦是不是从一级到七级都可以接来我们一起来看来你听</p></div>
+<div class="transcript-row"><time>02:52</time><p>你怎么去</p></div>
+<div class="transcript-row"><time>02:55</time><p>在一天先赶上可以用是不是我们也可以给他转一下位变成</p></div>
+<div class="transcript-row"><time>03:05</time><p>在一天先赶上该变成美塑多变成所多米行不行的第二转位</p></div>
+<div class="transcript-row"><time>03:14</time><p>在一天先干燥也可以</p></div>
+<div class="transcript-row"><time>03:17</time><p>刚刚这三种都可以但是我个人比较喜欢第二转位C大三和弦第二转位</p></div>
+<div class="transcript-row"><time>03:52</time><p>第一音是三音</p></div>
+<div class="transcript-row"><time>03:53</time><p>在天线上剁嘴</p></div>
+<div class="transcript-row"><time>03:58</time><p>欸 有一点怪 哪里怪</p></div>
+<div class="transcript-row"><time>04:00</time><p>好像是这个</p></div>
+<div class="transcript-row"><time>04:02</time><p>这个发有点怪</p></div>
+<div class="transcript-row"><time>04:03</time><p>这个拉 这个多是不是太高了</p></div>
+<div class="transcript-row"><time>04:06</time><p>这样子低一点可能会好一点</p></div>
+<div class="transcript-row"><time>04:08</time><p>那我们把高音多转到底下来</p></div>
+<div class="transcript-row"><time>04:11</time><p>我们给它变成多</p></div>
+<div class="transcript-row"><time>04:12</time><p>B 索 C 略</p></div>
+<div class="transcript-row"><time>04:15</time><p>下去在天线上剁嘴</p></div>
+<div class="transcript-row"><time>04:18</time><p>欸 这样是不是就可以用了</p></div>
+<div class="transcript-row"><time>04:20</time><p>B 小七降13和弦</p></div>
+<div class="transcript-row"><time>04:21</time><p>发拉多能不能直接用</p></div>
+<div class="transcript-row"><time>04:23</time><p>可以的</p></div>
+<div class="transcript-row"><time>05:22</time><p>这样子是不是</p></div>
+<div class="transcript-row"><time>05:24</time><p>我们给它变成挂留和弦呢</p></div>
+<div class="transcript-row"><time>05:27</time><p>五一二 是不是也可以</p></div>
+<div class="transcript-row"><time>05:30</time><p>然后我们给它转一下位</p></div>
+<div class="transcript-row"><time>05:32</time><p>给它转成二五一</p></div>
+<div class="transcript-row"><time>05:37</time><p>是不是也可以啊</p></div>
+<div class="transcript-row"><time>05:40</time><p>那六级和弦拉多密能不能用</p></div>
+<div class="transcript-row"><time>05:42</time><p>能用</p></div>
+<div class="transcript-row"><time>05:43</time><p>又包含了多 又包含了拉</p></div>
+<div class="transcript-row"><time>05:45</time><p>是不是</p></div>
+<div class="transcript-row"><time>05:46</time><p>也可以怎么样</p></div>
+<div class="transcript-row"><time>05:47</time><p>也可以给它转位</p></div>
+<div class="transcript-row"><time>05:48</time><p>A小和弦第一转位</p></div>
+<div class="transcript-row"><time>05:50</time><p>那七级和弦 谁会发能不能用</p></div>
+<div class="transcript-row"><time>05:52</time><p>不能直接用</p></div>
+<div class="transcript-row"><time>05:53</time><p>七级和弦是一个非常特殊的存在</p></div>
+<div class="transcript-row"><time>05:55</time><p>新手尽量避免去使用它</p></div>
+<div class="transcript-row"><time>05:57</time><p>但是能不能用呢</p></div>
+<div class="transcript-row"><time>05:59</time><p>能用要改</p></div>
+<div class="transcript-row"><time>06:03</time><p>B半减七和弦第一转位加降九音</p></div>
+<div class="transcript-row"><time>06:06</time><p>所以用什么和弦</p></div>
+<div class="transcript-row"><time>06:07</time><p>是由和弦公式决定的吗</p></div>
+<div class="transcript-row"><time>06:09</time><p>我觉得不是这样子</p></div>
+<div class="transcript-row"><time>06:10</time><p>这期视频其实我想录很久了</p></div>
+<div class="transcript-row"><time>06:13</time><p>我一直在犹豫</p></div>
+<div class="transcript-row"><time>06:14</time><p>要不要按和弦公式</p></div>
+<div class="transcript-row"><time>06:16</time><p>拍给你们看</p></div>
+<div class="transcript-row"><time>06:17</time><p>因为那样会很简单</p></div>
+<div class="transcript-row"><time>06:18</time><p>当然我可以告诉你们和弦公式</p></div>
+<div class="transcript-row"><time>06:20</time><p>但是</p></div>
+<div class="transcript-row"><time>06:48</time><p>因为你喜欢啊</p></div>
+<div class="transcript-row"><time>07:18</time><p>是不是你喜欢</p></div>
+<div class="transcript-row"><time>07:19</time><p>所以多尝试</p></div>
+<div class="transcript-row"><time>07:21</time><p>不管是和弦还是人声</p></div>
+<div class="transcript-row"><time>07:25</time><p>都没有标准答案</p></div>
+<div class="transcript-row"><time>07:26</time><p>你自己去试</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

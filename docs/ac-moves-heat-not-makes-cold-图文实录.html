@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「拆原解理」硬核科普：空调不造冷，只把室内热搬到室外。从液体蒸发吸热类比切入，串起蒸汽压缩制冷循环四步（压缩→冷凝→节流→蒸发），解释为何能效比可大于 1，并对比定频／变频与热泵制热。片中标题原文为空，索引题取自简介与核心论断。">
+<title>空调不制造冷气：它只是热量搬运工｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>空调不制造冷气：它只是热量搬运工</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">7分37秒</span><span class="meta-tag tag-topic">空调 制冷循环 热泵 变频 科普</span></div>
+<a class="source-link" href="https://xhslink.cn/o/3vAs9Lz8v8i" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">冷感来自蒸发抢热，不是凭空造冷</a><a href="#ch2">压缩机：先把热拔到比室外更热</a><a href="#ch3">定频开关 vs 变频巡航</a><a href="#ch4">能效比为什么能大于 1</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>「拆原解理」硬核科普：空调不造冷，只把室内热搬到室外。从液体蒸发吸热类比切入，串起蒸汽压缩制冷循环四步（压缩→冷凝→节流→蒸发），解释为何能效比可大于 1，并对比定频／变频与热泵制热。片中标题原文为空，索引题取自简介与核心论断。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→01:20]</span><div><strong>蒸发吸热</strong><p>洗澡／酒精发凉=蒸发抢热；空调把它工程化。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:20→03:30]</span><div><strong>四步循环</strong><p>压缩升温→室外放热液化→节流降温→室内蒸发吸热。</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:30→05:20]</span><div><strong>变频意义</strong><p>定频猛踩猛刹；变频巡航更稳更省。</p></div></div>
+<div class="summary-row"><span class="time-marker">[05:20→07:37]</span><div><strong>搬运费</strong><p>电驱动搬运故 COP>1；热泵一度电能搬数倍热。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>空调是热泵式搬运工：压缩机负责让热「够资格」排到更热的室外；你付的电费是搬运费，不是造冷费。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-01:20</span>冷感来自蒸发抢热，不是凭空造冷</h2><p>开场用「离天才只差一台空调」玩笑引入。原理说白了：液体蒸发会吸热。洗澡后冷、手臂抹酒精凉，都是周围热量被蒸发抢走。</p><p>空调找极易蒸发且吸热猛的制冷剂：室内蒸发吸热，室外再变回液体放热，循环往复——蒸汽压缩制冷循环。家用、汽车、中央空调核心都是这一套。</p><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-01.jpg" alt="室内机特写：空调只是热量搬运工" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:14] 室内机特写：空调只是热量搬运工</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a4b4c9b62474.mp3" type="button" aria-label="Play English audio">🔊</button><span>Indoor unit close-up: AC is only a heat mover</span></div>
+<audio class="cap-audio" src="audio/a4b4c9b62474.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-02.jpg" alt="蒸发吸热类比：洗澡后皮肤水蒸发觉得冷" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:42] 蒸发吸热类比：洗澡后皮肤水蒸发觉得冷</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0a0b99c04e7a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Evaporation analogy: you feel cold as skin water evaporates</span></div>
+<audio class="cap-audio" src="audio/0a0b99c04e7a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-03.jpg" alt="蒸汽压缩制冷循环剖视图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:12] 蒸汽压缩制冷循环剖视图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/778b3ea127a2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cutaway of the vapor-compression refrigeration cycle</span></div>
+<audio class="cap-audio" src="audio/778b3ea127a2.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">01:20-03:30</span>压缩机：先把热拔到比室外更热</h2><p>关键问题：制冷剂室内蒸发后怎么在室外变回液体？压缩机把低压气态暴力压成高温高压，温度可到七八十度，比四十度户外空气还热，于是冷凝器能把热放给室外——热永远从高温流向低温。</p><p>这一步不是「送冷」，是先让热变得够资格被室外接收。随后高压液体经膨胀阀节流，压力与沸点骤降，剧烈蒸发降温到零下区间，再进室内蒸发器吸走房间热量。</p><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-04.jpg" alt="压缩机把低压气态暴力压成高温高压" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:02] 压缩机把低压气态暴力压成高温高压</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/83166cf7483c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Compressor violently packs low-pressure gas into hot high pressure</span></div>
+<audio class="cap-audio" src="audio/83166cf7483c.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-05.jpg" alt="室外冷凝放热：先让热「够资格」被室外接收" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] 室外冷凝放热：先让热「够资格」被室外接收</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5da8322d3c5b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Outdoor condensing: first make heat ‘qualified’ for outdoor air</span></div>
+<audio class="cap-audio" src="audio/5da8322d3c5b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-06.jpg" alt="节流后进入室内蒸发器吸热" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:06] 节流后进入室内蒸发器吸热</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4f65d473f196.mp3" type="button" aria-label="Play English audio">🔊</button><span>After throttling, refrigerant enters the indoor evaporator</span></div>
+<audio class="cap-audio" src="audio/4f65d473f196.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch3"><h2><span class="time-marker">03:30-05:20</span>定频开关 vs 变频巡航</h2><p>四步周而复始。定频只有开／关，温度到了停、高了又启动，费电且波动大；变频可调转速，接近设定就慢转维持，像巡航对猛踩猛刹。</p><p>画面展示变频器电路与室内气流；冷凝水多了沿排水管流出——除湿是副产品，不是另一台魔法机器。</p><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-07.jpg" alt="定频反复开关 vs 变频调速巡航" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:56] 定频反复开关 vs 变频调速巡航</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9fafb3597260.mp3" type="button" aria-label="Play English audio">🔊</button><span>On/off fixed-speed vs inverter cruise control</span></div>
+<audio class="cap-audio" src="audio/9fafb3597260.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-08.jpg" alt="变频器控制电机转速" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:31] 变频器控制电机转速</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ac700fc7ea2f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Inverter board precisely controls motor speed</span></div>
+<audio class="cap-audio" src="audio/ac700fc7ea2f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-09.jpg" alt="冷凝水沿排水管流出（副产品除湿）" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:00] 冷凝水沿排水管流出（副产品除湿）</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b1c8ad4cf751.mp3" type="button" aria-label="Play English audio">🔊</button><span>Condensate drains out—dehumidifying as a byproduct</span></div>
+<audio class="cap-audio" src="audio/b1c8ad4cf751.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch4"><h2><span class="time-marker">05:20-07:37</span>能效比为什么能大于 1</h2><p>电不是用来「制造冷」，而是驱动搬运。所以能效比可以大于 1：花一度电可搬相当于 3–5 度电的热量，不违反守恒——那些热本来就在空气里，电只是搬运费。</p><p>对比电暖气一度只能产一度热；空调热泵一度可从室外搬进数倍热。收束：遥控器启动的是相变、压缩、节流、变频与传热的完整循环，制冷剂每秒数米奔跑，把你不要的热一车车往外运。</p><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-10.jpg" alt="能效比可>1：电是搬运费不是造冷费" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:32] 能效比可>1：电是搬运费不是造冷费</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/44a0e93019ed.mp3" type="button" aria-label="Play English audio">🔊</button><span>COP can exceed 1: electricity pays moving cost, not ‘making cold’</span></div>
+<audio class="cap-audio" src="audio/44a0e93019ed.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-11.jpg" alt="热泵制热：一度电能搬3-5度电的热" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:00] 热泵制热：一度电能搬3-5度电的热</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d1b17b8aaf11.mp3" type="button" aria-label="Play English audio">🔊</button><span>Heat-pump heating: one kWh can move 3–5 kWh of heat</span></div>
+<audio class="cap-audio" src="audio/d1b17b8aaf11.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/ac-moves-heat-not-makes-cold/shot-12.jpg" alt="收束：一车车往外运你不要的热量" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:20] 收束：一车车往外运你不要的热量</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/138e39767074.mp3" type="button" aria-label="Play English audio">🔊</button><span>Close: carting unwanted heat outdoors, load after load</span></div>
+<audio class="cap-audio" src="audio/138e39767074.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（136段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>防止痴呆最好的方式</p></div>
+<div class="transcript-row"><time>00:30</time><p>看完你会发现</p></div>
+<div class="transcript-row"><time>00:31</time><p>你离天才之间只差了一台空调</p></div>
+<div class="transcript-row"><time>00:33</time><p>空调的原理</p></div>
+<div class="transcript-row"><time>00:34</time><p>说白了就是利用液体蒸发</p></div>
+<div class="transcript-row"><time>00:36</time><p>会吸热这个现象</p></div>
+<div class="transcript-row"><time>00:38</time><p>你洗完澡出来觉得冷</p></div>
+<div class="transcript-row"><time>00:39</time><p>不是因为浴室温度低了</p></div>
+<div class="transcript-row"><time>00:41</time><p>是因为你皮肤上的水在蒸发</p></div>
+<div class="transcript-row"><time>00:43</time><p>蒸发过程从你身体吸走了热量</p></div>
+<div class="transcript-row"><time>00:46</time><p>你在手臂上抹一点酒精</p></div>
+<div class="transcript-row"><time>00:48</time><p>觉得凉嗖嗖的也是一回事</p></div>
+<div class="transcript-row"><time>00:50</time><p>液体变成气体需要能量</p></div>
+<div class="transcript-row"><time>00:52</time><p>这个能量从哪来</p></div>
+<div class="transcript-row"><time>00:53</time><p>从周围环境抢来</p></div>
+<div class="transcript-row"><time>00:55</time><p>表现出来就是降温</p></div>
+<div class="transcript-row"><time>00:57</time><p>空调就是把这个现象工程化了</p></div>
+<div class="transcript-row"><time>00:59</time><p>找一种特别容易蒸发</p></div>
+<div class="transcript-row"><time>01:01</time><p>蒸发时吸热特别猛的液体</p></div>
+<div class="transcript-row"><time>01:03</time><p>致冷剂</p></div>
+<div class="transcript-row"><time>01:04</time><p>让它在室内蒸发吸热</p></div>
+<div class="transcript-row"><time>01:06</time><p>然后想办法把它在室外变回液体</p></div>
+<div class="transcript-row"><time>01:08</time><p>把热放出来</p></div>
+<div class="transcript-row"><time>01:09</time><p>如此反复循环</p></div>
+<div class="transcript-row"><time>01:11</time><p>这就是所谓的蒸气压缩致冷循环</p></div>
+<div class="transcript-row"><time>01:14</time><p>一百多年了</p></div>
+<div class="transcript-row"><time>01:15</time><p>你家空调 冰箱 汽车空调</p></div>
+<div class="transcript-row"><time>01:18</time><p>商场中央空调</p></div>
+<div class="transcript-row"><time>01:20</time><p>无论多贵多高端</p></div>
+<div class="transcript-row"><time>01:22</time><p>核心原理全是这一套</p></div>
+<div class="transcript-row"><time>01:24</time><p>关键问题来了</p></div>
+<div class="transcript-row"><time>01:25</time><p>你让致冷剂</p></div>
+<div class="transcript-row"><time>01:26</time><p>在室内蒸发了</p></div>
+<div class="transcript-row"><time>01:56</time><p>它把从室内蒸发器出来的</p></div>
+<div class="transcript-row"><time>01:58</time><p>低压气态致冷剂</p></div>
+<div class="transcript-row"><time>02:00</time><p>暴力压缩成高温高压气体</p></div>
+<div class="transcript-row"><time>02:02</time><p>注意压缩不光升压</p></div>
+<div class="transcript-row"><time>02:04</time><p>还会升温</p></div>
+<div class="transcript-row"><time>02:06</time><p>压缩后的致冷剂温度</p></div>
+<div class="transcript-row"><time>02:07</time><p>能到七八十度甚至更高</p></div>
+<div class="transcript-row"><time>02:09</time><p>这时候它比室外空气热得多</p></div>
+<div class="transcript-row"><time>02:12</time><p>所以到了室外冷凝气</p></div>
+<div class="transcript-row"><time>02:14</time><p>它可以自然地把热量释放给四十度的空气</p></div>
+<div class="transcript-row"><time>02:17</time><p>因为热量永远从高温流向低温</p></div>
+<div class="transcript-row"><time>02:20</time><p>散热完成后</p></div>
+<div class="transcript-row"><time>02:21</time><p>致冷剂在高压状态下冷却液化</p></div>
+<div class="transcript-row"><time>02:24</time><p>重新变成液体</p></div>
+<div class="transcript-row"><time>02:25</time><p>你看</p></div>
+<div class="transcript-row"><time>02:26</time><p>压缩机做的事</p></div>
+<div class="transcript-row"><time>02:27</time><p>就是把致冷剂的温度拔高</p></div>
+<div class="transcript-row"><time>02:29</time><p>到比室外更热</p></div>
+<div class="transcript-row"><time>02:31</time><p>这样热量才能从致冷剂</p></div>
+<div class="transcript-row"><time>02:33</time><p>转移到室外空气</p></div>
+<div class="transcript-row"><time>02:34</time><p>这一步不是送热</p></div>
+<div class="transcript-row"><time>02:36</time><p>是先让热变得够资格</p></div>
+<div class="transcript-row"><time>02:38</time><p>被室外接收</p></div>
+<div class="transcript-row"><time>02:39</time><p>接下来</p></div>
+<div class="transcript-row"><time>02:40</time><p>液态致冷剂要回到室内去蒸发</p></div>
+<div class="transcript-row"><time>02:42</time><p>但这时候它是高压液体</p></div>
+<div class="transcript-row"><time>02:44</time><p>直接放进蒸发器</p></div>
+<div class="transcript-row"><time>02:46</time><p>它不会老老实实蒸发</p></div>
+<div class="transcript-row"><time>02:47</time><p>所以在进入蒸发器之前</p></div>
+<div class="transcript-row"><time>02:49</time><p>要经过一个节流装置</p></div>
+<div class="transcript-row"><time>02:51</time><p>膨胀阀</p></div>
+<div class="transcript-row"><time>02:52</time><p>这个阀把高压液体</p></div>
+<div class="transcript-row"><time>02:54</time><p>突然释放到低压环境中</p></div>
+<div class="transcript-row"><time>02:56</time><p>压力骤降</p></div>
+<div class="transcript-row"><time>02:57</time><p>沸点骤降</p></div>
+<div class="transcript-row"><time>02:58</time><p>致冷剂立刻开始剧烈蒸发</p></div>
+<div class="transcript-row"><time>03:00</time><p>温度断崖式下跌到零度</p></div>
+<div class="transcript-row"><time>03:02</time><p>甚至零下</p></div>
+<div class="transcript-row"><time>03:03</time><p>然后这团极冷的致冷剂</p></div>
+<div class="transcript-row"><time>03:05</time><p>进入室内蒸发器</p></div>
+<div class="transcript-row"><time>03:07</time><p>室内的热空气被风机吹过</p></div>
+<div class="transcript-row"><time>03:09</time><p>蒸发器表面</p></div>
+<div class="transcript-row"><time>03:10</time><p>热量被致冷剂疯狂吸收</p></div>
+<div class="transcript-row"><time>03:12</time><p>空气温度下降</p></div>
+<div class="transcript-row"><time>03:13</time><p>你觉得凉了</p></div>
+<div class="transcript-row"><time>03:15</time><p>致冷剂吸完热</p></div>
+<div class="transcript-row"><time>03:16</time><p>变成低压气体</p></div>
+<div class="transcript-row"><time>03:17</time><p>回到压缩机</p></div>
+<div class="transcript-row"><time>03:18</time><p>又被压缩升温</p></div>
+<div class="transcript-row"><time>03:19</time><p>送去室外散热</p></div>
+<div class="transcript-row"><time>03:21</time><p>再节流</p></div>
+<div class="transcript-row"><time>03:22</time><p>再蒸发</p></div>
+<div class="transcript-row"><time>03:23</time><p>如此周而复始</p></div>
+<div class="transcript-row"><time>03:24</time><p>四个步骤</p></div>
+<div class="transcript-row"><time>03:25</time><p>L...n... ......</p></div>
+<div class="transcript-row"><time>03:49</time><p>N and T N</p></div>
+<div class="transcript-row"><time>03:52</time><p>病平空调 就是压缩机的转速可以调节</p></div>
+<div class="transcript-row"><time>03:55</time><p>病平空调只有开和关两个状态</p></div>
+<div class="transcript-row"><time>03:58</time><p>温度低了就停机</p></div>
+<div class="transcript-row"><time>03:59</time><p>温度高了就重启</p></div>
+<div class="transcript-row"><time>04:01</time><p>反复开关</p></div>
+<div class="transcript-row"><time>04:01</time><p>不仅沸电</p></div>
+<div class="transcript-row"><time>04:02</time><p>而且温度波动大</p></div>
+<div class="transcript-row"><time>04:04</time><p>变频空调的压缩机</p></div>
+<div class="transcript-row"><time>04:05</time><p>可以根据需要调整转速</p></div>
+<div class="transcript-row"><time>04:07</time><p>快到温度了 就慢转维持</p></div>
+<div class="transcript-row"><time>04:09</time><p>差的远就高速运转</p></div>
+<div class="transcript-row"><time>04:11</time><p>就像开车</p></div>
+<div class="transcript-row"><time>04:12</time><p>病频是一脚油门踩到底</p></div>
+<div class="transcript-row"><time>04:14</time><p>再一脚煞车到底</p></div>
+<div class="transcript-row"><time>04:15</time><p>病频是云速巡航</p></div>
+<div class="transcript-row"><time>04:17</time><p>后者明显更省油 更舒服</p></div>
+<div class="transcript-row"><time>04:19</time><p>现在家用空调的压缩机转速范围</p></div>
+<div class="transcript-row"><time>05:22</time><p>.</p></div>
+<div class="transcript-row"><time>06:22</time><p>从一个地方搬到另一个地方</p></div>
+<div class="transcript-row"><time>06:24</time><p>它的能量消耗不是用来制冷的</p></div>
+<div class="transcript-row"><time>06:26</time><p>而是用来驱动这个搬运过程的</p></div>
+<div class="transcript-row"><time>06:29</time><p>这就是为什么空调的能效比可以大于1</p></div>
+<div class="transcript-row"><time>06:32</time><p>你花一度电的电费</p></div>
+<div class="transcript-row"><time>06:33</time><p>可以搬运相当于3-5度电的热量</p></div>
+<div class="transcript-row"><time>06:36</time><p>它不违反能量守恒</p></div>
+<div class="transcript-row"><time>06:38</time><p>因为那些热量本来就在空气里</p></div>
+<div class="transcript-row"><time>06:40</time><p>电只是搬运费</p></div>
+<div class="transcript-row"><time>06:42</time><p>所以空调是人类发明的</p></div>
+<div class="transcript-row"><time>06:43</time><p>最高效的温度调节方式</p></div>
+<div class="transcript-row"><time>06:45</time><p>没有之一</p></div>
+<div class="transcript-row"><time>06:47</time><p>电暖气花一度电只能产一度电的热量</p></div>
+<div class="transcript-row"><time>06:50</time><p>而空调热泵花一度电</p></div>
+<div class="transcript-row"><time>06:51</time><p>能从室外搬运3-5度电的热量进屋</p></div>
+<div class="transcript-row"><time>06:54</time><p>差距就是这么大</p></div>
+<div class="transcript-row"><time>06:56</time><p>所以你看</p></div>
+<div class="transcript-row"><time>06:57</time><p>你随手按下的那个遥控器</p></div>
+<div class="transcript-row"><time>06:59</time><p>启动的是一个涉及热力学相变</p></div>
+<div class="transcript-row"><time>07:01</time><p>高压压缩</p></div>
+<div class="transcript-row"><time>07:02</time><p>流体节流</p></div>
+<div class="transcript-row"><time>07:03</time><p>电力电子变频控制</p></div>
+<div class="transcript-row"><time>07:05</time><p>和传热学的完整物理循环</p></div>
+<div class="transcript-row"><time>07:07</time><p>一台空调安安静静的挂在你墙上</p></div>
+<div class="transcript-row"><time>07:10</time><p>内部的制冷计正在以每秒几米的速度奔跑</p></div>
+<div class="transcript-row"><time>07:13</time><p>每一圈都经历一次从零下到80度的温度跨越</p></div>
+<div class="transcript-row"><time>07:17</time><p>一次从液体到气体的身份转换</p></div>
+<div class="transcript-row"><time>07:20</time><p>它把你不要的热量一车一车的往外运</p></div>
+<div class="transcript-row"><time>07:22</time><p>永不停歇</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

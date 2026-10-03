@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="街上蓝点稳、进楼/地铁就乱跳：卫星变弱后靠Wi-Fi、基站与惯性估位置。实用法：别关Wi-Fi；出站到开阔处等不确定圈缩小。片尾：卫星不知你在哪，位置由手机自算。">
+  <title>一进地铁，手机定位为什么会乱飘｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}.c{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}h1{font-size:28px;font-weight:800;color:#1c1917;margin-bottom:8px}.meta{color:#78716c;font-size:14px;margin-bottom:24px}.intro{font-size:17px;color:#44403c;line-height:1.9;margin-bottom:32px}img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}figcaption{padding:14px 18px;color:#57534e}.sr{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}.sr .tm{flex-shrink:0;font-size:14px;color:#b45309;font-weight:700;min-width:110px}.sr strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}.sr p{color:#57534e;margin:0;font-size:15px}.tb{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}.tb strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}.tb p{color:#1e40af;margin:0;font-size:15px}h2{font-size:22px;font-weight:700;color:#1c1917;margin:32px 0 16px}h3{font-size:18px;font-weight:700;color:#1c1917;margin:28px 0 14px}.ss .trng{font-size:13px;color:#b45309;font-weight:600;margin-bottom:10px}.ss p{color:#44403c;margin-bottom:12px}.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}.sl{display:inline-block;color:#3b82f6;font-size:14px;text-decoration:none;margin-top:8px}.tsl{list-style:none;padding:0}.tr{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}.tr time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}.tr p{margin:0}.tc{border:none;padding:0}.tc summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;font-size:24px;font-weight:700;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}.tc summary::-webkit-details-marker,.tc summary::marker{display:none}.tc summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s}.tc[open] summary::before{transform:rotate(90deg)}.tc[open] summary{margin-bottom:16px}.note{font-size:14px;color:#78716c}@media(max-width:640px){.c{padding:28px 18px 56px}.tr{grid-template-columns:56px 1fr;gap:10px}.sr{flex-direction:column}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="c">
+  <header>
+    <h1>一进地铁，手机定位为什么会乱飘</h1>
+    <div class="meta">时长 1分25秒 · 作者 所以然 · 小红书 · 2026-10-02</div>
+    <p class="intro">所以然「科技拆解·手机篇」约85秒动画科普。Whisper口播残缺，但笔记文案几乎就是完整讲稿：室外测、室内猜、多路径反射、辅助定位与实用建议。实录以文案+动画画面为准。</p>
+    <a class="sl" href="https://xhslink.cn/o/ATEglk5MMjY" target="_blank" rel="noopener">→ 查看原视频（小红书）</a>
+  </header>
+  <article>
+    <h2>内容要点</h2>
+    <h3>知识结构</h3>
+    <div class="sr"><span class="tm">[00:00→00:25]</span><div><strong>室外测 vs 室内猜</strong><p>室外多星±数米；室内0星误差可到数十米，蓝点开始乱跳。</p></div></div><div class="sr"><span class="tm">[00:25→00:55]</span><div><strong>高楼多路径</strong><p>信号撞墙反弹，路径变长，距离算错。</p></div></div><div class="sr"><span class="tm">[00:55→01:25]</span><div><strong>对策与真相</strong><p>别关Wi-Fi；出站等圈缩小；GPS是手机自算位置。</p></div></div>
+    <div class="tb"><strong>总结</strong><p>乱飘不是手机坏了，是卫星弱后的估计态；用Wi-Fi与开阔处收敛不确定度。</p></div>
+    <div class="warn">口播转录很少；关键数据与结论来自作者文案与片内动画标注。</div>
+    <section class="ss">
+      <h2>图文实录</h2>
+      <h3>室外在测，室内在猜</h3>
+<div class="trng">00:00 – 00:25</div>
+<p>动画对照：室外连9星误差约±4m；室内0星误差可到±35m。走进楼里没几步蓝点就开始乱跳。</p>
+<figure><img src="assets/subway-phone-gps-drift/shot-01.jpg" alt="室外测室内猜对照图" loading="lazy"><figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[00:11]</span>室外±4m vs 室内±35m：从测变成猜</div><div class="cap-en"><button class="cap-speak" data-audio="audio/11f139d35469.mp3" type="button" aria-label="Play English audio">🔊</button><span>Outdoor ±4m vs indoor ±35m: measuring becomes guessing</span></div><audio class="cap-audio" src="audio/11f139d35469.mp3" preload="none"></audio></figcaption></figure><h3>城市峡谷：信号绕路</h3>
+<div class="trng">00:25 – 00:55</div>
+<p>高楼中间直达路径被挡，信号撞墙反弹，多绕了路，距离就算错——解释「飘」的几何原因。</p>
+<figure><img src="assets/subway-phone-gps-drift/shot-02.jpg" alt="信号撞墙反弹示意" loading="lazy"><figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[00:32]</span>撞墙反弹：路径变长导致距离算错</div><div class="cap-en"><button class="cap-speak" data-audio="audio/0d4175fca9e9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Wall bounce: longer path makes distance wrong</span></div><audio class="cap-audio" src="audio/0d4175fca9e9.mp3" preload="none"></audio></figcaption></figure>
+<figure><img src="assets/subway-phone-gps-drift/shot-03.jpg" alt="辅助定位示意" loading="lazy"><figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[00:53]</span>卫星弱后：Wi-Fi/基站/惯性来估</div><div class="cap-en"><button class="cap-speak" data-audio="audio/e4036a33a6e9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Weak satellites: Wi-Fi, cell, and inertial cues estimate location</span></div><audio class="cap-audio" src="audio/e4036a33a6e9.mp3" preload="none"></audio></figcaption></figure><h3>实用建议与片尾真相</h3>
+<div class="trng">00:55 – 01:25</div>
+<p>别关Wi-Fi；出站到开阔处停几秒，等蓝点外圈缩小再走。片尾点明：卫星不知道你在哪，GPS单向广播，位置由手机自己算。</p>
+<figure><img src="assets/subway-phone-gps-drift/shot-04.jpg" alt="出站等待定位收敛" loading="lazy"><figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[01:14]</span>对策：开阔处等待不确定圈缩小</div><div class="cap-en"><button class="cap-speak" data-audio="audio/1042fb4cb237.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tip: wait in the open until the uncertainty ring shrinks</span></div><audio class="cap-audio" src="audio/1042fb4cb237.mp3" preload="none"></audio></figcaption></figure>
+    </section>
+  </article>
+  <section class="transcript-section" id="transcript">
+    <details class="tc">
+      <summary>详细文字转录</summary>
+      <div>
+        <p class="note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差与繁简混杂。</p>
+        <ol class="tsl"><li class="tr" id="transcript-1"><time datetime="PT0S">00:00</time><p>地鐵里一看手機</p></li><li class="tr" id="transcript-2"><time datetime="PT30S">00:30</time><p>多繞路路路路路</p></li></ol>
+      </div>
+    </details>
+  </section>
+</main>
+<script>(function(){var d=document.querySelector(".tc");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){if(a!==except){a.pause();a.currentTime=0;}});
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}});
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){stopOthers(au);btn.classList.add('playing');au.play();}
+    else{au.pause();au.currentTime=0;btn.classList.remove('playing');}
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

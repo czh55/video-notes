@@ -33,7 +33,10 @@ figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.6}
 .transcript-collapsible[open] summary::before{transform:rotate(90deg)}
 .transcript-collapsible[open] summary{margin-bottom:16px}
 .transcript-note{font-size:14px;color:#a8a29e;margin-bottom:16px}
-@media(max-width:640px){.container{padding:28px 18px 56px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style></head><body><main class="container"><header><h1>主持人手把手跟练🎤4天练出说话的“画面感”</h1><div class="meta"><span>来源：小红书</span><span>时长：1分46秒</span></div><a class="original-link" href="https://xhslink.cn/o/AKsu46fhtFo" target="_blank" rel="noopener">查看原视频</a></header><article class="documentary"><h2>内容要点</h2><p>开场点破：你说话别人总记不住，对方只会「哦对」然后就没有然后了。四天只练一件事——具体化，让听者脑子里自动放电影。前三天练结构把话说顺之后，仍可能干巴巴。作者从出镜记者经验出发：别说「风真的很大」，要说风雨倾斜砸过来、行道树树冠压得往一边塌、广告牌铁皮哗哗抖得像要撕开。方法叫「五感钩子法」：视听嗅味触里随便挑两个加进话里，多了像作文，两个刚刚好。用「周末煮泡面」改写示范，并布置三天打卡作业。</p><h3>知识结构</h3>
+@media(max-width:640px){.container{padding:28px 18px 56px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style><style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head><body><main class="container"><header><h1>主持人手把手跟练🎤4天练出说话的“画面感”</h1><div class="meta"><span>来源：小红书</span><span>时长：1分46秒</span></div><a class="original-link" href="https://xhslink.cn/o/AKsu46fhtFo" target="_blank" rel="noopener">查看原视频</a></header><article class="documentary"><h2>内容要点</h2><p>开场点破：你说话别人总记不住，对方只会「哦对」然后就没有然后了。四天只练一件事——具体化，让听者脑子里自动放电影。前三天练结构把话说顺之后，仍可能干巴巴。作者从出镜记者经验出发：别说「风真的很大」，要说风雨倾斜砸过来、行道树树冠压得往一边塌、广告牌铁皮哗哗抖得像要撕开。方法叫「五感钩子法」：视听嗅味触里随便挑两个加进话里，多了像作文，两个刚刚好。用「周末煮泡面」改写示范，并布置三天打卡作业。</p><h3>知识结构</h3>
 <div class="summary-row"><span class="time-marker">[00:00→00:19]</span><div><strong>问题与目标</strong><p>记不住、只回哦对；四天练具体化，让对方脑内放电影。</p></div></div>
 <div class="summary-row"><span class="time-marker">[00:19→00:35]</span><div><strong>记者反例</strong><p>别说风很大；风雨砸、树冠塌、广告牌抖——立刻有画面。</p></div></div>
 <div class="summary-row"><span class="time-marker">[00:35→00:55]</span><div><strong>五感钩子法</strong><p>视听嗅味触任选两个；多了像作文，两个刚好。</p></div></div>
@@ -108,4 +111,39 @@ figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.6}
 <div class="transcript-row"><time>01:40</time><p>加我今天用五感描述的一件事</p></div>
 <div class="transcript-row"><time>01:42</time><p>最好用语音的形式</p></div>
 <div class="transcript-row"><time>01:44</time><p>这三天我来批作业</p></div>
-</div></div></details></section></main><script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script></body></html>
+</div></div></details></section></main><script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script><script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

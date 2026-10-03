@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5127" viewBox="0 0 1320 5127">
+  <foreignObject x="0" y="0" width="1320" height="5127">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>奥迪A6L：争论的是100毫米，留下的是长轴距时代</h1>
+  <div class="meta"><span class="tag tag-blue">奥迪A6L</span><span class="tag tag-green">加长</span><span class="tag tag-orange">国产化</span><span class="tag tag-purple">豪华车</span><span class="tag tag-red">轴距</span><span class="tag tag-gray">时长 3分56秒</span><span class="tag tag-gray">理性分析 · 产品战略</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/3o4AA1pzogB">原视频</a>
+  <div class="summary-line">核心判断：中国版A6的加长不是C6突发奇想——C5已+90mm，C6再+100mm并命名A6L，把本地后排需求写成车名；毫米数是争论焦点，路径依赖才是遗产。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:10</span><span class="timeline-text">后排施压：再加100毫米</span></div><div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">1999 C5：已比全球版+90mm</span></div><div class="timeline-item"><span class="timeline-time">02:20</span><span class="timeline-text">2005 C6：再加100mm并诞生A6L</span></div><div class="timeline-item"><span class="timeline-time">03:20</span><span class="timeline-text">A4L等跟进，长轴距成常态</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>要不要为中国加长</div><span class="arrow">→</span><div class="node-green">证据<br/>C5先例+C6加码</div><span class="arrow">→</span><div class="node-orange">判断<br/>L成为品类符号</div><span class="arrow">→</span><div class="node-blue">行动<br/>看命名背后的本地需求</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：A6L加长从C6才开始。纠偏：旁白明确C5国产版已+90mm。</p><p>误解：争论只剩舒适性毫米数。纠偏：真正留下的是长轴距产品线与命名惯例。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：把调研写成戏剧冲突</h3>
+      <p>短剧用「坐后面还要加长」把中国市场后排执念可视化，再嵌入真实产品时间线。</p>
+      <div class="quote">当年争论的只是A6要不要再多100毫米。</div>
+      <div class="relation">理解：工程争论常常是市场默认值的前夜。</div>
+    </div>
+    <div class="card card-green">
+      <h3>关键理解：名字比毫米更硬</h3>
+      <p>从有加长到叫A6L，本地化从配置选项升级为品牌语言；A4L跟进证明可复制。</p>
+      <div class="quote">第一次有了一个后来中国消费者无比熟悉的名字——A6L。</div>
+      <div class="relation">用法：评估「中国特供」看是否进入命名与产品矩阵。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>证据边界：演绎画面</h3>
+      <p>会议室与伪装车为叙事演绎；轴距数字与年份来自口播/字幕，不作论文级史料考证。</p>
+      <div class="quote">留下来的却不只是这100毫米。</div>
+      <div class="relation">立场：视频作者的产业故事化表达。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">视频内加长节点</h2><div class="card"><table><thead><tr><th>世代</th><th>视频给出的变化</th><th>叙事作用</th></tr></thead><tbody><tr><td>C5（1999）</td><td>轴距比全球版+90mm</td><td>证明加长早有先例</td></tr><tr><td>C6（2005）</td><td>再+100mm并称A6L</td><td>命名固化本地策略</td></tr><tr><td>后续</td><td>A4L等长轴距跟进</td><td>从单车到市场常态</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>数字与年份以视频口述为准，细部认证规格请核对官方资料。</li><li>不构成购车或投资建议。</li></ul><div class="pitfall">把「L」只理解成多坐两厘米。</div><div class="pitfall">忽略命名对竞争格局的锁定作用。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>加长是连续战略而非单点决策。</li><li>车名L化是本地需求制度化。</li><li>毫米争论背后是市场默认值迁移。</li></ul><h3>行动清单</h3><ol><li>看一款「中国版」是否进入命名体系。</li><li>对比全球版轴距与后排卖点是否写进广告主轴。</li><li>用竞品是否跟进判断路径是否锁死。</li></ol><h3>关键认知转变</h3><p>从「多加多少毫米」转向「本地需求有没有变成产品语言」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 3分56秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5744" viewBox="0 0 1320 5744">
+  <foreignObject x="0" y="0" width="1320" height="5744">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>肉眼、战斧、菲力从牛身上切出来</h1>
+  <div class="meta"><span class="tag tag-blue">肋眼</span><span class="tag tag-green">战斧</span><span class="tag tag-orange">菲力</span><span class="tag tag-purple">分割</span><span class="tag tag-red">USDA</span><span class="tag tag-gray">时长 2分11秒</span><span class="tag tag-gray">理性分析</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/2rv3BgnjsY3">原视频</a>
+  <div class="summary-line">牛排菜名是切割终点：肋脊→肋眼卷→肉眼/战斧（是否留长肋）；腰大肌里脊→菲力；后腿圆肉更瘦更韧。看懂地图比背菜单有用。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">菜名背后是肌肉地图</span></div><div class="timeline-item"><span class="timeline-time">00:14</span><span class="timeline-text">Beef Rib → Rib Eye Roll</span></div><div class="timeline-item"><span class="timeline-time">00:34</span><span class="timeline-text">横切肉眼；留骨战斧</span></div><div class="timeline-item"><span class="timeline-time">01:02</span><span class="timeline-text">Tenderloin 主打嫩</span></div><div class="timeline-item"><span class="timeline-time">01:22</span><span class="timeline-text">Beef Round 多用粗纤</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">肋脊<br/>肉眼/战斧</div><span class="arrow">→</span><div class="node-green">里脊<br/>菲力</div><span class="arrow">→</span><div class="node-orange">后腿<br/>圆肉/</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>ASR「飞力/肥立」「代句」「节地组织」「Felet Minyak」等校正为菲力、带锯、结缔组织、filet 体系。</p><p>USDA/IMPS 名称以口播教学为准，非法规原文逐字引用。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card ">
+      <h3>战斧不是新物种</h3>
+      <p>战斧=带完整长肋的肋眼规格，视觉差异大于肌肉本质差异。</p>
+      <div class="quote">战斧并不是一种全新的牛排，本质上仍属于带骨的肋眼体系</div>
+      <div class="relation">点餐：为骨头与仪式感付费要心里有数。</div>
+    </div>
+    <div class="card card-green">
+      <h3>肉眼盖 Spinalis 是溢价点</h3>
+      <p>肋眼卷含背最长肌与外侧 Spinalis dorsi（肉眼盖），后者常被强调为珍贵。</p>
+      <div class="quote">还包含外侧非常珍贵的 Spinalis dorsi，也就是我们常说的肉眼盖</div>
+      <div class="relation">看切面：盖帽完整往往更好卖。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>里脊的优势是嫩不是油</h3>
+      <p>腰大肌负荷小、结缔组织少，故嫩；与肋眼的脂肪逻辑不同。</p>
+      <div class="quote">最大的优势不是油脂，而是嫩</div>
+      <div class="relation">烹饪：过火更易干，更忌「当肋眼一样外焦里生」乱套。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>后腿圆肉：多用肌的另一套逻辑</h3>
+      <p>站立行走高频使用 → 脂肪少、纤维粗、更有嚼劲，不适合用肋眼预期衡量。</p>
+      <div class="quote">所以它和肉眼里脊完全不同，脂肪更少，肌肉纤维更粗</div>
+      <div class="relation">用途：炖、薄切、慢煮往往更合适。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">部位对照</h2><div class="card"><table><thead><tr><th>终点菜名</th><th>来源</th><th>关键特征</th></tr></thead><tbody><tr><td>肉眼</td><td>肋眼卷横切</td><td>眼心+肉眼盖，油花</td></tr><tr><td>战斧</td><td>留长肋肋眼</td><td>同系带骨，视觉向</td></tr><tr><td>菲力</td><td>里脊中段</td><td>极嫩、脂少</td></tr><tr><td>圆肉类</td><td>后腿</td><td>粗纤、耐嚼</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>演示为特定工厂/排酸状态，零售盒装命名可能更营销化。</li><li>国家分割标准与 USDA 用词不完全一一对应。</li></ul><div class="pitfall">把战斧当成「比肉眼更高一级的肌肉」。</div><div class="pitfall">用菲力价格预期去买后腿部位。</div><div class="pitfall">只记英文名不看肌肉位置。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>先地图后菜名</li><li>战斧⊂带骨肋眼</li><li>里脊拼嫩、后腿拼嚼劲</li></ul><h3>行动清单</h3><ol><li>点餐先问是否带骨/是否含盖帽</li><li>在家练：对照肋眼与里脊切面照片认肌</li><li>后腿部位改用适合的烹饪法，不要硬煎成「假菲力」</li></ol><h3>关键认知转变</h3><p>以前：按菜单贵贱猜好坏；现在：按解剖位置与运动负荷理解差价。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 2分11秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

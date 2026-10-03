@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4629" viewBox="0 0 1320 4629">
+  <foreignObject x="0" y="0" width="1320" height="4629">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>教你看懂设计师隐藏的小细节</h1>
+  <div class="meta"><span class="tag tag-blue">设计</span><span class="tag tag-green">机械</span><span class="tag tag-orange">环境</span><span class="tag tag-purple">商业</span><span class="tag tag-gray">时长 1分26秒</span><span class="tag tag-gray">理性分析</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/1Bl4HtjscLW">原视频</a>
+  <div class="summary-line">以可滑动路牌固定件破题，把设计从「高大上」还原为街头可分类能力：机械/工业、环境园艺、商业与 LOGO，并延伸到行为设计。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:07</span><span class="timeline-text">路牌轨道可移动</span></div><div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">反驳高大上滤镜</span></div><div class="timeline-item"><span class="timeline-time">00:40</span><span class="timeline-text">摩托=工业/机械</span></div><div class="timeline-item"><span class="timeline-time">00:46</span><span class="timeline-text">绿化=环境/园艺</span></div><div class="timeline-item"><span class="timeline-time">00:53</span><span class="timeline-text">商业体+LOGO</span></div><div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">办事也是设计</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">物件<br/>可滑动固定</div><span class="arrow">→</span><div class="node-green">分类<br/>工业环境商业</div><span class="arrow">→</span><div class="node-orange">延伸<br/>行为设计</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>Whisper 仅「前两天我拍了个路牌」，分类与结论来自字幕贴片。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card ">
+      <h3>好设计常藏在约束解法里</h3>
+      <p>路牌可滑动，是对安装误差与维护的预留，不是装饰。</p>
+      <div class="quote">你看它后面固定的……可以去移动</div>
+      <div class="relation">观察法：先问「它解决了什么装配问题」。</div>
+    </div>
+    <div class="card card-green">
+      <h3>用分类撕掉神秘感</h3>
+      <p>摩托、绿化、商业楼被贴上工业/环境/商业与 LOGO 标签，降低「设计=玄学」门槛。</p>
+      <div class="quote">也是机械设计……也是园艺设计……也包括了LOGO设计</div>
+      <div class="relation">行动：出门点名三类设计各找一例。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>行为也被放进设计能力</h3>
+      <p>求人办事被描述为依赖「设计师能力」——修辞上把沟通策略纳入设计，外延很宽。</p>
+      <div class="quote">包括你要去求人办事……取决于设计师的能力</div>
+      <div class="relation">边界：这是类比，不是设计学科定义。</div>
+    </div></div>
+
+  
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>短视频枚举，不展开每个专业的评价标准。</li><li>「行为设计」为口语延伸，严谨讨论需另立框架。</li></ul><div class="pitfall">看完只记住标签词，不回去看约束与结构。</div><div class="pitfall">把一切成功人际归因于「设计」导致概念膨胀。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>先看约束解法</li><li>再按领域分类</li><li>行为是可选延伸</li></ul><h3>行动清单</h3><ol><li>街拍一件「隐藏机械细节」并写它解决的问题</li><li>同一条街标出工业/环境/商业各一例</li><li>复盘一次办事：目标、约束、路径是否被设计过</li></ol><h3>关键认知转变</h3><p>以前：设计=海报与好看；现在：设计=在约束下把事情安装好、用好、传达到。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 1分26秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

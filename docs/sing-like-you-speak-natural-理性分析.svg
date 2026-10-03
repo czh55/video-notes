@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4775" viewBox="0 0 1320 4775">
+  <foreignObject x="0" y="0" width="1320" height="4775">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>怎么说话就怎么唱歌：状态迁移</h1>
+  <div class="meta"><span class="tag tag-blue">唱歌</span><span class="tag tag-green">说话</span><span class="tag tag-orange">放松</span><span class="tag tag-purple">下巴</span><span class="tag tag-red">模仿</span><span class="tag tag-gray">时长 4分08秒</span><span class="tag tag-gray">理性分析 · 声乐入门</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/1M1ZFYtSQ3f">原视频</a>
+  <div class="summary-line">核心命题：自然唱歌先要对齐说话状态。用不像歌手日常说话的腔去唱，会立刻「不像」；放松下巴，让说话时的口腔感迁移到音高上。模仿像，常常是因为模仿了说话，而不只是旋律。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:40</span><span class="timeline-text">反例腔唱《传奇》</span></div><div class="timeline-item"><span class="timeline-time">00:55</span><span class="timeline-text">李健不会这样说话</span></div><div class="timeline-item"><span class="timeline-time">01:15</span><span class="timeline-text">原则：像说话+松下巴</span></div><div class="timeline-item"><span class="timeline-time">01:35</span><span class="timeline-text">不同说话→不同唱法</span></div><div class="timeline-item"><span class="timeline-time">02:40</span><span class="timeline-text">白板：说话/唱歌</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">反例<br/>表演腔硬唱</div><span class="arrow">→</span><div class="node-green">原则<br/>像说话放松</div><span class="arrow">→</span><div class="node-orange">机制<br/>口腔感迁移</div><span class="arrow">→</span><div class="node-blue">目标<br/>舒服自然</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：像说话=边说边唱。纠偏：笔记强调不是字面混唱，而是状态自然。</p><p>误解：模仿像=只抠音高。纠偏：视频指向说话与口腔感觉。</p><p>误解：一种正确说话腔适用所有歌。纠偏：情绪与形态多样，但底层仍要舒服。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：用反例证明「说话锚点」</h3>
+      <p>先唱得不像，再追问偶像日常说话方式，逼出原则句。</p>
+      <div class="quote">唱歌的时候要像说话一样。</div>
+      <div class="relation">理解：听众先听「人」，再听「技」。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：下巴与对照练习</h3>
+      <p>放松下巴；录一句说话再接同一句歌词，听口腔是否同一套。</p>
+      <div class="quote">这样讲话是我觉得就最舒服的。</div>
+      <div class="relation">行动：每天 3 分钟说话→唱歌无缝切换。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：激励向短课</h3>
+      <p>未系统讲气息共鸣；Whisper 中后段缺失，后半以画面为准。</p>
+      <div class="quote">他模仿他说话呀。</div>
+      <div class="relation">进阶仍需音准节奏课，本片只管「状态入口」。</div>
+    </div></div>
+
+  
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>不替代系统声乐训练。</li><li>曲风差异大时「说话感」权重不同。</li></ul><div class="pitfall">用喊叫冒充自然。</div><div class="pitfall">只模仿音色不模仿语感。</div><div class="pitfall">下巴紧绷却追求高音。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>自然来自说话锚点。</li><li>下巴放松是最低成本入口。</li><li>模仿优先学语感。</li></ul><h3>行动清单</h3><ol><li>选一句旁白录音当说话基准。</li><li>同一句用说话感唱三遍。</li><li>对照偶像访谈与演唱的口腔差异。</li></ol><h3>关键认知转变</h3><p>从「我要唱得像歌手」转向「我要先说得像真人」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 4分08秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

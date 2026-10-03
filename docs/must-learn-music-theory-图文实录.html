@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「陈临」白板课回答初学者连环追问：do 为什么不叫 A、升号井号是什么、降号 b 怎么写。用「七个孩子／男子男子女」记忆十二个半音位置，再落到大调「全全半全全全半」。口播偏繁体 ASR，下文按白板与字幕校正为简体。">
+<title>练啥必须学：乐理知识（唱名字母与全半）｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>练啥必须学：乐理知识（唱名字母与全半）</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">3分04秒</span><span class="meta-tag tag-topic">乐理 唱名 升降号 全半 陈临</span></div>
+<a class="source-link" href="https://xhslink.cn/o/AeISnUnk8TJ" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">唱名字母对照，与「为什么不叫 A」</a><a href="#ch2">七个孩子：把七音记成人</a><a href="#ch3">升号井号与半音距离</a><a href="#ch4">降号、全全半，与「女生不带子」</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>「陈临」白板课回答初学者连环追问：do 为什么不叫 A、升号井号是什么、降号 b 怎么写。用「七个孩子／男子男子女」记忆十二个半音位置，再落到大调「全全半全全全半」。口播偏繁体 ASR，下文按白板与字幕校正为简体。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→00:30]</span><div><strong>唱名与字母</strong><p>do re mi…对应 C D E F G A B；学员问「do 为什么不叫 A」。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:30→01:05]</span><div><strong>七个孩子</strong><p>用老大出生「我出生了」类比兴奋记忆；七个孩子对应七个自然音。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:05→01:50]</span><div><strong>升号与半音</strong><p>井号=升；升 do／升 re；do 与升 do 相隔半音，用 1.5 心算。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:50→02:30]</span><div><strong>降号写法</strong><p>b 是降号：降 re／降 mi；同一半音可用升或降记法。</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:30→03:04]</span><div><strong>全全半</strong><p>回到男子男子女：女生后不带子，对应 3–4、7–1 半音，串成全全半全全全半。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>先认七个自然音字母，再用「男／女」记住哪里没有半音孩子；升降只是半音记法，大调骨架最终是全全半全全全半。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-00:30</span>唱名字母对照，与「为什么不叫 A」</h2><p>开场唱 do re mi fa sol la si，并写出英文名 C D E F G A B。学员追问：这个 do 为什么不叫 A？老师用「这个字为什么叫陈」类比——命名是历史约定，不是她发明的；若能改名她也想叫 A。</p><p>语气轻松，目的是先消掉「字母必须从 A 对齐唱名」的执念，再进入可记的口诀。</p><figure><img src="assets/must-learn-music-theory/shot-01.jpg" alt="白板列出1-7与C-B，字幕问「这个do为什么不叫a」" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 白板列出1-7与C-B，字幕问「这个do为什么不叫a」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/89923423684a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Whiteboard lists 1–7 and C–B; subtitle asks why do is not called A</span></div>
+<audio class="cap-audio" src="audio/89923423684a.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">00:30-01:05</span>七个孩子：把七音记成人</h2><p>她给出记忆法：七个孩子，老大出生很兴奋——「我出生了」。白板在 1–7 下方标「男／女」，把音级拟人化，方便后面讲「谁后面带子、谁不带」。</p><p>强调：七个孩子，但一共有十二个键（半音）。自然音只是七个，中间还有升／降音位。</p><figure><img src="assets/must-learn-music-theory/shot-02.jpg" alt="七个孩子记忆法：男子女男子女排布出现" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:35] 七个孩子记忆法：男子女男子女排布出现</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0a5b176e3c7b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Seven-kids mnemonic: boy-girl pattern appears on the board</span></div>
+<audio class="cap-audio" src="audio/0a5b176e3c7b.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch3"><h2><span class="time-marker">01:05-02:00</span>升号井号与半音距离</h2><p>学员问井号什么意思：井号是「升」。在 do 右上角写 # 就是升 do；在 re 上写就是升 re。do 与升 do 之间是半音关系。</p><p>她用算术辅助：「一和二之间相隔一，一半是 0.5；一加 0.5、二减 0.5 都落到 1.5」——把半音想成相邻整数中间的位置。这是助记，不是正式音程课。</p><figure><img src="assets/must-learn-music-theory/shot-03.jpg" alt="讲解井号：升号是「升」的意思，升do写法" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:09] 讲解井号：升号是「升」的意思，升do写法</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/953b896f6b3d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Explains the sharp: the pound-like sign means raise; writing sharp do</span></div>
+<audio class="cap-audio" src="audio/953b896f6b3d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/must-learn-music-theory/shot-04.jpg" alt="用加减0.5说明半音距离：2-0.5=1.5" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:36] 用加减0.5说明半音距离：2-0.5=1.5</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/df6f279dbfad.mp3" type="button" aria-label="Play English audio">🔊</button><span>Uses ±0.5 arithmetic to show a semitone sits at 1.5</span></div>
+<audio class="cap-audio" src="audio/df6f279dbfad.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch4"><h2><span class="time-marker">02:00-03:04</span>降号、全全半，与「女生不带子」</h2><p>b 是降号：写在 2／3 右上角分别是降 re、降 mi。她承认直接背「全全半」对有些人很难接，所以才设计男子男子女口诀。</p><p>关键句：女子后面不带子——对应大调里 3–4、7–1 没有「半音孩子」，于是整体关系是全全半全全全半。收束反复确认「能不能明白」。</p><figure><img src="assets/must-learn-music-theory/shot-05.jpg" alt="总结关系：全全半全全全半" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:10] 总结关系：全全半全全全半</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/352c7721479b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Summarizes the pattern: W-W-H-W-W-W-H</span></div>
+<audio class="cap-audio" src="audio/352c7721479b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/must-learn-music-theory/shot-06.jpg" alt="回到男子男子女记忆：女生后面不带子" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:48] 回到男子男子女记忆：女生后面不带子</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1ae99103f1a4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Returns to the mnemonic: girls have no trailing ‘child’ (no semitone)</span></div>
+<audio class="cap-audio" src="audio/1ae99103f1a4.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（100段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>Dora me fa sola si</p></div>
+<div class="transcript-row"><time>00:02</time><p>还有英文名C E E F G A B</p></div>
+<div class="transcript-row"><time>00:04</time><p>有人问了老实</p></div>
+<div class="transcript-row"><time>00:05</time><p>这个多么什么不叫A啊</p></div>
+<div class="transcript-row"><time>00:07</time><p>我也想他叫A啊</p></div>
+<div class="transcript-row"><time>00:09</time><p>他为什么不叫A啊</p></div>
+<div class="transcript-row"><time>00:11</time><p>那我问你们为什么这个字叫陈啊</p></div>
+<div class="transcript-row"><time>00:13</time><p>来告诉我</p></div>
+<div class="transcript-row"><time>00:14</time><p>为什么这个字叫陈啊</p></div>
+<div class="transcript-row"><time>00:16</time><p>为什么</p></div>
+<div class="transcript-row"><time>00:18</time><p>这是以前的人创造的啊</p></div>
+<div class="transcript-row"><time>00:22</time><p>不是我创造的啊</p></div>
+<div class="transcript-row"><time>00:24</time><p>宝宝们</p></div>
+<div class="transcript-row"><time>00:25</time><p>我要是能创造</p></div>
+<div class="transcript-row"><time>00:27</time><p>我就管他叫A啊</p></div>
+<div class="transcript-row"><time>00:29</time><p>所以</p></div>
+<div class="transcript-row"><time>00:29</time><p>我给你们想了一个</p></div>
+<div class="transcript-row"><time>00:31</time><p>很好记的办法</p></div>
+<div class="transcript-row"><time>00:33</time><p>七个孩子</p></div>
+<div class="transcript-row"><time>00:34</time><p>老大出生了</p></div>
+<div class="transcript-row"><time>00:35</time><p>对不对</p></div>
+<div class="transcript-row"><time>00:36</time><p>很兴奋</p></div>
+<div class="transcript-row"><time>00:37</time><p>我出生了</p></div>
+<div class="transcript-row"><time>00:42</time><p>这样去记</p></div>
+<div class="transcript-row"><time>00:44</time><p>你有没有明白</p></div>
+<div class="transcript-row"><time>00:45</time><p>这里能明白了啊</p></div>
+<div class="transcript-row"><time>00:46</time><p>不要再问我了</p></div>
+<div class="transcript-row"><time>00:47</time><p>老师为什么他不是A啊</p></div>
+<div class="transcript-row"><time>00:49</time><p>我也不知道</p></div>
+<div class="transcript-row"><time>00:51</time><p>我也很痛苦</p></div>
+<div class="transcript-row"><time>00:52</time><p>男孩</p></div>
+<div class="transcript-row"><time>00:53</time><p>男孩</p></div>
+<div class="transcript-row"><time>00:54</time><p>女孩</p></div>
+<div class="transcript-row"><time>00:55</time><p>男孩</p></div>
+<div class="transcript-row"><time>00:56</time><p>男孩又叫什么</p></div>
+<div class="transcript-row"><time>00:57</time><p>儿子的子</p></div>
+<div class="transcript-row"><time>00:58</time><p>女孩</p></div>
+<div class="transcript-row"><time>00:59</time><p>不叫子</p></div>
+<div class="transcript-row"><time>01:00</time><p>就叫女</p></div>
+<div class="transcript-row"><time>01:01</time><p>所以</p></div>
+<div class="transcript-row"><time>01:02</time><p>一共七个孩子</p></div>
+<div class="transcript-row"><time>01:03</time><p>但是有十二个健</p></div>
+<div class="transcript-row"><time>01:04</time><p>好</p></div>
+<div class="transcript-row"><time>01:05</time><p>有人问</p></div>
+<div class="transcript-row"><time>01:05</time><p>老师</p></div>
+<div class="transcript-row"><time>01:06</time><p>这个井号是什么意思</p></div>
+<div class="transcript-row"><time>01:08</time><p>井号是</p></div>
+<div class="transcript-row"><time>01:09</time><p>深的意思</p></div>
+<div class="transcript-row"><time>01:10</time><p>这是多</p></div>
+<div class="transcript-row"><time>01:11</time><p>对不对</p></div>
+<div class="transcript-row"><time>01:12</time><p>在多上面深</p></div>
+<div class="transcript-row"><time>01:13</time><p>所以他叫什么</p></div>
+<div class="transcript-row"><time>01:14</time><p>他叫深多</p></div>
+<div class="transcript-row"><time>01:17</time><p>在二的右上角</p></div>
+<div class="transcript-row"><time>01:18</time><p>画个几合件</p></div>
+<div class="transcript-row"><time>01:19</time><p>叫什么</p></div>
+<div class="transcript-row"><time>01:20</time><p>叫深ray</p></div>
+<div class="transcript-row"><time>01:21</time><p>那么多和深多之间</p></div>
+<div class="transcript-row"><time>01:22</time><p>是什么关系啊</p></div>
+<div class="transcript-row"><time>01:25</time><p>你把它当成1.5</p></div>
+<div class="transcript-row"><time>01:26</time><p>明白意思吗</p></div>
+<div class="transcript-row"><time>01:27</time><p>一和二之间相隔几</p></div>
+<div class="transcript-row"><time>01:29</time><p>相隔一个数字</p></div>
+<div class="transcript-row"><time>01:30</time><p>对不对</p></div>
+<div class="transcript-row"><time>01:31</time><p>二减一等于一对不对</p></div>
+<div class="transcript-row"><time>01:32</time><p>一等一半是多少</p></div>
+<div class="transcript-row"><time>01:34</time><p>所以</p></div>
+<div class="transcript-row"><time>01:35</time><p>一加0.5等于多少</p></div>
+<div class="transcript-row"><time>01:36</time><p>等于1.5</p></div>
+<div class="transcript-row"><time>01:38</time><p>二减0.5等于1.5</p></div>
+<div class="transcript-row"><time>01:40</time><p>所以这个B是什么意思啊</p></div>
+<div class="transcript-row"><time>01:42</time><p>这个B是酱号的意思</p></div>
+<div class="transcript-row"><time>01:45</time><p>你把这个B</p></div>
+<div class="transcript-row"><time>01:46</time><p>画在这个二的右上角</p></div>
+<div class="transcript-row"><time>01:48</time><p>它叫什么</p></div>
+<div class="transcript-row"><time>01:49</time><p>它叫酱ray</p></div>
+<div class="transcript-row"><time>01:51</time><p>你如果把这个B</p></div>
+<div class="transcript-row"><time>01:52</time><p>画在这个三的右上角</p></div>
+<div class="transcript-row"><time>01:54</time><p>那它叫什么</p></div>
+<div class="transcript-row"><time>01:55</time><p>它叫酱B</p></div>
+<div class="transcript-row"><time>01:57</time><p>到此为止能不能明白</p></div>
+<div class="transcript-row"><time>01:59</time><p>所以多和深多</p></div>
+<div class="transcript-row"><time>02:31</time><p>直接讲他们全全半</p></div>
+<div class="transcript-row"><time>02:32</time><p>全全半不就好了吗</p></div>
+<div class="transcript-row"><time>02:36</time><p>不是每个人脑子</p></div>
+<div class="transcript-row"><time>02:37</time><p>都算你这么好的</p></div>
+<div class="transcript-row"><time>02:38</time><p>比如说我</p></div>
+<div class="transcript-row"><time>02:39</time><p>我当时我是听不下来</p></div>
+<div class="transcript-row"><time>02:41</time><p>很难接</p></div>
+<div class="transcript-row"><time>02:42</time><p>真的很难接</p></div>
+<div class="transcript-row"><time>02:43</time><p>所以回到开始</p></div>
+<div class="transcript-row"><time>02:45</time><p>为什么我要设定他们为</p></div>
+<div class="transcript-row"><time>02:47</time><p>男子男子女</p></div>
+<div class="transcript-row"><time>02:48</time><p>男子男子女</p></div>
+<div class="transcript-row"><time>02:50</time><p>因为三期女生节</p></div>
+<div class="transcript-row"><time>02:54</time><p>女生后面是不带子的</p></div>
+<div class="transcript-row"><time>02:56</time><p>这样好不好接</p></div>
+<div class="transcript-row"><time>02:58</time><p>今天就讲到这里</p></div>
+<div class="transcript-row"><time>02:59</time><p>能不能明白</p></div>
+<div class="transcript-row"><time>03:01</time><p>P!</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

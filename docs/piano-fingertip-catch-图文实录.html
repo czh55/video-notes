@@ -33,7 +33,10 @@ figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.6}
 .transcript-collapsible[open] summary::before{transform:rotate(90deg)}
 .transcript-collapsible[open] summary{margin-bottom:16px}
 .transcript-note{font-size:14px;color:#a8a29e;margin-bottom:16px}
-@media(max-width:640px){.container{padding:28px 18px 56px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style></head><body><main class="container"><header><h1>第13集｜一个动作让你弹出更专业的感觉</h1><div class="meta"><span>来源：小红书</span><span>时长：3分40秒</span></div><a class="original-link" href="https://xhslink.cn/o/AuZje16MzUF" target="_blank" rel="noopener">查看原视频</a></header><article class="documentary"><h2>内容要点</h2><p>作者对比「用指尖 / 不用指尖」的听感，点出穿音教授课上的提壶灌顶：弹强时明明使劲，却要么力量出不来，要么响得吵、闹。前提是大臂往前送、不耸肩；力要流动，不能拍苍蝇式砸死。精髓是送完后指尖瞬间抓住、立住——音更透亮不死，旋律也更清晰，左手触键则像章鱼一样摸、三关节主动而不必过度勾尖。</p><h3>知识结构</h3>
+@media(max-width:640px){.container{padding:28px 18px 56px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style><style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head><body><main class="container"><header><h1>第13集｜一个动作让你弹出更专业的感觉</h1><div class="meta"><span>来源：小红书</span><span>时长：3分40秒</span></div><a class="original-link" href="https://xhslink.cn/o/AuZje16MzUF" target="_blank" rel="noopener">查看原视频</a></header><article class="documentary"><h2>内容要点</h2><p>作者对比「用指尖 / 不用指尖」的听感，点出穿音教授课上的提壶灌顶：弹强时明明使劲，却要么力量出不来，要么响得吵、闹。前提是大臂往前送、不耸肩；力要流动，不能拍苍蝇式砸死。精髓是送完后指尖瞬间抓住、立住——音更透亮不死，旋律也更清晰，左手触键则像章鱼一样摸、三关节主动而不必过度勾尖。</p><h3>知识结构</h3>
 <div class="summary-row"><span class="time-marker">[00:00→00:41]</span><div><strong>问题立题</strong><p>强音使劲却出不来，或响却吵；提壶灌顶点在「抓指尖」。</p></div></div>
 <div class="summary-row"><span class="time-marker">[00:41→01:16]</span><div><strong>前提：大臂送</strong><p>不耸肩、往前推琴；站起试 Ring Drops，先让手臂出来。</p></div></div>
 <div class="summary-row"><span class="time-marker">[01:16→02:23]</span><div><strong>精髓：指尖抓住</strong><p>力流动 + 送完瞬间抓住立住；对照不抓=吵且死。</p></div></div>
@@ -101,4 +104,39 @@ figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.6}
 <div class="transcript-row"><time>03:31</time><p>用指尖往回勾一下</p></div>
 <div class="transcript-row"><time>03:35</time><p>去试一下</p></div>
 <div class="transcript-row"><time>03:37</time><p>一定要把指尖勾出去</p></div>
-</div></div></details></section></main><script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script></body></html>
+</div></div></details></section></main><script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script><script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4775" viewBox="0 0 1320 4775">
+  <foreignObject x="0" y="0" width="1320" height="4775">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>正午硬光：观察与利用，而不是回避</h1>
+  <div class="meta"><span class="tag tag-blue">摄影</span><span class="tag tag-green">用光</span><span class="tag tag-orange">正午</span><span class="tag tag-purple">阴影</span><span class="tag tag-red">对比</span><span class="tag tag-gray">时长 8分38秒</span><span class="tag tag-gray">理性分析 · 用光</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/2p62c2efvmP">原视频</a>
+  <div class="summary-line">核心命题：刺眼正午光不是摄影禁区。学会观察光线后，可用侧光/逆光/阴影框架与高对比色彩；黄金时段有优势，但不垄断「值得拍」的时间。后期也不必把所有阴影细节救回。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">强光巷道与钟楼高对比</span></div><div class="timeline-item"><span class="timeline-time">03:00</span><span class="timeline-text">改机位后明暗结构变了</span></div><div class="timeline-item"><span class="timeline-time">04:00</span><span class="timeline-text">后期不必恢复全部细节</span></div><div class="timeline-item"><span class="timeline-time">08:00</span><span class="timeline-text">口播：观察并利用光线</span></div><div class="timeline-item"><span class="timeline-time">08:25</span><span class="timeline-text">其他时段也可能独特</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">偏见<br/>只拍黄金时段</div><span class="arrow">→</span><div class="node-green">现场<br/>硬光高对比巷道</div><span class="arrow">→</span><div class="node-orange">动作<br/>改向/用影/取舍</div><span class="arrow">→</span><div class="node-blue">结论<br/>光是资源不是敌人</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：正午一定拍坏。纠偏：硬光可提供框架与冲击力。</p><p>误解：阴影都要在后期拉回。纠偏：视频明确说不必恢复所有细节。</p><p>误解：没有柔光就没有好照片。纠偏：片尾强调其他时间也可能独特。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：给硬光平反</h3>
+      <p>用南欧彩色街巷实拍，让观众看见深影与高光如何同时成为构图。</p>
+      <div class="quote">摄影真正重要的是学会观察光线，然后思考怎样利用它。</div>
+      <div class="relation">理解：问题从「有没有好光」变成「如何用眼前的光」。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：三件可执行操作</h3>
+      <p>选更简单场景；改变拍摄方向；利用侧光、逆光、阴影与反射，让硬光当框架或对比引擎。</p>
+      <div class="quote">可以让硬光成为天然的构图框架。</div>
+      <div class="relation">行动：同一条街拍「顺光/侧光/逆光」三张对照。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：示范机与风格预设</h3>
+      <p>片中注明 Hasselblad 等器材与胶片预设，结论关于观察方法，不绑定具体机身。</p>
+      <div class="quote">但这并不意味着一天中其他时间都不值得拍摄。</div>
+      <div class="relation">适用：旅行/街头；棚拍柔光教学不在范围。</div>
+    </div></div>
+
+  
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>强光策略依赖题材；人像皮肤可能需要补光/反光另案。</li><li>前段 ASR 弱，以画面字幕为准。</li></ul><div class="pitfall">黄金时段教条导致整天不拍。</div><div class="pitfall">强行救回死黑死白毁掉对比。</div><div class="pitfall">只追色彩不顾阴影形状。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>硬光可被设计，而非只能躲避。</li><li>改方向与用阴影常比换时段更快。</li><li>独特照片可能来自「非黄金」窗口。</li></ul><h3>行动清单</h3><ol><li>正午外出只做「阴影形状」练习一卷。</li><li>后期预设前先决定要不要保留死黑。</li><li>旅行日程不要只排日出日落。</li></ol><h3>关键认知转变</h3><p>从「等好光」转向「读现有光」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 8分38秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
