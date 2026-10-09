@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5339" viewBox="0 0 1320 5339">
+  <foreignObject x="0" y="0" width="1320" height="5339">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>一年学会背肌发力跳舞进步快</h1>
+  <div class="meta"><span class="tag tag-blue">背肌</span><span class="tag tag-green">肩胛骨</span><span class="tag tag-orange">沉肩</span><span class="tag tag-purple">前锯肌</span><span class="tag tag-red">街舞</span><span class="tag tag-gray">时长 3分30秒</span><span class="tag tag-gray">理性分析 · 动作解剖</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/6gDEgIiR6Ah">原视频</a>
+  <div class="summary-line">核心判断：舞蹈口语里的「背肌发力」多半是肩胛下沉+内收的控制模型；向前出手则要换前锯肌，肩袖更多是稳定而非推送。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">公式一：肩胛周边三肌群</span></div><div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">肩胛六向与沉肩</span></div><div class="timeline-item"><span class="timeline-time">01:20</span><span class="timeline-text">哈里摇对比找背感</span></div><div class="timeline-item"><span class="timeline-time">01:40</span><span class="timeline-text">拇指后移与靠墙W</span></div><div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">公式二：肩袖稳定</span></div><div class="timeline-item"><span class="timeline-time">02:45</span><span class="timeline-text">公式三：前锯肌前伸</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>什么叫背肌发力</div><span class="arrow">→</span><div class="node-green">证据<br/>肩胛运动+肌群分工</div><span class="arrow">→</span><div class="node-orange">判断<br/>沉肩内收是底盘</div><span class="arrow">→</span><div class="node-blue">行动<br/>两招找感+分清出手肌</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：背肌负责所有上肢动作。纠偏：出手向前主要靠前锯肌。</p><p>误解：架不起手臂只因柔韧。纠偏：视频指向肩部力量不足。</p><p>ASR：提肩胛肌被识成「肩胛蹄肌」，按解剖名理解。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：三公式分工</h3>
+      <p>肩胛周边肌管六向与沉肩；肩袖管深层稳定；前锯肌管肩胛前伸与释放。</p>
+      <div class="quote">肩胛骨下沉下回旋，就是跳舞中常说的背肌发力模型的底层逻辑。</div>
+      <div class="relation">先认方向再谈发力。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：两招找感</h3>
+      <p>拇指后移练内收；靠墙W向上延伸练内收+下沉；哈里摇加「背往后靠」。</p>
+      <div class="quote">找背往后靠的感觉之后就好很多。</div>
+      <div class="relation">用对比录像看肩胛是否动。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：力量课不能替代</h3>
+      <p>视频给感知入口与分工，不替代系统力量训练；成肩坠肘是稳定口令而非审美教条。</p>
+      <div class="quote">上肢会更加稳定。</div>
+      <div class="relation">观点：赵白白个人训练复盘。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">三公式对照</h2><div class="card"><table><thead><tr><th>公式</th><th>肌群</th><th>舞蹈里干什么</th></tr></thead><tbody><tr><td>一</td><td>提肩胛/菱形/下斜方</td><td>沉肩、撑开、背肌发力底盘</td></tr><tr><td>二</td><td>肩袖四肌</td><td>稳定肩关节，助架臂</td></tr><tr><td>三</td><td>前锯肌</td><td>肩胛前伸、出手释放</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>解剖名称以口播为准，个别ASR需校正。</li><li>不构成医疗或康复指导。</li></ul><div class="pitfall">用背肌硬推前伸动作。</div><div class="pitfall">沉肩做成夹背僵住。</div><div class="pitfall">只练元素不补上肢力量。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>背肌发力≈肩胛控制。</li><li>出手换前锯肌。</li><li>找感动作要可重复。</li></ul><h3>行动清单</h3><ol><li>每天2分钟拇指后移+靠墙W。</li><li>录像背面看肩胛六向。</li><li>出手动作单独问：是谁在发力。</li></ol><h3>关键认知转变</h3><p>从「听懂口令」转向「看见肩胛在动」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 3分30秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

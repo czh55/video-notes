@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5511" viewBox="0 0 1320 5511">
+  <foreignObject x="0" y="0" width="1320" height="5511">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>如何看懂这个设计</h1>
+  <div class="meta"><span class="tag tag-blue">海报</span><span class="tag tag-green">可读性</span><span class="tag tag-orange">对称</span><span class="tag tag-purple">字体</span><span class="tag tag-red">Oliver Laric</span><span class="tag tag-gray">时长 1分31秒</span><span class="tag tag-gray">理性分析 · 设计阅读</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/3ffdENx9kyB">原视频</a>
+  <div class="summary-line">核心判断：X Museum 这张 Oliver Laric 海报好看，是因为字体切割、古典母题（螺旋柱）、对称骨架与雕像角标共同制造了「可读的秩序」——看似随意，实则多层对齐。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">好坏海报对比</span></div><div class="timeline-item"><span class="timeline-time">00:25</span><span class="timeline-text">字体古典感与平整切割</span></div><div class="timeline-item"><span class="timeline-time">00:36</span><span class="timeline-text">扭形灵感来自螺旋柱</span></div><div class="timeline-item"><span class="timeline-time">00:46</span><span class="timeline-text">中心对称传达古典</span></div><div class="timeline-item"><span class="timeline-time">00:54</span><span class="timeline-text">雕像左下角小标</span></div><div class="timeline-item"><span class="timeline-time">01:01</span><span class="timeline-text">去掉角标秩序塌陷</span></div><div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">随意选择下的隐藏考量</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>为何一张更舒服</div><span class="arrow">→</span><div class="node-green">证据<br/>字/形/对称/角标</div><span class="arrow">→</span><div class="node-orange">判断<br/>秩序制造可读</div><span class="arrow">→</span><div class="node-blue">行动<br/>用四层清单读海报</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：好看靠感觉碰运气。纠偏：每层都有可指出的结构决策。</p><p>误解：角标只是编号装饰。纠偏：它同时把不规则图形规则化。</p><p>误解：对称=呆板。纠偏：在古典主题里，对称本身就是语义。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：把海报当图纸读</h3>
+      <p>从字体（平整切割/高贵感）到母题（螺旋柱）再到版式对称，逐层打开。</p>
+      <div class="quote">一切看着都随意选择。</div>
+      <div class="relation">理解：随意是伪装，秩序是骨架。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：四问检查表</h3>
+      <p>①字形切割是否干净？②有无古典母题呼应？③是否对称稳定？④细节标注有无规则化功能？</p>
+      <div class="quote">让不够规则的图形变得规则。</div>
+      <div class="relation">行动：改图时先加「规则化锚点」。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>分类说明</h3>
+      <p>内容为展览海报设计阅读，非汽车；primary归painting。</p>
+      <div class="quote">实际上里面有着非常多隐藏的考量。</div>
+      <div class="relation">作者：日月z。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">可读性层次</h2><div class="card"><table><thead><tr><th>层次</th><th>视频抓手</th><th>作用</th></tr></thead><tbody><tr><td>字体</td><td>平整光滑切割、古典字形</td><td>高贵/清晰</td></tr><tr><td>母题</td><td>螺旋柱扭形</td><td>古典联想</td></tr><tr><td>版式</td><td>中心对称</td><td>稳定古典语义</td></tr><tr><td>微交互</td><td>雕像角标</td><td>编号+规则化</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>案例分析单张海报，结论不宜泛化到所有展览视觉。</li><li>开场对比另一张「不舒服」海报细节未完整展开。</li></ul><div class="pitfall">只抄元素不抄对齐关系。</div><div class="pitfall">删掉「无用」角标导致散架。</div><div class="pitfall">用非对称硬套古典主题。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>可读性来自多层秩序。</li><li>角标可以是结构构件。</li><li>古典感可被字体与对称同时编码。</li></ul><h3>行动清单</h3><ol><li>读海报时画对称轴与编号网格。</li><li>改图做一次「去掉角标」对照。</li><li>字体优先检查笔画像切割质量。</li></ol><h3>关键认知转变</h3><p>从「好不好看」转向「秩序是否可读」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 1分31秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

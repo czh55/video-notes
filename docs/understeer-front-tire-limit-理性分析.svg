@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5556" viewBox="0 0 1320 5556">
+  <foreignObject x="0" y="0" width="1320" height="5556">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>EP18 推头才知前轮极限</h1>
+  <div class="meta"><span class="tag tag-blue">转向不足</span><span class="tag tag-green">负载转移</span><span class="tag tag-orange">半油门</span><span class="tag tag-purple">模拟器</span><span class="tag tag-gray">时长 4分06秒</span><span class="tag tag-gray">理性分析 · 极限训练</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/4b2d5q4pxTW">原视频</a>
+  <div class="summary-line">核心判断：转向不足是认识车辆极限最安全的入门课——用半油门+大转角主动制造并维持推头，才能把「前轮快撑不住」的手感标定出来，再谈更高阶的甩尾。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:03</span><span class="timeline-text">主动把前轮推向抓地极限</span></div><div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">为何专门练转向不足</span></div><div class="timeline-item"><span class="timeline-time">00:56</span><span class="timeline-text">收油增前轴、加油减前轴</span></div><div class="timeline-item"><span class="timeline-time">01:38</span><span class="timeline-text">预期转角大于实际=不足</span></div><div class="timeline-item"><span class="timeline-time">01:56</span><span class="timeline-text">弯中加油与重刹打方向两种触发</span></div><div class="timeline-item"><span class="timeline-time">02:22</span><span class="timeline-text">半油门+打大方向练习</span></div><div class="timeline-item"><span class="timeline-time">02:39</span><span class="timeline-text">弯中不碰刹车</span></div><div class="timeline-item"><span class="timeline-time">03:03</span><span class="timeline-text">进阶：晚一点再推头</span></div><div class="timeline-item"><span class="timeline-time">03:50</span><span class="timeline-text">下期练甩尾回救</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>如何安全摸极限</div><span class="arrow">→</span><div class="node-green">证据<br/>推头最可控</div><span class="arrow">→</span><div class="node-orange">判断<br/>先不足后过度</div><span class="arrow">→</span><div class="node-blue">行动<br/>半油门维持外推</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：练极限就要甩尾。纠偏：先从可控制的转向不足建立基准。</p><p>误解：弯中刹车能帮助找推头。纠偏：本练习要求入弯前刹完，弯中只靠油门方向。</p><p>误解：油门越深越好。纠偏：过深可能导致后轮空转，推头变spin。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：把极限拆成两边</h3>
+      <p>过弯极限≈谁先失去抓地：前轴不足 vs 后轴过度。</p>
+      <div class="quote">先学会控制转向不足。</div>
+      <div class="relation">理解：不足是入门刻度尺。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：半油门菜单</h3>
+      <p>半油门+大方向→做明显推头→维持到出弯；进阶要求接近弯心再开始外推。</p>
+      <div class="quote">重点就是把转向不足做得明显一点。</div>
+      <div class="relation">行动：先iRacing平原再实车。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：训练向内容</h3>
+      <p>含赛道/模拟器方法，公路勿模仿极限动作。</p>
+      <div class="quote">这个练习不追求速度。</div>
+      <div class="relation">观点归属：T1幸存者 EP18。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">油门与轴荷（视频逻辑）</h2><div class="card"><table><thead><tr><th>动作</th><th>轴荷变化</th><th>弯道倾向</th></tr></thead><tbody><tr><td>收油</td><td>前轴增重</td><td>更愿意进弯</td></tr><tr><td>加油</td><td>前轴减重</td><td>更容易推头</td></tr><tr><td>过深油门（大马力）</td><td>后轴易打滑</td><td>不足→过度/spin</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>教学场景含模拟器与封闭场地假设。</li><li>不同驱动形式阈值不同。</li></ul><div class="pitfall">公路上主动制造极限。</div><div class="pitfall">弯中重刹找感觉。</div><div class="pitfall">大马力车深油门练习。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>推头是安全的极限教具。</li><li>油门是前后抓地开关。</li><li>先维持不足，再练过度。</li></ul><h3>行动清单</h3><ol><li>在模拟器完成半油门外推练习。</li><li>记录「预期转角vs实际」主观差。</li><li>大马力车限制在半油门。</li></ol><h3>关键认知转变</h3><p>从「怕失控」转向「可控地接近边界」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 4分06秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

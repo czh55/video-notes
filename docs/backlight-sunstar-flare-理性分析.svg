@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4724" viewBox="0 0 1320 4724">
+  <foreignObject x="0" y="0" width="1320" height="4724">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>逆光拍就多出一串小太阳？</h1>
+  <div class="meta"><span class="tag tag-blue">逆光</span><span class="tag tag-green">鬼影</span><span class="tag tag-orange">眩光</span><span class="tag tag-purple">镀膜</span><span class="tag tag-red">遮光罩</span><span class="tag tag-gray">时长 1分36秒</span><span class="tag tag-gray">理性分析 · 杂散光</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/9J7ia7RPTrD">原视频</a>
+  <div class="summary-line">核心判断：逆光「小太阳」是镜组间杂散光鬼影；聚不成斑则变眩光洗暗部。抗性靠镀膜，劣质UV常是帮凶，遮光罩挡斜光才能让黑位回来。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:03</span><span class="timeline-text">一串太阳不是坏了</span></div><div class="timeline-item"><span class="timeline-time">00:24</span><span class="timeline-text">镜片间打乒乓球</span></div><div class="timeline-item"><span class="timeline-time">00:36</span><span class="timeline-text">鬼影 vs 眩光</span></div><div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">纳米镀膜</span></div><div class="timeline-item"><span class="timeline-time">01:12</span><span class="timeline-text">劣质UV真凶</span></div><div class="timeline-item"><span class="timeline-time">01:24</span><span class="timeline-text">去UV+遮光罩</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>小太阳从哪来</div><span class="arrow">→</span><div class="node-green">证据<br/>迷宫反弹+对照图</div><span class="arrow">→</span><div class="node-orange">判断<br/>控杂散光</div><span class="arrow">→</span><div class="node-blue">行动<br/>镀膜/UV/遮光罩</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：有光斑=镜头坏。纠偏：光学路径正常现象，强度看镀膜与附件。</p><p>误解：先换镜。纠偏：先检查劣质UV。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：鬼影与眩光分岔</h3>
+      <p>乱弹光聚成斑=鬼影串；均匀洒开=眩光灰雾。</p>
+      <div class="quote">不是镜头坏了，是光在玻璃里迷了路</div>
+      <div class="relation">先辨现象再治。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：三板斧</h3>
+      <p>认镀膜抗性；拆劣质UV；戴遮光罩挡斜光。</p>
+      <div class="quote">劣质UV镜才是真凶之一</div>
+      <div class="relation">逆光前先摸滤镜。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：口播重建</h3>
+      <p>ASR近空，论点来自章节字幕卡。</p>
+      <div class="quote">挡掉多余杂散光，画面才能黑得下去</div>
+      <div class="relation">视觉百科。</div>
+    </div></div>
+
+  
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>未测具体镀膜品牌数据。</li></ul><div class="pitfall">逆光必加廉价UV。</div><div class="pitfall">有眩光只靠后期拉对比。</div><div class="pitfall">遮光罩反戴或不用。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>小太阳=杂散光成像。</li><li>镀膜降反射。</li><li>附件可帮凶可帮凶。</li></ul><h3>行动清单</h3><ol><li>逆光对比：有UV/无UV各一张。</li><li>常挂遮光罩。</li><li>购二手镜问镀膜与附件史。</li></ol><h3>关键认知转变</h3><p>从「怪镜头」转向「管杂散光」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 1分36秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
