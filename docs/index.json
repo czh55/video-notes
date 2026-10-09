@@ -1,6 +1,32 @@
 [
   {
     "date": "2026-10-09",
+    "title": "王自如聊口才如何变好",
+    "summary": "表达能力强≠口才好：瓶颈在思维方式与思想高度，不是口齿。演讲课总分总只剩形式逻辑；真正改变来自写稿（ZEALER）与 Storytelling 对节奏、句尾字数与声调的推敲。",
+    "primary": "workplace",
+    "tags": [
+      "口才",
+      "表达",
+      "思维方式",
+      "写稿",
+      "storytelling",
+      "王自如"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4HOOivj1BL9",
+    "duration": "1分29秒",
+    "outputs": {
+      "html": "wangziru-how-to-improve-eloquence-图文实录.html",
+      "svg": "wangziru-how-to-improve-eloquence-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 75,
+    "svg_height": 6123,
+    "slug": "wangziru-how-to-improve-eloquence",
+    "creator": null
+  },
+  {
+    "date": "2026-10-09",
     "title": "如何看懂这个设计",
     "summary": "好看不是随便摆：字体切割、古典母题、对称骨架和角标编号，都在把「随意」收成可读的秩序。",
     "primary": "painting",
