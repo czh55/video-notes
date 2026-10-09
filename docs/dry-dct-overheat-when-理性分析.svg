@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5571" viewBox="0 0 1320 5571">
+  <foreignObject x="0" y="0" width="1320" height="5571">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>干式双离合什么情况下会过热</h1>
+  <div class="meta"><span class="tag tag-blue">干式双离合</span><span class="tag tag-green">过热</span><span class="tag tag-orange">蠕行</span><span class="tag tag-purple">OBD</span><span class="tag tag-gray">时长 5分54秒</span><span class="tag tag-gray">理性分析 · 实测纠偏</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/wuzjyPzJd0">原视频</a>
+  <div class="summary-line">核心判断：干式双离合的热源是长时间半联动摩擦——尤其踩着刹车、低于约5km/h的蠕行；正常跟走、轻油甚至堵车本身，温度可以很平静。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:45</span><span class="timeline-text">A管奇数档，B管偶数/倒档</span></div><div class="timeline-item"><span class="timeline-time">01:18</span><span class="timeline-text">约6km/h无油门蠕行，温度稳</span></div><div class="timeline-item"><span class="timeline-time">01:52</span><span class="timeline-text">10–12km/h轻油，温度仍稳</span></div><div class="timeline-item"><span class="timeline-time">02:25</span><span class="timeline-text">3–4km/h踩刹蠕行，温度急升</span></div><div class="timeline-item"><span class="timeline-time">02:40</span><span class="timeline-text">约54℃升至62–67℃后趋缓</span></div><div class="timeline-item"><span class="timeline-time">03:35</span><span class="timeline-text">纠偏：不是堵车就过热</span></div><div class="timeline-item"><span class="timeline-time">04:32</span><span class="timeline-text">手动2/3档频繁切换温升很小</span></div><div class="timeline-item"><span class="timeline-time">05:32</span><span class="timeline-text">日常可放心开</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>何时会过热</div><span class="arrow">→</span><div class="node-green">证据<br/>OBD温度对照工况</div><span class="arrow">→</span><div class="node-orange">判断<br/>刹爬半联动才危险</div><span class="arrow">→</span><div class="node-blue">行动<br/>避免低速踩刹蹭</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：干式双离合一堵车必过热。纠偏：作者实测长时间堵塞未见失控；关键是刹爬半联动。</p><p>误解：频繁换挡会把温度炒高。纠偏：2↔3来回对温升影响很小。</p><p>误解：蠕行一律有害。纠偏：无刹车的约6km/h蠕行与轻油跟走，温度可稳定。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：用温度曲线打假</h3>
+      <p>同一枚A离合，换工况比换口号有用：跟走稳、刹爬烫。</p>
+      <div class="quote">长时间踩着刹车蠕行。</div>
+      <div class="relation">理解：热=滑摩功积分。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：拥堵三替代</h3>
+      <p>能走就轻油跟走；长时间不动挂N；需要可手动锁2/3减少半联动。</p>
+      <div class="quote">堵车它也不会过热的。</div>
+      <div class="relation">行动：把「刹着蹭」从习惯里删掉。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：单车OBD样本</h3>
+      <p>封闭路段、固定设备拍摄；温度阈值与保护策略因车而异。</p>
+      <div class="quote">它在67度它就不再上升了。</div>
+      <div class="relation">观点归属：黑牛城战神个人实测。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">工况 × 温度行为（视频观察）</h2><div class="card"><table><thead><tr><th>工况</th><th>大致车速</th><th>温度现象</th></tr></thead><tbody><tr><td>无油门蠕行</td><td>~6km/h</td><td>53–54℃平稳</td></tr><tr><td>轻油跟走</td><td>10–12km/h</td><td>无明显上升</td></tr><tr><td>轻刹蠕行</td><td>3–4km/h</td><td>急升至约67℃后趋稳</td></tr><tr><td>2↔3频繁切换</td><td>—</td><td>几乎无变化</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>仅反映该车OBD可读的离合器温度通道，非油温/壳体温度全集。</li><li>「不会过热」是相对网传恐慌的纠偏，极端半联动仍会保护性限扭。</li></ul><div class="pitfall">拥堵时踩刹慢慢蹭。</div><div class="pitfall">把任何顿挫都归因于过热。</div><div class="pitfall">忽视厂家手动模式建议。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>过热条件可复现：低速+踩刹+长时间。</li><li>堵车≠过热。</li><li>锁档/挂N是降热工具。</li></ul><h3>行动清单</h3><ol><li>拥堵改跟走或挂N。</li><li>需要时锁2档。</li><li>用OBD或原厂温度页自查习惯。</li></ol><h3>关键认知转变</h3><p>从「双离合恐惧症」转向「管理半联动时间」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 5分54秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

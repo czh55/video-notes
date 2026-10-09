@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「NIVO Studio」论证配色高低差在「一点点」插入：高纯度互补色太夺目易疲劳，交界处插一小块中性色做色彩分割；近似色里插入互补色或亮灰做色彩强调。并举邮箱蓝字、公共标识、暗调路牌等高对比场景，收束为生活中常见的四种强调示例。">
+<title>会不会配色其实就差一点点｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>会不会配色其实就差一点点</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">2分30秒</span><span class="meta-tag tag-topic">配色 色彩分割 色彩强调 互补色 设计</span></div>
+<a class="source-link" href="https://xhslink.cn/o/ANOOA9kPwM3" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">互补色太烈：交界插灰做分割</a><a href="#ch2">近似色里的强调：互补、亮灰与暗调提亮</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>「NIVO Studio」论证配色高低差在「一点点」插入：高纯度互补色太夺目易疲劳，交界处插一小块中性色做色彩分割；近似色里插入互补色或亮灰做色彩强调。并举邮箱蓝字、公共标识、暗调路牌等高对比场景，收束为生活中常见的四种强调示例。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→00:31]</span><div><strong>色彩分割</strong><p>互补交界插中性色缓和；品牌蓝橙+灰延展到物料。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:31→01:30]</span><div><strong>色彩强调</strong><p>近似色插互补蓝成焦点；橙黄主色里蓝常作强调。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:30→02:30]</span><div><strong>四种强调</strong><p>亮灰标识性；高对比公共标识；暗调插高明度高饱和；路牌夜灯。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>会配色往往不是换一套色相，而是会不会在交界处「塞一点点」中性色或强调色，让夺目变成可控。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-00:31</span>互补色太烈：交界插灰做分割</h2><p>开场一组高纯度互补色：夺目但过浓易疲劳。只需在颜色交界插入一小块中性色使二者分离，整体更缓和——这叫色彩的分割。口播举品牌视觉：蓝与橙之间加灰调和，并从线上延展到物料，大胆中带谨慎。再用生活化具象例子帮观众建立直觉。</p><figure><img src="assets/color-matching-tiny-gap/shot-01.jpg" alt="高纯度互补色交界插入灰色中性色做分割" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 高纯度互补色交界插入灰色中性色做分割</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a3db12a20fc4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Insert a gray neutral at the seam of high-chroma complements</span></div>
+<audio class="cap-audio" src="audio/a3db12a20fc4.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/color-matching-tiny-gap/shot-02.jpg" alt="品牌视觉蓝橙+灰，并从线上延展到物料" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:18] 品牌视觉蓝橙+灰，并从线上延展到物料</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8e769eb7c8e7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Brand look: blue–orange + gray, extended from digital to print collateral</span></div>
+<audio class="cap-audio" src="audio/8e769eb7c8e7.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">00:31-02:30</span>近似色里的强调：互补、亮灰与暗调提亮</h2><p>近似色组里插入橙色的互补色蓝，蓝立刻成视觉焦点——色彩的强调。细察会发现蓝常以强调色出现在橙/黄为主的设计里，因互补对比最强，刺激视觉并抢注意力；橙色邮箱上重点信息几乎都是蓝色。回到近似色插入亮灰，灰也能获得较高标识性。</p><p>高对比强调引起紧张兴奋，常用於需关注的公共场所指示。再把明度饱和度降低后，插入高明度高饱和色，醒目且适用多数暗调，多用於路标或夜间照明指示牌。收尾：以上是生活中最常见的四种色彩强调示例，遇见时想起这个视频。中段约 00:31–01:00 ASR 有跳秒，叙述按前后逻辑与画面衔接。</p><figure><img src="assets/color-matching-tiny-gap/shot-03.jpg" alt="近似色中插入蓝色互补色成为视觉焦点" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:05] 近似色中插入蓝色互补色成为视觉焦点</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5f6e0544529b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Drop a blue complement into analogous hues as the visual focus</span></div>
+<audio class="cap-audio" src="audio/5f6e0544529b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/color-matching-tiny-gap/shot-04.jpg" alt="橙色邮箱上重点信息用蓝色强调" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:20] 橙色邮箱上重点信息用蓝色强调</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3caf1c2476a2.mp3" type="button" aria-label="Play English audio">🔊</button><span>On an orange mailbox, key info is emphasized in blue</span></div>
+<audio class="cap-audio" src="audio/3caf1c2476a2.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/color-matching-tiny-gap/shot-05.jpg" alt="暗调中插入高明度高饱和色，路牌级醒目" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:15] 暗调中插入高明度高饱和色，路牌级醒目</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/fe71d30fb713.mp3" type="button" aria-label="Play English audio">🔊</button><span>In a dark palette, insert high-value high-chroma color—road-sign loud</span></div>
+<audio class="cap-audio" src="audio/fe71d30fb713.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（41段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>这是一组高纯度互补补色</p></div>
+<div class="transcript-row"><time>00:02</time><p>虽然搭配起来很夺目</p></div>
+<div class="transcript-row"><time>00:03</time><p>但由于过于浓烈会产生疲劳感</p></div>
+<div class="transcript-row"><time>00:05</time><p>这时只需要在颜色交界位置插入一小块中性色</p></div>
+<div class="transcript-row"><time>00:09</time><p>使二者分离</p></div>
+<div class="transcript-row"><time>00:10</time><p>可以让整体配色更加缓和</p></div>
+<div class="transcript-row"><time>00:12</time><p>哈黛薰鲑鱼的品牌视觉就很好的体现了这一点</p></div>
+<div class="transcript-row"><time>00:15</time><p>蓝色和橙色之间加入灰色进行调合</p></div>
+<div class="transcript-row"><time>00:18</time><p>并从线上延展到了物料上</p></div>
+<div class="transcript-row"><time>00:20</time><p>色彩的使用大胆中带著谨慎</p></div>
+<div class="transcript-row"><time>00:23</time><p>这就叫色彩的分割</p></div>
+<div class="transcript-row"><time>00:25</time><p>再看两个我们更熟悉的例子</p></div>
+<div class="transcript-row"><time>00:27</time><p>再看看这位</p></div>
+<div class="transcript-row"><time>00:28</time><p>如此具象化的色彩分割应该好理解了吧</p></div>
+<div class="transcript-row"><time>00:31</time><p>再来看这组近似色</p></div>
+<div class="transcript-row"><time>01:01</time><p>这时只需要插入橙色的补色</p></div>
+<div class="transcript-row"><time>01:03</time><p>这个蓝色立刻就成为了视觉焦点</p></div>
+<div class="transcript-row"><time>01:05</time><p>这就叫色彩的强调</p></div>
+<div class="transcript-row"><time>01:07</time><p>仔细观察就会发现</p></div>
+<div class="transcript-row"><time>01:09</time><p>蓝色经常以强调色的身份</p></div>
+<div class="transcript-row"><time>01:11</time><p>出现在各种以橙色或黄色为主的设计中</p></div>
+<div class="transcript-row"><time>01:14</time><p>因为互补色对比最强烈</p></div>
+<div class="transcript-row"><time>01:16</time><p>在刺激视觉的同时还能吸引注意力</p></div>
+<div class="transcript-row"><time>01:18</time><p>如果你看到一个橙色的邮箱</p></div>
+<div class="transcript-row"><time>01:20</time><p>上面的重点信息几乎都是蓝色的</p></div>
+<div class="transcript-row"><time>01:23</time><p>我们再回到视频开头的这组近似色</p></div>
+<div class="transcript-row"><time>01:25</time><p>现在插入一个亮灰色</p></div>
+<div class="transcript-row"><time>01:27</time><p>此时这个灰色也会获得较高的标识性</p></div>
+<div class="transcript-row"><time>01:30</time><p>不过</p></div>
+<div class="transcript-row"><time>02:00</time><p>这种强调可以引起人们视觉上的紧张和兴奋</p></div>
+<div class="transcript-row"><time>02:03</time><p>常用于需要引起关注的公共场所指示标识</p></div>
+<div class="transcript-row"><time>02:07</time><p>只要用心观察세�出可见</p></div>
+<div class="transcript-row"><time>02:09</time><p>让我们再回到开始</p></div>
+<div class="transcript-row"><time>02:10</time><p>这次我们将明度和饱和度降低</p></div>
+<div class="transcript-row"><time>02:13</time><p>插入一个高明度高饱和的颜色</p></div>
+<div class="transcript-row"><time>02:15</time><p>这种强调非常醒目</p></div>
+<div class="transcript-row"><time>02:17</time><p>适用于绝大部分暗调颜色</p></div>
+<div class="transcript-row"><time>02:19</time><p>多用于路标指示牌</p></div>
+<div class="transcript-row"><time>02:21</time><p>或夜间照明指示牌等</p></div>
+<div class="transcript-row"><time>02:23</time><p>以上是生活中最常见的四种色彩强调的示例</p></div>
+<div class="transcript-row"><time>02:26</time><p>希望你在生活中遇见它们时会想起这个视频</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「迪系车探(小飞)」按 P/R/N/D/M/S 逐档讲奥迪电子挡杆：只会挂 D 等于白花钱，不同路况要会切模式。开场 ASR 乱码，档位定义与操作以画面字幕为准重建。">
+<title>奥迪档位正确使用教程｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>奥迪档位正确使用教程</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">1分48秒</span><span class="meta-tag tag-topic">奥迪 档位 P R N D M S 发动机制动</span></div>
+<a class="source-link" href="https://xhslink.cn/o/1Lb3rndwit0" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">P R N D：停倒拖走</a><a href="#ch2">M 档保命与 S 档超车</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>「迪系车探(小飞)」按 P/R/N/D/M/S 逐档讲奥迪电子挡杆：只会挂 D 等于白花钱，不同路况要会切模式。开场 ASR 乱码，档位定义与操作以画面字幕为准重建。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→00:22]</span><div><strong>P 驻车</strong><p>长时间不动挂 P，靠锁止防溜车。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:22→00:30]</span><div><strong>R 倒车</strong><p>倒车挂 R 即可。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:30→00:39]</span><div><strong>N 空挡</strong><p>拖车必须挂 N，挂错档可能报废变速箱。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:39→00:46]</span><div><strong>D 前进</strong><p>日常通勤与高速最顺手。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:46→01:16]</span><div><strong>M 手动</strong><p>长下坡/上坡/堵车用；发动机制动防刹车失灵。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:16→01:48]</span><div><strong>S 运动</strong><p>D 档往后拉进 S，延迟升档拉高转速超车。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>P 停、R 倒、N 拖、D 走；长坡与堵车切 M 借发动机制动，超车往后拉进 S——按场景换模式，而不是一路 D 到底。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-00:46</span>P R N D：停倒拖走</h2><p>字幕开场强调：只会使 D 档，钱就白花了，一定要学会不同路况用不同档。第一 P 档是驻车档——长时间不动就挂它，防止车辆移动和溜车（画面亦提到变速箱锁止齿轮）。第二 R 档倒车时挂上即可。</p><p>第三 N 档为空挡，拖车场景要用：车泡水或开不了需拖车时必须挂 N，挂其他档位变速箱可能直接报废，维修费不便宜。第四 D 档是前进档，日常通勤跑高速最顺手。</p><figure><img src="assets/audi-gear-usage-guide/shot-01.jpg" alt="字幕：第一P档是驻车档" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:12] 字幕：第一P档是驻车档</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2e848853669a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Subtitle: first, P is Park</span></div>
+<audio class="cap-audio" src="audio/2e848853669a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/audi-gear-usage-guide/shot-02.jpg" alt="画面：长时间不动挂P，奥迪车列展示" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:15] 画面：长时间不动挂P，奥迪车列展示</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6b84002db3fe.mp3" type="button" aria-label="Play English audio">🔊</button><span>Shot: leave it in P when parked long; Audi lineup on display</span></div>
+<audio class="cap-audio" src="audio/6b84002db3fe.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/audi-gear-usage-guide/shot-03.jpg" alt="挡杆特写：手指指向D/S前进档标识" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 挡杆特写：手指指向D/S前进档标识</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e3c4566c62c1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Shifter close-up: finger points to the D/S drive markings</span></div>
+<audio class="cap-audio" src="audio/e3c4566c62c1.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">00:46-01:48</span>M 档保命与 S 档超车</h2><p>第五 M 档手动模式：长下坡必须用。若挂着 D 全靠刹车控速，时间一长刹车易过热甚至失灵；把挡杆往右掰进 M，前后拨动加减挡，靠发动机制动再配合刹车，关键时刻能保命。长上坡或堵车也可进 M，爬坡更有劲，并减少频繁换挡导致离合器过热、顿挫异响。</p><p>第六 S 档运动档：需要加速或快速超车时，在 D 档状态下把挡杆往后拉一下即入 S；变速箱会延迟升档、把转速拉高。收尾强调搞明白 S 与 M 的分工。</p><figure><img src="assets/audi-gear-usage-guide/shot-04.jpg" alt="刹车盘高温发红，警示长下坡只靠脚刹会失灵" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:55] 刹车盘高温发红，警示长下坡只靠脚刹会失灵</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4ba2a0a0e890.mp3" type="button" aria-label="Play English audio">🔊</button><span>Brake discs glowing red—warns that foot-braking alone on long descents can fail</span></div>
+<audio class="cap-audio" src="audio/4ba2a0a0e890.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/audi-gear-usage-guide/shot-05.jpg" alt="字幕：切换到M档并用拨杆加减挡" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:00] 字幕：切换到M档并用拨杆加减挡</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cdc0474e00c5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Subtitle: switch to M and use the paddles to up/downshift</span></div>
+<audio class="cap-audio" src="audio/cdc0474e00c5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/audi-gear-usage-guide/shot-06.jpg" alt="操作：D档状态下把挡杆往后拉进S档" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:25] 操作：D档状态下把挡杆往后拉进S档</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/49c47b977fee.mp3" type="button" aria-label="Play English audio">🔊</button><span>How-to: from D, pull the lever back into S</span></div>
+<audio class="cap-audio" src="audio/49c47b977fee.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（34段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>开要敌敌如果你只会地挡左天下</p></div>
+<div class="transcript-row"><time>00:30</time><p>它是拖车用的</p></div>
+<div class="transcript-row"><time>00:30</time><p>车子泡毛开不了需要拖车了</p></div>
+<div class="transcript-row"><time>00:32</time><p>一定要把档位挂到N档</p></div>
+<div class="transcript-row"><time>00:34</time><p>如果说你挂到其他档位</p></div>
+<div class="transcript-row"><time>00:35</time><p>便用箱可能直接就杠个废了</p></div>
+<div class="transcript-row"><time>00:37</time><p>那唯有费可不便宜</p></div>
+<div class="transcript-row"><time>00:39</time><p>第四地挡是前进挡</p></div>
+<div class="transcript-row"><time>00:40</time><p>平时正常往前开车就挂地挡</p></div>
+<div class="transcript-row"><time>00:43</time><p>日常通勤跑高速用它是最顺手的</p></div>
+<div class="transcript-row"><time>00:45</time><p>第五M档手动模式</p></div>
+<div class="transcript-row"><time>00:47</time><p>长厦坡路段必须用它</p></div>
+<div class="transcript-row"><time>00:49</time><p>如果你挂著地挡全靠踩煞车来控制车速</p></div>
+<div class="transcript-row"><time>00:52</time><p>时间一长煞车容易过热</p></div>
+<div class="transcript-row"><time>00:54</time><p>甚至会煞车死灵</p></div>
+<div class="transcript-row"><time>00:55</time><p>所以长厦坡路段把挡坝往右掰一下</p></div>
+<div class="transcript-row"><time>00:58</time><p>就能切换到M档</p></div>
+<div class="transcript-row"><time>01:00</time><p>前后拨动还可以加减挡</p></div>
+<div class="transcript-row"><time>01:02</time><p>靠发动机制动再配合煞车</p></div>
+<div class="transcript-row"><time>01:04</time><p>能有效防止煞车死灵</p></div>
+<div class="transcript-row"><time>01:05</time><p>关键手真能保命</p></div>
+<div class="transcript-row"><time>01:07</time><p>另外长上坡或者堵车的时候</p></div>
+<div class="transcript-row"><time>01:10</time><p>也可以使用M档</p></div>
+<div class="transcript-row"><time>01:11</time><p>爬坡更有劲</p></div>
+<div class="transcript-row"><time>01:12</time><p>也能避免频繁换档导致立刻气过热</p></div>
+<div class="transcript-row"><time>01:14</time><p>出现顿挫和异响</p></div>
+<div class="transcript-row"><time>01:16</time><p>第六S档运动档</p></div>
+<div class="transcript-row"><time>01:18</time><p>需要加速或者快速超车的时候</p></div>
+<div class="transcript-row"><time>01:20</time><p>你就挂它</p></div>
+<div class="transcript-row"><time>01:21</time><p>操作方法也很简单</p></div>
+<div class="transcript-row"><time>01:23</time><p>就是在地挡状态下</p></div>
+<div class="transcript-row"><time>01:24</time><p>把挡杆往后拉一下</p></div>
+<div class="transcript-row"><time>01:26</time><p>就挂入到S档了</p></div>
+<div class="transcript-row"><time>01:27</time><p>挂入到S档以后变速箱会延遏会延遏会延遏会延会延�</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

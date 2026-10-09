@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5253" viewBox="0 0 1320 5253">
+  <foreignObject x="0" y="0" width="1320" height="5253">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>4招把旅行照片做成超好玩vlog</h1>
+  <div class="meta"><span class="tag tag-blue">旅行vlog</span><span class="tag tag-green">剪辑</span><span class="tag tag-orange">模板</span><span class="tag tag-purple">卡点</span><span class="tag tag-red">拍立得</span><span class="tag tag-gray">时长 2分6秒</span><span class="tag tag-gray">理性分析 · 剪辑方法</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/46onJsgdePx">原视频</a>
+  <div class="summary-line">核心判断：旅行短片瓶颈常是视频太少，不是不会拍——四套「照片动画化」模板（邮票、色彩地标切片、三帧卡点、拍立得散开）能把静照库存变成可看节奏。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:14</span><span class="timeline-text">邮票风景模板</span></div><div class="timeline-item"><span class="timeline-time">00:31</span><span class="timeline-text">色彩地标要切开</span></div><div class="timeline-item"><span class="timeline-time">01:02</span><span class="timeline-text">照片三帧叠视频卡点</span></div><div class="timeline-item"><span class="timeline-time">01:17</span><span class="timeline-text">拍立得阶梯散开</span></div><div class="timeline-item"><span class="timeline-time">01:43</span><span class="timeline-text">贴纸主题字收尾</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>照片多视频少</div><span class="arrow">→</span><div class="node-green">证据<br/>四套模板可导出动态</div><span class="arrow">→</span><div class="node-orange">判断<br/>动画化＞补拍</div><span class="arrow">→</span><div class="node-blue">行动<br/>按招套模板</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：色彩地标拉满整段即可。纠偏：必须切开才能跟每张照片变色。</p><p>误解：一定要很多视频。纠偏：主轨一小段视频+照片卡点就成立。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：静照产能释放</h3>
+      <p>四招都是把照片变成「有时间轴的事件」。</p>
+      <div class="quote">把照片做成好玩的旅行短片</div>
+      <div class="relation">理解：剪辑补拍摄缺口。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：最小可行流程</h3>
+      <p>选20张→邮票或拍立得片头→中间色彩地标或三帧卡点→强节奏音乐。</p>
+      <div class="quote">每张三帧</div>
+      <div class="relation">行动：先定音乐BPM再贴照片。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界：软件界面导向</h3>
+      <p>步骤绑定特定App模板名；换软件需找等价特效。</p>
+      <div class="quote">邮票风景</div>
+      <div class="relation">迁移：找「相框模板+关键帧」。</div>
+    </div></div>
+
+  <div class="section"><h2 class="sec-title">四招对照</h2><div class="card"><table><thead><tr><th>招式</th><th>关键动作</th><th>常见翻车</th></tr></thead><tbody><tr><td>动态邮票</td><td>模板拖图+实景/AI并置</td><td>只导出静态</td></tr><tr><td>色彩地标</td><td>按张切开</td><td>整段一种颜色</td></tr><tr><td>三帧卡点</td><td>照片3帧+强节奏</td><td>无音乐对齐</td></tr><tr><td>拍立得片头</td><td>阶梯轨+散开关键帧</td><td>省略旋转显硬</td></tr></tbody></table></div></div>
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>喂饭级界面教程，美学体系未讲。</li><li>AI素材使用注意平台与版权规则。</li></ul><div class="pitfall">特效不切开导致色彩糊。</div><div class="pitfall">散开关键帧偷懒一次做完所有层。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>照片可以当视频用。</li><li>切开是色彩地标的生命线。</li><li>音乐决定卡点密度。</li></ul><h3>行动清单</h3><ol><li>旅行回家先建「片头/中段/片尾」三轨。</li><li>给色彩地标默认「每张一切」。</li><li>散开动画复制第一层参数。</li></ol><h3>关键认知转变</h3><p>从「没拍视频没法做」转向「照片库存也能剪」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 2分6秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

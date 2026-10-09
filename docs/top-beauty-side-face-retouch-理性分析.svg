@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4716" viewBox="0 0 1320 4716">
+  <foreignObject x="0" y="0" width="1320" height="4716">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>顶美侧脸骨相P图全过程</h1>
+  <div class="meta"><span class="tag tag-blue">骨相修图</span><span class="tag tag-green">侧脸</span><span class="tag tag-orange">鼻翼</span><span class="tag tag-purple">鼻唇角</span><span class="tag tag-red">下颌线</span><span class="tag tag-gray">时长 3分14秒</span><span class="tag tag-gray">理性分析 · 侧脸骨相</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/61q39hfwcX1">原视频</a>
+  <div class="summary-line">核心判断：侧脸「顶美」来自鼻翼—鼻孔—鼻唇角—下巴—下颌线的连续结构，而不是把鼻子单独拉高；每一步都在服务同一条侧影轮廓。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">鼻翼上抬改善凹陷</span></div><div class="timeline-item"><span class="timeline-time">00:38</span><span class="timeline-text">鼻不必一味修高</span></div><div class="timeline-item"><span class="timeline-time">00:42</span><span class="timeline-text">鼻孔上推成细长形</span></div><div class="timeline-item"><span class="timeline-time">00:52</span><span class="timeline-text">鼻唇角锐角+C弧</span></div><div class="timeline-item"><span class="timeline-time">01:05</span><span class="timeline-text">补下巴量感并上提下颌</span></div></div>
+
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>侧脸哪里不高级</div><span class="arrow">→</span><div class="node-green">证据<br/>鼻旁凹陷+下庭量不够</div><span class="arrow">→</span><div class="node-orange">判断<br/>连线优先于单点拉高</div><span class="arrow">→</span><div class="node-blue">行动<br/>鼻→唇角→下巴→下颌</div></div></div>
+
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：鼻子越高越好看。纠偏：作者明确可留一点「小头风」。</p><p>误解：只修下巴尖。纠偏：下颌角到下巴要成流畅弧，必要时再锐化。</p></div>
+
+  <div class="section"><h2 class="sec-title">观点拆解：在讲什么 → 关键理解 → 怎么用 → 原文依据</h2>
+    <div class="card card-blue">
+      <h3>在讲什么：侧影一条线</h3>
+      <p>鼻翼上抬、鼻孔细长、鼻唇角锐角，都是在修鼻子到上唇的过渡，而不是堆高鼻梁。</p>
+      <div class="quote">鼻子不是说你修的越高越好看。</div>
+      <div class="relation">先画侧影轮廓再动液化。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用：下巴服务下颌线</h3>
+      <p>量感不够就侧向拉出，再上提下巴让下颌更轻薄；流畅弧优先于生硬直角。</p>
+      <div class="quote">下颌角和整个下巴这一块线条它是一个流畅的弧线。</div>
+      <div class="relation">下庭量感与线条一次做完。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>证据边界：后半口播稀</h3>
+      <p>Whisper 约1分30秒后变稀；锋利下颌等收尾以画面操作为准。</p>
+      <div class="quote">如果想要下颌线更加的锋利</div>
+      <div class="relation">实录不臆造未听清的参数。</div>
+    </div></div>
+
+  
+
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>演示为手机液化流程，非医美方案。</li><li>「小头风」为作者审美口癖，非通用标准。</li></ul><div class="pitfall">只拉高鼻梁忽略鼻翼凹陷。</div><div class="pitfall">下巴拉太尖切断下颌弧。</div><div class="pitfall">鼻孔形状不跟整鼻匹配。</div></div></div>
+
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>侧脸美=连续骨相线。</li><li>鼻高有上限，匹配更重要。</li><li>下庭要量感也要轻薄感。</li></ul><h3>行动清单</h3><ol><li>先截侧脸轮廓再动笔。</li><li>鼻翼与鼻孔同一轮处理。</li><li>下巴与下颌角一起验收流畅弧。</li></ol><h3>关键认知转变</h3><p>从「把鼻子修高」转向「把侧影连顺」。</p></div>
+
+  <div class="footer">双轨产物之二 · 理性分析 · 证据来自同一 Whisper 转录 · 3分14秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
