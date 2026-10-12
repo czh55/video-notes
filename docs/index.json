@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-10-09",
+    "title": "王自如上手iPhone18 Pro，我的视角去如何解读苹果商业逻辑",
+    "summary": "Pro小年建议别换；内存/可变光圈对多数人价值有限。重点读苹果两波换机排期、克制涨价与Duo布局——把产品推到买/不买阈值刚好触达。",
+    "primary": "auto-digital",
+    "tags": [
+      "iPhone",
+      "苹果",
+      "商业策略",
+      "换机",
+      "Duo"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/ncSlkm6",
+    "duration": "19分28秒",
+    "outputs": {
+      "html": "wangziru-iphone18-pro-图文实录.html",
+      "svg": "wangziru-iphone18-pro-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 616,
+    "svg_height": 4239,
+    "slug": "wangziru-iphone18-pro"
+  },
+  {
+    "date": "2026-10-09",
     "title": "未来最值钱的三种工作，硅谷创业者讲透真相",
     "summary": "硅谷创业者小鹰：工作更多、老登打工岗更少；学会管AI与定义问题。近未来三类工作——Founder、销售、过渡期苦工/精细体力。",
     "primary": "workplace",
