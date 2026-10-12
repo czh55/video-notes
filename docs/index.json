@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-10-09",
+    "title": "硅谷八卦",
+    "summary": "探访 Buck's、FB/PayPal 办公室与斯坦福史；投资人对照 AI 因 Utility 扩散更快，AGI 类比蒸汽机/电力；收束邀请制 AGA House。",
+    "primary": "workplace",
+    "tags": [
+      "硅谷",
+      "AI",
+      "Buck's",
+      "AGI",
+      "风投"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/b7mTZUi",
+    "duration": "16分30秒",
+    "outputs": {
+      "html": "silicon-valley-gossip-图文实录.html",
+      "svg": "silicon-valley-gossip-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 425,
+    "svg_height": 4317,
+    "slug": "silicon-valley-gossip"
+  },
+  {
+    "date": "2026-10-09",
     "title": "让人类交出方向盘：特斯拉FSD十三年的冒险、争议与进化【硅谷101】",
     "summary": "硅谷101拆解FSD十三年：Mobileye到自研芯片、纯视觉与端到端、CyberCab远程监管；下半场是经济之战——Waymo运营仍领先，特斯拉激进路线留在决赛圈。",
     "primary": "auto-digital",

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="探访式短片：从传奇早餐店 Buck's（ASR 作 Bugs）的特斯拉创业桌与「马斯克最爱培根」，到 Facebook/PayPal 早期办公室与斯坦福果园史；采访投资人对照 AI 热潮为何比移动互联网更快（Utility 无需网络效应冷启动），把 AGI 类比为蒸汽机/电力级通">
+<title>硅谷八卦｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}.transcript-section h2{font-size:24px;font-weight:700;color:#1c1917}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>硅谷八卦</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">B站</span><span class="meta-tag tag-duration">16分30秒</span><span class="meta-tag tag-topic">硅谷 AI Buck's PayPal AGI 风投</span></div>
+<a class="source-link" href="https://b23.tv/b7mTZUi" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">Buck's：吃着传说问 AI</a><a href="#ch2">办公室巡礼与矽谷成因</a><a href="#ch3">AI 热潮：更快、更通用、更社交</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2><p>探访式短片：从传奇早餐店 Buck's（ASR 作 Bugs）的特斯拉创业桌与「马斯克最爱培根」，到 Facebook/PayPal 早期办公室与斯坦福果园史；采访投资人对照 AI 热潮为何比移动互联网更快（Utility 无需网络效应冷启动），把 AGI 类比为蒸汽机/电力级通用生产力，并以图片搜索上线故事说明技术理想主义；收束于邀请制 AGA House 周六社交。开场电视英语音轨 ASR 嘈杂，正文以探访与访谈为准。</p><h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→04:40]</span><div><strong>Buck's 餐桌传说</strong><p>传奇餐厅；特斯拉创业桌；边吃边抛「矽谷 AI 到底怎样」的问题。</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:40→09:50]</span><div><strong>地标与历史</strong><p>Apple I 文物；FB/PayPal 办公室；斯坦福租地与军工订单塑形。</p></div></div>
+<div class="summary-row"><span class="time-marker">[09:50→16:30]</span><div><strong>AI 热潮对照</strong><p>速度因 Utility；AGI≈蒸汽/电力；工程师理想主义；AGA House。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>这集「八卦」的信息密度在现场感：地标证明叙事、早餐桌串联创业神话；访谈给出可带走的框架——AI 是基础设施式扩散，热潮像 2000 年估值狂欢也像生产力革命，关键在速度与通用性。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-04:40</span>Buck's：吃着传说问 AI</h2><p>开场环境音嘈杂（电视英语音轨 ASR 混乱），很快切到美食探访：Buck's 面积不大但桌桌有故事——主持人坐的位置被指为特斯拉创业早餐桌（当时还没有马斯克入局的版本叙事）。</p><p>点了号称马斯克最爱的培根配餐，抛出本集问题：这边 AI 发展到什么程度、从业者什么状态。吃完还半开玩笑说要给马斯克发推。</p><figure><img src="assets/silicon-valley-gossip/shot-01.jpg" alt="Buck's 餐厅：矽谷传奇早餐桌与特斯拉创业传说" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] Buck's 餐厅：矽谷传奇早餐桌与特斯拉创业传说</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a8f9d8325090.mp3" type="button" aria-label="Play English audio">🔊</button><span>Buck&#x27;s: legendary Silicon Valley breakfast tables and the Tesla founding myth.</span></div>
+<audio class="cap-audio" src="audio/a8f9d8325090.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-02.jpg" alt="号称马斯克最爱的培根：边吃边聊 AI 现场" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:20] 号称马斯克最爱的培根：边吃边聊 AI 现场</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d1d0aaf234fd.mp3" type="button" aria-label="Play English audio">🔊</button><span>The bacon Musk supposedly loves — chatting AI between bites.</span></div>
+<audio class="cap-audio" src="audio/d1d0aaf234fd.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-03.jpg" alt="店内文物：Apple I 与网络时代记忆碎片" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:00] 店内文物：Apple I 与网络时代记忆碎片</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/115199e8509a.mp3" type="button" aria-label="Play English audio">🔊</button><span>In-store relics: an Apple I and internet-era memorabilia.</span></div>
+<audio class="cap-audio" src="audio/115199e8509a.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch2"><h2><span class="time-marker">04:40-09:50</span>办公室巡礼与矽谷成因</h2><p>店内展示 Apple I 等文物，店主口述从 PC 到 1995 网络爆发再到当下对 AI「惊讶又害怕」。外景：Facebook 第一间正式办公室（对面越南粉）、PayPal 所在「最幸运办公室」——租金贵本身是信号（有名风投投了才住得起）。</p><p>下行到斯坦福：上世纪 30 年代前本地是果园；校方鼓励学生租地创业催生车库形态；冷战军工订单带动半导体；80 年代养老金入私募叠加 PC/互联网热潮，理想主义与资本狂欢交替至今。</p><figure><img src="assets/silicon-valley-gossip/shot-04.jpg" alt="Facebook 第一间正式办公室外景" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:10] Facebook 第一间正式办公室外景</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/256aedf539a5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Outside Facebook&#x27;s first formal office.</span></div>
+<audio class="cap-audio" src="audio/256aedf539a5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-05.jpg" alt="PayPal「最幸运办公室」与天价租金信号" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:50] PayPal「最幸运办公室」与天价租金信号</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d53393ef36b9.mp3" type="button" aria-label="Play English audio">🔊</button><span>PayPal&#x27;s &#x27;luckiest office&#x27; and sky-high rent as a signal.</span></div>
+<audio class="cap-audio" src="audio/d53393ef36b9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-06.jpg" alt="斯坦福与车库创业：从果园到半导体订单" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:50] 斯坦福与车库创业：从果园到半导体订单</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7a71275fb0f5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Stanford and garage startups: from orchards to defense chip orders.</span></div>
+<audio class="cap-audio" src="audio/7a71275fb0f5.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="story-section" id="ch3"><h2><span class="time-marker">09:50-16:30</span>AI 热潮：更快、更通用、更社交</h2><p>投资人对照：像 2000 年估值狂奔+高房价高薪；不同在于速度——移动互联网要网络效应（如 Facebook「五个好友」），AI 更像 Utility：自己用上 ChatGPT/DeepSeek 就能受益。大厂竞争反而给普通人机会；不宜只把 AI 比作又一次互联网，更接近蒸汽机/电力级通用生产力（AGI 的 G=General），「涌现」带来跨任务融会。</p><p>技术理想主义样本：合伙人周末做图片搜索被谷歌创始人看中上线，工程师命运被改写，激励周围人「下一个为什么不是我」。结尾当地时间 2026-06-27 周六下午进入邀请制 AGA House：上午行业报告不对镜头开放，下午窥探矽谷社交在干什么。</p><figure><img src="assets/silicon-valley-gossip/shot-07.jpg" alt="投资人对照：AI 热潮比移动互联网更快" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10:50] 投资人对照：AI 热潮比移动互联网更快</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0df9fa417e10.mp3" type="button" aria-label="Play English audio">🔊</button><span>Investor contrast: the AI boom is faster than mobile internet.</span></div>
+<audio class="cap-audio" src="audio/0df9fa417e10.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-08.jpg" alt="AGI 类比蒸汽机/电力：通用智能=基础设施" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:40] AGI 类比蒸汽机/电力：通用智能=基础设施</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/08192d5a6cf5.mp3" type="button" aria-label="Play English audio">🔊</button><span>AGI as steam/electricity: general intelligence as infrastructure.</span></div>
+<audio class="cap-audio" src="audio/08192d5a6cf5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-09.jpg" alt="图片搜索上线故事：工程师改命运的理想主义" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14:40] 图片搜索上线故事：工程师改命运的理想主义</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/085067ea422d.mp3" type="button" aria-label="Play English audio">🔊</button><span>The image-search story: engineer idealism that changes destinies.</span></div>
+<audio class="cap-audio" src="audio/085067ea422d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/silicon-valley-gossip/shot-10.jpg" alt="AGA House：邀请制周六社交与行业分享" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:50] AGA House：邀请制周六社交与行业分享</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2585be6f2ba1.mp3" type="button" aria-label="Play English audio">🔊</button><span>AGA House: invite-only Saturday networking and industry talks.</span></div>
+<audio class="cap-audio" src="audio/2585be6f2ba1.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（425段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper medium 模型自动转录，可能存在少量识别误差，已尽可能修正。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>我上周签订了《拜登的破坏法律》</p></div>
+<div class="transcript-row"><time>00:10</time><p>以及《技术和智慧法律规定》</p></div>
+<div class="transcript-row"><time>00:12</time><p>希望AI公司能够再次集中在最好的</p></div>
+<div class="transcript-row"><time>00:16</time><p>而非只集中在最聪明的</p></div>
+<div class="transcript-row"><time>00:18</time><p>在中国企业开发AI的技术</p></div>
+<div class="transcript-row"><time>00:24</time><p>在我们企业开发AI的技术上</p></div>
+<div class="transcript-row"><time>00:26</time><p>我们必须非常专注</p></div>
+<div class="transcript-row"><time>00:28</time><p>在争取胜负</p></div>
+<div class="transcript-row"><time>00:30</time><p>我跟你讲我有个预感</p></div>
+<div class="transcript-row"><time>00:32</time><p>我觉得有大事要在我面上发生</p></div>
+<div class="transcript-row"><time>00:36</time><p>AI的技术变化得很快</p></div>
+<div class="transcript-row"><time>00:38</time><p>它们的进步速度很快</p></div>
+<div class="transcript-row"><time>00:40</time><p>AI的技术让人们有机会上升</p></div>
+<div class="transcript-row"><time>00:44</time><p>我认为这些技术</p></div>
+<div class="transcript-row"><time>00:47</time><p>不够聪明</p></div>
+<div class="transcript-row"><time>00:49</time><p>我们会失去控制</p></div>
+<div class="transcript-row"><time>00:55</time><p>我认为它不够聪明</p></div>
+<div class="transcript-row"><time>00:57</time><p>现在似乎只是一场比赛</p></div>
+<div class="transcript-row"><time>00:59</time><p>每个人都需要更多的力量</p></div>
+<div class="transcript-row"><time>01:01</time><p>每个人都需要更多的力量</p></div>
+<div class="transcript-row"><time>01:07</time><p>欢迎来到我们疯狂的国家</p></div>
+<div class="transcript-row"><time>01:25</time><p>好</p></div>
+<div class="transcript-row"><time>01:26</time><p>谢谢</p></div>
+<div class="transcript-row"><time>01:34</time><p>我改变了你的火腿</p></div>
+<div class="transcript-row"><time>01:36</time><p>给我们的辣椒火腿</p></div>
+<div class="transcript-row"><time>01:38</time><p>其实Elon Musk</p></div>
+<div class="transcript-row"><time>01:40</time><p>喜欢辣椒火腿</p></div>
+<div class="transcript-row"><time>01:42</time><p>他来这里只是为了辣椒火腿</p></div>
+<div class="transcript-row"><time>01:44</time><p>我改变了你的火腿</p></div>
+<div class="transcript-row"><time>01:46</time><p>给我们的辣椒火腿</p></div>
+<div class="transcript-row"><time>01:48</time><p>其实Elon Musk</p></div>
+<div class="transcript-row"><time>01:50</time><p>喜欢辣椒火腿</p></div>
+<div class="transcript-row"><time>01:52</time><p>这是辣椒火腿</p></div>
+<div class="transcript-row"><time>01:56</time><p>好久啊</p></div>
+<div class="transcript-row"><time>01:57</time><p>咱这充电视频</p></div>
+<div class="transcript-row"><time>01:59</time><p>没有上来就吃东西了</p></div>
+<div class="transcript-row"><time>02:01</time><p>毕竟是个美食家</p></div>
+<div class="transcript-row"><time>02:06</time><p>这是土豆汤嘴</p></div>
+<div class="transcript-row"><time>02:09</time><p>这一集咱们来到的地方</p></div>
+<div class="transcript-row"><time>02:11</time><p>小伙伴们</p></div>
+<div class="transcript-row"><time>02:16</time><p>来了是龟</p></div>
+<div class="transcript-row"><time>02:18</time><p>我们现在在这个餐厅叫啥</p></div>
+<div class="transcript-row"><time>02:20</time><p>叫Bugs</p></div>
+<div class="transcript-row"><time>02:21</time><p>就是矽谷当地一个非常传奇</p></div>
+<div class="transcript-row"><time>02:23</time><p>非常有名的餐厅</p></div>
+<div class="transcript-row"><time>02:25</time><p>这个Bugs这个餐厅啊</p></div>
+<div class="transcript-row"><time>02:26</time><p>看著啊</p></div>
+<div class="transcript-row"><time>02:27</time><p>这面积不大</p></div>
+<div class="transcript-row"><time>02:28</time><p>但里面这每样东西都有说道</p></div>
+<div class="transcript-row"><time>02:31</time><p>整个这个行业</p></div>
+<div class="transcript-row"><time>02:32</time><p>几十年来行业里</p></div>
+<div class="transcript-row"><time>02:33</time><p>很多伟大的公司</p></div>
+<div class="transcript-row"><time>02:35</time><p>著名的公司都是在这</p></div>
+<div class="transcript-row"><time>02:36</time><p>吃著早餐</p></div>
+<div class="transcript-row"><time>02:37</time><p>聊著把这事儿定下来</p></div>
+<div class="transcript-row"><time>02:39</time><p>我现在坐的这张桌子</p></div>
+<div class="transcript-row"><time>02:41</time><p>好像都有说道</p></div>
+<div class="transcript-row"><time>02:42</time><p>我坐的这个桌子</p></div>
+<div class="transcript-row"><time>02:43</time><p>就是当年特斯拉创业的时候</p></div>
+<div class="transcript-row"><time>02:46</time><p>决定干特斯拉的这张桌子</p></div>
+<div class="transcript-row"><time>02:50</time><p>当年特斯拉的创始人</p></div>
+<div class="transcript-row"><time>02:52</time><p>就在这儿一块儿吃著这早餐</p></div>
+<div class="transcript-row"><time>02:54</time><p>完了说咱也干个特斯拉吧</p></div>
+<div class="transcript-row"><time>02:56</time><p>那会儿还没有马斯克呢</p></div>
+<div class="transcript-row"><time>02:57</time><p>马斯克都是后来的</p></div>
+<div class="transcript-row"><time>03:01</time><p>尝一下啊</p></div>
+<div class="transcript-row"><time>03:02</time><p>尝一下这个吧</p></div>
+<div class="transcript-row"><time>03:04</time><p>这个号称是</p></div>
+<div class="transcript-row"><time>03:10</time><p>马斯克在这儿最爱吃的配个</p></div>
+<div class="transcript-row"><time>03:12</time><p>经常让自己都饱不饱</p></div>
+<div class="transcript-row"><time>03:14</time><p>经常让自己都饱不饱</p></div>
+<div class="transcript-row"><time>03:16</time><p>过来给他买</p></div>
+<div class="transcript-row"><time>03:19</time><p>他有可能给他炸点细长条的</p></div>
+<div class="transcript-row"><time>03:22</time><p>老长了比马斯克的脸还长</p></div>
+<div class="transcript-row"><time>03:25</time><p>然后撒了浓浓的黑胡椒</p></div>
+<div class="transcript-row"><time>03:27</time><p>因为我知道先是甜</p></div>
+<div class="transcript-row"><time>03:28</time><p>然后黑胡椒的这个</p></div>
+<div class="transcript-row"><time>03:31</time><p>这个胡椒的那个呛辣感</p></div>
+<div class="transcript-row"><time>03:36</time><p>但是吃也不腻</p></div>
+<div class="transcript-row"><time>03:37</time><p>而且挺爽的</p></div>
+<div class="transcript-row"><time>03:39</time><p>还想找啊</p></div>
+<div class="transcript-row"><time>03:40</time><p>所以说我要爱他马斯克</p></div>
+<div class="transcript-row"><time>03:45</time><p>这儿他们这儿人都爱吃的</p></div>
+<div class="transcript-row"><time>03:48</time><p>煎饼弄到这个糖浆</p></div>
+<div class="transcript-row"><time>03:51</time><p>我这一个星期的糖都够了</p></div>
+<div class="transcript-row"><time>03:59</time><p>其实这次来矽谷啊</p></div>
+<div class="transcript-row"><time>04:00</time><p>我们还是带著非常好奇的问题来了</p></div>
+<div class="transcript-row"><time>04:03</time><p>我们想知道这边的AI到底什么样</p></div>
+<div class="transcript-row"><time>04:05</time><p>这边AI到底发生到什么程度了</p></div>
+<div class="transcript-row"><time>04:07</time><p>现在矽谷的从业者到底是什么状态</p></div>
+<div class="transcript-row"><time>04:10</time><p>其实这是我们这一集要去探讨的那个</p></div>
+<div class="transcript-row"><time>04:12</time><p>吃完这个马斯克最爱的培根</p></div>
+<div class="transcript-row"><time>04:20</time><p>我觉得还是得给马斯克发个推特</p></div>
+<div class="transcript-row"><time>04:23</time><p>告诉他</p></div>
+<div class="transcript-row"><time>04:24</time><p>我真是不爱吃肉</p></div>
+<div class="transcript-row"><time>04:26</time><p>要不是</p></div>
+<div class="transcript-row"><time>04:27</time><p>要不是为了他</p></div>
+<div class="transcript-row"><time>04:43</time><p>我认为网购</p></div>
+<div class="transcript-row"><time>04:44</time><p>是最重要的一件事</p></div>
+<div class="transcript-row"><time>04:46</time><p>发生在这里</p></div>
+<div class="transcript-row"><time>04:47</time><p>因为它让我们都可以轻易上网</p></div>
+<div class="transcript-row"><time>04:50</time><p>而PayPal</p></div>
+<div class="transcript-row"><time>04:52</time><p>他们在这里获得他们的第一笔钱</p></div>
+<div class="transcript-row"><time>04:55</time><p>PayPal</p></div>
+<div class="transcript-row"><time>04:56</time><p>对</p></div>
+<div class="transcript-row"><time>04:57</time><p>Reed Hoffman、Peter Thiel、Max</p></div>
+<div class="transcript-row"><time>04:59</time><p>Levshen、David Sachs都在那里</p></div>
+<div class="transcript-row"><time>05:03</time><p>现在他们都成为宾士了</p></div>
+<div class="transcript-row"><time>05:05</time><p>哇</p></div>
+<div class="transcript-row"><time>05:07</time><p>几年前有人给我们这个</p></div>
+<div class="transcript-row"><time>05:09</time><p>这是给我的</p></div>
+<div class="transcript-row"><time>05:10</time><p>这是一个Apple I</p></div>
+<div class="transcript-row"><time>05:11</time><p>现在有85个都在这里</p></div>
+<div class="transcript-row"><time>05:16</time><p>郑森王</p></div>
+<div class="transcript-row"><time>05:18</time><p>他住在街上的</p></div>
+<div class="transcript-row"><time>05:20</time><p>我们需要一些比较好的艺术品</p></div>
+<div class="transcript-row"><time>05:24</time><p>因为我们店里不够</p></div>
+<div class="transcript-row"><time>05:26</time><p>所以他就说</p></div>
+<div class="transcript-row"><time>05:28</time><p>我应该有东西</p></div>
+<div class="transcript-row"><time>05:29</time><p>他就把这个袋子拿了</p></div>
+<div class="transcript-row"><time>05:30</time><p>他就把这个袋子拿了</p></div>
+<div class="transcript-row"><time>05:31</time><p>然后就把这个给我们</p></div>
+<div class="transcript-row"><time>05:33</time><p>他只给了我们两个</p></div>
+<div class="transcript-row"><time>05:35</time><p>一个是在市场</p></div>
+<div class="transcript-row"><time>05:36</time><p>一个是给我们</p></div>
+<div class="transcript-row"><time>05:37</time><p>这挺有趣的</p></div>
+<div class="transcript-row"><time>05:38</time><p>他当时觉得像餐馆</p></div>
+<div class="transcript-row"><time>05:40</time><p>这龟骨什么样</p></div>
+<div class="transcript-row"><time>05:41</time><p>在1991年</p></div>
+<div class="transcript-row"><time>05:43</time><p>我们有个人电脑</p></div>
+<div class="transcript-row"><time>05:46</time><p>那是最基本的东西</p></div>
+<div class="transcript-row"><time>05:49</time><p>让Silicon Valley成为名誉</p></div>
+<div class="transcript-row"><time>05:52</time><p>但在1995年</p></div>
+<div class="transcript-row"><time>05:54</time><p>网络爆发</p></div>
+<div class="transcript-row"><time>05:56</time><p>然后就开启了</p></div>
+<div class="transcript-row"><time>05:58</time><p>一切都开启了</p></div>
+<div class="transcript-row"><time>05:59</time><p>我们以前是世界上所有人的英雄</p></div>
+<div class="transcript-row"><time>06:03</time><p>用网络</p></div>
+<div class="transcript-row"><time>06:04</time><p>用新的手机</p></div>
+<div class="transcript-row"><time>06:07</time><p>但这就开始</p></div>
+<div class="transcript-row"><time>06:09</time><p>跟我们现今的政治幻想</p></div>
+<div class="transcript-row"><time>06:12</time><p>在过去两三年</p></div>
+<div class="transcript-row"><time>06:15</time><p>现在人们都很惊讶</p></div>
+<div class="transcript-row"><time>06:18</time><p>和害怕AI</p></div>
+<div class="transcript-row"><time>06:37</time><p>Sweet Sweet Music</p></div>
+<div class="transcript-row"><time>06:39</time><p>All Night Long</p></div>
+<div class="transcript-row"><time>06:58</time><p>这周围一个不起耳的小房子</p></div>
+<div class="transcript-row"><time>07:00</time><p>可能就是一个很厉害的棋</p></div>
+<div class="transcript-row"><time>07:02</time><p>对对对</p></div>
+<div class="transcript-row"><time>07:07</time><p>对这个就是看看</p></div>
+<div class="transcript-row"><time>07:09</time><p>这儿</p></div>
+<div class="transcript-row"><time>07:10</time><p>这就是Facebook</p></div>
+<div class="transcript-row"><time>07:11</time><p>这是Facebook第一个办公室</p></div>
+<div class="transcript-row"><time>07:13</time><p>就在这</p></div>
+<div class="transcript-row"><time>07:14</time><p>在之前他是在租的别人的房子</p></div>
+<div class="transcript-row"><time>07:16</time><p>电影里头把烟头给拉下来</p></div>
+<div class="transcript-row"><time>07:19</time><p>在之前是住在别人的房子里面</p></div>
+<div class="transcript-row"><time>07:21</time><p>这是第一个租的办公室在楼上</p></div>
+<div class="transcript-row"><time>07:23</time><p>对面是吃越南粉的</p></div>
+<div class="transcript-row"><time>07:24</time><p>吃的是越南粉</p></div>
+<div class="transcript-row"><time>07:25</time><p>对</p></div>
+<div class="transcript-row"><time>07:26</time><p>在这地方感觉到机会人人平等</p></div>
+<div class="transcript-row"><time>07:29</time><p>对对对</p></div>
+<div class="transcript-row"><time>07:31</time><p>这个就是165</p></div>
+<div class="transcript-row"><time>07:33</time><p>这个网上可以查到</p></div>
+<div class="transcript-row"><time>07:34</time><p>对对对</p></div>
+<div class="transcript-row"><time>07:35</time><p>这就是当年那个PayPal</p></div>
+<div class="transcript-row"><time>07:38</time><p>就Elon Musk</p></div>
+<div class="transcript-row"><time>07:39</time><p>跟那个Peter Tew做的PayPal在这做</p></div>
+<div class="transcript-row"><time>07:42</time><p>之后是谷歌</p></div>
+<div class="transcript-row"><time>07:44</time><p>是谷歌的就是在矽谷的</p></div>
+<div class="transcript-row"><time>07:46</time><p>相当于第一个办公室</p></div>
+<div class="transcript-row"><time>07:47</time><p>被称为是矽谷最幸运的办公室</p></div>
+<div class="transcript-row"><time>07:50</time><p>最幸运的办公室</p></div>
+<div class="transcript-row"><time>07:51</time><p>还有周围很多小的</p></div>
+<div class="transcript-row"><time>07:53</time><p>你大概都是一些很著名的风投公司</p></div>
+<div class="transcript-row"><time>07:56</time><p>所以我们有一个窍门就是说</p></div>
+<div class="transcript-row"><time>07:58</time><p>在这要走一走</p></div>
+<div class="transcript-row"><time>07:59</time><p>看一看</p></div>
+<div class="transcript-row"><time>08:00</time><p>经常看哪家公司</p></div>
+<div class="transcript-row"><time>08:01</time><p>出卖公司在这租的办公室</p></div>
+<div class="transcript-row"><time>08:03</time><p>这说明是很有著名的投资人投的</p></div>
+<div class="transcript-row"><time>08:05</time><p>他才敢在这住</p></div>
+<div class="transcript-row"><time>08:06</time><p>否则的话没必要住那么贵的地</p></div>
+<div class="transcript-row"><time>08:09</time><p>这边办公室一般一天多少钱</p></div>
+<div class="transcript-row"><time>08:12</time><p>当时我们在那个楼上</p></div>
+<div class="transcript-row"><time>08:14</time><p>就这楼上一个月5万美元</p></div>
+<div class="transcript-row"><time>08:19</time><p>5万美金</p></div>
+<div class="transcript-row"><time>08:20</time><p>然后大概是2000尺</p></div>
+<div class="transcript-row"><time>08:23</time><p>就200平米</p></div>
+<div class="transcript-row"><time>08:24</time><p>200平米</p></div>
+<div class="transcript-row"><time>08:25</time><p>5万美元</p></div>
+<div class="transcript-row"><time>08:26</time><p>那是6年以前</p></div>
+<div class="transcript-row"><time>08:27</time><p>确实贵</p></div>
+<div class="transcript-row"><time>08:29</time><p>你看这么几个地就是这样</p></div>
+<div class="transcript-row"><time>08:31</time><p>然后下去之后就是斯坦福大学</p></div>
+<div class="transcript-row"><time>08:33</time><p>所以斯坦福大学其实对矽谷的发展</p></div>
+<div class="transcript-row"><time>08:35</time><p>起到很大的作用</p></div>
+<div class="transcript-row"><time>08:36</time><p>非常大的作用</p></div>
+<div class="transcript-row"><time>08:37</time><p>原来这个城市就是</p></div>
+<div class="transcript-row"><time>08:39</time><p>这就是因为斯坦福大学有了</p></div>
+<div class="transcript-row"><time>08:40</time><p>教授学生住著才有的</p></div>
+<div class="transcript-row"><time>08:47</time><p>上个世纪30年代之前</p></div>
+<div class="transcript-row"><time>08:49</time><p>矽谷本地都是农业为主的果园</p></div>
+<div class="transcript-row"><time>08:53</time><p>当时斯坦福大学为了鼓励学生创业</p></div>
+<div class="transcript-row"><time>08:56</time><p>把土地租给学生</p></div>
+<div class="transcript-row"><time>08:57</time><p>才有了学生车库创业的形态</p></div>
+<div class="transcript-row"><time>09:01</time><p>惠普公司当年也是诞生一次</p></div>
+<div class="transcript-row"><time>09:09</time><p>冷战期间</p></div>
+<div class="transcript-row"><time>09:10</time><p>科技和军备竞赛让矽谷出到重视</p></div>
+<div class="transcript-row"><time>09:12</time><p>美国军方给矽谷这边下了大量订单</p></div>
+<div class="transcript-row"><time>09:15</time><p>带动了最小的半导体行业</p></div>
+<div class="transcript-row"><time>09:17</time><p>矽谷也有此发展</p></div>
+<div class="transcript-row"><time>09:25</time><p>80年代</p></div>
+<div class="transcript-row"><time>09:26</time><p>美国放宽了养老金投资领域限制</p></div>
+<div class="transcript-row"><time>09:29</time><p>加上互联网与个人电脑的热潮</p></div>
+<div class="transcript-row"><time>09:31</time><p>私人投资开始进入矽谷</p></div>
+<div class="transcript-row"><time>09:33</time><p>矽谷也迎来了幼儿爆发</p></div>
+<div class="transcript-row"><time>09:42</time><p>一边是科技改变世界的理想主义</p></div>
+<div class="transcript-row"><time>09:45</time><p>一边是话题与热点造就资本热潮</p></div>
+<div class="transcript-row"><time>09:50</time><p>于是一波又一波的科技热点</p></div>
+<div class="transcript-row"><time>09:52</time><p>与一波又一波的资本狂欢交相互应</p></div>
+<div class="transcript-row"><time>09:55</time><p>矽谷就这样走到了今天</p></div>
+<div class="transcript-row"><time>09:59</time><p>矽谷以来是中国最有名的科技</p></div>
+<div class="transcript-row"><time>10:03</time><p>与经济最有名的科技</p></div>
+<div class="transcript-row"><time>10:05</time><p>以及中国最有名的科技</p></div>
+<div class="transcript-row"><time>10:08</time><p>从这来看</p></div>
+<div class="transcript-row"><time>10:09</time><p>我觉得非常像2000年的时候</p></div>
+<div class="transcript-row"><time>10:11</time><p>可能有很多期待</p></div>
+<div class="transcript-row"><time>10:12</time><p>就因为有一些公司估值涨得特别快</p></div>
+<div class="transcript-row"><time>10:15</time><p>面临著巨大的机会</p></div>
+<div class="transcript-row"><time>10:17</time><p>同时也面临著一个很大的风险</p></div>
+<div class="transcript-row"><time>10:20</time><p>而且大量的钱现在往高科技里头砸</p></div>
+<div class="transcript-row"><time>10:24</time><p>所以是非常像</p></div>
+<div class="transcript-row"><time>10:26</time><p>房价很高</p></div>
+<div class="transcript-row"><time>10:28</time><p>然后工程师的工资更高</p></div>
+<div class="transcript-row"><time>10:32</time><p>所以这两件我就非常想</p></div>
+<div class="transcript-row"><time>10:34</time><p>你要一提这个</p></div>
+<div class="transcript-row"><time>10:35</time><p>您看您作为90年就来美国的</p></div>
+<div class="transcript-row"><time>10:38</time><p>然后投资界非常成功的大佬</p></div>
+<div class="transcript-row"><time>10:41</time><p>您经历过互联网</p></div>
+<div class="transcript-row"><time>10:43</time><p>然后移动互联网</p></div>
+<div class="transcript-row"><time>10:45</time><p>您觉得这几次热潮</p></div>
+<div class="transcript-row"><time>10:46</time><p>前面这几次跟AI这次热潮比</p></div>
+<div class="transcript-row"><time>10:49</time><p>有哪些不同</p></div>
+<div class="transcript-row"><time>10:50</time><p>这次我觉得最重要的就是</p></div>
+<div class="transcript-row"><time>10:53</time><p>它的速度很快</p></div>
+<div class="transcript-row"><time>10:54</time><p>原因就是这么几个方面</p></div>
+<div class="transcript-row"><time>10:56</time><p>一方面就是说移动互联网</p></div>
+<div class="transcript-row"><time>10:58</time><p>它是个网络对吧</p></div>
+<div class="transcript-row"><time>11:00</time><p>它必须是大家都用才有用</p></div>
+<div class="transcript-row"><time>11:02</time><p>这个时间它需要比较慢</p></div>
+<div class="transcript-row"><time>11:05</time><p>对吧</p></div>
+<div class="transcript-row"><time>11:05</time><p>像Facebook内部有个说</p></div>
+<div class="transcript-row"><time>11:07</time><p>就说一个人在Facebook里面</p></div>
+<div class="transcript-row"><time>11:09</time><p>有5个朋友之后</p></div>
+<div class="transcript-row"><time>11:11</time><p>他就不容易走了</p></div>
+<div class="transcript-row"><time>11:12</time><p>就不会再走了</p></div>
+<div class="transcript-row"><time>11:13</time><p>那5个之前就很难做</p></div>
+<div class="transcript-row"><time>11:16</time><p>它有个网络效应</p></div>
+<div class="transcript-row"><time>11:17</time><p>人工智能就正好不一样了</p></div>
+<div class="transcript-row"><time>11:19</time><p>就是说它是一个</p></div>
+<div class="transcript-row"><time>11:21</time><p>我们叫基础设施叫Utility</p></div>
+<div class="transcript-row"><time>11:24</time><p>就说你不用没关系</p></div>
+<div class="transcript-row"><time>11:26</time><p>我自己上网</p></div>
+<div class="transcript-row"><time>11:28</time><p>我用了ChatGBT</p></div>
+<div class="transcript-row"><time>11:29</time><p>用了Deepseq</p></div>
+<div class="transcript-row"><time>11:30</time><p>我就可以用下来了</p></div>
+<div class="transcript-row"><time>11:31</time><p>这个车速度就很快了对吧</p></div>
+<div class="transcript-row"><time>11:34</time><p>第二个就是</p></div>
+<div class="transcript-row"><time>11:37</time><p>本质上讲就是说</p></div>
+<div class="transcript-row"><time>11:38</time><p>大公司之间的竞争</p></div>
+<div class="transcript-row"><time>11:40</time><p>其实给一般的人</p></div>
+<div class="transcript-row"><time>11:43</time><p>带来一个巨大的机会</p></div>
+<div class="transcript-row"><time>11:45</time><p>就移动互联网刚开始的时候</p></div>
+<div class="transcript-row"><time>11:46</time><p>实际上</p></div>
+<div class="transcript-row"><time>11:48</time><p>一般的人用不上</p></div>
+<div class="transcript-row"><time>11:49</time><p>刚开始是教授</p></div>
+<div class="transcript-row"><time>11:51</time><p>后来是企业</p></div>
+<div class="transcript-row"><time>11:52</time><p>现在是普通人</p></div>
+<div class="transcript-row"><time>11:53</time><p>人家那个学生</p></div>
+<div class="transcript-row"><time>11:54</time><p>对吧</p></div>
+<div class="transcript-row"><time>11:54</time><p>都利用那个来</p></div>
+<div class="transcript-row"><time>11:56</time><p>不管是好坏是写作业还是干嘛</p></div>
+<div class="transcript-row"><time>11:58</time><p>大家都在用</p></div>
+<div class="transcript-row"><time>12:00</time><p>所以这个是一个</p></div>
+<div class="transcript-row"><time>12:03</time><p>发展很快的事情</p></div>
+<div class="transcript-row"><time>12:05</time><p>在这个行业一刚开始</p></div>
+<div class="transcript-row"><time>12:07</time><p>诞生的时候</p></div>
+<div class="transcript-row"><time>12:08</time><p>大家会觉得说</p></div>
+<div class="transcript-row"><time>12:09</time><p>是不是又是一次互联网革命</p></div>
+<div class="transcript-row"><time>12:13</time><p>那后来发现</p></div>
+<div class="transcript-row"><time>12:14</time><p>其实这个比方是不恰当的</p></div>
+<div class="transcript-row"><time>12:16</time><p>就是把这个行业缩小了</p></div>
+<div class="transcript-row"><time>12:19</time><p>对</p></div>
+<div class="transcript-row"><time>12:19</time><p>严重缩小了</p></div>
+<div class="transcript-row"><time>12:20</time><p>可能目前去看人</p></div>
+<div class="transcript-row"><time>12:23</time><p>整个人类历史的话</p></div>
+<div class="transcript-row"><time>12:24</time><p>可能比较恰当的</p></div>
+<div class="transcript-row"><time>12:26</time><p>大家好理解的这个比喻</p></div>
+<div class="transcript-row"><time>12:28</time><p>真的是类似于蒸汽机</p></div>
+<div class="transcript-row"><time>12:30</time><p>类似于电力的发能</p></div>
+<div class="transcript-row"><time>12:33</time><p>因为这个智能本身</p></div>
+<div class="transcript-row"><time>12:34</time><p>它就是一种生产力</p></div>
+<div class="transcript-row"><time>12:39</time><p>这一代技术之所以叫</p></div>
+<div class="transcript-row"><time>12:40</time><p>我们一般简写叫AGI</p></div>
+<div class="transcript-row"><time>12:43</time><p>里面的这个G就是General</p></div>
+<div class="transcript-row"><time>12:45</time><p>就是General Artificial Intelligence</p></div>
+<div class="transcript-row"><time>12:47</time><p>这里面的General是通用的意思</p></div>
+<div class="transcript-row"><time>12:50</time><p>传统的上一代</p></div>
+<div class="transcript-row"><time>12:51</time><p>所有的人工智能</p></div>
+<div class="transcript-row"><time>12:52</time><p>它是专用的模型</p></div>
+<div class="transcript-row"><time>12:54</time><p>和专用的算法</p></div>
+<div class="transcript-row"><time>12:55</time><p>就是说以前可能是不同菜系</p></div>
+<div class="transcript-row"><time>12:58</time><p>它有不同菜系的厨师</p></div>
+<div class="transcript-row"><time>13:00</time><p>然后它在这个菜系里边</p></div>
+<div class="transcript-row"><time>13:02</time><p>可能是做得非常精</p></div>
+<div class="transcript-row"><time>13:04</time><p>和非常专的</p></div>
+<div class="transcript-row"><time>13:05</time><p>但是它可能不太了解</p></div>
+<div class="transcript-row"><time>13:07</time><p>其他菜系</p></div>
+<div class="transcript-row"><time>13:08</time><p>意欲美食的特点和思路</p></div>
+<div class="transcript-row"><time>13:11</time><p>现在大模型就是说</p></div>
+<div class="transcript-row"><time>13:13</time><p>有一个像类似于</p></div>
+<div class="transcript-row"><time>13:14</time><p>开了天眼这样的一个</p></div>
+<div class="transcript-row"><time>13:16</time><p>顶级的厨师</p></div>
+<div class="transcript-row"><time>13:17</time><p>所有的菜系</p></div>
+<div class="transcript-row"><time>13:18</time><p>它都可以做到非常顶级</p></div>
+<div class="transcript-row"><time>13:20</time><p>这里边就带来了一个</p></div>
+<div class="transcript-row"><time>13:22</time><p>就是我们所谓的叫涌现</p></div>
+<div class="transcript-row"><time>13:25</time><p>它就可以处理旁通</p></div>
+<div class="transcript-row"><time>13:26</time><p>融会贯通</p></div>
+<div class="transcript-row"><time>13:27</time><p>把一些比如说</p></div>
+<div class="transcript-row"><time>13:28</time><p>其他菜系一些非常好的</p></div>
+<div class="transcript-row"><time>13:30</time><p>想法思路</p></div>
+<div class="transcript-row"><time>13:32</time><p>融合到另一个菜系</p></div>
+<div class="transcript-row"><time>13:33</time><p>然后这种融合</p></div>
+<div class="transcript-row"><time>13:35</time><p>可能是会产生</p></div>
+<div class="transcript-row"><time>13:36</time><p>比如说会</p></div>
+<div class="transcript-row"><time>13:37</time><p>诞生一个更好的一个创新</p></div>
+<div class="transcript-row"><time>13:40</time><p>有了这个成果之后</p></div>
+<div class="transcript-row"><time>13:42</time><p>我们会观察到</p></div>
+<div class="transcript-row"><time>13:43</time><p>很多行业的生产关系</p></div>
+<div class="transcript-row"><time>13:45</time><p>和生产力</p></div>
+<div class="transcript-row"><time>13:47</time><p>发生了非常大的变化</p></div>
+<div class="transcript-row"><time>13:49</time><p>智能水平变到更高以后</p></div>
+<div class="transcript-row"><time>13:50</time><p>你创造了更高的生产力</p></div>
+<div class="transcript-row"><time>13:53</time><p>人大家其实是从</p></div>
+<div class="transcript-row"><time>13:56</time><p>繁琐的重复的工作中解放出来</p></div>
+<div class="transcript-row"><time>13:58</time><p>然后去干更高层级的东西</p></div>
+<div class="transcript-row"><time>14:02</time><p>说归古人</p></div>
+<div class="transcript-row"><time>14:03</time><p>有一种叫技术理想主义</p></div>
+<div class="transcript-row"><time>14:05</time><p>对</p></div>
+<div class="transcript-row"><time>14:06</time><p>他不仅相信</p></div>
+<div class="transcript-row"><time>14:07</time><p>就是你周围很多人</p></div>
+<div class="transcript-row"><time>14:09</time><p>他就是改变了很多的事情</p></div>
+<div class="transcript-row"><time>14:12</time><p>比如像我们基金合伙人</p></div>
+<div class="transcript-row"><time>14:13</time><p>叫朱惠灿博士</p></div>
+<div class="transcript-row"><time>14:15</time><p>当时有个卧虎藏龙</p></div>
+<div class="transcript-row"><time>14:17</time><p>大家喜欢张子怡</p></div>
+<div class="transcript-row"><time>14:19</time><p>后来有个詹尼弗洛佩</p></div>
+<div class="transcript-row"><time>14:21</time><p>穿着一个绿色的衣服</p></div>
+<div class="transcript-row"><time>14:22</time><p>大家都去寻找他们的照片</p></div>
+<div class="transcript-row"><time>14:25</time><p>那是2000年</p></div>
+<div class="transcript-row"><time>14:25</time><p>谷歌刚起步</p></div>
+<div class="transcript-row"><time>14:27</time><p>98年两年</p></div>
+<div class="transcript-row"><time>14:29</time><p>所以世界上没有图片搜索</p></div>
+<div class="transcript-row"><time>14:30</time><p>都是文字搜索</p></div>
+<div class="transcript-row"><time>14:32</time><p>他就做图片搜索的引擎</p></div>
+<div class="transcript-row"><time>14:36</time><p>他是周末做的还是</p></div>
+<div class="transcript-row"><time>14:38</time><p>然后谷歌创始人来这儿</p></div>
+<div class="transcript-row"><time>14:40</time><p>配着看一看说</p></div>
+<div class="transcript-row"><time>14:40</time><p>哎这不错呀</p></div>
+<div class="transcript-row"><time>14:42</time><p>那你就放进去吧</p></div>
+<div class="transcript-row"><time>14:42</time><p>上线</p></div>
+<div class="transcript-row"><time>14:44</time><p>最后就</p></div>
+<div class="transcript-row"><time>14:45</time><p>世界上就有了一个图片搜索</p></div>
+<div class="transcript-row"><time>14:48</time><p>大家突然互联网上有图片搜索</p></div>
+<div class="transcript-row"><time>14:50</time><p>那自己的命运也改变</p></div>
+<div class="transcript-row"><time>14:52</time><p>他就是一个工程师</p></div>
+<div class="transcript-row"><time>14:53</time><p>居然能做到这一步</p></div>
+<div class="transcript-row"><time>14:55</time><p>所以你周围的人经常有那种人</p></div>
+<div class="transcript-row"><time>14:58</time><p>你就会感觉</p></div>
+<div class="transcript-row"><time>14:58</time><p>哎</p></div>
+<div class="transcript-row"><time>14:59</time><p>到底下一个事是什么事</p></div>
+<div class="transcript-row"><time>15:01</time><p>你就开始琢磨这个事</p></div>
+<div class="transcript-row"><time>15:02</time><p>我能不能会像朱惠灿博士那样</p></div>
+<div class="transcript-row"><time>15:04</time><p>我能不能像马克扎克伯一样</p></div>
+<div class="transcript-row"><time>15:06</time><p>他会激励周围的人说</p></div>
+<div class="transcript-row"><time>15:08</time><p>哎</p></div>
+<div class="transcript-row"><time>15:09</time><p>为什么不是我</p></div>
+<div class="transcript-row"><time>15:10</time><p>哈哈</p></div>
+<div class="transcript-row"><time>15:10</time><p>那我得想琢磨下一个事</p></div>
+<div class="transcript-row"><time>15:12</time><p>我能不能像朱惠灿博士那样</p></div>
+<div class="transcript-row"><time>15:14</time><p>我能不能像马克扎克伯一样</p></div>
+<div class="transcript-row"><time>15:17</time><p>他会激励周围的人说</p></div>
+<div class="transcript-row"><time>15:18</time><p>还有一个事</p></div>
+<div class="transcript-row"><time>15:33</time><p>今天是2026年的</p></div>
+<div class="transcript-row"><time>15:37</time><p>6月27号</p></div>
+<div class="transcript-row"><time>15:38</time><p>就当地时间6月27</p></div>
+<div class="transcript-row"><time>15:40</time><p>北京时间应该是已经是6月28了</p></div>
+<div class="transcript-row"><time>15:42</time><p>那是下午一点半</p></div>
+<div class="transcript-row"><time>15:45</time><p>今天是个礼拜六</p></div>
+<div class="transcript-row"><time>15:46</time><p>所以在当地是个休息日</p></div>
+<div class="transcript-row"><time>15:49</time><p>这远处草坪上</p></div>
+<div class="transcript-row"><time>15:50</time><p>你看有人这在盔甘打高尔夫</p></div>
+<div class="transcript-row"><time>15:54</time><p>然后在这边的这个大house里啊</p></div>
+<div class="transcript-row"><time>15:57</time><p>就</p></div>
+<div class="transcript-row"><time>15:58</time><p>硅谷当地一个很有意思的一个活动</p></div>
+<div class="transcript-row"><time>16:00</time><p>他们叫AGA HOUSE</p></div>
+<div class="transcript-row"><time>16:02</time><p>这个活动也是邀请日子</p></div>
+<div class="transcript-row"><time>16:04</time><p>没人邀请</p></div>
+<div class="transcript-row"><time>16:05</time><p>没有人核准你的身份</p></div>
+<div class="transcript-row"><time>16:06</time><p>你是不准来的</p></div>
+<div class="transcript-row"><time>16:07</time><p>这活动上午就开始了</p></div>
+<div class="transcript-row"><time>16:09</time><p>上午呢会有一些分享</p></div>
+<div class="transcript-row"><time>16:11</time><p>这个行业判断</p></div>
+<div class="transcript-row"><time>16:12</time><p>各种的这种报告</p></div>
+<div class="transcript-row"><time>16:14</time><p>但是他们是禁止我们来的</p></div>
+<div class="transcript-row"><time>16:16</time><p>说我们只有下午来的</p></div>
+<div class="transcript-row"><time>16:19</time><p>所以下午呢我们现在进去看看</p></div>
+<div class="transcript-row"><time>16:21</time><p>看看他里面在里边</p></div>
+<div class="transcript-row"><time>16:23</time><p>就这种</p></div>
+<div class="transcript-row"><time>16:24</time><p>硅谷当地的社交活动他们都在干嘛</p></div>
+<div class="transcript-row"><time>16:27</time><p>哎呦这号子挺大</p></div>
+<div class="transcript-row"><time>16:29</time><p>你看</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>
