@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-10-09",
+    "title": "让人类交出方向盘：特斯拉FSD十三年的冒险、争议与进化【硅谷101】",
+    "summary": "硅谷101拆解FSD十三年：Mobileye到自研芯片、纯视觉与端到端、CyberCab远程监管；下半场是经济之战——Waymo运营仍领先，特斯拉激进路线留在决赛圈。",
+    "primary": "auto-digital",
+    "tags": [
+      "FSD",
+      "CyberCab",
+      "Robotaxi",
+      "端到端",
+      "Waymo"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/QQer1jF",
+    "duration": "62分35秒",
+    "outputs": {
+      "html": "tesla-fsd-thirteen-years-图文实录.html",
+      "svg": "tesla-fsd-thirteen-years-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 1622,
+    "svg_height": 4244,
+    "slug": "tesla-fsd-thirteen-years"
+  },
+  {
+    "date": "2026-10-09",
     "title": "21世纪十大英剧｜爆剧不少，但你至少漏了一半",
     "summary": "英剧贵在短季删水与拒绝廉价大团圆；片单覆盖夏洛克到万物生灵，漏一半常漏在喜剧/单元/间谍冷门。用类型覆盖校准审美，而非只追热搜。",
     "primary": "film",
