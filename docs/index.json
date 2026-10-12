@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-10-09",
+    "title": "未来最值钱的三种工作，硅谷创业者讲透真相",
+    "summary": "硅谷创业者小鹰：工作更多、老登打工岗更少；学会管AI与定义问题。近未来三类工作——Founder、销售、过渡期苦工/精细体力。",
+    "primary": "workplace",
+    "tags": [
+      "AI创业",
+      "Founder",
+      "销售",
+      "通才",
+      "一人公司"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/P9SiN92",
+    "duration": "12分35秒",
+    "outputs": {
+      "html": "future-three-valuable-jobs-图文实录.html",
+      "svg": "future-three-valuable-jobs-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 539,
+    "svg_height": 4257,
+    "slug": "future-three-valuable-jobs"
+  },
+  {
+    "date": "2026-10-09",
     "title": "5万多的哈苏 X2D 凭啥贵？用了俩月，真话全在这",
     "summary": "X2D 值在动态范围、自然色彩、1亿像素与拍照仪式感；不值在对焦/连拍相对顶级全画幅偏慢、几乎无视频。多数人不值，极致画质党能懂贵因。",
     "primary": "photo",
