@@ -1,6 +1,102 @@
 [
   {
     "date": "2026-10-09",
+    "title": "5万多的哈苏 X2D 凭啥贵？用了俩月，真话全在这",
+    "summary": "X2D 值在动态范围、自然色彩、1亿像素与拍照仪式感；不值在对焦/连拍相对顶级全画幅偏慢、几乎无视频。多数人不值，极致画质党能懂贵因。",
+    "primary": "photo",
+    "tags": [
+      "哈苏",
+      "X2D",
+      "中画幅",
+      "动态范围",
+      "色彩"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/FQUJVwg",
+    "duration": "12分20秒",
+    "outputs": {
+      "html": "hasselblad-x2d-review-图文实录.html",
+      "svg": "hasselblad-x2d-review-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 128,
+    "svg_height": 4910,
+    "slug": "hasselblad-x2d-review"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "斯坦福教授Huberman最新健康指南：代谢、睡眠、压力，很多人都做反了",
+    "summary": "晨升皮质醇靠户外见光；晚餐适量淀粉助眠；半夜眼球运动退出警觉；30+代谢断崖不成立，抓肌肉与NEAT。补剂勿盲目抄作业。",
+    "primary": "other",
+    "tags": [
+      "Huberman",
+      "皮质醇",
+      "睡眠",
+      "NEAT",
+      "代谢"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/W8Afjck",
+    "duration": "8分42秒",
+    "outputs": {
+      "html": "huberman-health-guide-图文实录.html",
+      "svg": "huberman-health-guide-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 229,
+    "svg_height": 5084,
+    "slug": "huberman-health-guide"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "超下饭英文纪录片！边看边学英语",
+    "summary": "用英语学感兴趣的事：推荐 Explained、F1 Drive to Survive、OJ Made in America。口音不重要，关键是把自己放进语言里去学世界。",
+    "primary": "workplace",
+    "tags": [
+      "英语学习",
+      "纪录片",
+      "Explained",
+      "F1",
+      "OJ"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/sQSCjkh",
+    "duration": "3分25秒",
+    "outputs": {
+      "html": "english-doc-binge-learning-图文实录.html",
+      "svg": "english-doc-binge-learning-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 64,
+    "svg_height": 5580,
+    "slug": "english-doc-binge-learning"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "全英｜语言决定了你的思维 你的内耗很可能是语言带来的",
+    "summary": "语言塑造思维：外语效应拉开情绪距离；英汉名词化差异；算法偏爱极端标签。用更高情绪粒度描述感受，减少冲动——语言的边界即世界的边界。",
+    "primary": "workplace",
+    "tags": [
+      "语言",
+      "外语效应",
+      "情绪粒度",
+      "内耗",
+      "维特根斯坦"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/VzNHL8C",
+    "duration": "3分25秒",
+    "outputs": {
+      "html": "language-shapes-thinking-图文实录.html",
+      "svg": "language-shapes-thinking-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 42,
+    "svg_height": 5927,
+    "slug": "language-shapes-thinking"
+  },
+  {
+    "date": "2026-10-09",
     "title": "王自如聊口才如何变好",
     "summary": "表达能力强≠口才好：瓶颈在思维方式与思想高度，不是口齿。演讲课总分总只剩形式逻辑；真正改变来自写稿（ZEALER）与 Storytelling 对节奏、句尾字数与声调的推敲。",
     "primary": "workplace",

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5580" viewBox="0 0 1320 5580">
+  <foreignObject x="0" y="0" width="1320" height="5580">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p,li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:24px;margin:8px 0}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 24px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:16px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:18px;font-weight:700;color:#1e40af;margin-bottom:10px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:10px 0;font-size:14px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:10px 0;font-size:14px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#f1f5f9;padding:12px 14px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 14px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:28px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:16px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:28px 0 12px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:20px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap"><h1>超下饭英文纪录片｜边看边学英语</h1><div class="meta"><span class="tag tag-blue">英语学习</span><span class="tag tag-green">纪录片</span><span class="tag tag-orange">Explained</span><span class="tag tag-purple">F1</span><span class="tag tag-red">OJ</span><span class="tag tag-gray">时长 3分25秒</span><span class="tag tag-gray">理性分析 · 语言输入</span></div><a class="source-link" href="https://b23.tv/sQSCjkh">原视频</a><div class="summary-line">核心判断：英语进步来自「用英语学感兴趣的事」，不是刷题；三部纪录片分别训练短知识拼图、产业叙事+口音包容、长篇社会反思。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">用英语学感兴趣内容</span></div><div class="timeline-item"><span class="timeline-time">00:24</span><span class="timeline-text">Explained：20分钟/集</span></div><div class="timeline-item"><span class="timeline-time">00:41</span><span class="timeline-text">话题覆盖电竞到股市</span></div><div class="timeline-item"><span class="timeline-time">01:19</span><span class="timeline-text">Drive to Survive</span></div><div class="timeline-item"><span class="timeline-time">02:10</span><span class="timeline-text">口音不重要，说清想法</span></div><div class="timeline-item"><span class="timeline-time">02:20</span><span class="timeline-text">OJ Made in America</span></div><div class="timeline-item"><span class="timeline-time">03:08</span><span class="timeline-text">把自己放进语言里</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>英语怎么真进步</div><span class="arrow">→</span><div class="node-green">证据<br/>三部片三种输入</div><span class="arrow">→</span><div class="node-orange">判断<br/>兴趣&gt;题海</div><span class="arrow">→</span><div class="node">行动<br/>选一部追完</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：学英语=刷教材剧。纠偏：用英语学世界运作更有效。</p><p>误解：口音标准才算会说。纠偏：F1 访谈证明说清想法优先。</p><p>误解：英文纪录片优于中文。纠偏：口播明确「那不是重点」。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-purple"><h3>在讲什么：兴趣驱动输入</h3><p>把英语当获取历史/经济/娱乐知识的介质；纪录片比剧更适合「学东西」。</p><div class="quote">use English to learn something that you are generally interested in</div><div class="relation">先选兴趣，再选材料。</div></div><div class="card card-blue"><h3>三部片分工</h3><p>Explained=短平快世界观拼图；F1=产业叙事+多口音；OJ=长篇社会与名人文化。</p><div class="quote">accent is not important. What matters most is whether you can get your ideas across</div><div class="relation">按目标选片：词汇面 / 听力口音 / 深度议题。</div></div><div class="card card-green"><h3>怎么用：一周追一季短片</h3><p>学生/职场都可从 Explained 开始；做笔记用英语写「本集三个事实+一个观点」。</p><div class="quote">you need to put yourself inside that language from the very beginning</div><div class="relation">输出挂钩：用片中话题练一段 60 秒口述。</div></div><div class="card card-orange"><h3>边界：个人片单非权威榜</h3><p>三部为 UP 主观最爱；版权与地区可用性因平台而异；犯罪纪录片含敏感内容需自辨。</p><div class="quote">That is not the point.</div><div class="relation">可替换同结构片单，方法可迁移。</div></div></div><div class="section"><h2 class="sec-title">三部纪录片对照</h2><div class="card"><table><thead><tr><th>片</th><th>时长形态</th><th>英语训练点</th><th>知识收益</th></tr></thead><tbody><tr><td>Explained</td><td>约20分钟/集</td><td>清晰发音、话题词汇</td><td>跨领域世界观拼图</td></tr><tr><td>Drive to Survive</td><td>多季叙事</td><td>多口音听力、产业用语</td><td>理解陌生高 tip 产业</td></tr><tr><td>OJ Made in America</td><td>约1小时/集</td><td>长听力与反思停顿</td><td>美国社会与名人文化</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>推荐基于个人口味。</li><li>不替代系统语法课程，作大量可理解输入。</li></ul><div class="pitfall">只收藏不追完。</div><div class="pitfall">为「练发音」回避非母语口音材料。</div><div class="pitfall">把纪录片当刷剧不记任何输出。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>兴趣是输入引擎。</li><li>三部片覆盖短/中/长叙事。</li><li>把自己放进语言里。</li></ul><h3>行动清单</h3><ol><li>本周看完 3 集 Explained 并英语记三条事实。</li><li>选一季 F1 听口音不暂停纠音。</li><li>OJ 每集后写一句社会观察（中或英）。</li></ol><h3>关键认知转变</h3><p>从「学英语」转向「用英语学世界」。</p></div><div class="footer">双轨产物之二 · 理性分析 · 3分25秒</div></div>
+    </div>
+  </foreignObject>
+</svg>

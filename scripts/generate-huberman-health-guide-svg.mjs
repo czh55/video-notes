@@ -1,0 +1,130 @@
+#!/usr/bin/env node
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildSvg } from '../svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, '..', 'docs', 'huberman-health-guide-理性分析.svg');
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px;margin:8px 0}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:22px 26px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:22px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:16px 22px;text-align:center;min-width:130px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin-bottom:20px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:14px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:24px;margin-bottom:14px;box-shadow:0 4px 20px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:17px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 12px;border-radius:8px;font-size:13px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:30px;margin-top:24px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;display:inline-block;margin-bottom:16px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}`;
+
+const esc = (s) => String(s ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+
+const d = {
+  title: 'Huberman 健康指南：代谢睡眠压力做反了吗',
+  duration: '8分42秒',
+  url: 'https://b23.tv/W8Afjck',
+  tags: ['Huberman', '皮质醇', '睡眠', 'NEAT', '代谢'],
+  perspective: '理性分析 · 健康习惯',
+  summary: '核心判断：皮质醇要「晨升夜降」而非全天打压；睡眠差常与节律/夜间能量信号有关；所谓30+代谢崩盘，应先查肌肉与 NEAT，而不是认命。',
+  timeline: [
+    ['00:18', '四点颠覆预告'],
+    ['01:15', '晨间皮质醇应飙升'],
+    ['01:50', '户外见光校准睡眠'],
+    ['02:50', '晚餐淀粉与备战激素'],
+    ['04:10', '半夜眼球运动'],
+    ['05:40', '否定代谢断崖'],
+    ['06:20', 'NEAT 拉开消耗'],
+    ['07:40', 'soleus / 饭后走'],
+  ],
+  map: [
+    ['问题', '习惯是否做反'],
+    ['证据', '节律+碳水+NEAT'],
+    ['判断', '升对再降对'],
+    ['行动', '见光/淀粉/走动'],
+  ],
+  corrections: [
+    '误解：皮质醇越低越好。纠偏：晨间需要升高，否则全天难降。',
+    '误解：减脂必须晚餐零碳水。纠偏：长期低碳且睡差可保留适量淀粉。',
+    '误解：30岁代谢必然垮。纠偏：研究指向肌肉与无意识活动差。',
+    'ASR：皮质唇→皮质醇；视交叉上核；soleus push-up；肌酸。',
+  ],
+  cards: [
+    { title: '在讲什么：节律优先于补剂', body: '阳光是晨间皮质醇与夜间睡眠的共同开关；补剂不能替代户外光信号。', quote: '你缺的不是一种降皮质醇的补剂，你缺的是早上用来升皮质醇的阳光。', relation: '先行为，后瓶瓶罐罐。', tone: 'card-purple' },
+    { title: '睡眠：能量信号与警觉退出', body: '夜间淀粉减少「备战」式调动；眼球运动帮助退出本体警觉。', quote: 'Cortisol 它更像一个备战激素', relation: '睡差先查节律与晚餐，再堆助眠药。', tone: 'card-blue' },
+    { title: '怎么用：三件可今天做', body: '起床后户外见光；若低碳且睡差则晚餐加淀粉；久坐做抬脚跟+饭后散步。', quote: '饭后去走5到10分钟', relation: '可量化：见光分钟数、饭后步数、脚跟次数。', tone: 'card-green' },
+    { title: '边界：二手精讲非医嘱', body: '内容为访谈精讲转述；个体疾病/用药需专业意见；补剂明确「别直接抄作业」。', quote: '我并不推荐大家直接抄作业', relation: 'NEAT 千卡差异为口播极端值，宜作动机而非精确预算。', tone: 'card-orange' },
+  ],
+  table: {
+    title: '做反 vs 做对',
+    head: ['主题', '常见做法', '片中建议'],
+    rows: [
+      ['皮质醇', '全天想尽办法压低', '晨升（见光），日夜渐降'],
+      ['晚餐碳水', '减脂一律砍光', '睡差+低碳者保留适量淀粉'],
+      ['半夜醒', '强迫自己睡', '眼球极限运动+放慢呼气'],
+      ['30+体重', '认命代谢差', '增肌+拉高 NEAT'],
+    ],
+  },
+  boundary: ['精讲非完整两小时访谈。', '不构成诊疗或补剂处方。'],
+  pitfalls: ['阴天不出门只开台灯。', '眼球动作敷衍幅度不够。', '只加补剂不增肌不走动。'],
+  conclusion: {
+    key: ['皮质醇要有昼夜形状。', '睡眠与晨光强耦合。', '代谢叙事看肌肉与 NEAT。'],
+    actions: ['连续7天起床30分钟内户外见光。', '睡差周晚餐加一份淀粉并记录睡眠。', '每小时 soleus 抬踵2分钟+饭后快走。'],
+    shift: '从「对抗皮质醇/对抗年龄」转向「校准节律与日常活动」。',
+  },
+};
+
+function body(data) {
+  const tags = data.tags.map((t,i)=>`<span class="tag ${['tag-blue','tag-green','tag-orange','tag-purple','tag-red'][i%5]}">${esc(t)}</span>`).join('');
+  const timeline = data.timeline.map(([t,x])=>`<div class="timeline-item"><span class="timeline-time">${esc(t)}</span><span class="timeline-text">${esc(x)}</span></div>`).join('');
+  const map = data.map.map(([a,b],i)=>{const cls=['node','node-green','node-orange','node'][i%4];const ar=i<data.map.length-1?'<span class="arrow">→</span>':'';return `<div class="${cls}">${esc(a)}<br/>${esc(b)}</div>${ar}`;}).join('');
+  const corr = data.corrections.map(c=>`<p>${esc(c)}</p>`).join('');
+  const cards = data.cards.map(c=>`<div class="card ${c.tone}"><h3>${esc(c.title)}</h3><p>${esc(c.body)}</p><div class="quote">${esc(c.quote)}</div><div class="relation">${esc(c.relation)}</div></div>`).join('');
+  const thead=`<tr>${data.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr>`;
+  const tbody=data.table.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('');
+  const bound=data.boundary.map(b=>`<li>${esc(b)}</li>`).join('');
+  const pits=data.pitfalls.map(p=>`<div class="pitfall">${esc(p)}</div>`).join('');
+  const key=data.conclusion.key.map(k=>`<li>${esc(k)}</li>`).join('');
+  const act=data.conclusion.actions.map(a=>`<li>${esc(a)}</li>`).join('');
+  return `<div class="container root-wrap"><h1>${esc(data.title)}</h1><div class="meta">${tags}<span class="tag tag-gray">时长 ${esc(data.duration)}</span><span class="tag tag-gray">${esc(data.perspective)}</span></div><a class="source-link" href="${esc(data.url)}">原视频</a><div class="summary-line">${esc(data.summary)}</div><div class="timeline"><h3>关键证据时间轴</h3>${timeline}</div><div class="map"><h2>核心脉络</h2><div class="diagram">${map}</div></div><div class="correction"><h3>常见误解与认知纠偏</h3>${corr}</div><div class="section"><h2 class="sec-title">观点拆解</h2>${cards}</div><div class="section"><h2 class="sec-title">${esc(data.table.title)}</h2><div class="card"><table><thead>${thead}</thead><tbody>${tbody}</tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul>${bound}</ul>${pits}</div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul>${key}</ul><h3>行动清单</h3><ol>${act}</ol><h3>关键认知转变</h3><p>${esc(data.conclusion.shift)}</p></div><div class="footer">双轨产物之二 · 理性分析 · ${esc(data.duration)}</div></div>`;
+}
+
+const { svg, height } = await buildSvg({ css: CSS, body: body(d), width: 1320 });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated', OUT, height);
+fs.writeFileSync(path.join(DIR,'..','_work/b61/huberman-height.txt'), String(height));
