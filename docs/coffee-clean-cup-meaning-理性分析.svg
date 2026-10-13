@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4908" viewBox="0 0 1320 4908">
+  <foreignObject x="0" y="0" width="1320" height="4908">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container">
+  <h1>咖啡的干净指的是什么？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">水洗咖啡</span><span class="tag tag-blue">干净杯</span><span class="tag tag-blue">处理法</span><span class="tag tag-blue">日晒对照</span><span class="tag tag-blue">杯中品鉴</span>
+    <span class="tag tag-gray">3分59秒</span>
+    <span class="tag tag-purple">理性分析 · 咖啡手作 · 处理法语义</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/72V75eiXrkN" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">核心命题：咖啡师说的「干净」是不是「洗得更干净」？作者否定字面解读——干净是杯中风味轮廓清楚、杂味较少的感受；水洗常被这样形容，是因为更早减少完整果肉对后续干燥的长期参与，而不是用水洗过本身。边界：水洗仍会发酵、不是干净认证；风格≠等级，优秀日晒也可干净。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    
+      <div class="timeline-item">
+        <div class="timeline-time">00:00</div>
+        <div class="timeline-text">开场：干净≠洗衣服/卫生；味道易分开</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:50</div>
+        <div class="timeline-text">果实结构 + 水洗四阶段；关键不是很多水</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:20</div>
+        <div class="timeline-text">日晒整果长期在场 vs 水洗更早去组织</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:50</div>
+        <div class="timeline-text">水洗也会发酵；不是干净认证</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">02:20</div>
+        <div class="timeline-text">清晰酸质/产地轮廓；埃塞两种表达</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">03:00</div>
+        <div class="timeline-text">风格≠等级；优秀日晒也可干净</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">03:30</div>
+        <div class="timeline-text">杯中线索：分开味道、查余味杂味</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">03:50</div>
+        <div class="timeline-text">定义：轮廓清楚 + 杂味较少</div>
+      </div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">问题</div>
+          干净指什么
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">纠偏</div>
+          ≠卫生/洗衣
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">机制</div>
+          更早去果肉影响
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-orange">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">边界</div>
+          ≠认证/≠等级
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">杯中</div>
+          分开+少杂味
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-green">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">行动</div>
+          按线索品鉴
+        </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：水洗=用水洗过所以更干净。纠偏：关键不是碰了很多水，而是更早减少完整果肉长期参与干燥。</p><p>误解：行业「干净」=卫生合格。纠偏：更接近风味感受——味道容易分开、杂味不拖尾。</p><p>误解：水洗标签=干净认证。纠偏：水洗一样会发酵，也可能产生杂味或缺陷。</p><p>误解：水洗更高贵/日晒一定不干净。纠偏：风格不等于等级；优秀日晒水果感强也可以干净。</p><p>误解：只看酸度判断水洗好不好。纠偏：作者建议观察味道是否可分离、余味有无奇怪杂味。</p><p>立场分层：处理阶段描述与杯中定义属作者科普叙事（画面驱动）；2026有机酸研究为作者引用且未展示论文细节，证据强度中等偏弱。</p>
+  </div>
+
+  <h2 class="sec-title">观点卡片</h2>
+  
+    <div class="card card">
+      <h3>在讲什么：干净的语义层级</h3>
+      <p>关键理解：把「干净」从卫生/洗衣语义，改挂到杯中感官语义。用法：听到「这杯很干净」时，先问轮廓清不清晰、杂味拖不拖，而不是问有没有用水洗过。</p>
+      <div class="quote">「咖啡行业说一杯咖啡“干净”，通常不是说它卫生」</div>
+      <div class="relation">干净（感官）≠ 清洁（卫生）≠ 水洗（工艺标签）。</div>
+    </div>
+  
+    <div class="card card-green">
+      <h3>在讲什么：水洗为何常被形容干净</h3>
+      <p>关键理解：因果落在「果实组织离场更早」，不是「水量更大」。用法：解释水洗风味时，优先谈去皮/去胶/羊皮干燥时间线，而不是强调用了多少水。</p>
+      <div class="quote">「水洗咖啡的干净不是因为它用水洗的比较干净」</div>
+      <div class="relation">更早去掉果肉影响 → 强烈果肉发酵特征通常更弱 → 产地轮廓更易被喝出。</div>
+    </div>
+  
+    <div class="card card-purple">
+      <h3>在讲什么：认证幻觉与风格错位</h3>
+      <p>关键理解：工艺名不是品质章；处理差异首先是表达差异。用法：比较水洗/日晒/蜜处理时，先描述杯子里像什么，再谈喜好，避免「谁更正宗」。</p>
+      <div class="quote">「不要把“水洗”理解成一张干净认证」</div>
+      <div class="relation">同一支埃塞豆可呈柠檬花茶或浆果感——处理改表达，不自动改等级。</div>
+    </div>
+  
+    <div class="card card-orange">
+      <h3>在讲什么：可执行的杯中检查</h3>
+      <p>关键理解：用可观察问题替代标签迷信。用法：味道能否一个个分开？柑橘/花香/甜感是否各归其位？喝完有没有奇怪杂味拖着不走？</p>
+      <div class="quote">「这才更接近咖啡师说的：这杯很干净」</div>
+      <div class="relation">画面提「五个线索」，口播落地为分离度与余味杂味；不必强行凑满编号清单。</div>
+    </div>
+  
+
+  <div class="card">
+    <h3>横向对照：标签能推出什么</h3>
+    <table>
+      <thead><tr><th>说法/标签</th><th>作者主张的含义</th><th>不要推出</th></tr></thead>
+      <tbody>
+        <tr><td>这杯很干净</td><td>轮廓清楚、杂味较少</td><td>一定更卫生 / 一定是水洗</td></tr><tr><td>水洗处理</td><td>更早减少完整果肉长期影响（常见倾向）</td><td>干净认证、不会发酵</td></tr><tr><td>日晒处理</td><td>整果更长时间在场，发酵特征常更强</td><td>一定不干净 / 一定低级</td></tr><tr><td>清晰酸质</td><td>水洗常见清晰风味之一</td><td>酸=好，或不酸=不干净</td></tr><tr><td>风格差异</td><td>杯中表达不同</td><td>等级高低、正宗与否</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑总结</h3>
+    <ul><li>把水洗字面理解成洗衣服式清洁。</li><li>把工艺标签当成干净认证。</li><li>用处理法高低替代个人口味与批次品质。</li><li>只凭酸度判断水洗好坏，忽略分离度与余味。</li><li>把作者引用的2026研究数字当作已核实论文结论。</li></ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>干净是杯中表现，不是洗衣式清洁；水洗常被这样形容，是因为更早减弱完整果肉的长期影响。工艺标签不是认证，风格不是等级。</p>
+    <h3>行动清单</h3>
+    <ol><li>听到「干净」：改问「味道分得开吗？余味拖杂味吗？」</li><li>读标签：把水洗/日晒当风味倾向，不当品质章。</li><li>对比同豆不同处理：描述表达差异，避免正宗之争。</li><li>喝水洗：别只盯酸，观察分离度与杂味拖尾。</li><li>遇到「水洗一定干净」话术：回想发酵缺陷与认证纠偏。</li></ol>
+    <h3>关键认知转变</h3>
+    <ul><li>以前：干净=洗干净/卫生 → 现在：干净≈轮廓清楚+杂味较少</li><li>以前：水洗标签=品质担保 → 现在：水洗=常见倾向，仍会发酵</li><li>以前：处理法之争=谁更高贵 → 现在：处理法之争=表达差异</li></ul>
+  </div>
+
+  <div class="footer">双轨产物 · 理性分析 SVG · 与图文实录共享画面字幕重建证据 · Whisper 中段稀疏已标注</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,5 +1,394 @@
 [
   {
+    "date": "2026-10-13",
+    "title": "汽车不是快消品！千万不要把客户当小白鼠",
+    "summary": "付鹏借「脆脆鲨」谈汽车是耐用品非快消品：安全优先于参数营销；快消逻辑指挥造车会劣币驱逐良币、把客户当小白鼠；勿抠标撇责，玩火终自焚。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "汽车安全",
+      "快消品",
+      "脆脆鲨",
+      "劣币驱逐良币",
+      "新势力",
+      "路试"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2Ii0OJvl8V7",
+    "duration": "11分38秒",
+    "outputs": {
+      "html": "car-not-fmcg-dont-test-customers-图文实录.html",
+      "svg": "car-not-fmcg-dont-test-customers-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 341,
+    "svg_height": 6218,
+    "slug": "car-not-fmcg-dont-test-customers"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "聊天不要聊事实，要聊点让人爽的",
+    "summary": "叶子认知思维：聊天别只陈述事实，用十天练感受回应——感受词、事实翻译、适度夸张、隐藏情绪、共同体验、情绪反馈与追问，串成提供情绪价值的闲聊习惯。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "职场社交",
+      "情绪价值",
+      "闲聊",
+      "感受回应",
+      "沟通训练"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8hOsu422nrh",
+    "duration": "9分46秒",
+    "outputs": {
+      "html": "chat-for-feelings-not-facts-图文实录.html",
+      "svg": "chat-for-feelings-not-facts-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 266,
+    "svg_height": 5154,
+    "slug": "chat-for-feelings-not-facts"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "加错油后果有多严重",
+    "summary": "汽油标号比的是抗爆性而非纯度；压缩比越高越需高标号。向上偶加未必更强，向下加低标号易暴震伤机。加错未启动则拖车排空，亮灯则熄火；日常按厂家推荐。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "汽油标号",
+      "抗爆性",
+      "压缩比",
+      "暴震",
+      "积碳",
+      "发动机"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9EMVTLEXPcN",
+    "duration": "4分10秒",
+    "outputs": {
+      "html": "wrong-fuel-grade-engine-risk-图文实录.html",
+      "svg": "wrong-fuel-grade-engine-risk-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 36,
+    "svg_height": 4827,
+    "slug": "wrong-fuel-grade-engine-risk"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡机调试教程｜新手必看",
+    "summary": "新手第一次调参别先拧自动定量：先用流速定研磨粗细，再固定研磨用磨时稳住18–19克粉，最后设自动定量并用秤复测；18–19克/36克/25–30秒是起点不是死答案。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "意式调试",
+      "研磨粗细",
+      "磨豆时间",
+      "自动定量",
+      "新手起点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8oHA2m5BWWP",
+    "duration": "4分39秒",
+    "outputs": {
+      "html": "espresso-machine-dial-in-beginner-图文实录.html",
+      "svg": "espresso-machine-dial-in-beginner-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 166,
+    "svg_height": 5076,
+    "slug": "espresso-machine-dial-in-beginner"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡机/磨豆机参数调试教程",
+    "summary": "新设备调试先锁磨豆机：粗细定流速、时间定粉量、最后自动定量。入门约18–19克粉、36克液重落在25–30秒；按键起计时，每轮只改一个变量。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "意式浓缩",
+      "磨豆机",
+      "研磨度",
+      "粉液比",
+      "自动定量",
+      "调试顺序"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/67nH0AbT7Xd",
+    "duration": "5分29秒",
+    "outputs": {
+      "html": "espresso-grinder-dial-in-guide-图文实录.html",
+      "svg": "espresso-grinder-dial-in-guide-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 60,
+    "svg_height": 5600,
+    "slug": "espresso-grinder-dial-in-guide"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡真的有 110 种香气吗？",
+    "summary": "「110种香气」多半是误读：110是WCR感官词典第一版的感官属性数，含味觉与口感，且为可更新活词典。风味轮应从中心往外用；包装风味词是相似描述；新手只感酸苦正常，具体香气靠鼻后嗅觉与记忆训练。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "感官词典",
+      "WCR",
+      "风味轮",
+      "鼻后嗅觉",
+      "品鉴训练",
+      "包装风味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5kT10zg9OBj",
+    "duration": "4分05秒",
+    "outputs": {
+      "html": "coffee-110-aromas-myth-图文实录.html",
+      "svg": "coffee-110-aromas-myth-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 129,
+    "svg_height": 5319,
+    "slug": "coffee-110-aromas-myth"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡的干净指的是什么？",
+    "summary": "行业说的「干净」不是卫生，也不是用水洗得更干净；而是杯中风味轮廓清楚、杂味较少。水洗常被这样形容，因更早减少完整果肉对干燥的长期影响；风格≠等级。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "咖啡",
+      "水洗",
+      "干净杯",
+      "处理法",
+      "日晒",
+      "杯中品鉴"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/72V75eiXrkN",
+    "duration": "3分59秒",
+    "outputs": {
+      "html": "coffee-clean-cup-meaning-图文实录.html",
+      "svg": "coffee-clean-cup-meaning-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 10,
+    "svg_height": 4908,
+    "slug": "coffee-clean-cup-meaning"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Google地图为什么能提前知道前面堵车？",
+    "summary": "手机众包位置与速度估计路况：相对常态骤降即拥堵信号；原始GPS需对齐道路；多设备聚合后以时间边权选最快路径，最短公里数不一定最快。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "Google地图",
+      "路况",
+      "众包",
+      "GPS",
+      "导航",
+      "边权"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4IB76GeYLwk",
+    "duration": "2分39秒",
+    "outputs": {
+      "html": "google-maps-predict-traffic-图文实录.html",
+      "svg": "google-maps-predict-traffic-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 9,
+    "svg_height": 5244,
+    "slug": "google-maps-predict-traffic"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "浓缩的油脂越厚，就越好喝吗？",
+    "summary": "浓缩杯面「油脂」实为crema泡沫，厚度主要反映起泡与气体残留，不能换算成精华或好喝。排气、豆种、粉碗都会改观感；先搅匀再以整杯味道判断。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "意式浓缩",
+      "Crema",
+      "咖啡泡沫",
+      "排气",
+      "粉碗",
+      "品鉴"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3ia9NIz5I2O",
+    "duration": "2分24秒",
+    "outputs": {
+      "html": "espresso-crema-thickness-myth-图文实录.html",
+      "svg": "espresso-crema-thickness-myth-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 64,
+    "svg_height": 4908,
+    "slug": "espresso-crema-thickness-myth"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "说话声音懒散，没精神，两件事帮助改善",
+    "summary": "小柯语音：说话懒散没精神，可从咬字加力与声音送远两件事改善；双唇舌头咬清字边，声音如抛物线扔珠子，精气神与形象感会跟上来。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "职场表达",
+      "咬字",
+      "声音送远",
+      "精气神",
+      "演讲"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/53Yg0UDxRtr",
+    "duration": "1分13秒",
+    "outputs": {
+      "html": "lazy-voice-two-fixes-图文实录.html",
+      "svg": "lazy-voice-two-fixes-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 34,
+    "svg_height": 4748,
+    "slug": "lazy-voice-two-fixes"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡豆出油，是更香还是放坏了？",
+    "summary": "整豆油亮既不能证明更香，也不能单独证明放坏：多为油脂迁到表面。应结合烘焙深度、日期与储存，以香气味道为准；霉变勿试喝。",
+    "primary": "coffee",
+    "skills": [
+      "选豆"
+    ],
+    "tags": [
+      "咖啡",
+      "咖啡豆出油",
+      "深烘",
+      "储存",
+      "香气",
+      "选豆"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2ZHWNtP6QqN",
+    "duration": "2分04秒",
+    "outputs": {
+      "html": "coffee-bean-surface-oil-图文实录.html",
+      "svg": "coffee-bean-surface-oil-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 52,
+    "svg_height": 4761,
+    "slug": "coffee-bean-surface-oil"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "瑰夏咖啡，为什么能卖这么贵？",
+    "summary": "同名瑰夏价差可极大：品种潜力只是门票，微批次筛选与拍卖竞价才拉开差距；拍卖价不能倒推普通成本。买豆问清批次并先匹配口味。",
+    "primary": "coffee",
+    "skills": [
+      "选豆"
+    ],
+    "tags": [
+      "咖啡",
+      "瑰夏",
+      "Gesha",
+      "微批次",
+      "拍卖",
+      "选豆"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3KvyJWICIkc",
+    "duration": "3分17秒",
+    "outputs": {
+      "html": "gesha-coffee-why-expensive-图文实录.html",
+      "svg": "gesha-coffee-why-expensive-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 44,
+    "svg_height": 4889,
+    "slug": "gesha-coffee-why-expensive"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "说英语必须掌握节奏和旋律规律",
+    "summary": "Roger说美音用「英语就是音乐」讲口语节奏：短语/从句后上扬造张力，信息结束下落释放；介词短语与if从句链可立刻跟练。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "美音语调",
+      "口语节奏",
+      "短语从句",
+      "张力释放",
+      "跟练模板"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1zY9O3Ur17C",
+    "duration": "1分09秒",
+    "outputs": {
+      "html": "english-rhythm-melody-rules-图文实录.html",
+      "svg": "english-rhythm-melody-rules-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 28,
+    "svg_height": 5288,
+    "slug": "english-rhythm-melody-rules"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "为了这5个升级，还是换了iPhone 18 Pro",
+    "summary": "UP主盘点iPhone 18 Pro五个高频影像升级：可变光圈星芒、胶片调色盘、双击追踪、电影效果虚化降噪、Pro慢门控制，并附原相机系统设置清单。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "iPhone18Pro",
+      "原相机",
+      "可变光圈",
+      "演唱会摄影",
+      "电影效果"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6GrB9slekhu",
+    "duration": "3分59秒",
+    "outputs": {
+      "html": "iphone18-pro-five-upgrades-图文实录.html",
+      "svg": "iphone18-pro-five-upgrades-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 120,
+    "svg_height": 5661,
+    "slug": "iphone18-pro-five-upgrades"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "下午拍照怎么找光线",
+    "summary": "下午街拍人像：避开硬侧光（半边脸亮、三角光斑、眯眼）与太阳入画的完全逆光；挡光源或贴墙进阴影主动找相对好看的光。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "用光",
+      "下午光",
+      "人像",
+      "硬光",
+      "逆光",
+      "阴影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8itigYhyWET",
+    "duration": "1分27秒",
+    "outputs": {
+      "html": "afternoon-photo-find-light-图文实录.html",
+      "svg": "afternoon-photo-find-light-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 2,
+    "svg_height": 4679,
+    "slug": "afternoon-photo-find-light"
+  },
+  {
     "date": "2026-10-09",
     "title": "硅谷八卦",
     "summary": "探访 Buck's、FB/PayPal 办公室与斯坦福史；投资人对照 AI 因 Utility 扩散更快，AGI 类比蒸汽机/电力；收束邀请制 AGA House。",
@@ -25117,5 +25506,127 @@
     "screenshot_count": 6,
     "transcript_segments": 66,
     "svg_height": 2312
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡萃取之通道效应",
+    "summary": "粉量时间都正常却又酸又苦时，先查粉饼通道：水走捷径导致局部过萃与欠萃混杯。先布粉压粉萃匀，再微调研磨，别只会拧刻度。",
+    "primary": "coffee",
+    "tags": [
+      "咖啡",
+      "通道效应",
+      "意式浓缩",
+      "布粉",
+      "压粉",
+      "研磨度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3ncye3zBuDz",
+    "duration": "2分29秒",
+    "outputs": {
+      "html": "coffee-channeling-effect-图文实录.html",
+      "svg": "coffee-channeling-effect-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 3,
+    "svg_height": 4142,
+    "slug": "coffee-channeling-effect"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "咖啡店价格战能不能跟？",
+    "summary": "隔壁美式降到9.9时，关键不是跟不跟标价，而是先算单杯贡献、核对实际结算与高峰产能，再用有边界的小范围测试换明确目标；否则订单涨了利润也可能没了。",
+    "primary": "coffee",
+    "tags": [
+      "咖啡店",
+      "价格战",
+      "单杯贡献",
+      "促销测试",
+      "经营核算"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Axsh7cqF0dz",
+    "duration": "3分25秒",
+    "outputs": {
+      "html": "cafe-price-war-follow-or-not-图文实录.html",
+      "svg": "cafe-price-war-follow-or-not-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 129,
+    "svg_height": 5403,
+    "slug": "cafe-price-war-follow-or-not"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "一天卖100杯，为什么还在亏钱？",
+    "summary": "一天一百杯也可能亏钱：先算加权单杯贡献能否覆盖固定成本，核对产能台阶与商圈需求；示意两万五÷十元约日均八十四杯保本。保本不是赚钱，别抄别人的百杯答案。",
+    "primary": "coffee",
+    "tags": [
+      "咖啡店",
+      "保本杯量",
+      "单杯贡献",
+      "本量利",
+      "开店测算"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5PtNH1qUAEN",
+    "duration": "3分48秒",
+    "outputs": {
+      "html": "cafe-100-cups-still-loss-图文实录.html",
+      "svg": "cafe-100-cups-still-loss-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 69,
+    "svg_height": 5555,
+    "slug": "cafe-100-cups-still-loss"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "开一家咖啡店，到底要准备多少钱？",
+    "summary": "五万不是开店启动线；预算要同时准备开门钱与养店钱。小店示意开业前六到七万、缓冲三到四万，作者建议保底十万再启动，并用三张表算清调整时间。",
+    "primary": "coffee",
+    "tags": [
+      "咖啡店",
+      "开店预算",
+      "现金流",
+      "养店钱",
+      "创业准备"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3sv78FfB0sR",
+    "duration": "4分07秒",
+    "outputs": {
+      "html": "cafe-startup-cost-budget-图文实录.html",
+      "svg": "cafe-startup-cost-budget-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 17,
+    "svg_height": 5921,
+    "slug": "cafe-startup-cost-budget"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "自学跳舞五年-经验分享",
+    "summary": "五年自学舞者谈舞室价值：纯自学易闭门造车；适合自乐/能拆解/预算有限者，零基础与想提升者更建议舞室。流程是扒动作、有镜练、录视频对原版、找人点评。",
+    "primary": "sports",
+    "tags": [
+      "自学跳舞",
+      "舞蹈室",
+      "扒动作",
+      "录视频复盘",
+      "K-POP",
+      "学舞避坑"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4MYY2B7sKqa",
+    "duration": "4分09秒",
+    "outputs": {
+      "html": "self-taught-dance-five-years-图文实录.html",
+      "svg": "self-taught-dance-five-years-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 141,
+    "svg_height": 6162,
+    "slug": "self-taught-dance-five-years"
   }
 ]

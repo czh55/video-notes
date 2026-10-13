@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5555" viewBox="0 0 1320 5555">
+  <foreignObject x="0" y="0" width="1320" height="5555">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container">
+  <h1>一天卖100杯，为什么还在亏钱？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡店</span><span class="tag tag-blue">保本杯量</span><span class="tag tag-blue">单杯贡献</span><span class="tag tag-blue">本量利</span><span class="tag tag-blue">开店测算</span>
+    <span class="tag tag-gray">3分48秒</span>
+    <span class="tag tag-purple">理性分析 · 咖啡经营 · 盈亏平衡</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5PtNH1qUAEN" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">核心命题：一天卖一百杯为什么还可能亏钱？作者把销量改写成单杯贡献能否覆盖固定成本。示意两万五固定、每杯贡献十元时日均约八十四杯才保本；贡献掉两元门槛约一百零五杯。还要加权产品结构、核对产能台阶与商圈需求。保本不是赚钱；开店前别抄别人的百杯答案。文中数字为示意算例。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    
+      <div class="timeline-item">
+        <div class="timeline-time">00:00</div>
+        <div class="timeline-text">钩子：一天一百杯 → 赚钱还是亏钱？</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:15</div>
+        <div class="timeline-text">画面：月保本2500杯≈日均84杯；忙碌≠利润</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:30</div>
+        <div class="timeline-text">定义单杯贡献=收入−变动成本</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:38</div>
+        <div class="timeline-text">快测：少卖一杯，钱会不会跟着少</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:57</div>
+        <div class="timeline-text">人工水电要拆成固定部分与随单部分</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:16</div>
+        <div class="timeline-text">示意：25000÷10=2500杯/月；贡献8元→约105杯/日</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:38</div>
+        <div class="timeline-text">少留2元≈日均保本多21杯</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:45</div>
+        <div class="timeline-text">不能拿一杯高毛利代表全店；要加权</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">02:15</div>
+        <div class="timeline-text">产能跨台阶，旧保本线失效；问需求与接单</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">02:50</div>
+        <div class="timeline-text">保本≠赚钱；目标利润抬高杯量</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">03:14</div>
+        <div class="timeline-text">别抄「一天一百杯」；拆成本×对照需求产能</div>
+      </div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">问题</div>
+          百杯为何亏
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">定义</div>
+          单杯贡献
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-orange">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">测算</div>
+          固定÷贡献
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-purple">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">校正</div>
+          结构×台阶
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-green">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">行动</div>
+          对照需求产能
+        </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：一天一百杯=生意很好。纠偏：百杯是销量标签，先问贡献能否盖住固定成本。</p><p>误解：忙碌店面一定赚钱。纠偏：跨过保本线才进入利润区；忙碌可能只是在覆盖固定支出。</p><p>误解：菜单上高毛利单品能代表全店。纠偏：要按销售结构算加权平均贡献。</p><p>误解：算完杯数就能开店。纠偏：本量利假设成本结构稳定；产能跨台阶后旧线失效。</p><p>误解：保本=开始赚钱。纠偏：平衡点上营业利润约零；要利润还需更高杯量。</p><p>误解：抄同行「一天一百杯」当目标。纠偏：开店前应拆清成本并对照本地需求与产能。</p><p>立场分层：算术示意属作者经营叙事；「先改店型/成本/结构」是作者观点，非行业强制法则。片尾约50秒口播 Whisper 失败，相关结论部分来自画面字幕。</p>
+  </div>
+
+  <h2 class="sec-title">观点卡片</h2>
+  
+    <div class="card card">
+      <h3>在讲什么：把「卖多少杯」改写成「留下多少」</h3>
+      <p>关键理解：决策变量不是杯数本身，而是减掉变动成本后还能覆盖固定支出的单杯贡献。用法：先定义贡献，再除固定成本得保本杯量。</p>
+      <div class="quote">「减掉这杯订单带来的变动成本以后，还能拿去覆盖房租、基础人工等固定支出的钱」</div>
+      <div class="relation">销量 ↑ 若贡献 ↓ 或结构劣化 → 仍可能亏；百杯不是利润证明。</div>
+    </div>
+  
+    <div class="card card-green">
+      <h3>在讲什么：变动/固定的快测与拆分</h3>
+      <p>关键理解：少卖一杯钱会不会跟着少——会变的进变动，当前规模几乎不动的可先放固定。用法：人工水电不要整笔贴标签，拆成不开单也付 vs 多一单才增。</p>
+      <div class="quote">「如果今天少卖这一杯，这笔钱会不会跟着少」</div>
+      <div class="relation">分类错 → 保本杯量从起点就算歪。</div>
+    </div>
+  
+    <div class="card card-purple">
+      <h3>在讲什么：示意账对贡献极度敏感</h3>
+      <p>关键理解：25000÷10=2500杯/月≈日均84杯；贡献8元→约105杯/日；少留2元≈多21杯/日。用法：任何降价、平台费、优惠都先回算贡献再谈销量目标。</p>
+      <div class="quote">「每杯只少留下2元，日均保本线就多了21杯左右」</div>
+      <div class="relation">小价差 × 30天 = 完全不同的客流要求（作者示意）。</div>
+    </div>
+  
+    <div class="card card-orange">
+      <h3>在讲什么：加权结构 + 产能台阶</h3>
+      <p>关键理解：高贡献卖得少、低贡献外卖多会拉低平均贡献；80→120杯可能加兼职/设备使固定成本跨台阶。用法：结构一变就重算；算完还要问需求与高峰接单。</p>
+      <div class="quote">「算出的杯数还只是纸面答案」</div>
+      <div class="relation">纸面保本线 × 不稳定成本结构 = 误判开店可行性。</div>
+    </div>
+  
+    <div class="card card-red">
+      <h3>在讲什么：保本不是赚钱；别抄百杯答案</h3>
+      <p>关键理解：平衡点≈营业利润为零；要目标利润需把固定成本与目标利润一起除以贡献。用法：开店前拆清成本、换成日均杯量，对照商圈需求与门店产能，而不是抄同行百杯口号。</p>
+      <div class="quote">「保本不是赚钱」</div>
+      <div class="relation">目标利润抬高杯量（画面示意约3500杯/月量级）→ 更不能只盯「一百杯」口号。</div>
+    </div>
+  
+
+  <div class="card">
+    <h3>横向对照：信号能推出什么</h3>
+    <table>
+      <thead><tr><th>信号</th><th>可能意味着</th><th>不能单独推出</th></tr></thead>
+      <tbody>
+        <tr><td>一天100杯</td><td>销量达到某个水平</td><td>一定覆盖固定成本或赚钱</td></tr><tr><td>店里看起来很忙</td><td>高峰人流/出杯压力</td><td>已跨过保本线</td></tr><tr><td>某单品高毛利</td><td>该品类单位贡献高</td><td>全店加权贡献同样高</td></tr><tr><td>算出口均84杯</td><td>在示意假设下的保本线</td><td>开业后成本结构仍不变</td></tr><tr><td>刚好保本</td><td>贡献≈盖住固定成本</td><td>已经开始赚钱</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑总结</h3>
+    <ul><li>用「一天一百杯」当成功标准，不先算贡献与固定成本。</li><li>把整笔人工水电塞进固定或变动一边。</li><li>拿一杯高毛利代表全店，忽略外卖低贡献结构。</li><li>用旧保本线判断已跨台阶的产能区间。</li><li>把保本当赚钱，开业后才发现利润区还在更远。</li><li>抄同行杯量口号，不对照本地需求与自身产能。</li></ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>一天一百杯也可能亏钱：关键是加权后的单杯贡献能否覆盖固定成本，以及产能与需求是否撑得住这条线。保本只是利润约零，不是开始赚钱；开店前别抄同行杯量口号。</p>
+    <h3>行动清单</h3>
+    <ol><li>列出少卖一杯会跟着少的费用，写成变动成本清单。</li><li>把房租、基础排班、软件折旧等先放入固定成本；人工水电拆成基础与随量部分。</li><li>用保守销售结构算加权平均贡献，再算月/日保本杯量。</li><li>检查产能台阶：达到目标杯量是否要加兼职、延时或设备。</li><li>把日均保本杯量对照商圈需求与高峰出杯能力；撑不住先改店型/成本/产品结构。</li></ol>
+    <h3>关键认知转变</h3>
+    <ul><li>以前：看一天卖多少杯 → 现在：先算每杯留下多少、要盖住多少固定成本</li><li>以前：忙碌=生意好 → 现在：跨过保本线才进入利润区</li><li>以前：抄别人一百杯目标 → 现在：拆成本→加权贡献→对照需求与产能</li></ul>
+  </div>
+
+  <div class="footer">双轨产物 · 理性分析 SVG · 与图文实录共享同一转录证据 · b62f</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

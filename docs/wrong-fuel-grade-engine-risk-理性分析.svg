@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4827" viewBox="0 0 1320 4827">
+  <foreignObject x="0" y="0" width="1320" height="4827">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="root-wrap"><div class="container">
+  <h1>加错油后果有多严重</h1>
+  <div class="meta"><span class="tag tag-blue">汽油标号</span><span class="tag tag-green">抗爆性</span><span class="tag tag-orange">压缩比</span><span class="tag tag-purple">暴震</span><span class="tag tag-red">积碳</span><span class="tag tag-gray">AMG</span><span class="tag tag-gray">4分10秒</span><span class="tag tag-blue">理性分析 · 汽车数码</span></div>
+  <a class="source-link" href="https://xhslink.cn/o/9EMVTLEXPcN">原视频 · 小逸动画馆</a>
+  <div class="summary-line">核心命题：汽油标号错加到底伤不伤机？答案取决于方向——标号衡量抗爆性（异辛烷/正庚烷对照），不是纯度；匹配压缩比才是关键。向上偶加更高标号通常不会「变强」，向下加低标号才易暴震伤机。应急是不启动排空或亮灯熄火；日常以厂家手册为准。</div>
+
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-text">AMG GTR 加 92：车主拒启动</div></div><div class="timeline-item"><div class="timeline-time">00:16</div><div class="timeline-text">误区：95 更纯、更耐烧？</div></div><div class="timeline-item"><div class="timeline-time">00:43</div><div class="timeline-text">标号=抗爆性，不是纯度</div></div><div class="timeline-item"><div class="timeline-time">01:16</div><div class="timeline-text">提前自燃→暴震/敲缸</div></div><div class="timeline-item"><div class="timeline-time">01:48</div><div class="timeline-text">看压缩比选油</div></div><div class="timeline-item"><div class="timeline-time">02:08</div><div class="timeline-text">粗分档 92 / 95 / 98</div></div><div class="timeline-item"><div class="timeline-time">02:23</div><div class="timeline-text">该 92 加 95：未必更强</div></div><div class="timeline-item"><div class="timeline-time">03:00</div><div class="timeline-text">该 98 加 92：危险</div></div><div class="timeline-item"><div class="timeline-time">03:20</div><div class="timeline-text">原厂要 98；应急流程</div></div><div class="timeline-item"><div class="timeline-time">03:53</div><div class="timeline-text">按厂家标号，合适最好</div></div></div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">标号是什么？</div><div class="arrow">→</div>
+      <div class="node node-green">抗爆性（非纯度）</div><div class="arrow">→</div>
+      <div class="node node-orange">匹配压缩比</div><div class="arrow">→</div>
+      <div class="node node-red">向下加才伤机</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「95 比 92 更纯、更耐烧、更省钱」——视频明确否定：标号比较的是抗爆能力，不是纯度或热量。把高标号当「升级套餐」会花冤枉钱；真正危险的是长期低于厂家要求。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点卡片</h2>
+
+    <div class="card">
+      <h3>在讲什么 · 标号=抗爆等级</h3>
+      <p>92/95/98 用异辛烷与正庚烷的标准混合比例标定抗爆性。关键理解：抗爆不足→压缩阶段提前自燃→暴震冲击活塞与缸体。</p>
+      <div class="quote">「92和95指的是抗爆性的能力，不是指的纯度」（口播；画面写异辛烷/正庚烷）</div>
+      <div class="relation">怎么用：把「标号」读成「抗提前点火能力」，别读成「油更干净」。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>UP 主观点 · 压缩比粗分档</h3>
+      <p>作者给出经验区间：约 8.6–9.9→92；10.0–11.5→95；&gt;11.6→98。立场：这是口播「大致上」规则，用来建立直觉，不是替代说明书。</p>
+      <div class="quote">「大致上压缩比在8.6到9.9之间的，用92号油就挺好……超过11.6的，那就得考虑98号油了」</div>
+      <div class="action">决策：先查厂家油箱盖/手册标号；粗分档只作理解压缩比为何「要更高标号」。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>风险 · 加错的方向不对称</h3>
+      <p>该用 92 偶加 95：作者认为性能不会更强，抗爆「富裕」，燃烧未必更充分，还可能积碳（作者推断）。该用 98 偶加 92：抗爆不够，易暴震，长期可能损伤发动机。</p>
+      <div class="pitfall">陷阱：用「多花钱加高标号」安慰自己；或用「省一点加低标号」赌运气——后者才是结构性风险。</div>
+    </div>
+
+    <div class="card card-red">
+      <h3>应急 · 未启动排空 / 已行驶熄火</h3>
+      <p>高压缩比车（案例称原厂要 98）灌入 92 后：未点火则不要启动、拖车排空；已行驶且暴震灯亮则靠边熄火，避免永久性损坏。</p>
+      <div class="quote">「刚加进去还没点火，原地不要启动……报警灯亮了，立刻靠边熄火」</div>
+      <div class="action">立刻可做：油箱盖拍照存档厂家标号；加错后按「启动与否」二选一执行，不要硬开回家。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：两种加错方向</h3>
+    <table>
+      <thead><tr><th>情境</th><th>作者说法</th><th>证据层级</th><th>读者决策</th></tr></thead>
+      <tbody>
+        <tr><td>该 92，偶加 95</td><td>不会更强；抗爆富裕；可能积碳</td><td>视频作者观点 + 比喻</td><td>不必特意「升级」；偶尔问题不大，别指望动力</td></tr>
+        <tr><td>该 98，偶加 92</td><td>易暴震；长期伤机</td><td>视频演示 + 作者判断</td><td>高风险；按应急流程处理，勿继续激烈驾驶</td></tr>
+        <tr><td>日常选油</td><td>合适最好，不追高不长期用低</td><td>收束口播</td><td>以厂家推荐标号为唯一默认</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-green">
+    <h3>方法边界</h3>
+    <ul>
+      <li>适用：理解标号、压缩比与暴震的关系；判断「加错方向」谁更严重。</li>
+      <li>上限：压缩比分档是科普近似；涡轮、直喷、ECU 点火策略、气候与油品批次未展开。</li>
+      <li>反例/例外：部分车允许「最低标号」与「推荐标号」并存；有的 ECU 会推迟点火保护——视频未量化保护极限。</li>
+      <li>未核实：300 万车价、「昨天」加油站事件、偶加高标号「必然积碳」——均标为口播叙事/推断。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>标号=抗爆性（异辛烷/正庚烷对照），不是纯度神话。</li>
+      <li>压缩比越高，越需要更高抗爆；向下加低标号才是主风险。</li>
+      <li>向上加不等于性能升级；追高浪费，用低伤机。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>打开油箱盖/手册，记下厂家推荐（与最低）标号。</li>
+      <li>加注时二次确认枪号，高压缩比/性能车优先按推荐值。</li>
+      <li>若确认加错且未启动：不要点火，拖车排空。</li>
+      <li>若已行驶且出现爆震感或报警灯：靠边熄火，勿继续开。</li>
+      <li>不要把「加更高标号」当动力改装；也不要用长期低标号省钱。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：标号越高越高级 → 现在：标号是抗爆匹配，合适才最好。</li>
+      <li>以前：加错一点点没事 → 现在：要看是向上还是向下加错。</li>
+      <li>以前：硬开回去再说 → 现在：未启动就排空，亮灯就熄火。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于 Whisper 转录与画面字幕整理 · 立场分层：事实 / UP 观点 / 推断已在卡片中标明</div>
+</div></div>
+    </div>
+  </foreignObject>
+</svg>

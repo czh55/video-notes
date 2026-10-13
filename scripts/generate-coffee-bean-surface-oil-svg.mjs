@@ -1,0 +1,241 @@
+#!/usr/bin/env node
+/**
+ * b62d：生成 coffee-bean-surface-oil 理性分析 SVG。
+ * 必须使用仓库根目录 svg-auto-height.mjs 的 buildSvg。
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildSvg } from '../svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, '..', 'docs', 'coffee-bean-surface-oil-理性分析.svg');
+
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}`;
+
+const esc = (s) => String(s ?? '')
+  .replaceAll('&', '&amp;')
+  .replaceAll('<', '&lt;')
+  .replaceAll('>', '&gt;')
+  .replaceAll('"', '&quot;');
+
+const d = {
+  title: '咖啡豆出油，是更香还是放坏了？',
+  duration: '2分04秒',
+  url: 'https://xhslink.cn/o/2ZHWNtP6QqN',
+  tags: ['咖啡豆', '表面出油', '深烘', '储存', '香气'],
+  perspective: '理性分析 · 咖啡手作 · 选豆储存',
+  summary:
+    '核心命题：整豆表面油亮能否当作「更香」或「放坏了」的证据？作者结论是否定的——油亮主要说明油脂迁到了表面；深烘与存放会加速这一过程，但油光与挥发香气不是同一条曲线。决策应组合烘焙深度、日期、开袋与储存条件，并以实际香气味道为主；霉变属安全边界，不在风味比较范围内。',
+  timeline: [
+    ['00:00', '提问：油亮是更香还是放坏？立刻双否'],
+    ['00:12', '画面：豆子本就有油；烘焙促进向表面迁移'],
+    ['00:30', '浅烘干爽≠无油；存放出油=迁移'],
+    ['00:54', '油光≠香气；氧化可能出哈喇味'],
+    ['01:19', '清单：深烘/日期/开袋/密封/温度'],
+    ['01:40', '霉变勿试喝；油亮≠必须扔掉'],
+  ],
+  map: [
+    ['问题', '油亮说明什么'],
+    ['机制', '油脂表面迁移'],
+    ['拆分', '油光 ≠ 香气'],
+    ['判断', '深度+日期+储存'],
+    ['行动', '盯味道不盯反光'],
+  ],
+  corrections: [
+    '误解：油亮=更香。纠偏：看见的是油，闻到的是挥发香气物质；油光变多不等于香气变多。',
+    '误解：油亮=放坏了。纠偏：烘焙日期近的深烘豆表面见油可以是常态；需结合日期与储存，不能一见油就判坏。',
+    '误解：表面干爽=新鲜。纠偏：浅烘本来就不容易出油；干爽不能单独证明新鲜。',
+    '误解：出油就要扔。纠偏：油亮只说明油到了表面；真正该停喝的是明显霉变，以及香气味道明显劣化且储存失控的情况。',
+    '立场分层：迁移机制与清单步骤属作者科普叙事（画面引用 Schenker·2000 为示意非原图）；「更香/放坏」二元否决与行动建议是作者观点。',
+  ],
+  cards: [
+    {
+      title: '在讲什么：油光的物理含义',
+      body: '关键理解：普通原味豆表面油来自内部，不是凭空变出来的。用法：看见油光时先问「迁移是否合理」，再问「香气是否还在」。',
+      quote: '这不是存放让豆子凭空多了油，而是原有的油脂继续移到了表面',
+      relation: '烘焙深度 × 存放过程 → 表面可见油增多；天数只是弱代理变量。',
+      tone: 'card',
+    },
+    {
+      title: '在讲什么：油与香必须拆开',
+      body: '关键理解：感官通道不同——视觉油光 vs 嗅觉挥发物。用法：评估豆子时闻干香、湿香与杯中味道，不要用反光强度代替嗅闻。',
+      quote: '油光变多不等于香气也变多',
+      relation: '存放可使油更显眼，同时香气散失/氧化，甚至哈喇——两条曲线可反向。',
+      tone: 'card-purple',
+    },
+    {
+      title: '在讲什么：可执行的判断清单',
+      body: '关键理解：把「油亮」降级为弱信号，把可核验字段升为主信号。用法：深烘？烘焙日期？开袋多久？密封？是否高温？',
+      quote: '如果是烘焙日期很近的深烘豆，不能一见油就认定它坏了',
+      relation: '同一包豆冲法不变但香气变弱 → 查储存与新鲜度，而不是庆祝「更油」。',
+      tone: 'card-green',
+    },
+    {
+      title: '在讲什么：安全边界高于风味争论',
+      body: '关键理解：风味比较回答「好不好喝」，不回答「安不安全」。用法：见明显霉变/霉渍，停止试喝，不要用出油逻辑覆盖安全判断。',
+      quote: '但风味比较不是安全检测',
+      relation: '油亮争论止步于感官品质；霉变属于丢弃级风险。',
+      tone: 'card-red',
+    },
+  ],
+  table: [
+    ['信号', '可能意味着', '不能单独推出'],
+    ['刚开袋就很油亮', '常见于深烘；烘焙时已见油光', '一定更香 / 一定坏了'],
+    ['放着放着才出油', '存放中油脂继续外迁', '只靠天数判定品质'],
+    ['表面干爽', '常见于浅烘', '一定新鲜'],
+    ['油亮但有哈喇/陈旧味', '香气散失或油脂氧化风险升高', '「油多所以更好」'],
+    ['明显霉变', '安全问题，应停止试喝', '用风味辩论替代丢弃'],
+  ],
+  actions: [
+    '买豆：不以油光为选豆主指标；优先看烘焙日期、烘焙深度与储存说明。',
+    '开袋：密封、避开高温；把「亮不亮」降级为次要观察。',
+    '冲煮对照：同一包豆、冲法不变时，若香气明显变弱，优先查储存与新鲜度。',
+    '安全一票否决：明显霉变不试喝。',
+    '自我提问：这包豆是刚开袋就油亮，还是存放后才出油？用时间线补全判断。',
+  ],
+  pitfalls: [
+    '冲着油光买豆，把反光当新鲜或风味代理。',
+    '一见油就扔掉，误伤烘焙日期近的深烘豆。',
+    '用「放了多少天」单变量判决，忽略烘焙方式与温度密封。',
+    '把油更多解释成更香，掩盖香气散失与氧化。',
+    '在霉变豆子上继续做风味比较。',
+  ],
+  shifts: [
+    ['以前：油亮=好豆或坏豆', '现在：油亮=油到了表面，需组合其他证据'],
+    ['以前：盯反光', '现在：盯香气、味道与储存史'],
+    ['以前：风味与安全混谈', '现在：霉变单独一票否决'],
+  ],
+};
+
+const body = `
+<div class="container">
+  <h1>${esc(d.title)}</h1>
+  <div class="meta">
+    ${d.tags.map((t) => `<span class="tag tag-blue">${esc(t)}</span>`).join('')}
+    <span class="tag tag-gray">${esc(d.duration)}</span>
+    <span class="tag tag-purple">${esc(d.perspective)}</span>
+  </div>
+  <a class="source-link" href="${esc(d.url)}" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">${esc(d.summary)}</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    ${d.timeline.map(([t, text]) => `
+      <div class="timeline-item">
+        <div class="timeline-time">${esc(t)}</div>
+        <div class="timeline-text">${esc(text)}</div>
+      </div>`).join('')}
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      ${d.map.map((n, i) => `
+        <div class="node ${i === d.map.length - 1 ? 'node-green' : i === 2 ? 'node-orange' : ''}">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">${esc(n[0])}</div>
+          ${esc(n[1])}
+        </div>
+        ${i < d.map.length - 1 ? '<div class="arrow">→</div>' : ''}
+      `).join('')}
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    ${d.corrections.map((c) => `<p>${esc(c)}</p>`).join('')}
+  </div>
+
+  <h2 class="sec-title">观点卡片</h2>
+  ${d.cards.map((c) => `
+    <div class="card ${c.tone}">
+      <h3>${esc(c.title)}</h3>
+      <p>${esc(c.body)}</p>
+      <div class="quote">「${esc(c.quote)}」</div>
+      <div class="relation">${esc(c.relation)}</div>
+    </div>
+  `).join('')}
+
+  <div class="card">
+    <h3>横向对照：信号能推出什么</h3>
+    <table>
+      <thead><tr>${d.table[0].map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${d.table.slice(1).map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑总结</h3>
+    <ul>${d.pitfalls.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>油亮是表面油脂迁移的可见结果，不是香气仪表，也不是变质判定器。深烘与存放会改变可见油量；香气与安全要另案处理。</p>
+    <h3>行动清单</h3>
+    <ol>${d.actions.map((a) => `<li>${esc(a)}</li>`).join('')}</ol>
+    <h3>关键认知转变</h3>
+    <ul>${d.shifts.map(([a, b]) => `<li>${esc(a)} → ${esc(b)}</li>`).join('')}</ul>
+  </div>
+
+  <div class="footer">双轨产物 · 理性分析 SVG · 与图文实录共享同一转录证据 · 不同于 coffee-bean-oil-myth（浓缩泡沫议题）</div>
+</div>
+`;
+
+const { svg, height } = await buildSvg({ css: CSS, body, width: 1320 });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated:', OUT, 'height:', height);
+fs.writeFileSync(
+  path.join(DIR, '..', '_work', 'b62d-svg-height.txt'),
+  String(height),
+  'utf8',
+);

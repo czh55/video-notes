@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5600" viewBox="0 0 1320 5600">
+  <foreignObject x="0" y="0" width="1320" height="5600">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container">
+  <h1>咖啡机/磨豆机参数调试教程</h1>
+  <div class="meta">
+    <span class="tag tag-blue">小红书</span>
+    <span class="tag tag-green">5分29秒</span>
+    <span class="tag tag-orange">意式调试</span>
+    <span class="tag tag-purple">磨豆机优先</span>
+    <span class="tag tag-gray">理性分析</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/67nH0AbT7Xd" target="_blank" rel="noopener">原视频链接</a>
+  <div class="summary-line">核心命题：新设备调试最关键的不是某个「正确刻度」，而是变量顺序——咖啡机保持初始设置，先用研磨粗细把流速送进窗口，再用磨豆时间锁定粉量，最后才做自动定量；入门数字只是起点，好喝才是结果。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:02</div><div class="timeline-text">三问开场：先调谁 / 狂喷怪谁 / 计时从何时起</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:22</div><div class="timeline-text">顺序钉死：先磨豆机；粗细 → 时间 → 自动定量</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:44</div><div class="timeline-text">默认研磨以细盐感作起点；粉量 18–19g</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:20</div><div class="timeline-text">手动萃取：按键起计时，36g 停，记时间</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:55</div><div class="timeline-text">25–30s 合格窗口；狂喷且其他不变 → 先查太粗</div></div>
+    <div class="timeline-item"><div class="timeline-time">02:20</div><div class="timeline-text">改档排约 10g；大幅调细要「调一点、出一点粉」</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:05</div><div class="timeline-text">粗细钉死后改时间控粉量，连续三次稳定再保存</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:40</div><div class="timeline-text">计时定量须复测；流量计通常更稳</div></div>
+    <div class="timeline-item"><div class="timeline-time">04:45</div><div class="timeline-text">收束：先调流速，再定粉量，最后自动化</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>先调谁 / 狂喷 / 计时</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">锁定顺序<br/>磨豆机优先</div>
+      <div class="arrow">→</div>
+      <div class="node">① 粗细<br/>流速进窗口</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">② 时间<br/>粉量 18–19g</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">③ 自动定量<br/>约 36g</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：18g 粉仍狂喷 = 粉量不对。纠偏：其他操作不变时，优先检查研磨是否太粗（流速过快）。</p>
+    <p>误解：计时从咖啡流出来开始。纠偏：口播明确从按下萃取键起计时。</p>
+    <p>误解：死记某个研磨数字就能通吃。纠偏：新设备最重要的是顺序；入门窗口不是全豆标准答案。</p>
+    <p>误解：改完刻度立刻下一杯有效。纠偏：通道残留上一档粉，需先排掉约 10g。</p>
+    <p>立场分层：按键起计时、改档排粉、每轮只改一个变量为可复现操作建议；91–93℃、18–19g/36g/25–30s 为作者入门参考；「流量计更稳」「日常不必每杯称粉」为作者观点。</p>
+  </div>
+
+  <h2 class="sec-title">观点卡片</h2>
+
+  <div class="card">
+    <h3>在讲什么：变量顺序 &gt; 单个刻度</h3>
+    <p>关键理解：意式调试是多变量系统。同时动咖啡机与磨豆机，或同时改粗细与粉量，会让因果无法归因。作者把咖啡机先冻结在初始设置，只让磨豆机侧推进。</p>
+    <div class="quote">「新设备调试最重要的不是记住某一个刻度，而是记住顺序。」</div>
+    <div class="relation">关系：冻结咖啡机 → 粗细定流速 → 时间定粉量 → 机器记忆液重</div>
+    <div class="action">用法：写一张调试卡片，每轮只勾选一个变量；记录粉重、液重、时间。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>流速窗口：用 36g 反推粗细</h3>
+    <p>关键理解：固定粉量与停萃液重，用到达时间判断阻力。快于 25s 调细，慢于 30s 调粗，落在 25–30s 视为粗细进入正常范围。</p>
+    <div class="quote">「如果 36 克落在 25–30 秒之间，研磨度就进入了正常范围。」</div>
+    <div class="action">用法：调试阶段用手动脉冲键；秤到 36g 立刻停并记秒。狂喷且其他不变 → 先查太粗。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>粉量锁定：粗细钉死后才改时间</h3>
+    <p>大部分磨豆机用研磨时间控制出粉重量。作者建议粗细稳定后再动时间：可先从约 3 秒试起，不足加秒、超出减秒，连续三次落在 18–19g 再保存。</p>
+    <div class="relation">关系：粗细稳定 = 流速稳定前提；时间 = 剂量控制器</div>
+    <div class="action">用法：开机首杯、换豆、改研磨或感觉流速变了，重新复称；日常可不必每杯称粉（作者观点）。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>风险与避坑</h3>
+    <div class="pitfall">一上来就改压力、预浸或自动定量，因果缠在一起。</div>
+    <div class="pitfall">改研磨后不排通道残粉，下一杯混入两种粗细。</div>
+    <div class="pitfall">大幅调细一次拧太多，豆顶刀盘导致调节机构受力异常。</div>
+    <div class="pitfall">把 18–19g / 36g / 25–30s 当成所有豆子的唯一标准。</div>
+    <div class="pitfall">假设所有磨豆机「数字越小越细」——作者提醒以机身标识为准。</div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：计时定量 vs 流量计定量</h3>
+    <table>
+      <thead><tr><th>方式</th><th>机器记住什么</th><th>风险</th><th>作者建议</th></tr></thead>
+      <tbody>
+        <tr><td>计时定量</td><td>运行秒数</td><td>同秒数也会因粉量/粗细漂移液重</td><td>按稳定到 36g 的时间设置，必须复测</td></tr>
+        <tr><td>流量计定量</td><td>经过机器的水量（流量计）</td><td>机型操作差异（长按/再按保存）</td><td>通常比纯时间更稳；以说明书为准</td></tr>
+        <tr><td>手动调试</td><td>无记忆</td><td>效率低，但因果清晰</td><td>粗细与粉量未稳前优先使用</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <p>适用：家用/新手面对新磨豆机+意式机，需要一套可复现的入门路径。</p>
+    <p>上限：视频给出的是「设备先调稳」流程，不是风味最终答案；换豆、烘焙度、饮用方式都会改合适粉液比与时间。</p>
+    <p>反例：粉床通道严重不均时，只拧研磨可能掩盖布粉/压粉问题（参见同作者通道效应内容，本片未展开）。</p>
+    <p>未核实：具体机型的默认刻度、预浸默认值、流量计精度；温度 91–93℃ 为口播建议，非实验室测量。</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>咖啡机先冻结；磨豆机按粗细 → 时间 → 自动定量推进。</li>
+      <li>按键起计时；用 36g 到达时间判断流速窗口（约 25–30s）。</li>
+      <li>入门参数是起点，好喝才是结果；换豆后允许改比例与时间。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>预热到建议温度，压力/预浸/自动定量先不动。</li>
+      <li>固定 18–19g 粉，手动萃到 36g，记录时间并只调粗细。</li>
+      <li>改档后排约 10g；大幅调细采用「调一点、出一点粉」。</li>
+      <li>粗细稳定后用时间把粉量锁进 18–19g，连续三次再保存。</li>
+      <li>最后设自动定量：计时定量必须复测；流量计按说明书操作，连做 2–3 杯验证。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：先找「正确刻度」。现在：先固定顺序与单变量。</li>
+      <li>以前：狂喷就怀疑粉量。现在：其他不变时先查研磨是否太粗。</li>
+      <li>以前：把入门数字当标准答案。现在：数字用来调稳设备，味道做最终裁判。</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于视频口播与画面字幕整理 · 参数为作者入门建议 · 2026-10-13</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

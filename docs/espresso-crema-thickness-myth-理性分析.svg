@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4908" viewBox="0 0 1320 4908">
+  <foreignObject x="0" y="0" width="1320" height="4908">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container">
+  <h1>浓缩的油脂越厚，就越好喝吗？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">意式浓缩</span><span class="tag tag-blue">Crema</span><span class="tag tag-blue">泡沫</span><span class="tag tag-blue">排气</span><span class="tag tag-blue">粉碗</span>
+    <span class="tag tag-gray">2分24秒</span>
+    <span class="tag tag-purple">理性分析 · 咖啡手作 · 感官判断</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3ia9NIz5I2O" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">核心命题：浓缩杯面「油脂」越厚是否等于越好喝？作者结论是否定的——那一层主要是 crema 泡沫，厚度优先反映起泡能力与气体残留，不能换算成精华或品质。排气、豆种、粉碗都会改观感；决策应先搅匀，再用整杯味道判断。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    
+      <div class="timeline-item">
+        <div class="timeline-time">00:00</div>
+        <div class="timeline-text">反差：厚得像奶盖却苦又糙</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:15</div>
+        <div class="timeline-text">正名：油脂=crema；体积靠气泡</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:36</div>
+        <div class="timeline-text">机制：粉碗减压冒泡≈汽水开瓶</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">00:56</div>
+        <div class="timeline-text">边界：能起泡≠萃出更多精华</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:03</div>
+        <div class="timeline-text">排气：同一包豆泡沫可变薄</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:24</div>
+        <div class="timeline-text">豆种：罗布斯塔泡沫多≠脂肪更高</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:37</div>
+        <div class="timeline-text">设备：双层增压粉碗可「造」泡沫</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">01:58</div>
+        <div class="timeline-text">行动：搅匀后评酸苦/杂味/余味</div>
+      </div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">问题</div>
+          厚=好喝？
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">正名</div>
+          油脂→crema
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-orange">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">机制</div>
+          CO₂ 气泡
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node ">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">变量</div>
+          排气/豆种/粉碗
+        </div>
+        <div class="arrow">→</div>
+      
+        <div class="node node-green">
+          <div style="font-size:12px;opacity:.75;margin-bottom:4px">行动</div>
+          搅匀品整杯
+        </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：杯面「油脂」越厚越好喝。纠偏：开场反例已拆开——厚得像奶盖仍可能苦又糙。</p><p>误解：厚度=萃出更多精华。纠偏：泡沫多首先说明比较能起泡，不能直接换算成精华。</p><p>误解：泡沫变薄=咖啡变难喝。纠偏：排气使气体减少即可变薄，不等于品质崩坏。</p><p>误解：厚度=含油量。纠偏：罗布斯塔往往泡沫更多，阿拉比卡脂肪含量反而可能更高。</p><p>误解：泡沫好看=萃取好。纠偏：增压粉碗也能让泡沫更好看；风味与萃取要另判。</p><p>立场分层：crema 气体机制与搅匀品鉴步骤属作者科普叙事；「研究里泡沫更多香气不继续增加」为作者转述、视频未给文献名；「别用厚度打分」是作者观点。</p>
+  </div>
+
+  <h2 class="sec-title">观点卡片</h2>
+  
+    <div class="card card">
+      <h3>在讲什么：把「油脂」还原成泡沫</h3>
+      <p>关键理解：口语「油脂」≠纯油层；crema 含液、油与其他成分，但撑起体积的是气泡。用法：看见厚 crema 时先问「起泡条件」，再问「味道」。</p>
+      <div class="quote">「实际是一层咖啡泡沫，叫crema」</div>
+      <div class="relation">视觉厚度 ← 气泡体积；油只是成分之一，不是厚度的充分解释。</div>
+    </div>
+  
+    <div class="card card-purple">
+      <h3>在讲什么：气体从哪来、为何变薄</h3>
+      <p>关键理解：烘焙二氧化碳留在豆内，加压萃取带入液中，出粉碗减压冒泡；气泡破裂则变薄。用法：用「排气进度」解释同豆前后天的泡沫差异。</p>
+      <div class="quote">「泡沫多，首先说明这杯比较能起泡，不能直接换算成萃出了更多精华」</div>
+      <div class="relation">气体残留 ↓ → 起泡潜力 ↓ → 泡沫可变薄；味道曲线需单独测量。</div>
+    </div>
+  
+    <div class="card card-green">
+      <h3>在讲什么：豆种与粉碗是混淆变量</h3>
+      <p>关键理解：品种与设备都能改泡沫观感，却不保证风味与含油量同向。用法：家用增压粉碗出「漂亮泡沫」时，不要据此宣称萃取成功。</p>
+      <div class="quote">「这层油脂的厚度和真正含了多少油，并不是一回事」</div>
+      <div class="relation">罗布斯塔/增压粉碗 → 泡沫观感↑；脂肪含量与萃取质量仍可能独立变化。</div>
+    </div>
+  
+    <div class="card card-orange">
+      <h3>在讲什么：可执行的品鉴顺序</h3>
+      <p>关键理解：泡沫会影响香气释放与入口感受，但不是「越多越好」。用法：轻轻搅匀 → 评酸苦协调、杂味、余味；禁止只尝最上面一口下结论。</p>
+      <div class="quote">「把它当观察线索，最后用整杯的味道判断」</div>
+      <div class="relation">泡沫=弱信号；整杯味道=主判决。</div>
+    </div>
+  
+
+  <div class="card">
+    <h3>横向对照：信号能推出什么</h3>
+    <table>
+      <thead><tr><th>信号</th><th>可能意味着</th><th>不能单独推出</th></tr></thead>
+      <tbody>
+        <tr><td>刚出品泡沫很厚</td><td>气体充足、起泡条件好</td><td>一定好喝 / 一定萃得好</td></tr><tr><td>放几天后泡沫变薄</td><td>豆子排气，可冒出气体减少</td><td>咖啡一定变难喝</td></tr><tr><td>罗布斯塔泡沫更多</td><td>品种起泡倾向不同</td><td>脂肪含量一定更高</td></tr><tr><td>增压粉碗泡沫好看</td><td>出口阻力改变泡沫形成</td><td>风味与萃取已达标</td></tr><tr><td>只尝最上面一口</td><td>主要碰到泡沫层</td><td>代表整杯品质</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑总结</h3>
+    <ul><li>用 crema 厚度给浓缩打分，忽略苦糙与杂味。</li><li>把泡沫变薄直接等同于「豆子坏了」。</li><li>以为含油更多的豆就一定泡沫更厚。</li><li>被增压粉碗的漂亮泡沫误导，跳过风味判断。</li><li>只尝最上面一口就给整杯下结论。</li></ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>浓缩杯面「油脂」是 crema 泡沫，厚度不是好喝仪表。气体、豆种与粉碗都会改观感；搅匀后的整杯味道才是主判决。</p>
+    <h3>行动清单</h3>
+    <ol><li>出品后先观察泡沫，但不给分；把它记成「起泡线索」。</li><li>喝前轻轻搅匀，让泡沫与咖啡液混合再入口。</li><li>按清单评：酸苦是否协调、有无杂味、余味是否舒服。</li><li>同豆泡沫变薄时，先查排气与新鲜度窗口，不要立刻重磨追「更厚」。</li><li>家用增压粉碗场景：泡沫好看与萃取质量拆开评估。</li></ol>
+    <h3>关键认知转变</h3>
+    <ul><li>以前：油脂越厚越好喝 → 现在：厚度优先反映起泡，味道另判</li><li>以前：盯杯面厚度 → 现在：搅匀后评整杯</li><li>以前：泡沫变薄=失败 → 现在：可能只是排气，需对照味道</li></ul>
+  </div>
+
+  <div class="footer">双轨产物 · 理性分析 SVG · 与图文实录共享同一转录证据 · 不同于 coffee-bean-surface-oil（整豆表面出油议题）</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="新设备调试先锁磨豆机：粗细定流速、时间定粉量、最后自动定量。入门约18–19克粉、36克液重落在25–30秒；按键起计时，每轮只改一个变量。">
+  <title>咖啡机/磨豆机参数调试教程｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.c{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+h1{font-size:28px;font-weight:800;color:#1c1917;margin:0 0 8px;line-height:1.3}
+.meta{color:#78716c;font-size:14px;margin-bottom:16px}
+.intro{font-size:17px;color:#44403c;line-height:1.9;margin-bottom:24px}
+.sl{display:inline-block;color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:28px}
+.sl:hover{text-decoration:underline}
+h2{font-size:22px;font-weight:700;color:#1c1917;margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+h3{font-size:18px;font-weight:700;color:#1c1917;margin:28px 0 12px}
+.sr{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.sr .tm{flex-shrink:0;font-size:13px;font-weight:700;color:#b45309;min-width:110px;font-variant-numeric:tabular-nums}
+.sr strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.sr p{color:#57534e;margin:0;font-size:15px}
+.tb{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.tb strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.tb p{color:#1e40af;margin:0;font-size:15px}
+.ss p{color:#44403c;margin:0 0 14px}
+.trng{font-size:13px;color:#b45309;font-weight:600;margin-bottom:10px}
+.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}
+.note-box{background:#fff7ed;border-left:4px solid #f59e0b;border-radius:10px;padding:12px 16px;margin:16px 0;font-size:14px;color:#92400e}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.tsl{list-style:none;padding:0;margin:0}
+.tr{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.tr time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}
+.tr p{margin:0}
+.tc{border:none;padding:0;margin:0}
+.tc summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;font-size:24px;font-weight:700;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.tc summary::-webkit-details-marker,.tc summary::marker{display:none}
+.tc summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s}
+.tc[open] summary::before{transform:rotate(90deg)}
+.tc[open] summary{margin-bottom:16px}
+.note{font-size:14px;color:#78716c}
+@media(max-width:640px){.c{padding:28px 18px 56px}h1{font-size:24px}.tr{grid-template-columns:56px 1fr;gap:10px}.sr{flex-direction:column}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="c">
+
+  <header>
+    <h1>咖啡机/磨豆机参数调试教程</h1>
+    <div class="meta">时长 5 分 29 秒 · 作者 甄茶笔记&amp;大喜 · 咖啡 · 小红书 · 2026-10-13</div>
+    <p class="intro">甄茶笔记&amp;大喜用约五分半把「新设备怎么调」拆成可复现顺序：咖啡机先保持初始设置，优先调磨豆机——先锁研磨粗细把流速送进 25–30 秒窗口，再用磨豆时间把粉量钉在 18–19 克，最后才设自动定量到约 36 克液重。开场三个坑（先调谁、狂喷怪粉量还是怪粗细、计时从何时起）都会在收束时逐一回扣；作者强调这些数字只是小白入门起点，好喝才是最终裁判。</p>
+    <a class="sl" href="https://xhslink.cn/o/67nH0AbT7Xd" target="_blank" rel="noopener">→ 查看原视频（小红书）</a>
+  </header>
+
+  <article>
+    <h2>内容要点</h2>
+    <p>这是一则意式设备调试教程：从「先调咖啡机还是磨豆机」切入，按粗细→时间→自动定量推进，并把计时起点、狂喷排查与入门参数边界讲清楚。</p>
+    <h3>知识结构</h3>
+    <div class="sr"><span class="tm">[00:00→00:24]</span><div><strong>先调磨豆机</strong><p>咖啡机保持初始设置；顺序是研磨粗细、磨豆时间、自动定量，一步一步把参数调通。</p></div></div>
+    <div class="sr"><span class="tm">[00:24→01:15]</span><div><strong>预热与准备</strong><p>机温约 91–93℃，压力/预浸/自动萃取量先不动；粉量 18–19 克，默认研磨先看细盐感，新手建议铺平再水平压粉并秤归零。</p></div></div>
+    <div class="sr"><span class="tm">[01:15→02:50]</span><div><strong>手动萃取定流速</strong><p>按键同时起计时，秤到 36 克停；快于 25 秒调细、慢于 30 秒调粗。改刻度后先排约 10 克残粉；大幅调细要「调一点、出一点粉」。</p></div></div>
+    <div class="sr"><span class="tm">[02:50→03:26]</span><div><strong>时间定粉量</strong><p>粗细钉死后不动刻度，改磨豆时间：不足 18 克加秒、超过 19 克减秒，连续三次稳定再保存。</p></div></div>
+    <div class="sr"><span class="tm">[03:26→04:18]</span><div><strong>最后才自动化</strong><p>计时定量只记秒数，设完必须复测液重；流量计定量通常更稳，长按到 36 克松开记忆，具体以说明书为准。</p></div></div>
+    <div class="sr"><span class="tm">[04:18→05:28]</span><div><strong>顺序与边界</strong><p>先调流速，再定粉量，最后做自动化。18–19 克 / 36 克 / 25–30 秒只是入门稳参，换豆后比例与时间可改，参数是起点、好喝才是结果。</p></div></div>
+    <div class="tb"><strong>总结</strong><p>新设备最重要的不是死记某个刻度，而是记住顺序：先调流速，再定粉量，最后自动化；每轮只改一个变量。</p></div>
+
+    <section class="ss">
+      <h2>图文实录</h2>
+      <div class="note-box">说明：正文已按语境校正 ASR 同音误识（如「部分→布粉」「独秒→读秒」「撑取→称取」「成粉/复成→称粉/复称」「预进→预浸」「川西/川稀→川溪」）。页末「详细文字转录」仍完整保留 Whisper 原文作证据。</div>
+
+      <h3>开场三问：先调磨豆机</h3>
+      <div class="trng">00:00 – 00:24</div>
+      <p>画面把咖啡机与磨豆机并排放上桌，中心只问一句「先调谁？」。口播连抛三个新手卡点：明明用了 18 克粉却像川溪一样狂喷；到底是粉量不对还是研磨度不对；萃取时间该从按下萃取键算起，还是等咖啡流出来才算。</p>
+      <div class="quote">「答案很简单：咖啡机先保持初始设置，第一步先调磨豆机。」</div>
+      <p>随后给出整条链路：按研磨粗细 → 磨豆时间 → 自动定量，一步一步把参数调通。咖啡机侧的压力、预浸和自动萃取量，这一阶段全部先别动。</p>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-01.jpg" alt="开场卡片：咖啡机与磨豆机并列，中心提问「先调谁？」" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 开场抛出第一决策：咖啡机和磨豆机参数怎么调，先调哪一个？</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bdb916a7a41e.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening decision: when dialing in an espresso machine and grinder, which one first?</span></div>
+<audio class="cap-audio" src="audio/bdb916a7a41e.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-02.jpg" alt="调试顺序图：研磨粗细→磨豆时间→自动定量，强调先调磨豆机" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:22] 答案：咖啡机先保持初始设置，第一步先调磨豆机；顺序是粗细、时间、自动定量。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8a4410bdec0d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Answer: keep the machine on defaults first; start with the grinder—size, dose time, then auto dose.</span></div>
+<audio class="cap-audio" src="audio/8a4410bdec0d.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>预热、工具与粉量准备</h3>
+      <div class="trng">00:24 – 01:15</div>
+      <p>开始前先让咖啡机充分预热，口播给出温度约 91–93℃。材料清单很具体：同一款咖啡豆、双份粉碗、电子秤、浓缩杯和计时器；调试阶段每一杯都要称粉，也要称杯里的浓缩液。</p>
+      <p>磨豆机先用默认研磨度，粉体看起来接近细盐就可以当作起点——但「看起来差不多」并不等于已经正确，最后还是要用液重和时间来判断。粉量控制在 18–19 克，不能低于 18 克，且每轮尽量保持一致，方便前后对比。</p>
+      <p>布粉不是必须步骤，但新手为了提高稳定性，建议先把粉铺平，再保持水平压粉；手柄卡上机器后，放上电子秤和浓缩杯并去皮归零。</p>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-03.jpg" alt="默认研磨度对照：咖啡粉堆与细盐并排，标注细盐感起点" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:44] 初始研磨：默认档位磨出接近细盐的粉体即可作起点，最终仍靠液重与时间判定。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/74cad8464043.mp3" type="button" aria-label="Play English audio">🔊</button><span>Start grind: default setting that looks like fine salt is only a starting point; judge by yield and time.</span></div>
+<audio class="cap-audio" src="audio/74cad8464043.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-04.jpg" alt="萃取准备四步卡：入粉、铺平、水平压粉、装机放秤归零" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:12] 新手先把布平、压平、秤归零做稳定；调试阶段建议铺平再水平压粉，再装机称液。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e2fe531ddfeb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Beginners: stabilize distribute, level tamp, and tare; during dial-in, level then tamp, then weigh the shot.</span></div>
+<audio class="cap-audio" src="audio/e2fe531ddfeb.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>手动萃取：按键起计时，36 克停，调流速</h3>
+      <div class="trng">01:15 – 02:50</div>
+      <p>调试阶段先用手动萃取键，不要碰还没设好的自动定量键。计时规则写得很死：按下萃取键的同时开始计时，不是等咖啡流出来才开始；机器没有读秒功能就用手机或单独计时器。</p>
+      <div class="quote">「电子秤到 36 克时，立即按第二下停止萃取，然后记录时间。」</div>
+      <p>判定窗口：不到 25 秒就到 36 克 → 流速太快，研磨调细；超过 30 秒还没到 36 克 → 流速太慢，研磨调粗；落在 25–30 秒 → 粗细进入正常范围。回扣开场那杯狂喷：粉量和其他操作都没变时，应先检查是不是磨太粗。多数磨豆机数字越小越细、越大越粗，但型号可能相反，调整前先看机身粗细标识。</p>
+      <p>每次改研磨度后，默认先磨掉约 10 克粉丢掉，清掉通道里上一档残留，避免混粉干扰测试。若要大幅调细，不要一次拧太多——调一点、出一点粉，再继续调，以免咖啡豆顶住刀盘导致调节机构受力异常。每一轮只改变研磨度，粉量、液重和操作步骤全部保持一致；重复几轮，直到 36 克浓缩能稳定落在 25–30 秒。</p>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-05.jpg" alt="手动萃取示意：杯在电子秤上到 36 克，按第二下停止" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:32] 目标液重：秤到 36 克立即停萃并记时；18 或 19 克粉都先按 36 克液重判断流速。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9cdef65bc489.mp3" type="button" aria-label="Play English audio">🔊</button><span>Target yield: stop at 36 g and note the time; use 36 g to judge flow for either 18 or 19 g dose.</span></div>
+<audio class="cap-audio" src="audio/9cdef65bc489.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-06.jpg" alt="合格窗口 25–30 秒与狂喷粉碗对比，提示先查研磨过粗" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:55] 36 克落在 25–30 秒即入合格窗口；其他操作不变仍狂喷时，优先检查研磨是否太粗。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b94fe85e1c27.mp3" type="button" aria-label="Play English audio">🔊</button><span>36 g in 25–30 s is in range; if it still sprays with other variables fixed, check for too-coarse grind first.</span></div>
+<audio class="cap-audio" src="audio/b94fe85e1c27.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>粗细钉死后：用磨豆时间锁粉量</h3>
+      <div class="trng">02:50 – 03:26</div>
+      <p>研磨粗细确定以后，先不要再动研磨刻度，接下来改磨豆时间——大多数磨豆机用时间控制每次出粉重量。可先设 3 秒：称重低于 18 克就加时间，超过 19 克就减时间；连续三次都稳定在 18–19 克再保存。</p>
+      <p>设置完成后，日常制作不必每杯都称粉，以提高出杯效率；但开机首杯、换豆、改变研磨度，或发现萃取速度变化时，仍要重新复称。</p>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-07.jpg" alt="用磨豆时间校准粉量：低于 18 克加时间、超过 19 克减时间" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:05] 粗细钉死后改时间控粉量：不足加秒、超出减秒，连续三次稳定在 18–19 克再保存。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e188f7729c9e.mp3" type="button" aria-label="Play English audio">🔊</button><span>After grind size is locked, use dose time: add seconds if light, subtract if heavy; save after three stable 18–19 g runs.</span></div>
+<audio class="cap-audio" src="audio/e188f7729c9e.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>最后一步：设置咖啡机自动定量</h3>
+      <div class="trng">03:26 – 04:18</div>
+      <p>粉量稳定后，才轮到咖啡机自定义萃取量。作者把定量方式分成两类：计时定量只记住机器跑了多少秒，并不知道杯里实际有多少克浓缩液，因此要按刚才稳定到 36 克所用的时间去设，设完还要重新放秤复测液重。</p>
+      <p>流量计定量通过流量计估算经过机器的水量，作者认为通常比单纯靠时间更稳定。常见做法是长按自定义萃取键开始萃取，秤到 36 克松开按键让机器记住；部分机型需要再按一次才能停止和保存——以说明书为准。连续两到三杯都能稳定接近 36 克，这个自动萃取键才算设完。</p>
+
+      <h3>三问回扣：顺序优先于刻度</h3>
+      <div class="trng">04:18 – 05:28</div>
+      <p>收束时把开场三问逐一答完：先调磨豆机；18 克粉仍狂喷且其他条件不变时先把研磨调细；萃取时间从按下萃取键开始算。等粗细稳定后再设磨豆时间，粉量稳定后再设自动萃取约 36 克。</p>
+      <div class="quote">「新设备调试最重要的不是记住某一个刻度，而是记住顺序：先调流速，再定粉量，最后做自动化。」</div>
+      <p>最后提醒：18–19 克粉、36 克液重、25–30 秒，并不是所有豆子都必须照搬的标准答案，而是小白不知从哪下手时相对稳的入门参数——先把设备调稳定，再用味道做判断。换豆、换烘焙度或饮用方式后，合适的粉液比与时间都可能改变；进阶不是把数字卡得更死，而是根据品尝结果调整比例和时间，让这只豆子的风味更完整。</p>
+      <div class="quote">「参数只是起点，好喝才是结果。」</div>
+      <figure>
+        <img src="assets/espresso-grinder-dial-in-guide/shot-08.jpg" alt="完整调试顺序三卡：先调粗细、再定粉量、最后自动化" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:45] 收束顺序：先调流速（粗细），再定粉量（磨豆时间），最后做自动定量；每轮只改一个变量。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e1a2d4ed9f0c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Closing order: flow via grind size, then dose via grind time, then auto dose—change one variable per round.</span></div>
+<audio class="cap-audio" src="audio/e1a2d4ed9f0c.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+    </section>
+  </article>
+
+  <section class="transcript-section" id="transcript">
+    <details class="tc transcript-collapsible">
+      <summary>详细文字转录</summary>
+      <div class="transcript-body">
+        <p class="note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。</p>
+        <ol class="tsl transcript-list">
+  <li class="tr" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>咖啡机磨豆机参数怎么调 先调哪一个</p>
+  </li>
+  <li class="tr" id="transcript-2">
+    <time datetime="PT3S">00:03</time>
+    <p>你明明用了18克粉 咖啡却像川西一样狂喷</p>
+  </li>
+  <li class="tr" id="transcript-3">
+    <time datetime="PT6S">00:06</time>
+    <p>到底是粉量不对 还是研磨度不对</p>
+  </li>
+  <li class="tr" id="transcript-4">
+    <time datetime="PT9S">00:09</time>
+    <p>萃取时间该从按下萃取键开始 还是等咖啡流出来才开始</p>
+  </li>
+  <li class="tr" id="transcript-5">
+    <time datetime="PT13S">00:13</time>
+    <p>答案很简单 咖啡机先保持初始设置 第一步先调磨豆机</p>
+  </li>
+  <li class="tr" id="transcript-6">
+    <time datetime="PT18S">00:18</time>
+    <p>接下来就按研磨粗细 磨豆时间</p>
+  </li>
+  <li class="tr" id="transcript-7">
+    <time datetime="PT21S">00:21</time>
+    <p>自动定量这个顺序 一步一步把参数调通</p>
+  </li>
+  <li class="tr" id="transcript-8">
+    <time datetime="PT24S">00:24</time>
+    <p>开始前先让咖啡机充分预热 温度保持在91-93度</p>
+  </li>
+  <li class="tr" id="transcript-9">
+    <time datetime="PT29S">00:29</time>
+    <p>压力 预进和自动萃取量暂时都不要改</p>
+  </li>
+  <li class="tr" id="transcript-10">
+    <time datetime="PT32S">00:32</time>
+    <p>准备同一款咖啡豆 双份粉碗 电子秤 浓缩杯和计时器</p>
+  </li>
+  <li class="tr" id="transcript-11">
+    <time datetime="PT37S">00:37</time>
+    <p>调试阶段每一杯都要称咖啡粉 也要称杯里的浓缩液</p>
+  </li>
+  <li class="tr" id="transcript-12">
+    <time datetime="PT41S">00:41</time>
+    <p>磨豆机先使用默认研磨度 磨出来的咖啡粉看起来接近细盐</p>
+  </li>
+  <li class="tr" id="transcript-13">
+    <time datetime="PT46S">00:46</time>
+    <p>就可以作为初始起点 但颗粒看起来差不多</p>
+  </li>
+  <li class="tr" id="transcript-14">
+    <time datetime="PT49S">00:49</time>
+    <p>不代表研磨度已经正确 最后还是要通过液重和时间判断</p>
+  </li>
+  <li class="tr" id="transcript-15">
+    <time datetime="PT53S">00:53</time>
+    <p>每杯咖啡粉控制在18-19克 不能低于18克</p>
+  </li>
+  <li class="tr" id="transcript-16">
+    <time datetime="PT57S">00:57</time>
+    <p>为了让前后结果可以比较 每轮测试的粉量要尽量保持一致</p>
+  </li>
+  <li class="tr" id="transcript-17">
+    <time datetime="PT62S">01:02</time>
+    <p>把咖啡粉放进粉碗 部分不是必须步骤</p>
+  </li>
+  <li class="tr" id="transcript-18">
+    <time datetime="PT65S">01:05</time>
+    <p>但新手为了提高稳定性 建议先把咖啡粉铺平 再保持水平压粉</p>
+  </li>
+  <li class="tr" id="transcript-19">
+    <time datetime="PT70S">01:10</time>
+    <p>把手柄卡上咖啡机 放上电子秤和浓缩杯 记得去皮归零</p>
+  </li>
+  <li class="tr" id="transcript-20">
+    <time datetime="PT75S">01:15</time>
+    <p>调试阶段先使用手动萃取键 不使用还没有设置好的自动定量键</p>
+  </li>
+  <li class="tr" id="transcript-21">
+    <time datetime="PT80S">01:20</time>
+    <p>按下萃取键的同时开始计时 不是等咖啡流出来才开始</p>
+  </li>
+  <li class="tr" id="transcript-22">
+    <time datetime="PT84S">01:24</time>
+    <p>大部分咖啡机都有独秒功能 没有的话就使用手机或者单独的计时器</p>
+  </li>
+  <li class="tr" id="transcript-23">
+    <time datetime="PT89S">01:29</time>
+    <p>电子秤到36克时 立即按第二下停止萃取 然后记录时间</p>
+  </li>
+  <li class="tr" id="transcript-24">
+    <time datetime="PT94S">01:34</time>
+    <p>如果不到25秒就已经萃取到36克 说明流速太快 把研磨度调细一点</p>
+  </li>
+  <li class="tr" id="transcript-25">
+    <time datetime="PT99S">01:39</time>
+    <p>如果超过30秒还没有萃取到36克 说明流速太慢 把研磨度调粗一点</p>
+  </li>
+  <li class="tr" id="transcript-26">
+    <time datetime="PT105S">01:45</time>
+    <p>如果36克落在25-30秒之间 研磨度就进入了正常范围</p>
+  </li>
+  <li class="tr" id="transcript-27">
+    <time datetime="PT110S">01:50</time>
+    <p>所以开头那杯像川西一样狂喷的浓缩 在粉量和其他操作都没有变化的情况下</p>
+  </li>
+  <li class="tr" id="transcript-28">
+    <time datetime="PT116S">01:56</time>
+    <p>应该先检查研磨度是不是太粗 大部分磨豆机都是数字越小 研磨越细</p>
+  </li>
+  <li class="tr" id="transcript-29">
+    <time datetime="PT121S">02:01</time>
+    <p>数字越大 研磨越粗 但不同型号也可能相反 调整前先看机身上的粗细标识</p>
+  </li>
+  <li class="tr" id="transcript-30">
+    <time datetime="PT128S">02:08</time>
+    <p>每次改变研磨度以后默认直接磨掉10克粉不要 因为磨豆通道里还残留着上一个档位的咖啡粉</p>
+  </li>
+  <li class="tr" id="transcript-31">
+    <time datetime="PT135S">02:15</time>
+    <p>不先排掉 下一杯就会混入两种不同粗细的粉 影响测试结果 如果需要大幅调细不要一次调整太多</p>
+  </li>
+  <li class="tr" id="transcript-32">
+    <time datetime="PT143S">02:23</time>
+    <p>调一点 磨出一点咖啡粉 再继续调 这样可以避免咖啡豆顶住刀盘 导致调节机构受力异常</p>
+  </li>
+  <li class="tr" id="transcript-33">
+    <time datetime="PT150S">02:30</time>
+    <p>排完咖啡粉以后 再重新撑取18-19克粉 部分压粉归零 从按下萃取键开始计时 到36克停止</p>
+  </li>
+  <li class="tr" id="transcript-34">
+    <time datetime="PT159S">02:39</time>
+    <p>每一轮只改变研磨度 粉量 液重和操作步骤全部保持一致</p>
+  </li>
+  <li class="tr" id="transcript-35">
+    <time datetime="PT164S">02:44</time>
+    <p>重复几轮 直到36克浓缩液能够稳定落在25-30秒 研磨粗细就调好了</p>
+  </li>
+  <li class="tr" id="transcript-36">
+    <time datetime="PT170S">02:50</time>
+    <p>研磨粗细确定以后 先不要再动研磨刻度 接下来调整磨豆时间</p>
+  </li>
+  <li class="tr" id="transcript-37">
+    <time datetime="PT175S">02:55</time>
+    <p>大部分磨豆机都是通过控制研磨时间来控制每次磨出的咖啡粉重量</p>
+  </li>
+  <li class="tr" id="transcript-38">
+    <time datetime="PT180S">03:00</time>
+    <p>先把磨豆时间设为3秒 磨完以后称重 粉量低于18克就增加研磨时间</p>
+  </li>
+  <li class="tr" id="transcript-39">
+    <time datetime="PT186S">03:06</time>
+    <p>粉量超过19克就减少研磨时间 连续测试三次 每次都稳定在18-19克之间 就可以保存这个时间</p>
+  </li>
+  <li class="tr" id="transcript-40">
+    <time datetime="PT194S">03:14</time>
+    <p>设置完成以后 日常制作不必每杯都成粉 可以提高出杯效率</p>
+  </li>
+  <li class="tr" id="transcript-41">
+    <time datetime="PT199S">03:19</time>
+    <p>但是开机手杯 换豆 改变研磨度 或者发现萃取速度发生变化时 仍然要重新复成</p>
+  </li>
+  <li class="tr" id="transcript-42">
+    <time datetime="PT206S">03:26</time>
+    <p>最后一步才是设置咖啡机的自定义萃取量 咖啡机常见的定量方式分为两种</p>
+  </li>
+  <li class="tr" id="transcript-43">
+    <time datetime="PT212S">03:32</time>
+    <p>第一种是计时定量 它只记住机器运行多少秒 并不知道杯里实际有多少克浓缩液</p>
+  </li>
+  <li class="tr" id="transcript-44">
+    <time datetime="PT218S">03:38</time>
+    <p>需要根据刚才稳定萃取到36克所用的时间设置自动萃取时长</p>
+  </li>
+  <li class="tr" id="transcript-45">
+    <time datetime="PT223S">03:43</time>
+    <p>设置完成以后还要重新放上电子秤复测 确认液重接近36克</p>
+  </li>
+  <li class="tr" id="transcript-46">
+    <time datetime="PT228S">03:48</time>
+    <p>第二种是流量计定量 它通过流量计计算有多少水经过机器 通常会比单纯依靠时间定量更稳定</p>
+  </li>
+  <li class="tr" id="transcript-47">
+    <time datetime="PT236S">03:56</time>
+    <p>常见的设置方法是长按自定义萃取键 咖啡机会直接开始萃取</p>
+  </li>
+  <li class="tr" id="transcript-48">
+    <time datetime="PT241S">04:01</time>
+    <p>电子秤到36克时松开按键 机器就会记住这次萃取量</p>
+  </li>
+  <li class="tr" id="transcript-49">
+    <time datetime="PT245S">04:05</time>
+    <p>部分咖啡机需要再次按键才能停止和保存 具体操作按照咖啡机说明书进行</p>
+  </li>
+  <li class="tr" id="transcript-50">
+    <time datetime="PT251S">04:11</time>
+    <p>设置完成以后连续制作两到三杯 每杯都能稳定接近36克 这个自动萃取键才算设置完成</p>
+  </li>
+  <li class="tr" id="transcript-51">
+    <time datetime="PT258S">04:18</time>
+    <p>现在回到开头的三个问题 咖啡机和磨豆机先调磨豆机</p>
+  </li>
+  <li class="tr" id="transcript-52">
+    <time datetime="PT263S">04:23</time>
+    <p>18克粉萃取时像川稀一样狂喷 在其他条件不变的情况下先把研磨度调细</p>
+  </li>
+  <li class="tr" id="transcript-53">
+    <time datetime="PT269S">04:29</time>
+    <p>萃取时间从按下萃取键的时候开始计算 等研磨粗细稳定以后再设置磨豆时间</p>
+  </li>
+  <li class="tr" id="transcript-54">
+    <time datetime="PT275S">04:35</time>
+    <p>粉量稳定以后最后设置咖啡机自动萃取36克 所以新设备条是最重要的不是记住某一个刻度 而是记住顺序</p>
+  </li>
+  <li class="tr" id="transcript-55">
+    <time datetime="PT284S">04:44</time>
+    <p>先调流速 再定粉量 最后做自动化</p>
+  </li>
+  <li class="tr" id="transcript-56">
+    <time datetime="PT290S">04:50</time>
+    <p>最后再提醒一句18-19克粉 36克液重25-30秒 并不是所有咖啡豆都必须照搬的标准答案</p>
+  </li>
+  <li class="tr" id="transcript-57">
+    <time datetime="PT298S">04:58</time>
+    <p>而是小白不知道从哪里下手时 一套相对稳的入门参数 先用它把设备调稳定 再用味道做判断</p>
+  </li>
+  <li class="tr" id="transcript-58">
+    <time datetime="PT306S">05:06</time>
+    <p>换了不同的咖啡豆烘焙度或者饮用方式 合适的粉液比和萃取时间都可能改变</p>
+  </li>
+  <li class="tr" id="transcript-59">
+    <time datetime="PT311S">05:11</time>
+    <p>进阶调试不是把数字卡得更死 而是根据品尝结果调整比例和时间 让这只豆子的风味表现得更完整</p>
+  </li>
+  <li class="tr" id="transcript-60">
+    <time datetime="PT319S">05:19</time>
+    <p>记住 参数只是起点 好喝才是结果 关注我带你换个角度 看懂咖啡世界背后的逻辑</p>
+  </li></ol>
+      </div>
+    </details>
+  </section>
+</main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

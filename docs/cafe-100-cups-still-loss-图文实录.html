@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="小红书账号「甄茶笔记&amp;大喜」用「一天卖一百杯」开场，却不急着庆祝忙碌，而是把问题改写成：减掉变动成本以后，每杯还能留下多少钱去覆盖房租和基础人工。示意账用每月固定成本两万五千元、每杯贡献十元，算出月保本两千五百杯、日均至少八十四杯；贡献掉到八元时日均门槛约一百零五杯。随后提醒产品">
+<title>一天卖100杯，为什么还在亏钱？｜图文实录</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}
+.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>一天卖100杯，为什么还在亏钱？</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">3分48秒</span>
+    <span class="meta-tag tag-topic">咖啡经营 · 保本杯量 · 单杯贡献</span>
+  </div>
+  <p style="color:#57534e;font-size:14px;margin:0 0 12px">作者 甄茶笔记&amp;大喜 · 2026-10-13</p>
+  <a class="source-link" href="https://xhslink.cn/o/5PtNH1qUAEN" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3><a href="#ch1">忙碌≠赚钱：先看保本线</a><a href="#ch2">单杯贡献与变动成本</a><a href="#ch3">人工水电要拆标签</a><a href="#ch4">两万五÷十元的示意账</a><a href="#ch5">加权产品结构</a><a href="#ch6">产能台阶与两个现实问题</a><a href="#ch7">保本≠赚钱，别抄百杯答案</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary">
+  <div class="content-points">
+    <h2>内容要点</h2>
+    <p>小红书账号「甄茶笔记&amp;大喜」用「一天卖一百杯」开场，却不急着庆祝忙碌，而是把问题改写成：减掉变动成本以后，每杯还能留下多少钱去覆盖房租和基础人工。示意账用每月固定成本两万五千元、每杯贡献十元，算出月保本两千五百杯、日均至少八十四杯；贡献掉到八元时日均门槛约一百零五杯。随后提醒产品结构要加权、产能跨台阶会让保本线失效，并分清「保本不是赚钱」。开店前别抄别人的百杯答案，而要拆清成本、对照商圈需求与门店产能。下列实录按时间线展开；数字均为作者示意，非某一门店实测。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row"><span class="time-marker">[00:00→00:30]</span><div><strong>忙碌≠赚钱</strong><p>一百杯只是销量标签；画面用保本线区分「看起来很忙」与真正进入利润区。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:30→00:57]</span><div><strong>单杯贡献</strong><p>贡献=实际收入−变动成本；少卖一杯钱会不会跟着少，是区分变动/固定的快测。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:57→01:15]</span><div><strong>人工水电要拆</strong><p>基础工资相对固定，加班临时工会跨量跳升；分不清就拆成「不开单也付」与「多一单才增」。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:15→01:45]</span><div><strong>示意保本账</strong><p>25000÷10=2500杯/月≈日均84杯；贡献8元→约105杯；少留2元≈多21杯/日。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:45→02:15]</span><div><strong>加权产品结构</strong><p>不能拿一杯高毛利代表全店；高贡献卖得少、低贡献外卖多，平均贡献掉、保本杯量升。</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:15→02:50]</span><div><strong>产能台阶</strong><p>80杯一人能做、120杯要加兼职或设备时，固定成本已跨台阶；还要问需求与高峰接单。</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:50→03:48]</span><div><strong>保本≠赚钱</strong><p>平衡点上营业利润约零；要利润就要抬杯量；别抄「一天一百杯」，拆成本并对照需求产能。</p></div></div>
+    <div class="takeaway-box"><strong>总结</strong><p>一天一百杯也可能亏钱。先算加权后的单杯贡献能否覆盖固定成本，再核对商圈需求与产能台阶；保本只是利润为零，不是开始赚钱。算不清就不要把希望压在开业后再卖更多。</p></div>
+    <div class="warn">文中两万五/十元/八十四杯/一百零五杯/三千五百杯等数字均为作者口播或画面示意算例，用来说明贡献与保本关系，不是某一门店实测财报。00:01–00:30 与约 02:52 后口播进 Whisper 不完整，已用画面字幕补全并在正文标明。</div>
+  </div>
+  
+<section class="story-section" id="ch1">
+  <h2><span class="time-marker">00:00–00:30</span>开场：一天一百杯，先看保本线而不是看起来忙</h2>
+  <p>视频标题卡直接抛出场景：你的咖啡店一天卖一百杯——然后立刻把「赚钱」和「亏钱」两套画面并置。作者没有用百杯销量当成功证明，而是把判断标准推到保本线：示意画面写出每月两千五百杯、折算日均大约八十四杯；并强调这条线决定的不是店里看起来有多忙，跨过它之后才真正进入利润区。</p>
+  <p>这一段口播几乎没有进入 Whisper（约 00:01–00:30 为视觉讲解），但画面字幕把「销量标签≠利润」钉得很清楚。随后口播从「减掉变动成本」接上，开始定义单杯贡献。</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-01.jpg" alt="一天一百杯图标指向赚钱与亏钱两套画面" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:05] 开场对照：一天一百杯，并不能自动推出「赚钱」——还要和「亏钱」那一侧一起判断。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/709b1a8c1e79.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening contrast: selling 100 cups a day does not automatically mean you are making money—you still have to judge against the loss side.</span></div>
+<audio class="cap-audio" src="audio/709b1a8c1e79.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/cafe-100-cups-still-loss/shot-02.jpg" alt="看起来很忙、跨过保本线、赚钱三步示意" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:25] 画面强调：看起来很忙不等于赚钱；跨过保本线之后，才真正进入利润区。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1775f7a25fa2.mp3" type="button" aria-label="Play English audio">🔊</button><span>The frame stresses that looking busy is not the same as making money; only after crossing the break-even line do you truly enter the profit zone.</span></div>
+<audio class="cap-audio" src="audio/1775f7a25fa2.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="story-section" id="ch2">
+  <h2><span class="time-marker">00:30–00:57</span>单杯贡献：减掉变动成本，才谈得上覆盖房租人工</h2>
+  <p>作者把「留下」说成：减掉这杯订单带来的变动成本以后，还能拿去覆盖房租、基础人工等固定支出的钱。最简单的判断方法是——如果今天少卖这一杯，这笔钱会不会跟着少。</p>
+  <p>跟着少的通常进变动成本：咖啡豆、牛奶、糖浆、杯盖、纸袋，以及按订单发生的平台费用和优惠。房租、基础排班、软件和设备折旧，在当前经营规模内通常不会因为少卖一杯立刻消失，可以先放进固定成本。（Whisper 原词「电动成本」，据画面校正为「变动成本」。）</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-03.jpg" alt="一杯实际收入与变动成本图示，字幕讲减掉变动成本" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:32] 单杯贡献：减掉这杯订单带来的变动成本以后，剩下的钱才能去覆盖房租、基础人工等固定支出。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/def56559ee05.mp3" type="button" aria-label="Play English audio">🔊</button><span>Contribution per cup: after subtracting the variable cost of that order, what remains can cover fixed costs such as rent and base labor.</span></div>
+<audio class="cap-audio" src="audio/def56559ee05.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/cafe-100-cups-still-loss/shot-04.jpg" alt="房租排班软件设备等固定成本图标" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:50] 判断窍门：今天少卖这一杯，这笔钱会不会跟着少——会变的进变动成本，当前规模内几乎不动的可先放固定成本。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b2b9755ca37e.mp3" type="button" aria-label="Play English audio">🔊</button><span>Quick test: if you sell one fewer cup today, does that cash go away with it—costs that move go to variable; costs that barely move at current scale can first go to fixed.</span></div>
+<audio class="cap-audio" src="audio/b2b9755ca37e.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="story-section" id="ch3">
+  <h2><span class="time-marker">00:57–01:15</span>人工和水电不能永远只贴一个标签</h2>
+  <p>分完大类之后，作者立刻补刀：人工和水电不能永远只贴一个标签。基础工资可能相对固定，但加班和临时工会在订单跨过某个量以后突然增加；水电也可能同时有基础部分和随营业量变化的部分。</p>
+  <p>分不清时，至少先拆成「不开单也要付」和「多一单才增加」两部分，不要把整笔费用随手塞到一边——否则后面的保本杯量会从一开始就算歪。</p>
+</section>
+
+<section class="story-section" id="ch4">
+  <h2><span class="time-marker">01:15–01:45</span>示意账：两万五除以十元，日均至少八十四杯</h2>
+  <p>回到例子：每月固定成本两万五千元，每杯平均贡献十元，两万五除以十就是每月两千五百杯；开三十天日均约八十三点三杯，实际计算至少要按八十四杯看。</p>
+  <p>如果一杯实际只能留下八元，保本量变成三千一百二十五杯，日均约一百零四点二杯，至少按一百零五杯看。每杯只少留下两元，日均保本线就大约多二十一杯——价格少两元看起来不大，落到一个月可能是完全不同的客流要求。文中数字均为作者示意算例。</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-05.jpg" alt="固定成本两万五的经营图标与字幕" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:18] 示意账：每月固定成本两万五千元、每杯平均贡献十元，保本量是每月两千五百杯，开三十天至少按日均八十四杯看。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b78fda956bfa.mp3" type="button" aria-label="Play English audio">🔊</button><span>Worked example: monthly fixed cost 25,000 yuan and average contribution 10 yuan per cup means 2,500 cups a month; over 30 days, treat daily break-even as at least 84 cups.</span></div>
+<audio class="cap-audio" src="audio/b78fda956bfa.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/cafe-100-cups-still-loss/shot-06.jpg" alt="钱包漏币与外卖咖啡，标注每杯少两元" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:38] 每杯只少留下两元，日均保本线大约多二十一杯——价格差看起来不大，落到一个月可能是完全不同的客流要求。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ebe1fcc89b3a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Leaving only 2 yuan less per cup raises the daily break-even by about 21 cups—a small price gap can become a very different traffic requirement over a month.</span></div>
+<audio class="cap-audio" src="audio/ebe1fcc89b3a.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="story-section" id="ch5">
+  <h2><span class="time-marker">01:45–02:15</span>产品结构一变，盈亏平衡点就要重算</h2>
+  <p>咖啡店很少只卖一种产品：美式、拿铁、特调、甜点、自提和外卖，每一种订单的实际收入和变动成本都可能不同。此时不能拿菜单上某一杯的高毛利来代表全店，也不能把所有杯子都当成一样值钱。（Whisper「权电」据画面校正为「全店」。）</p>
+  <p>更稳妥的做法是按真实或保守预计的销售结构，算加权后的平均贡献。高贡献产品卖得少、低贡献外卖单卖得多，整体平均贡献下降，保本杯量也会被抬高；产品结构一变，盈亏平衡点就要重算。</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-07.jpg" alt="某一杯高毛利箭头指向全店订单" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:58] 不能拿菜单上某一杯的高毛利代表全店，也不能把所有杯子当成一样值钱；要按销售结构算加权平均贡献。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0d48f311ca6b.mp3" type="button" aria-label="Play English audio">🔊</button><span>You cannot let one high-margin menu item stand for the whole shop, nor treat every cup as equally valuable; use a sales-mix weighted average contribution.</span></div>
+<audio class="cap-audio" src="audio/0d48f311ca6b.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="story-section" id="ch6">
+  <h2><span class="time-marker">02:15–02:50</span>纸面答案的前提：产能跨台阶，旧保本线会失效</h2>
+  <p>算出的杯数还只是纸面答案。本量利分析有一个前提：售价、单杯变动成本和固定成本，要在当前经营区间里大致稳定。如果八十杯时一个人能做，一百二十杯时必须加兼职、延长工时或者增加设备，固定成本就已经跨台阶；这时还拿原来的保本线判断，数字会偏得很远。</p>
+  <p>所以算完以后还要问两个现实问题：这个位置有没有足够需求支撑这条保本线；人员、设备和出品速度能不能在高峰期接住这些订单。如果答案是否定的，先改店型、成本或产品结构，而不是把希望全部压在开业以后再想办法卖更多。（「改电行」据画面校正为「改店型」。）</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-08.jpg" alt="八十杯一人能做，一百二十杯要加兼职或设备" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:28] 八十杯时一个人能做，一百二十杯可能要加兼职、延时或加设备——固定成本跨台阶后，旧保本线会偏得很远。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5948cca1af90.mp3" type="button" aria-label="Play English audio">🔊</button><span>One person may handle 80 cups, but at 120 cups you may need part-timers, longer hours, or more equipment—once fixed cost steps up, the old break-even line drifts far.</span></div>
+<audio class="cap-audio" src="audio/5948cca1af90.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="story-section" id="ch7">
+  <h2><span class="time-marker">02:50–03:48</span>保本不是赚钱；别抄别人的「一天一百杯」</h2>
+  <p>最后还要分清：保本不是赚钱。画面写明盈亏平衡点只表示在这套假设下营业利润约为零——固定成本刚被贡献盖住。若还希望每月获得一万元经营利润，目标就不是两千五百杯；示意画面给出约三千五百杯量级（按两万五加一万再除以每杯十元理解，仍属作者算例）。</p>
+  <p>Whisper 在约 02:52 后几乎失效（末段仅识别出残片「A S」），但画面字幕继续收束：开店前真正要做的不是抄别人「一天卖一百杯」的答案，而是拆清固定与变动成本，换成日均杯量，再和商圈需求及门店产能对照。片尾留下互动：你的日均保本杯量是多少？</p>
+  <figure><img src="assets/cafe-100-cups-still-loss/shot-09.jpg" alt="营业利润约为零对照每月固定成本" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:55] 保本不是赚钱：盈亏平衡点只表示在这套假设下，营业利润大约为零——固定成本刚被贡献盖住。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b1e1cef8f5da.mp3" type="button" aria-label="Play English audio">🔊</button><span>Break-even is not profit: it only means that under these assumptions operating profit is about zero—contribution has just covered fixed cost.</span></div>
+<audio class="cap-audio" src="audio/b1e1cef8f5da.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/cafe-100-cups-still-loss/shot-10.jpg" alt="固定成本两万五、目标利润、每杯贡献十元三栏" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:08] 若还希望每月一万经营利润，目标就不是两千五百杯；示意画面出现约三千五百杯量级（作者算例）。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9f5dd98e474b.mp3" type="button" aria-label="Play English audio">🔊</button><span>If you also want 10,000 yuan operating profit a month, the target is no longer 2,500 cups; the slide shows roughly a 3,500-cup scale (author’s example).</span></div>
+<audio class="cap-audio" src="audio/9f5dd98e474b.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/cafe-100-cups-still-loss/shot-11.jpg" alt="抄别人答案对照一天一百杯图标" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:14] 开店前真正要做的，不是抄别人「一天卖一百杯」的答案，而是拆清成本、换成日均杯量，再和商圈需求与门店产能对照。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1f9eb5010ae7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Before opening, the real work is not copying someone else’s “100 cups a day” answer, but splitting costs, converting to daily cups, and checking local demand against store capacity.</span></div>
+<audio class="cap-audio" src="audio/1f9eb5010ae7.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+  <section class="transcript-section" id="transcript">
+    <details class="transcript-collapsible">
+      <summary>详细文字转录（69段）</summary>
+      <div class="transcript-body">
+        <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差与繁体字形；正文已按画面与语境校正（如「变动成本」「全店」「改店型」），转录区保持原样以便核对。末段残片「A S」为识别失败。</p>
+        <ol class="transcript-list">
+<li class="transcript-row" id="transcript-1"><time datetime="PT0S">00:00</time><p>你的咖啡店一天賣100杯</p></li>
+<li class="transcript-row" id="transcript-2"><time datetime="PT30S">00:30</time><p>減掉這杯訂單帶來的變動成本以後</p></li>
+<li class="transcript-row" id="transcript-3"><time datetime="PT33S">00:33</time><p>還能拿去覆蓋房租、基礎人工等固定支出的錢</p></li>
+<li class="transcript-row" id="transcript-4"><time datetime="PT36S">00:36</time><p>最簡單的判斷方法是</p></li>
+<li class="transcript-row" id="transcript-5"><time datetime="PT38S">00:38</time><p>如果今天少賣這一杯</p></li>
+<li class="transcript-row" id="transcript-6"><time datetime="PT39S">00:39</time><p>這筆錢會不會跟著少</p></li>
+<li class="transcript-row" id="transcript-7"><time datetime="PT41S">00:41</time><p>咖啡豆、牛奶、糖漿、杯蓋、紙袋</p></li>
+<li class="transcript-row" id="transcript-8"><time datetime="PT44S">00:44</time><p>按訂單發生的平台費用和優惠</p></li>
+<li class="transcript-row" id="transcript-9"><time datetime="PT46S">00:46</time><p>通常會跟銷量變化</p></li>
+<li class="transcript-row" id="transcript-10"><time datetime="PT48S">00:48</time><p>應放進電動成本</p></li>
+<li class="transcript-row" id="transcript-11"><time datetime="PT49S">00:49</time><p>房租、基礎排班、軟體和設備折舊</p></li>
+<li class="transcript-row" id="transcript-12"><time datetime="PT52S">00:52</time><p>在當前經營規模內</p></li>
+<li class="transcript-row" id="transcript-13"><time datetime="PT54S">00:54</time><p>通常不會因為少賣一杯立刻消失</p></li>
+<li class="transcript-row" id="transcript-14"><time datetime="PT56S">00:56</time><p>可以先放進固定成本</p></li>
+<li class="transcript-row" id="transcript-15"><time datetime="PT57S">00:57</time><p>但人工和水電不能永遠只貼一個錶錢</p></li>
+<li class="transcript-row" id="transcript-16"><time datetime="PT59S">00:59</time><p>基礎工資可能相對固定</p></li>
+<li class="transcript-row" id="transcript-17"><time datetime="PT61S">01:01</time><p>加班和臨時工卻會在訂單跨過某個量以後突然增加</p></li>
+<li class="transcript-row" id="transcript-18"><time datetime="PT65S">01:05</time><p>水電也可能同時有基礎部分和隨營業量變化的部分</p></li>
+<li class="transcript-row" id="transcript-19"><time datetime="PT68S">01:08</time><p>分不清時</p></li>
+<li class="transcript-row" id="transcript-20"><time datetime="PT69S">01:09</time><p>至少先拆成不開單也要付的部分</p></li>
+<li class="transcript-row" id="transcript-21"><time datetime="PT71S">01:11</time><p>和多益單才增加的部分</p></li>
+<li class="transcript-row" id="transcript-22"><time datetime="PT73S">01:13</time><p>不要把整筆費用隨手塞到一邊</p></li>
+<li class="transcript-row" id="transcript-23"><time datetime="PT75S">01:15</time><p>現在回到剛才的例子</p></li>
+<li class="transcript-row" id="transcript-24"><time datetime="PT76S">01:16</time><p>每月固定成本25000元</p></li>
+<li class="transcript-row" id="transcript-25"><time datetime="PT78S">01:18</time><p>每杯平均貢獻10元</p></li>
+<li class="transcript-row" id="transcript-26"><time datetime="PT80S">01:20</time><p>25000除以10就是每月2500杯</p></li>
+<li class="transcript-row" id="transcript-27"><time datetime="PT83S">01:23</time><p>開30天日均83.3杯</p></li>
+<li class="transcript-row" id="transcript-28"><time datetime="PT85S">01:25</time><p>實際計算至少要按84杯看</p></li>
+<li class="transcript-row" id="transcript-29"><time datetime="PT88S">01:28</time><p>如果一杯實際只能留下8元</p></li>
+<li class="transcript-row" id="transcript-30"><time datetime="PT90S">01:30</time><p>保本量就變成3125杯</p></li>
+<li class="transcript-row" id="transcript-31"><time datetime="PT92S">01:32</time><p>日均約104.2杯</p></li>
+<li class="transcript-row" id="transcript-32"><time datetime="PT94S">01:34</time><p>實際至少要按105杯看</p></li>
+<li class="transcript-row" id="transcript-33"><time datetime="PT96S">01:36</time><p>每杯只少留下2元</p></li>
+<li class="transcript-row" id="transcript-34"><time datetime="PT98S">01:38</time><p>日均保本現就多了21杯左右</p></li>
+<li class="transcript-row" id="transcript-35"><time datetime="PT100S">01:40</time><p>價格少2元看起來不大</p></li>
+<li class="transcript-row" id="transcript-36"><time datetime="PT102S">01:42</time><p>落到一個月可能就是完全不同的客流要求</p></li>
+<li class="transcript-row" id="transcript-37"><time datetime="PT104S">01:44</time><p>不過咖啡店很少只賣一種產品</p></li>
+<li class="transcript-row" id="transcript-38"><time datetime="PT107S">01:47</time><p>美式、拿鐵、特調、甜點、糖食、自提和外賣</p></li>
+<li class="transcript-row" id="transcript-39"><time datetime="PT112S">01:52</time><p>每一種訂單的實際收入和變動成 Glass 成本都可能不同</p></li>
+<li class="transcript-row" id="transcript-40"><time datetime="PT115S">01:55</time><p>此時不能拿菜單上某一杯的高毛利來代表權電</p></li>
+<li class="transcript-row" id="transcript-41"><time datetime="PT118S">01:58</time><p>也不能把所有杯子都當成一樣值錢</p></li>
+<li class="transcript-row" id="transcript-42"><time datetime="PT120S">02:00</time><p>更穩妥的做法是按真實或保守預計的銷售結構</p></li>
+<li class="transcript-row" id="transcript-43"><time datetime="PT124S">02:04</time><p>算加全後的平均貢獻</p></li>
+<li class="transcript-row" id="transcript-44"><time datetime="PT126S">02:06</time><p>比如高貢獻產品賣得少</p></li>
+<li class="transcript-row" id="transcript-45"><time datetime="PT128S">02:08</time><p>低貢獻外賣單賣得多</p></li>
+<li class="transcript-row" id="transcript-46"><time datetime="PT129S">02:09</time><p>整體平均貢獻就會下降</p></li>
+<li class="transcript-row" id="transcript-47"><time datetime="PT131S">02:11</time><p>保本杯量也會太高</p></li>
+<li class="transcript-row" id="transcript-48"><time datetime="PT132S">02:12</time><p>產品結構一變</p></li>
+<li class="transcript-row" id="transcript-49"><time datetime="PT133S">02:13</time><p>盈灰平衡點就要重算</p></li>
+<li class="transcript-row" id="transcript-50"><time datetime="PT135S">02:15</time><p>算出的杯數還只是紙面答案</p></li>
+<li class="transcript-row" id="transcript-51"><time datetime="PT137S">02:17</time><p>因為本量力分析有一個前提</p></li>
+<li class="transcript-row" id="transcript-52"><time datetime="PT139S">02:19</time><p>售價、單杯變動成本和固定成本</p></li>
+<li class="transcript-row" id="transcript-53"><time datetime="PT142S">02:22</time><p>要在當前經營區間裡大致穩定</p></li>
+<li class="transcript-row" id="transcript-54"><time datetime="PT144S">02:24</time><p>如果80杯時一個人能做</p></li>
+<li class="transcript-row" id="transcript-55"><time datetime="PT145S">02:25</time><p>120杯時必須加兼職、延長工時或者增加設備</p></li>
+<li class="transcript-row" id="transcript-56"><time datetime="PT148S">02:28</time><p>固定成本就已經跨台階了</p></li>
+<li class="transcript-row" id="transcript-57"><time datetime="PT150S">02:30</time><p>這時還拿原來的保本線判斷</p></li>
+<li class="transcript-row" id="transcript-58"><time datetime="PT152S">02:32</time><p>數字會偏得很遠</p></li>
+<li class="transcript-row" id="transcript-59"><time datetime="PT153S">02:33</time><p>所以算完以後</p></li>
+<li class="transcript-row" id="transcript-60"><time datetime="PT154S">02:34</time><p>還要問兩個現實問題</p></li>
+<li class="transcript-row" id="transcript-61"><time datetime="PT156S">02:36</time><p>這個位置有沒有足夠需求支撐這條保本線</p></li>
+<li class="transcript-row" id="transcript-62"><time datetime="PT158S">02:38</time><p>你的人員、設備和出品速度</p></li>
+<li class="transcript-row" id="transcript-63"><time datetime="PT160S">02:40</time><p>能不能在高峰期接觸這些訂單</p></li>
+<li class="transcript-row" id="transcript-64"><time datetime="PT162S">02:42</time><p>如果答案是否定的</p></li>
+<li class="transcript-row" id="transcript-65"><time datetime="PT163S">02:43</time><p>先改電行、成本或產品結構</p></li>
+<li class="transcript-row" id="transcript-66"><time datetime="PT166S">02:46</time><p>而不是把希望全部壓在開業以後再想辦法賣更多</p></li>
+<li class="transcript-row" id="transcript-67"><time datetime="PT170S">02:50</time><p>最後還要分清</p></li>
+<li class="transcript-row" id="transcript-68"><time datetime="PT171S">02:51</time><p>保本不是賺錢</p></li>
+<li class="transcript-row" id="transcript-69"><time datetime="PT172S">02:52</time><p>A S...</p></li>
+        </ol>
+      </div>
+    </details>
+  </section>
+</article>
+</main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>
