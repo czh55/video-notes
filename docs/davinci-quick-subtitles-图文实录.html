@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vivi Lyn 在达芬奇剪辑页用从音频创建字幕给样片加字幕，再在 Inspector 和 Track 里改错句与字体。">
+  <title>达芬奇教程：如何快速给视频加字幕？｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.quote{border-left:3px solid #d6d3d1;margin:14px 0;padding:4px 0 4px 14px;color:#57534e}
+.note{background:#fff7ed;border-radius:12px;padding:12px 16px;font-size:15px;color:#9a3412}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style></head>
+<body>
+  <main class="container">
+    <header>
+    <p class="kicker">图文实录 · 小红书 · Vivi Lyn</p>
+    <h1>达芬奇教程：如何快速给视频加字幕？</h1>
+    <p class="meta">2026-10-17 · 1分49秒 · 视频制作 · <a href="https://xhslink.cn/o/7yOqZxZLceu">原视频</a> · <a href="#transcript">文字转录</a></p>
+    <p class="lede">Vivi Lyn 在达芬奇剪辑页里，用时间线菜单的 AI 工具，从一条已经做好的内容片音频生成字幕。她把手动语言设成简体中文，每行字数和单双行可以改，其余保持默认，再在检查器里改错句、在轨道样式里改字体。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>这是一条 1 分 49 秒的操作演示。Whisper 在 00:02 到 00:30 几乎没有字，开场、点菜单、打开对话框这三段，正文按画面上的字幕复述，并逐段标明。后面口播和画面字幕大体对得上，繁体转写在文中改回简体，原句留在页末。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→00:14]</span>
+      <div>
+        <strong>功能是她最近才注意到的</strong>
+        <p>画面字幕说，这么好用的功能她最近才发现，猜不少人还没留意。她要在剪辑页上，拿前两天做的一条内容片来操作。Whisper 这一段只留下标题句。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:14→00:54]</span>
+      <div>
+        <strong>从音频创建字幕</strong>
+        <p>路径是 Timeline、AI Tools、Create Subtitles from Audio。语言她改选手动的 Mandarin Simplified。每行字符和单行或双行可以动，她说这次其他选项保持默认，然后点 Create。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:54→01:20]</span>
+      <div>
+        <strong>快，但仍要改错句</strong>
+        <p>她说样片大约 4 分 21 秒，识别只用了十来秒、不到 20 秒，准确率挺高，个别句子仍要改。改的位置在右上角 Inspector 的字幕文本里。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:20→01:49]</span>
+      <div>
+        <strong>整轨样式在 Track</strong>
+        <p>字体、字号、阴影和背景都在字幕轨道的 Track 里调。她把这个功能说给知识类和口播类博主。片尾提到对专业调色感兴趣，后半句画面没有读全。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>自动字幕在这条片子里是剪辑页的一步：选对简体中文，生成之后用 Inspector 改单句，用 Track 管整轨样子。速度和准确率是她的判断，错句要自己看。</p>
+    </div>
+
+    <section class="story-section" id="s1">
+      <h2>剪辑页上已经铺着一条做好的片子</h2>
+      <span class="time-range">00:00–00:14</span>
+      <p class="note">这一段 Whisper 只在 00:00 认出标题「如何用达芬奇快速给视频加字幕」，00:02 到 00:30 没有分段。下面句子来自画面字幕，不是口播转写补写。</p>
+      <p>片头画面字幕就是笔记标题：如何用达芬奇快速给视频加字幕。紧接着两句是她自己的发现：这么好用的功能，她竟然最近才发现；所以她猜，应该有不少朋友还没有留意到。然后她说，这期就带大家实际操作一下。</p>
+      <p>00:10 的画面字幕把场景说清楚：现在看到的是达芬奇的剪辑页面。00:12 补充，这是她前两天制作的一条内容视频。预览里反复出现穿橙色上衣的背影，画面上还叠着一个 LUT 文件图标，文件名是 kodak 2383 D65.cube。时间线上已经有很多短字幕块。这些是样片自己的完成状态，本教程还没有开始点「创建」。</p>
+      <p>笔记正文写着「很实用的 AI 工具，试过了，效果很不错」，并带了达芬奇调色、自媒体、调色师等话题。作者名是 Vivi Lyn。视频没有交代她的职业经历，这里不补。</p>
+    </section>
+
+    <section class="story-section" id="s2">
+      <h2>时间线菜单里的 AI 工具</h2>
+      <span class="time-range">00:14–00:24</span>
+      <p class="note">00:14 到 00:30 仍然没有 Whisper 分段，菜单名称以画面和画面字幕为准。</p>
+      <p>画面字幕先说：现在可以点击时间线 Timeline。菜单拉开之后，她往下走到 AI Tools。00:18 的画面字幕是「然后选择 create subtitles from audio」，00:22 用中文再说一遍：也就是从音频创建字幕。00:20 这一帧上，光标就停在 Create Subtitles from Audio。同一个 AI Tools 子菜单里还能看到 Speech Generator，她没有点开，本文也不把它写成教程步骤。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-01.jpg" alt="时间线菜单打开到 AI 工具，光标停在从音频创建字幕" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[00:20]</span>时间线菜单的 AI Tools 子菜单里，光标停在 Create Subtitles from Audio。画面字幕写「然后选择 create subtitles from audio」。预览是橙色上衣的背影，上面叠着 kodak 2383 D65.cube。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c4c2cc349076.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the Timeline menu, the AI Tools submenu is open and the cursor rests on Create Subtitles from Audio. The burned-in caption says to choose Create Subtitles from Audio. The viewer shows a person in an orange top from behind, with kodak 2383 D65.cube over the picture.</span></div>
+<audio class="cap-audio" src="audio/c4c2cc349076.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>对话框标题和菜单项一致，都叫 Create Subtitles from Audio。她没有比较别的字幕插件，也没有说这个功能从哪个版本开始有。01:04 那一帧的左下角读作 DaVinci Resolve Studio 21，只说明她当时打开的软件名，不能当成所有版本都长这样的证据。</p>
+    </section>
+
+    <section class="story-section" id="s3">
+      <h2>语言改成简体，行数可选单行或双行</h2>
+      <span class="time-range">00:24–00:54</span>
+      <p>从这里开始，口播和画面字幕重新对上。Whisper 把语言列表听成了英文碎片：Mandarin Simplified、Traditional，中间还有一个 Massivement。画面字幕和对话框对得更清楚。她先让观众看 Language 这一栏，下拉之后说，其实已经支持蛮多不同的语言。然后她说，可以手动选择 Mandarin Simplified，也就是简体中文和繁体中文。00:32 这一帧里，列表展开，光标停在 Mandarin - Simplified，旁边就是 Mandarin - Traditional。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-02.jpg" alt="语言列表里光标停在简体中文" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[00:32]</span>Create Subtitles from Audio 对话框的 Language 列表展开，光标停在 Mandarin - Simplified，旁边能看到 Mandarin - Traditional。画面字幕写可以手动选择 Mandarin Simplified。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/38b4800a3d22.mp3" type="button" aria-label="Play English audio">🔊</button><span>The Language list in the Create Subtitles from Audio dialog is open. The cursor rests on Mandarin - Simplified, and Mandarin - Traditional is also visible. The burned-in caption says Mandarin Simplified can be chosen by hand.</span></div>
+<audio class="cap-audio" src="audio/38b4800a3d22.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>Whisper 的 Massivement 在画面上对不上任何语言名。同一时刻的画面字幕在讲「Maximum 这个地方」，对话框字段是 Maximum characters per line。她说，如果想让字幕长度稍长一点，可以把这个数值改大一点；她这一次是选择默认。00:48 帧上这个数字显示为 42。42 是画面读数，口播没有报这个数，也没有演示改大之后字幕会变成什么样。</p>
+      <p>下一栏是 Lines。口播和画面字幕都说，它支持 Single 和 Double，也就是单行和双行。00:48 帧的下拉同时列出这两项，光标停在 Double。她没有说知识口播必须用双行，只是把选项指给观众看。同一帧上，Caption Preset 显示 Subtitle Default，Enable Extended Language Support (beta) 没有勾选。她的原话是：其他选项我就是默认了。这些勾选状态因此只记成「她没改」，不写成推荐配置。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-03.jpg" alt="每行 42 字、行数下拉停在双行" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[00:48]</span>同一对话框里 Language 已是 Mandarin - Simplified，Maximum characters per line 显示 42，Lines 下拉列出 Single 和 Double，光标停在 Double。Caption Preset 显示 Subtitle Default，Enable Extended Language Support (beta) 没有勾选。画面字幕说 Lines 支持单行和双行。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5b5c2975f390.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the same dialog, Language is Mandarin - Simplified, Maximum characters per line reads 42, and the Lines menu lists Single and Double with the cursor on Double. Caption Preset reads Subtitle Default, and Enable Extended Language Support (beta) is unchecked. The burned-in caption says Lines supports single and double.</span></div>
+<audio class="cap-audio" src="audio/5b5c2975f390.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p class="quote">设置完之后点击 Create。达芬奇会自动创建字幕。</p>
+      <p>这句口播是繁体转写，意思就是点 Create，然后软件自己生成字幕。画面字幕说的是同一件事：设置完之后点击 Create，这时候达芬奇就会开始自动地创建字幕。片头 00:01 附近曾经闪过一次正在分析的进度框，那是开场画面，和这里按下 Create 不是同一次操作的连续镜头。</p>
+    </section>
+
+    <section class="story-section" id="s4">
+      <h2>她用 4 分多钟的样片说明生成很快</h2>
+      <span class="time-range">00:54–01:08</span>
+      <p>点完 Create 之后，她看的是样片，不是这条 1 分 49 秒的教程本身。画面字幕说：我看了一下，像我这条视频时长有 4 分 21 秒左右；它大概只用了十来秒，不到 20 秒。口播的对应句是「视频时长有 4 分 21 秒，大概只用了 10 到 20 秒」。工程时间码从 01:00:00 起算，01:04 这一帧播放头在 01:04:16，和「四分多钟」对得上，但画面上没有秒表证明「十来秒」。速度是作者的说法。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-04.jpg" alt="调色页字幕轨显示 109 条，播放头在样片末段" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[01:04]</span>这一帧切到调色页。字幕轨标签是 Subtitle 1 (109 Clips)，播放头在 01:04:16。画面字幕说识别大概只用了十来秒、不到 20 秒。左下角软件名读作 DaVinci Resolve Studio 21。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6979ec5fe190.mp3" type="button" aria-label="Play English audio">🔊</button><span>This frame is on the Color page. The subtitle track is labeled Subtitle 1 (109 Clips), and the playhead is at 01:04:16. The burned-in caption says recognition took a little over ten seconds, under 20. The lower-left corner reads DaVinci Resolve Studio 21.</span></div>
+<audio class="cap-audio" src="audio/6979ec5fe190.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>这一帧已经切到调色页。字幕轨标签写着 Subtitle 1 (109 Clips)，轨上挤满短字幕。109 是标签读数。预览是戴帽子的人在绿植里，右边是节点和示波器，和本教程的字幕步骤无关，只说明她拿来演示的那条片子本身在讲宽容度、LUT 一类内容。工程名在后面一帧读作「视频宽容度」。</p>
+      <p>准确率同样是她的判断。画面字幕说「这个识别的准确率还是挺高的」，口播是「识别准确率很高」。她马上补了一句限制：还是会有个别地方需要手动修改。没有百分比，也没有拿另一条片子做对照。</p>
+    </section>
+
+    <section class="story-section" id="s5">
+      <h2>错句改在右上角的 Inspector</h2>
+      <span class="time-range">01:08–01:20</span>
+      <p>她说修改很简单，来到右上角的 Inspect。画面字幕把这个词写成 inspector，面板打开的就是 Inspector 里的 Caption。Whisper 的 Inspect 按画面改成 Inspector。画面大字幕说「就是设置这个地方啊」，另一条画面字幕说可以手动地去修改。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-05.jpg" alt="检查器里一条识别结果明显不通顺" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[01:16]</span>Inspector 的 Caption 列表里，01:00:01:11 到 01:00:03:01 这一条是「同一个乐有些蔬菜一靠上去」，下一条是「高光直接断掉」。画面大字幕写「就是设置这个地方啊」。作者没有在片中改出正确句子。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7fb1b6805aef.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the Inspector Caption list, the line from 01:00:01:11 to 01:00:03:01 reads a garbled phrase, and the next line reads that the highlights cut off. The large burned-in caption says this is the place to set it. The author does not show a corrected sentence in the video.</span></div>
+<audio class="cap-audio" src="audio/7fb1b6805aef.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>她举的例子就停在列表里，没有改完。01:00:01:11 到 01:00:03:01 这一条，文本是「同一个乐有些蔬菜一靠上去」。下一句是「高光直接断掉」，再下一句是「阴影死黑」。后两句和样片讲高光、阴影的内容是通的，第一句明显不像一句完整的话。作者只说「比如这一句」「可以手动修改」，没有念出她认为正确的写法。本文不替她补一句「应该是什么」。</p>
+      <p>同一面板上还有 Analyze Word Timing、Add New、上一条和下一条。口播和能读清的画面字幕都没有解释这些按钮，所以它们只算看见了，不算教过。</p>
+    </section>
+
+    <section class="story-section" id="s6">
+      <h2>整轨的字体、字号、阴影和背景在 Track</h2>
+      <span class="time-range">01:20–01:49</span>
+      <p>改完单句，她说另外来到 Track，选择字体，还可以设置字体的大小。往下拉，还可以给字体加阴影、加背景。Whisper 最后一句是「这些参数都可以在 Check 去详细设置」。画面字幕是「这些参数的话，我们都可以在 Track 这个地方去详细地设置」。Check 在画面上没有对应按钮，按 Track 理解。</p>
+      <figure>
+      <img src="assets/davinci-quick-subtitles/shot-06.jpg" alt="轨道样式面板里字号读数是 41" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh"><span class="time-badge">[01:26]</span>字幕 Track 样式里字体是 Open Sans、Semibold、白色，字号读数是 41，描边为 Outside Only、粗细 1。画面字幕说还可以设置字体大小。工程名读作「视频宽容度」。这些是当前画面读数，不是她规定的标准参数。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9c101996f613.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the subtitle Track style panel, the font is Open Sans Semibold in white, the size reads 41, and the stroke is Outside Only at width 1. The burned-in caption says the font size can also be set. The project name reads as a video about exposure latitude. These are readings from this frame, not required settings.</span></div>
+<audio class="cap-audio" src="audio/9c101996f613.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>01:26 这一帧的 Track 样式能读到：字体 Open Sans，字重 Semibold，颜色白色，字号 41，行距和字距都是 0，对齐居中，描边白色、粗细 1，Outside Only 已勾上。预览里样片自己的字幕是「但换另一段素材的效果又会非常好」。她没有说必须用 Open Sans 或 41 号字，这些是当前轨道的读数。阴影和背景她只说可以加，这一帧没有展开那两栏的具体数值。</p>
+      <p>收尾的画面字幕把使用对象说得很窄：这个功能真的可以帮助自媒体人，特别是知识类和口播类的博主。然后是「如果你对专业调色感兴趣」，再往后只读到「我是 Vivi」。关注、合集或下一期讲什么，画面没有给全，笔记话题里虽然有调色，本片也没有演示调色步骤。</p>
+      <p>本地笔记说明里她写「试过了，效果很不错」。和片中的话放在一起，她肯定的是生成速度和大体准确，同时保留了「个别地方要手改」。手改的界面在 Inspector，样子在 Track，这两处不要混用：前者改某一条的文字和时间，后者改整条字幕轨的字体和装饰。</p>
+    </section>
+  </article>
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下 26 段按 Whisper 原始分段完整呈现，含繁体字和听写误差。00:02 到 00:30 没有分段。正文里的画面字幕不在此列表中。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>如何用達芬奇快速給視頻加字幕</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT30S">00:30</time>
+    <p>Mandarin Simplified</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT32S">00:32</time>
+    <p>Traditional</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT36S">00:36</time>
+    <p>Massivement</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT38S">00:38</time>
+    <p>字幕長度可以改大</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT43S">00:43</time>
+    <p>默認</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT44S">00:44</time>
+    <p>Lines 會支持 Single 和 Double</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT48S">00:48</time>
+    <p>單行和雙行</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT49S">00:49</time>
+    <p>其他選項是默認</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT52S">00:52</time>
+    <p>設置完之後點擊 Create</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT54S">00:54</time>
+    <p>達芬奇會自動創建字幕</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT58S">00:58</time>
+    <p>視頻時長有4分21秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT62S">01:02</time>
+    <p>大概只用了10-20秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT65S">01:05</time>
+    <p>識別準確率很高</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT67S">01:07</time>
+    <p>但有個別地方需要修改</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT70S">01:10</time>
+    <p>比如這一句</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT71S">01:11</time>
+    <p>修改很簡單</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT73S">01:13</time>
+    <p>來到右上角的 Inspect</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT75S">01:15</time>
+    <p>設置這個地方</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT76S">01:16</time>
+    <p>可以手動修改</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT79S">01:19</time>
+    <p>另外來到 Track</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT81S">01:21</time>
+    <p>選擇字體</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT83S">01:23</time>
+    <p>還可以設置字體的大小</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT87S">01:27</time>
+    <p>這裡往下拉</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT88S">01:28</time>
+    <p>還可以給字體加陰影加背景</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT90S">01:30</time>
+    <p>這些參數都可以在 Check 去詳細設置</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){if(a!==except){a.pause();a.currentTime=0;}});
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}});
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){stopOthers(au);btn.classList.add('playing');au.play();}
+    else{au.pause();au.currentTime=0;btn.classList.remove('playing');}
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script></body>
+</html>

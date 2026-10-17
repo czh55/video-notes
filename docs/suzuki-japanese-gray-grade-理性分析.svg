@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7355" viewBox="0 0 1320 7355">
+  <foreignObject x="0" y="0" width="1320" height="7355">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}.container{max-width:1200px;margin:0 auto}h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}ul,ol{padding-left:24px;margin:8px 0}li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}.tag-gray{background:#f1f5f9;color:#64748b}.meta{margin:12px 0 20px}.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}.timeline h3{color:#1e40af;margin-bottom:12px}.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}.timeline-text{font-size:15px;color:#475569}.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:120px;font-weight:700;font-size:15px;color:#1e40af}.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}.arrow{font-size:22px;color:#94a3b8}.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}.correction h3,.correction p{color:#92400e}.section{margin-bottom:32px}.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}.speaker-host{background:#dbeafe;color:#1e40af}table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}tr:nth-child(even) td{background:#fafbfc}.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>铃木达也式高级灰：先立骨架，再动两处颜色</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色后期</span>
+    <span class="tag tag-green">Camera Raw 面板 + Photoshop</span>
+    <span class="tag tag-orange">12分11秒</span>
+    <span class="tag tag-purple">作者观点为主</span>
+    <span class="tag tag-gray">灰韵调色 · 2026-10-17</span>
+  </div>
+  <div class="summary-line">这条视频要回答的是：低饱和为什么会发脏。作者的答案是脏来自破坏色彩，纯来自先重塑黑白灰，再只动很少的颜色和皮肤。面板读数只证明这一张雨天街拍上的操作，不证明所有日系灰调。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:35</span><span class="timeline-text">命题：高级灰靠重塑黑白灰，不靠破坏色彩。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:48</span><span class="timeline-text">光面板定格：曝光 +0.90，对比度 -14，高光 -27，阴影 +16，白色 -47，黑色 +52。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:31</span><span class="timeline-text">曲线黑场输入 0、输出 27。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:10</span><span class="timeline-text">色温 -9，色调与两种饱和度保持 0。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:02</span><span class="timeline-text">纹理 -12，清晰度 +12。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:54</span><span class="timeline-text">HSL 明亮度只动橙色 +16、黄色 +30。</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:38</span><span class="timeline-text">暗部曲线输入 128、输出 108。高光曲线只确认方向是向上提。</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:40</span><span class="timeline-text">Retouch4me Dodge Burn，Blend 150，Warmth 0。</span></div>
+    <div class="timeline-item"><span class="timeline-time">09:34</span><span class="timeline-text">Skin Tone Blend 100，作者承认对比很 Subtle。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">发脏<br/>降饱和</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">抬曝光<br/>压两头</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">曲线抽黑<br/>色温 -9</div>
+      <div class="arrow">→</div>
+      <div class="node">纹理降<br/>清晰度升</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">只提橙黄<br/>明度</div>
+      <div class="arrow">→</div>
+      <div class="node">通道拉层次<br/>蒙版保皮肤</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">Retouch4me<br/>收皮肤</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把高级灰理解成「更暗、更灰、更少颜色」。这条片子的操作顺序相反：先把曝光抬到 +0.90，让画面亮到几乎刺眼，再把高光和白色压回来、把阴影和黑色提上来。灰是两端被拉进灰度之后的结果，不是曝光滑块往左拖出来的。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">影调骨架决定灰不灰</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p><span class="speaker speaker-host">可核对画面</span>01:48 的光面板和 02:31 的曲线，是整套灰调的第一层。曝光先抬高，对比度只降 14，高光 -27、白色 -47 负责把亮部拽回，阴影 +16、黑色 +52 负责把死黑抬进灰区。曲线再把黑场输出提到 27，中调锚点上提。</p>
+      <div class="highlight">关键理解：基础面板管全局光比，曲线管黑场还在不在。两步叠在一起，画面会亮、会灰，但黑色不再是 0。</div>
+      <div class="action">怎么用：先看直方图两端是否贴死。若高光和黑场都顶在边上，按这个顺序先抬曝光再收两头，不要一上来降饱和。</div>
+      <div class="quote">「真正的高级灰从来不是靠破坏色彩得到的，而是靠重塑黑白灰的骨架。」（约 00:35，作者观点；面板数字来自 01:48 与 02:31）</div>
+    </div>
+    <div class="card card-orange">
+      <h3>这一层的风险</h3>
+      <div class="pitfall">黑色 +52 再叠加黑场输出 27，暗部会明显发灰。夜景、需要纯黑的衣服和头发，会一起被抬脏。这是这张阴雨天街拍的选择，不是所有题材的默认值。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颜色只被允许动三下</h2>
+    <div class="card card-purple">
+      <h3>作者的克制，和画面上的三下</h3>
+      <p><span class="speaker speaker-host">作者观点</span>混色器里乱拉是在生造颜色。画面上颜色相关的确定操作只有三下：色温 -9；橙色明亮度 +16；黄色明亮度 +30。饱和度滑块保持 0。</p>
+      <div class="highlight">橙色被用来提脸，黄色被用来提那面橙墙。其余色相的明亮度停在 0。所以「高级灰」在这里不是抽干颜色，而是让环境变冷、让两块暖色变亮。</div>
+      <div class="action">怎么用：先问画面里哪两块颜色必须留下。这张图留下的是肤色和橙墙。没有这两块暖色的照片，照抄 +16 / +30 没有对象。</div>
+      <div class="quote">「做完这两步立刻收手。」（约 04:54，对应混色器明亮度停在橙 +16、黄 +30）</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">质感是一降一提，层次是选区里的曲线</h2>
+    <div class="card">
+      <h3>纹理和清晰度各管一层</h3>
+      <p><span class="speaker speaker-host">可核对画面</span>04:02 效果面板：纹理 -12，清晰度 +12，去薄雾、晕影、颗粒为 0。作者把纹理下降说成皮肤柔化，把清晰度上升说成路面和建筑的硬度。口播里的「AC2」没有对应的独立软件名，滑块就在这块效果面板里。</p>
+      <div class="action">怎么用：皮肤发硬时先动纹理，不要先加清晰度。画面发虚时再把清晰度拉回，幅度可以和纹理大致对等，这张图是 -12 对 +12。</div>
+    </div>
+    <div class="card card-green">
+      <h3>灰不是平：边界锁住，内部拉开</h3>
+      <p><span class="speaker speaker-host">作者观点 + 部分画面</span>05:23 之后的逻辑是：最亮和最暗不要溢出，内部明暗仍要拉开。口播给出的做法是 Photoshop 计算：灰度通道正片叠底做高光，红通道叠加并反向做皮肤保护，灰度通道叠加并反向做暗部。暗部曲线在 07:38 是输入 128、输出 108。高光曲线只确认被向上提，输出读数随帧变化，不记成配方。</p>
+      <div class="highlight">事实和推断要分开。事实是文件名、暗部曲线读数、以及前后对比画面。推断是「正片叠底那一次」的对话框没有单独定格，步骤以口播为准。</div>
+      <div class="quote">「灰从来都不是平，而是克制之下的极致张力。」（约 05:35，作者观点）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>四层操作对照</h3>
+    <table>
+      <thead><tr><th>层</th><th>工具</th><th>这一帧做了什么</th><th>没做什么</th></tr></thead>
+      <tbody>
+        <tr><td>影调</td><td>光 + 曲线</td><td>曝光 +0.90，两头往灰度收，黑场输出 27</td><td>没有把曝光往负方向压</td></tr>
+        <tr><td>冷暖</td><td>颜色</td><td>色温 -9</td><td>饱和度保持 0</td></tr>
+        <tr><td>质感</td><td>效果</td><td>纹理 -12，清晰度 +12</td><td>没加颗粒、没加晕影</td></tr>
+        <tr><td>局部颜色</td><td>HSL 明亮度</td><td>橙 +16，黄 +30</td><td>没动色相和饱和度</td></tr>
+        <tr><td>层次</td><td>Photoshop 计算 + 曲线</td><td>暗部 128 → 108，皮肤用蒙版挡住</td><td>高光输出值不稳定，不抄</td></tr>
+        <tr><td>皮肤</td><td>Retouch4me</td><td>Dodge Burn Blend 150；Skin Tone Blend 100</td><td>窗口底部另一列数字口播未解释</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">皮肤插件是效率工具，不是灰调本身</h2>
+    <div class="card card-purple">
+      <h3>作者把 Subtle 当成门槛</h3>
+      <p><span class="speaker speaker-host">作者观点</span>手工中性灰被他说成又慢又不可取。Dodge Burn 拉到 150 之后，他说脸更亮、瑕疵被修掉，同时纹理还在。Skin Tone 拉满到 Blend 100 之后，他自己说变化看起来不大。他用这个「不大」区分新手和商业修图：大动不等于高级。</p>
+      <div class="pitfall">插件效果无法从这帧画面量化。150 和 100 只是窗口上的 Blend。Warmth 停在 0，说明这一步没有再改冷暖。皮肤蒙版「只影响肤色」是口播要求，成片没有展示蒙版缩略图的细节。</div>
+      <div class="action">怎么用：若没有 Retouch4me，不要用模糊滤镜替代。作者明确反对把脸涂糊。没有插件时，这一层可以停在纹理 -12，而不是另找磨皮。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-red">
+      <h3>这些结论停在哪里</h3>
+      <ul>
+        <li>素材是一张阴雨、低反差、带橙墙和肤色的街拍。雪景、夜景、强逆光没有演示。</li>
+        <li>滑块是演示过程中的停顿读数，片尾说的预设包不在成片里，不能倒推成官方参数。</li>
+        <li>「高客单价」「降维打击」「变现」是作者立场，画面不提供价格或客户证据。</li>
+        <li>人名以标题和 PSD 文件名「铃木达也」为准。视频没有出示原片对照，仿色相似度无法核验。</li>
+        <li>中调曲线和高光曲线的输出值在相邻帧上不一致，只采用黑场 0→27 和暗部 128→108。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>高级灰在这条片子里是影调操作：抬曝光、收高光和白色、提阴影和黑色、抽掉纯黑。</li>
+      <li>颜色极少：色温 -9，再加上橙色和黄色的明度。</li>
+      <li>质感靠纹理和清晰度反向拉，层次靠选区里的曲线，皮肤靠蒙版加插件。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先做光面板和曲线，确认黑场不再贴 0，再决定要不要降饱和。</li>
+      <li>色温只往冷的方向小推，饱和度先保持 0，看灰是不是已经出现。</li>
+      <li>纹理下降之后立刻检查建筑和地面，发虚就用清晰度拉回来。</li>
+      <li>混色器只开明亮度，只动画面里真正要亮的那两块颜色，然后停。</li>
+      <li>进 Photoshop 时先做选区再动曲线；没有皮肤蒙版就不要全图提亮。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>灰可以很亮。这条片子把「变灰」放在曝光抬高之后，把「变纯」放在少动颜色之后。发脏往往是饱和度先被抽走、明暗却还贴在两头。</p>
+  </div>
+  <p class="footer">证据来自本地转录 440 段与 10 张截图。滑块以对应时间的面板为准。未访问小红书。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

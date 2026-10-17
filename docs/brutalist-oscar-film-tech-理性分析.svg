@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6336" viewBox="0 0 1320 6336">
+  <foreignObject x="0" y="0" width="1320" height="6336">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+</style>
+      
+<div class="container">
+  <h1>奥斯卡最佳摄影《粗野派》中的胶片技术</h1>
+  <div class="meta">
+    <span class="tag tag-blue">影视视听</span>
+    <span class="tag tag-green">VistaVision</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-gray">2分43秒 · Vivi Lyn</span>
+  </div>
+  <div class="summary-line">这条片子要回答的问题是：2025 年最佳摄影为什么会把一种 1954 年的横向 35 毫米工艺重新摆到台前。能核对的是走片方向和近两倍画幅；「第一部完整美国片」和「复古即先锋」是作者的判断。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">摄影提名格读到 Lol Crawley。口播的 Low Quality 不采用。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">标志叠在山景上，字幕把 VistaVision 写成对抗电视的宽银幕。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:08</span><span class="timeline-text">横向底片条：齿孔在上下缘，字幕写尺寸近传统 35 毫米的两倍。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:18</span><span class="timeline-text">《迷魂记》画面加字幕，把希区柯克片单钉在《西北偏北》。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:40</span><span class="timeline-text">字幕称《粗野派》是完整的美国 VistaVision 电影。角标年份 2024 与 2025 并存。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:05</span><span class="timeline-text">建筑模型剧照配上判断句：技术的复古反而成就了艺术的先锋。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:35</span><span class="timeline-text">收束字幕：它只需一场足够大胆的冒险。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">奖项入口<br/>影帝与最佳摄影</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">工艺事实<br/>横向 · 近两倍</div>
+      <div class="arrow">→</div>
+      <div class="node">片单证据<br/>1954 到 1963</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">作者判断<br/>复古即先锋</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>听写先改，再谈判断</h3>
+    <p>摄影指导以 00:15 提名格 Lol Crawley 为准。希区柯克、《白色圣诞节》以字幕为准，不采用「西区客客」「黑色圣诞节」。作曲家 Daniel Broomberg、导演 Brady Corbett 画面未给姓名，保持无法确认。02:30 字幕是「证明了一件事」，不把转写里的「正义」当成词义。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">画幅到底改变了什么</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>VistaVision 仍用 35 毫米胶片，改变的是运行方向和单格面积。口播对比的是竖向传统片与横向 VistaVision。</p>
+      <div class="highlight">关键理解：更大的单格被作者用来解释三件事，广视角、更丰富的细节、更细的颗粒。三条都挂在「近两倍」上，本片没有给出毫米数或分辨率测试。</div>
+      <div class="action">怎么用：复述时只说「横向 35 毫米，单格接近竖走 35 毫米的两倍」。不要把近两倍写成精确倍率，也不要改说成 70 毫米。</div>
+      <div class="quote">原文依据（00:58–01:14，简体释义）：与传统 35 毫米竖向运行不同，VistaVision 横向运行，画面尺寸近两倍。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者把奖和工艺焊在一起</h3>
+      <p>最佳摄影被当成 VistaVision 重新成为工业焦点的理由。这是立场：奖项证明关注度，不证明画幅本身优于其他大画幅方案。</p>
+      <div class="relation">关系：影帝、最佳原创音乐和最佳摄影被一起恭喜，真正展开的只有摄影工艺。音乐奖没有技术说明。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <div class="pitfall">口播「数向运行」不是一种新格式名称，是「竖向」的听写错误。底片条的齿孔位置可以核对方向，核对不了「近两倍」的测量方法。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">片单能证明什么，不能证明什么</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>作者用四部旧片给工艺写履历：《白色圣诞节》(1954) 是第一部，《迷魂记》《西北偏北》代表希区柯克阶段，《My Six Loves》(1963) 被说成退出前的最后一部，《战争与和平》(1956) 用来展示黄金时代的场面野心。</p>
+      <div class="highlight">关键理解：片名和年份有字幕或剧照细字支撑。片单的完整性没有支撑。她没有比较同时期的其他宽银幕，也没有说明哪些片子只用了片段。</div>
+      <div class="action">怎么用：引用时写成「本片称」，并带上屏幕上的英文片名。不要把这份四部片单扩展成 VistaVision 全史。</div>
+      <div class="quote">原文依据（01:14–01:28）：VistaVision 曾经是《迷魂记》《西北偏北》等希区柯克电影的常用技术；最后一部是 1963 年的 My Six Loves。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三种说法要分开</h3>
+    <table>
+      <tr><th>说法</th><th>本片里的位置</th><th>证据强弱</th></tr>
+      <tr><td>横向走片，尺寸近两倍</td><td>口播 + 01:08 底片字幕</td><td>画面与口播一致，倍率仍是「近」</td></tr>
+      <tr><td>1954 年派拉蒙为对抗电视而做，《白色圣诞节》为首部</td><td>口播 + 00:48、00:58 字幕与片名卡</td><td>本片内部一致，未出示公司档案</td></tr>
+      <tr><td>60 多年来第一部完整的美国 VistaVision 电影</td><td>口播 + 01:40 字幕</td><td>作者与字幕的主张。片中未定义「完整」，也未排除同期其他项目</td></tr>
+      <tr><td>全组只有一台机器，耗时七年，熬过融资和疫情</td><td>仅口播；01:50 只有穿片准备</td><td>弱。台数、年数、融资都没有画面文字</td></tr>
+      <tr><td>复古成就先锋，视觉革命只需大胆冒险</td><td>02:05、02:35 字幕</td><td>价值判断，不是工艺参数</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">《粗野派》在论证里的角色</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>新片不是技术说明书的配图，而是「旧工艺还能被整部电影用完」的例子。建筑模型、倒置自由女神和车窗探身，都在证明这是《粗野派》的影像，不在证明机器型号。</p>
+      <div class="insight">关键理解：作者让摄影指导「看到复兴潜力并受鼓舞」。这是转述，本片没有采访声画。鼓舞不能反推成工业已经复兴。</div>
+      <div class="action">怎么用：把《粗野派》写成一个选择案例：在多种方案里选定 VistaVision，并承担准备时间和胶片消耗。不要写成现行摄影标准。</div>
+      <div class="quote">原文依据（01:28–01:52）：导演对比方案后选定 VistaVision；选择并不容易，因为只有一台机器，准备时间更长。</div>
+    </div>
+    <div class="card card-red">
+      <h3>方法边界</h3>
+      <p>适用：向别人解释「奥斯卡摄影奖背后可以是一种具体的胶片走片方式」，以及大画幅换来的是面积、时间和预算，而不是滤镜名字。</p>
+      <p>不适用：当作 VistaVision 规格手册；当作 2024 或 2025 发行年的定论（角标冲突）；当作作曲奖或影帝表演的分析。调色作者宣布自己关心摄影和调色，但这条片子没有调色节点、监看或印片流程。</p>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>入口是 2025 年奥斯卡的影帝、最佳摄影和最佳原创音乐，展开的只有摄影工艺。</li>
+      <li>可复述的工艺句只有一句：VistaVision 让 35 毫米胶片横向运行，单格近传统竖走片的两倍。</li>
+      <li>「完整美国片」「一台机器」「七年」「复古即先锋」分层之后，只有最后一句明确是价值判断。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>转述人名时，摄影指导写 Lol Crawley，男主角写画面卡上的 Adrien Brody，并注明字幕曾写成 Adrian。</li>
+      <li>讲画幅时带上 01:08 的底片条，避免只念「复古」。</li>
+      <li>引用片单时逐部加上屏幕年份：白色圣诞节 1954、战争与和平 1956、迷魂记 1958、My Six Loves 1963。</li>
+      <li>把「第一部完整的美国片」标成作者主张，单独存放，不和齿孔方向写进同一句事实。</li>
+      <li>若要继续核对导演或作曲拼写，需要本片以外的名单；本片画面不够。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前容易把最佳摄影听成审美夸奖。看完这条，摄影奖在作者口中首先是一次走片方式的选择：更大的单格换来准备时间、胶卷和预算，复古是否等于先锋，要和画幅事实分开记。</p>
+  </div>
+  <p class="footer">证据来自本地转录与抽帧。未访问小红书。外部规格未核验。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

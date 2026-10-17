@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7017" viewBox="0 0 1320 7017">
+  <foreignObject x="0" y="0" width="1320" height="7017">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;max-width:180px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+</style>
+      
+<div class="container">
+  <h1>路修宽了，为什么还是堵？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">早高峰模型</span>
+    <span class="tag tag-orange">诱导出行</span>
+    <span class="tag tag-green">拥堵收费</span>
+    <span class="tag tag-gray">4分10秒 · 科普观察室</span>
+  </div>
+  <div class="summary-line">核心判断：在“开车更快就开车”这条规则下，拓宽换来的是运量，不是持久的速度。快出来的分钟会被门口等待的人补上，直到开车时间回到和替代方案差不多的位置。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:45</div><div class="timeline-text">空路 25 分钟；三车道均衡停在 44 分钟，画面每小时 8972 辆。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:08</div><div class="timeline-text">车数不变的直觉：44 分钟变成 31 分钟，每天快 13 分钟。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:22</div><div class="timeline-text">第一个月真是 31 分钟，画面约每小时 9005 辆，随后有人改开车。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:35</div><div class="timeline-text">第六个月回到 43 分钟，画面每小时 11802 辆；稳住后只快约 1 分钟。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:54</div><div class="timeline-text">快出来的 1 分钟里，画面标 2814 人，口播说两千八百人在等。</div></div>
+    <div class="timeline-item"><div class="timeline-time">02:06</div><div class="timeline-text">2 到 8 条车道：车道翻倍，车大约 1.9 倍，通勤只快两三分钟。</div></div>
+    <div class="timeline-item"><div class="timeline-time">02:22</div><div class="timeline-text">美国 228 城：车道多 10%，车公里多 10.3%。铁路与探险路线对照后仍约一比一。</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:22</div><div class="timeline-text">三车道收费把开车钉在 30 分钟，钱折合约 15 分钟，画面每小时 6447 辆。</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>路宽三分之一<br/>为何又堵满</div>
+      <div class="arrow">→</div>
+      <div class="node">规则<br/>开车更快<br/>就开车</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">调整<br/>等待者改开车<br/>吃掉时间差</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">结论<br/>运量上升<br/>速度回到原处</div>
+      <div class="arrow">→</div>
+      <div class="node">行动<br/>用价格钉住<br/>而不是再排队</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把“44 变 31”当成拓宽的结果，等于假设车上的人不变。视频把这座城叫作直觉。模型里每个月有二十分之一的人重算一次，31 分钟比地铁、早出门和不跑都更划算，所以车会补进来。另一个误解是新路主要在分流旧路。口播给出的美国账本里，从别的路挪过来的最多约一成，大部分是新发生的车公里。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">均衡：时间被替代方案封顶</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>四万个进城者各自有一个“别的办法”的分钟数，从大约 30 到 50 拉开。开车时间一旦低于某人的替代分钟，这个人就开车。人变多，开车变慢，直到只剩下替代方案不少于当前开车时间的人还在开。</p>
+      <div class="highlight">三车道的停点是 44 分钟、每小时 8972 辆。这是规则跑出来的交叉点，不是路的设计时速。</div>
+      <p><strong>怎么用：</strong>评价一条新车道，先问“谁的替代方案刚刚被这条路比下去”，再问路还能快几分钟。只报通车首月的 31 分钟，等于停在调整发生之前。</p>
+      <div class="quote">“这时开车的，是别的办法要 44 分钟以上的人。”（约 00:54，简体转写）</div>
+      <div class="relation">事实层级：44 分钟、8972 辆、四万人、一点等于十人，是画面与口播共同给出的模型设定。它不是某座真实城市的统计。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者模型里的行为，不是实测弹性</h3>
+      <p>每月二十分之一的人重算，是视频自己的模型节奏。用它可以得到“第一个月 31、第三个月口播 41、第六个月 43、之后只快 1 分钟”。第 3 个月附近有一帧大字是 42 分钟、11676 辆，和口播的 41 差 1 分钟，应视为动画过渡，不以单帧覆盖口播。</p>
+      <div class="insight">稳住后的对照更干净：43.8 到 42.7 分钟，8972 到 11786 辆。车道多三分之一，车也多大约三分之一，时间只少约 1 分钟。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑：把右侧一列读成时速</h3>
+      <p>2 到 8 条车道的表，左侧是辆每小时：6090、8972、11786、14528、17202、19804、22332。右侧从 45.1 降到 39.2，画面没有单位。下降幅度对应口播“只快两三分钟”，翻倍括号约 1.9 倍标在车流上。若把 45.1 读成公里每小时，表格的方向就反了：车道越多，这个数越小。</p>
+      <div class="pitfall">快出来的 1 分钟里站着约 2800 人（画面 2814）。只要这队还在，任何只缩短时间、不改变“更快就开”的工程，都会被补位。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">模型之外：一比一，以及新跑出来的车</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>口播用同一句比例概括多组研究：车道多一份，车公里多大约一份。美国是车道多 10%、车公里多 10.3%，228 个城市、画面年限 1983 到 2003。为回应“车多才修路”，他们用一百多年前的铁路和探险路线挑碰巧路多的城市，结果仍约一比一。这是口播对识别策略的转述，视频没有展开回归式。</p>
+      <div class="quote">“还是一比一。”（约 02:29）日本高速、欧洲 545 城、中国 103 城“也都在一比一上下，有的还更高”。</div>
+      <p><strong>怎么用：</strong>看到“修路后车公里上升”，先分开两件事：这是分流，还是新出行。视频给的美国分解是，挪过来最多一成，卡车和生意车两到三成，本地多开一到四成，搬来的人半成到两成。</p>
+      <div class="relation">立场：比例和来源区间是视频对文献的口述。片尾画面给出 Duranton、Turner 2011，Hsu、Zhang 2014，Garcia-Lopez 等 2022，Chen、Klaiber 2020。人名未在口播中出现。日本 1 比 1.24 到 1.34、欧洲 1 比 1.2、中国约 1 比 1，是 02:36 画面标注，精度以该帧为准。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三种算法并列</h3>
+    <table>
+      <thead>
+        <tr><th>算法</th><th>开车时间</th><th>每小时车流</th><th>谁付了代价</th><th>适用条件</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>三车道，不收费</td><td>44 分钟</td><td>8972</td><td>时间耗在路上</td><td>模型均衡，不是实测</td></tr>
+        <tr><td>四车道，车数不许变</td><td>31 分钟</td><td>仍按原车流心算</td><td>没有人改选择</td><td>只在通车首月、人还没重算时短暂出现</td></tr>
+        <tr><td>四车道，人会改主意</td><td>约 43 分钟，只快 1 分钟</td><td>约 11786 到 11802</td><td>新出行填满时间差</td><td>门口仍有等待者</td></tr>
+        <tr><td>三车道加高峰收费</td><td>钉在 30 分钟</td><td>画面 6447</td><td>约 15 分钟改成交钱，总代价仍约 45 分钟</td><td>价格能调到目标时间</td></tr>
+        <tr><td>拓宽后再收费</td><td>仍是 30 分钟</td><td>口播说多过三分之一；后帧约 8597</td><td>价钱可以低一点</td><td>速度由价格定，不由排队定</td></tr>
+      </tbody>
+    </table>
+    <p>2 车道到 8 车道没有打破这个形状：车流从 6090 增到 22332，右侧分钟只从 45.1 降到 39.2。车道翻倍大约带来 1.9 倍的车，不是 1.9 倍的速度。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">收费改变的是计价方式</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>收费没有把总代价变成 30 分钟。30 分钟是车上的时间，大约 15 分钟是钱换成的时间，加在一起仍在 45 分钟上下，和原来堵到 44 分钟是同一量级。变的是：多出来的那一段不再表现为停车排队，而表现为一笔钱。因此车流可以停在 6447，而不是被堵回 8972。</p>
+      <div class="action">若目标是“高峰 30 分钟”，视频的操作是调价，直到开车时间停在 30。若同时拓宽，同一目标时间下价钱可以低一些，换来多于三分之一的车。速度不再靠把路堵慢来筛人。</div>
+      <div class="quote">“车速由价钱定住，不再靠排队。”（约 03:36）“剩下的主要办法是拥堵收费。”（约 03:41，转述两位经济学家）</div>
+      <div class="pitfall">这句“剩下的主要办法”是视频转述的研究结论，本片没有比较公交、停车费或错峰。不能把它写成已经排除其他工具。</div>
+    </div>
+  </div>
+
+  <div class="card card-red">
+    <h3>方法边界</h3>
+    <ul>
+      <li>模型人口、替代分钟和每月二十分之一的重算率，都是讲解设定。换一座没有等待者的城，补位机制不成立，拓宽可以留下时间。</li>
+      <li>四国比例描述的是车道与车公里，不是通勤时间。一比一说明多出来的容量被开走了，不能直接读成“时间完全不变”。模型里时间仍快了约 1 分钟。</li>
+      <li>来源占比是区间（最多一成、两到三成、一到四成、半成到两成），加总可以重叠，不能拼成一张恰好 100% 的饼图。</li>
+      <li>收费帧的 6447 与后段约 8597、15 分钟与约 14 分钟，对应“未拓宽”和“拓宽后降价”两个情景，不要合并成一个费率。</li>
+      <li>路“没白修”指每天多运约三分之一的人和货。这是运量论点。若考核指标只有通行时间，同一条路在视频自己的结论里是失败的。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>规则只有一条：开车比别的办法快，就开车。拓宽把开车时间压到替代方案以下时，人会进来。</li>
+      <li>四车道的持久结果是约快 1 分钟、车流多约三分之一，不是直觉里的快 13 分钟。</li>
+      <li>多出来的车公里大多是新出行，不是旧路搬家。视频引用的多国比例都在一比一附近。</li>
+      <li>收费把同样量级的代价从排队换成标价，从而可以把时间钉在 30 分钟。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>报一条新路的效果时，同时写通车首月和人重新选择之后的两个时间，不要只留 31 分钟。</li>
+      <li>把“时间”和“运量”分成两列。视频认为路的成绩在运量，不在速度。</li>
+      <li>若门口还有大量替代方案更慢的人，先估计他们的分钟门槛，再决定加车道能否留下时间。</li>
+      <li>想守住某个高峰时长，按视频的做法去调价格，使开车时间停在目标，而不是等排队自己形成 44 分钟。</li>
+      <li>读“修路后流量上升”时，先问有多少是别的路挪来的。本片的美国口径里这一项最多约一成。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把堵理解成路不够宽，加一条道就该把 44 分钟变成 31 分钟。现在看到：在还有人等待时，宽出来的是座位。时间会被新来的车坐回去，直到开车不再比别的办法更快。</p>
+  </div>
+  <p class="footer">依据本地转录与抽帧。口播未点名的文献只作画面参考文献。不把模型数字写成某座城市的实测。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

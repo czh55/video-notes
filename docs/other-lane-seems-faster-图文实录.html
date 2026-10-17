@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="科普观察室用环路仿真和 I-80 轨迹说明：隔壁车道这一秒常常更快，一整趟却差不多；变道早到的是几十秒。">
+  <title>隔壁车道真的更快？｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header{margin-bottom:36px}header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.35}
+.lede{font-size:17px;color:#44403c;margin:16px 0 0}
+.meta-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.note{background:#fff7ed;border-left:4px solid #f59e0b;border-radius:12px;padding:14px 18px;margin:18px 0;color:#9a3412;font-size:15px}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;margin:12px 0;color:#57534e;font-size:15px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:26px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <h1>隔壁车道真的更快？</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">4分05秒</span>
+    <span class="meta-tag tag-topic">科普观察室 · 跟车仿真与 I-80 轨迹</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/8gS4Epeyfk2" target="_blank" rel="noopener">原视频</a>
+  <p class="lede">堵车时隔壁那条道好像总在往前挪。科普观察室先复述 1999 年《自然》上的短文：两条一样快的车道，你被超的时间比你超车的时间长，所以「隔壁更快」是错觉。接着用同一套电脑环路把反方也跑出来：这一秒隔壁经常真的更快，可一整趟的平均速度仍差不多。后半段换成美国 I-80 的实测轨迹，看变道到底能早到多少秒。</p>
+</header>
+<article class="documentary">
+  <div class="content-points">
+    <h2>内容要点</h2>
+    <p>这是一条把论文、环路仿真和高速公路轨迹叠在一起的驾驶科普。前半有口播，大约 1 分 56 秒之后口播中断，数字改由画面字幕给出。下面按视频自己的推进来概括，不把仿真秒数和视频时间混成一件事。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row"><span class="time-marker">[00:00→00:30]</span><div><strong>错觉从哪篇短文来</strong><p>开场就是并道又堵住。画面给出 1999 年《自然》论文题目，并把答案写成「错觉」：两条一模一样的车道，被超的时间更长。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[00:28→01:28]</span><div><strong>时间不对等，辆数却差不多</strong><p>各 100 辆车绕 2.5 公里，谁也不变道，两条道都约每小时 33 公里。十分钟里被超 86 秒、超车 76 秒，超过你的是 86 辆，你超过的是 85 辆。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[01:28→02:14]</span><div><strong>这一秒更快，一整趟一样</strong><p>2001 年博斯特罗姆的反驳：隔壁最近那辆更快占 401 秒，更慢只有 187 秒；它平均 44.4 km/h，你只有 33.5。停格时 35 辆车挤在大约六分之一的路段上。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[02:14→02:54]</span><div><strong>真路上效果小很多</strong><p>I-80 约 500 米、5678 辆车。随便一秒，隔壁更快占 48%、更慢占 40%。身边那辆平均只快 6%，而且一条道堵着时旁边那条有 74% 的时候也堵着。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[02:54→03:22]</span><div><strong>见快就并，早到不稳定</strong><p>一例并了 11 次，早到 34 秒，多走 259 米。40 个开局里，阈值放宽到快 5 km/h 就并，平均早 71 秒，仍有 15% 更晚。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[03:22→04:05]</span><div><strong>人还是会并，早到靠出门</strong><p>120 名学车的人看一段隔壁其实略慢的高峰录像，70% 说隔壁快。片尾把「早到五分钟」收成早五分钟出门。</p></div></div>
+    <div class="takeaway-box"><strong>总结</strong><p>隔壁「看起来总在走」有两层：被超更磨时间，而且你卡在堵团里时旁边那一段经常是散开的。真高速上这点优势只剩大约 6%，变道早到的是几十秒，不是一段路。</p></div>
+  </div>
+
+  <p class="note">口播大约在 1 分 56 秒结束，Whisper 最后一句还在重复「这几段」。2 分 14 秒之后的 I-80、变道实验和调查，正文依据是画面上的字幕和图表，不另编解说词。仿真时钟（例如第 284 秒）是十分钟实验内部的秒，不是视频进度。</p>
+
+  <section class="story-section" id="ch1">
+    <h2><span class="time-marker">00:00–00:30</span>并过去，刚才那条道又动了</h2>
+    <p>夜里的高架上，两条车道速度差得很开：一边大约 30 km/h，另一边只有 7 km/h。口播先把体感说完：堵车的时候，隔壁那条道好像总在往前走。画面紧接着补上口播没念到的下一句：你瞅准机会并过去，没开多远又堵住了，正从你旁边一辆接一辆地过去。</p>
+    <p>标题打出「隔壁真的更快？」之后，视频把问题交给 1999 年《自然》上的一篇短文。画面上的英文题目是 Why cars in the next lane seem to go faster，中文写成「为什么隔壁车道的车看起来更快」，答案栏直接写「错觉」。字幕说两位研究者在电脑里放了两条一模一样的车道，一秒一秒地数；这期也照着跑一遍。视频未在这一段念出两位作者的名字，名字出现在片尾文献，是 Redelmeier 与 Tibshirani。</p>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-01.jpg" alt="1999年自然杂志短文标题，答案栏写着错觉" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[00:22]</span>1999 年《自然》短文把「隔壁看起来更快」答成错觉</div><div class="cap-en"><button class="cap-speak" data-audio="audio/f697309bddf4.mp3" type="button" aria-label="Play English audio">🔊</button><span>A 1999 Nature note calls the faster-looking next lane an illusion</span></div><audio class="cap-audio" src="audio/f697309bddf4.mp3" preload="none"></audio></figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch2">
+    <h2><span class="time-marker">00:28–01:28</span>一样的规则，被超却更久</h2>
+    <p>环路设定在画面上写得很具体：两条车道，各 100 辆车，首尾相连，一圈 2.5 公里。所有车照同一套跟车规则开，前面空了就加速，离前车近了就减速，谁也不变道。口播把「不变道」听成了「不便到」，画面字幕是「谁也不变道」。跑完以后两条道的平均车速一样，仪表大约是 33.6 km/h 和 33.5 km/h，口播说成每小时 33 公里左右。</p>
+    <p>车一多，路上自己就堵出一团一团，还往后传。视角落到一辆青色的车上。口播说「青涩的车」，画面写的是「青色的车」。这辆车有三分之一的时间每小时不到 20 公里，只一点点往前挪；速度图上把这段标成 34%。前面一散开，又能跑到七十多。</p>
+    <p>论文的数法是每一秒看一次：这一秒是你超了隔壁的车，还是隔壁的车超了你。口播这里听成「车的速度表示」，和字幕「论文的数法是：每一秒」对不上，正文采用字幕。十分钟下来，被超的秒有 86 秒，超车的秒只有 76 秒。可要是数车，超过你的 86 辆，你超过的 85 辆，几乎一样多。</p>
+    <p>差别出在超的方式。你冲起来的时候，旁边是挤成一团的车。画面停在仿真第 284 秒：这一秒你超过 2 辆，时速大约 73 km/h；口播说有时一秒就超过去两三辆。别人超你的时候，车和车拉得开，时速只剩大约 3 到 7 km/h，86 辆一辆占一秒。一样多的车，被超花的时间更长。所以论文说，隔壁更快，是错觉。</p>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-02.jpg" alt="两条车道各100辆车，首尾相连绕一圈两公里半" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[00:30]</span>复现设定：两条车道各 100 辆车，首尾相连绕一圈 2.5 公里</div><div class="cap-en"><button class="cap-speak" data-audio="audio/b3d4c4ca3568.mp3" type="button" aria-label="Play English audio">🔊</button><span>The rerun uses 100 cars in each lane, looped nose to tail for 2.5 km</span></div><audio class="cap-audio" src="audio/b3d4c4ca3568.mp3" preload="none"></audio></figcaption>
+    </figure>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-03.jpg" alt="十分钟计数条：被超86秒，超车76秒" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[01:08]</span>十分钟计数条上，被超的秒是 86 秒，超车的秒是 76 秒</div><div class="cap-en"><button class="cap-speak" data-audio="audio/2458572ea329.mp3" type="button" aria-label="Play English audio">🔊</button><span>Over ten minutes the counter shows 86 seconds being passed and 76 seconds passing</span></div><audio class="cap-audio" src="audio/2458572ea329.mp3" preload="none"></audio></figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch3">
+    <h2><span class="time-marker">01:28–02:14</span>反驳：隔壁这一秒常常真的更快</h2>
+    <p>两年后，哲学家博斯特罗姆写文章反驳：不全是错觉。画面给出 2001 年和英文名 Nick Bostrom，标题是 Cars in the next lane really do go faster，中文写成「隔壁车道的车真的更快」。还是这十分钟，随便挑一秒，看隔壁离你最近的那辆车。它比你快的时候占三分之二，比你慢的不到三分之一。速度条上的实数是：隔壁比你快 401 秒，比你慢 187 秒。401 加 187 是 588，不满 600 秒；视频没有解释剩下的十几秒，这里不补。</p>
+    <p>一路上你身边那辆车平均每小时 44.4 公里，你自己 33.5，全体车 33.6，和所有车的平均一样。口播把 44.4 说成「四十四」、把 33.5 说成「三十三公里多」，和画面一致，只是没读到小数。</p>
+    <p>停下来看这一刻：一百辆车里三十五辆挤在堵着的几段，时速不到 20。口播在这里开始重复「这几段」并结束。后面的空间账在画面上：一百辆里的 35 辆，对应路长 16.7%，大约六分之一；整圈仍是 2.5 公里。你是这一百辆里的一辆，三分之一的时间卡在这几段。可隔壁堵的地方在别处，你身边那一段往往是散的，所以随便哪一刻，隔壁真的更常比你快。下一张卡片把两句并列：随便哪一刻隔壁更常比你快；可一整趟下来，两条道一样快。</p>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-04.jpg" alt="十分钟速度对比条：隔壁更快401秒，更慢187秒" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[01:42]</span>同一段里，隔壁最近的车更快占 401 秒，更慢只有 187 秒</div><div class="cap-en"><button class="cap-speak" data-audio="audio/3b546fd70bd7.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the same run the nearest car next door is faster for 401 seconds and slower for 187</span></div><audio class="cap-audio" src="audio/3b546fd70bd7.mp3" preload="none"></audio></figcaption>
+    </figure>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-05.jpg" alt="环路上红色堵段只占路长约六分之一，却挤着35辆车" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[01:58]</span>停下来看：100 辆里 35 辆挤在只占路长约六分之一的堵段</div><div class="cap-en"><button class="cap-speak" data-audio="audio/a763fed478ae.mp3" type="button" aria-label="Play English audio">🔊</button><span>Freeze frame: 35 of 100 cars are packed into about one sixth of the road</span></div><audio class="cap-audio" src="audio/a763fed478ae.mp3" preload="none"></audio></figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch4">
+    <h2><span class="time-marker">02:14–02:54</span>换到 I-80，优势缩成 6%</h2>
+    <p>这一段没有口播。画面切到「美国 I-80 高速 · 2005」。字幕说美国交通部在加州一栋 30 层的楼顶架了 7 台摄像机，对着大约 500 米。记下的是 2005 年 4 月 13 日下午 4:00 到 5:30 的高峰，5678 辆车，每辆每 0.1 秒一个位置。片尾文献把它写成联邦公路局的 NGSIM 轨迹，路名在画面上排成「1-80」，即州际 80 号公路。</p>
+    <p>一样随便挑一秒，这回样本是 59.6 万个车秒。隔壁那辆比你快的占 48%，比你慢的占 40%。视频没有给剩下那一成多标成「一样快」，这里也不标。要是每 5 秒瞄一眼隔壁，看到被超 29478 次，看到超车 25207 次，比看到自己超车多 17%。身边那辆平均 19.0 km/h，你 17.9 km/h，只快 6%；括号里写着模型里快三成，对应前面 44.4 对 33.5 的差距。字幕的判断是：效果是真的，只是小得多。</p>
+    <p>模型里两条道各堵各的；真的路上，一条道堵着的地方，旁边那条 74% 也堵着，大约四分之三。这 500 米里，还有 29% 的车换过道。所以实测既没有完全取消「隔壁常常更快」，也没有保留仿真里那种各堵各的、可以随便拣空当的路。</p>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-06.jpg" alt="I-80示意：每5秒看一眼，被超29478次，超车25207次" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[02:36]</span>I-80 实测：每 5 秒看一眼，看到被超 29478 次，看到超车 25207 次</div><div class="cap-en"><button class="cap-speak" data-audio="audio/3728c5c04195.mp3" type="button" aria-label="Play English audio">🔊</button><span>On I-80, a glance every 5 seconds counts 29,478 times being passed and 25,207 times passing</span></div><audio class="cap-audio" src="audio/3728c5c04195.mp3" preload="none"></audio></figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch5">
+    <h2><span class="time-marker">02:54–03:22</span>见快就并，早到的是几十秒</h2>
+    <p>画面问：那一看隔壁快就并过去，能早到吗？规则写在图上：隔壁快 10 km/h 以上就并，空当够，后车不用急刹，才并过去。半小时的一条示意里，见快就并的你并了 11 次（途中有一帧写成 10 次，结算帧是 11 次），比一直不变道早到 34 秒，多走 259 米。</p>
+    <p>接着是 40 个开局，各早到几秒，对照的是一直不变道。快 5 km/h 就并，平均早到 71 秒，15% 反而更晚；快 10 km/h 就并，平均早到 24 秒，30% 反而更晚。轴的左边标「更晚」，右边标「早到」。底部一行把前提写死：别人都不变道、两条道各堵各的模型里。这还是口播没再出现的画面结论，不能当成任意高速、别人也在变道时的承诺。</p>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-07.jpg" alt="不变道与见快就并：早到34秒，多走259米，并道11次" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[03:08]</span>见快就并的一例：并道 11 次，早到 34 秒，多走 259 米</div><div class="cap-en"><button class="cap-speak" data-audio="audio/060c9ce36f1b.mp3" type="button" aria-label="Play English audio">🔊</button><span>One merge-when-faster run: 11 lane changes, 34 seconds earlier, and 259 meters farther</span></div><audio class="cap-audio" src="audio/060c9ce36f1b.mp3" preload="none"></audio></figcaption>
+    </figure>
+    <figure>
+      <img src="assets/other-lane-seems-faster/shot-08.jpg" alt="40个开局的早到分布：阈值5公里平均71秒，阈值10公里平均24秒" loading="lazy">
+      <figcaption class="cap-bilingual"><div class="cap-zh"><span class="time-badge">[03:18]</span>40 个开局：快 5 公里就并平均早 71 秒，快 10 公里就并平均早 24 秒</div><div class="cap-en"><button class="cap-speak" data-audio="audio/791c28937644.mp3" type="button" aria-label="Play English audio">🔊</button><span>Across 40 starts, merging at a 5 km/h gap averages 71 seconds early; at 10 km/h it averages 24</span></div><audio class="cap-audio" src="audio/791c28937644.mp3" preload="none"></audio></figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch6">
+    <h2><span class="time-marker">03:22–04:05</span>明明略慢，七成的人仍说隔壁快</h2>
+    <p>调查画面写：论文作者给 120 个学车的人看一段 4 分钟的高峰录像。录像里，隔壁其实略慢。结果 70% 说隔壁快，65% 的人说，安全的话会变道。视频把这归到论文作者的调查，没有在这一页写出是 1999 年那篇还是 2000 年 Chance 上的续篇；片尾两篇都列了，正文不替它指定。</p>
+    <p>最后几句又回到环路：你有三分之一的时间卡在挤的那几段；多数时候隔壁真的比你快；可一整趟下来两条道一样快；你超过的车和超过你的车一样多。想早到五分钟，最好的办法是早五分钟出门。落款是 Redelmeier 与 Tibshirani，2000。参考文献随后列出《自然》1999、Chance 2000、Bostrom 2001、NGSIM 的 I-80、以及跟车与变道模型 MOBIL 的论文。这些是片尾书目，视频没有逐条重做实验。</p>
+  </section>
+</article>
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下按 Whisper 原始分段保留，含繁体字和听写误差（如「不便到」「青涩」）。非空分段在 1 分 56 秒结束；此后视频仍有画面字幕，见上文，这里不补写。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>堵車的時候</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>隔壁那條道好像總在往前走</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT31S">00:31</time>
+    <p>所有車都照同一套跟車規則開</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT33S">00:33</time>
+    <p>前面空了就加速</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT35S">00:35</time>
+    <p>離前車近了就減速</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT37S">00:37</time>
+    <p>誰也不便到</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT39S">00:39</time>
+    <p>兩條道的平均車速一樣</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT41S">00:41</time>
+    <p>都是每小時33公里左右</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT43S">00:43</time>
+    <p>車一多</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT45S">00:45</time>
+    <p>路上自己就堵出一團一團</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT47S">00:47</time>
+    <p>還往後傳</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT49S">00:49</time>
+    <p>你是這樣青澀的車</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT51S">00:51</time>
+    <p>三分之一的時間</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT53S">00:53</time>
+    <p>你每小時不到20公里</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT55S">00:55</time>
+    <p>一點點往前挪</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT57S">00:57</time>
+    <p>前面一散開</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT59S">00:59</time>
+    <p>車的速度表示</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT61S">01:01</time>
+    <p>每一秒看是你超了隔壁的車</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT63S">01:03</time>
+    <p>還是隔壁的車超了你</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT65S">01:05</time>
+    <p>十分鐘下來被超的秒有86秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT67S">01:07</time>
+    <p>超車的秒只有76秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT69S">01:09</time>
+    <p>可要是數車超過你的86輛</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT71S">01:11</time>
+    <p>你超過的85輛幾乎一樣多</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT73S">01:13</time>
+    <p>你衝起來的時候</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT75S">01:15</time>
+    <p>旁邊是擠成一團的車</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT77S">01:17</time>
+    <p>有時一秒就超過去兩三輛</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT79S">01:19</time>
+    <p>別人超你的時候</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT81S">01:21</time>
+    <p>車和車拉得開</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT83S">01:23</time>
+    <p>86輛一輛占一秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT85S">01:25</time>
+    <p>一樣多的車被超花的時間更長</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT87S">01:27</time>
+    <p>隔壁更快是錯覺</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT89S">01:29</time>
+    <p>兩年後</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT91S">01:31</time>
+    <p>哲學家博斯特羅姆寫文章反駁</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT93S">01:33</time>
+    <p>不全是錯覺</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT95S">01:35</time>
+    <p>還是這十分鐘</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT97S">01:37</time>
+    <p>隨便挑一秒</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT99S">01:39</time>
+    <p>看隔壁離你最近的那輛車</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT101S">01:41</time>
+    <p>它比你快的時候占三分之二</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT103S">01:43</time>
+    <p>比你慢的不到三分之一</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT105S">01:45</time>
+    <p>一路上你身邊那輛車平均每小時四十四公里</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT107S">01:47</time>
+    <p>你自己才三十三公里多</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT109S">01:49</time>
+    <p>和所有車的平均一樣</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT111S">01:51</time>
+    <p>停下來看這一刻</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT113S">01:53</time>
+    <p>一百輛車裡三十五輛擠在堵著的幾段</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT115S">01:55</time>
+    <p>這幾段這幾段這幾</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){if(a!==except){a.pause();a.currentTime=0;}});
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}});
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){stopOthers(au);btn.classList.add('playing');au.play();}
+    else{au.pause();au.currentTime=0;btn.classList.remove('playing');}
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

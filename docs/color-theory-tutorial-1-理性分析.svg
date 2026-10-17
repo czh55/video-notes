@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5124" viewBox="0 0 1320 5124">
+  <foreignObject x="0" y="0" width="1320" height="5124">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:120px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+  <h1>色彩理论教程</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色</span>
+    <span class="tag tag-orange">画面演示</span>
+    <span class="tag tag-gray">10秒</span>
+    <span class="tag tag-purple">Angel</span>
+  </div>
+  <div class="summary-line">口播极少，依画面。这一条只做一件事：色轮旁标出亮部与暗部，红、青、紫、绿四块圆色从平涂变成一侧亮、一侧暗。英文 LIGHT、SHADE 各闪一帧，没有停下来讲解。</div>
+  <a class="source-link" href="https://xhslink.cn/o/24DgBwrAEkw">来源：小红书短链 24DgBwrAEkw</a>
+
+  <div class="timeline">
+    <h3>关键画面时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00–00:02</span><span class="timeline-text">红色。亮部、暗部在色轮右侧。圆块上沿偏橙，下沿更暗并带蓝。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:02–00:05</span><span class="timeline-text">青色。两个中文标签改到左侧。上沿保持亮青，下沿压暗后更偏蓝。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:05–00:07</span><span class="timeline-text">紫色。约 00:05 闪出 LIGHT，圆块当时仍是平涂。随后只拉开明度，色相仍是紫。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:07–00:10</span><span class="timeline-text">绿色。约 00:07 同帧出现 LIGHT 与 SHADE。约 00:09 左上黄绿，右下更深并偏青。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">选定一个色相</div>
+      <div class="arrow">→</div>
+      <div class="node">圆块先平涂</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">标出亮部与暗部</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">一侧铺亮，一侧压暗</div>
+    </div>
+    <p>四个色相走的是同一条路径。换色时标签会挪位置，演示步骤没有变。</p>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>笔记标题是「色彩理论教程」，画面大字只有「色彩理论」。同名笔记还有另外四条，不在这一条的十秒画面里。Whisper 唯一一句 “by bwd6” 与字幕对不上，标为听不清，不能当作口诀。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">亮部和暗部在画面里指什么</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>色轮旁边成对出现「亮部」「暗部」。下面的大圆块先是一块平色，过一两秒才在不同区域分开明暗。</p>
+      <h3>关键理解</h3>
+      <p>标签标的是同一色相里的两侧，不是两个互不相关的颜色。红色和绿色能看出色相也轻轻偏了：亮侧往黄，暗侧往蓝或青。青色和紫色主要是变暗。</p>
+      <h3>怎么用</h3>
+      <p>临摹时先涂平这块色，再只改一侧的明度。红、绿可以顺手把亮侧往黄、暗侧往青蓝带一点。青、紫先不要加这条色相偏移，画面上证据弱。</p>
+      <div class="quote">画面依据：00:02 红上沿约 (245,133,47)、下沿约 (131,0,50)；00:09 绿左上约 (140,255,63)、右下约 (11,156,113)。取样来自本地帧，不是作者口述的数值。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者放上画面的判断</h3>
+      <p>作者没有开口解释。能归到作者的，只有他选择贴上的词：亮部、暗部，以及各闪一帧的 LIGHT、SHADE。把 LIGHT 读成亮部的英文标注、SHADE 读成暗部的英文标注，是根据同帧位置做的推断，不是口播定义。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <div class="pitfall">LIGHT 只在约 00:05 的紫色和约 00:07 的绿色各出现一帧，SHADE 只在约 00:07 出现。暂停不到这两帧，就会以为全片只有中文标签。</div>
+      <div class="pitfall">亮部、暗部的左右位置不固定。红色在右侧，青色在左侧，后面又换。不能把某一侧当成永远的亮部。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">四个色相对照</h2>
+    <div class="card card-green">
+      <h3>同一套步骤，色相偏移强弱不同</h3>
+      <table>
+        <tr><th>时段</th><th>色相</th><th>标签</th><th>圆块后来的样子</th></tr>
+        <tr><td>00:00–00:02</td><td>红</td><td>亮部、暗部在右侧</td><td>上沿偏橙，下沿更暗并带蓝</td></tr>
+        <tr><td>00:02–00:05</td><td>青</td><td>两词改到左侧</td><td>上沿仍是亮青，下沿更暗更偏蓝</td></tr>
+        <tr><td>00:05–00:07</td><td>紫</td><td>约 00:05 闪出 LIGHT</td><td>先平涂，随后上沿略亮、下沿更暗，仍是紫</td></tr>
+        <tr><td>00:07–00:10</td><td>绿</td><td>约 00:07 同时有 LIGHT 与 SHADE</td><td>约 00:09 左上黄绿，右下更深并偏青</td></tr>
+      </table>
+      <p>四行都来自这一条视频的抽帧。没有第五个色相，也没有配色方案表。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界与立场</h2>
+    <div class="card">
+      <h3>适用到哪一步</h3>
+      <p>事实层：十秒、四块颜色、中文标签贯穿全片、英文词只闪帧、圆块从平涂变为分区明暗。这些能在本地帧上复核。</p>
+      <p>推断层：亮侧偏暖、暗侧偏冷只在红和绿上比较清楚。把它写成所有颜色的定律，超出这一条画面。</p>
+      <p>边界：源片约 576×1024、码率很低。色轮上弯箭头落在哪一格，无法逐格确认。软件名称、笔刷、具体参数，视频未交代。</p>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>演示顺序固定：选色相，平涂圆块，再分开亮侧和暗侧。</li>
+      <li>红与绿能看到色相轻移；青与紫主要是明度变化。</li>
+      <li>LIGHT、SHADE 是闪帧标注，中文亮部、暗部才是贯穿全片的词。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>临摹时先涂平一块红或绿，再只改一侧明度。</li>
+      <li>红、绿的亮侧往黄带一点，暗侧往蓝青带一点，对照 00:02 和 00:09。</li>
+      <li>青、紫先只做变暗，不要自行加黄向高光。</li>
+      <li>需要看英文标注时，停在约 00:05 和约 00:07，其他时间没有这两个词。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>这条短片给的是四次重复的亮暗演示，不是一整套色彩理论课。标题里的「教程」要回到这一条画面里实际画出的四块颜色。</p>
+  </div>
+  <p class="footer">依据本地 b63t 全片抽帧与画面文字。口播极少，依画面。未访问小红书。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

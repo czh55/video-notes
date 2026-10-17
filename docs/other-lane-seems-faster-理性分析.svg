@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7166" viewBox="0 0 1320 7166">
+  <foreignObject x="0" y="0" width="1320" height="7166">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:150px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>隔壁车道真的更快？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">汽车驾驶</span>
+    <span class="tag tag-green">4分05秒</span>
+    <span class="tag tag-orange">画面数字优先</span>
+    <span class="tag tag-gray">科普观察室</span>
+  </div>
+  <div class="summary-line">核心判断：这一秒隔壁常常更快，是堵团把你留在慢段、把邻道留在散段；一整趟两条道的平均速度却差不多。变道能换来的是几十秒，而且有一部分开局更晚。1999 年那篇把全程说成错觉，2001 年的反驳只改「这一秒」，没有改「一整趟」。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:22</span><span class="timeline-text">《自然》1999 短文，画面答案写「错觉」。作者名在片尾，不在这一页。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">两条车道各 100 辆，环路 2.5 公里，同一跟车规则，不变道。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:08</span><span class="timeline-text">被超 86 秒，超车 76 秒；辆数是 86 对 85，不是 86 对 76。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:42</span><span class="timeline-text">最近邻更快 401 秒，更慢 187 秒。身边均速 44.4，自己 33.5，全体 33.6。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:58</span><span class="timeline-text">35/100 辆挤在约 16.7% 的路段。你有约三分之一时间卡在这些段。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:36</span><span class="timeline-text">I-80：59.6 万个车秒里快 48%、慢 40%；每 5 秒看，被超多 17%。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:08</span><span class="timeline-text">一例并道 11 次：早到 34 秒，多走 259 米。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:18</span><span class="timeline-text">40 个开局。阈值 5 km/h 平均早 71 秒但仍有 15% 更晚；阈值 10 km/h 平均早 24 秒、30% 更晚。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">体感<br/>隔壁总在走</div>
+      <div class="arrow">→</div>
+      <div class="node">秒数不对等<br/>86 秒对 76 秒</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">这一秒真更快<br/>401 秒对 187 秒</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">一整趟差不多<br/>真路只快 6%</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把「被超的秒更多」当成「隔壁车道全程更快」，或者把「这一秒旁边那辆更快」当成「并过去就能省出一段路」。视频里的两句话要分开：随便哪一刻隔壁更常比你快；可一整趟下来，两条道一样快。仿真第 284 秒是实验内部时钟，不是视频的 4 分 44 秒。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">错觉论文量的是时间，不是辆数</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>1999 年短文用两条相同车道做秒计数：每一秒只记你在超还是被超。这期复现后，被超 86 秒，超车 76 秒。</p>
+      <div class="highlight">关键理解：辆数几乎一样（86 辆对 85 辆）。你快起来时旁边是一团，一秒可以抹掉两三辆；别人超你时车距拉开，一辆占满一秒。一样多的车，被超更磨时间。</div>
+      <div class="action">怎么用：感到「老被超」时，先分清是秒数在累积，还是隔壁的平均速度真的更高。只数秒，会把慢速被超放大。</div>
+      <div class="quote">原文依据（口播简体）：十分钟下来被超的秒有 86 秒，超车的秒只有 76 秒；可要是数车，超过你的 86 辆，你超过的 85 辆几乎一样多。听写原文作「不便到」「青涩」，画面作「不变道」「青色」。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场：论文说这是错觉</h3>
+      <p>画面把《自然》短文的答案写成「错觉」，口播也说「隔壁更快是错觉」。这是论文与视频转述的判断，不是对所有道路的测量。作者姓名 Redelmeier、Tibshirani 出现在片尾文献和结尾卡（2000），开场页没有念出。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">反驳改的是「这一秒」，不是全程均速</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>2001 年 Nick Bostrom（画面中文名博斯特罗姆）用同一段十分钟，改问隔壁离你最近的那辆车。更快 401 秒，更慢 187 秒，大约三分之二对不到三分之一。</p>
+      <div class="highlight">关键理解：最近邻平均 44.4 km/h，你 33.5，全体只有 33.6。你自己的均速等于全体均速，身边那辆却明显更快。停格解释了抽样：35 辆车挤在约六分之一的路段，你三分之一的时间耗在这里，而隔壁的堵点在别处。</div>
+      <div class="relation">关系：秒计数解释「为什么觉得久」；最近邻速度解释「为什么这一眼看过去，旁边那辆常常真的更快」。两者不互相取消。</div>
+      <div class="action">怎么用：决定变不变道之前，看的是旁边这一段现在是否散开，而不是回忆刚才被超了多久。</div>
+      <div class="quote">原文依据（口播简体）：它比你快的时候占三分之二，比你慢的不到三分之一。一路上你身边那辆车平均每小时四十四公里，你自己才三十三公里多。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>这里的边界</h3>
+      <p>401 加 187 等于 588，不是 600。视频没说明剩下的秒是同速还是没采样，不能写成「12 秒一样快」。44.4 对 33.5 约快三成，只属于这个「各堵各的、谁也不变道」的环路。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">真路把三成收成 6%</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>2 分 14 秒之后没有口播。画面用 2005 年 4 月 13 日 16:00–17:30、加州 I-80 约 500 米、7 台摄像机、5678 辆车、0.1 秒轨迹来对照模型。来源层级是视频字幕，片尾指向联邦公路局 NGSIM，本页不另核数据库。</p>
+      <div class="highlight">关键理解：59.6 万个车秒里，隔壁更快 48%、更慢 40%，不再是三分之二。每 5 秒看一眼，被超 29478 次，超车 25207 次，大约多 17%。身边均速 19.0 对你的 17.9，只快 6%。一条道堵着时，旁边那条 74% 的时候也堵着，空当没有模型里那么错开。这 500 米里 29% 的车换过道。</div>
+      <div class="action">怎么用：把「隔壁快三成」留在仿真里。真高峰上若只看到被超略多，优先当成观感，而不是一条稳定快 30% 的邻道。</div>
+      <div class="pitfall">不要把 48% 与 40% 加总后的缺口写成视频已给出的「同速比例」。画面没标。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>模型环路和 I-80 实测</h3>
+    <table>
+      <tr><th>问题</th><th>环路仿真（谁也不变道）</th><th>I-80 约 500 米</th></tr>
+      <tr><td>全程谁更快</td><td>两条道都约 33 km/h；最近邻 44.4，自己 33.5</td><td>身边 19.0，自己 17.9，只快 6%</td></tr>
+      <tr><td>随便一秒</td><td>最近邻更快 401 秒，更慢 187 秒</td><td>59.6 万个车秒：快 48%，慢 40%</td></tr>
+      <tr><td>被超的观感</td><td>86 秒对 76 秒；辆数 86 对 85</td><td>每 5 秒看：29478 次对 25207 次，多 17%</td></tr>
+      <tr><td>堵点是否错开</td><td>模型默认各堵各的；35 辆挤在约 1/6 路段</td><td>一条堵时旁边 74% 也堵</td></tr>
+      <tr><td>变道</td><td>见快就并：一例早 34 秒、多 259 米；40 局平均早 24 或 71 秒</td><td>29% 的车换过道；视频没给这批车因此早到的秒数</td></tr>
+    </table>
+    <p>选择条件：要解释「为什么觉得隔壁快」，用秒计数和最近邻。要估计「并过去能早到多少」，只能用视频后半的变道实验，而且要带上「别人不变道」这句前提。I-80 段没有提供可直接套用的早到秒数。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">见快就并的收益又小又散</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>规则是隔壁快过阈值，而且空当够、后车不用急刹，才并。一例：11 次，早到 34 秒，多走 259 米。40 个开局相对「一直不变道」：快 5 km/h 就并，平均早 71 秒，15% 更晚；快 10 km/h 就并，平均早 24 秒，30% 更晚。</p>
+      <div class="highlight">关键理解：阈值越低，平均早到越多，但仍有一成多更晚。阈值提高到 10 km/h，平均只剩二十几秒，三成开局更晚。早到的分布不是一个保证值。</div>
+      <div class="action">怎么用：若目标是早到五分钟，这组数字不够。视频的收束是早五分钟出门。若只想少被超几次，先接受可能多走路、也可能更晚。</div>
+      <div class="pitfall">这组 40 局写明发生在「别人都不变道、两条道各堵各的」模型里。I-80 上旁边 74% 一起堵，同一策略的早到秒数视频没有重跑。</div>
+    </div>
+    <div class="card card-red">
+      <h3>调查说明人会按体感行动</h3>
+      <p>120 名学车的人看 4 分钟高峰录像。画面写录像里隔壁其实略慢，仍有 70% 说隔壁快，65% 说安全就会变道。这是视频转述的论文作者调查，本页没有核对外刊原文。它支持的是「略慢也会被看成快」，不支持「变道平均能省 71 秒」。</p>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>被超更久，主要因为慢速时一辆占一秒，快速时一秒超多辆。辆数可以几乎相同。</li>
+      <li>最近的邻车在仿真里大约三分之二的时间更快，是因为你长时间留在占路很短的堵团里。</li>
+      <li>同一现象到 I-80 上收成快 6%、被超次数多 17%，而且邻道经常一起堵。</li>
+      <li>见快就并的早到以几十秒计，40 个开局里有 15% 或 30% 更晚，取决于阈值。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>用「旁边这一段现在散不散」看路，不用「刚才被超了多久」决定并线。</li>
+      <li>并线沿用视频里的两个条件：快过你设定的阈值，且后车不用急刹。</li>
+      <li>把预期写成几十秒，并记住有一部分开局更晚。</li>
+      <li>要早到五分钟，按片尾说法提前出门，而不是在堵团里连续变道。</li>
+      <li>别把环路里「各堵各的」套到高峰：视频给的实测是旁边四分之三一起堵。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把隔壁车道当成一条稳定更快的路。现在把它拆成两层时钟：这一秒的最近邻，和一整趟的平均。第一层经常对隔壁有利，第二层在视频的两条证据里都接近打平。变道交易的是第一层，结算却在第二层。</p>
+  </div>
+  <div class="footer">理性分析 · 隔壁车道真的更快？ · 数字来自口播或画面字幕，2 分 14 秒后无口播</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

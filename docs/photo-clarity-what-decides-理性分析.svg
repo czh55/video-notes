@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6509" viewBox="0 0 1320 6509">
+  <foreignObject x="0" y="0" width="1320" height="6509">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+</style>
+      
+<div class="container">
+  <h1>通透由亮暗两端和颜色反差一起决定</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影后期</span>
+    <span class="tag tag-green">Camera Raw 17.5</span>
+    <span class="tag tag-orange">绳探长观点</span>
+    <span class="tag tag-gray">3分46秒</span>
+  </div>
+  <div class="summary-line">这条视频把「通透」从清晰度里拆出来：先看直方图两端有没有亮暗信息，再看主体和背景的颜色是否分开。两端空着不等于拍错；为了贴墙把受反光的黑衣服压死，也不算他定义的通透。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">命题拆成光影通透、颜色通透。来稿是否真通透，没有出示。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">人像 221.jpg，「亮」六项为 0。口播：高光和阴影都少了一部分，但不等于拍坏。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:20</span><span class="timeline-text">白色被归进高光，只是比亮部高光更亮一档。画面光标在「白色」。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:50</span><span class="timeline-text">该帧读数：曝光 +0.40、高光 +66、白色 +42、黑色 -30。黑衣服因地面反光带灰，禁止死黑。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:10</span><span class="timeline-text">风光 223.jpg 六项回到 0。口播：高光缺很多，暗部只缺一点。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:25</span><span class="timeline-text">高光 +60、白色 +39。白色和高光被定义为控制亮部信息的滑块。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:15</span><span class="timeline-text">颜色假设：全黑一套，或黄草、黄叶再加晨间暖光，都会让颜色失去反差。画面坡地仍是绿的。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:32</span><span class="timeline-text">结论：是否通透，由光影和色彩反差决定。没有给出可测量阈值。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">抱怨不通透</div>
+      <div class="arrow">→</div>
+      <div class="node">直方图两端</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">亮暗拉开</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">颜色还要分开</div>
+    </div>
+    <p>问题不是「怎么把照片调清楚」。证据是两张 JPEG 的直方图口述，加上「亮」面板的滑块。判断分两级：影调通透只解决亮暗；颜色通透还要求主体和背景不要同色。行动停在基本面板，没有进入曲线、混色器或局部蒙版。</p>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把通透当成锐度、像素或「直方图必须拉满」。视频里的通透是对比关系。人像两端信息少，作者明确说有些题材就该这样处理。学员觉得不通透而作者觉得通透，只是他的判断，来稿没有给观众核对。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">光影：两端有信息，才叫他口中的通透</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>光影通透被定义成亮暗对比。亮处不够亮、暗处不够暗，就是不通透。工具是 Camera Raw「亮」里的高光、白色、暗部、曝光。口播说「开幕」「亮和曲线」，画面标题是 Camera Raw 17.5，展开的是「亮」，曲线没有操作。</p>
+      <div class="quote">「所谓的光影通透，就是你的照片的亮暗对比。」（约 00:31，简体转写）</div>
+      <h3>关键理解</h3>
+      <p>白色被放进高光家族，职责是比「高光」滑块更靠极端的那一档。两张片子的缺法不一样：人像是高光和阴影都少；风光是高光缺很多、暗部只缺一点。所以风光演示里先动的是高光和白色，黑色是后补。</p>
+      <div class="highlight">01:50 人像帧：曝光 +0.40，高光 +66，白色 +42，黑色 -30，对比度与阴影为 0。02:25 风光帧：高光 +60，白色 +39，其余四项为 0。数字来自该帧面板，不是口播目标值。</div>
+      <h3>怎么用</h3>
+      <div class="action">先看直方图两端，再决定动高光/白色还是暗部/黑色。不要一上来拉对比度。视频里对比度滑块在出示的帧上都是 0。</div>
+      <h3>原文依据</h3>
+      <p>00:45–01:02 诊断人像；01:17–01:31 定义白色；02:12–02:37 定义白色与高光控制亮部。画面文件名 221.jpg（1/2）、223.jpg（2/2），均为 JPEG。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场：两端空着可以是题材，不是事故</h3>
+      <p>「高光和阴影都少信息，不代表这张照片拍的有问题。有些题材是需要这样去处理。」这是观点，不是测量结论。他同时保留另一把尺子：若讨论的就是通透，这种影调仍然「绝对不通透」。两句话可以同时成立，因为评价目标不同。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑：黑衣服不要为了贴墙压成死黑</h3>
+      <div class="pitfall">想让暗部信息更多，可以压得更暗、让直方图贴墙。纯黑衣服会接收地面反光而带灰，压成死黑不合适。贴墙是手段，死黑是他明确否定的结果。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颜色：光影通了，同色仍会发闷</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>颜色通透等于背景和主体的色彩对比、反差。有反差感的颜色才会显得通透。这一段没有打开「颜色」或「混色器」，用的是思想实验。</p>
+      <div class="quote">「有反差感的颜色才会显得通透。」（约 03:09）</div>
+      <h3>两个反例</h3>
+      <div class="relation">人像假设：纯黑背景、纯黑衣服、黑裤子、黑头发、黑相机。演示画面里裤子是浅色，假设没有被做成新画面。</div>
+      <div class="relation">风光假设：草地变黄、树叶变黄，再加上早上的暖光。03:15 帧坡地仍绿，树丛带黄橙色；「早上的暖光」是作者对现场光的说法，画面没有色温读数。</div>
+      <h3>怎么用</h3>
+      <div class="insight">影调滑块拉完之后，再单独问：主体和背景是不是同一套颜色。同一套就不要指望直方图两端有信息就能换来颜色通透。</div>
+      <h3>边界</h3>
+      <p>他没有演示如何制造色彩反差，所以不能从本片推出「应该加饱和」或「应该拆色相」。适用条件是：你已经按他的方式拉开了亮暗，画面仍然发闷，这时先检查是不是同色，而不是继续加对比。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>两张示范片对照</h3>
+    <table>
+      <tr><th></th><th>人像 221.jpg</th><th>风光 223.jpg</th></tr>
+      <tr><td>画面事实</td><td>黑上衣、浅色裤子、眼镜、举相机，坐在浅色地面。4024×5634，22.7MP，Adobe RGB，16 位，300 ppi</td><td>绿坡，树丛带黄橙色叶子。4288×2848，12.2MP，同样是 Adobe RGB、16 位、300 ppi</td></tr>
+      <tr><td>作者对直方图的说法</td><td>高光和阴影都少</td><td>高光缺很多，暗部缺一点</td></tr>
+      <tr><td>出示帧的滑块</td><td>01:50：曝光 +0.40，高光 +66，白色 +42，黑色 -30</td><td>02:25：高光 +60，白色 +39；黑色尚未在该帧离开 0</td></tr>
+      <tr><td>额外约束</td><td>黑衣服留灰，不压死黑</td><td>若草、叶、晨光都偏黄，颜色仍不通透</td></tr>
+      <tr><td>证据强度</td><td>操作过程有前后画面；「更通透」是主观比较</td><td>亮部操作有画面读数；补黑色只有口播</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-red">
+    <h3>立场分层</h3>
+    <ul>
+      <li>可核验画面：软件为 Camera Raw 17.5；两张 JPEG 的文件名和状态栏规格；上述两帧滑块读数；裤子为浅色、坡地为绿色。</li>
+      <li>作者观点：通透等于亮暗对比加色彩反差；学员理解错了；调整后「通透得多」。没有第三方对照。</li>
+      <li>推断：对比度滑块不是他这条路径的主旋钮，因为出示帧上都是 0。这只说明本片演示没用它，不能外推成「通透禁止动对比度」。</li>
+      <li>未核实：口播「三封信息」；「开幕」若脱离画面标题；来稿原片；风光黑色滑块的最终数值。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>通透在本片中是关系，不是清晰度：亮暗要分开，颜色也要分开。</li>
+      <li>直方图两端空，可以是题材选择，同时也可以被判成「不通透」。</li>
+      <li>白色跟高光一组，管更极端的亮部；黑衣服的暗部要留反光灰。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>打开直方图，先写一句：缺的是高光、暗部，还是两边都缺。</li>
+      <li>只缺亮部时，先动高光和白色，不要先拉对比度。</li>
+      <li>衣服或阴影里能看见环境反光时，停止在死黑之前。</li>
+      <li>影调觉得够了仍发闷，检查主体和背景是不是同一色相。</li>
+      <li>把「更通透」留成主观判断，本片没有给出数值标准。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把「不通透」当成要整体加对比或加锐。现在先问两端有没有信息，再问颜色有没有反差；该留灰的黑，不拿来换一条贴墙的直方图。</p>
+  </div>
+  <p class="footer">依据 b63a 全部分段与 Camera Raw 画面。滑块数字仅来自对应帧，不外推为推荐配方。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5298" viewBox="0 0 1320 5298">
+  <foreignObject x="0" y="0" width="1320" height="5298">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>达芬奇从音频创建字幕：生成、改字、改样子是三件事</h1>
+  <div class="meta">
+    <span class="tag tag-blue">视频制作</span>
+    <span class="tag tag-green">达芬奇</span>
+    <span class="tag tag-orange">作者说法需分开</span>
+    <span class="tag tag-gray">1分49秒 · Vivi Lyn · 小红书</span>
+  </div>
+  <div class="summary-line">这条片子真正回答的是：剪辑页里怎样从已有音频生成字幕，以及生成之后字和样子分别在哪改。4 分 21 秒样片、十来秒出结果、准确率挺高，都是作者对这一条样片的判断，不是测速报告。</div>
+
+  <div class="timeline">
+    <h3>关键证据</h3>
+    <div class="timeline-item"><span class="timeline-time">00:20</span><span class="timeline-text">画面：Timeline → AI Tools → Create Subtitles from Audio。此段无口播转写，依据画面字幕。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:32</span><span class="timeline-text">Language 列表，光标在 Mandarin - Simplified。画面字幕：可以手动选择，也就是简体和繁体。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">每行字符显示 42，Lines 为 Single / Double，其余她说保持默认，然后点 Create。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">画面字幕：样片约 4 分 21 秒，识别十来秒、不到 20 秒。属作者说法。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:04</span><span class="timeline-text">调色页字幕轨标签 Subtitle 1 (109 Clips)，播放头 01:04:16。左下角 Studio 21。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:16</span><span class="timeline-text">Inspector 中一条识别结果为「同一个乐有些蔬菜一靠上去」，作者说要手改，未给出改正文。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:26</span><span class="timeline-text">Track 样式读数：Open Sans Semibold，字号 41。字体、阴影、背景都在这一层。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">口播片要字幕</div>
+      <div class="arrow">→</div>
+      <div class="node">从音频创建<br/>简体中文</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">Inspector<br/>改错句</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">Track<br/>改整轨样子</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>先把听写纠正过来</h3>
+    <p>Whisper 在 00:02 到 00:30 是空的，Massivement 和 Check 也不能直接当术语。画面字幕把前者放在 Maximum characters per line，把后者放在 Track。Inspect 对应的面板是 Inspector。4 分 21 秒是样片工程时长，本教程只有 1 分 49 秒。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">生成之前只改了语言</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>对话框里她明确动手的是语言：从自动或列表里改成 Mandarin - Simplified。每行字符、单行或双行被介绍成可调项，但她说这次其他选项保持默认。</p>
+      <div class="highlight">关键理解：可调不等于这次演示改过。42、Subtitle Default、扩展语言支持未勾选，都是 00:48 帧的读数。</div>
+      <div class="action">怎么用：中文口播先锁简体或繁体，不要停在 Auto。行数按成片安全区试 Single 或 Double，试完再点 Create。</div>
+      <div class="quote">原文依据：画面字幕「可以手动选择 Mandarin Simplified」「其他选项我就是默认了」「点击 Create」。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者的立场</h3>
+      <p>她把功能介绍成最近才发现、值得自媒体和口播博主用。这是个人使用经验。Speech Generator 出现在同一子菜单，她没有讲，不能算进这条工作流。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">速度和准确率怎么读</h2>
+    <div class="card card-orange">
+      <h3>只覆盖这一条样片</h3>
+      <p>样片工程从 01:00:00 走到 01:04:16 附近，和「4 分 21 秒左右」一致。十来秒、不到 20 秒没有画面计时。准确率「挺高」紧跟着「个别地方要手改」，后者才有一条看得见的错句。</p>
+      <div class="pitfall">不要把「十来秒」和「准确率很高」写成软件规格。换语言、换噪声、换口音，这条片子没有测试。</div>
+      <div class="quote">错句证据只到识别结果本身：「同一个乐有些蔬菜一靠上去」。正确文本：无法确认。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>单条文字和整轨样式不要混</h3>
+    <table>
+      <tr><th>要改的东西</th><th>她指的位置</th><th>画面证据</th><th>边界</th></tr>
+      <tr><td>某一句写错了</td><td>右上角 Inspector 的 Caption 文本</td><td>01:16 帧列出该句和下一条「高光直接断掉」</td><td>片中没有改完，也没讲时间码怎么拖</td></tr>
+      <tr><td>字体、字号、阴影、背景</td><td>字幕 Track</td><td>01:26 帧 Open Sans、字号 41、描边 Outside Only</td><td>41 和 Open Sans 是当前值，不是她规定的标准</td></tr>
+      <tr><td>每行多长、一行还是两行</td><td>创建前的对话框</td><td>00:48 帧 42 与 Single/Double</td><td>生成后她没有回来改这两项</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-green">
+      <h3>适用与不适用</h3>
+      <ul>
+        <li>适用：剪辑页里已有人声，希望先铺出字幕轨，再人工改知识口播。</li>
+        <li>她点名的对象是知识类和口播类博主。画面字幕如此，没有推广到无对白的空镜。</li>
+        <li>样片预览里的调色、Kodak 2383 LUT、宽容度字幕，是那条内容片的题材，不是本教程的步骤。</li>
+        <li>版本只核到这一帧的 Studio 21。菜单是否在免费版或更旧版本里同名，视频未说明。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>入口是时间线的 AI Tools，命令是从音频创建字幕。</li>
+      <li>中文内容要手动选 Mandarin Simplified 或 Traditional。</li>
+      <li>生成快不快、准不准，以她这一条 4 分多钟的样片为限。</li>
+      <li>错字去 Inspector，字体和阴影去 Track。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>打开剪辑页，Timeline → AI Tools → Create Subtitles from Audio。</li>
+      <li>Language 改成和成片一致的简体或繁体，再决定单行还是双行。</li>
+      <li>点 Create 之后先扫明显错句，在 Inspector 里改文字。</li>
+      <li>整轨字体、字号、阴影、背景到 Track 统一改，不要逐条重设。</li>
+      <li>把「十来秒」「准确率挺高」留在作者评论里，自己的片子另计时、另校对。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>自动字幕不是按一下就交片。她自己的结构是：生成负责铺轨，Inspector 负责句子，Track 负责样子。跳过后面两步，列表里就会留下「蔬菜一靠上去」这种句子。</p>
+  </div>
+  <p class="footer">证据来自本地 b63f 转录与抽帧。00:02–00:30 的菜单路径来自画面字幕。未把作者未说完的片尾补写成关注引导。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

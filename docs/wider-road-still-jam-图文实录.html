@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="一条快速路从三车道拓成四车道后，早高峰模型里开车只快约一分钟，车流却增加约三分之一。">
+  <title>路修宽了，为什么还是堵？｜图文实录</title>
+  <style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+.eyebrow{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700;margin:0 0 8px}
+h1{font-size:34px;line-height:1.25;margin:0 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.meta a{color:#b45309}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:26px;margin:0 0 8px;color:#1c1917}
+.time-range{color:#b45309;font-weight:700;font-size:14px;margin:0 0 12px}
+.quote{background:#fff;border-left:4px solid #d6d3d1;padding:12px 16px;margin:16px 0;color:#57534e;border-radius:0 12px 12px 0}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+.note{font-size:14px;color:#78716c}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <p class="eyebrow">图文实录 · 小红书 · 科普观察室</p>
+  <h1>路修宽了，为什么还是堵？</h1>
+  <p class="meta">2026-10-17 · 4分10秒 · 早高峰模型 · <a href="https://xhslink.cn/o/1zRoaWoT9fL">原视频</a></p>
+  <p class="lede">一条进城快速路从前两年的三条道拓成四条。刚通车时确实快，没过多久又堵回老样子。视频没有把原因归结成“车太多所以没办法”，而是搭了一个会改主意的早高峰模型：路一快，门口等着的人就开上来，快出来的那一两分钟被新车吃掉。路没白修，它多运了人和货；它做不到的，是在还有人等待的时候让开车一直变快。</p>
+</header>
+<article class="documentary">
+  <h2>内容要点</h2>
+  <p>这是一条四分钟的城市交通讲解。口播把一座城的早高峰收成一条规则，画面用点阵、时间分布和四国对照把同一条规则跑完。下面按论证顺序归纳，不是逐句转录。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row">
+    <span class="time-marker">[00:00→00:58]</span>
+    <div>
+      <strong>三车道怎样停在 44 分钟</strong>
+      <p>城外四万人每天比较开车和别的办法。别的办法包括地铁、早出门、绕路，以及这趟干脆不跑，全部折成分钟。空路只要 25 分钟，几乎人人想开；人一多就慢，慢到 44 分钟停住，画面标每小时 8972 辆。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[00:58→01:14]</span>
+    <div>
+      <strong>车数不变时的那座城</strong>
+      <p>若车上的人还是这么多，四条道可以把 44 分钟算成 31 分钟，每天快 13 分钟。口播把这称为“直觉里的那座城”，因为模型里的人不会停在旧选择上。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[01:14→02:10]</span>
+    <div>
+      <strong>人改主意之后，快出来的分钟被吃掉</strong>
+      <p>每个月有二十分之一的人重新比一次。第一个月真是 31 分钟，画面约每小时 9005 辆；第三个月口播说到 41 分钟，第六个月回到 43 分钟。稳住后只比拓宽前快约 1 分钟，车却从约 9000 辆增到约 11800 辆。两条加到八条也一样：车道翻倍，车差不多翻倍，开车只快两三分钟。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[02:10→03:10]</span>
+    <div>
+      <strong>多出来的车大多是新跑出来的</strong>
+      <p>口播说两位经济学家查了美国 228 个城市二十年的数据：快速路车道多 10%，车跑的公里数多 10.3%。用一百多年前的铁路和探险路线挑出碰巧路多的城市，仍是约一比一。日本高速、欧洲 545 个城市、中国 103 个城市也在一比一上下，有的更高。从别的路挪过来的最多约一成；卡车和跑生意、本地人多开、搬来的人占了其余大头。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[03:10→04:10]</span>
+    <div>
+      <strong>收费把速度钉住，拓宽换来的是运量</strong>
+      <p>模型回到三条道，高峰开车要交钱，价钱调到开车正好 30 分钟。这笔钱折成大约 15 分钟，开车的总代价仍在 45 分钟上下，只是其中 15 分钟从堵在路上换成交钱。拓宽后再收费，开车还是 30 分钟，价钱低一点，路上的车多过三分之一。片尾判断：路没白修，每天早上多运了约三分之一的人和货；做不到的是让车变快。</p>
+    </div>
+  </div>
+  <div class="takeaway-box">
+    <strong>总结</strong>
+    <p>只要门口还有人在等，路再快一点就会有人改开车。拓宽把排队换成更多车流，速度会回到和原来差不多的地方；视频认为，想把速度定住，剩下的主要办法是拥堵收费。</p>
+  </div>
+
+  <section class="story-section">
+    <h2>四万人，一条规则</h2>
+    <p class="time-range">00:00–00:58</p>
+    <p>开场就是那条上班路。前两年从三条道拓成四条，刚通车那阵真快，没过多久又堵回老样子。问题被说得很窄：路宽了三分之一，车怎么又塞满了。</p>
+    <p>接着画面离开实拍，换成一座格子城。城外住着四万个早上要进城的人，一个点是十个人。每个人比较两件事：开车走这条快速路，还是用别的办法。别的办法不只是坐地铁，早点出门、绕另一条路、这趟干脆不跑，都算，而且都折成分钟。有人的替代方案是 30 分钟，有人是 50 分钟。规则只有一条。</p>
+    <p class="quote">开车更快就开车。</p>
+    <p>路上没车的时候，开车只要 25 分钟，几乎人人都想开。开的人一多，路就慢，慢到 44 分钟停住。这时还在开车的，是别的办法要 44 分钟以上的人。画面右侧把这个均衡写成大字：开车进城 44 分钟，每小时 8972 辆。口播说的是“每小时九千辆”，和画面的 8972 是同一档，不是另一个数。</p>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-01.jpg" alt="格子城里城外四万人，一个点代表十个人，橙色开车与蓝色别的办法并排" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:22] 城外四万人画成点阵，一个点是十个人。橙色横条是开车走快速路，蓝色是别的办法。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4d3b220faedd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Forty thousand people outside the city are drawn as dots, ten people per dot. The orange bar is driving the expressway; the blue bar is every other option.</span></div>
+<audio class="cap-audio" src="audio/4d3b220faedd.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-02.jpg" alt="通勤时间分布在44分钟处切开，右侧为开车更快，标注每小时8972辆" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:55] 规则写在画面上：开车比别的办法快就开车。分布在44分钟处切开，这时画面标每小时8972辆。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/751411455847.mp3" type="button" aria-label="Play English audio">🔊</button><span>The rule is on screen: drive if driving is faster than the other option. The distribution is cut at 44 minutes, and the frame marks 8,972 vehicles per hour.</span></div>
+<audio class="cap-audio" src="audio/751411455847.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <h2>直觉会快 13 分钟，模型里的人会改主意</h2>
+    <p class="time-range">00:58–02:10</p>
+    <p>现在把路拓成四条道。口播先问：要是车还这么多，好算，44 分钟变 31 分钟，天天快 13 分钟。这句话被单独标成“直觉里的那座城”。下一句立刻拆掉它：模型里的人会改主意，每个月有二十分之一的人重新比一次。</p>
+    <p>拓宽第一个月真快了，31 分钟。画面在这一拍标的是 31 分钟、每小时 9005 辆，和口播一致。可 31 分钟比很多人的别的办法都快，坐地铁的、早早出门的、原来不跑的，开始改开车。口播接着报第三个月 41 分钟、第六个月 43 分钟，之后稳住，只比拓宽前快一分钟。路上的车从每小时九千辆变成一万一千八。车道多了三分之一，车也多了差不多三分之一。</p>
+    <p>这里有一处口播和单帧不完全重合，需要按时间读，不能合成一个数。约 1 分 32 秒，字幕仍在说“第三个月，41 分钟”，分布图上的大字已经是 42 分钟、每小时 11676 辆。到第六个月，口播和画面一起停在 43 分钟，画面标每小时 11802 辆。再往后，对比条写成开车 43.8 到 42.7 分钟、只快 1 分钟，车从 8972 到 11786 辆；第 23 个月的一帧写着 42.7 分钟、每小时 11796 辆。口播用“一万一千八”收束，和这些四位数是同一结果。</p>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-03.jpg" alt="第六个月分布切在43分钟，右上角标43分钟和每小时11802辆" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:35] 第六个月开车回到43分钟，画面标每小时11802辆。左上角仍留着拓宽前44分钟和直觉里的31分钟。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b4f0e889b2b9.mp3" type="button" aria-label="Play English audio">🔊</button><span>By month six, driving is back to 43 minutes, marked at 11,802 vehicles per hour. The corner still shows 44 minutes before widening and the intuitive 31.</span></div>
+<audio class="cap-audio" src="audio/b4f0e889b2b9.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>为什么偏偏停在差不多的地方？画面把“快出来的这一分钟”单独圈出来，里面站着 2814 人，字幕说“两千八百个人”。只要门口还有人在等，路再快一点我就开，快出来的时间就会被新来的车吃掉。</p>
+    <p>车道从两条加到八条，每次都一样。画面把七档并排：2 条 6090 辆、右侧 45.1；3 条 8972、43.8；4 条 11786、42.7；5 条 14528、41.7；6 条 17202、40.8；7 条 19804、40.0；8 条 22332、39.2。两条到四条、四条到八条都标了约 1.9 倍。右侧那一列视频没有写单位。它随车道变多而下降，幅度是两三分钟，和口播“开车只快两三分钟”对得上，这里按通勤分钟来读，不把它当成时速。</p>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-04.jpg" alt="二到八条车道的车流量与右侧分钟数对照，翻倍处标约1.9倍" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:06] 两条到八条车道并排。车流量大致跟着车道数上升，右侧一列从45.1降到39.2，视频没写单位。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5def284cdea8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Two through eight lanes sit side by side. Traffic rises roughly with the lane count, while the right-hand column falls from 45.1 to 39.2. The video never names the unit.</span></div>
+<audio class="cap-audio" src="audio/5def284cdea8.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <h2>这不只是模型里的事</h2>
+    <p class="time-range">02:10–03:10</p>
+    <p>口播说两位经济学家查了美国 228 个城市、二十年的数据：城市快速路的车道多 10%，车跑的公里数就多 10.3%。会不会是车多的城市才修路？他们拿一百多年前的铁路和探险路线，挑出碰巧路多的城市来比，还是一比一。日本的高速、欧洲 545 个城市、中国 103 个城市，各自算出来也都在一比一上下，有的还更高。口播没有念出人名。片尾“参考文献”画面列出四篇，依次是 Duranton 与 Turner 2011 年《美国经济评论》上的美国城市研究、Hsu 与 Zhang 2014 年关于日本高速的文章、Garcia-Lopez 等人 2022 年关于欧洲公路的文章，以及 Chen 与 Klaiber 2020 年关于中国道路扩建是否诱增交通的文章。人名和期刊是画面上的文献，不是口播原句。</p>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-05.jpg" alt="美日欧中四组对照，车道增加一份时车公里增加约1.03、1.24到1.34、1.2和约1" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:36] 车道多一份，车跑的公里数多几份。美国228城1983到2003年是1比1.03，日本国家高速是1比1.24到1.34，欧洲545城1985到2005年是1比1.2，中国103城约1比1。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6824eb947b5c.mp3" type="button" aria-label="Play English audio">🔊</button><span>For each extra share of lanes, vehicle-kilometers rise by about one share. For 228 U.S. cities from 1983 to 2003 the ratio is 1 to 1.03; Japan’s national expressways are 1 to 1.24–1.34; 545 European cities from 1985 to 2005 are 1 to 1.2; 103 Chinese cities are about 1 to 1.</span></div>
+<audio class="cap-audio" src="audio/6824eb947b5c.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>更出乎意料的是多出来的车从哪来。直觉说是新路把别的路上的车分过来。可美国那笔账里，从别的路挪过来的最多一成；卡车和跑生意的车占两到三成；本地人多开的占一到四成；搬来的人占半成到两成。新路上的车大多是新跑出来的：原来不跑的那一趟，原来不载这座城的人和货。画面把这四类画成区间条，标题是“快速路多 10%，多出来的车从哪来”，并注明是美国、占多出来的车公里的比例。区间的两端以口播的“成”为准，不把看图时的模糊刻度写成另一套精确百分比。</p>
+  </section>
+
+  <section class="story-section">
+    <h2>什么能让车快起来</h2>
+    <p class="time-range">03:10–04:10</p>
+    <p>回到模型，还是三条道，加一条规则：高峰开车要交钱。价钱调到开车正好 30 分钟。口播里的“价钱条到”按语境收成“调到”。这笔钱折成时间大约 15 分钟，开车的代价还是 45 分钟上下，只是其中 15 分钟从堵在路上换成了交钱。画面把这句话画成一条绿括号：开车 30 分钟，交钱约等于 15 分钟，右侧是每小时 6447 辆。和拓宽前不收费的 8972 辆比，收费把车流压下去了，速度则被价钱定在 30 分钟，不再靠排队把自己慢到 44 分钟。</p>
+    <figure>
+      <img src="assets/wider-road-still-jam/shot-06.jpg" alt="高峰收费规则下分布切在30分钟，绿括号表示交钱约等于15分钟，每小时6447辆" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:22] 新规则是高峰开车要交钱。开车钉在30分钟，交钱折成大约15分钟，三车道画面标每小时6447辆。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5c94f663affc.mp3" type="button" aria-label="Play English audio">🔊</button><span>The new rule charges for driving at peak. Driving is pinned at 30 minutes, the charge converts to about 15 minutes, and the three-lane frame marks 6,447 vehicles per hour.</span></div>
+<audio class="cap-audio" src="audio/5c94f663affc.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>下一段是拓宽以后再收费。口播说开车还是 30 分钟，价钱低一点，路上多过三分之一的车，车速由价钱定住。约 3 分 44 秒的一帧把交钱标成约 14 分钟、每小时 8597 辆。8597 相对前面的 6447 大约多三分之一，和“多过三分之一的车”同向，但 14 分钟和口播的“大约 15 分钟”差 1 分钟，正文两边都保留。</p>
+    <p>那两位经济学家的结论，口播转述为：剩下的主要办法是拥堵收费。视频没有在这里比较公交加密、错峰或限行，所以这句是他们在这条论证里的结论，不是一份政策菜单。</p>
+    <p>回到那条快速路。口播把“它没白修”说了两遍：每天早上多运了三分之一的人和货。它做不到的是让车变快。只要门口还有人在等，快出来的那几分钟很快就会被新的车坐满。片长 4 分 10 秒，参考文献停在最后十几秒，没有再给一个新的数字。</p>
+    <p class="note">转录保留 Whisper 原文，其中“拓”常被听成“拖”，“调”被听成“条”。正文按画面上的“拓宽”和收费语境写。第 3 个月的 41 与 42、收费折算的 15 与 14，已在对应段落写明。</p>
+  </section>
+</article>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。原文为繁体识别结果，编辑正文已改为简体。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>上班那條快速路前兩年從三條道拓成了四條</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT5S">00:05</time>
+    <p>剛通車那陣真快</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT7S">00:07</time>
+    <p>可沒過多久又堵回了老樣子</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT10S">00:10</time>
+    <p>路寬了三分之一車怎麼又塞滿了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT13S">00:13</time>
+    <p>把一座城的早高峰搭成模型跑一跑</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT18S">00:18</time>
+    <p>城外住著四萬個早上要進城的人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT21S">00:21</time>
+    <p>一個點是十個人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT23S">00:23</time>
+    <p>每天早上每人都比一比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT25S">00:25</time>
+    <p>開車走這條快速路和別的辦法哪個快</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT29S">00:29</time>
+    <p>別的辦法不只是坐地鐵</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT31S">00:31</time>
+    <p>早點出門繞另一條路</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT33S">00:33</time>
+    <p>這趟乾脆不跑都算都折成分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT37S">00:37</time>
+    <p>每個人不一樣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT38S">00:38</time>
+    <p>有人三十分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT39S">00:39</time>
+    <p>有人五十分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT40S">00:40</time>
+    <p>規則就一條</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT42S">00:42</time>
+    <p>開車更快就開車</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT45S">00:45</time>
+    <p>路上沒車的時候開車只要二十五分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT47S">00:47</time>
+    <p>幾乎人人都想開</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT49S">00:49</time>
+    <p>可開的人一多路就慢</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT52S">00:52</time>
+    <p>慢到四十四分鐘停住了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT54S">00:54</time>
+    <p>這時開車的是別的辦法要四十四分鐘以上的人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT58S">00:58</time>
+    <p>每小時九千輛車</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT61S">01:01</time>
+    <p>現在把路拖成四條道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT63S">01:03</time>
+    <p>你猜開車能快多少</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT65S">01:05</time>
+    <p>要是車還這麼多</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT66S">01:06</time>
+    <p>好算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT67S">01:07</time>
+    <p>四十四分鐘變三十一分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT69S">01:09</time>
+    <p>天天快十三分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT71S">01:11</time>
+    <p>這是直覺裡的那座城</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT74S">01:14</time>
+    <p>但模型裡的人會改主意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT76S">01:16</time>
+    <p>每個月有二十分之一的人重新比一次</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT80S">01:20</time>
+    <p>拖寬第一個月真快了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT82S">01:22</time>
+    <p>三十一分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT84S">01:24</time>
+    <p>可三十一分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT85S">01:25</time>
+    <p>比很多人的別的辦法都快了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT87S">01:27</time>
+    <p>坐地鐵的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT88S">01:28</time>
+    <p>早早出門的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT89S">01:29</time>
+    <p>原來不跑的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT90S">01:30</time>
+    <p>開始改開車</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT91S">01:31</time>
+    <p>第三個月</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT92S">01:32</time>
+    <p>四十一分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT93S">01:33</time>
+    <p>第六個月</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT94S">01:34</time>
+    <p>四十三分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT95S">01:35</time>
+    <p>之後就穩住了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT97S">01:37</time>
+    <p>只比拖寬前快一分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT99S">01:39</time>
+    <p>路上的車卻從每小時九千輛變成了一萬一千八</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT103S">01:43</time>
+    <p>車道多了三分之一</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT104S">01:44</time>
+    <p>車也多了差不多三分之一</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT108S">01:48</time>
+    <p>為什麼偏偏停在差不多的地方</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT110S">01:50</time>
+    <p>看門口這些人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT111S">01:51</time>
+    <p>開車快出來的這一分鐘裡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT113S">01:53</time>
+    <p>站著兩千八百個人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT115S">01:55</time>
+    <p>只要門口還有人在等</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT116S">01:56</time>
+    <p>路再快一點我就開</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT118S">01:58</time>
+    <p>快出來的時間</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT119S">01:59</time>
+    <p>就會被新來的車吃掉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT121S">02:01</time>
+    <p>車道從兩條加到八條</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT123S">02:03</time>
+    <p>每次都一樣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT124S">02:04</time>
+    <p>車道翻倍</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT125S">02:05</time>
+    <p>車也差不多翻倍</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT127S">02:07</time>
+    <p>開車只快兩三分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT130S">02:10</time>
+    <p>這不只是模型裡的事</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT132S">02:12</time>
+    <p>兩位經濟學家查了美國228個城市</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT135S">02:15</time>
+    <p>二十年的數據</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT136S">02:16</time>
+    <p>城市快速路的車道多百分之十</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT139S">02:19</time>
+    <p>車跑的公里數就多百分之十點三</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT142S">02:22</time>
+    <p>會不會是車多的城市才修路</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT144S">02:24</time>
+    <p>他們拿一百多年前的鐵路和探險路線</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT147S">02:27</time>
+    <p>挑出碰巧路多的城市來比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT149S">02:29</time>
+    <p>還是一比一</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT151S">02:31</time>
+    <p>日本的高速</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT152S">02:32</time>
+    <p>歐洲545個城市</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT154S">02:34</time>
+    <p>中國103個城市</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT156S">02:36</time>
+    <p>各自算出來也都在一比一上下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT158S">02:38</time>
+    <p>有的還更高</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT161S">02:41</time>
+    <p>更出乎意料的是多出來的車從哪來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT164S">02:44</time>
+    <p>直覺說是新路</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT166S">02:46</time>
+    <p>把別的路上的車分了過來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT169S">02:49</time>
+    <p>可美國那筆帳裡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT170S">02:50</time>
+    <p>從別的路挪過來的最多一成</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT173S">02:53</time>
+    <p>卡車和跑生意的車占兩到三成</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT177S">02:57</time>
+    <p>本地人多開的一到四成</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT179S">02:59</time>
+    <p>搬來的人半成到兩成</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT182S">03:02</time>
+    <p>新路上的車大多是新跑出來的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT185S">03:05</time>
+    <p>原來不跑的那一趟</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT187S">03:07</time>
+    <p>原來不載這座城的人和貨</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT190S">03:10</time>
+    <p>那什麼能讓車快起來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT192S">03:12</time>
+    <p>回到模型</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT193S">03:13</time>
+    <p>還是三條道加一條規則</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT195S">03:15</time>
+    <p>高峰開車要交錢</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT197S">03:17</time>
+    <p>價錢條到開車正好30分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT200S">03:20</time>
+    <p>這比錢折成時間大約15分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT203S">03:23</time>
+    <p>開車的代價還是45分鐘上下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT206S">03:26</time>
+    <p>只是其中15分鐘從堵在路上換成了交錢</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT210S">03:30</time>
+    <p>這是在拓寬</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT211S">03:31</time>
+    <p>開車還是30分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT213S">03:33</time>
+    <p>價錢低一點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT214S">03:34</time>
+    <p>路上多過三分之一的車</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT216S">03:36</time>
+    <p>車速由價錢定住</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT218S">03:38</time>
+    <p>不再靠排隊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT219S">03:39</time>
+    <p>那兩位經濟學家的結論也是</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT221S">03:41</time>
+    <p>剩下的主要辦法是擁堵收費</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT225S">03:45</time>
+    <p>回到那條快速路</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT226S">03:46</time>
+    <p>它沒白修</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT227S">03:47</time>
+    <p>它沒白修</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT228S">03:48</time>
+    <p>每天早上多運了三分之一的人和貨</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT231S">03:51</time>
+    <p>它做不到的是讓車變快</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT233S">03:53</time>
+    <p>只要門口還有人在等</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT235S">03:55</time>
+    <p>快出來的那幾分鐘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT237S">03:57</time>
+    <p>很快就會被新的車坐滿</p>
+  </li>
+</ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5256" viewBox="0 0 1320 5256">
+  <foreignObject x="0" y="0" width="1320" height="5256">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;max-width:180px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>倾斜角度怎样改拉花的流距</h1>
+  <div class="meta">
+    <span class="tag tag-blue">咖啡拉花</span>
+    <span class="tag tag-green">44秒</span>
+    <span class="tag tag-orange">喆意咖啡培训</span>
+    <span class="tag tag-gray">作者演示，不是行业标准</span>
+  </div>
+  <div class="summary-line">这支片子真正在回答的是：杯子倾角变了，奶泡落下的距离跟着变，纹路才会浮起来或被压下去。45° 只是作者给融合阶段的一个数字，结尾卡把关系收成「角度越小，流距越大」。</div>
+
+  <div class="timeline">
+    <h3>关键证据</h3>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">口播与字幕同时给出融合角度：杯子倾斜 45°。这是作者的操作规定，画面未附量角器。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08</span><span class="timeline-text">出图条件被说成低流距、大流量。听写「出土」与字幕「出图」冲突，采用字幕。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">正确一轮的可见结果是杯面中央一枚白色心形。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:21</span><span class="timeline-text">倾角变小后，放大圈里奶泡堆在液面中央，字幕写难以形成图案。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:24</span><span class="timeline-text">原因句：流距被拉高，奶泡向下注入，纹路被压到浓缩液面下。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:31</span><span class="timeline-text">对照句：杯子足够倾斜，流距大大降低，奶泡漂在表面。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:42</span><span class="timeline-text">总结卡两条未被逐字念出：角度越小流距越大；流距加大影响图案形成。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">杯子倾角</div>
+      <div class="arrow">→</div>
+      <div class="node">液面相对杯口的高度</div>
+      <div class="arrow">→</div>
+      <div class="node">奶缸嘴到液面的流距</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">奶泡浮在表面</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">纹路能否推开</div>
+    </div>
+    <p>中间两步是根据口播和笔记文案作的连接：倾角让液面下沉或偏高，流距因此变短或被拉高。片子没有单独测量液面高度。</p>
+  </div>
+
+  <div class="correction">
+    <h3>常见误读</h3>
+    <p>不要把听写里的「出土」「页面」「搅拌阵子」当成拉花术语。字幕分别是「出图」「液面」「搅拌这里」。也不要把结尾卡左右两边未标注的倒奶画面，说成已经标好对错的对照实验。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">倾角是在调流距，不是在选花型</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>同一套倒奶，只把杯子倾角改小，图案就从可完成的心形变成挤在一起的白团。作者没有改口说换了郁金香或树叶，变量被放在倾角和流距上。</p>
+      <div class="highlight">关键理解：流距是奶泡从缸嘴到液面的路程。倾角通过液面高低来改这段路程。</div>
+      <div class="action">怎么用：纹路推不开时，先看杯子是不是太平、缸嘴是不是离液面太远，再决定要不要改手腕花型。</div>
+      <div class="quote">原文依据（00:24–00:38）：流距被拉高则奶泡向下注入；杯子足够倾斜则流距大大降低，奶泡漂在表面。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点，不是测量结论</h3>
+      <p><span class="tag tag-purple">观点</span>融合阶段应把杯子倾斜到 45°，再压低流距、开大流量出图。这个数字口播和 00:07 字幕一致，笔记文案也写了 45°。</p>
+      <p><span class="tag tag-gray">未核实</span>画面没有刻度。不能把「看起来大约 45°」写成实测，也不能把 45° 推广成所有杯型的固定角。</p>
+      <div class="relation">笔记文案补充了口播没展开的半句：这个角度会让液面下沉、流距变短。文案在「向下冲进浓缩液内部」处截断，不能据此补写后半。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>失败态怎么认</h3>
+      <p>可见事实是 00:21 放大圈里奶泡堆成一团，字幕写难以在液面形成图案。口播补充的机制是向下注入、纹路被压到液面下。深度本身看不见。</p>
+      <div class="pitfall">不要把「推不开」理解成奶泡太少或手腕不会摆。在这支片子里，作者把同一现象归因于倾角变小之后的流距。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>两种倒法对照</h3>
+    <table>
+      <thead>
+        <tr><th>条件</th><th>作者怎么说</th><th>画面能核对的</th><th>画面不能核对的</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>融合倾角按 45°，再低流距大流量</td>
+          <td>液面下沉，流距变短，奶泡漂在表面</td>
+          <td>00:07 侧杯搅拌；00:09 缸嘴贴近、波纹摊开；00:12 白色心形</td>
+          <td>45° 的实测值；流量的毫升每秒</td>
+        </tr>
+        <tr>
+          <td>倾角变小</td>
+          <td>流距被拉高，奶泡向下注入，纹路压到液面下</td>
+          <td>00:18 字幕宣布倾角变小；00:21 奶泡堆在中央、未成形</td>
+          <td>左右分屏哪一侧是错误样本；下冲的深度</td>
+        </tr>
+        <tr>
+          <td>结尾口诀</td>
+          <td>口播没有逐字念</td>
+          <td>00:42 卡面：角度越小流距越大；流距加大影响图案形成</td>
+          <td>「越大」「影响」没有数量级</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">适用边界</h2>
+    <div class="card card-red">
+      <h3>这支片子管得到哪里</h3>
+      <ul>
+        <li>只覆盖这一只黑杯、这一缸奶、这一枚心形的前后对比。杯沿高度、浓缩液量、奶泡厚度都没有单独报出来。</li>
+        <li>「大流量」没有和细流融合分开计时。融合阶段画面上的奶流是细的，出图阶段字幕才写大流量。不要把全程都倒成大流量。</li>
+        <li>总结卡左右画面没有对错标签。关系以卡上两句和口播为准，不以分屏左右为准。</li>
+        <li>听写误差已用字幕校正。若只看转录文本，「出土」「页面」会把动作听成别的词。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>命题是倾角通过流距决定纹路能不能浮在液面上，不是先选一种花型。</li>
+      <li>可核对的结果：侧杯融合后能做出心形；倾角变小后奶泡堆成一团。</li>
+      <li>45° 与「角度越小流距越大」都是这支片子的说法。前者有口播和字幕，后者只在总结卡上。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>融合时先把杯子侧到液面离开你这一侧杯沿、靠近缸嘴，再对照作者说的 45°，不要空背角度。</li>
+      <li>出图前确认缸嘴已经贴近液面，然后再开大流量。高流距上不要直接猛倒。</li>
+      <li>纹路挤成一团时，先加大倾角重做同一颗心，不要先换花型。</li>
+      <li>用同一杯、同一缸各做一次大倾角和一次小倾角，只比较液面高度和图案是否推开。</li>
+      <li>换杯型或奶泡变厚之后，重新看流距，不要继续沿用这支片子的 45°。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前容易盯着花型好不好看。这里先看杯子有没有把液面送到缸嘴下面。</li>
+      <li>以前容易把听写错词当成手法名。字幕上的「出图」「液面」才是这支片子的用词。</li>
+      <li>以前容易把结尾分屏当成已经标注的对错。这张卡只给了两句关系，没有给左右标签。</li>
+    </ul>
+  </div>
+  <div class="footer">依据本地转录、画面字幕与笔记文案。未重新访问小红书。45° 与流距均无独立测量。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

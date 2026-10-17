@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7305" viewBox="0 0 1320 7305">
+  <foreignObject x="0" y="0" width="1320" height="7305">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>柯达 2383 LUT：先送进 Cineon，再处理四个副作用</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色</span>
+    <span class="tag tag-green">达芬奇 LUT</span>
+    <span class="tag tag-orange">10分34秒</span>
+    <span class="tag tag-purple">Vivi Lyn 的用法</span>
+    <span class="tag tag-gray">只写本片，不写印片史</span>
+  </div>
+  <div class="summary-line">这条视频回答的是：达芬奇 Film Looks 里的柯达 2383 要接在什么伽马后面，套完以后曝光、色相和饱和会怎样跑。它不是在定义 2383 这卷胶片。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:02</span><span class="timeline-text">六只立方体：DCI-P3 / Rec.709，乘上 D55、D60、D65。口播未讲选用规则。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:02</span><span class="timeline-text">树林素材的色彩空间转换：索尼 S-Gamut3.Cine、S-Log3 进，Rec.709 出，输出伽马改为 Cineon Film Log。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:32</span><span class="timeline-text">灰阶条在波形上不再是直线。用来看影调，不看具体景物。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:00</span><span class="timeline-text">滑板节点顺序：pri、bal、指向 709、2383。她说唯一改动是输出伽马。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:46</span><span class="timeline-text">青绿衣服往橙黄，蓝滑板和蓝天往青，饱和度升高。</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:42</span><span class="timeline-text">矢量图：偏黄的绿往黄，偏青的绿往青。D60 与 D65 都还有这个问题。</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:20</span><span class="timeline-text">压缩素材还原后噪点很重，节点最前是 NR。</span></div>
+    <div class="timeline-item"><span class="timeline-time">09:45</span><span class="timeline-text">四个坑：过曝、色相偏离、宽容度不足时的色彩断裂、饱和度溢出。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">LUT 要吃哪种伽马</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">Cineon Film Log 再套 2383</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">曝光、色相、饱和跑偏</div>
+      <div class="arrow">→</div>
+      <div class="node">按项目再修，不当成片</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>和「色彩密码」那条不要并成一件事</h3>
+    <p>已发布的短片讲 2383 是放映印片、黑场和灰阶，并预告下期才讲怎么用。本片就是用法：节点、伽马、三条素材上的坑。片头黄字解释 Cineon Film Log 是数字中间片曲线，只作为这一帧的字幕，不把印片史写进操作结论。富士 3513DI 只出现在同一个 LUT 夹里，没有被演示。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">入口条件</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>2383 文件在达芬奇里按目标色域和白点分开。演示里真正被改的旋钮，是色彩空间转换的输出伽马。</p>
+      <div class="highlight">画面事实：01:02 之前输出伽马是 Gamma 2.4，这一帧改成 Cineon Film Log。输入只在树林条上读到 Sony S-Gamut3.Cine / S-Log3。滑板条口播只说 Red 摄影机，没有念输入色彩空间。</div>
+      <div class="quote">「唯一动的地方就是在这里给它输出伽马换成 Cineon Film Log，然后应用一个 2383 LUT。」听写是 UPGAMA、CINEMFILM LOCK，以检查器文字为准。</div>
+      <div class="action">用法：先做出一个自己接受的 Rec.709 或对数起点，确认输出伽马是 Cineon Film Log，再把 LUT 放在这个节点之后。pri、bal 在 04:00 的图上位于 2383 之前。</div>
+      <div class="relation">灰阶条说明她在看整条影调曲线，不是只看一张好看的静帧。波形被弯过，具体斜率本片没有读数。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点</h3>
+      <p>她把这套 LUT 称为调色起点的其中一个方案，可以按项目和风格换别的 LUT，也可以在后面加质感节点，再做风格化。质感节点在画面上标成 Texture，没有给出颗粒参数。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">套完以后什么会动</h2>
+    <div class="card card-orange">
+      <h3>曝光先越界</h3>
+      <p>她的判断：应用完之后整体曝光影调超出合理范围，所以还要再调素材。合理范围没有示波器数字。这是第一个坑，片尾又叫做过曝。</p>
+      <div class="pitfall">不要把 LUT 节点当成最后一档就输出。她的链在 2383 后面仍留着调整，第三条素材上还有窗口和校色。</div>
+    </div>
+    <div class="card">
+      <h3>色相按方向拆开</h3>
+      <p>滑板例：青绿色衣服往橙黄，蓝色滑板和蓝色天空往青，饱和度也升高。她点明，若是产品或服装广告，这些地方要修。</p>
+      <p>树林的矢量图把同一件事说得更细：Rec.709 时绿色集中在偏青黄的一侧；套上之后，偏黄的绿往黄，偏青的绿往青。她说示波器方向和色轮方向对应，所以读的是色相角，不是饱和旋钮本身。</p>
+      <div class="insight">D60 和 D65 都被她说成「问题依然存在」。换白点不能取消这种分离。D55 在文件列表里，口播没有比较。</div>
+    </div>
+    <div class="card card-red">
+      <h3>饱和溢出，以及宽容度不够时的断裂</h3>
+      <p>饱和度溢出在滑板段被点名，但随即口播中断，没有留下可引用的局部细节。五分二十八秒的检查器打开了色域映射菜单，里面能看到 Saturation Compression。菜单出现不等于已经采用，正文不把它写成她的最终参数。</p>
+      <p>色彩断裂到片尾才单独列出，条件是素材宽容度不够。这是作者根据前面绿被拆开的观察做的归纳，没有单独的测试图。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>四个坑对照</h3>
+    <table>
+      <tr><th>坑</th><th>本片证据</th><th>她建议的下一步</th><th>证据强弱</th></tr>
+      <tr><td>过曝 / 影调越界</td><td>套完后她说整体超出合理范围</td><td>在 LUT 基础上再调素材</td><td>口播判断，无读数</td></tr>
+      <tr><td>色相严重偏离</td><td>衣服、滑板、天空；矢量图上绿被拆开</td><td>广告类画面要再修正；D60、D65 都躲不开</td><td>有指认，无色相角数字</td></tr>
+      <tr><td>色彩断裂</td><td>片尾与「宽容度不够」绑在一起</td><td>宽容度不大时要特别留心</td><td>归纳，没有单独样张</td></tr>
+      <tr><td>饱和度溢出</td><td>滑板段点名，句子被听写打断</td><td>检查器里能看到饱和压缩选项</td><td>问题成立，局部细节缺失</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>文件怎么选，本片实际说了什么</h3>
+    <table>
+      <tr><th>选项</th><th>画面</th><th>口播</th></tr>
+      <tr><td>Rec.709 与 DCI-P3</td><td>各三只立方体</td><td>没有选用规则</td></tr>
+      <tr><td>D65</td><td>列表中被点到，开头高亮过</td><td>她说刚才看的是这一档</td></tr>
+      <tr><td>D60</td><td>灰阶段来回点过</td><td>色相分离问题仍在</td></tr>
+      <tr><td>D55</td><td>只有文件名</td><td>未讨论</td></tr>
+      <tr><td>其他 LUT</td><td>同夹有富士 3513DI，未打开</td><td>色温太冷可以换别的，都算可以</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">坏素材上的位置</h2>
+    <div class="card card-green">
+      <h3>降噪和窗口在 LUT 上游补洞</h3>
+      <p>第三条是压缩过的素材，机型听写不可用。还原到 Rec.709 时噪点已经很重，节点最前标着 NR。她用二级窗口拉回天空高光，压泳池高光和一块颜色，再做颜色校正，然后才比较套 2383 前后。</p>
+      <div class="action">用法：噪点和局部高光先处理，再让 LUT 吃画面。她没有演示降噪强度，也没有演示窗口跟踪。</div>
+      <div class="relation">这条和滑板条共用同一个结论：2383 放大已有的问题。滑板放大的是色相和饱和，这条放大的是噪点和高光。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">立场与边界</h2>
+    <div class="card">
+      <h3>三层不要混</h3>
+      <ul>
+        <li>画面事实：六只 LUT 文件名，Cineon Film Log 字样，节点标签 pri / bal / 709 / 2383 / NR / Texture，灰阶波形被弯过。</li>
+        <li>作者观点：套完影调超出合理范围；这套只是起点；好看之外还要服务剧情。</li>
+        <li>推断：D665 是 D65 的听写误差；矢量图指 Vectorscope。机型名和片尾一个词保持无法确认。</li>
+      </ul>
+      <div class="pitfall">不适用：不能据此写出印片密度或片基寿命；不能把索尼输入色彩空间套到 Red 素材；不能把 D55 说成同样安全或同样危险；不能把菜单里的 Saturation Compression 写成已采用的参数。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>正确使用在本片里是一个顺序：色彩空间转换把输出伽马放到 Cineon Film Log，LUT 接在还原和平衡之后，然后处理它带来的曝光、色相和饱和。白点 D60 与 D65 都不取消色相分离。</p>
+    <h3>行动清单</h3>
+    <ol>
+      <li>先确认时间线要去的是 Rec.709 还是 DCI-P3，再点对应的那一只。本片没有替你选。</li>
+      <li>套之前把输出伽马改成 Cineon Film Log，不要停在 Gamma 2.4 就当已经对齐。</li>
+      <li>用灰阶或示波器看影调有没有顶出去，再看衣服、天空这类记忆色往哪偏。</li>
+      <li>矢量图上分开看偏黄的绿和偏青的绿，不要用一个饱和旋钮同时救两边。</li>
+      <li>噪点重或高光局部爆的素材，先降噪、先做窗口，再让 2383 当起点。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>2383 不是一键电影感。它是一个会改写色相方向的起点。换 D60 或 D65 换的是白点，不换掉这种分离。成片感要靠后面的节点和项目本身的剧情，不靠把 LUT 再叠一次。</p>
+  </div>
+  <div class="footer">来源：Vivi Lyn 小红书，2026-10-17，10分34秒。口播空洞处以抽帧为准。不访问平台页面。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

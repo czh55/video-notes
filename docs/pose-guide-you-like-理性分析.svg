@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5898" viewBox="0 0 1320 5898">
+  <foreignObject x="0" y="0" width="1320" height="5898">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:150px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>那些你喜欢看的“引导与姿态”</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影姿态</span>
+    <span class="tag tag-green">道具引导</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-gray">3分38秒 · YEZHOU叶洲</span>
+  </div>
+  <div class="summary-line">喜欢看的引导，不是把食物送到嘴边就结束，而是先让物体占住一个形态，再用视线和是否真的吃，把同一种道具拆成两种状态。</div>
+
+  <div class="timeline">
+    <h3>关键证据</h3>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">字幕先点出观众习惯：薯片拿到这儿，或拿在这儿。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:34</span><span class="timeline-text">第一种吃法被说成很轻松，手里同时有袋子和一根细长零食。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:54</span><span class="timeline-text">第二种不看镜头。字幕说拿薯片时都不会看你，然后拿着不吃。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:28</span><span class="timeline-text">口播：第一步不是马上跟水果做动作，只问能不能有一个特别好的形态。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:58</span><span class="timeline-text">大笑被改写成全身先有状态、饱满、有肢体的力量，然后再笑。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:32</span><span class="timeline-text">杯子可以不喝。牙齿和嘴唇跟它有触碰感，用来给极其柔和的状态。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:02</span><span class="timeline-text">同一杯水端着不喝。字幕说这次喝得很装，什么都没换。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:16</span><span class="timeline-text">作者自己收束：我觉得我没什么特定的风格。之后是片尾字，没有新方法。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">普通道具<br/>薯片 / 水果 / 水</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">先占一个形态<br/>贴脸、微碰、触杯沿</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">再选状态<br/>看或不看、吃或不吃</div>
+      <div class="arrow">→</div>
+      <div class="node">结论<br/>风格不是换道具</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>标题里的“引导与姿态”容易被听成一套固定摆拍。视频实际做的是三轮对比：同一个东西，换接触和视线。他把结果叫作高级、真实、没特定风格，这些都是个人口味，画面只证明他换了动作，没有证明哪种更好看。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">形态先于动作</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>水果段把方法说得最清楚。物体拿在手里是普通的。拍摄的第一步不是设计“爱吃”或“马上咬”，而是先问这个物体能不能单独成为一个好看的形状。</p>
+      <div class="quote">“我不会去想说我马上要跟它去做个什么动作……我只会想我能不能有一个特别好的形态。”</div>
+      <p><strong>怎么用：</strong>先固定嘴和物体的距离，再决定要不要笑、要不要咬。微碰是接触，不是进食。</p>
+      <p><strong>依据：</strong>01:28–01:44 口播，02:02 画面是果肉横在嘴前、挡住下半张脸。水果品种视频没说，不能另起名字。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点：大笑要借全身</h3>
+      <p>他反对“马上大笑”。顺序是手里的东西先有状态，人再“哇”一下，全身饱满、有肢体的力量，然后才笑。这是拍摄口诀，不是表情肌的生理说明。</p>
+      <div class="quote">“你不是说马上它大笑，而是你拿着东西它有个状态……啪一笑，这才是你拍一个这个物体真实的可能性。”</div>
+      <p>01:56 前后手在动，定格糊，不能把某一帧当成标准大笑脸。能核对的是这句话的顺序：状态在前，笑声在后。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">同一道具的两种状态</h2>
+    <div class="card card-green">
+      <h3>薯片：轻松，对不看镜头</h3>
+      <p>观众的第一点被他猜成“袋子放哪”。他接受这个起点，但立刻拆成两种吃法。柔和的一种看着镜头、拿得很松；重点的一种不看镜头，而且不吃进去。</p>
+      <div class="quote">字幕：“你发没发现这是两种状态。”口播在 01:09 与这句对齐。</div>
+      <div class="pitfall">“因为我很帅”是自嘲口吻。它解释不了为什么不看镜头，只能说明他在用玩笑把第二种状态说圆。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>水杯：柔和触碰，对端着装一下</h3>
+      <p>第一种明确不马上喝。杯子的工作是让牙齿和嘴唇有触碰感，从而给出“极其柔和”。第二种宣布要喝，随即不喝，端着，视线移开。字幕把第二种叫作喝得很装。</p>
+      <div class="quote">“这个杯子我不一定要喝，但是我可以用它去让我给一种极其柔和的状态。”</div>
+      <div class="quote">03:08 字幕：“你有没有发现我同样一杯水，什么都没换。”</div>
+      <p>Whisper 把“盯着它”听成“听着它”。02:30 字幕是“碰到盯着它”，分析采用盯着。装是作者对自己第二种喝法的评价，不是对观众的指令。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三样道具怎么分工</h3>
+    <table>
+      <tr><th>道具</th><th>观众容易先做的事</th><th>他改成的关系</th><th>证据</th></tr>
+      <tr><td>绿色零食袋（他称薯片）</td><td>先决定袋子贴脸还是拿在手里</td><td>轻松地拿，或不看镜头、拿着不吃</td><td>00:06–01:06 字幕与口播</td></tr>
+      <tr><td>粉色水果</td><td>马上咬，或用它表演爱吃、大笑</td><td>先要形态，嘴微碰；大笑前全身先有力量</td><td>01:19–02:08 口播，02:02 画面</td></tr>
+      <tr><td>一杯水</td><td>举杯就喝</td><td>可以只触杯沿求柔和，也可以端着不喝、把视线移开</td><td>02:25–03:16 口播与字幕</td></tr>
+    </table>
+    <p>三行都是现场演示，没有第二位模特，也没有成片对比。能迁移的是“先形态、后动作”，不能迁移成“这样拍就高级”。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">边界</h2>
+    <div class="card card-orange">
+      <h3>这套说法停在哪里</h3>
+      <ul>
+        <li>只发生在一间夜里的室内，身后有玻璃和灯架。没有户外、没有全身步态、没有多人互动。</li>
+        <li>“高级”“真实的可能性”“没什么特定的风格”都是作者收束时的自我判断。视频没有观众测试，也没有前后成片。</li>
+        <li>00:04–01:00 的识别是空的，靠烧录字幕恢复。字幕本身也可能截断，和口播对得上的句子才写入结论。</li>
+        <li>03:16 之后是片尾 YE ZHOU，不能再往下推断拍摄步骤。</li>
+        <li>食物入镜只被当作姿态道具。他反复说不一定吃、不一定喝，视频没有讨论卫生或表演进食的分寸。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>引导是物体和嘴、手、视线的关系，不是把吃或喝做完。</li>
+      <li>同一个道具至少可以有两种状态：看镜头的放松，和不看镜头、不做完动作。</li>
+      <li>大笑被他放在肢体状态之后，而不是放在嘴的瞬间。</li>
+      <li>风格在这支视频里被说成可变的状态，不是固定标签。这是观点。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>拿一个随手物体，先只让它碰到嘴唇，停住，不完成吃或喝。</li>
+      <li>同一摆法拍两张：一张看镜头、肩放松；一张视线离开镜头。</li>
+      <li>要笑的时候先让手臂和上身有一个撑住的形状，再出表情。</li>
+      <li>拍完只问一句：我换的是道具，还是换的是状态。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前会先想“这个东西该怎么吃才上镜”。现在先问“它能不能单独占住一个形态”。吃不吃、看不看镜头，是形态之后的第二层选择。作者把第二层叫作没有特定风格，读者可以只借用这个顺序，不必接受“高级”这个评语。</p>
+  </div>
+  <p class="footer">依据本地转录与烧录字幕。00:04–01:00 口播识别为空，该段以画面字幕为准。未访问小红书页面。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

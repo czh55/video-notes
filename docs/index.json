@@ -1,5 +1,802 @@
 [
   {
+    "date": "2026-10-17",
+    "title": "Lightroom 调色：先打白平衡，再往影调里加色",
+    "summary": "调色面板是往阴影、中间调和高光里加颜色，不是改已有的颜色。先用色温和色调打底，纯黑纯白要先抬进影调，再用互补、单色或自由实验，并离开一会儿再看。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色",
+      "二级调色"
+    ],
+    "tool": "lightroom",
+    "tags": [
+      "色轮",
+      "互补色",
+      "白平衡",
+      "色彩疲劳",
+      "颜色混合器"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3NwL5fkSLdy",
+    "duration": "21分20秒",
+    "outputs": {
+      "html": "lightroom-perfect-grade-beginner-图文实录.html",
+      "svg": "lightroom-perfect-grade-beginner-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 88,
+    "svg_height": 6906,
+    "slug": "lightroom-perfect-grade-beginner"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "调色发脏必看！铃木达也日系高级灰底层逻辑",
+    "summary": "灰韵调色用一张雨天街拍讲铃木达也式高级灰：先抬曝光再压高光、提阴影，曲线抽黑场，色温略偏冷，纹理降、清晰度升，混色器只提橙黄明度，再用通道计算和 Retouch4me 处理皮肤。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色",
+      "二级调色",
+      "仿色"
+    ],
+    "tool": "photoshop",
+    "tags": [
+      "高级灰",
+      "铃木达也",
+      "动态范围压缩",
+      "通道计算",
+      "Retouch4me"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2NZLPLALcGO",
+    "duration": "12分11秒",
+    "outputs": {
+      "html": "suzuki-japanese-gray-grade-图文实录.html",
+      "svg": "suzuki-japanese-gray-grade-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 440,
+    "svg_height": 7355,
+    "slug": "suzuki-japanese-gray-grade"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "柯达 2383 LUT 怎么套，套完盯哪四个坑",
+    "summary": "Vivi Lyn 讲达芬奇里怎么把柯达 2383 当调色起点：先把输出伽马换成 Cineon Film Log 再套 LUT。套完要盯过曝、色相偏移、宽容度不够时的色彩断裂，以及饱和度溢出。",
+    "primary": "color-grade",
+    "skills": [
+      "LUT",
+      "节点系统",
+      "一级校色",
+      "二级调色"
+    ],
+    "tool": "davinci",
+    "tags": [
+      "柯达2383",
+      "Cineon Film Log",
+      "色相偏移",
+      "饱和度溢出",
+      "调色起点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4YPSI90okhB",
+    "duration": "10分34秒",
+    "outputs": {
+      "html": "kodak-2383-lut-correct-use-图文实录.html",
+      "svg": "kodak-2383-lut-correct-use-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 135,
+    "svg_height": 7305,
+    "slug": "kodak-2383-lut-correct-use"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "诺兰电影的胶片质感，要怎么调？",
+    "summary": "达芬奇可以模拟诺兰成片的外观，但质感在拍摄阶段就由曝光、灯光、服装和置景定下。后期该模仿的是影调分布和色彩结构，颗粒只靠近观众看到的成片，不是还原65毫米负片。",
+    "primary": "color-grade",
+    "skills": [
+      "仿色",
+      "一级校色",
+      "二级调色",
+      "节点系统"
+    ],
+    "tool": "davinci",
+    "tags": [
+      "诺兰",
+      "胶片模拟",
+      "奥本海默",
+      "Color Slice",
+      "影调"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1QgaN67DeYr",
+    "duration": "10分13秒",
+    "outputs": {
+      "html": "nolan-film-look-grade-图文实录.html",
+      "svg": "nolan-film-look-grade-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 241,
+    "svg_height": 6696,
+    "slug": "nolan-film-look-grade"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "索尼 A6700 三年私藏设置",
+    "summary": "颜颜相机用三年 A6700 习惯讲快捷键和直出：AF-ON 切手动取景，删除键调亮度，中心键做清晰影像缩放。好光拍 4K60 选低码率，过热则开屏并把自动关机温度调到高。",
+    "primary": "photo",
+    "tags": [
+      "A6700",
+      "自定义键",
+      "创意外观",
+      "动态范围优化",
+      "过热关机"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3Zwy0y18ASR",
+    "duration": "5分16秒",
+    "outputs": {
+      "html": "sony-a6700-hidden-settings-图文实录.html",
+      "svg": "sony-a6700-hidden-settings-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 69,
+    "svg_height": 6236,
+    "slug": "sony-a6700-hidden-settings"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "路修宽了，为什么还是堵？",
+    "summary": "一条快速路从三车道拓成四车道后，模型里开车只比原来快约一分钟，每小时车流却从约9000辆增到约11800辆。画面对照美国、日本、欧洲和中国，车道增加和车公里增加接近一比一。作者认为剩下的主要办法是拥堵收费。",
+    "primary": "auto-digital",
+    "tags": [
+      "诱导需求",
+      "拥堵收费",
+      "车道拓宽",
+      "早高峰模型",
+      "车公里"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1zRoaWoT9fL",
+    "duration": "4分10秒",
+    "outputs": {
+      "html": "wider-road-still-jam-图文实录.html",
+      "svg": "wider-road-still-jam-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 111,
+    "svg_height": 7017,
+    "slug": "wider-road-still-jam"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "隔壁车道真的更快？",
+    "summary": "堵车时隔壁常常这一秒更快，是因为你留在堵团里；一整趟两条道却差不多。I-80 上优势只剩约 6%，见快就并早到的是几十秒，还有开局更晚。",
+    "primary": "auto-digital",
+    "tags": [
+      "隔壁车道",
+      "变道收益",
+      "交通错觉",
+      "I-80轨迹",
+      "跟车仿真"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8gS4Epeyfk2",
+    "duration": "4分05秒",
+    "outputs": {
+      "html": "other-lane-seems-faster-图文实录.html",
+      "svg": "other-lane-seems-faster-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 45,
+    "svg_height": 7166,
+    "slug": "other-lane-seems-faster"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "人像调色：别让颜色抢了主角",
+    "summary": "灰韵调色用一张户外笑脸示范人像主次：先立影调让暗部有重量，再收掉抢戏的黄绿，最后用蒙版和通道守住人物原有的光。颜色可以改，别把人修丢。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "人像调色",
+      "背景减法",
+      "通道计算",
+      "蒙版",
+      "灰韵调色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8suSjGp4VYS",
+    "duration": "8分21秒",
+    "tool": "photoshop",
+    "outputs": {
+      "html": "portrait-grade-color-not-hero-图文实录.html",
+      "svg": "portrait-grade-color-not-hero-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 365,
+    "svg_height": 7641,
+    "slug": "portrait-grade-color-not-hero"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "我的全新工作流，Opus 5.5 + AE + 达芬奇",
+    "summary": "老萨把 Opus 5.5 接到达芬奇 Studio 和 AE：先调色，再做动效和剪辑。口播空档里，画面给出 AE 的 MCP 安装命令，并比较 Remotion 更适合卡片图表。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "Opus 5.5",
+      "达芬奇Studio",
+      "After Effects",
+      "MCP",
+      "Remotion"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6XOwp1kWqk3",
+    "duration": "7分01秒",
+    "outputs": {
+      "html": "opus-ae-davinci-workflow-图文实录.html",
+      "svg": "opus-ae-davinci-workflow-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 93,
+    "svg_height": 6072,
+    "slug": "opus-ae-davinci-workflow"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "达芬奇教程｜饱和度怎么加才不廉价？",
+    "summary": "三种加饱和结果不同：HSV 或 HSL 节点只留通道二，RGB 混合器改输出混合比。作者说 HSV 更压明度、看起来更厚，但不等于胶片减色；HSL 更留亮度。她认为没有更高级的方法，自己 HSV 用得相对多。",
+    "primary": "color-grade",
+    "skills": [
+      "节点系统"
+    ],
+    "tags": [
+      "HSV饱和度",
+      "HSL饱和度",
+      "RGB混合器",
+      "通道隔离",
+      "明度压缩"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5m4QIfHp8Tv",
+    "duration": "3分42秒",
+    "tool": "davinci",
+    "outputs": {
+      "html": "davinci-saturation-not-cheap-图文实录.html",
+      "svg": "davinci-saturation-not-cheap-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 82,
+    "svg_height": 6735,
+    "slug": "davinci-saturation-not-cheap"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "达芬奇 21.1 MCP × Codex 调色实测",
+    "summary": "达芬奇 21.1 用 MCP 把 Claude 和 Codex 接到调色页。粗提示能做一级和参考匹配，天空、草地和肤色仍对不齐；作者说 Plus 也会因用量中断，职业交付仍靠判断。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色",
+      "仿色",
+      "节点系统"
+    ],
+    "tags": [
+      "MCP调色",
+      "Codex",
+      "色彩匹配",
+      "用量上限",
+      "一级调色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Am1z2LwXreI",
+    "duration": "4分58秒",
+    "tool": "davinci",
+    "outputs": {
+      "html": "davinci-mcp-codex-grade-图文实录.html",
+      "svg": "davinci-mcp-codex-grade-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 25,
+    "svg_height": 7374,
+    "slug": "davinci-mcp-codex-grade"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "调色没思路怎么破？如何用好 ShotDeck",
+    "summary": "Vivi Lyn 用 ShotDeck 找调色参考：没任务就随机看，有项目就叠 Color，特殊色对着 Rosco 的 LCT Yellow。光线栏比色名更被强调。搜索打开的是 David Fincher，站内没有广告片。",
+    "primary": "color-grade",
+    "skills": [
+      "仿色"
+    ],
+    "tags": [
+      "ShotDeck",
+      "色彩筛选",
+      "Rosco滤色片",
+      "洗印工艺",
+      "胶片型号"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8vxnZyVNm0x",
+    "duration": "6分52秒",
+    "outputs": {
+      "html": "shotdeck-color-reference-图文实录.html",
+      "svg": "shotdeck-color-reference-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 165,
+    "svg_height": 4530,
+    "slug": "shotdeck-color-reference"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "说英语必须掌握节奏和旋律规律",
+    "summary": "Roger说美音用哒哒起拍：短语或从句后上扬造张力，信息结束下落。跟练 on the table 与 If you have time tomorrow。字幕 will be understand 是片中错句，文案里的三拍没有画成谱。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "美音语调",
+      "短语从句",
+      "介词短语",
+      "上扬下落",
+      "跟读例句"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9JUKYkdxjhF",
+    "duration": "1分09秒",
+    "outputs": {
+      "html": "english-rhythm-melody-rules-2-图文实录.html",
+      "svg": "english-rhythm-melody-rules-2-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 28,
+    "svg_height": 6305,
+    "slug": "english-rhythm-melody-rules-2"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "开得越快，未必越省时间",
+    "summary": "科普宇宙用图表说明：50公里从100提到120，计时只差5分钟。60公里上，40提到50省下的时间还略多于80提到130。刹车距离在演示里随车速变长。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "超速省时",
+      "刹车距离",
+      "调和平均",
+      "时间节省偏差",
+      "车速平方"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6EowgCrjfdz",
+    "duration": "1分46秒",
+    "outputs": {
+      "html": "speeding-saves-little-time-图文实录.html",
+      "svg": "speeding-saves-little-time-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 4,
+    "svg_height": 6393,
+    "slug": "speeding-saves-little-time"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "为什么咖啡放凉之后就会很难喝",
+    "summary": "热咖啡放凉后酸苦更冲、香气散掉。作者认为舌头对酸苦随降温变强，高温会盖住酸涩；香气少掉一大块，「一半」只是比喻。冰咖啡是萃取后加冰，她说的冷却咖啡是低温浸泡，都不经过热了再凉。",
+    "primary": "coffee",
+    "skills": [],
+    "tags": [
+      "热咖啡放凉",
+      "酸苦感知",
+      "香气挥发",
+      "冰咖啡",
+      "低温浸泡"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8zaimOs6of3",
+    "duration": "1分2秒",
+    "outputs": {
+      "html": "coffee-tastes-worse-when-cold-图文实录.html",
+      "svg": "coffee-tastes-worse-when-cold-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 28,
+    "svg_height": 5207,
+    "slug": "coffee-tastes-worse-when-cold"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "粉黛草到底是粉还是紫",
+    "summary": "同一张粉黛草 RAW，白平衡从 4200K 到 4900K 就从紫变成粉。晴天预设约 5200K；日落后的紫是偏蓝的光和偏低色温叠出来的。满屏粉色时，灰世界假设会把草扣成灰。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "粉黛乱子草",
+      "白平衡",
+      "色温",
+      "天空光",
+      "灰世界假设"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1zcCCkVKYIC",
+    "duration": "3分28秒",
+    "outputs": {
+      "html": "muhly-grass-pink-or-purple-图文实录.html",
+      "svg": "muhly-grass-pink-or-purple-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 24,
+    "svg_height": 6308,
+    "slug": "muhly-grass-pink-or-purple"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "水彩浅粉色vs深红花朵，暗部上色有区别",
+    "summary": "浅粉花朵的暗部先铺紫蓝灰再叠干净粉色，追求通透；大红玫瑰把红和紫在盘里搅匀再画，追求浓郁。粉和紫先搅匀，被作者说成会脏。",
+    "primary": "painting",
+    "skills": [],
+    "tags": [
+      "水彩暗部",
+      "分层叠色",
+      "融合调色",
+      "浅粉花朵",
+      "大红玫瑰"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8Fly8YgeIqT",
+    "duration": "1分15秒",
+    "outputs": {
+      "html": "watercolor-pink-vs-crimson-shadow-图文实录.html",
+      "svg": "watercolor-pink-vs-crimson-shadow-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 18,
+    "svg_height": 6135,
+    "slug": "watercolor-pink-vs-crimson-shadow"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "那些你喜欢看的“引导与姿态”",
+    "summary": "叶洲用薯片、水果和一杯水演示：先给物体一个形态，再决定表情。同一道具可以很松，也可以不看镜头、端着不喝。风格不是固定标签，是状态。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "引导姿态",
+      "道具入画",
+      "人像姿态",
+      "叶洲",
+      "吃东西拍照",
+      "水杯姿势"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/70j1EK4SRam",
+    "duration": "3分38秒",
+    "outputs": {
+      "html": "pose-guide-you-like-图文实录.html",
+      "svg": "pose-guide-you-like-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 79,
+    "svg_height": 5898,
+    "slug": "pose-guide-you-like"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "爬山走台阶怎样更轻松？",
+    "summary": "河南省摔跤队运动康复治疗师侯小杰讲台阶：上台阶外八、全脚掌着地，用臀大肌带动大腿；下台阶也外八，以前脚掌缓冲。正踩前脚掌被说成主要用股四头肌、膝盖压力大。数倍冲击是口述，画面没有测量。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "爬山台阶",
+      "外八步",
+      "臀大肌",
+      "膝盖缓冲",
+      "鸭子步"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1axLmWPV9SD",
+    "duration": "32秒",
+    "outputs": {
+      "html": "hiking-stairs-easier-图文实录.html",
+      "svg": "hiking-stairs-easier-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 19,
+    "svg_height": 5787,
+    "slug": "hiking-stairs-easier"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "奥斯卡最佳摄影《粗野派》中的胶片技术",
+    "summary": "Vivi Lyn 从 2025 年奥斯卡最佳摄影讲起，把《粗野派》接到 1954 年 VistaVision：胶片横向走，画幅近传统 35 毫米的两倍。一台机器和七年制作只来自口播，复古即先锋是她的判断。",
+    "primary": "film",
+    "skills": [
+      "视听语言"
+    ],
+    "tags": [
+      "粗野派",
+      "VistaVision",
+      "奥斯卡摄影",
+      "胶片画幅",
+      "希区柯克"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6tVAgiVjlMw",
+    "duration": "2分43秒",
+    "outputs": {
+      "html": "brutalist-oscar-film-tech-图文实录.html",
+      "svg": "brutalist-oscar-film-tech-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 73,
+    "svg_height": 6336,
+    "slug": "brutalist-oscar-film-tech"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "新手拉花：倾斜角度决定纹路好坏",
+    "summary": "喆意咖啡培训用44秒对比拉花时的杯子倾角。口播和字幕把融合写成45°，再压低流距、开大流量做出心形。倾角变小则奶泡下冲，纹路挤在一起。结尾卡写：角度越小，流距越大。",
+    "primary": "coffee",
+    "skills": [
+      "拉花"
+    ],
+    "tags": [
+      "拉花",
+      "杯子倾斜",
+      "流距",
+      "奶泡",
+      "心形拉花"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1AzF6rt6KhS",
+    "duration": "44秒",
+    "outputs": {
+      "html": "latte-tilt-angle-pattern-图文实录.html",
+      "svg": "latte-tilt-angle-pattern-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 19,
+    "svg_height": 5256,
+    "slug": "latte-tilt-angle-pattern"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Kodak 2383：经典电影色彩密码",
+    "summary": "Vivi Lyn 用字幕讲柯达 2383：它是放映印片不是拍摄负片。黑场、三原色分离、顺滑灰阶和耐用片基构成银幕底色。达芬奇里的 Rec.709 Kodak 2383 D65 只被说成起点。",
+    "primary": "color-grade",
+    "skills": [
+      "LUT"
+    ],
+    "tags": [
+      "柯达2383",
+      "印片",
+      "黑场密度",
+      "三原色",
+      "达芬奇胶片模拟",
+      "Rec709"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1hNULWifpqJ",
+    "duration": "3分19秒",
+    "outputs": {
+      "html": "kodak-2383-color-code-图文实录.html",
+      "svg": "kodak-2383-color-code-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 30,
+    "svg_height": 6627,
+    "slug": "kodak-2383-color-code"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论教程 4：画阴影别再用黑色了",
+    "summary": "8秒几乎无口播，依画面。标题写画阴影别再用黑色。红叉立方体的投影收成灰黑；绿勾一侧亮面偏桃粉，投影落在浅灰绿地面上，仍是深蓝紫。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "阴影上色",
+      "色相",
+      "立方体",
+      "绘画配色",
+      "投影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/90O6lV5bFoE",
+    "duration": "8秒",
+    "outputs": {
+      "html": "color-theory-tutorial-4-图文实录.html",
+      "svg": "color-theory-tutorial-4-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 1,
+    "svg_height": 4653,
+    "slug": "color-theory-tutorial-4"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论教程 3：互补色画在三只瓶子上",
+    "summary": "口播极少，依画面。约11秒里三只蓝灰瓶子按紫绿、红青、蓝黄三对互补色上色，左缘偏暗、右缘偏亮。标题写着互补色如何画亮部和暗部。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "互补色",
+      "亮部暗部",
+      "瓶子上色",
+      "色轮",
+      "绘画配色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3u4zeIyI0lZ",
+    "duration": "11秒",
+    "outputs": {
+      "html": "color-theory-tutorial-3-图文实录.html",
+      "svg": "color-theory-tutorial-3-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 1,
+    "svg_height": 4889,
+    "slug": "color-theory-tutorial-3"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论教程：暗部带动色相偏移",
+    "summary": "口播不可用，依画面。八秒停在绿丝带对照：绿勾一侧暗部偏青，黑叉一侧只把同一绿色压暗。底部写暗部带动色相偏移，能使色彩更加通透。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "色相偏移",
+      "暗部",
+      "绿丝带",
+      "取色器",
+      "通透"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9Qzw5phJtQ8",
+    "duration": "8秒",
+    "outputs": {
+      "html": "color-theory-tutorial-5-图文实录.html",
+      "svg": "color-theory-tutorial-5-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 1,
+    "svg_height": 4143,
+    "slug": "color-theory-tutorial-5"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "【爆肝30天】用泥巴逐帧还原MJ最难舞步！",
+    "summary": "宅叔飞飞用约一个月手搓泥偶嘟巴兔，逐帧模仿字幕里的迈克《too bad》。十七段分镜要另拍空背景并抠支架；幅度一大，手会断，耳朵和领带靠表格记方向和停帧。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "定格动画",
+      "迈克尔杰克逊",
+      "嘟巴兔",
+      "逐帧",
+      "舞步还原",
+      "粘土"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3YrcDPLbxuV",
+    "duration": "2分24秒",
+    "outputs": {
+      "html": "mj-hardest-dance-clay-stopmotion-图文实录.html",
+      "svg": "mj-hardest-dance-clay-stopmotion-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 14,
+    "svg_height": 5805,
+    "slug": "mj-hardest-dance-clay-stopmotion"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论教程 2：画暗部别只把明度往下拉",
+    "summary": "8秒几乎无口播。画面用红叉和绿勾对照取色：只把明度竖直拉暗，球体暗部发闷；方框走弯道并让色相离开底色，暗部会偏紫或偏青。底色依次是橙黄、粉红、黄绿。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "色相偏移",
+      "取色器",
+      "暗部上色",
+      "球体明暗",
+      "绘画配色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1RB1oFws9GA",
+    "duration": "8秒",
+    "outputs": {
+      "html": "color-theory-tutorial-2-图文实录.html",
+      "svg": "color-theory-tutorial-2-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 1,
+    "svg_height": 4344,
+    "slug": "color-theory-tutorial-2"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论教程",
+    "summary": "口播极少，依画面。十秒内色轮旁反复标出亮部与暗部，红青紫绿四块颜色从平涂变成一侧亮、一侧暗。英文 LIGHT 与 SHADE 只各闪过一瞬。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "色彩理论",
+      "亮部",
+      "暗部",
+      "色轮",
+      "色相"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/24DgBwrAEkw",
+    "duration": "10秒",
+    "outputs": {
+      "html": "color-theory-tutorial-1-图文实录.html",
+      "svg": "color-theory-tutorial-1-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 1,
+    "svg_height": 5124,
+    "slug": "color-theory-tutorial-1"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "达芬奇教程：如何快速给视频加字幕？",
+    "summary": "达芬奇剪辑页用 Timeline 的 AI Tools，从音频创建字幕。语言改成简体中文，行数可选单行或双行，其余她保持默认。样片约4分21秒，她说十几秒出结果，错句在 Inspector 改，字体在 Track 调。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "达芬奇",
+      "自动字幕",
+      "AI Tools",
+      "Inspector",
+      "口播字幕",
+      "自媒体"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7yOqZxZLceu",
+    "duration": "1分49秒",
+    "outputs": {
+      "html": "davinci-quick-subtitles-图文实录.html",
+      "svg": "davinci-quick-subtitles-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 26,
+    "svg_height": 5298,
+    "slug": "davinci-quick-subtitles",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "照片的通透感到底是什么决定的",
+    "summary": "绳探长用一张人像和一张风光说明：通透先看亮暗两端有没有信息，再看主体和背景的颜色是否分开。直方图两端空着不等于拍坏，全黑或全黄仍会不通透。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "通透感",
+      "直方图",
+      "Camera Raw",
+      "高光与白色",
+      "色彩反差",
+      "摄影后期"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4iDuuR7qpky",
+    "duration": "3分46秒",
+    "outputs": {
+      "html": "photo-clarity-what-decides-图文实录.html",
+      "svg": "photo-clarity-what-decides-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 111,
+    "svg_height": 6509,
+    "slug": "photo-clarity-what-decides"
+  },
+  {
     "date": "2026-10-13",
     "title": "汽车不是快消品！千万不要把客户当小白鼠",
     "summary": "付鹏借「脆脆鲨」谈汽车是耐用品非快消品：安全优先于参数营销；快消逻辑指挥造车会劣币驱逐良币、把客户当小白鼠；勿抠标撇责，玩火终自焚。",

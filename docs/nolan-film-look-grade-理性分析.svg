@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6696" viewBox="0 0 1320 6696">
+  <foreignObject x="0" y="0" width="1320" height="6696">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:120px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}</style>
+      
+<div class="container">
+  <h1>诺兰胶片质感：该模拟的是影调，不是负片</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色后期</span>
+    <span class="tag tag-green">达芬奇</span>
+    <span class="tag tag-orange">胶片模拟</span>
+    <span class="tag tag-purple">作者观点</span>
+    <span class="tag tag-gray">10分13秒 · Vivi Lyn</span>
+  </div>
+  <div class="summary-line">达芬奇可以匹配胶片拷贝的最终外观，但诺兰式质感的大头在拍摄阶段。后期要优先重建影调分布和色彩结构；颗粒只负责靠近观众在数字成片里看到的那一层，不能回推 65 毫米负片。</div>
+  <a class="source-link" href="https://xhslink.cn/o/1QgaN67DeYr">证据来源：小红书原片（本地转录 + 烧录字幕）</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">烧录字幕：柯达资料描述数字版本匹配光化学拷贝。此为作者转述，画面未展示原文。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:43</span><span class="timeline-text">《盗梦空间》/ Wally Pfister：对比靠灯光、服装、置景，拍摄时就定色彩平衡和曝光。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:32</span><span class="timeline-text">工程设置实为 DaVinci YRGB，时间线 Rec.709 Gamma 2.4。宽色域只作为力度会变的对照，没有实际切换。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:02</span><span class="timeline-text">CST：REDWideGamutRGB / RED Log3G10 到 Rec.709 Gamma 2.4。黑白对照《奥本海默》静帧。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:16</span><span class="timeline-text">HDR Dark 往青色走；高光走暖。人脸被放在中间灰。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:32</span><span class="timeline-text">自带 Film Grain，字幕称默认 16 毫米。负片规格是 65 毫米，两者不是同一目标。</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:00</span><span class="timeline-text">《奥德赛》头盔例打开 Color Slice，密度改变会连带影调。</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:02</span><span class="timeline-text">噪点明显时，NR 放在节点链最前。强压缩素材被作者判为可能无力回天。</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:00–09:12</span><span class="timeline-text">青蓝密度、Face Refinement、鼻子选区、去掉云的黄色。发色节点被明确标成非必需演示。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>质感从哪来</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">前期已定<br/>曝光灯光置景</div>
+      <div class="arrow">→</div>
+      <div class="node">后期可模仿<br/>影调 + 色彩结构</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">最后才加<br/>成片颗粒</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>误解是：装一个胶片颗粒预设，画面就会变成诺兰。视频把顺序反过来。颗粒、光晕是成像链上被工程师削弱过的副产品，后来才变成审美选项。作者要模仿的重点，是参考静帧上已经能读出来的影调分布和颜色关系。16 毫米颗粒预设对不上 65 毫米负片，而且参考画面还经过扫描、调色、DCP 和平台编码。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">命题：软件能匹配外观，创作缺口在前期</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>数字调色师可以对着光化学拷贝，把数字版本匹配过去。因此“达芬奇能不能做出胶片外观”在技术上被她判为可以。</p>
+      <div class="quote">「数字调色完全可以去模拟匹配胶片的最终外观。」（00:23，口播）</div>
+      <h3>关键理解</h3>
+      <p>匹配的对象是拷贝的视觉结果，不是摄影机里的原始负片。柯达资料只出现在她的转述里，证据强度是作者观点加烧录字幕，不是原文核对。</p>
+      <h3>怎么用</h3>
+      <p>先问参考是院线拷贝、DCP 还是流媒体截图。三者颗粒和反差都不会一样。仿的是你手里这张静帧，不要声称还原片场负片。</p>
+      <div class="relation">事实：01:32 工程设置停在 DaVinci YRGB / Rec.709 Gamma 2.4。观点：宽色域下同一节点力度会变。推断：把这期节点数值搬到色彩管理时间线，结果会漂。</div>
+    </div>
+    <div class="card card-purple">
+      <h3><span class="speaker speaker-host">作者观点</span>质感在进调色前已经建立</h3>
+      <p>她引用《盗梦空间》摄影指导 Wally Pfister：拍摄阶段控制色彩平衡和曝光；更强对比用灯光、服装和置景完成。口播原识别是《大梦空间》和 Wally Fisher，以 00:43 烧录字幕为准。</p>
+      <div class="highlight">适用边界：这是对诺兰合作摄影指导工作方式的转述，不能推广成所有电影的前期都比后期重要。数字摄影、实景限制、没有美术部门时，后期承担的比例会更大，视频没有讨论这种反例。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三个案例共享一条节点顺序</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>黑白、《奥德赛》头盔、以及字幕仍称为《奥德赛》的第三张冷调静帧，工具名不同，顺序相同：色彩空间转换，一级影调，色彩结构，局部窗口，最后颗粒。</p>
+      <table>
+        <tr><th>环节</th><th>奥本海默黑白</th><th>奥德赛头盔</th><th>第三张冷调静帧</th></tr>
+        <tr><td>素材标签</td><td>RED，Log3G10</td><td>ARRIRAW</td><td>Avid DNxHR 444</td></tr>
+        <tr><td>还原</td><td>CST 到 Rec.709 Gamma 2.4</td><td>还原到 709</td><td>先还原，工具未单独展开</td></tr>
+        <tr><td>影调</td><td>Lift、Gamma、HDR Dark，再加 RGB 混合器</td><td>一级色轮加 HDR 色轮</td><td>色轮，作者称工具大差不差</td></tr>
+        <tr><td>色彩结构</td><td>去色；暗部偏青，高光偏暖</td><td>色温；Color Slice 密度和饱和；青色色相曲线</td><td>曲线；Color Slice 专攻青和蓝</td></tr>
+        <tr><td>局部</td><td>人脸对比和色温，灯光选区，衣服提亮</td><td>头盔窗口，脸部提亮，最前降噪</td><td>磨皮，鼻子降红，去云的黄，边缘窗口，发色仅演示</td></tr>
+        <tr><td>颗粒</td><td>自带 Film Grain，字幕称默认 16 毫米</td><td>流程末尾再加</td><td>因时间不够没有展开</td></tr>
+      </table>
+      <div class="insight">读静帧的方法，黑白例说得最清楚：暗部比重、人脸落在中间灰还是阴影、高光冷还是暖。彩色例是把同一读法换成色温和 Color Slice 的密度。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>不该从演示里抄走的东西</h3>
+      <div class="pitfall">04:32 的 Film Grain 滑杆是那一帧的当前值。字幕只断言预设默认是 16 毫米，没有把滑杆数字说成配方。</div>
+      <div class="pitfall">02:22 的 RGB 混合器大约红绿 0.71、蓝 0.87，同样只是可见状态。换素材、换色彩管理之后力度不同，作者在 01:32 已经预警。</div>
+      <div class="pitfall">改发色被作者明确排除出正常项目。它用来证明颜色搭配会改观感，对应前期的置景和服装，不是二级调色的必做项。</div>
+      <div class="pitfall">第三例字幕写《奥德赛》，片头却预告了《星际穿越》，画廊里也有 INTERSTELLAR 字样。片源归属以该时刻字幕为准，不把右侧人物写成某位演员。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颗粒、光晕、降噪各自的位置</h2>
+    <div class="card card-green">
+      <h3>成片颗粒和负片颗粒</h3>
+      <p>画面事实：Film Grain 是达芬奇自带效果，不是口播听成的第三方四代插件。《奥本海默》负片是 65 毫米，模拟预设停在 16 毫米。烧录字幕写原始拷贝比现在看到的细腻很多。</p>
+      <div class="quote">加颗粒是为了接近数字放映和流媒体上的成片质感，不是还原摄影负片。（04:56–05:07，按字幕校正副片一词）</div>
+      <p>光晕被放在同一类：工程师想削弱的副产品，后期可以刻意加，但不是诺兰质感的定义项。有的甲方不喜欢颗粒，09:40 字幕出现“甲方”，第三例因此没展开颗粒。</p>
+    </div>
+    <div class="card card-red">
+      <h3>素材质量是硬边界</h3>
+      <p>头盔例噪点已经明显，NR 被放在整条节点链的最前面，再用自带降噪。作者判断：明显噪点，或比较强的压缩，容易无力回天。视频没有给码率、分辨率或信噪比门槛，这句是调色师的经验判断，不是测量结论。</p>
+      <div class="action">使用条件：参考静帧和待仿素材的清晰度差一个数量级时，先决定还值不值得仿，而不是先加颗粒盖住噪点。降噪若放在影调之后，会把已经拉开的颗粒和噪点一起抹掉，她把 NR 放在最前就是这个顺序。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>能模拟的是胶片拷贝或数字成片的外观，不是 65 毫米负片本身。</li>
+      <li>三个案例的共同重点是影调分布和色彩结构，颗粒排在最后，也可以因甲方不做。</li>
+      <li>这期节点力度只在未开色彩管理、时间线 Rec.709 Gamma 2.4 时成立。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先在参考静帧上标出暗部、人脸、高光各落在哪一段，以及高光偏冷还是偏暖。</li>
+      <li>数字素材先做对色彩空间转换，再谈仿片；记下自己时间线是不是宽色域。</li>
+      <li>一级把基调打底，二级只处理对不上的局部：脸、灯光、天空、头盔。</li>
+      <li>噪点明显时把降噪放在链首，并先判断素材是否已经压坏。</li>
+      <li>颗粒对着成片静帧调强度；项目若不需要颗粒，就停在影调和色彩结构。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把胶片质感理解成一层颗粒。现在把它理解成：前期已经排好的明暗和颜色关系，加上观众最终媒介上残留的那一点颗粒。调色师能负责后半句的一部分，不能用节点补上没有拍到的美术和光。</p>
+  </div>
+  <div class="footer">理性分析基于本地 Whisper 241 段与抽帧核对的烧录字幕。未访问小红书页面。滑杆数字均为单帧可见值，不是推荐配方。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

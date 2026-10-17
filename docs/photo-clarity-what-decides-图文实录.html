@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="绳探长用一张人像和一张风光说明：通透由亮暗对比和色彩反差共同决定。">
+  <title>照片的通透感到底是什么决定的｜图文实录</title>
+  <style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.quote{border-left:3px solid #d6d3d1;margin:14px 0;padding:4px 0 4px 14px;color:#57534e}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+  <header>
+    <p class="kicker">图文实录 · 小红书 · 绳探长</p>
+    <h1>照片的通透感到底是什么决定的</h1>
+    <p class="meta">2026-10-17 · 3分46秒 · 摄影后期 · <a href="https://xhslink.cn/o/4iDuuR7qpky">原视频</a></p>
+    <p class="lede">绳探长拿一张人像和一张风光，在 Camera Raw 里把「通透」拆成两件事：亮和暗两端有没有拉开，主体和背景的颜色有没有分开。直方图两端空着，他并不直接判成拍坏。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>这是一条摄影后期口播。作者先处理「学员觉得不通透、他自己觉得挺通透」的错位，再用同一套直方图看法演示两张 JPEG，最后补上颜色反差。全文口播完整，滑块数字只取画面读数。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→00:26]</span>
+      <div>
+        <strong>先把词拆开</strong>
+        <p>有人拍照好几年仍说不清通透。作者觉得部分来稿其实已经通透，是理解偏了。他要用一张风光和一张人像，分讲光影通透和颜色通透。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:26→01:03]</span>
+      <div>
+        <strong>光影通透就是亮暗对比</strong>
+        <p>这张人像亮处不够亮、暗处不够暗。直方图上高光和阴影都少了一截。他强调：两端信息少，不代表题材处理错了；若只论通透，这种影调就是缺暗部、缺高光。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:03→02:08]</span>
+      <div>
+        <strong>人像：补高光和白色，黑衣服留灰</strong>
+        <p>在 Camera Raw 的「亮」里把高光、白色加上，暗部也加上，再提一点整体曝光。白色被他说成比亮部高光更亮的那一档。黑衣服受地面反光会带灰，不能压成死黑。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:08→02:46]</span>
+      <div>
+        <strong>风光：高光缺得多，暗部只缺一点</strong>
+        <p>同一看法用到第二张。白色和高光管画面亮部。提起来之后高光更亮，他觉得照片更通透；暗部再适当补一点黑色。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:46→03:46]</span>
+      <div>
+        <strong>颜色通透要有反差</strong>
+        <p>背景、衣服、裤子、头发、相机若都是黑的，光线再通透，颜色也不通透。风光若草、叶、晨光都偏黄，颜色混在一起同样不通透。收束句是：通不透，由光影和色彩反差一起决定。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>通透在这条视频里不是清晰度，也不是把直方图拉满才算拍对。先看亮暗两端有没有信息，再看主体和背景的颜色是否分开；黑衣服这类受反光的暗部，不要为了贴墙压成死黑。</p>
+    </div>
+
+    <section class="story-section" id="s1">
+      <h2>学员说不通透，作者先分成两件事</h2>
+      <span class="time-range">00:00–00:26</span>
+      <p>开场没有自我介绍拍摄现场。绳探长直接说，很多摄影爱好者相机买了、拍了好几年，到现在还不知道什么是通透。少数学员经常发照片来说不够通透，他看了却觉得挺通透，于是判断对方理解错了这个词。这句话是他的个人看法，视频里没有把那些来稿放出来。</p>
+      <p>他宣布材料：一张风光、一张人像。通透要讲两个方面，第一光影要通透，第二颜色通透。为了让人听懂，先讲光影。画面从大约第 8 秒起就是 Camera Raw 17.5，人像已经打开，右侧「亮」还是默认。</p>
+    </section>
+
+    <section class="story-section" id="s2">
+      <h2>人像的亮和暗都不够极端</h2>
+      <span class="time-range">00:26–01:03</span>
+      <p>他给光影通透的定义很窄：就是照片的亮暗对比。对着这张人像，他说对比不强，亮的地方不是特别亮，暗的地方又不是特别暗，整张照片亮和暗之间拉得不够开。</p>
+      <p class="quote">从直方图上也能看到，高光和阴影都少了一部分。</p>
+      <p>Whisper 把直方图听成「指方图」，画面右上角就是直方图，下文按画面改正。他接着把判断拆开：高光和阴影信息都少，不代表这张照片拍坏了，有些题材就需要这样处理。若只从通透来讲，这个影调绝对不通透，缺暗部、缺高光。题材需要和通透标准，在这里被他说成两件事。</p>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-01.jpg" alt="Camera Raw 中未调整的人像，亮面板滑块在零，字幕说高光和阴影都少了一部分" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:48] Camera Raw 17.5 打开人像 221.jpg，「亮」面板六项滑块都在 0。字幕写高光和阴影都少了一部分。状态栏为 Adobe RGB（1998）、16 位、4024×5634（22.7MP）、300 ppi。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/98cb98a25754.mp3" type="button" aria-label="Play English audio">🔊</button><span>Camera Raw 17.5 shows portrait 221.jpg with Exposure, Contrast, Highlights, Shadows, Whites, and Blacks all at 0. The subtitle says both highlights and shadows are missing some information. The status bar reads Adobe RGB (1998), 16-bit, 4024×5634 (22.7MP), 300 ppi.</span></div>
+<audio class="cap-audio" src="audio/98cb98a25754.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    </section>
+
+    <section class="story-section" id="s3">
+      <h2>补上高光和白色，黑衣服不压死</h2>
+      <span class="time-range">01:03–02:08</span>
+      <p>遇到这种两端都缺的情况，他指向可以调影调的板块。口播和字幕都说「开幕」，窗口标题写的是 Camera Raw 17.5，正文按画面称呼软件，并保留他的原词。他说的「亮和曲线」，画面上展开的是「亮」，「曲线」只在下面的列表里，这一段没有点开。操作都发生在曝光、高光、阴影、白色、黑色这些滑块上。</p>
+      <p>顺序是先加高光。他问白色属不属于高光，自己答：白色也属于高光，只是比亮部的高光更亮一些，所以两个都加上。暗部也缺，就把暗部加上，再把整体曝光提一提。提完他让观众看：是不是比刚才的影调通透得多。直方图上，高光区有了一定信息，暗部也有一点信息。</p>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-02.jpg" alt="光标停在白色滑块，字幕询问白色是否属于高光" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:20] 光标停在「白色」滑块，字幕问白色属不属于高光。人像仍是黑上衣、浅色裤子、戴眼镜、举着相机坐在浅色地面上。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b7fc0e98dfd2.mp3" type="button" aria-label="Play English audio">🔊</button><span>The cursor rests on the Whites slider while the subtitle asks whether whites count as highlights. The portrait still shows a person in a black shirt and light pants, wearing glasses and holding a camera while sitting on a pale floor.</span></div>
+<audio class="cap-audio" src="audio/b7fc0e98dfd2.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>暗部如果还想更多，可以压得更暗，让直方图贴墙。但是这人穿的是纯黑衣服，他要求留一点细节，不能压成纯黑。理由是黑色衣服会吃到地面环境的反光，带着一些灰，压成死黑不合适。到这里他收一句：这就是光线通透。前半他一直说光影，这一句改成了光线，指的仍是亮暗两端被拉开之后的影调。</p>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-03.jpg" alt="人像调整后黑色滑块为负，字幕说明衣服是纯黑" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:50] 同一张人像这一帧的面板读数是曝光 +0.40、高光 +66、白色 +42、黑色 -30，对比度和阴影为 0。光标在黑色滑块，字幕说身上穿的是纯黑的衣服。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bc8b4a67e91e.mp3" type="button" aria-label="Play English audio">🔊</button><span>On this frame of the same portrait, the panel reads Exposure +0.40, Highlights +66, Whites +42, and Blacks -30, with Contrast and Shadows at 0. The cursor is on Blacks, and the subtitle says the clothes are pure black.</span></div>
+<audio class="cap-audio" src="audio/bc8b4a67e91e.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>01:50 这一帧面板上能读到的数是：曝光 +0.40，高光 +66，白色 +42，黑色 -30，对比度和阴影仍是 0。这些是画面读数，口播没有报出具体数字。</p>
+    </section>
+
+    <section class="story-section" id="s4">
+      <h2>风光也是先看两端，再提亮部</h2>
+      <span class="time-range">02:08–02:46</span>
+      <p>人像讲完，他切到自然风光，说还是跟刚才一样。看直方图就能看出：高光缺很多信息，暗部只缺一点。对应做法是在「亮」里加高光、加白色。这两个滑块被他定义成控制画面亮部信息的旋钮：高光提起来、白色提起来，直方图右边就会有信息，高光更亮，照片看上去更通透。</p>
+      <p>口播里有一句「三封信息」。相邻字都在说直方图右边出现信息，但「三封」对不上画面上的标注，这里不改写成三个峰，只保留「右边有了亮部信息」这个能对上的意思。</p>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-04.jpg" alt="风光 223.jpg 尚未调整，亮面板六项为零" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:10] 切到风光 223.jpg，绿坡和带黄橙色叶子的树，「亮」面板六项回到 0。状态栏为 Adobe RGB（1998）、16 位、4288×2848（12.2MP）、300 ppi。字幕说还是跟刚才一样。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7b3d4d335ff2.mp3" type="button" aria-label="Play English audio">🔊</button><span>The edit switches to landscape 223.jpg: green slopes and trees with yellow-orange leaves, and all six Light sliders are back at 0. The status bar reads Adobe RGB (1998), 16-bit, 4288×2848 (12.2MP), 300 ppi. The subtitle says it is the same as before.</span></div>
+<audio class="cap-audio" src="audio/7b3d4d335ff2.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-05.jpg" alt="风光高光加60、白色加39，字幕说明二者控制亮部" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:25] 同一张风光高光为 +60、白色为 +39，曝光、对比度、阴影、黑色为 0。字幕说这两个滑块是控制画面中亮部信息的。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e98efef8ed9e.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the same landscape, Highlights is +60 and Whites is +39, while Exposure, Contrast, Shadows, and Blacks stay at 0. The subtitle says these two sliders control highlight information in the frame.</span></div>
+<audio class="cap-audio" src="audio/e98efef8ed9e.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p>02:25 这一帧，高光是 +60，白色是 +39，曝光、对比度、阴影、黑色都还是 0。他随后说暗部缺一点，可以适当补一点黑色，并问调整后的影调是不是更通透。补黑色之后的具体滑块值，这一帧还没动，后面预览也没有稳定读数，所以不写死一个黑色数字。</p>
+    </section>
+
+    <section class="story-section" id="s5">
+      <h2>颜色分开才通透，全黑或全黄都不行</h2>
+      <span class="time-range">02:46–03:46</span>
+      <p>影调讲完，他才解释颜色通透：就是背景和主体之间的色彩对比和反差。即使这张人像的光线已经调得很通透，假如背景是纯黑的布，人又穿纯黑衣服、黑色裤子，黑色头发，拿着黑色相机，光线再通透，颜色也不够通透，因为颜色没有反差。有反差感的颜色才会显得通透。这是假设，不是把演示人像换成全黑：画面里的裤子一直是浅色。</p>
+      <p>风光被他拿来做第二个假设。草地若变成黄草，树也变成黄叶，再加上早上的暖光，那么即便光影在、直方图看上去很通透，颜色混在一起，仍然不会显得通透。03:15 的画面里，坡地还是绿的，树丛已经带黄橙色叶子；字幕说「树也变成黄色的叶子了」，说的是这个假设往下推，不是这一帧已经把草地调黄。</p>
+      <figure>
+      <img src="assets/photo-clarity-what-decides/shot-06.jpg" alt="风光仍是绿坡与黄橙色树叶，字幕谈到树叶变黄" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:15] 风光坡地仍是绿色，树丛带黄橙色叶子。字幕说树也变成黄色的叶子了，对应口播里草地和树叶都偏黄、再加上早上暖光的假设；这一帧没有把草地调成黄色。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/170630ffd1ca.mp3" type="button" aria-label="Play English audio">🔊</button><span>The hillside is still green, and the trees show yellow-orange leaves. The subtitle says the trees have also turned into yellow leaves, matching the spoken hypothetical of yellow grass, yellow leaves, and warm morning light. This frame has not turned the grass yellow.</span></div>
+<audio class="cap-audio" src="audio/170630ffd1ca.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+      <p class="quote">一张照片是否通透，是光影决定的，以及色彩反差决定的。</p>
+      <p>片尾希望观众对通透有一定理解，并说这个账号会长期分享零技术小白都看得懂、学了会的真实摄影后期教程。视频没有比较其他软件，也没有给通透一个可测量的阈值。</p>
+    </section>
+  </article>
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，原文为繁体识别结果，可能包含同音误差。编辑正文已改为简体，并按画面校正直方图、Camera Raw 等用词。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>有很多攝影愛好者自己買了相機</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>拍照都拍了好幾年</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT3S">00:03</time>
+    <p>到現在都還不知道什麼是通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT5S">00:05</time>
+    <p>有一少部分學員經常給我發照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT8S">00:08</time>
+    <p>讓我看說照片不夠通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT10S">00:10</time>
+    <p>但我看他的照片挺通透的</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT12S">00:12</time>
+    <p>我個人覺得他一定是理解錯了什麼是通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT15S">00:15</time>
+    <p>那我這裡找了一張風光和一個人像</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT18S">00:18</time>
+    <p>給大家來講一講通透到底是什麼</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT20S">00:20</time>
+    <p>那我通透要從兩個方面去講</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT22S">00:22</time>
+    <p>第一就是光影要通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT24S">00:24</time>
+    <p>第二就是顏色通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT26S">00:26</time>
+    <p>那為了讓大家能理解</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT28S">00:28</time>
+    <p>我這裡先來講一下光影通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT30S">00:30</time>
+    <p>那所謂的光影通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT32S">00:32</time>
+    <p>就是你的照片的亮暗對比</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT34S">00:34</time>
+    <p>就拿這張照片來看</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT36S">00:36</time>
+    <p>它的對比就不是很強</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT38S">00:38</time>
+    <p>亮的地方不是特別亮</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT40S">00:40</time>
+    <p>它的暗的地方又不是特別的暗</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT42S">00:42</time>
+    <p>整個照片亮和暗之間的對比不夠大</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT45S">00:45</time>
+    <p>從指方圖上你也能看得到</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT47S">00:47</time>
+    <p>它的高光和陰影都少了一部分</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT49S">00:49</time>
+    <p>但是這種高光和陰影都少信息</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT52S">00:52</time>
+    <p>不代表這張照片拍的有問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT54S">00:54</time>
+    <p>有些題材是需要這樣去處理</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT56S">00:56</time>
+    <p>那如果單純要從通透上面去講的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT59S">00:59</time>
+    <p>那這個影調就絕對不通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT61S">01:01</time>
+    <p>缺暗部缺高光</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT63S">01:03</time>
+    <p>那如果遇到這樣的問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT65S">01:05</time>
+    <p>我們怎麼讓它通透呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT66S">01:06</time>
+    <p>那麼在開幕當中</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT67S">01:07</time>
+    <p>可以調整影調的板塊</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT69S">01:09</time>
+    <p>就是這個亮和曲線</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT71S">01:11</time>
+    <p>既然我們剛才看指方圖</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT72S">01:12</time>
+    <p>暗部和高光都少</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT74S">01:14</time>
+    <p>那麼我們就給它加上高光加上暗部</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT77S">01:17</time>
+    <p>好首先我們把高光給它加起來</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT79S">01:19</time>
+    <p>那白色屬不屬於高光</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT81S">01:21</time>
+    <p>白色也屬於高光</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT82S">01:22</time>
+    <p>它只是比亮部的高光更亮一些</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT85S">01:25</time>
+    <p>我們都給它加上來</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT86S">01:26</time>
+    <p>那暗部也缺少</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT87S">01:27</time>
+    <p>那我們現在把暗部也給它加上去</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT89S">01:29</time>
+    <p>然後再把整體的曝光提一提</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT92S">01:32</time>
+    <p>現在大家看一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT93S">01:33</time>
+    <p>這個照片是不是就比剛才那個影調</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT96S">01:36</time>
+    <p>要通透的多</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT97S">01:37</time>
+    <p>現在再來看這個指方圖分布</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT99S">01:39</time>
+    <p>它的高光區是不是有一定的信息了</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT102S">01:42</time>
+    <p>它的暗部也有一點信息了</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT104S">01:44</time>
+    <p>當然你如果想讓它暗部信息更多</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT106S">01:46</time>
+    <p>你給它壓得更暗一些</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT107S">01:47</time>
+    <p>讓它貼牆就可以了</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT108S">01:48</time>
+    <p>由於這個人身上穿的是純黑的衣服</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT111S">01:51</time>
+    <p>我們要給它一點細節</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT112S">01:52</time>
+    <p>所以說你不能給它壓成純黑</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT114S">01:54</time>
+    <p>因為黑色的衣服受地面環境的反光</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT117S">01:57</time>
+    <p>它也會使黑色的衣服帶上一些灰</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT120S">02:00</time>
+    <p>所以說這裡壓成死黑是不合適的</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT122S">02:02</time>
+    <p>那現在大家理解什麼叫做光線通透了嗎</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT126S">02:06</time>
+    <p>這就是光線通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT127S">02:07</time>
+    <p>那再看這張自然風光</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT129S">02:09</time>
+    <p>還是跟剛才一樣</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT130S">02:10</time>
+    <p>你看指望圖就能看出</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT132S">02:12</time>
+    <p>高光缺很多信息</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT134S">02:14</time>
+    <p>暗部缺一點</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT136S">02:16</time>
+    <p>那對應的</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT136S">02:16</time>
+    <p>我們就在亮板塊當中給它加高光</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT140S">02:20</time>
+    <p>加白色</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT141S">02:21</time>
+    <p>因為白色和高光這兩個滑塊</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT143S">02:23</time>
+    <p>就是控制畫面中的亮部信息的</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT146S">02:26</time>
+    <p>你只要把高光提起來</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT148S">02:28</time>
+    <p>白色提起來</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT149S">02:29</time>
+    <p>那麼它指望圖右邊這裡就會有三封信息</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT152S">02:32</time>
+    <p>有了這些信息之後</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT153S">02:33</time>
+    <p>照片的高光就會更亮</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT155S">02:35</time>
+    <p>這樣這個照片看上去就會更通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT157S">02:37</time>
+    <p>剛才也說了這暗部是缺一點信息的</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT159S">02:39</time>
+    <p>我們也可以適當的補上一點黑色</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT162S">02:42</time>
+    <p>大家看一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT163S">02:43</time>
+    <p>我們調整後的影調是不是就更通透了呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT166S">02:46</time>
+    <p>那麼顏色通透怎麼來理解它呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT168S">02:48</time>
+    <p>就是背景和主體之間的色彩對比和反差</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT172S">02:52</time>
+    <p>我們即使把這張照片調的光線很通透了</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT175S">02:55</time>
+    <p>那如果背景是一個純黑色的布</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT178S">02:58</time>
+    <p>人又穿一個純黑色的衣服</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT180S">03:00</time>
+    <p>黑色的褲子</p>
+  </li>
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT181S">03:01</time>
+    <p>黑色的頭髮</p>
+  </li>
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT182S">03:02</time>
+    <p>拿著黑色的相機</p>
+  </li>
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT184S">03:04</time>
+    <p>即使光線再通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT185S">03:05</time>
+    <p>它的顏色也不夠通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT187S">03:07</time>
+    <p>因為顏色沒有反差</p>
+  </li>
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT188S">03:08</time>
+    <p>有反差感的顏色才會顯得通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT191S">03:11</time>
+    <p>再說這個風光圖</p>
+  </li>
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT192S">03:12</time>
+    <p>草地變成黃色的草了</p>
+  </li>
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT194S">03:14</time>
+    <p>然後樹也變成黃色的葉子了</p>
+  </li>
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT196S">03:16</time>
+    <p>再加上又是早上的暖光</p>
+  </li>
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT200S">03:20</time>
+    <p>那麼這張照片即使有這些光影</p>
+  </li>
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT202S">03:22</time>
+    <p>你即使調的這個植方圖看上去很通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT206S">03:26</time>
+    <p>但是由於這些顏色混在一起</p>
+  </li>
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT208S">03:28</time>
+    <p>它也不會顯得通透</p>
+  </li>
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT210S">03:30</time>
+    <p>再給大家來總結一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT211S">03:31</time>
+    <p>一張照片是否通透是光影決定的</p>
+  </li>
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT214S">03:34</time>
+    <p>以及色彩反差決定的</p>
+  </li>
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT216S">03:36</time>
+    <p>希望大家看了這個視頻</p>
+  </li>
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT218S">03:38</time>
+    <p>能對通透有一定的理解</p>
+  </li>
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT220S">03:40</time>
+    <p>這個帳號會長期分享一些零技術小白</p>
+  </li>
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT222S">03:42</time>
+    <p>都能看得懂學了會的真實攝影後期教程</p>
+  </li>
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT224S">03:44</time>
+    <p>我們下個視頻再見</p>
+  </li>
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT225S">03:45</time>
+    <p>拜拜</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

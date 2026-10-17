@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6393" viewBox="0 0 1320 6393">
+  <foreignObject x="0" y="0" width="1320" height="6393">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:110px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>开得越快，未必越省时间</h1>
+  <div class="meta">
+    <span class="tag tag-blue">汽车数码</span>
+    <span class="tag tag-green">科普宇宙</span>
+    <span class="tag tag-orange">1分46秒</span>
+    <span class="tag tag-gray">画面字幕为主</span>
+  </div>
+  <div class="summary-line">同一段路再提速，省下的时间等于距离乘上两个速度倒数的差。速度已经高时，这个差很小；低速多花的时间，却会把平均车速拉下去。刹车距离在片中被另画成一条随速度变陡的曲线。</div>
+  <a class="source-link" href="https://xhslink.cn/o/6EowgCrjfdz">原视频 · 小红书短链</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:06</span><span class="timeline-text">50 公里：100 km/h 为 30:00，120 km/h 为 25:00，标 -5 min。大字另写「不到5分钟」。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:14</span><span class="timeline-text">每加 20 km/h，条形图为 5,0 / 3,6 / 2,7 分钟。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:28</span><span class="timeline-text">60 公里：40→50 能省 18 分钟，80→130 能省 17 分钟。角标 Svenson, 2008。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:44</span><span class="timeline-text">1 公里：少 18 秒对少 17 秒。130 km/h 被收成 28 秒。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:02</span><span class="timeline-text">t = d / v。低速每加 10 km/h，省下 30 秒、18 秒、12 秒。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:08</span><span class="timeline-text">去程 60、返程 40，平均标成 48，不是 50。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:16</span><span class="timeline-text">上坡 30、想要往返平均 60，字幕说现实做不到。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:34</span><span class="timeline-text">干燥沥青、1 秒反应：59 m 对 85 m，+44%。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">固定距离</div>
+      <div class="arrow">→</div>
+      <div class="node">时间 = 距离 / 速度</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">高速增量省得少</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">低速拖平均，刹车距离另算</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把「速度提高的幅度」当成「省下的时间」。片中多数人被说成会选 80 提到 130，因为 50 km/h 的增幅看起来远大于 10 km/h。画面给出的结果是：60 公里上前者省 17 分钟，后者省 18 分钟。增幅大，不自动等于更省时间。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">时间差从哪里来</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>固定距离 d，两个速度 v1、v2 的时间差是 d(1/v1 − 1/v2)。v 用公里每小时、d 用公里时，再乘 60 得到分钟。速度越高，同样的速度增量对应的倒数差越小。</p>
+      <div class="relation">这是由片中公式 t = d / v 直接推出的关系。画面把它画成先陡后平的曲线，并标了「双曲线」。</div>
+      <div class="highlight">50 公里、100 对 120：30 分钟对 25 分钟，差 5 分钟。计时与这笔除法一致。正中大字写的是「不到5分钟」，片尾字幕又说「也就省5分钟」。三处措辞不完全相同。</div>
+      <div class="quote">画面字幕：省的时间就更少。条形图 100→120、120→140、140→160 为 5,0、3,6、2,7 分钟。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>片中的对照，不是普遍实验</h3>
+      <p>60 公里那一页把 40→50 和 80→130 并列，结果条是 18 分钟和 17 分钟。1 公里页把同一对照收成 18 秒和 17 秒。130 km/h 跑 1 公里约 27.7 秒，画面收成 28 秒；跑 60 公里约 27.7 分钟，结果条收成能省 17 分钟。取整方向和服务于「17 小于 18」这个对比。</p>
+      <div class="insight">角标 Svenson, 2008 只说明画面引用了这个名字和年份。视频没有展示文献页，不能把角标换成对那篇文章的转述。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>怎么用，以及不要用在哪里</h3>
+      <p>用来判断「再快 20 km/h 值不值得」时，先固定距离，再算两个时间，不要先看速度增量。50 公里这一档，100 到 120 大约 5 分钟；若路程还要过村镇，字幕已经说省的时间会更少，但没有给出村镇限速的数字。</p>
+      <div class="pitfall">不要把 5 分钟当成任何 50 公里行程的实测。它是匀速、且全程都能开到该速度时的除法结果。红灯、拥堵、收费站都不在这张图里。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">平均车速为什么不是两个数的中间</h2>
+    <div class="card card-green">
+      <h3>等距离的两段，时间权重不同</h3>
+      <p>去程 60、返程 40，算术平均是 50。表盘停在 48，字幕写「平均车速不是50 而是48」。等距离往返的平均速度是总路程除以总时间，也就是调和平均：2 / (1/60 + 1/40) = 48。慢的那段占用更多时间，所以平均更靠近 40，而不是停在正中间。</p>
+      <div class="quote">画面字幕：一段路开60。一段开40。平均车速不是50 而是48。</div>
+      <div class="action">若一段已经开得很慢，后一段即使用同样的距离往上提，也补不回被慢段吃掉的时间。片中的极端例子是上坡 30、想要往返平均 60：另一段必须花 0 秒，字幕因此说现实根本做不到。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>片中数字对照</h3>
+    <table>
+      <tr><th>对照</th><th>画面读数</th><th>用距离和速度复算</th><th>能说明什么</th></tr>
+      <tr><td>50 km，100 对 120</td><td>30:00 / 25:00，-5 min</td><td>30 分钟对 25 分钟，刚好 5 分钟</td><td>计时与匀速除法一致；「不到5分钟」是另一处文案</td></tr>
+      <tr><td>50 km，每加 20</td><td>5,0 / 3,6 / 2,7 min</td><td>约 5.0 / 3.6 / 2.7 分钟</td><td>同一增量，底数越高省得越少</td></tr>
+      <tr><td>60 km，40→50 对 80→130</td><td>能省 18 分钟对 17 分钟</td><td>18 分钟刚好；130 km/h 约少 17.3 分钟</td><td>小增量可以比大增量更省时间</td></tr>
+      <tr><td>1 km，同上对照</td><td>-18 s 对 -17 s；130 为 28 秒</td><td>18 秒刚好；130 km/h 约 27.7 秒</td><td>比例不变，只是单位从分钟收到秒</td></tr>
+      <tr><td>1 km，每加 10，从 30 起</td><td>30 s、18 s、12 s</td><td>120−90、90−72、72−60 秒</td><td>低速段的时间差最大</td></tr>
+      <tr><td>1 km，110→120</td><td>省不到 3 秒</td><td>约 2.7 秒</td><td>高速段的增量已经很小</td></tr>
+      <tr><td>往返 60 与 40</td><td>Media = 48</td><td>调和平均 48</td><td>不是算术平均 50</td></tr>
+      <tr><td>刹车，100 对 120</td><td>59 m、85 m、+44%</td><td>片中未给出可复算的摩擦系数</td><td>只作为该演示的读数；字幕另说将近 45%</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">刹车距离不要和时间差混用</h2>
+    <div class="card card-red">
+      <h3>片中主张</h3>
+      <p>绿线是每公里耗时，随速度变平；红线是刹车距离，随速度变陡。字幕说刹车距离和车速平方成正比。演示条件写在画面上：干燥沥青，1 秒反应。100 km/h 被说成刚好刹住，120 km/h 冲到障碍附近还有 70 多码，距离条是 59 m 和 85 m，多出约 44%。</p>
+      <div class="pitfall">59 m、85 m、71 km/h 是动画读数。没有路面附着、车重或制动系统的数据，不能把 +44% 当成所有车辆从 100 到 120 的刹车增量，也不能把它写成法规或产品参数。</div>
+      <div class="relation">时间差随速度升高而变小，刹车距离在片中的画法随速度升高而变大。两件事方向相反，所以「只省几分钟」并不能抵消后一条曲线。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>省时看的是两个速度倒数的差，再乘距离，不是看速度条本身长了多少。</li>
+      <li>片中 50 公里、100 对 120 的计时差是 5 分钟；60 公里上 40→50 的 18 分钟不少于 80→130 的 17 分钟。</li>
+      <li>等距离往返，60 和 40 的平均被标成 48。慢段占的时间更多。</li>
+      <li>刹车演示在干燥沥青、1 秒反应下给出 59 m 对 85 m。这是画面读数。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>想知道再快一点省多少，先写下距离和两个速度，用距离除以速度，再相减。</li>
+      <li>比较两段提速时，比的是省下的时间，不是比速度增量的大小。</li>
+      <li>算一段路的平均速度时，用总路程除以总时间，不要把两档速度相加后除以二。</li>
+      <li>低速瓶颈（上坡、村镇、拥堵）先单独计时间。片中的 30 对平均 60 说明，后半段可能已经没有时间可省。</li>
+      <li>把刹车距离留在安全判断里，不要用「只省 5 分钟」去换片中那条变陡的红线。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>加快看起来总在省时间，但省下来的那一截会越来越短。真正拉长总时间的，常常是已经很慢的那一段；真正变长的风险，在这条片里被画成刹车距离，而不是再多出来的几分钟。</p>
+  </div>
+  <p class="footer">证据来自本地视频抽帧与 Whisper 4 段非空转录。未访问小红书页面。匀速复算只用于核对画面数字。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

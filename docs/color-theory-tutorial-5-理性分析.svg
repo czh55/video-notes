@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4143" viewBox="0 0 1320 4143">
+  <foreignObject x="0" y="0" width="1320" height="4143">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:120px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+  <h1>色彩理论教程</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色</span>
+    <span class="tag tag-orange">画面演示</span>
+    <span class="tag tag-gray">8秒</span>
+    <span class="tag tag-purple">Angel</span>
+  </div>
+  <div class="summary-line">口播不可用，依画面。八秒停在一张绿丝带对照：绿勾一侧暗部偏青，黑叉一侧只把同一绿色压暗。底部句子把这件事叫作暗部带动色相偏移，并说能使色彩更加通透。</div>
+  <a class="source-link" href="https://xhslink.cn/o/9Qzw5phJtQ8">来源：小红书短链 9Qzw5phJtQ8</a>
+
+  <div class="timeline">
+    <h3>关键画面时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00–00:04</span><span class="timeline-text">对照已经完整：左绿勾、右黑叉，丝带下各有色环和方框。顶部是「色彩理论」。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:04–00:08</span><span class="timeline-text">图形不换。底部两行一直是「暗部带动色相偏移」「能使色彩更加通透」。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">同一条绿色丝带</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">暗部离开绿色、偏青</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">画面称这样更通透</div>
+    </div>
+    <p>叉号一侧是反例：色环停在绿色，方框里的点往下走，暗部仍是更深的绿。勾号一侧是正例：色环靠向青蓝，暗部跟着偏青。结论句写在画面底部，不是口播。</p>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>不要把这张图读成「任何颜色的暗部都应该加蓝」。画面只演示了绿色丝带。也不要把底部的「通透」当成可测量的参数，图上没有直方图，也没有数值。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">对照在讲什么</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>同一形状、同一底色，暗部有两种画法。依画面，差别在色相有没有离开绿色。</p>
+      <h3>关键理解</h3>
+      <p>勾号一侧亮处黄绿、暗处青绿。叉号一侧暗处只是更暗的绿。色环用来说明取色点有没有换色相，方框用来说明明暗有没有单独往下拉。</p>
+      <h3>怎么用</h3>
+      <div class="action">画绿色物体的暗部时，先看取色点是停在绿色往下拉，还是同时往青蓝挪。这条片子把后一种标成勾。</div>
+      <div class="quote">画面原句：暗部带动色相偏移。能使色彩更加通透。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>这是画面上的立场</h3>
+      <p>「能使色彩更加通透」是图上的判断，作者署名 Angel。视频没有拿出对照照片或读数来证明通透。可以把它当成这条示意图的主张，不能当成对所有绿色的测量结论。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>不要做的事</h3>
+      <div class="pitfall">不要把叉号一侧的「只压暗」理解成绝对错误的物理阴影。图上只是用黑叉表示作者不推荐这种画法。</div>
+      <div class="pitfall">不要把 Whisper 的英文报头「MING PAO CANADA MING PAO TORONTO」写进口播。画面上没有这串字。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>两种取色</h3>
+    <table>
+      <tr><th>画面标记</th><th>丝带暗部</th><th>色环与方框</th><th>适用边界</th></tr>
+      <tr><td>绿勾</td><td>暗处偏青，离开正绿</td><td>色环靠向青蓝，方框里的点斜向暗处</td><td>只在这条绿色丝带上看得见</td></tr>
+      <tr><td>黑叉</td><td>暗处仍是更深的绿</td><td>色环停在绿色，方框里的点几乎竖直往下</td><td>图上标为不推荐，没有给出数值差</td></tr>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>依画面，八秒只做一件对照：绿色丝带的暗部，偏青被标成勾，只压暗被标成叉。底部用「色相偏移」和「通透」收束。</p>
+    <h3>行动清单</h3>
+    <ul>
+      <li>画绿色暗部时，单独看取色点有没有离开绿色。</li>
+      <li>先画一版只压明度，再画一版暗部偏青，对照是否还像同一块绿。</li>
+      <li>把「通透」当作这条图的说法，换别的色相时重新看画面，不要直接套青。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>暗部不一定只是同一颜色变暗。在这张图里，作者要暗部带着色相一起走，并且只拿绿色丝带做了示范。</p>
+  </div>
+  <p class="footer">依据本地画面与 Whisper 分段。识别文本未采用。未重新访问小红书。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

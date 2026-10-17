@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7641" viewBox="0 0 1320 7641">
+  <foreignObject x="0" y="0" width="1320" height="7641">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>人像调色：别让颜色抢了主角</h1>
+  <div class="meta">
+    <span class="tag tag-blue">人像调色</span>
+    <span class="tag tag-green">ACR 整体</span>
+    <span class="tag tag-purple">PS 通道与蒙版</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-gray">8分21秒 · 灰韵调色</span>
+  </div>
+  <div class="summary-line">这张户外笑脸的问题不是人物不够亮，而是主次还没排好。先让暗部有重量、黄绿退下去，再用蒙版和通道守住脸上和发丝上已经存在的光。颜色可以改，人不能修丢。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">反例：草绿、天空、皮肤各自抢戏，整张像同时说话。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:13</span><span class="timeline-text">对照 Marat Safin：颜色还在，只是不再争抢。视频未给出作品出处细节。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:55</span><span class="timeline-text">工作图三处：左黄绿太跳、暗部偏浮、肤色与冷环境缺温度差。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:20</span><span class="timeline-text">顺序锁定：先影调，再颜色，最后局部。暗不致死黑，暖不致假。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:55</span><span class="timeline-text">亮面板轻收曝光。该帧可见约 -0.50 曝光、+31 对比，其余光滑块仍为 0。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:11</span><span class="timeline-text">红蓝曲线：暗部添青、添蓝，亮部添红、添黄。青蓝进山影，暖意留在光里。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:54</span><span class="timeline-text">禁止再给人物加亮加饱和。该动的是身后黄绿。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:42</span><span class="timeline-text">蒙版：主体加暖、背景压暗，再单独整理面部和身体皮肤明暗。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:34</span><span class="timeline-text">Retouch4me Dodge &amp; Burn 做中性灰。工具管效率，质感由人把关。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:58</span><span class="timeline-text">通道选出暗部和中间调，曲线只压该沉处，明度模式保护已定的颜色，组蒙版排除人物。</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:07</span><span class="timeline-text">整片提亮发丝会把山石一起打白。改用红通道找出原有高光，三层蒙版收边界。</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:33</span><span class="timeline-text">收束可见三处：黄绿退后，山影沉下，发丝的光有分寸。</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:14</span><span class="timeline-text">立场：可以改变颜色，别把那个真实的人修丢。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">人物不突出<br/>是谁在抢</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">先立影调<br/>再收黄绿</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">蒙版与通道<br/>只动该动处</div>
+      <div class="arrow">→</div>
+      <div class="node">目光回到人<br/>颜色仍在</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>人物不够突出时，第一反应往往是提曝光、加饱和，让人从照片里跳出来。这张工作图上脸已经有光。继续加亮，只是让已经够亮的皮肤和左边黄绿一起喊得更响。该问的是背景是否太喧哗，而不是人物是否还不够白。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">主次先于参数</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>调色最容易被忽略的，不是某个滑块，而是光的方向、暗的分寸、色的主次。情绪有去处，是这三件事排完之后的结果。</p>
+      <div class="quote">「整张照片却像一群人同时大声说话。」00:07，作者对反例的描述。</div>
+      <div class="highlight">事实：画面标题把工作图的第二问题写成「02 暗部偏浮」，红圈指向左右背景。三处症状被作者收成同一个根源：主次未排。</div>
+      <div class="action">怎么用：动滑块之前先标出抢视线的颜色、撑不起空间的暗部、以及人物和冷环境之间缺不缺温度差。三处都指向「人不够亮」时，先停住提曝光。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点，不是通例</h3>
+      <p>「真正动人的作品是让人物被记住」是灰韵的审美立场，用来解释她为什么引用 Marat Safin。视频没有比较其他摄影师，也不能据此说所有鲜艳背景都该压暗。适用的是：主体脸上已有光、背景颜色却先被看见的这一类画面。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">影调是骨架，颜色是第二步</h2>
+    <div class="card">
+      <h3>深度来自层次，不来自一起变黑</h3>
+      <p>若人物和远山一起变暗，空间没有变深，只是整张变黑。她的亮面板策略是轻收曝光、略压高光和阴影、白色往上提，给明暗留呼吸。曲线则稳住中灰、压实暗部、拖起亮部，黑点内收，避免死黑。</p>
+      <div class="relation">红曲线暗部略添青、亮部略添红；蓝曲线暗部添蓝、亮部添黄。关系是：青蓝沉进山影，暖意停在光里。02:12 那一帧红通道输入约 192、输出约 196，幅度很小。</div>
+      <div class="pitfall">01:56 的截图里高光、阴影、白色、黑色仍是 0。口播后面的「压一点、往上提」没有停成可读数字。不要把 -0.50 和 +31 抄成完整配方。</div>
+      <div class="action">效果面板的纹理、清晰、去雾和四周压暗，她明确说不是磨皮，还可能让纹理更明显。质感来自控制，不来自抹平。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颜色减法与局部温度</h2>
+    <div class="card card-orange">
+      <h3>话语权只留给重要的颜色</h3>
+      <p>相机校准微调红绿蓝原色关系之后，混色器按口播做三件事：黄色收饱和，绿色再压明度，蓝色适当退后。树和山还是原来的树和山，人物不必再亮一分，视线开始靠拢。03:10 那一帧色相约 -7、饱和约 -14，明亮度仍近 0，字幕才要求往下压。色点落在黄、绿还是蓝，这一帧没有认死。</p>
+      <div class="quote">「真正有分寸的色彩，不是让所有颜色争着出场，而是让重要的颜色拥有话语权。」03:25</div>
+    </div>
+    <div class="card">
+      <h3>整体有方向，还不等于局部精准</h3>
+      <p>颜色分级压阴影明度、中间调略暖，只是定方向。蒙版再把主体微微加暖、背景轻轻压暗。03:44 可见蒙版「主体 1」上色温约 +5、色调约 +3，与字幕「背景轻轻压暗」不是同一步，背景暗了多少没有数字。面部和身体皮肤还要单独收高光、提阴影和白色、压黑色，让皮肤内部明暗站稳。</p>
+      <div class="highlight">边界：暗要深但不能死黑，暖要有但不能假。这两句是她在 01:27 先立下的约束，后面所有加暖、压暗都要回到这里检查。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>错误冲动和视频里的替代</h3>
+    <table>
+      <tr><th>冲动</th><th>这张图上的后果</th><th>她改成什么</th><th>证据</th></tr>
+      <tr><td>提曝光、加饱和，让人跳出来</td><td>脸已经有光，黄绿更抢</td><td>去动身后的黄绿和蓝色</td><td>02:48–03:12 口播</td></tr>
+      <tr><td>人物和远山一起压黑</td><td>整张变黑，不叫空间变深</td><td>暗有重量，亮有去处，白色上提</td><td>01:44–02:03</td></tr>
+      <tr><td>再压一条全局曲线修山石</td><td>脸上已正确的光跟着受伤</td><td>通道选区只压该沉处，蒙版排除人物</td><td>04:51–05:38</td></tr>
+      <tr><td>把发丝一片提亮</td><td>发丝亮了，山石跟着发白</td><td>红通道找出原有高光，三层蒙版取舍</td><td>06:07–07:00</td></tr>
+      <tr><td>靠磨皮换质感</td><td>纹理被抹平</td><td>纹理、清晰、去雾；Dodge &amp; Burn 只做中性灰</td><td>02:36、04:34</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">精度是守住不该动的地方</h2>
+    <div class="card card-green">
+      <h3>背景两段选区，加一层人物保护</h3>
+      <p>口播把背景拆成暗部和中间调。暗部：绿通道与自身做她所说的「绿色计算」，Alpha 再叠加并「双反向」，载入选区后用曲线下压。中间调：合并图层的灰色通道与自身做排除，Alpha 两头弱、中间强，再强化明暗反差，调整层改明度模式，避免颜色再乱。组蒙版反向后，人物退出调整范围。</p>
+      <div class="pitfall">「绿色计算」「双反向」「光影几幅」「高亮群众」都是听写词。抽帧没有停在计算对话框，不能改写成未出现的菜单名。能核对的是 05:08 的曲线字幕，以及 06:50 的「黑色柔边画笔」。</div>
+      <div class="relation">职责分工可以单独记住：通道计算筛明度，明度模式护色彩，外层蒙版守人物。ACR 管到整体方向为止，精度从这里才开始。</div>
+    </div>
+    <div class="card card-red">
+      <h3>发丝高光的三层锁</h3>
+      <p>内层通道蒙版识别原有亮度，中层主体蒙版守住空间边界，外层白色蒙版用黑笔擦掉不该提的高光。前两层先把亮度和范围锁住，最后一层才敢动手。图层名里有「高频细节」「低频色块」，口播没有讲频率分离，不能把这一段记成频率分离教程。</p>
+      <div class="quote">「真正高阶的修图，不是你能把光提得多亮，而是你能不能让它恰好停在该停的地方。」07:09</div>
+      <div class="action">先问这缕光是不是画面里本来就有。没有的光不要造；有的光不要连背景一起抬。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card">
+      <h3>事实、观点、推断分开</h3>
+      <ul>
+        <li>可核验画面：暗部偏浮的红圈、立影调标题、红曲线字幕、混色器与主体蒙版上的单帧读数、Retouch4me 菜单、曲线压暗部、黑色柔边画笔和图层名。</li>
+        <li>作者观点：人物应被记住而不是颜色被看见；这张图上加亮加饱和是错的；系统营在训练局部判断；AI 增加可能之后仍要人来决定留下什么。</li>
+        <li>推断：转录「饱和、蒙版、柔边、添青、灰韵、偏浮」按面板和字幕校正。景深、计算对话框里的混合模式名称未核实，不写入操作步骤。</li>
+        <li>不适用：脸本身欠曝、背景本来就该是主体的画面；也没有给出可复现到小数的全套参数。单帧滑块不是成品。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>主次没排好时，三个分散的毛病会指向同一个错觉：人还不够亮。</li>
+      <li>影调先把暗的重量和亮的去处分开，颜色再决定谁有话语权。</li>
+      <li>局部的价值是守边界：该沉的背景沉下去，已有的光留在脸上和发丝上。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先标抢戏色和偏浮的暗部，再决定动不动曝光。</li>
+      <li>压暗时检查人物是不是跟着远山一起黑；白色是否还留着呼吸。</li>
+      <li>黄绿抢戏时先收它们的饱和和明度，不要先给皮肤加饱和。</li>
+      <li>全局曲线会伤到脸上已正确的光时，改选区，并用蒙版把人排除。</li>
+      <li>提发丝高光前先提取原有亮部，再用主体蒙版和手绘蒙版把山石隔开。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把「人不够突出」理解成继续加亮、加饱和。现在先问身后的世界是不是太喧哗，再问这缕光该不该停在这里。修颜色是怕感动被掩埋，不是为了制造感动。</p>
+  </div>
+  <div class="footer">灰韵调色 · 人像调色：别让颜色抢了主角 · 证据来自本地转录与截图 · 2026-10-17</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

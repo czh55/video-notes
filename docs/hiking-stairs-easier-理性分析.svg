@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5787" viewBox="0 0 1320 5787">
+  <foreignObject x="0" y="0" width="1320" height="5787">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:150px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>爬山走台阶怎样更轻松？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">运动动作</span>
+    <span class="tag tag-green">32秒</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-purple">侯小杰</span>
+    <span class="tag tag-gray">小红书 · 民生小妙招</span>
+  </div>
+  <div class="summary-line">这条片子真正在区分两套着地：上台阶用外八和全脚掌，让臀大肌带动大腿；下台阶仍外八，改以前脚掌缓冲。正着踩的前脚掌被说成主要用股四头肌。膝盖「省力」「数倍冲击」都是口述，画面没有测力。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:04</span><span class="timeline-text">红圈标前脚掌。字幕：用前脚掌着地。这是被否定的正踩。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:06</span><span class="timeline-text">红箭头指向大腿前侧。字幕：用力的是股四头肌，对膝盖的压力会很大。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:13</span><span class="timeline-text">上台阶示范改为全脚掌着地，圆窗对准整只脚掌。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">背面上台阶，右手按右侧臀部。字幕：用臀大肌的力量带动大腿。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:22</span><span class="timeline-text">口述身体自重给膝盖提升了数倍冲击力。无仪器画面。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:26</span><span class="timeline-text">字幕把外八称为鸭子步伐；下台阶前脚掌先落，用来缓冲。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">台阶费膝<br/>从哪来</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">正踩前脚掌<br/>股四头肌</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">上：外八全脚掌<br/>臀大肌带腿</div>
+      <div class="arrow">→</div>
+      <div class="node">下：鸭子步<br/>前脚掌缓冲</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>前脚掌着地在片中出现两次，方向相反。00:04 的红圈是正着踩、被说成压力大的着地；00:26 的前脚掌是外八之后、下台阶用来缓冲的着地。只记住「用前脚掌」会把两段做成同一条口令。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">上台阶：换发力肌肉，不换台阶</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>省力步伐被定义成外八加全脚掌，再收紧臀大肌去带动大腿。身份条写的是运动康复治疗师，论证方式是口播加比划，不是步态实验。</p>
+      <div class="quote">「上台阶比较省力的步伐是用这种外八步伐，然后全脚掌着地。这样臀大肌收紧，用臀大肌的力量带动我们的大腿。」00:08–00:16，肌群以口播和字幕为准。</div>
+      <div class="highlight">关键理解：全脚掌是上台阶的着地，臀大肌是他指定的发力来源。外八没有角度。</div>
+      <div class="action">怎么用：上台阶时脚尖略向外，整只脚掌踩实再蹬，并有意识收紧臀部再抬大腿。感到只是大腿前侧在硬抬，就回到他否定的那一种。</div>
+      <div class="relation">适用边界：水泥台阶近景，约十秒。没有负重、没有连续楼层、没有膝伤分层。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点，不是测量</h3>
+      <p>「膝盖就比较省力」是侯小杰的判断。画面能核对的是手按臀部、全脚掌落地和字幕用词，不能核对省下了多少负荷。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">下台阶：冲击被说成数倍，缓冲交给前脚掌</h2>
+    <div class="card card-orange">
+      <h3>在讲什么</h3>
+      <p>下台阶的问题被归到身体自重。对策仍叫外八，字幕称作鸭子步伐，着地改成前脚掌，功能被说成缓冲。</p>
+      <div class="quote">「下台阶的时候身体的自重给我们膝盖提升了数倍冲击力。」00:18–00:22。倍数无法在画面里复核。</div>
+      <div class="quote">「用这种外八步伐，也就是我们的鸭子步伐，用前脚掌着地，这样前脚掌可以给膝盖提供一种充分的缓冲。」00:22–00:32。Whisper 的「压字步」不采用。</div>
+      <div class="highlight">关键理解：下台阶保留外八，但不再要求全脚掌。前脚掌在这里是缓冲件，不是开头那个错误示范。</div>
+      <div class="action">怎么用：下台阶脚尖外开，让前脚掌先碰到下一级，再把体重放下去。把「数倍」当成放慢的理由，不要当成精确倍数。</div>
+      <div class="pitfall">外八过大、膝盖跟着扭，片中没有警告，也不该从「鸭子步伐」四个字推出越大越好。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三种走法并列</h3>
+    <table>
+      <thead>
+        <tr><th>走法</th><th>脚</th><th>他说的发力</th><th>对膝盖的说法</th><th>证据强度</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>正着踩</td><td>前脚掌，脚尖朝前</td><td>股四头肌（字幕）</td><td>压力会很大</td><td>口播 + 红圈/箭头字幕。无肌电</td></tr>
+        <tr><td>上台阶省力步</td><td>外八，全脚掌</td><td>臀大肌带动大腿</td><td>比较省力</td><td>口播 + 全脚掌画面 + 手按臀部</td></tr>
+        <tr><td>下台阶鸭子步</td><td>外八，前脚掌先落</td><td>前脚掌提供缓冲</td><td>减轻压力；冲击被说成数倍</td><td>口播 + 字幕 + 下台阶近景。倍数未测</td></tr>
+      </tbody>
+    </table>
+    <p>选择条件按方向拆：往上用第二行，往下用第三行。第一行是他给出的反例，只在脚尖朝前、前脚掌点地时对照。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">立场分层</h2>
+    <div class="card card-green">
+      <h3>可以核对的画面</h3>
+      <ul>
+        <li>说话人字幕条：河南省摔跤队运动康复治疗师侯小杰。仓库没有另核职称。</li>
+        <li>上台阶有全脚掌落地和手按臀部两个可见动作。</li>
+        <li>下台阶可见脚跟抬起、前脚掌先接触下一级。</li>
+        <li>片头横幅同时提出上山容易、下山难，正文只演示了室内台阶。</li>
+      </ul>
+    </div>
+    <div class="card card-red">
+      <h3>不要写成事实的句子</h3>
+      <ul>
+        <li>股四头肌是否真是主要发力肌：只有字幕，没有测量。</li>
+        <li>冲击力「数倍」：只有口述。</li>
+        <li>这种方法适合所有膝痛、所有山路：视频未覆盖，不能外推。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>上台阶：外八，全脚掌，臀大肌带动大腿。</li>
+      <li>下台阶：外八（鸭子步伐），前脚掌缓冲。</li>
+      <li>正着踩的前脚掌被单列为压力大的走法，不要和下台阶缓冲混用。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>上台阶先把整只脚掌踩实，再蹬上下一级。</li>
+      <li>抬腿前先收紧臀部，而不是只用大腿前侧把腿甩上去。</li>
+      <li>下台阶脚尖略外开，前脚掌先落，再放下脚跟。</li>
+      <li>把「数倍冲击」当作放慢下台阶的提醒，不记成生理学常数。</li>
+      <li>膝痛、旧伤或台阶很高时，这条 32 秒示范不能代替就诊或当面评估。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>轻松与否在片中不取决于走得快，而取决于方向配对：上山踩实、用臀；下山外八、用前脚掌卸力。同一句「前脚掌着地」在开头和结尾是两个指令。</p>
+  </div>
+  <p class="footer">证据来自本地转录 b63n.json 与画面字幕。未重新访问小红书。2026-10-17</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6627" viewBox="0 0 1320 6627">
+  <foreignObject x="0" y="0" width="1320" height="6627">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+</style>
+      
+<div class="container">
+  <h1>Kodak 2383：印片底色，不是调色配方</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色后期</span>
+    <span class="tag tag-green">印片</span>
+    <span class="tag tag-orange">Vivi Lyn</span>
+    <span class="tag tag-gray">3分19秒 · 小红书 · 2026-10-17</span>
+  </div>
+  <div class="summary-line">这条视频回答的是：柯达 2383 在电影成像链里站在哪，以及它的色彩为什么会被当成经典银幕的底色。它不回答怎么把这套 LUT 用对。片尾把用法明确留给下期。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:01</span><span class="timeline-text">片盒标 VISION 2383。字幕定义为影响银幕超过二十年的彩色电影印片。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:29</span><span class="timeline-text">摄影机穿片画面上写明：不是拍摄负片，而是放映印片。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:49</span><span class="timeline-text">放映机片路。正片就是影院拷贝。最终颜色由拍摄、冲印、印片、放映共同塑造。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:03</span><span class="timeline-text">整条链条里，2383 决定最终荧幕质感的底色。它是成像系统的一环，不是载体本身。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:32</span><span class="timeline-text">泰坦尼克号的采用范围被备注收窄：2012 重映版，不是首映版。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:43</span><span class="timeline-text">特性一侧：更深更干净的黑场，高光保持中性，画面更稳、更有纵深。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:02</span><span class="timeline-text">特性二：三原色分离（Primary Colors），关系更干净，肤色更自然。来源是片中转述的调色师。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:32</span><span class="timeline-text">特性三、四：灰阶顺滑所以被做成数字 LUT；片基更耐用，拷贝经得住反复放映。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:57</span><span class="timeline-text">达芬奇图库出现 Rec.709 Kodak 2383 D65。字幕只称「非常直接的起点」。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>2383 是什么</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">证据<br/>印片拷贝</div>
+      <div class="arrow">→</div>
+      <div class="node">判断<br/>银幕底色</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">行动<br/>只当起点</div>
+    </div>
+    <p>负片拍摄，光化学印到正片，影院放映这卷拷贝。2383 站在正片这一环，所以它碰的是观众看见的颜色，而不是摄影机里的曝光。四个特性描述的是这层底色，不是一套节点顺序。</p>
+  </div>
+
+  <div class="correction">
+    <h3>和口播听写对不上的地方</h3>
+    <p>Whisper 把后半听成「粗糙的对比度」和「黑胃」。同一时段的字幕是「更深、更干净的黑场密度」，英文摘录写的是没有光就是黑。结论采用字幕，不采用粗糙和黑胃。片尾「如何正确使用这套 LUT」是下期预告，不能写成这条视频已经教过的步骤。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">印片在链条的哪一环</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>2383 是彩色电影印片，用来做放映拷贝。Vision 系列负片拍完之后，影像经光化学印到正片上。观众在影院看到的是这卷正片。</p>
+      <div class="quote">「柯达 2383 不是拍摄用的负片。」「这卷正片就是我们在影院放映的拷贝。」（00:29、00:49 字幕）</div>
+      <h3>关键理解</h3>
+      <p>最终观影色彩被她拆成四段合力：拍摄、冲印、光化学印片、放映。2383 决定的是其中「底色」，不是整部电影的全部颜色。字幕用的词是「的确决定了最终荧幕质感的底色」，同时又说它是成像系统中的一环。两句要一起读：有决定作用，但不是唯一工序。</p>
+      <div class="highlight">机器画面上的 POS 7109 只是片路上的手写标记。视频没有说它等于 2383。不要把编号并成一种片子。</div>
+      <h3>怎么用</h3>
+      <div class="action">讨论一部片「用了 2383」时，先问用在哪一环：拍摄负片，还是放映拷贝。这条视频给出的答案是后者。</div>
+      <h3>原文依据</h3>
+      <p>00:18–00:58 字幕，外加 01:03 的「底色」一句。90 年代末推出、2010 年代初之前是发行印片主力，是片中历史叙述，没有在画面上出示年表。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>片中观点：它几乎定义了好莱坞视觉标准</h3>
+      <p>作者把黑客帝国三部曲、指环王、黑暗骑士、敦刻尔克、星际穿越、阿凡达和《一战再战》放在同一句「广泛使用 / 拷贝几乎都由 2383 制作」下面。《一战再战》「今年奥斯卡最佳影片」同样是字幕陈述，画面没有奖项文件。</p>
+      <div class="pitfall">《泰坦尼克号》被单独加注：指 2012 年重映版，不是首映版。把这句推广到 1997 首映，超出视频自己的边界。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">四个特性分别能支撑什么</h2>
+    <div class="card card-green">
+      <h3>黑场与高光</h3>
+      <p>字幕给出的可观察描述是：黑场更深、更干净；高光保持中性；画面更稳；更有纵深。英文摘录能核对的一句是：画面里没有光的时候，就是黑。口播称这是特性 1。</p>
+      <div class="action">看一段无光的暗部：是干净的黑，还是发灰、发彩色。再看高光是否偏色。这是本片允许做的观察，不是密度仪读数。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>原色分离与肤色</h3>
+      <p>片中转述《好莱坞往事》团队在 ASC 采访里的调色师说法：色彩丰富，红绿蓝更纯，分离度高，也就是 Primary Colors。效果被说成更干净的色彩关系，而不只是更高饱和度。肤色更自然、更有质感，被她当作经典放映气质的原因。</p>
+      <div class="quote">「它带来的并不只是更高的饱和度，而是一种更干净、更明确的色彩关系。」（约 02:06 字幕）</div>
+      <p>立场：这是采访转述加作者归纳。视频没有并排出示印片前后的色度图。</p>
+    </div>
+    <div class="card">
+      <h3>灰阶为何会变成 LUT</h3>
+      <p>第三特性是灰阶从黑到白过渡顺滑。字幕把「因此」直接连到「被广泛用于数字 LUT 模拟」。英文摘录能读清的对应句是：参考是负片印到正片，LUT 用来在数字环境里看到和样片一样的东西。</p>
+      <div class="highlight">顺滑灰阶解释的是「为什么有人用它做模拟」，不是「套上 LUT 就得到印片」。第四特性是片基耐用、拷贝经得住反复放映，属于物理拷贝，不能直接翻译成时间线耐用。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>负片、印片、内置 LUT：不要混成一件事</h3>
+    <table>
+      <tr><th>对象</th><th>视频里的位置</th><th>能下的结论</th><th>不能下的结论</th></tr>
+      <tr><td>拍摄负片（Vision 系列被点名）</td><td>00:42 前后</td><td>拍摄发生在印片之前</td><td>2383 本身是拍摄片</td></tr>
+      <tr><td>2383 印片</td><td>00:29–01:36</td><td>放映拷贝的色彩底色</td><td>每部片的每个版本都已核实</td></tr>
+      <tr><td>Rec.709 Kodak 2383 D65</td><td>02:57 图库</td><td>达芬奇内置，被称作起点</td><td>本片已经教了正确用法和常见故障</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">边界</h2>
+    <div class="card card-orange">
+      <h3>适用与停笔</h3>
+      <ul>
+        <li>适用：想分清「电影感」来自拍摄负片还是放映印片的人。</li>
+        <li>适用：在达芬奇胶片外观里认出 Rec.709 Kodak 2383 D65 这个名字。</li>
+        <li>不适用：节点顺序、曝光还原、肤色溢出、LUT 前后对比。字幕把这些划到下期。</li>
+        <li>未核实：奥斯卡表述、片单中的「几乎都使用」、黑场密度的具体数值、放映次数。</li>
+        <li>证据强弱：字幕完整，口播残缺。凡与字幕冲突的听写，不进入结论。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>2383 是放映印片，站在拷贝这一环，给银幕垫底色。</li>
+      <li>四个观察点：干净黑场且高光中性、三原色分离而不只是加饱和、灰阶顺滑所以被模拟、片基耐用属于物理拷贝。</li>
+      <li>数字调色里它只以内置 LUT 的形式出现，并且被叫做起点。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先写下一句：我要模拟的是印片观感，不是拍摄负片的曝光特性。</li>
+      <li>看暗部时用「无光处是否为干净的黑」对照，不用「对比度粗糙」这个听写词。</li>
+      <li>看颜色时分开两件事：饱和度升高，还是红绿蓝彼此更分开。</li>
+      <li>在达芬奇胶片外观中定位 Rec.709 Kodak 2383 D65，停在「这是起点」。</li>
+      <li>引用泰坦尼克号时带上视频自己的限制：2012 重映版。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>经典电影观感在这条视频里不是一颗滤镜名，而是放映拷贝留下的底色。内置 LUT 把这层底色变成数字里的一个入口。入口之后怎么走，本片没有讲。</p>
+  </div>
+  <div class="footer">依据画面字幕与可辨英文摘录 · 口播仅作对照 · Vivi Lyn · 2026-10-17</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

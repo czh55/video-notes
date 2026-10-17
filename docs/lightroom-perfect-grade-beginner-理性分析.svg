@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6906" viewBox="0 0 1320 6906">
+  <foreignObject x="0" y="0" width="1320" height="6906">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:120px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:120px;max-width:180px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>Lightroom 调色：先打底，再往影调里加色</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色后期</span>
+    <span class="tag tag-green">Lightroom</span>
+    <span class="tag tag-orange">21分20秒</span>
+    <span class="tag tag-gray">口播为英语，发布账号柏尼</span>
+  </div>
+  <div class="summary-line">这条教程真正回答的是：调色面板在什么条件下才加得进颜色，以及加哪一对颜色是选择，不是公式。白平衡是底，三只色轮是往阴影、中间调、高光里加色。纯黑和纯白默认吃不到。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:40–01:57</div><div class="timeline-text">色温、色调先定白平衡。可以略偏冷暖，没有唯一正确值。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:57–04:18</div><div class="timeline-text">三轮加色。纯黑无光，阴影明度或曲线抬黑点之后，颜色才进得去。高光对称。</div></div>
+    <div class="timeline-item"><div class="timeline-time">04:18–06:04</div><div class="timeline-text">混合管交界软硬，平衡管高光色和阴影色谁占上风。放大色轮给出三条滑杆。05:34 的时间戳塌缩，画面仍在讲。</div></div>
+    <div class="timeline-item"><div class="timeline-time">06:04–07:34</div><div class="timeline-text">全局铺满整张图。HSL 改不了图里没有的颜色。作者不守固定顺序。</div></div>
+    <div class="timeline-item"><div class="timeline-time">07:34–13:34</div><div class="timeline-text">互补：蓝橙用于加州阳台和香港夜景；绿加粉用于小巷，他说接近富士感。</div></div>
+    <div class="timeline-item"><div class="timeline-time">13:34–17:04</div><div class="timeline-text">单色与类似色做佛蒙特秋色；纽约冬日只在亮部加蓝；日本夜景自由混色。</div></div>
+    <div class="timeline-item"><div class="timeline-time">17:04–21:05</div><div class="timeline-text">快照对比、轻改、色彩疲劳、把自己的调色收成轻度预设。</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">白平衡打底</div>
+      <div class="arrow">→</div>
+      <div class="node">确认黑白有没有光</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">往指定影调加色</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">快照后离开再看</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>调色面板不是 HSL 的另一种界面。HSL 只能改照片里已经有的颜色。灰阶上没有红，把红色饱和拉高不会出现红。要先用调色面板把颜色加进某一段影调，画面上才会有那种颜色。作者还说，加进去之后 HSL 仍然影响不到它。这是他用一次红色试验得出的判断，不是把全部滑杆都试完的结论。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">工具各自干什么</h2>
+    <div class="card">
+      <h3>白平衡是地基，不是风格本身</h3>
+      <p>在讲什么：色温管冷暖，色调管绿和品红。两者一起决定白平衡。</p>
+      <p>关键理解：他要求先把这一层放在尽量平衡的位置，再让调色面板负责创作色。平衡不是唯一合法起点，气氛需要时可以略偏。</p>
+      <div class="action">怎么用：机内自动白平衡若已经可用就留着；不行就点基本面板的自动，再决定要不要偏一点。</div>
+      <div class="quote">00:53–01:53。没有一个必须选的正确白平衡。自动白平衡通常已经把场景平衡好了。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>纯黑和纯白是门，不是色轮的盲区故障</h3>
+      <p>在讲什么：阴影轮只染有光的暗部。最黑的一段不动，因为黑里没有光。</p>
+      <p>关键理解：把阴影明度往右拉，黑被抬成灰，才被算成阴影。高光加粉也进不了纯白，要把高光明度拉低。曲线抬黑点、压高光，会打开同一扇门。所以调色结果依赖前面的影调。</p>
+      <div class="pitfall">不要在纯黑上拧阴影色相，然后以为色轮坏了。先看明度，再看曲线的黑点和白点。</div>
+      <div class="quote">03:01–04:04。黑里面没有光可以调。Lightroom 里没有工具是单独起作用的。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>混合、平衡、全局是分配，不是新颜色</h3>
+      <p>在讲什么：颜色先加到三只轮上，混合决定交界软硬，平衡决定高光色和阴影色谁更占画面。</p>
+      <p>关键理解：混合往右更柔，往左更陡。平衡往右偏高光，往左偏阴影。每张照片方向不同，他的顺序是先加色再试这两条。全局是第四种加法，一种颜色铺满整张，用来在色温不够用时把气氛再推一步。</p>
+      <div class="relation">放大后的单轮只是同一组色相、饱和、明度，方便细选，不产生新的影调分区。</div>
+      <div class="quote">04:18–06:34。全局适合想靠某一种颜色、而色温滑杆不够的时候。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>四种颜色入口怎么选</h3>
+    <table>
+      <thead>
+        <tr><th>入口</th><th>能做的事</th><th>做不到的事</th><th>本片里的位置</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>色温 / 色调</td><td>给整张图一个冷暖或绿品底</td><td>不能按阴影和高光分色</td><td>第一步，必须先做</td></tr>
+        <tr><td>调色三轮</td><td>往阴影、中间调、高光加本来没有的颜色</td><td>纯黑、纯白默认吃不到</td><td>主工具</td></tr>
+        <tr><td>全局色轮</td><td>一种颜色铺满所有影调</td><td>不能只改暗部或只改亮部</td><td>秋色例子里的一条捷径</td></tr>
+        <tr><td>HSL</td><td>改图里已经存在的色相、饱和、明度</td><td>不能把没有的颜色变出来</td><td>和调色来回，不固定谁先谁后</td></tr>
+      </tbody>
+    </table>
+    <p>点颜色被点名，面板没有打开。通行建议是先 HSL 再调色，因为作者认为调色叠在上面。他自己来回改。两条都是工作顺序，不是测出来的渲染顺序。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">配色是选择，演示是他的口味</h2>
+    <div class="card">
+      <h3>四套策略并列</h3>
+      <table>
+        <thead>
+          <tr><th>策略</th><th>色轮关系</th><th>本片例子</th><th>他怎么加</th><th>边界</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>蓝橙互补</td><td>对面</td><td>加州阳台；香港夜景</td><td>阴影蓝，高光和中间调暖。夜景再抬饱和</td><td>场景里往往已经有这对颜色，调色是加强。夜景阴影更多，更好加蓝</td></tr>
+          <tr><td>绿红互补</td><td>对面</td><td>有绿植的小巷</td><td>阴影一点点绿，高光一点点粉</td><td>他自己说并不完全自然，接近他理解的富士胶片感。这是口味，不是富士配方</td></tr>
+          <tr><td>单色 / 类似色</td><td>同一色相或邻色</td><td>佛蒙特秋色；纽约冬日</td><td>秋色可只走全局加暖，或三轮各自微偏。冬日只在中间调和高光加蓝</td><td>纽约的阴影被故意留白，用来和亮部拉开。14:20 单帧读不清每只轮的色相</td></tr>
+          <tr><td>无配方</td><td>不预设</td><td>日本夜景</td><td>青绿、暖色、品红都试，再拧混合和平衡</td><td>他说尤其适合抽象慢门夜景。改完之前无法预知</td></tr>
+        </tbody>
+      </table>
+      <div class="highlight">蓝橙用得最多，是因为他自己的照片和十年习惯，不是因为这对颜色在所有题材上更正确。绿也是同一理由。</div>
+    </div>
+    <div class="card card-red">
+      <h3>不要把演示幅度当成成片幅度</h3>
+      <p>例子下手偏重，是为了看清工具。他后来说，很小的改动就足以换气氛。看前后对比时要分开两件事：工具影响到了哪一段影调，以及这张成片需要多浓。</p>
+      <div class="pitfall">开场预告的秘密技巧后文没有点名。不要把快照、色彩疲劳或某一次加绿自行指定成那个技巧。</div>
+      <div class="pitfall">FilmVibes 与片尾的 FilmVis 是同一段广告的两种听写，包装名没有在画面上核对。预设包不是方法的必要条件。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">做完以后怎么判断</h2>
+    <div class="card card-green">
+      <h3>快照用来比较，离开用来纠偏</h3>
+      <p>在讲什么：同一张照片存几套调色。他按住 Option 清掉当前调色，再存下一套，三套里挑。</p>
+      <p>关键理解：盯着同一版 10 到 30 分钟，眼睛会把怪颜色当成正常。他称为色彩疲劳，建议离开 30 分钟到 1 小时。回头看那张例子，他觉得太绿，想调暖，并承认当时看不出来。</p>
+      <div class="action">找到会反复用的组合后，收成轻度预设当起点，不必做成很猛的滤镜。这是他维持风格一致的办法，不是必须购买他的预设。</div>
+      <div class="quote">18:04–20:34。小的改动有时就是全部差别。色彩疲劳是真的。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>调色面板往指定影调加色。HSL 改已有色。白平衡定整张图的冷暖和绿品。</li>
+      <li>纯黑、纯白要先被明度或曲线拉进阴影或高光，颜色才进得去。</li>
+      <li>混合管交界，平衡管谁占上风，全局管整张图的一种颜色。</li>
+      <li>互补、单色、类似色、无配方都是他的常用选择，数值随照片变。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先看色温和色调，确认白平衡是平衡的，或是有意偏的。</li>
+      <li>加阴影色之前看最黑的一段有没有被明度或曲线抬起来。</li>
+      <li>先加色，再试混合和平衡的左右，不要一上来锁死数值。</li>
+      <li>至少存两张快照，离开 30 分钟再选。</li>
+      <li>会反复用的轻调色，另存成自己的预设起点。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把调色理解成把饱和拉高。现在把它理解成：先保证那一段影调里有光，再决定把哪种颜色只加进暗部、只加进亮部，或铺满整张。浓淡是后面的事，眼睛看久了会失灵。</p>
+  </div>
+  <div class="footer">立场分层：界面操作来自画面；顺序、富士感、没有对错，来自讲者观点。点颜色未演示。秘密技巧未点名。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

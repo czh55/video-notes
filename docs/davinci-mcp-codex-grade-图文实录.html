@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="达芬奇 21.1 用 MCP 接上 Codex 做一级和色彩匹配。粗提示能出结果，天空、草地和肤色仍对不齐，作者说用量会把连续任务打断。">
+  <title>达芬奇 21.1 MCP × Codex 调色实测｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}.c{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}h1{font-size:28px;font-weight:800;color:#1c1917;margin-bottom:8px}.meta{color:#78716c;font-size:14px;margin-bottom:24px}.intro{font-size:17px;color:#44403c;line-height:1.9;margin-bottom:32px}img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}figcaption{padding:14px 18px;color:#57534e}.sr{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}.sr .tm{flex-shrink:0;font-size:14px;color:#b45309;font-weight:700;min-width:128px}.sr strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}.sr p{color:#57534e;margin:0;font-size:15px}.tb{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}.tb strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}.tb p{color:#1e40af;margin:0;font-size:15px}h2{font-size:22px;font-weight:700;color:#1c1917;margin:32px 0 16px}h3{font-size:18px;font-weight:700;color:#1c1917;margin:28px 0 14px}.ss .trng{font-size:13px;color:#b45309;font-weight:600;margin-bottom:10px}.ss p{color:#44403c;margin-bottom:12px}.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}.sl{display:inline-block;color:#3b82f6;font-size:14px;text-decoration:none;margin-top:8px}.tsl{list-style:none;padding:0}.tr{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}.tr time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}.tr p{margin:0}.tc{border:none;padding:0}.tc summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;font-size:24px;font-weight:700;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}.tc summary::-webkit-details-marker,.tc summary::marker{display:none}.tc summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s}.tc[open] summary::before{transform:rotate(90deg)}.tc[open] summary{margin-bottom:16px}.note{font-size:14px;color:#78716c}@media(max-width:640px){.c{padding:28px 18px 56px}.tr{grid-template-columns:56px 1fr;gap:10px}.sr{flex-direction:column}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="c">
+    
+  <header>
+    <h1>达芬奇 21.1 MCP × Codex 调色实测</h1>
+    <div class="meta">时长 4 分 58 秒 · 作者 Vivi Lyn · 调色 · 达芬奇 · 小红书 · 2026-10-17</div>
+    <p class="intro">Vivi Lyn 用大约五分钟看达芬奇 Resolve Studio 21.1 的 MCP：让 Claude 和 ChatGPT 里的 Codex 去读项目、在她已经搭好的节点树上做一级调色，再按右侧参考做色彩匹配。前三分钟口播几乎没被听写下来，依据是她烧在画面上的字幕和调色页。能核对的结果是：粗提示下模型会动色轮，草地镜头被她标成调色前和调色后；红色灯光的镜头没有被强行拉回中性色温。匹配阶段，字幕和后半段口播都指出天空、肤色和草没有对齐。她把同一画面的匹配分成三次，并说自己是 ChatGPT Plus 用户，中途仍会碰到用量上限，要等下一个五小时窗口。片尾字幕把这件事收成：离职业交付还有距离，调色师更值钱的是判断。</p>
+    <a class="sl" href="https://xhslink.cn/o/Am1z2LwXreI" target="_blank" rel="noopener">查看原视频（小红书）</a>
+  </header>
+  <article>
+    <h2>内容要点</h2>
+    <p>这是一条屏幕实录。笔记标题写的是达芬奇 21.1 的 MCP 和 Codex 调色实测。Whisper 只在片头约 30 秒和 3 分 00 秒之后留下可用句子，中间两分半要看字幕。</p>
+    <h3>知识结构</h3>
+    <div class="sr"><span class="tm">[00:00→00:40]</span><div><strong>MCP 先被定义成连外部软件的协议</strong><p>片头字幕说 21.1 正式版有重要更新，可以用 MCP 让 AI 直接操作达芬奇。画面把协议解释成让 AI 连接外部软件并执行操作，清单上写着分析项目、整理素材、调整设置、批量渲染。口播开头被听成乱码，和这组字幕对得上的是后半句「重复性的任务」。</p></div></div>
+    <div class="sr"><span class="tm">[00:40→01:20]</span><div><strong>Claude 和 Codex 都接上，先只读时间线</strong><p>File 菜单里点到 Setup AI Assistants。确认框写 MCP 服务已加到 Claude Desktop 和 Codex in ChatGPT。Codex 窗口按指令读项目：版本 21.1.0.17，项目名 21.1 X Codex，3840×2160、25fps、约 55.96 秒，6 条视频和 2 条音频，并写明未修改内容。这一段没有可靠口播。</p></div></div>
+    <div class="sr"><span class="tm">[01:20→02:20]</span><div><strong>一级调色落在已有节点上</strong><p>字幕说让它在原有节点树上操作，并先看一级结果。草地镜头的字幕写成调色前和调色后。后面带创作色温和现场灯光的镜头，字幕明确写它没有强行做色温中和。作者后来说后面两个镜头的一级「不是那么好」，这句评价要和「没有强行中和」放在一起看。</p></div></div>
+    <div class="sr"><span class="tm">[02:20→03:44]</span><div><strong>按右侧参考匹配，粗提示仍会撞上用量</strong><p>指令要求把已经做了 Rec.709 还原的片段，在现有节点上向右边已调色版本做色彩匹配。字幕指出天空的蓝和肤色没对齐。3 分 00 秒后口播承认：提示很粗，结果仍有点出乎意料；同一画面分三次才做完。她说自己是 ChatGPT Plus 用户，中途还是会到上限，任务停住，要等五个小时的窗口刷新用量。</p></div></div>
+    <div class="sr"><span class="tm">[03:44→04:58]</span><div><strong>第二镜的天空和草没对齐</strong><p>口播直接说第二个画面不太好，天空和草的颜色都没匹配好。片尾字幕补上她的判断：一级和色彩匹配离职业交付还有距离；Token 不够会中断任务；调色师的价值更多在判断、整片统一，以及出了问题怎么看、怎么改。视频没有给出可复核的色差数值。</p></div></div>
+    <div class="tb"><strong>总结</strong><p>按这条实测，21.1 的 MCP 能让 Codex 读时间线并在现成节点树上做一级和参考匹配，但天空、肤色、草地这些作者点名的地方仍对不齐。用量上限是她遇到的连续作业障碍。职业交付在片尾被说成仍靠调色师判断，这是作者立场，不是对软件能力的测量。</p></div>
+
+    <section class="ss">
+      <h2>图文实录</h2>
+      <h3>片头：协议和一份工作流清单</h3>
+      <div class="trng">00:00 – 00:40</div>
+      <p>视频没有交代这期为什么现在做。笔记正文是「一期 AI 调色实测」，话题标签把达芬奇调色、ChatGPT、Codex 放在一起。开场字幕先报版本：达芬奇 21.1 正式版有个很重要的更新。接着一句「现在可以通过 MCP 来接入」，再一句「让 AI 直接操作达芬奇」。她说这些视频要实测调色技术到了哪一步。</p>
+      <p>大约十五秒，画面打出 Model Context Protocol，字幕把她的理解说完整：可以把它理解成一套让 AI 和外部软件连接并执行操作的协议。这是作者的定义，视频没有展开协议字段或权限模型。</p>
+      <p>二十六秒左右，一块卡片标题是 DAVINCI RESOLVE STUDIO 21.1，下面四行：分析项目、整理素材、调整设置、批量渲染。卡片末尾还有省略标记，清单没有列完。字幕只念到前两行。Whisper 在三十秒附近挤出一串重复的「任务」，对得上稍后字幕里的「偏工作流和重复性的任务」，但开头两句听写不能当原话引用。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-01.jpg" alt="达芬奇 21.1 卡片列出分析项目、整理素材、调整设置、批量渲染" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:26] 画面中央列出达芬奇 21.1 能做的事：分析项目、整理素材、调整设置、批量渲染，字幕停在分析项目和整理素材</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/822a637eee90.mp3" type="button" aria-label="Play English audio">🔊</button><span>A card lists what DaVinci Resolve 21.1 can do: analyze the project, organize media, adjust settings, and batch render. The subtitle stops on analyzing the project and organizing media.</span></div>
+<audio class="cap-audio" src="audio/822a637eee90.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>同一段字幕把问题收回调色：真正放到调色里它能做到什么程度，以及一级调色和职业调色里很重要的镜头色彩匹配。到这里为止，实测还没开始，只是把题目说成「镜头和镜头之间的颜色要对上」。</p>
+
+      <h3>接入：两个助手，先读、先不改</h3>
+      <div class="trng">00:40 – 01:20</div>
+      <p>大约四十三秒，File 菜单打开，高亮停在 Setup AI Assistants，字幕写「File 找到 Setup AI Assistants」。菜单关掉以后，字幕说 Claude 总是默认跳出来，但系统提供了两种选项。四十七秒弹出确认框，标题是 AI Assistants Configured。框里的英文大意是：达芬奇的 MCP 服务已经加到这些 AI 助手上，请重启后生效。列表里能读到 Claude Desktop（扩展安装器已打开）和 Codex in ChatGPT。字幕先说「一个是 Claude」，下一句是「另一个是 Codex」。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-02.jpg" alt="达芬奇确认框 AI Assistants Configured，列出 Claude Desktop 和 Codex in ChatGPT" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:47] 达芬奇弹出 AI Assistants Configured，写明 MCP 服务已加到 Claude Desktop 和 Codex in ChatGPT，字幕是一个是 Claude</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/93447466d2ae.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci shows AI Assistants Configured: the MCP server was added to Claude Desktop and Codex in ChatGPT. The subtitle says one of them is Claude.</span></div>
+<audio class="cap-audio" src="audio/93447466d2ae.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>接下来画面切到 Codex 的对话。字幕说可以直接在 Codex 里做 MCP 配置。模型菜单上能读到「Astra 轻度」，前面的型号前缀在这一帧被识别成 GPT-6，位数没有逐像素再核，正文只采用菜单上能同时被字幕说到的「Astra 轻度」。字幕补了一句：这样速度可以稍快一些，当然 Token 的消耗速度肯定要快一些。这是作者对这个档位的预期，视频没有给出用量计数。</p>
+      <p>她在输入框里的指令，画面上能读清的是：请连接我的 DaVinci Resolve MCP，并检查当前连接是否正常；读取当前项目时间线上的所有素材，暂时不要修改任何内容。一分钟出头，Codex 的回复写着已通过 MCP 成功连接，读取正常，当前版本 21.1.0.17，未修改任何内容。项目名 21.1 X Codex，时间线 Timeline 1，设置 3840×2160、25fps，总时长 55.96 秒。素材是 6 个视频片段、2 个音频片段，无字幕，源素材显示 Online。回复里还列出文件名和各自时长，低码率画面上文件名容易看错，这里不把每一条文件名当成精确清单。字幕接着说：接下来就可以进行具体的调色实测。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-03.jpg" alt="Codex 显示 MCP 已连接达芬奇 21.1.0.17，并列出时间线分辨率和时长" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:12] Codex 回复已通过 MCP 连上版本 21.1.0.17，项目名 21.1 X Codex，时间线 3840×2160、25fps、约 55.96 秒，并写明未修改任何内容</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a06d087c673a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Codex replies that MCP connected to version 21.1.0.17. The project is 21.1 X Codex. The timeline is 3840 by 2160 at 25 fps, about 55.96 seconds, and nothing was modified.</span></div>
+<audio class="cap-audio" src="audio/a06d087c673a.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>一级：节点树上的曝光，以及不中和的红灯</h3>
+      <div class="trng">01:20 – 02:20</div>
+      <p>下一条指令在同一窗口里。能读清的要求是：在已经建好的节点树上，对时间线素材做一级调色。画面字幕把作者的意图说成：我是让它在我原有的节点树上去进行具体的操作。调色页上能看到 pri、bal、sat 这类缩写节点，和「在 pri 上动曝光对比度」这句指令对得上；节点全名在 720p 录屏里不宜逐个当规格抄。随后字幕说它开始调用不同的调色工具，再切到「我们先来看一下一级调色的一个实测结果」。</p>
+      <p>九十秒附近，字幕说主要用了三个节点来做一级，而且这些节点只用了非常基础的一级调色轮。一分四十六秒，草地镜头的字幕写成：好，这个场景的话是调色前，这是调色后。监看区是蓝天下的绿色田野，远处有一辆白色车。色轮和示波器开着。字幕宣布了前后，这一帧本身没有把「左是前、右是后」的分屏边界画清楚，所以不把对比幅度写成事实。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-04.jpg" alt="调色页监看绿草地和远处白色车辆，字幕写调色前和调色后" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:46] 调色页字幕写这个场景是调色前、这是调色后；监看区是蓝天下的绿草地和远处一辆白色车</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bd8a81d8a117.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the Color page the subtitle says this scene is before grading and this is after. The viewer shows a green field under a blue sky and a white vehicle in the distance.</span></div>
+<audio class="cap-audio" src="audio/bd8a81d8a117.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>下一个场景字幕说同样用了三个节点，并补了一句「如果是我调的话」，但这一帧没有把她自己的调法做完。两分钟出头，字幕改口：后面这两个镜头的一级调色我觉得就不是那么好。对象被她说成「有创作性的色温和现场灯光设计的镜头」。两分十秒，监看是一个人站在几根红色竖灯前面，字幕写：它没有进行强行的色温中和。示波器上红色通道明显高于另外两路，和画面的红光一致。这里「不是那么好」是作者口味；「没有强行中和」是这一帧字幕和画面一起能核对的操作结果。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-05.jpg" alt="人物站在红色竖灯前，字幕写没有强行做色温中和" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:10] 人物站在红色竖灯前，字幕写它没有进行强行的色温中和</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e82adaca0ad0.mp3" type="button" aria-label="Play English audio">🔊</button><span>A person stands in front of vertical red lights. The subtitle says it did not force the white balance back to neutral.</span></div>
+<audio class="cap-audio" src="audio/e82adaca0ad0.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+
+      <h3>色彩匹配：右边是参考，天空和肤色先被点名</h3>
+      <div class="trng">02:20 – 03:20</div>
+      <p>大约两分十五秒，Codex 输入框换成匹配指令。画面上能读清的句子是：现在请将达芬奇里选中的、已经进行了 Rec.709 还原的片段，在现有的节点树上，按照右边已经 graded 的版本进行色彩匹配。字幕接着说：现在是给它指令，按照右边的这个参考，然后一起检测色彩匹配的效果。</p>
+      <p>两分半，字幕报「这是调色前，调色后」。人物是白衬衫、户外、蓝天，左右并排。下一句字幕说有些细节要注意，再具体到：天空的蓝色也没有匹配得很好；肤色还需要再更细致地匹配。这两句是作者对着这一组对比看出来的，视频没有读数。</p>
+      <p>她随后把手动版本拿来比。字幕说，手动调整的版本首先风格上要和右边的 reference 一致，整体更偏向胶片影调的曲线感觉。手动版本身没有在这一帧里单独铺开，只能记下她用来当标准的两件事：跟右边参考的风格，以及她说的胶片曲线。</p>
+      <div class="quote">「但不能否认，在我给它非常粗略的提示词的情况下，它还能做到这样子的一个色彩匹配的效果，还是有一点出乎我的意料之外的。」</div>
+      <p>这句从三分整开始，是后半段第一条能用的口播。前面两分半的过程，口播是空的，上面的步骤来自字幕。她接着说，如果提示往更专业、更细致的描述走，结果可能比现在更优秀。这是预期，不是第二次实验的结果。</p>
+
+      <h3>用量：三次才做完，Plus 也会停</h3>
+      <div class="trng">03:20 – 03:44</div>
+      <p>她把限制说成当下更现实的问题。像这个画面的色彩匹配，前后一共分了三次才完成。即便她说自己是 ChatGPT Plus 用户，中途还是会遇到上限，任务被迫中断，不得不等下一个五个小时的窗口，刷新后台的 Token 量之后才能继续。Whisper 把 ChatGPT 听成 ChatGbT，按她口中的 Plus 用户和画面里的 Codex in ChatGPT，正文写成 ChatGPT Plus。五个小时和 Plus 是否必然如此，视频没有打开账户页面，只保留成作者说法。</p>
+      <div class="quote">「所以目前来看的话，Token 的限制还是会非常影响这种连续性任务的效率。」</div>
+
+      <h3>第二镜：天空和草，以及片尾的判断</h3>
+      <div class="trng">03:44 – 04:58</div>
+      <p>口播转到第二个画面的色彩匹配测试。她说结果也不太好，好些地方还是不太对。点名的两处是天空的颜色，和草的颜色，都没匹配好。三分五十六秒，田野左右对比还在，字幕停在「一个就是草的颜色都没匹配好」。左边更平，右边的草更艳。这是这一帧能看见的差别，不是测出来的 ΔE。</p>
+      <figure>
+        <img src="assets/davinci-mcp-codex-grade/shot-06.jpg" alt="田野左右对比，字幕写草的颜色都没匹配好" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:56] 田野左右对比仍在，字幕停在一个就是草的颜色都没匹配好</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0a5bd2e6bc06.mp3" type="button" aria-label="Play English audio">🔊</button><span>The field remains in a side-by-side comparison. The subtitle stops on the grass color not being matched.</span></div>
+<audio class="cap-audio" src="audio/0a5bd2e6bc06.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>口播到这里就停了。后面二十秒是字幕收束，没有新的口播。字幕依次写：这是 AI 调的；还是有蛮大的区别；整体风格没有匹配好；不管是一级调色还是色彩匹配，距离职业交付还是有一定的距离；Token 不够用会导致任务中断；调色师的价值则会更多体现在判断上；要保持整片的统一；这些判断和把控正在成为调色师更核心的价值；技术变化越快，越需要搞懂底层逻辑；出现问题要如何判断和解决。最后一句是她还会更新更多调色和电影技术的内容。片尾没有再演示一次改好的版本。</p>
+    </section>
+  </article>
+  <section class="ts" id="transcript">
+    <details class="tc">
+      <summary>详细文字转录</summary>
+      <div>
+        <p class="note">以下按 Whisper 原始分段呈现，语言是繁体识别，开头两句有重复字。0 分 31 秒到 3 分 00 秒、以及 3 分 58 秒之后没有非空分段。简体释义在正文。</p>
+        <ol class="tsl">
+  <li class="tr" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>達芬芬奇21.1正是</p>
+  </li>
+  <li class="tr" id="transcript-2">
+    <time datetime="PT30S">00:30</time>
+    <p>重�性的任務務務務務務</p>
+  </li>
+  <li class="tr" id="transcript-3">
+    <time datetime="PT180S">03:00</time>
+    <p>但不能否認在我給他非常粗略的提示詞的情況下</p>
+  </li>
+  <li class="tr" id="transcript-4">
+    <time datetime="PT184S">03:04</time>
+    <p>他還能做到這樣子的一個色彩匹配的效果</p>
+  </li>
+  <li class="tr" id="transcript-5">
+    <time datetime="PT187S">03:07</time>
+    <p>還是有一點出乎我的意料之外的</p>
+  </li>
+  <li class="tr" id="transcript-6">
+    <time datetime="PT189S">03:09</time>
+    <p>那如果我們給他的Prom</p>
+  </li>
+  <li class="tr" id="transcript-7">
+    <time datetime="PT191S">03:11</time>
+    <p>嘗試往更專業更細緻的這個描述去走的話</p>
+  </li>
+  <li class="tr" id="transcript-8">
+    <time datetime="PT194S">03:14</time>
+    <p>我相信他給我們的結果</p>
+  </li>
+  <li class="tr" id="transcript-9">
+    <time datetime="PT196S">03:16</time>
+    <p>可能要比現在是要更優秀的</p>
+  </li>
+  <li class="tr" id="transcript-10">
+    <time datetime="PT198S">03:18</time>
+    <p>那現在有一個比較現實的問題就是Token的容量</p>
+  </li>
+  <li class="tr" id="transcript-11">
+    <time datetime="PT201S">03:21</time>
+    <p>像這個畫面的色彩匹配我前後一共分了三次才完成</p>
+  </li>
+  <li class="tr" id="transcript-12">
+    <time datetime="PT204S">03:24</time>
+    <p>那即使我是ChatGbT Plus用戶</p>
+  </li>
+  <li class="tr" id="transcript-13">
+    <time datetime="PT207S">03:27</time>
+    <p>中途還是會遇到這個遇到上限的問題</p>
+  </li>
+  <li class="tr" id="transcript-14">
+    <time datetime="PT210S">03:30</time>
+    <p>那這時候的話任務就會被迫中斷</p>
+  </li>
+  <li class="tr" id="transcript-15">
+    <time datetime="PT212S">03:32</time>
+    <p>就不得不等下一個五個小時的窗口</p>
+  </li>
+  <li class="tr" id="transcript-16">
+    <time datetime="PT214S">03:34</time>
+    <p>刷新了後台的Token量之後</p>
+  </li>
+  <li class="tr" id="transcript-17">
+    <time datetime="PT216S">03:36</time>
+    <p>才能再繼續任務的執行</p>
+  </li>
+  <li class="tr" id="transcript-18">
+    <time datetime="PT218S">03:38</time>
+    <p>所以目前來看的話</p>
+  </li>
+  <li class="tr" id="transcript-19">
+    <time datetime="PT219S">03:39</time>
+    <p>Token的限制還是會非常影響這種連續性任務的效率</p>
+  </li>
+  <li class="tr" id="transcript-20">
+    <time datetime="PT223S">03:43</time>
+    <p>好我們接下來開始進行第二個畫面的色彩匹配的測試</p>
+  </li>
+  <li class="tr" id="transcript-21">
+    <time datetime="PT226S">03:46</time>
+    <p>那這個畫面色彩匹配的結果</p>
+  </li>
+  <li class="tr" id="transcript-22">
+    <time datetime="PT228S">03:48</time>
+    <p>嗯也不太OK啊</p>
+  </li>
+  <li class="tr" id="transcript-23">
+    <time datetime="PT230S">03:50</time>
+    <p>好些地方還是不太對的</p>
+  </li>
+  <li class="tr" id="transcript-24">
+    <time datetime="PT232S">03:52</time>
+    <p>一個就是天空的顏色</p>
+  </li>
+  <li class="tr" id="transcript-25">
+    <time datetime="PT234S">03:54</time>
+    <p>一個就是草的顏色都沒匹配好啊</p>
+  </li></ol>
+      </div>
+    </details>
+  </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".tc");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

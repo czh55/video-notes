@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6072" viewBox="0 0 1320 6072">
+  <foreignObject x="0" y="0" width="1320" height="6072">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>Opus 5.5 串起达芬奇和 AE</h1>
+  <div class="meta">
+    <span class="tag tag-blue">视频制作</span>
+    <span class="tag tag-purple">达芬奇 Studio</span>
+    <span class="tag tag-green">After Effects</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-gray">7分01秒 · 老萨</span>
+  </div>
+  <div class="summary-line">这套工作流回答的是：模型不替代剪辑软件，而是去操作已经装好的达芬奇和 AE。外部操控达芬奇被作者限定在 Studio；AE 的安装命令只出现在画面上，前三分钟口播接不上。</div>
+  <a class="source-link" href="https://xhslink.cn/o/6XOwp1kWqk3">原视频</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:06</span><span class="timeline-text">画面：14 寸 M5 Max，18 核 CPU，40 核 GPU，64GB，2TB。口播这时只说到 64G 统一内存。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:18</span><span class="timeline-text">画面：4 月成交价 34692 元，官网 41499 元（2026.10.13）。订单未另核。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">口播「后来就再也没怎么用过」。日志细字：QWEN_LAUNCHER.LOG，启动 26 次，末次 2026.06.22。字幕另写「只部署了一次」。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:24</span><span class="timeline-text">画面步骤：AE 2024+ 与 Node.js。口播空档。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:48</span><span class="timeline-text">画面命令：claude mcp add aftereffects，包 @kumoproductions/mcp-aftereffects。角标写 Claude Code。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:08</span><span class="timeline-text">口播：21.1 起官方内置 MCP，且点名了当前 Agent。画面新闻稿日期 2026.09.08，口播说的是 6 月。</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:36</span><span class="timeline-text">AE 分辨率菜单：完整、二分之一、三分之一、四分之一。光标在三分之一。</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:20</span><span class="timeline-text">揭晓：A 为 Remotion，B 为 AE。Remotion 对卡片图表，AE 对真实素材。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">机器吃灰<br/>先有性能</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">Studio 才能被外部 AI 操作</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">达芬奇调色</div>
+      <div class="arrow">→</div>
+      <div class="node">AE 动效与剪辑</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">Blender / Tripo 补充画面</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>先改掉听写，再谈结论</h3>
+    <p>OPS、Obs、OPS5.5.5 都按标题和画面收成 Opus 5.5。MMAX 按开场标注收成 M5 Max。Triple 按 05:50 画面收成 Tripo。分圆率、1 分 1 按合成窗口菜单收成预览分辨率。口播「6 月份的 21.1」和画面新闻稿 2026.09.08 同时保留，不互相覆盖。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">达芬奇：版本门槛和两条接法</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>作者把达芬奇定义成靠调色体系的剪辑软件，并分成免费版和 Studio。接 AI 的前提被他说死：从外面用 AI 操作，一直只有 Studio 支持。</p>
+      <div class="quote">「从外面用 AI 去操作达芬奇，一直以来都只有 Studio 版才可以支持。」（约 03:59–04:04）</div>
+      <div class="highlight">这是作者对软件许可边界的判断。片子没有演示免费版被拒绝的界面，所以强度停在「他的前提」，不是一份许可协议摘录。</div>
+      <div class="action">要让外部 Agent 调色，先确认自己开的是 Studio，而不是只装了免费版再找 MCP。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>21.1 与更早版本</h3>
+      <p>21.1 及以后：升级 Studio，打开 AI 助手设置，让它把连接接好，再回 Agent 里下指令调色。他说公告点名支持了「我们现在用的这个 Agent」，但这几句没有念出名字。AE 那段画面写的是 Claude Code，不能自动当成达芬奇公告里的同一个名字。</p>
+      <p>更早版本：偏好设置里把外部脚本使用改成本地，再装第三方 MCP。04:40 画面是仓库 davinci-resolve-mcp，简介写给 Resolve Studio。仓库名是画面事实，安装是否成功没有在片子里跑完。</p>
+      <div class="pitfall">不要把「官方内置」理解成免费版也能被外部脚本驱动。两条路的作者前提都是 Studio。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">AE 的 MCP 只在画面上</h2>
+    <div class="card card-green">
+      <h3>在讲什么</h3>
+      <p>01:00 之后口播中断到 03:31。能执行的步骤来自画面，不来自口播复述。</p>
+      <ul>
+        <li>装 After Effects 2024 或更新版本，以及 Node.js。细字指向该 MCP 的 README。</li>
+        <li>首选项的脚本和表达式里，勾上允许脚本写入文件和访问网络。画面红字：不勾则 AI 连不上 AE。界面按 AE 2025 中文版示意。</li>
+        <li>在标明为 Claude Code 的 agent 里执行：claude mcp add aftereffects，后接 npx -y @kumoproductions/mcp-aftereffects。回显是已添加 stdio MCP server。接着系统会问是否允许终端控制 AE 2025。</li>
+      </ul>
+      <div class="relation">口播后来说「由 Opus 5.5 去做动效，剪辑都在 AE 里完成」。画面上的 agent 名是 Claude Code。两者在片子里没有被解释成同一个产品，笔记不合并。</div>
+      <div class="action">照着画面命令安装之前，先确认本机 AE 版本不低于画面写的 2024，并愿意让脚本访问网络。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">四件工具各接哪一段</h2>
+    <div class="card">
+      <table>
+        <tr><th>工具</th><th>作者分配的活</th><th>证据</th><th>不能外推的地方</th></tr>
+        <tr><td>达芬奇 Studio</td><td>调色，且先做</td><td>口播 04:45 起；21.1 官方 MCP 或更早的本地外部脚本</td><td>免费版能否调色，片子没讨论。外部操控被他排除在免费版之外</td></tr>
+        <tr><td>After Effects</td><td>动效，以及全部剪辑；吃真实素材</td><td>口播 04:49–04:55，以及 06:27–06:32</td><td>预览卡顿时降的是预览分辨率，不是导出分辨率</td></tr>
+        <tr><td>Remotion</td><td>纯动画、卡片、文字、图表</td><td>口播 06:23–06:27；第一题 A 被揭晓为 Remotion</td><td>「操作次数大约两倍」没有次数表</td></tr>
+        <tr><td>Blender 与 Tripo</td><td>生成或渲染 3D，补表现</td><td>口播 05:47–05:54；画面为 Tripo 灰模</td><td>英文字样指出拓扑差会妨碍动画，他没有展开修拓扑</td></tr>
+      </table>
+      <div class="insight">顺序是调色在前、动效和剪辑在后。他没有演示工程文件如何从达芬奇交到 AE，交接格式是缺口。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>表现力和效率被他拆开</h3>
+      <p>原话是效率不一定比他原来的工作高，表现力则强很多。05:00 的两根效率条，小字写「示意 · 我的主观感受」。机器代价也是分开的：达芬奇吃显卡，AE 预览和渲染吃 CPU 与内存。4K 导出和不卡的实时预览，都限定在他这台 M5 Max 上。</p>
+      <div class="pitfall">不要用那两根条去论证 AE 工作流更慢。作者自己标了示意。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>模型的角色是操作达芬奇和 AE，不是换掉它们。</li>
+      <li>外部操作达芬奇，作者要求 Studio；21.1 走 AI 助手，更早版本走本地外部脚本加第三方 MCP。</li>
+      <li>AE 的可执行步骤在 01:24–01:54 的画面里，口播没有覆盖这段。</li>
+      <li>Remotion 与 AE 的分工是卡片图表对真实素材，成本差异是他的经验数字。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>确认达芬奇是 Studio，再决定走 21.1 的 AI 助手，还是把外部脚本改成本地。</li>
+      <li>AE 勾上允许脚本写入文件和访问网络，再用画面上的 claude mcp add 命令。</li>
+      <li>预览卡时只降合成窗口的预览分辨率，导出前不必为了流畅把成片分辨率一起改掉。</li>
+      <li>卡片、文字、图表先考虑 Remotion；要贴真实画面时再进 AE。</li>
+      <li>把「效率更高」从采购理由里拿掉，作者没有这样承诺。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>高配电脑在这支片子里的用途，不是训练模型或本地部署。作者把它说成跑达芬奇、AE 和 Blender 的机器。这是他的用法判断，启动日志只说明这台电脑此前很少被打开。</p>
+  </div>
+  <div class="footer">立场：画面上的规格、价格、命令、菜单为可核验画面；效率、两倍操作次数、公告点名的 Agent 为作者观点。新闻稿日期与「6 月」未再外部核对。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vivi Lyn 在达芬奇里把柯达 2383 LUT 当调色起点：先把输出伽马换成 Cineon Film Log，再盯过曝、色相偏移和饱和溢出。">
+  <title>柯达 2383 LUT 怎么套，套完盯哪四个坑｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.quote{border-left:3px solid #d6d3d1;margin:14px 0;padding:4px 0 4px 14px;color:#57534e}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+  <header>
+    <p class="kicker">图文实录 · 小红书 · Vivi Lyn</p>
+    <h1>柯达 2383 LUT 怎么套，套完盯哪四个坑</h1>
+    <p class="meta">2026-10-17 · 10分34秒 · 达芬奇调色 · <a href="https://xhslink.cn/o/4YPSI90okhB">原视频</a></p>
+    <p class="lede">这条只讲达芬奇里怎么把柯达 2383 LUT 当成调色起点。片头三分钟几乎没有可用口播，步骤写在画面上：先把输出伽马换成 Cineon Film Log，再从 Film Looks 里套 LUT。后面用滑板、树林和泳池三条素材，看套完以后曝光、色相和饱和会往哪里跑。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>笔记标题是「柯达 2383 LUT 的正确使用方式与常见问题」。它不解释这卷胶片的身份，也不报片单。另一条已发布的笔记《Kodak 2383：经典电影色彩密码》停在印片和银幕底色，本页不重复那部分。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→03:31]</span>
+      <div>
+        <strong>先换伽马，再点 LUT</strong>
+        <p>口播从开头第二秒断到三分多钟。画面先摆出六只 2383：DCI-P3 和 Rec.709，白点 D55、D60、D65。树林素材的色彩空间转换，输入是 Sony S-Gamut3.Cine、S-Log3，输出色域 Rec.709，输出伽马从 Gamma 2.4 改成 Cineon Film Log。黄字说这是柯达为数字中间片做的伽马曲线。灰阶条用来看这条 LUT 把影调弯成什么样。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[03:31→04:09]</span>
+      <div>
+        <strong>同一条链，只改一处</strong>
+        <p>口播说滑板素材来自 Red 摄影机。她先用色彩空间转换还原成基础 Rec.709，两个节点分别动整体曝光对比和白平衡。套 2383 时，她说唯一改动是把 Output Gamma 换成 Cineon Film Log，再应用 LUT。听写写成 UPGAMA 和 CINEMFILM LOCK，检查器上的字是 Output Gamma 和 Cineon Film Log。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[04:09→05:59]</span>
+      <div>
+        <strong>三个立刻能看见的问题</strong>
+        <p>套完以后整体曝光影调超出她认为合理的范围，所以还要再调素材。青绿色衣服往橙黄偏，蓝色滑板和蓝色天空往青偏，这些色相的饱和度也升高。第三个坑是饱和度溢出。产品广告或服装广告里，这些偏移需要再修正。五分钟前后口播中断，画面停在色彩空间转换上，输出伽马仍是 Cineon Film Log。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[05:59→08:06]</span>
+      <div>
+        <strong>绿会被拆开</strong>
+        <p>想要胶片感觉，可以再加质感节点。她把这套 LUT 说成调色起点之一，可以按项目换别的 LUT，也可以继续做风格。矢量图上，Rec.709 时绿色集中在一个方向，有点青黄。套上之后色相分离：偏黄的绿往黄走，偏青的绿往青走。她说刚才看的是 D65，换成 D60、D65，这个问题还在。听写里的 D665 在 LUT 列表里不存在。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[08:06→09:45]</span>
+      <div>
+        <strong>噪点很重时先别指望 LUT</strong>
+        <p>最后一条是经过压缩的素材。口播听成 LXMini，画面没有打出机型，这里不采用这个名字。还原成 Rec.709 以后噪点已经很重。她拉回天空高光，做了二级窗口，把泳池高光和一块颜色略压下去，再用一个节点做颜色校正。色温若觉得太冷，她说可以试别的 LUT。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[09:45→10:34]</span>
+      <div>
+        <strong>收成四个坑</strong>
+        <p>拿它当起点时要留意：过曝，不同色相严重偏离，宽容度不够时容易色彩断裂，还有饱和度溢出。她补了一句，调色除了好看，整体感觉要帮项目和剧情叙事。片尾邀请关注职业调色和电影美学，有一个词听不清，不写入结论。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>本片的用法是：用色彩空间转换把素材送到 Cineon Film Log，再套达芬奇 Film Looks 里的 2383，然后按画面去收曝光、色相和饱和。LUT 不是交片节点。</p>
+    </div>
+
+    <section class="story-section" id="s1">
+      <p class="time-range">00:00–03:31</p>
+      <h2>口播空着，屏幕先把用法摆出来</h2>
+      <p>开头只留下一句「这大概会是你刷到的目前全网讲解」，随即断掉。三分整附近识别成一串「的」，不能当内容。这三分钟的依据是画面。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-01.jpg" alt="达芬奇 Film Looks 里六只柯达 2383 立方体文件" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 调色页左侧是 Film Looks。预览里六只立方体：上面三只 DCI-P3，下面三只 Rec.709，白点分别是 D55、D60、D65。列表里高亮的是 Rec709 Kodak 2383 D65。同一夹里还有富士 3513DI，这条没有演示它。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5217d13883ef.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the Color page, Film Looks is open. The viewer shows six cubes: three DCI-P3 on top, three Rec.709 below, at D55, D60, and D65. Rec709 Kodak 2383 D65 is highlighted. Fujifilm 3513DI sits in the same folder and is not demonstrated.</span></div>
+<audio class="cap-audio" src="audio/5217d13883ef.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>六只文件名都写在立方体下面。她没有口播说明什么时候选 DCI-P3、什么时候选 Rec.709。D55 出现在列表里，后面的口播也没有单独讨论它。能确定的只有：这套 LUT 在达芬奇里按目标色域和白点分成了这些文件。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-02.jpg" alt="片头三条白字，背景是草地里的人" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:17] 草地画面上压着三条：如何在达芬奇里正确使用 KODAK 2383 LUT，它如何影响素材影调和色彩，调色工作中常见、容易踩坑的色彩问题。这一帧没有口播。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d444f7ee1f57.mp3" type="button" aria-label="Play English audio">🔊</button><span>Three lines sit on a grassy shot: how to use the Kodak 2383 LUT correctly in DaVinci, how it changes tone and color, and the color problems that are easy to hit while grading. This frame has no narration.</span></div>
+<audio class="cap-audio" src="audio/d444f7ee1f57.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>目录把范围定死了。第一条是操作，第二条是 LUT 对画面的影响，第三条是坑。没有「它是印片还是负片」这一问。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-03.jpg" alt="黄字解释 Cineon Film Log，右侧色彩空间转换输出伽马已改" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:02] 树林素材上盖着黄字：Cineon Film Log，柯达为数字中间片开发的伽马曲线，目的是让扫描的胶片素材忠实地再现胶片的原始特性。右侧检查器输入是 Sony S-Gamut3.Cine、Sony S-Log3，输出色域 Rec.709，输出伽马是 Cineon Film Log。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b2b18a46d4b5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Yellow type on the forest shot reads Cineon Film Log, a gamma curve Kodak made for digital intermediates so scanned film can keep its original character. The inspector input is Sony S-Gamut3.Cine and S-Log3; output color space is Rec.709 and output gamma is Cineon Film Log.</span></div>
+<audio class="cap-audio" src="audio/b2b18a46d4b5.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>同一条树林，早十几秒时输出伽马还是 Gamma 2.4，色调映射方式是 DaVinci，色域映射是 None，并勾着 Apply Forward OOTF。到这一帧，输出伽马换成了 Cineon Film Log。黄字是画面字幕，讲的是这条曲线的来历，不是她在口播里展开的胶片史。节点缩略图上标着指向 709 的字样。效果列表里能看到 Color Space Transform，旁边还有 Film Grain、Halation。这一段她没有打开颗粒。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-04.jpg" alt="灰阶渐变测试条，波形显示被 LUT 弯过的曲线" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:32] 第四条素材是灰阶渐变，时间线标着 Compound Clip。主观看是从黑到白的一条，波形里它不再是直线。左侧 LUT 列表停在 Rec709 Kodak 2383 的某一档白点上。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/14740b9259dc.mp3" type="button" aria-label="Play English audio">🔊</button><span>The fourth clip is a gray ramp, labeled Compound Clip. It looks like a strip from black to white, but the waveform is no longer a straight line. The LUT list is stopped on one Rec.709 Kodak 2383 white point.</span></div>
+<audio class="cap-audio" src="audio/14740b9259dc.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>灰阶条不讲具体景物，只让人看影调被弯到什么程度。她还在 D60 和 D65 之间来回点，口播没有解释两者差在哪。这个差别要等到后面的色相段才被说出来，而且说的是「问题都还在」，不是「哪一档更正确」。</p>
+    </section>
+
+    <section class="story-section" id="s2">
+      <p class="time-range">03:31–04:09</p>
+      <h2>滑板素材：还原、平衡，然后只改伽马</h2>
+      <p>口播回到画面时，她先说容易踩坑的地方，随即切到素材。「这是一个 Red 摄影机拍摄的素材。」她用色彩空间转换插件还原成基础的 709，两个节点分别调整整体曝光对比和白平衡。调整完，她把这个结果叫做 709 画面。</p>
+      <p>滑板这条的输入色彩空间，口播没有念。不能把树林那条的索尼 S-Log3 套到这里。能跟着说的是顺序：先有一个她接受的 709，再套 LUT。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-05.jpg" alt="节点图依次标着 pri、bal、指向 709 和 2383" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:00] 节点图从左到右标着 pri、bal、->709、2383。2383 接在还原节点后面，缩略图上能看到滑板镜头。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/24d003aa0bbc.mp3" type="button" aria-label="Play English audio">🔊</button><span>The node graph reads pri, bal, -&gt;709, and 2383 from left to right. The 2383 node sits after the conversion, and its thumbnail is the skateboard shot.</span></div>
+<audio class="cap-audio" src="audio/24d003aa0bbc.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p class="quote">「唯一动的地方就是在这里给它 Output Gamma 换成了 Cineon Film Log，然后应用一个 2383 LUT。」</p>
+      <p>这是她对「正确使用」给出的操作句。听写原文是 UPGAMA 和 CINEMFILM LOCK，和检查器对不上；正文按屏幕上的 Output Gamma、Cineon Film Log 来写。她接着说，两个画面的区别很明显。区别本身留到下一节，用衣服和天空来指。</p>
+    </section>
+
+    <section class="story-section" id="s3">
+      <p class="time-range">04:09–05:59</p>
+      <h2>套完先越界，色相跟着偏</h2>
+      <p>她把第一个常见问题说成：应用完之后，整体曝光影调超出了一个合理范围，所以要在这个基础上再调素材。「合理范围」是她的判断，画面没有给出示波器读数。</p>
+      <p>第二个问题是色相严重偏移。她假设现在调的是产品广告或服装广告，说这个画面还有不少地方要修正。然后让人对照 709 和应用之后。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-06.jpg" alt="套上 2383 后的滑板女孩，示波器在下方" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:46] 滑板女孩站在室外，白衬衫里是一块亮绿色。节点仍是 pri、bal、指向 709，再接到 2383。下方开着分量示波器和矢量示波器。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/517f19cdbd3f.mp3" type="button" aria-label="Play English audio">🔊</button><span>A skateboarder stands outdoors in a white shirt over a bright green top. The nodes are still pri, bal, a 709 conversion, then 2383. Parade and vectorscope are open below.</span></div>
+<audio class="cap-audio" src="audio/517f19cdbd3f.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>她指着两处。第一，青绿色衣服明显往橙黄色偏。第二，原来蓝色的滑板、蓝色的天空往青色偏。而且这些色相的饱和度都有不同程度的提高。这是口播加画面指认，不是对 2383 全部色相的测量。</p>
+      <p>第三个坑是饱和度溢出。她说特别看某个地方的细节，句子没说完，识别从五分零一秒断到五分半，中间被识别成一串符号。这段不能补写她没说完的细节。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-07.jpg" alt="色彩空间转换检查器，输出伽马为 Cineon Film Log" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[05:28] 口播中断时，检查器停在色彩空间转换。输出伽马写着 Cineon Film Log。色域映射的菜单展开，里面能看到 Saturation Compression。节点标签里有 pri、bal、sat 和 ->709。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/67a0fad56fdf.mp3" type="button" aria-label="Play English audio">🔊</button><span>While the narration drops out, the inspector stays on the color space transform. Output gamma reads Cineon Film Log. The gamut-mapping menu is open and shows Saturation Compression. Node labels include pri, bal, sat, and -&gt;709.</span></div>
+<audio class="cap-audio" src="audio/67a0fad56fdf.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>菜单打开不等于她已经选定某一项。这一帧能确认的是：套 LUT 的上游，输出伽马仍放在 Cineon Film Log；饱和相关的映射选项出现在这个检查器里，和她刚才说到的饱和度溢出接在同一段时间。</p>
+    </section>
+
+    <section class="story-section" id="s4">
+      <p class="time-range">05:59–08:06</p>
+      <h2>质感可以后加，绿色会在矢量图上分开</h2>
+      <p>口播恢复后，她说如果想增加胶片感觉，还可以再做一个质感细节节点，去模拟胶片。节点图后部确实出现了标着 Texture 的节点。她没有念颗粒大小或强度。</p>
+      <p>LUT 可以按项目和风格另选。她把这套称为调色起点的其中一个方案，后面还可以雕细节，也可以再做不同的风格化尝试。这是使用边界，不是效果承诺。</p>
+      <p>她说这套 LUT 还有一个很明显的特点，就是对色相的影响，然后回到第一个画面，看绿色和黄绿色。重点放在矢量图上。听写写成「实量图」。界面打开的是 Vectorscope，正文记成矢量图。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-08.jpg" alt="树林画面，右侧节点指向 709，下方是矢量示波器" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[06:42] 回到第一条树林。矢量示波器开着。口播让人记住示波器上的方向和色轮方向对应，先看 Rec.709 时绿色集中在哪一侧。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bdbf8cda6fb1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Back on the first forest shot, the vectorscope is open. The narration asks you to match scope directions with the hue wheel and to see where the green sits in Rec.709.</span></div>
+<audio class="cap-audio" src="audio/bdbf8cda6fb1.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>她的观察是：Rec.709 画面里，绿色集中在一个方向，有点青黄。套上 LUT 以后，不同方向的色相分开了。偏黄多一点的绿会往黄色偏，偏青一点的绿会往青色偏。她要人记住矢量图每个方向和色轮方向一一对应，所以这是在用示波器读色相，不是在调一级色轮的旋钮。</p>
+      <p>接着她加了一个前提：如果素材本身宽容度不是那么大，刚才看到的问题会更麻烦。她说刚才那只是 D65，现在换 D60、D65，问题依然存在。听写先写成 D665，LUT 列表里没有这个名字，只有 D65，这里按文件名改正。D55 仍没有被拿出来比较。</p>
+      <p>七分半到近八分钟又有一段没有口播，画面仍停在树林和矢量示波器上，没有新的字幕结论。</p>
+    </section>
+
+    <section class="story-section" id="s5">
+      <p class="time-range">08:06–09:45</p>
+      <h2>第三条素材噪点已经很重</h2>
+      <p>最后一条，她说是经过压缩的素材。机型被听成 LXMini，缩略图和节点上都没有这个名字，正文不采用。她仍用色彩空间转换把它还原成 Rec.709，然后问为什么说这个素材问题很大：还原之后噪点已经非常严重。她补了一句，调色里确实会遇到各种有问题的素材。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-09.jpg" alt="室外举杯的人，节点最前面标着 NR" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[08:20] 第三条素材：一个人穿蓝外套，在绿树前举着杯子。节点最前面标着 NR，后面能看到 pri、sat，以及指向 709 的节点。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7fb4aa40da85.mp3" type="button" aria-label="Play English audio">🔊</button><span>The third shot: a person in a blue jacket holds a glass in front of green trees. NR is the first node, followed by pri, sat, and a node aimed at 709.</span></div>
+<audio class="cap-audio" src="audio/7fb4aa40da85.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>八分半到近九分钟口播又空了一段。画面在这条人和后面的泳池之间切换，节点前面一直留着 NR。和口播对得上的是：她把降噪放在套 LUT 之前，因为 Rec.709 状态已经很吵。</p>
+      <p>然后她开始改。其他节点和前面一样。天空高光被拉回来一点，做了一个二级窗口。泳池高光稍微压下来，那一块颜色也稍微压了一点。比较关键的一个节点是做颜色校正。她并排着说：这是原来的 Rec.709，这是套了 2383 之后。</p>
+      <figure>
+        <img src="assets/kodak-2383-lut-correct-use/shot-10.jpg" alt="泳池边两个人，节点树里有降噪、一级、饱和和 709" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[09:10] 泳池边两个人。节点从 NR 分出去，能看到标着 pri 和 sat 的支路，汇合后再进标着 ->709 的节点。口播说天空高光用了二级窗口。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/db362677d5fe.mp3" type="button" aria-label="Play English audio">🔊</button><span>Two people stand by a pool. The tree splits after NR into branches labeled pri and sat, then meets a node labeled -&gt;709. The narration says a secondary window was used on the sky highlight.</span></div>
+<audio class="cap-audio" src="audio/db362677d5fe.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>她没有把窗口的形状和跟踪过程摊开讲，只交代了三下：天空高光拉回，泳池高光压一点，一块颜色压一点，再加上颜色校正。画面还没有做完。她说还有很多地方可以调，还有风格化可以开发。如果觉得色温太冷，可以试其他不同的 LUT，都是可以的。这句把白点选择留成项目决定，没有指定必须用 D65。</p>
+    </section>
+
+    <section class="story-section" id="s6">
+      <p class="time-range">09:45–10:34</p>
+      <h2>四个坑，然后把感觉交给项目</h2>
+      <p>收尾时她把前面的问题再数一遍。要用这套当调色起点，这几个非常容易踩：一个是过曝；第二个是不同色相的严重偏离；第三个，宽容度不够的话容易出现色彩断裂；还有一个饱和度溢出。色彩断裂是在这里才被单独命名的，前面矢量图那段只说了绿色被拆开，以及宽容度不大时问题仍在。</p>
+      <p class="quote">「调色除了保证画面好看之外，整体的感觉是非常重要的。另外还要根据不同的项目、不同的剧情来辅助叙事。」</p>
+      <p>这是作者立场，不是一条可测量的标准。片尾问观众要不要看职业调色、电影美学，以及一个听不清的相关内容。视频在十分三十四秒结束，最后几秒画面仍停在泳池和那棵节点树上，没有新的字幕清单。</p>
+    </section>
+  </article>
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下按 Whisper 原始分段完整呈现，识别语言为繁体中文，可能包含误差。正文里的 Output Gamma、Cineon Film Log、矢量图和 D65 已按画面改正，转录本身不改。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>這大概會是你刷到的目前全網講解</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT180S">03:00</time>
+    <p>一個點的另外大家也可以看到這三個的的的的的的的的的的的的的的的的的的的的的的的的的的的的</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT210S">03:30</time>
+    <p>容易踩坑的地方</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT211S">03:31</time>
+    <p>我們現在回到我們的素材畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT212S">03:32</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT212S">03:32</time>
+    <p>我們現在來看到這個素材</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT214S">03:34</time>
+    <p>這是一個Red攝影機拍攝的素材</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT216S">03:36</time>
+    <p>首先的話給它用這個色彩光影轉換插件</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT219S">03:39</time>
+    <p>還原成一個基礎的709的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT220S">03:40</time>
+    <p>那這兩個節點的話分別對它這個整體的曝光對比度進行的調整</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT225S">03:45</time>
+    <p>再調整一下它的白平衡</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT227S">03:47</time>
+    <p>那這是調整完之後的一個709的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT230S">03:50</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT231S">03:51</time>
+    <p>那接下來看一下啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT232S">03:52</time>
+    <p>同樣的節點前面同樣的節點</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT234S">03:54</time>
+    <p>那同樣的步驟</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT235S">03:55</time>
+    <p>我們來給它應用一下2383 LUT</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT237S">03:57</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT238S">03:58</time>
+    <p>那這裡的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT238S">03:58</time>
+    <p>唯一動的地方就是在這裡給它UPGAMA</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT242S">04:02</time>
+    <p>換成了CINEMFILM LOCK</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT243S">04:03</time>
+    <p>然後應用一個2383 LUT</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT245S">04:05</time>
+    <p>那其實很明顯的看到兩個畫面的一個區別</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT248S">04:08</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT248S">04:08</time>
+    <p>那在調色工作中應用這套LUT常見的其中一個問題就是應用完之後整體的曝光影調是超出了一個合理的範圍的</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT256S">04:16</time>
+    <p>所以這時候的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT257S">04:17</time>
+    <p>我們就需要在這個基礎上再去對這個素材進行一定的一個調整</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT262S">04:22</time>
+    <p>另外還要注意的一點是色相的嚴重偏移</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT265S">04:25</time>
+    <p>假設我們現在調的是一個產品廣告或者是服裝廣告</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT268S">04:28</time>
+    <p>那這個畫面的話還是有不少地方需要我們來進行修正的</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT272S">04:32</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT272S">04:32</time>
+    <p>大家注意看一下這709的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT273S">04:33</time>
+    <p>這是應用之後的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT275S">04:35</time>
+    <p>好</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT275S">04:35</time>
+    <p>首先我們看到的是第一個這個青綠色的這個衣服的一個色相變化</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT280S">04:40</time>
+    <p>應用完之後的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT281S">04:41</time>
+    <p>明顯的這個青綠色要往這個橙黃色去偏的</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT285S">04:45</time>
+    <p>第二個的話就是藍色</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT286S">04:46</time>
+    <p>原來藍色的滑板藍色的天空</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT288S">04:48</time>
+    <p>那這個時候的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT290S">04:50</time>
+    <p>是要往青色去偏的</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT291S">04:51</time>
+    <p>而且這些色相的飽和度都有不同程度的提升</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT295S">04:55</time>
+    <p>另外還有第三個容易踩的坑就是飽和度溢出</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT298S">04:58</time>
+    <p>那大家可以看到特別是這個地方的細節</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT328S">05:28</time>
+    <p>b.......</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT358S">05:58</time>
+    <p>那最後的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT360S">06:00</time>
+    <p>如果說想要增加一些膠片的感覺的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT363S">06:03</time>
+    <p>我們這裡還可以再做一個質感細節的一個節點</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT367S">06:07</time>
+    <p>來去模擬一下這個膠片</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT369S">06:09</time>
+    <p>這個Lug的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT370S">06:10</time>
+    <p>我們也可以根據不同的項目或者是不同風格的打造選用不同的Lug</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT375S">06:15</time>
+    <p>當然這套Lug的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT376S">06:16</time>
+    <p>只是作為我們調色起點的其中的一個方案</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT379S">06:19</time>
+    <p>我們還可以在這個畫面的基礎上再去進行更多的一些細節的雕琢</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT384S">06:24</time>
+    <p>甚至是再去進行進一步的不同風格化的一個嘗試</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT388S">06:28</time>
+    <p>另外的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT389S">06:29</time>
+    <p>這套Lug還有非常明顯的對色相影響�的一個特點</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT394S">06:34</time>
+    <p>那我們回到第一個畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT395S">06:35</time>
+    <p>那就是對綠色黃綠色的一個影響</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT399S">06:39</time>
+    <p>好我們先重點留意一下這個實量圖</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT402S">06:42</time>
+    <p>好這是清一九畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT403S">06:43</time>
+    <p>這是套用Lug之後的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT404S">06:44</time>
+    <p>我們現在很明顯的看到</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT405S">06:45</time>
+    <p>原來綠色是集中在這個方向的色相的</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT409S">06:49</time>
+    <p>好大家記住這個實量圖每個方向的這個色相</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT413S">06:53</time>
+    <p>都是和我們這個色輪</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT414S">06:54</time>
+    <p>不同方向的這個色相是一一對應的</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT417S">06:57</time>
+    <p>所以我們現在可以看到清一九畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT419S">06:59</time>
+    <p>它的這個整體的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT420S">07:00</time>
+    <p>綠色是偏這個方向這個角度的綠色的</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT423S">07:03</time>
+    <p>就是有點青黃</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT425S">07:05</time>
+    <p>應用完這套Lug之後</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT426S">07:06</time>
+    <p>我們就會明顯的看到不同方向的這個色相</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT430S">07:10</time>
+    <p>有進行了一個分離</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT431S">07:11</time>
+    <p>大家仔細看</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT432S">07:12</time>
+    <p>看這個實量圖</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT433S">07:13</time>
+    <p>大家有沒有發現</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT435S">07:15</time>
+    <p>如果是偏黃多一點的綠色的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT438S">07:18</time>
+    <p>它是會往黃色偏</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT440S">07:20</time>
+    <p>那如果是偏青一點的偏綠色一點的綠色的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT445S">07:25</time>
+    <p>就是會往青色這邊偏</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT475S">07:55</time>
+    <p>其實如果這個素材本身的這個寬容度</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT477S">07:57</time>
+    <p>不是那麼大的前提效的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT478S">07:58</time>
+    <p>剛才我們看到的是D665這個LUT</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT481S">08:01</time>
+    <p>那現在用D60 D65</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT483S">08:03</time>
+    <p>這個問題依然都是會存在的</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT486S">08:06</time>
+    <p>好我們來看最後一個案例</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT487S">08:07</time>
+    <p>這是一個經過壓縮的LXMini拍攝的一個素材</p>
+  </li>
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT490S">08:10</time>
+    <p>首先我們還是用這個色彩光影轉換插件</p>
+  </li>
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT492S">08:12</time>
+    <p>把它簡單的還原成清一九</p>
+  </li>
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT495S">08:15</time>
+    <p>那為什麼說這個素材問題很大呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT497S">08:17</time>
+    <p>大家看啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT497S">08:17</time>
+    <p>清一九畫面它已經這個噪點已經是非常嚴重了</p>
+  </li>
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT503S">08:23</time>
+    <p>當然我們在調色工作中確實會有可能遇到各種</p>
+  </li>
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT506S">08:26</time>
+    <p>但有各種問題的素材啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT537S">08:57</time>
+    <p>大家看得到這個是清一九的畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT540S">09:00</time>
+    <p>這是應用完之後的</p>
+  </li>
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT541S">09:01</time>
+    <p>那所以的話</p>
+  </li>
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT542S">09:02</time>
+    <p>接下來我們來對這個畫面進行一個調整</p>
+  </li>
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT545S">09:05</time>
+    <p>其他節點是一樣的</p>
+  </li>
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT546S">09:06</time>
+    <p>那這裡的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT547S">09:07</time>
+    <p>我有給這邊天空的高光給他拉回來一點點</p>
+  </li>
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT550S">09:10</time>
+    <p>做了一個二級窗口</p>
+  </li>
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT551S">09:11</time>
+    <p>好那這裡的話有把泳池的這個高光</p>
+  </li>
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT553S">09:13</time>
+    <p>稍微壓一點點下來</p>
+  </li>
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT555S">09:15</time>
+    <p>然後這個區域的這個顏色</p>
+  </li>
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT558S">09:18</time>
+    <p>我有給他稍微壓了一點點</p>
+  </li>
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT560S">09:20</time>
+    <p>好這裡比較關鍵的一個節點是這個節點</p>
+  </li>
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT564S">09:24</time>
+    <p>去給他做了一個顏色的一個校正</p>
+  </li>
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT566S">09:26</time>
+    <p>這是原來清一九的一個畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT569S">09:29</time>
+    <p>這是套用了2383之後的一個畫面</p>
+  </li>
+  <li class="transcript-row" id="transcript-112">
+    <time datetime="PT571S">09:31</time>
+    <p>當然的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-113">
+    <time datetime="PT572S">09:32</time>
+    <p>這個畫面還有很多地方可以去進行一個調整</p>
+  </li>
+  <li class="transcript-row" id="transcript-114">
+    <time datetime="PT575S">09:35</time>
+    <p>還有這個風格化的開發</p>
+  </li>
+  <li class="transcript-row" id="transcript-115">
+    <time datetime="PT577S">09:37</time>
+    <p>那包括可能大家覺得這個色溫有點太冷的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-116">
+    <time datetime="PT580S">09:40</time>
+    <p>那我們可以嘗試一下其他的這些不同的這些了</p>
+  </li>
+  <li class="transcript-row" id="transcript-117">
+    <time datetime="PT583S">09:43</time>
+    <p>都是ok的</p>
+  </li>
+  <li class="transcript-row" id="transcript-118">
+    <time datetime="PT584S">09:44</time>
+    <p>所以大家在這個調色工作中</p>
+  </li>
+  <li class="transcript-row" id="transcript-119">
+    <time datetime="PT586S">09:46</time>
+    <p>如果要用這套的作為調色起點的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-120">
+    <time datetime="PT590S">09:50</time>
+    <p>呃前面講的幾個問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-121">
+    <time datetime="PT591S">09:51</time>
+    <p>一定是要多注意一下的非常容易踩的坑</p>
+  </li>
+  <li class="transcript-row" id="transcript-122">
+    <time datetime="PT594S">09:54</time>
+    <p>一個就是過曝問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-123">
+    <time datetime="PT595S">09:55</time>
+    <p>第二個就是不同色相的嚴重偏離的問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-124">
+    <time datetime="PT598S">09:58</time>
+    <p>那第三個的話如果寬容度不夠的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-125">
+    <time datetime="PT601S">10:01</time>
+    <p>還會容易出現一個色彩斷裂的問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-126">
+    <time datetime="PT604S">10:04</time>
+    <p>還有一個飽和度溢出的問題</p>
+  </li>
+  <li class="transcript-row" id="transcript-127">
+    <time datetime="PT605S">10:05</time>
+    <p>這幾個都是大家需要特別去留意一下的</p>
+  </li>
+  <li class="transcript-row" id="transcript-128">
+    <time datetime="PT608S">10:08</time>
+    <p>當然調色劇中目的除了保證畫面好看之外的話呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-129">
+    <time datetime="PT611S">10:11</time>
+    <p>整體的感覺是非常重要的</p>
+  </li>
+  <li class="transcript-row" id="transcript-130">
+    <time datetime="PT613S">10:13</time>
+    <p>另外還要根據不同的項目</p>
+  </li>
+  <li class="transcript-row" id="transcript-131">
+    <time datetime="PT616S">10:16</time>
+    <p>不同的劇情來輔助這個敘事</p>
+  </li>
+  <li class="transcript-row" id="transcript-132">
+    <time datetime="PT618S">10:18</time>
+    <p>好這就是本期的內容</p>
+  </li>
+  <li class="transcript-row" id="transcript-133">
+    <time datetime="PT620S">10:20</time>
+    <p>如果這期視頻對你有幫助</p>
+  </li>
+  <li class="transcript-row" id="transcript-134">
+    <time datetime="PT621S">10:21</time>
+    <p>或者你對職業調色</p>
+  </li>
+  <li class="transcript-row" id="transcript-135">
+    <time datetime="PT623S">10:23</time>
+    <p>或者是電影美學電影劇數相關的內容</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4653" viewBox="0 0 1320 4653">
+  <foreignObject x="0" y="0" width="1320" height="4653">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:90px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+  <h1>画阴影别再用黑色了</h1>
+  <div class="meta">
+    <span class="tag tag-blue">色彩理论</span>
+    <span class="tag tag-green">依画面</span>
+    <span class="tag tag-orange">8秒</span>
+    <span class="tag tag-gray">Angel · 小红书</span>
+  </div>
+  <p class="summary-line">依画面，这条短片把同一块浅紫立方体画了两遍：红叉的投影收成灰黑，绿勾的亮面偏粉、投影留在深蓝紫里。笔记标题只写「色彩理论教程」，没有口播把这个对照说完。</p>
+  <a class="source-link" href="https://xhslink.cn/o/90O6lV5bFoE">原笔记短链</a>
+
+  <div class="timeline">
+    <h3>关键画面</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">标题出现。红叉立方体左侧面更灰，绿勾立方体左侧面是更深的紫。两侧右侧都有浅紫色块。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:04</span><span class="timeline-text">红叉左下方出现近黑投影。绿勾顶面偏粉，暗面仍是紫，右侧色块从浅粉排到深紫。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08</span><span class="timeline-text">红叉铺开灰地面和灰黑投影，并多了灰色块。绿勾地面偏浅灰绿，投影是深蓝紫。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">阴影会不会变黑</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">红叉：灰面、灰地、近黑投影</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">绿勾：粉顶、紫暗面、深紫投影</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>先把证据和推断分开</h3>
+    <p>可核对的是三帧上的颜色：红叉投影取样接近黑和灰，绿勾投影取样是深蓝紫，绿勾顶面偏粉。画面没有说「必须用补色」或「地面绿是反光」。Whisper 那句 Hey you, watch I cry 与标题对不上，不作为依据。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">红叉和绿勾各自留下什么颜色</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>依画面，两行从同一类浅紫立方体出发，最后差别落在投影和亮面，不落在物体轮廓。</p>
+      <div class="highlight">红叉：暗面灰紫，地面中性灰，投影灰黑，色块里出现灰。绿勾：顶面偏粉，暗面和投影保持紫，地面偏浅灰绿。</div>
+      <h3>怎么用</h3>
+      <div class="action">临摹时先分开画两块影子：一块只加灰，一块改用比底色更深的紫，并在顶面加一点暖粉。对照的是颜色，不是立方体形状。</div>
+      <h3>依据</h3>
+      <p>00:00 两侧暗面已经分开；00:04 近黑投影和粉色顶面同时可见；00:08 地面铺开后投影颜色仍分开。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场，画面能支持到哪一步</h3>
+      <p>标题「画阴影别再用黑色了」是作者的判断，红叉和绿勾是配图。依画面，这个判断对应的是投影从灰黑换成深蓝紫，外加亮面偏暖。它没有展示黑色在线稿、纯灰背景或夜景里是否仍然合适。</p>
+      <div class="quote">笔记标题只有「色彩理论教程」。更具体的句子在画面上，不在口播里。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>不要从这 8 秒多推一步</h3>
+      <div class="pitfall">不要把浅灰绿地面写成已经讲完的环境色反光。画面只让地面和投影颜色不同，没有箭头或文字说明反光。</div>
+      <div class="pitfall">不要把右侧色块数写成固定配方。色块是随着涂抹增加的，压缩画面里数不清每一笔。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>两行对照</h3>
+    <table>
+      <thead>
+        <tr><th>位置</th><th>红叉，00:08</th><th>绿勾，00:08</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>立方体暗面</td><td>灰紫</td><td>深紫</td></tr>
+        <tr><td>顶面</td><td>浅紫</td><td>偏粉，带暖色笔触</td></tr>
+        <tr><td>地面</td><td>中性灰</td><td>浅灰，略带绿</td></tr>
+        <tr><td>投影</td><td>灰黑，接近无彩色</td><td>深蓝紫</td></tr>
+        <tr><td>右侧色块</td><td>浅紫，并有灰色块</td><td>浅粉到深紫，不见那排灰</td></tr>
+      </tbody>
+    </table>
+    <p>适用边界：只适用于这条片子里的浅紫立方体和白底演示。换底色、换光源之后，画面没有给出对应结果。</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>依画面，标题反对的是阴影用黑，配图把灰黑投影放在红叉下。</li>
+      <li>绿勾保留紫色投影，并把顶面涂暖，地面只是略偏灰绿。</li>
+      <li>唯一一句转录与画面不符，不能当成讲解。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>画一块浅紫立方体，投影先涂灰，再另涂一版深蓝紫，并排看。</li>
+      <li>第二版的顶面加浅粉，暗面不要跟着加灰。</li>
+      <li>地面用浅灰即可，先不要加复杂反光。</li>
+      <li>色块只记录自己实际用到的颜色，不要照着数不清的笔触凑数量。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前会把「别用黑」理解成整幅画不能有暗色。依画面，暗色还在，只是红叉那份暗色变成了灰，绿勾那份暗色留在紫色里。</p>
+  </div>
+  <p class="footer">证据仅来自本条 8 秒画面与 1 段 Whisper。未访问小红书页面。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

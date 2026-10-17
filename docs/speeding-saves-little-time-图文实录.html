@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="科普宇宙用图表说明：50公里从100提到120只差5分钟，低速更拖平均车速，刹车距离则随车速变长。">
+  <title>开得越快，未必越省时间｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.7}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.quote{border-left:3px solid #d6d3d1;margin:14px 0;padding:4px 0 4px 14px;color:#57534e}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+  <header>
+    <p class="kicker">图文实录 · 小红书 · 科普宇宙</p>
+    <h1>开得越快，未必越省时间</h1>
+    <p class="meta">2026-10-17 · 1分46秒 · 汽车数码 · <a href="https://xhslink.cn/o/6EowgCrjfdz">原视频</a></p>
+    <p class="lede">账号「科普宇宙」的笔记文案写着：超速省不了几分钟，刹车距离却会大幅变长。片头标题是「开得越快，未必越省时间」。口播很稀，Whisper 只留下 4 句，而且时间戳按大约 30 秒一块对齐。下面的经过以每 2 秒一帧读到的烧录字幕和图表为准。字幕里的「码」，和标牌上的 km/h 一起出现，按驾驶口语理解成公里每小时。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>这是一条 1 分 46 秒的竖屏图表。画面底图带西班牙文界面，中文是后加的字幕。它要说明的是：同一段路，速度已经不低时，再加快省下的时间会变少；低速那一段却会把平均车速拖住。刹车距离在后半段被画成另一条往上翘的曲线。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→00:15]</span>
+      <div>
+        <strong>50 公里只差 5 分钟</strong>
+        <p>100 km/h 的计时停在 30:00，120 km/h 停在 25:00，中间标 -5 min。正中大字却写成「不到5分钟」。同样加 20 km/h，条形图用欧洲小数逗号写成 5,0、3,6、2,7 分钟。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:16→00:45]</span>
+      <div>
+        <strong>小提速对上大提速</strong>
+        <p>60 公里上，40 提到 50 标成能省 18 分钟，80 提到 130 标成能省 17 分钟。缩到 1 公里，对应的是 18 秒和 17 秒。角标写着 Svenson, 2008。这是画面上的引用，不是本文另找的论文结论。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:46→01:18]</span>
+      <div>
+        <strong>耗时曲线和平均车速</strong>
+        <p>1 公里耗时旁写着 t = d / v，并标成双曲线。30 到 40、40 到 50、50 到 60，省下的时间依次是 30 秒、18 秒、12 秒。去程 60、返程 40，表盘停在 48，不是 50。上坡只有 30 时，字幕说往返平均 60 现实做不到。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:20→01:46]</span>
+      <div>
+        <strong>刹车距离另算一笔</strong>
+        <p>条件写着干燥沥青、1 秒反应。100 码那辆字幕说刚好刹住，120 码冲到障碍附近还有 70 多码。距离条是 59 m 和 85 m，差 +44%，字幕另说将近 45%。片尾把开头的 5 分钟再说一遍。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>省下的时间看的是距离除以速度的差，不是速度本身加了多少。低速多耗的那一段，高速很难用同样的公里数补回来。刹车距离在这条片里被说成随车速平方变长，59 米和 85 米是演示读数，不是一次实地刹车记录。</p>
+    </div>
+
+    <section class="story-section">
+      <p class="time-range">00:00–00:15</p>
+      <h2>50 公里：120 比 100 只少 5 分钟</h2>
+      <p>开场是夜间俯视的双车道，粉车标 120 km/h，绿车标 100 km/h，两个计时都从 0:00 起跳。标题已经把判断放在最上面。底字幕先是「开车有个很反直觉的道理」，接着是「拼命开快车」，然后是「风险却会大幅增加」。Whisper 把前两句听成了一句繁体，风险这句完全没听到。</p>
+      <p>镜头换成一条弯路，两端写着 Km 0 和 Km 50。跑完以后，100 km/h 是 30:00，120 km/h 是 25:00，粉框里是 -5 min。按 50 公里去除以这两个速度，正好是 30 分钟和 25 分钟，和计时一致。可正中大字写成「不到5分钟」。两条说法都在画面上，本文不把「不到」改成「刚好」，也不把计时改成不足 5 分钟。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-01.jpg" alt="50公里路线上，100公里每小时计时30分，120公里每小时计时25分，中间标着少5分钟" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:06] 50 公里两端标着 Km 0 和 Km 50。100 km/h 停在 30:00，120 km/h 停在 25:00，中间是 -5 min。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1eee0ed833b2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Over 50 km the clocks stop at 30:00 and 25:00, a gap marked as minus 5 minutes.</span></div>
+<audio class="cap-audio" src="audio/1eee0ed833b2.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>底字幕接着说「一段50公里的路开到120」，又补了一句「还要经过村镇」。村镇没有配单独的地图标注，只能看成对「全程都能开到 120」的限制，不能当成某条具体公路的描述。</p>
+      <p>同一段路上再往上加，画面拉出三根粉色横条，小数点用逗号：100 到 120 是 5,0 min，120 到 140 是 3,6 min，140 到 160 是 2,7 min。用 50 公里复算，这三档大约是 5.0、3.6、2.7 分钟，和逗号后的一位小数对得上。底字幕是「省的时间就更少」，「省」和「时间」之间没有「下」或「了」。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-02.jpg" alt="三根横条比较每加快20公里每小时省下的时间，依次是5.0、3.6和2.7分钟" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:14] 同样加 20 km/h，条上写成 5,0 min、3,6 min、2,7 min。底字幕是「省的时间就更少」。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0401f88d7670.mp3" type="button" aria-label="Play English audio">🔊</button><span>The same 20 km/h step is labeled 5.0, 3.6, and 2.7 minutes. The caption says the time saved gets even smaller.</span></div>
+<audio class="cap-audio" src="audio/0401f88d7670.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+    </section>
+
+    <section class="story-section">
+      <p class="time-range">00:16–00:29</p>
+      <h2>60 公里上，40 提到 50 还略多省一点</h2>
+      <p>下一块的绿字问句是「哪一种提速省下的时间更多？」。两条跑道都标着 60 km。上栏 40 到 50，下栏 80 到 130。角上有一行小字 Svenson, 2008。视频没有念出这行字，也没有展开这篇文献讲了什么，这里只把它当成画面上的出处标记。</p>
+      <p>字幕先说「车速每往上加一点」「能够省下的时间就比上一次更少」，然后把选择摆出来：「同一段路从40提到50」「或是从80提到130」「大部分人选后者」。大约 00:28 的抽帧读到下一句「可实际上是前者」。精选这一张时，两栏的分钟数已经都在，底字幕仍停在「大部分人选后者」。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-03.jpg" alt="60公里对照：40到50标能省18分钟，80到130标能省17分钟" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:28] 60 公里。40 到 50 是 90 分钟对 72 分钟，能省 18 分钟；80 到 130 的结果条写能省 17 分钟。角标是 Svenson, 2008。底字幕仍是「大部分人选后者」。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/32d88d5a613d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Over 60 km, 40 to 50 km/h is 90 minutes versus 72, saving 18 minutes. The 80 to 130 result says 17 minutes saved. The card cites Svenson, 2008, and the caption still says most people pick the latter.</span></div>
+<audio class="cap-audio" src="audio/32d88d5a613d.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>上栏可以整除：60 公里、40 km/h 是 90 分钟，50 km/h 是 72 分钟，少 18 分钟，和绿字一致。下栏 80 km/h 是 45 分钟。130 km/h 则是 60 除以 130 小时，约 27.7 分钟，比 45 分钟少约 17.3 分钟。结果条写成「能省17分钟」。有的帧把 130 那一档的用时画成 27 分钟，有的接近 28 分钟，都是取整，不是另一次测量。画面要观众接受的对比，是 18 分钟对 17 分钟：速度只加 10，省下的时间却不少于速度加 50。</p>
+    </section>
+
+    <section class="story-section">
+      <p class="time-range">00:30–00:45</p>
+      <h2>缩到 1 公里，还是 18 秒对 17 秒</h2>
+      <p>字幕说「拿1公里来看」，红标题变成「单单1公里」。四条跑道从 Km 0 拉到 Km 1。40 码的字幕是「要1分30秒」，计时 1:30，也就是 90 秒，1 公里除以 40 km/h 正好是这个数。50 码「只要1分12秒」，计时 1:12，两车之间的粉框是 -18 s。</p>
+      <p>80 码「用时45秒」，130 码「是28秒」。1 公里、130 km/h 约 27.7 秒，画面收成 28 秒。80 的 45 秒减去 28 秒是 17 秒，粉框写成 -17 s。底字幕在这一段后半是「再多提速」。速度加了 50 km/h，省下的秒数仍比低速那 10 km/h 少 1 秒。这和上一块的 18 分钟、17 分钟是同一组比例，只是距离从 60 公里收成 1 公里。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-04.jpg" alt="1公里四条速度：1分30秒、1分12秒少18秒、45秒、28秒少17秒" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:44] 1 公里：40 km/h 为 1:30，50 km/h 为 1:12，少 18 秒；80 km/h 为 0:45，130 km/h 为 0:28，少 17 秒。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/000471e0be2e.mp3" type="button" aria-label="Play English audio">🔊</button><span>Per kilometre: 40 km/h takes 1:30 and 50 km/h takes 1:12, saving 18 seconds. 80 km/h takes 0:45 and 130 km/h takes 0:28, saving 17 seconds.</span></div>
+<audio class="cap-audio" src="audio/000471e0be2e.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+    </section>
+
+    <section class="story-section">
+      <p class="time-range">00:46–01:03</p>
+      <h2>耗时是一条先陡后平的曲线</h2>
+      <p>图的标题换成「跑完1公里需要的时间」。横轴从 30 到 130 km/h，纵轴是 0:30、1:00、1:30、2:00。绿色柱顶连成一条向下的线，旁边写着「双曲线」，公式框是 t = d / v。字幕把形状说全了：「车速和耗时的关系是一条双曲线」「一开始下降很快」「之后慢慢变平缓」「省下的时间依次变少」。</p>
+      <p>低速三段的阶梯标着 30 s、18 s、12 s，对应 30 到 40、40 到 50、50 到 60。按 1 公里复算：120 秒减 90 秒是 30 秒，90 减 72 是 18 秒，72 减 60 是 12 秒，和标数一致。高处的例子是「110提到120」「1公里甚至省不到3秒」。110 到 120，1 公里大约少 2.7 秒，确实不到 3 秒。01:02 的底字幕是「这就是低速很拖平均车速的原因」。Whisper 在 01:00 附近只剩下「这就是低速度的原因」，后半句是画面补上的。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-05.jpg" alt="1公里耗时曲线，公式t等于d除以v，低速三段省下30秒、18秒和12秒" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:02] 1 公里耗时曲线旁是 t = d / v。30 到 40 标 30 秒，40 到 50 标 18 秒，50 到 60 标 12 秒。底字幕说低速很拖平均车速。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/07c9e3185037.mp3" type="button" aria-label="Play English audio">🔊</button><span>The one-kilometre curve is labeled t = d / v. From 30 to 60 km/h, each extra 10 km/h saves 30, then 18, then 12 seconds. The caption says low speed drags the average down.</span></div>
+<audio class="cap-audio" src="audio/07c9e3185037.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+    </section>
+
+    <section class="story-section">
+      <p class="time-range">01:04–01:18</p>
+      <h2>往返平均不是把两个速度加起来除以二</h2>
+      <p>字幕拆成「一段路开60」「一段开40」，画面写成去程时速 60、返程时速 40，西班牙文标签是 Ida a 60 和 Vuelta a 40。时间条上，40 那一段明显更长。底字幕直接给结论：「平均车速不是50 而是48」。表盘写着 Media，针停在 48。等长的两段路，平均速度是两次行程时间加总以后再去除总路程，也就是 2 除以（1/60 + 1/40），结果是 48，不是（60+40）/2 的 50。这和表盘一致，视频没有在画面上把这个分数写出来。</p>
+      <p>下一幕是一座坡。红字「上坡，时速30」，字幕「如果上坡只能开到30」「想要往返平均60」。速度表从 30 往上走，西班牙文出现 Bajada en 0 s，意思是下坡那一段被画成 0 秒。中文字幕接着说「现实根本做不到」，然后收成「提速省下来的时间越来越有限」。等距离时，30 和任何一个有限的返程速度，调和平均都到不了 60，因为 60 已经是 30 的两倍，另一段必须不花时间。画面用表针往上冲和「0 秒」来演这件事，没有给出坡长或实测车速。</p>
+    </section>
+
+    <section class="story-section">
+      <p class="time-range">01:20–01:46</p>
+      <h2>省下的时间变平，刹车距离往上翘</h2>
+      <p>两条曲线叠在同一张速度轴上，轴仍是 30 到 130。绿线标注「每公里耗时」，越来越平；红线标注「刹车距离」，越来越陡。字幕是「刹车距离却不一样」「它和车速平方成正比」。平方关系是这条片的说法，图上没有给出摩擦系数或公式推导。</p>
+      <p>然后回到夜间道路。顶上的小字是 Asfalto seco · 1 s de reacción，也就是干燥沥青、1 秒反应。黄标签 Ven las obras 指着前方的施工。中文字幕写成「两辆车同时看到施工（障碍）」，括号里的「障碍」是字幕自己加的。</p>
+      <p>「100码刚好刹住」出现时，绿色速度读数已经降得很低。下一句是「120码冲到障碍物附近还有70多码」。收束条的标题是 Marca de frenada：青绿条 59 m，粉色条 85 m，旁边 +44%。85 比 59 大约多 44%，字幕说「刹车距离多出将近45%」，和 +44% 是同一档取整，方向一致、字面不完全相同。粉框里还有一个 71 km/h，和「70多码」对得上，它是演示过程中的读数，不是单独一次测速。</p>
+      <figure>
+        <img src="assets/speeding-saves-little-time/shot-06.jpg" alt="干燥沥青、1秒反应下，刹车距离条为59米和85米，多出44%" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:34] 画面条件是干燥沥青、1 秒反应。刹车距离 59 m 对 85 m，标着 +44%。底字幕回到开头：50 公里开到 120 也就省 5 分钟。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0551a53aba8c.mp3" type="button" aria-label="Play English audio">🔊</button><span>The frame assumes dry asphalt and one second of reaction. Braking distance is shown as 59 m versus 85 m, plus 44 percent. The caption returns to the opening: 120 km/h over 50 km saves only five minutes.</span></div>
+<audio class="cap-audio" src="audio/0551a53aba8c.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>底字幕把第一段的账再念一遍：「50公里开到120也就省5分钟」。这里用的是「5分钟」，不再写「不到」。最后几秒回到弯路和双曲线，字幕换成「时间收益越升越平缓」「制动风险却急剧上升」，然后是片尾两句：「车速每多一点」「能省下的时间就又少一点」。Whisper 听到的就是这两句，时间戳落在 01:30 到 01:34，和画面末尾对得上，但中间那一分多钟的图表它没有字。</p>
+      <p class="quote">笔记文案把两件事放在一起：省不了几分钟，刹车距离却会大幅变长。片内能对上的数字，是 50 公里少 5 分钟，以及演示里的 59 米对 85 米。村镇、施工和「现实根本做不到」都是这条片的限定，不是对所有道路的测量。</p>
+    </section>
+  </article>
+  <section class="transcript-section" id="screen-text">
+    <details class="transcript-collapsible">
+      <summary>画面字幕（每 2 秒抽帧读出）</summary>
+      <div class="transcript-body">
+        <p class="transcript-note">同一句若连续两秒没变，这里只保留第一次出现的时间。00:42、01:00、01:10、01:30、01:36 附近没有新的底字幕。读不清的字没有补写。</p>
+        <ol class="transcript-list">
+  <li class="transcript-row">
+    <time>00:00</time>
+    <p>开车有个很反直觉的道理</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:02</time>
+    <p>拼命开快车</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:04</time>
+    <p>风险却会大幅增加</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:06</time>
+    <p>一段50公里的路开到120</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:10</time>
+    <p>大字「不到5分钟」（这一帧没有底字幕）</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:12</time>
+    <p>还要经过村镇</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:14</time>
+    <p>省的时间就更少</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:16</time>
+    <p>车速每往上加一点</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:18</time>
+    <p>能够省下的时间就比上一次更少</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:20</time>
+    <p>同一段路从40提到50</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:24</time>
+    <p>或是从80提到130</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:26</time>
+    <p>大部分人选后者</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:28</time>
+    <p>可实际上是前者</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:30</time>
+    <p>拿1公里来看</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:32</time>
+    <p>40码要1分30秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:34</time>
+    <p>50码只要1分12秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:36</time>
+    <p>省下18秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:38</time>
+    <p>80码用时45秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:40</time>
+    <p>130码是28秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:44</time>
+    <p>再多提速</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:46</time>
+    <p>车速和耗时的关系是一条双曲线</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:50</time>
+    <p>一开始下降很快</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:52</time>
+    <p>之后慢慢变平缓</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:54</time>
+    <p>省下的时间依次变少</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:56</time>
+    <p>110提到120</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>00:58</time>
+    <p>1公里甚至省不到3秒</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:02</time>
+    <p>这就是低速很拖平均车速的原因</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:04</time>
+    <p>一段路开60</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:06</time>
+    <p>一段开40</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:08</time>
+    <p>平均车速不是50 而是48</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:12</time>
+    <p>如果上坡只能开到30</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:14</time>
+    <p>想要往返平均60</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:16</time>
+    <p>现实根本做不到</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:18</time>
+    <p>提速省下来的时间越来越有限</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:20</time>
+    <p>刹车距离却不一样</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:22</time>
+    <p>它和车速平方成正比</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:24</time>
+    <p>两辆车同时看到施工（障碍）</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:26</time>
+    <p>100码刚好刹住</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:28</time>
+    <p>120码冲到障碍物附近还有70多码</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:32</time>
+    <p>刹车距离多出将近45%</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:34</time>
+    <p>50公里开到120也就省5分钟</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:38</time>
+    <p>时间收益越升越平缓</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:40</time>
+    <p>制动风险却急剧上升</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:42</time>
+    <p>车速每多一点</p>
+  </li>
+
+  <li class="transcript-row">
+    <time>01:44</time>
+    <p>能省下的时间就又少一点</p>
+  </li>
+</ol>
+      </div>
+    </details>
+  </section>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下 4 段是 Whisper 原始分段，含繁体字，时间戳按大约 30 秒一块对齐，不能覆盖画面上的图表。听不清或空白的分段已略去。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>開車有個很反直覺的道理拼命開車</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT60S">01:00</time>
+    <p>這就是低速度的原因</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT90S">01:30</time>
+    <p>車速每多一點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT92S">01:32</time>
+    <p>能省下的時間就又少一點</p>
+  </li>
+</ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector("#transcript .transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

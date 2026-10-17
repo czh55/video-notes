@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4530" viewBox="0 0 1320 4530">
+  <foreignObject x="0" y="0" width="1320" height="4530">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;max-width:180px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>调色没思路时，ShotDeck 按哪几栏看</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色参考</span>
+    <span class="tag tag-green">ShotDeck</span>
+    <span class="tag tag-orange">Vivi Lyn 的用法</span>
+    <span class="tag tag-gray">6分52秒 · 小红书 · 2026-10-17</span>
+  </div>
+  <div class="summary-line">这条片子回答的不是某个节点怎么拉，而是参考库怎么进：没任务就随机看 Browse Shots；有题目就从 Color 叠条件，特殊色进 Rosco，胶片工艺看 Lab Process，想把光做自然就优先看 Lighting 和 Lighting Type。搜索用来锁定想模仿的导演，片中打开的是 David Fincher。没有广告片类。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">问题来自学生：调色没思路。她把本期限定为调色工作者怎么用这个站。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:42</span><span class="timeline-text">Browse Shots，排序 Random。口播 Bronze 与画面导航不一致，以画面为准。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:35</span><span class="timeline-text">Color 勾选 Warm，用来看不同场景的暖调方案。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:52</span><span class="timeline-text">Desaturated 与 Blue 同时勾选，证明筛选可以交叉。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:43</span><span class="timeline-text">Rosco 实际选中 LCT Yellow (E212)，黄字标明口误。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:20</span><span class="timeline-text">Lab Process 勾 Cross Process，叠字列出漂白旁路、交叉冲洗、闪光处理。</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:02</span><span class="timeline-text">Lighting 勾 Soft light。她口头在讲高光和阴影，和这一帧的筛选项不完全重合。</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:40</span><span class="timeline-text">《绝命毒师》详情页，用来说明胶片片要看 Film Stock。</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:40</span><span class="timeline-text">搜索结果是 DAVID FINCHER - DIRECTOR。随后只有关注口播。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">没思路<br/>缺少可看的完成片</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">先定任务<br/>随机或按项目</div>
+      <div class="arrow">→</div>
+      <div class="node">Color 叠条件<br/>Rosco / 洗印</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">Lighting<br/>决定光是否自然</div>
+      <div class="arrow">→</div>
+      <div class="node">搜索锁定<br/>一部作品再练</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>听写不能直接当界面名</h3>
+    <p>口播里的 Shopdeck、Bronze Shots、Dissaturated、LTC Yellow、C Red、Dayfinture，分别对应画面上的 ShotDeck、Browse Shots、Desaturated、LCT Yellow (E212)、Silhouette、David Fincher。创办人口播听不清，画面也没有姓名，不写入操作结论。Rosco 被说成滤色片公司，这是她的背景介绍，本片没有演示怎么把滤色编号抄进调色软件。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">参考库解决的是「看不见完成片」，不是节点参数</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>没思路在她的用法里，首先是缺少一组已经完成的画面，而不是缺少一个滑杆。网站收的是影片截图，筛选按颜色、滤色片色、洗印、光线和照明类型把这些截图切开。</p>
+      <h3>关键理解</h3>
+      <p>随机浏览和条件筛选是两种入口，不是两套网站。没任务时 Random 用来积累；有微电影这类题目时，才把条件和自己的场景对齐。</p>
+      <h3>怎么用</h3>
+      <p>先写下一句场景要求，再决定是打开 Random，还是直接勾 Color。不要把首页搜到的第一张截图当成唯一答案。</p>
+      <div class="quote">「如果是没有什么特殊的工作任务的话，我平时就喜欢直接进入 Browse Shots 随机浏览。」（00:39 起，站名按画面校正）</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场</h3>
+      <p>笔记里她认为同类站里 ShotDeck 最好用、影片信息更全。这是使用后的偏好，片子没有把其他网站并排打开做对照。多看多练就能很快进步，同样是鼓励，没有作业前后对照。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颜色条件要能叠，滤色片色只是更细的一层</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>Color 按场景主色分，她演示了 Warm，以及 Desaturated 加 Blue。Rosco Colors 被她说成比 Color 更细分、更特殊，点名的那一枚在画面上是 LCT Yellow。Color Picker 留给自己点，没有操作细节。</p>
+      <h3>关键理解</h3>
+      <p>交叉筛选的证据只有一次：低饱和和蓝色同时生效，网格变了。不能据此推出任意两栏都能得到足够多的结果，也不能把 Rosco 结果理解成「这些镜头都装了同一型号滤纸」。她自己的说法是用了这枚滤镜，或者说颜色接近。</p>
+      <h3>怎么用</h3>
+      <p>先用 Color 把主色和饱和度定住，结果仍不像目标时，再打开 Rosco 找更窄的色名。口播说 LTC 时，以画面标签 LCT Yellow (E212) 为准。</p>
+      <div class="action">有项目时写两个词再搜，例如「低饱和 + 蓝」，不要只搜一个情绪词。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <p>把滤色片编号当成调色配方。本片只证明编号能筛出接近的截图，没有给出对应的色轮、打印机或节点。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">光比颜色更靠近「调得自然」</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>她把 Lighting 和 Lighting Type 说成一定要看。理由是后期做光影重塑时，要参考专业画面怎么处理高光和阴影。画面证据包括 Soft light、Silhouette，以及 Lighting Type 里的日光、晴、阴、Artificial light、Practical light、荧光。</p>
+      <h3>关键理解</h3>
+      <p>光线在这里是分类标签，不是布光教程。04:02 画面勾的是柔光，她同时在说高光比，两项在侧栏里是并列选项，听众不要合成成「柔光等于高光比」。</p>
+      <h3>怎么用</h3>
+      <p>调一场戏之前，先用 Lighting Type 对齐光源种类（日光还是人工光、有没有实用光），再用 Lighting 对齐软硬和是否剪影，最后才用 Color 对齐色相。胶片工艺只在目标本身像洗印效果时才打开 Lab Process。</p>
+      <div class="quote">「想把调色做好的话，一定是要对光线也要有很深刻的学习和了解。」（03:30 前后）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>筛选栏怎么选</h3>
+    <table>
+      <thead>
+        <tr><th>栏</th><th>片中演示</th><th>适合拿来对齐什么</th><th>边界</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Browse / Random</td><td>00:42 随机网格</td><td>没有具体项目时积累画面</td><td>不能代替一场戏的条件</td></tr>
+        <tr><td>Color</td><td>Warm；Desaturated + Blue</td><td>主色和饱和度，条件可叠</td><td>只演示了这一组交叉</td></tr>
+        <tr><td>Rosco Colors</td><td>LCT Yellow (E212)</td><td>比 Color 更窄的滤色片色</td><td>接近色，不是滤纸清单</td></tr>
+        <tr><td>Color Picker</td><td>口头让自己选</td><td>已有一个目标色</td><td>片中没有打开色板</td></tr>
+        <tr><td>Lab Process</td><td>交叉冲洗，并列出漂白旁路、闪光</td><td>胶片洗印外观</td><td>她明确说不多讲</td></tr>
+        <tr><td>Lighting</td><td>Soft light，稍后 Silhouette</td><td>软硬、剪影、高光阴影的参考</td><td>口播高光比与柔光帧不同步</td></tr>
+        <tr><td>Lighting Type</td><td>人工光，并提到日光、实用光、荧光</td><td>光源种类</td><td>只过了一遍，没有逐项对比</td></tr>
+        <tr><td>Film Stock</td><td>《绝命毒师》35mm 详情</td><td>确认胶卷，再决定要不要仿胶片</td><td>入门被她排在颜色和光线之后</td></tr>
+        <tr><td>搜索</td><td>David Fincher 导演页</td><td>锁定想模仿的作品</td><td>口播片名听错，以画面标题为准</td></tr>
+        <tr><td>Commercial / TVC</td><td>她说没有</td><td>广告参考不要在这里找</td><td>原因是她的估计，不是公告</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">立场要分开</h2>
+    <div class="card card-green">
+      <h3>画面能核对的</h3>
+      <p>Browse Shots、Color 的 Warm 与 Desaturated+Blue、Rosco 的 LCT Yellow、Lab Process 的三项中文、Lighting 的 Soft light、绝命毒师详情、Fincher 导演页，都在对应时间的截图里。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点</h3>
+      <p>ShotDeck 比她看过的同类站更好用；随意浏览对审美有帮助；高光和阴影的处理很有参考价值；多看多练会很快进步；没有广告类是因为版权。这些都停在她的判断。</p>
+    </div>
+    <div class="card">
+      <h3>推断</h3>
+      <p>把 Lighting Type 放在 Color 前面，是根据她「光决定调色是否自然」的强调做的阅读顺序，不是她宣读的操作清单。创办人姓名来自补充资料，不进入步骤。</p>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>没思路时先找完成片，再谈自己的节点。</li>
+      <li>入口分随机和条件。条件从颜色交叉开始，光和照明类型是她更强调的学习对象。</li>
+      <li>界面专名以画面为准：LCT Yellow，不是 LTC；Fincher，不是听写里的那个词。</li>
+      <li>广告片不在这个库的承诺范围内。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>今天没有项目：打开 Browse Shots，排序用 Random，只存 5 张愿意再看的截图。</li>
+      <li>有一场戏：先写光源种类，再勾 Lighting Type，然后勾 Lighting，最后才叠 Color。</li>
+      <li>目标色很窄：用 Rosco 或 Color Picker，记下画面上的色名，不要记口播。</li>
+      <li>想仿胶片：打开 Lab Process 看漂白旁路、交叉冲洗、闪光三词各自的截图，再决定要不要看 Film Stock。</li>
+      <li>想仿一个导演：用搜索栏打导演名，先看片单是否对得上，再挑截图。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把「没思路」理解成还没找到正确的滑杆。她的用法是先用筛选把一类完成片调出来，看专业画面如何处理同一类颜色和光线，再回到自己的素材上练。参考站给出的是样本，不是一键配方，也覆盖不到 TVC。</p>
+  </div>
+  <div class="footer">证据来自本地转录与截图。未重新访问小红书。创办人姓名仅作补充资料。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

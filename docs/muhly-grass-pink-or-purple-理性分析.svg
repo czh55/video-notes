@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6308" viewBox="0 0 1320 6308">
+  <foreignObject x="0" y="0" width="1320" height="6308">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:88px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>粉黛草到底是粉还是紫</h1>
+  <div class="meta">
+    <span class="tag tag-purple">摄影</span>
+    <span class="tag tag-blue">白平衡</span>
+    <span class="tag tag-orange">3分28秒</span>
+    <span class="tag tag-gray">画面署名 Quincy</span>
+  </div>
+  <div class="summary-line">粉和紫在这批湖边 RAW 里不是两种草。色温调低会少乘红、多乘蓝；蓝一压过草本身较多的红，名字就从粉换成紫。太阳底下按晴天预设它被说成粉，片子里的紫是傍晚偏蓝的光和当时的相机设定叠出来的。</div>
+
+  <div class="timeline">
+    <h3>关键证据</h3>
+    <div class="timeline-item"><span class="timeline-time">00:16</span><span class="timeline-text">同一场景并排：白平衡 4200K 与 4900K，底栏问粉还是紫。此段几乎无口播。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">DSC_1000 RAW。4200K 时红乘 1.53、蓝乘 1.59。口播把规律说成：数字越低，红乘越少，蓝乘越多。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:12</span><span class="timeline-text">同一张从 3500K 拨到 6500K。草：紫、粉、带橙的粉。树叶发青变发黄，红栏杆粉红变橙红。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:28</span><span class="timeline-text">色环同时标出树叶、栏杆、草。滑杆读数 6450K。粉和紫在环上相邻。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:44</span><span class="timeline-text">直射光示意图。口播：这台相机晴天预设大约 5200K。轴刻度 4000K 到 12000K。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">无口播。图示：挡住直射阳光只剩天空光；日本晴天楼顶实测。邻近帧写整天不低于 8500K。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:08</span><span class="timeline-text">相机锁在 4900K，四格时间为 17:00、17:13、17:27、17:40。邻近帧写越往后越往紫走。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:24</span><span class="timeline-text">日落后：相机当时 4200K，对照同样 4900K。箭头标光偏蓝。口播：两下叠在一起就紫了。</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:56</span><span class="timeline-text">整张平均。假定灰，实际粉。满屏粉黛草按灰世界扣一遍，草褪成灰。</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:12</span><span class="timeline-text">太阳底下按晴天白平衡是粉的。想要粉就调高色温或在编辑里往暖拉；想要紫就往冷拉。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">光的颜色<br/>直射或天空</div>
+      <div class="arrow">→</div>
+      <div class="node">白平衡乘数<br/>红与蓝</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">蓝是否压过红</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">粉或紫<br/>由你选</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>把某一张紫照片当成粉黛草的固有色。片子的证据是同一 RAW 改白平衡就会改名字。眼睛觉得没那么紫，是因为周围一起偏蓝，适应把光的颜色扣掉了一部分，不是草在现场换了品种。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">白平衡只改两路乘数</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>相机记下每个点的红、绿、蓝，不知道照着的是什么光。白平衡先猜一个光的颜色，再把它扣掉。片子把扣法说成红、蓝各乘一个数，绿在 4200K 面板上保持乘 1。</p>
+      <div class="highlight">色温数字越低，红乘得越少，蓝乘得越多，整张越蓝。这是口播的机制，不是对所有相机 RAW 管线的完整说明。</div>
+      <div class="quote">草的颜色里本来红最多，蓝其次。蓝一压过红，粉就成了紫。</div>
+      <div class="action">怎么用：先看文件里记下的色温，再看红乘数和蓝乘数谁更大，不要只看成片是粉还是紫。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者的操作样本</h3>
+      <p>样本文件名是 DSC_1000 RAW，作者说是去年十月的湖边片子。4200K 帧上红乘 1.53、蓝乘 1.59。4900K 的邻近帧把蓝降到 1.46、红升到 1.73。从 3500K 拨到 6500K 时，变的不只是草：树叶和红栏杆一起走。</p>
+      <div class="relation">粉和紫在色环上挨着，所以小幅拨色温就会换名字。01:28 读到的 6450K 是滑杆经过的一格，不是作者推荐的唯一设置。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">光变了，固定的数不会跟着变</h2>
+    <div class="card card-green">
+      <h3>可核对的画面事实</h3>
+      <p>太阳还高时，图上画的是直射光照到草。口播给出这台相机的晴天预设大约 5200K。日落后的对比帧写明：相机当时 4200K，旁边是同样场景的 4900K，并标「光偏蓝」。</p>
+      <div class="quote">两下叠在一起，就紫了。人站在边上很少觉得它紫成这样，因为眼睛会把一起偏蓝的光扣掉一部分。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>引用，尚未核对</h3>
+      <p>无口播的图示写着：挡住直射阳光，只剩天空光；日本，一个晴天，楼顶实测。邻近帧写色温一整天都没低于 8500K。没有人名、城市和文献。只能当作这条视频的主张，不能当作已核实的天空光常数。</p>
+      <div class="pitfall">不要把 8500K 写成「天空光永远高于 8500K」。句子的范围是那次楼顶测量的「一整天」，而且来源没有展开。</div>
+    </div>
+    <div class="card">
+      <h3>17:00 到 17:40 锁死 4900K</h3>
+      <p>四格时间说明作者在用固定色温看傍晚怎么变，而不是每张都重设自动白平衡。邻近字幕说越往后草越往紫那边走。这是固定 4900K 之下的观感，不能外推成「傍晚的粉黛草一定是紫的」。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三种处理，结果不同</h3>
+    <table>
+      <tr><th>做法</th><th>片子里的结果</th><th>适用条件</th></tr>
+      <tr><td>晴天预设，大约 5200K，太阳还高</td><td>作者结论：它是粉的</td><td>直射光为主。预设是「这台相机」，不是所有机身的出厂值</td></tr>
+      <tr><td>日落后仍用 4200K</td><td>偏蓝的天空光再叠一次冷设定，草变紫</td><td>画面写的是 2 日日落后，月份未标出</td></tr>
+      <tr><td>自动白平衡，按整张平均是灰来扣</td><td>满屏粉被当成光的颜色扣掉，草褪成灰</td><td>只在主体占满画面、平均色就是粉的时候，这个失败才被演示</td></tr>
+      <tr><td>后期往暖拉，或把色温调高</td><td>往粉走。滑杆上出现过 5600K，口播没报这个数</td><td>作者把 5600K 当示意，不应当成粉黛草的标准色温</td></tr>
+      <tr><td>往冷拉</td><td>作者说这样更梦幻、更紫</td><td>审美选择，不是对现场光的还原</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-red">
+      <h3>这套说法停在哪里</h3>
+      <ul>
+        <li>只覆盖这一批湖边 RAW 和这一台相机的晴天预设，没有第二台机身对照。</li>
+        <li>绿通道乘 1 来自 4200K 面板，片子没有证明所有色温下绿都不变。</li>
+        <li>眼睛适应是作者的解释，没有现场对照实验。</li>
+        <li>8500K 与日本楼顶实测无法在片内复核。</li>
+        <li>「去年十月」没有年份。日落后对比帧只读出「2日」，月份不能补写。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>粉和紫可以是同一片草、同一张 RAW 的两种白平衡。</li>
+      <li>机制是红、蓝乘数。蓝压过草里较多的红，名字就换成紫。</li>
+      <li>太阳高、晴天预设：作者说是粉。傍晚的紫是光和设定叠出来的。</li>
+      <li>灰世界假设在满屏粉色主体上会把草扣灰。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>拍的时候如果要接近作者说的粉，太阳还高就用晴天白平衡，不要沿用傍晚那档 4200K。</li>
+      <li>已经拍完就在编辑里看色温：往暖拉偏粉，往冷拉偏紫。先看红蓝乘数，再决定往哪边拨。</li>
+      <li>主体占满画面时，不要相信「整张平均是灰」的自动白平衡。</li>
+      <li>若要记录现场光，记下直射还是只剩天空，而不是只记成片颜色。</li>
+      <li>引用 8500K 之前先找到原始测量；这条片子本身不够。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把粉黛草的紫当成植物本色。现在先问两件事：当时是直射还是天空光，白平衡把蓝乘到了红的上面没有。草还是那片草，颜色是光和设定一起选出来的。</p>
+  </div>
+  <p class="footer">证据来自本地转录与画面字幕。转录同音字已按画面校正。未把作者观点写成仪器测量。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

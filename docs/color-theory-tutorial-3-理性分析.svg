@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4889" viewBox="0 0 1320 4889">
+  <foreignObject x="0" y="0" width="1320" height="4889">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:110px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>互补色如何画亮部和暗部</h1>
+  <div class="meta">
+    <span class="tag tag-blue">色彩</span>
+    <span class="tag tag-green">画面证据</span>
+    <span class="tag tag-orange">口播极少</span>
+    <span class="tag tag-gray">10.8 秒 · Angel</span>
+  </div>
+  <div class="summary-line">这条片子问的是：画亮部和暗部时，互补色落在物体的哪一侧。证据只有三只瓶子。开头它们是同一块蓝灰，大约 3 秒后左缘分别是紫、褐红、深蓝，右缘分别是亮绿、青、偏黄。</div>
+
+  <div class="timeline">
+    <h3>关键画面</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">标题已是「互补色如何画亮部和暗部」。三只瓶子仍是蓝灰，三对色点已经放好。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:01</span><span class="timeline-text">中瓶左缘先变成褐红，左瓶左缘略偏紫，右瓶右缘还没有黄。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:03</span><span class="timeline-text">三对颜色铺完。之后瓶子停住，约 5 秒只是水印从底部换到顶部。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">三对色点先就位</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">左缘离开蓝灰</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">右缘走到对面色</div>
+      <div class="arrow">→</div>
+      <div class="node">停住，没有口播收束</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>不要把听写当成讲解</h3>
+    <p>Whisper 只有 1 段英文，和画面汉字对不上。能用的句子只有画面标题。笔记名「色彩理论教程」比画面标题更宽，不能拿它补写这条片子没出现的概念。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三只瓶子在比哪三对色</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>同一只瓶子的轮廓重复三次。变的是瓶身上的颜色，不是轮廓，也不是背景。</p>
+      <div class="highlight">可核验画面：00:00 三只瓶身都接近蓝灰；00:03 左缘与右缘已经分开。</div>
+      <h3>关键理解</h3>
+      <p>每对色都是色轮上对着的一轴，而且和小色轮上的连线一致：绿对品红、青对红、蓝对黄。暗的一侧靠近色点里较深的那一颗，亮的一侧靠近较亮的那一颗。</p>
+      <h3>怎么用</h3>
+      <div class="action">临摹时先在物体上方放两颗对着的色点，再让暗侧吃深的一颗、亮侧吃亮的一颗。这条片子只示范了瓶子，没有示范皮肤或风景。</div>
+      <div class="quote">画面依据是标题「互补色如何画亮部和暗部」，不是口播。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场只能推到这一步</h3>
+      <p>Angel 把三对色并排，等于把它们当成同一类做法的三个例子。画面没有说哪一对更好，也没有说必须从左缘起笔。左缘先变色，是这一条的时间顺序，不一定是规定的步骤。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <div class="pitfall">不要把 00:03 的像素值写成配方。111、44、123 这类数字只说明那一帧左瓶左缘偏紫，换一帧或换压缩就会漂。</div>
+      <div class="pitfall">窗口左上角的蓝色小方标看不清字母。不要把软件名写成确定事实。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三对色并排看</h3>
+    <table>
+      <tr><th>位置</th><th>色点</th><th>00:03 左缘</th><th>00:03 右缘</th><th>小色轮</th></tr>
+      <tr><td>左瓶</td><td>紫、绿</td><td>偏紫</td><td>亮绿</td><td>斜线，绿对品红</td></tr>
+      <tr><td>中瓶</td><td>褐红、青</td><td>褐红</td><td>青</td><td>横线，青对红</td></tr>
+      <tr><td>右瓶</td><td>蓝、黄</td><td>深蓝</td><td>偏黄</td><td>斜线，蓝对黄</td></tr>
+    </table>
+    <p>三列的共同点是右缘更亮。不同点是右瓶的暗侧仍留在蓝色里，左瓶和中瓶的暗侧离开了开头那块蓝灰。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-green">
+      <h3>事实、看法、推断</h3>
+      <p>事实：10.8 秒，1 段听写不可用，标题和三只瓶子如上。</p>
+      <p>作者观点：画面把这件事叫作「用互补色画亮部和暗部」。没有别的解释句。</p>
+      <p>推断：右缘当亮部、左缘当暗部，是从明暗差推出来的。片子没有画箭头标光源。这个推断只覆盖这三只瓶子。</p>
+      <div class="highlight">适用条件：白底教学静帧，物体是同一只瓶子重复三次。没有前后对照的失败例，也没有口播把步骤说完。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>互补色在这条片子里不是色轮理论课，而是三只瓶子的左右两侧。色点先在，瓶身后变，变完就停。</p>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先抄标题下的三根轴：绿品红、青红、蓝黄，再看瓶子，不要先从瓶身猜色轮。</li>
+      <li>临摹时让暗侧吃深色点、亮侧吃亮色点，左右关系以这一条为准。</li>
+      <li>右瓶暗侧仍是深蓝，临摹时不要把它改成棕或紫。</li>
+      <li>水印在 5 秒换位置，选参考帧时用 3 秒那张，瓶子已经铺完，水印还在底部。</li>
+      <li>听到英文串时丢掉，只认画面汉字。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前会把「色彩理论教程」理解成一套完整课。现在这条只有一个动作：同一只蓝灰瓶子，用三对互补色把左缘和右缘拉开。</p>
+  </div>
+  <p class="footer">依据 b63v 抽帧与 1 段 Whisper。口播极少，依画面。像素为单帧取样，不是作者配方。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4344" viewBox="0 0 1320 4344">
+  <foreignObject x="0" y="0" width="1320" height="4344">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:120px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 22px;text-align:center;min-width:150px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+</style>
+      
+<div class="container">
+  <h1>画暗部时，色相要不要跟着动</h1>
+  <div class="meta">
+    <span class="tag tag-blue">调色后期</span>
+    <span class="tag tag-orange">绘画取色</span>
+    <span class="tag tag-green">画面证据</span>
+    <span class="tag tag-gray">8.5 秒 · 口播极少</span>
+  </div>
+  <div class="summary-line">这条片子没有讲解词。它用红叉和绿勾问一件事：画球体暗部时，只在取色方框里竖直拉暗，和同时让色相离开底色，两颗球看起来差在哪里。</div>
+
+  <div class="timeline">
+    <h3>关键画面</h3>
+    <div class="timeline-item"><div class="timeline-time">00:00–00:02</div><div class="timeline-text">橙黄。左球暗部约 (94,64,26) 发褐；右球暗部约 (116,2,90) 发紫。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:02–00:05</div><div class="timeline-text">粉红。左球暗部约 (84,29,50) 暗红；右球暗部约 (88,0,164) 蓝紫。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:05–00:08</div><div class="timeline-text">黄绿直到片尾。左球暗部约 (73,106,17) 橄榄；右球暗部约 (32,181,37) 更青。</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">暗部怎么取色</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">红叉：色相不动，明度竖直向下</div>
+      <div class="arrow">→</div>
+      <div class="node">暗部发褐、发闷、发橄榄</div>
+    </div>
+    <div class="diagram">
+      <div class="node">同一颗球</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">绿勾：方框弯道，色环也动</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">暗部偏紫或偏青</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>先分开两件事</h3>
+    <p>红叉和绿勾是画面自己的标记，表示作者把哪一列当成要避开的取法。它不是测量结论，也不是「所有暗部都必须偏紫」。三颗球只演示了白底、左上受光这一种光。口播那句点赞套话与标题 DRAWING COLORS 对不上，不能拿来当依据。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">左右两列在操作上差了哪一步</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>两列的取色器结构一样：外圈选色相，内框选饱和与明度。左列的白箭头在内框里竖直向下，外圈的选点不动。右列的内框路径是弯的，外圈另有一条弯箭头。</p>
+      <div class="highlight">关键理解：右列多出来的不是「更暗」，而是色相离开了底色。暗部像素在三组里分别走到紫、蓝紫和更青。</div>
+      <div class="action">怎么用：在取色器里先定底色，再单独存一个暗部色。如果暗部只是底色滑到更低明度，它就落在左列；若暗部色相已经偏开，再看它是否仍保持饱和，而不是发灰。</div>
+      <div class="quote">原文依据：无口播。依据是 00:01、00:03、00:07 三帧的取色器箭头和球体暗部取样。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者立场，画面标出来了，但没有论证</h3>
+      <p>绿勾始终放在「色相也动」的一列。作者没有说明光源是暖是冷，也没有比较互补色、邻近色哪一种更合适。紫和青都出现了，方向并不固定成同一种色温。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>避坑</h3>
+      <div class="pitfall">不要把右列读成「暗部一律加紫」。黄绿这一段右球暗部是更青的绿，蓝分量上升，并不是紫。</div>
+      <div class="pitfall">不要把这条绘画取色演示当成达芬奇节点教程。画面里没有示波器、没有色轮节点、没有素材片段。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>三组底色，同一对照</h3>
+    <table>
+      <tr><th>时段</th><th>底色</th><th>红叉暗部</th><th>绿勾暗部</th></tr>
+      <tr><td>00:00–00:02</td><td>橙黄</td><td>褐，约 (94,64,26)</td><td>紫，约 (116,2,90)</td></tr>
+      <tr><td>00:02–00:05</td><td>粉红</td><td>暗红，约 (84,29,50)</td><td>蓝紫，约 (88,0,164)</td></tr>
+      <tr><td>00:05–00:08</td><td>黄绿</td><td>橄榄，约 (73,106,17)</td><td>更青，约 (32,181,37)</td></tr>
+    </table>
+    <p>取样点在球体中轴偏下的最暗像素附近，是画面事实。色环弯箭头的顺逆时针无法在每一帧确认，表中不写转向。</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>在这 8.5 秒里，竖直拉暗的球体暗部留在底色的脏暗版本里；方框走弯道且色相离开底色的球体，暗部会偏到紫或青。换底色没有换这个结构。</p>
+    <h3>行动清单</h3>
+    <ul>
+      <li>画完暗部后，把暗部色和底色放在一起，看色相有没有离开。</li>
+      <li>若暗部只是更黑的同一色，先对照本片左列，再决定要不要改。</li>
+      <li>橙、粉可以试着把暗部往紫蓝偏一档；黄绿先看是否变青，不要一律加紫。</li>
+      <li>改完只看球体最暗的一圈是否发灰，不先加纹理。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>以前把「变暗」理解成明度滑块向下。这条画面把变暗拆成明度路径和色相是否离开两件事，而且只在三颗演示球上成立。</p>
+  </div>
+  <p class="footer">证据仅来自 b63u 本地画面与 1 段无法采用的转录。笔记标题为「色彩理论教程」，本文标题加上序号以便和同名的另一条区分。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

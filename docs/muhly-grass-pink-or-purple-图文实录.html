@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="同一张粉黛草 RAW，白平衡 4200K 偏紫、4900K 偏粉。晴天预设约 5200K；日落后的紫是偏蓝的光和偏低色温叠出来的。">
+  <title>粉黛草到底是粉还是紫｜图文实录</title>
+  <style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px;line-height:1.7}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+.quote{border-left:3px solid #d6d3d1;margin:14px 0;padding:4px 0 4px 14px;color:#57534e}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}
+  </style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+  <header>
+    <p class="kicker">图文实录 · 小红书 · 摄影</p>
+    <h1>粉黛草到底是粉还是紫</h1>
+    <p class="meta">2026-10-17 · 3分28秒 · 摄影拍摄 · 画面署名 Quincy · <a href="https://xhslink.cn/o/1zcCCkVKYIC">原笔记</a></p>
+    <p class="lede">这条片子用去年十月在湖边拍的同一批粉黛草，说明粉和紫可以来自同一张 RAW。白平衡只是给红、蓝两路各乘一个数：色温设得越低，红乘得越少、蓝乘得越多，照片就越蓝。太阳还高的时候，按晴天白平衡它是粉的；片子里那些紫，是傍晚偏蓝的光和相机偏低的色温叠出来的。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>全片一个说话人，没有对谈。下载元数据里的作者名是「科普观察室」，画面右上角署名 Quincy，片子没有说明二者是不是同一个人。开场字幕写「这是去年十月拍的一片粉黛草」，没有写年份和具体湖名。00:05 到 01:00、01:55 到 02:25 两段口播几乎是空的，论证主要在图上：色温数字、通道乘数和对比画面。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→01:12]</span>
+      <div>
+        <strong>一个设置改掉名字</strong>
+        <p>同一张 DSC_1000 的 RAW，4200K 和 4900K 并排。口播把白平衡说成红、蓝各乘一个数。4200K 这一帧上红乘 1.53、蓝乘 1.59。草本身红最多、蓝其次，蓝一压过红，粉就叫成紫。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:12→01:37]</span>
+      <div>
+        <strong>从 3500K 拨到 6500K</strong>
+        <p>同一张照片一路拨色温：草从紫到粉，再到带点橙的粉；树叶从发青到发黄；红栏杆从粉红到橙红。色环上粉和紫挨着，色温拨到 6450K 时字幕正在说栏杆变橙红。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:37→02:25]</span>
+      <div>
+        <strong>直射光和天空光</strong>
+        <p>太阳还高时，草上主要是直射光，这台相机的晴天预设大约 5200K。太阳落下后只剩天空光。画面引用日本晴天楼顶的实测，并写挡住直射阳光后色温整天不低于 8500K。这个数来自字幕，口播没有把它念出来，也没有给出人名。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:25→03:28]</span>
+      <div>
+        <strong>眼睛会扣，灰世界会扣错</strong>
+        <p>人站在草边很少觉得它紫成那样，因为周围一起偏蓝，眼睛会把光的颜色扣掉一部分。相机若设死一个数就不跟着变。自动白平衡只能从画面里猜；假定整张平均是灰，满屏粉黛草就会被扣成灰。想拍粉就把色温调高或在编辑里往暖拉，想要紫就往冷拉。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>太阳底下、按晴天白平衡，作者的结论是粉。紫是傍晚的光加上当时的相机设定。草还是那片草，颜色由你选。8500K 和日本楼顶实测只是片中引用，没有文献可以在这条片子里核对。</p>
+    </div>
+
+    <section class="story-section" id="s1">
+      <p class="time-range">00:00–01:12</p>
+      <h2>同一张 RAW，4200K 和 4900K 并排</h2>
+      <p>片头还是湖边那片草，木栏杆和水面在后面，字幕直接写「这是去年十月拍的一片粉黛草 紫的」。随后大约五十秒几乎没有人说话。画面先把同一张照片左右切开，再追问相机到底记下了什么。</p>
+      <p>00:16 这一帧已经把问题摊开：左边白平衡 4200K，右边 4900K，底栏问「那它到底是粉还是紫」。左边的草更冷、更紫，右边更暖、更粉。这是同一场景的两种解法，不是两天拍的两片草。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-01.jpg" alt="左右对比：白平衡 4200K 与 4900K 的同一片粉黛草" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:16] 同一片湖边粉黛草左右对开，左边白平衡 4200K，右边 4900K，底栏问它到底是粉还是紫。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4c8be9e100d0.mp3" type="button" aria-label="Play English audio">🔊</button><span>The same lakeside muhly grass is split in two: white balance 4200K on the left and 4900K on the right. The caption asks whether it is pink or purple.</span></div>
+<audio class="cap-audio" src="audio/4c8be9e100d0.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>中间还插了一张白纸的示意。低清抽帧上能读到「纸的颜色？」「光的颜色？」，一边是「夕阳下」，一边是「阴影里」，底栏写「还是光的颜色」。准确截到 00:32 时，字幕已经换成「同一张白纸 夕阳下发橙」。这一小段的意思是：你看见的颜色里混着光，相机并不知道当时照着的是什么光。像素放大图上是红、绿、蓝三根柱，没有口播解释柱高。</p>
+      <p>口播从 01:00 左右才接上，把扣颜色的办法说直：</p>
+      <p class="quote">数字设得越低，红乘得越少，蓝乘得越多，照片就越蓝。</p>
+      <p>Whisper 把「乘」听成了「成」，正文按画面上的「红乘」「蓝乘」来写。00:48 的成片帧写着文件名 DSC_1000 RAW，白平衡 4200K，红乘 1.53，蓝乘 1.59。同一镜头的面板上绿通道是乘 1，低清帧能读出「绿 ×1」，这一张成片的文字识别漏掉了「绿」字，三行里只稳定读出红和蓝。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-02.jpg" alt="DSC_1000 RAW 在白平衡 4200K 下红乘 1.53、蓝乘 1.59" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:48] 文件名 DSC_1000 RAW，白平衡 4200K，画面标红乘 1.53、蓝乘 1.59，底栏写这张照片里记着。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a7d60b8a6fa2.mp3" type="button" aria-label="Play English audio">🔊</button><span>The file is DSC_1000 RAW at white balance 4200K. The frame marks red times 1.53 and blue times 1.59, and the caption says the photo file stores these numbers.</span></div>
+<audio class="cap-audio" src="audio/a7d60b8a6fa2.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>接着口播转到草本身的比例，而不是光的比例：</p>
+      <p class="quote">草的颜色里本来红最多，蓝其次，蓝一压过红，粉就成了紫。</p>
+      <p>4900K 的邻近帧把蓝降到 1.46，红升到 1.73，字幕是「蓝降到 1.46」，旁边标着「草的颜色」和「本来红最多 蓝其次」。这组数字只出现在画面上，口播没有逐个念乘数。</p>
+    </section>
+
+    <section class="story-section" id="s2">
+      <p class="time-range">01:12–01:37</p>
+      <h2>色温从 3500K 拨到 6500K，粉和紫挨着</h2>
+      <p>口播宣布把这张照片的白平衡从 3500K 一路拨到 6500K。滑杆经过大约 3990K、4240K，后来停在能读清的 6450K。草的变化被说成三段：</p>
+      <p class="quote">草从紫变成粉，再变成带点橙的粉。树叶从发青变成发黄，红栏杆从粉红变成橙红。</p>
+      <p>转录把「红栏杆」听成了含糊的近音，正文以这一帧字幕为准。01:28 的色环把三个取样点标在环上：树叶靠近黄绿，栏杆靠近橙，草靠近粉。环外还写着黄、橙、粉、紫、蓝、青、绿。底栏字幕就是「红栏杆从粉红变成橙红」，滑杆数字是 6450K，手柄偏在暖的一侧。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-03.jpg" alt="色环标出树叶、栏杆和草，色温 6450K，字幕写红栏杆从粉红变成橙红" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:28] 色温拨到 6450K，色环上标着树叶、栏杆和草，字幕写红栏杆从粉红变成橙红。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f588c4917035.mp3" type="button" aria-label="Play English audio">🔊</button><span>Color temperature is set to 6450K. The color wheel marks leaves, the railing, and the grass. The subtitle says the red railing shifts from pink-red to orange-red.</span></div>
+<audio class="cap-audio" src="audio/f588c4917035.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>同一段稍后把结论说死：整张照片的颜色都跟着变，粉和紫本来就挨着，差一点，名字就换了。这是作者的判断，依据是这次拨色温时草的外观，不是对粉黛乱子草品种的植物学鉴定。</p>
+    </section>
+
+    <section class="story-section" id="s3">
+      <p class="time-range">01:37–02:25</p>
+      <h2>晴天大约 5200K，日落后天空光把色温推高</h2>
+      <p>相机该设多少，口播说要看当时是什么光。太阳还高的时候，草上主要是太阳直射的光。01:44 的图就是这个句子：一束标成「太阳直射光」的线打在草上，底下一条色温轴从 4000K 标到 12000K，每 2000K 一格。字幕重复「草上主要是太阳直射的光」。紧接着的口播给出这台相机的数字：</p>
+      <p class="quote">这台相机给晴天的预设大约是 5200K。</p>
+      <p>转录末尾多出来的「耳闻」对不上任何字幕，正文不采用。5200K 写在稍后的天空光图上，标注为「晴天预设」。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-04.jpg" alt="太阳直射光照向粉黛草，色温轴从 4000K 标到 12000K" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:44] 图上画着太阳直射光照到草，色温轴从 4000K 标到 12000K，字幕说草上主要是太阳直射的光。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/679098e95e1c.mp3" type="button" aria-label="Play English audio">🔊</button><span>The diagram shows direct sunlight falling on the grass. The Kelvin scale runs from 4000K to 12000K, and the subtitle says the grass is lit mainly by direct sun.</span></div>
+<audio class="cap-audio" src="audio/679098e95e1c.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>太阳一落，直射光没了，草只剩天空照着，光里蓝的成分多了起来。这句话之后口播断了大约三十秒。断掉的半句是「日本有人在一个晴天的楼顶量过，挡着」。转录把「量」听成「梁」。02:00 的图把后半句补全了：左边半圆是天空光，箭头指向一丛草；右边写「挡住直射阳光，只剩天空光」，下面一行是「日本 · 一个晴天 · 楼顶实测」。轴上晴天预设仍指着 5200K。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-05.jpg" alt="天空光示意图，注明日本晴天楼顶实测，并标晴天预设 5200K" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:00] 图示写挡住直射阳光、只剩天空光，并注明日本一个晴天的楼顶实测，轴上标着晴天预设 5200K。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e3c4af1535d5.mp3" type="button" aria-label="Play English audio">🔊</button><span>The graphic says that blocking direct sun leaves only skylight, citing a rooftop measurement in Japan on a sunny day. The scale still marks the sunny preset at 5200K.</span></div>
+<audio class="cap-audio" src="audio/e3c4af1535d5.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>同一段无口播图示里，邻近一帧还写着「色温一整天都没低于 8500K」，色温轴上有「≥ 8500K」。这是画面字幕，不是口播念出来的句子。片子没有给出测量者姓名、城市或文献，所以 8500K 只作为这条视频的引用，不能当成已经核对过的气象数据。</p>
+      <p>接下来四格把相机锁在 4900K：17:00、17:13、17:27、17:40。顶栏写「相机一直设在 4900K」。邻近帧的底栏是「越往后，草越往紫那边走」，紫在色条左端，橙在右端。这一页截到的是时间标题，那句「越往后」在前后帧上。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-06.jpg" alt="四格时间 17:00、17:13、17:27、17:40，相机一直设在 4900K" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:08] 四格分别是 17:00、17:13、17:27、17:40，顶栏和底栏都写相机一直设在 4900K。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c1e50dd1b4f2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Four panels are labeled 17:00, 17:13, 17:27, and 17:40. Both the top and bottom captions say the camera stayed at 4900K.</span></div>
+<audio class="cap-audio" src="audio/c1e50dd1b4f2.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>再往后是日落后的左右对比。画面左上角写「2日 日落后」，月份没有出现在这一帧，十位是否还有数字，文字识别只稳定读出「2日」。左边标「相机当时 4200K」，右边标「同样 4900K」。底栏是「光本来就偏蓝」，箭头写「光偏蓝」，色条从紫指向橙。口播恢复以后把这件事说成：天空照着，光蓝推了一把，两下叠在一起，就紫了。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-07.jpg" alt="日落后左右对比：相机当时 4200K 与同样 4900K，箭头标光偏蓝" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:24] 画面写 2 日日落后。左边是相机当时的 4200K，右边是同样场景的 4900K，箭头标着光偏蓝。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/aa92f141ec49.mp3" type="button" aria-label="Play English audio">🔊</button><span>The frame says after sunset on the 2nd. The left side is the camera&#x27;s 4200K at the time, the right side is the same scene at 4900K, and an arrow marks the light as bluish.</span></div>
+<audio class="cap-audio" src="audio/aa92f141ec49.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+    </section>
+
+    <section class="story-section" id="s4">
+      <p class="time-range">02:25–03:28</p>
+      <h2>眼睛会适应，固定白平衡和灰世界都不会</h2>
+      <p>人站在草边上，很少觉得它紫成这样。原因被说成眼睛的适应：周围的东西一起偏蓝，看一会儿，眼睛就把光的颜色扣掉一部分。02:40 前后的画面用圆点标出水、栏杆和树，底栏是「周围的东西一起偏蓝」。这是作者对观看经验的解释，片子没有做视觉实验。</p>
+      <p>相机若「设了固定的数」，就不跟着光变。转录听成「射了固定的树」。画面上对应的句子是「4200K 固定」和「就不跟着光变」。自动白平衡会跟着变，可它只能从画面里猜。</p>
+      <p>老办法是假定整张画面平均下来是灰的。02:56 的面板标题就是「整张平均」，两块色并排：「假定：灰」和「实际：粉」。底栏写「平均下来是粉的」。口播的结论是：满屏都是粉黛草，平均下来是粉的，照这个办法扣一遍，草就褪成了灰。邻近帧把操作写成「把粉当成光的颜色，扣掉」。</p>
+      <figure>
+        <img src="assets/muhly-grass-pink-or-purple/shot-08.jpg" alt="整张平均面板：假定灰、实际粉，字幕写平均下来是粉的" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:56] 面板标题是整张平均，色块写假定灰、实际粉，底栏说平均下来是粉的。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3b7da0ecff6c.mp3" type="button" aria-label="Play English audio">🔊</button><span>The panel is titled whole-frame average. The swatches say assumed gray and actual pink, and the caption says the average comes out pink.</span></div>
+<audio class="cap-audio" src="audio/3b7da0ecff6c.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>所以粉黛草是粉还是紫，作者给了一个带条件的答案：太阳底下，按晴天的白平衡拍，它是粉的。这几张里的紫，是傍晚的光和相机的设定叠出来的。片尾有一帧把这两项写成加法：傍晚的光，加上相机设定 4200K。</p>
+      <p class="quote">想拍粉，就把色温调高，或者拍完在编辑里往暖拉。想要梦幻一点的紫，就往冷拉。</p>
+      <p>「编辑」在转录里被听成「边际」。往暖拉的滑杆上，有一帧出现过 5600K，旁边写着「想拍粉」。口播没有报 5600K，它只是往暖一侧的一个示意位置。最后一句回到片头那片草：草还是那片草，颜色你来挑。画面左右分成更冷的紫和更暖的粉，顶栏是「同一片草 / 颜色你来挑」。</p>
+    </section>
+  </article>
+  <section class="transcript-section" id="transcript">
+    <details class="transcript-collapsible">
+      <summary>详细文字转录</summary>
+      <div class="transcript-body">
+        <p class="transcript-note">以下按 Whisper 原始分段完整呈现，语言保持识别结果（多为繁体，并有同音错字）。00:05–01:00 与 01:55–02:25 几乎没有口播，论证在画面上。正文里的「红乘」「粉黛草」「栏杆」「编辑」等，是对照画面字幕后的校正。</p>
+        <ol class="transcript-list">
+<li class="transcript-row" id="transcript-1"><time datetime="PT0S">00:00</time><p>這是去年10月拍的一片粉帶草紫的</p></li>
+<li class="transcript-row" id="transcript-2"><time datetime="PT60S">01:00</time><p>數字設的越低,紅成的越少,藍成的越多,照片就越藍</p></li>
+<li class="transcript-row" id="transcript-3"><time datetime="PT65S">01:05</time><p>草的顏色裡本來紅最多,藍其次,藍一壓過紅,粉就成了紫</p></li>
+<li class="transcript-row" id="transcript-4"><time datetime="PT72S">01:12</time><p>把這張照片的白平衡從3500開一路播到6500開</p></li>
+<li class="transcript-row" id="transcript-5"><time datetime="PT78S">01:18</time><p>草從紫變成粉,再變成帶點橙的粉</p></li>
+<li class="transcript-row" id="transcript-6"><time datetime="PT83S">01:23</time><p>樹葉從發青變成發黃,紅藍乾從粉紅變成橙紅</p></li>
+<li class="transcript-row" id="transcript-7"><time datetime="PT89S">01:29</time><p>整張照片的顏色都跟著變,粉和紫本來就挨著,差一點,名字就換了</p></li>
+<li class="transcript-row" id="transcript-8"><time datetime="PT95S">01:35</time><p>那相機該設多少?要看當時是什麼光?</p></li>
+<li class="transcript-row" id="transcript-9"><time datetime="PT100S">01:40</time><p>太陽還高的時候,草上主要是太陽直射的光</p></li>
+<li class="transcript-row" id="transcript-10"><time datetime="PT104S">01:44</time><p>這台相機給晴天的預設大約是5200K耳聞</p></li>
+<li class="transcript-row" id="transcript-11"><time datetime="PT108S">01:48</time><p>太陽一落,直射光沒了,草只剩天空照著,光裡藍的成分多了起來</p></li>
+<li class="transcript-row" id="transcript-12"><time datetime="PT115S">01:55</time><p>日本有人在一個晴天的樓頂梁過,擋著</p></li>
+<li class="transcript-row" id="transcript-13"><time datetime="PT145S">02:25</time><p>天空照著,天空照著,光藍推了一把,兩下疊在一起,就紫了</p></li>
+<li class="transcript-row" id="transcript-14"><time datetime="PT150S">02:30</time><p>可人站在草邊上,很少覺得它紫成這樣</p></li>
+<li class="transcript-row" id="transcript-15"><time datetime="PT154S">02:34</time><p>因為眼睛會適應周圍的東西一起偏藍,看一會兒眼睛就把光的顏色扣掉一部分</p></li>
+<li class="transcript-row" id="transcript-16"><time datetime="PT161S">02:41</time><p>相機射了固定的樹就不跟著光變</p></li>
+<li class="transcript-row" id="transcript-17"><time datetime="PT165S">02:45</time><p>自動白平衡會跟著變,可它只能從畫面裡猜</p></li>
+<li class="transcript-row" id="transcript-18"><time datetime="PT169S">02:49</time><p>有一種老辦法,假定整張畫面平均下來是灰的</p></li>
+<li class="transcript-row" id="transcript-19"><time datetime="PT173S">02:53</time><p>可滿屏都是粉帶草,平均下來是粉的,照這個辦法扣一遍,草就退成了灰</p></li>
+<li class="transcript-row" id="transcript-20"><time datetime="PT180S">03:00</time><p>所以粉帶草是粉還是紫?太陽底下,按晴天的白平衡拍,它是粉的</p></li>
+<li class="transcript-row" id="transcript-21"><time datetime="PT188S">03:08</time><p>這幾張裡的紫是傍晚的光和相機的設定疊出來的</p></li>
+<li class="transcript-row" id="transcript-22"><time datetime="PT192S">03:12</time><p>想拍粉,就把色溫調高,或者拍完在邊際裡往暖拉</p></li>
+<li class="transcript-row" id="transcript-23"><time datetime="PT198S">03:18</time><p>想要夢幻一點的紫,就往冷拉</p></li>
+<li class="transcript-row" id="transcript-24"><time datetime="PT201S">03:21</time><p>草還是那片草,顏色你來挑</p></li>
+        </ol>
+      </div>
+    </details>
+  </section>
+</main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

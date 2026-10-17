@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6305" viewBox="0 0 1320 6305">
+  <foreignObject x="0" y="0" width="1320" height="6305">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>说英语必须掌握节奏和旋律规律</h1>
+  <div class="meta">
+    <span class="tag tag-blue">职场表达</span>
+    <span class="tag tag-green">口语节奏</span>
+    <span class="tag tag-orange">Roger说美音</span>
+    <span class="tag tag-gray">1分09秒 · 小红书</span>
+  </div>
+  <div class="summary-line">这条片子真正回答的是：一句话里，音调该在哪种语法块后面往上，又在什么时候掉下来。他的答案是短语或从句说完上扬，信息结束下落。更有音乐感、更容易被听懂，是他的听感判断，不是测量结果。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:01</div><div class="timeline-text">无词义的 Dada dada dada，中文「哒哒哒哒哒哒」，先给拍子，不给单词。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:03</div><div class="timeline-text">English is music / 英语就是音乐。水印 imrogerchow。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:08</div><div class="timeline-text">大致的规则是这样的。转录里的「法律」对不上这句字幕。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:12</div><div class="timeline-text">往上走，逐渐制造张力；接着往下走，释放张力。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:18</div><div class="timeline-text">诀窍是知道该在什么地方往上扬。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:21</div><div class="timeline-text">说完短语或从句后可以上扬。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:24</div><div class="timeline-text">短语＝一些词组合在一起；从句＝带动词的短语。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:31</div><div class="timeline-text">介词短语 on the table，再说 Under the light、there is a book。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:48</div><div class="timeline-text">If you have time tomorrow → if I also have time → we can meet like that。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:59</div><div class="timeline-text">更有音乐感，也更有逻辑。下一句英文字幕 will be understand 语法有误。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:08</div><div class="timeline-text">let's have a talk / 我们来好好聊聊吧。</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">英语要有拍子</div>
+      <div class="arrow">→</div>
+      <div class="node">短语或从句后上扬</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">信息结束下落</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">他说更好懂</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>笔记文案写的是「往上，往上，往下」。口播和硬字幕只明确了两类位置：短语或从句之后上扬，信息结束时下落。开场的 dada 没有标成三拍谱，不能把文案的三拍直接当成画面已经演示过的乐谱。转录「一起吃」也不是字幕，字幕是「那样见面」。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">上扬和下落各自绑在什么边界上</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>他把英语说成音乐，但可执行的部分不是旋律术语，而是两个边界：块说完，音调往上；整段信息说完，音调往下。上扬被他解释成制造张力，下落被解释成释放。</p>
+      <div class="quote">字幕：You go up and build up the tension / 你往上走、逐渐制造张力。随后：and then you go down to release it / 然后再往下走释放张力。</div>
+      <div class="highlight">张力、释放是他的比喻。画面没有音高曲线，也没有赫兹读数。</div>
+      <div class="action">用法：先用无意义的哒哒找到一拍，再把同一拍放进短语边界，不要一开口就追单词重音表。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>短语和从句是他的上扬单位</h3>
+      <p><span class="tag tag-purple">作者口径</span>短语是一些词组合在一起。从句是带动词的短语。说完其中一块，就可以上扬。</p>
+      <div class="quote">字幕：A phrase is just words together。紧接着：and a clause is a phrase with a verb in it。</div>
+      <div class="relation">这个定义够用来跟练他给的例句，不够用来判断定语从句、名词性从句或没有动词的省略结构。那些类型片中没出现。</div>
+      <div class="insight">四十秒后字幕把同一句定义语序对调再念了一遍，仍然没有新增句法条件。重复是强调，不是第二套规则。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>听懂与音乐感没有独立证据</h3>
+      <p>他的结论是：用到口语里，会更有音乐感，也更有逻辑，别人会更容易听懂。英文字幕写成 People will be understand what you're saying better。中文「人们会更容易听懂你在说什么」是通顺的，没有把这个语法错误译进去。</p>
+      <div class="pitfall">will be understand 是片中字幕原文，不合语法。跟练节奏时不要把这句当成正确英文背下来。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>四种块，上扬条件不一样</h3>
+    <table>
+      <thead>
+        <tr><th>块</th><th>片中说法</th><th>例子</th><th>他让你怎么处理音调</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>无词义拍子</td><td>先念节奏，不给单词</td><td>Dada dada dada</td><td>只用来找拍，字幕没说这里要上扬</td></tr>
+        <tr><td>介词短语</td><td>一些词组合在一起，并点名为介词短语</td><td>on the table；Under the light</td><td>说完可以上扬。哪一个词重读，片中没标</td></tr>
+        <tr><td>从句</td><td>带动词的短语</td><td>If you have time tomorrow；if I also have time</td><td>说完可以上扬，再接下一块</td></tr>
+        <tr><td>信息结束</td><td>往下走，释放张力</td><td>we can meet like that 是链的末句</td><td>按规则应下落。画面没有箭头标在这一句上，末句下落是按规则推出来的</td></tr>
+      </tbody>
+    </table>
+    <p>转录把 Under the light 听成「在灯光下」（原转录为繁体），字幕是「在灯下」。把 we can meet like that 听成「一起吃」。跟练以字幕例句为准。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">立场分层</h2>
+    <div class="card card-green">
+      <h3>画面能核对的</h3>
+      <ul>
+        <li>说话人账号是 Roger说美音，水印有 imrogerchow。时长约 1 分 09 秒。</li>
+        <li>硬字幕给出了上扬位置、短语定义、从句定义，以及 on the table 和 if 从句链。</li>
+        <li>00:40 到 00:42 转录为空，画面在重复从句定义。</li>
+      </ul>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点</h3>
+      <ul>
+        <li>英语就是音乐；上扬等于张力，下落等于释放。</li>
+        <li>用了这套边界，表达会更有音乐感、更有逻辑、更容易被听懂。</li>
+        <li>笔记文案把节奏型概括成「往上，往上，往下」。口播没有把这三拍逐个点名。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>推断，以及用不上的地方</h3>
+      <p>把 we can meet like that 当成下落点，是用他的「信息结束就下落」推出来的，字幕没有在这句上写下落。疑问句、列举、对比重音、英音，这次都没讲。从句必须有动词，只是这节课的口径。互动号召里，能读清的是留言和聊一聊；点赞、收藏、关注没有在同一帧上同时读清。</p>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>上扬绑在短语或从句说完之后，下落绑在信息结束。</li>
+      <li>短语在片中是词的组合，从句是带动词的短语。</li>
+      <li>音乐感和更好懂是听感判断；will be understand 是错误字幕。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>用 on the table、Under the light 各说一遍，短语结束后把音调抬一下再停。</li>
+      <li>把 If you have time tomorrow 和 if I also have time 连着说，两块从句后面都抬，到 we can meet like that 再落。</li>
+      <li>开口前先念两遍 dada，确认拍子，再放进句子。</li>
+      <li>听到「往上，往上，往下」时，先回到短语边界，不要按文案硬数三拍。</li>
+      <li>片尾那句 will be understand 只当作字幕差错，不拿来跟读。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>节奏不是先背一整套语调符号。这节课能拿走的，是先找到块的边界，再决定这块结束时往上还是往下。</p>
+  </div>
+  <p class="footer">依据本地转录 b63ad.json 与抽帧硬字幕。未重新访问小红书。另一条同名笔记不在本图证据内。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

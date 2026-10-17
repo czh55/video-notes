@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="灰韵调色用雨天街拍演示铃木达也式高级灰：先重塑影调，再小幅偏冷，并用通道计算和 Retouch4me 处理皮肤。">
+  <title>调色发脏必看！铃木达也日系高级灰底层逻辑｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}.documentary{font-size:17px}.story-section{margin:48px 0}img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}figcaption{padding:14px 18px;color:#57534e}a{color:#b45309}.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}h1{font-size:32px;line-height:1.35;margin:8px 0 12px;color:#1c1917}.meta{color:#78716c;font-size:14px}.lede{font-size:18px;color:#44403c}h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 8px}.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff;border-radius:999px;padding:2px 10px;margin-bottom:8px}.point-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}.point-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}.point-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}.point-row p{color:#57534e;margin:0;font-size:15px}.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}.transcript-list{list-style:none;padding:0}.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.note{font-size:14px;color:#78716c}@media(max-width:640px){.container{padding:28px 18px 56px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}h1{font-size:26px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <p class="kicker">图文实录 · 小红书 · 灰韵调色</p>
+  <h1>调色发脏必看！铃木达也日系高级灰底层逻辑</h1>
+  <p class="meta">2026-10-17 · 12分11秒 · 调色后期 · <a href="https://xhslink.cn/o/2NZLPLALcGO">原视频</a> · <a href="#transcript">详细文字转录</a></p>
+  <p class="lede">灰韵调色用一张雨天街拍，把「高级灰」从降饱和拆成影调骨架：先抬曝光再压动态范围，曲线抬中调、抽黑场，色温略偏冷，纹理和清晰度反向拉，混色器只提橙和黄的明度，进 Photoshop 之后用通道计算拉开明暗，再用 Retouch4me 修皮肤。</p>
+</header>
+<article class="documentary">
+  <h2>内容要点</h2>
+  <p>整段大约十二分钟，演示素材是同一位撑透明伞的人站在湿斑马线上。前一半在 Camera Raw 风格的基础面板里改影调和颜色，后一半进 Photoshop 做选区和皮肤。片尾转到训练营和评论区领预设，那些话是作者的推广，不是这张图上能核对的参数。</p>
+  <h3>知识结构</h3>
+  <div class="point-row"><span class="time-marker">[00:00→01:15]</span><div><strong>脏和纯</strong><p>作者把发脏定义成无脑降饱和之后杂色和灰调互相污染。他反对压缩光比、硬拉低饱和、在混色器里把颜色抽干，主张先重塑黑白灰。</p></div></div>
+  <div class="point-row"><span class="time-marker">[01:15→02:00]</span><div><strong>动态范围压缩</strong><p>先把曝光拉高，再压高光和白色、提阴影和黑色，对比度只降一点。01:48 的光面板停在曝光 +0.90、对比度 -14、高光 -27、阴影 +16、白色 -47、黑色 +52。</p></div></div>
+  <div class="point-row"><span class="time-marker">[02:00→03:21]</span><div><strong>曲线和色温</strong><p>RGB 曲线在中调打点并向上提，黑场从输入 0 提到输出 27。接着白平衡自定，色温到 -9，色调、自然饱和度、饱和度仍是 0。</p></div></div>
+  <div class="point-row"><span class="time-marker">[03:21→05:09]</span><div><strong>质感和两处提纯</strong><p>效果里纹理 -12、清晰度 +12。混色器只动明亮度：橙色 +16、黄色 +30，其余颜色停在 0。作者说做完这两步就收手。</p></div></div>
+  <div class="point-row"><span class="time-marker">[05:09→08:13]</span><div><strong>通道计算</strong><p>口播要求用灰度通道做高光和暗部选区，高光曲线向上提、暗部曲线向下压，并用红通道给皮肤做保护。暗部曲线这一帧读数是输入 128、输出 108。文档名是「灰韵调色_铃木达也仿色.psd」。</p></div></div>
+  <div class="point-row"><span class="time-marker">[08:13→10:44]</span><div><strong>皮肤两步</strong><p>Retouch4me Dodge Burn 的 Blend 拉到 150，Warmth 为 0。Skin Tone 的 Blend 拉到 100，并要求只作用在皮肤蒙版上。作者承认前后对比可以非常 Subtle。</p></div></div>
+  <div class="point-row"><span class="time-marker">[10:44→12:08]</span><div><strong>收束</strong><p>作者说短视频展不开全部通道细节，评论区回复「日系高级灰」可领预设和动作。结尾把 AI 说成苦力，把创作者的敏感度说成护城河。这是立场，不是可核对的参数。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>这套演示的顺序是先整体影调、再局部颜色、再选区拉层次、最后修皮肤。滑块读数只属于这一帧雨天街拍，作者自己也说高级灰不是把画面压平。</p></div>
+
+  <section class="story-section">
+    <p class="time-range">00:00–01:15</p>
+    <h2>同样低饱和，脏和纯差在骨架</h2>
+    <p>开场是一张手挡脸的近景，字幕停在「脏是无脑」。作者把两种低饱和并置：一种修出来发脏，一种是他口中的铃木达也。转录里这个名字先后听成「林木达野」「临目打野」「铃木达野」。标题写的是铃木达也，后半段 Photoshop 文件名也是「铃木达也仿色」，正文按这个名字。</p>
+    <p>他给脏的解释是：无脑降饱和的后遗症，杂色和灰调互相污染，底色混浊。纯则被说成色彩克制，比喻成雨水冲刷过东京街头之后剩下的干净。接着他否定三种常见做法：疯狂压缩光比、强行拉低饱和、在 HSL 里把颜色全部抽干。原话是「真正的高级灰从来不是靠破坏色彩得到的，而是靠重塑黑白灰的骨架」。</p>
+    <p>预告了四个开关：影调里的动态范围压缩、细节里清晰度的反向拉扯、Photoshop 里的通道计算、肤色里的视觉平衡。转录把「影调」听成「饮料」，把「扒个底朝天」听成「八个底朝天」，按上下文改回。00:55 之后有一段点赞收藏的口播，01:15 才说正式开始。这一段没有可抄的滑块。</p>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">01:15–02:00</p>
+    <h2>先把画面抬亮，再把两头拽回灰度</h2>
+    <p>正式操作从一张雨天街拍开始：长发、深色外套、透明伞、湿斑马线，背景有一段橙色墙面和电线杆。作者说新手想要日系高级灰，第一反应是压曝光，生怕一亮就不灰了。他认为前提是先建立很高的明度基准。</p>
+    <p>01:32 的光面板里，曝光已经到 +0.90，对比度、高光、阴影、白色、黑色都还是 0，字幕说「亮得快要刺眼了」。01:42 高光到 -27，阴影 +16，白色 -47，黑色仍是 0，光标停在黑色滑块上。01:48 黑色也提上来，整栏停在：曝光 +0.90，对比度 -14，高光 -27，阴影 +16，白色 -47，黑色 +52。这和口播一致：高光和白色往下压，阴影和黑色往上提，对比度只降一点。他管这一步叫动态范围压缩，把刺眼高光拽回来，把死黑拉进灰度。</p>
+    <p>01:55 前后有一帧光面板全部回到 0，像是在切换前后对比，不能当成最终参数。他说只停在这一步，画面依然是平的，影调骨架要等曲线。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-01.jpg" alt="Camera Raw 风格光面板，曝光 +0.90，对比度 -14，高光 -27，阴影 +16，白色 -47，黑色 +52，背景是撑透明伞的雨天街拍" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:48] 基础面板光这一栏：曝光 +0.90，对比度 -14，高光 -27，阴影 +16，白色 -47，黑色 +52。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f6105ecb8b92.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the Light panel: Exposure +0.90, Contrast -14, Highlights -27, Shadows +16, Whites -47, Blacks +52.</span></div>
+<audio class="cap-audio" src="audio/f6105ecb8b92.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">02:00–03:21</p>
+    <h2>中调上提，黑场抽离，再褪一点黄</h2>
+    <p>02:07 进入曲线。02:16 左右，RGB 曲线在中间调打了一个点并向上提，面板读数落在输入 128 附近，输出高于 128。不同帧上输出数字对不齐，有的接近 153，有的更高，所以这里只记方向：中调像素被推向更亮，用来给灰画面加一点光感。「优化饱和度」在这些帧上显示 100，口播没有解释这个开关。</p>
+    <p>接着他找到曲线最底部的黑点，向上提。02:31 的读数是输入 0、输出 27。口播说这一步是抛弃最深的黑，让暗部能呼吸，并比喻成往阴影里灌一层潮湿的空气。基础面板的压缩加上曲线的中调偏移和黑场抽离，被他叫做一套组合拳。02:52 起反复切「之前、之后」，说影调骨架立住了，能闻到雨水味的清冷感。那几秒几乎只有对比切换，没有新滑块。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-02.jpg" alt="曲线面板黑场输入 0、输出 27，优化饱和度 100，雨天街拍仍在右侧" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:31] 曲线面板把黑场从输入 0 提到输出 27，中调锚点还在。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3c1f329f71e8.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the curve, the black point moves from input 0 to output 27, and the midtone anchor is still there.</span></div>
+<audio class="cap-audio" src="audio/3c1f329f71e8.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>03:04 他说骨架有了，还差一口鲜气。操作只有色温向左：褪黄、加蓝。03:10 颜色面板白平衡是「自定」，色温 -9，色调 0，自然饱和度 0，饱和度 0。03:13 再次切前后对比。他的判断是暖意被抽走，街头那种夹着雨水的微寒冒出来。色温只动了 9，和前面影调的幅度比，这一步很小。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-03.jpg" alt="颜色面板白平衡自定，色温 -9，色调、自然饱和度、饱和度均为 0" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:10] 颜色面板白平衡为自定，色温 -9，色调、自然饱和度和饱和度都是 0。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dc4973ef2c16.mp3" type="button" aria-label="Play English audio">🔊</button><span>White balance is Custom, temperature is -9, and tint, vibrance, and saturation stay at 0.</span></div>
+<audio class="cap-audio" src="audio/dc4973ef2c16.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">03:21–04:16</p>
+    <h2>纹理往左，清晰度往右</h2>
+    <p>下一块要同时保留皮肤的软和画面的硬。作者批评两种极端：全盘模糊会肉，疯狂锐化会脏。他的做法是反向拉扯。</p>
+    <p>03:42 效果面板里纹理先到 -11 左右，03:58 停在 -12，清晰度、去除薄雾、晕影、颗粒都是 0。口播把这一步叫成「AC2 里最高级的原生磨皮法」。界面是 Camera Raw 风格的纹理滑块，不是另一个叫 AC2 的软件；纹理向左会抹平皮肤上的细小起伏，所以他拿它当磨皮。副作用是画面发虚。</p>
+    <p>04:02 清晰度补到 +12，纹理仍是 -12。他说清晰度撑起柏油路面的反光和建筑线条。转录里的「摆油路面」「少女机」按语境是柏油路面和少女肌。结论句是「柔中带刚」：皮肤软，整体质感扎实。去薄雾、晕影、颗粒从头到尾没动。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-04.jpg" alt="效果面板纹理 -12，清晰度 +12，去薄雾、晕影、颗粒为 0" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:02] 效果面板纹理 -12，清晰度 +12，去薄雾、晕影、颗粒仍是 0。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/95489ed4085b.mp3" type="button" aria-label="Play English audio">🔊</button><span>In Effects, Texture is -12 and Clarity is +12; Dehaze, Vignette, and Grain stay at 0.</span></div>
+<audio class="cap-audio" src="audio/95489ed4085b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">04:16–05:09</p>
+    <h2>混色器只提两处明度</h2>
+    <p>04:18 进入混色器。作者说新手会把红黄蓝绿全部乱拉，想生造一种颜色。他只要两次提纯，而且只动明度。</p>
+    <p>第一处是橙色，口播听成「成色」，面板上就是橙色。04:38 橙色明亮度到 +16，其余为 0。他说阴雨天里发灰的脸会变得白皙。第二处是黄色，对应背景墙面。拖动过程中黄色曾停在 +18 一带，04:54 字幕说「做完这两步立刻收手」时，明亮度是橙色 +16、黄色 +30，红、绿、浅蓝、蓝、紫、洋红都是 0。色相和饱和度这两栏没有被打开讲解。</p>
+    <p>后面几句把「刀刀致命」「不露痕迹」和「高客单价」绑在一起。高客单价是作者的商业判断，画面上只能核对到这两个滑块。05:04 的「不录痕迹」按上下文是不露痕迹。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-05.jpg" alt="混色器 HSL 明亮度，橙色 +16，黄色 +30，其他颜色为 0" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:54] 混色器 HSL 只动明亮度：橙色 +16，黄色 +30，其余颜色停在 0。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5501f0f367f7.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the HSL mixer only Luminance moves: Orange +16, Yellow +30, and every other hue stays at 0.</span></div>
+<audio class="cap-audio" src="audio/5501f0f367f7.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">05:09–08:13</p>
+    <h2>锁住边界，再在内部拉开明暗</h2>
+    <p>05:11 他先立一条顺序：先整体，后局部。然后推翻「想灰就无底线降对比」。他的说法是，最亮和最暗的边界要锁住，像素不要溢出，同时把画面内部的明暗层次拉开。原话是「灰从来都不是平，而是克制之下的极致张力」。转录里的「光影玻璃」「不易出」按前后文是光影剥离和不要溢出，这两处没有单独的界面文字可对，只作听写校正。</p>
+    <p>工具换成 Photoshop 的「计算」。口播第一步：合并图层的灰度通道和灰度通道做正片叠底，再让得到的通道跟自己叠加一次，用来把天空、斑马线、雨伞和皮肤上的亮部剥出来。载入高光选区，挂曲线，把中灰 128 向上提。06:06 能看到曲线属性面板和被抬起的 RGB 曲线，文档标签是铃木达也仿色；这一帧的输入输出数字和口播的「128 向上提」不完全停在同一读数上，正文不另写一个输出值。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-06.jpg" alt="Photoshop 中文界面，曲线属性面板打开，雨天街拍上的曲线点被抬起，文档名为铃木达也仿色" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[06:06] Photoshop 曲线属性面板开着，RGB 曲线上有一个被抬起的点，文档名是铃木达也仿色。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2463b373bf17.mp3" type="button" aria-label="Play English audio">🔊</button><span>The Photoshop Curves panel is open, one point on the RGB curve is lifted, and the document is a Tatsuya Suzuki match.</span></div>
+<audio class="cap-audio" src="audio/2463b373bf17.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>提亮之后，他说模特脸上的光影跟着扁了。他反对拿画笔在蒙版上擦。口播的保护罩是：再开一次计算，红通道和红通道做叠加，同时勾选两个反向，锁定肤色的核心明暗带；再配合主体反选、填充白色，让背景显示、脸被挡住，然后剔除雨伞，把蒙版载入选区。转录把蒙版听成「猛板」「盲板」。06:40 的计算对话框能确认是红通道对红通道、混合为叠加，反向勾选不一定已经点上，以口播的「同时勾选两个反向」为步骤，不把这一帧当成勾完之后的状态。07:00 画面在之前和之后之间切，字幕比的是皮肤蒙版前后。作者说整体高光通透，皮肤上原来的光影还在。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-07.jpg" alt="Photoshop 中同一张雨天街拍，底部字幕为之前之后，文档名为铃木达也仿色" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[07:00] 同一张雨天街拍在之前和之后之间切换，字幕正在比皮肤蒙版前后。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6773c2301354.mp3" type="button" aria-label="Play English audio">🔊</button><span>The same rainy street photo toggles between before and after while the subtitle compares the skin mask.</span></div>
+<audio class="cap-audio" src="audio/6773c2301354.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>第二步锚定暗部。口播：仍用灰色通道，混合模式选叠加，并且必须勾选两个反向，锁定地面柏油路和斑驳墙体。载入暗部选区后再挂曲线，中灰 128 向下拉，不去动黑点。理由是区域已经被蒙版锁死，动中灰点能让暗部下沉，过渡还保持柔和。07:38 的曲线属性面板读数是输入 128、输出 108。07:56 又切之前之后。他说明暗被剥开，对比拉开，灰调还在。</p>
+    <p>这一段里「降维打击」「玩弄于股掌」和「拉开同行差距」是作者的自我评价。能核对的是：软件是 Photoshop，文件名含铃木达也仿色，暗部曲线有 128 到 108 这一下，高光和皮肤蒙版有前后对比。正片叠底那一次的对话框没有单独停在可核对的一帧上。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-08.jpg" alt="Photoshop 曲线属性面板，输入 128，输出 108，曲线中段被向下拉" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[07:38] 暗部曲线把输入 128 压到输出 108，属性面板停在曲线。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/33cc315d973b.mp3" type="button" aria-label="Play English audio">🔊</button><span>The shadow curve pulls input 128 down to output 108, and the Properties panel stays on Curves.</span></div>
+<audio class="cap-audio" src="audio/33cc315d973b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">08:13–10:44</p>
+    <h2>皮肤交给 Retouch4me，变化可以很轻</h2>
+    <p>08:16 进入皮肤。作者反对手工中性灰磨几个小时，改为调用 Retouch4me。转录写成 RetouchSme。08:40 窗口标题是 Retouch4me Dodge Burn，署名 Oleg Sharonov，版本 v.1.019。Blend 显示 150，和口播「果断把数值拉到 150」一致；Warmth 为 0，旁边勾着 Soft Light Layer。底部还有一列约 139 的数字，口播没有解释，不把它写成强度。</p>
+    <p>切完之前之后，他说脸像注入了光，瑕疵被自动修掉，并强调这不是模糊磨皮，而是在修很细的明暗关系，皮肤纹理还在。窗口底部那列未解释的数字，正文不采用。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-09.jpg" alt="Photoshop 中打开 Retouch4me Dodge Burn 窗口，Blend 150，Warmth 0，Soft Light Layer 已勾选" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[08:40] Retouch4me Dodge Burn 的 Blend 拉到 150，Warmth 为 0，并勾了 Soft Light Layer。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0ee18230742d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Retouch4me Dodge Burn shows Blend at 150 and Warmth at 0, with Soft Light Layer checked.</span></div>
+<audio class="cap-audio" src="audio/0ee18230742d.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>09:30 换成 Skin Tone。09:34 窗口标题是 Retouch4me Skin Tone v.1.019，Blend 为 100，字幕是「强度果断拉满」。口播说它修补局部掉色、缺色，把面部细碎的色相和饱和度拉回一条基准，并且要加皮肤蒙版，只影响肤色。09:54 的前后对比被作者自己说成「变化好像并不大，甚至极其微妙」。他用这个微小差别批评「动得越大越厉害」，认为廉价感要在这种像素微差里剥掉。10:40 再切一次前后对比，仍然是同一张街拍，没有新的读数。</p>
+    <figure>
+      <img src="assets/suzuki-japanese-gray-grade/shot-10.jpg" alt="Photoshop 中打开 Retouch4me Skin Tone 窗口，Blend 为 100，字幕为强度果断拉满" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[09:34] Retouch4me Skin Tone 的 Blend 拉到 100，字幕写着把强度拉满。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0fe178c79746.mp3" type="button" aria-label="Play English audio">🔊</button><span>Retouch4me Skin Tone shows Blend at 100 while the subtitle says to max out the strength.</span></div>
+<audio class="cap-audio" src="audio/0fe178c79746.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section">
+    <p class="time-range">10:44–12:08</p>
+    <h2>心法、预设和「人在驾驭工具」</h2>
+    <p>10:44 作者承认这条视频侧重底层心法，通道运算和光影微操没法在几分钟里展开。接着是 100 天调色训练营，以及评论区打「日系高级灰」领取铃木达也预设和相关 Photoshop 动作。预设包本身不在这条成片里，正文不转述包里有哪些数值。</p>
+    <p>收尾把修图说成按下快门时的温度，而不是冰冷参数。他列了前面那些反直觉：先抬亮再压两头、灰不是平、AI 可以借用。目的被说成在都市里还原一场微寒的秋雨。最后的立场是商业后期永远是人驾驭工具：AI 能做像素平滑和耗时的苦力，但淋不到雨，也不懂人群里的孤独。署名听成「辉韵」，账号名和画面水印是灰韵调色，结尾是「教你用高阶审美变现，我们下期见」。</p>
+    <p class="note">听写校正只用于正文：铃木达也、影调、扒个底朝天、滑块、纹理所在的 Camera Raw 风格面板、柏油路、橙色、蒙版、不露痕迹、高客单价、Retouch4me、灰韵。文末转录保留 Whisper 原句。</p>
+  </section>
+</article>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>同樣是低飽和高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT1S">00:01</time>
+    <p>為什麼你修出來的照片是髒</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT3S">00:03</time>
+    <p>而林木達野的照片卻是純</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT5S">00:05</time>
+    <p>一字之差</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT6S">00:06</time>
+    <p>天壤之別</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT7S">00:07</time>
+    <p>髒是無腦降飽和的後遺症</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT9S">00:09</time>
+    <p>是雜色與灰調互相污染</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT11S">00:11</time>
+    <p>死氣沉沉的混濁底色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT13S">00:13</time>
+    <p>而純</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT14S">00:14</time>
+    <p>是一種極高維度的色彩克制</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT16S">00:16</time>
+    <p>是雨水沖刷過東京街頭後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT18S">00:18</time>
+    <p>剝離了所有焦躁與雜色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT20S">00:20</time>
+    <p>留下的那份不染塵埃的純粹</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT22S">00:22</time>
+    <p>很多人問我</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT23S">00:23</time>
+    <p>這種極具日劇氛圍感的高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT25S">00:25</time>
+    <p>到底怎麼調</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT26S">00:26</time>
+    <p>是瘋狂壓縮光比嗎</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT28S">00:28</time>
+    <p>是強行拉底飽和度嗎</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT29S">00:29</time>
+    <p>還是在HSL里把顏色全部抽乾</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT32S">00:32</time>
+    <p>大錯特錯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT33S">00:33</time>
+    <p>這全是低維度的自我感動</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT35S">00:35</time>
+    <p>真正的高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT36S">00:36</time>
+    <p>從來不是靠破壞色彩得到的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT38S">00:38</time>
+    <p>而是靠重塑黑白灰的骨架</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT40S">00:40</time>
+    <p>今天這條視頻</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT41S">00:41</time>
+    <p>我不教你死機應備參數</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT43S">00:43</time>
+    <p>只教你四個極其反直覺的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT45S">00:45</time>
+    <p>高級灰開關</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT46S">00:46</time>
+    <p>從飲料里反直覺的動態範圍壓縮</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT48S">00:48</time>
+    <p>到細節里清晰度的反向拉扯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT50S">00:50</time>
+    <p>從PS里外科手術般的通道計算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT53S">00:53</time>
+    <p>再到膚色里極其微妙的視覺平衡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT55S">00:55</time>
+    <p>我把它這套能直接變現的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT57S">00:57</time>
+    <p>底層算法給你八個底朝天</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT60S">01:00</time>
+    <p>相信我</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT60S">01:00</time>
+    <p>看完這期視頻</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT61S">01:01</time>
+    <p>哪怕你隨手拍的陰雨天廢片</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT63S">01:03</time>
+    <p>也能瞬間修出讓人屏住呼吸的商業質感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT67S">01:07</time>
+    <p>這恐怕是全網最硬核的日系高級灰風格解析</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT70S">01:10</time>
+    <p>知識密度極高</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT71S">01:11</time>
+    <p>怕聽一遍記不住的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT72S">01:12</time>
+    <p>建議先點贊收藏</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT74S">01:14</time>
+    <p>正式開始</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT75S">01:15</time>
+    <p>很多新手想要日系高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT77S">01:17</time>
+    <p>第一反應是壓縮曝光</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT79S">01:19</time>
+    <p>生怕畫面一亮就不灰了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT81S">01:21</time>
+    <p>大錯特錯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT82S">01:22</time>
+    <p>記住</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT83S">01:23</time>
+    <p>臨目打野的純</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT84S">01:24</time>
+    <p>大前提是必須建立極高的明度基準</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT87S">01:27</time>
+    <p>看好了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT88S">01:28</time>
+    <p>第一步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT89S">01:29</time>
+    <p>果斷把曝光拉高一檔</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT90S">01:30</time>
+    <p>這時候畫面是不是亮得快要刺眼了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT93S">01:33</time>
+    <p>感覺要過曝了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT94S">01:34</time>
+    <p>別慌</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT95S">01:35</time>
+    <p>接下來才是真正重塑骨架的時刻</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT97S">01:37</time>
+    <p>我們將高光和白色色階</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT99S">01:39</time>
+    <p>大幅度的壓下來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT100S">01:40</time>
+    <p>同時把陰影和黑色色階</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT102S">01:42</time>
+    <p>狠狠的提上去</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT103S">01:43</time>
+    <p>最後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT103S">01:43</time>
+    <p>再把對比度微微降低一點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT105S">01:45</time>
+    <p>這在視覺重構裡叫做動態範圍壓縮</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT108S">01:48</time>
+    <p>我們把最刺眼的高光拽了回來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT110S">01:50</time>
+    <p>又把死黑的暗部</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT112S">01:52</time>
+    <p>強行拉進了灰度區間</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT113S">01:53</time>
+    <p>原本生硬的光比瞬間被揉碎</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT115S">01:55</time>
+    <p>變成了一團極其柔和的亮灰調</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT118S">01:58</time>
+    <p>但這</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT118S">01:58</time>
+    <p>僅僅是打了個地基</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT120S">02:00</time>
+    <p>如果只停留在這一步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT121S">02:01</time>
+    <p>畫面依然是平的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT122S">02:02</time>
+    <p>想要真正觸及日系空氣感的靈魂</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT125S">02:05</time>
+    <p>我們必須進入曲線面板</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT127S">02:07</time>
+    <p>進行更深維度的像素級手術</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT130S">02:10</time>
+    <p>緊盯著這根RGB曲線</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT131S">02:11</time>
+    <p>首先</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT132S">02:12</time>
+    <p>我們在中間調打一個點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT133S">02:13</time>
+    <p>直接把它向上提起</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT135S">02:15</time>
+    <p>這一步極其關鍵</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT136S">02:16</time>
+    <p>它是讓畫面裡龐大的中間調像素</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT139S">02:19</time>
+    <p>整體向高光區發生偏移</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT141S">02:21</time>
+    <p>給原本灰濛濛的畫面</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT142S">02:22</time>
+    <p>注入一種極其明亮的光感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT144S">02:24</time>
+    <p>緊接著</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT145S">02:25</time>
+    <p>關鍵的一步來了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT146S">02:26</time>
+    <p>找到曲線最底部的黑點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT148S">02:28</time>
+    <p>不要猶豫</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT149S">02:29</time>
+    <p>直接把它剪斷</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT150S">02:30</time>
+    <p>果斷地向上提</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT151S">02:31</time>
+    <p>我們徹底拋棄了畫面中最深沉的黑色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT154S">02:34</time>
+    <p>為什麼</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT155S">02:35</time>
+    <p>因為在真正的高階環境人像裡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT157S">02:37</time>
+    <p>暗部是必須要能大口呼吸的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT159S">02:39</time>
+    <p>這一題</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT159S">02:39</time>
+    <p>絕不僅僅是去除了死黑</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT161S">02:41</time>
+    <p>而是給沉悶的陰影裡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT163S">02:43</time>
+    <p>強行灌入了一層潮濕的空氣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT165S">02:45</time>
+    <p>基礎面板的極限壓縮</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT166S">02:46</time>
+    <p>配合曲線面板的中調偏移</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT168S">02:48</time>
+    <p>與黑場抽離</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT170S">02:50</time>
+    <p>這套組合拳打完</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT171S">02:51</time>
+    <p>你看現在的畫面</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT172S">02:52</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT173S">02:53</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT174S">02:54</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT174S">02:54</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT175S">02:55</time>
+    <p>影調的骨架瞬間立著</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT177S">02:57</time>
+    <p>那種隔著屏幕都能聞到雨水味的清冷感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT180S">03:00</time>
+    <p>是不是已經呼之欲出了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-112">
+    <time datetime="PT181S">03:01</time>
+    <p>骨架立著了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-113">
+    <time datetime="PT182S">03:02</time>
+    <p>但畫面還差一口鮮氣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-114">
+    <time datetime="PT184S">03:04</time>
+    <p>想要雨天那種疏離的清冷感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-115">
+    <time datetime="PT186S">03:06</time>
+    <p>只需一個極簡操作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-116">
+    <time datetime="PT187S">03:07</time>
+    <p>將色溫滑快向左平移</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-117">
+    <time datetime="PT189S">03:09</time>
+    <p>退黃</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-118">
+    <time datetime="PT190S">03:10</time>
+    <p>加藍</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-119">
+    <time datetime="PT190S">03:10</time>
+    <p>就這輕輕一推</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-120">
+    <time datetime="PT192S">03:12</time>
+    <p>你再看現在的畫面</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-121">
+    <time datetime="PT193S">03:13</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-122">
+    <time datetime="PT193S">03:13</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-123">
+    <time datetime="PT194S">03:14</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-124">
+    <time datetime="PT194S">03:14</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-125">
+    <time datetime="PT195S">03:15</time>
+    <p>原本焦燥的暖意被瞬間抽離</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-126">
+    <time datetime="PT197S">03:17</time>
+    <p>屬於街頭那股夾雜著雨水的微寒</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-127">
+    <time datetime="PT200S">03:20</time>
+    <p>立馬溢出屏幕</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-128">
+    <time datetime="PT201S">03:21</time>
+    <p>記住</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-129">
+    <time datetime="PT201S">03:21</time>
+    <p>高級的操作往往就是這麼一針見血</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-130">
+    <time datetime="PT204S">03:24</time>
+    <p>接下來這一步極其有意思</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-131">
+    <time datetime="PT206S">03:26</time>
+    <p>它能讓你的畫面同時擁有少女機的柔軟</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-132">
+    <time datetime="PT209S">03:29</time>
+    <p>和商業大片的硬朗</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-133">
+    <time datetime="PT210S">03:30</time>
+    <p>很多小白修圖</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-134">
+    <time datetime="PT211S">03:31</time>
+    <p>要麼全盤模糊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-135">
+    <time datetime="PT212S">03:32</time>
+    <p>導致照片像包了漿一樣肉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-136">
+    <time datetime="PT214S">03:34</time>
+    <p>要麼瘋狂加銳化</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-137">
+    <time datetime="PT215S">03:35</time>
+    <p>畫面髒得沒法看</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-138">
+    <time datetime="PT217S">03:37</time>
+    <p>真正的質感永遠建立在精密的反向拉扯上</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-139">
+    <time datetime="PT220S">03:40</time>
+    <p>看好了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-140">
+    <time datetime="PT220S">03:40</time>
+    <p>首先把紋理滑快果斷向左降下來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-141">
+    <time datetime="PT223S">03:43</time>
+    <p>為什麼</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-142">
+    <time datetime="PT224S">03:44</time>
+    <p>這是AC2里最高級的原生磨皮法</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-143">
+    <time datetime="PT226S">03:46</time>
+    <p>它能極其聰明地抹平人物皮膚上的微小瑕疵</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-144">
+    <time datetime="PT229S">03:49</time>
+    <p>瞬間賦予膚質一種細膩高級的柔焦感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-145">
+    <time datetime="PT233S">03:53</time>
+    <p>但是紋理降了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-146">
+    <time datetime="PT234S">03:54</time>
+    <p>畫面發虛發軟</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-147">
+    <time datetime="PT236S">03:56</time>
+    <p>怎麼辦</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-148">
+    <time datetime="PT236S">03:56</time>
+    <p>別急</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-149">
+    <time datetime="PT237S">03:57</time>
+    <p>緊接著把清晰度果斷向右提上去</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-150">
+    <time datetime="PT240S">04:00</time>
+    <p>這一降一提才是真正的神級操作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-151">
+    <time datetime="PT243S">04:03</time>
+    <p>清晰度就像是畫面的骨架</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-152">
+    <time datetime="PT244S">04:04</time>
+    <p>它瞬間撐起了陰雨天擺油路面的粗糙反光</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-153">
+    <time datetime="PT247S">04:07</time>
+    <p>鎖住了城市建築的冷硬線條</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-154">
+    <time datetime="PT249S">04:09</time>
+    <p>這就叫柔中帶剛</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-155">
+    <time datetime="PT251S">04:11</time>
+    <p>人物的皮膚如水般柔軟</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-156">
+    <time datetime="PT253S">04:13</time>
+    <p>但畫面的整體質感卻極其紮實</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-157">
+    <time datetime="PT255S">04:15</time>
+    <p>絕不拖泥帶水</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-158">
+    <time datetime="PT256S">04:16</time>
+    <p>最後一步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-159">
+    <time datetime="PT257S">04:17</time>
+    <p>來到混色器</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-160">
+    <time datetime="PT258S">04:18</time>
+    <p>很多新手一進到HSL面板就像無頭蒼蠅一樣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-161">
+    <time datetime="PT262S">04:22</time>
+    <p>把紅黃藍綠所有滑塊全瞎拉一遍</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-162">
+    <time datetime="PT264S">04:24</time>
+    <p>試圖去生造一種顏色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-163">
+    <time datetime="PT266S">04:26</time>
+    <p>殊不知</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-164">
+    <time datetime="PT267S">04:27</time>
+    <p>真正的高級商業修圖</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-165">
+    <time datetime="PT268S">04:28</time>
+    <p>講究的是極其可怕的克制力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-166">
+    <time datetime="PT271S">04:31</time>
+    <p>在這裏</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-167">
+    <time datetime="PT271S">04:31</time>
+    <p>我們只做兩次極其精準的色彩提純</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-168">
+    <time datetime="PT274S">04:34</time>
+    <p>第一步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-169">
+    <time datetime="PT275S">04:35</time>
+    <p>死死盯住掌控人物膚色的成色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-170">
+    <time datetime="PT277S">04:37</time>
+    <p>直接把它的明度果斷提上去</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-171">
+    <time datetime="PT279S">04:39</time>
+    <p>就這一個動作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-172">
+    <time datetime="PT280S">04:40</time>
+    <p>女孩原本在陰雨天裏暗沉發灰的臉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-173">
+    <time datetime="PT283S">04:43</time>
+    <p>瞬間像是在底妝裏揉盡了光</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-174">
+    <time datetime="PT285S">04:45</time>
+    <p>呈現出一種通透呼吸的白皙感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-175">
+    <time datetime="PT288S">04:48</time>
+    <p>第二步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-176">
+    <time datetime="PT288S">04:48</time>
+    <p>找到掌控背景牆面主基調的黃色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-177">
+    <time datetime="PT291S">04:51</time>
+    <p>同樣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-178">
+    <time datetime="PT291S">04:51</time>
+    <p>把它的明度也穩穩的拉高</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-179">
+    <time datetime="PT293S">04:53</time>
+    <p>做完這兩步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-180">
+    <time datetime="PT294S">04:54</time>
+    <p>立刻收手</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-181">
+    <time datetime="PT295S">04:55</time>
+    <p>頂級修圖師絕不做任何多餘的動作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-182">
+    <time datetime="PT298S">04:58</time>
+    <p>調色也從來都不是比拼誰滑塊動得多</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-183">
+    <time datetime="PT301S">05:01</time>
+    <p>而是要像外科手術一樣刀刀致命</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-184">
+    <time datetime="PT303S">05:03</time>
+    <p>恰到好處</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-185">
+    <time datetime="PT304S">05:04</time>
+    <p>這種不錄痕跡的高級感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-186">
+    <time datetime="PT306S">05:06</time>
+    <p>才是能讓你邁出高課單價的底氣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-187">
+    <time datetime="PT309S">05:09</time>
+    <p>請注意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-188">
+    <time datetime="PT310S">05:10</time>
+    <p>頂級修圖的鐵律</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-189">
+    <time datetime="PT311S">05:11</time>
+    <p>一定是先整體後局部</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-190">
+    <time datetime="PT313S">05:13</time>
+    <p>在這裏</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-191">
+    <time datetime="PT314S">05:14</time>
+    <p>我要徹底顛覆你的一個認知</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-192">
+    <time datetime="PT316S">05:16</time>
+    <p>很多人以為想要畫面灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-193">
+    <time datetime="PT318S">05:18</time>
+    <p>就是毫無底線的降低對比度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-194">
+    <time datetime="PT320S">05:20</time>
+    <p>讓畫面變成一灘沒有層次的死水</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-195">
+    <time datetime="PT322S">05:22</time>
+    <p>大錯特錯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-196">
+    <time datetime="PT323S">05:23</time>
+    <p>真正邁得上高價的高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-197">
+    <time datetime="PT325S">05:25</time>
+    <p>底層邏輯是極其辯證的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-198">
+    <time datetime="PT327S">05:27</time>
+    <p>在死死鎖住最亮和最暗邊界</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-199">
+    <time datetime="PT329S">05:29</time>
+    <p>確保像素不易出的前提下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-200">
+    <time datetime="PT331S">05:31</time>
+    <p>我們要盡可能的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-201">
+    <time datetime="PT332S">05:32</time>
+    <p>去拉大畫面內部的明暗層次</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-202">
+    <time datetime="PT335S">05:35</time>
+    <p>灰從來都不是平</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-203">
+    <time datetime="PT336S">05:36</time>
+    <p>而是克制之下的極致張力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-204">
+    <time datetime="PT338S">05:38</time>
+    <p>怎麽做到這種像素級的光影玻璃</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-205">
+    <time datetime="PT340S">05:40</time>
+    <p>別去求助什麽一鍵AI扣圖</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-206">
+    <time datetime="PT342S">05:42</time>
+    <p>我們要用PS裏最冷酷的數學邏輯通道計算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-207">
+    <time datetime="PT345S">05:45</time>
+    <p>第一步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-208">
+    <time datetime="PT346S">05:46</time>
+    <p>精準提純量度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-209">
+    <time datetime="PT347S">05:47</time>
+    <p>打開計算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-210">
+    <time datetime="PT348S">05:48</time>
+    <p>用合併塗層的灰通道與灰通道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-211">
+    <time datetime="PT350S">05:50</time>
+    <p>進行一次正片疊底</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-212">
+    <time datetime="PT352S">05:52</time>
+    <p>為了追求極致的精準</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-213">
+    <time datetime="PT353S">05:53</time>
+    <p>我們讓得到的通道跟自己再做一次疊加</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-214">
+    <time datetime="PT356S">05:56</time>
+    <p>你看</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-215">
+    <time datetime="PT357S">05:57</time>
+    <p>天空、斑馬線、雨傘和女孩的皮膚</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-216">
+    <time datetime="PT360S">06:00</time>
+    <p>所有的亮部被完美剝離</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-217">
+    <time datetime="PT362S">06:02</time>
+    <p>載入這個高光選區</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-218">
+    <time datetime="PT363S">06:03</time>
+    <p>掛上曲線</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-219">
+    <time datetime="PT364S">06:04</time>
+    <p>直接把中灰128色階向上提</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-220">
+    <time datetime="PT367S">06:07</time>
+    <p>光感瞬間透了出來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-221">
+    <time datetime="PT369S">06:09</time>
+    <p>但是</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-222">
+    <time datetime="PT370S">06:10</time>
+    <p>停</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-223">
+    <time datetime="PT370S">06:10</time>
+    <p>仔細盯住模特兒的臉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-224">
+    <time datetime="PT372S">06:12</time>
+    <p>隨著整體高光的上提</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-225">
+    <time datetime="PT374S">06:14</time>
+    <p>女孩臉部原本細膩的光影層次</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-226">
+    <time datetime="PT376S">06:16</time>
+    <p>也跟著扁平了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-227">
+    <time datetime="PT377S">06:17</time>
+    <p>遇到這種情況</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-228">
+    <time datetime="PT378S">06:18</time>
+    <p>小白會怎麼做</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-229">
+    <time datetime="PT379S">06:19</time>
+    <p>拿個畫筆去猛板上擦嗎</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-230">
+    <time datetime="PT381S">06:21</time>
+    <p>太低級了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-231">
+    <time datetime="PT382S">06:22</time>
+    <p>真正的商業修圖只相信嚴謹的色彩科學</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-232">
+    <time datetime="PT385S">06:25</time>
+    <p>接下來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-233">
+    <time datetime="PT386S">06:26</time>
+    <p>給你看個真正秀肌肉的光學隔離防護</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-234">
+    <time datetime="PT389S">06:29</time>
+    <p>把剛才的提亮曲線打個組</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-235">
+    <time datetime="PT391S">06:31</time>
+    <p>我們要給皮膚建一個極其精準的保護罩</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-236">
+    <time datetime="PT394S">06:34</time>
+    <p>怎麼做</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-237">
+    <time datetime="PT394S">06:34</time>
+    <p>再次打開計算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-238">
+    <time datetime="PT396S">06:36</time>
+    <p>這次</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-239">
+    <time datetime="PT396S">06:36</time>
+    <p>我們調用包含膚色基因最重的紅通道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-240">
+    <time datetime="PT399S">06:39</time>
+    <p>讓紅通道與紅通道做一次疊加</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-241">
+    <time datetime="PT401S">06:41</time>
+    <p>注意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-242">
+    <time datetime="PT402S">06:42</time>
+    <p>同時勾選兩個反向</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-243">
+    <time datetime="PT404S">06:44</time>
+    <p>就這一個深奧的數學運算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-244">
+    <time datetime="PT405S">06:45</time>
+    <p>瞬間死死鎖定了膚色的核心明暗帶</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-245">
+    <time datetime="PT408S">06:48</time>
+    <p>緊接著</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-246">
+    <time datetime="PT409S">06:49</time>
+    <p>配合主體反選填充白色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-247">
+    <time datetime="PT411S">06:51</time>
+    <p>讓背景全部顯示</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-248">
+    <time datetime="PT412S">06:52</time>
+    <p>唯獨把臉部做精準遮擋</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-249">
+    <time datetime="PT414S">06:54</time>
+    <p>然後再剔除雨傘</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-250">
+    <time datetime="PT415S">06:55</time>
+    <p>基於此猛板再入選區</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-251">
+    <time datetime="PT417S">06:57</time>
+    <p>創建猛板</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-252">
+    <time datetime="PT418S">06:58</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-253">
+    <time datetime="PT418S">06:58</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-254">
+    <time datetime="PT419S">06:59</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-255">
+    <time datetime="PT419S">06:59</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-256">
+    <time datetime="PT420S">07:00</time>
+    <p>畫面的整體高光極其通透</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-257">
+    <time datetime="PT422S">07:02</time>
+    <p>但女孩皮膚上最原生最珍貴的光影質感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-258">
+    <time datetime="PT424S">07:04</time>
+    <p>被我們毫髮無損地保留了下來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-259">
+    <time datetime="PT426S">07:06</time>
+    <p>你看這個皮膚猛板</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-260">
+    <time datetime="PT428S">07:08</time>
+    <p>再看最後的調整效果</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-261">
+    <time datetime="PT429S">07:09</time>
+    <p>什麼叫降微打擊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-262">
+    <time datetime="PT431S">07:11</time>
+    <p>這就叫降微打擊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-263">
+    <time datetime="PT432S">07:12</time>
+    <p>這種掌控全局</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-264">
+    <time datetime="PT434S">07:14</time>
+    <p>卻又絲毫不破壞局部基因的控制力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-265">
+    <time datetime="PT436S">07:16</time>
+    <p>才是你真正能變現的底氣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-266">
+    <time datetime="PT438S">07:18</time>
+    <p>第二步</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-267">
+    <time datetime="PT438S">07:18</time>
+    <p>深層錨定暗部</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-268">
+    <time datetime="PT440S">07:20</time>
+    <p>再次打開計算</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-269">
+    <time datetime="PT441S">07:21</time>
+    <p>依然是灰色通道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-270">
+    <time datetime="PT442S">07:22</time>
+    <p>混合模式直接選疊加</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-271">
+    <time datetime="PT444S">07:24</time>
+    <p>但請注意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-272">
+    <time datetime="PT445S">07:25</time>
+    <p>必須勾選兩個反向</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-273">
+    <time datetime="PT447S">07:27</time>
+    <p>你看</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-274">
+    <time datetime="PT447S">07:27</time>
+    <p>地面的柏油路</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-275">
+    <time datetime="PT448S">07:28</time>
+    <p>斑駁的牆體</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-276">
+    <time datetime="PT449S">07:29</time>
+    <p>所有暗部都被瞬間精準鎖定</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-277">
+    <time datetime="PT452S">07:32</time>
+    <p>載入這個暗部選區</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-278">
+    <time datetime="PT453S">07:33</time>
+    <p>再掛一根曲線</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-279">
+    <time datetime="PT454S">07:34</time>
+    <p>同樣去拉中灰128色階</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-280">
+    <time datetime="PT456S">07:36</time>
+    <p>向下拉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-281">
+    <time datetime="PT457S">07:37</time>
+    <p>壓暗</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-282">
+    <time datetime="PT458S">07:38</time>
+    <p>這裡有一個高階支持點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-283">
+    <time datetime="PT459S">07:39</time>
+    <p>為什麼壓暗部不去動黑點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-284">
+    <time datetime="PT461S">07:41</time>
+    <p>而是去動中灰點</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-285">
+    <time datetime="PT463S">07:43</time>
+    <p>這就是頂級修圖師的柔性控制</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-286">
+    <time datetime="PT465S">07:45</time>
+    <p>因為我們已經用盲板鎖死了暗部區域</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-287">
+    <time datetime="PT468S">07:48</time>
+    <p>通過中灰點進行下壓</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-288">
+    <time datetime="PT469S">07:49</time>
+    <p>不僅能讓暗部沉下去</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-289">
+    <time datetime="PT471S">07:51</time>
+    <p>還能讓明暗過度極其柔和自然</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-290">
+    <time datetime="PT473S">07:53</time>
+    <p>像素徹底告別死黑溢出</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-291">
+    <time datetime="PT475S">07:55</time>
+    <p>來看對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-292">
+    <time datetime="PT476S">07:56</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-293">
+    <time datetime="PT477S">07:57</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-294">
+    <time datetime="PT478S">07:58</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-295">
+    <time datetime="PT478S">07:58</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-296">
+    <time datetime="PT479S">07:59</time>
+    <p>明與暗被完美的剝離開來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-297">
+    <time datetime="PT481S">08:01</time>
+    <p>對比度被徹底拉開</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-298">
+    <time datetime="PT483S">08:03</time>
+    <p>但畫面依然保持著極度乾淨的高級灰調</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-299">
+    <time datetime="PT486S">08:06</time>
+    <p>這種不講武德的降微打擊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-300">
+    <time datetime="PT487S">08:07</time>
+    <p>這種把全圖像素玩弄於鼓掌之間的控制力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-301">
+    <time datetime="PT490S">08:10</time>
+    <p>才是你拉開與同行差距的護城河</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-302">
+    <time datetime="PT493S">08:13</time>
+    <p>整體影調有了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-303">
+    <time datetime="PT494S">08:14</time>
+    <p>接下來我們進入PS修圖的核心</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-304">
+    <time datetime="PT496S">08:16</time>
+    <p>皮膚</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-305">
+    <time datetime="PT497S">08:17</time>
+    <p>在這裡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-306">
+    <time datetime="PT498S">08:18</time>
+    <p>我要再次顛覆你的認知</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-307">
+    <time datetime="PT500S">08:20</time>
+    <p>很多修圖師到現在依然在用最原始</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-308">
+    <time datetime="PT502S">08:22</time>
+    <p>費力不討好的方式手工做中性灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-309">
+    <time datetime="PT505S">08:25</time>
+    <p>耗費幾個小時去修一張臉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-310">
+    <time datetime="PT507S">08:27</time>
+    <p>這在頂級的商業修圖里</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-311">
+    <time datetime="PT509S">08:29</time>
+    <p>不僅效率極低</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-312">
+    <time datetime="PT510S">08:30</time>
+    <p>更是不可取的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-313">
+    <time datetime="PT511S">08:31</time>
+    <p>我們要學會駕馭AI為效率賦能</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-314">
+    <time datetime="PT514S">08:34</time>
+    <p>直接調用RetouchSme的中性灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-315">
+    <time datetime="PT516S">08:36</time>
+    <p>聽我的別猶豫</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-316">
+    <time datetime="PT517S">08:37</time>
+    <p>果斷把數值拉到150</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-317">
+    <time datetime="PT519S">08:39</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-318">
+    <time datetime="PT520S">08:40</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-319">
+    <time datetime="PT521S">08:41</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-320">
+    <time datetime="PT521S">08:41</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-321">
+    <time datetime="PT522S">08:42</time>
+    <p>僅僅這一瞬間</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-322">
+    <time datetime="PT523S">08:43</time>
+    <p>模特的臉就像是注入了光</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-323">
+    <time datetime="PT525S">08:45</time>
+    <p>變得極致白亮透氣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-324">
+    <time datetime="PT527S">08:47</time>
+    <p>所有微小的瑕疵被瞬間自動修復</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-325">
+    <time datetime="PT530S">08:50</time>
+    <p>註意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-326">
+    <time datetime="PT531S">08:51</time>
+    <p>這絕不是在磨皮</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-327">
+    <time datetime="PT532S">08:52</time>
+    <p>這是最高級的微米級光影修復</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-328">
+    <time datetime="PT535S">08:55</time>
+    <p>很多小白不懂</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-329">
+    <time datetime="PT536S">08:56</time>
+    <p>只會去模糊人臉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-330">
+    <time datetime="PT537S">08:57</time>
+    <p>破壞皮膚原有的質感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-331">
+    <time datetime="PT539S">08:59</time>
+    <p>但中性灰牛逼的地方在於</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-332">
+    <time datetime="PT541S">09:01</time>
+    <p>它的底層邏輯是通過修復極其細微的明暗像素關係</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-333">
+    <time datetime="PT544S">09:04</time>
+    <p>來平滑肌膚</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-334">
+    <time datetime="PT545S">09:05</time>
+    <p>它最大的功德</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-335">
+    <time datetime="PT546S">09:06</time>
+    <p>是完美保護了皮膚原有的真實紋理結構</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-336">
+    <time datetime="PT550S">09:10</time>
+    <p>這就是降微打擊</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-337">
+    <time datetime="PT551S">09:11</time>
+    <p>我們僅僅用了幾秒鐘的操作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-338">
+    <time datetime="PT553S">09:13</time>
+    <p>就取代了以往手工操作</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-339">
+    <time datetime="PT554S">09:14</time>
+    <p>好幾個小時的工作量</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-340">
+    <time datetime="PT556S">09:16</time>
+    <p>這種對AI工具的絕對把控力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-341">
+    <time datetime="PT558S">09:18</time>
+    <p>這種用秒去挑戰小時的效率思維</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-342">
+    <time datetime="PT561S">09:21</time>
+    <p>才是你作為頂級視覺導演的核心競爭力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-343">
+    <time datetime="PT564S">09:24</time>
+    <p>但是</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-344">
+    <time datetime="PT564S">09:24</time>
+    <p>AI的介入到這裡並沒完</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-345">
+    <time datetime="PT566S">09:26</time>
+    <p>光影的骨架搭好了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-346">
+    <time datetime="PT568S">09:28</time>
+    <p>色彩的底子還得接著夯實</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-347">
+    <time datetime="PT570S">09:30</time>
+    <p>緊接著</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-348">
+    <time datetime="PT570S">09:30</time>
+    <p>我們直接調用Skin Tone</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-349">
+    <time datetime="PT572S">09:32</time>
+    <p>不要猶豫</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-350">
+    <time datetime="PT573S">09:33</time>
+    <p>強度果斷拉滿</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-351">
+    <time datetime="PT574S">09:34</time>
+    <p>這步操作的核心</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-352">
+    <time datetime="PT575S">09:35</time>
+    <p>是給皮膚做一次極其精準的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-353">
+    <time datetime="PT578S">09:38</time>
+    <p>色彩微創手術</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-354">
+    <time datetime="PT579S">09:39</time>
+    <p>它能極其智能地修復皮膚局部的掉色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-355">
+    <time datetime="PT582S">09:42</time>
+    <p>缺色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-356">
+    <time datetime="PT583S">09:43</time>
+    <p>強制把人物面部細微的色相與飽和度斷層</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-357">
+    <time datetime="PT586S">09:46</time>
+    <p>拉回到一個極度統一的基準線上</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-358">
+    <time datetime="PT588S">09:48</time>
+    <p>同樣是需要加載皮膚蒙板</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-359">
+    <time datetime="PT590S">09:50</time>
+    <p>讓它只影響膚色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-360">
+    <time datetime="PT591S">09:51</time>
+    <p>而不是全圖</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-361">
+    <time datetime="PT592S">09:52</time>
+    <p>這時候你仔細看前後的對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-362">
+    <time datetime="PT594S">09:54</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-363">
+    <time datetime="PT595S">09:55</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-364">
+    <time datetime="PT596S">09:56</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-365">
+    <time datetime="PT596S">09:56</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-366">
+    <time datetime="PT597S">09:57</time>
+    <p>是不是覺得變化好像並不大</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-367">
+    <time datetime="PT599S">09:59</time>
+    <p>甚至極其微妙</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-368">
+    <time datetime="PT600S">10:00</time>
+    <p>如果你覺得這一步可有可無</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-369">
+    <time datetime="PT602S">10:02</time>
+    <p>那說明你的審美認知</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-370">
+    <time datetime="PT604S">10:04</time>
+    <p>還停留在新手階段</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-371">
+    <time datetime="PT605S">10:05</time>
+    <p>這就是我要給你植入的又一個反常識認知</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-372">
+    <time datetime="PT608S">10:08</time>
+    <p>很多小白以為</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-373">
+    <time datetime="PT609S">10:09</time>
+    <p>所謂的調色就是大刀闊斧</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-374">
+    <time datetime="PT611S">10:11</time>
+    <p>就是幾十個塗層大動干戈</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-375">
+    <time datetime="PT613S">10:13</time>
+    <p>彷彿動靜越大顯得技術越牛</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-376">
+    <time datetime="PT615S">10:15</time>
+    <p>大錯特錯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-377">
+    <time datetime="PT617S">10:17</time>
+    <p>真正的商業級高級調色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-378">
+    <time datetime="PT618S">10:18</time>
+    <p>從來不是粗暴的改頭換面</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-379">
+    <time datetime="PT620S">10:20</time>
+    <p>而是在極其微妙的像素微差中</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-380">
+    <time datetime="PT622S">10:22</time>
+    <p>尋找最嚴苛的視覺平衡</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-381">
+    <time datetime="PT624S">10:24</time>
+    <p>這種微妙的色彩統一</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-382">
+    <time datetime="PT626S">10:26</time>
+    <p>雖然不顯珊不露水</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-383">
+    <time datetime="PT627S">10:27</time>
+    <p>但它卻是玻璃廉價感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-384">
+    <time datetime="PT629S">10:29</time>
+    <p>建立高級膚色必不可少的一環</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-385">
+    <time datetime="PT631S">10:31</time>
+    <p>外行看熱鬧</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-386">
+    <time datetime="PT632S">10:32</time>
+    <p>內行看門道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-387">
+    <time datetime="PT634S">10:34</time>
+    <p>這種不著痕跡的細膩與克制</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-388">
+    <time datetime="PT636S">10:36</time>
+    <p>才是你的作品</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-389">
+    <time datetime="PT637S">10:37</time>
+    <p>真正能邁上高價的護城河</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-390">
+    <time datetime="PT639S">10:39</time>
+    <p>看一下調整前後的對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-391">
+    <time datetime="PT640S">10:40</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-392">
+    <time datetime="PT641S">10:41</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-393">
+    <time datetime="PT642S">10:42</time>
+    <p>之前</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-394">
+    <time datetime="PT643S">10:43</time>
+    <p>之後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-395">
+    <time datetime="PT644S">10:44</time>
+    <p>好</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-396">
+    <time datetime="PT644S">10:44</time>
+    <p>這條視頻側重的是底層心法</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-397">
+    <time datetime="PT646S">10:46</time>
+    <p>很多深度的通道運算和光影微操細節</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-398">
+    <time datetime="PT649S">10:49</time>
+    <p>沒有辦法在短短幾分鐘里徹底展開</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-399">
+    <time datetime="PT652S">10:52</time>
+    <p>如果你不想再做底層的修圖工具人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-400">
+    <time datetime="PT654S">10:54</time>
+    <p>如果你需要系統重塑你的商業調色體系</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-401">
+    <time datetime="PT657S">10:57</time>
+    <p>不妨關注一下100天調色訓練營</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-402">
+    <time datetime="PT660S">11:00</time>
+    <p>另外</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-403">
+    <time datetime="PT660S">11:00</time>
+    <p>在評論區打上日系高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-404">
+    <time datetime="PT662S">11:02</time>
+    <p>這套鈴木達野日系高級灰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-405">
+    <time datetime="PT664S">11:04</time>
+    <p>核心參數預設及其相關PS動作已經打包好了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-406">
+    <time datetime="PT667S">11:07</time>
+    <p>最後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-407">
+    <time datetime="PT668S">11:08</time>
+    <p>我想告訴你</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-408">
+    <time datetime="PT669S">11:09</time>
+    <p>修圖修到最後</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-409">
+    <time datetime="PT670S">11:10</time>
+    <p>修的從來不是冰冷的參數</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-410">
+    <time datetime="PT672S">11:12</time>
+    <p>而是你在按下快門那一刻所感受到的溫度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-411">
+    <time datetime="PT675S">11:15</time>
+    <p>今天</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-412">
+    <time datetime="PT675S">11:15</time>
+    <p>我們講了這麼多反直覺</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-413">
+    <time datetime="PT677S">11:17</time>
+    <p>甚至反常識的調色邏輯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-414">
+    <time datetime="PT679S">11:19</time>
+    <p>並且毫不猶豫的借用了AI的強大算力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-415">
+    <time datetime="PT682S">11:22</time>
+    <p>其實目的只有一個</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-416">
+    <time datetime="PT683S">11:23</time>
+    <p>試圖在這個浮躁喧囂的都市里</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-417">
+    <time datetime="PT685S">11:25</time>
+    <p>為你還原一場微寒的秋雨</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-418">
+    <time datetime="PT687S">11:27</time>
+    <p>替你留住大都會里</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-419">
+    <time datetime="PT689S">11:29</time>
+    <p>每一個普通個體那份寧靜的獨處時光</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-420">
+    <time datetime="PT691S">11:31</time>
+    <p>記住</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-421">
+    <time datetime="PT692S">11:32</time>
+    <p>真正的商業後期永遠是人在駕馭工具</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-422">
+    <time datetime="PT695S">11:35</time>
+    <p>AI確實極其強大</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-423">
+    <time datetime="PT697S">11:37</time>
+    <p>它能在一瞬間做到微米級的像素平滑</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-424">
+    <time datetime="PT700S">11:40</time>
+    <p>能替我們幹完所有耗時耗力的苦力活</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-425">
+    <time datetime="PT702S">11:42</time>
+    <p>但它永遠無法觸動人心</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-426">
+    <time datetime="PT704S">11:44</time>
+    <p>因為AI淋不到現實世界的雨</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-427">
+    <time datetime="PT706S">11:46</time>
+    <p>但你淋過</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-428">
+    <time datetime="PT707S">11:47</time>
+    <p>AI不懂在人群中感受孤獨的浪漫</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-429">
+    <time datetime="PT710S">11:50</time>
+    <p>但你懂</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-430">
+    <time datetime="PT710S">11:50</time>
+    <p>所以</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-431">
+    <time datetime="PT711S">11:51</time>
+    <p>請永遠珍惜你作為創作者</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-432">
+    <time datetime="PT713S">11:53</time>
+    <p>那份脆弱卻極其珍貴的敏感度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-433">
+    <time datetime="PT716S">11:56</time>
+    <p>在這個算法</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-434">
+    <time datetime="PT716S">11:56</time>
+    <p>能夠批量製造工業廢料的速食時代</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-435">
+    <time datetime="PT719S">11:59</time>
+    <p>一個願意用最極致的理性</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-436">
+    <time datetime="PT721S">12:01</time>
+    <p>去守護感性純粹的人</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-437">
+    <time datetime="PT722S">12:02</time>
+    <p>本身就是一種奢侈品</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-438">
+    <time datetime="PT724S">12:04</time>
+    <p>我是輝韻</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-439">
+    <time datetime="PT725S">12:05</time>
+    <p>教你用高階審美變現</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-440">
+    <time datetime="PT726S">12:06</time>
+    <p>我們下期見</p>
+  </li>
+</ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

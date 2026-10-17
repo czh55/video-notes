@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="达芬奇可以模拟诺兰成片的外观，但质感在拍摄阶段就已建立。后期重点是影调分布和色彩结构，颗粒只靠近观众看到的成片。">
+  <title>诺兰电影的胶片质感，要怎么调？｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+.kicker{letter-spacing:.08em;color:#b45309;font-size:13px;font-weight:700;margin:0 0 8px}
+h1{font-size:34px;line-height:1.35;margin:0 0 12px;color:#1c1917}
+.meta-line{color:#78716c;font-size:14px;margin:0 0 16px}
+.lede{font-size:18px;color:#44403c;margin:0 0 12px}
+.source-link{color:#b45309;font-weight:700}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;line-height:1.4;color:#1c1917;margin:0 0 14px}
+.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:12px 16px;color:#57534e;font-style:italic}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1d4ed8;margin:0;font-size:15px}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    <header>
+  <p class="kicker">图文实录 · 调色后期</p>
+  <h1>诺兰电影的胶片质感，要怎么调？</h1>
+  <p class="meta-line">Vivi Lyn · 小红书 · 2026-10-17 · 10分13秒 · 达芬奇调色页实操</p>
+  <p class="lede">有人私信问：达芬奇能不能调出诺兰电影的胶片质感。Vivi Lyn 的答案是可以模拟成片外观，但她紧接着把问题换掉了。诺兰的质感在进调色间之前，已经由胶片工艺、曝光、灯光、服装和置景定下。后期真正该学的，是影调怎么分布、色彩怎么搭，而不是先堆一层颗粒。</p>
+  <p><a class="source-link" href="https://xhslink.cn/o/1QgaN67DeYr">原视频</a></p>
+</header>
+<article class="documentary">
+  <h2>内容要点</h2>
+  <p>这是一条达芬奇调色页上的仿片演示，大约十分钟。她用《奥本海默》黑白静帧和两段《奥德赛》相关画面做参照，节点从色彩空间转换走到一级影调、二级窗口，最后才加颗粒。片头还借柯达资料和《盗梦空间》摄影指导的说法，说明数字调色匹配的是光化学拷贝的视觉结果。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row">
+    <span class="time-marker">[00:00→01:19]</span>
+    <div>
+      <strong>质感从哪来</strong>
+      <p>数字调色可以匹配胶片拷贝的最终外观。对多数创作者，缺口不在软件，而在拍摄阶段已经做好的曝光、灯光、服装和置景。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[01:19→01:41]</span>
+    <div>
+      <strong>这期没有开色彩管理</strong>
+      <p>时间线停在默认的 Rec.709 Gamma 2.4。她提醒：若改成达芬奇宽色域，同样的节点力度会变，思路不变。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[01:41→04:19]</span>
+    <div>
+      <strong>黑白案例先定影调</strong>
+      <p>RED 素材经色彩空间转换还原后去色。参照静帧的暗部更重、略偏青，人脸落在中间灰，高光偏暖。一级打底，窗口和选区再修脸、灯光和衣服。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[04:19→05:36]</span>
+    <div>
+      <strong>颗粒不是负片</strong>
+      <p>达芬奇自带颗粒默认停在 16 毫米，只为靠近观众在数字放映和流媒体上看到的成片。《奥本海默》摄影负片是 65 毫米，原始拷贝会细腻得多。要模拟的重点是影调分布和色彩结构。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[05:36→07:27]</span>
+    <div>
+      <strong>头盔一场：密度和素材上限</strong>
+      <p>一级色轮配 HDR 色轮重铺影调，Color Slice 加密度和饱和，曲线把偏冷的青色往暖里带，窗口处理头盔和脸。噪点明显时，降噪放在节点最前。素材若已强压缩，她认为容易无力回天。</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <span class="time-marker">[07:27→10:12]</span>
+    <div>
+      <strong>天空、肤色，以及不必改的发色</strong>
+      <p>第三例仍被字幕称作《奥德赛》静帧。青和蓝的密度、高光暖调、磨皮、鼻子和云的黄色被分开处理。改发色只是演示颜色搭配，正常项目没有特殊要求就不必改。颗粒因时间不够没有展开，她也提到有的甲方不喜欢颗粒。</p>
+    </div>
+  </div>
+  <div class="takeaway-box">
+    <strong>总结</strong>
+    <p>仿诺兰，先看参考静帧的影调落在哪、颜色彼此怎么搭配。色彩空间转换和一级基调决定能不能靠近；颗粒、光晕是成片质感的最后一层，不是质感本身。素材太噪或压得太狠，节点补不回来。</p>
+  </div>
+
+  <section class="story-section" id="origin">
+    <h2>00:00–01:19 可以模拟，但质感不靠后期单干</h2>
+    <p>视频从一条私信开场：达芬奇里能不能调出诺兰电影的胶片质感。她说可以模拟。理由不是“软件里有胶片预设”，而是制作流程里本来就有人在做这件事。烧录字幕把口播里的“科大”写成柯达：官方资料提到，做数字调色时，右边投已完成光化学配光的胶片拷贝，左边放数字版本，调色师把胶片的视觉效果匹配过去。按她的转述，数字调色模拟的是胶片的最终外观。</p>
+    <p class="quote">「所以从技术上来说，数字调色完全可以去模拟匹配胶片的最终外观。」</p>
+    <p>话锋马上转开。对大多数创作者，问题不是达芬奇做不做得到，而是诺兰的质感本来就不全靠调色。它来自胶片成像和制作工艺，也和拍摄时的曝光、灯光、服装、美术有关。00:43 切到《盗梦空间》的室内桌面，字幕点名摄影指导 Wally Pfister（口播听成 Wally Fisher，片名听成《大梦空间》）。她转述：色彩平衡和曝光在拍摄阶段就控制好；若要更强的对比，直接用灯光、服装和置景完成，从而少做后期。口播里的“质景”，按上下文是置景。</p>
+    <p>所以观众最后看到的“诺兰质感”，有不少在进调色之前就已经在了。她仍认为，用数字摄影机的人值得在后期学这些视觉规律。这期她说会从《奥本海默》《奥德赛》和《星际穿越》里抽场景，从胶片模拟的角度拆：质感到底从哪来，达芬奇里真正该模拟的重点是什么。调色页左侧画廊里能看到 INTERSTELLAR (2014) 和 THE ODYSSEY 的字样，和这句预告对得上。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-01.jpg" alt="盗梦空间室内桌面，字幕写摄影指导 Wally Pfister 曾提到拍摄阶段就控制色彩" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:43] 《盗梦空间》桌面。烧录字幕点名摄影指导 Wally Pfister：色彩平衡和曝光在拍摄时定，更强对比靠灯光、服装和置景。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1da0221cf9da.mp3" type="button" aria-label="Play English audio">🔊</button><span>An Inception tabletop. The burned-in subtitle names cinematographer Wally Pfister: color balance and exposure are set while shooting, and stronger contrast comes from light, costume, and set dressing.</span></div>
+<audio class="cap-audio" src="audio/1da0221cf9da.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>柯达那份资料的原页没有在画面里展开，上面这段是作者转述，不是对柯达原文的核对。Pfister 的原话同样只出现在她的转述里。</p>
+  </section>
+
+  <section class="story-section" id="cms">
+    <h2>01:19–01:41 先声明：这期没做色彩管理</h2>
+    <p>进到达芬奇调色页后，她先把前提说死。今天所有案例没有做特别的色彩管理。01:32 工程设置打开着：色彩科学是 DaVinci YRGB，勾了单独的色彩空间和伽马；时间线色彩空间 Rec.709，时间线伽马 Gamma 2.4；输出色彩空间 Rec.709，输出伽马显示为 Rec.709-A。口播只强调时间线是默认的 709 Gamma 2.4，烧录字幕也是这一句。输出伽马为什么写成 Rec.709-A，她没有解释。</p>
+    <p>字幕接着说：如果这里改选达芬奇宽色域，今天这些节点对画面的力度会有差别，整体思路和方向仍一致。这是使用边界，不是可选项的教程。后面出现的 Lift、Gamma、HDR 色轮和 Color Slice，都是在这条未做色彩管理的时间线上演示的。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-02.jpg" alt="达芬奇工程设置里色彩科学为 DaVinci YRGB，时间线 Rec.709 Gamma 2.4" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:32] 工程设置停在 DaVinci YRGB，时间线是 Rec.709、Gamma 2.4，输出伽马显示 Rec.709-A。字幕说若改达芬奇宽色域，节点力度会变。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e767fd931a28.mp3" type="button" aria-label="Play English audio">🔊</button><span>Project settings stay on DaVinci YRGB. The timeline is Rec.709, Gamma 2.4, and output gamma shows Rec.709-A. The subtitle says switching to DaVinci Wide Gamut would change how hard the same nodes hit.</span></div>
+<audio class="cap-audio" src="audio/e767fd931a28.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="bw">
+    <h2>01:41–04:19 《奥本海默》黑白：先影调，再局部</h2>
+    <p>口播先说“第二个案例”，随即又说“第一个案例”，内容是《奥本海默》黑白场景里的一张静帧。烧录字幕把听成“竞争”的词写成静帧。她的理由很直接：对数字调色，影调永远是决定画面质感的关键一步，所以先拿黑白练。熟悉诺兰的人会知道，他的片子里黑白场面不算少。口播里“画面是感”按语境是画面质感。</p>
+    <p>第一步是还原。02:02 选中的是色彩空间转换节点，字幕也这么说。检查器里输入色彩空间是 REDWideGamutRGB，输入伽马是 RED Log3G10，输出到 Rec.709、Gamma 2.4，色调映射方式是 DaVinci。时间线上这段素材标着 RED。口播“对这个绘片进行还原”，画面上就是给 RED 素材做色彩空间转换，不是另一块插件。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-03.jpg" alt="色彩空间转换把 RED Log3G10 转到 Rec.709，左右是黑白人物和奥本海默静帧" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:02] CST 把 REDWideGamutRGB、RED Log3G10 转到 Rec.709 Gamma 2.4。左边是待匹配的黑白人物，右边是《奥本海默》静帧。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6f93d9cd1a77.mp3" type="button" aria-label="Play English audio">🔊</button><span>The CST converts REDWideGamutRGB and RED Log3G10 to Rec.709 Gamma 2.4. Left is the black-and-white shot being matched; right is an Oppenheimer still.</span></div>
+<audio class="cap-audio" src="audio/6f93d9cd1a77.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>还原之后先去色。她在 709 后面的节点里用 RGB 混合器，而不是只拉饱和度旋钮。对照静帧，她指出三件事：暗部比重更大，人脸主要落在中间灰，暗部有点发青，高光有点偏暖。为什么《奥本海默》黑白会是暗部冷青、高光偏暖，她说自己以前单独做过一期，这里不展开。</p>
+    <p>影调用了两个节点，工具可以混着用。第一个节点主要是一级调色轮的 Lift 和 Gamma，加上 HDR 色轮的 Dark。第二个节点再用 RGB 混合器，靠三个通道不同的数值重铺影调。02:22 附近混合器上能看到红、绿输出大约 0.71、蓝输出大约 0.87，这是那一帧的当前读数，她没有把它说成标准配方。基调大致定了以后，再用 HDR 的 Dark 把阴影往青色带一点，Highlight 把高光往暖里送。她说四个色轮走过之后，感觉已经往参考那边靠了很多。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-04.jpg" alt="HDR 色轮打开，字幕说把暗部往青色走一点，节点上有 shadow 和 highlight" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:16] HDR 色轮停在 Dark 一带。烧录字幕说把它往青色走一点。节点标签里能看到 shadow 和 highlight。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0360e442a9a6.mp3" type="button" aria-label="Play English audio">🔊</button><span>The HDR wheels sit around Dark. The burned-in subtitle says to push it a little toward cyan. Node labels include shadow and highlight.</span></div>
+<audio class="cap-audio" src="audio/0360e442a9a6.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>整体基调之后是二级。口播“画面机调”即画面基调。她画窗口调人脸的对比，觉得脸还稍微偏暖，就单独加节点改人脸色温，并提醒这个调整很细。接着做选区，把后面的灯光选出来，压高光，再压、再改色温。衣服只做一点点提亮，04:07 的烧录字幕写的就是提亮，不是口播听上去的“体谅”。一级打底加上窗口和选区之后，她认为画面已经很接近这张电影静帧。颗粒要到下一节才加。</p>
+  </section>
+
+  <section class="story-section" id="grain">
+    <h2>04:19–05:36 颗粒：模拟观众看到的成片</h2>
+    <p>她先提醒，诺兰这些片子走的是传统光化学，也就是胶片。然后让观众看颗粒结构。节点用的不是口播听成的“打分析四代”。04:28 的烧录字幕写“达芬奇自带的颗粒”，04:32 检查器打开的是 Film Grain。字幕说这里默认的是 16 毫米。同一时刻滑杆上能看到一组当前值，包括 Texture、Grain Size、Grain Strength、Softness，饱和度在这一帧是 0。她正说到“默认 16 毫米”，这些滑杆不一定还是预设刚加载的出厂位置，正文不把它们写成诺兰或达芬奇的标准配方。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-05.jpg" alt="达芬奇 Film Grain 检查器打开，字幕写默认是 16 毫米，预览是额头特写的颗粒对比" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:32] 达芬奇自带 Film Grain。字幕说默认是 16 毫米。右侧滑杆是这一帧的当前值，用来靠近参考静帧的颗粒，不是 65 毫米负片配方。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d6b519f643e5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Resolve’s built-in Film Grain is open. The subtitle says the default is 16mm. The sliders are this frame’s current values, aimed at the reference still, not a 65mm negative recipe.</span></div>
+<audio class="cap-audio" src="audio/d6b519f643e5.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>她特意把两件事拆开。烧录字幕写明：《奥本海默》拍摄用的负片是 65 毫米。模拟时却按参考静帧的颗粒结构去调，不按负片规格回推。观众先看到的颗粒，已经经过胶片扫描、数字调色、DCP 制作和数字平台编码，和摄影机负片上的原始颗粒不是同一个东西。加颗粒不是为了还原摄影负片，而是靠近普通观众在数字放映和流媒体上看到的成片。05:11 字幕把口播“心里很多”说成：原始胶片拷贝的颗粒结构，一定比现在看到的细腻很多。</p>
+    <p class="quote">「这里我们去加颗粒并不是说要还原奥本海默摄影负片上真实的颗粒结构，而是尽可能去接近普通观众最终在数字放映和流媒体上实际看到的成片质感。」</p>
+    <p>后半句按烧录字幕校过“副片 / 心里”。她接着说，很多人做胶片模拟时刻意加光晕。05:16 字幕是“会刻意添加的光晕效果”。包括颗粒在内，这些曾经是影像工程师和色彩科学家长期想控制和削弱的技术副产品，后来才变成后期的审美选择。若只从后期出发去模拟诺兰，她把重点收成两步：影调分布，和色彩结构。这也是这期后半段反复回到的句子。</p>
+  </section>
+
+  <section class="story-section" id="odyssey-1">
+    <h2>05:36–07:27 《奥德赛》头盔：工具换了，顺序还是一样</h2>
+    <p>下一例来自她称为诺兰最新电影的《奥德赛》。05:38 字幕写的就是《奥德赛》，口播听成过“奥特赛”。画面是头盔、链甲和林中的参考静帧，时间线上这段标着 ARRIRAW。第一步仍是还原到 709。还原之后，05:46 的字幕把口播里的 “EG 调色轮” 说成一级调色轮和 HDR 调色轮，两者配合，重新调整影调。05:38 那一帧的 HDR 色轮上，Dark、Shadow、Light 的曝光已经离开 0，方向大致是压暗部、抬阴影、再压亮部。这是演示中的可见状态，她没有报一组必须抄的数字。</p>
+    <p>然后是整体色温，用一级调色轮里的色温色调。下一个节点口播叫“切割器”，06:00 打开的面板是 Color Slice，色块从红、肤色、黄、绿、青、蓝到品红。字幕说的是重新调整色彩密度。她解释：动了密度，这个节点也会影响整体影调。这一步对画面整体加了密度，加了一点饱和，肤色、黄色和红色再各自加一点饱和。Color Slice 里的 Density，就是她口中的光密度。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-06.jpg" alt="Color Slice 面板打开，左右是奥德赛头盔近景和林中参考静帧" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[06:00] 《奥德赛》头盔素材对着参考静帧。Color Slice 开着，字幕说正在重新调整色彩密度。密度一动，影调也会跟着变。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9193cf4b0c54.mp3" type="button" aria-label="Play English audio">🔊</button><span>Odyssey helmet footage sits beside the reference still. Color Slice is open, and the subtitle says color density is being rebuilt. Moving density also shifts the tonal scale.</span></div>
+<audio class="cap-audio" src="audio/9193cf4b0c54.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>参考静帧的高光偏暖，她用一个节点微调。画面右下角的青色还偏冷，目标静帧更暖，于是用曲线稍改青色的色相。肤色节点单独加饱和，色调也有一点动。头盔画了窗口单独处理，脸再画窗口提亮一点，她让观众看前后区别。这段素材噪点明显，所以在节点最前面加了降噪，用的是达芬奇自带工具。07:02 节点图第一个被选中的就是标着 NR 的节点，后面才是 pri、bal、slice，收尾有 709、skin 和 grain。最后再加模拟颗粒。她把这一段收成“流程和思路”，没有逐个报数值。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-07.jpg" alt="节点树最前面选中 NR 降噪，字幕说噪点明显所以降噪加在前面" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[07:02] 节点链最前面是 NR。字幕说素材噪点明显，所以在前面加了降噪。时间线上这段标着 ARRIRAW。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ce94a2171ba1.mp3" type="button" aria-label="Play English audio">🔊</button><span>NR is the first node in the chain. The subtitle says the footage is noisy, so noise reduction was added up front. The timeline labels this clip ARRIRAW.</span></div>
+<audio class="cap-audio" src="audio/ce94a2171ba1.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>案例之间她插了一句边界：最终能模拟出的质感，非常依赖原素材质量。这段已经有很明显的噪点；有的素材若经过比较强的压缩，她认为容易无力回天。这是作者根据自己作业下的判断，视频里没有给出压缩码率的门槛。</p>
+  </section>
+
+  <section class="story-section" id="odyssey-2">
+    <h2>07:27–09:43 第三例：天空、皮肤，和一场发色演示</h2>
+    <p>07:29 的烧录字幕说，这个案例同样是《奥德赛》里的一张场景静帧。左右分屏是闭眼的男人，对着冷调天空里一位女人的侧脸。片头口播说过材料会包括《星际穿越》，画廊缩略图上也有 INTERSTELLAR (2014)。这一例的字幕却没有改口。右侧人物像哪一位演员、是不是《星际穿越》的剧照，字幕没有写，这里不认定。</p>
+    <p>顺序和前两例一样。先还原，再用色轮调整整体影调，她说工具大差不差。接着是色温色调的基础调整，口播“色纹”就是色温。然后用曲线对整体不同色相和饱和做基础调整。再下一个节点仍是 Color Slice，重点是天空：处理青色和蓝色的光密度和饱和度。08:00 面板正开在这里，节点上能看到 curves、teal、density 一类标签。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-08.jpg" alt="第三例左右分屏，Color Slice 打开，字幕说在处理青色和蓝色的密度与饱和度" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[08:00] 第三例的左右对比。Color Slice 在处理青色和蓝色的密度与饱和度，避免天空比参考静帧更冷。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/744df9b7363b.mp3" type="button" aria-label="Play English audio">🔊</button><span>The third example’s side-by-side. Color Slice is working the density and saturation of cyan and blue so the sky does not go colder than the reference still.</span></div>
+<audio class="cap-audio" src="audio/744df9b7363b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>高光用一级调色轮的高光色轮，稍微加一点暖。接下来口播听成 “Vase Refinement” 和“膜皮”。08:15 烧录字幕是 Face Refinement：跟踪人脸，加一点磨皮，让皮肤柔和。鼻子单独做选区，把红色降一些。08:22 选中的节点就标着 nose，同一棵树里还能看到 face、hair、cloud。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-09.jpg" alt="节点树选中 nose，字幕说针对鼻子做了选区，旁边有 face、hair、cloud" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[08:22] nose 节点被选中。字幕说针对鼻子做了选区。同一棵节点树里还有 Face Refinement 用到的脸，以及 hair、cloud。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/effc04fef085.mp3" type="button" aria-label="Play English audio">🔊</button><span>The nose node is selected. The subtitle says a qualifier was made for the nose. The same tree also holds the face used by Face Refinement, plus hair and cloud.</span></div>
+<audio class="cap-audio" src="audio/effc04fef085.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>调到这里她做对比：右边参考静帧里，没有左边云上那种黄色信息。她单做了一个节点，把云的黄色拿掉。头发上压得很暗的阴影稍微提亮。再往后两步很细：沿边缘做窗口，往参考静帧的边缘靠，提亮并加一点饱和。她说这一步要不要都可以。</p>
+    <p>然后是一个她特意标明“不必照做”的节点。正常项目、没有特殊要求时，不必改发色。09:12 hair 节点被红框选中，字幕就是这句。她改发色，是为了演示画面里不同颜色的搭配会改最终观感，并回扣片头：和诺兰合作过的摄影指导，会在开拍前设计置景和色彩搭配。如果不是在做胶片模拟，具体做到哪一步仍看项目要求。按她的工作经验，有的甲方不太喜欢加颗粒。09:40 字幕截到“很多项目就甲方是”，口播后半句是有的甲方不喜欢这个颗粒效果。</p>
+    <figure>
+      <img src="assets/nolan-film-look-grade/shot-10.jpg" alt="hair 节点被选中，字幕说正常情况下不必更改发色" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[09:12] hair 节点被选中。字幕说没有特殊要求时，不必改发色。这一步用来演示颜色搭配会改变整体观感。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cbe24efd6ff4.mp3" type="button" aria-label="Play English audio">🔊</button><span>The hair node is selected. The subtitle says there is no need to change hair color unless the job asks for it. This step only shows that color pairing changes the whole image.</span></div>
+<audio class="cap-audio" src="audio/cbe24efd6ff4.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>由于时间关系，这一例的颗粒她没有展开，只说调色思路一样，这里做的是基础演示。项目里更要从整体出发，决定具体流程，而不是把每个局部节点都当成必做项。</p>
+  </section>
+
+  <section class="story-section" id="close">
+    <h2>09:43–10:12 看画面，拆色彩逻辑</h2>
+    <p>结尾她从技术面收了一句：想调出诺兰的胶片电影质感，对素材基础质量有要求。更重要的是学会看画面、拆色彩逻辑。这需要系统的调色思维，加上日常积累和训练。视频没有展开这套思维的课程大纲，只把它当作收束。</p>
+    <p>她邀请关注专业调色和电影技术，自称调色师，口播听成“调色师 V”。画面水印和笔记作者名是 Vivi Lyn。片长到 10 分 12 秒左右结束，源文件时长约 10 分 13 秒。</p>
+    <p>整条片子的顺序可以收成一条线。先承认数字调色能匹配胶片拷贝的外观，再说明外观的大头在前期。进软件以后，三个案例都是：色彩空间转换，一级影调，色彩结构（去色、色温、Color Slice 或曲线），然后才是窗口、选区和最末的颗粒。黑白例把“暗部偏青、高光偏暖、人脸在中间灰”说得最清楚；头盔例补上素材噪点和降噪的位置；第三例用发色告诉观众，贴参考不等于改掉画面里每一种颜色。</p>
+  </section>
+</article>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。正文里的专名已按烧录字幕校正，转录区保留原话。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>上期视频发完之后有朋友私信问我</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>在达芬奇里能不能调出诺兰电影的胶片质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT5S">00:05</time>
+    <p>我的答案是可以模拟</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT6S">00:06</time>
+    <p>因为奥德塞在制作影院DCP版本的时候</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT8S">00:08</time>
+    <p>数字调色师确实就是在做类似的事情</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT11S">00:11</time>
+    <p>科大官方资料里有提到</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT12S">00:12</time>
+    <p>他们在进行数字调色的时候</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT14S">00:14</time>
+    <p>会把完成光化学配光的胶片拷贝投射到右边</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT18S">00:18</time>
+    <p>数字版本放在左边</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT19S">00:19</time>
+    <p>然后让数字调色师把胶片的视觉效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT22S">00:22</time>
+    <p>直接匹配到数字版本上</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT23S">00:23</time>
+    <p>所以从技术上来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT24S">00:24</time>
+    <p>数字调色完全可以去模拟匹配胶片的最终外观</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT28S">00:28</time>
+    <p>但对于大多数创作者来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT29S">00:29</time>
+    <p>真正的问题并不是达芬奇能不能做到</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT31S">00:31</time>
+    <p>而是诺兰电影的质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT32S">00:32</time>
+    <p>本来就不是只靠调色做出来的</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT34S">00:34</time>
+    <p>它除了来自胶片本身的成像特性和制作工艺</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT37S">00:37</time>
+    <p>也和拍摄阶段的曝光、灯光、服装和美术设计密切相关</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT42S">00:42</time>
+    <p>《大梦空间》的摄影指导Wally Fisher就曾经提到</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT44S">00:44</time>
+    <p>他会在拍摄阶段就控制好色彩平衡和曝光</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT47S">00:47</time>
+    <p>那如果希望画面拥有更强的对比度</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT50S">00:50</time>
+    <p>会直接通过灯光、服装和质景来完成</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT52S">00:52</time>
+    <p>从而减少后期需要做的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT54S">00:54</time>
+    <p>也就是说很多我们最后看到的诺兰的电影质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT57S">00:57</time>
+    <p>其实在进入调色之前就已经在前期和拍摄阶段建立起来了</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT61S">01:01</time>
+    <p>但对于使用数字摄影机的创作者来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT63S">01:03</time>
+    <p>诺兰电影仍然有很多视觉规律</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT65S">01:05</time>
+    <p>非常值得我们在后期调色里学习和借鉴</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT67S">01:07</time>
+    <p>所以这期视频我会从奥本海默奥德塞尔星际穿越里选几个场景</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT71S">01:11</time>
+    <p>从胶片模拟的角度出发</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT73S">01:13</time>
+    <p>带大家一起来拆解诺兰电影的胶片质感到底来自哪里</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT76S">01:16</time>
+    <p>以及我们在达芬奇里真正应该模拟的重点是什么</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT79S">01:19</time>
+    <p>好 我们现在来到调色页面</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT80S">01:20</time>
+    <p>先跟大家说一下今天做的所有的案例的展示</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT83S">01:23</time>
+    <p>是没有做特别的色彩管理的</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT85S">01:25</time>
+    <p>也就是色彩空间这一栏</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT86S">01:26</time>
+    <p>时间线的色彩空间是默认7091.4</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT89S">01:29</time>
+    <p>如果大家要做色彩管理的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT91S">01:31</time>
+    <p>比如这里如果大家要选达芬奇一款色域的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT93S">01:33</time>
+    <p>那今天给大家展示的所有的节点</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT96S">01:36</time>
+    <p>对画面的作用的力度是会有差的</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT98S">01:38</time>
+    <p>但是整体的调色思路和方向是一致的</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT101S">01:41</time>
+    <p>好 我们先来看第二个案例</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT102S">01:42</time>
+    <p>这个案例是奥本海默的黑白场景的其中一个竞争</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT105S">01:45</time>
+    <p>那对于数字调色来说的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT107S">01:47</time>
+    <p>影调永远都是决定画面是感非常关键的一步</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT110S">01:50</time>
+    <p>所以第一个案例的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT111S">01:51</time>
+    <p>我就选择了一个黑白的画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT113S">01:53</time>
+    <p>那如果大家比较熟悉诺兰的电影的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT114S">01:54</time>
+    <p>应该知道他的这个电影当中</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT116S">01:56</time>
+    <p>黑白场景的应用其实还是不少的</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT119S">01:59</time>
+    <p>好 首先第一步我们对这个绘片进行还原</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT121S">02:01</time>
+    <p>这里用到的是色彩空间转换插件</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT123S">02:03</time>
+    <p>这是一个red素材</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT124S">02:04</time>
+    <p>还原好之后我们要怎么把这个画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT126S">02:06</time>
+    <p>往这个电影竞争这个色调去调整呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT129S">02:09</time>
+    <p>那接下来的话我给大家分享一下这个节点操作</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT132S">02:12</time>
+    <p>好 因为这是一个黑白画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT134S">02:14</time>
+    <p>所以我们首先在7091后面的这个节点</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT136S">02:16</time>
+    <p>建立一个节点去给画面进行去色</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT138S">02:18</time>
+    <p>这里的话呢是用到了RGB混合器的这个选项</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT141S">02:21</time>
+    <p>相比于我们素材</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT143S">02:23</time>
+    <p>可以看到这个电影竞争的暗部的这个比重还是比较大的</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT146S">02:26</time>
+    <p>然后人脸的话主要还是集中在中间灰的一个区域</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT150S">02:30</time>
+    <p>暗部的话是有点发青</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT152S">02:32</time>
+    <p>然后高光的话是有点偏暖掉的</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT154S">02:34</time>
+    <p>关于奥本海默的黑白场景</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT155S">02:35</time>
+    <p>为什么暗部是偏冷偏青</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT157S">02:37</time>
+    <p>高光是偏暖的这个技术问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT159S">02:39</time>
+    <p>我之前有专门做这期视频来进行解答</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT162S">02:42</time>
+    <p>感兴趣的朋友可以去看一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT163S">02:43</time>
+    <p>好 我们接着</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT164S">02:44</time>
+    <p>第一步就是对画面的影调进行重新的一个调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT167S">02:47</time>
+    <p>那这里我用到了两个节点</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT169S">02:49</time>
+    <p>那第一个节点的话主要是用了一级调色轮的这个Lift和Gamma</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT173S">02:53</time>
+    <p>然后HDR色轮的Dark</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT175S">02:55</time>
+    <p>那第二个节点的话主要是用了这个RGB混合器</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT178S">02:58</time>
+    <p>就是通过改变它三个通道的不同的数值去对影调进行一个重新的一个调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT184S">03:04</time>
+    <p>那这里的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT185S">03:05</time>
+    <p>其实我们这几个工具都是可以混合使用的</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT188S">03:08</time>
+    <p>好调好之后的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT189S">03:09</time>
+    <p>那我们分别对它的这个阴影和高光进行调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT193S">03:13</time>
+    <p>用到的是HDR色轮的这个Dark</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT195S">03:15</time>
+    <p>把它往青色走了一点</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT197S">03:17</time>
+    <p>然后highlight这个地方对它这个高光进行一个温暖调去走</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT201S">03:21</time>
+    <p>经过这四个色轮的调整的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT203S">03:23</time>
+    <p>我们看整个感觉已经往这边靠很多了</p>
+  </li>
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT206S">03:26</time>
+    <p>那整体的画面机调定好之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT207S">03:27</time>
+    <p>接下来就是对画面进行二级调色的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT210S">03:30</time>
+    <p>那这里的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT211S">03:31</time>
+    <p>也用了一些窗口去对人脸进行一个调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT215S">03:35</time>
+    <p>而这里的话是画了一个区域去做了一个对比度的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT219S">03:39</time>
+    <p>好这两个节点之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT221S">03:41</time>
+    <p>我感觉这个人脸还是稍微有一点点偏暖的</p>
+  </li>
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT224S">03:44</time>
+    <p>所以我在这个地方给它加了一个节点</p>
+  </li>
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT226S">03:46</time>
+    <p>去单独调整一下它人脸的这个色温</p>
+  </li>
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT230S">03:50</time>
+    <p>但能不能看出来这个很细微的一个调整啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT232S">03:52</time>
+    <p>好接下来这个节点是去做了一个选区</p>
+  </li>
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT235S">03:55</time>
+    <p>就把后面的这个灯光去给它选出来</p>
+  </li>
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT238S">03:58</time>
+    <p>去给它这个高光去压了一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT240S">04:00</time>
+    <p>后面这个节点的话是给它进一步的压缩</p>
+  </li>
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT243S">04:03</time>
+    <p>并且改变了它的这个色温</p>
+  </li>
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT245S">04:05</time>
+    <p>接下来这个衣服的话稍微给它做了一点点体谅</p>
+  </li>
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT248S">04:08</time>
+    <p>好那这个画面经过一级调色的整体基调的打底和二级调色</p>
+  </li>
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT252S">04:12</time>
+    <p>就是窗口和选区的细节上的一个雕琢之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT256S">04:16</time>
+    <p>我们可以看到整体的画面已经非常接近这个电影竞争了</p>
+  </li>
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT259S">04:19</time>
+    <p>那大家知道诺兰的电影都是用传统光化学就是胶片制作的嘛</p>
+  </li>
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT264S">04:24</time>
+    <p>所以我们现在仔细对比一下这个画面的颗粒的结构</p>
+  </li>
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT267S">04:27</time>
+    <p>那这个节点用到的插件是打分析四代的颗粒的一个效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT270S">04:30</time>
+    <p>这里默认的是16毫米</p>
+  </li>
+  <li class="transcript-row" id="transcript-112">
+    <time datetime="PT272S">04:32</time>
+    <p>那虽然我们知道本海默拍摄的用的副屏是65毫米</p>
+  </li>
+  <li class="transcript-row" id="transcript-113">
+    <time datetime="PT275S">04:35</time>
+    <p>但是我们在模拟的时候</p>
+  </li>
+  <li class="transcript-row" id="transcript-114">
+    <time datetime="PT276S">04:36</time>
+    <p>可以根据参考竞争的颗粒的结构去进行具体的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-115">
+    <time datetime="PT280S">04:40</time>
+    <p>那这里我还是要强调一下大家先看到的这个电影竞争的这个颗粒的表现和结构</p>
+  </li>
+  <li class="transcript-row" id="transcript-116">
+    <time datetime="PT285S">04:45</time>
+    <p>其实是已经经过了胶片扫描数字调色</p>
+  </li>
+  <li class="transcript-row" id="transcript-117">
+    <time datetime="PT288S">04:48</time>
+    <p>DCP制作以及后续的数字平台编码等多个环节之后的最后的一个结果</p>
+  </li>
+  <li class="transcript-row" id="transcript-118">
+    <time datetime="PT293S">04:53</time>
+    <p>这和摄影机副片上的原始颗粒已经不是同一个概念了</p>
+  </li>
+  <li class="transcript-row" id="transcript-119">
+    <time datetime="PT296S">04:56</time>
+    <p>那这里我们去加颗粒并不是说要还原</p>
+  </li>
+  <li class="transcript-row" id="transcript-120">
+    <time datetime="PT299S">04:59</time>
+    <p>奥本海默摄影副片上真实的颗粒结构</p>
+  </li>
+  <li class="transcript-row" id="transcript-121">
+    <time datetime="PT302S">05:02</time>
+    <p>而是尽可能的去接近普通观众</p>
+  </li>
+  <li class="transcript-row" id="transcript-122">
+    <time datetime="PT304S">05:04</time>
+    <p>最终在数字放映和流媒体上实际看到的成片质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-123">
+    <time datetime="PT307S">05:07</time>
+    <p>可以肯定的是它原始的胶片拷贝的颗粒结构</p>
+  </li>
+  <li class="transcript-row" id="transcript-124">
+    <time datetime="PT310S">05:10</time>
+    <p>一定要比我们现在看到的是会心里很多的</p>
+  </li>
+  <li class="transcript-row" id="transcript-125">
+    <time datetime="PT313S">05:13</time>
+    <p>那另外我们很多朋友在做胶片模拟的时候会可以添加的光源效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-126">
+    <time datetime="PT316S">05:16</time>
+    <p>其实包括颗粒在内都是影像工程师和色彩科学家</p>
+  </li>
+  <li class="transcript-row" id="transcript-127">
+    <time datetime="PT320S">05:20</time>
+    <p>长期努力想要控制削弱的技术副产品</p>
+  </li>
+  <li class="transcript-row" id="transcript-128">
+    <time datetime="PT323S">05:23</time>
+    <p>只不过后来他们都变成了我们后期审美创意的一种选择</p>
+  </li>
+  <li class="transcript-row" id="transcript-129">
+    <time datetime="PT326S">05:26</time>
+    <p>所以如果我们仅从后期调色的角度出发</p>
+  </li>
+  <li class="transcript-row" id="transcript-130">
+    <time datetime="PT328S">05:28</time>
+    <p>想要模拟出诺兰电影的胶片质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-131">
+    <time datetime="PT330S">05:30</time>
+    <p>做好影调分布和色彩结构的搭建</p>
+  </li>
+  <li class="transcript-row" id="transcript-132">
+    <time datetime="PT332S">05:32</time>
+    <p>会是非常关键的两个步骤</p>
+  </li>
+  <li class="transcript-row" id="transcript-133">
+    <time datetime="PT334S">05:34</time>
+    <p>也是我们需要模拟的重点</p>
+  </li>
+  <li class="transcript-row" id="transcript-134">
+    <time datetime="PT336S">05:36</time>
+    <p>我们下一个案例是来自诺兰的最新电影奥特赛里面的</p>
+  </li>
+  <li class="transcript-row" id="transcript-135">
+    <time datetime="PT339S">05:39</time>
+    <p>其中的一个场景竞争</p>
+  </li>
+  <li class="transcript-row" id="transcript-136">
+    <time datetime="PT340S">05:40</time>
+    <p>首先第一步的话我们也是对素材进行709的还原</p>
+  </li>
+  <li class="transcript-row" id="transcript-137">
+    <time datetime="PT343S">05:43</time>
+    <p>还演好之后的话我们同样的也是用到EG调色轮和HDR调色轮</p>
+  </li>
+  <li class="transcript-row" id="transcript-138">
+    <time datetime="PT348S">05:48</time>
+    <p>来配合使用对素材的影调进行一个重新的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-139">
+    <time datetime="PT352S">05:52</time>
+    <p>接下来是对画面整体色温进行一个调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-140">
+    <time datetime="PT354S">05:54</time>
+    <p>这里用到的是EG调色轮里的色温色调</p>
+  </li>
+  <li class="transcript-row" id="transcript-141">
+    <time datetime="PT357S">05:57</time>
+    <p>好那下一个节点我用到的是切割器</p>
+  </li>
+  <li class="transcript-row" id="transcript-142">
+    <time datetime="PT359S">05:59</time>
+    <p>由于有对这个色彩的密度进行一个重新的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-143">
+    <time datetime="PT363S">06:03</time>
+    <p>所以这个节点对整体的画面的影调</p>
+  </li>
+  <li class="transcript-row" id="transcript-144">
+    <time datetime="PT365S">06:05</time>
+    <p>也是会产生一定的影响</p>
+  </li>
+  <li class="transcript-row" id="transcript-145">
+    <time datetime="PT367S">06:07</time>
+    <p>那这个节点主要是对画面的整体</p>
+  </li>
+  <li class="transcript-row" id="transcript-146">
+    <time datetime="PT369S">06:09</time>
+    <p>都加了光密度和加了一点饱和度</p>
+  </li>
+  <li class="transcript-row" id="transcript-147">
+    <time datetime="PT371S">06:11</time>
+    <p>那另外的话也有对肤色黄色和红色</p>
+  </li>
+  <li class="transcript-row" id="transcript-148">
+    <time datetime="PT374S">06:14</time>
+    <p>分别都有增加一点饱和度</p>
+  </li>
+  <li class="transcript-row" id="transcript-149">
+    <time datetime="PT376S">06:16</time>
+    <p>接下来参考目标竞争的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-150">
+    <time datetime="PT378S">06:18</time>
+    <p>整体的高光的这个还是偏暖的</p>
+  </li>
+  <li class="transcript-row" id="transcript-151">
+    <time datetime="PT381S">06:21</time>
+    <p>所以有用到这个节点去微调了一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-152">
+    <time datetime="PT383S">06:23</time>
+    <p>那接下来我们看到画面右下角的这个青色</p>
+  </li>
+  <li class="transcript-row" id="transcript-153">
+    <time datetime="PT386S">06:26</time>
+    <p>还是比较偏冷掉的</p>
+  </li>
+  <li class="transcript-row" id="transcript-154">
+    <time datetime="PT388S">06:28</time>
+    <p>那我们目标竞争里面还是会偏暖掉多一点</p>
+  </li>
+  <li class="transcript-row" id="transcript-155">
+    <time datetime="PT390S">06:30</time>
+    <p>那这里的话有简单的用到一个曲线工具</p>
+  </li>
+  <li class="transcript-row" id="transcript-156">
+    <time datetime="PT394S">06:34</time>
+    <p>去稍微改变了一点这个青色的色相</p>
+  </li>
+  <li class="transcript-row" id="transcript-157">
+    <time datetime="PT397S">06:37</time>
+    <p>好接下来这个节点有针对肤色做了单独的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-158">
+    <time datetime="PT401S">06:41</time>
+    <p>有增加饱和度和对色彩色调都稍微有一点调整啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-159">
+    <time datetime="PT405S">06:45</time>
+    <p>那接下来这个节点有画窗口</p>
+  </li>
+  <li class="transcript-row" id="transcript-160">
+    <time datetime="PT408S">06:48</time>
+    <p>对头盔进行一个单独的处理</p>
+  </li>
+  <li class="transcript-row" id="transcript-161">
+    <time datetime="PT411S">06:51</time>
+    <p>这个节点有画了一个窗口</p>
+  </li>
+  <li class="transcript-row" id="transcript-162">
+    <time datetime="PT413S">06:53</time>
+    <p>稍微对脸部有一点提亮啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-163">
+    <time datetime="PT416S">06:56</time>
+    <p>大家看一下区别</p>
+  </li>
+  <li class="transcript-row" id="transcript-164">
+    <time datetime="PT417S">06:57</time>
+    <p>那这个素材的噪点还是比较明显的</p>
+  </li>
+  <li class="transcript-row" id="transcript-165">
+    <time datetime="PT420S">07:00</time>
+    <p>所以有在前面加了一个降噪的节点</p>
+  </li>
+  <li class="transcript-row" id="transcript-166">
+    <time datetime="PT424S">07:04</time>
+    <p>那这个降噪节点用的是达芬奇自带的一个降噪工具</p>
+  </li>
+  <li class="transcript-row" id="transcript-167">
+    <time datetime="PT427S">07:07</time>
+    <p>好那最后这个节点我们再加一个模拟的颗粒效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-168">
+    <time datetime="PT430S">07:10</time>
+    <p>好这就是这个素材模仿的一个流程和思路</p>
+  </li>
+  <li class="transcript-row" id="transcript-169">
+    <time datetime="PT433S">07:13</time>
+    <p>好这里要说一句啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-170">
+    <time datetime="PT434S">07:14</time>
+    <p>我们最终能模拟出来的视频的整体的质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-171">
+    <time datetime="PT437S">07:17</time>
+    <p>非常依赖于原素材的一个质量</p>
+  </li>
+  <li class="transcript-row" id="transcript-172">
+    <time datetime="PT440S">07:20</time>
+    <p>那像这个素材已经有了非常明显的噪点</p>
+  </li>
+  <li class="transcript-row" id="transcript-173">
+    <time datetime="PT442S">07:22</time>
+    <p>或者是有一些素材经过比较强的压缩的情况下的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-174">
+    <time datetime="PT446S">07:26</time>
+    <p>确实也容易无力回天了</p>
+  </li>
+  <li class="transcript-row" id="transcript-175">
+    <time datetime="PT447S">07:27</time>
+    <p>好我们看到下一个案例</p>
+  </li>
+  <li class="transcript-row" id="transcript-176">
+    <time datetime="PT448S">07:28</time>
+    <p>这个案例同样的也是奥德赛里面的其中的一个场景竞争</p>
+  </li>
+  <li class="transcript-row" id="transcript-177">
+    <time datetime="PT452S">07:32</time>
+    <p>那首先第一步的话我们也是对素材进行一个还原</p>
+  </li>
+  <li class="transcript-row" id="transcript-178">
+    <time datetime="PT455S">07:35</time>
+    <p>接着对画面的整体的影调进行一个调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-179">
+    <time datetime="PT458S">07:38</time>
+    <p>那其实用到的工具都大差不差</p>
+  </li>
+  <li class="transcript-row" id="transcript-180">
+    <time datetime="PT461S">07:41</time>
+    <p>就是这些色轮</p>
+  </li>
+  <li class="transcript-row" id="transcript-181">
+    <time datetime="PT462S">07:42</time>
+    <p>好接下来是对画面的色纹色调进行一个基础调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-182">
+    <time datetime="PT465S">07:45</time>
+    <p>那这些的话都是用到一些这几种的工具了</p>
+  </li>
+  <li class="transcript-row" id="transcript-183">
+    <time datetime="PT467S">07:47</time>
+    <p>好做完这一步之后的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-184">
+    <time datetime="PT469S">07:49</time>
+    <p>我有用到曲线工具对画面整体的不同的色相</p>
+  </li>
+  <li class="transcript-row" id="transcript-185">
+    <time datetime="PT472S">07:52</time>
+    <p>和这个饱和度有进行一些基础的调整</p>
+  </li>
+  <li class="transcript-row" id="transcript-186">
+    <time datetime="PT475S">07:55</time>
+    <p>那接下来这个节点的话用到的是切割器</p>
+  </li>
+  <li class="transcript-row" id="transcript-187">
+    <time datetime="PT477S">07:57</time>
+    <p>重点要处理的部分是天空的颜色</p>
+  </li>
+  <li class="transcript-row" id="transcript-188">
+    <time datetime="PT479S">07:59</time>
+    <p>那这个节点的话主要处理的是青色和蓝色的光密度和饱和度</p>
+  </li>
+  <li class="transcript-row" id="transcript-189">
+    <time datetime="PT484S">08:04</time>
+    <p>接下来这个节点有用到一级调色轮的高光色轮</p>
+  </li>
+  <li class="transcript-row" id="transcript-190">
+    <time datetime="PT488S">08:08</time>
+    <p>有稍微给高光加了一点点暖调</p>
+  </li>
+  <li class="transcript-row" id="transcript-191">
+    <time datetime="PT491S">08:11</time>
+    <p>好然后接下来我有用到Vase Refinement这个插件去</p>
+  </li>
+  <li class="transcript-row" id="transcript-192">
+    <time datetime="PT496S">08:16</time>
+    <p>这里有跟踪人脸</p>
+  </li>
+  <li class="transcript-row" id="transcript-193">
+    <time datetime="PT497S">08:17</time>
+    <p>就是加了一点点膜皮的效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-194">
+    <time datetime="PT499S">08:19</time>
+    <p>让它柔和一些</p>
+  </li>
+  <li class="transcript-row" id="transcript-195">
+    <time datetime="PT501S">08:21</time>
+    <p>那这个节点的话有针对鼻子做了一个选区</p>
+  </li>
+  <li class="transcript-row" id="transcript-196">
+    <time datetime="PT504S">08:24</time>
+    <p>把它的红色降了一些</p>
+  </li>
+  <li class="transcript-row" id="transcript-197">
+    <time datetime="PT506S">08:26</time>
+    <p>调到这一步我们可以对比一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-198">
+    <time datetime="PT507S">08:27</time>
+    <p>右边的这个电影竞争的画面中是没有左边</p>
+  </li>
+  <li class="transcript-row" id="transcript-199">
+    <time datetime="PT511S">08:31</time>
+    <p>像这样子的一个云的黄色的信息的</p>
+  </li>
+  <li class="transcript-row" id="transcript-200">
+    <time datetime="PT514S">08:34</time>
+    <p>那这里的话我有做这个节点去给单独这个云的这个黄色</p>
+  </li>
+  <li class="transcript-row" id="transcript-201">
+    <time datetime="PT519S">08:39</time>
+    <p>给它去掉一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-202">
+    <time datetime="PT520S">08:40</time>
+    <p>接着这个是针对头发上的一个压得比较暗的阴影</p>
+  </li>
+  <li class="transcript-row" id="transcript-203">
+    <time datetime="PT525S">08:45</time>
+    <p>有稍微做一点提亮啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-204">
+    <time datetime="PT526S">08:46</time>
+    <p>那接下来这两步的话就会是很细的一个处理</p>
+  </li>
+  <li class="transcript-row" id="transcript-205">
+    <time datetime="PT529S">08:49</time>
+    <p>那这里的话有给它去做一个边缘去做一个窗口</p>
+  </li>
+  <li class="transcript-row" id="transcript-206">
+    <time datetime="PT533S">08:53</time>
+    <p>有稍微去往这个电影竞争的边缘去靠拢了一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-207">
+    <time datetime="PT537S">08:57</time>
+    <p>把它提亮了一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-208">
+    <time datetime="PT539S">08:59</time>
+    <p>饱和度加了一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-209">
+    <time datetime="PT540S">09:00</time>
+    <p>那其实这一步要不要都OK无所谓啊</p>
+  </li>
+  <li class="transcript-row" id="transcript-210">
+    <time datetime="PT543S">09:03</time>
+    <p>好那接下来这个节点我主要是给大家演示一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-211">
+    <time datetime="PT545S">09:05</time>
+    <p>如果是正常的项目里面</p>
+  </li>
+  <li class="transcript-row" id="transcript-212">
+    <time datetime="PT547S">09:07</time>
+    <p>如果是没有特殊要求</p>
+  </li>
+  <li class="transcript-row" id="transcript-213">
+    <time datetime="PT548S">09:08</time>
+    <p>是不必要去对这个发色进行一个颜色的一个更改的</p>
+  </li>
+  <li class="transcript-row" id="transcript-214">
+    <time datetime="PT551S">09:11</time>
+    <p>那这里的话我主要是给大家演示一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-215">
+    <time datetime="PT553S">09:13</time>
+    <p>画面中不同颜色的搭配和组合</p>
+  </li>
+  <li class="transcript-row" id="transcript-216">
+    <time datetime="PT556S">09:16</time>
+    <p>对整体画面的视觉的最终的一个影像</p>
+  </li>
+  <li class="transcript-row" id="transcript-217">
+    <time datetime="PT559S">09:19</time>
+    <p>这也是我前面提到的</p>
+  </li>
+  <li class="transcript-row" id="transcript-218">
+    <time datetime="PT560S">09:20</time>
+    <p>为什么和诺兰合作过的摄影指导</p>
+  </li>
+  <li class="transcript-row" id="transcript-219">
+    <time datetime="PT563S">09:23</time>
+    <p>他们在拍摄之前有专门对画面整体的</p>
+  </li>
+  <li class="transcript-row" id="transcript-220">
+    <time datetime="PT566S">09:26</time>
+    <p>质景还有色彩搭配会进行提前的一个设计的一个原因</p>
+  </li>
+  <li class="transcript-row" id="transcript-221">
+    <time datetime="PT570S">09:30</time>
+    <p>如果这个地方不是说要进行胶片模拟的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-222">
+    <time datetime="PT573S">09:33</time>
+    <p>具体的话还是要根据我们这个项目的要求</p>
+  </li>
+  <li class="transcript-row" id="transcript-223">
+    <time datetime="PT576S">09:36</time>
+    <p>那按照我个人的工作经验的话呢</p>
+  </li>
+  <li class="transcript-row" id="transcript-224">
+    <time datetime="PT578S">09:38</time>
+    <p>很多项目就有些假方式</p>
+  </li>
+  <li class="transcript-row" id="transcript-225">
+    <time datetime="PT580S">09:40</time>
+    <p>有些假方式不太喜欢加这个颗粒效果的</p>
+  </li>
+  <li class="transcript-row" id="transcript-226">
+    <time datetime="PT583S">09:43</time>
+    <p>由于时间关系接下来的干粒我就不展开了</p>
+  </li>
+  <li class="transcript-row" id="transcript-227">
+    <time datetime="PT585S">09:45</time>
+    <p>那其实调色思路是一样的</p>
+  </li>
+  <li class="transcript-row" id="transcript-228">
+    <time datetime="PT587S">09:47</time>
+    <p>这里也只是给大家做一个基础的演示</p>
+  </li>
+  <li class="transcript-row" id="transcript-229">
+    <time datetime="PT589S">09:49</time>
+    <p>在调色项目中我们更多还是要从整体出发</p>
+  </li>
+  <li class="transcript-row" id="transcript-230">
+    <time datetime="PT592S">09:52</time>
+    <p>去考虑具体的调色流程</p>
+  </li>
+  <li class="transcript-row" id="transcript-231">
+    <time datetime="PT593S">09:53</time>
+    <p>从技术的角度来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-232">
+    <time datetime="PT594S">09:54</time>
+    <p>如果想要调出诺兰的胶片电影质感的话</p>
+  </li>
+  <li class="transcript-row" id="transcript-233">
+    <time datetime="PT596S">09:56</time>
+    <p>对素材的基础质量其实还是有一定要求的</p>
+  </li>
+  <li class="transcript-row" id="transcript-234">
+    <time datetime="PT599S">09:59</time>
+    <p>但要做好后期调色更重要的是</p>
+  </li>
+  <li class="transcript-row" id="transcript-235">
+    <time datetime="PT601S">10:01</time>
+    <p>我们要学会怎么去看画面怎么拆解色彩逻辑</p>
+  </li>
+  <li class="transcript-row" id="transcript-236">
+    <time datetime="PT604S">10:04</time>
+    <p>这些能力都要求我们要有系统的调色思维</p>
+  </li>
+  <li class="transcript-row" id="transcript-237">
+    <time datetime="PT606S">10:06</time>
+    <p>和日常的积累和训练</p>
+  </li>
+  <li class="transcript-row" id="transcript-238">
+    <time datetime="PT607S">10:07</time>
+    <p>好 以上</p>
+  </li>
+  <li class="transcript-row" id="transcript-239">
+    <time datetime="PT608S">10:08</time>
+    <p>如果你对专业调色和电影技术感兴趣欢迎关注</p>
+  </li>
+  <li class="transcript-row" id="transcript-240">
+    <time datetime="PT610S">10:10</time>
+    <p>我是调色师V</p>
+  </li>
+  <li class="transcript-row" id="transcript-241">
+    <time datetime="PT611S">10:11</time>
+    <p>我们下期再见 拜拜</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

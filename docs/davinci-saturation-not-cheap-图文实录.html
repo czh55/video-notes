@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="达芬奇里加饱和可以走 HSV 或 HSL 的通道二，也可以走 RGB 混合器。Vivi Lyn 说 HSV 更压明度，但不等于胶片减色；没有更高级的一种。">
+  <title>达芬奇教程｜饱和度怎么加才不廉价？｜图文实录</title>
+  <style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:18px;color:#44403c}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;margin-bottom:12px}
+.story-section p{margin:0 0 14px;color:#44403c}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e}
+.quote{background:#fff;border-left:4px solid #d6d3d1;padding:10px 14px;margin:12px 0 16px;color:#57534e;font-size:15px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px;font-weight:700;color:#b45309;font-variant-numeric:tabular-nums}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e3a8a;margin:0;font-size:15px}
+h3{font-size:20px;font-weight:700;color:#1c1917;margin:28px 0 14px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{color:#78716c;font-size:14px}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  h1{font-size:28px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+  <header>
+    <p class="kicker">图文实录 · 小红书 · Vivi Lyn</p>
+    <h1>达芬奇教程｜饱和度怎么加才不廉价？</h1>
+    <p class="meta">2026-10-17 · 3分42秒 · 调色 · <a href="https://xhslink.cn/o/5m4QIfHp8Tv">原视频</a></p>
+    <p class="lede">Vivi Lyn 把「加饱和」拆成三条路：节点切到 HSV 或 HSL 后只动通道二，以及另一套 RGB 混合器。她用同一套参数对比 HSV 和 HSL，再说混合器怎么加力度。结论不是哪条更专业，而是素材和意图决定选哪条；她自己 HSV 用得相对更多。</p>
+  </header>
+  <article class="documentary">
+    <h2>内容要点</h2>
+    <p>这是一期达芬奇调色页操作。开头约 4 秒到 30 秒口播没有被记下来，画面先把三种方法摆上节点树。正文按口播校正后的说法来写，转录区保留识别原文。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→00:30]</span>
+      <div>
+        <strong>先承认廉价感从哪来</strong>
+        <p>开场问新手有没有想让画面更鲜艳、却依赖饱和度的情况。空档里画面切到调色页，并行节点和画廊静帧都标着 HSV、HSL、RGB Mixer。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:30→01:20]</span>
+      <div>
+        <strong>通道二才是饱和度</strong>
+        <p>默认三通道是红绿蓝。色彩空间改成 HSV 或 HSL 之后，三通道变成色相、饱和度、明度或亮度。她把通道一和通道三关掉，只留通道二。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:20→02:08]</span>
+      <div>
+        <strong>曲线和色轮都能推</strong>
+        <p>曲线左边是低饱和、中间是中饱和、右边是高饱和，她拿来对应一级色轮的 Lift、Gamma、Gain，并说作用区域和算法并不一样。初学她更推荐色轮。对比用的两个节点参数相同。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:08→02:47]</span>
+      <div>
+        <strong>厚，不等于胶片</strong>
+        <p>HSV 加饱和时明度压得更明显，颜色密度上来，有人觉得像胶片的厚重。她马上补了一句：这只是视觉相似，不是胶片减色成像。HSL 更轻，亮度留得更好，颜色没有 HSV 扎实。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:47→03:18]</span>
+      <div>
+        <strong>混合器是另一套逻辑</strong>
+        <p>RGB 混合器靠输出通道里的混合比例拉开颜色分离和对比，画面更有张力，结构更清楚。红绿蓝加上同样的数值，再到 Key 面板的 Key Out Gain 收力度。用力过度会破坏肤色和灰阶。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[03:18→03:41]</span>
+      <div>
+        <strong>按素材选，不是按等级选</strong>
+        <p>她说不同项目需求不同，不存在哪种方法更高级、更专业。她自己会换着选，相对来说 HSV 用得更多。片尾是点赞关注。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>廉价感来自「只拉一个饱和度」。HSV 通道二把饱和和明度捆在一起，看起来更厚；HSL 通道二更留亮度；RGB 混合器改的是颜色分离。三条都能加饱和，结果不是同一种饱和。</p>
+    </div>
+
+    <section class="story-section">
+      <h2>鲜艳和廉价之间，三种加法先摆上桌</h2>
+      <span class="time-range">00:00–00:30</span>
+      <p>视频从一张很艳的泳池画面开始。孩子戴着泳镜，躺在粉色浮床上，水是亮蓝色。口播问的是调色新手有没有遇到过：想让画面更鲜艳，但手里依赖的就是饱和度。这句话在 00:00 到 00:04 说完，后面大约二十六秒没有被 Whisper 记成句子。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-01.jpg" alt="夜店餐桌前的人物，青橙对比，字幕在讲专业调色师处理饱和度的不同方法" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 口播空档里，夜店餐桌画面下方字幕写着：专业调色师处理饱和度会有不同的方法。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f5143c991f63.mp3" type="button" aria-label="Play English audio">🔊</button><span>During the narration gap, the diner shot carries a subtitle: professional colorists handle saturation in different ways.</span></div>
+<audio class="cap-audio" src="audio/f5143c991f63.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>抽帧把这段补上了。大约 8 秒切到夜店餐桌，人物坐在红桌子前，灯光是暖的，窗外偏青。画面字幕写：专业调色师处理饱和度会有不同的方法。大约 14 秒回到泳池，右下角叠了一块矢量示波器，粉色浮床把示波器往红和品红方向拉出去，字幕是「看哪种会更适合你的素材」。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-02.jpg" alt="达芬奇调色页，并行节点标着 HSV、HSL 和 RGB Mixer，画廊静帧按这三种方法命名" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:20] 调色页时间线上方，并行节点标着 HSV、HSL 和 RGB Mixer，左侧画廊静帧也按这三种方法命名。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e4839d5664b8.mp3" type="button" aria-label="Play English audio">🔊</button><span>On the Color page, parallel nodes are labeled HSV, HSL, and RGB Mixer, and the gallery stills use the same three names.</span></div>
+<audio class="cap-audio" src="audio/e4839d5664b8.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>大约 20 秒进入达芬奇调色页。工程标题就是 HSV、HSL、RGB MIXER。节点树里这三支被放进并行混合，后面还能看见标成 709 和 texture 的节点。左侧画廊静帧成对标着 HSV 和 HSL。大约 26 秒她在节点上点开右键，菜单停在 Channels，下面是 Channel 1、Channel 2、Channel 3。口播从 00:30 才接上：三个通道分别代表的是 RGB，也就是红绿蓝。</p>
+      <p class="quote">开场原话（简体）：「调色新手是否有遇到过想让画面变得更鲜艳，但依赖饱和度。」00:04 到 00:30 的介绍只出现在画面字幕里，转录没有对应分段。</p>
+    </section>
+
+    <section class="story-section">
+      <h2>色彩空间一换，通道二才是饱和度</h2>
+      <span class="time-range">00:30–01:20</span>
+      <p>她先把默认状态说清楚。节点还在 RGB 时，三个通道就是红、绿、蓝。把节点的 Color Space，也就是色彩空间，切到 HSV 或者 HSL，这三个通道代表的分量跟着变：Hue 色相、Saturation 饱和度，以及 Value 或 Lightness，她译成明度和亮度。</p>
+      <p>接下来先做 HSV。色彩空间已经选成 HSV 之后，到 Channel 这里把 Channel 1 和 Channel 3，也就是通道一和通道三关掉。识别稿这里断成「只保 edereen 道二」，对照 01:04 的画面字幕，应读成「只保留通道二」。她说这一步的意思是：这个节点里调参数，只针对通道二，也就是饱和度。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-03.jpg" alt="节点右键 Channels 菜单，只保留通道二，字幕写关掉通道一和通道三" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:04] 节点右键打开 Channels：通道一和通道三被关掉，只留下通道二。字幕说这一步只针对饱和度。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6c2a8f498bc2.mp3" type="button" aria-label="Play English audio">🔊</button><span>The node Channels menu turns off Channel 1 and Channel 3 and leaves Channel 2. The subtitle says this step targets saturation only.</span></div>
+<audio class="cap-audio" src="audio/6c2a8f498bc2.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>HSL 她说操作同理。识别稿写成「操作同意」，按前后文是「同理」：色彩空间选 HSL，同样关掉通道一和通道三。视频没有展开 HSV 和 HSL 在数学上差在哪一个轴，只先把「只动饱和度这一路」做成同一种操作。</p>
+      <p class="quote">校正后的原话：「只保留通道二。这就代表我们在这个节点调参数，那只是针对通道二，也就是饱和度来进行调整。」</p>
+    </section>
+
+    <section class="story-section">
+      <h2>曲线管低中高，初学她先推色轮</h2>
+      <span class="time-range">01:20–02:08</span>
+      <p>通道隔离之后，推饱和度的工具有两个：曲线，或者一级调色轮。她把曲线调出来给大家看。左边是低饱和区域，中间是中饱和区域，右边是高饱和区域。她说这三段分别对应一级色轮里的 Lift、Gamma 和 Gain。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-04.jpg" alt="达芬奇曲线面板打开，字幕把左边标成低饱和、中间标成中饱和" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:32] 曲线面板打开时，字幕把左边标成低饱和区域，中间标成中饱和区域。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e1fbf7d9b310.mp3" type="button" aria-label="Play English audio">🔊</button><span>With the curves panel open, the subtitle marks the left as low saturation and the middle as mid saturation.</span></div>
+<audio class="cap-audio" src="audio/e1fbf7d9b310.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>对应关系说到这里她就停了。下一句是：这两种工具对画面作用的区域和算法并不一样。这部分她说在自己的调色系统课里有详细讲解，这里不展开。所以这期视频只建立「左低、中中、右高」和三个色轮的对照，没有给曲线形状，也没有给色轮上的具体度数。</p>
+      <p>演示仍然用曲线。对初学者，她更推荐色轮，理由是控制起来更方便、更精准。为了让对比直观，HSV 和 HSL 两个节点她调整的参数是一样的。先看 HSV 加饱和之后的画面，然后她说会 Grab Still 一下。识别稿听成「Grab Steel」和「截取一下镜针」，按达芬奇里的静帧命令，这里是 Grab Still，截一张静帧，用来并排看 HSV 和 HSL。</p>
+    </section>
+
+    <section class="story-section">
+      <h2>HSV 压明度，HSL 把亮度留住</h2>
+      <span class="time-range">02:08–02:47</span>
+      <p>从视觉结果看，HSV 在提高饱和度的时候，画面会伴随着更明显的明度压缩，以及颜色密度的提升。她转述一种常见感觉：视觉上更接近胶片式的厚重感。紧接着她把这句话的边界说死：本质上并不等于真正的胶片减色成像模型，只是视觉上有一定的相似性。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-05.jpg" alt="选中 HSV 节点的调色页，字幕说明这种厚重感不等于胶片减色成像模型" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] 选中 HSV 节点时，字幕说明这种厚重感本质上并不等于真正的胶片减色成像模型。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0c7e4c361bec.mp3" type="button" aria-label="Play English audio">🔊</button><span>With the HSV node selected, the subtitle says this heavier look is not a real film subtractive imaging model.</span></div>
+<audio class="cap-audio" src="audio/0c7e4c361bec.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>再切到 HSL。她说 HSL 的颜色会更轻，画面亮度保留得更好一些，但色彩没有 HSV 扎实。识别稿这里是繁体写法，正文按简体写成扎实。两段对比都建立在「两个节点参数一样」这个前提下，她没有报出那个参数是多少，本页也不补数字。</p>
+      <p class="quote">作者原话：「它本质上的话并不等于真正的胶片减色成像模型，那只是视觉上会有一定的相似性而已。」</p>
+    </section>
+
+    <section class="story-section">
+      <h2>RGB 混合器拉开分离，Key Out Gain 收力度</h2>
+      <span class="time-range">02:47–03:18</span>
+      <p>第三种她说是另外一套逻辑。RGB 混合器通过调整 RGB 输出通道里的混合比例，来增强颜色分离和色彩对比。所以画面会更有张力，色彩结构也会更清晰。这和前两种「只开饱和度通道」不是同一件事：前两种是在 HSV 或 HSL 里单独动饱和，混合器是在 RGB 输出上改混合。</p>
+      <figure>
+        <img src="assets/davinci-saturation-not-cheap/shot-06.jpg" alt="选中 RGB Mixer 节点，字幕说画面会更有张力、色彩结构更清晰" loading="lazy">
+        <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:56] RGB Mixer 节点被选中，字幕说这样画面会更有张力，色彩结构也会更清晰。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cf8b55b549cc.mp3" type="button" aria-label="Play English audio">🔊</button><span>The RGB Mixer node is selected. The subtitle says the picture gains more tension and a clearer color structure.</span></div>
+<audio class="cap-audio" src="audio/cf8b55b549cc.mp3" preload="none"></audio>
+</figcaption>
+      </figure>
+      <p>操作她讲了两步。先到 RGB 混合器的三个颜色输出通道，红、绿、蓝，给它们增加同样的数值。再到 Key 面板的 Key Out Gain，调整数值，用来控制增加饱和度的力度。画面在大约 03:10 停在这个 Key 面板上。滑块上的具体读数本页不写成步骤，避免把单帧里的瞬时数值当成她给出的标准。</p>
+      <p>风险她说得很短：用力过度的话，会破坏肤色和灰阶。视频没有演示「过度」之后的肤色偏到哪，也没有给灰阶被破坏的示波器标准，只留下这句提醒。</p>
+    </section>
+
+    <section class="story-section">
+      <h2>没有更高级的一种，她自己 HSV 用得更多</h2>
+      <span class="time-range">03:18–03:41</span>
+      <p>收尾她把等级拿掉。不同的项目会有不同的需求，并不存在哪种方法更高级、更专业的说法。所以还是得根据素材的实际情况，和具体的创作意图，来选择合适的方法。这是作者观点：三条路并列，不排序。</p>
+      <p>她补了一句个人习惯。在不同素材里她会有不同的选择，但相对来说，HSV 的使用比例要高一些。「相对高一些」没有给出比例，也不能读成 HSV 永远优先。</p>
+      <p>03:34 之后是结尾口播：如果这期视频有帮助，或者想了解更多专业调色的内容，记得点赞关注。她自报「我是 Vivi」，下期再见。笔记标题和 meta 里的作者名是 Vivi Lyn，口播只说了 Vivi。</p>
+    </section>
+  </article>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，原文为繁体识别，可能包含识别误差。正文已改写的几处：只保 edereen 道二当作只保留通道二；操作同意当作操作同理；Grab Steel、镜针当作 Grab Still 静帧。00:04 到 00:30 没有非空分段。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>調色新手是否有遇到過想讓畫面變得更鮮豔</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>但依賴飽和度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT30S">00:30</time>
+    <p>三個通道分別代表的是RGB</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT32S">00:32</time>
+    <p>也就是紅綠藍三個顏色通道</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT34S">00:34</time>
+    <p>當我們把節點的Color Space</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT36S">00:36</time>
+    <p>也就是色彩空間切換到HSV</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT40S">00:40</time>
+    <p>或者是HSL的時候</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT42S">00:42</time>
+    <p>那這個節點內的三個通道所代表的分量也隨之改變</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT46S">00:46</time>
+    <p>分別變成Hue 色相 Saturation飽和度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT48S">00:48</time>
+    <p>Value和Lightness</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT50S">00:50</time>
+    <p>也就是明度和亮度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT51S">00:51</time>
+    <p>好 接下來我們先看HSV</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT53S">00:53</time>
+    <p>那剛才我們在節點的色彩空間已經選擇了HSV</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT56S">00:56</time>
+    <p>那接下來在Channel這個地方的話呢</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT59S">00:59</time>
+    <p>我們把Channel 1和Channel 3</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT60S">01:00</time>
+    <p>也就是通道一和通道三給關掉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT63S">01:03</time>
+    <p>只保edereen道二</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT64S">01:04</time>
+    <p>這就代表我們在這個節點調參數</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT66S">01:06</time>
+    <p>那只是針對通道二也就是飽和度來進行調整</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT70S">01:10</time>
+    <p>HSL的操作同意</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT72S">01:12</time>
+    <p>也就是在節點的色彩空間這裡選擇HSL</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT76S">01:16</time>
+    <p>然後同樣是把通道一和通道三給關掉</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT79S">01:19</time>
+    <p>接下來我們可以用曲線工具</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT81S">01:21</time>
+    <p>我們把它調出來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT83S">01:23</time>
+    <p>也可以用一級調色輪來對畫面進行飽和度的調整</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT87S">01:27</time>
+    <p>好 我們現在看到曲線</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT89S">01:29</time>
+    <p>左邊代表的是低飽和區域</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT91S">01:31</time>
+    <p>中間代表的是中飽和區域</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT93S">01:33</time>
+    <p>那右邊的話就代表的是高飽和區域</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT96S">01:36</time>
+    <p>那對應的分別就是一級調色輪裡的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT99S">01:39</time>
+    <p>Lift Gamma和Gain這三個色輪</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT101S">01:41</time>
+    <p>當然這兩種工具對畫面作用的區域和算法並不一樣</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT104S">01:44</time>
+    <p>那這部分內容的話</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT105S">01:45</time>
+    <p>我在我的調色系統課裡面有詳細的講解</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT108S">01:48</time>
+    <p>這裡就不深入展開了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT109S">01:49</time>
+    <p>好 這裡我們可以用曲線工具來給大家演示一下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT111S">01:51</time>
+    <p>好 如果你是調色初學者的話</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT113S">01:53</time>
+    <p>這裡我會比較推薦你們可以用色輪就好了</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT116S">01:56</time>
+    <p>它控制起來會更方便和精準一些</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT118S">01:58</time>
+    <p>這裡為了方便大家更直觀的對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT120S">02:00</time>
+    <p>那這兩個節點我調整的參數是一樣的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT123S">02:03</time>
+    <p>首先我們看到這個HSV</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT124S">02:04</time>
+    <p>HSV加飽和度的效果是這樣子的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT127S">02:07</time>
+    <p>然後我會Grab Steel一下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT128S">02:08</time>
+    <p>把它截取一下鏡針</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT130S">02:10</time>
+    <p>我們來對比一下HSV和HSL的一個增加飽和度的視覺上的對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT135S">02:15</time>
+    <p>好 那從視覺結果上看的話</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT137S">02:17</time>
+    <p>HSV在提高飽和度的時候</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT140S">02:20</time>
+    <p>畫面會伴隨著更明顯的明度的壓縮以及顏色密度的提升</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT145S">02:25</time>
+    <p>有人會覺得它在視覺上會更接近膠片式的厚重感</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT148S">02:28</time>
+    <p>但它本質上的話並不等於真正的膠片減色成像模型</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT153S">02:33</time>
+    <p>那只是視覺上會有一定的相似性而已</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT156S">02:36</time>
+    <p>那對比HSL</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT157S">02:37</time>
+    <p>我們來看一下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT158S">02:38</time>
+    <p>HSL的畫面的顏色會更輕</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT161S">02:41</time>
+    <p>那畫面的亮度的保留會更好一些</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT164S">02:44</time>
+    <p>但色彩的話就沒有HSV的紮實</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT166S">02:46</time>
+    <p>RGB混合器則是另外一套邏輯</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT169S">02:49</time>
+    <p>它是通過調整RGB輸出通道裡的混合比例</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT172S">02:52</time>
+    <p>來增強顏色分離和色彩對比</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT175S">02:55</time>
+    <p>所以畫面會更有張力</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT176S">02:56</time>
+    <p>色彩結構也會更清晰</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT177S">02:57</time>
+    <p>但用力過度的話則會破壞膚色和灰階</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT180S">03:00</time>
+    <p>具體的操作方式</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT181S">03:01</time>
+    <p>我們可以來到RGB混合器的這三個顏色</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT185S">03:05</time>
+    <p>輸出通道裡面的紅綠藍</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT187S">03:07</time>
+    <p>給它增加同樣的數值</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT189S">03:09</time>
+    <p>然後再來到key面板的key out</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT192S">03:12</time>
+    <p>gain這個地方調整它的數值來</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT195S">03:15</time>
+    <p>控制它增加飽和度的一個力度</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT197S">03:17</time>
+    <p>最後還是要說一下</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT198S">03:18</time>
+    <p>不同的項目會有不同的需求</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT200S">03:20</time>
+    <p>並不存在哪種方法更高級更專業的說法</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT203S">03:23</time>
+    <p>那所以大家還是得根據素材的實際情況</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT206S">03:26</time>
+    <p>和具體的創作意圖來選擇合適的方法</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT208S">03:28</time>
+    <p>我個人在不同的素材中會有不同的選擇</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT210S">03:30</time>
+    <p>但相對來說HSV的使用比例相對是要會高一些的</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT214S">03:34</time>
+    <p>好以上如果這期視頻對你有幫助</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT216S">03:36</time>
+    <p>或者你想了解更多專業調色的相關內容</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT218S">03:38</time>
+    <p>記得點贊關注</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT219S">03:39</time>
+    <p>我是Vivi我們下期再見</p>
+  </li>
+
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT220S">03:40</time>
+    <p>bye</p>
+  </li>
+</ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

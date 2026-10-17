@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6236" viewBox="0 0 1320 6236">
+  <foreignObject x="0" y="0" width="1320" height="6236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 18px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      <div class="container">
+  <h1>A6700 的私藏设置，是按键分工加直出取舍</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-green">颜颜相机</span>
+    <span class="tag tag-orange">作者习惯</span>
+    <span class="tag tag-gray">5分16秒</span>
+  </div>
+  <div class="summary-line">这支片子真正回答的不是「A6700 官方最佳参数」，而是：三年日常拍摄里，哪些动作值得离开菜单、哪些画质可以让给存储、过热时她先动哪三项。片头的「抄作业」和结尾的「没有固定参数」是同一套立场的两头。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:30</div><div class="timeline-text">口播：延迟摄影和直出慢动作升格都在 S&amp;Q。00:04–00:30 的三个档位说明只在字幕里。</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:56</div><div class="timeline-text">菜单：自定义键/转盘设置。AF-ON 改屏幕/取景器切换，并关闭取景器自动开启。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:20</div><div class="timeline-text">自定义按钮 3 = 显示屏亮度。口播称这颗键为删除键。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:28</div><div class="timeline-text">自定义按钮 2 = 识别目标切换。转录在这里退化成重复的「键」。</div></div>
+    <div class="timeline-item"><div class="timeline-time">01:52</div><div class="timeline-text">中央按钮 = 变焦。字幕明确写成清晰影像缩放，用于定焦补焦段。</div></div>
+    <div class="timeline-item"><div class="timeline-time">02:36</div><div class="timeline-text">JPEG 尺寸 L:26M。口播只承诺「精细」，没有承诺 RAW+JPEG。</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:04</div><div class="timeline-text">60p，记录设置行 45M 4:2:0 10bit。对应口播的「最低码率」和 V60 拍 4K60。</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:14</div><div class="timeline-text">半分钟无口播。画面经过 NTSC/PAL 选择器，以及延时摄影 / 慢和快设置。</div></div>
+    <div class="timeline-item"><div class="timeline-time">03:40</div><div class="timeline-text">创意外观停在 FL。口播给出降一档曝光或降低高光，不给出可复核的格子数。</div></div>
+    <div class="timeline-item"><div class="timeline-time">04:12</div><div class="timeline-text">动态范围优化停在 1 级。发灰时先怀疑高档位。</div></div>
+    <div class="timeline-item"><div class="timeline-time">04:44</div><div class="timeline-text">自动关机温度选「高」。另两条是打开显示屏，以及她自己的冰贴。</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>少翻菜单，少占卡，少关机</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">证据<br/>按键菜单 + 60p 低码率 + 关机温度「高」</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">判断<br/>直出和单手优先于最高规格</div>
+      <div class="arrow">→</div>
+      <div class="node">行动<br/>先改键，再按光线选帧率</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>先改掉三个误读</h3>
+    <p>连续的「键」不是功能名，01:28 的菜单写的是识别目标切换。「尾班」是「我一般」，「出篇」是「出片」，「迟久」是「持久」，这三处都有画面字幕对照。片头回放上的 4K 50p 是旧素材信息，不是后面推荐的 60p。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">按键：把会打断拍摄的四件事移出菜单</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>自定义键按模式分成上下两页。她点名的四项是：取景切换、屏幕亮度、识别目标、清晰影像缩放。目的是单手完成，避免点屏幕或进菜单时错过画面。</p>
+      <div class="quote">「提升拍摄效率的关键是自定义按键。」「不用再因点击屏幕或者在菜单栏里翻找而错过转瞬即逝的美好。」</div>
+      <div class="action">用法：先确认自己停在拍照页还是视频页，再改同一颗键。AF-ON 负责屏幕/取景器并关掉自动开启；删除键位置（按钮 3）管亮度；C2（按钮 2）管识别目标；转盘中心管变焦，也就是清晰影像缩放。</div>
+      <p>立场：按键分工是画面可核对的事实。单手因此不会错过瞬间，是她的效率判断，视频没有计时对比。</p>
+    </div>
+    <div class="card card-orange">
+      <h3>不要一起抄进去的一项</h3>
+      <p>预览字幕把侧面 C1 说成创意外观快捷。全尺寸帧没有定格到那一行菜单。C1 先空着，等自己打开自定义键页再填。</p>
+      <div class="pitfall">清晰影像缩放是裁切放大，不是光学变焦。定焦「补焦段」会损失视角和像素，她只说「一定程度上」，没有说无损。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">画质：省卡是明确目标，最高规格不是</h2>
+    <div class="card card-green">
+      <h3>照片与视频各让了一步</h3>
+      <p>照片侧，口播把 JPEG 质量放在精细，画面尺寸是 L:26M，文件格式行显示 JPEG。她没有口头承诺 RAW。视频侧，好光 4K 60、暗光 24 帧；卡速上她说 V60 够 4K60，120 帧才要 V90。03:04 这一帧的记录设置是 45M 4:2:0 10bit，用来落地「最低码率」。</p>
+      <div class="highlight">适用边界：V60 / V90 是她的实测说法，不是本笔记做的卡速测试。45M 只对这一帧的 60p 菜单成立，换到 24p 或 120p 要重新看列表。</div>
+      <div class="action">若目标和她一样是直出、少占卡：精细 JPEG、AF-C、好光 60p 选偏低码率。若目标是后期调色，这套「基本靠直出」的前提不成立，不应把低码率 4:2:0 当成通用建议。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>四套创意外观，按她的场景而不是按官方说明书</h3>
+    <p>口播从 03:44 起连续给出四套用法。FL 的调节条在 03:40 可见，但格子数字未逐格核验，表内不填参数。</p>
+    <table>
+      <thead><tr><th>预设</th><th>她的描述</th><th>她建议的场景或补救</th><th>证据强度</th></tr></thead>
+      <tbody>
+        <tr><td>FL</td><td>胶片感，对比强，高光易过曝</td><td>曝光降一档，或降低高光</td><td>口播完整；画面确认选中 FL</td></tr>
+        <tr><td>IN</td><td>氛围强，对比适中</td><td>人像、美食</td><td>只有口播，没有单独停帧</td></tr>
+        <tr><td>SH</td><td>适合糖水片</td><td>未再展开</td><td>只有口播一句</td></tr>
+        <tr><td>VV2</td><td>很鲜艳</td><td>日落、花草</td><td>只有口播一句</td></tr>
+      </tbody>
+    </table>
+    <div class="pitfall">这四句是个人审美分配。换镜头、换光线后，同一预设的高光表现会变。不要把「富士胶片的感觉」理解成机内仿富士配方。</div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">发灰、防抖、过热：三条都有反例条件</h2>
+    <div class="card card-purple">
+      <h3>动态范围优化不是越高越有质感</h3>
+      <p>症状是发灰、没质感。她的检查顺序是先看是不是开了较高档位。自己的默认是关闭或 1 档；菜单这一帧停在 1 级。需要更多明暗细节时才往上开。</p>
+      <div class="quote">「如果你觉得照片发灰没有质感，可以看看动态范围优化是不是开着较高档位。」</div>
+      <p>事实是菜单选项和她的档位偏好。发灰是否一定由动态范围优化造成，视频没有对照片。高反差场景若直接关掉，暗部会更死，这是她后半句「要细节就开启」留下的口子。</p>
+    </div>
+    <div class="card card-red">
+      <h3>防抖开着，也不等于走路稳</h3>
+      <p>机身防抖她一直开。下一句承认走路手持基本不够稳，丝滑要靠慢动作升格。防抖和升格解决的不是同一个晃动。</p>
+      <h3>过热的三条，强度不一样</h3>
+      <ul>
+        <li>打开显示屏：她说录制会持久一点。机制她没解释，只给结果。</li>
+        <li>自动关机温度调到「高」：04:44 菜单可核对。这是允许机身更热，不是降低发热。</li>
+        <li>冰凉贴：包装上能看到「荷叶」。帮助程度是「一定帮助」，没有时长数据。</li>
+      </ul>
+      <div class="pitfall">调高关机温度会让机身在更热时才停。长时间录制仍可能关机，冰贴不能写成解决方案。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <p>可核对的是路径：S&amp;Q 放延时和升格；AF-ON、按钮 3、C2、中央按钮各管一件事；JPEG 精细与 L:26M；60p 这一帧的 45M 4:2:0 10bit；动态范围优化 1 级；关机温度「高」。其余是她的三年习惯。</p>
+    <h3>行动清单</h3>
+    <ol>
+      <li>分清拍照页和视频页，再改自定义键。</li>
+      <li>AF-ON 改取景切换并关闭自动开启；按钮 3 管亮度；C2 管识别目标；中心键管清晰影像缩放。</li>
+      <li>直出、省卡时用精细 JPEG；好光 4K60 再考虑偏低码率，120 帧先确认卡是不是 V90。</li>
+      <li>画面发灰时先看动态范围优化，不要默认拉到最高。</li>
+      <li>长录制前把自动关机温度调到高，并接受这只是推迟关机。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>以前会把「私藏设置」听成一组曝光数字。这支片子的设置主体是按键和记录规格，曝光只在 FL 过曝时出现「降一档」。抄作业抄的是少进菜单，不是一套万能参数。</p>
+  </div>
+  <div class="footer">理性分析 · 索尼 A6700 三年私藏设置 · 证据来自本地转录与抽帧 · 2026-10-17</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

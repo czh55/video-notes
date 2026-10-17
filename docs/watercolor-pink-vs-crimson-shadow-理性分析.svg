@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6135" viewBox="0 0 1320 6135">
+  <foreignObject x="0" y="0" width="1320" height="6135">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:92px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>水彩浅粉色 vs 深红花朵的暗部</h1>
+  <div class="meta">
+    <span class="tag tag-blue">绘画造型</span>
+    <span class="tag tag-purple">水彩花卉</span>
+    <span class="tag tag-orange">作者方法</span>
+    <span class="tag tag-gray">1分15秒 · 18段口播</span>
+  </div>
+  <div class="summary-line">浅粉暗部要先分层再叠干净粉色，换来通透；大红玫瑰要先在盘里融合，换来浓郁。差别在颜色相遇的地点，不在多加一层黑。</div>
+
+  <div class="timeline">
+    <h3>关键证据</h3>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">口播点名两种方法：分层给浅色系暗部，融合留给后面的大红。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">暗色举例是紫、蓝、灰，先画在底层，再叠干净粉色。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:26</span><span class="timeline-text">通透的理由被说成水彩半透明，底色会透上来。这是作者解释，不是测量。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:36</span><span class="timeline-text">画面字幕：提前在底层画好灰色。口播补一句右下角有点蓝色。</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:39</span><span class="timeline-text">烧录字幕写出「提纯」。粉和紫先在盘里搅匀，被指成上面那朵「脏了」。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">大红明确不追求通透。红色里加点紫色，叠上去刻画。</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:13</span><span class="timeline-text">纸上四字收束：分层对通透，融合对浓郁。</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">暗部要不要先混匀</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">浅粉：纸上分层</div>
+      <div class="arrow">→</div>
+      <div class="node">底色透上来</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">通透，避免显脏</div>
+    </div>
+    <div class="diagram">
+      <div class="node">同一问题的另一支</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">大红：盘里融合</div>
+      <div class="arrow">→</div>
+      <div class="node">红里加紫再叠</div>
+      <div class="arrow">→</div>
+      <div class="node">浓郁，不求通透</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解</h3>
+    <p>不是「浅色少加暗、深色多加暗」这么简单。两条路用的暗色都可以是紫。浅粉怕的是粉和紫在调色盘里先搅匀；大红要的正是搅匀之后的那一层。脏、干净、通透、浓郁都是她对着自己的范例说的。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">颜色在哪里相遇</h2>
+    <div class="card">
+      <h3>在讲什么</h3>
+      <p>分层是暗色先在纸上，干净粉色后盖。融合是两种颜色先在调色盘里变成一种，再画到花上。</p>
+      <div class="highlight">关键理解：相遇地点决定暗部是「透出底色」还是「已经混好的一块颜色」。</div>
+      <div class="action">怎么用：画浅粉暗部时，紫、蓝、灰留在纸的底层；画浓郁大红时，允许红和紫在盘里搅开再上。</div>
+      <div class="quote">原文依据（00:05–00:23）：「上面分层呢你可以用来画浅色系花朵的暗部……在照染的方式把干净的这个粉色叠上去。」听写是「照染」，字幕未完整显示这两个字。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>作者观点，不是颜料定律</h3>
+      <p>她把通透归因于水彩半透明、底色透上来，把「不显脏」归因于不要提前搅匀。半透明是材料常识级别的说法，但这支视频没有对照实验，也没有写出颜料品牌、含水量或干透时间。</p>
+      <div class="relation">立场：通透与不脏是茅夫人的目标描述。可核验的是操作顺序和纸上的四个字。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>听写不要直接当术语</h3>
+      <p>「照染」更像罩染的听写，但字幕没打全，正文只采用她说清的动作。00:39 字幕里的「提纯」是她自己的用词，指把干净粉色再画上去，不要换成另一种颜料名。「既生下去了」没有字幕，按暗部变深理解即可。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">什么叫脏，什么叫浓郁</h2>
+    <div class="card card-red">
+      <h3>浅粉这条路上的脏</h3>
+      <p>脏的操作被说死了：粉色跟紫色提前在调色盘上搅拌均匀，就会像上面那样。纸上 1 写「脏了」，2 写「变干净了」，3 写「变立体」。干净的路径是底层灰色加右下角一点蓝，再用提纯的方式往上画。</p>
+      <div class="pitfall">不要把「脏了」理解成紫色本身不能用。同一段口播里，紫色仍是浅色暗部的底层候选。</div>
+      <div class="quote">原文依据（00:42–00:47）：「如果你粉色跟紫色提前在调色盘上搅拌均匀呢，就会像上面那样脏了。」</div>
+    </div>
+    <div class="card card-green">
+      <h3>大红这条路上的浓</h3>
+      <p>融合故意不追求通透。红色里加点紫色，暗色搅拌完再叠，用来刻画。片尾把这条写成「浓郁」，和浅粉的「通透」对举。浓郁不是把浅粉那套再压黑一层。</p>
+      <div class="insight">选择条件：想留住浅粉的干净，就分层；想要大红玫瑰闷而饱，就融合。目标先定，再选相遇地点。</div>
+      <div class="quote">原文依据（01:00 与 01:13）：「它不追求通透，它追求的是浓郁的这种效果。」纸上对应「融合 / 浓郁」。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>两条暗部对照</h3>
+    <table>
+      <tr><th>项目</th><th>浅粉花朵</th><th>浓郁型大红玫瑰</th></tr>
+      <tr><td>方法名</td><td>分层</td><td>融合</td></tr>
+      <tr><td>暗色何时加入</td><td>先画在纸的底层</td><td>先在调色盘里和红色搅匀</td></tr>
+      <tr><td>暗色例子</td><td>紫、蓝、灰；示范是灰加右下角一点蓝</td><td>红色里加点紫色</td></tr>
+      <tr><td>上层</td><td>干净粉色，她称为提纯</td><td>搅匀后的颜色直接叠上去刻画</td></tr>
+      <tr><td>她要的结果</td><td>通透，不显脏</td><td>浓郁，不追求通透</td></tr>
+      <tr><td>纸上原词</td><td>分层、通透；另有变干净了、变立体</td><td>融合、浓郁</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>方法边界</h3>
+    <ul>
+      <li>只覆盖她演示的浅粉花和大红玫瑰暗部。叶子、背景、湿画衔接没有讲。</li>
+      <li>没有颜料编号、加水量、干透秒数。照着做时这些都要自己试。</li>
+      <li>「脏」「干净」「通透」「浓郁」是作者判断。换纸、换品牌，观感会变，视频没有比较。</li>
+      <li>听写「照染」「生下去」不能当成她写下的术语。能当术语用的是纸上的分层、融合、通透、浓郁，以及字幕里的提纯。</li>
+    </ul>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>浅粉暗部：紫蓝灰在底层，干净粉色在上面。</li>
+      <li>粉和紫先在盘里搅匀，在她的浅粉范例里叫脏。</li>
+      <li>大红暗部：红和紫先搅匀再画，接受浓、不追透。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>画浅粉前先决定暗部底色是灰、蓝还是紫，单独铺一层，不要和粉色同时下笔搅开。</li>
+      <li>底色上只叠干净粉色，对照她纸上的「变干净了」看有没有发闷。</li>
+      <li>画大红时另开一摊颜色，红里加一点紫，搅匀后再刻画花心和瓣根。</li>
+      <li>两朵并置时用她的四个字自检：浅的还透不透，深的浓不浓，而不是比谁更黑。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>暗部不是统一再加一笔暗色。浅色要让暗色留在下面透出来，深色要让暗色在盘里先变成花本身的颜色。</p>
+  </div>
+  <div class="footer">理性分析 · 证据来自本地转录与画面 · 2026-10-17 · 茅夫人手绘慢生活（有课）</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
