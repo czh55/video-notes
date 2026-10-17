@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3264" viewBox="0 0 1320 3264">
+  <foreignObject x="0" y="0" width="1320" height="3264">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#1c1917}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;font-weight:900;color:#9a3412;line-height:1.35;margin-bottom:8px}
+.sub{font-size:15px;color:#78716c;margin-bottom:16px}
+.tag{display:inline-block;padding:3px 12px;border-radius:999px;font-size:13px;font-weight:600;margin:0 8px 8px 0;background:#ffedd5;color:#9a3412}
+.summary-line{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 20px;margin:8px 0 22px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px}
+.map{background:#fff;border-radius:16px;padding:22px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.step{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:10px 12px;min-width:140px;font-size:14px;line-height:1.45}
+.step b{display:block;color:#9a3412}
+.arrow{color:#b45309;font-weight:700}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 12px}
+th,td{border-bottom:1px solid #e7e5e4;text-align:left;padding:10px 12px;font-size:14px;line-height:1.55;vertical-align:top}
+th{background:#fff7ed;color:#9a3412}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #b45309}
+.card h3{font-size:17px;margin-bottom:6px;color:#1c1917}
+.card p,.card li{font-size:15px;line-height:1.7;color:#44403c}
+.card ul{padding-left:1.2em;margin:6px 0}
+.page{font-weight:700;color:#b45309}
+.footer{margin-top:24px;font-size:13px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <h1>先问四件事，再决定哪一边在动</h1>
+  <p class="sub">理性分析 · 敖舜 · FCP 修剪 · 图文 13 页 · 2026-10-17</p>
+  <span class="tag">余量</span><span class="tag">Ripple</span><span class="tag">Roll</span><span class="tag">Slip</span><span class="tag">Slide</span>
+  <p class="summary-line">能向外修，先看媒体余量（第 1/13、2/13 页）。Ripple 改一边并带动后面，30 秒例子变成 27 秒（第 3/13 页）。Roll 只搬切点，10+10 变成 13+7，总长仍是 20 秒（第 4/13 页）。Slip 外框不动、内容滑 5 秒（第 5/13 页）。Slide 在第 6/13 页是 B、C 整段一起动。字母键从第 11/13 页才出现，不能回写第 3–8 页。</p>
+
+  <div class="map">
+    <h2>比较：四个问题对上五种修法</h2>
+    <div class="flow">
+      <div class="step"><b>入点 / 出点</b>这一边从哪一帧用到哪一帧</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>切点</b>两个镜头交界停在哪一帧</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>位置</b>片段在时间线上有没有搬家</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>总长</b>后面跟不跟着、片子变不变短</div>
+    </div>
+    <table>
+      <thead><tr><th>图上的修法</th><th>动什么</th><th>总长</th><th>这一页印的操作</th></tr></thead>
+      <tbody>
+        <tr><td>Ripple 波纹</td><td>一边的入点或出点，后面片段跟着挪</td><td>变。例子 30 秒到 27 秒</td><td>选择工具 A，拖边缘（第 3/13 页）</td></tr>
+        <tr><td>Roll 滚动</td><td>前一段出点和后一段入点一起搬</td><td>不变。13 秒加 7 秒仍是 20 秒</td><td>A，拖交界正中（第 4/13 页）</td></tr>
+        <tr><td>Slip 滑移</td><td>外框不动，里面的入出点滑动</td><td>不变。内容向后 5 秒</td><td>A，拖片段中部（第 5/13 页）</td></tr>
+        <tr><td>Slide 滑动</td><td>第 6/13 页：选中范围整体挪，前后被牵动</td><td>不变</td><td>A，拖范围中间（第 6/13 页）</td></tr>
+        <tr><td>修剪到播放头</td><td>修掉播放头一侧。左侧图标修的是右端</td><td>变短</td><td>Option+] 左侧，Option+[ 右侧（第 7/13 页）</td></tr>
+      </tbody>
+    </table>
+    <p>第 9/13 页不改这四问的答案，只把声音和画面错开：J-Cut 下一段声音先入，L-Cut 上一段声音留在下一段画面里。分离音频印成 ⌥⌘S，连接音频印成 ⌥⌘G。</p>
+  </div>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>同一套笔记里有三套键</h3>
+    <p>第 3/13 到第 6/13 页：Ripple、Roll、Slip、Slide 都是选择工具 A，靠光标在边缘、交界正中、片段中部来区分。靠错边，Roll 会变成 Ripple（第 4/13 页）。</p>
+    <p>第 7/13 页：修剪到播放头是 Option+] 和 Option+[，不是字母 P。第 8/13 页：刀片是 B；精确度编辑器页眉和打开步骤写 E，表里「打开方式」又写 ⌘E。</p>
+    <p>第 11/13、12/13、13/13 页改成 Ripple A、Roll T、Slip Y、Slide U、修剪到播放头 P、刀片 B、精确度编辑器 ⌘B。第 12/13 页还把 A 定义成范围选择，不再是通用选择工具。读哪一页就用哪一页印的键。</p>
+  </div>
+  <div class="card">
+    <h3>Slide 三页三种范围</h3>
+    <ul>
+      <li>第 6/13 页：同时移动两个片段及其之间的内容。例子是选中 B、C，向右 5 秒，A 和 D 也跟着动。</li>
+      <li>第 11/13 页：影响所选片段及其右侧片段，内容不变，位置会变化。</li>
+      <li>第 13/13 页：整体移动片段及其后所有片段，用来改叙事顺序，键印成 U。</li>
+    </ul>
+    <p>对例子时用第 6/13 页那条时间线，不要用后页的「只动右侧」去改写它。</p>
+  </div>
+  <div class="card">
+    <h3>左右名字和被删的一侧是反的</h3>
+    <p>第 7/13 页写明：修剪到播放头左侧，修的是片段右侧；右侧，修的是片段左侧。播放头在 00:15、素材 00:00–00:20 时，左侧结果结束于 00:15，右侧结果开始于 00:15。对比表英文印成 Trim to Playheed。</p>
+  </div>
+  <div class="card">
+    <h3>范围选择的修饰键也对不上</h3>
+    <p>第 10/13 页图标是添加到选择 ⌥⌘+、从选择中移除 ⌥⌘-，删除键印成 Delete/Delete。第 12/13 页把添加、移除印成 ⌃⌘+= 和 ⌃⌘-，另外单列波纹删除 ⌥⌘⌫ 和留下空隙的 ⌫。实战页 J/L 的 S、G 修饰键无法确认，不能改写成第 9/13 页的 ⌥⌘S、⌥⌘G。</p>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card">
+    <h3>页码、余量例子、没印清的键</h3>
+    <ul>
+      <li>封面无页码。图上页角是 02/12 至 12/12。文件第 11 张也印 10/12，序号从 8 跳到 10，没有印 9。</li>
+      <li>封面余量四种，文件名 P101C0126.MP4，整段拖入写「没有余量」。第 2/13 页五种，多了转场，文件名换成 DJI_202605160530.MP4，整段拖入写「基本没有余量」。</li>
+      <li>没有余量时，波纹向外拉会出红色阻挡（第 3/13 页）；转场会提示余量不足（第 2/13 页）。导出后再导入的成片没有余量。</li>
+      <li>选择播放头下方片段的键、范围页「按住某键多选」的键帽、精确度编辑器里 Option/Shift 是否左右方向都印了，无法确认。</li>
+      <li>「效率翻倍」和「95%」是口号。键只按图上的字记，没有在 Final Cut Pro 里复核。</li>
+    </ul>
+  </div>
+
+  <h2>可执行动作</h2>
+  <div class="card">
+    <h3>按图上的顺序做一次</h3>
+    <ol>
+      <li>先看片段能不能向外拉。整段用尽或导入的是成片，就只向内修（第 1/13、2/13 页）。</li>
+      <li>要删停顿、让后面靠上来：用第 3/13 页，A，拖边缘。逗号、句点逐帧，Shift 加逗号或句点跳 10 帧。</li>
+      <li>要改切点但总长不变：用第 4/13 页，光标必须在交界正中。靠到边上会变成波纹。</li>
+      <li>要换镜头里的画面、节奏不动：用第 5/13 页，拖片段中部。</li>
+      <li>要整段一起挪：用第 6/13 页的例子，选中要一起动的范围再拖中间。不要先按第 13/13 页的 U。</li>
+      <li>播放头已经停在想要的帧：用第 7/13 页的 Option+] 或 Option+[，先放播放头再选片段。</li>
+      <li>要切开用 B。要逐帧对切点，按第 8/13 页自己的打开步骤，不要改成第 12/13 页的 ⌘B。</li>
+      <li>声画错开：第 9/13 页先 ⌥⌘S，再拖音频边缘，需要时 ⌥⌘G 接回去。</li>
+    </ol>
+  </div>
+  <p class="footer">结论引页：余量第 1–2 页，波纹第 3 页，滚动第 4 页，滑移第 5 页，滑动第 6 页，播放头第 7 页，键冲突第 8 页和第 11–13 页。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

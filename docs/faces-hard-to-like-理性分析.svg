@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3792" viewBox="0 0 1320 3792">
+  <foreignObject x="0" y="0" width="1320" height="3792">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#b45309;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#44403c;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#57534e;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f5f5f4;color:#78716c}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#44403c;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:160px;max-width:240px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#57534e;margin-top:6px}
+.node-green{background:#f0fdf4;border-color:#86efac;color:#166534}
+.node-red{background:#fef2f2;border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:22px;color:#d6d3d1;align-self:center}
+.sec{margin-bottom:8px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#57534e}
+.conclusion{background:linear-gradient(135deg,#9a3412,#b45309);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.25);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}</style>
+      
+<div class="container">
+  <h1>难喜欢的是说明里的判断，图上是三栏加一份高分报告</h1>
+  <div class="meta">
+    <span class="tag tag-orange">摆渡者</span>
+    <span class="tag tag-orange">观感分类</span>
+    <span class="tag tag-gray">8 页</span>
+    <span class="tag tag-gray">笔记观点</span>
+  </div>
+  <p class="summary-line">说明把「没说话就觉得不好惹」写成长相吃亏，不是人坏。第 1 页只给出亲和、凌厉、NPC 三栏标签，没有写出「很难让人喜欢」。第 2 到 8 页是一份 88/100 的测颜报告，风格写成少女元气型。把后七页收成「难喜欢的脸」，图上没有这条连线。</p>
+
+  <section class="map">
+    <h2>比较：第 1 页三栏，对上后七页的用词</h2>
+    <div class="diagram">
+      <div class="node node-green">第 1 页 亲和<small>轮廓柔和，眼距较宽，五官较小</small></div>
+      <div class="arrow">∥</div>
+      <div class="node node-red">第 1 页 凌厉<small>轮廓锋利，眼距窄，瞳孔小，下颌突出</small></div>
+      <div class="arrow">∥</div>
+      <div class="node">第 1 页 NPC<small>纹路、眼袋、凹陷、眼神空洞</small></div>
+      <div class="arrow">→</div>
+      <div class="node">第 2–8 页 报告<small>88 分，少女元气，窄眼距被夸</small></div>
+    </div>
+    <table>
+      <tr><th>条目</th><th>亲和（1/8）</th><th>凌厉（1/8）</th><th>报告里相近的句子</th></tr>
+      <tr><td>轮廓</td><td>柔和，脸型流畅</td><td>锋利，下颌骨突出</td><td>第 6 页写流畅下颌线，又写瓜子脸</td></tr>
+      <tr><td>眼距</td><td>较宽</td><td>窄</td><td>第 4 页标签是窄眼距，并写成形态优美</td></tr>
+      <tr><td>五官大小</td><td>五官较小</td><td>瞳孔小</td><td>第 4 页眼睛标签含大眼；第 3 页中国栏写樱桃小口</td></tr>
+      <tr><td>鼻</td><td>鼻头圆钝，山根较低</td><td>同样两句</td><td>第 4 页低鼻梁，优势又写鼻梁挺直；第 8 页写成希腊鼻</td></tr>
+      <tr><td>眉骨与留白</td><td>眉骨不突出，面部留白多</td><td>同样两句</td><td>后七页没有这两句</td></tr>
+      <tr><td>嘴</td><td>嘴唇微微上扬</td><td>同样一句</td><td>NPC 栏改成下唇外翻；报告没有嘴角方向</td></tr>
+      <tr><td>纹路与支撑</td><td>未写</td><td>未写</td><td>只在 NPC 栏：法令纹、木偶纹、眼袋、面颊凹陷、无骨头支撑</td></tr>
+    </table>
+    <p>亲和与凌厉有五条标注相同：嘴唇微微上扬、面部留白多、眉骨不突出、鼻头圆钝、山根较低。能分开两栏的，是轮廓、眼距、五官较小或瞳孔小，以及凌厉多一条下颌骨突出。NPC 不走这组共用句。</p>
+  </section>
+
+  <section class="sec">
+    <h2>易错</h2>
+    <div class="card card-red">
+      <h3>把标题直接安到第 1 页某一栏</h3>
+      <p>「很难让人喜欢」「不好惹」在说明里，不在八张图上。第 1 页的栏名是亲和、凌厉、NPC。凌厉更接近说明里的不好惹，但页上没有写二者等同。NPC 也没有被写成难喜欢。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把窄眼距读成缺点</h3>
+      <p>第 1 页凌厉栏写眼距窄，和轮廓锋利放在一起。第 4 页把窄眼距与猫眼、大眼并列，总句是形态优美、眼神清澈明亮。同一用词，两页评价方向相反。不能用第 1 页改写第 4 页。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把瓜子脸和圆脸收成一种脸型</h3>
+      <p>第 3 页中国审美的符合特点是瓜子脸，日韩审美的符合特点是圆脸。第 6 页格子又写瓜子脸、面长略短。三处没有测量，也没有写「介于两者之间」。并成一张确定的脸，是读者补的。</p>
+    </div>
+    <div class="card card-red">
+      <h3>格子和评语互相覆盖</h3>
+      <p>第 4 页标签写低鼻梁，优势写鼻梁挺直。第 5 页质地写略有纹理，优势写肌肤平滑。第 6 页格子写窄额头、低颧骨，优势写额头饱满、颧骨位置适中。每对都在同一页，页上没有写以哪一行为准。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把分数和明星相似度当成鉴定</h3>
+      <p>第 2 页 88/100，第 3 页 89 与 84，第 8 页白鹿 82%、倪妮 77%。没有公式、没有照片对照。第 2 页相似明星是周冬雨、关晓彤、欧阳娜娜，第 8 页换成白鹿和倪妮，匹配特征却都只写希腊鼻、猫眼。两页名单对不上。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>边界</h2>
+    <ul>
+      <li>八页是观感标签和测颜文案。不能当成面相、医学或性格结论，也不能用来判断一个人好不好相处。</li>
+      <li>第 1 页是三维头像加短句，不是真人测量。没有毫米、角度、瞳距。</li>
+      <li>第 2 到 8 页用「您的」称呼，但没有出示被测的脸。报告和第 1 页三栏是不是同一个人，无法确认。</li>
+      <li>第 5 页底部只有「护肤建议」标题，正文被裁掉，具体建议无法确认。</li>
+      <li>第 7 页的发色、刘海、齐肩波波头，以及酒红、深紫、玫瑰金、勃艮第红、黑色对浅色、粉嫩、清淡，是清单，没有前后对比。</li>
+      <li>第 8 页的明星名字是相似度标签。同一组希腊鼻、猫眼，评语一个写清纯甜美，一个写高级冷艳，说明标签推不出气质。</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>动作</h2>
+    <ol>
+      <li>先把说明和第 1 页分开。说明回答的是「不好惹是不是人坏」。第 1 页只提供三栏对照，不要把栏名改写成性格。</li>
+      <li>读第 1 页时，先划掉亲和和凌厉的共用句，再看剩下的轮廓、眼距、下颌和瞳孔。共用句不能用来区分两栏。</li>
+      <li>遇到窄眼距、低鼻梁、瓜子脸，回到第 4、6 页看同一页的反句。反句还在，就不要选一边当成定论。</li>
+      <li>若只执行笔记自己写的妆发建议：第 4 页是睫毛膏和眼线，以及鼻部清洁；第 5 页是去角质和清洁，护肤建议正文不要补；第 7 页是深棕或栗棕、刘海、齐肩波波头，以及它列出的适合色和避开色。</li>
+      <li>分数、风格名和明星相似度停在第 2、3、8 页的原文。不要用 88 分或 82% 去给真人贴「好相处」或「难喜欢」。</li>
+    </ol>
+  </section>
+
+  <section class="conclusion">
+    <h2>结论</h2>
+    <p>这篇能成立的，是说明里的一句态度，加上第 1 页三栏观感，再加上后七页一份自相矛盾的高分报告。难喜欢没有被画成可核对的脸。窄眼距在第 1 页靠近凌厉，在第 4 页被写成优点；脸型在第 3 页同时是瓜子脸和圆脸。离开这些页码，不能推出谁不好惹。</p>
+  </section>
+  <p class="footer">依据：图文笔记 8 页 · 摆渡者 · 有些长相一看就很难让人喜欢</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

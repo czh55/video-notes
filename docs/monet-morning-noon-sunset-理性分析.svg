@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3596" viewBox="0 0 1320 3596">
+  <foreignObject x="0" y="0" width="1320" height="3596">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;color:#1c1917;margin:0 0 8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:1.2em;margin:0}
+li{margin:0 0 6px}
+.kicker{font-size:13px;letter-spacing:.06em;font-weight:700;color:#b45309;margin-bottom:8px}
+.meta{font-size:13px;color:#78716c;margin-bottom:14px}
+.meta a{color:#b45309;text-decoration:none}
+.lede{font-size:16px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 12px rgba(180,83,9,.06)}
+.card.wide{grid-column:1 / -1}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#9a3412;background:#ffedd5;border-radius:999px;padding:2px 8px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:14px}
+th{text-align:left;background:#ffedd5;color:#9a3412;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c;line-height:1.65}
+.page{font-weight:700;color:#b45309;white-space:nowrap}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 小红书 · 留晞*</p>
+  <h1>莫奈到底在用什么，区分清晨、正午、日落？</h1>
+  <p class="meta">2026-10-17 · 图文 9 页 · <a href="https://xhslink.cn/o/9zrdB7U18C0">原文短链</a></p>
+  <p class="lede">三根轴分开用。明度先升后降，对比跟着光线明不明确，色彩沿冷到暖占同一条色相轴的三段。暗可以仍是低长调。近 30 幅调灰后的九调是大致规律，图上没有色号。</p>
+
+  <h2>比较</h2>
+  <table>
+    <thead><tr><th>同一问题</th><th>清晨</th><th>正午</th><th>日落</th><th>页</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>明度气氛</td>
+        <td>折线上标「中调」，副题写多数。第 4 页是中调集中、明度集中且柔和。第 8 页：中调为主，也有高调（偏蓝紫），无低调。</td>
+        <td>折线升到最高，标「高调」，副题写多数。第 4 页是高调集中、整体最亮。第 8 页：高调占绝大多数，少量中调，无低调。</td>
+        <td>折线降到靠近低调，标「中调/低调」。第 4 页写向中低明度移动。第 8 页：中调为主，出现低调。</td>
+        <td class="page">第 3、4、8 页</td>
+      </tr>
+      <tr>
+        <td>对比宽窄</td>
+        <td>柔光、空气感强。标签是中长调、中短调。明暗收在中间，形体慢慢融进空气。</td>
+        <td>明确光、边界清晰。高长调、高中调开始出现。亮部与暗部拉开，明暗跨度增大。</td>
+        <td>柔光、明度下沉。中短调、中长调，低短调开始出现。短调明显增多，明暗收窄，低调开始出现。</td>
+        <td class="page">第 5 页</td>
+      </tr>
+      <tr>
+        <td>色相落点</td>
+        <td>雾霭蓝、蓝灰、蓝紫，整体偏冷。第 8 页特征写成蓝灰 / 蓝紫明显。</td>
+        <td>米白、金黄、浅金，暖色开始主导。第 4 页写黄色调主导，第 8 页写金黄 / 浅黄 / 米白。</td>
+        <td>粉橙、暖棕、橙红，暖色推向极致。第 8 页特征是粉橙 / 金黄 / 暖棕增强，没有把橙红写成全天都有。</td>
+        <td class="page">第 4、7、8 页</td>
+      </tr>
+      <tr>
+        <td>暗的时候对比还在不在</td>
+        <td>清晨样本写无低调，这一问用不上清晨。</td>
+        <td>正午样本也写无低调。最亮和最拉开叠在同一时刻，但不能据此推出「越暗就越平」。</td>
+        <td>日落明度下沉，同时短调变多，这是收窄。阴天另有一条：整体很暗，仍标低长调，留住一点很强的光。</td>
+        <td class="page">第 5、6、8 页</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 3 页对第 7 页</span>
+      <h3>时间等于换一种颜色</h3>
+      <p>第 3 页写：不是用「不同颜色」告诉我们时间变了，明度气氛也一起改变。第 7 页写：不是把教堂「越画越红」，同时改的是明度、色相、冷暖与对比。第 9 页把对象收成建筑本身没变。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 5 页</span>
+      <h3>对比跟着亮不亮走</h3>
+      <p>页底写对比不一定跟着「亮不亮」同步，更受光线是否明确、边界是否清晰影响。正午又亮又拉开；日落明度下沉，短调却在增多。两根轴可以反向走。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 6 页对第 5 页</span>
+      <h3>暗等于平</h3>
+      <p>第 5 页日落是短调增多、明暗收窄。第 6 页阴天样本整体很暗，标签却是低长调，要留住一点很强的光。暗是亮度落到低处，平是把明暗关系压掉。低长调是暗，但对比还在。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 5、8 页</span>
+      <h3>中调只有一个意思</h3>
+      <p>「中调」在第 3、4、8 页是亮度：整体落在中间。中长调、中短调在第 5 页是又中又长、又中又短，长和短管的是对比。日落「中调/低调」说的是亮度下移，不是短调。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 7 页</span>
+      <h3>橙红可以出现在清晨或正午</h3>
+      <p>小字写橙红仅在日落阶段出现，清晨与正午样本中均未见。第 8 页日落特征列出粉橙、金黄、暖棕，没有把橙红提前到前两个时段。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2、8 页</span>
+      <h3>九宫是测出来的刻度</h3>
+      <p>第 2 页写九调的判断含有主观性，结论是样本中观察到的大致规律。样本是近 30 幅，调灰后才归入高 / 中 / 低 × 长 / 中 / 短。表上没有百分比，也没有最亮与最暗相差多少级。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 2、8 页</span>
+      <h3>近 30 幅，不是全集清单</h3>
+      <p>两页都写近 30 幅《鲁昂大教堂》，第 8 页补上调灰后按明度九调归类。没有画名列表，不能把某一格说成某一幅的实测明度。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 6 页</span>
+      <h3>阴天低长调还没验完</h3>
+      <p>页底写目前样本还比较少，此点作为后续继续验证的方向。暗不等于平，可以用这一页记住；不能把它写成已经数完的比例。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1、4、7、8 页</span>
+      <h3>颜色是词，不是色号</h3>
+      <p>封面三幅没有时刻标签，也没有色值。正午在第 4 页是「黄色调主导」，在第 7 页是米白、金黄、浅金，在第 8 页是金黄 / 浅黄 / 米白。用词不完全同一，不要合成一个色号。</p>
+    </div>
+    <div class="card">
+      <span class="tag">九张的页脚</span>
+      <h3>缺的那一页不要补</h3>
+      <p>图上页脚是 01/10 到 07/10，下一张直接印 09/10，最后一张印完 · 10/10。08/10 不在这九张里，上面写了什么无法确认。第 8 页表下小字能读出「九调判断含主观性」和「大致规律」，中间几个字无法逐字确认。</p>
+    </div>
+  </div>
+
+  <h2>动作</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 2 页</span>
+      <h3>先调灰，再点九宫</h3>
+      <ul>
+        <li>先去掉色相，只留明度关系。</li>
+        <li>高 / 中 / 低定这一行的亮度，长 / 中 / 短定这一列的对比。</li>
+        <li>判断写成大致规律，不写成仪器读数。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 3、8 页</span>
+      <h3>先问明度落在曲线哪一截</h3>
+      <ul>
+        <li>清晨：多数中调；表上还有偏蓝紫的高调，没有低调。</li>
+        <li>正午：多数高调，少量中调，没有低调，整体最亮。</li>
+        <li>日落：中调为主，低调出现，向中低明度移动。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 5、6 页</span>
+      <h3>再问光是否明确，暗处有没有锚</h3>
+      <ul>
+        <li>边界清晰：允许高长调、高中调，把亮部和暗部拉开。</li>
+        <li>柔光：中长调、中短调，明暗收在中间。</li>
+        <li>画面已经很暗：先看是低短还是低长。低长调要留住一点很强的光，不要把所有关系压平。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 7、9 页</span>
+      <h3>最后才用色相给时刻做记号</h3>
+      <ul>
+        <li>冷：雾霭蓝、蓝灰、蓝紫。</li>
+        <li>暖开始：米白、金黄、浅金。</li>
+        <li>暖推到极致：粉橙、暖棕、橙红。橙红只留给日落。</li>
+        <li>三步一起改。建筑保持为同一座教堂，变的是光线进来之后整套视觉关系。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="foot">依据九张图。看不清的页脚缺页、表下小字和色号，不写成确定句。</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

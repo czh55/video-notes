@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3864" viewBox="0 0 1320 3864">
+  <foreignObject x="0" y="0" width="1320" height="3864">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>闪光先选三组参数</h1>
+  <p class="meta">理性分析 · 徐贰懂 · 图文 12 页 · 2026-10-17</p>
+  <p class="lede">闪光灯能出神图，是因为色温、持续时间和同步方式可以按场景分开选。色温大约钉在 5500K，用来接正午日光。凝固动作看 t.1，不看快门。只有快门必须快过同步速度时才上高速同步，并接受有效光降到普通模式的 1/3 到 1/5。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">色温约 5500K<br/>2/12、4/12</div>
+      <div class="arrow">→</div>
+      <div class="node">凝固看 t.1<br/>5/12、7/12</div>
+      <div class="arrow">→</div>
+      <div class="node">同步速度内一次闪<br/>8/12</div>
+      <div class="arrow">→</div>
+      <div class="node">过了才用 HSS<br/>9/12、10/12</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>灯位教程 vs 灯本身</td><td>多数教程讲灯位、附件、角度。这一篇只立三组参数：色温、持续时间、高速同步，对应氙气放电、RC 电路、焦平面快门时序。</td><td>1/12、12/12</td></tr>
+    <tr><td>日光混合 vs 暖光混合</td><td>环境光约 5600K、闪光 5500K，肤色自然，不用两张色温卡。室内暖光 3200K 配 5500K 主光，会出现前冷后暖，可以是风格，也可以是废片。</td><td>2/12、3/12</td></tr>
+    <tr><td>改灯 vs 迁就灯</td><td>色温固定约 5500K，改不了。能改的是环境光色纸，或相机白平衡。</td><td>4/12</td></tr>
+    <tr><td>IGBT 低功率 vs 老式调压</td><td>现代机顶闪和影室灯低功率时蓝色成分增强，色温往往升到 6000K–6500K。部分老式电压调节型降低功率可能反向走暖。偏差通常 ±150K 到 ±400K。</td><td>4/12</td></tr>
+    <tr><td>t.5 vs t.1</td><td>t.5 是峰值衰减到 50%，数值更小，厂商爱标。t.1 是维持在峰值 10% 以上的总时长，约是 t.5 的 3 倍，才是有效凝固窗口。标称 1/800s（t.5）的例子，t.1 大约 1/250s。</td><td>5/12</td></tr>
+    <tr><td>快门 vs 闪光持续时间</td><td>环境光由快门控制，例子 1/200s。闪光凝固由持续时间控制。水滴能冻住，是因为闪光时间短，不必把快门调到 1/2000s。</td><td>6/12、7/12</td></tr>
+    <tr><td>三档灯的 t.1</td><td>入门机顶闪全功率约 1/300s–1/500s。Profoto A 系列全功率约 1/350s，低功率缩短至 1/1000s 以上。影室灯高速模式低功率可达 1/10000s 以上。静态人像 1/300s 就写够了。</td><td>7/12</td></tr>
+    <tr><td>普通同步 vs 高速同步</td><td>低于同步速度（通常 1/200s–1/250s）整块 CMOS 同时曝光，一次闪光。高于同步速度（例子 1/1000s）只剩窄缝，单次大脉冲变成一条亮带。HSS 用通常 50kHz–100kHz 的短脉冲去跟上窄缝。</td><td>8/12、9/12</td></tr>
+    <tr><td>一次放电 vs 拆成脉冲</td><td>普通同步把电容一次放完，页上写成 100% 光能打在打开的 CMOS 上。HSS 拆成几十上百次，帘幕挡住时发出的光到不了传感器。有效光通常降到普通模式的 1/3 到 1/5。</td><td>9/12、10/12</td></tr>
+    <tr><td>四个场景的同步</td><td>户外逆光：普通同步，低于 1/250s，F8 控制进光，不用 HSS。强光大光圈 F1.4–F2.8：快门必须大于 1/250s，用 HSS，灯靠近脸。室内暗光动态：普通同步，快门 1/200s，全功率，并选更短的 t.1。混合暖光：CTO 把 5500K 降到 3200K。</td><td>10/12、11/12</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>用快门数字代替闪光时间</h3>
+    <p><span class="pg">4/12</span> 写很多人以为快门速度就是把那一刻完全定格。<span class="pg">6/12</span> 把环境光交给快门、把凝固交给持续时间。<span class="pg">7/12</span> 直接说冻住水滴的不是 1/2000s 的快门。快门只决定环境光进了多久。</p>
+  </div>
+  <div class="card">
+    <h3>把厂商标的 t.5 当成凝固窗口</h3>
+    <p><span class="pg">5/12</span> 写厂商喜欢标更小的 t.5。例子里 1/800s（t.5）对应的 t.1 大约是 1/250s。甩头发、水花、裙摆要看的是 t.1（<span class="pg">6/12</span>）。只抄标称持续时间，窗口会被看成短了大约三倍。</p>
+  </div>
+  <div class="card">
+    <h3>把高速同步当成更强的闪光</h3>
+    <p><span class="pg">10/12</span> 的原句是：HSS 不是更好的闪光。有效光通常只剩 1/3 到 1/5，灯发热加快，拍摄距离缩短。<span class="pg">9/12</span> 解释能量被拆开，而且大量发在帘幕遮挡期间。大光圈加大快门才值得付这个代价；能用 ND 把快门压回来，就先不用。</p>
+  </div>
+  <div class="card">
+    <h3>室内暖光里不改色温就当补光</h3>
+    <p><span class="pg">3/12</span> 把 5500K 主光加 3200K 环境写成前冷后暖，风格和废片都有可能。<span class="pg">4/12</span> 说灯的色温改不了。<span class="pg">11/12</span> 场景四的做法是加橙色色纸，把 5500K 降到 3200K。不角色纸、又不接受这种反差，肤色就会一边冷一边暖。</p>
+  </div>
+  <div class="card">
+    <h3>低功率只当省电，不看色温和 t.1 一起变</h3>
+    <p><span class="pg">4/12</span> 现代 IGBT 低功率色温往往升到 6000K–6500K。<span class="pg">7/12</span> 同一档低功率又把 t.1 缩短。动态场景要短 t.1，静态场景要稳色温，两边的「低功率」不是同一个好处。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>十二页没有闪光指数。所有快门和持续时间都是页上举例或标称范围，不能当成某次实拍的测光读数。</li>
+    <li>显色指数只写极高，没有数字。标准色温是 5500K±200K，能量峰值区间另写约 5500K–6000K，户外环境光另写约 5600K。三个数不要并成一个测得值。</li>
+    <li><span class="pg">5/12</span> 的定义是峰值 10% 以上，后文又把 t.1 叫做完全熄灭。10% 以上不等于光已经没了。</li>
+    <li><span class="pg">6/12</span> 同一段先举持续时间 1/800s t.1，接着又写仅持续 1/2000s 的光脉冲。页上没有说明这是同一支灯。</li>
+    <li><span class="pg">7/12</span> 动态人像写「t.1 在 1/1000s 以上」，<span class="pg">11/12</span> 场景三写「t.1 小于 1/1000s」。比较符号不一致，不能合成一个采购阈值。高端灯那句是「缩短至 1/1000s 以上」，「缩短」和「以上」也没有再定义。</li>
+    <li><span class="pg">9/12</span> 写高速同步下相机极其耗电；<span class="pg">10/12</span> 写的是闪光灯发热和光输出下降。耗电落在机身还是灯上，两页没有对上。</li>
+    <li><span class="pg">9/12</span> 的 100% 光能是对普通同步的写法，不是实测效率。HSS 频率是通常 50kHz–100kHz，脉冲次数是几十上百次，都是范围。</li>
+    <li><span class="pg">3/12</span> 成片标明是蜂鸟网链接上的成功版本，这一页没有它的快门、光圈和灯功率。<span class="pg">6/12</span> 曲线没有刻度。B 站链接换行后的完整参数无法确认。Profoto A 系列只作为高端机顶闪的例子。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按场景走 10/12 和 11/12 的表</h3>
+    <p>先认色温：灯大约 5500K，改不了（<span class="pg">2/12、4/12</span>）。户外逆光，白平衡用日光或自动，普通同步，快门低于 1/250s，光圈 F8 控制进光，不用 HSS（<span class="pg">10/12、11/12</span>）。强光下要 F1.4–F2.8，快门必须大于 1/250s 才上 HSS，接受功率下降，灯靠近人脸；能加 ND 就把快门拉回同步速度以下（<span class="pg">10/12、11/12</span>）。室内暗光拍舞蹈或甩裙，白平衡设 5500K，普通同步，快门 1/200s，灯全功率，并按页上的短 t.1 来选灯（<span class="pg">7/12、11/12</span>）。现场是暖光，加 CTO 把 5500K 收到 3200K，避免前冷后暖（<span class="pg">3/12、11/12</span>）。商业多灯再用色温计量，后期统一校（<span class="pg">4/12</span>）。</p>
+  </div>
+  <p class="footer">只采用十二页印出的说法 · why-flash-works</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

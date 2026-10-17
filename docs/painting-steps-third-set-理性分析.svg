@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2106" viewBox="0 0 1320 2106">
+  <foreignObject x="0" y="0" width="1320" height="2106">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:30px;font-weight:900;color:#b45309;margin-bottom:8px}
+h2{font-size:20px;font-weight:700;color:#b45309;margin:22px 0 10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:22px;margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px;background:#fff}
+th,td{padding:8px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#b45309}
+.note{margin-top:10px}
+.box{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 16px;margin-top:8px}</style>
+      
+<h1>每一步只动被许可的那一层</h1>
+<p>标题说的六张图，是同一只手上的六步。1/7 是并排总览，2/7 到 7/7 各放大一步。能当步骤用的是「这一步准许改什么」。画面标题比笔记正文短，正文多出来的限制要一起算。</p>
+<h2>比较</h2>
+<table>
+<tr><th>页</th><th>这一步准许动的</th><th>和上一步的差别</th></tr>
+<tr><td>2/7</td><td>固有色。先统一平涂，不考虑明暗</td><td>整只手是一块暖肤色，内部没有亮暗。正文写把整只手当成一个整体，不急着找体积</td></tr>
+<tr><td>3/7</td><td>二分。只分亮暗，暗部统一压下去</td><td>亮部留固有色，暗部收成一块暖褐，交界偏硬。还没有灰面</td></tr>
+<tr><td>4/7</td><td>灰面。画面写只在亮部加入大面过渡</td><td>大面转圆。正文要求灰面加在亮部和明暗交界附近，暗部保持 3/7 不变</td></tr>
+<tr><td>5/7</td><td>暗部细节。只加重暗部，补反光和环境色</td><td>前三步不打开暗部。正文限定在最深处加暗中暗，且不要顺手画细亮部</td></tr>
+<tr><td>6/7</td><td>高光。只点最亮的几笔</td><td>指尖、关节和指甲上的小亮笔。正文禁止大面积提亮</td></tr>
+<tr><td>7/7</td><td>塑造添加点线。最后补小色块、边缘和细节</td><td>指甲、关节转折和褶皱更清楚。大块亮暗还在，不是把皮肤涂光</td></tr>
+<tr><td>1/7</td><td>六格对照，不新增步骤</td><td>六句说明与后六页一致。手的朝向和光源方向对不齐，无法确认</td></tr>
+</table>
+<h2>易错</h2>
+<div class="box">
+<ul>
+<li>在 2/7 就找体积。这一步的完成标准是整只手的固有色，内部不该有亮暗。</li>
+<li>在 3/7 就把暗部画成好几层，或提前铺灰。暗部在这一步是一整块，灰面要等到 4/7。</li>
+<li>在 4/7 只看画面上的「只在亮部」，漏掉正文：暗部要保持第二步，灰面还包含明暗交界附近。</li>
+<li>在 5/7 顺手把亮部画细，或把整块暗部换成一个新颜色。正文写的是最深处的暗中暗，加上反光和环境色，不是重铺亮部。</li>
+<li>把 5/7 没有标注的色块自行命名成反光或环境色。画面没有标出哪一块是哪一种。</li>
+<li>在 6/7 大面积提亮手背或手掌。许可只有最亮的几笔。中央的「小红书」水印不是高光。</li>
+<li>在 7/7 把块面涂光。点线只补小色块、边缘、指甲和关节转折，不取代前面五步。</li>
+</ul>
+</div>
+<h2>边界</h2>
+<div class="box">
+<ul>
+<li>示范对象是同一只手，不能直接换成头像或静物还保持这些色块。</li>
+<li>页面没有笔刷名称、色号、光比。这些不要补。</li>
+<li>手心朝上还是朝下、左手还是右手，1/7 和单页对不齐，无法确认。</li>
+<li>光源在左上还是右上，各页对不齐，无法确认。不要写成测量过的光位。</li>
+<li>5/7 的反光和环境色没有标出对应色块，冷还是暖无法确认。</li>
+<li>6/7 的高光是不是纯白，没有色值，无法确认。</li>
+<li>7/7 上青筋或冷色是否画出，无法确认。正文点名的是小色块、边缘线、指甲和关节转折。</li>
+</ul>
+</div>
+<h2>动作</h2>
+<div class="box">
+<ul>
+<li>开画先对 2/7：整只手平涂完固有色，停住，不在内部找体积。</li>
+<li>再做 3/7：只切一刀亮暗。亮部颜色不动，暗部收成一块。交界先保持硬。</li>
+<li>做 4/7 时只在亮部和明暗交界附近加灰，让大面转起来。暗部先不要打开。</li>
+<li>做 5/7 时只进最深的位置，加暗中暗，并补少量反光和环境色。没有标注的色块不要自行命名。亮部不要在这一步画细。</li>
+<li>做 6/7 时只在最亮处点几笔，例如指尖、关节转折和指甲。不要整片提亮。</li>
+<li>做 7/7 时补少量小色块、边缘线、指甲和关节转折。大色块还要留得住。</li>
+<li>画完用 1/7 从左到右、从上到下对六格：哪一格开始出现灰、哪一格才加重暗部、哪一格才出现高光。对不上就回到对应单页，不要在最后一层补前面漏掉的关系。</li>
+</ul>
+</div>
+<p class="note">支撑页：平涂 2/7，亮暗 3/7，灰面 4/7，暗部 5/7，高光 6/7，点线 7/7，跳步对照 1/7。</p>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3516" viewBox="0 0 1320 3516">
+  <foreignObject x="0" y="0" width="1320" height="3516">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;color:#1c1917;margin:0 0 8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:1.2em;margin:0}
+li{margin:0 0 6px}
+.kicker{font-size:13px;letter-spacing:.06em;font-weight:700;color:#b45309;margin-bottom:8px}
+.meta{font-size:13px;color:#78716c;margin-bottom:14px}
+.meta a{color:#b45309;text-decoration:none}
+.lede{font-size:16px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 12px rgba(180,83,9,.06)}
+.card.wide{grid-column:1 / -1}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#9a3412;background:#ffedd5;border-radius:999px;padding:2px 8px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:14px}
+th{text-align:left;background:#ffedd5;color:#9a3412;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c;line-height:1.65}
+.page{font-weight:700;color:#b45309;white-space:nowrap}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 小红书 · 咖啡修图馆</p>
+  <h1>Plog｜修图口诀！</h1>
+  <p class="meta">2026-10-17 · 图文 2 页 · <a href="https://xhslink.cn/o/4bDUZRyCpbU">原文短链</a></p>
+  <p class="lede">两页可见的是组①②和组④⑤：先校白平衡与曝光，再动风格色；人像给强度上限；排障和光影改局部滤镜与冷暖。页眉点名的风格化调色、心法总结没有正文。组号从②跳到④。</p>
+
+  <h2>比较</h2>
+  <table>
+    <thead><tr><th>同一问题</th><th>第 1/2 页</th><th>第 2/2 页</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>过曝</td>
+        <td>整幅高光拉到 -100，找回亮部细节（基础第 2 条）。</td>
+        <td>背景过曝改拉渐变滤镜压高光，色温偏蓝（实战第 2 条）。天空过亮则从上往下压暗并偏冷（实战第 3 条）。</td>
+      </tr>
+      <tr>
+        <td>提阴影</td>
+        <td>欠曝把阴影加到 +100，让暗部变亮（基础第 2 条）。</td>
+        <td>夜景人像阴影提亮不超过 +50，并设降噪 30-40（实战第 5 条）。</td>
+      </tr>
+      <tr>
+        <td>肤色</td>
+        <td>常态透亮：只动橙色，明度 +15、饱和度 -10、色相右移 1-2（基础第 3 条）。</td>
+        <td>泛红：同时降低橙色和红色饱和度，明度只写「微提」，没有数字（实战第 4 条）。</td>
+      </tr>
+      <tr>
+        <td>主体与背景</td>
+        <td>背景杂乱靠模糊加降饱和，让焦点落到人物（基础第 4 条）。</td>
+        <td>立体感靠加深轮廓阴影、提亮受光面（光影第 1 条）。侧光加橙黄、背光微调青蓝（光影第 2 条）。</td>
+      </tr>
+      <tr>
+        <td>冷暖用来干什么</td>
+        <td>牙齿提亮后色温 +5，避免冷白（人像第 4 条）。先校色再调风格，写在基础第 1 条，但风格配方不在本页。</td>
+        <td>逆光脸色温 +10 补暖（实战第 1 条）；阴天整体色温 +10、色调 +5（光影第 3 条）；光斑用暖黄或青绿（光影第 4 条）。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 1/2 页</span>
+      <h3>先上风格色</h3>
+      <p>基础第 1 条写明先调好白平衡和曝光，颜色和亮度正常后再调风格色彩，否则颜色出错。副标题里的「风格化调色」没有卡片，不能拿别的笔记的配方填进来。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1/2 页</span>
+      <h3>把上限当目标值</h3>
+      <p>磨皮写的是 30%–50% 且要留纹理，超过会塑料感。液化是压力不超过 30、少量多次。眼神光保留 1-2 个，多了或锐化过度会被写成死鱼眼。这些是上限，不是必须拉满。</p>
+    </div>
+    <div class="card">
+      <span class="tag">两页对看</span>
+      <h3>阴影 +100 用到夜景</h3>
+      <p>欠曝的阴影 +100 在第 1/2 页基础第 2 条。夜景人像在第 2/2 页改成不超过 +50，并加降噪 30-40。两句适用画面不同，不能合成一个滑块。</p>
+    </div>
+    <div class="card">
+      <span class="tag">两页对看</span>
+      <h3>高光 -100 当成所有过曝</h3>
+      <p>整幅高光 -100 对的是过曝救亮部。背景过曝和天空过亮在第 2/2 页改走渐变，并让色温偏蓝或偏冷。工具从全局滑块换成局部滤镜。</p>
+    </div>
+    <div class="card wide">
+      <span class="tag">第 2/2 页</span>
+      <h3>橙色肤色配方拿去压泛红</h3>
+      <p>第 1/2 页「透亮不假白」只调橙色，饱和度减 10，明度加 15。第 2/2 页「皮肤泛红降橙红」要同时降橙色和红色饱和度，明度只是微提。泛红多降了一路红色，明度方向也没有给 +15。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">页眉</span>
+      <h3>缺组不能补</h3>
+      <p>第 1/2 页副标题有风格化调色，第 2/2 页副标题有心法总结，两组都没有正文。画面组号是①②然后④⑤，中间缺的一组无法确认是不是风格化，不能按标题猜参数。</p>
+    </div>
+    <div class="card">
+      <span class="tag">页底</span>
+      <h3>两条被裁</h3>
+      <p>第 1/2 页「头发丝要清晰」只剩标题。第 2/2 页柔焦句停在「5% 高斯模糊，透明度设 30%，使」，后半无法确认。5% 没有写是半径还是别的单位。</p>
+    </div>
+    <div class="card wide">
+      <span class="tag">参数</span>
+      <h3>数字没有条件</h3>
+      <p>图上没有软件名，也没有直方图或满量程。高光 -100、阴影 +100、色相右移 1-2、液化压力 30、降噪 30-40、色温 +10、色调 +5，都是口诀里的写法。背景模糊幅度、渐变压低多少、偏蓝偏冷多少、明度微提多少，页面上没有数字。</p>
+    </div>
+  </div>
+
+  <h2>动作</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 1/2 页 · 基础</span>
+      <h3>先全局，再局部风格</h3>
+      <ul>
+        <li>先白平衡和曝光，颜色与亮度正常后再动风格色。</li>
+        <li>过曝：高光 -100。欠曝：阴影 +100。</li>
+        <li>肤色走橙色 HSL：明度 +15，饱和度 -10，色相右移 1-2。</li>
+        <li>背景杂乱：模糊并降饱和，数值未给。</li>
+        <li>发灰：S 曲线拉中间调，黑色 -5，白色 +5。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 1/2 页 · 人像</span>
+      <h3>精修停在上限内</h3>
+      <ul>
+        <li>磨皮留纹理，强度落在 30%–50%。</li>
+        <li>液化身形：压力不超过 30，少量多次。</li>
+        <li>眼白提亮、虹膜边缘加深，眼神光 1-2 个。</li>
+        <li>牙齿提亮后色温 +5，避开冷白。</li>
+        <li>头发丝怎么做：无法确认，不要补步骤。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/2 页 · 排障</span>
+      <h3>按故障换工具</h3>
+      <ul>
+        <li>逆光脸黑：径向滤镜提亮面部，色温 +10。</li>
+        <li>背景过曝：渐变压高光，色温偏蓝。</li>
+        <li>天空过亮：渐变从上往下压暗，色温偏冷。</li>
+        <li>泛红：降橙色和红色饱和度，明度微提。</li>
+        <li>夜景人像：阴影不超过 +50，降噪 30-40。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/2 页 · 光影</span>
+      <h3>冷暖分开涂</h3>
+      <ul>
+        <li>加深轮廓阴影，提亮受光面。</li>
+        <li>侧光方向加橙黄；背光面微调青蓝。</li>
+        <li>阴天：整体色温 +10，色调 +5。</li>
+        <li>光斑用色彩蒙版叠暖黄或青绿，二选一的条件未写。</li>
+        <li>高光溢出：柔光图层、5% 高斯模糊、透明度 30%。「使」之后无法确认。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="foot">依据只来自 plog-retouch-mnemonics 的 1/2 与 2/2。看不清的半句保持无法确认。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

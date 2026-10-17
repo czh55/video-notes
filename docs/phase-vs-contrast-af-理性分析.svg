@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4979" viewBox="0 0 1320 4979">
+  <foreignObject x="0" y="0" width="1320" height="4979">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>相位一次算出落差，反差要走过山顶</h1>
+  <p class="meta">理性分析 · 徐贰懂 · 图文 16 页 · 2026-10-17 · phase-vs-contrast-af</p>
+  <p class="lede">封面问的是怎么选对焦模式，十六页正文先讲两种物理。相位对焦看左右视差：波形重合即合焦，错开就能知道往哪边、差多少，所以一次到位。反差对焦不测距离，驱动镜头找对比度最高点，必须走过站再退回，并做细扫。混合是先相位后反差。暗光下两种都会到极限，图上给出的动作是 AF-C、AF-S，或切手动并打开峰值或放大。</p>
+
+  <div class="map">
+    <div class="diagram">
+      <div class="node">没对上焦<br/>1/16</div>
+      <div class="arrow">→</div>
+      <div class="node">视差一次算<br/>2/16–7/16</div>
+      <div class="arrow">→</div>
+      <div class="node">爬山越过峰值<br/>8/16–11/16</div>
+      <div class="arrow">→</div>
+      <div class="node">算对试<br/>12/16–13/16</div>
+      <div class="arrow">→</div>
+      <div class="node">先快后准<br/>14/16</div>
+      <div class="arrow">→</div>
+      <div class="node">模式与手动<br/>15/16–16/16</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>测距 vs 看清</td><td>相位像测距仪，最早在单反上：反光镜把光分向上取景器、向下两个迷你图像传感器。反差不测量距离，只判断清楚程度</td><td>2/16、8/16</td></tr>
+    <tr><td>独立模块 vs 埋进 CMOS</td><td>最老是镜后模块。二代在 CMOS 上留遮蔽像素，左遮只收左边的光，右遮只收右边的光，相邻成对。图注写这个做法已经相对落后</td><td>2/16、3/16</td></tr>
+    <tr><td>合焦 vs 失焦</td><td>同一点的两束光，失焦落在不同位置，合焦落在同一位置。两个类似抛物线的波形重合即清晰，错开即没对上。光电二极管 A、B 信号重合被判为合焦；偏前或偏后都会出现偏差量</td><td>4/16、5/16</td></tr>
+    <tr><td>一次计算 vs 来回试探</td><td>L、R 关于光轴对称，自相关求出 shift，再经 tunning 换成移动距离。轴外也差不多，所以计算一次。反差要驱动镜头前后走，对比度上升就继续，下降说明翻过山顶，再退回，并经历细扫</td><td>6/16、7/16、9/16、10/16</td></tr>
+    <tr><td>遮蔽像素 vs 全像素双核</td><td>传统 PDAF 的遮蔽像素只对焦、不成像，有光损失，暗光相位差被噪声淹没。1.3 在每个像素放 2 个光电二极管，图上写像素 100% 用于自动对焦和成像。3/16 把这件事追溯到佳能 2013 年专利：单位像素内 2 个灵敏度各异的独立光电二极管，全屏相位对焦</td><td>3/16、7/16、8/16</td></tr>
+    <tr><td>快 vs 准</td><td>相位像 GPS，出发前算好路线，几乎感觉不到延迟。反差像爬山，走完一个以上行程，找到峰值再退回，永远慢一拍。反差直接看 CMOS 成像，没有光路分离的机械误差；微距和要卡焦平面时这个优势明显。白墙这类低对比几乎无法工作</td><td>11/16、12/16、13/16</td></tr>
+    <tr><td>动态 vs 静态</td><td>相位适合体育、奔跑的儿童、街头决定性瞬间。反差适合风光、静物、微距，以及可以慢慢对焦的场景。15/16 把这句落到模式：运动、抓拍、动态人像用 AF-C；静态、风景、极高精度用 AF-S，甚至手动放大</td><td>13/16、15/16</td></tr>
+    <tr><td>二选一 vs 混合</td><td>现代机身几乎都是混合：① 相位先锁大致位置；② 反差再微调到最清晰的点。相位负责快，反差负责准，互相补足。暗光时相位采样区光线不足会变慢，相机可能切回反差，反差同样吃力</td><td>14/16</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>把 12/16 的「时间差」当成相位原理</h3>
+    <p>12/16 印着：通过分析左右光线到达传感器的时间差。4/16 写的是视差和落点是否重合，5/16 写相位差和偏差量，6/16 写的是像素位置上的 shift。时间差和这三页图解冲突。读原理时以 4/16 至 6/16 为准，12/16 只保留「算一次」这个结论。</p>
+  </div>
+  <div class="card">
+    <h3>把反光板误差套到所有相位对焦上</h3>
+    <p>12/16 说相位依赖一条独立光路：光经反光板进入对焦传感器，和到达 CMOS 的路径不完全重合，所以有机械公差。这描述的是 2/16 的单反模块。3/16 已经把检测像素埋进 CMOS，7/16 和 8/16 的双核是每个像素里的两只光电二极管，不再走那条反光板。精度比较不能跨代混用。</p>
+  </div>
+  <div class="card">
+    <h3>看见「100%」或「旗舰暗光稳定」就以为暗光不会失败</h3>
+    <p>7/16 的 100% 是像素用于对焦和成像的比例，不是成功率。8/16 写佳能、索尼等旗舰暗光依然稳定，原因是每颗像素都在帮忙，不是算法更聪明。同一套笔记在 7/16、13/16、14/16、15/16 写暗光相位差会被噪声淹没，反差的对比度峰值会变平，混合对焦依然会崩。稳定是相对遮蔽像素，不是取消物理极限。</p>
+  </div>
+  <div class="card">
+    <h3>把「锁住了焦点」当成已经合焦</h3>
+    <p>1/16 的痛点就是：拍运动时明明锁住了焦点，一拍就糊；屏幕上看清楚了，导出来全废。5/16 只说明相位能报方向和距离，没有说跟踪过程里这个距离一直有效。15/16 对运动给的是 AF-C，让相位持续追踪，不是锁一次就结束。</p>
+  </div>
+  <div class="card">
+    <h3>把 sensor 移动和镜头移动当成同一个零件</h3>
+    <p>6/16 写求得 sensor 需要移动的距离，还要靠 tunning 得到对应关系。5/16 和 7/16 写的是镜头往哪个方向移动多少、直接移动到位。图上没有换算公式。不要把 shift 的刻度 -10 到 10 当成镜头毫米数。</p>
+  </div>
+  <div class="card">
+    <h3>封面的「对焦模式」在前 14 页还没有出现</h3>
+    <p>封面大字是「如何选择合适的对焦模式？聊聊原理」，笔记标题是「聊聊相位对焦和反差对焦的原理（小白也能懂」。AF-C、AF-S、手动、峰值对焦、放大对焦辅助只印在 15/16。前面的页在讲光路和算法，不能从封面直接推出菜单。</p>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card">
+    <h3>图上没有的，就不能当成操作步骤</h3>
+    <p>没有对焦点数，没有机身菜单路径，没有放大倍率，没有峰值颜色，没有快门速度。10/16 下图横轴 Lenses position、纵轴 Contrast，刻度数字无法确认；知乎水印的账号名无法确认。3/16 图注「右边」后面两个字无法确认。4/16 光路图和 9/16 曲线上的字母标注无法确认。6/16 的英文是 tunning，按印刷保留，不改成别的拼写。</p>
+  </div>
+  <div class="card">
+    <h3>跨页的半句不能单独当结论</h3>
+    <p>1/16 停在「自动」，2/16 才是「对焦」。6/16 停在「一次性」，7/16 才是「算出来，镜头直接移动到位」。7/16 停在「成」，8/16 页首是「像。」。11/16 停在「各有取」，12/16 页首是「舍。」。12/16 停在「直接使用」，13/16 才接上 CMOS 成像数据。14/16 停在「两种方式」，15/16 才是「在暗光下都有各自的极限」。</p>
+  </div>
+  <div class="card">
+    <h3>白墙、暗光、微距各自卡在不同地方</h3>
+    <p>11/16：一面纯白的墙，反差几乎无法工作，因为没有对比度峰值。13/16：暗光下相位差被读出噪声淹没，极端情况完全失效；反差则是峰值变平，反复试探也找不到最高点。反差的精度优势被写在微距和需要精确控制焦平面的场景，不是所有静态题材自动更准。</p>
+  </div>
+
+  <h2>可执行动作</h2>
+  <div class="card">
+    <h3>先分场景，再决定信相位还是等反差</h3>
+    <p><span class="pg">15/16</span> 第一句：根据场景选择对焦模式。运动、抓拍、动态人像，优先 AF-C（连续对焦），让相位检测持续追踪。静态、风景、需要极高精度，用 AF-S（单次对焦），甚至手动放大对焦，让反差慢慢来。13/16 的体育、儿童、街头对风光、静物、微距，是这句的场景清单。</p>
+  </div>
+  <div class="card">
+    <h3>暗光先给检测像素足够的光，再考虑放弃自动</h3>
+    <p><span class="pg">7/16</span>：相对暗的环境如果没有调整好曝光，很容易对不上焦。相位那些检测像素收到的光本来就不多。<span class="pg">15/16</span> 第二句：不要死磕自动对焦。最靠谱的办法是切手动，打开峰值对焦或放大对焦辅助。慢，但能保证对上。11/16 把实时取景放大对焦写成纯手动版的反差检测。</p>
+  </div>
+  <div class="card">
+    <h3>允许反差走过站，不要在细扫时当成故障</h3>
+    <p><span class="pg">9/16</span> 到 <span class="pg">10/16</span>：对比度开始下降，说明已经翻过山顶，必须退回去，退回时会细扫。图上标了 CAF 粗扫和细扫。镜头来回抽一下，是 1/16 说的暗光抽搐以外，反差算法本身就要走一个以上行程。混合对焦的第二步（14/16）就是把这次慢搜索留在最后微调。</p>
+  </div>
+  <div class="card">
+    <h3>用 16/16 的两句检查自己信错了谁</h3>
+    <p>相位像导航：算一次就够，信号不好会飘。飘的时候不要继续相信方向和距离，回到 15/16 的手动。反差像爬山：开始下坡才知道刚才那个点是最高点；一旦到了山顶，就是真的山顶。所以静态、微距可以等它走完，运动主体不要等它边走边试。</p>
+  </div>
+
+  <h2>结论</h2>
+  <div class="card">
+    <h3>选模式之前，先知道相机是在算还是在试</h3>
+    <p>相位对焦的速度来自 5/16 和 7/16：相位差同时给出方向和距离，镜头一次移动到位。反差对焦的慢来自 10/16：要走完一个以上行程，走过站再退回。精度反转来自 11/16 和 13/16：反差直接读 CMOS。混合对焦把两者接成 14/16 的两步。封面要的选择落在 15/16：动用 AF-C，静用 AF-S 或手动放大，暗光改手动并打开峰值或放大。12/16 的时间差和反光板误差，分别以 4/16–6/16 的视差、以及 7/16–8/16 的双核结构为界，不能当成全部相位对焦的定义。</p>
+  </div>
+  <div class="footer">理性分析 · 页码对应图文实录 · 未写入图上没有的对焦点数和菜单路径</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

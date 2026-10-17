@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3191" viewBox="0 0 1320 3191">
+  <foreignObject x="0" y="0" width="1320" height="3191">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;color:#1e293b}
+.wrap{padding:40px 48px 56px}
+h1{font-size:34px;font-weight:900;color:#9a3412;line-height:1.35;margin-bottom:8px}
+.sub{font-size:15px;color:#78716c;margin-bottom:16px}
+.tag{display:inline-block;padding:3px 12px;border-radius:999px;font-size:13px;font-weight:600;margin:0 8px 8px 0;background:#ffedd5;color:#9a3412}
+.summary-line{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #ea580c;border-radius:12px;padding:16px 20px;margin:8px 0 22px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px}
+.map{background:#fff;border-radius:16px;padding:22px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.step{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:10px 12px;min-width:140px;font-size:14px;line-height:1.45}
+.step b{display:block;color:#9a3412;font-size:15px}
+.arrow{color:#fb923c;font-weight:700}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:8px 0 12px}
+th,td{border-bottom:1px solid #e7e5e4;text-align:left;padding:10px 12px;font-size:14px;line-height:1.55;vertical-align:top}
+th{background:#fff7ed;color:#9a3412}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #ea580c}
+.card h3{font-size:17px;margin-bottom:6px;color:#1c1917}
+.card p,.card li{font-size:15px;line-height:1.7;color:#44403c}
+.card ul,.card ol{padding-left:1.2em;margin:6px 0}
+.sec{margin-top:8px}
+.page{font-weight:700;color:#b45309}
+.footer{margin-top:24px;font-size:13px;color:#a8a29e}
+</style>
+      <div class="wrap">
+  <h1>达芬奇调色口诀：先准，再美</h1>
+  <p class="sub">理性分析 · 依据只有第 1/1 页 · 司晨视觉影视基地</p>
+  <span class="tag">调色</span><span class="tag">口诀</span><span class="tag">示波器</span><span class="tag">节点</span><span class="tag">肤色</span>
+  <p class="summary-line">这张图不回答「拉哪个滑块」，只回答顺序：还原曝光与对比，守住高光、暗部和肤色，再用冷暖做出层次，节点少而分工清楚，用波形和矢量核对，风格化放在对错解决之后。收束句在同一页底栏：先校正，后风格；先准，再美。</p>
+
+  <div class="map">
+    <h2>关系：七句是一条顺序，不是七个并列滤镜</h2>
+    <div class="flow">
+      <div class="step"><b>1 校正</b>还原曝光与对比</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>2 细节</b>高光不爆，暗部不死</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>3 肤色</b>不偏绿，不偏紫</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>4 冷暖</b>暗冷，高暖</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>5 节点</b>串行 / 并行 / 图层</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>6 示波器</b>波形、矢量</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>7 风格</b>放在最后</div>
+    </div>
+    <p style="margin-top:12px;font-size:15px;line-height:1.7;color:#44403c">口诀一和口诀七说的是同一件事的两头：<span class="page">1/1</span> 口诀一「先校正，后风格」，口诀七「先解决对不对，再解决美不美」。底栏把它们收成「先准，再美」。口诀二、三是「准」的内容，口诀四是在准之后才做的立体感，口诀五是少节点的分工，口诀六是判断工具。</p>
+  </div>
+
+  <div class="sec">
+    <h2>对比：对不对，和美不美</h2>
+    <table>
+      <tr><th>图上的话</th><th>管什么</th><th>还没做的事</th></tr>
+      <tr><td>先校正，后风格；先还原曝光与对比</td><td>画面先回到能看的曝光和对比</td><td>还不是风格</td></tr>
+      <tr><td>高光不爆，暗部不死</td><td>两端留细节</td><td>不是把高光压死或把暗部提成灰</td></tr>
+      <tr><td>肤色自然，不偏绿不偏紫</td><td>人物肤色是底线</td><td>冷暖可以动，肤色不能跟着跑出自然范围</td></tr>
+      <tr><td>暗部偏冷，高光偏暖</td><td>用冷暖做空间层次</td><td>图上没有写互补色数值</td></tr>
+      <tr><td>串行校正，并行局部，图层叠加</td><td>三类节点各一件事</td><td>没有快捷键，没有节点数量上限的数字</td></tr>
+      <tr><td>波形图、矢量图，才是色彩安全底线</td><td>不靠眼睛收尾</td><td>没有标 IRE 或矢量靶心刻度</td></tr>
+      <tr><td>风格化，放最后</td><td>美不美排在对不对之后</td><td>没有 LUT 名称或风格配方</td></tr>
+    </table>
+    <p style="font-size:14px;color:#78716c">上表每一行都能在第 1/1 页对上原句。</p>
+  </div>
+
+  <div class="sec">
+    <h2>避坑</h2>
+    <div class="card">
+      <h3>先做风格，底子还是灰的或爆的</h3>
+      <p>口诀一和口诀七都反对这个顺序。曝光和对比没还原，后面的冷暖和风格没有稳定的起点。<span class="page">依据 1/1 口诀一、口诀七、底栏。</span></p>
+    </div>
+    <div class="card">
+      <h3>高光爆掉、暗部糊死，还觉得「对比够了」</h3>
+      <p>口诀二的标准是保留细节：高光不爆，暗部不死。柔和沉得住，不是死白死黑。<span class="page">依据 1/1 口诀二。</span></p>
+    </div>
+    <div class="card">
+      <h3>为了冷暖对比把脸调绿或调紫</h3>
+      <p>口诀三把肤色单独拎出来。口诀四的暗冷高暖是画面层次，不是允许肤色离开「不偏绿不偏紫」。<span class="page">依据 1/1 口诀三、口诀四。</span></p>
+    </div>
+    <div class="card">
+      <h3>节点一多就当高级，眼睛觉得好看就交片</h3>
+      <p>口诀五要求节点少、逻辑清：串行校正，并行局部，图层叠加。口诀六明确写「别信眼睛」，安全底线是波形图和矢量图。<span class="page">依据 1/1 口诀五、口诀六。</span></p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>适用边界</h2>
+    <div class="card">
+      <ul>
+        <li>全部结论来自第 1/1 页这一张口诀图，是作者的看法，不是达芬奇手册，也不是所有片种的定论。</li>
+        <li>图上没有版本号、没有滑块读数、没有示波器刻度。能执行的是检查顺序，不能复现成一套参数。</li>
+        <li>口诀二右侧滑杆上的小字无法确认，不参与结论。</li>
+        <li>口诀四标题是美术字，按画面读作「冷暖对比，画面立体」，并与「暗部偏冷，高光偏暖，增强空间层次」互相支持。</li>
+        <li>「多拉片，多练习，形成自己的手感」没有片单，也没有完成标准。</li>
+        <li>无人物的风景、图形包装，口诀三的肤色底线用不上；冷暖对比仍是这张图给出的层次办法，不是唯一合法风格。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>行动清单</h2>
+    <div class="card">
+      <ol>
+        <li>开调前先做还原：曝光和对比回到能看，再打开任何风格。对页：口诀一、口诀七。</li>
+        <li>看高光和暗部是否还留着细节，避免爆和死黑。对页：口诀二。</li>
+        <li>有人脸时，先确认不偏绿、不偏紫，再动冷暖。对页：口诀三。</li>
+        <li>要层次时，暗部偏冷、高光偏暖，并回头看肤色有没有被带走。对页：口诀四，约束在口诀三。</li>
+        <li>节点按三件事拆开：串行校正、并行局部、图层叠加；交片前看波形图和矢量图，不单看监视器。对页：口诀五、口诀六。</li>
+      </ol>
+    </div>
+  </div>
+  <p class="footer">结论均可回到 docs/assets/davinci-grade-mnemonics/01.jpg 第 1/1 页。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

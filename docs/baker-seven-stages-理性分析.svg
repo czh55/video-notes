@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:30px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:8px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>七段按数字排，不按页序</h1>
+<table>
+<tr><th>段</th><th>在哪一页</th><th>变化</th></tr>
+<tr><td>1–3 照做</td><td>2/5</td><td>怪配方、换配方、只看克数</td></tr>
+<tr><td>4–5 理解</td><td>5/5</td><td>玄学变因果，然后能迁移</td></tr>
+<tr><td>6–7 内化</td><td>3/5</td><td>自己建模型，技术变本能</td></tr>
+</table>
+<p>第 4 页：说不清失败还在 1–3；三题都能才到 5 以上。易错：按翻页顺序把第 6 段当成第 4 段。边界：没有第 4 段的测验题。</p>
+    </div>
+  </foreignObject>
+</svg>

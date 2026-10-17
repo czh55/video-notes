@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4254" viewBox="0 0 1320 4254">
+  <foreignObject x="0" y="0" width="1320" height="4254">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,#fff7ed,#ffedd5);padding:48px 56px;color:#292524}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px}
+h2{font-size:22px;font-weight:800;color:#9a3412;margin:28px 0 12px}
+h3{font-size:17px;font-weight:700;color:#44403c;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:20px;margin:6px 0}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+.meta{color:#78716c;font-size:13px;margin:8px 0 14px}
+.lead{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin:12px 0 18px}
+.map{background:#fff;border-radius:16px;padding:20px 22px;margin:12px 0 18px;box-shadow:0 2px 12px rgba(120,53,15,.06)}
+.diagram{display:flex;flex-wrap:wrap;gap:10px}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:180px;flex:1}
+.node b{display:block;color:#9a3412;margin-bottom:4px}
+.node span{font-size:13px;color:#57534e;line-height:1.55}
+.sec{margin-top:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;font-size:13px}
+th{background:#ffedd5;color:#9a3412;text-align:left;padding:8px 10px}
+td{padding:8px 10px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:5px solid #b45309;box-shadow:0 2px 10px rgba(120,53,15,.05)}
+.card.pit{border-left-color:#dc2626}
+.card.bound{border-left-color:#78716c}
+.card.act{border-left-color:#0f766e}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:2px 8px;margin-bottom:6px}
+.tag-c{background:#ffedd5;color:#9a3412}
+.tag-p{background:#fee2e2;color:#991b1b}
+.tag-b{background:#f5f5f4;color:#44403c}
+.tag-a{background:#ccfbf1;color:#115e59}
+.footer{margin-top:18px;color:#a8a29e;font-size:12px}</style>
+      
+<p class="kicker">理性分析 · 小红书图文 · 甄茶笔记&amp;大喜</p>
+<h1>9 款果香咖啡：先对骨架，再换水果</h1>
+<p class="meta">2026-10-17 · 图文 10 页 · 9 张配方卡 · nine-fruit-coffees</p>
+<p class="lead">标题和卡面都是 9 款。10 张图里，实录 1/10 是总览，2/10–10/10 才是可执行的单卡。冷萃三款可以换果酱；杨梅和水蜜桃可以换果酱但克数不同；香橙、凤梨拿铁、草莓拿铁、葡萄拿铁各自单独一套，不能从邻卡把毫升抄过去。</p>
+
+<div class="map">
+<h2>三组骨架</h2>
+<div class="diagram">
+<div class="node"><b>冷萃先拌</b><span>实录 2/10–4/10。400ml。果酱 30g + 冷萃 100ml + 专用糖浆 5ml，冰至八分满，最后气泡水 150ml。</span></div>
+<div class="node"><b>气泡美式后加浓缩</b><span>实录 5/10、7/10 同序：气泡水 200ml 先拌，冰至八分满，双份浓缩印成 20g。实录 6/10 香橙另套。</span></div>
+<div class="node"><b>拿铁后加浓缩</b><span>实录 8/10–10/10。奶基底不同，浓缩 36g 只出现在凤梨拿铁；草莓果酱没有克数。</span></div>
+</div>
+</div>
+
+<div class="sec">
+<h2>比较：杯规、果底、咖啡、谁最后入杯</h2>
+<table>
+<thead><tr><th>款</th><th>实录</th><th>杯规</th><th>果底（卡面原文）</th><th>咖啡</th><th>最后倒入</th></tr></thead>
+<tbody>
+<tr><td>荔枝冷萃</td><td>2/10 · 01/09</td><td>400ml 冰饮</td><td>荔枝果酱 30g</td><td>冷萃 100ml，先拌</td><td>气泡水 150ml</td></tr>
+<tr><td>凤梨冷萃</td><td>3/10 · 02/09</td><td>400ml 冰饮</td><td>凤梨果酱 30g</td><td>冷萃 100ml，先拌</td><td>气泡水 150ml</td></tr>
+<tr><td>西柚冷萃</td><td>4/10 · 03/09</td><td>400ml 冰饮</td><td>西柚果酱 30g</td><td>冷萃 100ml，先拌</td><td>气泡水 150ml</td></tr>
+<tr><td>杨梅气泡美式</td><td>5/10 · 04/09</td><td>500ml 冰饮</td><td>杨梅果酱 35g</td><td>双份浓缩 20g，最后</td><td>浓缩</td></tr>
+<tr><td>香橙气泡美式</td><td>6/10 · 05/09</td><td>500ml 冰饮</td><td>果冻橙一颗，取汁</td><td>浓缩 20g，最后</td><td>浓缩；气泡水只写至九分满</td></tr>
+<tr><td>水蜜桃气泡美式</td><td>7/10 · 06/09</td><td>500ml 冰饮</td><td>水蜜桃果酱 30g</td><td>双份浓缩 20g，最后</td><td>浓缩</td></tr>
+<tr><td>凤梨拿铁</td><td>8/10 · 07/09</td><td>400ml 冰饮</td><td>鲜菠萝 30g + 凤梨酱 25ml</td><td>浓缩 36g</td><td>浓缩；奶先搅匀</td></tr>
+<tr><td>草莓拿铁</td><td>9/10 · 08/09</td><td>500ml 冰饮</td><td>草莓果酱 2 勺</td><td>浓缩 20g</td><td>浓缩</td></tr>
+<tr><td>葡萄拿铁</td><td>10/10 · 09/09</td><td>500ml 冰饮</td><td>黑加仑葡萄果酱 30g</td><td>浓缩 20g</td><td>浓缩</td></tr>
+</tbody>
+</table>
+<p>冷萃三张的专用糖浆都是 5ml，冰都是补至八分满。杨梅和水蜜桃的专用糖浆也是 5ml、气泡水都是 200ml，差别在果酱 35g 对 30g。香橙糖浆是 10ml，冰块写「至满杯」。凤梨拿铁没有糖浆行，凤梨酱单独 25ml。葡萄糖浆 10ml，另有生牛乳 35ml，这两格不是同一个东西。</p>
+</div>
+
+<div class="sec">
+<h2>易错</h2>
+<div class="card pit">
+<p class="tag tag-p">把 10 页当成 10 款</p>
+<p>实录 1/10 的页脚是 01/09 到 09/09 的缩略，不是第 10 杯。按单卡做，停在葡萄拿铁。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">冷萃和气泡美式的顺序抄反</p>
+<p>实录 2/10–4/10 是果酱、冷萃、糖浆先拌，气泡水最后。实录 5/10 和 7/10 是果酱、气泡水、糖浆先拌，浓缩最后。把冷萃先倒进杨梅杯，或把气泡水先倒进荔枝杯，都和卡面要点相反。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">两张凤梨当成一杯</p>
+<p>实录 3/10 凤梨冷萃：果酱 30g、冷萃 100ml、气泡水 150ml、杯规 400ml。实录 8/10 凤梨拿铁：鲜菠萝 30g、凤梨酱 25ml、厚椰乳 150ml、咖啡奶 20ml、浓缩 36g，做法是捣碎挂壁。英文名一个是 COLD BREW，一个是 COCONUT LATTE。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">双份 20g 乘成 40g</p>
+<p>实录 5/10、7/10 印的是「双份浓缩 20g」。卡面没有写两份各 20g，也没有写合计 40g。按印出来的 20g 称。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">草莓 2 勺补成 30g</p>
+<p>实录 9/10 果酱只印「2 勺」，出品要点写「果酱勺量沿用原方」。原方克数不在这张卡上，不能从冷萃的 30g 借。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">葡萄 35ml 看成糖浆</p>
+<p>实录 10/10 配方栏：牛奶 100ml、生牛乳 35ml、茉莉花茶 200ml、糖浆 10ml。35ml 对的是生牛乳。</p>
+</div>
+</div>
+
+<div class="sec">
+<h2>边界</h2>
+<div class="card bound">
+<p class="tag tag-b">杯规不是液体加总</p>
+<p>400ml、500ml 是规格行。冰只写八分满、九分满或满杯，没有克数。冷萃液体是 100ml 冷萃 + 5ml 糖浆 + 150ml 气泡水，再加 30g 果酱，加总对不上 400ml，因为冰占体积。不要为了凑杯规去改卡面毫升。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">香橙的冰和气泡水互相卡住</p>
+<p>实录 6/10 配方：冰块至满杯，气泡水至九分满。做法第 3 步是先加冰块至满杯，再倒气泡水至九分满。出汁没有毫升。按字面做会碰到杯容量，图上没有写先倒掉多少冰。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">葡萄两步都写出品杯</p>
+<p>实录 10/10 第 1 步已经把果酱、牛奶、生牛乳、茉莉花茶、糖浆加入出品杯搅拌。第 2 步又写把搅拌完毕的葡萄奶绿倒入出品杯，再补冰至九分满。图上没有雪克杯。容器以卡面这两句为准，无法确认中间是否换杯。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">未印的参数不要补</p>
+<p>冷萃比例、浓缩萃取秒数、专用糖浆和糖浆的品牌、咖啡奶的成分、果冻橙出汁量、备用橙片是否入杯、草莓一勺多少克，十页都没有。九款全是冰饮，没有热饮温度。</p>
+</div>
+</div>
+
+<div class="sec">
+<h2>动作</h2>
+<div class="card act">
+<p class="tag tag-a">换果之前先念四样</p>
+<p>杯规、果底单位（克、毫升、勺或一颗）、咖啡是冷萃还是浓缩、最后入杯的是气泡水还是浓缩。四样里有一项不同，就不要整卡复制。荔枝、凤梨冷萃、西柚这三张四样相同，可以只换果酱名。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">冷萃三款按实录 2/10 的顺序做</p>
+<p>出品杯：果酱 30g + 冷萃 100ml + 糖浆 5ml 拌匀，冰至八分满，气泡水 150ml 最后倒。凤梨冷萃、西柚冷萃只改果酱名称。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">杨梅和水蜜桃按气泡水先拌</p>
+<p>果酱用各自克数（35g 或 30g）+ 气泡水 200ml + 专用糖浆 5ml 拌匀，冰至八分满，再加卡面所印的双份浓缩 20g。香橙不要走这条：先取汁，糖浆 10ml，冰至满杯，气泡水至九分满，浓缩 20g。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">三张拿铁分开称</p>
+<p>凤梨拿铁：鲜菠萝 30g 与凤梨酱 25ml 捣碎挂壁，冰至八分满，厚椰乳 150ml 和咖啡奶 20ml 搅匀倒入，浓缩用配方栏的 36g。草莓：2 勺果酱，冰至九分满，厚椰乳 200ml 加咖啡奶 20ml，浓缩 20g。葡萄：30g 果酱、牛奶 100ml、生牛乳 35ml、茉莉花茶 200ml、糖浆 10ml 先拌成葡萄奶绿，冰补至九分满，浓缩 20g 最后倒。</p>
+</div>
+</div>
+<p class="footer">用量摘自单卡印字。总览缩略不作为克数来源。</p>
+
+    </div>
+  </foreignObject>
+</svg>

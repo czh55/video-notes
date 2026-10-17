@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3771" viewBox="0 0 1320 3771">
+  <foreignObject x="0" y="0" width="1320" height="3771">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      <div class="container">
+  <h1>虚化先看圆斑，再看光圈数值</h1>
+  <p class="meta">理性分析 · 徐贰懂 · 图文 14 页 · 2026-10-17</p>
+  <p class="lede">景深是弥散圆从「还能看出是圆」缩到「认成一个点」的那段距离。四个量一起决定它：光圈数值 F、焦距 f、对焦距离 L、容许弥散圆 δ。封面说光圈大则景深浅；图解里 F 变大则景深变深。口语的「光圈大」等于孔径开大、F 变小。焦外好不好看，还要再看圆盘是柔边还是亮环。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">先定景别<br/>10/14</div>
+      <div class="arrow">→</div>
+      <div class="node">再定清晰厚度<br/>11/14</div>
+      <div class="arrow">→</div>
+      <div class="node">近了先退远<br/>7/14</div>
+      <div class="arrow">→</div>
+      <div class="node">看圆盘边缘<br/>12/14–14/14</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>封面口诀 vs 图解箭头</td><td>封面：光圈大、焦距长、离得近，景深浅。第 4 页：F 是光圈数值，不是孔径直径。第 5 页：F、L、δ 变大则景深变深，f 变大则景深变浅。第 6 页把两边对齐：开大等于 F 小，景深浅；收小等于 F 大，景深大。</td><td>1/14、4/14–6/14</td></tr>
+    <tr><td>前后景深 vs 总景深近似</td><td>前景深分母是 f² 加 F×δ×L，后景深分母是 f² 减 F×δ×L，总景深是两者相加。第 5 页收成 DOF ≈ 2FδL² / f²，第 6 页说明这是近似，后景深的减法才解释收光圈后后景趋向无穷。</td><td>3/14–6/14</td></tr>
+    <tr><td>固定其他量 vs 同样构图</td><td>只换焦距、距离不动：50mm 到 200mm 是 4 倍，景深缩到 1/16。同样构图：50mm 半身 1.5 米，85mm 约 2.5 米，焦距和物距部分抵消。85mm 仍然更浅，但没有「焦距变成 1.7 倍」那么大。</td><td>5/14、8/14–9/14</td></tr>
+    <tr><td>三种画幅的「开始算糊」</td><td>全画幅 δ 通常 0.030mm，APS-C 0.019mm，M4/3 0.015mm。全画幅要长到 0.030mm 才算开始糊，APS-C 到 0.019mm 就算。全画幅 F2.8 被写成大约相当于 APS-C 的 F1.8、M4/3 的 F1.4。</td><td>9/14–10/14</td></tr>
+    <tr><td>三种人像要的清晰厚度</td><td>单人常开到 F1.4–F2.8，侧面两眼可差 3–5cm。双人并排 F2.8–F4；前后差半米可能收到 F5.6–F8。环境人像要背景还能认，写在 F4–F5.6。</td><td>11/14</td></tr>
+    <tr><td>糊得多 vs 糊得顺</td><td>弥散圆直径决定清楚还是模糊。球面像差矫正决定圆盘是均匀柔边，还是边缘亮环、中心亮斑、洋葱圈。人像镜头常故意轻微欠矫正，留下略亮、柔和但不扁平的焦外。</td><td>2/14、12/14–14/14</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>把「光圈大」当成 F 数字变大</h3>
+    <p><span class="pg">1/14</span> 的口诀和 <span class="pg">5/14</span> 的箭头用了两个「大」。图上的定义在 <span class="pg">4/14</span>：F 是 F-number。执行时跟 <span class="pg">6/14</span>：开大（F 小）景深浅，收小（F 大）景深大。</p>
+  </div>
+  <div class="card">
+    <h3>图里的字母 F 有两个身份</h3>
+    <p><span class="pg">3/14</span> 原理图的 F 是前景点，和背景点 B、对焦点 O 并列。<span class="pg">4/14</span> 起公式里的 F 才是光圈数值。两页连着读时，不要把前景点代进公式。</p>
+  </div>
+  <div class="card">
+    <h3>记住「同样构图焦距不影响景深」</h3>
+    <p><span class="pg">8/14</span> 先把这句话写成常有的误区，例子是 50mm / 1.5 米和 85mm / 约 2.5 米会部分抵消。<span class="pg">9/14</span> 的完整说法是：85mm 确实更浅，只是差距小于焦距变成 1.7 倍。以后一句为准。只换焦段、人站着不动，则回到 <span class="pg">5/14</span> 和 <span class="pg">8/14</span> 的平方：50mm 到 200mm，景深到 1/16。</p>
+  </div>
+  <div class="card">
+    <h3>为了全景深收到 F16</h3>
+    <p><span class="pg">6/14</span> 写衍射在 F11 以后显著变差。<span class="pg">7/14</span> 写收到 F16 会前后都清楚、全部都不锐。人像甜点区印的是 F4–F5.6，人像风光兼顾的极限是 F8。</p>
+  </div>
+  <div class="card">
+    <h3>特写仍用 F1.4，只顾背景糊</h3>
+    <p><span class="pg">8/14</span> 写另一只眼睛可能已经出焦，作者说自己遇到过。<span class="pg">11/14</span> 写侧面两眼可差 3–5cm，模特前后晃 1cm 就可能离开焦平面。大光圈同时在放大对焦误差。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>第 6 页括号里的超焦距不等式有一段重复排版。能读清的条件是 f² 大于 F×δ×L；大于等于之后分母失效，后景深趋向无穷。重复进去的符号无法逐字确认。</li>
+    <li>第 9 页说向 AI 提了三个问题并放在加 tag 的那一页。十四页里没有这三问。</li>
+    <li>第 10 页的「全画幅 F2.8 约等于 APS-C F1.8、M4/3 F1.4」没有演算。δ 的 0.030 / 0.019 / 0.015 mm 写成通常取值。</li>
+    <li>第 13 页是知乎 @摄影修图水族 的示例照片。上一页称它为洋葱圈光斑；光斑内部结构看不清，无法确认。</li>
+    <li>衍射被写成前文提过，第 1–5 页没有这个词。三套公式都标了近似，笔记没有代入一组实测对焦距离。</li>
+    <li>第 7 页的 10 米到 5 米、第 8 页的 1.5 米和约 2.5 米是文中例子，不是某一张实拍的测距记录。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按 10/14 和 11/14 的顺序拍一张人像</h3>
+    <p>先定景别再选焦段：环境用 28–35mm，人景兼顾用 50mm，要把背景分开用 85–135mm（<span class="pg">10/14</span>）。再按清晰厚度收光圈：单人可开到 F1.4–F2.8，侧面特写先看两眼是否差 3–5cm；双人并排用 F2.8–F4，前后差约半米收到 F5.6–F8；环境人像用 F4–F5.6（<span class="pg">11/14</span>）。特写若另一只眼出焦，收到 F2.0–F2.8，或连拍并对焦优先（<span class="pg">8/14、11/14</span>）。不要为了前后都清楚收到 F16（<span class="pg">6/14、7/14</span>）。</p>
+  </div>
+  <div class="card">
+    <h3>主体太近时，先退远</h3>
+    <p><span class="pg">7/14</span>：物距从 10 米缩到 5 米，景深到原来的 1/4。离得太近时，光圈补不回这种收缩。微距的景深按毫米想。</p>
+  </div>
+  <div class="card">
+    <h3>换镜头比虚化时，先对齐放大倍率</h3>
+    <p>人不动、只把 50mm 换成 200mm，景深按焦距平方缩到 1/16（<span class="pg">8/14</span>）。要同样构图，连拍摄距离一起变：85mm 比 50mm 更浅，但小于 1.7 倍焦距的直觉（<span class="pg">9/14</span>）。换机身时改用该画幅的 δ：全幅 0.030mm、APS-C 0.019mm、M4/3 0.015mm（<span class="pg">9/14、10/14</span>）。</p>
+  </div>
+  <div class="card">
+    <h3>焦外发硬时，看的是像差，不是再开大一档</h3>
+    <p><span class="pg">12/14</span> 到 <span class="pg">14/14</span>：均匀圆盘是一种，亮环和洋葱圈是球面像差矫正不足或过度。人像镜头常故意留一点欠矫正，换来柔边和略亮的中心。作者用来查看的开关是 Camera Raw 里的镜头矫正文件。</p>
+  </div>
+  <p class="footer">只采用十四页印出的说法 · depth-of-field-bokeh</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

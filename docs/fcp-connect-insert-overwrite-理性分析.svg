@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3525" viewBox="0 0 1320 3525">
+  <foreignObject x="0" y="0" width="1320" height="3525">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#1c1917}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;font-weight:900;color:#9a3412;line-height:1.35;margin-bottom:8px}
+.sub{font-size:15px;color:#78716c;margin-bottom:16px}
+.tag{display:inline-block;padding:3px 12px;border-radius:999px;font-size:13px;font-weight:600;margin:0 8px 8px 0;background:#ffedd5;color:#9a3412}
+.summary-line{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 20px;margin:8px 0 22px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px}
+.map{background:#fff;border-radius:16px;padding:22px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.step{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:10px 12px;min-width:140px;font-size:14px;line-height:1.45}
+.step b{display:block;color:#9a3412}
+.arrow{color:#b45309;font-weight:700}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 12px}
+th,td{border-bottom:1px solid #e7e5e4;text-align:left;padding:10px 12px;font-size:14px;line-height:1.55;vertical-align:top}
+th{background:#fff7ed;color:#9a3412}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #b45309}
+.card h3{font-size:17px;margin-bottom:6px;color:#1c1917}
+.card p,.card li{font-size:15px;line-height:1.7;color:#44403c}
+.card ul,.card ol{padding-left:1.2em;margin:6px 0}
+.page{font-weight:700;color:#b45309}
+.footer{margin-top:24px;font-size:13px;color:#a8a29e}</style>
+      <div class="wrap">
+  <h1>先选素材怎么进时间线</h1>
+  <p class="sub">理性分析 · 敖舜 · FCP 入门教程 02 · 图文 7 页 · 2026-10-17</p>
+  <span class="tag">Q 连接</span><span class="tag">W 插入</span><span class="tag">E 追加</span><span class="tag">D 覆盖</span>
+  <p class="summary-line">七页回答的是同一个选择：这段素材要挂在主故事线下面、插在播放头、接到末尾，还是盖住当前位置。Q 不推开主线（第 3/7 页），W 从播放头把后面推开并加长（第 4/7 页），E 接到最后并加长（第 5/7 页），D 在示意图里替换当前这一格且总长不变（第 6/7 页）。四个字母按键盘位置记，不按英文首字母记（第 2/7、7/7 页）。</p>
+
+  <div class="map">
+    <h2>比较：四种进入方式，动的不是同一件事</h2>
+    <div class="flow">
+      <div class="step"><b>先问落点</b>下面 / 播放头 / 末尾 / 当前格</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>再看主线</b>不动、后移，或被盖住</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>最后看总长</b>不变，或被推长</div>
+    </div>
+    <table>
+      <tr><th>键</th><th>笔记里的动作</th><th>主线和前后</th><th>总长度</th><th>图上的例子</th><th>页</th></tr>
+      <tr><td>Q 连接</td><td>挂到主故事线下面</td><td>主线不动，辅助画面跟随</td><td>主线时长不因此变长</td><td>旁白主线下面接风景、航拍</td><td>1/7、2/7、3/7、7/7</td></tr>
+      <tr><td>W 插入</td><td>放进播放头当前位置</td><td>从放入处把后面推开</td><td>变长</td><td>A B C 变成 A、新素材、B、C</td><td>1/7、4/7、7/7</td></tr>
+      <tr><td>E 追加</td><td>接到时间线最后一个素材后面</td><td>只加在末尾</td><td>变长</td><td>A B C 后面再接新素材</td><td>1/7、5/7、7/7</td></tr>
+      <tr><td>D 覆盖</td><td>替换当前位置的画面</td><td>前后不挪；图上是 B 被盖住</td><td>笔记写保持不变</td><td>A、新素材、C，新素材占满原 B</td><td>1/7、6/7、7/7</td></tr>
+    </table>
+    <p style="font-size:15px;line-height:1.7;color:#44403c">第 7/7 页用四个字收口：Q 管关系，W 管插入，E 管延续，D 管替换。W 和 D 的播放头都可以放在 B 的开头，差别在按下去之后：第 4/7 页 B、C 右移，第 6/7 页 A、C 留在原位。W 和 E 都会把时间线变长，差别是插入点：第 4/7 页是播放头，第 5/7 页是末尾。</p>
+  </div>
+
+  <div class="sec">
+    <h2>易错：字母、推开、还有两张对不上的图</h2>
+    <div class="card">
+      <h3>把 Q W E D 当成英文首字母</h3>
+      <p>Connect、Insert、Append、Overwrite 的首字母都不是这四个键。第 2/7 页和第 7/7 页写明：这是苹果按键盘布局给剪辑师的一套操作，方便左手。封面第 1/7 页只给中文动作，没有用首字母做记忆法。</p>
+    </div>
+    <div class="card">
+      <h3>连接按成插入</h3>
+      <p>第 3/7 页的结果是主线还在，风景挂在下面。第 4/7 页的结果是新素材挤进主线，后面全部后移。旅行片若主线是旁白（第 2/7 页），风景该走 Q；若要把一段镜头嵌进成片中间，才走 W。</p>
+    </div>
+    <div class="card">
+      <h3>插入和覆盖只记住「都在播放头」</h3>
+      <p>两页都可以把播放头放在 B。第 4/7 页口诀是「在哪里放入，就从哪里开始推开」，总长增加。第 6/7 页写「只替换，不推开」，并写总长度保持不变。要保节奏换镜头，看的是前后有没有挪，不是播放头在不在 B 上。</p>
+    </div>
+    <div class="card">
+      <h3>追加被记成「播放头必须在末尾」</h3>
+      <p>第 5/7 页的步骤 1 是把播放头放在时间线末尾，图上也把播放头画在 C 的结尾。这一页没有另一张「播放头在中间仍按 E」的图。把它当成 E 的生效条件，是读图时多出来的规则。</p>
+    </div>
+    <div class="card">
+      <h3>两页例子的片段数不一样</h3>
+      <p>第 2/7 页主线下面是雪山、无人机航拍、湖景三段。第 7/7 页总结图是雪山、无人机、湖、风景四段。总结图是示意图，不是第 2 页那条时间线的复述。</p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>边界：图上成立的句子，停在图上的条件里</h2>
+    <div class="card">
+      <h3>覆盖「总长不变」只演示了等长替换</h3>
+      <p>第 6/7 页和第 7/7 页都是新素材刚好占满原来的 B。笔记没有更短的素材留下半段 B，也没有更长的素材伸出 B。离开这个等长条件，不能沿用「时间长度保持一致」。</p>
+    </div>
+    <div class="card">
+      <h3>「下面」是这套图的画法</h3>
+      <p>第 1/7、2/7、3/7、7/7 页都写连接到主故事线下面，箭头和轨道也画在主线下方。笔记没有对照软件默认时间线里连接片段出现在上方还是下方。找轨道时以自己时间线上的主故事线为准。</p>
+    </div>
+    <div class="card">
+      <h3>场景名单比示意图宽</h3>
+      <p>第 4/7 页把转场和字幕列进 W 的适合场景，图上只有片段 A、B、C。第 3/7 页的 ⌥Q 断开只有一句小贴士，没有断开前后的时间线。第 2/7 页说鼠标管入点和出点，后面四页没有修剪入出点的步骤。</p>
+    </div>
+    <div class="card">
+      <h3>效率口号没有对照</h3>
+      <p>第 7/7 页写掌握这四个键，剪辑效率会提升一个层级。七页没有计时，也没有同一条片子拖拽和按键的对比。能核对的是结构差异，不是速度数字。</p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>动作：按页上的顺序练一条短片</h2>
+    <div class="card">
+      <h3>先定主线，再决定四个键</h3>
+      <ol>
+        <li>用一条短片，先定主故事线。笔记的旅行例子是人物旁白（第 2/7 页）。</li>
+        <li>风景、航拍、空镜：选中素材，按 Q。核对主线没有被推开，辅助画面挂在主线上（第 3/7 页）。</li>
+        <li>要嵌进中间：播放头放到插入点，选中素材，按 W。核对后面后移、总长变长（第 4/7 页）。</li>
+        <li>按拍摄顺序往下堆：选中素材，按 E，看它是否接在当前最后一个素材后面（第 5/7 页）。</li>
+        <li>要换镜头又保节奏：播放头放到被替换处，按 D。核对前后没有挪；只在新素材和原格等长时，才沿用笔记的「总长不变」（第 6/7 页）。</li>
+        <li>找帧、对位、改入出点留给鼠标。少用拖拽完成上面四种进入（第 1/7、7/7 页）。</li>
+      </ol>
+    </div>
+  </div>
+  <p class="footer">理性分析 · 依据限于七页图文 · fcp-connect-insert-overwrite</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

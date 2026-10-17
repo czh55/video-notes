@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2544" viewBox="0 0 1320 2544">
+  <foreignObject x="0" y="0" width="1320" height="2544">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:44px 56px 36px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.06em;color:#b45309;margin-bottom:8px}
+.meta{font-size:14px;color:#78716c;margin-bottom:16px}
+.meta a{color:#b45309}
+.lede{font-size:17px;line-height:1.7;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:22px;color:#44403c}
+h2{font-size:22px;color:#9a3412;margin:26px 0 12px}
+h3{font-size:16px;color:#1c1917;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.7;color:#44403c}
+ul,ol{padding-left:22px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin-bottom:8px}
+th{background:#ffedd5;color:#9a3412;text-align:left;padding:10px 12px;font-size:13px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;font-size:14px;color:#44403c}
+.grid{display:flex;flex-wrap:wrap;gap:12px}
+.card{flex:1 1 280px;background:#fff;border-radius:14px;padding:16px 16px 8px;border-top:4px solid #b45309}
+.card.bad{border-top-color:#b91c1c}
+.card.ok{border-top-color:#15803d}
+.card h3{font-size:16px}
+.page{display:inline-block;font-size:12px;font-weight:700;color:#b45309;background:#ffedd5;border-radius:999px;padding:1px 8px;margin-right:6px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#fff;border-radius:14px;padding:16px}
+.node{background:#ffedd5;color:#9a3412;border-radius:12px;padding:10px 12px;font-weight:700;font-size:14px;min-width:120px;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e;text-align:center}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 图文 10 页</p>
+  <h1>餐厅拍照不像游客，靠座位、单主光和生活任务</h1>
+  <p class="meta">2026-10-17 · 爱拍照的七十(努力涨粉中) · <a href="https://xhslink.cn/o/AW0nACpRnLp">原笔记</a></p>
+  <p class="lede">游客感来自坐错光、背景吞人、手和表情用力。作者把女生餐厅氛围人像收成五步：选座、用光、机位、动作、眼神，再用手机倍率和三条坑收口。可执行的判断是：脸有过渡、眼睛有高光、手有任务、视线有落点。</p>
+
+  <h2>比较：游客照和氛围照差在哪</h2>
+  <table>
+    <thead><tr><th>项目</th><th>翻车 / 游客照</th><th>作者要的氛围</th><th>页码</th></tr></thead>
+    <tbody>
+      <tr><td>座位</td><td>背对窗，脸黑；正顶灯下，眼窝黑</td><td>窗在侧前方，脸部有高光</td><td>4/10，封面对照 1/10</td></tr>
+      <tr><td>光</td><td>混光加顶光，脏、硬；闪光灯硬、反光</td><td>单一主光，脸颊有过渡，眼睛有高光；不够亮借白墙或桌布</td><td>5/10，10/10</td></tr>
+      <tr><td>背景</td><td>背景杂，人被吞没；桌面太乱像记录照</td><td>背景安静，分出主次</td><td>2/10，3/10，10/10</td></tr>
+      <tr><td>机位</td><td>超广角贴脸，脸大、鼻子突出</td><td>先后退两步，中焦拍满，机位略高</td><td>6/10</td></tr>
+      <tr><td>动作</td><td>表情用力，像摆拍</td><td>端杯轻抿、看菜单或手机、整理头发衣角</td><td>2/10，7/10</td></tr>
+      <tr><td>眼神</td><td>死盯镜头且没有落点（文案口径）</td><td>看远处故事最大，看下方最不尴尬，看侧后方最像抓拍；看镜头仍可作交流感</td><td>8/10</td></tr>
+    </tbody>
+  </table>
+
+  <h2>顺序</h2>
+  <div class="flow">
+    <div class="node">先坐对<br/>4/10</div>
+    <div class="arrow">→</div>
+    <div class="node">只留一个主光<br/>5/10</div>
+    <div class="arrow">→</div>
+    <div class="node">后退再拍满<br/>6/10</div>
+    <div class="arrow">→</div>
+    <div class="node">手有任务<br/>7/10</div>
+    <div class="arrow">→</div>
+    <div class="node">视线有落点<br/>8/10</div>
+  </div>
+  <p style="margin-top:10px">公式页把这套收成三个词：光、背景、任务动作（3/10）。手机参数放在座位和动作之后（9/10），不是第一步。</p>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card bad">
+      <h3><span class="page">2/10</span><span class="page">4/10</span>坐在灯下或背对窗</h3>
+      <p>顶光硬、眼窝黑、脸黑，都会被写成坐错位置。侧前方没有角度数字，只能先避开正背窗和正顶灯。</p>
+    </div>
+    <div class="card bad">
+      <h3><span class="page">5/10</span>混光还想靠滤镜救</h3>
+      <p>左例是混光加顶光等于脏硬。后期明确写别一键加暖，先把偏色调干净（9/10）。</p>
+    </div>
+    <div class="card bad">
+      <h3><span class="page">6/10</span>贴脸用超广角</h3>
+      <p>作者写成最毁氛围。2 倍左右是手机倍率（9/10），不能当成某支定焦的毫米数。</p>
+    </div>
+    <div class="card bad">
+      <h3><span class="page">7/10</span><span class="page">10/10</span>手空着、人用力</h3>
+      <p>闪光灯、乱桌面、用力摆拍是收尾三坑。手没有任务时，表情更容易显得在摆。</p>
+    </div>
+    <div class="card bad">
+      <h3><span class="page">9/10</span>对着灯测光、曝光拉满</h3>
+      <p>要对着脸测光，曝光略压以保住高光。滑块具体档位图上无法确认。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>没有光比、色温、快门、感光度。第 5 页「看到眼睛有高光就够」是观察口令，不是测光值。</li>
+    <li>「侧前方」「后退两步」「中焦」「超广角」「机位略高一点点」都没有换算成角度、厘米或毫米（4/10、6/10）。</li>
+    <li>第 5 页阴影交界红字只读到「阴影一刀」，末字无法确认；眼睛旁标注只确认到「眼睛」。</li>
+    <li>第 7 页写动作自然、不看镜头；第 8 页又把看镜头留成交流感。两页没有写切换条件，不能合成「永远不看镜头」。</li>
+    <li>第 8 页「看向哪，留白就留哪」只管构图方向，不管餐厅是否允许挪桌子。</li>
+    <li>第 10 页「挑 5 条建议」没有标准，也没有承诺每张都改。示例是否同一人、是否实拍，无法确认。</li>
+    <li>笔记文案的五步与第 4 到 8 页一致。闪光灯和手机设置只出现在第 9、10 页，文案没有单列。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <ol>
+    <li>进店先找窗：人坐在窗的侧前方；背对窗或正顶灯下就换座（4/10）。</li>
+    <li>只留一个主光。脸一半黑一半白就挪开混光；眼睛没有高光，用白墙或桌布补一点（5/10）。</li>
+    <li>先后退两步，再用约 2 倍拍满，机位略高；不要超广角贴脸（6/10、9/10）。</li>
+    <li>手立刻领一个任务：端杯轻抿、看菜单或手机、整理头发或衣角（7/10）。</li>
+    <li>给视线一个落点。要故事看远处，怕尴尬看下方，要抓拍看侧后方；留白留在视线前方（8/10）。</li>
+    <li>对脸测光，曝光略压，连拍约 10 张，挑中段那张。后期先去偏色，再轻压高光、轻提阴影（9/10）。</li>
+    <li>按快门前扫三坑：闪光灯关了没有，桌面是不是记录照，人是不是太用力（10/10）。</li>
+  </ol>
+
+  <p class="foot">依据十页图上文字 · 看不清处保持无法确认 · 不替代现场测光</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

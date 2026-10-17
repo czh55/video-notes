@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:32px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}.card{background:#fff;border-radius:16px;padding:24px;margin:16px 0;border-left:5px solid #3b82f6}h3{font-size:20px;color:#1e40af;margin-bottom:8px}table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0}th,td{padding:10px 12px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>冰美式：整行抄，别按杯数去乘</h1>
+<p>笔记只有第 1 页。四档数字同时出现在图和正文里。</p>
+<table><tr><th>杯</th><th>豆 → 萃取液</th><th>水</th><th>冰</th><th>正文怎么用</th></tr>
+<tr><td>400ml</td><td>18g → 36g</td><td>160ml</td><td>200g</td><td>标准杯，说浓度刚好</td></tr>
+<tr><td>500ml</td><td>20g → 45g</td><td>200ml</td><td>250g</td><td>杯子就是 500ml 时用</td></tr>
+<tr><td>700ml</td><td>36g → 72g</td><td>300ml</td><td>320g</td><td>超大杯，给长时间工作</td></tr>
+<tr><td>1000ml</td><td>54g → 108g</td><td>420ml</td><td>500g</td><td>巨大杯，正文放到户外和强提神</td></tr></table>
+<div class="card"><h3>怎么用</h3>
+<p>先量杯子，再整行照抄豆、液、水、冰。400、700、1000 的萃取液都是豆重的 2 倍；500 是 20g 萃 45g。豆从 18g 到 54g 是 3 倍，水只到 420ml，冰只到 500g，三列的放大倍数并不相同。</p>
+<h3>别做的事</h3>
+<p>不要把 400ml 那一行乘 2.5 去填 1000ml。页脚说可以微调，没有写加减多少克。图也没有研磨度、时间和水温，冰块化开后的浓度会比刚倒进去更淡。</p>
+<h3>边界</h3>
+<p>这是作者的家用四档，液、水、冰的重量大致接近标称杯量，图本身没把这个算法写出来。1000ml 不适合居家办公，是正文的使用场景，不是浓度测算。</p></div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2976" viewBox="0 0 1320 2976">
+  <foreignObject x="0" y="0" width="1320" height="2976">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>万元镜头也躲不掉的物理税</h1>
+  <p class="meta">理性分析 · 影像派 · 图文 8 页 · 2026-10-17</p>
+  <p class="lede">紫边和绿边被笔记收成色差：玻璃让不同颜色拐弯不同，高反差边缘漏出颜色。贵镜头和低色散、萤石只能把税降低，极端逆光下仍可能剩一丝。能动手的只有第 7 页印出来的两件事：f/1.8 收到 f/4，或后期打开「移除色差」。</p>
+
+  <div class="map">
+    <div class="diagram">
+      <div class="node">高反差边缘<br/>2/8</div>
+      <div class="arrow">→</div>
+      <div class="node">排除脏、廉价、送修<br/>3/8</div>
+      <div class="arrow">→</div>
+      <div class="node">棱镜色散<br/>4/8</div>
+      <div class="arrow">→</div>
+      <div class="node">焦点前后错开<br/>5/8</div>
+      <div class="arrow">→</div>
+      <div class="node">减税不为零<br/>6/8</div>
+      <div class="arrow">→</div>
+      <div class="node">收光圈或后期<br/>7/8</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>脏点 vs 紫边</td><td>脏是随机的点，紫边是整齐的线</td><td>3/8</td></tr>
+    <tr><td>蓝紫光 vs 红光</td><td>棱镜里蓝紫光拐得狠，红光拐得缓；镜头里蓝紫光聚在前（A），红光聚在后（B），中间写「聚不到一起」</td><td>4/8、5/8</td></tr>
+    <tr><td>紫边 vs 绿边</td><td>逆光树枝是紫边，白色栏杆是绿边；共同点都在明暗反差最大的边缘</td><td>2/8</td></tr>
+    <tr><td>普通镜片 vs 低色散/萤石</td><td>左列焦点隔得开、紫边宽，税交得多；右列焦点靠近、紫边变细，税降到很低但不为零</td><td>6/8</td></tr>
+    <tr><td>f/1.8 vs f/4</td><td>同一类暗枝高反差边缘，f/1.8 紫边宽，f/4 紫边收进去。图上没有第三档，也没有焦距</td><td>7/8</td></tr>
+    <tr><td>移除色差关 vs 开</td><td>面板字是「色差校正」「移除色差」「紫色色相」；圆裁切标「前」「后」</td><td>7/8</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>把整齐的色边当成脏、廉价或传感器故障</h3>
+    <p>第 3 页三格都打了叉：不是镜头脏了，不是买到廉价货，不是传感器坏了、别送修。第 8 页把评论区收成两句：怪过镜头脏的举手，差点送修的报个到。中格只有「不是买到廉价货」，没有价格。</p>
+  </div>
+  <div class="card">
+    <h3>以为万元或顶级镜头可以免税</h3>
+    <p>封面写万元镜头也躲不掉。第 3 页写再贵的镜头也只能减轻、无法消灭。第 6 页把条件收在「极端逆光」，结果是「照样能榨出一丝紫边」。物理定律那句是：玻璃会色散，只能减轻，无法豁免。</p>
+  </div>
+  <div class="card">
+    <h3>把标题里的 99% 当成图上的统计</h3>
+    <p>「99%的人却错怪」只在笔记标题里。八页图没有这个比例，也没有样本。第 7 页「比换镜头便宜一万倍」同样是文案，软件名和价格都没印。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>光圈只印了 <span class="pg">f/1.8</span> 和 <span class="pg">f/4</span>（7/8）。「收一两档」是栏目标题，不能再写成别的光圈。</li>
+    <li>全程没有焦距、镜头型号、玻璃牌号、折射率或波长（4/8 的 A/B 只是示意图字母）。</li>
+    <li>第 4 页只标注蓝紫光和红光，散开的中间颜色没有逐一命名。</li>
+    <li>绿边只在 2/8 作为现象出现。7/8 的前后对照写的是紫边，没有绿边的 f/4 对照。</li>
+    <li>低色散/萤石的结论是「不为零」，适用场面被写成极端逆光（6/8），不是所有光线。</li>
+    <li>2/8 放大框旁、3/8 污点图旁各有一处小字无法确认，不补词。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>先认边缘，再决定收不收光圈</h3>
+    <p>若颜色是整齐的线、且贴在明暗反差最大的边缘（2/8），按第 3 页先不要当脏点或送修。紫边又赶在大光圈加高反差时，第 7 页的拍摄动作是从印出的 f/1.8 收到 f/4。</p>
+  </div>
+  <div class="card">
+    <h3>收不掉再开移除色差</h3>
+    <p>第 7 页右栏：色差校正里打开「移除色差」，面板上还有「紫色色相」。对照是同一边缘的「前」「后」。这一步没有软件名，不要把「一万倍」当成换镜头的报价。</p>
+  </div>
+  <div class="card">
+    <h3>换更贵的镜片只降低预期，不保证消失</h3>
+    <p>第 6 页把普通镜片和低色散/萤石并排：税额从「交得多」变成「降到很低—但不为零」。极端逆光下仍可能看到一丝紫边，就回到第 7 页的两步，而不是再归因到传感器。</p>
+  </div>
+  <p class="footer">依据八页图面文字 · lens-physics-tax</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

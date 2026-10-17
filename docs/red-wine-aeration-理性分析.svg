@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:32px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:10px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>醒酒看状态，不按两小时硬等</h1><table><tr><th>状态</th><th>图上的时间</th><th>怎么用</th></tr><tr><td>未醒</td><td>刚开瓶</td><td>轻酒体可以直接喝</td></tr><tr><td>微醒到中度</td><td>10–60 分钟</td><td>说明文字把多数酒的平衡放在这一段</td></tr><tr><td>充分</td><td>60–120 分钟</td><td>画面标成风味最完整，更适合重酒体</td></tr><tr><td>过度</td><td>120 分钟后</td><td>香气散、结构松，不要再放</td></tr></table><p>老酒醒得更短。分钟是参考，不是品种实验数据。</p>
+    </div>
+  </foreignObject>
+</svg>

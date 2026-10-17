@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4226" viewBox="0 0 1320 4226">
+  <foreignObject x="0" y="0" width="1320" height="4226">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;color:#1e293b}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;font-weight:900;color:#9a3412;line-height:1.35;margin-bottom:8px}
+.sub{font-size:15px;color:#78716c;margin-bottom:16px}
+.tag{display:inline-block;padding:3px 12px;border-radius:999px;font-size:13px;font-weight:600;margin:0 8px 8px 0;background:#ffedd5;color:#9a3412}
+.summary-line{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #ea580c;border-radius:12px;padding:16px 20px;margin:8px 0 22px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px}
+.map{background:#fff;border-radius:16px;padding:22px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.step{background:#fff7ed;border:1px solid #fdba74;border-radius:12px;padding:10px 12px;min-width:120px;font-size:14px;line-height:1.45}
+.step b{display:block;color:#9a3412}
+.arrow{color:#fb923c;font-weight:700}
+.branch{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px}
+.branch .step{flex:1;min-width:200px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 12px}
+th,td{border-bottom:1px solid #e7e5e4;text-align:left;padding:10px 12px;font-size:14px;line-height:1.55;vertical-align:top}
+th{background:#fff7ed;color:#9a3412}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #ea580c}
+.card h3{font-size:17px;margin-bottom:6px;color:#1c1917}
+.card p,.card li{font-size:15px;line-height:1.7;color:#44403c}
+.card ul,.card ol{padding-left:1.2em;margin:6px 0}
+.page{font-weight:700;color:#b45309}
+.footer{margin-top:24px;font-size:13px;color:#a8a29e}
+</style>
+      <div class="wrap">
+  <h1>先记快捷键，再按阶段搭节点</h1>
+  <p class="sub">理性分析 · 第 1/3 封面、第 2/3 快捷键、第 3/3 流程 · 敖舜</p>
+  <span class="tag">达芬奇</span><span class="tag">节点</span><span class="tag">快捷键</span><span class="tag">调色流程</span><span class="tag">LUT</span>
+  <p class="summary-line">三页的关系是目录、按键、流程。封面预告「节点快捷键＋节点流程」（1/3）。真正的键位在第 2/3 页，而且标明 Mac 常用版；底栏只要求先练熟五个。第 3/3 页把搭树收成「先基础，后局部，再风格」：降噪、校正、饱和度在前，着色和肤色分开进混合器，LUT 后面还要分级、影调、定调。</p>
+
+  <div class="map">
+    <h2>关系：封面承诺，后两页各兑现一块</h2>
+    <div class="flow">
+      <div class="step"><b>1/3 封面</b>十步样子 + 四个模块名</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>2/3 按键</b>七个卡片，先练熟五个</div>
+      <span class="arrow">→</span>
+      <div class="step"><b>3/3 流程</b>基础、局部、风格</div>
+    </div>
+    <div class="branch">
+      <div class="step"><b>基础 · 3/3</b>01 降噪 → 02 校正 → 03 饱和度<br/>说明：打好干净、准确的基础</div>
+      <div class="step"><b>局部 · 3/3</b>04 着色 与 05 肤色 分叉<br/>汇入混合器。各司其职</div>
+      <div class="step"><b>风格 · 3/3</b>07 LUT → 08 曝光分级 → 09 无法确认 → 10 影调 → 11 定调<br/>LUT 后面继续精修</div>
+    </div>
+    <p style="margin-top:12px;font-size:15px;line-height:1.7;color:#44403c">封面四个模块里，「常用快捷键」对上第 2/3 页，「节点搭建思路」和「调色实战流程」对上第 3/3 页的阶段划分。「案例解析 / 学完即能用」在三页里没有对应画面。</p>
+  </div>
+
+  <div class="sec">
+    <h2>对比：快捷键卡片，和「先练熟」不是同一份清单</h2>
+    <table>
+      <tr><th>第 2/3 页卡片</th><th>键</th><th>图上的结构</th><th>是否在底栏「先练熟」</th></tr>
+      <tr><td>串行节点 Serial Node</td><td>⌥S</td><td>前后相接</td><td>在</td></tr>
+      <tr><td>并行节点 Parallel Node</td><td>⌥P</td><td>分叉再汇合</td><td>在</td></tr>
+      <tr><td>开/关当前节点</td><td>⌘D</td><td>单节点斜线</td><td>在</td></tr>
+      <tr><td>开/关全部节点</td><td>⌥D</td><td>一串节点都斜线</td><td>在</td></tr>
+      <tr><td>Outside 节点</td><td>⌥O</td><td>选区之外再接节点</td><td>在</td></tr>
+      <tr><td>图层节点 Layer Node</td><td>⌥L</td><td>多路进入混合器</td><td>不在</td></tr>
+      <tr><td>追加节点 Append Node</td><td>⌥K</td><td>当前节点后再接一个</td><td>不在</td></tr>
+    </table>
+    <p style="font-size:14px;color:#78716c">底栏原句是「先练熟：⌥S / ⌥P / ⌘D / ⌥D / ⌥O」。图层和追加仍然印在卡片上，只是没有被放进优先练习的那一行。</p>
+  </div>
+
+  <div class="sec">
+    <h2>对比：封面十步，和第 3 页的编号不是同一张图</h2>
+    <table>
+      <tr><th>位置</th><th>第 1/3 页封面</th><th>第 3/3 页流程</th></tr>
+      <tr><td>开头</td><td>01 降噪，02 矫正，03 饱和度</td><td>01 降噪，02 校正，03 饱和度</td></tr>
+      <tr><td>局部</td><td>04 着色，05 肤色。未见「混合器」三字</td><td>04 着色，05 肤色，汇入混合器</td></tr>
+      <tr><td>风格段</td><td>06 LUT，07 曝光分级，08 颜色分级，09 影调，10 定调</td><td>07 LUT，08 曝光分级，09 标签无法确认，10 影调，11 定调。没有 06</td></tr>
+      <tr><td>用字</td><td>第二步写「矫正」</td><td>第二步写「校正」；手写标语是「清晰的流面」</td></tr>
+    </table>
+    <p style="font-size:14px;color:#78716c">不能把封面的「颜色分级」填进第 3 页节点 09。那一格被水印挡住，可见文字记为无法确认。两页风格段都是 LUT 在前、定调在最后，这个顺序可以对上；中间那一格的名字只能采信封面自己的「颜色分级」，不能算第 3 页的原文。</p>
+  </div>
+
+  <div class="sec">
+    <h2>步骤：按第 3 页能执行的搭法</h2>
+    <div class="card">
+      <ol>
+        <li>基础串起来：降噪，然后校正（封面写作矫正），然后饱和度。目的写的是「打好干净、准确的基础」。键位上，串行用 ⌥S，在当前节点后追加用 ⌥K（2/3）。</li>
+        <li>局部拆开：着色一条，肤色一条，再进混合器。说明写「两个方向，各司其职」，让画面风格和肤色更可控。并行是 ⌥P，图层混合是 ⌥L（2/3 有卡片；3/3 画的是混合器，没有标明这一格必须用哪一个键）。</li>
+        <li>风格不要停在 LUT：07 LUT 之后还有曝光分级、影调、定调。三块说明的原句是「LUT 后面继续精修」「分级、影调、定调」。</li>
+        <li>要看节点开没开，用 ⌘D 管当前、⌥D 管全部。要做选区之外，用 ⌥O（2/3）。第 3 页的流程图本身没有画出 Outside。</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>避坑</h2>
+    <div class="card">
+      <h3>把 LUT 当成最后一节点</h3>
+      <p>第 3/3 页把 LUT 放在风格段的起点，右边说明写「LUT 后面继续精修」。曝光分级、影调、定调都在它后面。</p>
+    </div>
+    <div class="card">
+      <h3>着色和肤色挤在同一个节点里</h3>
+      <p>第 3/3 页把 04 和 05 画成分叉，并写「各司其职」「画面风格与肤色更可控」。封面同样把着色和肤色分成 04、05 两格。</p>
+    </div>
+    <div class="card">
+      <h3>七个快捷键平均用力，或把 Mac 键位当成所有键盘</h3>
+      <p>第 2/3 页副题是「Mac 常用版」。底栏只点名 ⌥S、⌥P、⌘D、⌥D、⌥O。⌥L 和 ⌥K 在卡片上，不在先练熟那一行。</p>
+    </div>
+    <div class="card">
+      <h3>用封面编号去改第 3 页，或反过来</h3>
+      <p>封面是 01–10，其中 08 是颜色分级、09 是影调。第 3 页风格段从 07 编号到 11，09 无法确认，而且没有 06。两套编号不能逐格对齐后互相填空。</p>
+    </div>
+    <div class="card">
+      <h3>把封面的「案例解析 / 学完即能用」当成已经看过案例</h3>
+      <p>三页都没有前后对比或具体素材。那两个模块名只出现在第 1/3 页底部。</p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>适用边界</h2>
+    <div class="card">
+      <ul>
+        <li>快捷键只在第 2/3 页成立，且该页写明 Mac 常用版。这组图没有 Windows 键位。</li>
+        <li>节点职责以第 3/3 页三块说明为准：基础是降噪、校正、饱和度；局部是着色与肤色分开；LUT 之后是分级、影调、定调。</li>
+        <li>第 3/3 页节点 09 的标签无法确认。封面第 1/3 页对应位置附近写的是「颜色分级」，只能当作封面自己的标注。</li>
+        <li>「矫正」（1/3）和「校正」（3/3）都按各页原文保留，不合并成一个官方术语。</li>
+        <li>图上没有降噪强度、LUT 文件名、曝光数值或示波器。流程是分工顺序，不是参数表。</li>
+        <li>这是作者整理的一套顺手流程，不是软件新建时间线时的默认节点树。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>行动清单</h2>
+    <div class="card">
+      <ol>
+        <li>在 Mac 上先把 ⌥S、⌥P、⌘D、⌥D、⌥O 按到不用看表。依据第 2/3 页底栏。</li>
+        <li>需要图层混合或在当前节点后追加时，再调用卡片上的 ⌥L、⌥K。依据第 2/3 页后两张不在底栏里的卡片。</li>
+        <li>搭树时按第 3/3 页：降噪、校正、饱和度；着色和肤色分开进混合器；LUT 之后做曝光分级、影调、定调。节点 09 先空着名字，不要用封面的字填上。</li>
+        <li>交片前用 ⌘D 单独开关可疑节点，用 ⌥D 看整树开关的差别。依据第 2/3 页。</li>
+        <li>封面若被当成检查单，只勾「快捷键」和「流程」两项；「案例解析」这组图没有画面可勾。依据第 1/3 页四个模块与后两页的实际内容。</li>
+      </ol>
+    </div>
+  </div>
+  <p class="footer">页码对应 docs/assets/davinci-shortcuts-nodes/01.jpg、02.jpg、03.jpg。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

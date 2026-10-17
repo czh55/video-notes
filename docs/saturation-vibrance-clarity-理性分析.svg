@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2987" viewBox="0 0 1320 2987">
+  <foreignObject x="0" y="0" width="1320" height="2987">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;color:#1c1917;margin:0 0 8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:1.2em;margin:0}
+li{margin:0 0 6px}
+.kicker{font-size:13px;letter-spacing:.06em;font-weight:700;color:#b45309;margin-bottom:8px}
+.meta{font-size:13px;color:#78716c;margin-bottom:14px}
+.meta a{color:#b45309;text-decoration:none}
+.lede{font-size:16px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 12px rgba(180,83,9,.06)}
+.card.wide{grid-column:1 / -1}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#9a3412;background:#ffedd5;border-radius:999px;padding:2px 8px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:14px}
+th{text-align:left;background:#ffedd5;color:#9a3412;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c;line-height:1.65}
+.page{font-weight:700;color:#b45309;white-space:nowrap}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 小红书 · 小珊卓</p>
+  <h1>饱和度、自然饱和度、鲜明度不是同一个滑块</h1>
+  <p class="meta">2026-10-17 · 图文 4 页 · <a href="https://xhslink.cn/o/56gQz7MyKKN">原文短链</a></p>
+  <p class="lede">第 2 页和第 3 页用同一张海面照片，把饱和度和自然饱和度拉到标注的两端。第 4 页把鲜明度写成暗部、亮部和对比的一组方向，正向是通透去灰，负向是灰平雾感。第 1 页只点名，滑块没有数字。</p>
+
+  <h2>比较</h2>
+  <table>
+    <thead><tr><th>同一端</th><th>饱和度</th><th>自然饱和度</th><th>鲜明度</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>正向，图上标 +100</td>
+        <td>第 2/4 页：所有颜色一起加浓。海面的蓝比原图更冲。</td>
+        <td>第 2/4 页：智能加浓，优先提不浓的颜色。也比原图浓，没有上格那么整片发艳。</td>
+        <td>第 4/4 页：暗部提亮，像阴影加；亮部压暗，像高光减；适当加对比。整体写成通透、立体、去灰。</td>
+      </tr>
+      <tr>
+        <td>负向，图上标 -100</td>
+        <td>第 3/4 页：整体变灰，像褪色。这一格几乎没有颜色。</td>
+        <td>第 3/4 页：自然降艳，不会一下子死灰。海面还留着很淡的蓝。</td>
+        <td>第 4/4 页：暗部压暗，像阴影减；亮部提亮，像高光加；适当降对比。整体写成灰平、柔和、雾感。</td>
+      </tr>
+      <tr>
+        <td>第 1/4 页的默认画面</td>
+        <td>只有名字和一条停在中段的滑块，没有读数，也没有效果说明。</td>
+        <td>同样只有名字和中段滑块。和第 2、3 页的 ±100 对不上具体刻度。</td>
+        <td>名字在第三行。阴影、高光、对比的对应要到第 4/4 页才出现。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 4/4 页</span>
+      <h3>把鲜明度当成再加一层颜色</h3>
+      <p>第 4 页写的是暗部、亮部和对比的方向，整体效果是通透或雾感。它没有写「所有颜色一起加浓」。发灰、发闷时只去拉第 2 页那种饱和度，对不上这一页的做法。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/4 与 3/4 页</span>
+      <h3>负向也当成同一种灰</h3>
+      <p>饱和度 -100 的批注是整体变灰、像褪色。自然饱和度 -100 的批注是自然降艳、不会一下子死灰。两格都标成 -100，灰的程度不一样，不能合成一句「往左都是褪色」。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/4 至 4/4 页</span>
+      <h3>把对照标签当成推荐用量</h3>
+      <p>+100 和 -100 写在对比图的黄标上，用来展示两端。第 1 页的三条滑块没有数字。图上没有写日常该停在哪一格。</p>
+    </div>
+    <div class="card">
+      <span class="tag">说明与图</span>
+      <h3>用这组船的照片去验证肤色</h3>
+      <p>说明里写了饱和度容易让肤色变橙、人像慎拉、自然饱和度保护肤色。四张图是海面和白船，没有人脸。这些句子不能从对比图里看出来。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 1/4 页</span>
+      <h3>中段没有读数</h3>
+      <p>三条滑块画在刻度中段。画面上没有标数字，无法确认是不是正好为 0，也不能把它写成某个软件的默认值。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 4/4 页</span>
+      <h3>「像」不是滑块读数</h3>
+      <p>暗部提亮写成像阴影加，亮部压暗写成像高光减，适当加对比写成像对比度加；负向三条反过来。图上没有再给阴影、高光、对比度的数字。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/4 至 4/4 页</span>
+      <h3>看不清是不是只动了一个参数</h3>
+      <p>每页都有一格原图，上下两格标了一个名字和 ±100。没有参数面板，无法确认拍摄之后是否还动过别的滑块。三页是否同一曝光，也无法从画面确认。</p>
+    </div>
+    <div class="card">
+      <span class="tag">说明文字</span>
+      <h3>截断处不要补全</h3>
+      <p>说明把鲜明度收成光影通透，并写到阴天、逆光、人像发灰、风景不通，后面被截断，无法确认。鲜明度「尽量维持色彩」这句话在说明里，不在第 4 页的批注上。水印是「小红书」，作者名以笔记信息里的「小珊卓」为准。</p>
+    </div>
+  </div>
+
+  <h2>动作</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 2/4 与 3/4 页</span>
+      <h3>要全体变浓或全体褪色</h3>
+      <ul>
+        <li>看饱和度：正向是所有颜色一起加浓。</li>
+        <li>负向是整体变灰，像褪色。</li>
+        <li>图上的 ±100 只说明两端，不作为日常停点。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 2/4 与 3/4 页</span>
+      <h3>要优先动还不浓的颜色</h3>
+      <ul>
+        <li>看自然饱和度：正向写智能加浓，优先提不浓的颜色。</li>
+        <li>负向写自然降艳，不会一下子死灰。</li>
+        <li>不要用第 3 页上格那种褪色，去代替下格的降艳。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 4/4 页</span>
+      <h3>发灰、发闷时先看光影</h3>
+      <ul>
+        <li>鲜明度正向：暗部提亮、亮部压暗、适当加对比。</li>
+        <li>页面把结果写成通透、立体、去灰。</li>
+        <li>不要把它理解成第 2 页那种全体加浓。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 4/4 页</span>
+      <h3>要灰平或雾感</h3>
+      <ul>
+        <li>鲜明度负向：暗部压暗、亮部提亮、适当降对比。</li>
+        <li>页面把结果写成灰平、柔和、雾感。</li>
+        <li>这和饱和度 -100 的「像褪色」不是同一句批注。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="foot">依据只来自 saturation-vibrance-clarity 的 1/4 至 4/4，以及笔记说明里能读到的句子。说明在「风景不通」之后无法确认。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:30px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:8px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>明度乘饱和度</h1><table><tr><th>格子</th><th>正文给的词</th><th>图上的颜色</th></tr><tr><td>亮且艳</td><td>热情</td><td>纯色</td></tr><tr><td>暗且艳</td><td>沉稳</td><td>酒红、深绿、海军蓝</td></tr><tr><td>亮且灰</td><td>优雅清新</td><td>浅粉、淡黄、薄荷绿</td></tr><tr><td>暗且灰</td><td>温柔</td><td>灰粉、石板色</td></tr></table><p>气质词在笔记正文，不在色块上。不是肤色诊断。</p>
+    </div>
+  </foreignObject>
+</svg>

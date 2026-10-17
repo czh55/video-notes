@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:30px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:8px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>先用第 1 页的角度，再核对色块</h1>
+<table>
+<tr><th>页</th><th>能直接用的</th><th>对不上的</th></tr>
+<tr><td>1/5</td><td>30° 同类、60° 邻近、120° 对比、180° 互补</td><td>90° 只有刻度；对比和互补写成「以内」</td></tr>
+<tr><td>2/5</td><td>高饱和暖色 = 快乐；说明了绿和黄</td><td>橙和柠檬黄没有性格句</td></tr>
+<tr><td>3/5</td><td>色块是红、黄、橙、暗红</td><td>性格栏仍在写绿</td></tr>
+<tr><td>4/5</td><td>低饱和灰、棕、灰蓝 = 平静</td><td>画里的橙红不在色块里</td></tr>
+<tr><td>5/5</td><td>色块是深蓝、灰、黑</td><td>性格栏写了棕色</td></tr>
+</table>
+<p>易错：把第 3、5 页的性格句当成当页色块的定义。边界：情绪是笔记的象征。</p>
+    </div>
+  </foreignObject>
+</svg>

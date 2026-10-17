@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1835" viewBox="0 0 1320 1835">
+  <foreignObject x="0" y="0" width="1320" height="1835">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 48px}
+h1{font-size:30px;line-height:1.35;color:#9a3412;margin-bottom:10px}
+h2{font-size:20px;color:#b45309;margin:22px 0 10px}
+p,li,td,th{font-size:15px;line-height:1.7}
+.lead{font-size:17px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:12px 16px;margin:10px 0}
+ul{padding-left:1.2em}
+li{margin:4px 0}</style>
+      <div class="wrap">
+<h1>白线决定位置，红线只负责看</h1>
+<p class="lead">Playhead 是剪刀所在的帧，Skimmer 是鼠标正在看的帧。重合不是第三种线，只是两帧叠在一起。分割写明落在白线。</p>
+
+<h2>比较</h2>
+<table>
+<tr><th></th><th>白线 Playhead</th><th>红线 Skimmer</th><th>页</th></tr>
+<tr><td>代表</td><td>当前真正的位置</td><td>鼠标扫到的位置</td><td>1、3、6</td></tr>
+<tr><td>改不改时间线</td><td>播放、插入、剪切都从这里发生</td><td>只预览，笔记写不会改变时间线</td><td>1、3、4</td></tr>
+<tr><td>比喻</td><td>剪刀、参考线、负责决定</td><td>眼睛、负责寻找</td><td>2、5、6</td></tr>
+<tr><td>怎么动</td><td>空格播放；左右键逐帧；点击后红线位置变成白线</td><td>鼠标在片段、灰色区域、时间标尺上移动或按住拖动</td><td>2、3、4、5</td></tr>
+<tr><td>分开时</td><td>例子停在 12 秒</td><td>鼠标在 16 秒，画面预览 16 秒</td><td>4</td></tr>
+</table>
+
+<h2>易错</h2>
+<div class="card">
+<ul>
+<li>看见红线就按 Command + B。2/7 和 6/7 都写分割在白线位置。红线还在旁边时，切点仍是白线。</li>
+<li>两条线叠成一条，就当成红线消失或白线变成红线。4/7 写的是位置相同才重合；鼠标离开就又分开。</li>
+<li>只移动鼠标就以为播放头跟着走。5/7 写不点击时红线不会变成白线；要点击，那个位置才成为新的播放位置。</li>
+<li>第 3 页 Shift + S 写成「关开 / 关闭」，第 6 页写成「打开 / 关闭」。按第 6 页的「打开 / 关闭音频 Skimming」理解，第 3 页那两个字不要照抄。</li>
+<li>文件第 6 张的角标是 07，第 7 张与它相同。不要再找一张标号 06 的不同内容。</li>
+</ul>
+</div>
+
+<h2>边界</h2>
+<div class="card">
+<ul>
+<li>灰色区域：3/7 写「移动鼠标」，5/7 写「按住鼠标左右移动」。两页动词不一样，操作时以自己界面里红线是否出现为准。</li>
+<li>I / O 排在「红线找到画面」之后（3/7、6/7），笔记没有写明入点落在红线还是白线。能确定的只有分割在白线。</li>
+<li>「不会影响剪辑内容」是画面上的句子，不是把已剪好的片段锁住。点击之后，5/7 明确说播放位置会改到刚才红线那一帧。</li>
+<li>简介后半截提到剪映，七张图没有这一段，不能当成图上的结论。</li>
+<li>12 秒、16 秒和 00:00:12:15 是示意图上的时间，不是某条素材的实测入出点。</li>
+</ul>
+</div>
+
+<h2>动作</h2>
+<div class="card">
+<ul>
+<li>找画面：开着 Skimmer（S），用红线扫片段。要听声音用 Shift + S。暂时不想要红线，按住 Control（3/7、6/7）。</li>
+<li>定播放点：在满意的帧上点击，让红线位置变成白线（5/7）。需要逐帧时用左右方向键挪白线（2/7）。</li>
+<li>选取：红线找到范围后按 I / O（2/7、6/7）。笔记把这一步放在浏览之后、白线执行之前。</li>
+<li>切开：先确认白线在剪切帧，再按 Command + B（2/7 的例子是 00:12:15）。插入素材、标题、转场也对齐白线（1/7、2/7）。</li>
+<li>核对是否看错线：播放头和鼠标不在同一帧时，应看到一白一红；只有鼠标压在播放头上才合成一条（4/7）。</li>
+</ul>
+</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4730" viewBox="0 0 1320 4730">
+  <foreignObject x="0" y="0" width="1320" height="4730">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#1e3a5f;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:stretch;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:12px 14px;text-align:center;min-width:120px;max-width:168px;font-weight:700;font-size:14px;color:#1e40af}
+.node small{display:block;font-weight:500;font-size:12px;color:#475569;margin-top:6px}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:20px;color:#94a3b8;align-self:center}
+.sec{margin-bottom:8px}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.flow span{background:#fff;border:1px solid #e2e8f0;border-radius:999px;padding:6px 12px;font-size:13px;color:#334155}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card-orange{border-left-color:#f59e0b}
+.card-red{border-left-color:#ef4444}
+.card-green{border-left-color:#10b981}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.insight-key{background:#fff7ed;border-radius:14px;padding:18px 20px;margin-bottom:16px;border-left:4px solid #f59e0b}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e3a5f,#2563eb);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}</style>
+      <div class="container">
+  <h1>十种风格，都在重答空间该是什么样</h1>
+  <div class="meta">
+    <span class="tag tag-blue">西方建筑史</span>
+    <span class="tag tag-orange">建筑风格</span>
+    <span class="tag tag-gray">认读</span>
+    <span class="tag tag-blue">绘画</span>
+  </div>
+  <p class="summary-line">第 11 页把整套图收成一个问题：空间应该是什么样。第 1 页只给顺序。第 2–10 页每页换一个答案：比例与柱式、工程化的内部空间、神圣穹顶、重量、向上的光、人的尺度、戏剧、克制的公共权威、删掉装饰之后的功能。第 11 页再把历史符号请回来。认的时候看结构动作，不看「像不像某座名建筑」。</p>
+
+  <section class="map">
+    <h2>关系图：一个问题，十个答案</h2>
+    <div class="diagram">
+      <div class="node">空间该是什么样<small>第 11 页结语</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">古典语法<small>第 2 页柱式比例</small></div>
+      <div class="arrow">→</div>
+      <div class="node">把空间做出来<small>第 3–6 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-green">谁的空间<small>第 7–11 页</small></div>
+    </div>
+    <p>第 3–6 页解决「空间如何被结构撑住」：拱券和混凝土（第 3 页）、帆拱上的圆顶（第 4 页）、厚墙压住的昏暗（第 5 页）、飞扶壁换来的光（第 6 页）。第 7–11 页解决「这空间为谁服务」：人的尺度（第 7 页）、情感戏剧（第 8 页）、公共权威（第 9 页）、生活功能（第 10 页）、可被误读的历史符号（第 11 页）。</p>
+  </section>
+
+  <section class="sec">
+    <h2>十页对照：先看哪里</h2>
+    <table>
+      <tr><th>页</th><th>风格</th><th>图上的关键词</th><th>先看的东西</th><th>图上的锚点</th></tr>
+      <tr><td>2</td><td>古希腊</td><td>比例、柱式、秩序</td><td>柱头：多立克 / 爱奥尼 / 科林斯；立面的山花、柱廊、基座</td><td>神庙正立面。具体庙名以画面帕特农式形象为准，页内中文庙名未单列</td></tr>
+      <tr><td>3</td><td>古罗马</td><td>拱券、穹顶、混凝土</td><td>连续券廊、天眼、引水桥</td><td>斗兽场 AD 72–80；万神殿 AD 126</td></tr>
+      <tr><td>4</td><td>拜占庭</td><td>穹顶、帆拱、马赛克</td><td>圆顶是否落在方形平面上，内部是否有集中中心</td><td>圣索菲亚，图上写公元 532 年</td></tr>
+      <tr><td>5</td><td>罗曼式</td><td>重量：低、厚、重、稳</td><td>厚墙、半圆拱、小窗、桶拱</td><td>10–12 世纪；山坡教堂中文名无法确认</td></tr>
+      <tr><td>6</td><td>哥特式</td><td>向上、光</td><td>尖拱、肋拱、飞扶壁、彩色玻璃</td><td>12–15 世纪；夏特尔，12–13 世纪</td></tr>
+      <tr><td>7</td><td>文艺复兴</td><td>人的尺度、比例、对称</td><td>古典柱式重新出现，穹顶是双层壳</td><td>佛罗伦萨大教堂 1296–1471；布鲁内莱斯基、阿尔伯蒂、米开朗基罗</td></tr>
+      <tr><td>8</td><td>巴洛克</td><td>戏剧：曲线、椭圆、轴线、光影</td><td>立面是否扭动，平面是否椭圆，轴线是否在组织仪式</td><td>圣彼得广场；圣卡罗教堂 1638–1646</td></tr>
+      <tr><td>9</td><td>新古典主义</td><td>克制、权威</td><td>巨柱廊、对称、三角山花、超人尺度</td><td>先贤祠 1758–1790；大英博物馆 1823–1852</td></tr>
+      <tr><td>10</td><td>现代主义</td><td>LESS IS MORE，功能</td><td>平屋顶、大玻璃、装饰是否被拿掉；钢、混凝土</td><td>萨伏伊别墅 1928–1931；德国馆 1929；包豪斯 1925–1926；流水别墅 1935–1939</td></tr>
+      <tr><td>11</td><td>后现代主义</td><td>符号、拼贴、讽刺</td><td>柱子和山花是否被夸张、错位、涂上别的颜色</td><td>波特兰市政大楼 1982；意大利广场 1978；AT&amp;T 大楼 1984</td></tr>
+    </table>
+  </section>
+
+  <section class="sec">
+    <h2>三步认一座立面</h2>
+    <div class="flow">
+      <span>第 2 页 先看有没有柱式语法</span>
+      <span>→</span>
+      <span>第 3–6 页 再看墙是被压住还是被打开</span>
+      <span>→</span>
+      <span>第 7–11 页 最后问装饰是秩序、戏剧、克制、删除还是拼贴</span>
+    </div>
+    <div class="dual">
+      <div class="card">
+        <h3>墙怎么受力，空间就怎么亮</h3>
+        <p>第 5 页罗曼式用厚墙和半圆拱把推力吃进砌体，窗户只好小，室内暗。第 6 页把这条链写反：尖拱和肋拱减轻压力，飞扶壁把侧推力引到外侧，墙才能开大窗，彩色玻璃才进得来。第 3 页的连续券廊和第 4 页的帆拱是更早的两步：先让拱成为大型结构，再让圆顶盖住方形平面。看到「又高又亮」，先找飞扶壁，不要只数尖塔。</p>
+      </div>
+      <div class="card card-orange">
+        <h3>同一种古典零件，用法不同</h3>
+        <p>柱子、山花在第 2 页是语法本身。第 7 页把它们收回来做比例和对称。第 8 页把直线扭成曲线和椭圆。第 9 页再把柱廊和山花放大，服务政府、法院、银行、博物馆。第 10 页把装饰语言删掉。第 11 页让这些零件以拼贴和断裂山花回来，文丘里对密斯的句子是 LESS IS A BORE 对 LESS IS MORE。看见柱廊，先问它在哪一页的用法里。</p>
+      </div>
+    </div>
+    <div class="insight-key">
+      <h3>第 11 页的十条，就是背诵顺序</h3>
+      <p>古希腊比例，古罗马空间，拜占庭穹顶，第四项重量，哥特式向上，文艺复兴秩序，巴洛克运动，新古典主义回归，现代主义功能，后现代主义符号。第四项和第 5 页的「重量」一致；第 5 页标题是「罗曼式」，第 11 页回顾条写成「罗马式」还是「罗曼式」无法确认，背的时候以第 5 页标题为准。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>避坑</h2>
+    <div class="card card-red">
+      <h3>不要用封面年代覆盖内页</h3>
+      <p>哥特式：第 1 页写 12–16 世纪，第 6 页写 12–15 世纪，夏特尔案例是 12–13 世纪。现代主义：第 1 页写 20 世纪，第 10 页写成 20 世纪初到 20 世纪中叶。后现代主义在第 1 页是「20 世纪后期」，作品年份在第 11 页是 1978、1982、1984。记认法和案例年，用内页；封面只负责顺序。</p>
+    </div>
+    <div class="card card-red">
+      <h3>不要把工期起点当成风格起点</h3>
+      <p>第 7 页佛罗伦萨大教堂写 1296–1471，风格标签却是 14–16 世纪。1296 年早于 14 世纪。第 4 页圣索菲亚公元 532 年，落在封面拜占庭 4–10 世纪里面，它是一座教堂的年份，不是风格的全部起止。第 9 页先贤祠 1758–1790 和大英博物馆 1823–1852 相差几十年，仍被放在同一个 18–19 世纪标签下。</p>
+    </div>
+    <div class="card card-red">
+      <h3>不要把比喻当成建筑类型</h3>
+      <p>第 4 页「天堂般的空间」、第 6 页「被光雕刻的空间」、第 8 页「舞台」和「被表演」、第 10 页「一个居住的机器」，都是页内金句。第 8 页的案例是圣彼得广场和圣卡罗教堂，不是剧场类型学。第 10 页的机器指萨伏伊别墅的居住方式，不能推广成所有现代建筑都是机器。</p>
+    </div>
+    <div class="card card-red">
+      <h3>读不清的字不要补完</h3>
+      <p>第 5 页山坡教堂的中文专名无法确认。第 7 页穹顶剖面除灯塔、双层穹顶、砖砌结构外，还有一项中文被读成「圆形楼座」，确切用字无法确认。第 10 页几何体块那一条，标题被读成「简单块块」「几何形体清洗纯粹」，确切用字无法确认。第 9 页导语写「华丽之后回到克制」，是否点名洛可可无法确认。第 11 页第四项用「罗马式」还是「罗曼式」无法确认。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>适用边界</h2>
+    <ul>
+      <li>适合：旅行、看展、在城里分辨柱式、穹顶、尖拱、玻璃幕墙大概落在哪一段。每页是认读卡，案例以意大利、法国、英国和后来的美国为主。</li>
+      <li>不适合：替代建筑史教材、做年代鉴定或保护修缮判断。一张图没有结构计算，也没有地域变体。</li>
+      <li>十条之间有大段空白。图上没有单列罗可可、工艺美术、装饰艺术或高技派。第 9 页的「华丽」指向前一页的巴洛克，中间是否还有别的风格，这套图不回答。</li>
+      <li>第 10 页把流水别墅和萨伏伊别墅放在同一份建筑师名单里。主定义是删装饰、平屋顶、大玻璃；流水别墅同时在跟地形说话。用主图认「白盒子」，不要用它否定赖特那一栏。</li>
+      <li>第 2 页说古希腊留下影响欧洲两千多年的语法。这是页底判断。后面各页显示这套语法会被放大、扭动、删掉、再以讽刺请回，不是一条直线的传承。</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>行动清单</h2>
+    <ol>
+      <li>先背第 11 页十条关键词，再打开第 1 页对顺序。比例、空间、穹顶、重量、向上、秩序、运动、回归、功能、符号。</li>
+      <li>看到柱子，用第 2 页三分：无柱础而朴素是多立克，涡卷是爱奥尼，叶饰是科林斯。然后用第 7、9、11 页问这些柱子是在重建秩序、放大权威，还是在拼贴。</li>
+      <li>看到教堂内部很暗，先对第 5 页的厚墙和小窗；又高又亮，转去第 6 页找飞扶壁和彩色玻璃。两页的对照形容词不完全相同，结构动作以第 6 页四件套为准。</li>
+      <li>看到大穹顶，分三问：有没有天眼和混凝土工程（第 3 页），圆顶是否用帆拱盖住方形并集中光线（第 4 页），是不是双层砖壳回到人的尺度（第 7 页）。</li>
+      <li>城市公共建筑若是对称柱廊加大山花，先对第 9 页的政府、法院、银行、博物馆。若山花断裂、颜色很吵、古典零件明显错位，改对第 11 页的 1978–1984 三个例子。</li>
+    </ol>
+  </section>
+
+  <section class="conclusion">
+    <h2>结论</h2>
+    <p>一次看懂的办法，是把「空间应该是什么样」拆成十个可核对的动作，而不是记十座明信片。第 2 页建立柱式语法，第 3–4 页让空间先变大再变神圣，第 5–6 页用重量和飞扶壁决定光进不进得来，第 7–9 页在人的尺度、戏剧和公共克制之间来回，第 10 页删掉装饰去问功能，第 11 页把符号请回来并给出背诵条。年代冲突、读不清的专名和金句比喻，停在对应页，不再往下推断。</p>
+  </section>
+  <p class="footer">依据：图文笔记 11 页 · 观看半径 · 艺术阅览室</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

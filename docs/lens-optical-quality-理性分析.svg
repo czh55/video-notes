@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3126" viewBox="0 0 1320 3126">
+  <foreignObject x="0" y="0" width="1320" height="3126">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 32px}
+h1{font-size:34px;line-height:1.3;color:#9a3412;margin-bottom:8px}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.7;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin:14px 0 18px}
+h2{font-size:22px;color:#9a3412;margin:22px 0 10px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:5px solid #b45309}
+.card h3{font-size:17px;margin-bottom:6px;color:#9a3412}
+p,li{font-size:15px;line-height:1.7}
+ul,ol{padding-left:22px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:8px 0 12px}
+th{background:#ffedd5;color:#9a3412;text-align:left;padding:10px 12px;font-size:14px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;font-size:14px;line-height:1.65}
+.pit{background:#fff;border-radius:14px;padding:14px 16px;margin:0 0 10px;border-left:5px solid #c2410c}
+.pit strong{color:#9a3412}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.act{background:#fff;border-radius:14px;padding:14px 16px}
+.act b{display:block;color:#b45309;margin-bottom:4px}
+.foot{margin-top:16px;color:#78716c;font-size:12px}
+</style>
+      
+<div class="wrap">
+<p class="kicker">理性分析 · 徐贰懂 · 2026-10-17 · 13 页</p>
+<h1>光学素质：曲线量锐度，像差才是性格</h1>
+<p class="lede">这套笔记回答的是「镜头好不好」能不能离开形容词。能离开的部分是 MTF：它量的是明暗对比还剩多少。离开不了的部分是像差：球差、色散、口径蚀决定焦外纹理、紫边和猫眼。第 13 页的结论因此不是选出最锐的头，而是先选定要锐还是要味道。</p>
+
+<h2>四组对照</h2>
+<table>
+<tr><th>对照</th><th>页上怎么分</th><th>用来做什么决定</th></tr>
+<tr><td>纵轴高 vs 向右掉得慢</td><td>第 3–4 页：接近 1 是反差还在；条纹变细时下降慢，才是细节还在。纵轴刻度印到 1.0，横轴印到 50 lp/mm。</td><td>不要把「看起来锐」只理解成边缘细线。大结构的明暗先看纵轴。</td></tr>
+<tr><td>10 线对/mm vs 30 线对/mm</td><td>第 5 页：10 线对/mm 到 0.8 以上算反差良好；30 线对/mm 到 0.5 以上算细节合格。第 12 页把商业人像旗舰抬到 30 线对/mm 的 0.7 以上。</td><td>0.5 是页上的合格线，0.7 是页上的旗舰线。两者不是同一档要求。</td></tr>
+<tr><td>实线径向 vs 虚线切向</td><td>第 5 页：实线从中心向外，虚线沿同心圆。靠得近则像散小；分得开，边缘点光源被拉成椭圆。</td><td>两条线的高度差，比单看一条线更接近「边缘点还圆不圆」。</td></tr>
+<tr><td>图上最佳光圈 vs 全开</td><td>第 5 页写曲线通常在最佳光圈测，通常是 F8。举例：F1.4 镜头图上 0.8，全开可能只有 0.6。没有镜头型号。</td><td>拿厂商曲线当全开锐度，会把测量条件吃掉。先问这张图是哪一档。</td></tr>
+<tr><td>消像差 vs 留像差</td><td>第 6–7、11 页：矫正完美是均匀弥散圆、「奶油般化开」，也会被写成无聊；欠矫正留下纹理和动感。色散留下紫/绿边，口径蚀留下猫眼。</td><td>「味道」在这里不是神秘参数，是三种具体像差的组合。</td></tr>
+<tr><td>旗舰全开 vs 中端收一档</td><td>第 12–13 页：F1.2/F1.4 旗舰对「全开即锐」；F1.8/F2 中端收到 F2.8–F4，全开 MTF 可能一般，收一档后提升。另写所有镜头收一档，像差都显著减小。</td><td>预算不够时，页上的动作是收一档，不是去追一条全开曲线。</td></tr>
+</table>
+
+<h2>容易读错的地方</h2>
+<div class="pit"><strong>把封面形容词当成指标。</strong>第 1–2 页列出「锐」「有味道」「刀锐奶化」，然后说这些全是感觉。MTF 只接得住其中的「锐」：反差和分辨率。味道被明确放到曲线测不到的像差里。</div>
+<div class="pit"><strong>把示意图交点读成实测。</strong>第 4 页曲线旁有「对比度高」「分辨率与对比度平衡」「分辨率极限」，坐标轴有 0.2 到 1.0 和 0 到 50 的刻度。交点本身没有印出 MTF 数字。能引用的数字是第 5、12、13 页写出来的门槛和举例。</div>
+<div class="pit"><strong>第 7 页的两张花不是单变量。</strong>说明文字把上图写成显著球差、下图写成矫正之后。图上机身都是 PENTAX K-01、70mm，但上图 1/400s、ISO100，下图 1/100s、ISO200，光圈没印。曝光变了，焦外纹理的差别不能只记在球差账上。</div>
+<div class="pit"><strong>第 10 页把两张图叠在一起。</strong>左、右光路讲的是正圆光阑和镜筒遮挡。右下角却印着 MTF Curve &amp; Result，以及第 4 页那套频率–反差曲线。口径蚀采纳遮挡：边缘光束被切扁。下降曲线仍是反差随空间频率下降，不是猫眼的成因。</div>
+<div class="pit"><strong>「定焦」括号里放进了变焦。</strong>第 12 页写选现代旗舰定焦，括号是「各家的大三元或 F1.2/F1.4 定焦」。大三元和定焦不是同一类产品。F1.2/F1.4 和后面的老款 F1.4 手动头，才是这一页真正分开的两条定焦路线。</div>
+<div class="pit"><strong>「唯一办法」是作者的设计断言。</strong>第 10–11 页把减少口径蚀写成：通光孔径远大于传感器成像圈，再配短镜筒。这是笔记里的物理理由，不是一份镜头结构测量。</div>
+
+<h2>边界</h2>
+<div class="card">
+<p>全篇没有一支具名镜头的 MTF 表。0.8、0.5、0.7，以及 F1.4 的 0.8 对 0.6，都是阅读门槛或作者举例。光圈只出现这些印出来的档：测量条件通常 F8；举例 F1.4；选镜出现 F1.2、F1.4、F1.8、F2，以及收到 F2.8–F4。第 7 页样片没有光圈。</p>
+<p>第 6 页把中心暗、边缘亮叫「旋焦」或「二线性」，并指向作者的上一篇，这一篇没有展开定义。ED/萤石被用来解释镜头更贵，没有价格或镜片片数。国潮镜头只有一句「也做得不错」，没有型号。</p>
+</div>
+
+<h2>可执行动作</h2>
+<div class="actions">
+<div class="act"><b>1. 先写拍摄意图</b>第 12–13 页：要后期精修的皮肤细节，走旗舰和 30 线对/mm 0.7 这条线；要直出氛围，改看焦外，不跟 MTF 排名。</div>
+<div class="act"><b>2. 读曲线先问光圈</b>第 5 页：确认图是不是在最佳光圈、页上说的通常 F8。全开使用时，不要把图上 0.8 当成全开 0.8。</div>
+<div class="act"><b>3. 三条线一起看</b>第 5 页：10 线对/mm 看反差，30 线对/mm 看细节，实线虚线间距看边缘点会不会被拉椭圆。</div>
+<div class="act"><b>4. 样片只看三处</b>第 13 页：猫眼、焦外旋转、高光紫/绿边。这三处分别对应口径蚀、球差纹理、色散，不拿一句「有味道」收场。</div>
+<div class="act"><b>5. 预算落在中端时收一档</b>第 13 页：F1.8/F2 收到 F2.8–F4。页上的预期是全开曲线一般、收一档后像差减小，而不是全开去碰旗舰。</div>
+<div class="act"><b>6. 对照图先核对曝光</b>第 7 页这种前后图，先看快门、ISO、焦距是否一致。不一致时，球差只能当作者的解释，不能当实验结论。</div>
+</div>
+
+<h2>结论</h2>
+<div class="card">
+<p>第 2–5 页把「锐」收成可核对的读数：反差看纵轴和 10 线对/mm 的 0.8，细节看下降速度和 30 线对/mm 的 0.5，边缘点看实线虚线，并且默认曲线多半不是全开。第 6–11 页把「味道」收成球差、色散、口径蚀，而不是收成一句好听的形容词。第 12–13 页据此给出三条买法：旗舰全开、老镜头或复刻、中端收一档。判断镜头时，先选性格要留还是要消，再拿对应那一档光圈的曲线来核对锐度。</p>
+</div>
+<p class="foot">依据 docs/lens-optical-quality-图文实录.html · 原笔记 https://xhslink.cn/o/AeV1yAU3zD</p>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2124" viewBox="0 0 1320 2124">
+  <foreignObject x="0" y="0" width="1320" height="2124">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}h1{font-size:34px;font-weight:900;color:#b45309;margin-bottom:8px}h2{font-size:22px;color:#b45309;margin:28px 0 10px}p{font-size:16px;line-height:1.8;color:#57534e;margin-bottom:10px}.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;border-left:5px solid #b45309}.card h3{font-size:20px;color:#b45309;margin-bottom:8px}table{width:100%;border-collapse:collapse;font-size:15px;background:#fff;margin-bottom:20px}th,td{padding:10px 12px;border-bottom:1px solid #ffedd5;text-align:left;vertical-align:top}th{background:#ffedd5;color:#b45309}ul{margin:0 0 8px 20px}li{margin:6px 0;line-height:1.7}</style>
+      
+<h1>防抖稳住相机，慢快门先问谁在动</h1>
+<p>夜里人糊，封面先说防抖没坏。能用的快门只抄图上印出来的：1/8 秒、半秒、1/125 秒。五轴是轴数，8 级是级数，两页都印了，不要合成一个数。</p>
+<div class="card"><h3>比较</h3>
+<p>第 3 页把糊分成两栏：手在晃时整幅一起糊；相机上了三脚架、人仍在走时，只有人糊。第 2 页用同一张成片做结果：背景建筑清楚，人拖残影，旁边印着 8 级防抖和 1/8 秒。第 4 页讲补偿只发生在机身里：陀螺仪探测手抖，传感器反向移动，句子是「手向左抖 → 传感器向右补」。第 5 页把相机标成「机身零晃动」，同一条 1/8 秒曝光里人仍走出一段「位移量」。第 6 页把手机的「连拍多帧 + 算法对齐」和相机的「光学防抖 · 无算法魔法」用不等于号分开。</p></div>
+<h2>印出来的快门</h2>
+<table><tr><th>页</th><th>场景</th><th>图上的快门</th><th>防抖被说成能做什么</th></tr>
+<tr><td>2/8</td><td>取景器很稳，成片背景清楚、人糊</td><td>1/8秒，并写 8 级防抖</td><td>只解释机身稳，不解释人清楚</td></tr>
+<tr><td>4/8</td><td>手持夜景建筑</td><td>1/8秒</td><td>张张能稳。对象是建筑，不是人</td></tr>
+<tr><td>5/8</td><td>机身零晃动，人在走、在晃头</td><td>1/8秒曝光</td><td>治手，治不了别人的动</td></tr>
+<tr><td>7/8 左</td><td>夜景建筑、星空山体、室内静物</td><td>慢到半秒</td><td>防抖放心用</td></tr>
+<tr><td>7/8 右</td><td>拍人、宠物、街头</td><td>1/125秒起步</td><td>防抖只辅助构图更稳</td></tr></table>
+<div class="card"><h3>易错</h3>
+<ul>
+<li>把封面的「五轴」和第 2、7 页的「8 级」当成同一个规格。轴数和级数都印在图上，单位不同。</li>
+<li>看见第 4 页「1/8 秒手持拍夜景建筑，张张能稳」，就用同一档去拍第 2、5 页那种走路的人。建筑不动，人才会在 1/8 秒里走出位移量。</li>
+<li>把第 6 页手机夜景的稳，算进相机防抖。图上写的是连拍多帧加算法对齐，并明确「无算法魔法」。</li>
+<li>第 7 页右支已经写拍人从 1/125 秒起步，仍用左支的半秒去拍人。半秒那一支的例子是建筑、山体和静物。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<p>第 1、3、6、8 页没有印快门秒数。全套没有镜头焦距、光圈、感光度，也没有把「呼吸、晃了晃头」量化成位移。第 7 页的半秒和 1/125 秒是分支建议，不是测出来的安全快门。第 4 页箭头线稿较细，补偿方向以印出的「手向左抖 → 传感器向右补」为准。第 6 页没有写合成帧数。</p></div>
+<div class="card"><h3>动作</h3>
+<ul>
+<li>先用第 3 页分人：整幅一起糊，才是手抖；只有人糊，就是主体在动。</li>
+<li>画面里没有会动的东西，按第 7 页左支：夜景建筑、星空山体、室内静物，防抖开着，快门可以慢到图上写的半秒。第 4 页给的建筑例子是 1/8 秒。</li>
+<li>画面里有人、宠物或街头，按第 7 页右支从 1/125 秒起步去凝固主体。防抖这时只让构图更稳，第 8 页的感叹号仍留在跑动的人身上。</li>
+<li>秒数只抄印出来的三档。不要把 1/8 秒从第 2、4、5 页挪到没有秒数的页上。</li>
+</ul></div>
+
+    </div>
+  </foreignObject>
+</svg>

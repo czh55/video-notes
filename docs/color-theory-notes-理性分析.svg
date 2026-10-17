@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4338" viewBox="0 0 1320 4338">
+  <foreignObject x="0" y="0" width="1320" height="4338">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#1c1917;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#1c1917;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-gray{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#292524}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:150px;max-width:220px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#57534e;margin-top:6px}
+.arrow{font-size:22px;color:#d6d3d1;align-self:center}
+.sec{margin-bottom:8px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309}
+.card-red{border-left-color:#ef4444}
+.card-green{border-left-color:#059669}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.conclusion{background:#9a3412;color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.25);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}</style>
+      
+<div class="container">
+  <h1>色彩笔记：先把颜色说清，再决定它跟谁站在一起</h1>
+  <div class="meta">
+    <span class="tag tag-orange">色彩理论</span>
+    <span class="tag tag-gray">少儿美育</span>
+    <span class="tag tag-orange">宋宋老师教画画</span>
+    <span class="tag tag-gray">8 页</span>
+  </div>
+  <p class="summary-line">八页的用法是一条链：第 2 页用色相、明度、纯度描述一个颜色；第 3 页说明它从哪三种颜料调出来；第 1、4、5 页用 24 色环上的角度决定对比有多强；第 6 页把冷暖收成感受；第 7、8 页才把饱和、冷暖和灰接到情绪上。色环格子里的印刷比例不逐格当色号用。</p>
+
+  <section class="map">
+    <h2>关系图：描述、调合、角度、情绪</h2>
+    <div class="diagram">
+      <div class="node">描述<small>第 2 页三要素</small></div>
+      <div class="arrow">→</div>
+      <div class="node">调合<small>第 3 页原色到复色</small></div>
+      <div class="arrow">→</div>
+      <div class="node">角度<small>第 1、4、5 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">感受<small>第 6 页冷暖</small></div>
+      <div class="arrow">→</div>
+      <div class="node">情绪<small>第 7、8 页</small></div>
+    </div>
+    <p>读法：备课先停在第 2 到第 5 页。第 6 页以后是「这样搭配会像什么感觉」，不是调色步骤。</p>
+  </section>
+
+  <section class="sec">
+    <h2>比较：同一套词，页与页的口径并不一样宽</h2>
+    <table>
+      <tr><th>要比的</th><th>页</th><th>笔记怎么划</th><th>用的时候差在哪</th></tr>
+      <tr><td>角度六档</td><td>1</td><td>15 同类、30 类似、60 临近、90 中差、120 对比、180 互补</td><td>文案常说的四逻辑少了类似色和中差色</td></tr>
+      <tr><td>邻近对同类</td><td>5，对照 1</td><td>邻近：60 度、相邻四色、冷暖统一。同类：15 度、相邻两色、深浅不同</td><td>第 1 页写成「临近色」，第 5 页写成「邻近色」</td></tr>
+      <tr><td>互补的两种结果</td><td>4</td><td>颜料叠在白纸同一点趋黑；并排放则红更红、绿更绿</td><td>要跳就并列，要和就降饱和</td></tr>
+      <tr><td>原色、间色、复色</td><td>3</td><td>品红、柠檬黄、湖蓝调不出。两原色等量是间色。两间色，或原色加间色，是复色</td><td>复色里红黄蓝都在，所以更容易脏</td></tr>
+      <tr><td>冷对暖</td><td>6</td><td>蓝像冰所以冷；红像火所以暖。冷：冷静、医药办公科技。暖：活泼、食品运动节日</td><td>这是感受和用途，不是开尔文</td></tr>
+      <tr><td>四种情绪</td><td>7，对照 8</td><td>快乐：饱和鲜亮温暖。激动：饱和度非常高。痛苦：低纯度冷色。平静：灰和中性多</td><td>第 8 页用换色证明对象可以不变、情绪变</td></tr>
+    </table>
+  </section>
+
+  <section class="sec">
+    <h2>易错</h2>
+    <div class="card card-red">
+      <h3>把第 1 页的临近色当成第 5 页的邻近色定义</h3>
+      <p>第 1 页 60 度写的是「临近色」，左下那排姨妈色到裸色也叫临近色，全是红粉一带的深浅和色相偏移。第 5 页才把邻近色定义成 24 色环里相邻四个、冷暖性质统一。备课若只背色名清单，会把「同一色族的粉」当成「色环上 60 度的四色」。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把互补色的变黑理解成任何时候一混合就黑</h3>
+      <p>第 4 页的第二句限定了条件：颜料配色，两种补色涂在白纸的同一点上。第三句说的是并列时对比加强。少儿课上若把两色画在相邻位置，得到的是更跳，不是一坨黑。</p>
+    </div>
+    <div class="card card-red">
+      <h3>用光的红绿蓝去套这组颜料三原色</h3>
+      <p>第 3 页写明绘画三原色是红（品红）、黄（柠檬黄）、蓝（湖蓝），而且「这三种色本身是调不出的」。这和屏幕上的红绿蓝不是同一套。间色算式也是颜料的：红加蓝得紫，黄加红得橙，黄加蓝得绿。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把第 7 页的四句当成唯一情绪公式</h3>
+      <p>快乐、激动、痛苦、平静各只给了一句机制：鲜亮暖、很高的饱和、低纯度冷色、灰和中性。例图没有画名。第 8 页也没有逐图写情绪词。同一把椅子换四套颜色，只能说明颜色在带动情绪，不能反推每一种紫或每一种绿固定等于某一种心情。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>边界</h2>
+    <div class="card">
+      <h3>色号和印刷比例停在第 1 页的格子里</h3>
+      <p>色环上能看见 Y:100、M:25、C:100 这类碎片，格位对不齐，不能编成一张色号表。第 2 页到第 8 页都没有给出可抄的色值。左下十二个色名是叫法，不是配方。</p>
+    </div>
+    <div class="card">
+      <h3>看不清的就不升级成知识点</h3>
+      <p>第 1 页「常用互补色」没有写成句子，不能断言就是第 4 页的红绿、蓝橙、黄紫。第 3 页三圆交会处是否标了「黑」，以及一处原色名是否为湖蓝，文字对不上，保持无法确认。第 5 页两张电影没有片名。第 7 页四幅例图没有画名。第 8 页分组标题没有读出来。</p>
+    </div>
+    <div class="card">
+      <h3>适用场合停在课堂教学和日常绘画</h3>
+      <p>笔记自己的范围是美术备课和小朋友看图。它不提供调色软件滑杆，不讨论光源色温，也不处理印刷分色。第 6 页的医药、办公、食品、节日是感受举例，不是配色规范。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>动作</h2>
+    <div class="card card-green">
+      <h3>描述一个颜色，先走第 2 页的三句</h3>
+      <p>先说它在光谱七色里更靠近哪一个（色相），再说它本身偏明还是偏暗，并和别的色相比谁更亮（明度的两条），最后说它鲜还是浊（纯度）。高纯度留下「鲜明、有力」，同时记住后半句「单调刺眼」。</p>
+    </div>
+    <div class="card card-green">
+      <h3>调一块新颜色，按第 3 页停手</h3>
+      <p>只拿品红、柠檬黄、湖蓝。两色等量才叫间色，按页上的三道算式。再往里加第三种，或拿两个间色相混，就进入复色，预期它里面三种原色都有，颜色会变浑。不要在这一步去找色号。</p>
+    </div>
+    <div class="card card-green">
+      <h3>选搭配，先量角度再决定饱和</h3>
+      <p>想跳：用第 4 页的 180 度，红绿、蓝橙或黄紫并列，并保持较高饱和。想和：要么降这组补色的饱和，要么改用第 5 页的 60 度四色（邻近）或 15 度两色（同类）。第 1 页的 90 度中差、120 度对比留在中间档，笔记没有给操作口诀，就不要自己补步骤。</p>
+    </div>
+    <div class="card card-green">
+      <h3>要情绪时，改的是饱和、冷暖和灰，不是换主体</h3>
+      <p>第 7 页：正能量用饱和、鲜亮、温暖；激动把饱和度拉得非常高；压抑用低纯度冷色；平静多留灰和中性。第 8 页的椅子四连作是检查方法：主体不动，只换一套颜色，看情绪有没有跟着换。第 6 页用来选冷暖的用途比喻，蓝对冷静和科技，红对食品和节日。</p>
+    </div>
+  </section>
+
+  <section class="conclusion">
+    <h2>收束</h2>
+    <p>这组笔记能教的是绘画里的描述和关系：三要素、三种颜料、色环角度、冷暖感受、四句情绪。它不能教的是精确色号、软件调色，以及「某色永远等于某种心情」。</p>
+  </section>
+  <p class="footer">据宋宋老师教画画 8 页图文笔记整理 · 2026-10-17 · 不另造色号</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

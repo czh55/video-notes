@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3336" viewBox="0 0 1320 3336">
+  <foreignObject x="0" y="0" width="1320" height="3336">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      <div class="container">
+  <h1>显矮先查机位、脚位、裁切</h1>
+  <p class="meta">理性分析 · 爱拍照的七十(努力涨粉中) · 图文 9 页 · 2026-10-17</p>
+  <p class="lede">人不矮、照片却像矮一截，九页写的是全身比例被压短。镜头从上往下压，腿显短；脚不向前，线条断；脚底裁太紧，人被卡在画面里。先把这三处看顺，再谈姿势。站直、放正中、后期拉腿，页上写成越摆越矮或容易假。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">机位别太高<br/>1/9、3/9、6/9</div>
+      <div class="arrow">→</div>
+      <div class="node">脚向前延伸<br/>1/9、5/9</div>
+      <div class="arrow">→</div>
+      <div class="node">脚底留对空间<br/>4/9、7/9</div>
+      <div class="arrow">→</div>
+      <div class="node">再想姿势<br/>7/9、8/9</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>机位太高 vs 镜头降低</td><td>左图确认「机位太高」「脚没有延伸」。右图是「镜头降低」「脚向前延伸」「身体线条变顺」。页底要求先看机位，再看脚的位置。左图指向腿部的第 2 点整句无法确认。</td><td>1/9</td></tr>
+    <tr><td>三种现场 vs 一句原因</td><td>机位略高、人又偏小，比例被压短。楼梯上一脚高一脚低，腿没拉开，显得敦实。脚步没有延伸线，上半身占比过多，像路人记录。收束：往往不是身高，是全身比例没有被拉开。</td><td>2/9</td></tr>
+    <tr><td>你以为腿短 vs 镜头位置</td><td>左：是不是腿不够长，镜头太高，腿部线条被压短。右：机位降低，比例更顺。示意图左边向下拍摄、压缩下半身、显矮显挤；右边平视或微仰、拉长下半身、比例更自然。</td><td>3/9</td></tr>
+    <tr><td>三处错误 vs 三条正确</td><td>错误：机位太高把身体往下压，脚太平没有延伸感，裁切太紧脚底空间不对。正确：镜头略低比例更顺，一只脚向前让腿线延伸，身体微侧轮廓更轻。正确页写明不是硬拉长腿。</td><td>4/9、5/9</td></tr>
+    <tr><td>同一人只改机位</td><td>错：镜头太高，腿显短。对：镜头降低，比例更顺。底句：不是你突然变高了，是镜头没有再压你。文案只比较机位。</td><td>6/9</td></tr>
+    <tr><td>拍前三问 vs 总结三条</td><td>拍前问镜头是不是太高、脚有没有向前延伸、脚底有没有留对空间，并要求先看比例线再想姿势。总结收成：镜头别太高，脚要有延伸，裁切别压腿。顺序写成先机位、再脚位。</td><td>7/9、9/9</td></tr>
+    <tr><td>三条硬救 vs 拍摄时顺比例</td><td>站得很直就会显高，对照身体要有轻微延伸线。全身一定放正中间，对照脚下和头顶空间一起看。只要后期拉腿，对照前期机位错、后期容易假。显高不是硬拉出来的。</td><td>8/9</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>先怪身高或腿长</h3>
+    <p><span class="pg">2/9</span> 把显矮感写成不是身高问题。<span class="pg">3/9</span> 直接说别先怪身高，你以为腿短，其实镜头位置太高。<span class="pg">9/9</span> 用「先别急着怪身高」收束。腿短、头大身小这些说法出现在第 9 页的提问选项里，不是已经测完的结论。</p>
+  </div>
+  <div class="card">
+    <h3>用楼梯或站直代替延伸线</h3>
+    <p><span class="pg">2/9</span> 的楼梯是一脚高一脚低，腿没有拉开，重心不明确，所以没把腿拉长。<span class="pg">8/9</span> 把「站得很直就会显高」列为误区，正解是轻微延伸线。<span class="pg">5/9</span> 的延伸来自一只脚向前，外加身体微侧，并写明姿势不用夸张。</p>
+  </div>
+  <div class="card">
+    <h3>人放正中间，脚底却贴死</h3>
+    <p><span class="pg">4/9</span> 把裁切太紧、脚底空间不对和机位、脚位并列：错一个就容易显矮。<span class="pg">8/9</span> 反对「拍全身一定要放正中间」，要求脚下和头顶空间一起看。<span class="pg">9/9</span> 写成裁切别压腿。只把人居中、不留脚底，比例线仍是断的。</p>
+  </div>
+  <div class="card">
+    <h3>机位错了再靠后期拉腿</h3>
+    <p><span class="pg">5/9</span> 写不是硬拉长腿，是让线条自然往下走。<span class="pg">8/9</span> 把「只要后期拉腿就行」对上「前期机位错，后期容易假」。拉腿的软件和幅度，九页都没有。</p>
+  </div>
+  <div class="card">
+    <h3>先摆姿势，后看比例</h3>
+    <p><span class="pg">7/9</span> 的顺序是先用三问看比例线，再去想姿势。<span class="pg">8/9</span> 的副题是越摆反而越显矮。姿势放在机位、脚位、裁切之后，不放在它们前面。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>没有机位高度、仰角度数、脚底留白尺寸。第 3 页只写向下拍摄，以及平视或微仰；第 7 页只问脚底有没有留对空间。</li>
+    <li>没有焦距、机型和镜头名称。不能把「镜头降低」读成换一支更长或更广的镜头。</li>
+    <li>只有 <span class="pg">6/9</span> 写明同一个人，而且文案只比较机位。这一对照里脚位有没有一起改，无法确认。其余页是否同一人，无法确认。</li>
+    <li><span class="pg">1/9</span> 左图第 2 点整句无法确认，不能把它写成和右图对等的完整句子。</li>
+    <li><span class="pg">2/9</span> 的楼梯和路人记录只说明怎样会显矮，没有给出改拍步骤。第 3、7 页含示意图，不能当成实拍参数。</li>
+    <li><span class="pg">9/9</span> 的腿短、人显敦实、头大身小、脚被压住、怎么站都不自然，是评论区提问，不是这套方法的测量结果。后期拉腿怎么做，图上没有。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按 7/9 的三问拍一张全身</h3>
+    <p>先看机位：镜头是不是还在眼睛高度往下压。降到页上说的略低，平视或微仰，不要从上往下压（<span class="pg">1/9、3/9、6/9、9/9</span>）。再看脚位：一只脚向前，让腿线延伸，身体微侧，保持轻微延伸线，不把楼梯上的一高一低或站得很直当成拉长（<span class="pg">2/9、4/9、5/9、8/9</span>）。最后看裁切：脚底留出空间，头顶和脚下一起看，裁切别压腿，人不必为了居中而贴死底边（<span class="pg">4/9、7/9、8/9、9/9</span>）。这三处顺了再想姿势。前期机位仍错时，不要用后期拉腿硬救（<span class="pg">5/9、8/9</span>）。</p>
+  </div>
+  <p class="footer">只采用九页印出的说法 · why-photos-look-shorter</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

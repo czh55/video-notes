@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1817" viewBox="0 0 1320 1817">
+  <foreignObject x="0" y="0" width="1320" height="1817">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:44px 56px 56px}
+h1{font-size:32px;line-height:1.35;color:#9a3412;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.7;color:#44403c;margin-bottom:18px}
+h2{font-size:22px;color:#b45309;margin:26px 0 10px}
+p{font-size:16px;line-height:1.75;color:#44403c;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 16px;font-size:15px}
+th,td{padding:10px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-radius:16px;padding:20px 22px;margin:0 0 14px;border-left:5px solid #b45309}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+ul,ol{margin:0 0 8px 20px}
+li{margin:6px 0;line-height:1.7;font-size:15px;color:#44403c}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}</style>
+      <div class="wrap">
+<h1>增强颜色：减对面，加邻居</h1>
+<p class="lede">七页把「让颜色更明显」写成两步：减少互补色，增加支持色。草地对着品，橙色对着青蓝。色相拧到 -22 仍会发灰。第 4 页那三个读数只属于那一张示例。</p>
+<h2>比较</h2>
+<table>
+<tr><th>要增强的颜色</th><th>支持色（战友）</th><th>互补色（宿敌）</th><th>页上怎么做</th></tr>
+<tr><td>绿（草地）</td><td>黄、青（第 3 页）</td><td>品（第 3 页）</td><td>第 2 页先减品，色相 -22 被打叉。第 4 页再加黄和青，滑杆 -32、+39、-33</td></tr>
+<tr><td>橙（落日）</td><td>红、黄（第 6 页）</td><td>青蓝（第 6 页）</td><td>第 7 页写成加红和黄、减青和蓝。没有读数，只有前后两张落日</td></tr>
+<tr><td>第 1 页的标注</td><td>品、青被标成战友</td><td>黄被标成宿敌</td><td>没有写「自己」。这组和第 7 页以绿为自己时的标注相反</td></tr>
+</table>
+<p>第 5 页用亮度解释橙色从哪来：绿色亮度降低一半，红绿交界变成橙色，绿蓝交界变成青蓝。所以第 6 页把橙的对面叫青蓝，第 7 页把「减青蓝」拆成减青和减蓝。</p>
+<div class="dual">
+<div class="card"><h3>易错</h3>
+<ul>
+<li>先拧色相。第 2 页色相 -22，画面仍显灰，被打了叉。同一页改成减品色，草地才绿。</li>
+<li>把第 1 页的「黄＝宿敌」用到所有颜色上。第 7 页把绿写成「自己」时，宿敌是品，黄和青是战友。黄是战友还是宿敌，取决于自己是谁。</li>
+<li>橙色只减一个名叫青蓝的颜色。第 6 页互补色写成青蓝；第 7 页要减的是青色和蓝色，同时加红和黄。</li>
+<li>把第 4 页的 -32、+39、-33 当成每张草地的配方。第 2 页的品绿滑杆就没有数字。第 5 页的「一半」也没有对应滑杆。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<ul>
+<li>文案问怎样调出干净和高级感。七页讲的是草地更绿、橙色更丰富，没有单独的干净步骤。</li>
+<li>图上没有软件名。三根滑杆只在第 4 页这一张示例里。</li>
+<li>第 1 页没写宿敌、战友相对哪一色。不能把那一页的箭头当成第 7 页口诀的完整版。</li>
+<li>前后对比看不出除了写明的滑杆以外还动过什么。落日两张（第 7 页）没有读数。</li>
+</ul></div>
+</div>
+<h2>动作</h2>
+<div class="card"><h3>按页上的顺序</h3>
+<ol>
+<li>先定要增强的颜色。用第 7 页口诀：左膀右臂是战友，正面对峙是宿敌。绿的对照在第 3 页：支持色黄和青，互补色品。</li>
+<li>草地不要先动色相。第 2 页 -22 仍灰。先减品。还要更绿，再加黄和青（第 4 页）。那一页的读数是青红 -32、洋红绿 +39、黄蓝 -33，只抄这一张，不外推。</li>
+<li>橙色先看第 6 页：它在红和黄之间，互补色是青蓝。再按第 7 页加红和黄、减青和蓝。这一步没有数字。</li>
+<li>方向拿不准时翻第 5 页：绿变暗，黄会往橙走，青会往青蓝走。这是核对交界色往哪偏，不是再填一个 50%。</li>
+</ol></div>
+<div class="card"><h3>结论</h3>
+<p>增强颜色是减互补色、加相邻支持色。草地减品再加黄和青；橙色加红黄、减青和蓝。色相 -22 解决不了发灰。第 4 页三个读数停在那一张示例上。</p></div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

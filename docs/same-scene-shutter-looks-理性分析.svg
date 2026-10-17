@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2165" viewBox="0 0 1320 2165">
+  <foreignObject x="0" y="0" width="1320" height="2165">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}h1{font-size:34px;font-weight:900;color:#b45309;margin-bottom:8px}h2{font-size:22px;color:#b45309;margin:28px 0 10px}p{font-size:16px;line-height:1.8;color:#57534e;margin-bottom:10px}.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;border-left:5px solid #b45309}.card h3{font-size:20px;color:#b45309;margin-bottom:8px}table{width:100%;border-collapse:collapse;font-size:15px;background:#fff;margin-bottom:20px}th,td{padding:10px 12px;border-bottom:1px solid #ffedd5;text-align:left;vertical-align:top}th{background:#ffedd5;color:#b45309}ul{margin:0 0 8px 20px}li{margin:6px 0;line-height:1.7}</style>
+      
+<h1>同一场景里，先比雨的样子，秒数只认印在图上的</h1>
+<p>标题问的是同一场景换快门，画面会怎么变。四页都是侧身的有角动物和雨，但四页都没有印快门秒数。能比较的是雨被画成长线、短迹，还是贴在身上的水雾。</p>
+<div class="card"><h3>比较</h3>
+<p>第 1 页把两张叠在一起：上半黑白，雨是斜向长线，右上印着 Z 8；下半彩色，同一类站姿，雨迹更短、更碎。第 2 页几乎就是第 1 页上半那张黑白，不是新的一档。第 3 页换成彩色甩水，水在头颈和背上变成细点，头比身体更糊，满幅没有长雨丝。第 4 页回到黑白站姿，画面更亮，斜向雨丝比第 2 页更长，右上认不出 Z 8。</p></div>
+<h2>四页对照</h2>
+<table><tr><th>页</th><th>画面</th><th>水的样子</th><th>图上印了什么</th></tr>
+<tr><td>1/4 上</td><td>黑白，侧身站着</td><td>斜向长线</td><td>Z 8。无秒数</td></tr>
+<tr><td>1/4 下</td><td>彩色，相近站姿</td><td>短雨迹、碎点</td><td>无 Z 8，无秒数</td></tr>
+<tr><td>2/4</td><td>与 1/4 上半几乎同一张</td><td>斜向长线</td><td>Z 8。无秒数</td></tr>
+<tr><td>3/4</td><td>彩色，头颈在甩</td><td>贴身水雾和细点</td><td>Z 8。无秒数</td></tr>
+<tr><td>4/4</td><td>更亮的黑白，仍站着</td><td>更长的斜向白线</td><td>小红书水印。无秒数</td></tr></table>
+<div class="card"><h3>易错</h3>
+<ul>
+<li>文案写通常 1/800s 以上、这组降到 1/60s，成片一行还有 f/6.3、1/60s、ISO 200。四张图都没印这些数，不能把 1/60s 安到黑白长雨丝，也不能把 1/800s 安到彩色短雨迹。</li>
+<li>第 2 页不是第二档快门。它和第 1 页上半几乎重合。</li>
+<li>看见黑白就当成更慢的快门。第 1 页上半、第 2 页和第 4 页都是黑白，雨丝长短并不一样，图上没写这是快门还是后期。</li>
+<li>用第 3 页的水雾证明「高速把雨凝固了」。那些细点长在正在动的头颈上，图上没写它们是雨点。</li>
+</ul></div>
+<div class="card"><h3>动作</h3>
+<ul>
+<li>先看水是长斜线、短雨迹，还是贴身水雾，再决定这张要流动还是要凝固。第 1 页的上下两半就是这个对照。</li>
+<li>秒数只抄画面上印出来的。这四页都没印，文案里的 1/60s 和 1/800s 先放在文案，不贴到某一页。</li>
+<li>要「主体还清楚、雨被拉成线」，只用站着的那几页：1/4 上半、2/4、4/4。第 3 页头已经糊了，不能当慢门仍清晰的例子。</li>
+<li>第 4 页雨丝更长、画面更亮。图上没有秒数，只能把它当成另一种雨的样子，不能写成比第 2 页慢了多少。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<p>文案里的瞪羚、肯尼亚暴雨、800mm 和 Nikon Z8 参数，解释的是作者为什么降快门。图上能核对的只有动物外形、雨的样子，以及 1/4 上半、2/4、3/4 的 Z 8。第 3 页的甩水和第 1、2、4 页的站姿不是同一瞬间。黑白从哪来，四页都没写。</p></div>
+
+    </div>
+  </foreignObject>
+</svg>

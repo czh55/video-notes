@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3555" viewBox="0 0 1320 3555">
+  <foreignObject x="0" y="0" width="1320" height="3555">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      <div class="container">
+  <h1>补偿改的是 18% 灰，不是屏幕亮度</h1>
+  <p class="meta">理性分析 · 徐贰懂 · 图文 8 页 · 2026-10-17</p>
+  <p class="lede">曝光补偿修改测光系统的 18% 灰目标，相机重算光圈、快门、ISO。把它当成前期「亮了就减、暗了就加」的亮度微调，第 1–2 页说不能算全错，但原理不对。雪和白要加，黑要减，是因为测光会先把它们拉回 18% 灰。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">改 18% 灰目标<br/>2/8</div>
+      <div class="arrow">→</div>
+      <div class="node">雪加、黑减<br/>4/8</div>
+      <div class="arrow">→</div>
+      <div class="node">基准、偏移、ETTR<br/>6/8</div>
+      <div class="arrow">→</div>
+      <div class="node">直方图定档<br/>7/8</div>
+      <div class="arrow">→</div>
+      <div class="node">肤色不超过 +1EV<br/>8/8</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>调亮度 vs 改目标</td><td>常见理解是亮了就减、暗了就加，当作前期亮度微调。原理上，补偿修改 18% 灰目标值。</td><td>1/8、2/8</td></tr>
+    <tr><td>+1EV vs -1EV</td><td>+1EV：比 18% 灰亮一档。-1EV：比 18% 灰暗一档。</td><td>2/8</td></tr>
+    <tr><td>灰阶七档</td><td>EV 为 -3.0、-2.0、-1.0、0、+1.0、+2.0、+3.0。倍数为 1/8、1/4、1/2、1、2、4、8。反射率为 3.5%、4.5%、9%、18%、36%、72%、95%。0 档对准 18%。</td><td>3/8</td></tr>
+    <tr><td>光 vs 曝光参数</td><td>打饭：默认一勺是 18% 灰。多来点或少来点只改变给的量。那锅饭（光）没变，曝光参数变了。</td><td>3/8</td></tr>
+    <tr><td>雪 vs 黑布</td><td>雪地反射约 90%，测光减曝光，雪变灰；补偿 +1EV 到 +2EV，雪就白了。黑布反射约 3%–5%，测光加曝光，黑变灰；补偿 -1EV 到 -2EV，黑色回来。</td><td>3/8、4/8</td></tr>
+    <tr><td>逆光问句 vs 改口</td><td>第 4 页问：矩阵平均之后，背景是不是拉低了平均值。第 5 页写不对：强光拉高平均值，相机把整体压回 18% 灰，脸更暗。</td><td>4/8、5/8</td></tr>
+    <tr><td>矩阵 vs 点测人脸</td><td>矩阵把背景和人脸一起平均。点测只量脸。人脸反射率大约 18%–25%。想比 18% 灰更亮：+0.3EV 到 +0.7EV。</td><td>4/8、5/8</td></tr>
+    <tr><td>测光、补偿、ETTR</td><td>不是替代关系。测光模式是基准，曝光补偿是偏移量，ETTR 是偏移的目标。往右推的例子是 +0.3EV、+0.7EV、+1EV，停在直方图右侧刚好不撞墙。</td><td>5/8、6/8</td></tr>
+    <tr><td>半自动补偿 vs M 档</td><td>补偿是让相机改参数。M 档相机不改光圈、快门、ISO，补偿没有作用对象。指示条还在，偏移要自己拧。</td><td>6/8</td></tr>
+    <tr><td>高于 18% vs 低于 18%</td><td>雪、白墙、白色衣服、逆光下的皮肤：加（+EV）。黑色衣服、深色背景、阴影区域：减（-EV）。这一列没有具体档数。</td><td>7/8</td></tr>
+    <tr><td>肤色两档 vs 上限</td><td>+0.3EV 更白皙透亮，+0.7EV 有发光感。不建议超过 +1EV，理由是过曝、失去皮肤纹理。</td><td>5/8、8/8</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>顺着测光再拧一档</h3>
+    <p>雪已经偏亮，测光会减曝光，雪才变灰（<span class="pg">3/8–4/8</span>）。黑布已经偏暗，测光会加曝光，黑才变灰。补偿方向和这次自动纠正相反：雪 +1EV 到 +2EV，黑 -1EV 到 -2EV。封面那句「亮了就减、暗了就加」说的是画面结果，不是测光标尺的方向（<span class="pg">1/8–2/8</span>）。</p>
+  </div>
+  <div class="card">
+    <h3>把第 4 页的问句当成结论</h3>
+    <p>「结果背景拉低了平均值？」停在 <span class="pg">4/8</span> 页末。 <span class="pg">5/8</span> 写成：不对，是背景强光拉高了平均值，相机降低曝光，脸更暗。</p>
+  </div>
+  <div class="card">
+    <h3>把逆光皮肤收成高于 18% 灰</h3>
+    <p><span class="pg">5/8</span> 写人脸反射率大约 18%–25%，接近中性灰，点测理论上准确，想更亮再用 +0.3EV 到 +0.7EV。 <span class="pg">7/8</span> 却把「逆光下的皮肤」和雪、白墙、白色衣服放在「反射率高于 18% 灰、加 +EV」一列。两页没有互相解释，不能合成一个反射率。</p>
+  </div>
+  <div class="card">
+    <h3>M 档仍指望补偿拨盘改参数</h3>
+    <p><span class="pg">6/8</span>：M 档曝光补偿不起作用。测光和曝光指示条还在，改光圈、快门、ISO 的权限在拍摄者手里。</p>
+  </div>
+  <div class="card">
+    <h3>人像直接推过 +1EV</h3>
+    <p><span class="pg">8/8</span> 把 +0.3EV 和 +0.7EV 分开写，并写不建议超过 +1EV。 <span class="pg">5/8</span> 的 +1EV 是 ETTR 往右推的例子之一，不是人像肤色的推荐上限被取消。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>印出的 EV 只有：±1EV（<span class="pg">2/8</span>），雪 +1EV 到 +2EV、黑 -1EV 到 -2EV（<span class="pg">4/8</span>），肤色 +0.3EV 到 +0.7EV（<span class="pg">5/8</span>），ETTR 举例 +0.3EV、+0.7EV、+1EV（<span class="pg">5/8</span>），人像不建议超过 +1EV（<span class="pg">8/8</span>），以及灰阶 -3.0 到 +3.0（<span class="pg">3/8</span>）。 <span class="pg">7/8</span> 只有 +EV 和 -EV。</li>
+    <li>反射率只印雪地约 90%、黑布约 3%–5%、人脸约 18%–25%，以及灰阶表 3.5%、4.5%、9%、18%、36%、72%、95%。3.5% 不是 18% 的 1/8，95% 也不是 18% 的 8 倍。</li>
+    <li>没有机身型号、测光表品牌，也没有把某一档写成通用公式。直方图只说右侧撞墙与否，没有刻度（<span class="pg">5/8–8/8</span>）。</li>
+    <li>全文 1935 字、阅读需 6 分钟是 <span class="pg">1/8</span> 封面印字。八页在句中断开，接续按画面上下页拼接。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按第 7–8 页的顺序，档数回到印出来的例子</h3>
+    <p>第一步确认测光模式看的是全局、中心还是一个点（<span class="pg">1/8、7/8</span>）。第二步看被测区域比 18% 灰高还是低：雪用 +1EV 到 +2EV，黑布用 -1EV 到 -2EV（<span class="pg">4/8</span>），不要把 <span class="pg">7/8</span> 的 +EV、-EV 填成别的数字。第三步拍测试照，直方图右侧还有空间就继续加，撞墙就退回（<span class="pg">7/8–8/8</span>）。人像以人脸测光为底，+0.3EV 或 +0.7EV，不超过 +1EV（<span class="pg">8/8</span>）。若已在 M 档，看曝光指示条，自己改光圈、快门或 ISO（<span class="pg">6/8</span>）。</p>
+  </div>
+  <p class="footer">只采用八页印出的数字 · exposure-compensation-screen</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1988" viewBox="0 0 1320 1988">
+  <foreignObject x="0" y="0" width="1320" height="1988">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:30px;font-weight:900;color:#b45309;margin-bottom:8px}
+h2{font-size:20px;font-weight:700;color:#b45309;margin:22px 0 10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:22px;margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px;background:#fff}
+th,td{padding:8px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#b45309}
+.note{margin-top:10px}
+.box{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 16px;margin-top:8px}</style>
+      
+<h1>衣褶跟体积走，主褶只留三处受力</h1>
+<p>七页是同一件灰雕塑卫衣。2/7 到 7/7 是一条顺序：大体积、大面、三个折点、三组主褶、穿插、再取舍。笔记正文把这条顺序拆成线面和纯线，图上没有这两条标题。</p>
+<h2>比较</h2>
+<table>
+<tr><th>对照</th><th>页</th><th>差别</th></tr>
+<tr><td>大形对大面</td><td>2/7 与 3/7</td><td>2/7 是光滑体积，明确不急着画衣褶。3/7 把躯干、上臂、前臂切成朝向不同的大面，这些面还不是褶。</td></tr>
+<tr><td>转折对主褶</td><td>4/7 与 5/7</td><td>4/7 只标肩、肘、手腕三个折点和袖筒受力方向。5/7 才在这三处长出褶：肘部挤压、袖口堆积、肩部下垂。胸前大面仍然平。</td></tr>
+<tr><td>细分对取舍</td><td>6/7 与 7/7</td><td>6/7 在已有主褶里分前后遮挡、挤压和穿插。7/7 把次要小褶减弱，让细节重新服从 2/7 的整体体积。</td></tr>
+<tr><td>线面对纯线</td><td>笔记正文，不在某一页标题上</td><td>线面：主褶先做成大面，暗部跟着挤压和穿插走，再补少量次级体面，不要平均铺黑。纯线：先定肩、肘、手腕和大轮廓，主线重、次线轻，次要小褶舍掉。两条都停在「大体积—主褶—次褶」，不是两套褶。</td></tr>
+<tr><td>总览对单页</td><td>1/7 与 2/7–7/7</td><td>1/7 是六格顺序。单页图内编号是 1 到 6，实录页码比图内编号多一页总览。</td></tr>
+</table>
+<h2>易错</h2>
+<div class="box">
+<ul>
+<li>从衣褶起笔。2/7 写明先定肩、躯干、手臂和袖子的体积，不急着画衣褶。</li>
+<li>把 3/7 的体面当成褶。那一页解决的是朝向，褶要等到 5/7。</li>
+<li>在肩、肘、腕以外铺满小褶。5/7 点名的只有肘部挤压、袖口堆积、肩部下垂。</li>
+<li>把 6/7 的细分画成平均的黑。正文禁止平均铺黑，7/7 要求次褶服从体积。</li>
+<li>把线面的明暗和纯线的结构线画在同一步。正文是两条用法，图是同一条雕塑顺序。</li>
+<li>用图内编号当实录页码。图内「4 | 只抓主要衣褶」是实录 5/7。</li>
+</ul>
+</div>
+<h2>边界</h2>
+<div class="box">
+<ul>
+<li>只这一件厚卫衣、手臂前屈、双手在身前交握。薄料、紧身、裙子、别的姿态都不在七页里。</li>
+<li>没有褶的条数、角度、长度。4/7 的受力方向是看出来的转折，不是测量值。</li>
+<li>灰雕塑用来说明体积和遮挡，不是布料实验，不能当成某种面料的数据。</li>
+<li>1/7 格内短句与后页标题一致；句子以 2/7–7/7 的整句为准。各页胸口的小红书水印盖住的衣面无法确认。</li>
+<li>「线面速写」「纯线速写」只出现在笔记正文。图上的步骤名是六步雕塑顺序。</li>
+</ul>
+</div>
+<h2>动作</h2>
+<div class="box">
+<ul>
+<li>先按 2/7 把肩、躯干、袖筒画成几块体积，这一步不画褶。</li>
+<li>再按 3/7 标出躯干、上臂、前臂各朝哪一面。</li>
+<li>按 4/7 只标三个点：肩往下挂，肘改变袖筒方向，手腕挡住袖口。</li>
+<li>按 5/7 只放三组主褶：肘部挤压、袖口堆积、肩部下垂。胸前大面保持少褶。</li>
+<li>按 6/7 在这三组里面分谁在前、谁被压住，不另起一套褶。</li>
+<li>按 7/7 擦掉不服从体积的小褶。线面就停在少量次级体面；纯线就让主线重、次线轻。</li>
+</ul>
+</div>
+<p class="note">支撑页：体积 2/7，朝向 3/7，折点 4/7，三组主褶 5/7，穿插 6/7，取舍 7/7。1/7 只负责顺序。线面和纯线的句子在笔记正文。</p>
+
+    </div>
+  </foreignObject>
+</svg>

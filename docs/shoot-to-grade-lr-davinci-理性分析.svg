@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2504" viewBox="0 0 1320 2504">
+  <foreignObject x="0" y="0" width="1320" height="2504">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:44px 56px 56px}
+h1{font-size:32px;line-height:1.35;color:#9a3412;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.7;color:#44403c;margin-bottom:18px}
+h2{font-size:22px;color:#b45309;margin:26px 0 10px}
+p{font-size:16px;line-height:1.75;color:#44403c;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 16px;font-size:15px}
+th,td{padding:10px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-radius:16px;padding:20px 22px;margin:0 0 14px;border-left:5px solid #b45309}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+ul,ol{margin:0 0 8px 20px}
+li{margin:6px 0;line-height:1.7;font-size:15px;color:#44403c}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}</style>
+      <div class="wrap">
+<h1>从拍摄到调色：先分模块，再轻调</h1>
+<p class="lede">五页都是 Lightroom。第 1 页把四个模块放在一起；第 2 到第 5 页按基础面板、曲线、HSL、颜色分级各讲一页。标题里的达芬奇没有出现在图上。</p>
+<h2>比较</h2>
+<table>
+<tr><th>问题</th><th>第 1 页总览</th><th>后面对应页</th></tr>
+<tr><td>先动哪一层</td><td>四格并列，没有先后</td><td>第 2 页：曝光 → 高光/阴影 → 白/黑 → 色温/色调 → 自然饱和度。第 3 页：总曲线做骨架，再单通道。第 4 页：橙黄 → 绿蓝 → 紫/洋红。第 5 页才给亮度分区上色</td></tr>
+<tr><td>颜色归谁</td><td>基础面板写「色彩和质感」；HSL 写精细控制颜色；颜色分级写氛围</td><td>第 2 页用自然饱和度收尾，并警告一上来猛拉饱和度。第 4 页写 HSL 只改某一种颜色。第 5 页写颜色分级不是改某一个物体</td></tr>
+<tr><td>明暗归谁</td><td>曲线那格写精确控制影调分布</td><td>第 2 页先用高光、阴影、白、黑定边界。第 3 页再把暗部、中间调、高光重新分配，并写往上更亮、往下更暗</td></tr>
+<tr><td>阴影 / 中间调 / 高光</td><td>曲线横轴和颜色分级三个轮都出现这三段，没有分工句子</td><td>第 3 页中段对应主体、肤色。第 5 页写成阴影管情绪、中间调管主体、高光管光感</td></tr>
+<tr><td>样例数字</td><td>基础面板印着曝光 +0.45、对比 +20、高光 −35、阴影 +25、白 +15、黑 −20、饱和度 +10。HSL 色相页有一组 ± 读数。颜色分级平衡为 0</td><td>第 2 页示意几乎全是 0，只有色温 5500、色调 +4。第 4 页幅度写成 5～20。第 5 页饱和度是阴影与高光 6～12、中间调 4～8，平衡仍是 0。两组数对不上，不能互相当成同一步</td></tr>
+</table>
+<p>说明文字把模块收成 HSL、曲线、颜色分级三层，并提到达芬奇。图上多了基础面板，而且只有 Lr 标。说明写阴影是环境与情绪、高光是光源与空气感；第 5 页写成情绪、主体、光感，用词不完全相同。</p>
+<div class="dual">
+<div class="card"><h3>易错</h3>
+<ul>
+<li>把第 1 页示意读数当成第 2 页的起点。第 2 页面板停在 0 附近，顺序从曝光开始，并明确反对一上来猛拉饱和度（第 2 页）。</li>
+<li>阴影提太高会发灰，曝光过度会让肤色丢层次，白平衡没定就继续调会越调越乱（第 2 页）。</li>
+<li>单通道往下不是「减掉这个颜色」这么简单。第 3 页写红下偏青、绿下偏品红、蓝下偏黄，等于在加互补色。</li>
+<li>黄往右更绿。拉太右，草地会变荧光绿；只会拉饱和度会发脏；橙的明亮度过低，肤色显脏；蓝过饱和，天空很假（第 4 页）。</li>
+<li>三个色轮一起用力、饱和度太高，画面会像滤镜。不看原图就套参数，或者只看颜色不看光影，第 5 页都标成误区。</li>
+<li>平衡停在 0，不是「已经偏暖」或「已经偏冷」。第 5 页写它取决于阴影和高光分别放了什么颜色。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<ul>
+<li>五页没有拍摄参数，也没有达芬奇节点。标题和说明里的达芬奇、以及「底层只有光的结构加 RGB」，都不能从这五张图里核对。</li>
+<li>第 3 页的 S 曲线、抬黑场、压高光只有形状，没有点的坐标。</li>
+<li>第 5 页混合滑块画在偏高一侧，0–100 上的精确刻度无法确认。能确认的是「越高，三段过渡越柔和」，以及平衡为 0。</li>
+<li>第 4 页的 5～20、第 5 页的 6～12 和 4～8 是幅度建议，不是某一张成片的配方。第 5 页自己写了不要生搬硬套。</li>
+<li>说明在颜色分级的「本质：定」处截断。图上对应的完整句在第 5 页：在不同亮度区域里，设计光的颜色。</li>
+</ul></div>
+</div>
+<h2>动作</h2>
+<div class="card"><h3>按页上的顺序</h3>
+<ol>
+<li>先用第 2 页定第一眼：曝光，再高光和阴影，再白与黑的边界，再色温和色调，最后才动自然饱和度。</li>
+<li>层次不够时再打开第 3 页的总曲线。轻微 S、抬黑场或压高光只做骨架；单通道只做小幅偏色，宁轻勿重。</li>
+<li>某一色不对，用第 4 页的 HSL，不要改整张图。人像先橙黄，再绿蓝，紫和洋红留到最后，幅度停在 5～20。</li>
+<li>气氛留到第 5 页：阴影轻加蓝或青（6～12），中间调轻加品红（4～8），高光轻加黄或橙（6～12）。想更通透时，高光可以改成略偏青。混合只负责过渡柔不柔，平衡先放在 0，再看两边已经放了什么色。</li>
+<li>每一步回头看光影还在不在。第 4 页写 HSL 不是电影感的全部；第 5 页写颜色分级电影感最强，但一定要轻调。</li>
+</ol></div>
+<div class="card"><h3>结论</h3>
+<p>这套笔记的做法是先用基础面板和曲线稳住光，再用 HSL 修单色，最后用颜色分级给不同亮度上很轻的气氛。第 1 页的示意读数只说明面板长什么样，不能和第 4、第 5 页的幅度区间混成一份参数。</p></div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

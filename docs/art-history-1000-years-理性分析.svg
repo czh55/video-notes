@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4610" viewBox="0 0 1320 4610">
+  <foreignObject x="0" y="0" width="1320" height="4610">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#1e3a5f;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:150px;max-width:210px;font-weight:700;font-size:14px;color:#1e40af}
+.node small{display:block;font-weight:500;font-size:12px;color:#475569;margin-top:6px}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:22px;color:#94a3b8;align-self:center}
+.sec{margin-bottom:8px}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.flow span{background:#fff;border:1px solid #e2e8f0;border-radius:999px;padding:6px 12px;font-size:13px;color:#334155}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card-orange{border-left-color:#f59e0b}
+.card-red{border-left-color:#ef4444}
+.card-green{border-left-color:#10b981}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.insight-key{background:#fff7ed;border-radius:14px;padding:18px 20px;margin-bottom:16px;border-left:4px solid #f59e0b}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e3a5f,#2563eb);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}</style>
+      
+<div class="container">
+  <h1>1000 年中西艺术史：同时，不是同一条阶梯</h1>
+  <div class="meta">
+    <span class="tag tag-blue">艺术史</span>
+    <span class="tag tag-orange">中西对照</span>
+    <span class="tag tag-gray">时间线</span>
+    <span class="tag tag-blue">绘画</span>
+  </div>
+  <p class="summary-line">核心命题来自第 1 页：近 1000 年，中西方同时在创造什么。答案不是进步排名，而是十个世纪里两边各自的问题。中国多在笔墨、山水、器物和后来的现代转向里安放世界；西方从石头教堂、透视和人体，走到光线、摄影和观念。第 9 页才用宫廷写实声称「两条艺术史真正相遇」。</p>
+
+  <section class="map">
+    <h2>关系图：同一百年，两个问题</h2>
+    <div class="diagram">
+      <div class="node">世纪中轴<small>第 2–11 页各 100 年</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">中国在问什么<small>山水 / 笔墨 / 器物 / 转向</small></div>
+      <div class="arrow">∥</div>
+      <div class="node">西方在问什么<small>信仰空间 / 透视 / 光线 / 观念</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-green">对照句<small>每页中轴那一句</small></div>
+    </div>
+    <p>读法：先读中轴口号，再看左右各举了谁。口号是作者的观看角度，左右名单是证据。封面（第 1 页）只提供索引，郭熙被标成偏后世纪的那一条与第 2 页冲突，不以封面朝代为准。</p>
+  </section>
+
+  <section class="sec">
+    <h2>十个世纪怎么对</h2>
+    <table>
+      <tr><th>页</th><th>世纪</th><th>中轴在说什么</th><th>中国例子</th><th>西方例子</th></tr>
+      <tr><td>2</td><td>1000–1100</td><td>一边山水，一边空间</td><td>范宽、郭熙、汝窑</td><td>罗马式石墙与奥坦柱头</td></tr>
+      <tr><td>3</td><td>1100–1200</td><td>山河展开，教堂向天空长</td><td>千里江山、清明上河、南宋初兴</td><td>罗马式成熟、1144 圣丹尼斯</td></tr>
+      <tr><td>4</td><td>1200–1300</td><td>一边更空，一边更高</td><td>马夏梁楷、陈容、牧溪六柿</td><td>哥特式、沙特尔彩色玻璃</td></tr>
+      <tr><td>5</td><td>1300–1400</td><td>中国找笔墨，欧洲找空间</td><td>赵孟頫、黄公望、倪瓒、王蒙</td><td>乔托、杜乔、马蒂尼、亚眠</td></tr>
+      <tr><td>6</td><td>1400–1500</td><td>两种「真实」同时成形</td><td>沈周、宫廷、唐寅、青花与木作</td><td>马萨乔透视、凡·艾克、波提切利、圣母百花</td></tr>
+      <tr><td>7</td><td>1500–1600</td><td>唐伯虎与达·芬奇同一时代</td><td>唐寅、文徵明、仇英、徐渭</td><td>达·芬奇、米开朗基罗、拉斐尔、提香</td></tr>
+      <tr><td>8</td><td>1600–1700</td><td>笔墨与光线都到极致</td><td>董其昌、八大、石涛</td><td>卡拉瓦乔、伦勃朗、委拉斯开兹、维米尔</td></tr>
+      <tr><td>9</td><td>1700–1800</td><td>两条艺术史真正相遇</td><td>郎世宁、扬州八怪、清宫工艺</td><td>华托、布歇、弗拉戈纳尔、大卫、万神殿</td></tr>
+      <tr><td>10</td><td>1800–1900</td><td>为什么突然跑这么快</td><td>晚清、海上画派、任伯年、吴昌硕</td><td>浪漫主义、现实主义、梵高、1839 摄影</td></tr>
+      <tr><td>11</td><td>1900–2000</td><td>艺术语言被彻底改写</td><td>齐白石、徐悲鸿、开国大典、天梯</td><td>毕加索、达利、沃霍尔、包豪斯</td></tr>
+    </table>
+  </section>
+
+  <section class="sec">
+    <h2>三条转折，不要记成一条直线</h2>
+    <div class="flow">
+      <span>第 2–4 页 信仰空间对山水留白</span>
+      <span>→</span>
+      <span>第 5–7 页 笔墨对透视和人体</span>
+      <span>→</span>
+      <span>第 8 页 光线对笔墨极致</span>
+      <span>→</span>
+      <span>第 9 页 宫廷里技法相遇</span>
+      <span>→</span>
+      <span>第 10–11 页 摄影与观念对现代转向</span>
+    </div>
+    <div class="dual">
+      <div class="card">
+        <h3>中国这条线在换什么</h3>
+        <p>第 2–3 页还在用巨碑、青绿和市井长卷建立可观的山河。第 4 页改口称「越来越空」：减笔、禅意、六柿。第 5–8 页问题变成笔墨个性：元人繁简、吴门、徐渭、八大、石涛。第 9 页多出一个外来写实技法进入宫廷的例子。第 10–11 页才把「现代」写成开埠、教育、国家美术和当代，而不是风格内部的自然成熟。</p>
+      </div>
+      <div class="card card-orange">
+        <h3>西方这条线在换什么</h3>
+        <p>第 2–4 页的载体主要是教堂：圆拱、1144 年的尖拱、沙特尔的光。第 5–7 页载体换成有体积的人和可计算的空间，第 7 页用达·芬奇生卒对上唐寅。第 8 页的关键词从「神圣」换成「光线如何刻画具体的人」。第 9 页洛可可之后用大卫和万神殿收回理性和古典。第 10 页把加速归因于情感、社会题材、色彩和 1839 年摄影。第 11 页改成流派名单和观念边界。</p>
+      </div>
+    </div>
+    <div class="insight-key">
+      <h3>唯一写明生卒重叠的一对</h3>
+      <p>第 7 页中心句「唐伯虎 × 达·芬奇」有数字：唐寅 1470–1524，达·芬奇 1452–1519。这是整套图里最硬的「同时」。其余世纪的「同时」是世纪格子，不是两人见过面，也不是互相影响。第 9 页的郎世宁才是技法进入同一制度的例子，和第 7 页的生卒重叠不是同一种「相遇」。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>避坑</h2>
+    <div class="card card-red">
+      <h3>不要把封面当年表</h3>
+      <p>第 1 页把范宽、王希孟、文徵明、郎世宁、齐白石和罗马式、哥特式、文艺复兴、巴洛克、莫奈、梵高、毕加索拼在一条月亮中轴上。其中郭熙《早春图》被放到偏后世纪并标成元代，与第 2 页「约 1072 年」矛盾。封面朝代无法确认的，以分世纪页为准。</p>
+    </div>
+    <div class="card card-red">
+      <h3>不要把生卒区间当成创作年</h3>
+      <p>第 5 页王蒙卒年写作 1385，栏目却写到约 1380–1400。第 6 页沈周、唐寅的生卒跨进 16 世纪。第 2 页奥坦柱头写「12 世纪初」，已经滑出 1100 年。第 10 页把马蒂斯、毕加索放进 19 世纪后期的「早期现代」。这些是海报的格子，不是作品完成年。</p>
+    </div>
+    <div class="card card-red">
+      <h3>不要把修辞当成测量</h3>
+      <p>「越来越空 / 越来越高」（第 4 页）、「两种真实」（第 6 页）、「都走向极致」（第 8 页）、「真正相遇」（第 9 页）、「突然跑得这么快」（第 10 页）、「彻底改写」（第 11 页），都是中轴口号。它们帮助记忆对照，不能当成风格史的定量结论。</p>
+    </div>
+    <div class="card card-red">
+      <h3>读不清的专名不要补完</h3>
+      <p>杜乔那件圣母的中文题名无法确认（第 5 页）。圣丹尼斯之前那座圆拱教堂的中文专名无法确认，英文标注是 Saint-Philibert de Tournus（第 2 页）。第 7 页水城配图的具体建筑名无法确认。第 11 页草间弥生图注写《无限的镜屋》，配图更像波点南瓜，是否同一条无法确认。第 10 页后印象派栏目年份与《星月夜》1889 是否同一行，无法确认完全对齐。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>适用边界</h2>
+    <ul>
+      <li>适合：想建立「同一百年两边各在忙什么」的骨架，再去查单件作品。每页 4 个左右条目，是入口不是全集。</li>
+      <li>不适合：写论文、做馆藏著录、判断真迹或断代。局部配图不能代替原作构图，传世品、约年、持续建设都写在图上，本身就在提示不确定。</li>
+      <li>地域被收成「中国 / 西方」。第 2–11 页的西方例子集中在法国、意大利、荷兰、西班牙和后来的美国波普，不是整个欧洲，更不是全球。</li>
+      <li>媒介前几页中国侧常把绘画和瓷器放在一起（第 2、3、6、7、8、9 页），西方侧前三页几乎只有建筑和雕塑。拿「中国画」对「西方艺术」时，载体本来就不对称。</li>
+      <li>影响关系只在少数句子里出现：第 4 页陈容「影响后世与日本」，第 9 页郎世宁「中西融合」，第 11 页「引入西方艺术体系」。其余并列不要读成传播路线。</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>行动清单</h2>
+    <ol>
+      <li>先背十句中轴，不背名单。山水对空间、向天空生长、更空对更高、笔墨对空间、两种真实、唐寅对达·芬奇、笔墨对光线、宫廷相遇、为何加速、语言被改写。分别对应第 2 到第 11 页。</li>
+      <li>用第 7 页核对「同时」：只在生卒重叠时才说两人同一时代。其他页说「同一个世纪」。</li>
+      <li>看一件中国山水时，翻到同一世纪的右栏，问西方当时的载体是教堂、人体还是光线。看一件西方名作时反过来问。</li>
+      <li>把第 9 页单独记住：相遇指郎世宁把写实技法放进清宫，同时欧洲从华托走到大卫。这和大航海、传教士、外销瓷有关，但图上没有展开制度史。</li>
+      <li>碰到具体题名，先看本页小字。杜乔作品名、草间弥生图注与配图、封面郭熙朝代，标为无法确认，再去馆方著录，不凭这套图补全。</li>
+    </ol>
+  </section>
+
+  <section class="conclusion">
+    <h2>结论</h2>
+    <p>这套时间线的用处，是把「近 1000 年中西方同时在创造什么」拆成十个可对照的问题，而不是排出一条从古典到现代的全球阶梯。第 1 页提出问题，第 2–4 页是空间信仰对山水留白，第 5–8 页是笔墨对透视、人体和光线，第 9 页给出唯一明确的技法相遇，第 10–11 页解释西方为何显得加速、中国如何进入现代与当代。结论只在这些页的中轴口号和点名作品之内成立；跨世纪生卒、读不清的专名和配图错位，不能再往下推断。</p>
+  </section>
+  <p class="footer">依据：图文笔记 11 页 · 观看半径 · 艺术阅览室</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

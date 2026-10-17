@@ -1,6 +1,2820 @@
 [
   {
     "date": "2026-10-17",
+    "title": "曝光补偿和“调亮度”有什么本质区别？",
+    "summary": "区别在测光目标，不在事后把画面拧亮拧暗。曝光补偿改的是相机要达成的18%灰，于是重算光圈、快门和ISO。封面把常见理解收成「亮了就减、暗了就加」，并写成前期的亮度微调：方向能用，原理不对。",
+    "primary": "photo",
+    "tags": [
+      "曝光补偿",
+      "18%灰",
+      "光圈",
+      "快门",
+      "ISO"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9gbJUdUPKDR",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "exposure-compensation-screen-图文实录.html",
+      "svg": "exposure-compensation-screen-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3555,
+    "slug": "exposure-compensation-screen"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "聊聊测光模式，你应该要知道的原理",
+    "summary": "测光测的是进入镜头的反射光，并按18%中性灰来算曝光。矩阵、中央重点、点测的差别，是相机拿画面哪些区域来算这个平均，不是测光元件换了一种。拍人像时，顺光用矩阵，逆光把点测对准人脸，主体在中央、光线略复杂时用中央重点。",
+    "primary": "photo",
+    "tags": [
+      "测光",
+      "18%灰",
+      "矩阵测光",
+      "中央重点",
+      "点测光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4T0Zhpo6RCH",
+    "duration": "图文 12 页",
+    "outputs": {
+      "html": "metering-modes-图文实录.html",
+      "svg": "metering-modes-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 0,
+    "svg_height": 2309,
+    "slug": "metering-modes"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "详解对焦模式 AF-S / AF-C / AF-A",
+    "summary": "AF-S、AF-C、AF-A只决定对焦马达什么时候动、动几次：半按锁一次、半按一直追、或由算法在两者之间切换。相位检测、反差检测、单点、区域、广域、眼部追焦和峰值对焦是另外几层，可以和这三种工作模式搭配，不是同一组菜单里的别名。",
+    "primary": "photo",
+    "tags": [
+      "AF-S",
+      "AF-C",
+      "AF-A",
+      "对焦马达",
+      "追焦"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5xPzizAozR9",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "af-s-af-c-af-a-图文实录.html",
+      "svg": "af-s-af-c-af-a-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 2513,
+    "slug": "af-s-af-c-af-a"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "聊聊相位对焦和反差对焦的原理（小白也能懂",
+    "summary": "相位对焦靠左右光线的视差：合焦时两路信号重合，失焦时错开，于是一次算出镜头该往哪边、差多少。反差对焦不测距离，只驱动镜头来回找对比度最高的那一点，必须走过峰值再退回来。现代机身多半先用相位锁大致位置，再用反差微调。",
+    "primary": "photo",
+    "tags": [
+      "相位对焦",
+      "反差对焦",
+      "AF-C",
+      "AF-S",
+      "视差"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9YAFDS7ajFE",
+    "duration": "图文 16 页",
+    "outputs": {
+      "html": "phase-vs-contrast-af-图文实录.html",
+      "svg": "phase-vs-contrast-af-理性分析.svg"
+    },
+    "screenshot_count": 16,
+    "transcript_segments": 0,
+    "svg_height": 4979,
+    "slug": "phase-vs-contrast-af"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "聊聊人眼与相机 为什么拍的没有眼睛看震撼",
+    "summary": "拍出来不如眼前震撼，笔记把原因收在大脑，而不是机身。眼睛一边调瞳孔、一边扫描、再做色彩补偿和注意力筛选，合成一段主观画面；相机单次曝光只记录落到CMOS上的光子。",
+    "primary": "photo",
+    "tags": [
+      "动态范围",
+      "中央凹",
+      "CMOS",
+      "色彩补偿",
+      "一次曝光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7EwH7DDJ9EN",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "eye-vs-camera-图文实录.html",
+      "svg": "eye-vs-camera-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 4326,
+    "slug": "eye-vs-camera"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "聊聊闪光灯原理：为什么闪光灯能出神图",
+    "summary": "闪光灯能出神图，靠的是三组能被你决定的参数，而不是再背一套灯位。",
+    "primary": "photo",
+    "skills": [
+      "布光"
+    ],
+    "tags": [
+      "闪光灯",
+      "5500K",
+      "t.1",
+      "高速同步",
+      "氙气"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4zAd7EpLelo",
+    "duration": "图文 12 页",
+    "outputs": {
+      "html": "why-flash-works-图文实录.html",
+      "svg": "why-flash-works-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 0,
+    "svg_height": 3864,
+    "slug": "why-flash-works"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "raw和jpg的区别在哪里？聊聊原理",
+    "summary": "差别不在口号里的「RAW画质好、JPG画质差」，而在两件事：量化时用多少级去量光，以及这些级是在机内被做成8bit成品，还是把ADC之后的测量留到后期再做。",
+    "primary": "photo",
+    "tags": [
+      "RAW",
+      "JPG",
+      "14bit",
+      "8bit",
+      "量化"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AsT2XxRPW33",
+    "duration": "图文 13 页",
+    "outputs": {
+      "html": "raw-vs-jpg-图文实录.html",
+      "svg": "raw-vs-jpg-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 0,
+    "svg_height": 2534,
+    "slug": "raw-vs-jpg"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "关于镜头的光学素质 你或许要了解这些",
+    "summary": "光学素质先分成两件事：MTF曲线量化的是反差和分辨率；老镜头那种「味道」来自曲线测不到的像差。选镜是在选「锐」还是选「性格」，不是选出一支绝对更好的头。",
+    "primary": "photo",
+    "tags": [
+      "MTF",
+      "球差",
+      "色散",
+      "口径蚀",
+      "锐度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AeV1yAU3zD",
+    "duration": "图文 13 页",
+    "outputs": {
+      "html": "lens-optical-quality-图文实录.html",
+      "svg": "lens-optical-quality-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 0,
+    "svg_height": 3126,
+    "slug": "lens-optical-quality"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "聊聊景深 什么样的虚化才美？",
+    "summary": "好看的虚化，是主体上的模糊斑小到认成一个点，背景上的圆斑大到把层次分开，而且焦外圆盘边缘柔。封面三句「光圈大、焦距长、离得近，景深就浅」只是口诀。图解里的F是光圈数值：F变大，景深变深。口语里的「光圈大」对应孔径开大、F变小。",
+    "primary": "photo",
+    "tags": [
+      "景深",
+      "虚化",
+      "光圈",
+      "圆斑",
+      "焦外"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7iqBwR8BSsn",
+    "duration": "图文 14 页",
+    "outputs": {
+      "html": "depth-of-field-bokeh-图文实录.html",
+      "svg": "depth-of-field-bokeh-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 0,
+    "svg_height": 3771,
+    "slug": "depth-of-field-bokeh"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Plog｜修图口诀！",
+    "summary": "这两页能读到的口诀，是先把白平衡和曝光校到颜色、亮度正常，再动风格色；人像精修给了磨皮、液化和眼神光的上限；过曝、逆光、泛红、夜景和光影则改用局部滤镜与冷暖分开处理。页眉还列了「风格化调色」和「心法总结」，那两块正文不在这两张图上。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "白平衡",
+      "曝光",
+      "人像",
+      "磨皮",
+      "眼神光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4bDUZRyCpbU",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "plog-retouch-mnemonics-图文实录.html",
+      "svg": "plog-retouch-mnemonics-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 3516,
+    "slug": "plog-retouch-mnemonics"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Sony 相机12种PP模式祥解",
+    "summary": "标题写「12种」。图上编号只印到PP1–PP11，正文写「11种PP，11种不同的记录方式」。第8页另有菜单项PPOff，没有印出第12个编号。PP在这组图里是记录方式：管动态范围、色域、对比和后期空间，不是滤镜。",
+    "primary": "photo",
+    "tags": [
+      "Picture Profile",
+      "S-Log",
+      "索尼",
+      "PP Off",
+      "记录"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3dmylMQNBXO",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "sony-pp-modes-图文实录.html",
+      "svg": "sony-pp-modes-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2342,
+    "slug": "sony-pp-modes"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "建议收藏｜FCP 修剪操作保姆级教程",
+    "summary": "修剪是在问四件事：入点、出点、两个镜头之间的切点、片段在时间线上的位置有没有变。有媒体余量才能向外延长。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "修剪",
+      "Ripple",
+      "Roll",
+      "Slip",
+      "Slide"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/71QnsZbjgSH",
+    "duration": "图文 13 页",
+    "outputs": {
+      "html": "fcp-trim-tutorial-图文实录.html",
+      "svg": "fcp-trim-tutorial-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 0,
+    "svg_height": 3264,
+    "slug": "fcp-trim-tutorial"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "FCP｜连接/插入/追加/覆盖搞懂剪辑逻辑",
+    "summary": "标题里的四个动作，就是Q、W、E、D各自把素材送进时间线的方式：Q连到主故事线下面且主线不动，W插在播放头处并把后面推开，E接到时间线末尾，D盖住当前位置且笔记说总长度不变。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "连接",
+      "插入",
+      "追加",
+      "覆盖",
+      "Final Cut"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2iddrHhbO2H",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "fcp-connect-insert-overwrite-图文实录.html",
+      "svg": "fcp-connect-insert-overwrite-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 3525,
+    "slug": "fcp-connect-insert-overwrite"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "FCP｜白线与红线，搞懂时间线剪辑逻辑",
+    "summary": "白线是Playhead，决定从哪里播放、插入和剪切。红线是Skimmer，鼠标扫到哪，画面就预览到哪，时间线本身不动。两条线重合，只因为鼠标和播放头停在同一帧。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "播放头",
+      "白线",
+      "红线",
+      "预览",
+      "时间线"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8fX3hBgpMJp",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "fcp-white-line-red-line-图文实录.html",
+      "svg": "fcp-white-line-red-line-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1835,
+    "slug": "fcp-white-line-red-line"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "FCP资源库,事件,项目 为什么这么结构设计?",
+    "summary": "三层不是多出来的手续，是把「剪一条片子」换成一套能长期放素材的生产系统。资源库划定一个大项目的范围和存放位置，事件只负责把素材分类，项目才是时间线。素材少就拷进库，素材多就留在原盘，两边都不能随便改路径。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "资源库",
+      "事件",
+      "项目",
+      "Final Cut",
+      "素材"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3L7Q4SkxyVp",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "fcp-library-event-project-图文实录.html",
+      "svg": "fcp-library-event-project-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 2546,
+    "slug": "fcp-library-event-project"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "LR 影调调整工具全解析",
+    "summary": "这条笔记和另一条用的是同一张图：影调从基础面板到曲线、蒙版、直方图，四步从整体走到局部。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "基础面板",
+      "曲线",
+      "蒙版",
+      "直方图",
+      "影调"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8Wl30Abj2da",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "lr-tone-tools-recap-图文实录.html",
+      "svg": "lr-tone-tools-recap-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "lr-tone-tools-recap"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "LR 影调调整工具全解析",
+    "summary": "这页把Lightroom的影调收成四步：基础面板定整体，曲线塑结构，蒙版做局部，直方图判断有没有溢出。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "基础面板",
+      "曲线",
+      "蒙版",
+      "直方图",
+      "Lightroom"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2fTl7lOxhJb",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "lr-tone-tools-overview-图文实录.html",
+      "svg": "lr-tone-tools-overview-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "lr-tone-tools-overview"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "高光管层次，白色色阶管上限",
+    "summary": "Lightroom里高光和白色色阶都动亮部，阴影和黑色色阶都动暗部。差别是一块管一片区域的层次，一块管最亮或最暗那条边。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "高光",
+      "白色色阶",
+      "阴影",
+      "黑色色阶",
+      "直方图"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AgV2MwQrEbP",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "lr-highlights-vs-whites-图文实录.html",
+      "svg": "lr-highlights-vs-whites-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 567,
+    "slug": "lr-highlights-vs-whites"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "从拍摄到调色：LR/达芬奇",
+    "summary": "标题把拍摄接到调色，并并列写了LR和达芬奇。这五页实际只画了Lightroom：第1页总览四个模块，后四页分别讲基础面板、曲线、HSL混色器和颜色分级。图上没有达芬奇界面。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色",
+      "二级调色"
+    ],
+    "tags": [
+      "Lightroom",
+      "曲线",
+      "HSL",
+      "色彩分级",
+      "影调"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4pMo3Or0ojf",
+    "duration": "图文 5 页",
+    "outputs": {
+      "html": "shoot-to-grade-lr-davinci-图文实录.html",
+      "svg": "shoot-to-grade-lr-davinci-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 0,
+    "svg_height": 2504,
+    "slug": "shoot-to-grade-lr-davinci"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "有些长相一看就很难让人喜欢",
+    "summary": "标题说有些脸第一眼就难让人喜欢。说明里的回答是：人还没说话，你就觉得不好惹；不是人家坏，是长相吃了亏，并担心自己第一眼被贴标签。八张图里，只有第1页把脸分成亲和、凌厉、NPC三栏。",
+    "primary": "makeup",
+    "skills": [
+      "面部分析"
+    ],
+    "tags": [
+      "第一眼",
+      "亲和",
+      "锐利",
+      "观感",
+      "面部"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8pgpYTzNETB",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "faces-hard-to-like-图文实录.html",
+      "svg": "faces-hard-to-like-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3792,
+    "slug": "faces-hard-to-like"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "“眉压眼”显凶没精神？3招轻松眉眼间距！",
+    "summary": "标题问的是眉眼太近会不会显凶、没精神，以及能不能用三招把间距拉开。两张图只把对照画出来了：第1页把同一张脸分成「眉包眼」和「眉压眼」。第2页是两张眉眼近景，没有可辨认的步骤文字。三招不在图上。",
+    "primary": "makeup",
+    "skills": [
+      "面部分析"
+    ],
+    "tags": [
+      "眉压眼",
+      "眉眼间距",
+      "显凶",
+      "眉形",
+      "观感"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7hFBjxmZfBe",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "brow-eye-distance-图文实录.html",
+      "svg": "brow-eye-distance-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 1700,
+    "slug": "brow-eye-distance"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "权威感、温柔感与御姐风：正向气质解读",
+    "summary": "笔记把「看起来强势、看起来温柔、看起来大方」拆成两组对照，都按观感来写，不是测量结论。第1页用三张真人标注「霸气、温柔、大气」。第2页用三张三维头像改写成「权威、温柔、大气」，并列相对宽窄和高低。标题里的「御姐风」两页都没有单独成栏。",
+    "primary": "makeup",
+    "skills": [
+      "面部分析"
+    ],
+    "tags": [
+      "权威感",
+      "温柔感",
+      "眼神",
+      "气质",
+      "观感"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2wQkrIV1GUt",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "authority-gentle-temperament-图文实录.html",
+      "svg": "authority-gentle-temperament-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 1775,
+    "slug": "authority-gentle-temperament"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "互补色调色原理，如何增强画面中的颜色",
+    "summary": "增强颜色靠减互补色、加相邻的支持色。草地例里，色相拧到-22画面仍显灰；减品色草地才绿，再加黄和青会更绿。橙色则加红和黄、减青和蓝。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "互补色",
+      "品红",
+      "草地",
+      "橙色",
+      "色相"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9ttGnAap4U",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "complementary-color-grade-图文实录.html",
+      "svg": "complementary-color-grade-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1817,
+    "slug": "complementary-color-grade"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "谁懂啊，终于有人把认识颜色说清楚了…",
+    "summary": "六页把认识颜色收成关系、调色顺序、降纯度和四要素，再给十二色相环和五条灰调配方。说清楚的是动手顺序：先定色相，再动明度、纯度、冷暖。角度定义前后并不一致，第6页还有几处字无法确认。",
+    "primary": "painting",
+    "tags": [
+      "色相",
+      "明度",
+      "纯度",
+      "色温",
+      "互补"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6eN6JCnWyKO",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "how-to-see-color-图文实录.html",
+      "svg": "how-to-see-color-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1854,
+    "slug": "how-to-see-color"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "女明星同款梨形穿搭逻辑，再也不用乱买衣服",
+    "summary": "四页各给一条对错：上紧下松、上深下浅、上短下长、上繁下简。图上没有量臀腰，也没有写出哪一条专属梨形。",
+    "primary": "fashion",
+    "skills": [
+      "穿搭显贵"
+    ],
+    "tags": [
+      "上紧下松",
+      "上深下浅",
+      "上短下长",
+      "上繁下简",
+      "梨形"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/88160c8eXsL",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "pear-shape-four-formulas-图文实录.html",
+      "svg": "pear-shape-four-formulas-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "pear-shape-four-formulas"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩理论知识干货",
+    "summary": "这组手绘笔记把少儿绘画要用的色彩基础收成八页：先认三要素和三原色，再用色环上的角度区分互补、对比、邻近和同类，最后用冷暖和情绪例说明颜色怎么说话。色环格子上的印刷比例太密，实录不逐格抄成色号。",
+    "primary": "painting",
+    "tags": [
+      "色相",
+      "明度",
+      "纯度",
+      "色环",
+      "冷暖"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Aqk7pIoJVV8",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "color-theory-notes-图文实录.html",
+      "svg": "color-theory-notes-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 4338,
+    "slug": "color-theory-notes"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "摄影师怎么记住超多摆姿丨摄影小白干货",
+    "summary": "记住的不是几百个完整姿势。前六页把摆姿收成五件事：拆开身体再换一个部位、先定情绪再选动作、按棚拍街拍居家换一套、把好用的局部记下来并用具体的事去引导、别为了变化硬凹。第七页是招生条件，不是第六个摆姿方法。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "摆姿",
+      "情绪",
+      "换一个部位",
+      "棚拍",
+      "街拍"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7SjCjo30Gm",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "pose-memory-for-photographers-图文实录.html",
+      "svg": "pose-memory-for-photographers-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 2231,
+    "slug": "pose-memory-for-photographers"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "20种领口对应20种项链",
+    "summary": "标题把搭配写成20对20。四页各排5栏，加起来是20栏，但领口名称有重复：方领、U领、船领、高领各出现两次，两次的项链用词并不完全一样。图上给出的是一种对应思路，同一领口还可以有别的戴法。",
+    "primary": "fashion",
+    "skills": [
+      "穿搭显贵"
+    ],
+    "tags": [
+      "领口",
+      "项链",
+      "方领",
+      "船领",
+      "搭配"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2VPSwHeLW1E",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "neckline-necklace-pairs-图文实录.html",
+      "svg": "neckline-necklace-pairs-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 3497,
+    "slug": "neckline-necklace-pairs"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图看懂：什么是焦外二线性",
+    "summary": "焦外二线性是虚化边缘多出一条轮廓，不是镜头坏了。显不显眼，看叶子、光斑边和整片背景会不会化开。",
+    "primary": "photo",
+    "tags": [
+      "焦外",
+      "二线性",
+      "光斑",
+      "虚化",
+      "镜头"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6xRPPvKPUXQ",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "nisen-bokeh-图文实录.html",
+      "svg": "nisen-bokeh-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "nisen-bokeh"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "摄影审美上不去❓这15部电影一定要看❗❗",
+    "summary": "审美上不去，这组图给出的做法是看15部电影的完成画面，每部只留一句可模仿的视觉特征。封面印着「15部审美电影推荐」。第2页到第16页各印一个片名，合计15部，与封面片数一致。图上没有光圈、快门或白平衡。",
+    "primary": "film",
+    "skills": [
+      "视听语言"
+    ],
+    "tags": [
+      "电影参考",
+      "构图",
+      "用光",
+      "色彩",
+      "审美"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/BNxhRLHb6n",
+    "duration": "图文 16 页",
+    "outputs": {
+      "html": "photography-movies-fifteen-图文实录.html",
+      "svg": "photography-movies-fifteen-理性分析.svg"
+    },
+    "screenshot_count": 16,
+    "transcript_segments": 0,
+    "svg_height": 3567,
+    "slug": "photography-movies-fifteen"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "把莫奈的倒影调灰后，我发了5条明度规律",
+    "summary": "调成灰度之后，倒影留下的是明暗次序，不是岸上那套明度数字。亮的进了水通常没那么亮；暗的不必因此被抬高，近处的深色倒影还可以比本体更深；整段明度跨度向中间收，但暗、灰、亮谁比谁深还在；再远、再有雾，这层关系会继续变松。",
+    "primary": "painting",
+    "tags": [
+      "莫奈",
+      "倒影",
+      "明度",
+      "灰度",
+      "次序"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3BxqOp2psET",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "monet-reflection-value-图文实录.html",
+      "svg": "monet-reflection-value-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 3693,
+    "slug": "monet-reflection-value"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图，彻底记住明度九调",
+    "summary": "九调是一张3×3：行是亮度（高、中、低），管画面整体是亮起来还是沉下去；列是对比（长、中、短），管眼睛能读出多少层次。横向只把最亮和最暗互相靠近，区间变窄、亮度位置不动；纵向把整段明度平移，宽度和对比不动。",
+    "primary": "painting",
+    "tags": [
+      "明度九调",
+      "高调",
+      "低调",
+      "对比",
+      "灰度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1F9XfsjbYMM",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "value-nine-tones-图文实录.html",
+      "svg": "value-nine-tones-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 3327,
+    "slug": "value-nine-tones"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "莫奈到底在用什么，区分清晨、正午、日落？",
+    "summary": "他改的不是教堂。",
+    "primary": "painting",
+    "tags": [
+      "莫奈",
+      "清晨",
+      "正午",
+      "日落",
+      "明度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9zrdB7U18C0",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "monet-morning-noon-sunset-图文实录.html",
+      "svg": "monet-morning-noon-sunset-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 3596,
+    "slug": "monet-morning-noon-sunset"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "别再只拉曝光了！越拉越灰",
+    "summary": "标题说的是：发灰、雾蒙蒙时只拉曝光，画面会更灰更脏。通透不是更亮，而是灰雾少、层次清、主体突出。作者给出的顺序是先用轻微S曲线压灰雾，再用黑白场把最亮和最暗定住，最后才用HSL压杂色、提主色。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "曝光",
+      "S曲线",
+      "黑白场",
+      "发灰",
+      "通透"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/wA6ENkZ1NM",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "stop-only-lifting-exposure-图文实录.html",
+      "svg": "stop-only-lifting-exposure-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3815,
+    "slug": "stop-only-lifting-exposure"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "照片没氛围感，先别急着怪滤镜",
+    "summary": "照片平，常常不是滤镜不够高级，而是前景、人物、背景挤在同一层。先把前中后拉开，空间感出来之后，再谈动作和调色。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "前景",
+      "人物",
+      "背景",
+      "层次",
+      "氛围"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3s6wOiYNJFh",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "photo-needs-atmosphere-图文实录.html",
+      "svg": "photo-needs-atmosphere-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 2405,
+    "slug": "photo-needs-atmosphere"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "本人不矮，为什么照片里像矮了一截？",
+    "summary": "标题要回答的是：人并不矮，全身照为什么像矮了一截。九页把原因收在机位、脚位和裁切上：镜头从上往下压，腿线被压短；脚不向前，腿没有延伸；脚底裁得太紧，人像被卡在画面里。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "机位",
+      "脚位",
+      "裁切",
+      "腿长",
+      "全身照"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9T5jAqYWy9p",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "why-photos-look-shorter-图文实录.html",
+      "svg": "why-photos-look-shorter-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 3336,
+    "slug": "why-photos-look-shorter"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "大太阳别硬拍：主光这样选",
+    "summary": "大太阳底下不要站在直顶光里硬拍。主光优先选阴影边缘，其次才是要补脸的背光，或避开顶光的侧前45°。脸先落到柔光里，再用白墙、浅地或白纸把眼窝补上，最后借后侧亮边和背景光斑把人从背景里分开。",
+    "primary": "photo",
+    "skills": [
+      "布光"
+    ],
+    "tags": [
+      "顶光",
+      "阴影边缘",
+      "补脸",
+      "主光",
+      "大太阳"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5V70anF4v5J",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "hard-sun-pick-key-light-图文实录.html",
+      "svg": "hard-sun-pick-key-light-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 3090,
+    "slug": "hard-sun-pick-key-light"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "拍照手一尴尬，整个人都垮",
+    "summary": "垮的不是脸，是手没有去处。图上把罚站式贴腿和乱摆抢镜都归成同一件事：手臂贴着身体，直线太多，人显壮、显紧张。作者给的一句逻辑是手要有任务，用来打断这条直线。闭眼能抄的三招是摸头发或耳后、扶包带或只插一只兜、拿咖啡、手机或花。",
+    "primary": "photo",
+    "tags": [
+      "手部摆姿",
+      "罚站",
+      "口袋",
+      "道具",
+      "轮廓"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5cpN1oRPq6c",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "awkward-photo-hands-图文实录.html",
+      "svg": "awkward-photo-hands-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 3845,
+    "slug": "awkward-photo-hands"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "餐厅拍照像游客？这样拍直接变大片",
+    "summary": "像游客，是因为人坐在顶光或背光里、背景把人吞掉、手和表情都在用力。大片感靠一套生活任务：窗放在侧前方，只留一个主光让脸有过渡、眼睛有高光；先后退两步再用中焦拍满，机位略高；手去端杯、看菜单或整理头发衣角，视线落到远处、下方或侧后方。",
+    "primary": "photo",
+    "skills": [
+      "布光",
+      "构图"
+    ],
+    "tags": [
+      "餐厅拍照",
+      "侧前光",
+      "主光",
+      "手部",
+      "游客感"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AW0nACpRnLp",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "restaurant-photo-not-tourist-图文实录.html",
+      "svg": "restaurant-photo-not-tourist-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 2544,
+    "slug": "restaurant-photo-not-tourist"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "松弛感不是天生的",
+    "summary": "封面把结论写在副题上：不是天生，是方法。松弛感被写成少用力，再给身体一个任务。先松肩、下巴和手，表情只留嘴角微扬，眼神要有落点，手去做摸头发、扶包带或拿道具，站着把重量放在一条腿上。环境靠安静背景、柔光和一点遮挡。三秒自检把这些收成六问。",
+    "primary": "photo",
+    "tags": [
+      "松弛感",
+      "落肩",
+      "重心腿",
+      "嘴角",
+      "人像"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1vrpNsK5xgF",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "relaxed-photo-look-图文实录.html",
+      "svg": "relaxed-photo-look-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 3377,
+    "slug": "relaxed-photo-look"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "拍照显瘦不是玄学！学会这七招立马变瘦",
+    "summary": "标题写的是七招。图上编号正好是1到7，另加封面和最后的交作业，一共9页。七招都是左右对比：改距离、机位、侧身、重心、手、下巴和离背景，不改体重。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "显瘦",
+      "机位",
+      "侧身",
+      "重心",
+      "轮廓"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3FRUuTg1aNM",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "seven-ways-look-slimmer-图文实录.html",
+      "svg": "seven-ways-look-slimmer-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 3360,
+    "slug": "seven-ways-look-slimmer"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "夜景脸黑噪点？站位错了",
+    "summary": "夜景里脸黑、噪点炸，笔记把原因写成站位：人站在路灯正下方或正后方，曝光又让给了爆亮的灯，再靠后期硬提亮度。路灯是硬光，脸要进过渡区。三种能用的位置是侧前方、灯后半步再补眼神光、以及白墙浅地浅色车当反光面。",
+    "primary": "photo",
+    "skills": [
+      "布光"
+    ],
+    "tags": [
+      "夜景",
+      "路灯",
+      "眼神光",
+      "脸黑",
+      "站位"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1iKCGAhWod7",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "night-face-too-dark-图文实录.html",
+      "svg": "night-face-too-dark-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 3476,
+    "slug": "night-face-too-dark"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "照片不高级：问题在光比",
+    "summary": "构图没乱、后期也没乱调，照片仍会平、没质感，作者把原因归到光比：画面里亮部和暗部的差距。差距太小，脸像贴在画面上；差距太大，亮部炸白、暗部死黑，细节丢了反而显得廉价。好看的光比要同时有亮面、暗面和过渡，高级感是会控制这个差距，不是越大越好。",
+    "primary": "photo",
+    "skills": [
+      "布光"
+    ],
+    "tags": [
+      "光比",
+      "高光",
+      "阴影",
+      "平淡",
+      "质感"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/10E88buErSg",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "photo-light-ratio-图文实录.html",
+      "svg": "photo-light-ratio-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3084,
+    "slug": "photo-light-ratio"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "20个调色口诀｜懂原理才能修好图",
+    "summary": "标题说懂原理才能修好图，并写成20个口诀。图上前五页每页5条，一共25条编号口诀，第6页改成招生。前三页和第5页讲的是方向：高光往哪偏、人物和背景谁让谁。第4页改成百分比、曝光、对比和一组色值，但没有软件名，也没有单位。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色",
+      "二级调色"
+    ],
+    "tags": [
+      "调色口诀",
+      "曲线",
+      "色相",
+      "原理",
+      "后期"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3NWJ4e2cpj1",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "twenty-grade-mnemonics-图文实录.html",
+      "svg": "twenty-grade-mnemonics-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 3300,
+    "slug": "twenty-grade-mnemonics"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "20个修图口诀‼️保姆级后期入门实用干货",
+    "summary": "标题承诺的是20条、能照着做的后期入门口诀。七页里，前六页每页5条编号口诀，一共30条；只算前四个板块（基础、人像、风格化、实战）恰好是20条，第五页光影、第六页心法又各加5条，页眉仍写「修图20口诀」，没有改成30。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "修图口诀",
+      "人像",
+      "磨皮",
+      "光影",
+      "后期"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/75ZMAWvHc3L",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "twenty-retouch-mnemonics-图文实录.html",
+      "svg": "twenty-retouch-mnemonics-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 3642,
+    "slug": "twenty-retouch-mnemonics"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "饱和度≠自然饱和度≠鲜明度！调色不再乱拉✨",
+    "summary": "三个名字不是同一个滑块。饱和度是所有颜色一起加浓或一起褪灰；自然饱和度是优先提还不浓的颜色，往负向也不会一下子死灰；鲜明度动的是暗部、亮部和对比，正向被写成通透、立体、去灰，负向被写成灰平、柔和、雾感。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "饱和度",
+      "自然饱和度",
+      "鲜明度",
+      "清晰度",
+      "滑块"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/56gQz7MyKKN",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "saturation-vibrance-clarity-图文实录.html",
+      "svg": "saturation-vibrance-clarity-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 2987,
+    "slug": "saturation-vibrance-clarity"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "我悟了，关于用髋走路",
+    "summary": "两张图只画了朝左迈步，以及髋侧一圈旁边的「这里用力」；跪走找感觉和瘦腿，写在说明里，画面上没有。",
+    "primary": "sports",
+    "tags": [
+      "用髋走路",
+      "迈步",
+      "髋部用力",
+      "步态",
+      "行走"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1i4LB7tr1Z4",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "walk-with-hips-图文实录.html",
+      "svg": "walk-with-hips-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 1664,
+    "slug": "walk-with-hips"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "后盐、后糖、后酵母法不同顺序到底有啥区别？",
+    "summary": "区别在推迟的对象不同：后盐推迟盐收紧面筋，后糖推迟糖的高渗透压，后酵母推迟发酵起步，后油推迟油脂包住面粉。标题问的三种里，图上把后糖写成面筋形成后分次加；夏季那套四步实操却把盐和糖放进第一步，只把黄油和酵母往后挪。",
+    "primary": "other",
+    "tags": [
+      "后盐",
+      "后糖",
+      "后酵母",
+      "面筋",
+      "发酵"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5vzArvxN7Pj",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "late-salt-sugar-yeast-图文实录.html",
+      "svg": "late-salt-sugar-yeast-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 2039,
+    "slug": "late-salt-sugar-yeast"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "松下面包机软面包/奶香吐司模式时间线",
+    "summary": "软面包模式屏幕从04:20倒计时，奶香模式从02:20倒计时；加黄油、冷藏醒面和投果料都卡在图上写明的那几段揉面或醒面里。",
+    "primary": "other",
+    "tags": [
+      "松下面包机",
+      "软面包",
+      "奶香吐司",
+      "倒计时",
+      "黄油"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6RDY9SUUGBQ",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "panasonic-bread-machine-timeline-图文实录.html",
+      "svg": "panasonic-bread-machine-timeline-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 2262,
+    "slug": "panasonic-bread-machine-timeline"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "后酵母、后油、后盐？我终于搞清楚了！",
+    "summary": "夏天面团一边揉一边发，作者把原因放在加料顺序上。一张图把后酵母、后油、后盐拆开：先让面粉吃水，再加油，盐和酵母都不要一上来就和对方贴在一起。",
+    "primary": "other",
+    "tags": [
+      "后酵母",
+      "后油",
+      "后盐",
+      "面团",
+      "夏天"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5dFDBJ27t1q",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "bread-late-yeast-oil-salt-图文实录.html",
+      "svg": "bread-late-yeast-oil-salt-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "bread-late-yeast-oil-salt"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "同一个人，换个角度，差距有多大？",
+    "summary": "四页把「显瘦」拆成转头、机位和下巴。正面显得宽，四分之三侧面和下巴前伸是图上给出的改法。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "四分之三侧面",
+      "机位",
+      "下巴",
+      "显瘦",
+      "角度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7LblRhRvhTj",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "same-person-camera-angle-图文实录.html",
+      "svg": "same-person-camera-angle-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "same-person-camera-angle"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一文读懂：品酒！葡萄酒背后的商业与美学",
+    "summary": "品酒在这套图里被收成可拆的感官步骤：观色、摇杯、闻香、品尝。一瓶酒贵不贵，则被拆成生产成本、渠道利润，再加上品牌、稀缺和预期。旧世界卖产区规则与风土，新世界卖品种与市场表达；普通人选酒先对口味和预算，不先对名庄。",
+    "primary": "other",
+    "tags": [
+      "品酒步骤",
+      "成本",
+      "渠道",
+      "稀缺",
+      "预算"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/35nNywjH64S",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "wine-business-and-aesthetics-图文实录.html",
+      "svg": "wine-business-and-aesthetics-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 2784,
+    "slug": "wine-business-and-aesthetics"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图看懂红酒醒酒过程",
+    "summary": "这张图把开瓶之后的红酒分成五段：没醒、微醒、中度、充分、过度。香气和单宁会先松开，醒太久又会散掉。",
+    "primary": "other",
+    "tags": [
+      "红酒醒酒",
+      "香气",
+      "单宁",
+      "过度醒酒",
+      "开瓶"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A8qvx1UMNhb",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "red-wine-aeration-图文实录.html",
+      "svg": "red-wine-aeration-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "red-wine-aeration"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "新手入门：一张图看懂6大主流葡萄品种",
+    "summary": "三页图各写两个品种，字段都是原产地、风格、代表产区、主要风味特征。页眉统一是「6大知名葡萄酒品种」，副题是「带你认识葡萄酒的灵魂」。红葡萄四款在前两页，白葡萄两款在第三页。",
+    "primary": "other",
+    "tags": [
+      "赤霞珠",
+      "黑皮诺",
+      "葡萄品种",
+      "产区",
+      "风味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7lqr1N6lSz9",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "six-wine-grapes-图文实录.html",
+      "svg": "six-wine-grapes-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 2849,
+    "slug": "six-wine-grapes"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "醒酒很复杂？才没有！2张图说明白",
+    "summary": "封面先问三件事：什么是醒酒、三个好处、醒多久。后面两页才是标题说的两张图。第2页把醒酒写成单宁接触空气，并给了宽底容器和杯中摇晃两种倒法。第3页按红酒酒体给分钟，白葡萄酒和粉红酒写在同一栏，气泡酒直接说不用醒。",
+    "primary": "other",
+    "tags": [
+      "醒酒",
+      "单宁",
+      "酒泥",
+      "年轻酒",
+      "老酒"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1oqipEIKMto",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "decant-wine-two-charts-图文实录.html",
+      "svg": "decant-wine-two-charts-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 3413,
+    "slug": "decant-wine-two-charts"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "五个品酒万能术语",
+    "summary": "这套词是给新手把感觉换成说法：香气奔放或内敛，酸度高低，酒体像奶还是像水，单宁丝滑或抓口，回味过十秒说悠长、五秒内改口说平衡。",
+    "primary": "other",
+    "tags": [
+      "品酒",
+      "酸度",
+      "酒体",
+      "单宁",
+      "回味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9gGXbuDZfAI",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "five-wine-tasting-terms-图文实录.html",
+      "svg": "five-wine-tasting-terms-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "five-wine-tasting-terms"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "改掉炒菜常见的 10 个坏毛病，做菜一下好吃了",
+    "summary": "十个毛病收成水、火、盐、锅、翻动、香料、加水、静置、油和尝味。最后一页把能立刻改的收成七个动作。",
+    "primary": "other",
+    "tags": [
+      "炒菜",
+      "热锅冷油",
+      "后盐",
+      "静置",
+      "尝味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7fGP4MSnYXP",
+    "duration": "图文 5 页",
+    "outputs": {
+      "html": "stir-fry-ten-habits-图文实录.html",
+      "svg": "stir-fry-ten-habits-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "stir-fry-ten-habits"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "为什么要一直反复测量面团温度",
+    "summary": "面温是信号，不是成绩。出缸先量内部，发酵看体积和弹性，偏高或偏低都先停下来再改流程。",
+    "primary": "other",
+    "tags": [
+      "面团温度",
+      "出缸",
+      "发酵",
+      "探针",
+      "水温"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1W2luA00dAO",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "dough-temperature-checks-图文实录.html",
+      "svg": "dough-temperature-checks-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "dough-temperature-checks"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "烘焙人的七个阶段，你到哪个阶段了？",
+    "summary": "七段分成照做、理解和内化。多数人被说卡在第3段：失败只会怪配方，看克数不看状态。页序把第6、7段放在第4、5段前面。",
+    "primary": "other",
+    "tags": [
+      "烘焙阶段",
+      "配方",
+      "状态",
+      "面筋",
+      "发酵"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5TL4KcDl8vq",
+    "duration": "图文 5 页",
+    "outputs": {
+      "html": "baker-seven-stages-图文实录.html",
+      "svg": "baker-seven-stages-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "baker-seven-stages"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "80个做饭小技巧，经常做饭的人要记住什么？",
+    "summary": "封面和标题都写「80个」。按图上编号能数清的是1–47与49–80，共79条，第48条没有出现。十条主题讲的是调味时机、火候、切配、焯水、搭配和去腥，几乎都不给克数，只给「一点点、少许、几滴、一勺」。",
+    "primary": "other",
+    "tags": [
+      "做饭技巧",
+      "调味时机",
+      "下锅顺序",
+      "79条",
+      "家常菜"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/54HiOtuk3bB",
+    "duration": "图文 11 页",
+    "outputs": {
+      "html": "eighty-cooking-tips-图文实录.html",
+      "svg": "eighty-cooking-tips-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 0,
+    "svg_height": 3341,
+    "slug": "eighty-cooking-tips"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "论同一场景，不同快门的表现形式🦌",
+    "summary": "同一片草地、同一只侧身的有角动物，雨可以画成长斜线、短雨迹，或贴在身上的水雾。四页都没有把快门秒数印在画面上，所以能比较的是雨的样子，不能把某一页指认为某一档快门。",
+    "primary": "photo",
+    "tags": [
+      "快门",
+      "雨丝",
+      "同一场景",
+      "拖影",
+      "表现形式"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/43Q8f3CqITA",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "same-scene-shutter-looks-图文实录.html",
+      "svg": "same-scene-shutter-looks-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 2165,
+    "slug": "same-scene-shutter-looks"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "FX5 False Color 五颜六色，到底怎么看？",
+    "summary": "颜色不是景物的本色，是把每个像素的亮度译成一张曝光地图。先别背「某种颜色等于正确曝光」。在FX5上它看的是S-Log3信号，再和波形、斑马分工：全局、区域、关键阈值。",
+    "primary": "photo",
+    "tags": [
+      "False Color",
+      "S-Log3",
+      "曝光",
+      "FX5",
+      "亮度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5y6yUU0dy1E",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "fx5-false-color-图文实录.html",
+      "svg": "fx5-false-color-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 2145,
+    "slug": "fx5-false-color"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "穿衣色彩法则1",
+    "summary": "笔记把穿衣颜色收成明度和饱和度两根轴。亮且艳是热情，暗且艳是沉稳，亮且灰是优雅清新，暗且灰是温柔。",
+    "primary": "fashion",
+    "skills": [
+      "穿搭显贵"
+    ],
+    "tags": [
+      "明度",
+      "饱和度",
+      "穿衣颜色",
+      "四象限",
+      "色彩"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/69hcRbE5G8P",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "clothing-color-brightness-图文实录.html",
+      "svg": "clothing-color-brightness-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "clothing-color-brightness"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "调色别只会“加颜色”｜摄影调色新手速进",
+    "summary": "想让一种颜色更纯，这两页给的做法是先减少它的互补色（污染色），再小幅度配合明度和饱和度；图上没有任何滑块数值。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "互补色",
+      "减色",
+      "饱和度",
+      "明度",
+      "调色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3OnYwqh5ul3",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "grade-without-only-adding-color-图文实录.html",
+      "svg": "grade-without-only-adding-color-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 2174,
+    "slug": "grade-without-only-adding-color"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "万能炒菜公式：11 套调味，勺数只记图上写出来的",
+    "summary": "四页共11个公式，从素菜、炒肉、煲汤，收到酱汁和家里常备调料。有数字的只有勺、半勺、1小块、15分钟和一组比例；图上没有克。",
+    "primary": "other",
+    "tags": [
+      "炒菜公式",
+      "勺数",
+      "腌制",
+      "糖醋比例",
+      "调味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1rN9kpTaC4G",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "stir-fry-seasoning-formula-图文实录.html",
+      "svg": "stir-fry-seasoning-formula-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 3243,
+    "slug": "stir-fry-seasoning-formula"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "菲力、西冷、眼肉到底差在哪？终于分清了",
+    "summary": "一张图用脂肪和骨头把四块牛排分开：菲力最嫩、西冷有一条脂肪边、眼肉油花多、T骨两边是两种肉。",
+    "primary": "other",
+    "tags": [
+      "菲力",
+      "西冷",
+      "眼肉",
+      "T骨",
+      "脂肪"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6YXOa6EYwH4",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "filet-sirloin-ribeye-图文实录.html",
+      "svg": "filet-sirloin-ribeye-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "filet-sirloin-ribeye"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "买了这么多年猪肉终于分清了",
+    "summary": "一张图把六块猪肉按位置和菜对上：五花进红烧，里脊进快炒，梅花看油花，前腿做馅，后腿要瘦和紧，排骨带骨去炖。",
+    "primary": "other",
+    "tags": [
+      "五花肉",
+      "里脊",
+      "梅花肉",
+      "前腿",
+      "排骨"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9LLrBbMKoxC",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "pork-cuts-map-图文实录.html",
+      "svg": "pork-cuts-map-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "pork-cuts-map"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "贝果、可颂、恰巴塔到底差在哪？",
+    "summary": "一张图把六种常见面包拆成口感关键词。差别来自配方、工序、发酵和烘烤，不是名字本身。",
+    "primary": "other",
+    "tags": [
+      "贝果",
+      "可颂",
+      "恰巴塔",
+      "法棍",
+      "碱水"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/PNE4ZO7hg6",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "bagel-croissant-ciabatta-图文实录.html",
+      "svg": "bagel-croissant-ciabatta-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "bagel-croissant-ciabatta"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "青椒、线椒、小米辣到底差在哪？终于分清了",
+    "summary": "笔记把五种常被叫混的辣椒放在一张图上：先看个头和朝向，再看通常辣不辣，最后提醒辣味主要在胎座等内部组织，不能只看籽，也不能只看长相。",
+    "primary": "other",
+    "tags": [
+      "青椒",
+      "线椒",
+      "小米辣",
+      "胎座",
+      "辣度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/W67PiNkdnv",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "pepper-types-compared-图文实录.html",
+      "svg": "pepper-types-compared-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "pepper-types-compared"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "拿铁、澳白、卡布到底有什么区别？终于懂了",
+    "summary": "笔记要拆开菜单上六个眼熟的名字：差别在浓缩后面加的是水、牛奶、奶泡还是巧克力，以及奶泡厚不厚、冷热是否分层。图和正文都提醒，店与店的杯量和比例会变。",
+    "primary": "coffee",
+    "skills": [
+      "拉花"
+    ],
+    "tags": [
+      "拿铁",
+      "澳白",
+      "卡布",
+      "奶泡",
+      "浓缩"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3o711tJaEls",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "latte-flat-white-cappuccino-图文实录.html",
+      "svg": "latte-flat-white-cappuccino-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "latte-flat-white-cappuccino"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "⚠️别再切硬牛排！醒肉才是好牛排的关键～",
+    "summary": "三张图都在回答同一句：煎完别急着切。图上把未醒肉写成切面夹生、汁水外流、口感干柴，把已醒肉写成颜色更匀、汁水回到纤维里。分钟数只出现在第1页和第3页，两页的前半句并不相同。",
+    "primary": "other",
+    "tags": [
+      "醒肉",
+      "牛排",
+      "汁水",
+      "静置",
+      "切片"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1F8jfCX5ubK",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "rest-steak-before-slicing-图文实录.html",
+      "svg": "rest-steak-before-slicing-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 2081,
+    "slug": "rest-steak-before-slicing"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "如何送髋增大步幅",
+    "summary": "四页把步幅收成一件事：骨盆绕旋转点跟着后摆的腿转，重心抬起来，不要坐进髋里。",
+    "primary": "sports",
+    "tags": [
+      "送髋",
+      "步幅",
+      "骨盆",
+      "配速",
+      "跑步"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4ZNHyShZT1h",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "hip-drive-stride-图文实录.html",
+      "svg": "hip-drive-stride-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "hip-drive-stride"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "面包松弛这步可以跳过吗",
+    "summary": "可以缩短，不宜在面团还明显回缩时直接硬擀。图上的标准是面团肯跟着擀开，不是等满固定分钟，也不是用戳坑回弹当统一答案。",
+    "primary": "other",
+    "tags": [
+      "面团松弛",
+      "回缩",
+      "擀开",
+      "整形",
+      "面包"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AVKjUkNexXE",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "bread-relaxation-step-图文实录.html",
+      "svg": "bread-relaxation-step-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 2103,
+    "slug": "bread-relaxation-step"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "面包放一夜就变硬？看完这篇终于懂了",
+    "summary": "变硬的主因被写成淀粉老化，水分蒸发和冷藏会加快。加热只能暂时打散晶体，放凉会二次变硬。短期放20–25°C，超过两天密封冷冻。",
+    "primary": "other",
+    "tags": [
+      "淀粉老化",
+      "面包变硬",
+      "冷藏",
+      "回炉",
+      "密封"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2CEjEuIQQIE",
+    "duration": "图文 5 页",
+    "outputs": {
+      "html": "overnight-bread-staling-图文实录.html",
+      "svg": "overnight-bread-staling-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "overnight-bread-staling"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "不同菜品怎么加糖？一次讲清",
+    "summary": "糖被写成提鲜的配角：青菜出锅前1/4–1/2茶匙，红烧1–2茶匙，糖醋2–3茶匙分两次。清蒸和白灼不加。第3页和第6页对青菜的说法并不一致。",
+    "primary": "other",
+    "tags": [
+      "加糖时机",
+      "青菜",
+      "红烧",
+      "糖醋",
+      "白糖"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9eNA552PgUP",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "when-to-add-sugar-图文实录.html",
+      "svg": "when-to-add-sugar-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "when-to-add-sugar"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "为什么咖啡店不做热 Dirty？",
+    "summary": "Dirty靠的是冷奶和热浓缩叠在一起。热奶一换上去，这口冷热对比就没了，店家觉得麻烦，也不更好喝。",
+    "primary": "coffee",
+    "tags": [
+      "Dirty",
+      "冷奶",
+      "热浓缩",
+      "分层",
+      "热拿铁"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8k4MBzqKOHf",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "why-no-hot-dirty-图文实录.html",
+      "svg": "why-no-hot-dirty-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "why-no-hot-dirty"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一套图看懂｜为什么有些咖啡建议喝热的？",
+    "summary": "有些咖啡建议喝热的，是因为热饮更容易喝到完整风味，不是因为冰的低级。封面把这件事收成：想解渴可以喝冰，想喝风味更建议喝热。",
+    "primary": "coffee",
+    "tags": [
+      "热咖啡",
+      "香气",
+      "酸甜",
+      "余韵",
+      "冰饮"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/10uZFMQYGnC",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "some-coffee-better-hot-图文实录.html",
+      "svg": "some-coffee-better-hot-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3908,
+    "slug": "some-coffee-better-hot"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "你喝的咖啡暴露了你的性格",
+    "summary": "四页把十一种咖啡各贴一个性格标签。这是趣味对照，不是性格测验。",
+    "primary": "coffee",
+    "tags": [
+      "美式",
+      "性格标签",
+      "饮品对照",
+      "趣味",
+      "菜单"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1mknpnDy7Cn",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "coffee-personality-chart-图文实录.html",
+      "svg": "coffee-personality-chart-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "coffee-personality-chart"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "牛奶的一生一直都在经历革命升级",
+    "summary": "正文只有一句：变成奶酪没想到这么不容易。这一页把「不容易」画成一条从鲜奶到干酪的加工链，每一步只留下工序名和一句口感说明。",
+    "primary": "other",
+    "tags": [
+      "鲜奶",
+      "奶酪",
+      "加工",
+      "口感",
+      "干酪"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8myz8kqydrA",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "milk-processing-upgrades-图文实录.html",
+      "svg": "milk-processing-upgrades-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "milk-processing-upgrades"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "“德味”“佳能色”是玄学？其实是三个参数",
+    "summary": "标题问德味和佳能色是不是玄学，封面自己答：其实是三个参数，并把味道写成可以拆解、也可以搬运。封面滑杆印的是色温、对比度、色调。第3到第5页换成白平衡的冷暖、一条决定油润的曲线，以及肤色往红或往黄。图上没有开尔文、饱和百分比或曲线坐标。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "德味",
+      "佳能色",
+      "色温",
+      "曲线",
+      "肤色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5G1GG9U6HYV",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "german-look-canon-color-图文实录.html",
+      "svg": "german-look-canon-color-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 3462,
+    "slug": "german-look-canon-color"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "五轴防抖开着，夜里拍人为什么还是糊？",
+    "summary": "夜里人糊，不是五轴防抖坏了。防抖只抵消你的手抖；1/8秒里人只要呼吸、晃头或走动，位移仍会糊在画面上。慢快门先问画面里有没有会动的东西。",
+    "primary": "photo",
+    "tags": [
+      "五轴防抖",
+      "慢快门",
+      "主体移动",
+      "夜拍",
+      "手抖"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/QpizBarG98",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "ibis-still-blurry-at-night-图文实录.html",
+      "svg": "ibis-still-blurry-at-night-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2124,
+    "slug": "ibis-still-blurry-at-night"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "万元镜头也躲不掉的“物理税” 99%的人却错怪",
+    "summary": "标题里的“物理税”是色差：白光穿过玻璃时，不同颜色拐弯不一样，高反差边缘会露出紫边或绿边。八页图把脏镜头、廉价货、传感器坏了这三件事排除掉，并写明再贵的镜头也只能减轻、无法消灭。标题里的“99%”没有出现在任何一页上，图上也没有焦距数字。",
+    "primary": "photo",
+    "tags": [
+      "色散",
+      "紫边",
+      "绿边",
+      "光圈",
+      "镜头"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8285BNoBEwI",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "lens-physics-tax-图文实录.html",
+      "svg": "lens-physics-tax-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2976,
+    "slug": "lens-physics-tax"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "冰美式不同容量杯子配比攻略",
+    "summary": "笔记要解决的是：杯子从400毫升换到1000毫升，冰美式的豆子、萃取液、水和冰各加多少。正文写了四档口感定位，图把同一组克数画成四只由小到大的杯子。",
+    "primary": "coffee",
+    "tags": [
+      "冰美式",
+      "杯量",
+      "萃取",
+      "冰块",
+      "配比"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9363cnZmeRd",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "iced-americano-ratios-图文实录.html",
+      "svg": "iced-americano-ratios-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "iced-americano-ratios"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "蒙太奇究竟是什么？",
+    "summary": "蒙太奇在这套笔记里先被说成两层：影史上有了它，才有剪辑的概念；通俗地说，就是两个或两个以上镜头并置，从而产生新的含义。同一组画面换连接顺序，含义跟着换。本期目录列了六种，正文只展开平行、交叉、重复三种。",
+    "primary": "film",
+    "skills": [
+      "视听语言"
+    ],
+    "tags": [
+      "蒙太奇",
+      "镜头并置",
+      "剪辑",
+      "新含义",
+      "视听"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7n0dtG6G4cr",
+    "duration": "图文 12 页",
+    "outputs": {
+      "html": "what-is-montage-图文实录.html",
+      "svg": "what-is-montage-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 0,
+    "svg_height": 4437,
+    "slug": "what-is-montage"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "8 张图带你了解最常用的 5 种蒙太奇",
+    "summary": "五种是平行、对比、情绪、节奏、转场。意思不在单镜头好不好看，而在镜头之间让观众自己补上关系、时间和感受。",
+    "primary": "film",
+    "skills": [
+      "视听语言"
+    ],
+    "tags": [
+      "平行蒙太奇",
+      "对比蒙太奇",
+      "情绪蒙太奇",
+      "节奏",
+      "转场"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/35srYhUglvH",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "five-common-montages-图文实录.html",
+      "svg": "five-common-montages-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "five-common-montages"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "六张图带你理清绘画步骤",
+    "summary": "标题要理清的是画一只手时，每一步准许改哪一层。答案是六步分层：先把整只手平涂成固有色，再只切亮暗，再只在亮部加大面过渡，然后才加重暗部并补反光和环境色，高光只点最亮的几笔，最后补小色块、边缘和细节。七页里第1页是六格总览，后六页各放大一步。",
+    "primary": "painting",
+    "tags": [
+      "画手",
+      "分层",
+      "跳步",
+      "固有色",
+      "高光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/90Lg6hIumRf",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "painting-steps-third-set-图文实录.html",
+      "svg": "painting-steps-third-set-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 2106,
+    "slug": "painting-steps-third-set"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "六张图带你理清绘画步骤",
+    "summary": "标题要理清的是画一只手时每一步只动哪一层。顺序是：整手平涂固有色，再只分亮暗，再只在亮部加大面过渡，然后才加重暗部并补反光和环境色，高光只点最亮的几笔，最后补小色块、边缘、指甲和关节。",
+    "primary": "painting",
+    "tags": [
+      "画手",
+      "固有色",
+      "亮暗",
+      "灰面",
+      "暗部"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1uKbUXetM3E",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "painting-steps-second-set-图文实录.html",
+      "svg": "painting-steps-second-set-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 2132,
+    "slug": "painting-steps-second-set"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "从雕塑的角度理解衣服褶皱",
+    "summary": "标题要回答的是：宽松卫衣的褶从哪来。这套图用同一件灰雕塑先把衣服当成体积，再分成大面，只在肩、肘、手腕受力处留下主褶，最后把小褶收回去。",
+    "primary": "painting",
+    "tags": [
+      "衣服褶皱",
+      "体积",
+      "主褶",
+      "肘部",
+      "肩部下垂"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4om4XV3pgs7",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "clothing-folds-from-sculpture-图文实录.html",
+      "svg": "clothing-folds-from-sculpture-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1988,
+    "slug": "clothing-folds-from-sculpture"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "知识以一种奇怪的方式进入大脑",
+    "summary": "标题问的是知识怎么进去。这八页的答案是：不靠把「实」定义成一句口诀，而靠同一只戴耳机、格子围巾的灰阶卡通小恐龙，把「实」拆成四个只改一项的旋钮——明暗对比、细节多少、清晰程度、边缘强弱。",
+    "primary": "photo",
+    "tags": [
+      "对比",
+      "细节",
+      "清晰度",
+      "边缘",
+      "主体锐度"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/47fmyXvLxx4",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "knowledge-enters-strangely-图文实录.html",
+      "svg": "knowledge-enters-strangely-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2060,
+    "slug": "knowledge-enters-strangely"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "六张图带你理清绘画步骤",
+    "summary": "六步是同一只小人偶上的分层许可：先固有色平涂，再只分亮暗，再只在亮部和明暗交界加灰面，然后才动暗部深处，高光只点最亮处，最后用少量点线收结构。七页里第一页是六格总览，后六页各放大一步。",
+    "primary": "painting",
+    "skills": [
+      "透视"
+    ],
+    "tags": [
+      "固有色",
+      "亮暗",
+      "灰面",
+      "高光",
+      "分层"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/91PtjQmxtlS",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "painting-steps-six-charts-图文实录.html",
+      "svg": "painting-steps-six-charts-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 2067,
+    "slug": "painting-steps-six-charts"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图看懂｜小苏打嫩肉怎么用？",
+    "summary": "笔记给的用法是三个数一起用：500克肉配3到5克小苏打，腌10到15分钟，然后用清水冲洗。翻车被写成放太多、腌太久、不冲洗。不想用碱，图上改推红薯淀粉或玉米淀粉，并写明不要混用。",
+    "primary": "other",
+    "tags": [
+      "小苏打",
+      "嫩肉",
+      "腌制",
+      "冲洗",
+      "500克"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9QDMILxfRHt",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "baking-soda-tenderize-图文实录.html",
+      "svg": "baking-soda-tenderize-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 1976,
+    "slug": "baking-soda-tenderize"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "职场里一定要明白的事",
+    "summary": "笔记要人明白的一件事是：领导想用你，看的是你能不能替他管人管事，不是你能不能把自己的活干完。六页都是橙线漫画，每页上下两句，把「干活」和「管人」拆开，最后落到两个去处：管得住一摊人才能做心腹，只把自己的事干好只能当骨干。",
+    "primary": "workplace",
+    "skills": [
+      "向上管理"
+    ],
+    "tags": [
+      "管人管事",
+      "心腹",
+      "骨干",
+      "领导",
+      "职场"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/18QCXiE7RUZ",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "workplace-things-to-know-图文实录.html",
+      "svg": "workplace-things-to-know-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 3362,
+    "slug": "workplace-things-to-know"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "颜色中的配色法则",
+    "summary": "第一页用色相环把配色分成30°、60°、120°、180°四档。后面四页改谈情绪：快乐、激动、平静、痛苦，而且色块和性格说明并不总是同一组颜色。",
+    "primary": "painting",
+    "tags": [
+      "色相环",
+      "同类色",
+      "邻近色",
+      "对比色",
+      "互补色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8Gnwk4RbQjF",
+    "duration": "图文 5 页",
+    "outputs": {
+      "html": "color-matching-rules-图文实录.html",
+      "svg": "color-matching-rules-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "color-matching-rules"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "9款果香咖啡｜配方做法",
+    "summary": "标题写9款，图上配方卡也是9张，页脚印01/09到09/09。本笔记一共10张图：第1张是九宫格总览，后面9张各展开一款，没有第10款。",
+    "primary": "coffee",
+    "tags": [
+      "果香咖啡",
+      "冷萃",
+      "果酱",
+      "拿铁",
+      "配方克数"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/44Aie37y30p",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "nine-fruit-coffees-图文实录.html",
+      "svg": "nine-fruit-coffees-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 4254,
+    "slug": "nine-fruit-coffees"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "9款果香特调｜配方与做法",
+    "summary": "标题写9款，单卡页脚是01/09到09/09，实际饮品就是这9款。10张图里第1张是九宫格总览，后面9张各展开一款，没有第10款。",
+    "primary": "other",
+    "tags": [
+      "果香特调",
+      "配方",
+      "杯规",
+      "浓缩",
+      "双份克数"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1MV0o9QNAaz",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "nine-fruit-drinks-图文实录.html",
+      "svg": "nine-fruit-drinks-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 4478,
+    "slug": "nine-fruit-drinks"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "9款秋日茶香饮｜配方做法",
+    "summary": "标题写9款。图上配方卡也是9张，页脚印01/09到09/09；本笔记一共10张图，第1张是九宫格总览，后面9张各展开一款。",
+    "primary": "other",
+    "tags": [
+      "秋日茶饮",
+      "配方",
+      "杯型",
+      "冰线",
+      "茶底"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/955e8aUdXFH",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "nine-autumn-teas-图文实录.html",
+      "svg": "nine-autumn-teas-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 2033,
+    "slug": "nine-autumn-teas"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "色彩的基础知识",
+    "summary": "这八页把色彩基础收成四对，而不是一张色环。纯灰管谁抢眼，明度管体积和前后，冷暖管远近方向，固有色和环境色管物体有没有画进它所在的光里。奇数页用同一只黄色圆角色分三档，偶数页用同一群角色对照97分和79分。",
+    "primary": "painting",
+    "tags": [
+      "明度",
+      "冷暖",
+      "固有色",
+      "环境色",
+      "纯灰"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/77LQbzBuxIH",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "color-basics-eight-图文实录.html",
+      "svg": "color-basics-eight-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2243,
+    "slug": "color-basics-eight"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "土豆淀粉和玉米淀粉，差别真的很大",
+    "summary": "差别在图上能指认的，主要是干粉颜色，以及糊化以后透不透。土豆淀粉干粉更白，糊更亮、更透；玉米淀粉干粉偏淡黄，糊更浑。炸菜和粉条、烘焙、上浆，图上没有并排对照。",
+    "primary": "other",
+    "tags": [
+      "土豆淀粉",
+      "玉米淀粉",
+      "糊化",
+      "透明度",
+      "勾芡"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2MXC5FTXfTb",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "potato-vs-corn-starch-图文实录.html",
+      "svg": "potato-vs-corn-starch-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1926,
+    "slug": "potato-vs-corn-starch"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "新手选牛排：西冷、眼肉、菲力怎么挑",
+    "summary": "标题问的是三种牛排怎么挑。前两页给出同一条规则：爱嚼劲看西冷的油边，爱奶香看眼肉的雪花，要低脂嫩肉选几乎没有脂肪的菲力。第3页把问题改成「按做法选肉」，格子里不止这三种，页脚五类又比格子更短。",
+    "primary": "other",
+    "tags": [
+      "西冷",
+      "眼肉",
+      "菲力",
+      "雪花",
+      "牛排"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/50o8Hoc3fAa",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "steak-sirloin-ribeye-filet-图文实录.html",
+      "svg": "steak-sirloin-ribeye-filet-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 2013,
+    "slug": "steak-sirloin-ribeye-filet"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图看懂牛肉各个部位",
+    "summary": "笔记标题想用一张分割图解决「买牛肉分不清部位」。第1页确实是这张图：脊背的上脑、眼肉、西冷、牛柳指向煎烤和爆炒，胸腹的牛腩、牛胸指向焖炖，前后腱、金钱腱、龟腱指向酱卤。",
+    "primary": "other",
+    "tags": [
+      "牛肉部位",
+      "上脑",
+      "眼肉",
+      "西冷",
+      "牛柳"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6NoqVHxp2OO",
+    "duration": "图文 2 页",
+    "outputs": {
+      "html": "beef-cuts-map-图文实录.html",
+      "svg": "beef-cuts-map-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 0,
+    "svg_height": 2262,
+    "slug": "beef-cuts-map"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张图，帮你理清500年西方艺术流派",
+    "summary": "作者要记的不是年代表，而是每一次「为什么改」：先建立秩序，再让情绪压过规则，接着去追光，然后把形体拆开，最后连「艺术是什么」也变成问题。",
+    "primary": "painting",
+    "tags": [
+      "西方艺术",
+      "艺术流派",
+      "五百年",
+      "秩序",
+      "形体"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7cnGYYB69K8",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "western-art-500-years-图文实录.html",
+      "svg": "western-art-500-years-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 842,
+    "slug": "western-art-500-years"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "中国画，为什么不画天不画地？",
+    "summary": "不是漏画。七页图把原因放在观看方式上：中国山水让山占满视线，人在画里走；西方风景常让天空占满画面，人站在一个点往里看。空白被当成云、雾、水和远。",
+    "primary": "painting",
+    "tags": [
+      "中国画",
+      "山水",
+      "留白",
+      "观看方式",
+      "风景画"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8dqr1yUymxa",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "chinese-painting-no-sky-ground-图文实录.html",
+      "svg": "chinese-painting-no-sky-ground-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 567,
+    "slug": "chinese-painting-no-sky-ground"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "10种西方建筑风格一次看懂（加强版）",
+    "summary": "标题问的是：十种西方建筑风格能不能一次看懂。这套图的答案不是背十座名建筑，而是看每一种风格在回答「空间应该是什么样」。封面从古希腊排到后现代。",
+    "primary": "other",
+    "tags": [
+      "西方建筑",
+      "建筑风格",
+      "空间",
+      "风格对照",
+      "名建筑"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AXWMTjlcOYw",
+    "duration": "图文 11 页",
+    "outputs": {
+      "html": "western-architecture-ten-styles-图文实录.html",
+      "svg": "western-architecture-ten-styles-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 0,
+    "svg_height": 4730,
+    "slug": "western-architecture-ten-styles"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一张时间线，帮你理清1000年中西艺术史",
+    "summary": "标题问的是：近一千年，中国和西方同时在创造什么。这套图的答案不是谁更先进，而是把1000–2000年切成十个世纪，左边中国、右边西方，看同一百年里两边各自在解决什么。封面把它收成一句：同一个时代，不同的文明在创造各自的世界。",
+    "primary": "painting",
+    "tags": [
+      "艺术史",
+      "中西对照",
+      "时间线",
+      "千年",
+      "世纪"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1gEmE20fYBq",
+    "duration": "图文 11 页",
+    "outputs": {
+      "html": "art-history-1000-years-图文实录.html",
+      "svg": "art-history-1000-years-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 0,
+    "svg_height": 4610,
+    "slug": "art-history-1000-years"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "达芬奇调色｜先记快捷键，再理顺节点流程",
+    "summary": "标题里的顺序，三张图是照着做的：封面先亮出「节点快捷键+节点流程」，第二页给Mac上七个节点快捷键，第三页把节点收成「先基础，后局部，再风格」。",
+    "primary": "color-grade",
+    "skills": [
+      "节点系统"
+    ],
+    "tags": [
+      "达芬奇",
+      "节点",
+      "快捷键",
+      "节点流程",
+      "Mac"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8HkQ57L9Txx",
+    "duration": "图文 3 页",
+    "outputs": {
+      "html": "davinci-shortcuts-nodes-图文实录.html",
+      "svg": "davinci-shortcuts-nodes-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 0,
+    "svg_height": 4226,
+    "slug": "davinci-shortcuts-nodes"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "达芬奇调色怎么调？记住这几个口诀！",
+    "summary": "按这张图，调色的顺序是先把画面调对，再谈好不好看。先还原曝光和对比，高光不爆、暗部不死，肤色保持自然、不偏绿也不偏紫。要立体感，就把暗部偏冷、高光偏暖。节点少一点：串行做校正，并行做局部，图层做叠加。",
+    "primary": "color-grade",
+    "skills": [
+      "一级校色"
+    ],
+    "tags": [
+      "达芬奇",
+      "曝光",
+      "对比",
+      "肤色",
+      "调色顺序"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/w5SqPP3PBr",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "davinci-grade-mnemonics-图文实录.html",
+      "svg": "davinci-grade-mnemonics-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 3191,
+    "slug": "davinci-grade-mnemonics"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "硬光与柔光的区别是什么？分别怎么用？",
+    "summary": "软硬不看灯亮不亮，看阴影边缘窄还是宽。六页图从判断、变柔、硬光用法、柔光用法，收到一次只改光源大小的练习。画面注明是AI示意，原理参考broncolor的光质教学。",
+    "primary": "photo",
+    "skills": [
+      "布光"
+    ],
+    "tags": [
+      "硬光",
+      "柔光",
+      "阴影边缘",
+      "光源大小",
+      "布光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2hymWOmoKnQ",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "hard-light-vs-soft-light-图文实录.html",
+      "svg": "hard-light-vs-soft-light-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "hard-light-vs-soft-light"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "一篇辨别各种鸡肉，看完买鸡不纠结了",
+    "summary": "作者的判断写在说明里：没有哪种鸡绝对更好，关键是选对用途。四页图按外观、肉质和菜来分白羽、三黄、土鸡、乌鸡和老母鸡。",
+    "primary": "other",
+    "tags": [
+      "白羽鸡",
+      "三黄鸡",
+      "土鸡",
+      "乌鸡",
+      "老母鸡"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5aELBvu6NAe",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "chicken-cuts-guide-图文实录.html",
+      "svg": "chicken-cuts-guide-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "chicken-cuts-guide"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "菜市场鸭子别买错！一次分清，做菜不翻车",
+    "summary": "炖汤发柴、爆炒咬不动，这组图把原因放在选鸭上：先分青年仔鸭和老鸭，再按九个品种对做法。文案自己也写了，同一种鸭日龄不同，做法就要换。",
+    "primary": "other",
+    "tags": [
+      "仔鸭",
+      "老鸭",
+      "炖汤",
+      "爆炒",
+      "选鸭"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/14Dv0iPkcxM",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "market-duck-types-图文实录.html",
+      "svg": "market-duck-types-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "market-duck-types"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "常见食用鸡介绍",
+    "summary": "这张图回答的是买鸡时「这是什么鸡、养了多久、适合怎么做」。它把八个常见品种按饲养天数和市场供给排开，并注明天数是常见商品区间，会因地区、品种和养殖方式变动。",
+    "primary": "other",
+    "tags": [
+      "食用鸡",
+      "饲养天数",
+      "白羽鸡",
+      "土鸡",
+      "选鸡"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2Y9VLbVQ8Lo",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "common-eating-chickens-图文实录.html",
+      "svg": "common-eating-chickens-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "common-eating-chickens"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "干煸豆角别用宽油炸，中小火慢煸 8-12 分钟",
+    "summary": "这组图把「干煸」从宽油炸里拉出来：先把豆角里的水逼干，再用3–4汤匙油、中小火煸8–12分钟，直到皮皱、色转深绿、没有硬芯。",
+    "primary": "other",
+    "tags": [
+      "干煸豆角",
+      "中小火",
+      "煸炒",
+      "宽油",
+      "家常菜"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2Efq6kJn7Lb",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "dry-stir-green-beans-图文实录.html",
+      "svg": "dry-stir-green-beans-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "dry-stir-green-beans"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "淀粉的烹饪做法❶属于你的食谱吧｜附做法",
+    "summary": "笔记正文几乎只有话题标签。一张图把玉米淀粉、土豆淀粉、红薯淀粉拆成三件不同的事：锁水、勾芡、炸衣。",
+    "primary": "other",
+    "tags": [
+      "玉米淀粉",
+      "土豆淀粉",
+      "红薯淀粉",
+      "勾芡",
+      "炸衣"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1vC966EXk6o",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "starch-cooking-methods-图文实录.html",
+      "svg": "starch-cooking-methods-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "starch-cooking-methods"
+  },
+  {
+    "date": "2026-10-17",
     "title": "Lightroom 调色：先打白平衡，再往影调里加色",
     "summary": "调色面板是往阴影、中间调和高光里加颜色，不是改已有的颜色。先用色温和色调打底，纯黑纯白要先抬进影调，再用互补、单色或自由实验，并离开一会儿再看。",
     "primary": "color-grade",

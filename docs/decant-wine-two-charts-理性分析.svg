@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3413" viewBox="0 0 1320 3413">
+  <foreignObject x="0" y="0" width="1320" height="3413">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+.wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:800;color:#9a3412;margin:28px 0 12px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;font-weight:700;color:#1c1917;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin:0 6px 8px 0}
+.tag-a{background:#ffedd5;color:#9a3412}
+.tag-b{background:#fff;color:#57534e}
+.meta{margin:8px 0 14px}
+.lead{font-size:16px;line-height:1.7;padding:16px 20px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:16px}
+.card{background:#fff;border-radius:14px;padding:20px 22px;margin-bottom:14px;border-left:5px solid #b45309;box-shadow:0 3px 16px rgba(154,52,18,.06)}
+.card.pit{border-left-color:#dc2626}
+.card.edge{border-left-color:#0369a1}
+.card.act{border-left-color:#15803d}
+.page{display:inline-block;font-size:12px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:1px 8px;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="wrap">
+  <h1>醒酒：两张图各自在比什么</h1>
+  <div class="meta">
+    <span class="tag tag-a">理性分析</span>
+    <span class="tag tag-b">红的说真话</span>
+    <span class="tag tag-b">2026-10-17</span>
+    <span class="tag tag-b">图文 3 页</span>
+  </div>
+  <p class="lead">封面（第 1 页）只提出三个问题。能拿来做事的是后两页：第 2 页把醒酒定义成单宁接触空气，并把高龄酒的目标改成滤沉淀；第 3 页才按酒体和酒种给时间，气泡酒被排除在时间表之外。</p>
+
+  <h2>比较</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>对照</th><th>图上怎么写</th><th>页码</th></tr></thead>
+      <tbody>
+        <tr><td>年轻红酒 vs 高龄酒</td><td>年轻：单宁多、酸涩重、香气易闭塞。高龄：醒酒用来滤沉淀（蛋白质、单宁和色素的结合），不是另一套分钟表。</td><td>第 2 页</td></tr><tr><td>宽底容器 vs 酒杯</td><td>宽底：大面积接触空气，单宁可以快速变软。酒杯：直接倒入，摇晃醒酒，同步品尝。图上没写谁优先。</td><td>第 2 页</td></tr><tr><td>轻盈 / 中等 / 饱满</td><td>约 20–30 分钟；约 30–60 分钟；一个小时甚至更久。例子分别是黑皮诺与佳美、梅洛与品丽珠、赤霞珠与西拉。</td><td>第 3 页</td></tr><tr><td>白葡萄酒 vs 气泡酒</td><td>多数白葡萄酒不需要醒；香气闭塞或刺鼻才 20–30 分钟。气泡酒写「不需要醒，赶紧喝掉」，没有分钟。</td><td>第 3 页</td></tr><tr><td>总区间 vs 分档</td><td>第 2 页总区间是 15 分钟到 3 小时，由单宁含量决定。第 3 页按酒体给档，饱满档只写「甚至更久」，没有写是否停在 3 小时。</td><td>第 2–3 页</td></tr>
+      </tbody>
+    </table>
+    <p>第 3 页白葡萄酒栏的第一条是「通常 30 分钟内即可」，下一句又写多数白葡萄酒其实不需要醒。同一栏里，「通常要醒」和「多数不用醒」并排，粉红酒只出现在标题，没有自己的分钟。</p>
+  </div>
+
+  <h2>易错</h2>
+  <div class="card pit">
+    <h3>把第 2 页的总区间当成每一瓶的操作时长</h3>
+    <p><span class="page">第 2 页</span>15 分钟到 3 小时是「一般……不等」，决定变量写成单宁含量。它没有说年轻酒就要醒到 3 小时，也没有说高龄酒取最短的 15 分钟。</p>
+  </div>
+  <div class="card pit">
+    <h3>用第 3 页的酒体档去套高龄酒</h3>
+    <p><span class="page">第 2 页</span>高龄酒的句子只谈过滤沉淀。<span class="page">第 3 页</span>三档例子都是品种和酒体，没有酒龄。把一瓶有沉淀的老赤霞珠直接放进「一个小时甚至更久」，图上没有这条规则。</p>
+  </div>
+  <div class="card pit">
+    <h3>看见「社交装X神器」就把它当成醒酒机制</h3>
+    <p><span class="page">第 2 页</span>三条好处里，前两条对应酸涩和沉淀，第三条是社交说法。它没有容器、没有分钟，不能和第 3 页的时间档互相推导。</p>
+  </div>
+  <div class="card pit">
+    <h3>把气泡酒的玩笑读成「所有带汽的都一样」</h3>
+    <p><span class="page">第 3 页</span>只写了不需要醒、赶紧喝掉，没写原因，也没写年份或甜度例外。图外的机制不要回写成图上的句子。</p>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card edge">
+    <h3>图上没写的年份、价位和气味名单</h3>
+    <p>三页都没有「15 年以上」「20 年以上」「百元餐酒」「巴罗洛」「阿玛罗尼」「博若莱新酒」，也没有火柴味、橡胶味。笔记说明里的这些句子不能当作图上原文。刺鼻味道在第 3 页被括号成「环境缺氧造成的」，没有再拆成还原气味的例子。</p>
+  </div>
+  <div class="card edge">
+    <h3>两页的时间上限没有接上</h3>
+    <p><span class="page">第 2 页</span>把一般情况收到 3 小时。<span class="page">第 3 页</span>饱满红酒是「一个小时甚至更久」。更久是否超过 3 小时，图上无法确认。轻盈档的 20–30 分钟落在总区间内，中等档的 30–60 分钟也落在总区间内。</p>
+  </div>
+  <div class="card edge">
+    <h3>拼写以图上为准</h3>
+    <p><span class="page">第 3 页</span>西拉括号为 Sirah，通行拼写常作 Syrah。佳美括号多次识别为 Camay，和 Gamay 差在首字母，压缩图上无法确认是排版还是识别误差。品种中文名可以确认：黑皮诺、佳美、梅洛、品丽珠、赤霞珠、西拉。</p>
+  </div>
+  <div class="card edge">
+    <h3>操作条件缺了一半</h3>
+    <p><span class="page">第 2 页</span>没有酒温、醒酒器是否要清洁、沉淀倒到哪一行停手。<span class="page">第 1 页</span>只有问题，没有步骤。温度和烛光去渣都不在这三页上。</p>
+  </div>
+
+  <h2>动作</h2>
+  <div class="card act">
+    <ol>
+      <li><span class="page">第 1 页</span>先对上三个问题，再翻页，不在封面上找分钟。</li>
+      <li><span class="page">第 2 页</span>先判断这瓶是在处理「酸涩、香气闭塞」，还是在滤沉淀。目标不同，不要共用同一句好处。</li>
+      <li><span class="page">第 2 页</span>要加快单宁变软：倒进底部较宽的容器。要边喝边看变化：直接倒进酒杯，摇晃，同步品尝。</li>
+      <li><span class="page">第 3 页</span>红酒先认酒体再看表：轻盈约 20–30 分钟，中等约 30–60 分钟，饱满从一个小时起，上限图上没封死。</li>
+      <li><span class="page">第 3 页</span>白葡萄酒默认不开醒酒器；只有香气闭塞或刺鼻时，才考虑 20–30 分钟。粉红酒没有单独指令。</li>
+      <li><span class="page">第 3 页</span>气泡酒按图上的句子做：不醒，倒出来就喝。</li>
+    </ol>
+  </div>
+  <p class="footer">图文实录页码 1/3、2/3、3/3 · 短链 xhslink.cn/o/1oqipEIKMto</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

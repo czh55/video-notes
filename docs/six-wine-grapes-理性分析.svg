@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2849" viewBox="0 0 1320 2849">
+  <foreignObject x="0" y="0" width="1320" height="2849">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;color:#1c1917;margin:0 0 8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:1.2em;margin:0}
+li{margin:0 0 6px}
+.kicker{font-size:13px;letter-spacing:.06em;font-weight:700;color:#b45309;margin-bottom:8px}
+.meta{font-size:13px;color:#78716c;margin-bottom:14px}
+.lede{font-size:16px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 12px rgba(180,83,9,.06)}
+.card.wide{grid-column:1 / -1}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#9a3412;background:#ffedd5;border-radius:999px;padding:2px 8px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:14px}
+th{text-align:left;background:#ffedd5;color:#9a3412;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c;line-height:1.65}
+.page{font-weight:700;color:#b45309;white-space:nowrap}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 小红书 · 红的说真话</p>
+  <h1>六款葡萄按图上的风格词分开</h1>
+  <p class="meta">2026-10-17 · 图文 3 页 · six-wine-grapes</p>
+  <p class="lede">三页各两款，字段相同：原产地、风格、代表产区、主要风味特征。红葡萄在第 1、2 页，白葡萄在第 3 页。比较只使用各栏写明的词，不补图上没有的年份和酒庄。</p>
+
+  <h2>比较</h2>
+  <table>
+    <thead>
+      <tr><th>品种</th><th>页</th><th>原产地</th><th>风格（图上的词）</th><th>主要风味特征</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>赤霞珠</td>
+        <td class="page">1</td>
+        <td>法国波尔多</td>
+        <td>结构强劲，单宁厚重，适合陈年，庄重平衡</td>
+        <td>黑醋栗、黑樱桃、雪松、烟草、皮革</td>
+      </tr>
+      <tr>
+        <td>梅洛</td>
+        <td class="page">1</td>
+        <td>法国波尔多</td>
+        <td>柔顺圆润，单宁较低，果味丰满，易于入口</td>
+        <td>李子、黑樱桃、巧克力、香草、香料</td>
+      </tr>
+      <tr>
+        <td>黑皮诺</td>
+        <td class="page">2</td>
+        <td>法国勃艮第</td>
+        <td>单宁细腻，酒体轻盈，红色水果突出，优雅而复杂</td>
+        <td>草莓、樱桃、覆盆子、蘑菇、香料</td>
+      </tr>
+      <tr>
+        <td>西拉</td>
+        <td class="page">2</td>
+        <td>法国罗讷河谷</td>
+        <td>酒体饱满，单宁强劲，风味浓郁，辛香与黑色水果</td>
+        <td>黑莓、黑胡椒、香料、烟熏、皮革</td>
+      </tr>
+      <tr>
+        <td>霞多丽</td>
+        <td class="page">3</td>
+        <td>法国勃艮第</td>
+        <td>可清新优雅，也可饱满浓郁</td>
+        <td>柑橘、青苹果、热带水果、香草、烤面包</td>
+      </tr>
+      <tr>
+        <td>长相思</td>
+        <td class="page">3</td>
+        <td>法国卢瓦尔河谷</td>
+        <td>清新爽脆，酸度明亮，风格活泼</td>
+        <td>柠檬、青柠、百香果、青草、绿植</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 2 页对第 1 页</span>
+      <h3>黑皮诺产区抄成赤霞珠</h3>
+      <p>第 2 页黑皮诺的代表产区是法国波尔多、美国纳帕谷、智利迈坡谷、澳大利亚库纳瓦拉，与第 1 页赤霞珠逐字相同。它自己的原产地写的是法国勃艮第。两行同时留在图上，不能互相覆盖。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1 页</span>
+      <h3>波尔多等于同一种酒</h3>
+      <p>赤霞珠和梅洛的原产地都是法国波尔多，风格词相反：前者单宁厚重、适合陈年，后者单宁较低、易于入口。代表产区也不完全重合，梅洛另有意大利托斯卡纳、美国华盛顿州、智利中央山谷。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 3 页</span>
+      <h3>勃艮第写成勃良第</h3>
+      <p>霞多丽原产地是法国勃艮第。同一页代表产区第一处是法国勃良第，后面才是美国加州、澳大利亚亚拉谷、智利利马里谷。「艮」和「良」按图上分开记。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 3 页</span>
+      <h3>把「浓都」读成「浓郁」</h3>
+      <p>长相思风格句印的是「芳香浓都风格活泼」。西拉和霞多丽栏里的「浓郁」是别的句子，不能挪来改这一句。</p>
+    </div>
+    <div class="card wide">
+      <span class="tag">标题和说明</span>
+      <h3>西拉后面自动加上设拉子</h3>
+      <p>三页标题只写「西拉」。笔记说明文字写成「西拉/设拉子」，图上没有这三个字，也没有写两个名字是否同一栏。说明文字的风味比图短，以对应页的风味栏为准。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">三页都没有</span>
+      <h3>没有酒庄和侍酒条件</h3>
+      <p>图上没有年份、酒庄、价格、配餐、侍酒温度和单宁酸度的数字。风格词不能换成评分。</p>
+    </div>
+    <div class="card">
+      <span class="tag">说明文字</span>
+      <h3>气候一句没有例子</h3>
+      <p>笔记说明写同一品种会因产地、气候改口感，三页没有举出哪一栏因此改变。代表产区只是名单，不是气候对照表。</p>
+    </div>
+    <div class="card wide">
+      <span class="tag">第 2 页</span>
+      <h3>黑皮诺产区栏不能当地图</h3>
+      <p>原产地勃艮第和代表产区那四地同时印在第 2 页，中间没有解释。选产地时这一行标成待核对，不另补图上没有的地名。</p>
+    </div>
+  </div>
+
+  <h2>动作</h2>
+  <ul>
+    <li>想要图上写的厚重、可陈年：看第 1 页赤霞珠，风味栏是黑醋栗、黑樱桃、雪松、烟草、皮革。</li>
+    <li>想要图上写的单宁较低、易于入口：看第 1 页梅洛，不要和第 1 页赤霞珠因为都写波尔多而合成一款。</li>
+    <li>想要图上写的轻盈红水果：看第 2 页黑皮诺的风格和风味；代表产区改去核对，不直接用这一行的四地。</li>
+    <li>想要图上写的黑胡椒、烟熏：看第 2 页西拉。别名以图上的「西拉」为准。</li>
+    <li>白葡萄想看「清新或饱满都写了」：看第 3 页霞多丽，并记下原产地勃艮第、代表产区勃良第是两个写法。</li>
+    <li>想要图上写的酸度明亮、青柠和百香果：看第 3 页长相思，风格句按「浓都」原样引用。</li>
+  </ul>
+  <p class="foot">页码对应 docs/assets/six-wine-grapes/01.jpg 至 03.jpg。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

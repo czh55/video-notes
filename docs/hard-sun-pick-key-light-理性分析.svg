@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3090" viewBox="0 0 1320 3090">
+  <foreignObject x="0" y="0" width="1320" height="3090">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      <div class="container">
+  <h1>主光先离开直顶光</h1>
+  <p class="meta">理性分析 · 爱拍照的七十(努力涨粉中) · 图文 9 页 · 2026-10-17</p>
+  <p class="lede">大太阳翻车，先换的是主光落点，不是先拧一个光比。阴影边缘当天然柔光箱；背光要补脸；侧前 45° 用来要立体，并躲开顶光。补光看眼睛高光点，背景光看人有没有从背景里跳出来。曝光口令是先不爆，再让脸好看。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">阴影边主光<br/>1/9、4/9</div>
+      <div class="arrow">→</div>
+      <div class="node">白墙或白物补脸<br/>5/9</div>
+      <div class="arrow">→</div>
+      <div class="node">后侧亮边<br/>6/9、7/9</div>
+      <div class="arrow">→</div>
+      <div class="node">先保高光<br/>8/9</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>直顶光 vs 阴影边缘</td><td>直面正午：眼窝黑、鼻影硬、脸花。树荫或建筑阴影边缘：眼睛高光、脸颊过渡。口令是先找柔主光，再补脸，最后借背景亮边。</td><td>1/9</td></tr>
+    <tr><td>三盏各管什么</td><td>主光管脸好不好看，找柔光。辅助光管眼窝和脸黄，用反光。背景光管人和背景分开，用亮边和高光点。顺序是先主光、再补光、再分离。</td><td>2/9</td></tr>
+    <tr><td>三种主光</td><td>阴影边缘最不翻车，脸干净、日常百搭。背光要氛围和发丝，必须补脸。侧前 45° 要立体，避开正午顶光。</td><td>3/9</td></tr>
+    <tr><td>站着不动 vs 挪半步</td><td>同一位置从太阳底下挪到阴影边缘，页上写成主光变柔：眼睛有光，脸更均匀。顶光被写成最容易显老显脏。</td><td>4/9</td></tr>
+    <tr><td>三种回光</td><td>白墙：站 1 到 2 步，脸更亮更净。浅砖或水泥地：下巴阴影变淡。白纸或白外套：对着阳光补脸。共同标准是眼睛里出现高光点。</td><td>5/9</td></tr>
+    <tr><td>三种背景</td><td>后侧 45° 做亮边。光斑只留在背景。高亮背景可以，脸别变黑。</td><td>6/9</td></tr>
+    <tr><td>分开讲 vs 站在一张图里</td><td>主光是阴影边或背光，辅助光是白墙回光，背景光是太阳后侧亮边。结论句：脸在柔光里，背景有亮点。</td><td>7/9</td></tr>
+    <tr><td>直打脸、光斑上脸、背光不补</td><td>直打脸会油光、阴影硬、显老，改去阴影边或背光。光斑上脸会脸花、肤色乱，光斑只放背景。背光不补会成剪影，用白墙或白物回光。</td><td>9/9</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>先调参数，人还站在顶光里</h3>
+    <p><span class="pg">1/9</span> 和 <span class="pg">4/9</span> 把眼窝黑、鼻影硬写成直顶光的结果。<span class="pg">8/9</span> 的压暗和负补偿保的是高光，不会把顶光鼻影的边缘变柔。站位没换，参数只是把同一张硬影子拍得不爆。</p>
+  </div>
+  <div class="card">
+    <h3>背光只留头发，不补脸</h3>
+    <p><span class="pg">3/9</span> 把背光写成要补脸。<span class="pg">9/9</span> 把「背光但不补脸」单列为坑：人像成剪影、显老。救法回到白墙或白物，标准在 <span class="pg">5/9</span>：眼睛里要有高光点。</p>
+  </div>
+  <div class="card">
+    <h3>光斑打在脸上当氛围</h3>
+    <p><span class="pg">6/9</span> 写光斑在背景、别上脸。<span class="pg">9/9</span> 把光斑上脸的症状写成脸花、肤色乱。氛围留在背景，脸仍要落在一块干净的光里。</p>
+  </div>
+  <div class="card">
+    <h3>把第 8 页的补偿当成光比</h3>
+    <p>−0.3 到 −1.0、快门大于等于 1/250、感光度优先 100 到 400，都写在 <span class="pg">8/9</span>，对象是曝光，标题还写着照抄。九页没有主光比辅光的倍数。先不爆、再让脸好看，和 <span class="pg">6/9</span> 的「脸别变黑」要一起看：保高光之后仍要补脸。</p>
+  </div>
+  <div class="card">
+    <h3>侧前 45° 站成正午顶光</h3>
+    <p><span class="pg">3/9</span> 的侧前 45° 用来要立体，同一栏写明别顶光。<span class="pg">4/9</span> 的直顶光才是眼窝黑和硬鼻影。角度从侧前滑到头顶，立体就变成显脏。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>没有印出光比。第 8 页数字只覆盖快门、曝光补偿和感光度，不能换算成主辅光比例。</li>
+    <li>第 5 页的 1 到 2 步是离白墙的站位。第 7 页有太阳、白墙、拍摄者三处标记，没有米数；夹角除第 3 页和第 6 页写出的 45° 外，示意图上的精确角度无法确认。</li>
+    <li>示例人像是否同一人、是否实拍，九页无法确认。第 5 页是示意图。</li>
+    <li>笔记文案写了法令纹深。画面标注能确认眼窝黑、鼻影硬、脸花，以及第 2 页的脸黄。法令纹有没有单独标出，无法确认。</li>
+    <li>第 8 页写手机对脸点测光、人像模式别开太强，没有机型，也没有把某一档写成所有场景的固定值。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按 2/9 的顺序走一遍</h3>
+    <p>先离开直顶光（<span class="pg">1/9、4/9、9/9</span>）。主光优先站到树荫或建筑阴影边缘；要通透再改背光；要立体再用侧前 45°，人不要回到太阳正底下（<span class="pg">3/9</span>）。然后补脸：白墙站 1 到 2 步，或浅地，或白纸、白外套，直到眼睛出现高光点（<span class="pg">5/9</span>）。再做分离：太阳后侧做亮边，光斑只留背景，高亮背景时脸别黑（<span class="pg">6/9、7/9</span>）。最后才抄曝光：对脸测光，强光略压，快门不低于 1/250，补偿约 −0.3 到 −1.0，感光度优先 100 到 400，先不爆再让脸好看（<span class="pg">8/9</span>）。</p>
+  </div>
+  <p class="footer">只采用九页印出的说法 · hard-sun-pick-key-light</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

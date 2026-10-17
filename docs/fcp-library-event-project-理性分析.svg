@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2546" viewBox="0 0 1320 2546">
+  <foreignObject x="0" y="0" width="1320" height="2546">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:30px;font-weight:900;color:#b45309;margin-bottom:8px}
+h2{font-size:20px;font-weight:700;color:#b45309;margin:22px 0 10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:22px;margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px;background:#fff}
+th,td{padding:8px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#b45309}
+.note{margin-top:10px}
+.box{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 16px;margin-top:8px}
+.page{color:#b45309;font-weight:700}</style>
+      <h1>三层是为了长期放素材，不是为了多点三下</h1>
+<p>七页回答的是：资源库、事件、项目为什么要拆开。能当步骤用的是 5/7 的五步、6/7 的存放选择、7/7 的建库顺序。1/7 到 4/7 负责定义。口号里的倍数和百分比不能拿来验收。</p>
+<h2>比较</h2>
+<table>
+<tr><th>对照</th><th>笔记怎么分</th><th>页</th></tr>
+<tr><td>剪映与 FCP</td><td>剪映是把素材放进来就开始剪，适合快出片。FCP 要求先建项目管理系统再创作。设备例子是 Sony A7C2、DJI Air 3S、Pocket 4，日期和场景一混，后期就难找。</td><td><span class="page">1/7、5/7</span></td></tr>
+<tr><td>资源库、事件、项目</td><td>资源库是总仓库，管一个大项目的范围、素材、事件、项目、渲染和剪辑数据，建议放在固定位置。事件是库里的文件夹，只分类、不剪。项目是时间线，做剪辑、调色、字幕、音乐、音效并导出。一句话：库管范围，事件管素材，项目出作品。</td><td><span class="page">1/7、2/7、3/7、4/7、7/7</span></td></tr>
+<tr><td>两张结构图</td><td>2/7 把川西旅行.FCPBUNDLE 画成下面再挂一个「资源库」节点，事件（新都桥、稻城亚丁、无人机）和项目（正片、预告片、小红书版本）并列。4/7 和 7/7 写项目在事件里创建，同一事件可以有长视频、短视频和不同版本。</td><td><span class="page">2/7、4/7、7/7</span></td></tr>
+<tr><td>一个库对什么</td><td>2/7 写一个资源库可以对应一个完整作品，例子是《川西旅行纪录片》和川西旅行.FCPBUNDLE。5/7 流程副标另写了资源库名「2026旅行作品」，文件名例子仍是川西旅行.FCPBUNDLE。7/7 收成建议：一个大项目等于一个资源库。</td><td><span class="page">2/7、5/7、7/7</span></td></tr>
+<tr><td>拷贝进库与留在原处</td><td>拷贝适合素材不多、只有一块盘、要随身带、电脑空间够：打开库就全有，代价是占空间。保留原位置适合素材量大、有专用盘、多人协作、长期归档：省空间，路径一变就断链接。分界写成小于 500GB 且单机走拷贝，大于 500GB 且有专用盘走原位置。</td><td><span class="page">6/7</span></td></tr>
+<tr><td>和摄影后期</td><td>5/7 把剪辑收成同一条链：图库管理全部素材，按内容或设备分类，建立时间线项目，再精剪、调色、字幕、音乐、导出。类比停在步骤同构，没有对照摄影软件的目录文件。</td><td><span class="page">5/7</span></td></tr>
+</table>
+<h2>易错</h2>
+<div class="box">
+<ul>
+<li>把事件当成时间线。3/7 写事件不是剪辑时间线，只整理素材；4/7 才把项目定义成最终看到的视频。</li>
+<li>几百个视频丢进同一个事件。3/7 和 7/7 都把这件事写成后期找不到素材。</li>
+<li>在项目里堆大量素材。7/7 写素材只导入到事件，不要直接放到项目里剪。</li>
+<li>按 2/7 的并列图去找「和事件平级的项目」。4/7、7/7 的操作句是：项目建在事件里面。两张图不要合成一步操作。</li>
+<li>选了保留原位置，再改硬盘名字、移动或删除文件。6/7 写链接会丢。这和 2/7「库内文件互相关联、不能随意移动」是两件事：一个管库外素材路径，一个管库内关联。</li>
+<li>素材已经很大仍全拷进库，或新手只有一块盘就先留原位置。6/7 的建议是先拷贝，变多再切换。切换步骤本身没写。</li>
+<li>把 3/7 的效率翻倍、5/7 的 10 倍痛苦和至少提升 50% 当成可验收的数字。三句都没有对照测量。</li>
+<li>把 5/7 第四个文件夹读死。图上像「04乐境声」，也可能是「04环境声」，无法确认。</li>
+</ul>
+</div>
+<h2>边界</h2>
+<div class="box">
+<ul>
+<li>500GB 只写出小于走拷贝、大于走原位置。正好 500GB、多台电脑但没有专用盘、素材少却要多人协作，页上没有组合。<span class="page">6/7</span></li>
+<li>「多人协作」只出现在保留原位置的适合列表里，没有权限、共享盘或谁能改库的步骤。<span class="page">6/7</span></li>
+<li>从拷贝到资源库改成保留原位置，只写了「素材多了再切换更高效」，没有迁移动作。<span class="page">6/7</span></li>
+<li>2/7 的目录树在 .FCPBUNDLE 里面又画了一个叫「资源库」的节点，事件和项目在它下面并列。7/7 的文字是项目在事件里创建。笔记没有解释这张树是示意还是访达里的真实层级。<span class="page">2/7、7/7</span></li>
+<li>5/7 用 2026旅行作品 当建立资源库的副标，文件名例子仍是川西旅行.FCPBUNDLE。不能把两个名字收成必须同时使用的一对。<span class="page">2/7、5/7</span></li>
+<li>4/7 的 1000+ 个视频和 5 分钟旅行片是例子。事件分类示例是按天、设备、采访、B-roll、音乐、旁白，7/7 再补上日期和场景。没有规定必须用哪一套分类名。<span class="page">3/7、4/7、7/7</span></li>
+<li>备份被反复写成要做：库内关联文件不能随意移动，资源库放固定位置且不要频繁搬家，素材盘不改名、不挪、不删，并定期备份。笔记没有写备份到第几份、放在哪。<span class="page">2/7、6/7、7/7</span></li>
+<li>5/7 第四个文件夹无法确认是乐境声还是环境声。6/7 素材目录里「图片」一项带省略号，完整文件名无法确认。</li>
+</ul>
+</div>
+<h2>动作</h2>
+<div class="box">
+<ul>
+<li>拍完把 Sony A7C2、DJI Air 3S、Pocket 4 的素材复制到 Mac，先按内容或场景分成人物、风景、航拍和声音，不要先开时间线。<span class="page">5/7</span></li>
+<li>为一个大项目建一个资源库，放在固定硬盘位置。例子可以用川西旅行.FCPBUNDLE 这种一个作品一个库的命名。建好后不随意移动库内关联文件，也不频繁改库的位置。<span class="page">2/7、5/7、7/7</span></li>
+<li>在库里按拍摄内容、日期、设备、场景建多个事件。第一天、第二天、音乐、旁白是 3/7 的例子。不要把全部视频放进一个事件。<span class="page">3/7、7/7</span></li>
+<li>素材导入事件，再在事件里建项目。同一事件可以同时有长视频、短视频和不同版本；一个项目反复改完再导出。成片里再放主线、空镜、音乐、字幕、调色、音效。<span class="page">4/7、7/7</span></li>
+<li>素材少、小于 500GB、只用一台电脑、需要带走：拷贝到资源库。素材多、大于 500GB、有专用硬盘：保留原位置，盘名和路径保持不动，不删除文件。新手先用拷贝。<span class="page">6/7</span></li>
+<li>库和素材盘都做定期备份。6/7 把备份写成剪辑能安心的前提，7/7 把备份资源库放进避坑。<span class="page">6/7、7/7</span></li>
+</ul>
+</div>
+<p class="note">支撑页：定义 1/7；资源库 2/7；事件 3/7；项目 4/7；流程 5/7；存放 6/7；顺序与避坑 7/7。</p>
+    </div>
+  </foreignObject>
+</svg>

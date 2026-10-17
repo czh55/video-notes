@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4437" viewBox="0 0 1320 4437">
+  <foreignObject x="0" y="0" width="1320" height="4437">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#44403c;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#44403c}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#78716c;margin-top:4px}
+.arrow{font-size:22px;color:#d6d3d1}
+.sec-title{font-size:20px;font-weight:700;color:#9a3412;margin:8px 0 14px;padding-left:12px;border-left:4px solid #b45309}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#fff7ed;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#9a3412;border-left:3px solid #b45309}
+.card .bound{background:#f5f5f4;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#44403c;border-left:3px solid #a8a29e}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}</style>
+      
+<div class="container root-wrap">
+  <h1>蒙太奇究竟是什么</h1>
+  <div class="meta">
+    <span class="tag tag-orange">理性分析 · 分镜</span>
+    <span class="tag tag-gray">大任聊分镜</span>
+    <span class="tag tag-gray">图文 12 页</span>
+    <span class="tag tag-gray">2026-10-17</span>
+  </div>
+  <p class="summary-line">结论先说：蒙太奇在这套图里不是软件操作，而是两个或两个以上镜头并置之后多出来的含义（第 2 页）。同一组三张图换顺序，句子就换（第 4–5 页）。本期真正展开的只有平行、交叉、重复；隐喻、颠倒、对比停在目录（第 7、11 页）。</p>
+
+  <div class="map">
+    <h2>从并置到三种用法</h2>
+    <div class="diagram">
+      <div class="node">并置<small>第 2 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">换拼法<small>第 3–5 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">六种目录<small>第 7 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">只讲三种<small>第 8–10 页</small></div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <p class="sec-title">同一组画面，三种顺序</p>
+  <div class="card">
+    <h3>鱼、笑脸、拿网的人（第 4–5 页）</h3>
+    <p>第 4 页先声明：同样的三张图，采用不同的连接方法，会产生不同的效果。第 5 页把效果写成三句。</p>
+    <table>
+      <thead><tr><th>案例</th><th>顺序</th><th>画面上的句子</th><th>读者先知道什么</th></tr></thead>
+      <tbody>
+        <tr><td>案例一</td><td>鱼 → 笑脸 → 网</td><td>水里游过一条鱼，有人看到了，他要捕鱼。</td><td>先有对象，再有看见，最后才是动作</td></tr>
+        <tr><td>案例二</td><td>笑脸 → 鱼 → 网</td><td>这个人在乐什么——哦，他看到一条鱼——呀，他要捕鱼。</td><td>先有表情，原因后补</td></tr>
+        <tr><td>案例三</td><td>网 → 笑脸 → 鱼</td><td>他拿着大网想要干啥——他还在笑，他到底想干什么——原来是要捕鱼啊。</td><td>先有工具，目标留到最后</td></tr>
+      </tbody>
+    </table>
+    <p>三句都落到「捕鱼」。变的是悬念放在哪一格，不是多画了一张新图。</p>
+  </div>
+
+  <p class="sec-title">目录里展开的三种</p>
+  <div class="card">
+    <h3>平行、交叉、重复（第 8–10 页）</h3>
+    <table>
+      <thead><tr><th>笔记用词</th><th>页</th><th>并置规则</th><th>笔记写明的作用</th><th>示意图在做什么</th></tr></thead>
+      <tbody>
+        <tr><td>平行式 / 平行蒙太奇</td><td>8</td><td>两条以上情节线并行、分别叙述，最后收进一个情节结构；或两个以上事件相互穿插，揭示一个主题或情节</td><td>定义本身就是作用，没有另写「作用是」</td><td>警察守梯门，匪徒在电梯里；门开先是灰衣人，匪徒从另一扇门出去，对白「就等你了，钱呢！」</td></tr>
+        <tr><td>交叉式 / 交叉蒙太奇</td><td>9</td><td>同一时间、不同空间的两种动作，交叉剪切</td><td>紧张气氛、强烈节奏、惊险效果；引起悬念，加强矛盾冲突的尖锐性</td><td>六格在室内的人和门外走近的人之间来回，最后靠到同一道门。没有逐格字幕</td></tr>
+        <tr><td>重复式 / 重复蒙太奇</td><td>10</td><td>具有一定寓意的镜头在关键时刻反复出现。笔记把它比成文学里的复叙</td><td>刻画人物、深化主题</td><td>喝东西的侧影出现四次，中间是被围、婚礼、中彩票；最后一次手里有一叠钱</td></tr>
+      </tbody>
+    </table>
+    <p>第 3 页的积木只说明「拼法变，造型变」，没有对应到这三种里的任何一种。第 6 页把「重新组合的镜头有了新的含义」称作设计镜头和剪辑的底层逻辑，三种类型是这个逻辑的分法，不是另一套理论。</p>
+  </div>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>把定义收成「会剪辑」</h3>
+    <p class="pitfall">第 2 页的影史句是「有了蒙太奇，才有剪辑的概念」。通俗句的主语是镜头并置和新含义。笔记没有写快捷键、时间线或软件。用剪辑操作去替换「并置」，就丢掉了第 5 页那种只换顺序、不换素材的证据。</p>
+    <h3>把平行和交叉当成同一个电梯例子</h3>
+    <p class="pitfall">第 8 页后半句写了「相互穿插」，和第 9 页的「交叉剪切」字面很近。可第 9 页额外写死了「同一时间」和「不同空间」，作用也写成悬念、紧张、冲突尖锐。第 8 页的九格同时有守门、楼层变化和另一扇门，笔记没有标明哪几格算并行、哪几格算穿插。拿第 8 页直接充当交叉蒙太奇的例证，笔记本身没有授权。</p>
+    <h3>把重复理解成复制同一格</h3>
+    <p class="pitfall">第 10 页强调的是「具有一定寓意」，并且出现在「关键时刻」。喝东西的镜头中间隔着被围、婚礼和「我中彩票了！」。没有寓意、也不卡在情节转折上的重复，对不上这一页的定义。</p>
+    <h3>用第 10 页的标题回填第 7 页被挡住的字</h3>
+    <p class="pitfall">第 7 页第三项水印下像「重复性蒙太奇」。第 10 页标题是「重复式蒙太奇」。两页用字不同。目录和正文不能当成已经核对一致。</p>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card">
+    <h3>这期没有讲完目录</h3>
+    <p class="bound">第 7 页后三项是隐喻蒙太奇、颠倒蒙太奇、对比蒙太奇。第 11 页写明「这一期就先到着了」，下一期才聊剩余的类型以及用法。这三项没有定义、没有示意图，不能用鱼和网的例子去补。</p>
+    <h3>示意图不是影片分析</h3>
+    <p class="bound">十二页里没有电影片名、镜头时长或实拍。第 8 页的警察、匪徒、电梯，第 9 页的两个人，第 10 页的彩票，都是示意。第 9 页六格没有逐格字幕，手里的物件和有没有声音线无法从文字确认。第 3 页最下面的人物没有写出名字。第 1 页的「第七期」和《分镜自学手册》只标明系列，不提供定义。第 12 页是「如果您觉得有用 / 记得点个赞哦～ / 原创不易 / 大任聊分镜」，没有知识点。</p>
+    <h3>定义句子本身留了口子</h3>
+    <p class="bound">第 8 页用「或」把「并行后统一」和「相互穿插」放在同一段平行蒙太奇里，没有给出二选一的判据。第 9 页写「两种动作」，没有写必须是追逐。第 2 页的「新的含义」没有给出衡量标准，第 5 页只示范了叙事落点的变化。</p>
+  </div>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>先做第 5 页那种换序，再选类型</h3>
+    <div class="action">拿固定的三张图，按第 5 页写下三句：对象在前、表情在前、工具在前。三句如果读起来一样，说明连接还没有产生新含义，先不要进入第 7 页的类型名单。</div>
+    <div class="action">要画平行：先标出两条以上情节线，写清它们分别叙述什么，最后统一成哪一个情节或主题（第 8 页）。「相互穿插」若要用，单独标出穿插点，不要和第 9 页的同一时间混写。</div>
+    <div class="action">要画交叉：两条线必须能标成同一时间、不同空间，交替剪切的目的是悬念、紧张或把冲突削尖（第 9 页）。缺「同一时间」这一条，就回到第 8 页的平行定义里检查。</div>
+    <div class="action">要画重复：先选定一个有寓意的镜头，只放在关键转折之后，中间用不同事件隔开（第 10 页的喝、被围、婚礼、中彩票）。第 7 页被水印挡住的那一项，正文以第 10 页的「重复式」和「复叙」为准，不把看不清的「性」写进分镜备注。</div>
+    <div class="action">隐喻、颠倒、对比先留空。第 11 页已经把它们划到下一期。</div>
+  </div>
+
+  <p class="footer">理性分析 · what-is-montage · 页码对应图文实录 1/12–12/12 · 短链不在此展开</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

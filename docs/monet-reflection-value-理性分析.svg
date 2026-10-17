@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3693" viewBox="0 0 1320 3693">
+  <foreignObject x="0" y="0" width="1320" height="3693">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#1c1917;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;font-weight:700;color:#1c1917;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-amber{background:#ffedd5;color:#9a3412}
+.tag-stone{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#292524;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(41,37,36,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center;padding:8px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:12px 14px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;line-height:1.45}
+.node-ink{background:#fafaf9;border-color:#d6d3d1;color:#44403c}
+.arrow{font-size:20px;color:#d6d3d1}
+.sec-title{font-size:20px;font-weight:700;color:#9a3412;margin:8px 0 14px;padding-left:12px;border-left:4px solid #b45309}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309;box-shadow:0 3px 16px rgba(41,37,36,.04)}
+.card h3{font-size:16px;color:#9a3412}
+.quote{background:#fff7ed;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#57534e;border-left:3px solid #fdba74}
+.pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.action{background:#fff7ed;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#9a3412;border-left:3px solid #b45309}
+.bound{background:#fafaf9;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#44403c;border-left:3px solid #a8a29e}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}
+.source-link{color:#b45309;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}</style>
+      
+<div class="container">
+  <h1>倒影留下明度次序，不抄明度数字</h1>
+  <div class="meta">
+    <span class="tag tag-amber">小红书 · 留晞*</span>
+    <span class="tag tag-stone">图文 10 页</span>
+    <span class="tag tag-stone">2026-10-17</span>
+    <span class="tag tag-amber">5 条，封面与总结页数量一致</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3BxqOp2psET">原笔记</a>
+  <div class="summary-line">核心命题：把莫奈的倒影调灰以后，岸上和水面不是一套明度数值的翻转。亮部通常下降，暗部不必跟着抬高，跨度向中间收，暗—灰—亮的次序还在；距离和雾气可以再把这层关系削松。</div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node node-ink">颜色对上了<br/>仍差一口气<br/>2/10</div>
+      <div class="arrow">→</div>
+      <div class="node">调灰后<br/>不是翻转<br/>3/10</div>
+      <div class="arrow">→</div>
+      <div class="node">亮降、暗不必升<br/>跨度收窄<br/>4–6/10</div>
+      <div class="arrow">→</div>
+      <div class="node">次序留下<br/>数值换掉<br/>7/10</div>
+      <div class="arrow">→</div>
+      <div class="node node-ink">越远越松<br/>先问结构<br/>8–10/10</div>
+    </div>
+  </div>
+
+  <h2 class="sec-title">比较</h2>
+  <div class="card">
+    <h3>五条并排：封面写 5 个，总结页写 5 条</h3>
+    <p>数量相同。FINDING 从 01 到 05，第 9 页逐条复述。第 3 页只有 FINDING、没有编号，它是否定「翻进水里」，不算第六条。</p>
+    <table>
+      <thead><tr><th>对照</th><th>图上怎么说</th><th>页</th></tr></thead>
+      <tbody>
+        <tr><td>翻贴 vs 重写</td><td>最直接是把岸上景物翻下来；灰度后倒影和原物并不完全对应，明度被重新组织</td><td>3/10</td></tr>
+        <tr><td>岸上亮部 vs 水面</td><td>天空到水中明显变灰；悬崖这一岸上亮部也没有保留原来的亮度</td><td>4/10</td></tr>
+        <tr><td>暗部会被抬高 vs 晨雾</td><td>作者原以为亮部压低则暗部抬高；近处深色树木倒影仍很深，甚至比本体还深</td><td>5/10</td></tr>
+        <tr><td>更灰 vs 跨度变窄</td><td>本体的明度条更宽，倒影两端内收；不是简单地更灰，而是范围更容易向中间收拢</td><td>6/10</td></tr>
+        <tr><td>抄数值 vs 留次序</td><td>岸上标了暗、亮、灰；绝对明度变了，层级还在。形状留结构、破轮廓；明度留关系、压跨度</td><td>7/10</td></tr>
+        <tr><td>近处 vs 远处</td><td>近处明暗更明显，深色可以比较深，形状和笔触更多；远处明暗缩小，边缘和形状一起变松</td><td>8/10</td></tr>
+        <tr><td>颜色、笔触、明度</td><td>三部曲：看水看颜色，画水看笔触，析水看明度。三件事被写成同一件事</td><td>2/10、7/10、10/10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec-title">易错</h2>
+  <div class="card">
+    <h3>把总趋势读成没有例外</h3>
+    <div class="pitfall">颜色已经对上，就以为倒影完成。第 2 页把差的那一口气放在明度上。</div>
+    <div class="pitfall">把岸上景物翻进水里。第 3 页写这是最直接的画法，灰度对照否定了完全对应。</div>
+    <div class="pitfall">亮部被压低，就自动把每块暗部抬高。第 5 页作者写自己原来也这么想，然后用《塞纳河晨雾》的深色倒影当反例。</div>
+    <div class="pitfall">倒影等于整片更灰。第 6 页改口：被压缩的是明度跨度，暗部是向中间收，不是均匀铺一层灰。</div>
+    <div class="pitfall">把第 6 页读成「所有暗部都会变浅」。第 9 页第 2 条是「不必完全抬高」，第 3 条是「暗也不一定原样复制」。深色关键倒影可以保持足够深。</div>
+    <div class="pitfall">照抄岸上的明度数字，只把形状倒过来。第 7 页要求留结构、不复制数值。第 10 页把检查句写成：这里的明度结构，还在吗？</div>
+    <div class="quote">「反例本身就是内容价值。」——5/10</div>
+  </div>
+
+  <h2 class="sec-title">边界</h2>
+  <div class="card">
+    <h3>这些句子停在「通常」和「可能」</h3>
+    <div class="bound">第 4 页是「往往没那么亮」，第 9 页第 1 条是「通常下降」。没有写每一处高光都必须降到同一级。</div>
+    <div class="bound">第 6 页是「更容易向中间收拢」。第 5 页的近处深色倒影可以比本体还深，所以「暗的部分向中间收」不是全称。</div>
+    <div class="bound">第 8 页胶囊写距离和雾气「可能进一步削弱」。削弱的是关系，不是宣布远处没有倒影。</div>
+    <div class="bound">图上没有色号，没有测得的明度差，也没有样本清单和百分比。第 1、3、4、6、7、8 页没有写画名。点名的只有第 2 页的 Vétheuil, Pink Effect，以及第 5、10 页的《塞纳河晨雾》。</div>
+    <div class="bound">第 6 页明度条旁的箭头符号无法逐字确认，只能确认标注是「明度跨度变窄」，以及倒影那条比本体更窄。第 7 页连接「颜色、笔触、明度」的符号同样无法逐字确认。</div>
+    <div class="bound">第 10 页主图标「我的临摹」。右侧较小一幅没有文字说明是原画还是另一张稿，身份无法确认。同页写明《塞纳河晨雾》里还有明度问题，后面单独拆，本篇没有展开。</div>
+    <div class="bound">立场：五条是作者调灰后对着原画做出的观察，页上用「我原本也是这么想的」标明推论被改掉。不能写成光学测量结论。</div>
+  </div>
+
+  <h2 class="sec-title">动作</h2>
+  <div class="card">
+    <h3>临摹倒影时按这个顺序查</h3>
+    <div class="action">上色之前先调灰。第 2 页的问题是明度变了什么；第 10 页要求先别急着找颜色。</div>
+    <div class="action">不要把岸上形状连同明度一起翻下去。先看亮部有没有被压低：天空和悬崖这类高明度，进水后通常不再那么亮（4/10、9/10①）。</div>
+    <div class="action">关键深色单独留。近处树木的倒影可以非常深，甚至深过本体，不必为了「跨度变窄」把每一块暗部抬浅（5/10、9/10②）。</div>
+    <div class="action">收的是整段跨度。亮的下来、暗的向中间收，同时核对岸上的暗、亮、灰到了水面以后次序还在不在（6/10、7/10、9/10③④）。</div>
+    <div class="action">远处和有雾的地方再松一档：明暗差异缩小，边缘和形状一起变松。倒影已经是一层压缩，距离和雾气可能再削一层（8/10、9/10⑤）。</div>
+    <div class="action">落笔前问第 10 页那一句：这里的明度结构，还在吗？</div>
+  </div>
+
+  <div class="footer">证据来自 10 页图文 · 留晞* · 2026-10-17 · 看不清的箭头和未标注画名已标为无法确认</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

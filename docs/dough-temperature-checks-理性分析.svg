@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:30px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:8px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>面温是信号，状态才是判断</h1>
+<table>
+<tr><th>页</th><th>图上的数</th><th>接着做什么</th></tr>
+<tr><td>1/4</td><td>26.4°C；吐司 25–27，贝果约 24</td><td>出缸量内部</td></tr>
+<tr><td>2/4</td><td>26.3°C；丹麦 22–24</td><td>调水温、预冷、中途再量</td></tr>
+<tr><td>3/4</td><td>29.8°C</td><td>先停机，按酵母加没加分</td></tr>
+<tr><td>4/4</td><td>18.5°C；水温先不超过 35°C</td><td>回到目标面温，80 分钟不胀是个例</td></tr>
+</table>
+<p>易错：接近 30°C 就当报废，或越冷越好。边界：参考温度不是统一标准。</p>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3908" viewBox="0 0 1320 3908">
+  <foreignObject x="0" y="0" width="1320" height="3908">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#7c2d12;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#b45309;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#44403c;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#44403c}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:150px;max-width:220px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#57534e;margin-top:6px}
+.node-green{background:#ecfdf5;border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:22px;color:#d6d3d1;align-self:center}
+.sec{margin-bottom:8px}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309}
+.card-red{border-left-color:#dc2626}
+.card-green{border-left-color:#059669}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.conclusion{background:linear-gradient(135deg,#9a3412,#b45309);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.25);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.94)}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}
+.source-link{color:#b45309;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}</style>
+      <div class="container">
+  <h1>有些咖啡建议喝热：要的是细节，不是高低</h1>
+  <div class="meta">
+    <span class="tag tag-orange">热饮</span>
+    <span class="tag tag-orange">冰饮</span>
+    <span class="tag tag-orange">香气</span>
+    <span class="tag tag-orange">点单</span>
+    <span class="tag tag-gray">图文 8 页</span>
+    <span class="tag tag-gray">2026-10-17</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/10uZFMQYGnC">原笔记短链</a>
+  <div class="summary-line">店员建议喝热，这套图的理由是：这支豆子的香气、酸甜变化、尾韵和干净度在热饮里更容易被喝到。冰饮更清爽，也会把这些细节收掉。冰热没有高低，先看你要风味还是要舒服。图上没有温度和配方。</div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">误会<small>冰的低级，第 1、6 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">热饮<small>打开香气与变化，第 2、3 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">冰饮<small>清爽但细节变少，第 4 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">先分豆子<small>风味词先试热，第 5 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-green">按需求选<small>问清推荐，第 7、8 页</small></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>比较：热饮放大细节，冰饮换成清爽</h2>
+    <table>
+      <tr><th>维度</th><th>页</th><th>热饮</th><th>冰饮</th></tr>
+      <tr><td>香气</td><td>第 1、2、4 页</td><td>更容易释放；花香、果香、坚果、焦糖、巧克力、烘烤</td><td>低温让香气收敛，冰块稀释后更难察觉；仍有清新果香、坚果或可可</td></tr>
+      <tr><td>酸甜</td><td>第 1、3、4 页</td><td>更明亮、圆润；稍微降温后甜感、酸质、层次出来</td><td>酸感变钝，甜感变轻，整体更清淡</td></tr>
+      <tr><td>尾韵与干净度</td><td>第 1、3、8 页</td><td>尾韵更持久，回甘更明显；再凉一点时尾韵、干净度、杂味都更明显</td><td>第 4 页：余韵不再持久。第 8 页把干净度放在热饮一侧</td></tr>
+      <tr><td>身体感受</td><td>第 4、6、8 页</td><td>适合慢慢品味完整风味</td><td>清爽、顺口、解渴、降苦、日常提神、降低刺激感</td></tr>
+      <tr><td>点单句</td><td>第 1、6、8 页</td><td>想喝风味，更建议喝热，或先试热</td><td>想解渴、想舒服，选冰</td></tr>
+    </table>
+    <div class="dual">
+      <div class="card">
+        <h3>打开香气，还是把香气收起来</h3>
+        <p>第 2 页把热饮写成香气更容易被释放，把冰饮写成低温减慢挥发、冰块稀释。同一页立刻补上：冰饮仍能闻到清新果香、坚果或可可。所以「香气变弱」不是「没有香气」。第 4 页用「香气不易被感知」再说一遍同一方向。</p>
+      </div>
+      <div class="card card-green">
+        <h3>完整版本，还是清爽版本</h3>
+        <p>第 4 页把冰的五项优点和五项取舍并列，结论是更清爽的版本不一定是最完整的版本。第 8 页不再用完整度排序，改成：热的更容易表现香气、酸甜、层次、尾韵、干净度；冰的更适合清爽、顺口、解渴、日常喝、降低刺激感。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>易错</h2>
+    <div class="card card-red">
+      <h3>点冰等于不懂、不高级</h3>
+      <p>第 1 页副题直接写「不是冰的低级」。第 6 页写「不用觉得点冰的就不懂咖啡，只是需求不一样」，并说喝咖啡不是考试。第 8 页收成「冰热没有高低」。把店员的建议听成嫌弃，和这三页相反。</p>
+    </div>
+    <div class="card card-red">
+      <h3>冰咖啡没有风味</h3>
+      <p>第 2 页承认冰饮有香气，只是更收敛。第 4 页的取舍是变弱、变钝、变轻、变淡、尾韵没那么明显，同时保留清爽、顺口、好入口。第 6 页还把冰美式、冰拿铁、冷萃写成适合日常饮用。</p>
+    </div>
+    <div class="card card-red">
+      <h3>建议喝热就是命令</h3>
+      <p>第 7 页：好的推荐不是命令你喝热的，而是告诉你为什么适合热的。页底要求听懂推荐，不是盲听。五句问法都是在要理由，不是在接受一句「必须热饮」。</p>
+    </div>
+    <div class="card card-red">
+      <h3>热的全面更好，或越凉越能喝到变化</h3>
+      <p>第 3 页鼓励喝温度变化，但「再凉一点」同时让杂味更明显，不是越凉越完整。第 4、6、8 页给冰饮留了清爽和解渴的位置。热饮优先只落在「想喝风味」「细腻豆子」上，没有覆盖所有场景。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把作者的机制句当成测量</h3>
+      <p>第 4 页「酸味分子活性降低」、第 6 页「冰咖啡吸收快」「热量感知更低一些」都没有数字、对照或条件。第 2 页「低温减慢香气分子的挥发」同样是说明方向。这些句子不能改写成速度、热量或分子数据。</p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>边界</h2>
+    <ul>
+      <li>八页没有摄氏度、粉水比、克重、烘焙度或萃取时间。第 3 页只有「热」「稍微降温」「再凉一点」「凉」，不能补成温度区间。</li>
+      <li>第 5 页的八个词是菜单风味词：花香、柑橘、莓果、白葡萄、蜂蜜、茶感、热带水果、复杂层次。它们标的是「通常值得先试热」，不是豆单，也不是配方。</li>
+      <li>第 3 页把干净度和杂味放在同一段「再凉一点」。热饮能呈现干净度（第 1、8 页），不等于放凉之后杂味会消失。</li>
+      <li>第 6 页「冰饮水分更多」说的是解渴场景；第 4 页同时写冰融化后浓度变淡。补水和解渴成立时，风味会被稀释，两页要一起看。</li>
+      <li>第 7 页第五问是「可以做冰手冲吗」，图上没有回答。柜台小牌上的手冲、意式、特调只是店面示意。</li>
+      <li>第 8 页「通常是因为这支豆子有值得被喝到的细节」用了「通常」。它解释的是建议喝热的常见理由，不是每一杯热饮都更值。</li>
+    </ul>
+  </div>
+
+  <div class="sec">
+    <h2>动作</h2>
+    <ol>
+      <li>先选目的：想解渴、想舒服，选冰；想喝风味，先试热（第 1、6、8 页）。</li>
+      <li>菜单出现花香、柑橘、莓果、白葡萄、蜂蜜、茶感、热带水果或复杂层次，先点热的，看香气怎么展开、酸甜怎么变、尾韵干不干净、层次有没有出来（第 5 页）。</li>
+      <li>热的不要只喝第一口。刚上桌听香气，稍微降温后再找甜感和酸质；再凉时同时注意尾韵和杂味，不要把变凉当成一定更好（第 3 页）。</li>
+      <li>已经决定喝冰，就按清爽版本来喝：接受香气、酸甜、浓度和尾韵会轻一档（第 2、4 页）。冰美式、冰拿铁、冷萃在第 6 页被写成日常杯，不是品鉴失败。</li>
+      <li>店员建议喝热时，问这五句：冰的会差很多吗；热的主要喝什么风味；这支酸感明显吗；适合新手吗；可以做冰手冲吗（第 7 页）。听到理由再决定，不把建议听成命令。</li>
+    </ol>
+  </div>
+
+  <div class="conclusion">
+    <h2>结论</h2>
+    <p>建议喝热，是因为热饮更容易把这支豆子的香气、酸甜变化、尾韵和干净度喝出来；冰饮换来清爽，并收下一部分细节。没有温度和配方。先问自己要风味还是要舒服，再用第 7 页的问题听懂店员为什么这么说。</p>
+  </div>
+  <p class="footer">le petit pain · 2026-10-17 · some-coffee-better-hot</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

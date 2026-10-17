@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3815" viewBox="0 0 1320 3815">
+  <foreignObject x="0" y="0" width="1320" height="3815">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#7c2d12;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#b45309;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#44403c;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#44403c}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:150px;max-width:220px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#57534e;margin-top:6px}
+.node-green{background:#ecfdf5;border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:22px;color:#d6d3d1;align-self:center}
+.sec{margin-bottom:8px}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309}
+.card-red{border-left-color:#dc2626}
+.card-green{border-left-color:#059669}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.insight-key{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:16px;border-left:4px solid #b45309}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.conclusion{background:linear-gradient(135deg,#9a3412,#b45309);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.25);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.94)}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}
+.source-link{color:#b45309;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}</style>
+      <div class="container">
+  <h1>别再只拉曝光了：通透靠关系，不靠更亮</h1>
+  <div class="meta">
+    <span class="tag tag-orange">摄影后期</span>
+    <span class="tag tag-orange">通透</span>
+    <span class="tag tag-orange">曲线</span>
+    <span class="tag tag-orange">黑白场</span>
+    <span class="tag tag-orange">HSL</span>
+    <span class="tag tag-gray">图文 8 页</span>
+    <span class="tag tag-gray">2026-10-17</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/wA6ENkZ1NM">原笔记短链</a>
+  <div class="summary-line">发灰时先拉曝光，灰雾会一起变亮。作者把通透定义成对比关系正确：轻 S 压灰雾，黑白场只往中间收一点，最后才压杂色、提主色。全套没有滑块数字。</div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">误区<small>只拉曝光，第 2、7 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">曲线<small>轻 S，暗沉亮清，第 4 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">黑白场<small>不炸白、不死黑，第 5 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node">HSL<small>压杂色、提主色，第 6 页</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-green">通透<small>关系对，不是更亮，第 8 页</small></div>
+    </div>
+  </div>
+
+  <div class="insight-key">
+    <h3>先关系，后颜色</h3>
+    <p>第 3 页把关系写成影调与对比，把颜色写成统一与突出，页底要求「先关系后颜色」。第 8 页用同一句话收束：通透 = 关系对，不是更亮。颜色步骤被明确排在曲线和黑白场之后。</p>
+  </div>
+
+  <div class="sec">
+    <h2>比较：四种改法分别动哪里</h2>
+    <table>
+      <tr><th>做法</th><th>页</th><th>实际在改什么</th><th>作者声称的结果</th></tr>
+      <tr><td>只拉曝光</td><td>第 2、7 页</td><td>整体变亮，灰雾跟着抬</td><td>更灰、更脏、发平</td></tr>
+      <tr><td>轻 S 曲线</td><td>第 3、4、8 页</td><td>暗部更沉，亮部更清，幅度要求轻微</td><td>灰雾下去，层次更清</td></tr>
+      <tr><td>黑白场往中间收</td><td>第 5、8 页</td><td>白场略向左、黑场略向右，定最亮与最暗</td><td>不炸白、不死黑，细节还在</td></tr>
+      <tr><td>HSL 压杂色、提主色</td><td>第 6、8 页</td><td>杂色往灰走，主色更纯，主色不超过 3 种</td><td>背景干净，主体突出；太纯则艳</td></tr>
+    </table>
+    <div class="dual">
+      <div class="card">
+        <h3>曝光抬亮 vs 曲线分开暗亮</h3>
+        <p>第 7 页咖啡馆对照：原片偏暗，只拉曝光后发灰发平。第 4 页要求用轻 S 代替猛拉对比，压一点暗部、抬一点亮部。两者都让画面「看起来亮了」，差别是灰雾有没有被压下去。</p>
+      </div>
+      <div class="card card-green">
+        <h3>关系先做完，颜色才进场</h3>
+        <p>第 3 页的结果句把曲线写成增强对比，把黑白场写成确立影调范围，把 HSL 写成统一色彩倾向。第 6 页才谈饱和与主色种数。先调颜色，等于在灰雾还在时给脏颜色加纯。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>易错</h2>
+    <div class="card card-red">
+      <h3>只拉曝光</h3>
+      <p>第 2 页把误区写成「只拉曝光 = 更灰更脏」，并在雾林人影上圈出灰雾区。第 7 页错误①用咖啡馆原片对照同一结论。灰没有被拿掉，只是被照亮。</p>
+    </div>
+    <div class="card card-red">
+      <h3>S 曲线拉太狠</h3>
+      <p>第 4 页小字：S 太狠 = 脏、硬、皮肤花。第 7 页错误②用人像对照，暗部死、亮部冲、皮肤发花。轻 S 和猛拉对比在这套图里是对立项，不是同一滑块的两个名字。</p>
+    </div>
+    <div class="card card-red">
+      <h3>黑白场拉过</h3>
+      <p>第 5 页允许白场往左一点点、黑场往右一点点，同时写明不炸白、不死黑。小字：拉过 = 死白死黑，细节丢。往中间收是为了层次，不是把两端夹死。</p>
+    </div>
+    <div class="card card-red">
+      <h3>颜色又多又纯</h3>
+      <p>第 6 页：色太多 = 乱，色太纯 = 艳，主色不超过 3 种。第 7 页错误③街景被拉得很艳，结果写成乱、艳、不高级。提主色有上限，不是饱和度越高越通透。</p>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>边界</h2>
+    <ul>
+      <li>8 页都没有曝光、对比、曲线锚点或 HSL 通道的滑块数字。第 4、5、8 页的「轻微」「一点点」「往中间收一点」不能换成参数。笔记正文说有可抄范围清单，第 8 页清单仍是方向。</li>
+      <li>笔记正文写先压杂色，并点名黄、绿最容易脏，再统一主色明度。第 6 页图面写的是降饱和、提饱和、统一色调、主色不超过 3 种。两套说法都没有通道读数，不能合成一张参数表。</li>
+      <li>示例限于雾景、咖啡馆、窗边人像和街景（第 2、4、5、7 页）。逆光雾、皮肤、高饱和街景的过界方式不一样，不能当成所有题材同一套幅度。</li>
+      <li>第 7 页「不高级」、第 8 页「克制比猛拉更高级」是审美判断，不是通透的测量定义。第 2 页可核对的定义是灰雾少、层次清、主体突出。</li>
+      <li>第 8 页预告下期氛围感调色，本套没有展开。封面「可抄作业 | 8P」只说明共 8 页，不是一组作业数值。</li>
+    </ul>
+  </div>
+
+  <div class="sec">
+    <h2>动作</h2>
+    <ol>
+      <li>先找灰雾区，确认发闷是不是中间灰堆在一起。不要先拉曝光（第 2 页）。</li>
+      <li>曲线做轻 S：压一点暗部，抬一点亮部。皮肤开始发花或画面变硬，就收回去（第 4、7 页）。</li>
+      <li>白场只定最亮处且不炸白，黑场只定最暗处且不死黑，两端往中间收一点即停（第 5 页）。</li>
+      <li>关系稳住后再动 HSL：杂色往灰走，主色收拢，主色不超过三种；黄、绿是否最脏以画面为准，不预设通道数字（第 6 页与笔记正文）。</li>
+      <li>用第 7 页三栏自检：更灰、皮肤花、又乱又艳，任一出现就回到上一步减量。</li>
+      <li>收工对照第 8 页三句：关系对而不是更亮，先关系后颜色，克制比猛拉优先。</li>
+    </ol>
+  </div>
+
+  <div class="conclusion">
+    <h2>结论</h2>
+    <p>通透在这套图里是亮暗关系，不是曝光值。顺序锁死为轻 S、黑白场、HSL；只拉曝光、S 太狠、黑白场拉过、颜色太纯，分别对应第 7 页和各步小字里的脏法。没有数字就不补数字。</p>
+  </div>
+  <p class="footer">爱拍照的七十(努力涨粉中) · 2026-10-17 · stop-only-lifting-exposure</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

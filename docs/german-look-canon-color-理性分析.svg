@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3462" viewBox="0 0 1320 3462">
+  <foreignObject x="0" y="0" width="1320" height="3462">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>德味和佳能色：三个参数，不是血统</h1>
+  <p class="meta">理性分析 · 影像派 · 图文 8 页 · 2026-10-17</p>
+  <p class="lede">封面说味道可以被拆解，也可以被搬运。拆开之后，第 3 到第 5 页是白平衡的冷暖、一条挂满形容词的曲线、肤色往红或往黄。第 6 页把复刻写成色卡、仿制配置文件、喂图给 AI。图上没有任何色温数字。封面的「对比度」和第 8 页的「曲线」是两套用词，不能直接当成同一个旋钮。</p>
+
+  <div class="map">
+    <div class="diagram">
+      <div class="node">三个滑杆<br/>1/8</div>
+      <div class="arrow">→</div>
+      <div class="node">白平衡偏心<br/>3/8</div>
+      <div class="arrow">→</div>
+      <div class="node">曲线定油润<br/>4/8</div>
+      <div class="arrow">→</div>
+      <div class="node">肤色往哪偏<br/>5/8</div>
+      <div class="arrow">→</div>
+      <div class="node">三步复刻<br/>6/8</div>
+      <div class="arrow">→</div>
+      <div class="node">自己的曲线<br/>7/8</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>玄学说法 vs 参数</td><td>封面问德味、佳能色是不是玄学，答「其实是三个参数」。第 2 页把色彩科学写成大部分可以拆解，甚至复刻</td><td>1/8、2/8</td></tr>
+    <tr><td>直出偏暖 vs 偏冷</td><td>左：直出偏暖，自带金色滤镜。右：偏冷偏中性。温润被说成白平衡在偏移，色温在说话</td><td>3/8</td></tr>
+    <tr><td>高光硬滚落 vs 软滚落</td><td>同一条输入—输出曲线的高光端分出「高光滚落硬」和「滚落软」</td><td>4/8</td></tr>
+    <tr><td>暗部深沉 vs 通透</td><td>暗端两支：「压得深沉」「提得通透」。中段另挂厚重、通透、油润</td><td>4/8</td></tr>
+    <tr><td>肤色偏红 vs 偏黄</td><td>肤色区放大：偏红 · 显气色；偏黄 · 显质感。旁边还有蓝色独立调校、绿色独立调校</td><td>5/8</td></tr>
+    <tr><td>三步复刻</td><td>1 色卡校准；2 仿制配置文件，大幅接近另一家直出；3 喂几张图，自动学走风格。第三步用橙色框出</td><td>6/8</td></tr>
+    <tr><td>便利 vs 溢价</td><td>天平左盘勾：直出好看 · 真金白银的便利。右盘问号：为味道付品牌溢价。顶行把几十年默认调校等于审美功力</td><td>7/8</td></tr>
+    <tr><td>封面三词 vs 收束三词</td><td>1/8 滑杆是色温、对比度、色调。8/8 滑杆是白平衡、曲线、色相。图没有写它们一一对应</td><td>1/8、8/8</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>把温润当成说不清的味道</h3>
+    <p>第 3 页把「你以为的温润」收成白平衡偏移，并写「温润不是玄学，是色温在说话」。它只给了暖金和冷中性两张对照，没有色温读数。看见偏暖就报一个开尔文，是图外的数字。</p>
+  </div>
+  <div class="card">
+    <h3>把油润、通透、厚重当成三套互不相干的玄学</h3>
+    <p>第 4 页说这些形容词的大半都写在同一条线上：高光看滚落硬或软，暗部看压得深沉或提得通透，中段挂着厚重、通透、油润。页底一句是「影调即性格，曲线即味道」。没有把其中任何一个写成独立滤镜的参数。</p>
+  </div>
+  <div class="card">
+    <h3>用封面的「佳能色」填进内页的「某家」</h3>
+    <p>佳能色只出现在 1/8 的标题里。2/8 的吊牌是「某家人像色」，5/8 只写肤色往红显气色、往黄显质感，没有指名哪一家落在哪一支。把佳能写成偏红或偏黄，图上没有这句话。</p>
+  </div>
+  <div class="card">
+    <h3>把拆解听成「默认调校不值钱」</h3>
+    <p>第 7 页先写厂商几十年的默认调校等于审美功力，直出好看是真金白银的便利，右盘才是品牌溢价的问号。下一句是「拆解 ≠ 没价值，但你该知道钱花在哪」。拆得开，和「不该为直出付钱」，在这页不是同一句。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>没有开尔文、色相角度、饱和百分比、曲线坐标、光圈或机身型号。滑杆圆钮的位置都没有刻度数字（1/8、8/8）。</li>
+    <li>封面三词是色温、对比度、色调（1/8）。正文参数一到三是白平衡、曲线、肤色方向加蓝绿独立调校（3/8–5/8）。收束三词是白平衡、曲线、色相（8/8）。对比度没有被写成第 4 页曲线的一个数。</li>
+    <li>「大部分可以拆解」（2/8）留了「大部分」。第 6 页「能被参数化的，就能被复刻」只覆盖写得进参数的部分，没有说镜头、分辨率或对焦也能一起搬走。</li>
+    <li>「喂几张图」没有张数，AI 方块没有软件名（6/8）。「护城河正在变浅」没有前后对照数据。</li>
+    <li>品牌溢价没有价格。「几十年」是第 7 页的说法，不是年表。</li>
+    <li>第 8 页签名是手写线稿，逐字母无法确认。点赞、收藏、评论是互动钮，不是调色步骤。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>先分清看见的是哪一层</h3>
+    <p>偏暖或偏冷、像自带金色滤镜：按 3/8 先看白平衡，不要直接改肤色。油润、通透、厚重、高光软硬：按 4/8 去看曲线的高光滚落和暗部是压还是提。人像气色或质感：按 5/8 看肤色往红还是往黄，蓝和绿是另外两个独立旋钮。</p>
+  </div>
+  <div class="card">
+    <h3>要靠近另一家直出，按第 6 页的顺序</h3>
+    <p>印出来的顺序是色卡校准，再仿制配置文件（大幅接近另一家直出），再喂几张图让 AI 自动学走风格。第三步被框成现在这一步。张数和软件名都没印，不能补。</p>
+  </div>
+  <div class="card">
+    <h3>溢价问号旁边，留一个下午给自己的曲线</h3>
+    <p>第 7 页的动作句是「花一个下午，调一条自己的曲线」，页底「自己的曲线，谁也拿不走」。第 8 页把同一件事收成「你的色彩科学，应该由你自己写」，三个滑杆只标了白平衡、曲线、色相。曲线长什么样，图上没有给。</p>
+  </div>
+  <p class="footer">依据八页图面文字 · german-look-canon-color</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

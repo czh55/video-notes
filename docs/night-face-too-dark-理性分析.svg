@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3476" viewBox="0 0 1320 3476">
+  <foreignObject x="0" y="0" width="1320" height="3476">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:140px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>脸先进过渡区，再谈参数</h1>
+  <p class="meta">理性分析 · 爱拍照的七十(努力涨粉中) · 图文 10 页 · 2026-10-17</p>
+  <p class="lede">夜景脸黑和噪点，先换的是人相对路灯的位置。路灯是硬光，脸要站进过渡区：侧前方一到两米，或灯后半步再补眼神光，或靠白墙、浅地、浅色车半米到一米。合格线是眼睛有高光、脸有过渡、暗部不死黑。快门和 ISO 页上只给方向，没有数字。</p>
+  <div class="map">
+    <div class="diagram">
+      <div class="node">离开灯正下/正后<br/>2/10、7/10、9/10</div>
+      <div class="arrow">→</div>
+      <div class="node">脸进过渡区<br/>3/10、4/10</div>
+      <div class="arrow">→</div>
+      <div class="node">补到眼神光<br/>5/10、6/10</div>
+      <div class="arrow">→</div>
+      <div class="node">再谈参数方向<br/>8/10</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>三种能用的位置</td><td>封面把路灯当主光收成三格：侧前方、灯后半步、借反光面。副题是避免脸黑和噪点。</td><td>1/10</td></tr>
+    <tr><td>站错 vs 硬提亮</td><td>站在灯下或灯后，脸直接黑。曝光让给路灯，人更黑。硬顶亮度，噪点爆炸。照片标出脸黑区域、路灯爆亮区域、暗部噪点区域。</td><td>2/10</td></tr>
+    <tr><td>亮面、过渡、暗面</td><td>路灯是硬光。脸要在过渡区，并标高光点。亮面给信息，暗面给情绪；过渡顺等于皮肤干净。口诀：别站正下方，站侧前方。</td><td>3/10</td></tr>
+    <tr><td>侧前方 vs 灯后半步</td><td>①灯在侧前方，人离灯一到两米，脸转向灯一点点，相机正前略侧，眼睛有高光就停，效果写立体和噪点少。②灯在身后偏侧、别正后，同样一到两米，要边缘光更干净，目标是轮廓光加眼神光，补光才停。</td><td>4/10、5/10</td></tr>
+    <tr><td>自带过渡 vs 借反光面</td><td>③找白墙、浅地或浅色车，人靠反光面半米到一米，脸自动亮、噪点更少。适用小区白墙、便利店外墙、停车场。顺序是先找面，再站人，再调到眼神光。</td><td>6/10</td></tr>
+    <tr><td>错的两格 vs 对的两格</td><td>灯正下方：顶光硬、眼窝黑。灯正后方：脸全黑、只剩背光。侧前方：脸进过渡区。借反光面一格的标题印成「借反反光面：眼神光出现」。标准三条：眼睛有高光、脸有过渡、暗部不死黑。</td><td>7/10</td></tr>
+    <tr><td>手机 vs 相机</td><td>手机：点路灯附近测光保高光，曝光略压，2x 或 3x 拍人，关强 HDR 或过度夜景。相机：快门别太慢，大光圈进光，ISO 能低就低，对焦优先眼睛。两边都没有具体档位。</td><td>8/10</td></tr>
+    <tr><td>三个坑的症状</td><td>正下方：眼窝黑、法令纹重、脸脏，退一步让灯到侧前方。曝光让给路灯：背景不炸、人脸更黑，先保高光再用反光面补眼神光。硬顶亮度：噪点粗、皮肤糊、灰雾感重，关强 HDR 或夜景，靠站位补光。</td><td>9/10</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>人还在灯正下方，先去拉亮度</h3>
+    <p><span class="pg">2/10</span> 把硬顶亮度写成噪点爆炸。<span class="pg">9/10</span> 坑 3 的症状是噪点粗、皮肤糊、灰雾感重，救法是关强 HDR 或夜景。<span class="pg">3/10</span> 和 <span class="pg">7/10</span> 写的是顶光让眼窝黑。亮度拉高不会把正下方的硬顶光变成过渡区。</p>
+  </div>
+  <div class="card">
+    <h3>为了路灯不爆，把脸一起压黑</h3>
+    <p><span class="pg">2/10</span> 写曝光让给路灯，人更黑。<span class="pg">8/10</span> 手机先点路灯附近测光，是为了保高光，同时写曝光略压。<span class="pg">9/10</span> 把「背景不炸了，人脸更黑」单列为坑，下一步是用反光面补眼神光，不是停在一张剪影上。</p>
+  </div>
+  <div class="card">
+    <h3>灯后半步站成正后方</h3>
+    <p><span class="pg">5/10</span> 写灯在身后偏侧，括号里是别正后，相机还要避开直拍灯。<span class="pg">7/10</span> 左下是灯正后方：脸全黑，只剩背光。轮廓光和剪影差在这一步，补光来源是白墙、白纸、反光板或手机最低档，眼神光出现就停。</p>
+  </div>
+  <div class="card">
+    <h3>把参数范围读成具体快门和 ISO</h3>
+    <p><span class="pg">8/10</span> 只有「快门别太慢」「ISO 能低就低」，没有分数，也没有感光度数字。总原则和 <span class="pg">9/10</span> 底部提醒都是先站位，再参数。照抄时不能自己补一档快门或一档 ISO。</p>
+  </div>
+  <div class="card">
+    <h3>三种距离混用</h3>
+    <p>侧前方和灯后半步都是人离灯一到两米（<span class="pg">4/10、5/10</span>）。借反光面是人靠反光面半米到一米（<span class="pg">6/10</span>）。离灯的距离和离墙、离车的距离不是同一个数。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>十页没有印出快门分数或 ISO 数值。第 8 页不能换算成某一档快门或某一档感光度。</li>
+    <li>一到两米、半米到一米是站位距离。亮区、过渡区、暗区没有亮度数字，也没有主光和补光的光比。</li>
+    <li>第 7 页四张对照图有编号圈，圈旁短字无法确认。右下标题印成「借反反光面」，与第 1 页、第 6 页的「借反光面」不一致，分析按印出的记，不改字。</li>
+    <li>第 1 页灯和脸的箭头没有印成句子，精确落点无法确认。第 6 页反射路径只标了①②，夹角无法确认。</li>
+    <li>手机最低档没有亮度百分比。2x/3x 写的是焦段用途（更分离），没有机型。</li>
+    <li>示例人像是否同一人、是否实拍，无法确认。第 10 页「挑 5 条」是互动，不是曝光步骤。下期霓虹夜景这一页没有展开。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>按页上的顺序站一次</h3>
+    <p>先看人是不是在灯正下方或灯正后方（<span class="pg">2/10、7/10</span>）。路灯当硬主光时，把脸放进过渡区，口诀是别站正下方、站侧前方（<span class="pg">3/10</span>）。位置①：灯在侧前方，人离灯一到两米，脸转向灯一点点，相机在正前略侧，眼睛有高光就停（<span class="pg">4/10</span>）。要轮廓光就用位置②：灯在身后偏侧、别正后，同样一到两米，相机避开直拍灯，再用白墙、白纸、反光板或手机最低档，补到眼睛出高光就停（<span class="pg">5/10</span>）。附近有白墙、浅地或浅色车，用位置③：人靠反光面半米到一米，先找面、再站人、再微调到眼神光（<span class="pg">6/10</span>）。三条都过了再看参数：点路灯附近保高光，曝光略压，人物快门别慢到糊，ISO 能低就低，关掉过强 HDR 或夜景，对焦优先眼睛（<span class="pg">8/10、9/10</span>）。交作业只记场景、设备和最不满意的一点（<span class="pg">10/10</span>）。</p>
+  </div>
+  <p class="footer">只采用十页印出的说法 · night-face-too-dark</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

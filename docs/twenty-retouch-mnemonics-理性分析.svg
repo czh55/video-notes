@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3642" viewBox="0 0 1320 3642">
+  <foreignObject x="0" y="0" width="1320" height="3642">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.75;color:#44403c;margin:12px 0 22px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+p{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:8px 0 16px}
+th{text-align:left;background:#ffedd5;color:#9a3412;font-size:14px;padding:10px 12px}
+td{font-size:14px;line-height:1.65;padding:10px 12px;border-top:1px solid #ffedd5;vertical-align:top;color:#44403c}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #b45309}
+.card h3{font-size:16px;color:#1c1917;margin-bottom:6px}
+.card p{margin:0}
+ol,ul{padding-left:1.2em;margin:0}
+li{font-size:15px;line-height:1.7;color:#44403c;margin:0 0 8px}
+.page{color:#b45309;font-weight:700}</style>
+      <div class="wrap">
+  <p class="kicker">理性分析 · 小艾教修图 · 2026-10-17</p>
+  <h1>20 条修图口诀，图上实际是 30 条</h1>
+  <p class="lede">标题和每页页眉都写「修图20口诀」。前六页各 5 条编号口诀，合计 30 条。只截到第四节，前四节正好 20 条；第五节光影、第六节心法又各加 5 条，标题没有跟着改。第 7 页是招生。下面只比较图上写出来的做法，不补没有写出的滑块。</p>
+
+  <h2>条数怎么对上、又怎么对不上</h2>
+  <table>
+    <thead><tr><th>范围</th><th>页码</th><th>条数</th><th>和标题「20」的关系</th></tr></thead>
+    <tbody>
+      <tr><td>一、基础修图</td><td>1/7</td><td>5</td><td>计入标题那 20 条时的第一段</td></tr>
+      <tr><td>二、人像精修</td><td>2/7</td><td>5</td><td>第二段</td></tr>
+      <tr><td>三、风格化调色</td><td>3/7</td><td>5</td><td>第三段</td></tr>
+      <tr><td>四、实战问题解决</td><td>4/7</td><td>5</td><td>加总到此为 20，与标题一致</td></tr>
+      <tr><td>五、光影强化</td><td>5/7</td><td>5</td><td>标题未计入，页眉仍写 20</td></tr>
+      <tr><td>六、心法总结</td><td>6/7</td><td>5</td><td>再加 5，编号口诀共 30</td></tr>
+      <tr><td>招生页</td><td>7/7</td><td>0 条口诀</td><td>30 天、66 人、49/月、三条报名条件</td></tr>
+    </tbody>
+  </table>
+
+  <h2>比较：同一类滑块被写成相反的用法</h2>
+  <table>
+    <thead><tr><th>在比什么</th><th>甲</th><th>乙</th><th>同时成立的条件</th></tr></thead>
+    <tbody>
+      <tr><td>先做什么</td><td>第 1/7 页：先白平衡和曝光，再风格化色彩</td><td>第 6/7 页：先定情绪，再动调色</td><td>情绪是选题，校色是动滑块之前的门槛。风格配方（第 3/7 页）排在两者之后</td></tr>
+      <tr><td>阴影</td><td>第 1/7 页欠曝：阴影 +100</td><td>第 4/7 页夜景人像：阴影提亮不超过 +50</td><td>夜景那条自己加了上限。+100 不能当作夜景的默认值</td></tr>
+      <tr><td>高光</td><td>第 1/7 页过曝：高光 -100</td><td>第 4/7 页天空：渐变压高光、色温偏蓝，没有数字；第 5/7 页高光溢出改走柔光图层</td><td>全局拉满和局部渐变、柔焦是三条不同路径，笔记没有写先用哪条</td></tr>
+      <tr><td>橙色饱和</td><td>第 1/7 页透亮肤色：-10，同时明度 +15</td><td>第 4/7 页皮肤偏红：-15；第 3/7 页暗黑：只写降低橙色饱和</td><td>都是往下降，幅度和触发条件不同。嘴唇走的是红色 +20（第 2/7 页），不是橙色</td></tr>
+      <tr><td>色温 +10</td><td>第 4/7 页：径向滤镜里只提面部，补暖</td><td>第 5/7 页阴天：整体色温 +10，再加色调 +5</td><td>数字相同，作用范围一个是脸、一个是整张图</td></tr>
+      <tr><td>人物和背景</td><td>第 1/7、4/7 页：背景虚化、降饱和、天空压高光</td><td>第 6/7 页：背景调色永远让步</td><td>第 3/7 页的五套风格又在给暗部、高光和绿色上色，和「永远让步」没有写出先后</td></tr>
+      <tr><td>五套风格</td><td>日系对比度 -20、高光柔白（第 3/7 页）</td><td>胶片暗部青、高光黄、颗粒 15%；森系绿饱和 -30；韩系高光粉、阴影灰；暗黑色温偏蓝</td><td>五套不能叠用。笔记没有写叠用后哪一组数字作废</td></tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card"><h3>把标题的 20 当成全部</h3><p>背到第四节就停，会漏掉第 5/7、6/7 页的光影和检查步骤。把六页都算进「20 条」，条数对不上。实际编号口诀是 30 条。</p></div>
+  <div class="card"><h3>阴影 +100 用进夜景</h3><p>第 1/7 页把欠曝的阴影写成 +100。第 4/7 页写夜景阴影不超过 +50，并配降噪 30～40。两条同时出现，说明 +100 不是通例。降噪没有单位，不能自行补成某个百分比。</p></div>
+  <div class="card"><h3>橙色一条用到底</h3><p>第 6/7 页说 HSL 橙色控制 80% 的肤色，这是作者的判断，图上没有样片。透亮用饱和 -10、明度 +15（第 1/7 页），偏红用饱和 -15（第 4/7 页），嘴唇改动红色饱和 +20、明度 -5（第 2/7 页）。先找橙色，不等于所有肤色问题都只动橙色。</p></div>
+  <div class="card"><h3>把 5% 当成模糊半径</h3><p>第 5/7 页写的是「高斯模糊 5%」和「透明度 30%」。百分号不能换成像素。衣服一条只写「降饱和 + 明度」（第 4/7 页），明度方向和数值都无法确认，不要补一个滑块。</p></div>
+  <div class="card"><h3>把错字改成成语再执行</h3><p>第 2/7 页是「眼神光是点晴笔」，「晴」不是「睛」，也没有「之」。做法仍是：局部提亮瞳孔高光，加冷白。冷白没有数字。</p></div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>七页都没有软件名。径向滤镜、渐变滤镜、HSL、S 曲线、色彩蒙版、画笔、柔光图层、高斯模糊混用，不能假定滑块刻度一致。<span class="page">第 1/7–5/7 页</span></li>
+    <li>没有前后对比。写了数字的只有：高光 -100、阴影 +100、橙明度 +15、橙饱和 -10、色相右偏 1～2、黑 -5、白 +5、红饱和 +20、红明度 -5、颗粒 15%、对比 -20、绿饱和 -30、绿明度 +10、色温 +10（出现两次）、红色相 +5、橙饱和 -15、阴影不超过 +50、降噪 30～40、色调 +5、模糊 5%、透明度 30%、暂停 3 秒、橙色 80%、放大 100%。其余「微黄、柔白、加粉、加灰、偏青、冷白」都没有数字。</li>
+    <li>第 5/7 页第 1 条、第 5 条和第 6/7 页第 1 条左引号缺失。第 6/7 页「暂停 3 秒」只有左括号。这些是版面问题，不改变句子里已经写明的动作。</li>
+    <li>第 7/7 页的 49/月、66 人、每周 3 小时、自己的电脑、按时交作业，是报名条件。它不证明前 30 条口诀能在 30 天内教到精通，也没有课程目录。</li>
+    <li>第 6/7 页「背景永远让步」没有例外。第 3/7 页五套风格却在改全图的暗部和高光。笔记没有写风景、静物或没有人物时这句是否还用。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <ol>
+    <li>先数页：要跟标题的 20，就只用第 1/7 到 4/7 页；第 5/7、6/7 页是额外的 10 条。不要把第 7/7 页算进口诀。</li>
+    <li>动滑块前先做两件事：写下这张照片要的情绪（第 6/7 页），再校正白平衡和曝光（第 1/7 页）。风格化五条（第 3/7 页）只选一套，不要五套叠加。</li>
+    <li>欠曝救阴影时，若是夜景人像，停在不超过 +50，并看降噪 30～40（第 4/7 页），不要直接用第 1/7 页的 +100。过曝的天空优先渐变压高光并偏蓝（第 4/7 页），不要先把全局高光打到 -100。</li>
+    <li>肤色发灰、发假白，先动橙色：明度 +15、饱和 -10、色相右偏 1～2（第 1/7 页）。皮肤偏红再改成红色相 +5、橙饱和 -15（第 4/7 页）。嘴唇单独用红色饱和 +20、明度 -5（第 2/7 页）。</li>
+    <li>每拉一次停 3 秒看整体是否失衡，最后放大到 100% 看皮肤、发丝、边缘（第 6/7 页）。背景只做减法：模糊、降饱和、天空压高光（第 1/7、4/7 页）。衣服「降饱和 + 明度」没有数字，看抢眼是否减弱即可，不要自填滑块。</li>
+  </ol>
+</div>
+    </div>
+  </foreignObject>
+</svg>

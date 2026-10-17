@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3362" viewBox="0 0 1320 3362">
+  <foreignObject x="0" y="0" width="1320" height="3362">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fff7ed,#ffedd5);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#b45309;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:18px;font-weight:700;color:#44403c;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#57534e;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f5f5f4;color:#78716c}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px;color:#44403c;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:stretch;padding:16px 0}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:14px;padding:14px 18px;text-align:center;min-width:150px;max-width:220px;font-weight:700;font-size:14px;color:#9a3412}
+.node small{display:block;font-weight:500;font-size:12px;color:#57534e;margin-top:6px}
+.node-green{background:#f0fdf4;border-color:#86efac;color:#166534}
+.node-red{background:#fef2f2;border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:22px;color:#d6d3d1;align-self:center}
+.sec{margin-bottom:8px}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card-red{border-left-color:#ef4444}
+.card-green{border-left-color:#16a34a}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #fed7aa;vertical-align:top;color:#57534e}
+.conclusion{background:linear-gradient(135deg,#9a3412,#b45309);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.25);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}</style>
+      
+<div class="container">
+  <h1>职场里一定要明白的事：被用，看的是管人</h1>
+  <div class="meta">
+    <span class="tag tag-orange">桶叨叨</span>
+    <span class="tag tag-orange">管人 vs 干活</span>
+    <span class="tag tag-gray">心腹 / 骨干</span>
+    <span class="tag tag-gray">6 页漫画</span>
+  </div>
+  <p class="summary-line">标题问「一定要明白的事」。六页给出的答案只有一条：领导想用你，就会让你带人、分担管理压力，并看你管人的能力。管得住一摊人，作者才称为心腹；只把自己的事干好，作者称为骨干。这是判断句的对照，不是晋升数据。</p>
+
+  <section class="map">
+    <h2>比较：同一条链上的两极</h2>
+    <div class="diagram">
+      <div class="node">第 1 页 想用你<small>下一句只有带人管人</small></div>
+      <div class="arrow">→</div>
+      <div class="node">第 2–4 页 怎么用<small>不干活，要盯人，还在看</small></div>
+      <div class="arrow">→</div>
+      <div class="node node-green">第 5 页 心腹<small>能管住一摊人</small></div>
+      <div class="arrow">∥</div>
+      <div class="node node-red">第 6 页 骨干<small>只把自己事儿干好</small></div>
+    </div>
+    <table>
+      <tr><th>页</th><th>上栏</th><th>下栏</th><th>作者把两句接成什么</th></tr>
+      <tr><td>1/6</td><td>领导想用你</td><td>会开始让你带人管人</td><td>被用的可见动作是带人管人</td></tr>
+      <tr><td>2/6</td><td>不是让你干活</td><td>是让你分担管理的压力</td><td>目的从执行换成分担管理</td></tr>
+      <tr><td>3/6</td><td>别只顾着带团队干活</td><td>要替他盯人 管着事</td><td>带团队干活被否定，盯人管事被要求</td></tr>
+      <tr><td>4/6</td><td>他在用你的时候</td><td>也在看你管人的能力</td><td>被看的点写成管人，不是产出</td></tr>
+      <tr><td>5/6</td><td>能管住一摊人的人</td><td>才能做心腹</td><td>条件句：管得住，才到心腹</td></tr>
+      <tr><td>6/6</td><td>只把自己事儿干好的人</td><td>只能当骨干</td><td>对照句：个人干好，停在骨干</td></tr>
+    </table>
+    <p>第 2 页下栏、第 3 页下栏、第 4 页上栏、第 5 页上栏都画了会议，白板英文是 MEETING；第 3、5 页还有 TOPIC 1、TOPIC 2。这些是场景，不是会议方法。第 6 页没有白板英文。衣服上是否有字无法确认。</p>
+  </section>
+
+  <section class="sec">
+    <h2>易错</h2>
+    <div class="card card-red">
+      <h3>把「想用你」读成加工资或只加活</h3>
+      <p>第 1 页上句是「领导想用你」，下句只有「会开始让你带人管人」。图上没有薪酬、头衔、资源。把「用」理解成别的好处，是读者补的，不是这页写的。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把「带团队干活」当成「管住一摊人」</h3>
+      <p>第 3 页上栏明确否定「只顾着带团队干活」，下栏改成「替他盯人 管着事」。第 5 页上栏才是「能管住一摊人的人」，并接到心腹。两句都有「人」，作者没有当成同一件事。站在白板前讲（第 3 页上）和坐在桌首开会（第 5 页上）也是两张图。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把「只能当骨干」读成做人失败</h3>
+      <p>第 6 页写的是去处：只把自己事儿干好的人，只能当骨干。它对照的是第 5 页的心腹，没有写骨干做错了事，也没有写骨干不被需要。下栏人物抱臂、神情收着，是画面语气，不是考核结论。</p>
+    </div>
+    <div class="card card-red">
+      <h3>把「分担管理的压力」当成岗位说明书</h3>
+      <p>第 2 页只说不是干活、是分担管理的压力。压力从哪来、分担多少、和原岗位什么关系，六页都没有。第 4 页说「也在看」，「也」字留着别的观察可能，但没有写出另一项是什么。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>边界</h2>
+    <ul>
+      <li>六页都是橙线漫画加判断句。没有行业、职级、人数、期限、失败案例。结论只在这些句子里成立。</li>
+      <li>「心腹」是关系词，「骨干」是作者给的上限称呼。图上没有写成公司职级，也不能反推成编制或汇报线。</li>
+      <li>第 3、4 页的「他」承接第 1 页的「领导」。没有第二个评价者。不能扩成整个组织都用这一条看人。</li>
+      <li>第 3 页要求盯人、管着事，但没有步骤、频率或例外。白板 TOPIC 1、TOPIC 2 不能当成盯人清单。</li>
+      <li>适合用来认出这套叙事：被用等于被要求管人，个人产出在作者这里到不了心腹。不适合当成管理动作手册，也不适合判断某次晋升是否公平。</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>动作</h2>
+    <ol>
+      <li>接到「带人」时，先用第 2 页和第 3 页分开两件事：对方是要你把团队的活干完，还是要你替他盯人、管着事。图上把前者否定、把后者写成目的。</li>
+      <li>用第 4 页看最近一次被使用：画面上栏是一个人对着 MEETING，下栏改成对人说话。若对方只问产出、不问你怎么对人，就还没进入这页说的「也在看管人的能力」。</li>
+      <li>用第 5 页和第 6 页先定目标。若目标是作者说的心腹，只把自己的事干好按第 6 页不够。若目标就是骨干，第 6 页认为这条路是够的，不必再解释成失败。</li>
+      <li>第 5 页的「才能」是作者的条件句，不是承诺。图上没有写管住了就一定成为心腹，也没有写没管住会怎样。不要把漫画条件当成结果保证。</li>
+      <li>要学具体怎么盯人、怎么开会，这六页给不出步骤。动作停在识别对方要的是哪一种，不从 MEETING 和 TOPIC 补流程。</li>
+    </ol>
+  </section>
+
+  <section class="conclusion">
+    <h2>结论</h2>
+    <p>这篇要人明白的，是作者把「被领导用」定义成管人，而不是把个人的事干好。第 1 页给出动作，第 2 到 4 页排除干活、改成盯人和被观察，第 5 页把管住一摊人接到心腹，第 6 页把只干好自己的事停在骨干。离开这六句判断，职级、公平和具体管法都无法从画里推出。</p>
+  </section>
+  <p class="footer">依据：图文笔记 6 页 · 桶叨叨 · 职场里一定要明白的事</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

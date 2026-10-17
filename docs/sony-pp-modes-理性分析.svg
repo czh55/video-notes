@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2342" viewBox="0 0 1320 2342">
+  <foreignObject x="0" y="0" width="1320" height="2342">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:30px;font-weight:900;color:#b45309;margin-bottom:8px}
+h2{font-size:20px;font-weight:700;color:#b45309;margin:22px 0 10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:22px;margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px;background:#fff}
+th,td{padding:8px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#b45309}
+.note{margin-top:10px}
+.box{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 16px;margin-top:8px}</style>
+      
+<h1>11 档记录方式，外加一个 PP Off</h1>
+<p>标题写 12 种。1/8、2/8、5/8 印出的编号是 PP1 到 PP11，2/8 写明「11 种 PP」。8/8 菜单多一项 PP Off，没有第 12 个编号。比较按图上印的分组来，不补黑电平或 ISO。</p>
+<h2>比较</h2>
+<table>
+<tr><th>页</th><th>这一页在比什么</th><th>图上的分界</th></tr>
+<tr><td>1/8、2/8</td><td>11 档怎么归组</td><td>直出 PP1–PP6；后期 PP7–PP9；HDR 是 PP10。PP11 单独写成电影色调直出。菜单里 PP3 与 PP4 都叫 ITU709（800%）</td></tr>
+<tr><td>2/8、5/8</td><td>PP3 和 PP4 的中文标签</td><td>PP3 是 ITU709 Gamma，符合 Rec.709，强调各设备显示更一致。PP4 是 ITU709 Color，饱和度略高，讨喜但不夸张。菜单英文名没有分开</td></tr>
+<tr><td>3/8、6/8</td><td>PP 和 Creative Look</td><td>PP 决定怎么记录：动态范围、色域、伽马、对比、细节，后期空间大，Log 最大。Creative Look 套在 PP 上，管颜色、对比、氛围；风格越强，可调空间越小</td></tr>
+<tr><td>4/8</td><td>名字各自指向什么</td><td>Cine 是电影亮度曲线；Log 压缩亮部、抬暗部；S-Log3 写成更宽动态范围、高光过渡更平滑，画面偏灰；HLG 面向 HDR 显示；S-Cinetone 少调色直出</td></tr>
+<tr><td>4/8、5/8</td><td>PP9 的名字</td><td>菜单写 S-Gamut3.Cine。5/8 这一行写成 S-Log3 加上 S-Gamut3.Cine，并说在 S-Log3 基础上扩大色域。4/8 示意图把 S-Gamut3.Cine 标成最大、S-Gamut3 标成更大、Rec.709 标成普通</td></tr>
+<tr><td>5/8</td><td>直出和必须调色</td><td>星标在 PP8 和 PP11。PP8 必须后期，灰片是特点。PP11 可少调色。PP1 拍完即可用。PP7 需要后期，但写成对后期要求较高，不是「最大」</td></tr>
+<tr><td>6/8</td><td>同一条链路的两头</td><td>例子：PP8 S-Log3 拍出来很灰，调色后空间大。PP1 + FL2 直出就有颜色。FL2 没有全称。流程是先选 PP，再加 Creative Look 或后期</td></tr>
+<tr><td>7/8、8/8</td><td>场景推荐前后不一致</td><td>7/8 旅行风景推 PP8，人像只推 PP11。8/8 城市 Walk、旅行风景推 PP OFF，人像是 PP OFF 或 PP11，大光比才是 PP8，商业项目是 S-Log3 / HLG</td></tr>
+</table>
+<h2>易错</h2>
+<div class="box">
+<ul>
+<li>按标题去找第 12 个编号。图上没有。8/8 的 PP Off 是关掉 PP，不是 PP12。</li>
+<li>看见菜单里 PP3、PP4 都是 ITU709（800%），就当成同一档。5/8 把 Gamma 和 Color 分开写了：一个求显示一致，一个把饱和度略为抬高。</li>
+<li>把第 6 页屏上的 PP1 Cinema Line、PP7 S-Log3，改写成其余页的 Movie 和 S-Log2。两套字都印在图上，不能并成一条。</li>
+<li>把 PP9 的菜单名 S-Gamut3.Cine 读成已经包含 S-Log3。5/8 才写「在 S-Log3 基础上」。4/8 只说与 S-Log3 配合使用。</li>
+<li>按示意图认定 S-Gamut3.Cine 一定比 S-Gamut3 大。那是 4/8 的图例用词，旁边没有体积数字。</li>
+<li>一上来就开 Log。7/8 写先学会曝光和构图。8/8 写先用 PP OFF 建立影调感觉，熟悉后再试 S-Log3。</li>
+<li>用 7/8 的旅行风景推荐去覆盖 8/8。7/8 是「光比大、要留细节」时的 PP8；8/8 同一类旅行风景改成 PP OFF，PP8 留给大光比 / 高反差。</li>
+<li>把 Creative Look 当成另一种 PP。6/8 写它套在已有记录上，风格越强，后期空间越小。</li>
+</ul>
+</div>
+<h2>边界</h2>
+<div class="box">
+<ul>
+<li>除 ITU709（800%）外，图上没有黑电平、ISO、曝光补偿、色域百分比。不能把「最大动态范围」换成一个档数。</li>
+<li>6/8 的菜单只显示到 PP7，角标 11/54。PP1 印 Cinema Line，PP7 印 S-Log3。1/8、2/8、7/8 的 PP1 是 Movie，PP7 是 S-Log2。机型和图上菜单版本无法确认。</li>
+<li>FL2 只出现在「PP1 + FL2」这个例子里，没有解释它是哪一项 Creative Look。</li>
+<li>8/8 的商业 / 电影项目只写 S-Log3 / HLG，没有再指定 PP 编号。HLG 在前面对应 PP10，这里没有写 PP10。</li>
+<li>8/8 菜单在 PP8 处截断，PP9–PP11 这一屏没印出来。PP Off 的具体伽马参数也没印。</li>
+<li>图内页码是 1/7 到 7/7，封面没有分数。引用用 1/8 到 8/8，对应八张图的顺序。</li>
+<li>页脚落款是「教舜」。笔记作者名是敖舜。两处写法不同，不把落款改成作者名。</li>
+</ul>
+</div>
+<h2>动作</h2>
+<div class="box">
+<ul>
+<li>打开影片拍摄菜单，按 2/8 的路径找到 PP，先数是不是 PP1 到 PP11，不要按标题去找第十二档。</li>
+<li>要拍完就发：在 7/8 的直接出片里选 PP1、PP2 或 PP11。若按 8/8 作者自己的日常，城市和旅行先用 PP OFF，人像可以改 PP11。</li>
+<li>光比大、要留高光和暗部：7/8 选 Log 或 HLG。8/8 把这一格收成 PP8（S-Log3）。播放设备支持 HDR 时，7/8 才选 PP10。</li>
+<li>要做专业调色：5/8 和 7/8 用 PP8，要更大色域再加 5/8 所写的 PP9。先接受灰片，再进后期。6/8 的例子是先记录、再调色，不是先套强风格。</li>
+<li>若还不会曝光和构图，停在 7/8 的小贴士和 8/8 的核心建议：先 PP OFF，熟悉影调后再试 S-Log3。</li>
+<li>要直出风格时，按 6/8：先定 PP，再加 Creative Look 或只做简单微调。例子是 PP1 + FL2，FL2 的具体项图上没有，不能自己填一个名字。</li>
+</ul>
+</div>
+<p class="note">支撑页：名单 1/8、2/8、5/8；PP 与 Creative Look 3/8、6/8；命名与色域图例 4/8；场景 7/8；PP Off 与个人选择 8/8。</p>
+
+    </div>
+  </foreignObject>
+</svg>

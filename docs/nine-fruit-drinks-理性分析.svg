@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4478" viewBox="0 0 1320 4478">
+  <foreignObject x="0" y="0" width="1320" height="4478">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,#fff7ed,#ffedd5);padding:48px 56px;color:#292524}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px}
+h2{font-size:22px;font-weight:800;color:#9a3412;margin:28px 0 12px}
+h3{font-size:17px;font-weight:700;color:#44403c;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:20px;margin:6px 0}
+.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+.meta{color:#78716c;font-size:13px;margin:8px 0 14px}
+.lead{font-size:17px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin:12px 0 18px}
+.map{background:#fff;border-radius:16px;padding:20px 22px;margin:12px 0 18px;box-shadow:0 2px 12px rgba(120,53,15,.06)}
+.diagram{display:flex;flex-wrap:wrap;gap:10px}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:180px;flex:1}
+.node b{display:block;color:#9a3412;margin-bottom:4px}
+.node span{font-size:13px;color:#57534e;line-height:1.55}
+.sec{margin-top:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;font-size:13px}
+th{background:#ffedd5;color:#9a3412;text-align:left;padding:8px 10px}
+td{padding:8px 10px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:5px solid #b45309;box-shadow:0 2px 10px rgba(120,53,15,.05)}
+.card.pit{border-left-color:#dc2626}
+.card.bound{border-left-color:#78716c}
+.card.act{border-left-color:#0f766e}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:2px 8px;margin-bottom:6px}
+.tag-c{background:#ffedd5;color:#9a3412}
+.tag-p{background:#fee2e2;color:#991b1b}
+.tag-b{background:#f5f5f4;color:#44403c}
+.tag-a{background:#ccfbf1;color:#115e59}
+.footer{margin-top:18px;color:#a8a29e;font-size:12px}</style>
+      
+<p class="kicker">理性分析 · 小红书图文 · 甄茶笔记&amp;大喜</p>
+<h1>9 款果香特调：先对骨架，再换果底</h1>
+<p class="meta">2026-10-17 · 图文 10 页 · 9 张配方卡 · nine-fruit-drinks</p>
+<p class="lead">标题和卡面都是 9 款。10 张图里，实录 1/10 是总览，2/10–10/10 才是可执行的单卡。椰子水不雪克；两款茶都用 220ml 茉莉绿茶汤，杯规却是 500ml 对 700ml；三款美式的咖啡都最后倒，克数并不相同；牛油果和榴莲可以共用抹杯骨架，生椰拿铁不能。</p>
+
+<div class="map">
+<h2>四组骨架</h2>
+<div class="diagram">
+<div class="node"><b>椰子水轻提拉</b><span>实录 2/10。500ml。果酱 30g 先用 50ml 椰子水拌开，椰子水共 250ml，冰约 200g，轻提拉 1 次。没有糖浆。</span></div>
+<div class="node"><b>雪克茶</b><span>实录 3/10 是 500ml，冰约 180g 补至 500ml 出品线。实录 4/10 是 700ml，柠檬 40g 先捶打，冰适量补至 700ml 刻度。茶汤都是 220ml。</span></div>
+<div class="node"><b>美式后加咖啡</b><span>实录 5/10–7/10。都是 500ml。水、直饮水、气泡水不能互换。浓缩或咖啡液都在加冰之后倒。</span></div>
+<div class="node"><b>椰奶后加浓缩</b><span>实录 8/10–10/10。都是 400ml、生椰奶 180ml。生椰拿铁冰至九分满、双份 36g；果泥两款冰至五分满、双份 20g，且先抹杯。</span></div>
+</div>
+</div>
+
+<div class="sec">
+<h2>比较：杯规、果底、糖、谁最后入杯</h2>
+<table>
+<thead><tr><th>款</th><th>实录</th><th>杯规</th><th>果底（卡面原文）</th><th>液体与糖</th><th>最后动作</th></tr></thead>
+<tbody>
+<tr><td>白荔椰子水</td><td>2/10 · 01/09</td><td>500ml 冰饮</td><td>荔枝果酱 30g</td><td>椰子水 250ml，无糖浆行</td><td>剩余椰子水加冰后，轻提拉 1 次</td></tr>
+<tr><td>白荔茉莉冰茶</td><td>3/10 · 02/09</td><td>500ml 冰饮</td><td>荔枝果酱 35g</td><td>茉莉绿茶汤 220ml，基础糖浆 10ml</td><td>雪克后倒入 500ml 杯；薄柠檬不摇打</td></tr>
+<tr><td>海盐荔枝柠檬茶</td><td>4/10 · 03/09</td><td>700ml 冰饮</td><td>香水柠檬 40g，荔枝果酱 35g</td><td>茉莉绿茶汤 220ml，海盐糖浆 10ml，基础糖浆 15ml</td><td>补冰至 700ml 刻度后雪克出品</td></tr>
+<tr><td>白玉荔枝美式</td><td>5/10 · 04/09</td><td>500ml 冰饮</td><td>荔枝果酱 40g</td><td>纯净水 200ml，无糖浆行</td><td>冰至 8 分满后，倒入印成双份 20g 的浓缩</td></tr>
+<tr><td>话梅冰美式</td><td>6/10 · 05/09</td><td>500ml 冰饮</td><td>海盐话梅果酱 30g，话梅 1 颗</td><td>直饮水 180ml，无糖浆行</td><td>冰至九分满后倒咖啡液 36g</td></tr>
+<tr><td>西柚气泡美式</td><td>7/10 · 06/09</td><td>500ml 冰饮</td><td>西柚果酱 30g，西柚果干片 1 片</td><td>气泡水 200ml，专用糖浆 10ml</td><td>冰至八分满后加装饰，再加浓缩 36g</td></tr>
+<tr><td>生椰拿铁</td><td>8/10 · 07/09</td><td>400ml 冰饮</td><td>无果酱、无果泥</td><td>生椰奶 180ml，糖浆 10ml</td><td>冰至九分满后加印成双份 36g 的浓缩</td></tr>
+<tr><td>牛油果椰拿铁</td><td>9/10 · 08/09</td><td>400ml 冰饮</td><td>牛油果泥 50g，先抹杯</td><td>生椰奶 180ml，糖浆 5ml，量杯搅匀</td><td>冰至五分满，浓缩印成双份 20g，最后加</td></tr>
+<tr><td>榴莲椰拿铁</td><td>10/10 · 09/09</td><td>400ml 冰饮</td><td>榴莲泥 35g，先抹杯</td><td>生椰奶 180ml，糖浆 5ml，量杯搅匀</td><td>冰至五分满，浓缩印成双份 20g，最后加</td></tr>
+</tbody>
+</table>
+<p>荔枝果酱在四张卡上不是同一个数：30g（实录 2/10）、35g（3/10 和 4/10）、40g（5/10）。茉莉绿茶汤 220ml 只出现在 3/10 和 4/10。咖啡侧的 36g 出现两次，写法不同：6/10 是咖啡液 36g，7/10 是浓缩咖啡 36g，8/10 是双份 36g。双份 20g 出现在 5/10、9/10、10/10。</p>
+</div>
+
+<div class="sec">
+<h2>易错</h2>
+<div class="card pit">
+<p class="tag tag-p">把 10 页当成 10 款</p>
+<p>实录 1/10 的页脚是 01/09 到 09/09 的缩略，不是第 10 杯。按单卡做，停在榴莲椰拿铁。缩略字小，克数以 2/10–10/10 为准。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">双份 20g 乘成 40g，双份 36g 乘成 72g</p>
+<p>实录 5/10 印的是「双份 20g 意式浓缩咖啡液」。实录 8/10 印的是「双份 36g」。实录 9/10、10/10 印的是「双份 20g」。卡面都没有写两份各多少克。按印出来的那一个数称。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">两款茶当成同一杯放大</p>
+<p>实录 3/10 和 4/10 的茉莉绿茶汤都是 220ml，果酱都是 35g。3/10 是基础糖浆 10ml、冰约 180g 补至 500ml 出品线、薄柠檬不摇打。4/10 多了香水柠檬 40g、海盐糖浆 10ml、基础糖浆 15ml，冰只写适量并补至 700ml 刻度，还要先捶打至断皮。不能把 500ml 那张的冰重抄到 700ml。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">三种水抄混</p>
+<p>实录 2/10 是椰子水 250ml。实录 5/10 是纯净水 200ml。实录 6/10 是直饮水 180ml。实录 7/10 是气泡水 200ml。杯规都写过 500ml，液体名称和毫升都不同。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">生椰拿铁走抹杯</p>
+<p>抹杯、量杯、五分满、糖浆 5ml、双份 20g 只印在实录 9/10 和 10/10。实录 8/10 是杯中搅生椰奶和 10ml 糖浆，冰至九分满，双份 36g，没有果泥。</p>
+</div>
+<div class="card pit">
+<p class="tag tag-p">36g 在三张卡上当成同一种咖啡</p>
+<p>实录 6/10 写咖啡液 36g，没有写双份，也没有写意式浓缩。实录 7/10 写浓缩咖啡 36g，做法是加入 36g 浓缩咖啡。实录 8/10 才写双份 36g。话梅和西柚都不要再加一个「双份」。</p>
+</div>
+</div>
+
+<div class="sec">
+<h2>边界</h2>
+<div class="card bound">
+<p class="tag tag-b">杯规不是液体加总</p>
+<p>400ml、500ml、700ml 是规格行。冰占体积。椰子水只有约 200g 冰，茉莉冰茶只有约 180g 冰；其余卡写适量、8 分满、八分满、九分满或五分满，没有克数。不要为了凑杯规去改卡面毫升，也不要把「约」收成精确克数。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">先拌用的 50ml 没有余量毫升</p>
+<p>实录 2/10 先用 50ml 椰子水拌果酱，再加剩余椰子水；配方栏椰子水一共 250ml，余量没有另印。实录 3/10 先用 50ml 茉莉绿茶拌果酱，再加剩余茶汤；配方栏茶汤一共 220ml，余量没有另印。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">可替换项没有补全</p>
+<p>实录 5/10 写可将 50ml 纯净水换成茶汤，没有写茶的种类和温度。实录 7/10 配方栏是西柚果干片 1 片，做法第 2 步是一片西柚片装饰，两处是否同一片，图上没有说明。</p>
+</div>
+<div class="card bound">
+<p class="tag tag-b">未印的参数不要补</p>
+<p>茶汤叶量、水温、浸泡时间、浓缩萃取秒数、椰子水开封标准、基础糖浆和专用糖浆的品牌、轻提拉的工具、捶打次数，十页都没有。九款全是冰饮，没有热饮温度。总览缩略不作为克数来源。</p>
+</div>
+</div>
+
+<div class="sec">
+<h2>动作</h2>
+<div class="card act">
+<p class="tag tag-a">换果之前先念四样</p>
+<p>杯规、果底单位、糖浆是哪一种、最后入杯的是椰子水、雪克茶、浓缩还是咖啡液。四样里有一项不同，就不要整卡复制。牛油果和榴莲这四样里只有果泥克数不同，可以只换 50g 或 35g。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">椰子水和两款茶分开做</p>
+<p>实录 2/10：果酱 30g + 50ml 椰子水拌匀，再加剩余椰子水（配方合计 250ml）和约 200g 冰，轻提拉 1 次，不雪克。实录 3/10：果酱 35g + 50ml 茉莉绿茶拌开，再加剩余茶汤（配方合计 220ml）、基础糖浆 10ml、约 180g 冰并补到 500ml 出品线，雪克后倒入 500ml 杯，薄柠檬不摇打。实录 4/10：香水柠檬 40g 加少量冰捶到断皮，再加果酱 35g、海盐糖浆 10ml、基础糖浆 15ml、茶汤 220ml，补冰到 700ml 刻度后雪克。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">三张美式都是先拌底、再加冰、最后咖啡</p>
+<p>实录 5/10：40g 果酱 + 200ml 纯净水，冰至 8 分满，倒入卡面所印的双份 20g；若换茶，只换其中 50ml 纯净水。实录 6/10：30g 果酱 + 180ml 直饮水，话梅 1 颗，冰至九分满，咖啡液 36g。实录 7/10：30g 果酱 + 200ml 气泡水 + 专用糖浆 10ml，冰至八分满，再加装饰和浓缩 36g。</p>
+</div>
+<div class="card act">
+<p class="tag tag-a">三张椰拿铁按有没有抹杯分开称</p>
+<p>实录 8/10：杯中搅匀生椰奶 180ml 和糖浆 10ml，冰至九分满，加入卡面所印的双份 36g。实录 9/10：50g 牛油果泥先抹杯，冰至五分满，量杯搅匀 180ml 生椰奶和 5ml 糖浆后倒入，双份 20g 最后加。实录 10/10 只把果泥换成 35g 榴莲泥，其余按 9/10。</p>
+</div>
+</div>
+<p class="footer">用量摘自单卡印字。总览缩略不作为克数来源。原笔记 https://xhslink.cn/o/1MV0o9QNAaz</p>
+
+    </div>
+  </foreignObject>
+</svg>

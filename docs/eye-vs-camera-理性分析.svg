@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4326" viewBox="0 0 1320 4326">
+  <foreignObject x="0" y="0" width="1320" height="4326">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:700;color:#9a3412;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul{padding-left:22px}
+.meta{color:#78716c;font-size:13px;margin:8px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.map{background:#fff;border-radius:18px;padding:22px;margin-bottom:8px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.node{background:#fff7ed;border:2px solid #fdba74;border-radius:12px;padding:12px 14px;min-width:120px;font-weight:700;font-size:14px;color:#9a3412;text-align:center}
+.arrow{color:#d6d3d1;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top}
+.card{background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;border-left:5px solid #b45309}
+.card h3{font-size:16px;color:#9a3412;margin-bottom:8px}
+.pg{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:16px 0 4px}</style>
+      
+<div class="container">
+  <h1>人眼在合成，相机在记光子</h1>
+  <p class="meta">理性分析 · 徐贰懂 · 图文 10 页 · 2026-10-17</p>
+  <p class="lede">拍出来没有眼睛看震撼，笔记收成大脑欺骗：晚霞发灰、白纸发黄、全视野「清晰」、运动被冻结或涂抹、人像少了当时的感觉，都发生在合成之后。相机侧始终是单次曝光落到 CMOS 上的光子。图上印出的动态范围只有大约 20 档、大约 14 档、顶级 15-16 档、瞬时 6-7 档；视场只印了中央凹大约 2 度。</p>
+
+  <div class="map">
+    <div class="diagram">
+      <div class="node">晚霞发灰<br/>1/10</div>
+      <div class="arrow">→</div>
+      <div class="node">20 档是感觉<br/>2/10–3/10</div>
+      <div class="arrow">→</div>
+      <div class="node">白纸被翻译<br/>4/10–5/10</div>
+      <div class="arrow">→</div>
+      <div class="node">只有中央凹<br/>5/10–6/10</div>
+      <div class="arrow">→</div>
+      <div class="node">60 帧对 1 帧<br/>7/10–8/10</div>
+      <div class="arrow">→</div>
+      <div class="node">脸留下，背景也留下<br/>8/10–10/10</div>
+    </div>
+  </div>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>对照</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>记录 vs 美化</td><td>相机不带感情地记录落到 CMOS 上的每一个光子；眼睛和大脑在生物上美化所看见的</td><td>2/10</td></tr>
+    <tr><td>感觉里的动态范围 vs 单次曝光</td><td>瞳孔和感光细胞实时调整，感觉到大约 20 档。旗舰全幅单次大约 14 档，顶级 15-16 档。单次注视其实只有 6-7 档；20 档是瞳孔调整＋眼球扫描＋大脑合成</td><td>2/10、3/10</td></tr>
+    <tr><td>一张 vs 一秒钟几十张</td><td>相机只能拍一张。大脑拍一秒钟几十张不同曝光，合成「HDR全景拼接视频流」。「几十张」没有具体帧数</td><td>3/10</td></tr>
+    <tr><td>逐区域补偿 vs 全图一个值</td><td>暖黄灯下大脑把白纸「翻译」成白色；红、绿通道信号比蓝多，相机记录为黄色。混合光是窗外日光＋室内暖光。手动白平衡在模拟大脑，自动白平衡是基于平均值、全图一个补偿值</td><td>4/10、5/10</td></tr>
+    <tr><td>中央凹 vs 全域像素</td><td>清晰区只有中央凹，直径约 1.5mm，大约只占视野 2 度，密集视锥。凹外是视杆，对颜色不敏感。相机写 2000 万、3000 万、5000 万像素，全域均匀，中心和边缘看镜头光学素质</td><td>5/10、6/10</td></tr>
+    <tr><td>积分 vs 采样</td><td>眼睛用连续积分：光弱时视紫红质再生变慢，积分变长，等同快门变慢；光足时积分变短。相机是固定时间窗口里的离散采样</td><td>7/10</td></tr>
+    <tr><td>生物视频 vs 抽出的一帧</td><td>短曝光把运动冻结成肉眼没见过的瞬间，长曝光涂抹成没见过的残影。大脑平滑插值，每秒补 60 帧；相机给那 1 帧原始数据，不带插值、运动补偿和修饰</td><td>8/10</td></tr>
+    <tr><td>注意力 vs 镜头范围内全记</td><td>脸保留，桌子、窗帘、身后的人被边缘化。相机没有注意力，拍到脸、几把椅子和一个凌乱背景。9/10 写当时的感觉里有一半信息被主动过滤</td><td>8/10、9/10</td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>晚霞发灰就怪机身、参数或技术</h3>
+    <p>1/10 把三个怀疑并列，然后否定：并非，实则是大脑欺骗了你。2/10 写相机没有任何问题。3/10 的收束是现在的技术不可能用一台机器模拟演化了百万年的生物神经网络，不是「再买一台旗舰就有 20 档的单次注视」。</p>
+  </div>
+  <div class="card">
+    <h3>把大约 20 档当成眼睛一次就能记下的动态范围</h3>
+    <p>2/10 的 20 档修饰语是「感觉到」。3/10 写明单次注视只有 6-7 档，20 档来自瞳孔、扫描和合成。同一页把 20 档与 14 档写成信息量几乎是相机的 4 倍。这是原句，不是把 6 档差再换算成的倍数。</p>
+  </div>
+  <div class="card">
+    <h3>肉眼觉得正常，就以为现场颜色和清晰度也是那样</h3>
+    <p>5/10：混合光源下自动白平衡会疯掉，肉眼觉得一切正常，因为大脑逐区域补偿，相机全图只有一个值。同一页说整个屏幕都清晰是错觉，真正清晰只有中央凹大约 2 度。6/10 把全视野清晰写成扫视快照拼出来的假象。</p>
+  </div>
+  <div class="card">
+    <h3>拍糊了，就以为当时眼睛看到的也是糊的</h3>
+    <p>8/10 直接写：「拍出来是糊的」，不代表眼睛看的时候是糊的。短曝光的锐利静止帧和长曝光的残影，都是肉眼没见过的样子。生物视觉系统每秒补 60 帧，相机只给 1 帧。</p>
+  </div>
+  <div class="card">
+    <h3>照片没有当时的感觉，是因为少拍了情绪</h3>
+    <p>9/10 的机制是多拍了：相机把感觉里不存在的垃圾也拍下来，例子是几把椅子和一个凌乱背景。过滤发生在大脑，比例写成「一半」，没有测量。10/10 把终点写成主观的「生物增强现实」，相机是光子分布、颜色比例和运动轨迹的镜子。</p>
+  </div>
+
+  <h2>边界</h2>
+  <ul>
+    <li>动态范围只印了大约 20 档（2/10）、大约 14 档与顶级 15-16 档、瞬时 6-7 档（3/10）。没有机型，没有第三组档位。</li>
+    <li>视场只印了中央凹大约 2 度、直径约 1.5mm（5/10）。没有全视野角度，不要补一个总视场。</li>
+    <li>3/10 的「4倍」停在原句。20 与 14 的档差不要再写成别的信息量倍数。</li>
+    <li>「一秒钟几十张」（3/10）不是帧率。「无数次」微跳动（6/10）没有次数。60 帧和 1 帧只出现在 8/10。</li>
+    <li>2000 万、3000 万、5000 万（6/10）是像素举例，没有绑定某台相机，也没有中心到边缘的分辨率曲线。</li>
+    <li>9/10「一半」没有样本。该页原文是「这是因为因为」，重复的「因为」按图面保留。</li>
+    <li>7/10 断在「如果曝光时间太」，8/10 断在「做了一次信」，9/10 断在「全域拼」。跨页才能读完，页末半句本身不是结论。</li>
+    <li>图上没有开尔文、快门秒数、光圈或包围曝光步骤。百万年、几百万年是两页里的演化说法（3/10、5/10），不是年代考证。</li>
+  </ul>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>高反差发灰时，先分开「感觉」和「单次曝光」</h3>
+    <p>1/10 的晚霞和 2/10 的山洞是同一类场面：眼睛同时给了暗部和亮部。核对 3/10：单次曝光感光度固定，满阱容量是上限，旗舰全幅大约 14 档。不要把 2/10 的大约 20 档当成这一张的指标。</p>
+  </div>
+  <div class="card">
+    <h3>白纸发黄时，白平衡只模拟全图那一个补偿</h3>
+    <p>4/10 的判据是红、绿通道多于蓝，相机记成黄色；大脑参考天花板、墙壁、阴影后反向减黄。5/10 的操作含义：手动白平衡是在模拟这套补偿；窗外日光＋室内暖光时，自动白平衡仍是全图一个值，不会像大脑那样逐区域。</p>
+  </div>
+  <div class="card">
+    <h3>用中央凹的 2 度检查「是不是全画幅都清楚」</h3>
+    <p>5/10 印的清晰区只有约 2 度、约 1.5mm。6/10 说边缘是视杆，全视野清晰来自扫视拼接；相机中心和边缘一起看镜头光学素质。觉得壮美画面拍平了，先停在「大脑渲染得太好」，而不是先判镜头差。</p>
+  </div>
+  <div class="card">
+    <h3>运动画面用 8/10 的两极对照，不用眼睛的连续感当快门</h3>
+    <p>7/10 只建立积分和采样的差别，快门秒数要到 8/10 才有方向：太短会冻结出没见过的瞬间，太长会涂抹成没见过的残影。糊的那一帧对面是每秒 60 帧里抽出的 1 帧，不能反推成「当时看起来就是糊的」。</p>
+  </div>
+  <div class="card">
+    <h3>人像少了感觉时，先数画面里多出来的背景</h3>
+    <p>8/10 到 9/10：注意力会把桌子、窗帘、身后的人边缘化，相机会把脸、椅子和凌乱背景一起记下。拍摄时自己做取舍，因为图上写相机没有注意力，也不会过滤那「一半」。</p>
+  </div>
+  <p class="footer">依据十页图面文字 · eye-vs-camera</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

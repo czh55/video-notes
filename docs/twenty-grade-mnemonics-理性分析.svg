@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3300" viewBox="0 0 1320 3300">
+  <foreignObject x="0" y="0" width="1320" height="3300">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#1c1917}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;font-weight:900;color:#9a3412;line-height:1.35;margin-bottom:8px}
+.sub{font-size:15px;color:#78716c;margin-bottom:16px}
+h2{font-size:22px;color:#9a3412;margin:26px 0 12px}
+p,li{font-size:15px;line-height:1.7;color:#44403c}
+ul{margin:6px 0;padding-left:1.2em}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:8px 0 12px}
+th,td{border-bottom:1px solid #fed7aa;text-align:left;padding:10px 12px;font-size:14px;line-height:1.55;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin:0 0 12px;border-left:4px solid #ea580c}
+.card h3{font-size:17px;margin-bottom:6px;color:#1c1917}
+.page{font-weight:700;color:#b45309}
+.footer{margin-top:22px;font-size:13px;color:#a8a29e}
+</style>
+      <div class="wrap">
+  <h1>25 条口诀，标题写着 20</h1>
+  <p class="sub">理性分析 · 小艾教修图 · 六页图文 · 2026-10-17</p>
+  <p>标题承诺「懂原理才能修好图」，正文前五页是编号口诀，第 6 页是招生。能称为原理的，是谁先谁后、亮部和暗部分工、人物和背景谁让路。第 4 页的数字没有软件和单位，不能当成原理已经落地。</p>
+
+  <h2>比较</h2>
+  <table>
+    <tr><th>放在一起看</th><th>图上怎么写</th><th>页</th></tr>
+    <tr><td>条数</td><td>标题和每页顶栏都是「调色20口诀」。第 1 到第 5 页各 5 条，合计 25 条。第 6 页零条。</td><td><span class="page">1/6–6/6</span></td></tr>
+    <tr><td>光和色谁先</td><td>第 1 页按受光面暖、背光面冷来染色。第 5 页写成「调色先调光，无光不成色」。第 4 页改成按高光/阴影分区填风格色，不再问光从哪来。</td><td><span class="page">1/6、4/6、5/6</span></td></tr>
+    <tr><td>人物和背景</td><td>第 2 页：背景降明度变冷，人物提亮变微暖。第 3 页：头发降饱和，亮色衣服时背景用米白、浅灰或低饱和互补。第 5 页：人物为主，色彩为仆。</td><td><span class="page">2/6、3/6、5/6</span></td></tr>
+    <tr><td>肤色怎么动</td><td>第 2 页冷唇暖肤，只给暖橘配冷玫红。第 3 页在橙色里对调：加明度减饱和是通透，减明度加饱和是质感。第 4 页赛博一条要求中间调留肤色。</td><td><span class="page">2/6、3/6、4/6</span></td></tr>
+    <tr><td>有没有数字</td><td>第 2 页没有数字。有数字的是第 1 页补色 10% 以内、第 3 页纹理 10%、第 4 页整页配比、第 5 页青灰 2%。</td><td><span class="page">1/6、3/6、4/6、5/6</span></td></tr>
+    <tr><td>色温两个例子</td><td>悲伤写成低色温蓝灰，回忆写成高色温黄绿。口诀后半句是「故事看色调」，两个例子都还是冷暖倾向。</td><td><span class="page">2/6</span></td></tr>
+  </table>
+
+  <h2>易错</h2>
+  <div class="card">
+    <h3>按标题背 20 条，会少背一页</h3>
+    <p>前五页是 25 条。多出来的不是第 6 页，第 6 页是「30 天、66 人、49/月」。少掉的 5 条如果从标题倒推，图上对不上。<span class="page">依据 1/6–6/6 的编号。</span></p>
+  </div>
+  <div class="card">
+    <h3>把「低色温蓝灰」当成开尔文</h3>
+    <p>第 2 页原句是悲伤用低色温蓝灰、回忆用高色温黄绿。开尔文里数值低偏暖、数值高偏冷，和这句的蓝、黄对不上。图上没有声明它用的是哪一种色温。<span class="page">依据 2/6 第 4 条。</span></p>
+  </div>
+  <div class="card">
+    <h3>第 4 页的数字可以直接打进滑块</h3>
+    <p>曝光 +1、对比 -20、暗部 15% 青蓝、高光 5% 暖黄、红饱和 +30、品红（255,0,150）、青（0,200,200）、灰粉（R220, G200, B210）都写在第 4 页。没有软件名，+1 和 -20 没有单位，百分比没有基准档。照抄会把「方向」做成另一套参数。<span class="page">依据 4/6 五条。</span></p>
+  </div>
+  <div class="card">
+    <h3>风格色盖过第 1 页的光向</h3>
+    <p>第 1 页说色往受光面和背光面染。第 4 页赛博是高光品红、阴影青，港风是红饱和和暗部墨绿，都不问现场光从哪边来。两页同时用，光向和风格分区会抢同一块颜色。<span class="page">依据 1/6 第 3 条、4/6 第 3、4 条。</span></p>
+  </div>
+  <div class="card">
+    <h3>第 5 页第 1 条当成完整论证</h3>
+    <p>原句停在「否则画面平淡，」。逗号后面没有为什么平淡、平淡之后怎么改。<span class="page">依据 5/6 第 1 条。</span></p>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card">
+    <ul>
+      <li>六页都没有修前修后，口诀是否「修好图」图上没有对照。</li>
+      <li>HSL 只出现在第 3 页肤色和发色。不能把第 4 页的 RGB 和百分比说成同一个 HSL 面板。</li>
+      <li>10% 出现两次，意思不同：第 1 页是暗部补色饱和度的上限，第 3 页是磨皮后再加的纹理。不能合成一个 10% 滑块。</li>
+      <li>2% 青灰只写「黑色混」，没有写黑位、阴影还是曲线上的黑点。</li>
+      <li>第 6 页的 49/月没有写币种和包含什么；每周 3 小时、30 天、66 人是招生条件，不是调色步骤。</li>
+      <li>第 1 页第 5 条末尾图上没有句号，不影响句意。</li>
+    </ul>
+  </div>
+
+  <h2>动作</h2>
+  <div class="card">
+    <h3>先看光，再决定颜色往哪边</h3>
+    <p>按第 5 页先把光影分开，再按第 1 页：受光面偏暖（侧光的例子是加橙），背光面补冷；高光用一点青或蓝，阴影用灰棕或墨绿。逆光先降灰雾，暗部补色饱和度停在 10% 以内。<span class="page">1/6 第 1、3、4 条；5/6 第 1 条。</span></p>
+  </div>
+  <div class="card">
+    <h3>人物和背景用明度、冷暖分开</h3>
+    <p>背景降明度并偏冷，人物提亮并略暖。衣服若是亮色，背景用米白、浅灰，或把互补色饱和度降下。头发太艳，就降饱和往灰里收，例子是红变棕红。撞色时只降一边的明度，例子是暗红配灰绿。<span class="page">2/6 第 2、5 条；3/6 第 3、4 条。</span></p>
+  </div>
+  <div class="card">
+    <h3>肤色只在橙色里对调明度和饱和</h3>
+    <p>通透：加明度、减饱和。要纹理：减明度、加饱和。磨皮之后按图上再加 10% 纹理。眼神高光用冷白，例子是青蓝，避开死白。唇色若要和暖肤分开，用冷玫红。<span class="page">2/6 第 1 条；3/6 第 1、2、5 条。</span></p>
+  </div>
+  <div class="card">
+    <h3>风格数字先标成「未注明软件」</h3>
+    <p>若要试第 4 页，只把原句当备忘：暗部 15% 青蓝、高光 5% 暖黄、中间调微绿；日系是曝光 +1、对比 -20、阴影青绿；赛博高光（255,0,150）、阴影（0,200,200）且中间调留肤色；港风红饱和 +30、黄偏橙、暗部墨绿噪点；奶油是降对比、高光乳白、阴影灰粉（R220, G200, B210）。换软件之前不要改这些数。<span class="page">4/6。</span></p>
+  </div>
+  <div class="card">
+    <h3>颜色发脏时先查亮暗是否一致</h3>
+    <p>第 5 页第 2 条：显脏先查明度，把明度统一后再提纯度。暗部不要死黑，按图上给黑混 2% 青灰。过曝高光加蓝或品红，不继续加白。<span class="page">5/6 第 2、3、4 条。</span></p>
+  </div>
+
+  <p class="footer">依据只来自这六页图。短链见图文实录。第 4 页数字未换算、未补单位。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

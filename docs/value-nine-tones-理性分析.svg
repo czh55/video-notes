@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3327" viewBox="0 0 1320 3327">
+  <foreignObject x="0" y="0" width="1320" height="3327">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 56px}
+h1{font-size:32px;line-height:1.35;color:#1c1917;margin-bottom:8px}
+h2{font-size:22px;color:#9a3412;margin:28px 0 12px;padding-bottom:6px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;color:#1c1917;margin:0 0 8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:1.2em;margin:0}
+li{margin:0 0 6px}
+.kicker{font-size:13px;letter-spacing:.06em;font-weight:700;color:#b45309;margin-bottom:8px}
+.meta{font-size:13px;color:#78716c;margin-bottom:14px}
+.meta a{color:#b45309;text-decoration:none}
+.lede{font-size:16px;line-height:1.75;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:16px 18px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 2px 12px rgba(180,83,9,.06)}
+.card.wide{grid-column:1 / -1}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:#9a3412;background:#ffedd5;border-radius:999px;padding:2px 8px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;font-size:14px}
+th{text-align:left;background:#ffedd5;color:#9a3412;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid #fed7aa;vertical-align:top;color:#44403c;line-height:1.65}
+.page{font-weight:700;color:#b45309;white-space:nowrap}
+.foot{margin-top:22px;font-size:12px;color:#a8a29e}</style>
+      
+<div class="wrap">
+  <p class="kicker">理性分析 · 小红书 · 留晞*</p>
+  <h1>一张图，彻底记住明度九调</h1>
+  <p class="meta">2026-10-17 · 图文 3 页 · <a href="https://xhslink.cn/o/1F9XfsjbYMM">原文短链</a></p>
+  <p class="lede">九宫的行是亮度，列是对比。第 2 页只收窄区间，第 3 页只平移区间。正文里的鲁昂大教堂不在这三页上。</p>
+
+  <h2>比较</h2>
+  <table>
+    <thead><tr><th>同一问题</th><th>怎么变</th><th>什么不动</th><th>页</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>横向走</td>
+        <td>最亮与最暗互相靠近，区间收窄。高调行把暗部提亮，最重的黑变成灰，收到亮域；中调行两端向中间聚拢；低调行标出「压」「暗」，并写只留一点光当锚点。</td>
+        <td>区间的位置，也就是这一行的亮度。</td>
+        <td class="page">第 2 页</td>
+      </tr>
+      <tr>
+        <td>纵向走</td>
+        <td>整个明度区间平行下移。高调到中调写「整体能量下沉」；中调到低调写「整体加深，但保留少量亮部作为视觉锚点」。</td>
+        <td>区间宽度，也就是这一列的对比。</td>
+        <td class="page">第 3 页</td>
+      </tr>
+      <tr>
+        <td>亮度（高 / 中 / 低）</td>
+        <td>大脑第一眼：亮起来，还是沉下去。第 1 页三行标成整体亮、整体灰、整体暗。第 3 页副题说它管整体能量。</td>
+        <td>不负责层次疏密。口诀前半句是「亮度管整体」。</td>
+        <td class="page">第 1、3 页</td>
+      </tr>
+      <tr>
+        <td>对比（长 / 中 / 短）</td>
+        <td>眼睛能读出多少信息。列脚从「对比强」到「对比弱」。第 1 页底轴写「对比 · 管层次密度」。第 2 页副题说同一亮度下明度差怎么收。</td>
+        <td>不负责整幅是亮是暗。口诀后半句是「对比管层次」。</td>
+        <td class="page">第 1、2 页</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>易错</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 2 页对第 3 页</span>
+      <h3>把收窄当成下移</h3>
+      <p>横向是最亮和最暗靠近，位置不变。纵向是整段平行下移，宽度不变。画灰了却还在拉黑白，或想压暗却在收对比，两页的操作是反的。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1 页</span>
+      <h3>「中调」只有一个意思</h3>
+      <p>中调同时是行名（整体灰）和列名（对比中）。中中调才是又灰又窄。只说「中调」时，要先问它在行上还是在列上。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1 页口诀</span>
+      <h3>短调等于没画完</h3>
+      <p>短调是对比弱、层次密度低，不是画面未完成，也不是更暗。低短调仍然落在低调那一行，暗是亮度，短是对比。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2 页对第 3 页</span>
+      <h3>锚点句用错方向</h3>
+      <p>第 2 页低调旁注「只留一点光，当视觉锚点」，说的是横向收对比。第 3 页「保留少量亮部作为视觉锚点」，说的是纵向下移时宽度仍在。两句都留亮点，一个在收对比，一个在保对比。</p>
+    </div>
+    <div class="card wide">
+      <span class="tag">正文，不在图上</span>
+      <h3>用九宫格去对鲁昂大教堂</h3>
+      <p>正文说同一座教堂画了三十多遍，变的是光落进不同明度区间，并预告下一篇才分析。这三页没有教堂，不能把某一格说成某一次写生的实测明度。</p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">三页格子</span>
+      <h3>没有刻度</h3>
+      <p>九格是同一座山岩的灰度示意。没有 0–10、百分比或直方图。长、中、短只说明区间宽窄，不给出最亮与最暗相差多少级。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 2 页竖排</span>
+      <h3>旁注只能确认半句</h3>
+      <p>高调行确认到「暗部逐步提亮——最重的黑变成灰，画面收进亮域」。中调行确认到「两端向中间聚拢——明度差一步步收」和「向灰窄」。低调行确认到「只留一点光，当视觉锚点」，以及被标出的「压」「暗」。起首是否有「灰、」，无法确认。</p>
+    </div>
+    <div class="card">
+      <span class="tag">第 1、3 页</span>
+      <h3>看不清的标签不补</h3>
+      <p>第 1 页底轴确认「强」指向「弱」，轴文是「对比 · 管层次密度」，左下有「暗」。是否还有「亮」，无法确认。第 3 页左侧是否另印「高调 / 中调 / 低调」，无法确认，行以格子名和两句箭头为准。</p>
+    </div>
+    <div class="card">
+      <span class="tag">只谈明度</span>
+      <h3>不含色相和纯度</h3>
+      <p>三页都是灰度。正文说的印象派灰调，指的是对比长短藏在统一亮度里，不是一套配色配方。没有颜料比例，也没有软件滑块。</p>
+    </div>
+  </div>
+
+  <h2>动作</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">第 1 页</span>
+      <h3>先点格，再决定动哪根轴</h3>
+      <ul>
+        <li>先看落在高、中、低哪一行：整体是亮、灰还是暗。</li>
+        <li>再看落在长、中、短哪一列：对比是强、中还是弱。</li>
+        <li>口诀分开用：要改气氛走亮度，要改层次走对比。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 2 页</span>
+      <h3>只收对比时，锚住这一行</h3>
+      <ul>
+        <li>高调：暗部逐步提亮，最重的黑变成灰，画面收进亮域。</li>
+        <li>中调：两端向中间聚拢，明度差一步步收，向灰窄。</li>
+        <li>低调：压暗，只留一点光当视觉锚点。起首几字无法确认，不要自行补成完整口令。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">第 3 页</span>
+      <h3>只改亮度时，保住区间宽度</h3>
+      <ul>
+        <li>整段平行下移，不把长调收成短调。</li>
+        <li>从高到中：整体能量下沉。</li>
+        <li>从中到低：整体加深，仍留少量亮部作锚点。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">正文提问</span>
+      <h3>画不出层次时先拆开问</h3>
+      <ul>
+        <li>若整幅该亮却沉了，或该暗却飘了：回第 3 页，平移区间。</li>
+        <li>若明暗贴在一起、读不出前后：回第 2 页，拉开或确认你是在故意收短。</li>
+        <li>莫奈的教堂留到下一篇，这三页只用来把格子认熟。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="foot">依据三页图与笔记正文。竖排与底轴里无法确认的字，不写成确定句。</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

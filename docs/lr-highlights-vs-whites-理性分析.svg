@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="567" viewBox="0 0 1320 567">
+  <foreignObject x="0" y="0" width="1320" height="567">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#f8fafc;padding:48px 60px;color:#1e293b}h1{font-size:30px;font-weight:900;color:#1e40af;margin-bottom:8px}p{font-size:16px;line-height:1.8;color:#475569}table{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}th,td{padding:8px 12px;border-bottom:1px solid #e2e8f0;text-align:left}th{background:#f1f5f9;color:#1e40af}</style>
+      <h1>层次和极值分开拉</h1><table><tr><th>要改的</th><th>滑块</th><th>第 1 页的例子</th></tr><tr><td>一片亮部的层次</td><td>高光</td><td>压高光，云还在</td></tr><tr><td>最亮上限</td><td>白色色阶</td><td>压白点，最亮段变弱</td></tr><tr><td>一片暗部的细节</td><td>阴影</td><td>提阴影，树干纹理出来</td></tr><tr><td>最暗下限</td><td>黑色色阶</td><td>往右，黑变灰</td></tr></table><p>顺序：曝光 → 高光阴影 → 黑白色阶 → 直方图 → 曲线 → 蒙版。没有数值。</p>
+    </div>
+  </foreignObject>
+</svg>

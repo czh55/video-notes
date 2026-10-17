@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1664" viewBox="0 0 1320 1664">
+  <foreignObject x="0" y="0" width="1320" height="1664">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:44px 56px 56px}
+h1{font-size:32px;line-height:1.35;color:#9a3412;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.7;color:#44403c;margin-bottom:18px}
+h2{font-size:22px;color:#b45309;margin:26px 0 10px}
+p{font-size:16px;line-height:1.75;color:#44403c;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 16px;font-size:15px}
+th,td{padding:10px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-radius:16px;padding:20px 22px;margin:0 0 14px;border-left:5px solid #b45309}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+ul,ol{margin:0 0 8px 20px}
+li{margin:6px 0;line-height:1.7;font-size:15px;color:#44403c}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}</style>
+      <div class="wrap">
+<h1>用髋走路：图上只有迈步和髋侧</h1>
+<p class="lede">标题讲的是用髋走路。两张简笔能核对的，是朝左迈步，以及一侧髋外的「这里用力」。跪走和瘦腿停在说明里。</p>
+<h2>比较</h2>
+<table>
+<tr><th></th><th>第 1 页</th><th>第 2 页</th><th>说明里另写、图上没有</th></tr>
+<tr><td>身体</td><td>侧视全身迈步，前腿屈、后腿伸</td><td>腰到大腿上段，无头无脚</td><td>跪下，上身直立</td></tr>
+<tr><td>方向</td><td>胸前箭头朝左</td><td>没有行进箭头</td><td>跪着向前走，来回两圈</td></tr>
+<tr><td>用力点</td><td>髋部没有字、没有圈</td><td>一侧髋外画圈，写「这里用力」</td><td>肚脐以下到大腿以上一圈，尤其腰髋两侧；大腿不主动发力</td></tr>
+<tr><td>结果</td><td>没有</td><td>没有</td><td>腰髋累、下腹核心、臀腿被带动；腿部肌肉变瘦</td></tr>
+</table>
+<div class="dual">
+<div class="card"><h3>易错</h3>
+<ul>
+<li>把第 1 页当成跪走示范。纸上是站着的侧向迈步，膝盖没有跪在面上。</li>
+<li>两页都当成已经标了髋。用力点的圈和「这里用力」只在第 2 页。</li>
+<li>用说明里的瘦小腿，回过头证明这两张简笔有效。图上没有前后腿围，也没有天数。</li>
+<li>把躯干中部的实心点当成已经命名的肚脐。点在，字不在。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<ul>
+<li>这是作者的找感觉草图，不是步态教材。</li>
+<li>说明写膝关节损伤不要试，没有损伤也不要长时间跪。图上没有这条，也不能从简笔推出跪多久安全。</li>
+<li>硬板床、毛毡、褥子、瑜伽垫、护膝只在说明里，两页都是横线纸。</li>
+<li>纸下缘有被裁掉的笔画，无法确认，不补字。</li>
+</ul></div>
+</div>
+<h2>动作</h2>
+<div class="card"><h3>只做图上能指认的两步</h3>
+<ol>
+<li>对照第 1 页：侧向迈步，分清前腿屈膝和后腿后伸，行进方向跟胸前箭头。</li>
+<li>对照第 2 页：把发力感觉放到圈出来的那一侧髋外，字面就是「这里用力」。</li>
+<li>说明里的跪走、膝伤和铺垫，要单独当成作者提醒，不要说成这两页已经画了。</li>
+</ol></div>
+<div class="card"><h3>结论</h3>
+<p>第 1 页解决「往哪迈」，第 2 页解决「髋侧用力」。瘦腿、跪走圈数和床垫条件都没有页可引，留在说明，不升成通则。</p></div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

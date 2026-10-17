@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1854" viewBox="0 0 1320 1854">
+  <foreignObject x="0" y="0" width="1320" height="1854">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:30px;font-weight:900;color:#b45309;margin-bottom:8px}
+h2{font-size:20px;font-weight:700;color:#b45309;margin:22px 0 10px}
+p,li{font-size:15px;line-height:1.75;color:#44403c}
+ul{padding-left:22px;margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px;background:#fff}
+th,td{padding:8px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#b45309}
+.note{margin-top:10px}
+.box{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 16px;margin-top:8px}</style>
+      
+<h1>先走四步调色，角度表不要混页</h1>
+<p>笔记把认色收成可操作的顺序。能当步骤用的是第 2–4 页；第 1 页和第 5 页的角度定义要分开记。</p>
+<h2>比较</h2>
+<table>
+<tr><th>页</th><th>说法</th><th>和另一页的差别</th></tr>
+<tr><td>1/6</td><td>对比色 = 色环 120°，例子点名红·蓝</td><td>5/6 把对比色写成相隔 120° 到 180° 的任意两色</td></tr>
+<tr><td>1/6 与 5/6</td><td>互补色 = 180°；例子红—绿、蓝—橙、黄—紫</td><td>两页在「正好 180°」上一致；5/6 的对比区间把 180° 也包括进去</td></tr>
+<tr><td>1/6</td><td>同类色、邻近色都写「色环相邻」</td><td>同类色例子是橘红·橘黄、黄绿·蓝绿，并说非常和谐；邻近色例子是绿·蓝、黄·橙、紫·蓝，并说既对比又统一</td></tr>
+<tr><td>3/6</td><td>加白、加黑、加补色、加复色都能降纯度</td><td>只有加白、加黑被写明会同时改明度；2/6 的抹茶绿、湖蓝用粉红或桔黄来降纯度，不直接加灰</td></tr>
+<tr><td>4/6</td><td>红橙黄绝对暖，蓝紫绿绝对冷</td><td>同页另有「相对冷暖」，靠并置才分出冷暖，黄绿一组、橙红一组</td></tr>
+<tr><td>5/6</td><td>红 50% + 黄 50%，红色覆盖强，变化不大</td><td>红 30% + 黄 70% 才写成橙色。比例不同，结果不同</td></tr>
+</table>
+<h2>易错</h2>
+<div class="box">
+<ul>
+<li>把 5/6 的「120° 到 180°」当成 1/6 的对比色定义。1/6 对比色只写 120°。</li>
+<li>把 1/6 的同类色和邻近色当成两种角度。正文都写相邻，差别在例子和搭配句子，不在度数。</li>
+<li>用加白、加黑降纯度时，以为只动了纯度。3/6 写明加白提高明度、加黑降低明度。</li>
+<li>把 4/6 的绝对冷暖套到任意相邻两色上。相对冷暖要靠对比才出现。</li>
+<li>把 6/6 第二到第五行的结果名抄成固定配方。亮面前面的字、第三行名称、第四行「暗面」前一字、第五行那块红的二字和结果名末段，都无法确认。</li>
+</ul>
+</div>
+<h2>边界</h2>
+<div class="box">
+<ul>
+<li>这是手绘水彩/水粉笔记，不是测色数据。页面没有色号，不要补。</li>
+<li>1/6 色环有一格标签看不清。5/6 等量混色结果旁有一处百分比无法确认。</li>
+<li>6/6 只有「紫丁香 + 马代夫 + 橘黄 = 万能背景色」整句可核对。马代夫按手写记名，不是颜料编号。</li>
+<li>2/6 抹茶绿那块粉，旁注接近「少量红」，粉字后的具体用字无法完全确认。</li>
+<li>绝对冷暖的例子（冰川、水、树林；太阳、火、灯）是笔记里的物象，不是测量结论。</li>
+</ul>
+</div>
+<h2>动作</h2>
+<div class="box">
+<ul>
+<li>对一个目标色，按 2/6 的顺序问四句：色相靠哪块原色或间色，明度要加多少白，纯度用哪对补色往下压，冷暖再偏一点点。</li>
+<li>只想变灰、不想变亮或变暗时，用 3/6 的补色或复色，先不要加白、加黑。</li>
+<li>引用角度时，互补只用 180°（1/6、5/6）。对比先用 1/6 的 120°，把 5/6 的「到 180°」标成另一套写法。</li>
+<li>同类色和邻近色先看 1/6 的例子，不要自造一个度数。</li>
+<li>红黄相混先看分量：5/6 的 50/50 和 30/70 结果不同，红色覆盖强。</li>
+<li>6/6 只把第一行当可读配方；其余行只看色条方向（浅暖、暖灰褐、深褐），不抄无法确认的名称。</li>
+</ul>
+</div>
+<p class="note">支撑页：顺序 2/6，降纯度 3/6，四要素定义 4/6，比例 5/6，角度冲突在 1/6 与 5/6。</p>
+
+    </div>
+  </foreignObject>
+</svg>

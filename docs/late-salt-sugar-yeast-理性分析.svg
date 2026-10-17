@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2039" viewBox="0 0 1320 2039">
+  <foreignObject x="0" y="0" width="1320" height="2039">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:40px 48px 48px}
+h1{font-size:30px;line-height:1.35;color:#9a3412;margin-bottom:10px}
+h2{font-size:20px;color:#b45309;margin:22px 0 10px}
+p,li,td,th{font-size:15px;line-height:1.7}
+.lead{font-size:17px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:12px 16px;margin:10px 0}
+ul{padding-left:1.2em}
+li{margin:4px 0}</style>
+      <div class="wrap">
+<h1>后盐、后糖、后酵母：推迟的不是同一种干扰</h1>
+<p class="lead">区别在入场对象。后盐推迟盐，后糖推迟糖，后酵母推迟发酵起步。夏季四步图只把黄油和酵母挪后，盐和糖仍在第一步。</p>
+
+<h2>比较</h2>
+<table>
+<tr><th>做法</th><th>何时加</th><th>要避开的干扰</th><th>页</th></tr>
+<tr><td>后盐</td><td>出粗膜、初步出筋并完成水合之后</td><td>盐过早收紧面筋、抑制酵母</td><td>1、2、5</td></tr>
+<tr><td>后糖</td><td>面筋形成后分次加</td><td>高渗透压挡住出筋</td><td>2</td></tr>
+<tr><td>后酵母</td><td>基础揉面或成团之后；夏季方案要接近手套膜</td><td>高温下边揉边发</td><td>1、2、3、6</td></tr>
+<tr><td>后油</td><td>第2页写七至八成筋；第4页写初步出筋；第6页写厚膜。用词不一致</td><td>油脂包裹面粉、挡住水合</td><td>1、2、4、6</td></tr>
+<tr><td>后水</td><td>预留部分，分次补</td><td>一次加太稀，筋性失控</td><td>2</td></tr>
+<tr><td>后炼乳</td><td>淡奶油、酸奶、蜂蜜、炼乳与黄油同加</td><td>风味被提前混掉</td><td>2</td></tr>
+<tr><td>夏季四步</td><td>盐、糖和液体先成团；厚膜后黄油；接近手套膜后酵母；再揉2到3分钟</td><td>只落实后油和后酵母</td><td>6</td></tr>
+</table>
+
+<h2>易错</h2>
+<div class="card">
+<ul>
+<li>把第6页第一步和第5页后盐叠在一起。第6页盐在干料里；第5页盐在粗膜之后。说明文字也写后盐是出粗膜再加，与第6页冲突，组合顺序以第6页四步为准，单做后盐以第5页为准。</li>
+<li>第3页后酵母的起步原料含糖，第2页后糖要求出筋后再分次加糖。两页不能合成「糖既最早又最晚」。</li>
+<li>第6页页底把盐算进「调整顺序」，四步正文没有盐的后加动作。动作以四步为准。</li>
+<li>酵母直接碰到盐或糖。第3页写明不可以；第5页要求盐和酵母分开。</li>
+<li>液态油也机械后放。第4页写液态油可与液体同时下；要后放的是软化黄油。</li>
+<li>把第2页温度计装饰刻度当成室温。明确写出的温度只有第1页「28°C+」和第3页「室温高于28°C」。</li>
+</ul>
+</div>
+
+<h2>边界</h2>
+<div class="card">
+<ul>
+<li>后酵母的适用句在第3页：夏天室温高于28°C，以及搅拌时间长的欧包、高水量。不是所有季节的默认顺序。</li>
+<li>后油的软面包范围在第4页：吐司、甜面包、布里欧修，油脂含量大于5%。第6页油脂参考是面粉重量的6%到15%。</li>
+<li>后盐的场景在第5页：法棍、恰巴塔、乡村面包，以及长时间或冷藏发酵的高水量面团。先放盐会过硬，后放风味略损，要取舍。</li>
+<li>第6页用量按面粉重量，且以250克面粉换算：酵母1%到2%（常规1%到1.5%，约2.5克到5克，常规2.5克到3.7克）；油脂约15克到37.5克（吐司约20克，甜面包25克到37.5克）；盐1.5%到2%，约3.75克到5克。这是参考，不是完整配方。</li>
+<li>说明在后油法处截断，后油的软化手感和液态油例外只出现在第4页。</li>
+</ul>
+</div>
+
+<h2>动作</h2>
+<div class="card">
+<ul>
+<li>先问翻车的是哪一种：边揉边发走第3页后酵母；油脂多的软面包走第4页后油；欧包和高水量长发酵走第5页后盐；糖挡出筋走第2页后糖。</li>
+<li>若照第6页夏季组合：干料含盐和糖，与液体先成团；厚膜后加软化黄油；接近手套膜再下酵母；再揉2到3分钟至吸收。不要同时再套第5页的后盐。</li>
+<li>黄油按第4页软到手指能按出坑，揉到完全吸收。液态油留在最初的液体里。</li>
+<li>酵母与盐、糖不要直接堆在一起（第3、5页）。</li>
+</ul>
+</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

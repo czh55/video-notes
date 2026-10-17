@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="达芬奇调色先记 Mac 节点快捷键，再按先基础、后局部、再风格搭节点：降噪校正饱和度在前，着色和肤色分开，LUT 之后还要曝光分级、影调和定调。">
+  <title>达芬奇调色｜先记快捷键，再理顺节点流程｜图文实录</title>
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+    .container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+    a{color:#b45309}
+    .kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+    h1{font-size:34px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+    .meta{color:#78716c;font-size:14px;margin-bottom:18px}
+    .lede{font-size:18px;color:#44403c}
+    .documentary{font-size:17px}
+    .story-section{margin:48px 0}
+    .story-section h2{font-size:24px;margin:0 0 16px;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+    .story-section p{margin:0 0 14px;color:#44403c}
+    img{display:block;max-width:100%;height:auto}
+    figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+    figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+    figcaption .time-badge{font-weight:700;color:#b45309;margin-right:6px}
+    .takeaway{background:#fff;border-radius:16px;padding:20px 24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+    .takeaway h3{font-size:18px;margin:18px 0 8px;color:#1c1917}
+    .takeaway ul{margin:0;padding-left:1.2em;color:#44403c}
+    .takeaway li{margin:0 0 8px}
+    @media(max-width:640px){
+      .container{padding:28px 18px 56px}
+      h1{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="kicker">图文实录 · 敖舜 · 3 张图</p>
+      <h1>达芬奇调色｜先记快捷键，再理顺节点流程</h1>
+      <p class="meta">调色 · <a href="https://xhslink.cn/o/8HkQ57L9Txx">原文短链</a></p>
+      <p class="lede">标题里的顺序，三张图是照着做的：封面先亮出「节点快捷键 + 节点流程」，第二页给 Mac 上七个节点快捷键，第三页把节点收成「先基础，后局部，再风格」。基础是降噪、校正、饱和度；局部是着色和肤色分开走，汇进混合器；风格从 LUT 往后还要曝光分级、影调和定调。节点多不是目的，分工清楚才是。</p>
+    </header>
+    <article class="documentary">
+      <section class="story-section" id="p1">
+        <h2>封面：快捷键和十条节点一起亮相</h2>
+        <figure>
+          <img src="assets/davinci-shortcuts-nodes/01.jpg" alt="达芬奇调色封面：节点快捷键加节点流程，中央十个缩略图节点，底部四块模块">
+          <figcaption><span class="time-badge">1/3</span>封面把十个节点和四个模块名摆出来，还没有写快捷键本身。</figcaption>
+        </figure>
+        <p>顶栏左边是 DaVinci Resolve、COLOR GRADING，右边是 NODES / WORKFLOW / SHORTCUTS。主标题是「达芬奇调色」，下一行是「节点快捷键＋节点流程」，副题「从快捷键到节点工作流，一次讲清」。右侧手写「调出你想要的画面。」</p>
+        <p>中间是带风景缩略图的节点。上排读作：01 降噪、02 矫正、03 饱和度、04 着色、05 肤色。下排读作：06 LUT、07 曝光分级、08 颜色分级、09 影调、10 定调。这里的第二步用的是「矫正」，和第三页的「校正」不是同一个字。</p>
+        <p>底部四个框是承诺，不是步骤：常用快捷键 / 提效必备；节点搭建思路 / 从基础到进阶；调色实战流程 / 系统化讲解；案例解析 / 学完即能用。后两页能对上前两块。这组图里没有案例画面，「案例解析」「学完即能用」停在封面口号上。</p>
+        <p>底部署名 DaVinci Resolve，右下「好影像，从调色开始。」左下英文 COLOR GRADING CREATES A BETTER TOMORROW，左侧竖排 BETTER COLOR A BRIGHTER STORY。背景是调色台轨迹球的虚化照片。这页不教按键，只给目录和一条十步节点的样子。</p>
+      </section>
+      <section class="story-section" id="p2">
+        <h2>第二页：Mac 上先记的节点快捷键</h2>
+        <figure>
+          <img src="assets/davinci-shortcuts-nodes/02.jpg" alt="Mac 常用节点快捷键七格：串行、并行、图层、Outside、追加，以及开关当前节点和全部节点">
+          <figcaption><span class="time-badge">2/3</span>七个快捷键卡片，底栏只要求先练熟其中五个。</figcaption>
+        </figure>
+        <p>标题是「先记住这几个节点快捷键」，副题「Mac 常用版 · 调色提效必备」。右侧手写「节点，让调色更高效。」页眉和封面同一套英文顶栏。这页自己标明是 Mac 常用版。</p>
+        <p>七个深色卡片，每张有中文名、英文名、按键和小节点图：</p>
+        <p>⌥S，串行节点，Serial Node，创建串行节点。图是前后相接的一条线。</p>
+        <p>⌥P，并行节点，Parallel Node，创建并行节点。图是一路分出上下两支再汇合。</p>
+        <p>⌥L，图层节点，Layer Node，创建图层节点。图是多路进入一个图层混合器。</p>
+        <p>⌥O，Outside 节点，Outside Node，创建 Outside 节点。标题有水印压住一角，英文 Outside Node 和「创建 Outside 节点」仍可读。图是选区之外再接一个节点。</p>
+        <p>⌥K，追加节点，Append Node，在当前节点后追加节点。图是一串三个节点，重点在末尾再接一个。</p>
+        <p>⌘D，开/关当前节点，Disable/Enable Node。图是单个节点上画了斜线。</p>
+        <p>⌥D，开/关全部节点，Disable/Enable All Nodes。图是一串节点都画了斜线。</p>
+        <p>底栏写「先练熟：⌥S / ⌥P / ⌘D / ⌥D / ⌥O」，右边是「常用快捷键」「调色效率翻倍」。七个卡片里，图层节点 ⌥L 和追加节点 ⌥K 没有进这行「先练熟」。底栏也没有解释为什么是这五个。</p>
+      </section>
+      <section class="story-section" id="p3">
+        <h2>第三页：先基础，后局部，再风格</h2>
+        <figure>
+          <img src="assets/davinci-shortcuts-nodes/03.jpg" alt="节点流程图：降噪校正饱和度后分支到着色和肤色，经混合器再到 LUT、曝光分级、影调和定调">
+          <figcaption><span class="time-badge">3/3</span>流程口号是先基础、后局部、再风格；节点 09 的标签被水印挡住。</figcaption>
+        </figure>
+        <p>标题是「一套顺手的节点流程」，中间夹着「先基础，后局部，再风格」。右侧手写的是「清晰的流面，让调色更简单。」图上印的是「流面」，不是「流程」。</p>
+        <p>上半段节点：01 降噪，02 校正，03 饱和度，然后分成 04 着色和 05 肤色，汇到标着「混合器」的节点。封面第二步写「矫正」，这一页写「校正」。</p>
+        <p>下半段从 07 起：07 LUT，08 曝光分级，09 的编号在，标签被居中的水印挡住，无法确认，10 影调，11 定调。图上从 05 直接跳到 07，没有看到 06。封面下排是 06 LUT 到 10 定调，共五步且含「颜色分级」；这一页风格段是 07 到 11，也是五步，但 09 读不清，不能把封面的「颜色分级」抄过来当这一页的字。</p>
+        <p>节点图下面三块说明把顺序说完。左边齿轮：「先把基础校正做好」「降噪、校正、饱和度」「打好干净、准确的基础」。中间：「着色/肤色分开调」「两个方向，各司其职」「画面风格与肤色更可控」。右边 LUT 盒子：「LUT 后面继续精修」「分级、影调、定调」「让风格更统一、更有质感」。底部署名和封面相同：「好影像，从调色开始。」</p>
+        <p>所以 LUT 在这张图里不是终点。它放在基础和局部分支之后，后面还要曝光分级、影调和定调。着色和肤色被画成两条并行支路，再进混合器，对应「各司其职」。</p>
+      </section>
+      <section class="story-section" id="close">
+        <h2>汇总结论</h2>
+        <div class="takeaway">
+          <p>三页合在一起，是「先记按键，再按阶段搭节点」。Mac 上高频的是串行 ⌥S、并行 ⌥P、开关当前 ⌘D、开关全部 ⌥D、Outside ⌥O；图层 ⌥L 和追加 ⌥K 图上有，但不在「先练熟」那一行。搭树时先降噪、校正、饱和度，着色和肤色分开再混合，LUT 之后继续做分级、影调和定调。</p>
+          <h3>依据来自哪几页</h3>
+          <ul>
+            <li>第 1/3 页：十步节点的样子，以及「快捷键 / 搭建思路 / 实战流程 / 案例解析」四个模块名。02 标注为「矫正」，下排含「颜色分级」。</li>
+            <li>第 2/3 页：七个快捷键的键位和中英文名称，以及底栏「先练熟」的五个组合。</li>
+            <li>第 3/3 页：「先基础，后局部，再风格」，混合器，以及三块说明里的职责划分。02 标注为「校正」。节点 09 的标签无法确认。</li>
+          </ul>
+          <h3>边界</h3>
+          <ul>
+            <li>快捷键页写明「Mac 常用版」。图上没有 Windows 键位，不能从这三页推出另一套键盘。</li>
+            <li>封面有「案例解析 / 学完即能用」，三页里没有前后对比或具体素材，口号没有被画面兑现。</li>
+            <li>封面 01–10 与第 3 页 01–05、混合器、07–11 不是同一套编号。第 3 页节点 09 被水印挡住，标签记为无法确认。</li>
+            <li>这是作者整理的一套顺手流程，不是软件默认节点树，也没有降噪强度、LUT 名称或示波器读数。</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

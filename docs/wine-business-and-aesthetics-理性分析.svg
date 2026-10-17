@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2784" viewBox="0 0 1320 2784">
+  <foreignObject x="0" y="0" width="1320" height="2784">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;padding:48px 60px;color:#292524}
+h1{font-size:32px;font-weight:900;color:#9a3412;margin-bottom:8px;line-height:1.35}
+h2{font-size:22px;font-weight:800;color:#b45309;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fed7aa}
+h3{font-size:17px;font-weight:700;color:#1c1917;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#44403c;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin:0 6px 6px 0}
+.tag-amber{background:#ffedd5;color:#9a3412}
+.tag-stone{background:#f5f5f4;color:#57534e}
+.meta{margin:10px 0 16px}
+.lede{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin-bottom:18px}
+.sec{margin-bottom:8px}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #b45309;box-shadow:0 3px 16px rgba(180,83,9,.06)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+th{background:#ffedd5;padding:10px 12px;text-align:left;color:#9a3412}
+td{padding:10px 12px;border-bottom:1px solid #ffedd5;vertical-align:top;color:#44403c}
+.page{font-weight:700;color:#b45309}
+.footer{text-align:center;color:#a8a29e;font-size:12px;padding:20px 0 8px}</style>
+      
+<div class="root-wrap">
+  <h1>品酒：商业与美学怎么一起读</h1>
+  <div class="meta">
+    <span class="tag tag-amber">理性分析</span>
+    <span class="tag tag-amber">产业极简课</span>
+    <span class="tag tag-stone">图文 10 页</span>
+    <span class="tag tag-stone">2026-10-17</span>
+  </div>
+  <p class="lede">核心命题：品酒是不是玄学，贵是不是等于好喝。笔记的回答是否定的。感官按四步拆开，价格按成本、渠道、品牌稀缺预期拆开；旧世界卖规则与风土，新世界卖品种与表达。普通人的决策被收成口味匹配预算。下面的比较、易错、边界和动作都只引用这十页上的句子，不补产区评价，也不补笔记没写的价格。</p>
+
+  <h2>比较</h2>
+  <div class="card sec">
+    <table>
+      <thead><tr><th>比较</th><th>一边</th><th>另一边</th><th>页</th></tr></thead>
+      <tbody>
+        <tr><td>喝的方法</td><td>观色、摇杯、闻香、品尝四步拆开</td><td>页底否定「品酒是玄学」</td><td><span class="page">2/10</span></td></tr><tr><td>发酵</td><td>红葡萄酒：带皮，萃取颜色与单宁，浓郁、结构更强</td><td>白葡萄酒：多为去皮，清爽直接，突出果香</td><td><span class="page">3/10</span></td></tr><tr><td>风格来源</td><td>风土：气候、土壤、地形、人文，决定个性</td><td>品种：决定基础风味框架；四个品种只有形容词，无刻度</td><td><span class="page">4/10</span></td></tr><tr><td>产业逻辑</td><td>旧世界：产区法，卖规则与风土；关键词传承、稳定、稀缺</td><td>新世界：品牌化，卖品种与市场表达；关键词创新、效率、扩张</td><td><span class="page">5/10</span></td></tr><tr><td>价值链</td><td>左列：上游毛利偏低，中游中等，下游最高</td><td>微笑曲线：顶级名庄与终端餐饮在两端，标准流通在谷底</td><td><span class="page">6/10</span></td></tr><tr><td>价格</td><td>生产成本 + 渠道利润</td><td>再加品牌溢价、稀缺溢价与预期</td><td><span class="page">7/10</span></td></tr><tr><td>入门路径</td><td>先喝新世界单一品种，对果香、酸度、单宁、酒体</td><td>再谈名庄与产区；拉菲被写成不要迷信的名字</td><td><span class="page">9/10</span></td></tr>
+      </tbody>
+    </table>
+    <p>第 10/10 页把前九页压成三句：品酒是对品种、风土和工艺的逆向推理；产业高度依赖信息差与品牌溢价；旧世界喝风土与法规，新世界喝果香与创新。</p>
+  </div>
+
+  <h2>易错</h2>
+  <div class="card sec">
+    <ul>
+      <li><strong>把第 2/10 页的舌头分区当成实验结论。</strong>图上把酸度、单宁、酒体、甜感标到舌头的不同位置。这是教学示意图，页上没有实验记录。</li><li><strong>把第 4/10 页雷达图读成分数。</strong>四个轴是酸度、单宁、酒体、果香，旁边只有「结构感强、细腻优雅、风格弹性大、清新明快」。没有刻度，不能补数字。</li><li><strong>用第 6/10 页上游毛利偏低否定名庄，或用微笑曲线否定全部种植端。</strong>左列说的是葡萄种植与酒庄这一大类；左峰说的是顶级名庄。范围不同。</li><li><strong>把第 7/10 页四段百分比加总成一瓶酒的成本单。</strong>10%–20%、15%–30%、30%–50%、20%–60%+ 加起来可以超过 100%。标题已写差异极大、仅供参考。</li><li><strong>把第 8/10 页示例酒标当成购买建议。</strong>CHATEAU LA ROCHE、2018、圣埃美隆、梅洛、13.5% vol.、75cl 是示意标签上的字，笔记没有给评分或售价。</li><li><strong>把第 9/10 页「百元内」当成行情。</strong>这是日常口粮的作者建议。送礼请客被写成更看名气与场景，两句不能互相覆盖。</li><li><strong>旧世界酒标上没有品种就判定信息缺失。</strong>第 8/10 页写明：旧世界酒标常常更强调产区，而非直接写品种。第 5/10 页的产区法把产区放在中心。</li>
+    </ul>
+  </div>
+
+  <h2>边界</h2>
+  <div class="card sec">
+    <ul>
+      <li><span class="page">第 3/10 页</span>　过滤、澄清写成可选。白葡萄酒是「多为」去皮发酵。橡木桶作用不能推广成每瓶必过桶。</li><li><span class="page">第 5/10 页</span>　法国、意大利、西班牙，以及美国、智利、澳大利亚地图上的谷地，都是例子，后面有「等」。没有酒价，也不能代表该国全部产区。</li><li><span class="page">第 7/10 页</span>　「溢价可达数倍甚至数十倍」说的是营销与品牌溢价这一层的空间，不是每一瓶的标价倍数。拍卖、特级园、限量配额只出现在金字塔顶层。</li><li><span class="page">第 9/10 页</span>　「好喝且不超预算就是好酒」把判断权交给个人口味和预算。Vivino 是举例，不是唯一工具，笔记也没有展示查询结果。</li><li><span class="page">第 10/10 页</span>　三句速记是压缩，不是新证据。下一篇预告是精酿啤酒产业链，本篇没有展开啤酒。</li>
+    </ul>
+  </div>
+
+  <h2>动作</h2>
+  <div class="card sec">
+    <ol>
+      <li><span class="page">第 2/10 页</span>　喝的时候按观色、摇杯、闻香、品尝分开记，各自对应颜色与澄清度、香气释放、气味层次、酸度单宁酒体余味。</li><li><span class="page">第 4/10 页 + 第 8/10 页</span>　先用品种形容词建立方向，再用酒标上的年份、产区、酒庄、品种、酒精度核对；旧世界先找产区。</li><li><span class="page">第 5/10 页</span>　看到等级和产区法，按规则与风土读；看到品种名打头、品牌和渠道打头，按市场表达读。不要用一套话术套全部酒。</li><li><span class="page">第 6/10 页 + 第 7/10 页</span>　听到高价，先问贵在名庄或终端场景，还是只经过标准流通。再拆生产成本、渠道利润、品牌与稀缺预期。占比区间只作参考，不当报价。</li><li><span class="page">第 9/10 页</span>　日常先从新世界单一品种建立果香、酸度、单宁、酒体，并用查价工具建立价格感。预算按场景分：口粮按作者口径放在百元内，送礼请客另看名气与场合。</li>
+    </ol>
+  </div>
+
+  <div class="footer">图文实录配套 · 页码对应 docs/wine-business-and-aesthetics-图文实录.html · 不另补产区与价格</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

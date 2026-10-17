@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2174" viewBox="0 0 1320 2174">
+  <foreignObject x="0" y="0" width="1320" height="2174">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524}
+.wrap{padding:44px 56px 56px}
+h1{font-size:32px;line-height:1.35;color:#9a3412;margin-bottom:8px}
+.lede{font-size:17px;line-height:1.7;color:#44403c;margin-bottom:18px}
+h2{font-size:22px;color:#b45309;margin:26px 0 10px}
+p{font-size:16px;line-height:1.75;color:#44403c;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 16px;font-size:15px}
+th,td{padding:10px 12px;border-bottom:1px solid #fed7aa;text-align:left;vertical-align:top}
+th{background:#ffedd5;color:#9a3412}
+.card{background:#fff;border-radius:16px;padding:20px 22px;margin:0 0 14px;border-left:5px solid #b45309}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+ul,ol{margin:0 0 8px 20px}
+li{margin:6px 0;line-height:1.7;font-size:15px;color:#44403c}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px}</style>
+      <div class="wrap">
+<h1>调色：先减互补色，再谈加饱和</h1>
+<p class="lede">两页都在讲同一句话：想让一种颜色更纯，先减它的互补色。第 1 页是表，第 2 页把表接到前后小图上。没有滑块数字。</p>
+<h2>比较</h2>
+<table>
+<tr><th>目标</th><th>第 1 页：优先减少</th><th>第 2 页怎么标</th></tr>
+<tr><td>蓝</td><td>黄</td><td>天空发灰发黄 → 更蓝，减少黄色</td></tr>
+<tr><td>绿</td><td>品红</td><td>树叶发灰发紫 → 更绿，减少品红</td></tr>
+<tr><td>红</td><td>青</td><td>红色衣物发暗 → 更鲜艳，减少青色。表上的触发词是发暗、发灰</td></tr>
+<tr><td>黄</td><td>蓝</td><td>黄墙发脏 → 更干净，减少蓝色</td></tr>
+<tr><td>橙</td><td>蓝 / 青</td><td>夕阳发冷发暗 → 更暖更橙，减少蓝色或青色</td></tr>
+<tr><td>紫</td><td>黄</td><td>紫花发灰 → 更饱满，减少黄色</td></tr>
+<tr><td>青</td><td>红</td><td>水面发灰 → 更清澈，减少红色</td></tr>
+<tr><td>洋红</td><td>绿</td><td>霓虹发灰脏色 → 更亮更纯，减少绿色。小图上有 COFFEE、OPEN</td></tr>
+</table>
+<p>第 1 页底部把八行收成三组：红 ↔ 青，绿 ↔ 品红，蓝 ↔ 黄。橙、紫、洋红是这三组往混合色上的延伸，第 2 页的肤色例（发青发灰 → 减少青色）落在橙色那一行的「肤色」里。</p>
+<div class="dual">
+<div class="card"><h3>易错</h3>
+<ul>
+<li>看见红色就减青。表上红色行是减青，但第 2 页霓虹例写的是减少绿色，对应的是洋红那一行。两行都出现「霓虹灯」，不能凭招牌颜色自动选行。</li>
+<li>说明写红色「发灰、发青」。第 1 页红色行写的是「发暗、发灰」。跟图，不跟说明的这半句。</li>
+<li>把「减少」做成一次拉满。两页的使用提示都写小幅度，并要连明度、饱和度一起看。</li>
+<li>肤色只查青色。橙色行写的是蓝色或青色；第 2 页肤色例才单独写成减少青色。</li>
+</ul></div>
+<div class="card"><h3>边界</h3>
+<ul>
+<li>笔记自己写了：不是绝对公式，互补关系用来找污染色。</li>
+<li>实际照片颜色是混的。说明里这句话和图上的使用提示一致，但图没有给出混合色的第二步算法。</li>
+<li>没有软件名、没有数值。不能把某一行写成某款调色软件的配方。</li>
+<li>说明称正文为 AI 所写，并建议打印贴在显示器旁。图上没有这两句。</li>
+</ul></div>
+</div>
+<h2>动作</h2>
+<div class="card"><h3>按页上的顺序</h3>
+<ol>
+<li>先在第 1 页对上目标色，再看优先减少的那一列，而不是先加这一色的饱和。</li>
+<li>只记三组也能开工：红青、绿品红、蓝黄。橙看蓝或青，紫看黄，洋红看绿，都在同一页。</li>
+<li>用第 2 页的小图核对场景词：天空减黄、树叶减品红、肤色例减青、夕阳减蓝或青、水面减红。</li>
+<li>每次只动一小步，回头看整张画面，再决定要不要动明度或饱和度。提示在两页底部都有。</li>
+</ol></div>
+<div class="card"><h3>结论</h3>
+<p>第 1 页把「更纯」定义成减互补色，并给出八行和三组；第 2 页用前后对比重复同一减法。这是这篇速查笔记的做法，停在找污染色，没有变成定量配方。</p></div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

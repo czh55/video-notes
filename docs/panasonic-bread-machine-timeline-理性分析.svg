@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2262" viewBox="0 0 1320 2262">
+  <foreignObject x="0" y="0" width="1320" height="2262">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+.wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#fff7ed;color:#292524;padding:40px 48px}
+h1{font-size:30px;line-height:1.35;color:#9a3412;margin-bottom:8px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.06em;color:#b45309;margin-bottom:8px}
+.lede{font-size:16px;line-height:1.7;background:#fff;border-left:4px solid #b45309;border-radius:12px;padding:14px 18px;margin:12px 0 20px}
+h2{font-size:20px;color:#9a3412;margin:22px 0 10px}
+p,li,td,th{font-size:14px;line-height:1.7}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:8px 0 12px}
+th{background:#ffedd5;color:#9a3412;text-align:left;padding:8px 10px}
+td{padding:8px 10px;border-top:1px solid #fed7aa;vertical-align:top}
+.card{background:#fff;border-radius:12px;padding:14px 16px;margin:10px 0}
+.card h3{font-size:16px;color:#b45309;margin-bottom:6px}
+ul{padding-left:18px}
+.page{font-weight:700;color:#b45309}
+.foot{margin-top:16px;font-size:12px;color:#78716c}</style>
+      <div class="wrap"><p class="kicker">理性分析 · 面包机程序 · 范机灵_JENNY</p><h1>松下面包机软面包 / 奶香模式时间线</h1><p class="lede">两张表都按屏幕剩余时间倒计时。软面包从 04:20 走 4 小时 20 分，奶香从 02:20 走 2 小时 20 分。加料窗口跟模式走，不能把一张表套到另一个菜单。</p>
+<h2>比较</h2>
+<table>
+<tr><th>屏幕剩余</th><th>软面包（1/2）</th><th>奶香（2/2）</th></tr>
+<tr><td>起步</td><td>04:20 揉面 2 分钟</td><td>02:20 揉面 15 分钟，备注建议冷藏法做中种以控面温</td></tr>
+<tr><td>第一段醒面</td><td>04:18 醒面 18 分钟；室温高可冷藏，下一揉面前放回</td><td>02:05 醒面 15 分钟，无冷藏备注</td></tr>
+<tr><td>加黄油的揉面</td><td>04:00 揉面 15 分钟，可加黄油模拟后油法</td><td>图上没有加黄油这一条</td></tr>
+<tr><td>长醒面</td><td>03:45 醒面 60 分钟，室温高可冷藏，揉面前放回</td><td>无对应的 60 分钟醒面</td></tr>
+<tr><td>投果料</td><td>02:45 揉面 15 分钟</td><td>01:50 揉面 15 分钟</td></tr>
+<tr><td>发酵</td><td>02:30 一次发酵 65 分钟；01:25 二次发酵 50 分钟</td><td>01:35 一次发酵 60 分钟；没有二次发酵行</td></tr>
+<tr><td>烘烤</td><td>烘烤 35 分钟；该行屏幕时间无法确认</td><td>00:35 烘烤 35 分钟</td></tr>
+<tr><td>酵母自动加入</td><td>竖排文字大约在 03:45–02:30，尖端分钟无法确认</td><td>竖排文字大约在 02:05–01:35，尖端分钟无法确认</td></tr>
+</table>
+<h2>易错点</h2>
+<div class="card"><h3>把两种模式的剩余时间混用</h3><p>同样写「揉面 15 分钟」，软面包里加黄油的是 04:00（1/2），奶香第一段揉面已是 02:20（2/2）。果料分别在 02:45 和 01:50。</p></div>
+<div class="card"><h3>冷藏醒面后忘记放回</h3><p>1/2 两段醒面都写了：室温高可以拿出冷藏，但必须在下一阶段揉面开始前放回。2/2 没有这条。</p></div>
+<div class="card"><h3>把说明里的整形时刻当成表上的一行</h3><p>说明提醒投料和整形时间要记好，并写转载自小车车儿。两张图只有揉面、醒面、发酵、烘烤和果料/黄油备注，没有单独的整形时钟。</p></div>
+<div class="card"><h3>用推算填上没印出来的屏幕时间</h3><p>软面包烘烤行只读到 35 分钟（1/2）。01:25 减 50 分钟等于 00:35 只是算术，不能写成图上的字。</p></div>
+<h2>边界</h2>
+<ul>
+<li>这是笔记里两张程序表，不是松下全系列、全菜单的通则。标题写软面包模式和奶香模式；说明写「奶香吐司」，用词不完全相同，阶段以图为准。</li>
+<li>酵母自动加入的箭头尖端无法确认到某一分钟，只能按字块高度落到上面的区间。</li>
+<li>图上没有配方克重，也没有室温多少度才算「室温高」。</li>
+</ul>
+<h2>可执行动作</h2>
+<ol>
+<li>先看屏幕是 04:20 还是 02:20，确认自己在哪一张表（1/2 或 2/2）。</li>
+<li>软面包：黄油等屏幕到 04:00 的揉面再加；果料等到 02:45。两段醒面若拿出冷藏，在下一揉面前放回（1/2）。</li>
+<li>奶香：第一段 15 分钟揉面按图上建议用冷藏面团控温；果料等到 01:50（2/2）。</li>
+<li>不要把奶香的 00:35 抄到软面包烘烤行上；那一格屏幕时间保持无法确认（1/2）。</li>
+</ol>
+<h2>结论</h2>
+<p>软面包的可操作窗口在 1/2：04:18 与 03:45 可冷藏，04:00 加黄油，02:45 投果料。奶香的可操作窗口在 2/2：02:20 控面温，01:50 投果料，00:35 进入 35 分钟烘烤。两套剩余时间不能互换。</p>
+<p class="foot">页码对应图文实录，不使用视频时间码。</p></div>
+    </div>
+  </foreignObject>
+</svg>
