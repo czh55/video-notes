@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1901" viewBox="0 0 1320 1901">
-  <foreignObject x="0" y="0" width="1320" height="1901">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2367" viewBox="0 0 1320 2367">
+  <foreignObject x="0" y="0" width="1320" height="2367">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -24,16 +24,20 @@ td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-alig
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
       
 <div class="container">
-  <h1>一支镜头怎么造出来？老蛙工厂实拍全过程</h1>
-  <div><span class="tag">小红书</span><span class="tag">61分41秒</span></div>
-  <p class="summary-line">所以不要错过它感谢您的听听和支持现在我们回到节目PCB的主机板进入了波浪这步骤使用一种笔刀来涂塑胶有些奇怪的地方在这么小的笔写上是非常完美的下一个步骤是一个SMT选择和安装的机器就像电子机器一样机器头使用空气吸收器来从贴纸上拿起然后把贴纸放</p>
-  <div class="card"><h3>时间结构</h3><table><tr><th>时段</th><th>要点</th></tr><tr><td>00:00–15:25</td><td>今天我们带你一趟一趟的旅程就是把镜头的生存从创造…</td></tr><tr><td>15:25–30:50</td><td>这一步实际地拆除玻璃固定器却让玻璃固定器的表面更…</td></tr><tr><td>30:50–46:16</td><td>变成了强烈的电子连接电子机器的部件很多部件都要组…</td></tr><tr><td>46:16–61:41</td><td>因为这是他的第一次用镜头他看到所有镜头都很大所以…</td></tr></table></div>
+  <h1>老蛙工厂：一支镜头的全流程</h1>
+  <div><span class="tag">小红书</span><span class="tag">61分41秒</span><span class="tag">镜头制造</span></div>
+  <p class="summary-line">镜头不是「装几片玻璃」：光学面形靠磨抛、通光靠镀膜、结构靠胶合与精密装配，变形镜头还多一道角度校准——差一点就是鬼影与糊。老蛙把这条链摊开给人看，爱折腾器材的人能直接对照产线理解手感从哪来。</p>
+  <div class="card"><h3>时间结构（7章）</h3><table><tr><th>时段</th><th>要点</th></tr><tr><td>00:00–08:00</td><td>开场与展厅：空间站上的三支老蛙</td></tr><tr><td>08:00–14:00</td><td>产品矩阵与样机：超长焦到变形</td></tr><tr><td>14:00–21:00</td><td>玻璃加工：切割 → 研磨 → 抛光</td></tr><tr><td>21:00–28:00</td><td>真空镀膜与涂黑：把反射率打下来</td></tr><tr><td>28:00–36:00</td><td>镜筒电子、洁净间总装与出厂测试</td></tr><tr><td>36:00–48:00</td><td>合肥→上海：超市、鸡爪与磁浮路上的生活侧写</td></tr><tr><td>48:00–61:41</td><td>上海工厂：变焦/变形研发与角度校准</td></tr></table></div>
+  <div class="card">
+    <h3>产线心智模型</h3>
+    <div class="action">毛坯切割 → 磨抛出面形 → 真空镀膜降反射 → 胶合/涂黑 → PCB+镜筒 → 洁净间总装测试；（上海）变焦/变形校准</div>
+    <div class="pitfall">忌：只看成品外观忽略磨抛与镀膜；忌：低估变形镜头角度校准；忌：把旅拍段当成干货主线</div>
+  </div>
   <div class="card">
     <h3>行动清单</h3>
-    <div class="action">回看完整转录 → 对照关键帧 → 用总结句自检是否抓住主线</div>
-    <div class="pitfall">忌：只看封面不看场次逻辑；忌：忽略口播中的定义句</div>
+    <div class="action">1. 对照镀膜前后通光差异理解「为什么要镀」 → 2. 看洁净间总装理解手感从哪来 → 3. 变形镜头段重点看角度校准失败形态（鬼影/糊）</div>
   </div>
-  <div class="conclusion"><h2>结论</h2><p>所以不要错过它感谢您的听听和支持现在我们回到节目PCB的主机板进入了波浪这步骤使用一种笔刀来涂塑胶有些奇怪的地方在这么小的笔写上是非常完美的下一个步骤是一个SMT选择和安装的机器就像电子机器一样机器头使用空气吸收器来从贴纸上拿起然后把贴纸放</p></div>
+  <div class="conclusion"><h2>结论</h2><p>镜头不是「装几片玻璃」：光学面形靠磨抛、通光靠镀膜、结构靠胶合与精密装配，变形镜头还多一道角度校准——差一点就是鬼影与糊。老蛙把这条链摊开给人看，爱折腾器材的人能直接对照产线理解手感从哪来。</p></div>
   <p class="footer">来源：小红书 · GNU角马评测精选 · 2026-10-31</p>
 </div>
     </div>
