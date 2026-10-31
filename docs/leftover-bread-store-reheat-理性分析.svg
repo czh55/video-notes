@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2045" viewBox="0 0 1320 2045">
+  <foreignObject x="0" y="0" width="1320" height="2045">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>欧包隔夜变硬：冷冻暂停，复热还原</h1>
+  <div><span class="tag">烘焙</span><span class="tag">保存</span><span class="tag">复热</span></div>
+  <p class="summary-line">冷却后淀粉老化是变硬主因；零下18℃冷冻可撑约10天；复热忌微波，优先烤箱蒸汽/洒水，电饭煲作无烤箱备选。</p>
+  <div class="card">
+    <h3>核心命题</h3>
+    <p>好面包的完整消费闭环是<strong>冷冻储藏 + 正确复热</strong>，不是「买回家常温硬扛」或「塞进冷藏」。</p>
+  </div>
+  <div class="card">
+    <h3>方法对照</h3>
+    <table>
+      <tr><th>环节</th><th>做法</th><th>注意</th></tr>
+      <tr><td>保存</td><td>−18℃冷冻</td><td>冷藏加速老化</td></tr>
+      <tr><td>烤箱复热</td><td>蒸汽或表面洒水；≈230/180℃ · 10分钟</td><td>脆壳最好</td></tr>
+      <tr><td>电饭煲</td><td>≈15分钟</td><td>内心软、壳偏弱</td></tr>
+      <tr><td>微波炉</td><td>不要用</td><td>脱水</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h3>行动清单</h3>
+    <div class="action">1. 吃不完立刻冷冻分装 → 2. 吃前烤箱喷湿复热 → 3. 无烤箱用电饭煲约15分钟 → 4. 复热后尽快吃完</div>
+    <div class="pitfall">忌：冷藏当保鲜；忌：微波炉复热；忌：冷冻后不复热直接啃硬壳</div>
+  </div>
+  <div class="conclusion">
+    <h2>结论</h2>
+    <p>老化不可避免，但可被冷冻暂停、被蒸汽复热部分逆转。欧包值得买，也值得你学会「冻 + 热」。</p>
+  </div>
+  <p class="footer">来源：小红书 · 退休酵父.老周 · 2026-10-31</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,6 +1,574 @@
 [
   {
     "date": "2026-10-31",
+    "title": "一支镜头怎么造出来？老蛙工厂实拍全过程",
+    "summary": "所以不要错过它感谢您的听听和支持现在我们回到节目PCB的主机板进入了波浪这步骤使用一种笔刀来涂塑胶有些奇怪的地方在这么小的笔写上是非常完美的下一个步骤是一个SMT选择和安装的机器就像电子机器一样机器头使用空气吸收器来从贴纸上拿起然后把贴纸放",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "视频笔记",
+      "GNU角马评测精"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9sazYYag6p7",
+    "duration": "61分41秒",
+    "outputs": {
+      "html": "laowa-lens-factory-process-图文实录.html",
+      "svg": "laowa-lens-factory-process-理性分析.svg"
+    },
+    "screenshot_count": 15,
+    "transcript_segments": 1511,
+    "svg_height": 1901,
+    "slug": "laowa-lens-factory-process"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "做影像为什么我选Lumix？五个理由",
+    "summary": "选 Lumix 五理由：Codec/ProRes RAW、Open Gate、强 IBIS、半价对标 FX5、铰链屏设计；短板是知名度与更新慢。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "Lumix",
+      "S1II",
+      "OpenGate",
+      "IBIS",
+      "性价比"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4JqmynBq5hX",
+    "duration": "9分36秒",
+    "outputs": {
+      "html": "why-i-choose-lumix-five-reasons-图文实录.html",
+      "svg": "why-i-choose-lumix-five-reasons-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 395,
+    "svg_height": 1881,
+    "slug": "why-i-choose-lumix-five-reasons"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "黄金系列｜导演究竟是干什么的？",
+    "summary": "大家好 我是阿布今天我们聊一聊为什么交给不同的导演最后可以变成完全不同的电影很多人对导演最大的误解就是觉得导演最重要的工作是拍甚至有人会把导演理解成演员站这里 摄影机放那里 然后开始但如果导演只是负责喊开始那么真正决定一部电影气质的东西到底",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "视频笔记",
+      "电影问答室bel"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6k4IOJ1iI70",
+    "duration": "2分55秒",
+    "outputs": {
+      "html": "what-does-a-director-do-图文实录.html",
+      "svg": "what-does-a-director-do-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 74,
+    "svg_height": 1901,
+    "slug": "what-does-a-director-do"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "电影问答室剧本深度专题｜下集",
+    "summary": "小说改编三法则：展示而非告知、选择塑造人物、设定变成事件；三问自检接近电影。",
+    "primary": "filmmaking",
+    "skills": [],
+    "tags": [
+      "剧本",
+      "改编",
+      "Show Don't Tell",
+      "人物选择"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7pOHN3nLML4",
+    "duration": "4分03秒",
+    "outputs": {
+      "html": "script-deep-dive-part3-图文实录.html",
+      "svg": "script-deep-dive-part3-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 100,
+    "svg_height": 1743,
+    "slug": "script-deep-dive-part3"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "电影问答室｜剧本深度专题中集",
+    "summary": "剧本不散四骨架：戏剧问题逼选择、因果替然后、升级看代价、场景可删则删。",
+    "primary": "filmmaking",
+    "skills": [],
+    "tags": [
+      "剧本结构",
+      "因果",
+      "升级",
+      "场景功能"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8xLsHyONKMe",
+    "duration": "4分37秒",
+    "outputs": {
+      "html": "script-deep-dive-part2-图文实录.html",
+      "svg": "script-deep-dive-part2-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 177,
+    "svg_height": 1812,
+    "slug": "script-deep-dive-part2"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "《剧本深度专题·上｜电影问答室》",
+    "summary": "合格剧本不看设定够不够炸，而看三点是否成立：人物有主动欲望、冲突能持续推动选择、主题藏在命运里。AI 时代画面变便宜，剧本判断能力反而更稀缺。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "视频笔记",
+      "电影问答室",
+      "剧本评估"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6ovRb6Ju905",
+    "duration": "2分28秒",
+    "outputs": {
+      "html": "script-deep-dive-part1-图文实录.html",
+      "svg": "script-deep-dive-part1-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 69,
+    "svg_height": 1958,
+    "slug": "script-deep-dive-part1"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "编剧契约规则：一页纸锁定观众",
+    "summary": "你写了三个月的剧本,观众只给你10秒这10秒没抓住,后面写的再好,也白写大家好,我是阿布老师,大家节后好啊今天给大家加一期剧本特辑也是应了粉丝朋友的要求啊今天讲透一件事电影开场不是介绍故事,是建立期待先说个反常识的绝大多数剧本不是输在故事不",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "视频笔记",
+      "电影问答室bel"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1S2Lswi8SnK",
+    "duration": "3分01秒",
+    "outputs": {
+      "html": "screenwriter-contract-one-page-hook-图文实录.html",
+      "svg": "screenwriter-contract-one-page-hook-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 84,
+    "svg_height": 1901,
+    "slug": "screenwriter-contract-one-page-hook"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "RED用户借来尼康ZR真能替代RED吗",
+    "summary": "尼康 ZR 色彩/R3D/IBIS 接近 RED 使用欲；高光、挡线大屏与工具链不足，难一键替代 RED；28–135+Z 转接是亮点。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "Nikon ZR",
+      "RED",
+      "R3D",
+      "电影机"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7XET6hHV93V",
+    "duration": "11分13秒",
+    "outputs": {
+      "html": "red-user-nikon-zr-replace-red-图文实录.html",
+      "svg": "red-user-nikon-zr-replace-red-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 325,
+    "svg_height": 1881,
+    "slug": "red-user-nikon-zr-replace-red"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "iPhone 18 ProMax干翻索尼A1 II微单旗舰",
+    "summary": "18 Pro Max 光圈物理仍弱，但智能追踪双击在实战效率上干翻 A1 II 菜单路径；17 无追踪出局。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "iPhone",
+      "索尼A1II",
+      "视频追焦",
+      "Vlog"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8G0IA75Dzj1",
+    "duration": "约1分50秒（源文件可读段）",
+    "outputs": {
+      "html": "iphone18-promax-vs-sony-a1-ii-图文实录.html",
+      "svg": "iphone18-promax-vs-sony-a1-ii-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 70,
+    "svg_height": 1743,
+    "slug": "iphone18-promax-vs-sony-a1-ii"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "电影问答室｜电影的工业全流程",
+    "summary": "杀青不是完成；电影是艺术也是工业。前期问答与筹备已完成一半创作，拍摄出素材，剪辑二次创作，发行连接观众才闭环。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "电影工业",
+      "制片",
+      "剪辑",
+      "发行"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7yzWoTmMmKy",
+    "duration": "2分10秒",
+    "outputs": {
+      "html": "film-qa-06-industry-pipeline-图文实录.html",
+      "svg": "film-qa-06-industry-pipeline-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 66,
+    "svg_height": 1467,
+    "slug": "film-qa-06-industry-pipeline"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "电影问答室｜表演不止情绪",
+    "summary": "「再伤心一点」没用；先问 objective。目标—行动—阻碍产生戏剧；潜台词是没说出口的真需求；情绪是行动的结果。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "表演",
+      "objective",
+      "潜台词",
+      "斯坦尼"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8Q6SSiyUy7Z",
+    "duration": "2分17秒",
+    "outputs": {
+      "html": "film-qa-05-acting-beyond-emotion-图文实录.html",
+      "svg": "film-qa-05-acting-beyond-emotion-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 1265,
+    "slug": "film-qa-05-acting-beyond-emotion"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "央美顾老师|色彩如何画出光影空间？",
+    "summary": "画色彩,光是灵魂,光是这个色彩的灵魂你要把光画好,光感发充分看这个光的味道然后再看这个光影里面的空间大家怎么在光影之中能把空间关系发足,发充分,发到位这个是我们今天的重点看这个光的味道画得特别足,特别到位就整个光影氛围其实这个东西没有那么复",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "视频笔记",
+      "跟央美顾老师学画"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/31dwvn7LOjm",
+    "duration": "3分38秒",
+    "outputs": {
+      "html": "cama-color-light-space-图文实录.html",
+      "svg": "cama-color-light-space-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 98,
+    "svg_height": 1901,
+    "slug": "cama-color-light-space"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "不管工具怎么变，故事的根永远是人",
+    "summary": "专业编剧先写「谁想要什么、被什么挡住」；每场戏须改变人物处境，否则删除；剧本是生产图纸而非文学。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "剧本",
+      "人物目标",
+      "编剧",
+      "电影问答室"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3jQNrDp8d2k",
+    "duration": "30秒",
+    "outputs": {
+      "html": "story-root-is-always-people-图文实录.html",
+      "svg": "story-root-is-always-people-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 15,
+    "svg_height": 1497,
+    "slug": "story-root-is-always-people"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "剧本基础技巧续集：深入创作的核心",
+    "summary": "剧本基础续集：角色小传、对话、冲突、场景细节；参军/交叉剪辑/医院三则范例演示如何把技巧写成场次。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "编剧",
+      "剧本",
+      "冲突",
+      "范例"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7LTluWvbXGl",
+    "duration": "",
+    "outputs": {
+      "html": "script-basics-core-craft-图文实录.html",
+      "svg": "script-basics-core-craft-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1950,
+    "slug": "script-basics-core-craft"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "教你如何利用灯光拍出电影感大片",
+    "summary": "对比「正常/flat」与「电影感/cinematic」：手持小LED做侧光、轮廓光与局部高光，把平光场景立刻做出层次与氛围。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "电影感",
+      "布光",
+      "手持LED",
+      "摄影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1rUbI4uW36z",
+    "duration": "36秒",
+    "outputs": {
+      "html": "lighting-cinematic-look-图文实录.html",
+      "svg": "lighting-cinematic-look-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 1743,
+    "slug": "lighting-cinematic-look"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "吃不完的面包如何保存如何复热更好吃",
+    "summary": "欧包冷却后淀粉老化变硬；−18℃冷冻约10天；复热忌微波，优先烤箱蒸汽/洒水，电饭煲约15分钟作备选。",
+    "primary": "cooking",
+    "skills": [],
+    "tags": [
+      "欧包",
+      "冷冻",
+      "复热",
+      "烘焙"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4Bi0rNcY0xW",
+    "duration": "2分55秒",
+    "outputs": {
+      "html": "leftover-bread-store-reheat-图文实录.html",
+      "svg": "leftover-bread-store-reheat-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 87,
+    "svg_height": 2045,
+    "slug": "leftover-bread-store-reheat"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "高手剪辑：观众看不见剪辑",
+    "summary": "切点差三帧观感天差地别；忌动作结束后再切；用动接动（Cutting on Action）与默奇眨眼理论把切口藏进运动与闭眼。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "剪辑",
+      "动接动",
+      "沃尔特默奇",
+      "Cutting on Action"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1kjOPxR1zhl",
+    "duration": "2分02秒",
+    "outputs": {
+      "html": "invisible-editing-mastery-图文实录.html",
+      "svg": "invisible-editing-mastery-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 54,
+    "svg_height": 1743,
+    "slug": "invisible-editing-mastery"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "ins风摄影技巧：你看到的是P1，摄影师眼里是P2–P8",
+    "summary": "P1 巷口全景红框拆景；P2–P8 落地为墙灯投影、仰拍天空、山墙、尖塔峡谷、古董招牌、迪斯科球特写与砖墙苹果。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "构图",
+      "街头摄影",
+      "ins风",
+      "取景眼"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3Dq1UwLarhS",
+    "duration": "",
+    "outputs": {
+      "html": "ins-photo-p1-vs-photographer-eye-图文实录.html",
+      "svg": "ins-photo-p1-vs-photographer-eye-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2321,
+    "slug": "ins-photo-p1-vs-photographer-eye"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "ins风摄影·调色 不要放弃那些构图不错，但没有调色的",
+    "summary": "十组 Yes/But：松鼠、象、虎、羚羊、瀑布、狮、鹿、冠鹤、双虎、豹——构图已成立的底片用对比度与色温完成，不要因灰雾删除。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "调色",
+      "构图",
+      "ins风",
+      "野生动物"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5md9r1wKVXs",
+    "duration": "",
+    "outputs": {
+      "html": "ins-photo-color-grade-keep-good-frames-图文实录.html",
+      "svg": "ins-photo-color-grade-keep-good-frames-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 1875,
+    "slug": "ins-photo-color-grade-keep-good-frames"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "如何开髋｜更好的送髋跑",
+    "summary": "用骨盆模型讲清髋关节活动，配合跪姿垫块、侧卧球松解、站立送髋与壶铃铰链/划船，帮助跑者开髋并更好送髋。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "开髋",
+      "送髋",
+      "跑步",
+      "髋关节"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/63D0oIaRDyP",
+    "duration": "44秒",
+    "outputs": {
+      "html": "hip-open-send-hip-run-图文实录.html",
+      "svg": "hip-open-send-hip-run-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 1265,
+    "slug": "hip-open-send-hip-run"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "电影问答室｜同一剧本不同导演",
+    "summary": "导演核心是重新阐释剧本（interpretation）；场面调度用空间关系讲故事；每个镜头要答 Why this choice；成熟导演形成作者指纹。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "导演",
+      "阐释",
+      "场面调度",
+      "作者论"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2FdfEPStXwj",
+    "duration": "2分08秒",
+    "outputs": {
+      "html": "film-qa-04-same-script-different-directors-图文实录.html",
+      "svg": "film-qa-04-same-script-different-directors-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 61,
+    "svg_height": 1497,
+    "slug": "film-qa-04-same-script-different-directors"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "不要等准备好了才开始面试",
+    "summary": "不要等完全准备好才面试：用真面试驱动学习、收集刚好超能力的挑战反馈，并以双向「略微高攀」找匹配。",
+    "primary": "career",
+    "skills": [],
+    "tags": [
+      "面试",
+      "求职",
+      "学习闭环",
+      "心态"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9IQJR2YDgEJ",
+    "duration": "",
+    "outputs": {
+      "html": "dont-wait-ready-to-interview-图文实录.html",
+      "svg": "dont-wait-ready-to-interview-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2088,
+    "slug": "dont-wait-ready-to-interview"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "新手剧本创作的7个实用技巧分享",
+    "summary": "文案七技巧 + 图内三范例：参军物件点火、声音交叉剪辑、医院动机小传；金句「故事是影片成功的开端」。",
+    "primary": "film",
+    "skills": [],
+    "tags": [
+      "编剧",
+      "新手",
+      "短片",
+      "范例"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9l49G48ANg0",
+    "duration": "",
+    "outputs": {
+      "html": "beginner-script-7-tips-图文实录.html",
+      "svg": "beginner-script-7-tips-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1950,
+    "slug": "beginner-script-7-tips"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "ins风摄影构图·我看到的和我拍到的",
+    "summary": "四组 what I see / what I take：喷泉光束花瓣、街角红花麻袋、樱花高光簇、廊道窗影几何——用裁切与暗部调色把整景收成可发布构图。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "构图",
+      "调色",
+      "ins风",
+      "手机摄影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4rtXR1bE8MY",
+    "duration": "",
+    "outputs": {
+      "html": "ins-photo-composition-seen-vs-shot-图文实录.html",
+      "svg": "ins-photo-composition-seen-vs-shot-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2321,
+    "slug": "ins-photo-composition-seen-vs-shot"
+  },
+  {
+    "date": "2026-10-31",
     "title": "手机汽车大模型小米为什么总能上桌",
     "summary": "雷军最晚进场却常上桌：中关村毒打学会听用户，错过门户时代后用「铁人三项」重做手机—生态链—汽车；中国成熟供应链是底牌，大模型接入既有账号与设备飞轮。下一程要啃基础科研，性价比与参与感不够用。",
     "primary": "tech",

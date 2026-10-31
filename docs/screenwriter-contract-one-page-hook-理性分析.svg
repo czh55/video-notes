@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1901" viewBox="0 0 1320 1901">
+  <foreignObject x="0" y="0" width="1320" height="1901">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>编剧契约规则：一页纸锁定观众</h1>
+  <div><span class="tag">小红书</span><span class="tag">3分01秒</span></div>
+  <p class="summary-line">你写了三个月的剧本,观众只给你10秒这10秒没抓住,后面写的再好,也白写大家好,我是阿布老师,大家节后好啊今天给大家加一期剧本特辑也是应了粉丝朋友的要求啊今天讲透一件事电影开场不是介绍故事,是建立期待先说个反常识的绝大多数剧本不是输在故事不</p>
+  <div class="card"><h3>时间结构</h3><table><tr><th>时段</th><th>要点</th></tr><tr><td>00:00–00:45</td><td>你写了三个月的剧本,观众只给你10秒这10秒没抓…</td></tr><tr><td>00:45–01:30</td><td>签不清楚,观众就滑走了悬疑篇,开场甩一个异常事件…</td></tr><tr><td>01:30–02:16</td><td>高手第一页写的是一个问题看寄生虫的开场他没解释韩…</td></tr><tr><td>02:16–03:01</td><td>三个都打勾第一页才算立足最后说个很多人忽略的点现…</td></tr></table></div>
+  <div class="card">
+    <h3>行动清单</h3>
+    <div class="action">回看完整转录 → 对照关键帧 → 用总结句自检是否抓住主线</div>
+    <div class="pitfall">忌：只看封面不看场次逻辑；忌：忽略口播中的定义句</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>你写了三个月的剧本,观众只给你10秒这10秒没抓住,后面写的再好,也白写大家好,我是阿布老师,大家节后好啊今天给大家加一期剧本特辑也是应了粉丝朋友的要求啊今天讲透一件事电影开场不是介绍故事,是建立期待先说个反常识的绝大多数剧本不是输在故事不</p></div>
+  <p class="footer">来源：小红书 · 电影问答室belli · 2026-10-31</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

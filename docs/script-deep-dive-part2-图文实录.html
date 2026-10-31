@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="剧本深度专题中集：设定好却越写越散——戏剧问题须逼出选择（《楚门》），因果链替换「然后」，升级看代价，场景功能可删则删；AI 稿重点查因为还是然后。">
+<title>电影问答室｜剧本深度专题中集｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>电影问答室｜剧本深度专题中集</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">4分37秒</span>
+    <span class="meta-tag tag-topic">剧本 · 结构骨架</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/8xLsHyONKMe" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch-scatter">设定很酷为何越写越散</a>
+<a href="#ch-dq">戏剧问题：逼出选择</a>
+<a href="#ch-cause">因果链</a>
+<a href="#ch-esc">升级 + 场景功能</a>
+<a href="#ch-tight">缜密与 AI 自检</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>剧本深度专题中集：设定好却越写越散——戏剧问题须逼出选择（《楚门》），因果链替换「然后」，升级看代价，场景功能可删则删；AI 稿重点查因为还是然后。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–00:50]</span><div><strong>散</strong><p>设定有意思但场次没连上。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:50–01:45]</span><div><strong>戏剧问题</strong><p>设定必须逼出选择（楚门离开）。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:45–02:50]</span><div><strong>因果</strong><p>因为链；寄生虫秘密递进。</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:50–03:40]</span><div><strong>升级/场功能</strong><p>代价升高；删掉无差则删。</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:40–04:37]</span><div><strong>缜密</strong><p>必然性；AI 查因为 vs 然后。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>设定→无法逃避的选择；因为→不得不；升级=代价；每场必须改变处境。</p></div>
+  <div class="warn">Whisper medium 中文稿；专有名词与口语已尽量校正，仍可能有识别误差。</div>
+</div>
+
+<section class="story-section" id="ch-scatter">
+  <h2><span class="time-marker">00:00–00:50</span>设定很酷，为什么越写越散</h2>
+  <p>中集专打「第一场特别牛、第三场突然不知道为什么」。很多本子不是没东西，是彼此没连起来。设定有意思，但往下走剧情没有真正咬住——「我有一个很酷的设定」和「这是一部成立的电影」是两回事。</p>
+  <figure><img src="assets/script-deep-dive-part2/shot-01.jpg" alt="开场：设定好却越写越散" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:12] 怕的不是没创意，是第一场牛、第三场不知道为什么</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/500e0f83cb39.mp3" type="button" aria-label="Play English audio">🔊</button><span>Fear isn’t no ideas—act one shines, act three loses the why</span></div>
+<audio class="cap-audio" src="audio/500e0f83cb39.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/script-deep-dive-part2/shot-02.jpg" alt="设定有意思但剧情没咬住" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:35] 设定没问题；往下走以后剧情没有真正咬住</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9e1849a8bdce.mp3" type="button" aria-label="Play English audio">🔊</button><span>Premise is fine; the plot doesn’t lock after it starts</span></div>
+<audio class="cap-audio" src="audio/9e1849a8bdce.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/script-deep-dive-part2/shot-03.jpg" alt="酷设定 vs 成立的电影" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:00] 酷设定 ≠ 成立的电影：必须逼出无法逃避的问题</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a8cce2e2b71b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cool premise ≠ a film: it must force an inescapable question</span></div>
+<audio class="cap-audio" src="audio/a8cce2e2b71b.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+<section class="story-section" id="ch-dq">
+  <h2><span class="time-marker">00:50–01:45</span>戏剧问题：设定必须逼出选择</h2>
+  <p>时间冻结只剩自己、每天回到昨天——听着都有趣。但《楚门的世界》真正推动故事的不是「何时发现真相」，而是知道真相后「敢不敢离开」。设定最后必须逼出一个无法逃避的问题/选择，再制造下一个问题。先别往下写，问：我的设定究竟逼出了人物什么无法逃避的问题？没有，就还只是有意思，不是戏剧。</p>
+  <figure><img src="assets/script-deep-dive-part2/shot-04.jpg" alt="楚门的世界：敢不敢离开" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:20] 《楚门》：推动力不是发现真相，是敢不敢离开</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2a7b79082482.mp3" type="button" aria-label="Play English audio">🔊</button><span>Truman: drive isn’t finding truth—it’s daring to leave</span></div>
+<audio class="cap-audio" src="audio/2a7b79082482.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+<section class="story-section" id="ch-cause">
+  <h2><span class="time-marker">01:45–02:50</span>因果链 Cause &amp; Effect</h2>
+  <p>骨架是因果：不是「然后发生了什么」，而是「因为发生了什么，所以接下来不得不发生什么」。A→B→C→D 链成立，故事才会自己往前跑。把剧本里的「然后」揪出来，问上一场结束后为什么必须进下一场、人物为什么现在必须做这决定。若答案是「剧情需要」——通常是编剧在推人物。成熟剧本相反：前面的选择逼着后面发生。《寄生虫》前提只是穷家进富家工作；厉害的是进去后一个选择制造下一后果，秘密逼出秘密，为维持局面又做新选择，直至失控。</p>
+  <figure><img src="assets/script-deep-dive-part2/shot-05.jpg" alt="Cause &amp; Effect 因果链" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:50] 因果：不是「然后」，是「因为 A 所以不得不 B」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/428b9bb42dba.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cause–effect: not “and then”—“because A, must B”</span></div>
+<audio class="cap-audio" src="audio/428b9bb42dba.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/script-deep-dive-part2/shot-06.jpg" alt="编剧推人物 vs 选择逼剧情" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:20] 若只因「剧情需要」——是编剧在推人物，不是人物推剧情</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ada3a0f58570.mp3" type="button" aria-label="Play English audio">🔊</button><span>If “plot needs it”—you’re pushing characters, not them pushing plot</span></div>
+<audio class="cap-audio" src="audio/ada3a0f58570.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/script-deep-dive-part2/shot-07.jpg" alt="寄生虫秘密链与 Escalation" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:45] 《寄生虫》：秘密逼秘密；升级=代价变高不是场面变大</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/772f93602fb8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Parasite: secrets force secrets; escalation = rising cost, not bigger noise</span></div>
+<audio class="cap-audio" src="audio/772f93602fb8.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+<section class="story-section" id="ch-esc">
+  <h2><span class="time-marker">02:50–03:40</span>升级 Escalation + 场景功能</h2>
+  <p>升级不是吵架→打架→爆炸、动静越来越大。真正的升级是代价越来越高、选择越来越难：先解决小问题，后来要牺牲更重要的东西，再往后连不选择本身都成了选择。场景功能（Scene Purpose）：一场一场查——处境/信息/关系变了吗？下一步更难了吗？删掉前后无差别，好看也不是存在理由。</p>
+  <figure><img src="assets/script-deep-dive-part2/shot-08.jpg" alt="代价升级到不选择也是选择" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:10] 真升级：越来越难选，连不选择本身都成了选择</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/997a32b5ddbc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Real escalation: choices harden until inaction is also a choice</span></div>
+<audio class="cap-audio" src="audio/997a32b5ddbc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/script-deep-dive-part2/shot-09.jpg" alt="Scene Purpose 场景功能检查" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:25] 场景功能：处境/信息/关系变了吗？删掉无差别就该删</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e46c1af91a63.mp3" type="button" aria-label="Play English audio">🔊</button><span>Scene purpose: did status/info/relationship change? If cut changes nothing, cut it</span></div>
+<audio class="cap-audio" src="audio/e46c1af91a63.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+<section class="story-section" id="ch-tight">
+  <h2><span class="time-marker">03:40–04:37</span>缜密：必然性 + AI 自检</h2>
+  <p>一键生成也能给你人物事件反转三幕，但要查 A 是导致了 B，还是 A 然后 B 然后 C——表面都有剧情，骨架完全不同。真正缜密：回看时前面都在为后面制造必然性，前瞻时觉得下一步只能这么走。留作业：有没有一场戏自己觉得挺好、删了也不知影响？下一集讲专业编剧怎么判断留删与成片可能。</p>
+  <figure><img src="assets/script-deep-dive-part2/shot-10.jpg" alt="缜密=必然性" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:05] 缜密不是信息多：回看有必然性，前瞻「只能这么走」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e68ec3863a55.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tightness isn’t more info: look back—inevitable; look ahead—only this path</span></div>
+<audio class="cap-audio" src="audio/e68ec3863a55.mp3" preload="none"></audio>
+</figcaption></figure>
+</section>
+
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible">
+<summary>完整转录（177段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">Whisper medium · 中文 · 已做术语校正，仍可能有识别误差。</p>
+<ol class="transcript-list">
+<li class="transcript-row" id="transcript-1"><time datetime="PT0S">00:00</time><p>父老乡亲朋友们节日好啊</p></li>
+<li class="transcript-row" id="transcript-2"><time datetime="PT1S">00:01</time><p>感谢本场这一期</p></li>
+<li class="transcript-row" id="transcript-3"><time datetime="PT3S">00:03</time><p>我们聊一聊为什么有些剧本设定很好</p></li>
+<li class="transcript-row" id="transcript-4"><time datetime="PT5S">00:05</time><p>可到后面却越来越散</p></li>
+<li class="transcript-row" id="transcript-5"><time datetime="PT7S">00:07</time><p>一个剧本最怕的不是没创意</p></li>
+<li class="transcript-row" id="transcript-6"><time datetime="PT9S">00:09</time><p>而是第一场特别牛</p></li>
+<li class="transcript-row" id="transcript-7"><time datetime="PT10S">00:10</time><p>第二场也挺远</p></li>
+<li class="transcript-row" id="transcript-8"><time datetime="PT12S">00:12</time><p>到了第三场</p></li>
+<li class="transcript-row" id="transcript-9"><time datetime="PT13S">00:13</time><p>诶 怎么突然不知道为什么了</p></li>
+<li class="transcript-row" id="transcript-10"><time datetime="PT15S">00:15</time><p>很多剧本不是没东西</p></li>
+<li class="transcript-row" id="transcript-11"><time datetime="PT16S">00:16</time><p>是彼此之间没连起来</p></li>
+<li class="transcript-row" id="transcript-12"><time datetime="PT18S">00:18</time><p>那一个剧本到底怎么样才算真正完整缜密</p></li>
+<li class="transcript-row" id="transcript-13"><time datetime="PT21S">00:21</time><p>有一位朋友后来直接把自己的作品发给我</p></li>
+<li class="transcript-row" id="transcript-14"><time datetime="PT24S">00:24</time><p>问我</p></li>
+<li class="transcript-row" id="transcript-15"><time datetime="PT24S">00:24</time><p>老师</p></li>
+<li class="transcript-row" id="transcript-16"><time datetime="PT25S">00:25</time><p>我这个故事设定明明挺有意思的</p></li>
+<li class="transcript-row" id="transcript-17"><time datetime="PT27S">00:27</time><p>为什么我自己越看越觉得不对</p></li>
+<li class="transcript-row" id="transcript-18"><time datetime="PT30S">00:30</time><p>我看了一下</p></li>
+<li class="transcript-row" id="transcript-19"><time datetime="PT30S">00:30</time><p>其实这个问题特别典型</p></li>
+<li class="transcript-row" id="transcript-20"><time datetime="PT32S">00:32</time><p>设定没问题</p></li>
+<li class="transcript-row" id="transcript-21"><time datetime="PT33S">00:33</time><p>问题出在设定往下走以后</p></li>
+<li class="transcript-row" id="transcript-22"><time datetime="PT35S">00:35</time><p>剧情没有真正咬住</p></li>
+<li class="transcript-row" id="transcript-23"><time datetime="PT37S">00:37</time><p>所以今天我们就专门讲这个</p></li>
+<li class="transcript-row" id="transcript-24"><time datetime="PT39S">00:39</time><p>很多人刚开始写剧本的时候</p></li>
+<li class="transcript-row" id="transcript-25"><time datetime="PT41S">00:41</time><p>很容易先想一个特别大的设定</p></li>
+<li class="transcript-row" id="transcript-26"><time datetime="PT43S">00:43</time><p>比如一个人醒来以后</p></li>
+<li class="transcript-row" id="transcript-27"><time datetime="PT44S">00:44</time><p>发现全世界只有自己没有被时间冻结</p></li>
+<li class="transcript-row" id="transcript-28"><time datetime="PT47S">00:47</time><p>或者一个女孩发现</p></li>
+<li class="transcript-row" id="transcript-29"><time datetime="PT49S">00:49</time><p>自己每天醒来都会回到前一天</p></li>
+<li class="transcript-row" id="transcript-30"><time datetime="PT51S">00:51</time><p>这些东西一听</p></li>
+<li class="transcript-row" id="transcript-31"><time datetime="PT53S">00:53</time><p>是不是都挺有意思</p></li>
+<li class="transcript-row" id="transcript-32"><time datetime="PT54S">00:54</time><p>但是我有一个很酷的设定</p></li>
+<li class="transcript-row" id="transcript-33"><time datetime="PT57S">00:57</time><p>和这是一个成立的电影</p></li>
+<li class="transcript-row" id="transcript-34"><time datetime="PT58S">00:58</time><p>其实是两回事</p></li>
+<li class="transcript-row" id="transcript-35"><time datetime="PT59S">00:59</time><p>因为故事真正开始以后</p></li>
+<li class="transcript-row" id="transcript-36"><time datetime="PT61S">01:01</time><p>马上就会出现一个问题</p></li>
+<li class="transcript-row" id="transcript-37"><time datetime="PT63S">01:03</time><p>比如楚门的世界</p></li>
+<li class="transcript-row" id="transcript-38"><time datetime="PT65S">01:05</time><p>一部特别有想象力的喜剧电影</p></li>
+<li class="transcript-row" id="transcript-39"><time datetime="PT67S">01:07</time><p>主角楚门突然有一天突然发现</p></li>
+<li class="transcript-row" id="transcript-40"><time datetime="PT69S">01:09</time><p>摄像机从天上掉到了跟前</p></li>
+<li class="transcript-row" id="transcript-41"><time datetime="PT71S">01:11</time><p>自己生活的整个世界似乎都是假的</p></li>
+<li class="transcript-row" id="transcript-42"><time datetime="PT73S">01:13</time><p>但真正推动故事的并不是</p></li>
+<li class="transcript-row" id="transcript-43"><time datetime="PT75S">01:15</time><p>楚门什么时候发现真相</p></li>
+<li class="transcript-row" id="transcript-44"><time datetime="PT77S">01:17</time><p>而是当他知道真相以后</p></li>
+<li class="transcript-row" id="transcript-45"><time datetime="PT79S">01:19</time><p>他敢不敢离开</p></li>
+<li class="transcript-row" id="transcript-46"><time datetime="PT80S">01:20</time><p>你看戏剧一下就出来了</p></li>
+<li class="transcript-row" id="transcript-47"><time datetime="PT82S">01:22</time><p>因为设定最后必须逼出一个选择</p></li>
+<li class="transcript-row" id="transcript-48"><time datetime="PT84S">01:24</time><p>而这个选择又会制造下一个问题</p></li>
+<li class="transcript-row" id="transcript-49"><time datetime="PT87S">01:27</time><p>那这时候关键的就来了</p></li>
+<li class="transcript-row" id="transcript-50"><time datetime="PT88S">01:28</time><p>这个地方大家可得记住了</p></li>
+<li class="transcript-row" id="transcript-51"><time datetime="PT90S">01:30</time><p>如果你现在正在写剧本</p></li>
+<li class="transcript-row" id="transcript-52"><time datetime="PT92S">01:32</time><p>先别急着往下写</p></li>
+<li class="transcript-row" id="transcript-53"><time datetime="PT93S">01:33</time><p>问自己一句</p></li>
+<li class="transcript-row" id="transcript-54"><time datetime="PT94S">01:34</time><p>我的这个设定</p></li>
+<li class="transcript-row" id="transcript-55"><time datetime="PT95S">01:35</time><p>究竟逼出了人物什么无法逃避的问题</p></li>
+<li class="transcript-row" id="transcript-56"><time datetime="PT98S">01:38</time><p>如果这个问题都没有</p></li>
+<li class="transcript-row" id="transcript-57"><time datetime="PT99S">01:39</time><p>那你的设定可能只是有意思</p></li>
+<li class="transcript-row" id="transcript-58"><time datetime="PT102S">01:42</time><p>还没有真正变成戏剧</p></li>
+<li class="transcript-row" id="transcript-59"><time datetime="PT103S">01:43</time><p>如果觉得这个知识点对你有用</p></li>
+<li class="transcript-row" id="transcript-60"><time datetime="PT105S">01:45</time><p>必须一键三连先走一个</p></li>
+<li class="transcript-row" id="transcript-61"><time datetime="PT107S">01:47</time><p>接下来就是剧本真正的骨架</p></li>
+<li class="transcript-row" id="transcript-62"><time datetime="PT109S">01:49</time><p>cause effect因果关系</p></li>
+<li class="transcript-row" id="transcript-63"><time datetime="PT112S">01:52</time><p>这个东西会直接决定你的剧本</p></li>
+<li class="transcript-row" id="transcript-64"><time datetime="PT114S">01:54</time><p>是不是越写越散</p></li>
+<li class="transcript-row" id="transcript-65"><time datetime="PT115S">01:55</time><p>说白了</p></li>
+<li class="transcript-row" id="transcript-66"><time datetime="PT116S">01:56</time><p>不是然后发生了什么</p></li>
+<li class="transcript-row" id="transcript-67"><time datetime="PT118S">01:58</time><p>而是因为发生了什么</p></li>
+<li class="transcript-row" id="transcript-68"><time datetime="PT119S">01:59</time><p>所以接下来不得不发生什么</p></li>
+<li class="transcript-row" id="transcript-69"><time datetime="PT121S">02:01</time><p>人物做了A</p></li>
+<li class="transcript-row" id="transcript-70"><time datetime="PT122S">02:02</time><p>所以发生B</p></li>
+<li class="transcript-row" id="transcript-71"><time datetime="PT123S">02:03</time><p>因为B人物只能做C</p></li>
+<li class="transcript-row" id="transcript-72"><time datetime="PT125S">02:05</time><p>C又制造D这条链一直成立</p></li>
+<li class="transcript-row" id="transcript-73"><time datetime="PT128S">02:08</time><p>故事才会自己往前跑</p></li>
+<li class="transcript-row" id="transcript-74"><time datetime="PT129S">02:09</time><p>所以你可以拿自己的剧本</p></li>
+<li class="transcript-row" id="transcript-75"><time datetime="PT131S">02:11</time><p>做一个狠狠的检查</p></li>
+<li class="transcript-row" id="transcript-76"><time datetime="PT132S">02:12</time><p>把里面的然后泡沫找出来</p></li>
+<li class="transcript-row" id="transcript-77"><time datetime="PT135S">02:15</time><p>然后问为什么上一场戏结束以后</p></li>
+<li class="transcript-row" id="transcript-78"><time datetime="PT138S">02:18</time><p>为什么必须进入下一场</p></li>
+<li class="transcript-row" id="transcript-79"><time datetime="PT140S">02:20</time><p>这个人物为什么现在必须做这个决定</p></li>
+<li class="transcript-row" id="transcript-80"><time datetime="PT142S">02:22</time><p>因为剧情需要</p></li>
+<li class="transcript-row" id="transcript-81"><time datetime="PT144S">02:24</time><p>那啥</p></li>
+<li class="transcript-row" id="transcript-82"><time datetime="PT144S">02:24</time><p>这时候你就要警惕了</p></li>
+<li class="transcript-row" id="transcript-83"><time datetime="PT145S">02:25</time><p>通常不是人物在推动剧情</p></li>
+<li class="transcript-row" id="transcript-84"><time datetime="PT147S">02:27</time><p>是编剧在推人物</p></li>
+<li class="transcript-row" id="transcript-85"><time datetime="PT149S">02:29</time><p>真正成熟的剧本恰恰相反</p></li>
+<li class="transcript-row" id="transcript-86"><time datetime="PT150S">02:30</time><p>前面的选择逼着后面的事情发生</p></li>
+<li class="transcript-row" id="transcript-87"><time datetime="PT153S">02:33</time><p>比如寄生虫</p></li>
+<li class="transcript-row" id="transcript-88"><time datetime="PT154S">02:34</time><p>一个贫困家庭进入一个富裕家庭工作</p></li>
+<li class="transcript-row" id="transcript-89"><time datetime="PT157S">02:37</time><p>只是故事前提</p></li>
+<li class="transcript-row" id="transcript-90"><time datetime="PT158S">02:38</time><p>真正厉害的是</p></li>
+<li class="transcript-row" id="transcript-91"><time datetime="PT159S">02:39</time><p>进去以后一个选择会产生下一个后果</p></li>
+<li class="transcript-row" id="transcript-92"><time datetime="PT163S">02:43</time><p>一个秘密会逼出另一个秘密</p></li>
+<li class="transcript-row" id="transcript-93"><time datetime="PT165S">02:45</time><p>人物为了维持眼前的局面</p></li>
+<li class="transcript-row" id="transcript-94"><time datetime="PT166S">02:46</time><p>又不得不做新的选择</p></li>
+<li class="transcript-row" id="transcript-95"><time datetime="PT168S">02:48</time><p>于是事情开始越来越失控</p></li>
+<li class="transcript-row" id="transcript-96"><time datetime="PT170S">02:50</time><p>这就涉及一个很重要的概念</p></li>
+<li class="transcript-row" id="transcript-97"><time datetime="PT172S">02:52</time><p>Escalation</p></li>
+<li class="transcript-row" id="transcript-98"><time datetime="PT173S">02:53</time><p>升级</p></li>
+<li class="transcript-row" id="transcript-99"><time datetime="PT174S">02:54</time><p>注意啊</p></li>
+<li class="transcript-row" id="transcript-100"><time datetime="PT174S">02:54</time><p>升级可不是第一场吵架</p></li>
+<li class="transcript-row" id="transcript-101"><time datetime="PT176S">02:56</time><p>第二场打架</p></li>
+<li class="transcript-row" id="transcript-102"><time datetime="PT177S">02:57</time><p>第三场直接爆炸</p></li>
+<li class="transcript-row" id="transcript-103"><time datetime="PT179S">02:59</time><p>动静越来越大</p></li>
+<li class="transcript-row" id="transcript-104"><time datetime="PT180S">03:00</time><p>不等于戏剧越来越强</p></li>
+<li class="transcript-row" id="transcript-105"><time datetime="PT182S">03:02</time><p>真正的升级是</p></li>
+<li class="transcript-row" id="transcript-106"><time datetime="PT183S">03:03</time><p>代价越来越高</p></li>
+<li class="transcript-row" id="transcript-107"><time datetime="PT184S">03:04</time><p>选择越来越难</p></li>
+<li class="transcript-row" id="transcript-108"><time datetime="PT185S">03:05</time><p>开始只是解决一个小问题</p></li>
+<li class="transcript-row" id="transcript-109"><time datetime="PT187S">03:07</time><p>后来发现</p></li>
+<li class="transcript-row" id="transcript-110"><time datetime="PT187S">03:07</time><p>解决它要牺牲另外一个更重要的东西</p></li>
+<li class="transcript-row" id="transcript-111"><time datetime="PT190S">03:10</time><p>再往后</p></li>
+<li class="transcript-row" id="transcript-112"><time datetime="PT190S">03:10</time><p>甚至连不选择本身都成了一种选择</p></li>
+<li class="transcript-row" id="transcript-113"><time datetime="PT194S">03:14</time><p>这时候观众才会真正紧张</p></li>
+<li class="transcript-row" id="transcript-114"><time datetime="PT196S">03:16</time><p>还有一个特别实用的东西</p></li>
+<li class="transcript-row" id="transcript-115"><time datetime="PT198S">03:18</time><p>Scene Purpose</p></li>
+<li class="transcript-row" id="transcript-116"><time datetime="PT199S">03:19</time><p>场景功能</p></li>
+<li class="transcript-row" id="transcript-117"><time datetime="PT200S">03:20</time><p>写完以后</p></li>
+<li class="transcript-row" id="transcript-118"><time datetime="PT201S">03:21</time><p>一场一场检查</p></li>
+<li class="transcript-row" id="transcript-119"><time datetime="PT202S">03:22</time><p>这场戏到底改变了什么</p></li>
+<li class="transcript-row" id="transcript-120"><time datetime="PT204S">03:24</time><p>人物处境变了吗</p></li>
+<li class="transcript-row" id="transcript-121"><time datetime="PT205S">03:25</time><p>信息变了吗</p></li>
+<li class="transcript-row" id="transcript-122"><time datetime="PT206S">03:26</time><p>关系变了吗</p></li>
+<li class="transcript-row" id="transcript-123"><time datetime="PT207S">03:27</time><p>下一步是不是更难了</p></li>
+<li class="transcript-row" id="transcript-124"><time datetime="PT209S">03:29</time><p>如果删掉这一场</p></li>
+<li class="transcript-row" id="transcript-125"><time datetime="PT210S">03:30</time><p>前后完全没区别</p></li>
+<li class="transcript-row" id="transcript-126"><time datetime="PT211S">03:31</time><p>诶</p></li>
+<li class="transcript-row" id="transcript-127"><time datetime="PT212S">03:32</time><p>那就得问</p></li>
+<li class="transcript-row" id="transcript-128"><time datetime="PT212S">03:32</time><p>这场戏为什么存在</p></li>
+<li class="transcript-row" id="transcript-129"><time datetime="PT214S">03:34</time><p>别跟我说</p></li>
+<li class="transcript-row" id="transcript-130"><time datetime="PT215S">03:35</time><p>因为拍出来挺好看</p></li>
+<li class="transcript-row" id="transcript-131"><time datetime="PT216S">03:36</time><p>好看不是它存在的理由</p></li>
+<li class="transcript-row" id="transcript-132"><time datetime="PT218S">03:38</time><p>所以现在你再回头看那些</p></li>
+<li class="transcript-row" id="transcript-133"><time datetime="PT219S">03:39</time><p>一键生成的完整剧本</p></li>
+<li class="transcript-row" id="transcript-134"><time datetime="PT221S">03:41</time><p>会发现问题其实很清楚</p></li>
+<li class="transcript-row" id="transcript-135"><time datetime="PT223S">03:43</time><p>它不是没有故事</p></li>
+<li class="transcript-row" id="transcript-136"><time datetime="PT224S">03:44</time><p>恰恰相反</p></li>
+<li class="transcript-row" id="transcript-137"><time datetime="PT225S">03:45</time><p>人物</p></li>
+<li class="transcript-row" id="transcript-138"><time datetime="PT226S">03:46</time><p>事件</p></li>
+<li class="transcript-row" id="transcript-139"><time datetime="PT226S">03:46</time><p>反转</p></li>
+<li class="transcript-row" id="transcript-140"><time datetime="PT227S">03:47</time><p>甚至三幕结构</p></li>
+<li class="transcript-row" id="transcript-141"><time datetime="PT228S">03:48</time><p>都可以很快给你</p></li>
+<li class="transcript-row" id="transcript-142"><time datetime="PT229S">03:49</time><p>但真正需要检查的是</p></li>
+<li class="transcript-row" id="transcript-143"><time datetime="PT231S">03:51</time><p>A到底是不是</p></li>
+<li class="transcript-row" id="transcript-144"><time datetime="PT232S">03:52</time><p>导致了B</p></li>
+<li class="transcript-row" id="transcript-145"><time datetime="PT233S">03:53</time><p>还是</p></li>
+<li class="transcript-row" id="transcript-146"><time datetime="PT234S">03:54</time><p>A发生了</p></li>
+<li class="transcript-row" id="transcript-147"><time datetime="PT235S">03:55</time><p>然后B发生了</p></li>
+<li class="transcript-row" id="transcript-148"><time datetime="PT236S">03:56</time><p>然后C又发生了</p></li>
+<li class="transcript-row" id="transcript-149"><time datetime="PT237S">03:57</time><p>表面都有剧情</p></li>
+<li class="transcript-row" id="transcript-150"><time datetime="PT238S">03:58</time><p>但骨架完全不一样</p></li>
+<li class="transcript-row" id="transcript-151"><time datetime="PT240S">04:00</time><p>所以一个剧本真正的缜密</p></li>
+<li class="transcript-row" id="transcript-152"><time datetime="PT242S">04:02</time><p>不是信息多</p></li>
+<li class="transcript-row" id="transcript-153"><time datetime="PT243S">04:03</time><p>也不是反转多</p></li>
+<li class="transcript-row" id="transcript-154"><time datetime="PT244S">04:04</time><p>而是你往回看的时候发现</p></li>
+<li class="transcript-row" id="transcript-155"><time datetime="PT246S">04:06</time><p>前面发生的事情</p></li>
+<li class="transcript-row" id="transcript-156"><time datetime="PT247S">04:07</time><p>都在为后面制造必然性</p></li>
+<li class="transcript-row" id="transcript-157"><time datetime="PT249S">04:09</time><p>而往前看的时候</p></li>
+<li class="transcript-row" id="transcript-158"><time datetime="PT250S">04:10</time><p>又觉得下一步</p></li>
+<li class="transcript-row" id="transcript-159"><time datetime="PT252S">04:12</time><p>好像只能这么走</p></li>
+<li class="transcript-row" id="transcript-160"><time datetime="PT253S">04:13</time><p>这时候剧本才真正活起来</p></li>
+<li class="transcript-row" id="transcript-161"><time datetime="PT255S">04:15</time><p>最后留个问题给大家</p></li>
+<li class="transcript-row" id="transcript-162"><time datetime="PT257S">04:17</time><p>你现在正在写的剧本里</p></li>
+<li class="transcript-row" id="transcript-163"><time datetime="PT258S">04:18</time><p>有没有一场戏</p></li>
+<li class="transcript-row" id="transcript-164"><time datetime="PT259S">04:19</time><p>你自己都觉得好像挺好</p></li>
+<li class="transcript-row" id="transcript-165"><time datetime="PT261S">04:21</time><p>但删了也不知道有什么影响</p></li>
+<li class="transcript-row" id="transcript-166"><time datetime="PT263S">04:23</time><p>把它留在评论区</p></li>
+<li class="transcript-row" id="transcript-167"><time datetime="PT264S">04:24</time><p>当然</p></li>
+<li class="transcript-row" id="transcript-168"><time datetime="PT265S">04:25</time><p>大家要是有其他想听的话题内容</p></li>
+<li class="transcript-row" id="transcript-169"><time datetime="PT267S">04:27</time><p>也可以留言</p></li>
+<li class="transcript-row" id="transcript-170"><time datetime="PT268S">04:28</time><p>下一期我们就拿这个问题</p></li>
+<li class="transcript-row" id="transcript-171"><time datetime="PT269S">04:29</time><p>继续往下拆</p></li>
+<li class="transcript-row" id="transcript-172"><time datetime="PT270S">04:30</time><p>一个剧本写完以后</p></li>
+<li class="transcript-row" id="transcript-173"><time datetime="PT272S">04:32</time><p>专业编剧到底怎么判断</p></li>
+<li class="transcript-row" id="transcript-174"><time datetime="PT273S">04:33</time><p>哪些该留</p></li>
+<li class="transcript-row" id="transcript-175"><time datetime="PT274S">04:34</time><p>哪些该删</p></li>
+<li class="transcript-row" id="transcript-176"><time datetime="PT275S">04:35</time><p>以及它到底有没有</p></li>
+<li class="transcript-row" id="transcript-177"><time datetime="PT276S">04:36</time><p>成为一部电影的可能</p></li>
+</ol>
+</div>
+</details>
+</section>
+</article>
+</main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

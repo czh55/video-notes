@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1743" viewBox="0 0 1320 1743">
+  <foreignObject x="0" y="0" width="1320" height="1743">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>追焦这一局：无脑双击 > 菜单七步</h1>
+  <div><span class="tag">iPhone</span><span class="tag">索尼A1 II</span><span class="tag">视频AF</span></div>
+  <p class="summary-line">光圈物理账手机仍输；但 18 的智能追踪在野生动物长焦实战里，操作效率碾压旗舰微单菜单路径。</p>
+  <div class="card"><h3>对照</h3>
+    <table>
+      <tr><th>机型</th><th>追焦体验</th><th>短板</th></tr>
+      <tr><td>17 Pro Max</td><td>长按锁焦</td><td>无追踪</td></tr>
+      <tr><td>18 Pro Max</td><td>双击智能追踪</td><td>底小、等效光圈弱</td></tr>
+      <tr><td>A1 II</td><td>动物识别强但菜单深</td><td>上手步骤多</td></tr>
+    </table>
+  </div>
+  <div class="card"><h3>行动清单</h3>
+    <div class="action">Vlog/跟拍优先试 18 双击追踪 → 要极致画质与操控仍看微单 → 别只看光圈数字</div>
+    <div class="pitfall">忌：用全画幅等效光圈否定手机视频价值；忌：忽略操作路径成本</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>物理底不如微单，但「跟得住且一步上手」足以在 Vlog 场景越级。</p></div>
+  <p class="footer">来源：小红书 · 数字瘾力波 · 2026-10-31</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2088" viewBox="0 0 1320 2088">
+  <foreignObject x="0" y="0" width="1320" height="2088">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>先面试，再用反馈改准备</h1>
+  <div><span class="tag">求职</span><span class="tag">面试</span><span class="tag">心态</span></div>
+  <p class="summary-line">不要等「完全准备好」：约面试创造优先级；真面试提供稀缺反馈；最有价值的题刚好超出能力；结果含噪声，闭环可终身。</p>
+  <div class="card"><h3>七条主张</h3><table><tr><th>页</th><th>主张</th></tr><tr><td>1/8</td><td>先行动，再用面试校准准备</td></tr><tr><td>2/8</td><td>面试驱动学习，而不是 deadline 驱动焦虑</td></tr><tr><td>3/8</td><td>把 challenge 当诊断，不当羞辱</td></tr><tr><td>4/8</td><td>太易只验证，太难无从下手</td></tr><tr><td>5/8</td><td>结果含噪声，过程可复盘</td></tr><tr><td>6/8</td><td>面试是自我重写提纲</td></tr><tr><td>7/8</td><td>单向屈就难长久</td></tr><tr><td>8/8</td><td>求职阶段性，学习终身性</td></tr></table></div>
+  <div class="card">
+    <h3>行动清单</h3>
+    <div class="action">1. 本周约一场真实面试 → 2. 面试后只记三处卡点 → 3. 下周只深挖那三处 → 4. 再约下一场</div>
+    <div class="pitfall">忌：无限刷题不约面；忌：用单次挂掉否定整个人；忌：只追名企 deadline 焦虑</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>求职是阶段，好奇与挑战是终身系统。面试是传感器，不是唯一裁判。</p></div>
+  <p class="footer">来源：小红书 · Neon Pothos · 2026-10-31</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>
