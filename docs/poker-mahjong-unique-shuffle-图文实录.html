@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="54 张扑克全排列约 2.3×10^71，麻将去重后约 4.3×10^162；远超宇宙寿命与原子数尺度的洗牌次数，用于引出建模思维。">
+<title>每一局扑克麻将都独一无二｜图文实录</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:32px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:17px;color:#44403c;background:#fff7ed;border-left:4px solid #f59e0b;padding:14px 18px;border-radius:12px}
+.story-section{margin:40px 0}.story-section h2{font-size:22px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:24px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.08)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.quote{border-left:3px solid #d6d3d1;margin:12px 0;padding:4px 0 4px 14px;color:#57534e}
+.takeaway{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:14px 18px;margin-top:16px}
+.transcript-collapsible summary{cursor:pointer;font-size:22px;font-weight:700;color:#1c1917;margin-bottom:12px}
+.transcript-row{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}
+@media(max-width:640px){.container{padding:28px 16px 56px}h1{font-size:26px}}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+<p class="kicker">图文实录 · B站 · </p>
+<h1>每一局扑克麻将都独一无二</h1>
+<p class="meta">2026-10-31 · 2分54秒 · <a href="https://b23.tv/RlMSxd8">原视频</a></p>
+<p class="lede">充分洗牌后，你几乎不可能再现同一牌局：扑克是 54!≈2.3×10^71；麻将 136 张（34 种×4）为 136!/(4!)^34≈4.3×10^162。拿宇宙年龄、全人类每秒洗牌、甚至全宇宙原子来比，次数仍远小于排列数。作者借此讲「用数学理解生活」的建模思维，并预告小学数学内容。ASR「羡傲→嫌弃/不屑」「阶层→阶乘」已校正。</p>
+</header>
+<article>
+<section class="story-section"><span class="time-range">00:00–00:58</span><h2>扑克：54 的阶乘</h2>
+<p>第一张 54 选、第二张 53……乘到 1，约 2.3×10^71。宇宙约 138 亿年≈4.3×10^17 秒；就算 80 亿人每秒洗一次，总次数约 3.5×10^27，仍远小于排列数。</p>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-01.jpg" alt="独一无二设问" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 宣称：充分洗牌后，每局扑克/麻将都是史上独一份</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/67ea3e471b14.mp3" type="button" aria-label="Play English audio">🔊</button><span>Claim: a fair shuffle makes each deal historically unique.</span></div>
+<audio class="cap-audio" src="audio/67ea3e471b14.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-02.jpg" alt="54阶乘" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:25] 扑克含大小王 54 张：排列数=54×53×…×1≈2.3×10^71</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f4a9bd940822.mp3" type="button" aria-label="Play English audio">🔊</button><span>54! with jokers ≈ 2.3×10^71 deal orders.</span></div>
+<audio class="cap-audio" src="audio/f4a9bd940822.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-03.jpg" alt="宇宙时间对比" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:45] 宇宙年龄换秒、全球每秒洗牌，次数仍远小于 54!</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2fbc2194197f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cosmic seconds × humanity still &lt;&lt; 54!.</span></div>
+<audio class="cap-audio" src="audio/2fbc2194197f.mp3" preload="none"></audio>
+</figcaption></figure>
+</section><section class="story-section"><span class="time-range">00:59–01:42</span><h2>麻将：重复排列更大</h2>
+<p>34 种×4 张=136 张，总数 136!/(4!)^34≈4.3×10^162，比扑克多约 91 个零。全宇宙原子当人每秒洗到现在，量级仍约 10^97，远不够。</p>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-04.jpg" alt="麻将计算" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:05] 麻将：136! / (4!)^34 ≈ 4.3×10^162</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/90f9dcb67423.mp3" type="button" aria-label="Play English audio">🔊</button><span>Mahjong deals ≈ 4.3×10^162 after identical-tile correction.</span></div>
+<audio class="cap-audio" src="audio/90f9dcb67423.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-05.jpg" alt="原子对比" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:25] 原子数×宇宙秒数仍远小于麻将排列——重复牌局概率极低</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f849344241b8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Atoms × cosmic seconds still &lt;&lt; mahjong permutations.</span></div>
+<audio class="cap-audio" src="audio/f849344241b8.mp3" preload="none"></audio>
+</figcaption></figure>
+</section><section class="story-section"><span class="time-range">01:43–02:51</span><h2>建模思维，不只炫大数</h2>
+<p>重点不是吓人数值，而是从生活问题抽出通用方法：阶乘与去重。作者以此定义数学思维，并导向小学/初中趣味题内容。</p>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-06.jpg" alt="数学思维" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:50] 数学思维：透过牌局表象，抽出排列建模的通用方法</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/524270a26e55.mp3" type="button" aria-label="Play English audio">🔊</button><span>Math mindset: from a game scene, extract a general counting model.</span></div>
+<audio class="cap-audio" src="audio/524270a26e55.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-07.jpg" alt="生活建模" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:15] 用数学理解生活，牌局瞬间「高大上」——兴趣入口</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0c34a1fc56f0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Model life with math—poker/mahjong become curiosity hooks.</span></div>
+<audio class="cap-audio" src="audio/0c34a1fc56f0.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/poker-mahjong-unique-shuffle/shot-08.jpg" alt="课程预告" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:40] 收束到小学数学课与直播预约——大数是引子，方法是目标</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f8d63d7dfaaf.mp3" type="button" aria-label="Play English audio">🔊</button><span>Closes on kids’ math content—big numbers bait, methods teach.</span></div>
+<audio class="cap-audio" src="audio/f8d63d7dfaaf.mp3" preload="none"></audio>
+</figcaption></figure>
+<div class="takeaway"><strong>小结</strong><p>独一无二感来自组合爆炸；学会建模比背数字重要。</p></div>
+</section>
+</article>
+<details class="transcript-collapsible" open>
+<summary>完整转录</summary>
+<p style="color:#78716c;font-size:14px">ASR 已按语境做专有名词与简体校正；口播原文作证据保留。</p>
+<div class="transcript-row"><time>00:00</time><p>你知道吗</p></div>
+<div class="transcript-row"><time>00:00</time><p>你打的每一局扑克牌和麻将牌</p></div>
+<div class="transcript-row"><time>00:03</time><p>都是人类历史上独一无二</p></div>
+<div class="transcript-row"><time>00:04</time><p>绝无雷同的</p></div>
+<div class="transcript-row"><time>00:05</time><p>你绝对不可能洗出相同的牌来</p></div>
+<div class="transcript-row"><time>00:08</time><p>为什么这么说呢</p></div>
+<div class="transcript-row"><time>00:09</time><p>其实只需要很简单的数学知识</p></div>
+<div class="transcript-row"><time>00:11</time><p>首先扑克牌包括大小王一共54张</p></div>
+<div class="transcript-row"><time>00:14</time><p>如果你充分的洗牌不出千</p></div>
+<div class="transcript-row"><time>00:16</time><p>那么洗牌之后有多少种排列的可能呢</p></div>
+<div class="transcript-row"><time>00:18</time><p>你看第一张牌有54种可能</p></div>
+<div class="transcript-row"><time>00:21</time><p>第二张牌有53种可能</p></div>
+<div class="transcript-row"><time>00:23</time><p>第三张牌有52种</p></div>
+<div class="transcript-row"><time>00:24</time><p>以此类推</p></div>
+<div class="transcript-row"><time>00:25</time><p>最后一张牌只剩一种可能</p></div>
+<div class="transcript-row"><time>00:27</time><p>所有的排列数就是要把这些数相乘</p></div>
+<div class="transcript-row"><time>00:29</time><p>也就是54×53×52</p></div>
+<div class="transcript-row"><time>00:31</time><p>一直乘到1</p></div>
+<div class="transcript-row"><time>00:32</time><p>你知道这个数有多大吗</p></div>
+<div class="transcript-row"><time>00:34</time><p>大约有2.3×10的71次方</p></div>
+<div class="transcript-row"><time>00:37</time><p>这是一个天文数字</p></div>
+<div class="transcript-row"><time>00:38</time><p>它有多大呢</p></div>
+<div class="transcript-row"><time>00:39</time><p>这么说吧</p></div>
+<div class="transcript-row"><time>00:40</time><p>宇宙形成到现在138亿年</p></div>
+<div class="transcript-row"><time>00:43</time><p>换算成秒也只有4.3×10的17次方秒</p></div>
+<div class="transcript-row"><time>00:46</time><p>如果宇宙形成之初就有80亿人</p></div>
+<div class="transcript-row"><time>00:49</time><p>每秒钟每人洗牌一次</p></div>
+<div class="transcript-row"><time>00:51</time><p>一共可以洗牌3.5×10的27次方次</p></div>
+<div class="transcript-row"><time>00:54</time><p>依然远远小于扑克牌的排列总数</p></div>
+<div class="transcript-row"><time>00:57</time><p>几乎没有可能出现相同的牌局</p></div>
+<div class="transcript-row"><time>00:59</time><p>麻将就更夸张了</p></div>
+<div class="transcript-row"><time>01:00</time><p>去掉梅兰竹菊</p></div>
+<div class="transcript-row"><time>01:02</time><p>麻将一共有34种牌</p></div>
+<div class="transcript-row"><time>01:03</time><p>每种牌4张</p></div>
+<div class="transcript-row"><time>01:04</time><p>一共136张</p></div>
+<div class="transcript-row"><time>01:05</time><p>洗牌之后麻起来</p></div>
+<div class="transcript-row"><time>01:07</time><p>按照排列组合的规律去掉重复</p></div>
+<div class="transcript-row"><time>01:09</time><p>一共有136的阶层</p></div>
+<div class="transcript-row"><time>01:12</time><p>除以4的阶层的34次方</p></div>
+<div class="transcript-row"><time>01:14</time><p>大约是4.3×10的162次方</p></div>
+<div class="transcript-row"><time>01:17</time><p>这是什么概念呢</p></div>
+<div class="transcript-row"><time>01:18</time><p>比刚才扑克牌的可能数量还要多91个零</p></div>
+<div class="transcript-row"><time>01:22</time><p>宇宙中有10的80次方个原子</p></div>
+<div class="transcript-row"><time>01:24</time><p>就算把全宇宙中所有的原子都当成人</p></div>
+<div class="transcript-row"><time>01:28</time><p>每个原子每秒钟洗牌一次</p></div>
+<div class="transcript-row"><time>01:30</time><p>从宇宙大爆炸洗到现在</p></div>
+<div class="transcript-row"><time>01:32</time><p>洗牌的总数也只有10的80次方</p></div>
+<div class="transcript-row"><time>01:35</time><p>乘以4.3×10的17次方</p></div>
+<div class="transcript-row"><time>01:37</time><p>大约是4.3×10的97次方</p></div>
+<div class="transcript-row"><time>01:40</time><p>依然远远小于麻将牌的总可能数</p></div>
+<div class="transcript-row"><time>01:43</time><p>所以你明白了吗</p></div>
+<div class="transcript-row"><time>01:45</time><p>无论是打麻将还是打扑克</p></div>
+<div class="transcript-row"><time>01:47</time><p>出现一模一样的牌局</p></div>
+<div class="transcript-row"><time>01:48</time><p>概率比你长生不老的概率还要低</p></div>
+<div class="transcript-row"><time>01:51</time><p>你打的每一局扑克牌</p></div>
+<div class="transcript-row"><time>01:52</time><p>都是人类历史上独一无二的</p></div>
+<div class="transcript-row"><time>01:54</time><p>这么想是不是感觉一个扑克</p></div>
+<div class="transcript-row"><time>01:56</time><p>一个麻将也瞬间高大上了</p></div>
+<div class="transcript-row"><time>01:58</time><p>我为什么突然讲这个</p></div>
+<div class="transcript-row"><time>02:00</time><p>因为我最近一直在制作我的小学数学课</p></div>
+<div class="transcript-row"><time>02:02</time><p>很多人问我说你这课有什么特点</p></div>
+<div class="transcript-row"><time>02:05</time><p>我说我的课很强调数学思维</p></div>
+<div class="transcript-row"><time>02:07</time><p>有的人就羡傲了</p></div>
+<div class="transcript-row"><time>02:08</time><p>说所有老师都这么说</p></div>
+<div class="transcript-row"><time>02:09</time><p>我想我还是对数学思维四个字</p></div>
+</details>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

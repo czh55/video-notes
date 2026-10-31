@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5582" viewBox="0 0 1320 5582">
+  <foreignObject x="0" y="0" width="1320" height="5582">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#2563eb;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:2px solid #6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border:2px solid #fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border:2px solid #c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#ecfdf5;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#065f46;border-left:4px solid #14b8a6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#2563eb;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>摄影中锐利度的真相</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-green">锐度</span>
+    <span class="tag tag-orange">衍射</span>
+    <span class="tag tag-purple">焦点堆叠</span>
+    <span class="tag tag-gray">5分48秒</span>
+    <span class="tag tag-gray">作者观点</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/7yXWjJq2JlH">原视频链接</a>
+  <div class="summary-line">核心命题：合焦范围扩大 ≠ 画面锐度上升；过小光圈会因衍射变软，多数镜头最锐约在 F5.6–F11。先弄清机制，再决定这张照片要「绝对清晰」还是「按表达取舍」。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">误解：F1.8=浅景深，F22=更清晰</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:26</span><span class="timeline-text">拆分：合焦多少与锐利程度是两件事</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:56</span><span class="timeline-text">机制：过小光圈出现衍射，锐度下降</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:29</span><span class="timeline-text">甜蜜点：多数镜头约 F5.6–F11</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:01</span><span class="timeline-text">再拆：合焦范围 ≠ 画面锐度</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:23</span><span class="timeline-text">风光：最佳光圈分段对焦 + 焦点堆叠</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:52</span><span class="timeline-text">其他因子：定焦、低 ISO、三脚架</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:56</span><span class="timeline-text">边界：锐度不是唯一目标；按表达选择</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node node-blue">误解<br/>F22=最锐</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">证据<br/>衍射/像差</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">判断<br/>甜蜜点区间</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">行动<br/>堆叠或取舍</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「景深变深」只说明更多区域落入可接受合焦带，不自动等于「每个像素都处在镜头最佳 MTF」。F22 可能「都清楚一点」，但整幅都偏软——这是衍射代价，不是景深红利。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">概念拆解</h2>
+    <div class="card">
+      <h3>合焦范围 vs 画面锐度</h3>
+      <p>在讲什么：初学者把「焦点范围内」当成「最锐」。</p>
+      <p>关键理解：合焦是「可接受模糊圈」的空间范围；锐度是透镜在该光圈下实际传递细节的能力。二者相关但不等价。</p>
+      <div class="quote">「合焦范围和画面锐度并不是完全相同的。」</div>
+      <div class="action">怎么用：评图时先问「要前后都在焦内」，还是「主体要最锐」——答案会导向不同光圈策略。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>衍射：为什么缩太小会变软</h3>
+      <p>在讲什么：过小孔径让光波弯曲、干涉，降低最终锐利程度。</p>
+      <div class="quote">「虽然 F22 可以让画面中更多区域看起来处于焦点范围，但这些区域并不一定处于镜头能够呈现的最佳锐利状态。」</div>
+      <div class="pitfall">避坑：别把「最小光圈」当默认锐度档；风景要前后清晰时，优先考虑堆叠而非一味 F22。</div>
+    </div>
+    <div class="card card-green">
+      <h3>最佳光圈甜蜜点（作者观点）</h3>
+      <p>作者给出可操作区间：多数镜头最锐往往在 F5.6–F11——过大吃像差（边缘、色散、紫边），过小吃衍射。</p>
+      <div class="highlight">边界：这是经验区间，不是对每支镜头的实验室曲线；具体镜头应用实测/评测校准。</div>
+      <div class="action">行动：需要最高细节时，先锁在镜头甜蜜点附近，再动 ISO/快门/脚架。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法对比</h2>
+    <div class="card">
+      <table>
+        <thead><tr><th>目标</th><th>常见做法</th><th>代价 / 边界</th></tr></thead>
+        <tbody>
+          <tr><td>主体分离</td><td>大光圈浅景深</td><td>可能进入像差更明显区</td></tr>
+          <tr><td>前后都清晰 + 高锐</td><td>最佳光圈分段对焦 + 焦点堆叠</td><td>需静止场景、后期合成</td></tr>
+          <tr><td>单张「全景深」</td><td>缩到很小光圈（如 F22）</td><td>合焦广但整体可能因衍射变软</td></tr>
+          <tr><td>干净细节</td><td>低 ISO + 脚架稳住慢门</td><td>手持场景可能被迫抬 ISO 或开大光圈</td></tr>
+          <tr><td>运动/氛围</td><td>慢快门纹理与朦胧</td><td>不以绝对锐利为成功标准</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card card-purple">
+      <h3>立场分层</h3>
+      <ul>
+        <li><strong>可验证机制（视频演示层）：</strong>过小光圈存在衍射；大光圈更易见像差类问题——光学常识与视频图示一致。</li>
+        <li><strong>作者经验区间：</strong>「多数镜头 F5.6–F11 最锐」——需按具体镜头验证。</li>
+        <li><strong>价值判断：</strong>「不必每张绝对锐利」——审美与表达立场，不是技术定理。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>合焦范围 ≠ 画面锐度；F22 不等于最锐。</li>
+      <li>多数镜头甜蜜点约在 F5.6–F11（作者经验，需实测）。</li>
+      <li>风光可用最佳光圈 + 焦点堆叠兼顾清晰与锐度。</li>
+      <li>定焦、低 ISO、三脚架是锐度链条上的其他可控环。</li>
+      <li>锐度只是质量的一部分；慢门朦胧等也可以是主动选择。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>需要最高细节时：先查/测该镜头的最佳光圈，勿默认最小档。</li>
+      <li>前后都要清晰：优先 F8–F11 分段对焦 + 堆叠，而不是直接 F22。</li>
+      <li>曝光三角冲突时：能脚架就脚架，保住低 ISO 与甜蜜点光圈。</li>
+      <li>拍慢门/氛围时：先定表达目标，再决定是否接受软与纹理。</li>
+      <li>评图时分开问：「焦内吗？」与「够锐吗？」避免混为一谈。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：缩光圈 = 更清晰 → 现在：缩过头会因衍射变软。</li>
+      <li>以前：全景深靠单张 F22 → 现在：可用甜蜜点 + 堆叠。</li>
+      <li>以前：锐=好照片 → 现在：锐是选项之一，表达才是判据。</li>
+    </ul>
+  </div>
+  <div class="footer">基于小红书「摄影人生」口播整理 · 术语已按语境校正 · 非对具体镜头的实验室数据</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="法商笔记：所有权与控制权分离，AB 股/一致行动/董事会攻防，以及车技决定控制权能否焊住。">
+<title>公司控制权到底怎么控｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.note{font-size:14px;color:#78716c;background:#f5f5f4;padding:12px 14px;border-radius:10px;margin:12px 0}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>公司控制权到底怎么控</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">B站</span>
+    <span class="meta-tag tag-duration">21分28秒</span>
+    <span class="meta-tag tag-topic">控制权 AB股 董事会 VIE</span>
+  </div>
+  <a class="source-link" href="https://b23.tv/O7xEzzJ" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">方向盘隐喻与股权阈值</a>
+<a href="#ch2">AB 股、并票与董事会</a>
+<a href="#ch3">水下玩家、翻车与杀回</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「法商笔记」用开车比喻拆控制权：出钱买车是所有权（分红与卖车分钱），决定踩油门刹车的是控制权。视频串起乔布斯被扫地出门、PayPal/OpenAI 政变与扎克伯格式稳握方向盘，系统讲清同股同权情怀病、平分股权兄弟病、三分之一/过半/三分之二阈值，以及 AB 股、一致行动、董事会座位、套娃与 VIE——最后落到「先有车技盖章，名义控制权才焊得住」。</p>
+  <p class="note">ASR 校正：「扭呼噜马/伊朗」→马斯克；「纽红路马」→Elon；「CVSEX/CVSX」→SpaceX；「兴浪」→新浪；阈值数字按口播约数理解（约 33.4%/50%/66.7%）。</p>
+  <h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→04:30]</span><div><strong>概念与病症</strong><p>所有权≠控制权；情怀与 50/50 是常见自杀结构。</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:30→09:00]</span><div><strong>股权层工具</strong><p>阈值、AB 股、一致行动、委托/放弃表决权。</p></div></div>
+<div class="summary-row"><span class="time-marker">[09:00→15:00]</span><div><strong>董事会与隐身</strong><p>抢座位/开会权；基金会套娃与 VIE 抽利润。</p></div></div>
+<div class="summary-row"><span class="time-marker">[15:00→21:27]</span><div><strong>车技与野蛮人</strong><p>焊死假车会加速翻车；乔布斯们靠能力杀回；下期预告门口野蛮人。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>控制权技能树可以点满，但最高境界是确认自己真会开车——愿意在必要时把方向盘交给下一个会开的人。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-06:00</span>方向盘隐喻与股权阈值</h2><p>开场对比：马斯克蜜月被踢出 PayPal、乔布斯 1985、奥特曼 2023，对照扎克伯格/佩奇布林/回归后的 SpaceX 稳握。情怀病：同股同权下创始人以为「灵魂」可免疫投票；兄弟病：真功夫式平分导致谁也压不住谁。海底捞则打破平均才有拍板人。</p><p>记住约数：过约 1/3 有重大事项否决意味；过半日常说了算；约 2/3 接近绝对改装权。投资人进场常要董事席与否决——方向盘上会多好几只手。</p><figure><img src="assets/company-control-rights/shot-01.jpg" alt="所有权≠控制权：出钱的人未必握方向盘" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 所有权≠控制权：出钱的人未必握方向盘</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b39fa5586e7d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Ownership ≠ control: paying for the car ≠ holding the wheel</span></div>
+<audio class="cap-audio" src="audio/b39fa5586e7d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/company-control-rights/shot-02.jpg" alt="情怀病与兄弟病：同股同权与平分股权的翻车" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:00] 情怀病与兄弟病：同股同权与平分股权的翻车</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8123747ab94a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Founder romance &amp; 50/50 splits: equal shares that deadlock</span></div>
+<audio class="cap-audio" src="audio/8123747ab94a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/company-control-rights/shot-03.jpg" alt="三个数：约 1/3 否决、过半日常、约 2/3 " loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:00] 三个数：约 1/3 否决、过半日常、约 2/3 重大改</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/45f1f48c3c42.mp3" type="button" aria-label="Play English audio">🔊</button><span>Three thresholds: ~1/3 veto, majority ops, ~2/3 major changes</span></div>
+<audio class="cap-audio" src="audio/45f1f48c3c42.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">06:00-12:00</span>AB 股、并票与董事会</h2><p>SpaceX 招股口径示例：A 股一股一票、B 股一股十票，经济权益约四成可撬投票权八成+，并影响董事席与罢免门槛。京东/小米/Snap（A 股零票）与港股 2018、科创板谨慎开闸同股不同权。一致行动、表决权委托/放弃：不转股先改票。</p><p>股东大会一年一两次，董事会才是美式公司驾驶舱；OpenAI 六人董事会四票开除创始人说明座位要命。伪派董事指定权、法定人数绑定某人到场等，是抢门票与开会权的防守。</p><figure><img src="assets/company-control-rights/shot-04.jpg" alt="AB 股示范：SpaceX 经济权益四成、投票权" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:00] AB 股示范：SpaceX 经济权益四成、投票权八成+</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e21e9f92c2ad.mp3" type="button" aria-label="Play English audio">🔊</button><span>Dual-class demo: SpaceX ~40% economics, 80%+ votes</span></div>
+<audio class="cap-audio" src="audio/e21e9f92c2ad.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/company-control-rights/shot-05.jpg" alt="一致行动/表决权委托：不转股先并票" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:00] 一致行动/表决权委托：不转股先并票</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/47e284ebd307.mp3" type="button" aria-label="Play English audio">🔊</button><span>Concert parties &amp; proxies: merge votes without transferring shares</span></div>
+<audio class="cap-audio" src="audio/47e284ebd307.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/company-control-rights/shot-06.jpg" alt="董事会战场：OpenAI 政变说明座位比口号重要" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] 董事会战场：OpenAI 政变说明座位比口号重要</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ab3f8d9a3dba.mp3" type="button" aria-label="Play English audio">🔊</button><span>Board battlefield: OpenAI’s ouster shows seats beat slogans</span></div>
+<audio class="cap-audio" src="audio/ab3f8d9a3dba.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">12:00-21:27</span>水下玩家、翻车与杀回</h2><p>瓦伦堡式基金会套娃：账面收益极低却撬动巨头投票。VIE/新浪模式：牌照业务与上市主体拆分，协议抽利润并合并报表。马斯克业绩股「又是又不是」的阳谋，对照 WeWork/Theranos：方向盘焊死救不了不会开或假车。</p><p>乔布斯、奥特曼、马斯克被踹后因车技/团队拥护杀回。顺序：先让市场给能力盖章，再焊名义控制权。预告下期「门口的野蛮人」并购攻防。</p><figure><img src="assets/company-control-rights/shot-07.jpg" alt="水下结构：套娃基金会、VIE 与抽屉协议" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[17:30] 水下结构：套娃基金会、VIE 与抽屉协议</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2f0b68e91ea5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Underwater structures: foundation nesting, VIE, drawer deals</span></div>
+<audio class="cap-audio" src="audio/2f0b68e91ea5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/company-control-rights/shot-08.jpg" alt="车技盖章：先被市场认可以后再焊死控制权" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[20:00] 车技盖章：先被市场认可以后再焊死控制权</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ec6607f3b544.mp3" type="button" aria-label="Play English audio">🔊</button><span>Skill first: earn market proof before welding control shut</span></div>
+<audio class="cap-audio" src="audio/ec6607f3b544.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>完整转录（781段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">以下文本由 Whisper 自动转录，可能存在识别误差；正文已按语境校正专有名词。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>26年前</p></div>
+<div class="transcript-row"><time>00:01</time><p>马斯克和其子每次次坐上了度蜜月的航班</p></div>
+<div class="transcript-row"><time>00:04</time><p>然而刚下飞机他就发现</p></div>
+<div class="transcript-row"><time>00:06</time><p>自己已经被PayPal董事会一脚踢出公司了</p></div>
+<div class="transcript-row"><time>00:10</time><p>乔布斯曾在1985年和自己请来的CEO撕破脸</p></div>
+<div class="transcript-row"><time>00:14</time><p>被苹果扫地出门</p></div>
+<div class="transcript-row"><time>00:15</time><p>山姆奥特曼在2013年的董事会政变中</p></div>
+<div class="transcript-row"><time>00:18</time><p>被OpenAI原地开除</p></div>
+<div class="transcript-row"><time>00:21</time><p>然而还有一批人</p></div>
+<div class="transcript-row"><time>00:22</time><p>他们的股份可以被稀释</p></div>
+<div class="transcript-row"><time>00:24</time><p>CEO的位置可以被拿走</p></div>
+<div class="transcript-row"><time>00:26</time><p>但公司仍然稳稳握在自己的手中</p></div>
+<div class="transcript-row"><time>00:29</time><p>比如Meta的扎克伯格</p></div>
+<div class="transcript-row"><time>00:30</time><p>谷歌的佩奇和布林</p></div>
+<div class="transcript-row"><time>00:32</time><p>再比如26年后王者归来</p></div>
+<div class="transcript-row"><time>00:34</time><p>在SpaceX独揽大权的纽忽路马</p></div>
+<div class="transcript-row"><time>00:37</time><p>这其中最关键的三个字就是</p></div>
+<div class="transcript-row"><time>00:39</time><p>控制权</p></div>
+<div class="transcript-row"><time>00:42</time><p>为什么有人拼命创业却被扫地出门</p></div>
+<div class="transcript-row"><time>00:45</time><p>为什么有人手里没股份却能一票否决</p></div>
+<div class="transcript-row"><time>00:47</time><p>他们到底是怎么做到的</p></div>
+<div class="transcript-row"><time>00:50</time><p>这玩意儿你能学吗</p></div>
+<div class="transcript-row"><time>00:52</time><p>能</p></div>
+<div class="transcript-row"><time>00:52</time><p>来 今天咱们一边吃瓜</p></div>
+<div class="transcript-row"><time>00:54</time><p>一边来学点真本事</p></div>
+<div class="transcript-row"><time>00:56</time><p>就由小李带你把控制权这颗技能鼠</p></div>
+<div class="transcript-row"><time>00:58</time><p>一次叠满</p></div>
+<div class="transcript-row"><time>01:00</time><p>咱看看控制权到底该怎么控</p></div>
+<div class="transcript-row"><time>01:07</time><p>经常开公司的朋友都知道</p></div>
+<div class="transcript-row"><time>01:09</time><p>一家公司其实就像一台车</p></div>
+<div class="transcript-row"><time>01:11</time><p>你掏钱把车买下来</p></div>
+<div class="transcript-row"><time>01:13</time><p>这叫所有权</p></div>
+<div class="transcript-row"><time>01:14</time><p>它给你的是分红增值</p></div>
+<div class="transcript-row"><time>01:16</time><p>是哪天车卖了你能分一笔钱</p></div>
+<div class="transcript-row"><time>01:18</time><p>可决定这辆车往哪开</p></div>
+<div class="transcript-row"><time>01:20</time><p>踩油门还是踩刹车的</p></div>
+<div class="transcript-row"><time>01:21</time><p>是另一样东西</p></div>
+<div class="transcript-row"><time>01:23</time><p>控制权</p></div>
+<div class="transcript-row"><time>01:24</time><p>出钱的人未必开车</p></div>
+<div class="transcript-row"><time>01:26</time><p>开车的人未必出最多钱</p></div>
+<div class="transcript-row"><time>01:29</time><p>听明白这一层</p></div>
+<div class="transcript-row"><time>01:30</time><p>已经可以点个收藏下课了</p></div>
+<div class="transcript-row"><time>01:32</time><p>想听点刺激的咱们接着往下</p></div>
+<div class="transcript-row"><time>01:35</time><p>很多公司创始人都是产品天才</p></div>
+<div class="transcript-row"><time>01:38</time><p>业务狂人</p></div>
+<div class="transcript-row"><time>01:39</time><p>医疗技术两眼放光</p></div>
+<div class="transcript-row"><time>01:40</time><p>可以到分权这件事上就开始栽根头了</p></div>
+<div class="transcript-row"><time>01:43</time><p>最常见的是两种病</p></div>
+<div class="transcript-row"><time>01:45</time><p>第一种叫情怀病</p></div>
+<div class="transcript-row"><time>01:47</time><p>1980年苹果上市</p></div>
+<div class="transcript-row"><time>01:49</time><p>用的是最传统的同股同权</p></div>
+<div class="transcript-row"><time>01:51</time><p>乔布斯把他的全部精力都砸在了</p></div>
+<div class="transcript-row"><time>01:53</time><p>怎么做出改变世界的电脑这件事上</p></div>
+<div class="transcript-row"><time>01:56</time><p>手里只留了大概15%的股权</p></div>
+<div class="transcript-row"><time>01:58</time><p>他天真的以为</p></div>
+<div class="transcript-row"><time>01:59</time><p>创始人这三个字就是免死金牌</p></div>
+<div class="transcript-row"><time>02:02</time><p>我是公司的灵魂</p></div>
+<div class="transcript-row"><time>02:03</time><p>大家当然得听我的</p></div>
+<div class="transcript-row"><time>02:04</time><p>1983年</p></div>
+<div class="transcript-row"><time>02:05</time><p>他去挖百事可乐的总裁斯卡利</p></div>
+<div class="transcript-row"><time>02:07</time><p>说出了商业史上最著名的一句聊拨</p></div>
+<div class="transcript-row"><time>02:10</time><p>你是想一辈子卖糖水</p></div>
+<div class="transcript-row"><time>02:12</time><p>还是跟我一起改变世界</p></div>
+<div class="transcript-row"><time>02:14</time><p>斯卡利热血上头的就来了</p></div>
+<div class="transcript-row"><time>02:16</time><p>然而短短两年后</p></div>
+<div class="transcript-row"><time>02:18</time><p>这俩人就闹翻脸了</p></div>
+<div class="transcript-row"><time>02:19</time><p>乔布斯这才反应过来</p></div>
+<div class="transcript-row"><time>02:21</time><p>在实打实的投票权面前</p></div>
+<div class="transcript-row"><time>02:23</time><p>情怀一文不值</p></div>
+<div class="transcript-row"><time>02:24</time><p>因为票数不够</p></div>
+<div class="transcript-row"><time>02:25</time><p>董事会站到了斯卡利那边</p></div>
+<div class="transcript-row"><time>02:27</time><p>那个被他亲口忽悠来改变世界的人</p></div>
+<div class="transcript-row"><time>02:30</time><p>把他合法地请出了苹果</p></div>
+<div class="transcript-row"><time>02:32</time><p>卖糖水的留下了</p></div>
+<div class="transcript-row"><time>02:33</time><p>改变世界的走了</p></div>
+<div class="transcript-row"><time>02:36</time><p>第二种病更隐蔽</p></div>
+<div class="transcript-row"><time>02:37</time><p>叫兄弟病</p></div>
+<div class="transcript-row"><time>02:39</time><p>最常见的表现形式就是</p></div>
+<div class="transcript-row"><time>02:41</time><p>平分股权</p></div>
+<div class="transcript-row"><time>02:42</time><p>比如餐员品牌真功夫大家都吃过吧</p></div>
+<div class="transcript-row"><time>02:44</time><p>当年两个合伙人蔡拉彪和潘玉海</p></div>
+<div class="transcript-row"><time>02:46</time><p>股权几乎对半开</p></div>
+<div class="transcript-row"><time>02:48</time><p>后来两个人闹翻了</p></div>
+<div class="transcript-row"><time>02:49</time><p>抢公章打官司</p></div>
+<div class="transcript-row"><time>02:51</time><p>硬真身把一个本来要上市的行业笼筒给拖死了</p></div>
+<div class="transcript-row"><time>02:54</time><p>还有一个你更熟悉</p></div>
+<div class="transcript-row"><time>02:56</time><p>更魔幻的就是当当网</p></div>
+<div class="transcript-row"><time>02:58</time><p>李国庆遇于中国互联网最有名的夫妻店</p></div>
+<div class="transcript-row"><time>03:01</time><p>股权差不多对半分</p></div>
+<div class="transcript-row"><time>03:02</time><p>2020年李国庆带着几个人直接杀进公司</p></div>
+<div class="transcript-row"><time>03:05</time><p>抢走了47枚公章</p></div>
+<div class="transcript-row"><time>03:06</time><p>转头就发声明说</p></div>
+<div class="transcript-row"><time>03:08</time><p>以后当当的章我说了算</p></div>
+<div class="transcript-row"><time>03:10</time><p>那么时间他接受采访</p></div>
+<div class="transcript-row"><time>03:11</time><p>公章就别在腰上</p></div>
+<div class="transcript-row"><time>03:12</time><p>走哪带哪</p></div>
+<div class="transcript-row"><time>03:13</time><p>但结局也非常令人唏嘘</p></div>
+<div class="transcript-row"><time>03:15</time><p>当当报警了</p></div>
+<div class="transcript-row"><time>03:16</time><p>声明作废了</p></div>
+<div class="transcript-row"><time>03:17</time><p>章也重新刻了</p></div>
+<div class="transcript-row"><time>03:19</time><p>你看</p></div>
+<div class="transcript-row"><time>03:19</time><p>平分股权听起来非常公平讲义气</p></div>
+<div class="transcript-row"><time>03:22</time><p>可在商业里</p></div>
+<div class="transcript-row"><time>03:23</time><p>这就是典型的自杀式结构</p></div>
+<div class="transcript-row"><time>03:25</time><p>因为谁也压不住谁</p></div>
+<div class="transcript-row"><time>03:26</time><p>到了关键时刻没人能拍板</p></div>
+<div class="transcript-row"><time>03:28</time><p>那咱们反观一下海底捞</p></div>
+<div class="transcript-row"><time>03:30</time><p>章勇 舒平 施永宏 李海燕</p></div>
+<div class="transcript-row"><time>03:32</time><p>本来是两对夫妻</p></div>
+<div class="transcript-row"><time>03:33</time><p>平分股权一起创业</p></div>
+<div class="transcript-row"><time>03:35</time><p>那后来公司要做大了</p></div>
+<div class="transcript-row"><time>03:36</time><p>章勇就极其强势的用原始出资价</p></div>
+<div class="transcript-row"><time>03:38</time><p>把施永宏的那一部分股份拿了过来</p></div>
+<div class="transcript-row"><time>03:41</time><p>听着有点不近人情</p></div>
+<div class="transcript-row"><time>03:42</time><p>可正是打破了绝对平均</p></div>
+<div class="transcript-row"><time>03:44</time><p>海底捞才有了一个能一锤定音的老大</p></div>
+<div class="transcript-row"><time>03:47</time><p>作为好的合伙</p></div>
+<div class="transcript-row"><time>03:47</time><p>我得先把丑话说清楚</p></div>
+<div class="transcript-row"><time>03:49</time><p>谁主导谁辅助</p></div>
+<div class="transcript-row"><time>03:50</time><p>谁拍板谁监督</p></div>
+<div class="transcript-row"><time>03:52</time><p>谁出力谁吃肉</p></div>
+<div class="transcript-row"><time>03:55</time><p>这两个股份才算坐稳了呢</p></div>
+<div class="transcript-row"><time>03:57</time><p>你不用去啃公司法</p></div>
+<div class="transcript-row"><time>03:58</time><p>记住三个数就够了</p></div>
+<div class="transcript-row"><time>03:59</time><p>33.3 51和69.7</p></div>
+<div class="transcript-row"><time>04:02</time><p>过了第一个线</p></div>
+<div class="transcript-row"><time>04:03</time><p>你就有了一票否决权</p></div>
+<div class="transcript-row"><time>04:05</time><p>相当于不管车往哪开</p></div>
+<div class="transcript-row"><time>04:07</time><p>只要你不点头</p></div>
+<div class="transcript-row"><time>04:08</time><p>别人就别想把车拆的重组</p></div>
+<div class="transcript-row"><time>04:10</time><p>过了第二个线</p></div>
+<div class="transcript-row"><time>04:11</time><p>日常的大小事基本你说了算</p></div>
+<div class="transcript-row"><time>04:13</time><p>过了第三个</p></div>
+<div class="transcript-row"><time>04:14</time><p>就属于绝对的大股东了</p></div>
+<div class="transcript-row"><time>04:16</time><p>基本拿到了对这辆车的绝对改装权</p></div>
+<div class="transcript-row"><time>04:19</time><p>这听起来是不是特别简单</p></div>
+<div class="transcript-row"><time>04:21</time><p>可这套按比例说话的规则</p></div>
+<div class="transcript-row"><time>04:23</time><p>其实只在公司刚起步的时候管用</p></div>
+<div class="transcript-row"><time>04:25</time><p>等你的公司想做大了</p></div>
+<div class="transcript-row"><time>04:26</time><p>就会去卖股去融资</p></div>
+<div class="transcript-row"><time>04:28</time><p>但每融一轮</p></div>
+<div class="transcript-row"><time>04:29</time><p>创始人的股份就会被稀释一截</p></div>
+<div class="transcript-row"><time>04:31</time><p>更可怕的是</p></div>
+<div class="transcript-row"><time>04:32</time><p>投资人一边掏钱一边还要伸手</p></div>
+<div class="transcript-row"><time>04:35</time><p>什么要个董事座位</p></div>
+<div class="transcript-row"><time>04:36</time><p>要个一票否决权什么的</p></div>
+<div class="transcript-row"><time>04:37</time><p>那这方向盘上就会悄悄多了好几只手</p></div>
+<div class="transcript-row"><time>04:40</time><p>那有没有办法能做到</p></div>
+<div class="transcript-row"><time>04:42</time><p>钱让大家出</p></div>
+<div class="transcript-row"><time>04:43</time><p>方向盘永远我握呢</p></div>
+<div class="transcript-row"><time>04:45</time><p>哎哟</p></div>
+<div class="transcript-row"><time>04:46</time><p>而把这一招玩到极致的</p></div>
+<div class="transcript-row"><time>04:47</time><p>还是那个要去火星的扭呼噜嘛</p></div>
+<div class="transcript-row"><time>04:53</time><p>视频发布的时候</p></div>
+<div class="transcript-row"><time>04:54</time><p>SpaceX应该已经上市有好几天了</p></div>
+<div class="transcript-row"><time>04:56</time><p>现在的股价是多少</p></div>
+<div class="transcript-row"><time>04:58</time><p>比你预期的高了还是低了呢</p></div>
+<div class="transcript-row"><time>04:59</time><p>请在弹幕或者评论区告诉小李</p></div>
+<div class="transcript-row"><time>05:01</time><p>回到主题</p></div>
+<div class="transcript-row"><time>05:02</time><p>咱们打开SpaceX的招股数</p></div>
+<div class="transcript-row"><time>05:04</time><p>你会看到</p></div>
+<div class="transcript-row"><time>05:04</time><p>卖给公众的A类股</p></div>
+<div class="transcript-row"><time>05:06</time><p>一股一票</p></div>
+<div class="transcript-row"><time>05:07</time><p>马斯克自己赚的B类股</p></div>
+<div class="transcript-row"><time>05:08</time><p>一股是10票</p></div>
+<div class="transcript-row"><time>05:10</time><p>按招股数的口径</p></div>
+<div class="transcript-row"><time>05:11</time><p>他的总投票权大约是82.4%</p></div>
+<div class="transcript-row"><time>05:14</time><p>但他实际的经济权益只有四成</p></div>
+<div class="transcript-row"><time>05:16</time><p>是怎么做到的呢</p></div>
+<div class="transcript-row"><time>05:17</time><p>我来简化一下教教你</p></div>
+<div class="transcript-row"><time>05:19</time><p>假设SpaceX一共100股</p></div>
+<div class="transcript-row"><time>05:21</time><p>马斯克手里是40股</p></div>
+<div class="transcript-row"><time>05:22</time><p>别人60股</p></div>
+<div class="transcript-row"><time>05:23</time><p>他持股是40%</p></div>
+<div class="transcript-row"><time>05:25</time><p>可因为B类股一股顶10票</p></div>
+<div class="transcript-row"><time>05:27</time><p>那他这个40股就要乘以10</p></div>
+<div class="transcript-row"><time>05:29</time><p>变成400票</p></div>
+<div class="transcript-row"><time>05:30</time><p>分母是400加60</p></div>
+<div class="transcript-row"><time>05:33</time><p>算下来他的投票权</p></div>
+<div class="transcript-row"><time>05:34</time><p>就一下冲到了八成多</p></div>
+<div class="transcript-row"><time>05:36</time><p>SpaceX的B类股</p></div>
+<div class="transcript-row"><time>05:37</time><p>可以单独选出董事会51%的席位</p></div>
+<div class="transcript-row"><time>05:40</time><p>而马斯克又是拿着B类股的大头</p></div>
+<div class="transcript-row"><time>05:42</time><p>换句话说</p></div>
+<div class="transcript-row"><time>05:43</time><p>在SpaceX这张桌子上</p></div>
+<div class="transcript-row"><time>05:45</time><p>公众可以买股票</p></div>
+<div class="transcript-row"><time>05:46</time><p>机构可以进场</p></div>
+<div class="transcript-row"><time>05:47</time><p>但董事会多数席位怎么做</p></div>
+<div class="transcript-row"><time>05:49</time><p>关键票仍然攥在马斯克手里</p></div>
+<div class="transcript-row"><time>05:51</time><p>于是一个人就能选掉</p></div>
+<div class="transcript-row"><time>05:53</time><p>或者提交董事会的多数席位</p></div>
+<div class="transcript-row"><time>05:54</time><p>哪怕下来公司大笔增发</p></div>
+<div class="transcript-row"><time>05:56</time><p>甚至要跟特斯拉合并</p></div>
+<div class="transcript-row"><time>05:57</time><p>能投下决定性反对票的</p></div>
+<div class="transcript-row"><time>05:59</time><p>从头到尾也只有他一个</p></div>
+<div class="transcript-row"><time>06:01</time><p>更狠的是</p></div>
+<div class="transcript-row"><time>06:02</time><p>招股书还写了</p></div>
+<div class="transcript-row"><time>06:03</time><p>要罢免马斯克的董事CEO</p></div>
+<div class="transcript-row"><time>06:05</time><p>或者董事长职位</p></div>
+<div class="transcript-row"><time>06:07</time><p>也需要B类股多数投票权批准</p></div>
+<div class="transcript-row"><time>06:09</time><p>你看</p></div>
+<div class="transcript-row"><time>06:09</time><p>这就是控制权的第一招</p></div>
+<div class="transcript-row"><time>06:11</time><p>AB股</p></div>
+<div class="transcript-row"><time>06:12</time><p>同股不同权</p></div>
+<div class="transcript-row"><time>06:14</time><p>而且用的人不止马斯克</p></div>
+<div class="transcript-row"><time>06:16</time><p>京东的刘强东</p></div>
+<div class="transcript-row"><time>06:17</time><p>B类股一股20票</p></div>
+<div class="transcript-row"><time>06:18</time><p>雷军在小米上市</p></div>
+<div class="transcript-row"><time>06:19</time><p>也是靠AB股</p></div>
+<div class="transcript-row"><time>06:20</time><p>把创始团队的票保了下来</p></div>
+<div class="transcript-row"><time>06:22</time><p>这玩法的极限</p></div>
+<div class="transcript-row"><time>06:23</time><p>你可能没那么熟悉</p></div>
+<div class="transcript-row"><time>06:24</time><p>2017年美国的Snap</p></div>
+<div class="transcript-row"><time>06:26</time><p>公开发行的A类股</p></div>
+<div class="transcript-row"><time>06:27</time><p>一股是0票</p></div>
+<div class="transcript-row"><time>06:28</time><p>没错</p></div>
+<div class="transcript-row"><time>06:29</time><p>就是0票</p></div>
+<div class="transcript-row"><time>06:30</time><p>散户们只掏钱就行了</p></div>
+<div class="transcript-row"><time>06:31</time><p>一句话都插不上</p></div>
+<div class="transcript-row"><time>06:33</time><p>不过这套打法</p></div>
+<div class="transcript-row"><time>06:34</time><p>A股市场其实很长时间是不认的</p></div>
+<div class="transcript-row"><time>06:36</time><p>港交所2018年专门改了规则</p></div>
+<div class="transcript-row"><time>06:38</time><p>重新给同股不同权开门</p></div>
+<div class="transcript-row"><time>06:40</time><p>当时的港股掌门人李小佳说的就很直接</p></div>
+<div class="transcript-row"><time>06:42</time><p>4年前他们没接住阿里</p></div>
+<div class="transcript-row"><time>06:44</time><p>严直正正看着他跑去纽约敲钟</p></div>
+<div class="transcript-row"><time>06:46</time><p>这次他不想再错过小米</p></div>
+<div class="transcript-row"><time>06:48</time><p>所以小米就成了港股这场改革的标志案例</p></div>
+<div class="transcript-row"><time>06:52</time><p>到了2019年</p></div>
+<div class="transcript-row"><time>06:53</time><p>A股也在磕霜板试着开了刀缝</p></div>
+<div class="transcript-row"><time>06:55</time><p>第一个吃螃蟹的是做云计算的优客得</p></div>
+<div class="transcript-row"><time>06:58</time><p>三个创始人靠5比1的特别表决圈</p></div>
+<div class="transcript-row"><time>07:00</time><p>用大约23%的股份</p></div>
+<div class="transcript-row"><time>07:02</time><p>赚出了大约6成的票</p></div>
+<div class="transcript-row"><time>07:04</time><p>但这道门A股开得非常谨慎</p></div>
+<div class="transcript-row"><time>07:06</time><p>你看优客得的章程里</p></div>
+<div class="transcript-row"><time>07:07</time><p>碰上5类大事</p></div>
+<div class="transcript-row"><time>07:08</time><p>特别表决圈就直接作废</p></div>
+<div class="transcript-row"><time>07:10</time><p>老老实实的一股一票</p></div>
+<div class="transcript-row"><time>07:12</time><p>只有日常经营的那些事</p></div>
+<div class="transcript-row"><time>07:13</time><p>才能享受5倍的投票</p></div>
+<div class="transcript-row"><time>07:15</time><p>你评评</p></div>
+<div class="transcript-row"><time>07:16</time><p>法律一边给创始人开门</p></div>
+<div class="transcript-row"><time>07:17</time><p>一边在门后留了道闸</p></div>
+<div class="transcript-row"><time>07:19</time><p>他既怕创始人被资本一脚踹走</p></div>
+<div class="transcript-row"><time>07:21</time><p>又怕散户被一股独大彻底架空</p></div>
+<div class="transcript-row"><time>07:24</time><p>门开多大闸留在哪</p></div>
+<div class="transcript-row"><time>07:26</time><p>每股港股A股各划各的线</p></div>
+<div class="transcript-row"><time>07:29</time><p>当然了</p></div>
+<div class="transcript-row"><time>07:30</time><p>AB股不是唯一的玩法</p></div>
+<div class="transcript-row"><time>07:31</time><p>还有两招小米顺带串授给你</p></div>
+<div class="transcript-row"><time>07:34</time><p>一招叫一致行动协议</p></div>
+<div class="transcript-row"><time>07:36</time><p>说白了就是几个人约好以后投票都一个方向</p></div>
+<div class="transcript-row"><time>07:39</time><p>持股比例合在一起算</p></div>
+<div class="transcript-row"><time>07:40</time><p>比如宁德时代的创始人曾玉群和联合创始人李平</p></div>
+<div class="transcript-row"><time>07:44</time><p>他们在2015年签了一份一致行动人协议</p></div>
+<div class="transcript-row"><time>07:46</time><p>提案提名投票全保持一致</p></div>
+<div class="transcript-row"><time>07:49</time><p>谭布鲁以曾玉群为准</p></div>
+<div class="transcript-row"><time>07:51</time><p>所以他们俩就叫共同实际控制人</p></div>
+<div class="transcript-row"><time>07:53</time><p>他们也一起把公司做成了全球电池一哥</p></div>
+<div class="transcript-row"><time>07:57</time><p>另一招叫表决权委托</p></div>
+<div class="transcript-row"><time>07:59</time><p>还有它的反面表决权放弃</p></div>
+<div class="transcript-row"><time>08:02</time><p>委托是我把票借给你一起算</p></div>
+<div class="transcript-row"><time>08:04</time><p>你的分子变大</p></div>
+<div class="transcript-row"><time>08:05</time><p>放弃是股东主动签字说</p></div>
+<div class="transcript-row"><time>08:07</time><p>我这票不投了</p></div>
+<div class="transcript-row"><time>08:08</time><p>所以分母变小了</p></div>
+<div class="transcript-row"><time>08:10</time><p>这两招又轻又快</p></div>
+<div class="transcript-row"><time>08:11</time><p>不用转股</p></div>
+<div class="transcript-row"><time>08:12</time><p>不出发一堆审批</p></div>
+<div class="transcript-row"><time>08:13</time><p>钱不动</p></div>
+<div class="transcript-row"><time>08:14</time><p>票先到手</p></div>
+<div class="transcript-row"><time>08:15</time><p>AD股一致行动</p></div>
+<div class="transcript-row"><time>08:16</time><p>委托放弃</p></div>
+<div class="transcript-row"><time>08:17</time><p>三招说到底都在干同一件事</p></div>
+<div class="transcript-row"><time>08:19</time><p>在股权层面把钱和话语圈强行拆开</p></div>
+<div class="transcript-row"><time>08:23</time><p>是不是又学到了</p></div>
+<div class="transcript-row"><time>08:25</time><p>可这些全都还在股东的这一层</p></div>
+<div class="transcript-row"><time>08:27</time><p>而在真实的商业世界里</p></div>
+<div class="transcript-row"><time>08:29</time><p>股东大会从来不是唯一的战场</p></div>
+<div class="transcript-row"><time>08:34</time><p>咱们刚刚一直在说投票</p></div>
+<div class="transcript-row"><time>08:36</time><p>可这票到底在哪用呢</p></div>
+<div class="transcript-row"><time>08:38</time><p>答案是股东大会</p></div>
+<div class="transcript-row"><time>08:39</time><p>竞争炒股的朋友都知道</p></div>
+<div class="transcript-row"><time>08:41</time><p>股东大会是什么节奏呢</p></div>
+<div class="transcript-row"><time>08:42</time><p>一年凑这么一两次</p></div>
+<div class="transcript-row"><time>08:44</time><p>看看财报</p></div>
+<div class="transcript-row"><time>08:45</time><p>盯紧大方向</p></div>
+<div class="transcript-row"><time>08:46</time><p>投完票就散了</p></div>
+<div class="transcript-row"><time>08:47</time><p>那真正天天在阴线冲锋的</p></div>
+<div class="transcript-row"><time>08:49</time><p>是C级高管</p></div>
+<div class="transcript-row"><time>08:50</time><p>而卡在股东和高管中间</p></div>
+<div class="transcript-row"><time>08:52</time><p>决定要不要换CEO</p></div>
+<div class="transcript-row"><time>08:53</time><p>在重大变工上拍板的</p></div>
+<div class="transcript-row"><time>08:55</time><p>是董事会</p></div>
+<div class="transcript-row"><time>08:56</time><p>这里补一个小常识</p></div>
+<div class="transcript-row"><time>08:58</time><p>不然下面的故事可能看不懂</p></div>
+<div class="transcript-row"><time>08:59</time><p>英美法</p></div>
+<div class="transcript-row"><time>09:00</time><p>尤其是美国特拉华州那一套</p></div>
+<div class="transcript-row"><time>09:01</time><p>是典型的董事会中心主义</p></div>
+<div class="transcript-row"><time>09:03</time><p>公司的重大经营管理</p></div>
+<div class="transcript-row"><time>09:05</time><p>原则上是归董事会</p></div>
+<div class="transcript-row"><time>09:06</time><p>也就是说</p></div>
+<div class="transcript-row"><time>09:07</time><p>美国公司董事会才是真正的驾驶舱</p></div>
+<div class="transcript-row"><time>09:10</time><p>所以归国的创始人</p></div>
+<div class="transcript-row"><time>09:11</time><p>最怕的就是在董事会那张桌子上</p></div>
+<div class="transcript-row"><time>09:12</time><p>被自己的人嫌翻了</p></div>
+<div class="transcript-row"><time>09:14</time><p>那中国走的是大陆法系</p></div>
+<div class="transcript-row"><time>09:15</time><p>更偏股东会中心主义</p></div>
+<div class="transcript-row"><time>09:17</time><p>股东会是权力机构</p></div>
+<div class="transcript-row"><time>09:18</time><p>很多大事得他点头</p></div>
+<div class="transcript-row"><time>09:20</time><p>当然</p></div>
+<div class="transcript-row"><time>09:20</time><p>这两年公司法修订</p></div>
+<div class="transcript-row"><time>09:22</time><p>也在网上抬董事会的角色</p></div>
+<div class="transcript-row"><time>09:23</time><p>但不管哪一套</p></div>
+<div class="transcript-row"><time>09:24</time><p>越往高处玩</p></div>
+<div class="transcript-row"><time>09:26</time><p>高手肯定不止点着</p></div>
+<div class="transcript-row"><time>09:27</time><p>股东大会那点票</p></div>
+<div class="transcript-row"><time>09:28</time><p>他们抢的是更要命的东西</p></div>
+<div class="transcript-row"><time>09:30</time><p>谁有资格坐上那桌主位</p></div>
+<div class="transcript-row"><time>09:32</time><p>而抢主位这件事</p></div>
+<div class="transcript-row"><time>09:33</time><p>又是纽红路马</p></div>
+<div class="transcript-row"><time>09:34</time><p>给了大家最暴力的示范</p></div>
+<div class="transcript-row"><time>09:36</time><p>CVSX这次上市</p></div>
+<div class="transcript-row"><time>09:37</time><p>他干脆以受控公司的身份</p></div>
+<div class="transcript-row"><time>09:39</time><p>挂牌纳斯达克</p></div>
+<div class="transcript-row"><time>09:41</time><p>合法豁免了董事会多数</p></div>
+<div class="transcript-row"><time>09:42</time><p>必须是独立等事的这类要求</p></div>
+<div class="transcript-row"><time>09:44</time><p>别人是上市后</p></div>
+<div class="transcript-row"><time>09:45</time><p>被一堆外部董事盯着</p></div>
+<div class="transcript-row"><time>09:47</time><p>他是上市前</p></div>
+<div class="transcript-row"><time>09:48</time><p>就把桌上能坐几个外人</p></div>
+<div class="transcript-row"><time>09:49</time><p>这条规则给改了</p></div>
+<div class="transcript-row"><time>09:51</time><p>他为什么对董事会这么戒备呢</p></div>
+<div class="transcript-row"><time>09:53</time><p>我们看一个案例就懂了</p></div>
+<div class="transcript-row"><time>09:55</time><p>2013年11月</p></div>
+<div class="transcript-row"><time>09:56</time><p>OpenAI爆发了一场</p></div>
+<div class="transcript-row"><time>09:57</time><p>震惊全球的公斗</p></div>
+<div class="transcript-row"><time>09:59</time><p>当时的董事会</p></div>
+<div class="transcript-row"><time>09:59</time><p>连创始人奥特曼本人算进去</p></div>
+<div class="transcript-row"><time>10:01</time><p>一共才6个人</p></div>
+<div class="transcript-row"><time>10:02</time><p>结果其中4个董事司下通了气</p></div>
+<div class="transcript-row"><time>10:04</time><p>拉了个线上会</p></div>
+<div class="transcript-row"><time>10:05</time><p>就直接把创始人兼CEO的</p></div>
+<div class="transcript-row"><time>10:07</time><p>奥特曼给开除了</p></div>
+<div class="transcript-row"><time>10:09</time><p>更魔幻的是</p></div>
+<div class="transcript-row"><time>10:10</time><p>砸了100多亿的大股东微软</p></div>
+<div class="transcript-row"><time>10:12</time><p>是在奥特曼被开除前不久</p></div>
+<div class="transcript-row"><time>10:13</time><p>才接到的通知</p></div>
+<div class="transcript-row"><time>10:15</time><p>而这就是董事会桌上的</p></div>
+<div class="transcript-row"><time>10:17</time><p>杀伐果断</p></div>
+<div class="transcript-row"><time>10:18</time><p>不用着急全体股东</p></div>
+<div class="transcript-row"><time>10:19</time><p>也不管外面谁偷了多少钱</p></div>
+<div class="transcript-row"><time>10:20</time><p>只要在这张桌子上凑够票</p></div>
+<div class="transcript-row"><time>10:22</time><p>当场就能掀桌让你下课</p></div>
+<div class="transcript-row"><time>10:24</time><p>那你看</p></div>
+<div class="transcript-row"><time>10:25</time><p>马斯克和奥特曼什么关系</p></div>
+<div class="transcript-row"><time>10:27</time><p>懂的都懂</p></div>
+<div class="transcript-row"><time>10:28</time><p>他绝对不允许自己重蹈这一幕</p></div>
+<div class="transcript-row"><time>10:31</time><p>那咱们说完了马斯克的暴力攻击</p></div>
+<div class="transcript-row"><time>10:33</time><p>既然有攻就有防对吧</p></div>
+<div class="transcript-row"><time>10:35</time><p>顶级玩家</p></div>
+<div class="transcript-row"><time>10:36</time><p>其实还背着两招防守动作</p></div>
+<div class="transcript-row"><time>10:38</time><p>第一手是抢伪派权</p></div>
+<div class="transcript-row"><time>10:40</time><p>2017年Uber的创始人卡尼克</p></div>
+<div class="transcript-row"><time>10:42</time><p>被大资本和董事会联合逼攻</p></div>
+<div class="transcript-row"><time>10:44</time><p>被迫辞去了CEO</p></div>
+<div class="transcript-row"><time>10:46</time><p>他眼看就要被彻底的清洗出局了</p></div>
+<div class="transcript-row"><time>10:48</time><p>然后他突然甩出了</p></div>
+<div class="transcript-row"><time>10:49</time><p>当年在治理条款里</p></div>
+<div class="transcript-row"><time>10:51</time><p>给自己留了一张底牌</p></div>
+<div class="transcript-row"><time>10:52</time><p>他有着新增董事席位的指定权</p></div>
+<div class="transcript-row"><time>10:55</time><p>那就在投资人准备</p></div>
+<div class="transcript-row"><time>10:56</time><p>把他踢走的档口</p></div>
+<div class="transcript-row"><time>10:57</time><p>他光速塞了自己的</p></div>
+<div class="transcript-row"><time>10:58</time><p>两个盟友经董事会</p></div>
+<div class="transcript-row"><time>11:00</time><p>结果资本再有钱</p></div>
+<div class="transcript-row"><time>11:01</time><p>票再多</p></div>
+<div class="transcript-row"><time>11:02</time><p>也只能干瞪眼</p></div>
+<div class="transcript-row"><time>11:03</time><p>第二手叫抢开会权</p></div>
+<div class="transcript-row"><time>11:06</time><p>京东的章程里</p></div>
+<div class="transcript-row"><time>11:06</time><p>曾经有过一个很妙的设计</p></div>
+<div class="transcript-row"><time>11:08</time><p>只要刘强东还是董事</p></div>
+<div class="transcript-row"><time>11:10</time><p>董事会就要凑齐法定人数开会</p></div>
+<div class="transcript-row"><time>11:12</time><p>那原则上就必须得有他在场</p></div>
+<div class="transcript-row"><time>11:14</time><p>这比单纯的投票权很多了</p></div>
+<div class="transcript-row"><time>11:16</time><p>就关键时刻</p></div>
+<div class="transcript-row"><time>11:17</time><p>只要他不到场</p></div>
+<div class="transcript-row"><time>11:18</time><p>不点头</p></div>
+<div class="transcript-row"><time>11:18</time><p>这种会根本开不起来</p></div>
+<div class="transcript-row"><time>11:20</time><p>哪怕会议室里做满了反对他的人</p></div>
+<div class="transcript-row"><time>11:22</time><p>他都能直接把店员拔了</p></div>
+<div class="transcript-row"><time>11:24</time><p>对方连投票把他赶走的机会都摸不到</p></div>
+<div class="transcript-row"><time>11:27</time><p>Twitter,OpenAI,Uber,京东</p></div>
+<div class="transcript-row"><time>11:29</time><p>看到这儿你会发现</p></div>
+<div class="transcript-row"><time>11:30</time><p>真的高手不仅要抢票</p></div>
+<div class="transcript-row"><time>11:32</time><p>还要抢座位</p></div>
+<div class="transcript-row"><time>11:33</time><p>抢门票</p></div>
+<div class="transcript-row"><time>11:33</time><p>抢开会的资格</p></div>
+<div class="transcript-row"><time>11:35</time><p>他们布的是一张密不透风的网</p></div>
+<div class="transcript-row"><time>11:37</time><p>向所有人传递一个信号</p></div>
+<div class="transcript-row"><time>11:39</time><p>你们休想绕开我</p></div>
+<div class="transcript-row"><time>11:41</time><p>可这些招数都还是摆在明面上</p></div>
+<div class="transcript-row"><time>11:43</time><p>而在商业世界更深的地方</p></div>
+<div class="transcript-row"><time>11:45</time><p>还有一类玩家</p></div>
+<div class="transcript-row"><time>11:46</time><p>他们根本不想让你看见自己在控制家公司</p></div>
+<div class="transcript-row"><time>11:49</time><p>却又牢牢的掌握着他的命运</p></div>
+<div class="transcript-row"><time>11:54</time><p>瑞典有一个姓瓦伦堡的家族</p></div>
+<div class="transcript-row"><time>11:56</time><p>这家人极少抛头露面</p></div>
+<div class="transcript-row"><time>11:57</time><p>全球富豪堡上几乎看不到他们的名字</p></div>
+<div class="transcript-row"><time>12:00</time><p>可爱丽馨ABB</p></div>
+<div class="transcript-row"><time>12:01</time><p>做新冠疫苗的阿斯利康</p></div>
+<div class="transcript-row"><time>12:03</time><p>北游头部银行ICB</p></div>
+<div class="transcript-row"><time>12:04</time><p>造相斗机的萨博</p></div>
+<div class="transcript-row"><time>12:06</time><p>这些背后都站着这个家族</p></div>
+<div class="transcript-row"><time>12:08</time><p>有机构估算</p></div>
+<div class="transcript-row"><time>12:09</time><p>他们的商业版图大概和马斯克一个两级</p></div>
+<div class="transcript-row"><time>12:12</time><p>这家人有一句拉丁文加训</p></div>
+<div class="transcript-row"><time>12:14</time><p>翻译成中文是四个字</p></div>
+<div class="transcript-row"><time>12:15</time><p>做而不嫌</p></div>
+<div class="transcript-row"><time>12:18</time><p>以爱丽馨为例</p></div>
+<div class="transcript-row"><time>12:19</time><p>论真金白银</p></div>
+<div class="transcript-row"><time>12:20</time><p>瓦伦堡家族层层折算下来</p></div>
+<div class="transcript-row"><time>12:22</time><p>大概只有2%的收益</p></div>
+<div class="transcript-row"><time>12:24</time><p>但是他们却撬动了</p></div>
+<div class="transcript-row"><time>12:25</time><p>爱丽馨仅1%的投票权</p></div>
+<div class="transcript-row"><time>12:27</time><p>怎么做到的呢</p></div>
+<div class="transcript-row"><time>12:28</time><p>咱们来看看这个套娃结构</p></div>
+<div class="transcript-row"><time>12:29</time><p>最顶上是十几家非盈利基金会</p></div>
+<div class="transcript-row"><time>12:32</time><p>他们控制着投资旗舰</p></div>
+<div class="transcript-row"><time>12:33</time><p>Investor大约一半的投票权</p></div>
+<div class="transcript-row"><time>12:35</time><p>那Investor再往下</p></div>
+<div class="transcript-row"><time>12:36</time><p>他去当爱丽馨ABB</p></div>
+<div class="transcript-row"><time>12:38</time><p>阿斯利康这些巨头的长期大股东</p></div>
+<div class="transcript-row"><time>12:40</time><p>一层套一层 环环相扣</p></div>
+<div class="transcript-row"><time>12:42</time><p>明面上看</p></div>
+<div class="transcript-row"><time>12:43</time><p>这些超级企业的大股东</p></div>
+<div class="transcript-row"><time>12:44</time><p>是一堆做慈善</p></div>
+<div class="transcript-row"><time>12:45</time><p>搞科研的非盈利基金会</p></div>
+<div class="transcript-row"><time>12:47</time><p>不仅富豪榜查不到个人名字</p></div>
+<div class="transcript-row"><time>12:49</time><p>连居优异产税</p></div>
+<div class="transcript-row"><time>12:50</time><p>可能都找不到口袋去收</p></div>
+<div class="transcript-row"><time>12:52</time><p>可实际上</p></div>
+<div class="transcript-row"><time>12:52</time><p>谁当CEO</p></div>
+<div class="transcript-row"><time>12:53</time><p>公司网纳重组</p></div>
+<div class="transcript-row"><time>12:55</time><p>要不要跨国并购</p></div>
+<div class="transcript-row"><time>12:56</time><p>全由这个家族在最顶层定</p></div>
+<div class="transcript-row"><time>12:58</time><p>这招也不是北欧专利</p></div>
+<div class="transcript-row"><time>12:59</time><p>意大利的阿联利家族</p></div>
+<div class="transcript-row"><time>13:01</time><p>链条几乎一模一样</p></div>
+<div class="transcript-row"><time>13:02</time><p>而法拉利 吉普 阿尔塔罗密欧</p></div>
+<div class="transcript-row"><time>13:04</time><p>甚至尤文图斯足球俱乐部</p></div>
+<div class="transcript-row"><time>13:06</time><p>头上都印着阿联利的名字</p></div>
+<div class="transcript-row"><time>13:09</time><p>但套娃呢</p></div>
+<div class="transcript-row"><time>13:10</time><p>好歹是靠持股一层层叠上去的</p></div>
+<div class="transcript-row"><time>13:12</time><p>那下面就更狠了</p></div>
+<div class="transcript-row"><time>13:13</time><p>根本连股都不持了</p></div>
+<div class="transcript-row"><time>13:15</time><p>纯靠一络合同</p></div>
+<div class="transcript-row"><time>13:16</time><p>把控制权和利润一起拿走</p></div>
+<div class="transcript-row"><time>13:18</time><p>这一招就是前几年</p></div>
+<div class="transcript-row"><time>13:19</time><p>大家非常熟悉的一个词</p></div>
+<div class="transcript-row"><time>13:21</time><p>VIE</p></div>
+<div class="transcript-row"><time>13:22</time><p>故事得从27年的星浪说起</p></div>
+<div class="transcript-row"><time>13:24</time><p>当时星浪想去美国上市</p></div>
+<div class="transcript-row"><time>13:26</time><p>却卡在一条红线上</p></div>
+<div class="transcript-row"><time>13:27</time><p>按当时的规矩</p></div>
+<div class="transcript-row"><time>13:28</time><p>互联网信息服务这类</p></div>
+<div class="transcript-row"><time>13:30</time><p>增值电信业务</p></div>
+<div class="transcript-row"><time>13:31</time><p>是禁止外资进入的</p></div>
+<div class="transcript-row"><time>13:32</time><p>可星浪的股东又有美元基金</p></div>
+<div class="transcript-row"><time>13:34</time><p>那一边是外资不能碰到牌照</p></div>
+<div class="transcript-row"><time>13:36</time><p>一边是必须靠外资才能上的市</p></div>
+<div class="transcript-row"><time>13:38</time><p>于是星浪想了个绝的</p></div>
+<div class="transcript-row"><time>13:39</time><p>把要牌照的那块业务</p></div>
+<div class="transcript-row"><time>13:41</time><p>单独剥离出来</p></div>
+<div class="transcript-row"><time>13:42</time><p>成立一家纯内资公司</p></div>
+<div class="transcript-row"><time>13:43</time><p>由中国人持股</p></div>
+<div class="transcript-row"><time>13:44</time><p>专门拿SP牌照</p></div>
+<div class="transcript-row"><time>13:46</time><p>独立运营</p></div>
+<div class="transcript-row"><time>13:46</time><p>不参与上市</p></div>
+<div class="transcript-row"><time>13:47</time><p>真正去美国上市的</p></div>
+<div class="transcript-row"><time>13:49</time><p>是另外一家外商独资公司</p></div>
+<div class="transcript-row"><time>13:50</time><p>然后呢</p></div>
+<div class="transcript-row"><time>13:51</time><p>这家外资公司</p></div>
+<div class="transcript-row"><time>13:52</time><p>就跟那家内资公司</p></div>
+<div class="transcript-row"><time>13:53</time><p>签了技术服务独家咨询</p></div>
+<div class="transcript-row"><time>13:55</time><p>股权支押</p></div>
+<div class="transcript-row"><time>13:56</time><p>投标权委托</p></div>
+<div class="transcript-row"><time>13:56</time><p>独家购买权的一系列协议</p></div>
+<div class="transcript-row"><time>13:59</time><p>它的作用是啥呢</p></div>
+<div class="transcript-row"><time>14:00</time><p>它让外资公司一股都不吃油</p></div>
+<div class="transcript-row"><time>14:01</time><p>却能把内资公司的利润</p></div>
+<div class="transcript-row"><time>14:03</time><p>以服务费的名义</p></div>
+<div class="transcript-row"><time>14:04</time><p>几乎全部抽走</p></div>
+<div class="transcript-row"><time>14:05</time><p>还能决定它的人事和经营</p></div>
+<div class="transcript-row"><time>14:07</time><p>连财务报表</p></div>
+<div class="transcript-row"><time>14:08</time><p>都能合并进上市公司</p></div>
+<div class="transcript-row"><time>14:09</time><p>你看</p></div>
+<div class="transcript-row"><time>14:09</time><p>VIE这三个字</p></div>
+<div class="transcript-row"><time>14:11</time><p>本来只是个会计术语</p></div>
+<div class="transcript-row"><time>14:12</time><p>叫可变利益实体</p></div>
+<div class="transcript-row"><time>14:14</time><p>可兴浪这条路一走通</p></div>
+<div class="transcript-row"><time>14:15</time><p>就立刻成了母版</p></div>
+<div class="transcript-row"><time>14:16</time><p>后面阿里 腾讯 百度 京东</p></div>
+<div class="transcript-row"><time>14:18</time><p>就所有去京外上市的中概股</p></div>
+<div class="transcript-row"><time>14:20</time><p>用的都是这一招</p></div>
+<div class="transcript-row"><time>14:21</time><p>因此也被叫做兴浪模式</p></div>
+<div class="transcript-row"><time>14:24</time><p>这套结构呢</p></div>
+<div class="transcript-row"><time>14:25</time><p>在灰色地带待了20多年</p></div>
+<div class="transcript-row"><time>14:26</time><p>直到2023年</p></div>
+<div class="transcript-row"><time>14:28</time><p>正经会办新规</p></div>
+<div class="transcript-row"><time>14:29</time><p>第一次打VIE明确管了起来</p></div>
+<div class="transcript-row"><time>14:31</time><p>那不是静止</p></div>
+<div class="transcript-row"><time>14:32</time><p>是你要把这套协议怎么搭的</p></div>
+<div class="transcript-row"><time>14:34</time><p>有没有风险</p></div>
+<div class="transcript-row"><time>14:35</time><p>老老实实交代清楚</p></div>
+<div class="transcript-row"><time>14:36</time><p>其实背后的考量呢</p></div>
+<div class="transcript-row"><time>14:37</time><p>也无非就是数据安全和外资边界</p></div>
+<div class="transcript-row"><time>14:40</time><p>当然了</p></div>
+<div class="transcript-row"><time>14:40</time><p>除了套娃和VIE</p></div>
+<div class="transcript-row"><time>14:42</time><p>想把时空人藏起来</p></div>
+<div class="transcript-row"><time>14:43</time><p>还有不少五花八门的玩法</p></div>
+<div class="transcript-row"><time>14:45</time><p>比如家族信托</p></div>
+<div class="transcript-row"><time>14:47</time><p>当股权装进离岸信托</p></div>
+<div class="transcript-row"><time>14:49</time><p>法治上的股东就变成了受托人</p></div>
+<div class="transcript-row"><time>14:51</time><p>人就隐身在结构后面了</p></div>
+<div class="transcript-row"><time>14:53</time><p>轮廓的伍雅军就是经典案例</p></div>
+<div class="transcript-row"><time>14:54</time><p>股权早早装进信托</p></div>
+<div class="transcript-row"><time>14:56</time><p>后面连离婚都没动摇公司的控制权</p></div>
+<div class="transcript-row"><time>14:59</time><p>再比如股权代持</p></div>
+<div class="transcript-row"><time>15:01</time><p>找人替你持股</p></div>
+<div class="transcript-row"><time>15:02</time><p>签一份抽屉协议</p></div>
+<div class="transcript-row"><time>15:03</time><p>不过这招在IPO审核里是必须清理的红线</p></div>
+<div class="transcript-row"><time>15:06</time><p>属于风险比较高的玩法</p></div>
+<div class="transcript-row"><time>15:08</time><p>还有日本财阀玩了几十年的交叉持股</p></div>
+<div class="transcript-row"><time>15:11</time><p>企业之间互相持股 互相站台</p></div>
+<div class="transcript-row"><time>15:13</time><p>有外人想看清谁说了算</p></div>
+<div class="transcript-row"><time>15:14</time><p>得先解一道环形方程</p></div>
+<div class="transcript-row"><time>15:16</time><p>有兴趣的朋友可以暂停截图看下这些玩法</p></div>
+<div class="transcript-row"><time>15:19</time><p>或者拿关键词去搜一搜</p></div>
+<div class="transcript-row"><time>15:20</time><p>篇幅原因就不展开一个个讲了</p></div>
+<div class="transcript-row"><time>15:22</time><p>好 说到这你可能觉得</p></div>
+<div class="transcript-row"><time>15:23</time><p>跟这些藏在水下的玩家比</p></div>
+<div class="transcript-row"><time>15:25</time><p>那些名牌玩家是不是太朴素了</p></div>
+<div class="transcript-row"><time>15:28</time><p>其实并非</p></div>
+<div class="transcript-row"><time>15:29</time><p>咱们再回头看看你有呼噜码</p></div>
+<div class="transcript-row"><time>15:31</time><p>它的招股书里</p></div>
+<div class="transcript-row"><time>15:32</time><p>其实一夜藏着一首汪超级的操作</p></div>
+<div class="transcript-row"><time>15:34</time><p>CVSEX的董事会</p></div>
+<div class="transcript-row"><time>15:35</time><p>批给了马斯克10亿的计效股</p></div>
+<div class="transcript-row"><time>15:38</time><p>行军条件非常夸张</p></div>
+<div class="transcript-row"><time>15:40</time><p>是要他在火星建成一个百万人口的殖民地</p></div>
+<div class="transcript-row"><time>15:43</time><p>听起来是不是给马斯克画大饼拿胡萝卜呢</p></div>
+<div class="transcript-row"><time>15:46</time><p>可关键在于这些股票还没有归他</p></div>
+<div class="transcript-row"><time>15:48</time><p>但是他现在就能拿去投票</p></div>
+<div class="transcript-row"><time>15:51</time><p>还能拿去抵押贷款</p></div>
+<div class="transcript-row"><time>15:52</time><p>可以说这就是纯纯的阳谋</p></div>
+<div class="transcript-row"><time>15:55</time><p>这股票是我的又不是我的</p></div>
+<div class="transcript-row"><time>15:57</time><p>但最终肯定是我的</p></div>
+<div class="transcript-row"><time>15:58</time><p>瓦伦堡是坐而不写</p></div>
+<div class="transcript-row"><time>16:00</time><p>马斯克是坐而大写</p></div>
+<div class="transcript-row"><time>16:02</time><p>但不管写还是不写</p></div>
+<div class="transcript-row"><time>16:03</time><p>说穿了他们都还是一种约定好的控制权</p></div>
+<div class="transcript-row"><time>16:06</time><p>即使是水面下的</p></div>
+<div class="transcript-row"><time>16:08</time><p>也有我们说的叫抽屉写意的文件</p></div>
+<div class="transcript-row"><time>16:10</time><p>是白纸黑字写好的</p></div>
+<div class="transcript-row"><time>16:11</time><p>但是你知道吗</p></div>
+<div class="transcript-row"><time>16:12</time><p>还有一种无形的控制权</p></div>
+<div class="transcript-row"><time>16:14</time><p>它不靠头衔</p></div>
+<div class="transcript-row"><time>16:15</time><p>不靠票数</p></div>
+<div class="transcript-row"><time>16:16</time><p>也不写进任何文件</p></div>
+<div class="transcript-row"><time>16:18</time><p>靠的只有一样东西</p></div>
+<div class="transcript-row"><time>16:20</time><p>你的车记</p></div>
+<div class="transcript-row"><time>16:24</time><p>一个方向盘焊在你的手里</p></div>
+<div class="transcript-row"><time>16:26</time><p>从来就不等于你会开车</p></div>
+<div class="transcript-row"><time>16:27</time><p>纸面的控制权</p></div>
+<div class="transcript-row"><time>16:28</time><p>只决定有没有资格坐上驾驶座</p></div>
+<div class="transcript-row"><time>16:30</time><p>但坐上去之后</p></div>
+<div class="transcript-row"><time>16:32</time><p>车能开多久</p></div>
+<div class="transcript-row"><time>16:33</time><p>全看车迹</p></div>
+<div class="transcript-row"><time>16:34</time><p>听起来就很抽象</p></div>
+<div class="transcript-row"><time>16:35</time><p>咱们来看两个翻车的教材</p></div>
+<div class="transcript-row"><time>16:37</time><p>注意</p></div>
+<div class="transcript-row"><time>16:37</time><p>它俩甚至连翻车的姿势还不一样</p></div>
+<div class="transcript-row"><time>16:39</time><p>第一个是WayWork的诺伊曼</p></div>
+<div class="transcript-row"><time>16:41</time><p>他的问题是</p></div>
+<div class="transcript-row"><time>16:42</time><p>车是真车</p></div>
+<div class="transcript-row"><time>16:43</time><p>人不会开</p></div>
+<div class="transcript-row"><time>16:44</time><p>他讲了一个惊天好故事</p></div>
+<div class="transcript-row"><time>16:46</time><p>说我们租的不是公位</p></div>
+<div class="transcript-row"><time>16:48</time><p>是未来的工作方式</p></div>
+<div class="transcript-row"><time>16:49</time><p>就靠这个</p></div>
+<div class="transcript-row"><time>16:50</time><p>忽悠出了470亿美金的估值</p></div>
+<div class="transcript-row"><time>16:52</time><p>他用超级投票权架空董事会</p></div>
+<div class="transcript-row"><time>16:54</time><p>作为汉子死死的</p></div>
+<div class="transcript-row"><time>16:56</time><p>但是他疯狂烧钱</p></div>
+<div class="transcript-row"><time>16:57</time><p>疯狂的自我交易</p></div>
+<div class="transcript-row"><time>16:58</time><p>直到招股书被扒开</p></div>
+<div class="transcript-row"><time>17:00</time><p>全城人才发现</p></div>
+<div class="transcript-row"><time>17:01</time><p>司机其实一直在乱踩油门</p></div>
+<div class="transcript-row"><time>17:03</time><p>紧接着</p></div>
+<div class="transcript-row"><time>17:04</time><p>WayWork估值雪崩</p></div>
+<div class="transcript-row"><time>17:05</time><p>IPO撤回</p></div>
+<div class="transcript-row"><time>17:06</time><p>控制权一夜清空</p></div>
+<div class="transcript-row"><time>17:08</time><p>第二个更狠了</p></div>
+<div class="transcript-row"><time>17:09</time><p>这张图你一定很眼熟</p></div>
+<div class="transcript-row"><time>17:11</time><p>他是Ceranos的霍姆斯</p></div>
+<div class="transcript-row"><time>17:12</time><p>他的问题是</p></div>
+<div class="transcript-row"><time>17:13</time><p>连车都是纸糊的</p></div>
+<div class="transcript-row"><time>17:15</time><p>他靠着一滴血测白病的惊天大饼</p></div>
+<div class="transcript-row"><time>17:17</time><p>融资超过7亿</p></div>
+<div class="transcript-row"><time>17:19</time><p>估值值充90亿</p></div>
+<div class="transcript-row"><time>17:20</time><p>他的董事会里</p></div>
+<div class="transcript-row"><time>17:21</time><p>坐着前国务卿</p></div>
+<div class="transcript-row"><time>17:22</time><p>前国防部长</p></div>
+<div class="transcript-row"><time>17:23</time><p>四星上将</p></div>
+<div class="transcript-row"><time>17:24</time><p>但他们全是背景版</p></div>
+<div class="transcript-row"><time>17:26</time><p>因为这家公司的票</p></div>
+<div class="transcript-row"><time>17:27</time><p>牢牢站在他一个人手里</p></div>
+<div class="transcript-row"><time>17:28</time><p>后来的事情你已经知道了</p></div>
+<div class="transcript-row"><time>17:30</time><p>这辆车本身就是假的</p></div>
+<div class="transcript-row"><time>17:32</time><p>所以方向盘焊的越死</p></div>
+<div class="transcript-row"><time>17:33</time><p>车也翻的越快</p></div>
+<div class="transcript-row"><time>17:35</time><p>结局就是</p></div>
+<div class="transcript-row"><time>17:35</time><p>公司清零了</p></div>
+<div class="transcript-row"><time>17:36</time><p>人也进监狱了</p></div>
+<div class="transcript-row"><time>17:37</time><p>你看</p></div>
+<div class="transcript-row"><time>17:38</time><p>一个是不会开</p></div>
+<div class="transcript-row"><time>17:39</time><p>一个是开假车</p></div>
+<div class="transcript-row"><time>17:40</time><p>结局都是一样的</p></div>
+<div class="transcript-row"><time>17:41</time><p>直面权力救不了他们</p></div>
+<div class="transcript-row"><time>17:44</time><p>那反过来呢</p></div>
+<div class="transcript-row"><time>17:45</time><p>有些人</p></div>
+<div class="transcript-row"><time>17:46</time><p>只要车迹在身</p></div>
+<div class="transcript-row"><time>17:48</time><p>就算被踹下车</p></div>
+<div class="transcript-row"><time>17:49</time><p>也能杀回来</p></div>
+<div class="transcript-row"><time>17:50</time><p>还记得开头被扫地出门的那三个人吗</p></div>
+<div class="transcript-row"><time>17:52</time><p>乔布斯</p></div>
+<div class="transcript-row"><time>17:53</time><p>奥特曼</p></div>
+<div class="transcript-row"><time>17:53</time><p>马斯克</p></div>
+<div class="transcript-row"><time>17:54</time><p>现在</p></div>
+<div class="transcript-row"><time>17:54</time><p>咱们把他们的下半场</p></div>
+<div class="transcript-row"><time>17:56</time><p>一个一个补完</p></div>
+<div class="transcript-row"><time>17:57</time><p>现在乔布斯</p></div>
+<div class="transcript-row"><time>17:58</time><p>他被流放到12年里</p></div>
+<div class="transcript-row"><time>18:00</time><p>派出了玩具总动员</p></div>
+<div class="transcript-row"><time>18:01</time><p>此刻出Nex的系统</p></div>
+<div class="transcript-row"><time>18:02</time><p>把自己就练成了车神</p></div>
+<div class="transcript-row"><time>18:04</time><p>1997年</p></div>
+<div class="transcript-row"><time>18:05</time><p>苹果离破产只剩90天</p></div>
+<div class="transcript-row"><time>18:06</time><p>他们砸了4个亿买下了Nex的</p></div>
+<div class="transcript-row"><time>18:08</time><p>跪求车神出山</p></div>
+<div class="transcript-row"><time>18:10</time><p>王者过来后</p></div>
+<div class="transcript-row"><time>18:10</time><p>乔布斯学习董事会</p></div>
+<div class="transcript-row"><time>18:12</time><p>成了苹果事实上的掌舵人</p></div>
+<div class="transcript-row"><time>18:14</time><p>注意啊</p></div>
+<div class="transcript-row"><time>18:14</time><p>这时候他只有连控股权都没有</p></div>
+<div class="transcript-row"><time>18:16</time><p>但已经没人能夺走他的方向盘</p></div>
+<div class="transcript-row"><time>18:18</time><p>这不是古里</p></div>
+<div class="transcript-row"><time>18:19</time><p>谷歌红色警报师拉回佩奇和布林</p></div>
+<div class="transcript-row"><time>18:22</time><p>起码可暂时各式请回舒尔兹</p></div>
+<div class="transcript-row"><time>18:24</time><p>干的都是同一件事</p></div>
+<div class="transcript-row"><time>18:25</time><p>我们再看奥特曼</p></div>
+<div class="transcript-row"><time>18:27</time><p>那场公路的上半场</p></div>
+<div class="transcript-row"><time>18:28</time><p>6人董事会4票把他开除</p></div>
+<div class="transcript-row"><time>18:30</time><p>他走得很狼狈</p></div>
+<div class="transcript-row"><time>18:31</time><p>可下半场的结局却是</p></div>
+<div class="transcript-row"><time>18:33</time><p>OpenEye700多号员工</p></div>
+<div class="transcript-row"><time>18:34</time><p>把身家押上</p></div>
+<div class="transcript-row"><time>18:35</time><p>要跟奥特曼一起走</p></div>
+<div class="transcript-row"><time>18:36</time><p>在人民的拥护之下</p></div>
+<div class="transcript-row"><time>18:38</time><p>他短短几天就杀回了驾驶座</p></div>
+<div class="transcript-row"><time>18:40</time><p>被甩出车的反而是董事会</p></div>
+<div class="transcript-row"><time>18:42</time><p>具体细节</p></div>
+<div class="transcript-row"><time>18:43</time><p>感兴趣的可以去看小李这期视频</p></div>
+<div class="transcript-row"><time>18:46</time><p>不过得说句公道话</p></div>
+<div class="transcript-row"><time>18:47</time><p>乔布斯的车技</p></div>
+<div class="transcript-row"><time>18:48</time><p>时间已经盖了章</p></div>
+<div class="transcript-row"><time>18:50</time><p>奥特曼最终能开向何方</p></div>
+<div class="transcript-row"><time>18:51</time><p>还得接受时间的检验</p></div>
+<div class="transcript-row"><time>18:53</time><p>而把制造体打得最完整的</p></div>
+<div class="transcript-row"><time>18:55</time><p>还是你有呼噜吗</p></div>
+<div class="transcript-row"><time>18:58</time><p>26年前</p></div>
+<div class="transcript-row"><time>18:59</time><p>杜密叶的他被踹下了车</p></div>
+<div class="transcript-row"><time>19:00</time><p>是因为座位没有焊死</p></div>
+<div class="transcript-row"><time>19:02</time><p>车机还没有人认可</p></div>
+<div class="transcript-row"><time>19:03</time><p>26年后</p></div>
+<div class="transcript-row"><time>19:04</time><p>猎鹰星链星际舰特斯拉</p></div>
+<div class="transcript-row"><time>19:06</time><p>一次次替他的能力盖了章</p></div>
+<div class="transcript-row"><time>19:08</time><p>而靠着这些</p></div>
+<div class="transcript-row"><time>19:09</time><p>他才换来</p></div>
+<div class="transcript-row"><time>19:09</time><p>SpaceX的82%的绝对投票权</p></div>
+<div class="transcript-row"><time>19:12</time><p>CEO CTO董事长一键挑</p></div>
+<div class="transcript-row"><time>19:14</time><p>董事想换谁换谁</p></div>
+<div class="transcript-row"><time>19:16</time><p>看明白了吗</p></div>
+<div class="transcript-row"><time>19:17</time><p>顺序很重要</p></div>
+<div class="transcript-row"><time>19:18</time><p>不是先抢方向盘再学开车</p></div>
+<div class="transcript-row"><time>19:21</time><p>而是车技需要先被市场盖的章</p></div>
+<div class="transcript-row"><time>19:23</time><p>指名上的控制权才焊得住</p></div>
+<div class="transcript-row"><time>19:25</time><p>而这种搭法</p></div>
+<div class="transcript-row"><time>19:26</time><p>可能就是给马斯克那种人准备的</p></div>
+<div class="transcript-row"><time>19:28</time><p>因为你还要看到</p></div>
+<div class="transcript-row"><time>19:29</time><p>有一些掌舵人会选择在</p></div>
+<div class="transcript-row"><time>19:31</time><p>公司非常成功的时候</p></div>
+<div class="transcript-row"><time>19:32</time><p>选择激流勇退</p></div>
+<div class="transcript-row"><time>19:33</time><p>因为他们可能已经掂量清楚了</p></div>
+<div class="transcript-row"><time>19:35</time><p>自己的车技</p></div>
+<div class="transcript-row"><time>19:36</time><p>可能已经不能带领公司</p></div>
+<div class="transcript-row"><time>19:37</time><p>驶向更远的地方了</p></div>
+<div class="transcript-row"><time>19:39</time><p>那真正高明的一手</p></div>
+<div class="transcript-row"><time>19:40</time><p>反而是愿意松开方向盘</p></div>
+<div class="transcript-row"><time>19:42</time><p>交给下一个真会开车的人</p></div>
+<div class="transcript-row"><time>19:46</time><p>你看</p></div>
+<div class="transcript-row"><time>19:46</time><p>咱们点了一整期的技能数</p></div>
+<div class="transcript-row"><time>19:48</time><p>怎么把方向盘抢到手</p></div>
+<div class="transcript-row"><time>19:49</time><p>汗死藏好</p></div>
+<div class="transcript-row"><time>19:51</time><p>但车技这一个</p></div>
+<div class="transcript-row"><time>19:52</time><p>没人能替你点亮</p></div>
+<div class="transcript-row"><time>19:54</time><p>或许控制权的最高境界</p></div>
+<div class="transcript-row"><time>19:56</time><p>从来不在于你能把它钻得多紧</p></div>
+<div class="transcript-row"><time>19:58</time><p>而在于你能不能确定</p></div>
+<div class="transcript-row"><time>19:59</time><p>自己就是那个真正会开车的人</p></div>
+<div class="transcript-row"><time>20:18</time><p>大家好 我是小李</p></div>
+<div class="transcript-row"><time>20:19</time><p>这里是法商笔记的第二集</p></div>
+<div class="transcript-row"><time>20:21</time><p>控制权到底怎么控</p></div>
+<div class="transcript-row"><time>20:22</time><p>不知道你有没有发现</p></div>
+<div class="transcript-row"><time>20:24</time><p>今天我们讲的</p></div>
+<div class="transcript-row"><time>20:25</time><p>基本都还是自己人的战争</p></div>
+<div class="transcript-row"><time>20:26</time><p>创始人 投资人 董事会 管理层</p></div>
+<div class="transcript-row"><time>20:29</time><p>大家好歹都已经坐在同一张排桌上</p></div>
+<div class="transcript-row"><time>20:31</time><p>可商业世界里还有一种敌人更吓人</p></div>
+<div class="transcript-row"><time>20:34</time><p>他从门外来</p></div>
+<div class="transcript-row"><time>20:35</time><p>不跟你打架</p></div>
+<div class="transcript-row"><time>20:36</time><p>他就跟着你</p></div>
+<div class="transcript-row"><time>20:37</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:38</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:38</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:39</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:40</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:40</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:41</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:42</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:42</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:43</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:44</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:44</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:45</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:46</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:46</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:47</time><p>跟着你</p></div>
+<div class="transcript-row"><time>20:48</time><p>不跟你打招呼</p></div>
+<div class="transcript-row"><time>20:49</time><p>他先悄悄买一点</p></div>
+<div class="transcript-row"><time>20:50</time><p>再买一点</p></div>
+<div class="transcript-row"><time>20:51</time><p>再买一点</p></div>
+<div class="transcript-row"><time>20:52</time><p>当你发现的时候</p></div>
+<div class="transcript-row"><time>20:53</time><p>他可能已经可以决定你的生死</p></div>
+<div class="transcript-row"><time>20:55</time><p>没错</p></div>
+<div class="transcript-row"><time>20:56</time><p>这就是门口的野蛮人</p></div>
+<div class="transcript-row"><time>20:58</time><p>LVMH偷袭爱马仕</p></div>
+<div class="transcript-row"><time>20:59</time><p>逼得整个家族抱团锁骨</p></div>
+<div class="transcript-row"><time>21:01</time><p>才把世界首富挡在门外</p></div>
+<div class="transcript-row"><time>21:03</time><p>宝能扫活万科</p></div>
+<div class="transcript-row"><time>21:04</time><p>汪师一句</p></div>
+<div class="transcript-row"><time>21:05</time><p>不欢迎你</p></div>
+<div class="transcript-row"><time>21:06</time><p>挡不住人家一路举牌成为第一大股东</p></div>
+<div class="transcript-row"><time>21:09</time><p>马斯克买推特</p></div>
+<div class="transcript-row"><time>21:09</time><p>从读完到邀约 毁约</p></div>
+<div class="transcript-row"><time>21:11</time><p>对簿公堂</p></div>
+<div class="transcript-row"><time>21:12</time><p>最后他抱着水槽</p></div>
+<div class="transcript-row"><time>21:14</time><p>走进了推特总部</p></div>
+<div class="transcript-row"><time>21:15</time><p>诶</p></div>
+<div class="transcript-row"><time>21:16</time><p>你是不是已经开始有点期待了</p></div>
+<div class="transcript-row"><time>21:17</time><p>下期法杖笔记</p></div>
+<div class="transcript-row"><time>21:18</time><p>我们来点下一颗技能树</p></div>
+<div class="transcript-row"><time>21:20</time><p>并购</p></div>
+<div class="transcript-row"><time>21:21</time><p>到底怎么并</p></div>
+<div class="transcript-row"><time>21:24</time><p>如果你喜欢这个系列</p></div>
+<div class="transcript-row"><time>21:25</time><p>请给脚里点赞</p></div>
+<div class="transcript-row"><time>21:25</time><p>评论收藏</p></div>
+<div class="transcript-row"><time>21:26</time><p>我们下期再见</p></div>
+<div class="transcript-row"><time>21:27</time><p>拜拜</p></div>
+</div></div></details>
+</section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

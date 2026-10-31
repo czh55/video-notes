@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5223" viewBox="0 0 1320 5223">
+  <foreignObject x="0" y="0" width="1320" height="5223">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>阴天人像不发黄的方法</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-green">富士</span>
+    <span class="tag tag-orange">阴天</span>
+    <span class="tag tag-purple">白平衡</span>
+    <span class="tag tag-red">胶片模拟</span>
+    <span class="tag tag-gray">32秒</span>
+    <span class="tag tag-blue">理性分析 · 机内调色</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/9hOkRPt9YiM">原视频链接</a>
+  <div class="summary-line">核心命题：阴天人像发黄，优先用机内冷调组合抵消——CC胶片模拟打底，白平衡漂移偏蓝，关闭暖色色彩效果，彩色FX蓝色开强；再用Drive连拍提高成功率，并截图注释配方复用。文案立场：阴天不建议NC。证据来自口播、烧录字幕与配方表画面。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-text">目标：阴天更通透、不泛黄</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:04</div><div class="timeline-text">CC胶片模拟 → 皮肤更白皙</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:07</div><div class="timeline-text">注释版配方表首次出现</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:09</div><div class="timeline-text">白平衡漂移往蓝色方向</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:13</div><div class="timeline-text">关闭暖色调色彩效果</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:15</div><div class="timeline-text">彩色FX蓝色开强，抵消发黄</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:20</div><div class="timeline-text">X100VI可变焦；Drive开连拍</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:29</div><div class="timeline-text">完整注释配方，提示截图</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">阴天肤色发黄？</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">CC打底偏白</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">WB偏蓝 + 关暖色 + FX蓝强</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">连拍 + 截图表格复用</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解：阴天发黄只能靠后期拉色温。纠偏：作者路径是机内模拟+白平衡漂移+FX蓝组合，先改变拍摄时观感。误解：所有富士模拟阴天通用。纠偏：文案明确阴天不建议NC；本片主推CC冷调组合，不是万能预设。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+    <div class="card">
+      <h3>在讲什么 → 阴天通透且不发黄</h3>
+      <p>问题定义清晰：阴天人像易发黄、发闷；目标是更通透、肤色更干净。</p>
+      <div class="quote">「简单几步就可以让你的富士相机在阴天拍摄出更通透的照片，不会显得照片那么泛黄」</div>
+      <div class="relation">关系：通透与去黄绑在同一套冷调操作里，不是两个独立目标。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>关键理解 → CC + 冷调三连</h3>
+      <p>作者观点：CC让皮肤相对白皙；白平衡往蓝推、关暖色色彩效果、FX蓝开强，抵消阴天发黄。</p>
+      <div class="quote">「可以利用CC胶片模拟的特点，皮肤相对会更加的白皙」「白平衡漂移往蓝色方向」「关闭暖色调的色彩效果」「将FX蓝色开为强」</div>
+      <div class="action">用法：先锁CC，再调WB漂移与FX蓝，最后看取景器肤色是否仍偏黄。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用 → 连拍与注释配方</h3>
+      <p>可执行层：Drive开连拍提高成功率；片尾表格含 WB AUTO R:-1 B:+5、FX蓝强、色彩效果关、曝光+1/3 等，可直接截图。</p>
+      <div class="quote">「在drive键里开启连拍，可以让你的拍摄成功率变得更高」「大家可以截图」</div>
+      <div class="relation">推断：配方是作者经验参数，需按肤色与环境微调，不是实验室标定。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界与风险</h3>
+      <div class="pitfall">过度偏蓝会让肤色发灰发青；FX蓝「强」在部分场景可能过冷。</div>
+      <div class="pitfall">清晰度项标注「不建议开启，相机会变慢」——性能边界写在表上，勿盲目全开。</div>
+      <div class="pitfall">「阴天不建议NC」来自笔记文案，口播未对比演示；跨机身/跨模拟需自行验证。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：本片去黄组合 vs 常见替代</h3>
+    <table>
+      <thead><tr><th>路径</th><th>做什么</th><th>本片态度</th><th>边界</th></tr></thead>
+      <tbody>
+        <tr><td>CC + 冷调三连</td><td>CC + WB偏蓝 + 关暖色 + FX蓝强</td><td>主推</td><td>可能过冷，需看肤色</td></tr>
+        <tr><td>NC模拟</td><td>笔记未演示参数</td><td>文案：阴天不建议</td><td>口播无对照实验</td></tr>
+        <tr><td>只靠后期去黄</td><td>RAW调色温/色调</td><td>未讨论</td><td>失去机内直出优势</td></tr>
+        <tr><td>只开连拍</td><td>Drive连拍</td><td>辅助提高成功率</td><td>不解决色偏本身</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>阴天发黄先改机内色彩策略，而不是只怪光线。</li>
+      <li>CC打底 + 白平衡偏蓝 + 关暖色色彩效果 + FX蓝强 = 本片去黄主轴。</li>
+      <li>连拍与注释配方负责把设置变成可复制习惯。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>阴天人像先切CC，核对色彩效果关闭、FX蓝为强。</li>
+      <li>白平衡AUTO基础上把蓝轴推到约 B:+5、红轴略减（表内 R:-1）。</li>
+      <li>Drive开连拍抓表情；清晰度保持0以免拖慢。</li>
+      <li>截图保存注释版；若肤色过冷再回调蓝轴，而不是直接换回NC硬拍。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：阴天发黄只能后期救。→ 现在：机内冷调组合可先压住黄。</li>
+      <li>以前：胶片模拟随便选。→ 现在：阴天优先CC，文案慎用NC。</li>
+      <li>以前：调好参数就够。→ 现在：连拍把成功率算进系统。</li>
+    </ul>
+  </div>
+  <div class="footer">基于小红书视频本地转录与配方表画面 · 理性分析视角 · 非品牌背书</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

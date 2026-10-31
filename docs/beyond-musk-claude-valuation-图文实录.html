@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="拆 Anthropic/Claude 天价估值：四波资本、TAM 叙事、云厂商三角与完美定价风险。">
+<title>超越马斯克？Claude 估值大战怎么看｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.note{font-size:14px;color:#78716c;background:#f5f5f4;padding:12px 14px;border-radius:10px;margin:12px 0}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>超越马斯克？Claude 估值大战怎么看</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">B站</span>
+    <span class="meta-tag tag-duration">18分27秒</span>
+    <span class="meta-tag tag-topic">Anthropic Claude 估值 AI安全</span>
+  </div>
+  <a class="source-link" href="https://b23.tv/gvHEjOo" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">安全出走与四波燃料</a>
+<a href="#ch2">TAM 与饭碗：估值里的分母魔术</a>
+<a href="#ch3">云三角与完美定价</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>视频追问：一家不造火箭、算力还得外购的公司，凭什么在资本叙事里「全打」马斯克式造物主光环、挑战最贵 AI 独角兽位置。作者梳理 Anthropic（Claude）从 OpenAI 安全路线出走，到四波资金（信仰、战略云、增长机构、IPO 抢跑），再把估值拆成对总潜在市场（TAM）——尤其是「一半工作可被 AI 替代」——的提前透支，并指出云厂商既当股东又当算力与渠道的绑定结构，以及「完美定价」下容错率极低。</p>
+  <p class="note">ASR 校正：「安斯拉佩克/Andropec」→Anthropic；「阿摩黛」→Dario Amodei；「可乐/ClawCode」→Claude/Claude Code；「程旭元」→程序员；金额口播为约数。</p>
+  <h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→04:00]</span><div><strong>出身与资金</strong><p>安全路线另起炉灶；硅谷信仰支票与云巨头战略入股。</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:00→10:00]</span><div><strong>Agent 时刻</strong><p>Claude Code 等推动企业需求；估值看 TAM 而非当期利润。</p></div></div>
+<div class="summary-row"><span class="time-marker">[10:00→18:26]</span><div><strong>绑定与坎</strong><p>亚马逊/谷歌多重身份；烧钱换故事，完美定价下必须持续狂飙。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>2 万亿级叙事买的是「替代脑力劳动」期权；你要问的是故事证伪前，算力账单与收入曲线谁先撑不住。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-06:00</span>安全出走与四波燃料</h2><p>Amodei 兄妹从 OpenAI 因安全理念分歧离开创立 Anthropic；公司仍年轻但估值叙事极陡。资金按心态分四波：为信仰充值的硅谷大佬、战略卡位的云与平台、怕错过增长的机构、以及 IPO 预期下的抢票资金。</p><p>Claude 系列（含偏编程的 Agent 能力）让「聊天搭子」变成可改代码跑测试的劳动力讨论，企业侧需求爆发，机构资金涌入。</p><figure><img src="assets/beyond-musk-claude-valuation/shot-01.jpg" alt="设问：不造火箭的 AI 公司凭什么估值挑战叙事顶" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 设问：不造火箭的 AI 公司凭什么估值挑战叙事顶流</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/144f6179f04b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Setup: how an AI firm without rockets challenges top valuation narratives</span></div>
+<audio class="cap-audio" src="audio/144f6179f04b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/beyond-musk-claude-valuation/shot-02.jpg" alt="Anthropic 出身：安全执念与离开 Ope" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:00] Anthropic 出身：安全执念与离开 OpenAI 另起炉灶</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/33b6b01939b3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Anthropic origin: safety obsession and the break from OpenAI</span></div>
+<audio class="cap-audio" src="audio/33b6b01939b3.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/beyond-musk-claude-valuation/shot-03.jpg" alt="四波钱：信仰支票、战略云、增长机构、IPO 抢票" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:00] 四波钱：信仰支票、战略云、增长机构、IPO 抢票</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2af355d677b2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Four money waves: belief checks, cloud strategy, growth funds, IPO FOMO</span></div>
+<audio class="cap-audio" src="audio/2af355d677b2.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">06:00-12:30</span>TAM 与饭碗：估值里的分母魔术</h2><p>用收入倍数对比传统软件：市场愿为 Anthropic 流水支付极高倍数，因定价对象是总潜在市场而非当前利润；经营仍大额亏损。</p><p>叙事关键句：AI 可触及工作范围超过全球打工人总收入一半——若只吃传统软件盘则估值已贵，若吃工资盘则「上升空间」被重新定义。风险对称：算力订单是现付，故事可以后付。</p><figure><img src="assets/beyond-musk-claude-valuation/shot-04.jpg" alt="营收 vs 估值：高倍数买的是 TAM 与「饭碗" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:00] 营收 vs 估值：高倍数买的是 TAM 与「饭碗」叙事</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d63866c331cb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Revenue vs valuation: multiples price TAM and the ‘jobs’ story</span></div>
+<audio class="cap-audio" src="audio/d63866c331cb.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/beyond-musk-claude-valuation/shot-05.jpg" alt="分母魔术：把全球工资盘一半算进可替代空间" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:00] 分母魔术：把全球工资盘一半算进可替代空间</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e96f0db91559.mp3" type="button" aria-label="Play English audio">🔊</button><span>Denominator magic: counting half of global wages as addressable</span></div>
+<audio class="cap-audio" src="audio/e96f0db91559.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">12:30-18:26</span>云三角与完美定价</h2><p>亚马逊等可同时是股东、算力/云卖方与分销入口；谷歌亦有投资与 TPU/云上的互购结构——竞争归竞争，赚钱归赚钱。</p><p>资本不怕烧钱，怕故事被证伪；接近「完美定价」意味着未来几年几乎不能出错且营收需持续翻倍。眼前坎包括算力、竞争与监管等（口播展开）。收束投票：你希望这个盲盒开得快一点还是慢一点。</p><figure><img src="assets/beyond-musk-claude-valuation/shot-06.jpg" alt="云厂商三角：股东+算力卖家+分销渠道绑在一起" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] 云厂商三角：股东+算力卖家+分销渠道绑在一起</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/09aea978231e.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cloud triangle: investor + chip seller + distribution channel</span></div>
+<audio class="cap-audio" src="audio/09aea978231e.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/beyond-musk-claude-valuation/shot-07.jpg" alt="完美定价风险：故事证伪前必须持续翻倍狂飙" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[17:00] 完美定价风险：故事证伪前必须持续翻倍狂飙</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ccddb5caa2f7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Price-for-perfection risk: must keep hyper-growth before story fails</span></div>
+<audio class="cap-audio" src="audio/ccddb5caa2f7.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>完整转录（228段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">以下文本由 Whisper 自动转录，可能存在识别误差；正文已按语境校正专有名词。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>我创业是為了理想</p></div>
+<div class="transcript-row"><time>01:00</time><p>我今天想和你聊的是</p></div>
+<div class="transcript-row"><time>01:01</time><p>一家不造火箭</p></div>
+<div class="transcript-row"><time>01:03</time><p>不鋪衛星</p></div>
+<div class="transcript-row"><time>01:04</time><p>連訓練算力</p></div>
+<div class="transcript-row"><time>01:05</time><p>都要跟別人買的公司</p></div>
+<div class="transcript-row"><time>01:07</time><p>憑什麼能全打馬斯克</p></div>
+<div class="transcript-row"><time>01:09</time><p>狡替奧特曼</p></div>
+<div class="transcript-row"><time>01:10</time><p>成為全球最貴的AI獨教授</p></div>
+<div class="transcript-row"><time>01:13</time><p>錢從哪來</p></div>
+<div class="transcript-row"><time>01:15</time><p>誰在狂歡</p></div>
+<div class="transcript-row"><time>01:16</time><p>誰又會買單</p></div>
+<div class="transcript-row"><time>01:18</time><p>即使你不關心AI新聞</p></div>
+<div class="transcript-row"><time>01:19</time><p>也別滑走</p></div>
+<div class="transcript-row"><time>01:20</time><p>因為看完你會明白</p></div>
+<div class="transcript-row"><time>01:22</time><p>資本究竟是怎麼把我們所有人的飯碗</p></div>
+<div class="transcript-row"><time>01:24</time><p>算進這家公司的估值里的</p></div>
+<div class="transcript-row"><time>01:31</time><p>PC Cloud是不是很多人的印象是</p></div>
+<div class="transcript-row"><time>01:34</time><p>好像很厲害</p></div>
+<div class="transcript-row"><time>01:35</time><p>但是有的大家很遠</p></div>
+<div class="transcript-row"><time>01:36</time><p>還有動不動就封號</p></div>
+<div class="transcript-row"><time>01:38</time><p>要么就是創始人在百度工作過</p></div>
+<div class="transcript-row"><time>01:41</time><p>沒錯啊</p></div>
+<div class="transcript-row"><time>01:42</time><p>阿摩黛呢</p></div>
+<div class="transcript-row"><time>01:43</time><p>2014年在百度研究語音識別</p></div>
+<div class="transcript-row"><time>01:45</time><p>2015年跳槽到了谷歌</p></div>
+<div class="transcript-row"><time>01:47</time><p>再隔了一年</p></div>
+<div class="transcript-row"><time>01:47</time><p>她和妹妹丹尼拉</p></div>
+<div class="transcript-row"><time>01:49</time><p>一起又被挖到了剛成立的OpenAI</p></div>
+<div class="transcript-row"><time>01:52</time><p>阿摩黛來這兒</p></div>
+<div class="transcript-row"><time>01:53</time><p>就是在安全部門工作</p></div>
+<div class="transcript-row"><time>01:54</time><p>你記住安全這倆字</p></div>
+<div class="transcript-row"><time>01:56</time><p>這可以說是阿摩黛</p></div>
+<div class="transcript-row"><time>01:57</time><p>一直到今天的執念</p></div>
+<div class="transcript-row"><time>01:59</time><p>或者說是</p></div>
+<div class="transcript-row"><time>01:59</time><p>她在OpenAI一路做到了副總裁</p></div>
+<div class="transcript-row"><time>02:02</time><p>但因為和奧托曼</p></div>
+<div class="transcript-row"><time>02:03</time><p>就是在這個AI安全的理念上</p></div>
+<div class="transcript-row"><time>02:05</time><p>越吵越凶</p></div>
+<div class="transcript-row"><time>02:06</time><p>兄妹倆在2021年拉著一夥人</p></div>
+<div class="transcript-row"><time>02:09</time><p>夫妻出走</p></div>
+<div class="transcript-row"><time>02:09</time><p>Andropec就此單身了</p></div>
+<div class="transcript-row"><time>02:12</time><p>你看啊</p></div>
+<div class="transcript-row"><time>02:12</time><p>到了今天</p></div>
+<div class="transcript-row"><time>02:13</time><p>這家公司也才成立了短短5年</p></div>
+<div class="transcript-row"><time>02:15</time><p>那他們的估值</p></div>
+<div class="transcript-row"><time>02:16</time><p>怎麼就飆得比馬刺客的火箭還要絲滑呢</p></div>
+<div class="transcript-row"><time>02:19</time><p>你看啊</p></div>
+<div class="transcript-row"><time>02:20</time><p>它的融資名單可以說是眼花繚亂</p></div>
+<div class="transcript-row"><time>02:22</time><p>不僅谷歌這種對價都在里邊</p></div>
+<div class="transcript-row"><time>02:24</time><p>甚至還有什麼</p></div>
+<div class="transcript-row"><time>02:25</time><p>加拿大安達略省的教室養老金</p></div>
+<div class="transcript-row"><time>02:28</time><p>教室養老金</p></div>
+<div class="transcript-row"><time>02:29</time><p>那這麼多八幹子打不著的資本</p></div>
+<div class="transcript-row"><time>02:31</time><p>齊聚一桌</p></div>
+<div class="transcript-row"><time>02:32</time><p>究竟揣的什麼心思呢</p></div>
+<div class="transcript-row"><time>02:33</time><p>咱們今天可不聊哭到的ABCD一輪</p></div>
+<div class="transcript-row"><time>02:36</time><p>咱們就按下注心態來給你捋清楚</p></div>
+<div class="transcript-row"><time>02:39</time><p>趁你這2萬億估值火箭的燃itage</p></div>
+<div class="transcript-row"><time>02:41</time><p>其實就是四種錢</p></div>
+<div class="transcript-row"><time>02:43</time><p>第一波呢</p></div>
+<div class="transcript-row"><time>02:44</time><p>是為信仰充值的硅谷大佬</p></div>
+<div class="transcript-row"><time>02:47</time><p>Andropec剛成立的時候</p></div>
+<div class="transcript-row"><time>02:48</time><p>看到的還沒個影子呢</p></div>
+<div class="transcript-row"><time>02:50</time><p>但就是靠著阿摩黛兄妹高舉的</p></div>
+<div class="transcript-row"><time>02:52</time><p>AI安全旗幟</p></div>
+<div class="transcript-row"><time>02:53</time><p>直接吸引了Skype創始人塔林</p></div>
+<div class="transcript-row"><time>02:56</time><p>Facebook聯合創始人達斯汀</p></div>
+<div class="transcript-row"><time>02:58</time><p>我</p></div>
+<div class="transcript-row"><time>03:00</time><p>和谷歌前CU生命特等大佬們</p></div>
+<div class="transcript-row"><time>03:02</time><p>直接砸掉了1.2</p></div>
+<div class="transcript-row"><time>03:28</time><p>看到的甚至還沒有亮相</p></div>
+<div class="transcript-row"><time>03:29</time><p>An</p></div>
+<div class="transcript-row"><time>03:58</time><p>極其狠辣的商業條款</p></div>
+<div class="transcript-row"><time>04:00</time><p>這個也是重點</p></div>
+<div class="transcript-row"><time>04:01</time><p>後面我們細講</p></div>
+<div class="transcript-row"><time>04:02</time><p>到了2024年</p></div>
+<div class="transcript-row"><time>04:03</time><p>Ansopec的估值已經漲到了大約</p></div>
+<div class="transcript-row"><time>04:06</time><p>所以第三波</p></div>
+<div class="transcript-row"><time>04:07</time><p>是怕錯過增長的機構資本</p></div>
+<div class="transcript-row"><time>04:10</time><p>2025年2月</p></div>
+<div class="transcript-row"><time>04:11</time><p>Claw Code震撼發布</p></div>
+<div class="transcript-row"><time>04:13</time><p>AI不再只是個聊天搭子了</p></div>
+<div class="transcript-row"><time>04:15</time><p>它能擅守寫代碼</p></div>
+<div class="transcript-row"><time>04:16</time><p>改BUG跑測試了</p></div>
+<div class="transcript-row"><time>04:17</time><p>大模型之前的下一步</p></div>
+<div class="transcript-row"><time>04:19</time><p>從Charbot走到了Agent</p></div>
+<div class="transcript-row"><time>04:21</time><p>那段時間大家討論的最多的就是</p></div>
+<div class="transcript-row"><time>04:23</time><p>程旭元的天塌了</p></div>
+<div class="transcript-row"><time>04:24</time><p>企業的需求也跟著大爆發</p></div>
+<div class="transcript-row"><time>04:26</time><p>Ansopec在企業市場</p></div>
+<div class="transcript-row"><time>04:28</time><p>直接反超OpenAI</p></div>
+<div class="transcript-row"><time>04:29</time><p>在企業市場上</p></div>
+<div class="transcript-row"><time>04:30</time><p>就像是在Code上的</p></div>
+<div class="transcript-row"><time>04:31</time><p>一般的企業</p></div>
+<div class="transcript-row"><time>04:33</time><p>Ansopec在企業市場</p></div>
+<div class="transcript-row"><time>04:34</time><p>直接反超OpenAI</p></div>
+<div class="transcript-row"><time>04:36</time><p>這下各種機構資本</p></div>
+<div class="transcript-row"><time>05:03</time><p>到這裡三波燃料一加</p></div>
+<div class="transcript-row"><time>05:05</time><p>你是不是感覺到</p></div>
+<div class="transcript-row"><time>05:06</time><p>轎子已經抬的差不多了</p></div>
+<div class="transcript-row"><time>05:08</time><p>所以最後一波</p></div>
+<div class="transcript-row"><time>05:35</time><p>這波技術似乎掃射的</p></div>
+<div class="transcript-row"><time>05:37</time><p>不僅是程旭元和軟件公司</p></div>
+<div class="transcript-row"><time>05:39</time><p>而隨著IPO的聲音越來越大</p></div>
+<div class="transcript-row"><time>05:41</time><p>所有人都Catch了</p></div>
+<div class="transcript-row"><time>05:42</time><p>提前搶票模式</p></div>
+<div class="transcript-row"><time>06:09</time><p>但是到這咱們可得理智一點想想</p></div>
+<div class="transcript-row"><time>06:11</time><p>截止到7月底</p></div>
+<div class="transcript-row"><time>06:13</time><p>它的年化收入大概是650億美元</p></div>
+<div class="transcript-row"><time>06:15</time><p>2萬億的價拿</p></div>
+<div class="transcript-row"><time>06:16</time><p>憑什麼撐得住呢</p></div>
+<div class="transcript-row"><time>06:17</time><p>經常IPO的朋友都知道</p></div>
+<div class="transcript-row"><time>06:19</time><p>想要固執長得猛</p></div>
+<div class="transcript-row"><time>06:20</time><p>那你的故事得說得很</p></div>
+<div class="transcript-row"><time>06:22</time><p>還記得開頭小李說的嗎</p></div>
+<div class="transcript-row"><time>06:23</time><p>他的固執巴開一看</p></div>
+<div class="transcript-row"><time>06:25</time><p>里面竟然是大家的飯碗</p></div>
+<div class="transcript-row"><time>06:27</time><p>所以接下來</p></div>
+<div class="transcript-row"><time>06:28</time><p>咱們就聊聊那個</p></div>
+<div class="transcript-row"><time>06:29</time><p>和你我息息相關的</p></div>
+<div class="transcript-row"><time>06:30</time><p>AI恐慌論</p></div>
+<div class="transcript-row"><time>07:19</time><p>是不是很魔幻</p></div>
+<div class="transcript-row"><time>07:21</time><p>關於AI到底是會拯救人類</p></div>
+<div class="transcript-row"><time>07:23</time><p>還是毀滅人類</p></div>
+<div class="transcript-row"><time>07:24</time><p>這群最懂AI的人</p></div>
+<div class="transcript-row"><time>07:25</time><p>已經吵翻天了</p></div>
+<div class="transcript-row"><time>07:26</time><p>而且</p></div>
+<div class="transcript-row"><time>07:49</time><p>給你律明白這個邏輯</p></div>
+<div class="transcript-row"><time>07:51</time><p>首先咱們得承認</p></div>
+<div class="transcript-row"><time>07:52</time><p>安斯拉佩克絕對不是</p></div>
+<div class="transcript-row"><time>08:20</time><p>倍數也就是7到8倍</p></div>
+<div class="transcript-row"><time>08:22</time><p>微軟大概也就12倍</p></div>
+<div class="transcript-row"><time>08:23</time><p>等於說在華爾街眼裡</p></div>
+<div class="transcript-row"><time>08:24</time><p>大家願意花31塊錢</p></div>
+<div class="transcript-row"><time>08:26</time><p>去買安斯拉佩克帳面上</p></div>
+<div class="transcript-row"><time>08:28</time><p>1塊錢的流水</p></div>
+<div class="transcript-row"><time>08:29</time><p>而且這還是營收</p></div>
+<div class="transcript-row"><time>08:30</time><p>不是利潤</p></div>
+<div class="transcript-row"><time>08:31</time><p>2015年安斯拉佩克全年收入</p></div>
+<div class="transcript-row"><time>08:33</time><p>是46億美元</p></div>
+<div class="transcript-row"><time>08:35</time><p>雖然已經是上年的12倍了</p></div>
+<div class="transcript-row"><time>08:37</time><p>但經營虧損超過80億美元</p></div>
+<div class="transcript-row"><time>08:40</time><p>所以安斯拉佩克的估值邏輯</p></div>
+<div class="transcript-row"><time>08:41</time><p>絕不限於現在賺了多少錢</p></div>
+<div class="transcript-row"><time>08:44</time><p>他的估值看的是這個詞</p></div>
+<div class="transcript-row"><time>08:46</time><p>TAM</p></div>
+<div class="transcript-row"><time>08:47</time><p>總潛在 Fresh Market</p></div>
+<div class="transcript-row"><time>08:49</time><p>就是不看它現在有多少市場</p></div>
+<div class="transcript-row"><time>08:51</time><p>...</p></div>
+<div class="transcript-row"><time>08:53</time><p>有點抽象</p></div>
+<div class="transcript-row"><time>08:54</time><p>就用咱們講過的SpaceX</p></div>
+<div class="transcript-row"><time>08:56</time><p>來複習類比一下</p></div>
+<div class="transcript-row"><time>09:22</time><p>那複習完了</p></div>
+<div class="transcript-row"><time>09:23</time><p>咱們再來看看今天的主角</p></div>
+<div class="transcript-row"><time>09:24</time><p>安斯拉佩克</p></div>
+<div class="transcript-row"><time>09:25</time><p>他就更狠了</p></div>
+<div class="transcript-row"><time>09:51</time><p>按照安斯拉佩克的預言</p></div>
+<div class="transcript-row"><time>09:53</time><p>AI可以完成的全部工作範圍</p></div>
+<div class="transcript-row"><time>09:55</time><p>已經超過了全球打工人總收入的一半</p></div>
+<div class="transcript-row"><time>09:58</time><p>這也是為什麼阿莫戴一再公開說</p></div>
+<div class="transcript-row"><time>10:00</time><p>50%的工作會被AI幹掉</p></div>
+<div class="transcript-row"><time>10:03</time><p>你看這個敘事就很妙了</p></div>
+<div class="transcript-row"><time>10:05</time><p>如果安斯拉佩克只是吃掉</p></div>
+<div class="transcript-row"><time>10:07</time><p>全球傳統的軟件市場</p></div>
+<div class="transcript-row"><time>10:08</time><p>那整個盤子稱自己就3萬億</p></div>
+<div class="transcript-row"><time>10:10</time><p>但他現在張口就要2萬億的估值</p></div>
+<div class="transcript-row"><time>10:13</time><p>等於事還沒成</p></div>
+<div class="transcript-row"><time>10:14</time><p>就已經提前透支了66.7%的錢</p></div>
+<div class="transcript-row"><time>10:16</time><p>這賬誰算都會覺得太貴了</p></div>
+<div class="transcript-row"><time>10:19</time><p>我來的上升空間還大得嚇人呢</p></div>
+<div class="transcript-row"><time>10:22</time><p>那這個分母魔術你學會了嗎</p></div>
+<div class="transcript-row"><time>10:25</time><p>這個故事風險點也恰恰在這</p></div>
+<div class="transcript-row"><time>10:28</time><p>我為了這個未來</p></div>
+<div class="transcript-row"><time>10:30</time><p>他已經牽強了天價的算力訂單</p></div>
+<div class="transcript-row"><time>10:32</time><p>故事可以慢慢對付</p></div>
+<div class="transcript-row"><time>10:58</time><p>但賬單可不會等他把餅畫完</p></div>
+<div class="transcript-row"><time>11:00</time><p>而綁在同一條船上的</p></div>
+<div class="transcript-row"><time>11:02</time><p>就是前面的</p></div>
+<div class="transcript-row"><time>11:29</time><p>與此同時</p></div>
+<div class="transcript-row"><time>11:30</time><p>企業級客戶甚至不用找安斯拉佩克簽合同</p></div>
+<div class="transcript-row"><time>11:33</time><p>在亞馬遜就能直接下單可樂的</p></div>
+<div class="transcript-row"><time>11:35</time><p>你看亞馬遜在這場遊戲里</p></div>
+<div class="transcript-row"><time>11:37</time><p>同時扮演著股東購運商分銷商三個身份</p></div>
+<div class="transcript-row"><time>11:40</time><p>而谷歌就更魔幻了</p></div>
+<div class="transcript-row"><time>11:42</time><p>嚴格來說谷歌的Gameline跟可樂是對價</p></div>
+<div class="transcript-row"><time>11:45</time><p>但谷歌不僅僅能100億美元過去</p></div>
+<div class="transcript-row"><time>11:47</time><p>還承諾最高投400億</p></div>
+<div class="transcript-row"><time>11:49</time><p>那作為交換呢</p></div>
+<div class="transcript-row"><time>11:50</time><p>安斯拉佩克也是瘋狂採購谷歌的TPU芯片</p></div>
+<div class="transcript-row"><time>11:53</time><p>甚至鎖定了2017年的下一代超級算力</p></div>
+<div class="transcript-row"><time>11:56</time><p>同樣可樂也在谷歌雲上架了</p></div>
+<div class="transcript-row"><time>12:26</time><p>競爭歸競爭</p></div>
+<div class="transcript-row"><time>12:27</time><p>賺錢為賺錢</p></div>
+<div class="transcript-row"><time>12:29</time><p>這似乎是一種很新的</p></div>
+<div class="transcript-row"><time>14:27</time><p>資本市場從來不怕你瘋狂燒錢</p></div>
+<div class="transcript-row"><time>14:29</time><p>怕的是你講的那個故事被證偽</p></div>
+<div class="transcript-row"><time>14:32</time><p>而安斯拉佩克的固執</p></div>
+<div class="transcript-row"><time>14:33</time><p>已經越來越接近那個故事被完美實現的狀態</p></div>
+<div class="transcript-row"><time>14:37</time><p>這種狀態有個名字叫Price for Perfection</p></div>
+<div class="transcript-row"><time>14:40</time><p>完美定價</p></div>
+<div class="transcript-row"><time>14:41</time><p>意思是價格已經把最樂觀的未來提前算進去了</p></div>
+<div class="transcript-row"><time>14:45</time><p>而想要撐住這2萬億</p></div>
+<div class="transcript-row"><time>14:46</time><p>安斯拉佩克未來幾年不僅不能出錯</p></div>
+<div class="transcript-row"><time>14:49</time><p>他的營收還必須以每年翻幾倍的速度一路狂飆</p></div>
+<div class="transcript-row"><time>14:53</time><p>但現實的物價不僅是最高</p></div>
+<div class="transcript-row"><time>14:55</time><p>但現實的物理世界</p></div>
+<div class="transcript-row"><time>14:57</time><p>真的允許這麼完美的劇本發生嗎</p></div>
+<div class="transcript-row"><time>14:59</time><p>要撐住這麼高的固執</p></div>
+<div class="transcript-row"><time>15:01</time><p>他的眼前就有三道坎</p></div>
+<div class="transcript-row"><time>16:26</time><p>這才是安斯拉佩克必須回答的問題</p></div>
+<div class="transcript-row"><time>16:29</time><p>其實這種玩法花姐不是沒見過</p></div>
+<div class="transcript-row"><time>17:55</time><p>已經無數普通人被悄悄綁在這條增長曲線上的未來預期</p></div>
+<div class="transcript-row"><time>18:00</time><p>或許這才是這個2萬億盲盒真正殘酷的地方</p></div>
+<div class="transcript-row"><time>18:04</time><p>那屏幕前的你又怎麼看呢</p></div>
+<div class="transcript-row"><time>18:06</time><p>是希望它開的快一點還是慢一點呢</p></div>
+<div class="transcript-row"><time>18:08</time><p>關於安斯拉佩克這家公司</p></div>
+<div class="transcript-row"><time>18:10</time><p>你覺得2萬億的估值合理嗎</p></div>
+<div class="transcript-row"><time>18:12</time><p>告訴我你的想法吧</p></div>
+<div class="transcript-row"><time>18:14</time><p>A 合理</p></div>
+<div class="transcript-row"><time>18:15</time><p>你認為AI會快速取代腦力勞動</p></div>
+<div class="transcript-row"><time>18:17</time><p>B 不合理</p></div>
+<div class="transcript-row"><time>18:18</time><p>你覺得AI依然存在許多局限性</p></div>
+<div class="transcript-row"><time>18:21</time><p>或者有其他政治著件</p></div>
+<div class="transcript-row"><time>18:22</time><p>請在我的評論區給我留言吧</p></div>
+<div class="transcript-row"><time>18:25</time><p>大家好我是小李</p></div>
+<div class="transcript-row"><time>18:25</time><p>我們下期再見</p></div>
+<div class="transcript-row"><time>18:26</time><p>拜拜</p></div>
+</div></div></details>
+</section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5139" viewBox="0 0 1320 5139">
+  <foreignObject x="0" y="0" width="1320" height="5139">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>特斯拉的世纪阳谋</h1>
+  <div class="meta"><span class="tag tag-blue">特斯拉</span><span class="tag tag-green">马斯克</span><span class="tag tag-orange">物理AI</span><span class="tag tag-purple">能源</span><span class="tag tag-red">Robotaxi</span><span class="tag tag-gray">时长 23分52秒</span><span class="tag tag-gray">战略叙事分析</span></div>
+  <a class="source-link" href="https://b23.tv/D9haXBu">原视频</a>
+  <div class="summary-line">世纪阳谋的逻辑链是：物理 AI 需要能量 → 地面电网太慢 → 轨道算力+星舰+月球工业想象 → 特斯拉提供身体与现实数据。投资误判常来自用车企季度模型阅读平台期权。</div>
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">不止卖车：物理世界渗透</span></div><div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">功率类比到吉瓦瓶颈</span></div><div class="timeline-item"><span class="timeline-time">06:30</span><span class="timeline-text">轨道数据中心思路</span></div><div class="timeline-item"><span class="timeline-time">09:00</span><span class="timeline-text">星舰与卫星数量级</span></div><div class="timeline-item"><span class="timeline-time">10:30</span><span class="timeline-text">月球工业想象</span></div><div class="timeline-item"><span class="timeline-time">12:30</span><span class="timeline-text">车/Robotaxi/Optimus 身体</span></div><div class="timeline-item"><span class="timeline-time">15:30</span><span class="timeline-text">Q1：软件利润信号</span></div><div class="timeline-item"><span class="timeline-time">20:30</span><span class="timeline-text">质疑清单与杰文斯</span></div></div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">瓶颈<br/>能源</div><span class="arrow">→</span><div class="node-green">解法<br/>轨道算力</div><span class="arrow">→</span><div class="node-orange">身体<br/>特斯拉</div><span class="arrow">→</span><div class="node">误读<br/>车企模型</div></div></div>
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：特斯拉=高估值电车。纠偏：叙事核心是物理 AI 网络节点。</p><p>误解：宏图=已落地产能。纠偏：大量是压力工具与远景，需工程验证。</p><p>误解：更省电模型会减少总用电。纠偏：杰文斯视角下总用量可能上升。</p></div>
+  <div class="section"><h2 class="sec-title">观点拆解</h2>
+    <div class="card card-blue">
+      <h3>把计算搬走</h3>
+      <p>电难远距无损传送，结果易传送；轨道太阳能与连续光照是物理诱饵，卫星数量与维护是工程地狱。</p>
+      
+      
+    </div>
+    <div class="card card-purple">
+      <h3>身体与数据</h3>
+      <p>屏幕 AI 吃互联网；物理 AI 吃车队与工厂试错。特斯拉同时是需求方、数据方与制造方。</p>
+      <div class="quote">AI 要进入现实，需要躯壳。</div>
+      
+    </div>
+    <div class="card card-orange">
+      <h3>报表与期权</h3>
+      <p>交付疲软可以与软件利润、平台叙事并存；空头看当下，多头看未入账期权——两者都要列风险。</p>
+      
+      
+    </div></div>
+  <div class="section"><h2 class="sec-title">生态分工</h2><div class="card"><table><thead><tr><th>块</th><th>角色</th><th>卡点</th></tr></thead><tbody><tr><td>SpaceX</td><td>入轨物流</td><td>复用成本与频率</td></tr><tr><td>xAI</td><td>模型大脑</td><td>训练能耗与竞争</td></tr><tr><td>Tesla</td><td>身体+数据</td><td>监管/交付/执行</td></tr><tr><td>能源/轨道</td><td>功率供给</td><td>建设与维护</td></tr></tbody></table></div></div>
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>功率数字为教学类比，非电网规划书。</li><li>月球工业属远期构想，证据层级低于车与 FSD。</li><li>单季财报不能证明平台转型成功。</li></ul><div class="pitfall">把愿景时间表当承诺交付日。</div><div class="pitfall">忽视在轨维护与监管一票否决。</div></div></div>
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>阳谋公开：能源→太空→物理身体。</li><li>特斯拉护城河候选是现实数据与制造。</li><li>读估值先选框架：车企 or 物理 AI。</li></ul><h3>行动清单</h3><ol><li>跟踪 FSD 订阅、Robotaxi 里程、Optimus 工厂任务。</li><li>并列阅读星舰飞行节奏与单位成本。</li><li>投资论点必须写明不相信的部分。</li></ol><h3>关键认知转变</h3><p>从「卖车公司贵不贵」转向「物理 AI 期权兑不兑现」。</p></div>
+  <div class="footer">双轨产物之二 · 理性分析 · 23分52秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

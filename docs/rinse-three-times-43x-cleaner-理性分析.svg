@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1238" viewBox="0 0 1320 1238">
+  <foreignObject x="0" y="0" width="1320" height="1238">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#eff6ff,#dbeafe);padding:48px 60px}
+.container{max-width:1200px;margin:0 auto}h1{font-size:32px;font-weight:900;color:#1e40af}
+.summary{background:#fff;padding:18px;border-left:4px solid #3b82f6;border-radius:12px;margin:14px 0;font-size:16px;line-height:1.7}
+.card{background:#fff;padding:20px;border-radius:14px;margin:12px 0;border-left:5px solid #3b82f6}li{margin:6px 0;line-height:1.7;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;padding:24px;border-radius:16px;margin-top:16px}
+.conclusion h2,.conclusion li{color:#fff}.footer{text-align:center;color:#94a3b8;padding:16px;font-size:12px}
+.root{padding:48px 60px;background:linear-gradient(135deg,#eff6ff,#dbeafe)}</style>
+      <div class="container root">
+<h1>少量多次：漂洗里的稀释连乘</h1>
+<a href="https://xhslink.cn/o/1BWX4UU7ERi">原视频</a>
+<div class="summary">核心判断：同样体积清水，「分次倒掉混匀脏水」比「一次灌满」能把残留浓度连乘压下去；省水是同一数学的镜像。边界是吸附、混匀时间，以及不该套用到含氟牙膏漱口。</div>
+<div class="card"><h3>抓手</h3><ul>
+<li>模型：留 1 份脏水 + 30 份清水 → 一次 1/31，三次约 1/1331</li>
+<li>迁移：洗衣机漂甩、奶瓶、毛笔</li>
+<li>极限：到不了 0，与 e 相关</li>
+</ul></div>
+<div class="conclusion"><h2>行动</h2><ul>
+<li>洗衣：宁多漂一轮+甩干，也不要迷信一次猛冲</li>
+<li>洗碗刷瓶：少量水晃倒×3</li>
+<li>牙膏：只吐不漱（若遵医嘱）</li>
+</ul></div>
+<div class="footer">video-notes · rinse-three-times-43x-cleaner</div></div>
+    </div>
+  </foreignObject>
+</svg>

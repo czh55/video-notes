@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="小Lin说梳理 Kimi 超大开源模型的能力、算力爆满与美方开源/IP 话术；中段 ASR 有空洞。">
+<title>Kimi 开源模型：美国吵什么｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-platform.bili{background:#00a1d6}
+.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.note{font-size:14px;color:#92400e;background:#fef3c7;border-left:4px solid #f59e0b;padding:12px 14px;border-radius:10px;margin:12px 0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.transcript-collapsible{border:none;margin:48px 0 0;padding:0}
+.transcript-collapsible summary{cursor:pointer;list-style:none;font-size:24px;font-weight:700;color:#1c1917;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker{display:none}
+.transcript-list{list-style:none;padding:0}.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>Kimi 开源模型：美国吵什么</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform bili">B站</span>
+    <span class="meta-tag tag-duration">5分14秒</span>
+    <span class="meta-tag tag-topic">AI 开源 Kimi 中美</span>
+  </div>
+  <a class="source-link" href="https://b23.tv/aAQw5qV" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">热闹从何而来</a>
+<a href="#ch2">指控与话术</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+<div class="content-points">
+<h2>内容要点</h2>
+<p>B 站「小Lin说」约 5 分 14 秒梳理 Kimi 超大开源模型引发的美方舆论、企业联名请愿、算力导致暂停新订阅，以及能力榜与知识产权争议。ASR 原繁体已转简；校正：「卡拉西梅隆→卡内基梅隆」「抱回→挖回」「闭门洩客→闭门谢客」「Hoggingface→Hugging Face」「驱使榜→趋势榜」「揭入→介入」「前端账→前端榜」「鞋代码→写代码」「徵流→蒸馏」「杨直林→杨植麟（常见写法）」等。中段约 01:28–03:28 与末段存在大段空洞/噪声，论证链条以可识别片段为准。</p>
+<p class="note">片中口播作「Kimi K3」；外界常见讨论名可能与版本号传闻不一致，本文保留口播称呼并注明以作者表述为准。</p>
+<h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→01:00]</span><div><strong>乱象盘点</strong><p>请愿、人才叙事、算力爆满暂停订阅。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:00→01:30]</span><div><strong>发布与能力</strong><p>开源上架冲榜；综合与代码能力被强调。</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:20→04:00]</span><div><strong>政治话术</strong><p>无证据指控 + 财长「开源≠盗窃」把议题改道。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>作者倾向把热闹拆成「技术成绩」与「叙事战场」两层；证据不足的指控要单独标记。</p></div>
+</div>
+
+<section class="story-section" id="ch1">
+<h2><span class="time-marker">00:00–01:30</span>热闹从何而来</h2>
+<p>近两百家企业联名请愿保护中国开源模型；创始人留学背景被卷入人才讨论；与此同时产品因用户过多暂停新订阅。作者提出：是真强，还是博弈时间点被放大？接着给出发布参数体量、Hugging Face 冲榜与能力位次（综合靠前、代码相关突出）。</p>
+<figure>
+<img src="assets/kimi-k3-us-noise/shot-01.jpg" alt="主播开场" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:05] 开场：Kimi 开源模型引发美方议论与联名请愿保护开源</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1a39e5c47716.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening: Kimi open model sparks US debate and petitions to protect open source.</span></div>
+<audio class="cap-audio" src="audio/1a39e5c47716.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-02.jpg" alt="谈创始人背景" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:25] 创始人留学背景被拿来讨论人才回流</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/310c0ace74b2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Founder’s overseas PhD background used in talent-flow talk.</span></div>
+<audio class="cap-audio" src="audio/310c0ace74b2.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-03.jpg" alt="闭门谢客" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:45] 用户过多算力顶不住，暂停新用户订阅「闭门谢客」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d7dd28acd1cb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Overloaded compute; pauses new subscriptions—closes the door.</span></div>
+<audio class="cap-audio" src="audio/d7dd28acd1cb.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-04.jpg" alt="提出真牛与否" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:52] 梳理：真牛还是中美博弈节点被轰起来？</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d11a0024c059.mp3" type="button" aria-label="Play English audio">🔊</button><span>Frames the question: real strength or US-China timing hype?</span></div>
+<audio class="cap-audio" src="audio/d11a0024c059.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-05.jpg" alt="参数与开源" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[01:05] 发布节点：约 2.8 万亿参数、Hugging Face 上架冲榜</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d2274214fac8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Launch: ~2.8T params, Hugging Face listing rockets up rankings.</span></div>
+<audio class="cap-audio" src="audio/d2274214fac8.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-06.jpg" alt="能力排名" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[01:20] 能力：综合靠前，写代码/前端相关能力被强调</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/91615f8aba89.mp3" type="button" aria-label="Play English audio">🔊</button><span>Capability: strong overall; coding/frontend ability highlighted.</span></div>
+<audio class="cap-audio" src="audio/91615f8aba89.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+</section>
+<section class="story-section" id="ch2">
+<h2><span class="time-marker">03:20–05:14</span>指控与话术（中段 ASR 空洞）</h2>
+<p>可识别片段提到「蒸馏 Anthropic、绕道禁售英伟达芯片」但称尚未公布证据；财长贝森特表态支持开源、不支持知识产权盗窃，把战场从「禁中国开源」挪到「如何定义该模型」。作者观察反对封杀的声音其实更大。中段大片 ASR 无效，细节以原片为准。</p>
+<figure>
+<img src="assets/kimi-k3-us-noise/shot-07.jpg" alt="争议指控" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[03:30] 争议：被指蒸馏 Anthropic、绕道禁售芯片——尚无公开证据</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9b4f51c98969.mp3" type="button" aria-label="Play English audio">🔊</button><span>Controversy: alleged Anthropic distillation / banned chips—no public proof yet.</span></div>
+<audio class="cap-audio" src="audio/9b4f51c98969.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-08.jpg" alt="财长表态" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[03:40] 财长表态：支持开源但不支持知识产权盗窃</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/eb40886a87df.mp3" type="button" aria-label="Play English audio">🔊</button><span>Treasury line: support open source, not IP theft.</span></div>
+<audio class="cap-audio" src="audio/eb40886a87df.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-09.jpg" alt="定义战场" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[03:50] 战场从「禁不禁」转到「如何定义该模型」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cb079250fcf5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Battlefield shifts from ban-or-not to how to define the model.</span></div>
+<audio class="cap-audio" src="audio/cb079250fcf5.mp3" preload="none"></audio>
+</figcaption>
+</figure><figure>
+<img src="assets/kimi-k3-us-noise/shot-10.jpg" alt="支持开源声音" loading="lazy">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[04:00] 反对封杀、支持开源的声音其实更大；中间 ASR 有空洞</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9718355c38d8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Anti-ban / pro-open-source louder; mid ASR has gaps.</span></div>
+<audio class="cap-audio" src="audio/9718355c38d8.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+</section>
+<details class="transcript-collapsible" id="transcript">
+<summary>完整转录</summary>
+<ul class="transcript-list">
+<li class="transcript-row"><time>00:00</time><p>最近Kimi这个K3哈</p></li>
+<li class="transcript-row"><time>00:30</time><p>又有近200家企业联名上书</p></li>
+<li class="transcript-row"><time>00:31</time><p>请愿保护中国的开源模型</p></li>
+<li class="transcript-row"><time>00:33</time><p>还有人呢</p></li>
+<li class="transcript-row"><time>00:34</time><p>开始反思美国的移民和人才问题</p></li>
+<li class="transcript-row"><time>00:36</time><p>说Kimi这个创始人杨直林</p></li>
+<li class="transcript-row"><time>00:37</time><p>明明是在卡拉西梅隆读的博士</p></li>
+<li class="transcript-row"><time>00:39</time><p>怎么当年就把他给抱回国了</p></li>
+<li class="transcript-row"><time>00:41</time><p>然而就在全世界都盯著Kimi的时候</p></li>
+<li class="transcript-row"><time>00:44</time><p>他因为自己用户太多</p></li>
+<li class="transcript-row"><time>00:45</time><p>算力顶不住</p></li>
+<li class="transcript-row"><time>00:46</time><p>直接闭门泄客了</p></li>
+<li class="transcript-row"><time>00:47</time><p>暂停了新用户的订阅</p></li>
+<li class="transcript-row"><time>00:49</time><p>好家伙</p></li>
+<li class="transcript-row"><time>00:49</time><p>这叫一个乱是吧</p></li>
+<li class="transcript-row"><time>00:51</time><p>咱们就来捋一捋哈</p></li>
+<li class="transcript-row"><time>00:52</time><p>这个K3到底是怎么回事</p></li>
+<li class="transcript-row"><time>00:54</time><p>它是真牛</p></li>
+<li class="transcript-row"><time>00:54</time><p>还是中美博一到一个时间点被轰起来</p></li>
+<li class="transcript-row"><time>00:57</time><p>美国有准备拿它不可能</p></li>
+<li class="transcript-row"><time>01:00</time><p>7月16号</p></li>
+<li class="transcript-row"><time>01:01</time><p>月之暗面发布了Kimi K3</p></li>
+<li class="transcript-row"><time>01:03</time><p>2.8万亿参数</p></li>
+<li class="transcript-row"><time>01:04</time><p>是全球最大的开源大模型</p></li>
+<li class="transcript-row"><time>01:06</time><p>27号晚上在Hoggingface上上架</p></li>
+<li class="transcript-row"><time>01:08</time><p>正式开源</p></li>
+<li class="transcript-row"><time>01:08</time><p>30分钟就冲到了驱使榜的榜首</p></li>
+<li class="transcript-row"><time>01:10</time><p>也是史上最快</p></li>
+<li class="transcript-row"><time>01:11</time><p>大家就纷纷揭入</p></li>
+<li class="transcript-row"><time>01:13</time><p>点赞祝贺</p></li>
+<li class="transcript-row"><time>01:14</time><p>那能力怎么样呢</p></li>
+<li class="transcript-row"><time>01:15</time><p>我相信大家多多少少都有所耳闻</p></li>
+<li class="transcript-row"><time>01:17</time><p>确实厉害</p></li>
+<li class="transcript-row"><time>01:18</time><p>综合能力排到了第三</p></li>
+<li class="transcript-row"><time>01:20</time><p>仅次于Anthropic和OpenAI</p></li>
+<li class="transcript-row"><time>01:21</time><p>而且还超过了他俩上一代的模型</p></li>
+<li class="transcript-row"><time>01:24</time><p>前端账更是排到了第一</p></li>
+<li class="transcript-row"><time>01:25</time><p>就是鞋代码的能力非常强</p></li>
+<li class="transcript-row"><time>01:27</time><p>当然</p></li>
+<li class="transcript-row"><time>01:28</time><p>真正让他在商业和政治上打</p></li>
+<li class="transcript-row"><time>03:28</time><p>说Kimi征流了Anthropic的模型</p></li>
+<li class="transcript-row"><time>03:30</time><p>还绕道用了禁售的英伟达芯片</p></li>
+<li class="transcript-row"><time>03:33</time><p>但这些都还没有公布证据</p></li>
+<li class="transcript-row"><time>03:34</time><p>另外</p></li>
+<li class="transcript-row"><time>03:34</time><p>财政部长贝森特也公开表态</p></li>
+<li class="transcript-row"><time>03:36</time><p>原话是说</p></li>
+<li class="transcript-row"><time>03:37</time><p>本届政府支持开源模型</p></li>
+<li class="transcript-row"><time>03:39</time><p>但不支持知识产权盗窃</p></li>
+<li class="transcript-row"><time>03:41</time><p>如果发现了</p></li>
+<li class="transcript-row"><time>03:42</time><p>我没有能力制裁</p></li>
+<li class="transcript-row"><time>03:43</time><p>是不是还挺会说的</p></li>
+<li class="transcript-row"><time>03:45</time><p>他就一下把这个战场</p></li>
+<li class="transcript-row"><time>03:46</time><p>从要不要禁中国的开源模型</p></li>
+<li class="transcript-row"><time>03:48</time><p>转移到了</p></li>
+<li class="transcript-row"><time>03:49</time><p>如何定义K3</p></li>
+<li class="transcript-row"><time>03:50</time><p>这么一个近可攻退可守的位置</p></li>
+<li class="transcript-row"><time>03:53</time><p>当然这是政府</p></li>
+<li class="transcript-row"><time>03:54</time><p>态度比较模糊</p></li>
+<li class="transcript-row"><time>03:55</time><p>但反对封杀</p></li>
+<li class="transcript-row"><time>03:56</time><p>也就是支持开源模型</p></li>
+<li class="transcript-row"><time>03:58</time><p>这个声音其实更大</p></li>
+<li class="transcript-row"><time>04:29</time><p>.</p></li>
+</ul>
+</details>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4611" viewBox="0 0 1320 4611">
+  <foreignObject x="0" y="0" width="1320" height="4611">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04);color:#334155}
+.timeline{background:#fff;border-radius:16px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:14px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:16px 20px;text-align:center;min-width:130px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:12px;box-shadow:0 4px 20px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:17px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 12px;border-radius:8px;font-size:13px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0}
+th{background:#f1f5f9;padding:10px;text-align:left;color:#1e40af}
+td{padding:10px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:22px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:12px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:22px 0 8px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;display:inline-block;margin-bottom:14px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+</style>
+      <div class="container root-wrap"><h1>在家煎牛排：锅前细节决定上限</h1><div class="meta"><span class="tag tag-blue">牛排</span><span class="tag tag-green">回温</span><span class="tag tag-orange">美拉德</span><span class="tag tag-purple">锅具</span><span class="tag tag-gray">时长 3分11秒</span><span class="tag tag-gray">理性分析 · 家常烹饪</span></div><a class="source-link" href="https://xhslink.cn/o/3Fc39he4SxQ">原视频</a><div class="summary-line">核心判断：家煎上限多半在预处理与锅温管理；本片后半火候口播缺失，不宜当精确计时教程。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:35</span><span class="timeline-text">厚度均匀</span></div><div class="timeline-item"><span class="timeline-time">00:50</span><span class="timeline-text">回温</span></div><div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">吸干调味</span></div><div class="timeline-item"><span class="timeline-time">01:30</span><span class="timeline-text">锅具</span></div><div class="timeline-item"><span class="timeline-time">01:51</span><span class="timeline-text">煎/醒肉画面</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>为啥煎砸</div><span class="arrow">→</span><div class="node-green">证据<br/>回温/干表/稳锅</div><span class="arrow">→</span><div class="node-orange">判断<br/>锅前&gt;玄学</div><span class="arrow">→</span><div class="node">行动<br/>先练预处理</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>ASR 胶壳→焦壳；咱里有闪师→账号口播噪声。</p><p>01:51 后口播几乎缺失：不编造秒数。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-purple"><h3>均匀厚度</h3><p>控熟度的物理前提。</p><div class="quote">厚薄要尽量均匀</div><div class="relation">比死磕厘米数重要。</div></div><div class="card "><h3>回温+吸干</h3><p>解冻彻底；纸吸干促焦壳。</p><div class="quote">表面越干越容易快速的形成漂亮的焦壳</div><div class="relation">水洗是反向操作。</div></div><div class="card card-green"><h3>锅与美拉德</h3><p>厚重锅+稳高温。</p><div class="quote">锅温不能一下子掉得太厉害</div><div class="relation">选锅=热容量。</div></div><div class="card card-orange"><h3>证据缺口</h3><p>煎制时长 ASR 无。</p><div class="quote">我们来到煎这个环节</div><div class="relation">跟原片画面，不抄空秒表。</div></div></div><div class="section"><h2 class="sec-title">可执行清单</h2><div class="card"><table><thead><tr><th>步骤</th><th>要点</th></tr></thead><tbody><tr><td>解冻回温</td><td>冷冻全解；薄块约15分钟</td></tr><tr><td>表面</td><td>纸吸干，勿水洗</td></tr><tr><td>调味</td><td>下锅前盐胡椒</td></tr><tr><td>锅</td><td>铸铁/碳钢/厚不锈钢</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>家常演示非实验室。</li><li>后半口播缺失。</li></ul><div class="pitfall">冷冻直接下锅。</div><div class="pitfall">表面带水。</div><div class="pitfall">薄锅温崩。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>预处理决定焦壳</li><li>稳锅温促美拉德</li><li>火候跟原片</li></ul><h3>行动清单</h3><ol><li>下次先吸干再下锅</li><li>换厚锅对比</li></ol><h3>关键认知转变</h3><p>从「秘方翻面」转向「干表面+热容量」。</p></div><div class="footer">双轨产物之二 · 理性分析 · 3分11秒</div></div>
+    </div>
+  </foreignObject>
+</svg>

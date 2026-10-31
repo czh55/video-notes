@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3293" viewBox="0 0 1320 3293">
+  <foreignObject x="0" y="0" width="1320" height="3293">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#047857,#10b981);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#047857;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:8px}
+ul{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#d1fae5;color:#065f46}
+.summary-line{font-size:17px;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #10b981;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:22px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-weight:700;color:#059669;min-width:88px}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:#ecfdf5;border:2px solid #6ee7b7;border-radius:14px;padding:14px 18px;font-weight:700;color:#065f46;text-align:center;min-width:120px}
+.arrow{color:#94a3b8;font-size:22px}
+.card{background:#fff;border-radius:16px;padding:24px;margin:14px 0;border-left:5px solid #10b981;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.card.card-orange{border-left-color:#f59e0b}.card.card-purple{border-left-color:#8b5cf6}
+.quote{background:#f8fafc;padding:12px 14px;border-radius:10px;margin:10px 0;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.pitfall{background:#fef2f2;padding:12px 14px;border-radius:10px;margin:10px 0;color:#991b1b;border-left:4px solid #ef4444}
+.action{background:#eff6ff;padding:12px 14px;border-radius:10px;margin:10px 0;color:#1e40af;border-left:4px solid #3b82f6}
+.highlight{background:#fef3c7;padding:12px 14px;border-radius:10px;margin:10px 0;color:#92400e;border-left:4px solid #f59e0b}
+table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+th,td{border:1px solid #e2e8f0;padding:10px 12px;text-align:left}th{background:#f8fafc;color:#047857}
+.conclusion{background:linear-gradient(135deg,#047857,#10b981);color:#fff;border-radius:20px;padding:32px;margin-top:28px}
+.conclusion h2,.conclusion h3{color:#fff;border:none;padding:0}
+.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:24px 0}</style>
+      
+<div class="container">
+  <h1>人像先求自在，姿势自然跟上</h1>
+  <div><span class="tag">9分05秒</span><span class="tag">人像沟通</span><span class="tag">焦段距离</span></div>
+  <div class="summary-line">核心命题：人像平平往往不是姿势库不够，而是被摄者镜头前不舒适；用时长、距离、情绪板、闲聊夸奖与宽松指令，把舒适感放在器材与姿势之前。</div>
+
+  <div class="timeline">
+    <h3>证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00-00:45</span><span>命题：舒适感 &gt; 姿势/器材</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:45-02:10</span><span>场次 30–60 分钟；边际递减</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:10-03:45</span><span>35/50 近距离压迫 → 换 85mm</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:45-06:00</span><span>换距节奏 + 情绪板要具体</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:00-07:20</span><span>聊非拍摄话题 + 正向反馈</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:20-09:05</span><span>别过度指挥；给宽松起点</span></div>
+  </div>
+
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">对方紧张</div><div class="arrow">→</div>
+    <div class="node">缩短场次</div><div class="arrow">→</div>
+    <div class="node">拉开距离</div><div class="arrow">→</div>
+    <div class="node">具体沟通</div><div class="arrow">→</div>
+    <div class="node">宽松指令</div>
+  </div>
+
+  <div class="card">
+    <h3>在讲什么 → 关键理解 → 怎么用</h3>
+    <p>把「拍不好」从技术自责，改写成「对方是否感到安全」。姿势库仍有用，但排在舒适感之后。</p>
+    <div class="quote">「keep your subject comfortable first and everything else follows.」</div>
+    <div class="action">怎么用：下场前先定最长 60 分钟；包里备一支长焦作「退路」。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>五条杠杆对照</h3>
+    <table>
+      <tr><th>杠杆</th><th>做法</th><th>要避免</th></tr>
+      <tr><td>时长</td><td>30–60 分钟；约 40 分钟收束</td><td>为了「应该再拍」硬撑</td></tr>
+      <tr><td>距离</td><td>紧绷时换 85mm 后退</td><td>广角一直贴脸</td></tr>
+      <tr><td>情绪板</td><td>指出喜欢动态/放松等具体点</td><td>丢一堆无标注参考图</td></tr>
+      <tr><td>闲聊夸奖</td><td>聊宠物旅行；及时正向反馈</td><td>只剩「抬下巴、手放下」</td></tr>
+      <tr><td>指令</td><td>「试试这个」式开放起点</td><td>手指角度级微操</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑与边界</h3>
+    <div class="pitfall">沟通并非越多越好：过度具体的姿势指令会制造「只有一种正确答案」的恐惧。</div>
+    <div class="highlight">立场分层：时长与焦段切换是 UP 主经验法则；压迫感随距离变化属可观察现象；「半小时一定够」需按场景/客户类型调整，视频未给实验数据。</div>
+    <p>方法边界：示例多为户外自然光人像；棚拍连拍、商业硬指标、儿童/团体场次未覆盖。片中工作坊导流非本课结论。</p>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>行动清单</h3>
+    <ul>
+      <li>下场写死结束时间，到点优先收工而非加戏。</li>
+      <li>包里带长焦；看到紧绷表情立刻拉开距离。</li>
+      <li>情绪板每张图写一句「我喜欢____」。</li>
+      <li>设定两个非拍摄闲聊话题备用。</li>
+      <li>姿势口令改成开放句，并口头授权「可以随便动」。</li>
+    </ul>
+    <h3>认知转变</h3>
+    <ul>
+      <li>以前：再多背姿势 → 现在：先降对方压力。</li>
+      <li>以前：拍得越久越负责 → 现在：过长可能伤害成片。</li>
+      <li>以前：指令越细越专业 → 现在：过细会冻结动作。</li>
+    </ul>
+  </div>
+  <div class="footer">依据 b64s Whisper small 全部分段与画面字幕；专有名词按语境校正。</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

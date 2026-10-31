@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4319" viewBox="0 0 1320 4319">
+  <foreignObject x="0" y="0" width="1320" height="4319">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f0f9ff,#e0f2fe);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#0369a1,#0ea5e9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#0369a1;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-blue{background:#e0f2fe;color:#0369a1}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #0ea5e9;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#0369a1;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#0284c7;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{border-radius:16px;padding:18px 22px;text-align:center;min-width:120px;font-weight:700;font-size:15px}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:2px solid #6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border:2px solid #fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border:2px solid #c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:22px;font-weight:700;color:#0369a1;margin-bottom:16px;padding-left:16px;border-left:4px solid #0ea5e9}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #0ea5e9}
+.card.card-orange{border-left-color:#f59e0b}.card.card-green{border-left-color:#10b981}
+.card h3{font-size:20px;font-weight:700;color:#0369a1;margin-bottom:12px}
+.card .action{background:#ecfdf5;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#065f46;border-left:4px solid #14b8a6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#0369a1;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#0369a1,#0ea5e9);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#0284c7;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f0f9ff,#e0f2fe);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>一组图看懂中国地理</h1>
+  <div class="meta">
+    <span class="tag tag-blue">气候</span>
+    <span class="tag tag-green">山脉</span>
+    <span class="tag tag-orange">河流</span>
+    <span class="tag tag-gray">资源</span>
+    <span class="tag tag-gray">图文 4 页</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/6hm2svmxJZ4">原笔记短链</a>
+  <div class="summary-line">核心判断：用「气候带 → 山脉骨架 → 流域水系 → 资源格局」四层地图，把中国自然地理的空间差异压成可复习的一张关系网：季风与东西湿干、走向山脉定气候与水系、江河东流滋养平原、资源类型全但分布极不均。</div>
+
+  <div class="timeline">
+    <h3>证据页序</h3>
+    <div class="timeline-item"><span class="timeline-time">1/4</span><span class="timeline-text">七类气候区 + 雨热同期与南北/东西差异</span></div>
+    <div class="timeline-item"><span class="timeline-time">2/4</span><span class="timeline-text">山脉按走向着色：骨架、气候、水系、生态、人文</span></div>
+    <div class="timeline-item"><span class="timeline-time">3/4</span><span class="timeline-text">流域分区 + 十大河流 + 内外流归宿</span></div>
+    <div class="timeline-item"><span class="timeline-time">4/4</span><span class="timeline-text">自然资源分区：能源偏西/北，水与耕地偏东/南</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node node-blue">气候带</div><div class="arrow">→</div>
+      <div class="node node-orange">山脉骨架</div><div class="arrow">→</div>
+      <div class="node node-green">流域水系</div><div class="arrow">→</div>
+      <div class="node node-purple">资源格局</div>
+    </div>
+    <p>地形与季风共同塑造气候；山脉走向切割气流与分水岭；西高东低驱动江河东流；资源禀赋叠加在上述格局之上（第 1–4 页）。</p>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「中国到处都是亚热带」→ 图示从寒温带到热带、再到大陆性与高原高寒，类型远不止一种（第 1/4 页）。</p>
+    <p>「有矿就均匀」→ 第 4 页强调分布不均与南北水土地差异，开发必须绑生态安全。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">四层怎么记</h2>
+    <div class="card">
+      <h3>气候：先分区再记差异轴</h3>
+      <p>七类：热带/亚热带/暖温/中温/寒温季风 + 温带大陆性 + 高原高寒。</p>
+      <div class="action">怎么用：默写时先画季风区东侧条带，再补西北大陆性与青藏高寒；用「南北湿冷、东西湿干」两条轴自检。</div>
+      <div class="pitfall">避坑：把「合焦式」死记城市名，却说不清雨热同期与东西差异。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>山脉：走向 = 功能标签</h3>
+      <p>东西向、南北向、东北—西南、西北—东南、弧形五类；秦岭/喜马拉雅/横断高频。</p>
+      <div class="action">怎么用：先背走向色块，再挂「屏障/分水岭/深谷」功能词。</div>
+    </div>
+    <div class="card card-green">
+      <h3>河流与资源：流域色 + 不均</h3>
+      <p>长江黄河珠江等十大河流定位；内流/外流归宿；煤油气矿水林土海十类资源。</p>
+      <div class="action">怎么用：资源题先答「类型全、分布不均」，再落到西能东水东粮的空间句式。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对照</h3>
+    <table>
+      <tr><th>图层</th><th>记住什么</th><th>考试/复习用法</th></tr>
+      <tr><td>气候</td><td>七类 + 季风</td><td>解释南北作物与建筑差异</td></tr>
+      <tr><td>山脉</td><td>走向骨架</td><td>解释气候分界与水系分野</td></tr>
+      <tr><td>河流</td><td>流域与十大河</td><td>解释平原、航运、水电</td></tr>
+      <tr><td>资源</td><td>不均格局</td><td>解释西电东送、南水北调语境</td></tr>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>四张图不是四堆地名，而是同一片国土的四层切片。</li>
+      <li>差异轴（南北、东西、海拔）比单个城市名更重要。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>合上图后默画：气候带粗线条 → 秦岭横断喜马拉雅 → 长江黄河。</li>
+      <li>用「资源不均」一句解释一条时政工程（如西电东送）的地理理由。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>从「背地图」转向「读差异」：气候、山脉、河流、资源是互相咬合的系统。</p>
+  </div>
+  <div class="footer">video-notes · b65m · 理性分析</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

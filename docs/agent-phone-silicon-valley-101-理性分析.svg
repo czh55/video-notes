@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5211" viewBox="0 0 1320 5211">
+  <foreignObject x="0" y="0" width="1320" height="5211">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap">
+  <h1>智能体手机加速爆发｜硅谷101</h1>
+  <div class="meta"><span class="tag tag-blue">AI手机</span><span class="tag tag-green">Agent</span><span class="tag tag-orange">高通</span><span class="tag tag-purple">努比亚</span><span class="tag tag-red">端侧AI</span><span class="tag tag-gray">时长 20分04秒</span><span class="tag tag-gray">产业与产品分析</span></div>
+  <a class="source-link" href="https://b23.tv/MDs3A6m">原视频</a>
+  <div class="summary-line">智能体手机不是多几个 AI 滤镜，而是换机叙事从参数竞赛转向「替你办完事」；条件（算力/小模型/端云）刚齐，路线在整机 Agent 与 Super App 之间分叉，硬件焦点是异构与上下文保持。</div>
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">Agent 手机与换机周期问题提出</span></div><div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">43→48 月换机；需要新刺激</span></div><div class="timeline-item"><span class="timeline-time">03:00</span><span class="timeline-text">订餐场景定义角色变化</span></div><div class="timeline-item"><span class="timeline-time">04:30</span><span class="timeline-text">骁龙 AI 能力时间线</span></div><div class="timeline-item"><span class="timeline-time">07:00</span><span class="timeline-text">整机 Agent vs Super App</span></div><div class="timeline-item"><span class="timeline-time">08:20</span><span class="timeline-text">苹果 / 谷歌 / OpenAI</span></div><div class="timeline-item"><span class="timeline-time">11:00</span><span class="timeline-text">国内备案与 nubia 体验</span></div><div class="timeline-item"><span class="timeline-time">16:40</span><span class="timeline-text">新骁龙为 Agent 的缓存与三加速</span></div></div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">需求<br/>换机故事</div><span class="arrow">→</span><div class="node-green">供给<br/>端侧就绪</div><span class="arrow">→</span><div class="node-orange">分叉<br/>两条产品路</div><span class="arrow">→</span><div class="node">胜负<br/>信任入口</div></div></div>
+  <div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：手机 AI=更多相机模式。纠偏：Agent 是跨 App 规划执行与记忆。</p><p>误解：有 NPU 就等于 Agent 手机。纠偏：还要权限生态、虚拟执行环境与端云策略。</p><p>误解：Super App 与系统 Agent 二选一已有定论。纠偏：两边并行，胜负看生态开放与稳定性。</p></div>
+  <div class="section"><h2 class="sec-title">观点拆解</h2>
+    <div class="card card-blue">
+      <h3>三股汇聚</h3>
+      <p>换机刺激变弱逼出新叙事；端侧从固定 AI 任务走到本地大模型与个人图谱；模型缩小+端云协同让「塞进手机」可行。</p>
+      <div class="quote">2026 被芯片商写成 Agent 之年，不是营销巧合。</div>
+      
+    </div>
+    <div class="card card-purple">
+      <h3>体验已通、生态未满</h3>
+      <p>理解—规划—后台执行链路可演示，但流畅区仍偏系统与自家应用；第三方接入决定能否走出 Demo。</p>
+      
+      <div class="relation">类似自动驾驶早期：底层先通，商业场景反复验证。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>芯片为多步任务改架构</h3>
+      <p>Agent 拆子任务在多核间轮转，传统私有缓存在切换时丢上下文；共享缓存、GPU 内 AI、NPU 编排是为「长上下文低延迟」服务。</p>
+      
+      
+    </div></div>
+  <div class="section"><h2 class="sec-title">路线对照</h2><div class="card"><table><thead><tr><th>维度</th><th>整机 Agent</th><th>Super App</th></tr></thead><tbody><tr><td>体验</td><td>系统内直达</td><td>先进入 AI 入口</td></tr><tr><td>改造成本</td><td>高（OS/权限）</td><td>相对低</td></tr><tr><td>生态风险</td><td>依赖 App 开放</td><td>依赖服务接入</td></tr><tr><td>代表动作</td><td>nubia+豆包等</td><td>ChatGPT/Gemini 调服务</td></tr></tbody></table></div></div>
+  <div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>单机试用不能外推全行业完成度。</li><li>芯片参数发布不等于用户日常 Agent 成功率。</li><li>监管备案是准入信号，不是体验达标证明。</li></ul><div class="pitfall">把发布会 Demo 当成第三方 App 全覆盖。</div><div class="pitfall">忽略授权、隐私与误操作责任。</div></div></div>
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>换机周期是需求侧闹钟；Agent 是故事候选。</li><li>产品分叉未收敛；生态权限是胜负手。</li><li>硬件竞争转向多步调度与信任，而非单点 TOPS。</li></ul><h3>行动清单</h3><ol><li>评测 Agent 手机看跨 App 成功率与后台执行，而非跑分。</li><li>关注第三方协议/Intent 是否开放。</li><li>跟踪端云延迟与电池，验证「随时待命」是否可日用。</li></ol><h3>关键认知转变</h3><p>从「更强的手机」转向「更值得托付的 Agent 入口」。</p></div>
+  <div class="footer">双轨产物之二 · 理性分析 · 20分04秒</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

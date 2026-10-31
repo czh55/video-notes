@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="美国政府入股英特尔只是「抢救」的可见一环；视频把芯片史三次洗牌、IDM 2.0 失败与 AI 从训练走向系统底座对照，说明为何供应链安全+先进封装让英特尔「不能死」，五路资本同时下注。">
+<title>谁在抢救英特尔｜图文实录</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.75;color:#1c1917;background:#fafaf9}
+.container{width:min(920px,100%);margin:0 auto;padding:40px 28px 72px}
+header h1{font-size:28px;line-height:1.35;margin:8px 0 12px}
+.meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.meta-tag{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;background:#e7e5e4;color:#44403c}
+.tag-platform{background:#ffedd5;color:#c2410c}.tag-duration{background:#dbeafe;color:#1d4ed8}.tag-topic{background:#ecfdf5;color:#047857}
+.source-link{display:inline-block;margin:6px 0 18px;color:#c2410c;font-weight:600;text-decoration:none}
+.toc{background:#fff;border:1px solid #e7e5e4;border-radius:14px;padding:16px 18px;margin-bottom:28px}
+.toc h3{margin:0 0 10px;font-size:15px}.toc a{display:inline-block;margin:4px 8px 4px 0;color:#57534e;font-size:13px}
+.content-points h2,.story-section h2{font-size:22px;margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:18px;margin:20px 0 10px}
+.lede,.content-points>p,.story-section>p{font-size:16px;color:#44403c}
+.summary-row{display:flex;gap:12px;padding:14px 16px;background:#fff;border-radius:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.summary-row .time-marker{flex:none;color:#b45309;font-weight:700;font-size:13px;min-width:110px}
+.summary-row strong{display:block;margin-bottom:4px}.summary-row p{margin:0;color:#57534e;font-size:14px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:14px 16px;margin:18px 0}
+.takeaway-box strong{display:block;color:#1e40af;margin-bottom:6px}.takeaway-box p{margin:0;color:#1d4ed8;font-size:15px}
+.story-section{margin:36px 0}
+.time-marker{color:#b45309;font-weight:700;margin-right:8px}
+figure{margin:18px 0;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.05)}
+img{display:block;width:100%;height:auto}figcaption{padding:14px 18px;font-size:14px;color:#57534e}
+.transcript-section{margin-top:48px}
+.transcript-collapsible summary{cursor:pointer;font-size:22px;font-weight:700;list-style:none}
+.transcript-collapsible summary::-webkit-details-marker{display:none}
+.transcript-note{font-size:13px;color:#78716c}
+.transcript-list{margin-top:12px}
+.transcript-row{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}
+.transcript-row p{margin:0;font-size:14px;color:#44403c}
+@media(max-width:640px){.container{padding:28px 16px 56px}header h1{font-size:24px}.summary-row{flex-direction:column;gap:6px}}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>谁在抢救英特尔</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">B站</span><span class="meta-tag tag-duration">14分46秒</span><span class="meta-tag tag-topic">英特尔 · CHIPS法案 · 晶圆代工 · AI基建</span></div>
+<a class="source-link" href="https://b23.tv/ARlpGj6" target="_blank" rel="noopener">→ 原视频链接</a></header>
+<nav class="toc"><h3>内容导航</h3><a href="#ch1">从 Wintel 到 Fabless/Foundry</a><a href="#ch2">芯片荒、CHIPS 与 IDM 2.0 折戟</a><a href="#ch3">系统级 AI 与五路人马集体下注</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2>
+<p class="lede">约十个月前美国政府以约 89 亿、20.47 美元/股买入英特尔约 9.9% 股份。视频先拆逻辑芯片家族（CPU 时代 Wintel → 手机分工 Fabless/Foundry → 疫情芯片荒暴露亚洲先进制程集中），再讲基辛格（Pat Gelsinger）IDM 2.0 因客户信任与良率观望失败、ChatGPT 后 GPU 抢戏，随后 AI 进入 agent/系统底座阶段，CPU、先进封装与互连又回到英特尔老根据地。过去一年股价大幅反弹背后是国家资本、产业巨头、客户与新管理层「五路人马」共振。ASR 多为繁体/错词：CHIPS 法案（非 Trips）、ChatGPT、台积电张忠谋、SK 海力士等已按语境校正。</p>
+<h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→04:50]</span><div><strong>芯片家族与三次洗牌</strong><p>CPU 王者→手机迫使分工→台积电信任型代工崛起。</p></div></div><div class="summary-row"><span class="time-marker">[04:50→07:40]</span><div><strong>供应链焦虑与 IDM 2.0</strong><p>CHIPS 补贴下英特尔唯一本土先进制造选项；客户怕「又开餐厅又帮炒菜」。</p></div></div><div class="summary-row"><span class="time-marker">[07:40→14:45]</span><div><strong>系统级 AI 与五路抢救</strong><p>训练→部署切换后封装/CPU 缝隙打开；国家+巨头+客户+自救共振。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>英特尔「被救」不只因为情怀，而是美国先进制造安全底线 + AI 系统化重新抬高 CPU/封装价值；商业上仍取决于良率、防火墙与客户是否真下单。</p></div></div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-04:50</span>从 Wintel 到 Fabless/Foundry</h2><p>PC 时代算力中枢是 CPU，英特尔与微软组成 Wintel，利润池顶端；英伟达还在游戏卡、台积电拿着纯代工 PPT 敲门。iPhone 后手机要低功耗薄机身快迭代，聚光灯散到通信/ISP/电源等赛道，分工细化：Fabless 只设计、Foundry 只代工，台积电以「只做不学」赢得信任。</p><figure><img src="assets/who-saves-intel/shot-01.jpg" alt="美国政府入股英特尔导语画面" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 国家入股开场：约 9.9% 股份把「谁在救英特尔」变成公开问题</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2f8a6c3ecb39.mp3" type="button" aria-label="Play English audio">🔊</button><span>State stake (~9.9%) makes ‘who saves Intel’ a public question.</span></div>
+<audio class="cap-audio" src="audio/2f8a6c3ecb39.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-02.jpg" alt="CPU 作为电脑算力中枢示意" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:00] PC 时代：CPU 是算力中枢，英特尔坐稳 Wintel 硬件心脏</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dd2630942fec.mp3" type="button" aria-label="Play English audio">🔊</button><span>PC era: CPU as hub; Intel anchored Wintel hardware.</span></div>
+<audio class="cap-audio" src="audio/dd2630942fec.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-03.jpg" alt="Fabless 与 Foundry 分工" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:40] 手机时代分工：Fabless 画图、Foundry 代工，信任成为超级乙方护城河</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dda43d20847f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Mobile split: fabless designs, foundries build; trust is the moat.</span></div>
+<audio class="cap-audio" src="audio/dda43d20847f.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">04:50-07:40</span>芯片荒、CHIPS 与 IDM 2.0 折戟</h2><p>2020 芯片荒让供应链脆弱显性化：美国有设计大脑，7nm 以下制造高度集中亚洲。2022 年 CHIPS 法案要重塑本土先进制程，能接的美国本土公司几乎只剩英特尔。基辛格喊 IDM 2.0——自造也帮全行业造——却撞上利益冲突与良率不达标：客户不愿交核心版图，流片失败代价远大于代工费差价。ChatGPT 爆发后 GPU 成主角，英特尔被边缘化、一度跌出道指，第一次「走出 ICU」失败。</p><figure><img src="assets/who-saves-intel/shot-04.jpg" alt="供应链安全与 CHIPS 法案" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:40] 芯片荒之后：先进制造地缘集中，CHIPS 把英特尔推回政策视野</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6ac59f079930.mp3" type="button" aria-label="Play English audio">🔊</button><span>After the chip shortage, CHIPS puts Intel back in policy focus.</span></div>
+<audio class="cap-audio" src="audio/6ac59f079930.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-05.jpg" alt="IDM 2.0 客户信任困境" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:50] IDM 2.0 硬伤：既做设计又代工，客户担心「后厨偷菜谱」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/31a503de6dea.mp3" type="button" aria-label="Play English audio">🔊</button><span>IDM 2.0 flaw: design+foundry triggers ‘steal the recipe’ fears.</span></div>
+<audio class="cap-audio" src="audio/31a503de6dea.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">07:40-14:46</span>系统级 AI 与五路人马集体下注</h2><p>当 AI 从训练大模型进入部署 agent，竞争变成系统底座：CPU 控制、先进封装、底层互连——英特尔老家地。供应链要安全底线，系统化又给商业缝隙，于是国家资本、产业巨头、生态背书、真实订单与新 CEO 推动代工独立防火墙、挖角先进封装人才同步加压。18A 等节点交出首张答卷，市场用股价回应「不能死」的集体押注；最终是真正复活还是续命，取决于执行而非叙事。</p><figure><img src="assets/who-saves-intel/shot-06.jpg" alt="AI 系统底座与封装互连" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:20] 训练→部署：系统底座重新抬高 CPU、封装与互连价值</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4d5d13e5c718.mp3" type="button" aria-label="Play English audio">🔊</button><span>Train→deploy: system stack revalues CPU, packaging, interconnect.</span></div>
+<audio class="cap-audio" src="audio/4d5d13e5c718.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-07.jpg" alt="代工独立与客户防火墙" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11:20] 组织自救：代工独立化建防火墙，试图证明「只炒菜不看菜谱」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/41472307ec2d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Foundry firewall: cook only, don’t peek at recipes.</span></div>
+<audio class="cap-audio" src="audio/41472307ec2d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-08.jpg" alt="五路资本与生态背书" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13:00] 五路共振：国家资本、巨头背书、客户订单与管理层重构同频</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4c427f57bce6.mp3" type="button" aria-label="Play English audio">🔊</button><span>Five-way bet: state, giants, customers, and new management align.</span></div>
+<audio class="cap-audio" src="audio/4c427f57bce6.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/who-saves-intel/shot-09.jpg" alt="英特尔前景投票收束" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14:10] 开放投票：真正复活重启，还是政府续命式续费？</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b096997a2122.mp3" type="button" aria-label="Play English audio">🔊</button><span>Open vote: real revival or government life-support?</span></div>
+<audio class="cap-audio" src="audio/b096997a2122.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（271段）</summary>
+<div class="transcript-body"><p class="transcript-note">以下文本由 Whisper 自动转录，可能存在识别误差；正文与导语已按语境校正专名与术语。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>你來吧</p></div>
+<div class="transcript-row"><time>00:00</time><p>大概十個月前</p></div>
+<div class="transcript-row"><time>00:01</time><p>美國政府花了89億</p></div>
+<div class="transcript-row"><time>00:03</time><p>用美股20.47美元的價格</p></div>
+<div class="transcript-row"><time>00:05</time><p>買了英特爾9.9%的股份</p></div>
+<div class="transcript-row"><time>00:07</time><p>而現在</p></div>
+<div class="transcript-row"><time>01:01</time><p>如果我們回看整個芯片家族的迭代史</p></div>
+<div class="transcript-row"><time>01:03</time><p>大致能摸出三次產業生態的大洗牌</p></div>
+<div class="transcript-row"><time>01:07</time><p>聽完你就會知道</p></div>
+<div class="transcript-row"><time>01:08</time><p>英偉達</p></div>
+<div class="transcript-row"><time>01:09</time><p>台積電</p></div>
+<div class="transcript-row"><time>01:09</time><p>英特爾</p></div>
+<div class="transcript-row"><time>01:10</time><p>三星</p></div>
+<div class="transcript-row"><time>01:11</time><p>海靈視這一堆二輸能相對公司</p></div>
+<div class="transcript-row"><time>01:13</time><p>在等級森嚴的芯片家族中</p></div>
+<div class="transcript-row"><time>01:15</time><p>到底處於什麼位置</p></div>
+<div class="transcript-row"><time>01:17</time><p>三次洗牌</p></div>
+<div class="transcript-row"><time>01:18</time><p>誰變成了香波波</p></div>
+<div class="transcript-row"><time>01:19</time><p>誰又從主角變成了坎克</p></div>
+<div class="transcript-row"><time>01:21</time><p>但在洗牌之前</p></div>
+<div class="transcript-row"><time>01:22</time><p>咱們先花20秒拆個機箱</p></div>
+<div class="transcript-row"><time>01:24</time><p>認識一下芯片家族的兩大核心派系</p></div>
+<div class="transcript-row"><time>01:26</time><p>一派叫邏輯芯片</p></div>
+<div class="transcript-row"><time>01:27</time><p>負責算</p></div>
+<div class="transcript-row"><time>01:28</time><p>主板最中間的CPU是老大哥</p></div>
+<div class="transcript-row"><time>01:58</time><p>PC時代</p></div>
+<div class="transcript-row"><time>01:59</time><p>整台電腦的算力中數是CPU</p></div>
+<div class="transcript-row"><time>02:01</time><p>而CPU的絕對王者就是英特爾</p></div>
+<div class="transcript-row"><time>02:04</time><p>78 90後對電腦開機時那句</p></div>
+<div class="transcript-row"><time>02:06</time><p>登登登登登</p></div>
+<div class="transcript-row"><time>02:08</time><p>一定不陌生</p></div>
+<div class="transcript-row"><time>02:09</time><p>它和微軟組成了大名鼎鼎的Wintel聯盟</p></div>
+<div class="transcript-row"><time>02:12</time><p>微軟掌控軟件生態入口</p></div>
+<div class="transcript-row"><time>02:13</time><p>英特爾壟斷硬件心臟</p></div>
+<div class="transcript-row"><time>02:15</time><p>夾著手牽手</p></div>
+<div class="transcript-row"><time>02:16</time><p>穩坐行業利潤力的頂端</p></div>
+<div class="transcript-row"><time>02:18</time><p>那時候英偉達還在死客遊戲顯卡</p></div>
+<div class="transcript-row"><time>02:20</time><p>台積電的張晝謀還在拿著純代工的PPT</p></div>
+<div class="transcript-row"><time>02:23</time><p>敲門拜訪</p></div>
+<div class="transcript-row"><time>02:24</time><p>AMD還在做千年老二</p></div>
+<div class="transcript-row"><time>02:26</time><p>直到2007年</p></div>
+<div class="transcript-row"><time>02:27</time><p>喬布斯</p></div>
+<div class="transcript-row"><time>02:28</time><p>掏出了iPhone</p></div>
+<div class="transcript-row"><time>02:29</time><p>邏輯芯片的底層規則</p></div>
+<div class="transcript-row"><time>02:30</time><p>率先變天了</p></div>
+<div class="transcript-row"><time>02:33</time><p>手機� aquela和PC芯片的商業訴求</p></div>
+<div class="transcript-row"><time>02:35</time><p>完全不同</p></div>
+<div class="transcript-row"><time>02:36</time><p>PC是叫大馬力</p></div>
+<div class="transcript-row"><time>02:37</time><p>英特爾一家獨大</p></div>
+<div class="transcript-row"><time>02:39</time><p>但手機咱們是揣在兜裡的</p></div>
+<div class="transcript-row"><time>02:41</time><p>核心訴求是</p></div>
+<div class="transcript-row"><time>02:42</time><p>不發燙</p></div>
+<div class="transcript-row"><time>02:42</time><p>高續航</p></div>
+<div class="transcript-row"><time>02:43</time><p>機身薄</p></div>
+<div class="transcript-row"><time>02:44</time><p>一年一迭代</p></div>
+<div class="transcript-row"><time>02:45</time><p>所以聚光燈瞬間轉移到了通信機帶</p></div>
+<div class="transcript-row"><time>02:48</time><p>圖像處理</p></div>
+<div class="transcript-row"><time>02:49</time><p>電源criptions這些細分賽道</p></div>
+<div class="transcript-row"><time>02:51</time><p>那需求越雜</p></div>
+<div class="transcript-row"><time>02:52</time><p>分工就必須越細</p></div>
+<div class="transcript-row"><time>02:53</time><p>此時</p></div>
+<div class="transcript-row"><time>02:54</time><p>當年被嘲笑的台積電就挺直了腰板</p></div>
+<div class="transcript-row"><time>02:56</time><p>邏輯芯片的產業流程</p></div>
+<div class="transcript-row"><time>02:58</time><p>至此分為兩個大環節</p></div>
+<div class="transcript-row"><time>03:00</time><p>第一步是Fabulous純設計</p></div>
+<div class="transcript-row"><time>03:02</time><p>高通蘋果</p></div>
+<div class="transcript-row"><time>03:03</time><p>英語達</p></div>
+<div class="transcript-row"><time>03:03</time><p>聯發科</p></div>
+<div class="transcript-row"><time>03:04</time><p>他們只畫圖紙</p></div>
+<div class="transcript-row"><time>03:05</time><p>不建廠</p></div>
+<div class="transcript-row"><time>03:06</time><p>可以省下幾百億的資本開支</p></div>
+<div class="transcript-row"><time>03:08</time><p>全部精力就死磕架構和軟件生態</p></div>
+<div class="transcript-row"><time>03:11</time><p>第二步是方具純代工</p></div>
+<div class="transcript-row"><time>03:13</time><p>接過圖紙埋頭幹活</p></div>
+<div class="transcript-row"><time>03:15</time><p>絕無碰客戶設計</p></div>
+<div class="transcript-row"><time>03:16</time><p>把這點做到極致的超級乙方</p></div>
+<div class="transcript-row"><time>03:18</time><p>就是台積電</p></div>
+<div class="transcript-row"><time>03:19</time><p>這個分工除了效率</p></div>
+<div class="transcript-row"><time>03:21</time><p>還有一個好處</p></div>
+<div class="transcript-row"><time>03:22</time><p>在於信任度</p></div>
+<div class="transcript-row"><time>03:23</time><p>芯片圖紙就像是餐廳的保密菜單</p></div>
+<div class="transcript-row"><time>03:25</time><p>核心配料</p></div>
+<div class="transcript-row"><time>03:26</time><p>台積電這種超級乙方</p></div>
+<div class="transcript-row"><time>03:27</time><p>就是做到了你地給我秘方</p></div>
+<div class="transcript-row"><time>03:29</time><p>我保證我保證我保證只做不學</p></div>
+<div class="transcript-row"><time>03:32</time><p>那插一</p></div>
+<div class="transcript-row"><time>04:57</time><p>按理說</p></div>
+<div class="transcript-row"><time>04:58</time><p>劇本寫到這裡</p></div>
+<div class="transcript-row"><time>04:59</time><p>就該全劇中了</p></div>
+<div class="transcript-row"><time>05:00</time><p>英特爾是不是還跟諾基亞科大一樣</p></div>
+<div class="transcript-row"><time>05:02</time><p>進懷舊博物館了</p></div>
+<div class="transcript-row"><time>05:03</time><p>可偏偏</p></div>
+<div class="transcript-row"><time>05:04</time><p>決定一家芯片巨頭生死的</p></div>
+<div class="transcript-row"><time>05:06</time><p>從來都不只有商業邏輯</p></div>
+<div class="transcript-row"><time>05:08</time><p>還有背後的龐大</p></div>
+<div class="transcript-row"><time>05:09</time><p>且極其脆弱的產業生態</p></div>
+<div class="transcript-row"><time>05:14</time><p>2020的疫情</p></div>
+<div class="transcript-row"><time>05:15</time><p>引發了全球芯片荒</p></div>
+<div class="transcript-row"><time>05:17</time><p>汽車停產</p></div>
+<div class="transcript-row"><time>05:18</time><p>kidneys 手機交替也被拉長</p></div>
+<div class="transcript-row"><time>05:19</time><p>那全世界突然意識到一個問題</p></div>
+<div class="transcript-row"><time>05:21</time><p>半導體的供應鏈</p></div>
+<div class="transcript-row"><time>05:23</time><p>竟然是如此的脆弱</p></div>
+<div class="transcript-row"><time>05:24</time><p>一顆芯片斷供</p></div>
+<div class="transcript-row"><time>05:25</time><p>整條現代供應鏈都能跟著癱瘓</p></div>
+<div class="transcript-row"><time>05:27</time><p>緊接著</p></div>
+<div class="transcript-row"><time>05:28</time><p>這份對供應鏈安全的焦慮</p></div>
+<div class="transcript-row"><time>05:30</time><p>被徹底放大</p></div>
+<div class="transcript-row"><time>05:31</time><p>在20010年洗完牌後</p></div>
+<div class="transcript-row"><time>05:33</time><p>儘管美國擁有英偉達</p></div>
+<div class="transcript-row"><time>05:34</time><p>蘋果</p></div>
+<div class="transcript-row"><time>05:34</time><p>高通這些最聰明的大腦</p></div>
+<div class="transcript-row"><time>05:36</time><p>但全球最先進的7奈米以下的</p></div>
+<div class="transcript-row"><time>05:38</time><p>製造產能高度集中在亞洲</p></div>
+<div class="transcript-row"><time>05:40</time><p>2022年</p></div>
+<div class="transcript-row"><time>05:41</time><p>美國落地了527美元的</p></div>
+<div class="transcript-row"><time>05:43</time><p>Trips 法案</p></div>
+<div class="transcript-row"><time>05:44</time><p>目標極其執拜</p></div>
+<div class="transcript-row"><time>05:45</time><p>重塑本土的先進製程工業生態</p></div>
+<div class="transcript-row"><time>05:48</time><p>那這會誰能接呢</p></div>
+<div class="transcript-row"><time>05:49</time><p>台積電和三星雖然有外地工廠</p></div>
+<div class="transcript-row"><time>05:51</time><p>但重心依然在亞洲</p></div>
+<div class="transcript-row"><time>05:52</time><p>翻遍整個美國</p></div>
+<div class="transcript-row"><time>05:54</time><p>又有自家工廠</p></div>
+<div class="transcript-row"><time>05:55</time><p>又能做先進芯片製造的本土公司</p></div>
+<div class="transcript-row"><time>05:57</time><p>只剩英特爾了</p></div>
+<div class="transcript-row"><time>05:58</time><p>而此時</p></div>
+<div class="transcript-row"><time>05:59</time><p>英特爾的技術老兵</p></div>
+<div class="transcript-row"><time>06:00</time><p>帕特基辛格</p></div>
+<div class="transcript-row"><time>06:01</time><p>也正式回歸救火</p></div>
+<div class="transcript-row"><time>06:02</time><p>以上任</p></div>
+<div class="transcript-row"><time>06:03</time><p>他就喊出了</p></div>
+<div class="transcript-row"><time>06:03</time><p>IDM2.0戰略</p></div>
+<div class="transcript-row"><time>06:05</time><p>英特爾不僅要自己造芯片</p></div>
+<div class="transcript-row"><time>06:06</time><p>還要幫全行業造</p></div>
+<div class="transcript-row"><time>06:08</time><p>就靠著這個願景</p></div>
+<div class="transcript-row"><time>06:10</time><p>英特爾拿下的Trips法案</p></div>
+<div class="transcript-row"><time>06:11</time><p>最大的補貼</p></div>
+<div class="transcript-row"><time>06:12</time><p>第一次嘗試走出ICU</p></div>
+<div class="transcript-row"><time>06:14</time><p>但造芯片不是畫PPT</p></div>
+<div class="transcript-row"><time>06:16</time><p>良率要一個百分點</p></div>
+<div class="transcript-row"><time>06:17</time><p>一個百分點的磨</p></div>
+<div class="transcript-row"><time>06:18</time><p>工程師要一個團隊一個團隊養</p></div>
+<div class="transcript-row"><time>06:20</time><p>那英特爾面臨最致命的問題</p></div>
+<div class="transcript-row"><time>06:22</time><p>是客戶信任和利益衝突</p></div>
+<div class="transcript-row"><time>06:24</time><p>英特爾自己就是芯片設計去投</p></div>
+<div class="transcript-row"><time>06:26</time><p>現在去跟高通應為達說</p></div>
+<div class="transcript-row"><time>06:28</time><p>你把最核心的版圖數據交給我</p></div>
+<div class="transcript-row"><time>06:30</time><p>我幫你們造</p></div>
+<div class="transcript-row"><time>06:31</time><p>那客戶心裡只有四個字</p></div>
+<div class="transcript-row"><time>06:33</time><p>我要煙排</p></div>
+<div class="transcript-row"><time>06:34</time><p>你既開餐廳</p></div>
+<div class="transcript-row"><time>06:34</time><p>又說要幫我炒菜</p></div>
+<div class="transcript-row"><time>06:35</time><p>我是不是得看看</p></div>
+<div class="transcript-row"><time>06:36</time><p>E的後廚會不會偷菜譜</p></div>
+<div class="transcript-row"><time>06:38</time><p>當然</p></div>
+<div class="transcript-row"><time>06:39</time><p>另一個核心的因素</p></div>
+<div class="transcript-row"><time>06:40</time><p>還是英特爾遲遲不達標的良率數據</p></div>
+<div class="transcript-row"><time>06:43</time><p>在這個行業</p></div>
+<div class="transcript-row"><time>06:44</time><p>先進節點的流偏</p></div>
+<div class="transcript-row"><time>06:45</time><p>KBOT</p></div>
+<div class="transcript-row"><time>06:45</time><p>光照組合和NRE費用</p></div>
+<div class="transcript-row"><time>06:47</time><p>動輒是數千萬甚至上億美元</p></div>
+<div class="transcript-row"><time>06:49</time><p>所以沒有客戶會為了省一點代工費</p></div>
+<div class="transcript-row"><time>06:52</time><p>就承擔流偏失敗的巨大財務風險</p></div>
+<div class="transcript-row"><time>06:54</time><p>所以</p></div>
+<div class="transcript-row"><time>06:54</time><p>IDM2.0喊得很響</p></div>
+<div class="transcript-row"><time>06:56</time><p>但客戶總是觀望的多</p></div>
+<div class="transcript-row"><time>06:58</time><p>真下單的少</p></div>
+<div class="transcript-row"><time>06:59</time><p>巨額資本開支砸下去</p></div>
+<div class="transcript-row"><time>07:00</time><p>虧損像滾雪球一樣擴大</p></div>
+<div class="transcript-row"><time>07:02</time><p>那無露偏鋒連夜雨</p></div>
+<div class="transcript-row"><time>07:04</time><p>就在英特爾焦頭爛額的時候</p></div>
+<div class="transcript-row"><time>07:06</time><p>外部又迎來了CHARGE GPT的爆發</p></div>
+<div class="transcript-row"><time>07:08</time><p>GPU</p></div>
+<div class="transcript-row"><time>07:09</time><p>黃仁勳和英偉達突然成了主角</p></div>
+<div class="transcript-row"><time>07:11</time><p>同樣吸引</p></div>
+<div class="transcript-row"><time>07:12</time><p>英特爾在這份AI光環的照耀下</p></div>
+<div class="transcript-row"><time>07:14</time><p>徹底淪為配角</p></div>
+<div class="transcript-row"><time>07:15</time><p>2014年</p></div>
+<div class="transcript-row"><time>07:16</time><p>英特爾股價暴跌60%</p></div>
+<div class="transcript-row"><time>07:18</time><p>也是在這一年被踢出了</p></div>
+<div class="transcript-row"><time>07:19</time><p>帶了25年的道瓊斯指數</p></div>
+<div class="transcript-row"><time>07:21</time><p>這一份殘留的成績單</p></div>
+<div class="transcript-row"><time>07:23</time><p>直接讓基辛格黯然退休</p></div>
+<div class="transcript-row"><time>07:25</time><p>英特爾第一次走出ISO的努力</p></div>
+<div class="transcript-row"><time>07:27</time><p>也宣告失敗</p></div>
+<div class="transcript-row"><time>07:28</time><p>但就在isance以為</p></div>
+<div class="transcript-row"><time>07:29</time><p>他要徹底涼透的時候</p></div>
+<div class="transcript-row"><time>07:31</time><p>2016年</p></div>
+<div class="transcript-row"><time>07:31</time><p>產業風向鏢</p></div>
+<div class="transcript-row"><time>07:32</time><p>再次極其詭異的翻了牌</p></div>
+<div class="transcript-row"><time>07:35</time><p>AI開始從訓練大模型</p></div>
+<div class="transcript-row"><time>07:37</time><p>進入了部署agent的全新階段</p></div>
+<div class="transcript-row"><time>07:39</time><p>在這套新生態裡</p></div>
+<div class="transcript-row"><time>07:40</time><p>AI競爭從單顆芯片之戰</p></div>
+<div class="transcript-row"><time>07:42</time><p>變成了整個系統及底座之戰</p></div>
+<div class="transcript-row"><time>07:45</time><p>而系統占理BB的CPU控制</p></div>
+<div class="transcript-row"><time>07:47</time><p>先進封裝</p></div>
+<div class="transcript-row"><time>07:47</time><p>底層互聯</p></div>
+<div class="transcript-row"><time>07:49</time><p>恰恰是英特爾的老家地</p></div>
+<div class="transcript-row"><time>07:50</time><p>所以你看</p></div>
+<div class="transcript-row"><time>07:51</time><p>底層供應鏈需要安全底線</p></div>
+<div class="transcript-row"><time>07:53</time><p>AI系統化眼鏡給了商業縫隙</p></div>
+<div class="transcript-row"><time>07:56</time><p>既然英特爾不想死不能死</p></div>
+<div class="transcript-row"><time>07:58</time><p>問題就變成了</p></div>
+<div class="transcript-row"><time>07:59</time><p>誰來救怎麼救</p></div>
+<div class="transcript-row"><time>08:01</time><p>就在這個歷史節點</p></div>
+<div class="transcript-row"><time>08:02</time><p>一場用國家資本產業巨頭</p></div>
+<div class="transcript-row"><time>08:04</time><p>技術生態同時參與的</p></div>
+<div class="transcript-row"><time>08:06</time><p>超級搶救開始了</p></div>
+<div class="transcript-row"><time>08:10</time><p>過去一年</p></div>
+<div class="transcript-row"><time>08:11</time><p>英特爾的股價漲了7倍</p></div>
+<div class="transcript-row"><time>08:13</time><p>這背後是五路人馬</p></div>
+<div class="transcript-row"><time>08:15</time><p>基於不同的商業訴求</p></div>
+<div class="transcript-row"><time>08:16</time><p>但卻恰好在同一時間的</p></div>
+<div class="transcript-row"><time>08:18</time><p>集體下注</p></div>
+<div class="transcript-row"><time>08:49</time><p>,現在也在壓住AI基礎設施</p></div>
+<div class="transcript-row"><time>09:49</time><p>英特爾最重磅的</p></div>
+<div class="transcript-row"><time>09:50</time><p>是在推特上爆出的</p></div>
+<div class="transcript-row"><time>09:52</time><p>蘋果也要和英特爾合作代工了</p></div>
+<div class="transcript-row"><time>09:54</time><p>為什麼說蘋果重磅呢</p></div>
+<div class="transcript-row"><time>09:56</time><p>因為在2011年的時候</p></div>
+<div class="transcript-row"><time>09:57</time><p>庫克曾經說過</p></div>
+<div class="transcript-row"><time>09:59</time><p>英特爾只是不懂如何被找到</p></div>
+<div class="transcript-row"><time>10:04</time><p>這直接給英特爾判了15年的死刑</p></div>
+<div class="transcript-row"><time>10:06</time><p>還是投不過真相定律</p></div>
+<div class="transcript-row"><time>10:08</time><p>而這也完成了資本市場</p></div>
+<div class="transcript-row"><time>10:09</time><p>最愛的閉環驗證</p></div>
+<div class="transcript-row"><time>10:11</time><p>最後一路是英特爾自己</p></div>
+<div class="transcript-row"><time>10:13</time><p>成立五周月主帥重構組織</p></div>
+<div class="transcript-row"><time>10:15</time><p>接替基辛格的新CEO</p></div>
+<div class="transcript-row"><time>10:17</time><p>成立了一個</p></div>
+<div class="transcript-row"><time>10:19</time><p>成立五雷利風行</p></div>
+<div class="transcript-row"><time>10:20</time><p>把英特爾的代工部門</p></div>
+<div class="transcript-row"><time>10:21</time><p>加速獨立化</p></div>
+<div class="transcript-row"><time>10:22</time><p>建立防火牆</p></div>
+<div class="transcript-row"><time>10:23</time><p>努力的告訴客戶</p></div>
+<div class="transcript-row"><time>10:25</time><p>我們就炒菜</p></div>
+<div class="transcript-row"><time>10:26</time><p>絕不看菜譜</p></div>
+<div class="transcript-row"><time>10:27</time><p>以打消客戶的疑慮</p></div>
+<div class="transcript-row"><time>10:28</time><p>同時他們還挖來了</p></div>
+<div class="transcript-row"><time>10:30</time><p>前SK海力士的CEO李希西</p></div>
+<div class="transcript-row"><time>10:32</time><p>死磕先進封裝和後端製造</p></div>
+<div class="transcript-row"><time>10:34</time><p>所以你總結一下</p></div>
+<div class="transcript-row"><time>10:35</time><p>咱們看這五路人馬</p></div>
+<div class="transcript-row"><time>10:37</time><p>政� pipeline</p></div>
+<div class="transcript-row"><time>10:38</time><p>資本給了生態</p></div>
+<div class="transcript-row"><time>10:39</time><p>巨頭給了生態背書</p></div>
+<div class="transcript-row"><time>10:41</time><p>客戶給了真金白銀</p></div>
+<div class="transcript-row"><time>10:42</time><p>英特爾自己也在展示覺醒</p></div>
+<div class="transcript-row"><time>10:44</time><p>這陣仗在半導體商業史上</p></div>
+<div class="transcript-row"><time>10:46</time><p>絕無僅有</p></div>
+<div class="transcript-row"><time>10:47</time><p>那目前呢英特爾交出了18a制成的第一張打卷命是許</p></div>
+<div class="transcript-row"><time>14:18</time><p>英特爾的生態</p></div>
+<div class="transcript-row"><time>14:19</time><p>是否能夠讓他在這場難捨難分的新戰場</p></div>
+<div class="transcript-row"><time>14:23</time><p>能不能給自己拼出一條生路</p></div>
+<div class="transcript-row"><time>14:25</time><p>所以屏幕前的你覺得</p></div>
+<div class="transcript-row"><time>14:26</time><p>英特爾這波到底是</p></div>
+<div class="transcript-row"><time>14:28</time><p>A. 真正復活</p></div>
+<div class="transcript-row"><time>14:29</time><p>幻徒重開</p></div>
+<div class="transcript-row"><time>14:30</time><p>還是B. 政府續命</p></div>
+<div class="transcript-row"><time>14:32</time><p>SU續費呢</p></div>
+<div class="transcript-row"><time>14:33</time><p>請在評論區告訴我你的答案</p></div>
+<div class="transcript-row"><time>14:34</time><p>好 這是小李商海城湖系列的第16篇視頻</p></div>
+<div class="transcript-row"><time>14:38</time><p>喜歡本期視頻的話</p></div>
+<div class="transcript-row"><time>14:39</time><p>記得點贊評論收藏</p></div>
+<div class="transcript-row"><time>14:40</time><p>你還想提哪家公司</p></div>
+<div class="transcript-row"><time>14:41</time><p>請在評論區的彈幕點菜吧</p></div>
+<div class="transcript-row"><time>14:43</time><p>我們下期不見不散</p></div>
+<div class="transcript-row"><time>14:44</time><p>拜拜</p></div>
+</div></div></details></section>
+</article></main><script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

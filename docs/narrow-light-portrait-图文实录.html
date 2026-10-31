@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="御成PHOT. 讲解窄光：受光面窄、暗部做减法；全局测光减曝光补偿保高光；风光等光、扫街找光等人。">
+  <title>摄影进阶力：如何拍好“窄光”？｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}
+.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <h1>摄影进阶力：如何拍好“窄光”？</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">2分23秒</span>
+    <span class="meta-tag tag-topic">摄影 窄光 用光 扫街 风光</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/6FSoHuDuWno" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc">
+  <h3>内容导航</h3>
+  <a href="#ch-def">窄光是什么：受光面窄、暗部收敛情绪</a>
+  <a href="#ch-find">暗部做减法：找缝隙亮区、等人入光</a>
+  <a href="#ch-practice">测光保高光 + 风光等光 / 扫街抓瞬间</a>
+  <a href="#transcript">详细文字转录</a>
+</nav>
+<article class="documentary">
+  <div class="content-points">
+    <h2>内容要点</h2>
+    <p>御成PHOT. 用一组高对比样片讲解进阶用光「窄光」：不是把一切打亮，而是让<strong>受光面很窄、暗部面积很大</strong>，亮部成为视线焦点并收敛情绪。前两分钟几乎全靠例图与字幕；片尾约 20 秒口播补上测光与场景动作口诀——全局测光可减曝光补偿、以高光不过曝为准；风光等云等光等山脊，扫街找光等人抓瞬间。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row"><span class="time-marker">[00:00→00:45]</span><div><strong>定义与观感</strong><p>窄光＝画面里只有一小条/一块亮；用来收敛情绪、突出重点（片头点题「十年顺光无人知」）。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[00:45→02:00]</span><div><strong>找光与构图</strong><p>暗部包围亮部做减法；建筑缝隙、门洞、窗、巷口是入口；扫街可先定光区再等人物走进亮带。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[02:00→02:22]</span><div><strong>曝光与动作</strong><p>减曝光补偿保高光；让主体进入局部亮区；风光「等云等光等山脊」，扫街「找光等人抓瞬间」。</p></div></div>
+    <div class="takeaway-box"><strong>总结</strong><p>窄光的可执行公式：先找/等一块局部亮区 → 让主体进入 → 用大面积暗部简化 → 必要时压曝光保住高光，从而制造舞台感与戏剧性。</p></div>
+  </div>
+
+  <section class="story-section" id="ch-def">
+    <h2><span class="time-marker">00:00–00:45</span>窄光是什么：受光面窄、暗部收敛情绪</h2>
+    <p>开场字幕打出「摄影进阶力：窄光 narrow lighting」。笔记文案写得很直白：窄光被用来收敛画面情绪、突出重点；核心是<strong>受光面窄、暗部面积大，亮部吸引视线</strong>。Whisper 在片头只抓到一句摄影俗语「都说十年顺光无人知」——点出顺光容易平、少人留意，而窄光/戏剧光才是进阶话题。</p>
+    <p>随后一连串样片都在重复同一视觉事实：不是整幅均匀受光，而是<strong>只有一小条或一块是亮的</strong>。街巷里人物落在斜切的阳光带中，竹林小径三人站在窄光柱里——暗部像幕布，把情绪收束到亮区。</p>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-01.jpg" alt="街巷中两人分别落在窄亮带，大面积暗部" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 街景窄光：人物落在窄亮带里，字幕写「用来收敛画面情绪」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/015a5e15987c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Street narrow light: subjects sit in thin light bands; caption says it constrains the mood</span></div>
+<audio class="cap-audio" src="audio/015a5e15987c.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-02.jpg" alt="竹林小径三人站在一条直射光带中" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:33] 林间只亮一条光带，演示「受光面窄、只有一小块被照亮」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7846f9a6ea25.mp3" type="button" aria-label="Play English audio">🔊</button><span>Only a thin light strip in the woods — a narrow lit surface, just one small bright patch</span></div>
+<audio class="cap-audio" src="audio/7846f9a6ea25.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch-find">
+    <h2><span class="time-marker">00:45–02:00</span>暗部做减法：找缝隙亮区、等人入光</h2>
+    <p>中段字幕把操作拆开：亮部成为「视觉舞台核心」；「暗部包围亮部」等于<strong>暗部做减法</strong>；光比制造戏剧性；明暗分界线本身可当构图线索。找光入口被点名——建筑的缝隙、门洞、窗户、巷口——这些地方天然容易形成局部亮区。</p>
+    <p>扫街示范更具体：字幕写「第一找光区等人物」——先定一块会被照亮的舞台，再等行人走进去；人物进入后往往是「局部照亮、周围暗」。本段几乎没有可用口播，叙事依据是画面字幕与站位关系。</p>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-03.jpg" alt="黑白巷道行人走向蒸汽亮区" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:50] 巷道尽头局部亮区与人物剪影，字幕称理论关键「都在一点」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/46f831e61c93.mp3" type="button" aria-label="Play English audio">🔊</button><span>Alley with a distant bright patch and silhouettes; caption says the theory hinges on one point</span></div>
+<audio class="cap-audio" src="audio/46f831e61c93.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-04.jpg" alt="黄昏月台远处方人站在墙面受光亮区" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:04] 先找光区再等人物：月台亮墙上的剪影演示「找光等人」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/48c7ca1c38c1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Find the light zone first, then wait: platform silhouette shows waiting for a person in light</span></div>
+<audio class="cap-audio" src="audio/48c7ca1c38c1.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch-practice">
+    <h2><span class="time-marker">02:00–02:22</span>测光保高光 + 风光等光 / 扫街抓瞬间</h2>
+    <p>片尾口播终于接上：在全局测光中<strong>减少曝光补偿</strong>，以<strong>高光不过曝</strong>为准——对应提灯渔夫人像这类「亮部极小、暗部极大」的场景，优先保住灯火/高光层次。</p>
+    <p>风光或扫街里用窄光，作者总结为：寻找或等待一块局部亮区，让主体进入其中，用大面积暗部简化画面，突出焦点、制造戏剧性。落地口诀分流——风光「等云等光等山脊」；扫街「找光等人抓瞬间」。结尾玩笑「学废了吗」收束教学。</p>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-05.jpg" alt="渔夫提灯，灯火只照亮脸与手" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:02] 提灯人像演示测光策略：全局测光减曝光补偿，保高光不过曝</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7f719eb1d64b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Lantern portrait metering tip: lower exposure compensation in evaluative metering to protect highlights</span></div>
+<audio class="cap-audio" src="audio/7f719eb1d64b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/narrow-light-portrait/shot-06.jpg" alt="列车车窗框住山坡村落亮区，车厢内欠曝" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:10] 车窗亮区成舞台，口播强调让主体进入局部亮区并用暗部简化</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0a408001f44b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Train window as a bright stage; narration says put the subject in the lit pocket and simplify with dark</span></div>
+<audio class="cap-audio" src="audio/0a408001f44b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="transcript-section" id="transcript">
+    <details class="transcript-collapsible">
+      <summary>详细文字转录</summary>
+      <div class="transcript-body">
+        <p class="transcript-note">以下内容按 Whisper 原始分段呈现并转写为简体中文；约 00:02–02:00 几乎无口播，讲解主要在画面字幕。时间戳保留识别结果。</p>
+        <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>都说十年顺光无人知</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT120S">02:00</time>
+    <p>或者在全局测光中减少曝光补偿</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT122S">02:02</time>
+    <p>以高光不过曝为准</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT124S">02:04</time>
+    <p>那在风光或扫街摄影中利用窄光</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT126S">02:06</time>
+    <p>就是寻找或者等待一块局部的亮区</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT129S">02:09</time>
+    <p>让主体进入其中</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT130S">02:10</time>
+    <p>用大面积的暗部简化画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT132S">02:12</time>
+    <p>突出焦点制造戏剧性</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT134S">02:14</time>
+    <p>风光拍摄时你要等云等光等山脊</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT136S">02:16</time>
+    <p>扫街拍摄时则要找光等人抓瞬间</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT139S">02:19</time>
+    <p>怎么样 小伙伴们你们学废了吗</p>
+  </li></ol>
+      </div>
+    </details>
+  </section>
+</article>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

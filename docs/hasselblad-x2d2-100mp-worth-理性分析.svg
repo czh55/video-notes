@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4370" viewBox="0 0 1320 4370">
+  <foreignObject x="0" y="0" width="1320" height="4370">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:72px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>哈苏 X2D II：终局拍照机，还是三个 catch？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">哈苏</span><span class="tag tag-blue">X2D II</span><span class="tag tag-blue">中画幅</span><span class="tag tag-blue">100MP</span><span class="tag tag-blue">值不值</span>
+    <span class="tag tag-gray">13分54秒</span>
+    <span class="tag tag-purple">理性分析 · 器材决策</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5z6URxhERoM" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">核心判断：X2D II 把「终局拍照规格」堆满（100MP/高位深 RAW/1TB/强 IBIS/体验补齐），真正的决策变量是三个 catch——文件体积、系统体量、价格——以及你是否需要这份余量。作者立场：非刚需，但认为付多少能拿回多少。</div>
+  <div class="timeline"><h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-text">终局叙事；预告三个 catch</div></div><div class="timeline-item"><div class="timeline-time">00:45</div><div class="timeline-text">送测披露：无付费合同/无审片</div></div><div class="timeline-item"><div class="timeline-time">01:30</div><div class="timeline-text">100MP、16bit RAW、宣称高动态范围</div></div><div class="timeline-item"><div class="timeline-time">02:30</div><div class="timeline-text">HDR 屏、1TB SSD、CFe-B</div></div><div class="timeline-item"><div class="timeline-time">03:20</div><div class="timeline-text">中画幅传统慢；907X 短板对照</div></div><div class="timeline-item"><div class="timeline-time">04:30</div><div class="timeline-text">手感、菜单、屏幕</div></div><div class="timeline-item"><div class="timeline-time">05:30</div><div class="timeline-text">宣称约 10 档 IBIS</div></div><div class="timeline-item"><div class="timeline-time">07:00</div><div class="timeline-text">Luminar 赞助插入（可剥离）</div></div><div class="timeline-item"><div class="timeline-time">08:00</div><div class="timeline-text">细节/裁切/色彩/弱光愉悦</div></div><div class="timeline-item"><div class="timeline-time">10:40</div><div class="timeline-text">Catch：&gt;200MB 文件、体量、价格</div></div><div class="timeline-item"><div class="timeline-time">13:20</div><div class="timeline-text">结论：仍称物有所值的高端表现</div></div>
+  </div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram">
+    
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">命题</div>纸面终局？
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">能力</div>画质余量
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">体验</div>AF/IBIS/菜单
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">代价</div>三 catch
+      </div><div class="arrow">→</div>
+      <div class="node node-orange">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">边界</div>非刚需
+      </div><div class="arrow">→</div>
+      <div class="node node-green">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">判断</div>付多少拿多少
+      </div>
+  </div></div>
+  <div class="correction"><h3>常见误解与认知纠偏</h3>
+    <p>误解：中画幅旗舰=全面替代全画幅。纠偏：它强化拍照纯度与余量，不自动赢得速度/便携/视频与工作流成本。</p><p>误解：1TB 内置解决存储焦虑。纠偏：能救急倒片，挡不住长期归档与后期算力被 200MB+ RAW 拖贵。</p><p>误解：10 档防抖=随便手持数秒都完美。纠偏：作者体感很强，但极限仍绑镜头与姿势。</p><p>误解：赞助段=画质证据。纠偏：Luminar 推广与机身论证应分开读。</p><p>ASR：英文口播被误转中英碎片；专有名词按画面与语境校正。</p>
+  </div>
+  <h2 class="sec-title">观点卡片</h2>
+  
+    <div class="card card"><h3>在讲什么：终局是规格叙事，决策看 catch</h3>
+      <p>关键理解：把「全都有了」还原成能力清单后，再用文件/体量/价格三条摩擦项过滤。用法：先写清自己是否经常需要 100MP 余量与中画幅操作节奏。</p>
+      <div class="quote">纸面上这几乎是摄影机的结局……但有三个 catch</div>
+      <div class="relation">规格堆满 → 工作流与钱包反噬 → 值不值取决于使用剖面</div>
+      
+      
+    </div>
+    <div class="card card-purple"><h3>在讲什么：相对 907X，它补的是「能用起来」</h3>
+      <p>关键理解：同门高像素中画幅可以很美但很慢；X2D II 的卖点包含把 EVF/IBIS/AF 短板补到可日常主用。用法：别只比像素，要比你是否还在用「模块后背心态」拍照。</p>
+      <div class="quote">907X 让我慢……X2D2 让我愿意慢</div>
+      <div class="relation">被迫慢 vs 主动慢；体验差决定能不能成为主力机</div>
+      
+      
+    </div>
+    <div class="card card-orange"><h3>风险：总拥有成本被文件悄悄抬高</h3>
+      <p>关键理解：单张可超 200MB，存储、备份、电脑同步变贵；降采样又像丢掉所买画质。用法：按你月均张数估算盘位与后期机，再谈机身票价。</p>
+      
+      
+      <div class="pitfall">只看机身官网价，忽略盘阵与时间成本。</div>
+      <div class="action">试拍一周统计平均文件体积与导出耗时。</div>
+    </div>
+    <div class="card card-green"><h3>边界：不需要它也能拍好；要的是富裕余量</h3>
+      <p>关键理解：作者反复说好照片不绑定这台机；它是享受型高性能工具。用法：若购买伴随财务或关系压力，清单上有大量更合理选项。</p>
+      
+      <div class="relation">非必需 × 高端兑现感 = 富裕产品定位</div>
+      
+      
+    </div>
+  <h2 class="sec-title">对照表</h2><div class="card"><table>
+    <tr><th>维度</th><th>作者强调的加成</th><th>你要问自己</th></tr>
+    <tr><td>像素/RAW</td><td>裁切与后期余量大</td><td>我是否经常需要狂裁/大画幅输出？</td></tr><tr><td>防抖/手感</td><td>高像素下更敢手持</td><td>我的镜头群与姿势能否兑现？</td></tr><tr><td>存储</td><td>1TB 内置省事</td><td>归档与电脑扛得住吗？</td></tr><tr><td>价格/体积</td><td>系统很快失控</td><td>是否在「卖车级」决策？</td></tr>
+  </table></div>
+  <div class="conclusion"><h2>行动结论</h2>
+    <ul><li>用一周真实题材试：文件体积、弃片率、是否享受「主动变慢」。</li><li>把 Luminar 等赞助信息从画质论据中剥离。</li><li>若主要拍动态/视频/旅行轻装，直接降权这台机器。</li><li>若静物/人像/风光要极致余量且预算冗余，再进入镜头与工作流总成本表。</li><li>决策句式从「它配不配终局」改成「我的 catch 阈值是否盖得住三个缺点」。</li></ul>
+  </div>
+  <div class="footer">video-notes · hasselblad-x2d2-100mp-worth · 理性分析</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

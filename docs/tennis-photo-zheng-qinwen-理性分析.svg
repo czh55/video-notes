@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4952" viewBox="0 0 1320 4952">
+  <foreignObject x="0" y="0" width="1320" height="4952">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04);color:#334155}
+.timeline{background:#fff;border-radius:16px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:14px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:16px 20px;text-align:center;min-width:130px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:12px;box-shadow:0 4px 20px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:17px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 12px;border-radius:8px;font-size:13px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0}
+th{background:#f1f5f9;padding:10px;text-align:left;color:#1e40af}
+td{padding:10px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:22px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:12px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:22px 0 8px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;display:inline-block;margin-bottom:14px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap"><h1>网球摄影新人：拍不好郑钦文很正常</h1><div class="meta"><span class="tag tag-blue">体育摄影</span><span class="tag tag-green">中网</span><span class="tag tag-orange">郑钦文</span><span class="tag tag-purple">点位</span><span class="tag tag-red">快门</span><span class="tag tag-gray">时长 3分37秒</span><span class="tag tag-gray">理性分析 · 体育摄影实战</span></div><a class="source-link" href="https://xhslink.cn/o/sK5aFXRe3m">原视频</a><div class="summary-line">核心判断：新项目第一次出片差是常态——旧经验只托下限，上限靠读图/看转播、提前到场、点位试错与器材预案。三个错误（借镜太晚、庆祝侧站错、决赛马甲清场）比「神机位传说」更有迁移价值。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">结论：第一次不能指望拍好</span></div><div class="timeline-item"><span class="timeline-time">00:22</span><span class="timeline-text">读机构照片与转播功课</span></div><div class="timeline-item"><span class="timeline-time">00:45</span><span class="timeline-text">器材来不及：只剩85定</span></div><div class="timeline-item"><span class="timeline-time">01:05</span><span class="timeline-text">提前到场找手感</span></div><div class="timeline-item"><span class="timeline-time">01:30</span><span class="timeline-text">看台：北京字样+干净背景</span></div><div class="timeline-item"><span class="timeline-time">01:50</span><span class="timeline-text">站错侧错过庆祝</span></div><div class="timeline-item"><span class="timeline-time">02:10</span><span class="timeline-text">快门降速换低感</span></div><div class="timeline-item"><span class="timeline-time">02:40</span><span class="timeline-text">长焦借还与分工</span></div><div class="timeline-item"><span class="timeline-time">03:10</span><span class="timeline-text">决赛清场还马甲</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>新人如何拍网球</div><span class="arrow">→</span><div class="node-green">证据<br/>三错+点位参数</div><span class="arrow">→</span><div class="node-orange">判断<br/>实战抬上限</div><span class="arrow">→</span><div class="node">行动<br/>功课→预案→复盘</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：摄影记者第一次就能拍好明星球员。纠偏：作者明确说不能；旧经验只保下限。</p><p>误解：场边一定优于看台。纠偏：倒地庆祝、新闻元素与背景干净时，看台长焦可能更好。</p><p>误解：快门越快越好。纠偏：找到节奏后可降速换低感；人脸清楚优先于球拍凝固。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-purple"><h3>在讲什么：下限 vs 上限</h3><p>技术库存决定「不翻车」；项目专属庆祝路径、广告墙、清场规则决定「出好片」。</p><div class="quote">过往的技术和经验只能决定出片的下限</div><div class="relation">把新项目当成独立科目，而不是旧器材能力的平移。</div></div><div class="card card"><h3>关键理解：点位是新闻语言</h3><p>右半场换正面击球；看台换北京字样与干净背景；教练侧换庆祝。</p><div class="quote">运动员和北京同框属于增加照片的新闻元素</div><div class="relation">先拍保底，再主动用低出片率换干净画面。</div></div><div class="card card-green"><h3>怎么用：参数服务机会密度</h3><p>网球回合多，机会密，快门可从 1/3200 降到 1/2000 甚至更低；近侧 85 定成像可胜过焦段不够的变焦。</p><div class="quote">成片只要确保人脸清楚就行了，球拍糊不糊是不重要的</div><div class="relation">先稳住脸与构图，再谈「凝结瞬间」的炫技。</div></div><div class="card card-orange"><h3>风险：规则与器材预案</h3><p>国庆借镜失败、决赛清场还马甲，都会让再好的想法落空。</p><div class="quote">如果马甲被领完，我有再多的想法都实现不了了</div><div class="relation">赛前确认证件、借还流程与清场规则，和选焦段同样重要。</div></div></div><div class="section"><h2 class="sec-title">三个错误 → 可迁移对策</h2><div class="card"><table><thead><tr><th>错误</th><th>当场后果</th><th>可迁移对策</th></tr></thead><tbody><tr><td>器材来不及</td><td>第一天焦段不够</td><td>证件下来前就锁定借镜清单</td></tr><tr><td>庆祝侧站错</td><td>决胜后拍寂寞</td><td>赛前研究庆祝路径，优先教练侧</td></tr><tr><td>决赛清场</td><td>差点无马甲</td><td>不默认「上一场规则」可延续</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>单场中网个人复盘，非通用于所有网球赛事与媒体工位。</li><li>焦段口述数字存在 ASR 噪声，以「场边中长焦 + 看台超长焦」策略理解。</li><li>「拍好」含新闻采用标准，不等于社交媒体点赞标准。</li></ul><div class="pitfall">把旧项目连拍手感直接套到网球。</div><div class="pitfall">只蹲场中广告墙前硬拍。</div><div class="pitfall">决赛仍假设能一直留在场边。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>第一次拍不好是预期管理，不是能力否定。</li><li>功课+点位+规则预案抬上限。</li><li>快门与焦段服从机会密度与新闻元素。</li></ul><h3>行动清单</h3><ol><li>赛前收集该球员庆祝与常用击球侧面。</li><li>提前到场拍前序比赛校准焦段与背景。</li><li>书面确认马甲领取/清场规则与借镜截止时间。</li></ol><h3>关键认知转变</h3><p>从「有没有神机位」转向「有没有可复用的试错闭环」。</p></div><div class="footer">双轨产物之二 · 理性分析 · 3分37秒</div></div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="硅谷101：从 Mobileye/HW 迭代、去雷达与占据网络，到端到端 V12–V14、Robotaxi 与 AI5——自动驾驶下半场是经济之战。">
+<title>特斯拉 FSD 十三年｜硅谷 101｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.note{font-size:14px;color:#78716c;background:#f5f5f4;padding:12px 14px;border-radius:10px;margin:12px 0}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>特斯拉 FSD 十三年｜硅谷 101</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">B站</span>
+    <span class="meta-tag tag-duration">1小时2分36秒</span>
+    <span class="meta-tag tag-topic">特斯拉 FSD Robotaxi 芯片 端到端</span>
+  </div>
+  <a class="source-link" href="https://b23.tv/W2Un7fN" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">Cybercab 开场与 Mobileye 时代</a>
+<a href="#ch2">AI3、成本战与感知四大升级</a>
+<a href="#ch3">占据网络与 HW4 反复拉扯</a>
+<a href="#ch4">端到端 V12–V14 与 Robotaxi</a>
+<a href="#ch5">AI5 风波与经济之战</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>《硅谷101》用约一小时，沿硬件与软件双线重述特斯拉 FSD 十三年：舆论与诉讼伴生的进步、与 Mobileye 决裂后的自研芯片（AI3/AI4）、感知模块四次升级、去毫米波雷达与占据网络、HW4 研发中的摄像头/芯片数量拉扯，再到 ChatGPT 时刻催熟的端到端 V12–V14、奥斯汀 Robotaxi/Cybercab 体验，以及 AI5 研发中的瞒报风波。访谈特斯拉十余年工程师与现场乘坐；结论是路线之争未完，下半场更名为「经济之战」。繁体口播 ASR 已转述为简体，专名按通行写法。</p>
+  <p class="note">ASR 校正：Cybercab/Robotaxi；Mobileye；HW2/HW3/HW4；占据网络 Occupancy Network；端到端；Karpathy/Ashok Elluswamy 等按通行拼写；「伊朗」→马斯克；斗九/Dojo 项目口播保留语境。</p>
+  <h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→09:00]</span><div><strong>路线与决裂</strong><p>Waymo L4 vs 特斯拉渐进；Mobileye 黑盒→自研算法与双芯片萌芽。</p></div></div>
+<div class="summary-row"><span class="time-marker">[09:00→23:00]</span><div><strong>HW3 与感知</strong><p>AI3 高利用率；成本逼供；HydraNet/时序/多摄融合。</p></div></div>
+<div class="summary-row"><span class="time-marker">[23:00→38:00]</span><div><strong>去雷达与 HW4</strong><p>占据网络+自动标注；摄像头像素/布局与双芯片拍板；GDDR 带宽瓶颈。</p></div></div>
+<div class="summary-row"><span class="time-marker">[38:00→52:00]</span><div><strong>端到端与 Robotaxi</strong><p>V12 验证存活，V13 修剪，V14 加肥；车队扩展成监管游戏。</p></div></div>
+<div class="summary-row"><span class="time-marker">[52:00→61:23]</span><div><strong>AI5 与经济之战</strong><p>流片瞒报、台积电/三星双线；与 Waymo 比的是单位经济与规模。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>特斯拉把未成熟系统交给真实车队迭代；技术债用自研与端到端硬扛，最终胜负看单位经济与监管扩展速度。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-09:30</span>Cybercab 开场与 Mobileye 时代</h2><p>开场无方向盘车辆与「丑闻诉讼质疑伴生进步」的总述；团队访谈十余年工程师并赴奥斯汀体验。车内无方向盘无踏板，运营阶段靠远程人员兜底；德州登记 Robotaxi 车队口播给出数百辆量级（含 Cybercab）。</p><p>回忆与谷歌分道：谷歌主张一步 L4，马斯克主张先 L2 再迭代。早期 Autopilot HW1.0 绑 Mobileye，传感器与算力极简；接口黑盒导致合作不畅，事故成为催化，特斯拉转向自研算法并过渡到英伟达方案的 HW2/2.5，引出双芯片冗余思路。</p><figure><img src="assets/tesla-fsd-13years-sv101/shot-01.jpg" alt="开场：无方向盘 Robotaxi/Cybercab 与争议伴" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:00] 开场：无方向盘 Robotaxi/Cybercab 与争议伴生的十三年</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/046188959718.mp3" type="button" aria-label="Play English audio">🔊</button><span>Open: wheel-less Robotaxi/Cybercab and thirteen years of controversy</span></div>
+<audio class="cap-audio" src="audio/046188959718.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-02.jpg" alt="体验奥斯汀：无方向盘无踏板，后台远程兜底" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:00] 体验奥斯汀：无方向盘无踏板，后台远程兜底</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cd4da1dbd1eb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Austin ride: no wheel/pedals, remote operators as safety net</span></div>
+<audio class="cap-audio" src="audio/cd4da1dbd1eb.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-03.jpg" alt="分道扬镳：谷歌/Waymo 直接 L4 vs 特斯拉先 L2" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10:00] 分道扬镳：谷歌/Waymo 直接 L4 vs 特斯拉先 L2 迭代</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/926901f4c121.mp3" type="button" aria-label="Play English audio">🔊</button><span>Fork: Waymo jump-to-L4 vs Tesla L2-then-iterate</span></div>
+<audio class="cap-audio" src="audio/926901f4c121.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-04.jpg" alt="Mobileye 到 HW2/自研算法：黑盒接口逼出决裂" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] Mobileye 到 HW2/自研算法：黑盒接口逼出决裂</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/38988a5d9587.mp3" type="button" aria-label="Play English audio">🔊</button><span>Mobileye to HW2/in-house: black-box APIs force the break</span></div>
+<audio class="cap-audio" src="audio/38988a5d9587.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">09:30-23:00</span>AI3、成本战与感知四大升级</h2><p>自研 AI3（HW3）约 18 个月设计、首次流片基本成功；相对通用 GPU，定制芯片跑网络有效利用率可到约 80%。主动权带来成本优势：采购侧用「不换方案就全面降价」表逼 TI，口播称一年可省约两千万美金量级；也吐槽供应商驱动三行代码扯皮半个月。</p><p>Karpathy 阶段用神经网络重做感知：多任务 HydraNet 共享 backbone；从单帧图像走向视频时序；多摄像头融合到统一坐标系的 2.5D/BEV。到 2021 感知真正「读懂」道路环境时，马斯克突然推动去毫米波雷达——疫情下供应商不配合是现实催化，软件团队被迫用纯视觉补速度估计。</p><figure><img src="assets/tesla-fsd-13years-sv101/shot-05.jpg" alt="AI3/HW3：一次流片成功与高有效利用率" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[20:00] AI3/HW3：一次流片成功与高有效利用率</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/746b42aa8c5a.mp3" type="button" aria-label="Play English audio">🔊</button><span>AI3/HW3: first-silicon success and high effective utilization</span></div>
+<audio class="cap-audio" src="audio/746b42aa8c5a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-06.jpg" alt="成本战：逼 TI 降价一年省约两千万美金量级" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[25:00] 成本战：逼 TI 降价一年省约两千万美金量级</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ec4947663598.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cost war: forcing TI cuts ~$20M/year class savings</span></div>
+<audio class="cap-audio" src="audio/ec4947663598.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-07.jpg" alt="感知四大升级：深度学习、HydraNet、视频、多摄融合" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[30:00] 感知四大升级：深度学习、HydraNet、视频、多摄融合</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dabf2bc062e7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Perception upgrades: DL, HydraNet, video, multi-cam fusion</span></div>
+<audio class="cap-audio" src="audio/dabf2bc062e7.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">23:00-38:00</span>占据网络与 HW4 反复拉扯</h2><p>Occupancy Network 用体素表达障碍，避免矩形框对异形物体的损失；量产车无激光雷达，靠自动标注与少量装激光雷达的采集车生成 Ground Truth。算力吃紧推动 HW4：摄像头升到约 500 万像素更看重帧率与车规，而非堆手机式亿像素；前挡三摄被砍引发盲区争论，马斯克第一性原理「人只有两只眼」拍桌定调，后又快速纠偏。</p><p>芯片数量：软件要三颗、财务嫌贵，最终强制双芯片并改板赶量产。AI4 与三星协作延期、改用 GDDR 追带宽却容量/车规生态不足，内部已有改 LPDDR 换容量的 HW4.3 方向。自研芯片还进服务器平摊成本。Karpathy 离职后股价波动，但端到端暗线已在酝酿。</p><figure><img src="assets/tesla-fsd-13years-sv101/shot-08.jpg" alt="去雷达与占据网络：纯视觉补测距，体素表达障碍" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[35:00] 去雷达与占据网络：纯视觉补测距，体素表达障碍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7e1bfb696ab9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Drop radar + occupancy nets: vision ranging, voxel obstacles</span></div>
+<audio class="cap-audio" src="audio/7e1bfb696ab9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-09.jpg" alt="HW4 拉扯：像素/摄像头布局与双芯片最终拍板" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[40:00] HW4 拉扯：像素/摄像头布局与双芯片最终拍板</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2aadbc93443e.mp3" type="button" aria-label="Play English audio">🔊</button><span>HW4 fights: pixels/camera layout and final dual-SoC call</span></div>
+<audio class="cap-audio" src="audio/2aadbc93443e.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch4"><h2><span class="time-marker">38:00-52:30</span>端到端 V12–V14 与 Robotaxi</h2><p>ChatGPT 时刻加速「车用 ChatGPT」叙事：用神经网络替代海量规则，代码从约三十万行量级压到约两千行叙事。2023 年底内测、2024 初向车主推送 FSD V12；BEV 显示来自旁路 head，不参与控制。V13 被比作「清理枝叶」提升效率；V14.1 参数大幅提升、强化学习与编译器重写，「继续施肥让树长高」；出现跨州长距离少干预路测宣传。</p><p>可解释性：训练中输出 3D 表征检查模型看什么；车端筛选器只上传高价值片段；世界模型仿真挑战算力与真实性。Robotaxi 软件更新更勤并加远程监管；扩展瓶颈转向各地许可与安全人工比例——「已不是纯科技问题」。</p><figure><img src="assets/tesla-fsd-13years-sv101/shot-10.jpg" alt="端到端 V12：规则代码大幅压缩，ChatGPT 时刻加速" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[45:00] 端到端 V12：规则代码大幅压缩，ChatGPT 时刻加速</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8de4d2e522df.mp3" type="button" aria-label="Play English audio">🔊</button><span>End-to-end V12: rules collapse; ChatGPT moment accelerates</span></div>
+<audio class="cap-audio" src="audio/8de4d2e522df.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-11.jpg" alt="V13–V14：瘦身效率与参数/强化学习再加肥" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[50:00] V13–V14：瘦身效率与参数/强化学习再加肥</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e67248363cfc.mp3" type="button" aria-label="Play English audio">🔊</button><span>V13–V14: prune for efficiency, then scale params/RL</span></div>
+<audio class="cap-audio" src="audio/e67248363cfc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-fsd-13years-sv101/shot-12.jpg" alt="Robotaxi 扩展：技术之后是审批与安全监管比例" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[55:00] Robotaxi 扩展：技术之后是审批与安全监管比例</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/499eebb099fc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Robotaxi scale: after tech comes permits and safety ops ratio</span></div>
+<audio class="cap-audio" src="audio/499eebb099fc.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch5"><h2><span class="time-marker">52:30-61:23</span>AI5 风波与经济之战</h2><p>Dojo 训练集群口播中的叫停与「AI5/AI6 可兼训练」解释，引发外界对训练能力的疑虑。AI5 研发进度被瞒报，图纸交台积电后发现远未到可流片，马斯克震怒裁撤相关领导；Kerry 视角下其老板或有连带责任。此后双线：台积电版与找回三星版，或同车混用不同代工厂芯片、用户无感；亦有「AI5 不一定上车」的内部传言。</p><p>收束对比 13 年前分叉：Waymo 谨慎贵传感器小范围扩张，特斯拉摄像头进数百万量产车在争议中迭代。如今商业化 Waymo 仍明显领先，Cybercab 刚在有限区域跑，监管调查仍在。战争改名「经济之战」——单位经济与扩展速度；口播提到更大参数的后续版本意在支撑更高等级无人驾驶，但仍是进行时。</p><figure><img src="assets/tesla-fsd-13years-sv101/shot-13.jpg" alt="AI5 风波与下半场：瞒报流片、双代工厂，经济之战" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[60:00] AI5 风波与下半场：瞒报流片、双代工厂，经济之战</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dfb292b53805.mp3" type="button" aria-label="Play English audio">🔊</button><span>AI5 drama &amp; second half: tapeout cover-ups, dual foundries, economics war</span></div>
+<audio class="cap-audio" src="audio/dfb292b53805.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>完整转录（1099段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">以下文本由 Whisper 自动转录，可能存在识别误差；正文已按语境校正专有名词。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>正在行�的是一輛沒有方向盤的車</p></div>
+<div class="transcript-row"><time>00:30</time><p>FSD的發展故事一路上是伴隨著各種的醜聞訴訟和質疑</p></div>
+<div class="transcript-row"><time>00:42</time><p>這樣的輿論伴隨了特斯拉FSD十幾年</p></div>
+<div class="transcript-row"><time>00:45</time><p>所幸FSD一直沒有停止進步</p></div>
+<div class="transcript-row"><time>00:47</time><p>但是進步是艱難的</p></div>
+<div class="transcript-row"><time>00:49</time><p>在馬斯克這個摳門老闆的帶領下</p></div>
+<div class="transcript-row"><time>00:52</time><p>特斯拉自動駕駛的硬件研發總是反復拉扯</p></div>
+<div class="transcript-row"><time>00:55</time><p>多次推倒重來</p></div>
+<div class="transcript-row"><time>00:57</time><p>直到上線前還在加班修改</p></div>
+<div class="transcript-row"><time>00:59</time><p>他就氣得拍桌子</p></div>
+<div class="transcript-row"><time>01:00</time><p>然後就開始Fword了</p></div>
+<div class="transcript-row"><time>01:02</time><p>從供應商的決裂</p></div>
+<div class="transcript-row"><time>01:03</time><p>自言芯片的豪賭</p></div>
+<div class="transcript-row"><time>01:05</time><p>甚至團隊一度出現了瞞報與欺騙</p></div>
+<div class="transcript-row"><time>01:08</time><p>伊朗一聽這個事就知道</p></div>
+<div class="transcript-row"><time>01:10</time><p>你們這幫做芯片的人明顯就是胡誘我</p></div>
+<div class="transcript-row"><time>01:13</time><p>然後伊朗就發了很多人</p></div>
+<div class="transcript-row"><time>01:14</time><p>與此同時軟件團隊永遠抱怨著算力不夠用人員不足</p></div>
+<div class="transcript-row"><time>01:18</time><p>卻在極致的成本控制中倒逼出了極致的技術路線</p></div>
+<div class="transcript-row"><time>01:22</time><p>你給我10倍我都能把你用掉</p></div>
+<div class="transcript-row"><time>01:24</time><p>我們志祺視頻的寫稿采訪和製作橫跨了幾個月的時間</p></div>
+<div class="transcript-row"><time>01:27</time><p>我們對談了在特斯拉工作十餘年的工程師</p></div>
+<div class="transcript-row"><time>01:30</time><p>也去到現場體驗了特斯拉的無人駕駛車</p></div>
+<div class="transcript-row"><time>01:33</time><p>這個視頻我們從硬件和軟件兩條線</p></div>
+<div class="transcript-row"><time>01:36</time><p>詳細的拆解一下特斯拉FSD的進化史</p></div>
+<div class="transcript-row"><time>01:39</time><p>大家不要忘了關注我們的頻道</p></div>
+<div class="transcript-row"><time>01:41</time><p>也記得給我們點個贊</p></div>
+<div class="transcript-row"><time>01:42</time><p>接下來就讓我們進入FSD的世界</p></div>
+<div class="transcript-row"><time>01:53</time><p>今天是美國時間9月23號</p></div>
+<div class="transcript-row"><time>01:55</time><p>我們從矽谷飛到了德州的奧斯汀</p></div>
+<div class="transcript-row"><time>02:25</time><p>也開過Model 3</p></div>
+<div class="transcript-row"><time>02:27</time><p>但是很明顯整個車比Model Y要縮水了一大圈</p></div>
+<div class="transcript-row"><time>02:30</time><p>甚至我覺得比Model 3都還要小</p></div>
+<div class="transcript-row"><time>02:33</time><p>我們坐進來之後發現它只有兩個人的座位</p></div>
+<div class="transcript-row"><time>02:35</time><p>我坐在本來該是駕� pagar位置的左側</p></div>
+<div class="transcript-row"><time>02:40</time><p>但這邊它沒有方向盤</p></div>
+<div class="transcript-row"><time>02:42</time><p>也沒有腳踏板</p></div>
+<div class="transcript-row"><time>02:43</time><p>沒有加速板</p></div>
+<div class="transcript-row"><time>02:44</time><p>說實話心裡面還是有一點小忐忑的</p></div>
+<div class="transcript-row"><time>02:47</time><p>但是我知道在目前的運營階段</p></div>
+<div class="transcript-row"><time>02:49</time><p>特斯拉有啟動安全機制</p></div>
+<div class="transcript-row"><time>02:51</time><p>由於CyberCap採用了無方向盤</p></div>
+<div class="transcript-row"><time>02:54</time><p>和無煞車踏板的原生無人車設計</p></div>
+<div class="transcript-row"><time>02:57</time><p>車內乘客在遇到緊急情況時</p></div>
+<div class="transcript-row"><time>03:00</time><p>為了保證安全</p></div>
+<div class="transcript-row"><time>03:01</time><p>特斯拉在後台配備了遠程工作人員來進行兜底</p></div>
+<div class="transcript-row"><time>03:19</time><p>截止今年9月22號</p></div>
+<div class="transcript-row"><time>03:21</time><p>特斯拉在美國德州登記的自動駕駛車隊Robotaxi總數</p></div>
+<div class="transcript-row"><time>03:25</time><p>增加到了476輛</p></div>
+<div class="transcript-row"><time>03:27</time><p>除了67輛的CyberCap之外</p></div>
+<div class="transcript-row"><time>03:57</time><p>不符合馬斯克的第一性原理</p></div>
+<div class="transcript-row"><time>03:59</time><p>同時谷歌主張一步到位直接坐L4</p></div>
+<div class="transcript-row"><time>04:02</time><p>而馬斯克認為應該先推出L2再迭代到L4</p></div>
+<div class="transcript-row"><time>04:06</time><p>ayan此雙方分道揚鑣</p></div>
+<div class="transcript-row"><time>04:08</time><p>也讓自動駕駛誕生出了兩條路線並且爭論至今</p></div>
+<div class="transcript-row"><time>04:13</time><p>可是特斯拉當時的狀態</p></div>
+<div class="transcript-row"><time>04:15</time><p>別說自演了</p></div>
+<div class="transcript-row"><time>04:16</time><p>連活下去都費勁</p></div>
+<div class="transcript-row"><time>04:18</time><p>最現實的路徑就是先找個現成的供應商</p></div>
+<div class="transcript-row"><time>04:21</time><p>於是他們選擇了Moboy</p></div>
+<div class="transcript-row"><time>04:24</time><p>2014年11月</p></div>
+<div class="transcript-row"><time>04:25</time><p>特斯拉發布了Autopilot Hardware 1.0</p></div>
+<div class="transcript-row"><time>04:28</time><p>全車的硬件非常基礎</p></div>
+<div class="transcript-row"><time>04:29</time><p>只有一個前置攝像頭</p></div>
+<div class="transcript-row"><time>04:31</time><p>一個前置毫米波雷達</p></div>
+<div class="transcript-row"><time>04:32</time><p>再加12個超聲波傳感器</p></div>
+<div class="transcript-row"><time>04:34</time><p>芯片為Moboy IQ3 500mHz頻率</p></div>
+<div class="transcript-row"><time>04:39</time><p>256MB的內存</p></div>
+<div class="transcript-row"><time>04:40</time><p>放在如今肯定是不夠看的</p></div>
+<div class="transcript-row"><time>04:42</time><p>因為在早期車規的技� whis上</p></div>
+<div class="transcript-row"><time>04:45</time><p>它的侷限性非常的大</p></div>
+<div class="transcript-row"><time>04:47</time><p>一個不得不採用的方案</p></div>
+<div class="transcript-row"><time>04:49</time><p>因為你沒有別的選擇</p></div>
+<div class="transcript-row"><time>04:51</time><p>這是Kerri Liu</p></div>
+<div class="transcript-row"><time>04:53</time><p>她在特斯拉工作了近12年</p></div>
+<div class="transcript-row"><time>04:55</time><p>參與了能源自動駕駛機器人等</p></div>
+<div class="transcript-row"><time>05:22</time><p>在這次事故是成了雙方徹底彈崩的催化劑</p></div>
+<div class="transcript-row"><time>05:26</time><p>為什麼只是催化劑呢</p></div>
+<div class="transcript-row"><time>05:28</time><p>那這裡我們先來說說特斯拉</p></div>
+<div class="transcript-row"><time>05:30</time><p>特斯拉在特斯拉的車上</p></div>
+<div class="transcript-row"><time>05:32</time><p>有一個很重要的原因</p></div>
+<div class="transcript-row"><time>05:33</time><p>就是特斯拉的車子</p></div>
+<div class="transcript-row"><time>05:35</time><p>它是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:37</time><p>特斯拉的車子</p></div>
+<div class="transcript-row"><time>05:38</time><p>它是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:39</time><p>特斯拉的車子</p></div>
+<div class="transcript-row"><time>05:41</time><p>特斯拉的車子是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:43</time><p>特斯拉的車子是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:45</time><p>特斯拉的車子是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:47</time><p>特斯拉的車子是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:49</time><p>特斯拉的車子是一台Moboy I的</p></div>
+<div class="transcript-row"><time>05:51</time><p>當然這個可能</p></div>
+<div class="transcript-row"><time>06:21</time><p>然後這個接口之下</p></div>
+<div class="transcript-row"><time>06:23</time><p>Moboy I的內容肯定是黑盒</p></div>
+<div class="transcript-row"><time>06:24</time><p>不提供給特斯拉</p></div>
+<div class="transcript-row"><time>06:26</time><p>這點其實就非常討厭特斯拉開發</p></div>
+<div class="transcript-row"><time>06:28</time><p>因為有時候你想跨越這個接口</p></div>
+<div class="transcript-row"><time>06:30</time><p>會更改這個接口</p></div>
+<div class="transcript-row"><time>06:31</time><p>但你沒有這個控制權</p></div>
+<div class="transcript-row"><time>06:33</time><p>所以真正讓特斯拉和Moboy I分手的原因</p></div>
+<div class="transcript-row"><time>06:36</time><p>是因為 saves 合作不暢</p></div>
+<div class="transcript-row"><time>06:38</time><p>此後特斯拉開始一手獨攬算法部分</p></div>
+<div class="transcript-row"><time>06:41</time><p>硬件系統也有了新的合作商</p></div>
+<div class="transcript-row"><time>06:43</time><p>但是市場卻不買賬了</p></div>
+<div class="transcript-row"><time>06:48</time><p>2016年10月</p></div>
+<div class="transcript-row"><time>06:49</time><p>距離事故僅5個月</p></div>
+<div class="transcript-row"><time>06:51</time><p>特斯拉發布了Hardware 2.0</p></div>
+<div class="transcript-row"><time>06:53</time><p>這次傳</p></div>
+<div class="transcript-row"><time>07:21</time><p>因為Hardware 2.0是特斯拉第一次用英偉達的方案</p></div>
+<div class="transcript-row"><time>07:24</time><p>當時英偉達也並沒有專門針對輔助駕駛做芯片</p></div>
+<div class="transcript-row"><time>07:27</time><p>所以在結構上就是一個SoC</p></div>
+<div class="transcript-row"><time>07:29</time><p>再外掛一個GPU</p></div>
+<div class="transcript-row"><time>07:31</time><p>但問題是馬斯克當時已經在推全自動駕駛了</p></div>
+<div class="transcript-row"><time>07:34</time><p>得考慮一個很現實的問題</p></div>
+<div class="transcript-row"><time>07:37</time><p>萬一芯片壞了怎麼辦</p></div>
+<div class="transcript-row"><time>07:39</time><p>你得有備用方案吧</p></div>
+<div class="transcript-row"><time>07:40</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:42</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:43</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:44</time><p>那特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:45</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:47</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:48</time><p>所以特斯拉就不再用了</p></div>
+<div class="transcript-row"><time>07:49</time><p>你得有備用方案吧</p></div>
+<div class="transcript-row"><time>07:50</time><p>所以到了2.5</p></div>
+<div class="transcript-row"><time>07:52</time><p>特斯拉多加了一個GPU作為手續</p></div>
+<div class="transcript-row"><time>07:55</time><p>這就是特斯拉FSD雙芯片架構的出行</p></div>
+<div class="transcript-row"><time>07:58</time><p>與此同時特斯拉也在6個月內</p></div>
+<div class="transcript-row"><time>08:00</time><p>通過自研替代了Mobileye的算法部分</p></div>
+<div class="transcript-row"><time>08:03</time><p>還新推出了FSD</p></div>
+<div class="transcript-row"><time>08:05</time><p>意味著和以前大不一樣</p></div>
+<div class="transcript-row"><time>08:07</time><p>但是初期表現卻沒有與其中那樣的順利</p></div>
+<div class="transcript-row"><time>08:11</time><p>Mobileye已經做了那麼多年</p></div>
+<div class="transcript-row"><time>08:12</time><p>迭代下來就算它技術比較弱厚</p></div>
+<div class="transcript-row"><time>08:14</time><p>肯定也還是各方面比較完善一些</p></div>
+<div class="transcript-row"><time>08:17</time><p>一類新的團隊從0到1開始做</p></div>
+<div class="transcript-row"><time>08:19</time><p>反開始有各種問題</p></div>
+<div class="transcript-row"><time>09:17</time><p>在新團隊的幫助下</p></div>
+<div class="transcript-row"><time>09:18</time><p>第一款F Clover芯片也就是AI3</p></div>
+<div class="transcript-row"><time>09:20</time><p>只花了18個月就設計出來了</p></div>
+<div class="transcript-row"><time>09:23</time><p>並Regular芯片的成功</p></div>
+<div class="transcript-row"><time>09:23</time><p>並且在2017年12月首次流片成功</p></div>
+<div class="transcript-row"><time>09:25</time><p>整個過程非常順利</p></div>
+<div class="transcript-row"><time>09:27</time><p>當時甚至第一次流片出來</p></div>
+<div class="transcript-row"><time>09:31</time><p>這個芯 citizens就基本上已經沒有毛病了</p></div>
+<div class="transcript-row"><time>09:33</time><p>最後只是稍微小改了一下</p></div>
+<div class="transcript-row"><time>09:35</time><p>然後做了第二版</p></div>
+<div class="transcript-row"><time>09:37</time><p>然後就量差</p></div>
+<div class="transcript-row"><time>09:38</time><p>後面就再沒改過了</p></div>
+<div class="transcript-row"><time>09:39</time><p>所以Halbert3算是一個非常成功的芯片</p></div>
+<div class="transcript-row"><time>09:41</time><p>因為你要知道做處理器這種芯片</p></div>
+<div class="transcript-row"><time>09:43</time><p>你無論放在Intel、AMD</p></div>
+<div class="transcript-row"><time>09:45</time><p>不管哪家公司一次流片能夠做好的</p></div>
+<div class="transcript-row"><time>10:16</time><p>和之前通用芯片架構完全不同</p></div>
+<div class="transcript-row"><time>10:19</time><p>芯片算力不能光看紙面上的參數</p></div>
+<div class="transcript-row"><time>10:22</time><p>像英偉達的芯片因為是通用的</p></div>
+<div class="transcript-row"><time>10:24</time><p>裡面會包含線程調度、密存訪問</p></div>
+<div class="transcript-row"><time>10:27</time><p>分支預測等等任務</p></div>
+<div class="transcript-row"><time>10:29</time><p>在執行實際網絡任務的時候</p></div>
+<div class="transcript-row"><time>10:31</time><p>實際利用率很難跑上去</p></div>
+<div class="transcript-row"><time>10:33</time><p>而特斯拉定制的芯片</p></div>
+<div class="transcript-row"><time>10:35</time><p>專為實際任務場景做了優化</p></div>
+<div class="transcript-row"><time>10:37</time><p>有效利用率能夠達到80%</p></div>
+<div class="transcript-row"><time>10:40</time><p>相比通用芯片是提升了50%之多</p></div>
+<div class="transcript-row"><time>10:45</time><p>先別朝.</p></div>
+<div class="transcript-row"><time>11:45</time><p>Halbert3芯片的開发</p></div>
+<div class="transcript-row"><time>12:45</time><p>用上了字眼芯片之後</p></div>
+<div class="transcript-row"><time>13:10</time><p>主要帶來了兩個好處</p></div>
+<div class="transcript-row"><time>13:12</time><p>也就是成本優勢和主動權</p></div>
+<div class="transcript-row"><time>13:14</time><p>這背後還有兩個與供應商之間的周旋與衝突</p></div>
+<div class="transcript-row"><time>13:18</time><p>先來說說第一個</p></div>
+<div class="transcript-row"><time>13:19</time><p>眾所周知</p></div>
+<div class="transcript-row"><time>13:20</time><p>馬斯克一直都非常在意成本</p></div>
+<div class="transcript-row"><time>13:22</time><p>而Kerry一項很重要的工作</p></div>
+<div class="transcript-row"><time>13:24</time><p>就是通過各種手段逼迫供應商降價</p></div>
+<div class="transcript-row"><time>13:27</time><p>TI是車規芯片的一個非常大的供應商</p></div>
+<div class="transcript-row"><time>13:32</time><p>當時在18年在我們整個車上</p></div>
+<div class="transcript-row"><time>13:35</time><p>其實是每年是要用大量的TI的芯片</p></div>
+<div class="transcript-row"><time>13:38</time><p>那時候18年年底的時候都差點破產</p></div>
+<div class="transcript-row"><time>13:40</time><p>所以當時成本的壓力其實非常大</p></div>
+<div class="transcript-row"><time>13:43</time><p>當時公司提出了就是說</p></div>
+<div class="transcript-row"><time>14:13</time><p>換了之後TI沒有想到</p></div>
+<div class="transcript-row"><time>14:16</time><p>這一套芯片對他們講非常重要</p></div>
+<div class="transcript-row"><time>14:18</time><p>因為占了很大的一部分的營收額</p></div>
+<div class="transcript-row"><time>14:21</time><p>他們直接就開始求我們</p></div>
+<div class="transcript-row"><time>14:23</time><p>然後又找我老闆</p></div>
+<div class="transcript-row"><time>14:24</time><p>就他們的CEO也都跑過來說</p></div>
+<div class="transcript-row"><time>14:27</time><p>能不能別換</p></div>
+<div class="transcript-row"><time>14:27</time><p>能不能有什麼別的方法</p></div>
+<div class="transcript-row"><time>14:29</time><p>然後當時採購部門直接就把降價表格</p></div>
+<div class="transcript-row"><time>14:32</time><p>給他們發過去說</p></div>
+<div class="transcript-row"><time>14:33</time><p>你只要把這個上面的所有芯片通通降價</p></div>
+<div class="transcript-row"><time>14:36</time><p>我們就改好了</p></div>
+<div class="transcript-row"><time>14:37</time><p>然後TI跟我們僵持了大概好幾個禮拜</p></div>
+<div class="transcript-row"><time>14:41</time><p>然後最後就同意了</p></div>
+<div class="transcript-row"><time>14:43</time><p>當年的時候一年可以省大概2000萬美金</p></div>
+<div class="transcript-row"><time>14:46</time><p>對於馬斯克來講</p></div>
+<div class="transcript-row"><time>14:47</time><p>實際上是一個非常大的成本的下降</p></div>
+<div class="transcript-row"><time>14:50</time><p>他當時還各地發信給我們感謝我們</p></div>
+<div class="transcript-row"><time>15:09</time><p>其實到今天為止你都可以看到</p></div>
+<div class="transcript-row"><time>15:10</time><p>.</p></div>
+<div class="transcript-row"><time>15:40</time><p>他們芯片有溫度感應器</p></div>
+<div class="transcript-row"><time>15:43</time><p>然後我們就說能不能把溫度能夠給我們顯示一下</p></div>
+<div class="transcript-row"><time>15:48</time><p>其實這個事情很簡單</p></div>
+<div class="transcript-row"><time>15:49</time><p>寫一個很簡單的幾行代碼的事情</p></div>
+<div class="transcript-row"><time>15:51</time><p>就是寫個驅動</p></div>
+<div class="transcript-row"><time>15:52</time><p>因為他跟我們來來回回扯皮扯</p></div>
+<div class="transcript-row"><time>15:54</time><p>光扯皮就扯了差不多一個�</p></div>
+<div class="transcript-row"><time>16:04</time><p>然後除了付費還要再等一個禮拜</p></div>
+<div class="transcript-row"><time>16:07</time><p>這三行代碼就能搞定的事情</p></div>
+<div class="transcript-row"><time>16:09</time><p>已經蒸了快半個月了</p></div>
+<div class="transcript-row"><time>16:10</time><p>就這樣的一個合作模式</p></div>
+<div class="transcript-row"><time>16:12</time><p>基本上就很難往下推進</p></div>
+<div class="transcript-row"><time>16:16</time><p>他也有他們別的核心的產品</p></div>
+<div class="transcript-row"><time>16:18</time><p>在車載這一塊在當年真的是很難做</p></div>
+<div class="transcript-row"><time>16:21</time><p>效率非常的低</p></div>
+<div class="transcript-row"><time>16:22</time><p>好講完這些小故事</p></div>
+<div class="transcript-row"><time>16:23</time><p>我們再回到Hardware 3.0硬件上</p></div>
+<div class="transcript-row"><time>16:26</time><p>他有一個很大的問題</p></div>
+<div class="transcript-row"><time>16:28</time><p>就是雖然在2016年設計的時候</p></div>
+<div class="transcript-row"><time>16:30</time><p>這為當時常用的捲機神奇網絡CNN做了優化</p></div>
+<div class="transcript-row"><time>16:34</time><p>但是誰都沒有想到一年之後</p></div>
+<div class="transcript-row"><time>16:37</time><p>也就是2017年出現了一篇</p></div>
+<div class="transcript-row"><time>16:39</time><p>改變整個AI史的論文</p></div>
+<div class="transcript-row"><time>17:07</time><p>在堅持到Android的能 underestimate</p></div>
+<div class="transcript-row"><time>17:09</time><p>馬斯克決定邀請他加入特斯拉</p></div>
+<div class="transcript-row"><time>17:11</time><p>並且直接向自己彙報</p></div>
+<div class="transcript-row"><time>17:27</time><p>CAPAFI的加入不僅為特斯拉帶來了技術上的創新</p></div>
+<div class="transcript-row"><time>17:30</time><p>更重要的是當時特斯拉的自動駕駛正處於低谷</p></div>
+<div class="transcript-row"><time>17:35</time><p>急需一位領頭人來吸引更多的人才</p></div>
+<div class="transcript-row"><time>17:54</time><p>隨後特斯拉在2018年到2021年間</p></div>
+<div class="transcript-row"><time>17:57</time><p>對算法部分的感知模塊進行了一次次升級</p></div>
+<div class="transcript-row"><time>18:00</time><p>那麼接下來我們盡量用通俗的語言來講講</p></div>
+<div class="transcript-row"><time>18:04</time><p>還記得自動駕駛的三大模塊嗎</p></div>
+<div class="transcript-row"><time>18:06</time><p>也就是感知規劃和執行</p></div>
+<div class="transcript-row"><time>18:08</time><p>相關的基礎知識我們在之前的視頻當中有詳細的介紹</p></div>
+<div class="transcript-row"><time>18:11</time><p>感興趣的小夥伴們可以回看一下</p></div>
+<div class="transcript-row"><time>18:13</time><p>而CAPAFI加入的第一件事就是用神經網絡重構感知模塊</p></div>
+<div class="transcript-row"><time>18:18</time><p>他提出將車道線檢測、車輛識別、行人感知這些基礎任務</p></div>
+<div class="transcript-row"><time>18:22</time><p>都交給深度學習模型</p></div>
+<div class="transcript-row"><time>18:24</time><p>通過含量數據訓練讓系統自己識別環境</p></div>
+<div class="transcript-row"><time>18:27</time><p>這樣面對從機器的電力和電力的電力</p></div>
+<div class="transcript-row"><time>18:30</time><p>這又帶來了另外一個問題</p></div>
+<div class="transcript-row"><time>18:32</time><p>你看系統它又要識別車輛行人</p></div>
+<div class="transcript-row"><time>18:35</time><p>還要看懂紅綠燈、追桶、減速載、施工標誌等等</p></div>
+<div class="transcript-row"><time>18:39</time><p>如果每一個任務都要跑一個獨立的神經網 recount</p></div>
+<div class="transcript-row"><time>18:42</time><p>不僅代碼量會非常大</p></div>
+<div class="transcript-row"><time>18:44</time><p>車載的算力也不夠用</p></div>
+<div class="transcript-row"><time>18:46</time><p>那這就要說到第二個升級點了</p></div>
+<div class="transcript-row"><time>18:48</time><p>就是Hydranet架構</p></div>
+<div class="transcript-row"><time>18:50</time><p>它的設計思路是讓所有任務共用一個底子</p></div>
+<div class="transcript-row"><time>18:53</time><p>讓所有任務都能夠進入一個新的系統</p></div>
+<div class="transcript-row"><time>18:57</time><p>它的設計思路是讓所有任務</p></div>
+<div class="transcript-row"><time>18:59</time><p>共用一個底層的特徵提取網絡 backbone</p></div>
+<div class="transcript-row"><time>19:02</time><p>只在最頂端分拆出不同的任務頭也就是 head</p></div>
+<div class="transcript-row"><time>19:06</time><p>這樣多個攝像頭多個識別任務</p></div>
+<div class="transcript-row"><time>19:08</time><p>都能共享同一個算力底座</p></div>
+<div class="transcript-row"><time>19:10</time><p>就像一棵樹</p></div>
+<div class="transcript-row"><time>19:11</time><p>樹幹是共享的算力底座</p></div>
+<div class="transcript-row"><time>19:13</time><p>樹枝是不同的識別任務</p></div>
+<div class="transcript-row"><time>19:15</time><p>各長各的葉子</p></div>
+<div class="transcript-row"><time>19:16</time><p>但共享養分</p></div>
+<div class="transcript-row"><time>19:17</time><p>HydraNet不僅提升了計算效率</p></div>
+<div class="transcript-row"><time>19:19</time><p>更重要的是</p></div>
+<div class="transcript-row"><time>19:20</time><p>它能針對不同的識別任務單獨做微調</p></div>
+<div class="transcript-row"><time>19:23</time><p>不會影響其他的任務表現</p></div>
+<div class="transcript-row"><time>19:25</time><p>第三個升級點是從看圖片轉向看視頻</p></div>
+<div class="transcript-row"><time>19:29</time><p>特斯拉的早期感知模塊</p></div>
+<div class="transcript-row"><time>19:31</time><p>更像是一個圖像識別系統</p></div>
+<div class="transcript-row"><time>19:33</time><p>攝像頭拍下一張照片</p></div>
+<div class="transcript-row"><time>19:35</time><p>通過CNN算法</p></div>
+<div class="transcript-row"><time>19:36</time><p>依次識別哪裡有輛車</p></div>
+<div class="transcript-row"><time>19:38</time><p>哪裡有個行人</p></div>
+<div class="transcript-row"><time>19:39</time><p>哪裡有車道線</p></div>
+<div class="transcript-row"><time>19:40</time><p>但現實世界是連續變化的</p></div>
+<div class="transcript-row"><time>19:43</time><p>比如說一輛小汽車被駛過的大巴</p></div>
+<div class="transcript-row"><time>19:45</time><p>暫時遮擋之後</p></div>
+<div class="transcript-row"><time>19:46</time><p>攝像頭在某些時刻可能無法直接看到它</p></div>
+<div class="transcript-row"><time>19:50</time><p>系統就需要結合前後時刻的信息</p></div>
+<div class="transcript-row"><time>19:53</time><p>過去每個�</p></div>
+<div class="transcript-row"><time>20:23</time><p>攝像頭和右攝像頭都識別到了一輛車</p></div>
+<div class="transcript-row"><time>20:26</time><p>但是系統並不清楚這是不是同一輛</p></div>
+<div class="transcript-row"><time>20:29</time><p>而現在系統開始融合8個攝像頭的信息</p></div>
+<div class="transcript-row"><time>20:32</time><p>再通過空間變換和多視角融合技術</p></div>
+<div class="transcript-row"><time>20:35</time><p>並且結合Transformer的交叉注意力機制</p></div>
+<div class="transcript-row"><time>20:38</time><p>把這些信息統一投射到同一個服飾座標系中</p></div>
+<div class="transcript-row"><time>20:42</time><p>最終構建出完整的2.5D空間模型</p></div>
+<div class="transcript-row"><time>20:45</time><p>這個創新也不是特斯拉獨有的</p></div>
+<div class="transcript-row"><time>20:48</time><p>可能更多的是整個學界</p></div>
+<div class="transcript-row"><time>20:49</time><p>因為有更多的funding</p></div>
+<div class="transcript-row"><time>20:50</time><p>就是一直在做這些研究</p></div>
+<div class="transcript-row"><time>20:52</time><p>就有一些工作出來說怎麼把多常感器融合</p></div>
+<div class="transcript-row"><time>20:55</time><p>有了這四大升級</p></div>
+<div class="transcript-row"><time>20:56</time><p>到2021年的時候</p></div>
+<div class="transcript-row"><time>20:58</time><p>特斯拉的感知模塊開始真正理解了整個道路環境</p></div>
+<div class="transcript-row"><time>21:02</time><p>但是馬斯克又突然決定移除車上所有的雷達</p></div>
+<div class="transcript-row"><time>21:06</time><p>這可苦了軟件團隊一下又要進入作戰模式了</p></div>
+<div class="transcript-row"><time>21:14</time><p>雖然馬斯克很早就說過</p></div>
+<div class="transcript-row"><time>21:15</time><p>自動駕駛只需要攝像頭就夠了</p></div>
+<div class="transcript-row"><time>21:17</time><p>在特斯拉內部看來移除雷達也確實會帶來一定的優勢</p></div>
+<div class="transcript-row"><time>21:21</time><p>比如說過去融合多常感器的信息時</p></div>
+<div class="transcript-row"><time>21:24</time><p>會對算法帶來額外的負擔</p></div>
+<div class="transcript-row"><time>21:26</time><p>同時因為多了額外的硬件</p></div>
+<div class="transcript-row"><time>21:28</time><p>還會增加後期回貨的工程量等等</p></div>
+<div class="transcript-row"><time>21:31</time><p>但在2021年5月</p></div>
+<div class="transcript-row"><time>21:33</time><p>馬斯克決定移除車上所有雷達時</p></div>
+<div class="transcript-row"><time>21:35</time><p>還是讓大夥覺得這個時間點很突然</p></div>
+<div class="transcript-row"><time>21:38</time><p>你可能會問</p></div>
+<div class="transcript-row"><time>21:39</time><p>是不是因為內部團隊早就做好了措施</p></div>
+<div class="transcript-row"><time>21:42</time><p>或者技術已經足夠成熟了</p></div>
+<div class="transcript-row"><time>21:44</time><p>我們剛開始也這麼認為</p></div>
+<div class="transcript-row"><time>21:46</time><p>但Kerry告訴我們的真實原因其實非常現實</p></div>
+<div class="transcript-row"><time>21:50</time><p>有的�</p></div>
+<div class="transcript-row"><time>22:20</time><p>也許是覺得我們的量不夠多</p></div>
+<div class="transcript-row"><time>22:23</time><p>或者說他們有更重要的客戶</p></div>
+<div class="transcript-row"><time>22:25</time><p>基本上這種不配合的供應商</p></div>
+<div class="transcript-row"><time>22:29</time><p>就都被拉黑了</p></div>
+<div class="transcript-row"><time>22:30</time><p>伊朗就直接就是說</p></div>
+<div class="transcript-row"><time>22:32</time><p>OK你既然不給了</p></div>
+<div class="transcript-row"><time>22:33</time><p>那我也不跟你談了</p></div>
+<div class="transcript-row"><time>22:35</time><p>就直接不要了</p></div>
+<div class="transcript-row"><time>22:36</time><p>在此之前馬斯克早就催促過軟件團隊</p></div>
+<div class="transcript-row"><time>22:39</time><p>盡快在算法中去移除毫米波雷達</p></div>
+<div class="transcript-row"><time>22:42</time><p>但是受限於軟件團隊人員不足</p></div>
+<div class="transcript-row"><time>22:45</time><p>這件事情就一拖再拖</p></div>
+<div class="transcript-row"><time>22:47</time><p>所以疫情相當於是一個催化劑</p></div>
+<div class="transcript-row"><time>22:50</time><p>去掉雷達之後</p></div>
+<div class="transcript-row"><time>22:51</time><p>測距精度會大幅度降低</p></div>
+<div class="transcript-row"><time>22:53</time><p>為了彌補這些信息</p></div>
+<div class="transcript-row"><time>22:55</time><p>只能通過純視覺來預估速度</p></div>
+<div class="transcript-row"><time>22:57</time><p>軟件團隊也就進入了新的作戰模式</p></div>
+<div class="transcript-row"><time>23:01</time><p>因為雷達對速度的估計會比較準</p></div>
+<div class="transcript-row"><time>23:03</time><p>而且對天氣情況也沒有那麼敏感</p></div>
+<div class="transcript-row"><time>23:07</time><p>所以很多人是反對的</p></div>
+<div class="transcript-row"><time>23:09</time><p>雖然移除的過程讓團隊吃了不少苦</p></div>
+<div class="transcript-row"><time>23:11</time><p>但是根據一些員工的回憶</p></div>
+<div class="transcript-row"><time>23:13</time><p>這件事情卻鼓舞了團隊士氣</p></div>
+<div class="transcript-row"><time>23:16</time><p>因為這不僅驗證了團隊的能力</p></div>
+<div class="transcript-row"><time>23:18</time><p>也證明了馬斯克的方向是對的</p></div>
+<div class="transcript-row"><time>23:20</time><p>沒什麼比員工對老闆的信任更加重要</p></div>
+<div class="transcript-row"><time>23:23</time><p>移除雷達還只是第一步</p></div>
+<div class="transcript-row"><time>23:25</time><p>更重要的是如何只通過攝像頭</p></div>
+<div class="transcript-row"><time>23:28</time><p>去構建出三維世界的模型</p></div>
+<div class="transcript-row"><time>23:30</time><p>在14個月之後</p></div>
+<div class="transcript-row"><time>23:32</time><p>特斯拉發布了這個技術</p></div>
+<div class="transcript-row"><time>23:34</time><p>歡迎大家</p></div>
+<div class="transcript-row"><time>23:38</time><p>我們前面說到2021年</p></div>
+<div class="transcript-row"><time>23:39</time><p>特斯拉發布了二雕湖D的鳥看圖</p></div>
+<div class="transcript-row"><time>23:42</time><p>而到了2022年的A.I.J.</p></div>
+<div class="transcript-row"><time>23:44</time><p>鳥看圖變成了真3D</p></div>
+<div class="transcript-row"><time>23:46</time><p>這背後的關鍵技術就是占用網絡</p></div>
+<div class="transcript-row"><time>23:49</time><p>Occupancy Network</p></div>
+<div class="transcript-row"><time>23:51</time><p>它會把周圍的空間</p></div>
+<div class="transcript-row"><time>23:52</time><p>劃分成無數個立體小方塊</p></div>
+<div class="transcript-row"><time>23:54</time><p>被稱為體速voxel</p></div>
+<div class="transcript-row"><time>23:56</time><p>如果某個地方被體速占據</p></div>
+<div class="transcript-row"><time>23:58</time><p>就代表那裡有障礙物</p></div>
+<div class="transcript-row"><time>24:00</time><p>過去很多時候是用一個物體框</p></div>
+<div class="transcript-row"><time>24:02</time><p>是一個長方形來表達物體</p></div>
+<div class="transcript-row"><time>24:04</time><p>但很多物體比如說一個公交車它有兩截</p></div>
+<div class="transcript-row"><time>24:06</time><p>它拐彎的時候它就</p></div>
+<div class="transcript-row"><time>24:08</time><p>它是一個非常方形的物體</p></div>
+<div class="transcript-row"><time>24:10</time><p>然後還有一些可能是一些</p></div>
+<div class="transcript-row"><time>24:12</time><p>其他形狀的物體</p></div>
+<div class="transcript-row"><time>24:13</time><p>一樣用長方形表達它</p></div>
+<div class="transcript-row"><time>24:14</time><p>就會有損失</p></div>
+<div class="transcript-row"><time>24:15</time><p>性階段損失</p></div>
+<div class="transcript-row"><time>24:16</time><p>被這個框磨壞</p></div>
+<div class="transcript-row"><time>24:17</time><p>比如說有個挖掘機它的壁</p></div>
+<div class="transcript-row"><time>24:19</time><p>可能伸得很長</p></div>
+<div class="transcript-row"><time>24:20</time><p>壁又有一定的高度</p></div>
+<div class="transcript-row"><time>24:21</time><p>有時候你是可以從它下面開過的</p></div>
+<div class="transcript-row"><time>24:23</time><p>對吧 但如果壁比較低</p></div>
+<div class="transcript-row"><time>24:24</time><p>你又不能從它下面開過</p></div>
+<div class="transcript-row"><time>24:26</time><p>如果你要把這個挖掘機</p></div>
+<div class="transcript-row"><time>24:27</time><p>表達成一個2D的東西就很奇怪</p></div>
+<div class="transcript-row"><time>24:29</time><p>Occupancy Network顯然是一個</p></div>
+<div class="transcript-row"><time>24:31</time><p>更寬泛的一個表達形式</p></div>
+<div class="transcript-row"><time>24:32</time><p>因為它是一個3D的</p></div>
+<div class="transcript-row"><time>24:33</time><p>這樣一來呢</p></div>
+<div class="transcript-row"><time>24:34</time><p>系統不再需要認識</p></div>
+<div class="transcript-row"><time>24:36</time><p>每樣東西就能夠實現B漲</p></div>
+<div class="transcript-row"><time>24:38</time><p>但是有一個問題</p></div>
+<div class="transcript-row"><time>24:39</time><p>訓練Occupancy Network</p></div>
+<div class="transcript-row"><time>24:41</time><p>需要海量的真實數據</p></div>
+<div class="transcript-row"><time>24:43</time><p>去作為參考</p></div>
+<div class="transcript-row"><time>24:44</time><p>也就是Ground Truth</p></div>
+<div class="transcript-row"><time>24:46</time><p>在訓練的時候</p></div>
+<div class="transcript-row"><time>24:47</time><p>需要告訴網絡</p></div>
+<div class="transcript-row"><time>24:48</time><p>這個體速它被占了</p></div>
+<div class="transcript-row"><time>24:49</time><p>那個體速是空的</p></div>
+<div class="transcript-row"><time>24:51</time><p>傳統的方法</p></div>
+<div class="transcript-row"><time>24:52</time><p>是用激光雷達的點雲</p></div>
+<div class="transcript-row"><time>24:53</time><p>去做人工標註</p></div>
+<div class="transcript-row"><time>24:54</time><p>但是特斯拉量產車上</p></div>
+<div class="transcript-row"><time>24:56</time><p>沒有激光雷達</p></div>
+<div class="transcript-row"><time>24:57</time><p>該怎麼樣去訓練呢</p></div>
+<div class="transcript-row"><time>24:58</time><p>因為過去</p></div>
+<div class="transcript-row"><time>24:59</time><p>為什麼大家不做這個任務</p></div>
+<div class="transcript-row"><time>25:00</time><p>也是因為你沒有Ground Truth</p></div>
+<div class="transcript-row"><time>25:03</time><p>因為你成績網絡在學習</p></div>
+<div class="transcript-row"><time>25:04</time><p>需要有個標籤嘛</p></div>
+<div class="transcript-row"><time>25:05</time><p>你要說打這個3D的</p></div>
+<div class="transcript-row"><time>25:07</time><p>這些所有的Occupancy的標籤</p></div>
+<div class="transcript-row"><time>25:09</time><p>這個是非常昂貴的</p></div>
+<div class="transcript-row"><time>25:10</time><p>.</p></div>
+<div class="transcript-row"><time>25:40</time><p>可以通過自動生成標籤的方式</p></div>
+<div class="transcript-row"><time>25:42</time><p>生成很多Ground Truth</p></div>
+<div class="transcript-row"><time>25:43</time><p>這樣也支持了他</p></div>
+<div class="transcript-row"><time>25:44</time><p>有能力去訓練這麼一個</p></div>
+<div class="transcript-row"><time>25:45</time><p>Occupancy Network</p></div>
+<div class="transcript-row"><time>25:46</time><p>你別看馬斯克一直</p></div>
+<div class="transcript-row"><time>25:48</time><p>比以使用任何雷達</p></div>
+<div class="transcript-row"><time>25:49</time><p>特斯拉內部還是有一些</p></div>
+<div class="transcript-row"><time>25:51</time><p>特殊的車輛是配備了激光雷達的</p></div>
+<div class="transcript-row"><time>25:54</time><p>為了就是去採集Ground Truth</p></div>
+<div class="transcript-row"><time>25:56</time><p>讓自動標註系統更加準確</p></div>
+<div class="transcript-row"><time>25:59</time><p>我們做了很多手機標籤</p></div>
+<div class="transcript-row"><time>26:03</time><p>但是我們也在研究</p></div>
+<div class="transcript-row"><time>26:06</time><p>經過以上一系列的算法更新</p></div>
+<div class="transcript-row"><time>26:08</time><p>車上的算理越來越捉襟見肘</p></div>
+<div class="transcript-row"><time>26:10</time><p>就像是說</p></div>
+<div class="transcript-row"><time>26:11</time><p>我們用了很多的</p></div>
+<div class="transcript-row"><time>26:13</time><p>在電子的手機標籤</p></div>
+<div class="transcript-row"><time>26:15</time><p>去做出一些</p></div>
+<div class="transcript-row"><time>26:16</time><p>非常昂貴的技術</p></div>
+<div class="transcript-row"><time>26:17</time><p>就是說</p></div>
+<div class="transcript-row"><time>26:18</time><p>我們用了很多的</p></div>
+<div class="transcript-row"><time>26:20</time><p>在電子的手機標籤</p></div>
+<div class="transcript-row"><time>26:22</time><p>去做出一些</p></div>
+<div class="transcript-row"><time>26:24</time><p>非常昂貴的技術</p></div>
+<div class="transcript-row"><time>26:26</time><p>所以我們就用了</p></div>
+<div class="transcript-row"><time>26:27</time><p>很多的</p></div>
+<div class="transcript-row"><time>26:28</time><p>在電子的手機標籤</p></div>
+<div class="transcript-row"><time>26:30</time><p>去做出一些</p></div>
+<div class="transcript-row"><time>26:31</time><p>非常昂貴的技術</p></div>
+<div class="transcript-row"><time>26:32</time><p>就是我們用了很多的</p></div>
+<div class="transcript-row"><time>26:33</time><p>車上的算理越來越捉襟見肘</p></div>
+<div class="transcript-row"><time>26:35</time><p>特斯拉內部也開始著手研發HW4.0</p></div>
+<div class="transcript-row"><time>26:39</time><p>而這次就不像當初3.0那麼順利了</p></div>
+<div class="transcript-row"><time>26:42</time><p>內部經歷了各種的反覆拉扯</p></div>
+<div class="transcript-row"><time>26:44</time><p>為此馬斯克是急得又是拍桌子又是罵人</p></div>
+<div class="transcript-row"><time>26:51</time><p>2020年HW4.0項目正式啟動</p></div>
+<div class="transcript-row"><time>26:54</time><p>上一次2.5升級3.0的時候</p></div>
+<div class="transcript-row"><time>26:56</time><p>只是在主板上換一顆芯片</p></div>
+<div class="transcript-row"><time>26:58</time><p>並且新增安全榮譽</p></div>
+<div class="transcript-row"><time>27:00</time><p>其他結構都大差不差</p></div>
+<div class="transcript-row"><time>27:02</time><p>但是這一次是全系統的重新設計</p></div>
+<div class="transcript-row"><time>27:05</time><p>當然這也意味著使用HW3.0的老車主</p></div>
+<div class="transcript-row"><time>27:08</time><p>無法再像之前一樣免費升級下一代的硬件平台了</p></div>
+<div class="transcript-row"><time>27:12</time><p>很簡單一個道理就是電路板已經裝不下</p></div>
+<div class="transcript-row"><time>27:15</time><p>因為HW4的芯片變得更大</p></div>
+<div class="transcript-row"><time>27:17</time><p>然後整個內存要佔用的位置也更大</p></div>
+<div class="transcript-row"><time>27:20</time><p>內存也更多了</p></div>
+<div class="transcript-row"><time>27:21</time><p>功耗也變得更大了</p></div>
+<div class="transcript-row"><time>27:22</time><p>所以電源的芯片也會變得更多</p></div>
+<div class="transcript-row"><time>27:25</time><p>電源供電那些線數接口也不可能跟以前一樣</p></div>
+<div class="transcript-row"><time>27:29</time><p>那正是因為改了太多的東西</p></div>
+<div class="transcript-row"><time>27:31</time><p>HW4.0的研發過程不斷爆出各種矛盾</p></div>
+<div class="transcript-row"><time>27:35</time><p>我們就先來聊聊攝像頭</p></div>
+<div class="transcript-row"><time>27:37</time><p>在攝像頭方面有兩個很大的改動</p></div>
+<div class="transcript-row"><time>27:39</time><p>第一個是像素從120萬提升到了500萬</p></div>
+<div class="transcript-row"><time>27:42</time><p>你可能會覺得這也太摳了吧</p></div>
+<div class="transcript-row"><time>27:45</time><p>手機動不動都到1億像素了</p></div>
+<div class="transcript-row"><time>27:47</time><p>500萬能幹啥呢</p></div>
+<div class="transcript-row"><time>27:49</time><p>這背後其實有不少的考量</p></div>
+<div class="transcript-row"><time>27:51</time><p>首先車載攝像頭更看重穩定性</p></div>
+<div class="transcript-row"><time>27:54</time><p>比如說耐高溫抗震動動態範圍和壽命等等</p></div>
+<div class="transcript-row"><time>27:58</time><p>才是優先考慮的因素</p></div>
+<div class="transcript-row"><time>28:00</time><p>其次對於車載來說</p></div>
+<div class="transcript-row"><time>28:01</time><p>能夠看清一定距離的距離</p></div>
+<div class="transcript-row"><time>28:04</time><p>再遠也沒有更多的意義</p></div>
+<div class="transcript-row"><time>28:06</time><p>而且車載攝像頭更看重的是幀率</p></div>
+<div class="transcript-row"><time>28:09</time><p>它的幀數越高對應急事件的反應就越快</p></div>
+<div class="transcript-row"><time>28:13</time><p>第三隨著像素和幀率的提升</p></div>
+<div class="transcript-row"><time>28:16</time><p>對於整個系統的數據傳輸計算量</p></div>
+<div class="transcript-row"><time>28:19</time><p>還有電器設計都帶來了很大挑戰</p></div>
+<div class="transcript-row"><time>28:21</time><p>這也意味著不能無腦去堆像素</p></div>
+<div class="transcript-row"><time>28:24</time><p>但是等到HW4.0你都已經要做到5個Megapixel</p></div>
+<div class="transcript-row"><time>28:28</time><p>攝像頭這個CMOS sensor的功耗就變大了</p></div>
+<div class="transcript-row"><time>28:30</time><p>電線就會要求變得更粗是吧</p></div>
+<div class="transcript-row"><time>28:33</time><p>實際上這個就是變相增加成本</p></div>
+<div class="transcript-row"><time>28:35</time><p>而且也不低於信號傳輸</p></div>
+<div class="transcript-row"><time>28:37</time><p>攝像頭出來的信號要傳到</p></div>
+<div class="transcript-row"><time>28:39</time><p>助理器在車的中間這麼個部位</p></div>
+<div class="transcript-row"><time>28:41</time><p>它可能是有1米2米甚至3米的距離</p></div>
+<div class="transcript-row"><time>28:44</time><p>遠距離的這種高速信號傳輸的話</p></div>
+<div class="transcript-row"><time>28:47</time><p>你就不可能做到像手機那樣</p></div>
+<div class="transcript-row"><time>28:50</time><p>做一個什麼1億像素的攝像頭</p></div>
+<div class="transcript-row"><time>28:51</time><p>但是數據量太大幀數越高的話</p></div>
+<div class="transcript-row"><time>28:54</time><p>你的數據當然也會相對的越大</p></div>
+<div class="transcript-row"><time>28:55</time><p>第二個改動就是攝像頭的幀數越大</p></div>
+<div class="transcript-row"><time>28:58</time><p>第二個改動就是攝像頭的位置分佈有所變化</p></div>
+<div class="transcript-row"><time>29:02</time><p>原本在特斯拉前擋風玻璃那兒</p></div>
+<div class="transcript-row"><time>29:04</time><p>是有三個攝像頭的</p></div>
+<div class="transcript-row"><time>29:06</time><p>升級到HW4.0的時候卻被馬斯克砍掉了一個</p></div>
+<div class="transcript-row"><time>29:09</time><p>當時開會說定攝像頭分佈的時候</p></div>
+<div class="transcript-row"><time>29:12</time><p>伊朗就是很簡單第一性自衛</p></div>
+<div class="transcript-row"><time>29:15</time><p>為什麼要放那麼多攝像頭</p></div>
+<div class="transcript-row"><time>29:17</time><p>人就兩隻眼你放那麼多�오�頭幹嘛</p></div>
+<div class="transcript-row"><time>29:19</time><p>你要是跟他意見不同意的話</p></div>
+<div class="transcript-row"><time>29:21</time><p>他就氣得拍桌子</p></div>
+<div class="transcript-row"><time>29:22</time><p>然後就開始FW了</p></div>
+<div class="transcript-row"><time>29:25</time><p>我們就沒有人敢說話了</p></div>
+<div class="transcript-row"><time>29:27</time><p>這一看還真出事了</p></div>
+<div class="transcript-row"><time>29:29</time><p>因為以前車上還是有毫米波雷達的</p></div>
+<div class="transcript-row"><time>29:31</time><p>可以探測前向距離</p></div>
+<div class="transcript-row"><time>29:33</time><p>移除雷達之後</p></div>
+<div class="transcript-row"><time>29:34</time><p>前保險槓的位置就成為了盲區</p></div>
+<div class="transcript-row"><time>29:37</time><p>比如說在一些停車場景可能就會撞上</p></div>
+<div class="transcript-row"><time>29:40</time><p>所以我們當時開會的時候</p></div>
+<div class="transcript-row"><time>29:41</time><p>我們推薦的是OK你只不過前面是兩個攝像頭</p></div>
+<div class="transcript-row"><time>29:45</time><p>你最好在車頭那個位置再放一個攝像頭</p></div>
+<div class="transcript-row"><time>29:48</time><p>這個事情在伊朗的眼裡就覺得</p></div>
+<div class="transcript-row"><time>29:50</time><p>那樣這東西你只要你在入庫之前</p></div>
+<div class="transcript-row"><time>29:52</time><p>你人開車你也看不到你車頭下面有什麼東西</p></div>
+<div class="transcript-row"><time>29:55</time><p>下面有什麼東西對吧</p></div>
+<div class="transcript-row"><time>29:57</time><p>他的說法有道理因為人是有記憶的</p></div>
+<div class="transcript-row"><time>29:59</time><p>但實際上車在這個判斷上面</p></div>
+<div class="transcript-row"><time>30:01</time><p>他其實沒有想像的那麼簡單</p></div>
+<div class="transcript-row"><time>30:04</time><p>這個記憶是需要有一個模型</p></div>
+<div class="transcript-row"><time>30:07</time><p>去專門去訓練這個東西的</p></div>
+<div class="transcript-row"><time>30:09</time><p>於是我們也看到從Cybertruck開始</p></div>
+<div class="transcript-row"><time>30:11</time><p>特斯拉又在前保 Pic 重新加上了攝像頭</p></div>
+<div class="transcript-row"><time>30:15</time><p>伊朗他這個人就是這樣</p></div>
+<div class="transcript-row"><time>30:17</time><p>很多事情他自己會有一些非常強的判斷</p></div>
+<div class="transcript-row"><time>30:19</time><p>但是他也能意識到他的判斷可能不一定是正確的</p></div>
+<div class="transcript-row"><time>30:24</time><p>但是特斯拉的公司的好處就是</p></div>
+<div class="transcript-row"><time>30:26</time><p>能夠非常快的去能夠彌補或者更正這些東西</p></div>
+<div class="transcript-row"><time>30:30</time><p>他是能夠接受他不會說是不願意接受自己的錯誤</p></div>
+<div class="transcript-row"><time>30:36</time><p>原本在Hardware 3.0的時候</p></div>
+<div class="transcript-row"><time>30:38</time><p>特斯拉就用上了兩顆算力72Tops的AI3芯片</p></div>
+<div class="transcript-row"><time>30:42</time><p>而到了Hardware 4.0上</p></div>
+<div class="transcript-row"><time>30:44</time><p>單顆AI4芯片的算力已經翻倍</p></div>
+<div class="transcript-row"><time>30:47</time><p>但這時軟件團隊跑出來說</p></div>
+<div class="transcript-row"><time>30:49</time><p>你看我要做到真正的自動駕駛</p></div>
+<div class="transcript-row"><time>30:51</time><p>就得把模型做的更大吧</p></div>
+<div class="transcript-row"><time>30:53</time><p>算力肯定得更多吧</p></div>
+<div class="transcript-row"><time>30:55</time><p>還用兩顆芯片怎麼能行呢</p></div>
+<div class="transcript-row"><time>30:57</time><p>那時軟件團隊也是一開始跟伊朗說兩個不夠</p></div>
+<div class="transcript-row"><time>31:00</time><p>只要有三個他們就能把FSD做出來</p></div>
+<div class="transcript-row"><time>31:03</time><p>然後就伊朗說好沒問題</p></div>
+<div class="transcript-row"><time>31:06</time><p>他說他相信他們</p></div>
+<div class="transcript-row"><time>31:08</time><p>然後我們就真的把這個東西做出來</p></div>
+<div class="transcript-row"><time>31:10</time><p>三芯片其實在架構上是相對非常複雜的</p></div>
+<div class="transcript-row"><time>31:13</time><p>因為它涉及到榮譽的一個判定的問題</p></div>
+<div class="transcript-row"><time>31:16</time><p>因為雙芯片很簡單</p></div>
+<div class="transcript-row"><time>31:17</time><p>一個壞了另外一個接管</p></div>
+<div class="transcript-row"><time>31:19</time><p>三芯片就涉及到到底誰接管</p></div>
+<div class="transcript-row"><time>31:21</time><p>它這個邏輯上的判斷就會變得複雜很多</p></div>
+<div class="transcript-row"><time>31:24</time><p>當時也是做了更大的架構上的設計</p></div>
+<div class="transcript-row"><time>31:27</time><p>然後安全榮譽包括供電</p></div>
+<div class="transcript-row"><time>31:29</time><p>包括信號的這些傳輸</p></div>
+<div class="transcript-row"><time>31:32</time><p>但硬件團隊設計完成之後</p></div>
+<div class="transcript-row"><time>31:34</time><p>拉扯又出現了</p></div>
+<div class="transcript-row"><time>31:35</time><p>大家知道量產的前一兩個月吧</p></div>
+<div class="transcript-row"><time>31:39</time><p>項目管理的經理說了一句說</p></div>
+<div class="transcript-row"><time>31:42</time><p>我們到底用兩個還是三個</p></div>
+<div class="transcript-row"><time>31:44</time><p>然後伊朗就聽了這個事情說</p></div>
+<div class="transcript-row"><time>31:47</time><p>他突然想起這個事情了</p></div>
+<div class="transcript-row"><time>31:50</time><p>然後估計可能是Finance的人</p></div>
+<div class="transcript-row"><time>31:52</time><p>CFO可能跟他提過這個東西</p></div>
+<div class="transcript-row"><time>31:55</time><p>他就可能覺得不對</p></div>
+<div class="transcript-row"><time>31:57</time><p>這個事情不能用三個</p></div>
+<div class="transcript-row"><time>32:00</time><p>用三個太貴了</p></div>
+<div class="transcript-row"><time>32:02</time><p>然後軟件團隊一聽說</p></div>
+<div class="transcript-row"><time>32:04</time><p>我們都已經定好用三個了</p></div>
+<div class="transcript-row"><time>32:06</time><p>我們都已經開始做研發了</p></div>
+<div class="transcript-row"><time>32:08</time><p>然後你現在說改回兩個</p></div>
+<div class="transcript-row"><time>32:10</time><p>然後伊朗就說好我已經下了這個決定</p></div>
+<div class="transcript-row"><time>32:12</time><p>這是最終決定</p></div>
+<div class="transcript-row"><time>32:13</time><p>誰也不要再跟我商量這個事情了</p></div>
+<div class="transcript-row"><time>32:15</time><p>就不用再討論了</p></div>
+<div class="transcript-row"><time>32:16</time><p>就是兩個</p></div>
+<div class="transcript-row"><time>32:17</time><p>然後這個時候我們就趕緊回去</p></div>
+<div class="transcript-row"><time>32:20</time><p>把板子重新設計</p></div>
+<div class="transcript-row"><time>32:22</time><p>改回兩個</p></div>
+<div class="transcript-row"><time>32:23</time><p>因為馬上就要量產</p></div>
+<div class="transcript-row"><time>32:24</time><p>根據內部人士透露</p></div>
+<div class="transcript-row"><time>32:26</time><p>直到現在特斯拉團隊依然在爭論</p></div>
+<div class="transcript-row"><time>32:28</time><p>要不要加更多的芯片</p></div>
+<div class="transcript-row"><time>32:30</time><p>為此Kerry也是小小的吐槽了一番軟件團隊</p></div>
+<div class="transcript-row"><time>32:33</time><p>他們內部有句玩笑說</p></div>
+<div class="transcript-row"><time>32:35</time><p>新的芯片才剛設計好</p></div>
+<div class="transcript-row"><time>32:37</time><p>軟件團隊就已經想好怎麼全用掉了</p></div>
+<div class="transcript-row"><time>32:39</time><p>鑽利肯定永遠都不夠用了</p></div>
+<div class="transcript-row"><time>32:41</time><p>你給我十倍我能把它用掉</p></div>
+<div class="transcript-row"><time>32:43</time><p>這也反映了另外一個問題</p></div>
+<div class="transcript-row"><time>32:46</time><p>就是模型其實有很多可以優直接的空間</p></div>
+<div class="transcript-row"><time>32:49</time><p>在我看來我覺得不是那麼的合理</p></div>
+<div class="transcript-row"><time>32:51</time><p>做模型的這幫團隊</p></div>
+<div class="transcript-row"><time>32:53</time><p>至少特斯拉情況就比較明顯</p></div>
+<div class="transcript-row"><time>32:56</time><p>因為人手太少了</p></div>
+<div class="transcript-row"><time>32:58</time><p>大家更多的是把這個模型做的更大</p></div>
+<div class="transcript-row"><time>33:02</time><p>把精力放在這個事情上面</p></div>
+<div class="transcript-row"><time>33:03</time><p>而沒有說去真正的去</p></div>
+<div class="transcript-row"><time>33:06</time><p>專門找一部分人去優化這個事情</p></div>
+<div class="transcript-row"><time>33:08</time><p>除了芯片數量的拉扯</p></div>
+<div class="transcript-row"><time>33:10</time><p>在芯片研發上</p></div>
+<div class="transcript-row"><time>33:11</time><p>AI4也不如AI3那麼順利</p></div>
+<div class="transcript-row"><time>33:13</time><p>前面我們說到</p></div>
+<div class="transcript-row"><time>33:14</time><p>在第一次研發AI3的時候</p></div>
+<div class="transcript-row"><time>33:16</time><p>有部分是三星來幫忙設計的</p></div>
+<div class="transcript-row"><time>33:18</time><p>所以到了AI4的時候</p></div>
+<div class="transcript-row"><time>33:20</time><p>特斯拉依然選擇了和三星合作</p></div>
+<div class="transcript-row"><time>33:22</time><p>而問題就出在這了</p></div>
+<div class="transcript-row"><time>33:25</time><p>由於當時三星他們在外面已經接了很多生意了</p></div>
+<div class="transcript-row"><time>33:30</time><p>所以它對我們的服務就明顯沒有Hover 3那麼好</p></div>
+<div class="transcript-row"><time>33:34</time><p>所以Hover 4整個schedule其實是有比較嚴重的delay</p></div>
+<div class="transcript-row"><time>33:38</time><p>芯片做出來的效果也不是 traversed</p></div>
+<div class="transcript-row"><time>33:43</time><p>流片大概流片了三四ASD</p></div>
+<div class="transcript-row"><time>33:47</time><p>這也是跟我們有關</p></div>
+<div class="transcript-row"><time>33:48</time><p>就是跟特斯拉有關係</p></div>
+<div class="transcript-row"><time>33:49</time><p>用了GDDR這個內存</p></div>
+<div class="transcript-row"><time>33:52</time><p>大家都沒有用過</p></div>
+<div class="transcript-row"><time>33:53</time><p>在設計上遇到很多困難</p></div>
+<div class="transcript-row"><time>33:55</time><p>這就有個問題了</p></div>
+<div class="transcript-row"><time>33:56</time><p>為什麼特斯拉當時要拋棄成熟的方案</p></div>
+<div class="transcript-row"><time>33:59</time><p>選擇在車載端不成熟的GDDR內存呢</p></div>
+<div class="transcript-row"><time>34:08</time><p>隨著自動駕駛的神經網絡模型越來越大</p></div>
+<div class="transcript-row"><time>34:10</time><p>AI3的芯片性能開始跟不上</p></div>
+<div class="transcript-row"><time>34:12</time><p>而真正卡脖子的卻是內存帶寬</p></div>
+<div class="transcript-row"><time>34:15</time><p>你可以把芯片想像成一個超級工廠</p></div>
+<div class="transcript-row"><time>34:18</time><p>算力就是工人的數量</p></div>
+<div class="transcript-row"><time>34:20</time><p>而內存帶寬則是把原材料送進工廠的高速公路</p></div>
+<div class="transcript-row"><time>34:24</time><p>如果工廠裡面有100個工人</p></div>
+<div class="transcript-row"><time>34:26</time><p>但是高速公路一次只能運進20個人的材料</p></div>
+<div class="transcript-row"><time>34:29</time><p>那麼剩下80個人就只能站著發呆了</p></div>
+<div class="transcript-row"><time>34:32</time><p>所以隨著模型規模以及數據量的提升</p></div>
+<div class="transcript-row"><time>34:35</time><p>自動駕駛對於內存的帶寬需求也越來越大</p></div>
+<div class="transcript-row"><time>34:39</time><p>.</p></div>
+<div class="transcript-row"><time>35:10</time><p>DDR我們當時拿來一看就發現</p></div>
+<div class="transcript-row"><time>35:12</time><p>它的功耗其實非常的高</p></div>
+<div class="transcript-row"><time>35:14</time><p>而且沒有什麼廠商做這個東西</p></div>
+<div class="transcript-row"><time>35:17</time><p>尤其車櫃也是第一次放在車上</p></div>
+<div class="transcript-row"><time>35:20</time><p>而且是我們的自然芯片</p></div>
+<div class="transcript-row"><time>35:22</time><p>而且還非常的小眾</p></div>
+<div class="transcript-row"><time>35:23</time><p>然後功耗特別大價格也比較高</p></div>
+<div class="transcript-row"><time>35:26</time><p>所以用了這麼多年HOWER4</p></div>
+<div class="transcript-row"><time>35:29</time><p>你可以看到其實它的內存的容量就成了一個瓶頸</p></div>
+<div class="transcript-row"><time>35:32</time><p>因為沒有人去給車專門提供大容量的GDDR</p></div>
+<div class="transcript-row"><time>35:38</time><p>因為特斯拉是唯一一個公 Northeast在做這個事情</p></div>
+<div class="transcript-row"><time>35:41</time><p>所以不可能因為特斯拉去讓美光或者是三星</p></div>
+<div class="transcript-row"><time>35:45</time><p>專門研發一款大容量的GDDR去給車櫃用的</p></div>
+<div class="transcript-row"><time>35:49</time><p>其實特斯拉現在內部一直都在做</p></div>
+<div class="transcript-row"><time>35:51</time><p>這個HOWER的4.3把它改成用LPDDR</p></div>
+<div class="transcript-row"><time>35:55</time><p>然後就是說犧牲一點點帶寬</p></div>
+<div class="transcript-row"><time>35:58</time><p>但是提高這個容量</p></div>
+<div class="transcript-row"><time>36:00</time><p>因為他們的模型現在已經越來越大了</p></div>
+<div class="transcript-row"><time>36:03</time><p>所以可能再不久將來</p></div>
+<div class="transcript-row"><time>36:04</time><p>你們應該看到車上會裝HOWER4.3</p></div>
+<div class="transcript-row"><time>36:36</time><p>成本還會繼續降低</p></div>
+<div class="transcript-row"><time>36:38</time><p>特斯拉在這個事情上</p></div>
+<div class="transcript-row"><time>36:39</time><p>其實更新換代 迭代速度是非常快的</p></div>
+<div class="transcript-row"><time>36:42</time><p>你外觀上可能看不出車有什麼變化</p></div>
+<div class="transcript-row"><time>36:44</time><p>但實際上這個車每隔幾個月</p></div>
+<div class="transcript-row"><time>36:46</time><p>裡面東西都會有一個非常大的變化</p></div>
+<div class="transcript-row"><time>36:48</time><p>在性能維持不變的情況下成本降低</p></div>
+<div class="transcript-row"><time>36:52</time><p>額外說一句</p></div>
+<div class="transcript-row"><time>36:53</time><p>特斯拉自研的芯片不管是AS3還是AS4</p></div>
+<div class="transcript-row"><time>36:56</time><p>除了被用在車上</p></div>
+<div class="transcript-row"><time>36:57</time><p>還被裝進了服務器裡進一步平攤了研發成本</p></div>
+<div class="transcript-row"><time>37:01</time><p>其實芯片都是一樣的</p></div>
+<div class="transcript-row"><time>37:02</time><p>只是在電腦的設計上可能有一些區別</p></div>
+<div class="transcript-row"><time>37:05</time><p>.</p></div>
+<div class="transcript-row"><time>37:35</time><p>e DM</p></div>
+<div class="transcript-row"><time>38:05</time><p>2022年7月</p></div>
+<div class="transcript-row"><time>38:06</time><p>Andre Capati離開了特斯拉</p></div>
+<div class="transcript-row"><time>38:08</time><p>由軟件團隊的創始成員之一</p></div>
+<div class="transcript-row"><time>38:10</time><p>Ashok Alaswami解體他的位置</p></div>
+<div class="transcript-row"><time>38:12</time><p>於是間</p></div>
+<div class="transcript-row"><time>38:13</time><p>外界紛紛猜測特斯拉在算法上遇到了困難</p></div>
+<div class="transcript-row"><time>38:16</time><p>股價也應聲下跌</p></div>
+<div class="transcript-row"><time>38:35</time><p>當時的路線發展下去</p></div>
+<div class="transcript-row"><time>38:37</time><p>Capati的工作將是不斷的優化已有的路徑日益重複</p></div>
+<div class="transcript-row"><time>38:41</time><p>但是他沒有想到的是年底</p></div>
+<div class="transcript-row"><time>38:43</time><p>GBT3.5震驚了整個世界</p></div>
+<div class="transcript-row"><time>38:47</time><p>當時馬斯克剛剛收購了推特</p></div>
+<div class="transcript-row"><time>38:49</time><p>想從特斯拉抽掉一批工程師去優化推薦算法</p></div>
+<div class="transcript-row"><time>38:52</time><p>其中的一名工程師名叫Davish Roth</p></div>
+<div class="transcript-row"><time>38:55</time><p>然後他並不想離開特斯拉</p></div>
+<div class="transcript-row"><time>38:57</time><p>於是他告訴馬斯克自己想要從特斯拉出發</p></div>
+<div class="transcript-row"><time>39:00</time><p>但他卻沒有想到</p></div>
+<div class="transcript-row"><time>39:03</time><p>於是他告訴馬斯克自己正在做車用的Chach BT</p></div>
+<div class="transcript-row"><time>39:07</time><p>也就是用神經網絡替代所有的規則算法</p></div>
+<div class="transcript-row"><time>39:10</time><p>讓系統通過模仿人類的駕駛行為</p></div>
+<div class="transcript-row"><time>39:12</time><p>學會自己開車</p></div>
+<div class="transcript-row"><time>39:14</time><p>這樣一來即使面對沒有見過的場景</p></div>
+<div class="transcript-row"><time>39:16</time><p>系統也能夠自己避障</p></div>
+<div class="transcript-row"><time>39:18</time><p>必要的時候還能做出類似人類駕駛員的靈活判斷</p></div>
+<div class="transcript-row"><time>39:22</time><p>比如說壓實現避障</p></div>
+<div class="transcript-row"><time>39:23</time><p>這和過去die板的Ruby&#x27;s的方案完全不一樣</p></div>
+<div class="transcript-row"><time>39:27</time><p>Sheriff的結是瞬間擊中了馬斯克</p></div>
+<div class="transcript-row"><time>39:29</time><p>甚至馬斯克都開始暢想著</p></div>
+<div class="transcript-row"><time>39:31</time><p>要做一個像007電影一樣的場景演示</p></div>
+<div class="transcript-row"><time>39:42</time><p>於是Sheriff是留了下來</p></div>
+<div class="transcript-row"><time>39:44</time><p>後面就是我們聽到的特斯拉</p></div>
+<div class="transcript-row"><time>39:46</time><p>推出了端導端M2nd</p></div>
+<div class="transcript-row"><time>39:48</time><p>把之前的30萬行代碼精簡到了2000號</p></div>
+<div class="transcript-row"><time>39:52</time><p>我們採訪了特斯拉前AI軟件工程總監Srihari</p></div>
+<div class="transcript-row"><time>39:57</time><p>他過去負責特斯拉Robotaxi和Optimus項目的AI工程團隊</p></div>
+<div class="transcript-row"><time>40:01</time><p>以及軟硬件協同設計團隊</p></div>
+<div class="transcript-row"><time>40:03</time><p>此前還因優化特斯拉車載AI計算器的性能</p></div>
+<div class="transcript-row"><time>40:07</time><p>被馬斯克點名表揚</p></div>
+<div class="transcript-row"><time>40:08</time><p>稱沒有他們團隊Robotaxi將無法實現</p></div>
+<div class="transcript-row"><time>40:11</time><p>Srihari回憶說端導端的探索</p></div>
+<div class="transcript-row"><time>40:14</time><p>在CharGBT出現之前就已經開始了</p></div>
+<div class="transcript-row"><time>40:17</time><p>而CharGBT可能加速了這個進程</p></div>
+<div class="transcript-row"><time>40:26</time><p>CharGBT可能加速了這個進程</p></div>
+<div class="transcript-row"><time>40:28</time><p>在雙重探索上的部分</p></div>
+<div class="transcript-row"><time>40:30</time><p>但我們已經在這裏進行很多的路程</p></div>
+<div class="transcript-row"><time>40:33</time><p>已經在這裏進行很多的路程</p></div>
+<div class="transcript-row"><time>40:35</time><p>聽說有一個很小的團隊在這裏工作</p></div>
+<div class="transcript-row"><time>40:38</time><p>是的</p></div>
+<div class="transcript-row"><time>40:40</time><p>有多少人呢</p></div>
+<div class="transcript-row"><time>40:41</time><p>我覺得是很少人</p></div>
+<div class="transcript-row"><time>40:45</time><p>在Tesla的首都離開了</p></div>
+<div class="transcript-row"><time>40:46</time><p>2023年8月底</p></div>
+<div class="transcript-row"><time>40:47</time><p>馬斯克在自己車上</p></div>
+<div class="transcript-row"><time>40:49</time><p>用手機直播了FSD端導端的第一次公開演示</p></div>
+<div class="transcript-row"><time>40:53</time><p>當時他隨機在地圖上標記路徑點</p></div>
+<div class="transcript-row"><time>40:55</time><p>證明這不是預先規劃好的路線</p></div>
+<div class="transcript-row"><time>40:57</time><p>然後車就自己開始行駛了</p></div>
+<div class="transcript-row"><time>40:59</time><p>雖然中間闖了一次紅燈被嘲笑了很久</p></div>
+<div class="transcript-row"><time>41:02</time><p>但是在一些業內人士看 soccer看來</p></div>
+<div class="transcript-row"><time>41:04</time><p>這樣的表現已經非常好了</p></div>
+<div class="transcript-row"><time>41:06</time><p>我其實還是挺respect的</p></div>
+<div class="transcript-row"><time>41:08</time><p>因為做一個全新的技術路線</p></div>
+<div class="transcript-row"><time>41:10</time><p>能做到這樣的程度</p></div>
+<div class="transcript-row"><time>41:12</time><p>實際上已經是有很強的信號了</p></div>
+<div class="transcript-row"><time>41:14</time><p>2023年年底</p></div>
+<div class="transcript-row"><time>41:15</time><p>Tesla內部員工開始</p></div>
+<div class="transcript-row"><time>41:16</time><p>悼悼地收到端導端版的FSDV12推送</p></div>
+<div class="transcript-row"><time>41:20</time><p>直到2024年1月正式面向普通車主推送</p></div>
+<div class="transcript-row"><time>41:24</time><p>雖然Tesla確實是第一個將端導端落地的車企</p></div>
+<div class="transcript-row"><time>41:28</time><p>但這項技術理念並不是Tesla最先發現的</p></div>
+<div class="transcript-row"><time>41:31</time><p>早在2016年就已經被英偉達提出了</p></div>
+<div class="transcript-row"><time>41:34</time><p>甚至在學術界這個概念在1989年就有了</p></div>
+<div class="transcript-row"><time>41:38</time><p>那關於端導端的各種技術原理</p></div>
+<div class="transcript-row"><time>41:41</time><p>有什麼優劣勢以及各種 drama 故事</p></div>
+<div class="transcript-row"><time>41:43</time><p>我們在自動駕駛這期視頻當中</p></div>
+<div class="transcript-row"><time>41:45</time><p>也非常詳細的解釋</p></div>
+<div class="transcript-row"><time>41:47</time><p>感興趣的話可以回看一下</p></div>
+<div class="transcript-row"><time>41:49</time><p>這一期我們就不多贅述了</p></div>
+<div class="transcript-row"><time>41:51</time><p>不過當時我們採訪的時候</p></div>
+<div class="transcript-row"><time>41:52</time><p>嘉賓們對於一點提出了很大的質疑</p></div>
+<div class="transcript-row"><time>41:54</time><p>那就是既然FSDV12是一整個神經網絡</p></div>
+<div class="transcript-row"><time>41:58</time><p>那麼BEV上的顯示輸出是如何來的呢</p></div>
+<div class="transcript-row"><time>42:02</time><p>這次我們還phants採訪了參與開發的</p></div>
+<div class="transcript-row"><time>42:05</time><p>Tesla算法工程師</p></div>
+<div class="transcript-row"><time>42:07</time><p>他就這個問題提供了他的解答</p></div>
+<div class="transcript-row"><time>42:09</time><p>Tesla在整個神經網絡的中間</p></div>
+<div class="transcript-row"><time>42:11</time><p>額外分出了一條任務</p></div>
+<div class="transcript-row"><time>42:13</time><p>也就是HAT去專門顯示鳥看圖</p></div>
+<div class="transcript-row"><time>42:16</time><p>在推理的時候這個分支就像欄位一樣</p></div>
+<div class="transcript-row"><time>42:19</time><p>除了顯示之外是沒有參與其他功能的</p></div>
+<div class="transcript-row"><time>42:22</time><p>說到這個HAT是不是很熟悉</p></div>
+<div class="transcript-row"><time>42:25</time><p>就是我們前面講HydroNet的時候用到的架構</p></div>
+<div class="transcript-row"><time>42:28</time><p>值得一提的是儘管FSDV12幾乎徹底重寫了底層代碼</p></div>
+<div class="transcript-row"><time>42:32</time><p>但是其中也複用了不少以前Adric Capacity</p></div>
+<div class="transcript-row"><time>42:35</time><p>用神經網絡重構感知模塊的思路</p></div>
+<div class="transcript-row"><time>42:38</time><p>我們沒有說好</p></div>
+<div class="transcript-row"><time>42:39</time><p>就把我們所做的努力丟棄掉</p></div>
+<div class="transcript-row"><time>42:41</time><p>所有的網絡方向</p></div>
+<div class="transcript-row"><time>42:42</time><p>我們建立了更好的物理減少</p></div>
+<div class="transcript-row"><time>42:44</time><p>更好的負擔</p></div>
+<div class="transcript-row"><time>42:45</time><p>我們在這兩年來FSD又有了哪些新的進化呢</p></div>
+<div class="transcript-row"><time>42:53</time><p>2024年11月特斯拉推出FSDV13</p></div>
+<div class="transcript-row"><time>42:56</time><p>它增加了模型參數</p></div>
+<div class="transcript-row"><time>42:58</time><p>提升了機管里程MPI</p></div>
+<div class="transcript-row"><time>43:00</time><p>新增了車位到車位功能</p></div>
+<div class="transcript-row"><time>43:02</time><p>同時模型還對AI-4芯片進行了優化</p></div>
+<div class="transcript-row"><time>43:05</time><p>更重要的是V13仍然是最新的模型</p></div>
+<div class="transcript-row"><time>43:08</time><p>在開發模型的前提</p></div>
+<div class="transcript-row"><time>43:10</time><p>就是FSDV12的新進化</p></div>
+<div class="transcript-row"><time>43:12</time><p>.</p></div>
+<div class="transcript-row"><time>43:42</time><p>但是受限於算法</p></div>
+<div class="transcript-row"><time>43:43</time><p>模型在感知的時候並沒有完整的利用全部像素</p></div>
+<div class="transcript-row"><time>43:51</time><p>如果說FSDV12是為了驗證端道端的可行性</p></div>
+<div class="transcript-row"><time>43:54</time><p>那麼V13的目標就是簡化控制站</p></div>
+<div class="transcript-row"><time>43:57</time><p>讓模型運行的更有效率</p></div>
+<div class="transcript-row"><time>43:59</time><p>這版更新甚至被內部工程師比作成</p></div>
+<div class="transcript-row"><time>44:03</time><p>SpaceX的模型V3火箭那樣</p></div>
+<div class="transcript-row"><time>44:05</time><p>Clean</p></div>
+<div class="transcript-row"><time>44:43</time><p>到了2025年10月</p></div>
+<div class="transcript-row"><time>44:44</time><p>特斯拉直接跳過了FSDV14.0</p></div>
+<div class="transcript-row"><time>44:47</time><p>推出了V14.1</p></div>
+<div class="transcript-row"><time>44:48</time><p>馬斯克稱這是繼V12之後的第二大更新</p></div>
+<div class="transcript-row"><time>44:52</time><p>模型參數提升了10倍</p></div>
+<div class="transcript-row"><time>44:54</time><p>讓Robotaxi技術第一次大規模回流量產車的版本</p></div>
+<div class="transcript-row"><time>44:57</time><p>還引入強化學習訓練</p></div>
+<div class="transcript-row"><time>44:59</time><p>升級視覺編碼器</p></div>
+<div class="transcript-row"><time>45:01</time><p>並且重寫了底層AI編譯器等等</p></div>
+<div class="transcript-row"><time>45:43</time><p>用一句話來總結V14</p></div>
+<div class="transcript-row"><time>45:45</time><p>那就是繼續提升模型規模</p></div>
+<div class="transcript-row"><time>45:47</time><p>大哥不那麼恰當的比方</p></div>
+<div class="transcript-row"><time>45:49</time><p>就像種一棵樹</p></div>
+<div class="transcript-row"><time>45:50</time><p>V12的目標是驗證這棵樹是否能夠存活</p></div>
+<div class="transcript-row"><time>45:54</time><p>V13是減掉一些不影響生長的枝葉</p></div>
+<div class="transcript-row"><time>45:57</time><p>而V14則是繼續的試肥讓樹長得更高</p></div>
+<div class="transcript-row"><time>46:01</time><p>我們也確實看到了</p></div>
+<div class="transcript-row"><time>46:02</time><p>此後FSD的表現是有了不少的進步</p></div>
+<div class="transcript-row"><time>46:06</time><p>比如說2025年年底的時候</p></div>
+<div class="transcript-row"><time>46:08</time><p>一輛Model 3從加州出發</p></div>
+<div class="transcript-row"><time>46:10</time><p>經過兩天的行程</p></div>
+<div class="transcript-row"><time>46:11</time><p>駕駛了2700英里到達了南卡羅蘭納州</p></div>
+<div class="transcript-row"><time>46:15</time><p>全程使用FSDV14</p></div>
+<div class="transcript-row"><time>46:17</time><p>而且沒有一次人工干預</p></div>
+<div class="transcript-row"><time>46:19</time><p>此前端道端一直飽受詬病的是</p></div>
+<div class="transcript-row"><time>46:21</time><p>它是一個黑盒模型</p></div>
+<div class="transcript-row"><time>46:23</time><p>工程師難以驗證他到底學會了啥</p></div>
+<div class="transcript-row"><time>46:26</time><p>如何思考</p></div>
+<div class="transcript-row"><time>46:27</time><p>而且端道端網絡輸入的是上億個頭肯</p></div>
+<div class="transcript-row"><time>46:30</time><p>最終只輸出了兩個動作</p></div>
+<div class="transcript-row"><time>46:32</time><p>也就是轉向和加減速</p></div>
+<div class="transcript-row"><time>46:34</time><p>這樣巨大的壓縮比</p></div>
+<div class="transcript-row"><time>46:36</time><p>會讓神經網絡學到虛假相關性</p></div>
+<div class="transcript-row"><time>46:38</time><p>比如說在一條訓練素材中</p></div>
+<div class="transcript-row"><time>46:40</time><p>駕駛員在行駛室減速</p></div>
+<div class="transcript-row"><time>46:42</time><p>是因為看到了前車煞車燈</p></div>
+<div class="transcript-row"><time>46:44</time><p>而模型卻誤以為原因是</p></div>
+<div class="transcript-row"><time>46:46</time><p>看到了旁邊搖晃的樹枝</p></div>
+<div class="transcript-row"><time>46:48</time><p>在最近的幾次分享當中</p></div>
+<div class="transcript-row"><time>46:50</time><p>特斯拉的AI軟體副總裁</p></div>
+<div class="transcript-row"><time>46:52</time><p>Ashak Ilauswami</p></div>
+<div class="transcript-row"><time>46:53</time><p>就介紹了他們的解法</p></div>
+<div class="transcript-row"><time>46:54</time><p>在訓練數據方面</p></div>
+<div class="transcript-row"><time>46:56</time><p>雖然特斯拉有海量人類駕駛視頻</p></div>
+<div class="transcript-row"><time>46:58</time><p>但大部分是無聊的高速巡航</p></div>
+<div class="transcript-row"><time>47:00</time><p>如果全量收集再篩選</p></div>
+<div class="transcript-row"><time>47:02</time><p>成本會高到離譜</p></div>
+<div class="transcript-row"><time>47:04</time><p>所以特斯拉在車端部署了篩選器</p></div>
+<div class="transcript-row"><time>47:06</time><p>只將那些高價值的片段上傳訓練</p></div>
+<div class="transcript-row"><time>47:08</time><p>比如說各種極限反應</p></div>
+<div class="transcript-row"><time>47:10</time><p>複雜路況或者遇到了特殊車輛等等</p></div>
+<div class="transcript-row"><time>47:12</time><p>這樣不僅能夠節約成本</p></div>
+<div class="transcript-row"><time>47:14</time><p>還能夠讓模型學到更多危險場景</p></div>
+<div class="transcript-row"><time>47:16</time><p>在可解釋性方面</p></div>
+<div class="transcript-row"><time>47:18</time><p>特斯拉會讓網絡在訓練過程中</p></div>
+<div class="transcript-row"><time>47:20</time><p>額外生成一個3D視覺表示</p></div>
+<div class="transcript-row"><time>47:22</time><p>也就是前面我們提到的</p></div>
+<div class="transcript-row"><time>47:24</time><p>讓模型在其中一個節點</p></div>
+<div class="transcript-row"><time>47:26</time><p>輸出自己構建的場景</p></div>
+<div class="transcript-row"><time>47:28</time><p>用於檢查模型到底關注了什麼</p></div>
+<div class="transcript-row"><time>47:30</time><p>是否建立了正確的空間關係</p></div>
+<div class="transcript-row"><time>47:32</time><p>那在可驗證方面</p></div>
+<div class="transcript-row"><time>47:34</time><p>其實就是我們前面說到的</p></div>
+<div class="transcript-row"><time>47:36</time><p>AI伺服器的作用了</p></div>
+<div class="transcript-row"><time>47:38</time><p>用另一個獨立的生成式神經網絡</p></div>
+<div class="transcript-row"><time>47:40</time><p>不斷生成模擬現實的環境</p></div>
+<div class="transcript-row"><time>47:42</time><p>也就是世界模型</p></div>
+<div class="transcript-row"><time>47:44</time><p>同時把訓練好的FSD算法放到這個模擬環境當中</p></div>
+<div class="transcript-row"><time>47:46</time><p>讓它在裡面駕駛</p></div>
+<div class="transcript-row"><time>47:48</time><p>模擬環境會不斷引入各種變量</p></div>
+<div class="transcript-row"><time>47:50</time><p>比如說把曾經讓系統犯錯的片段輸入</p></div>
+<div class="transcript-row"><time>47:52</time><p>驗證新版本是否修正</p></div>
+<div class="transcript-row"><time>47:54</time><p>或者注入新的極端場景</p></div>
+<div class="transcript-row"><time>47:56</time><p>測試FSD的極限反應</p></div>
+<div class="transcript-row"><time>47:58</time><p>最後這點看上去</p></div>
+<div class="transcript-row"><time>48:00</time><p>很像傳統的仿真系統</p></div>
+<div class="transcript-row"><time>48:02</time><p>但是在最近大幅的世界模型加持下</p></div>
+<div class="transcript-row"><time>48:04</time><p>已經有了很大的不同</p></div>
+<div class="transcript-row"><time>48:06</time><p>傳統仿真主要靠人工建模</p></div>
+<div class="transcript-row"><time>48:08</time><p>比如說工程師手動搭建場景</p></div>
+<div class="transcript-row"><time>48:10</time><p>定義物體編寫物理規則</p></div>
+<div class="transcript-row"><time>48:12</time><p>然後再用渲染器把它生成畫面</p></div>
+<div class="transcript-row"><time>48:14</time><p>而最新的趨勢是用世界模型生成場景</p></div>
+<div class="transcript-row"><time>48:16</time><p>就不再需要建模渲染兩個步驟</p></div>
+<div class="transcript-row"><time>48:18</time><p>模型可以直接生成每個傳感器看到的內容</p></div>
+<div class="transcript-row"><time>48:20</time><p>它的Blexability肯定是更高的</p></div>
+<div class="transcript-row"><time>48:22</time><p>它的Potential也比較高</p></div>
+<div class="transcript-row"><time>48:24</time><p>因為它可以把兩個步驟合在一起</p></div>
+<div class="transcript-row"><time>48:26</time><p>所以它是可以用這個模式</p></div>
+<div class="transcript-row"><time>48:28</time><p>去做一個實驗的渲染</p></div>
+<div class="transcript-row"><time>48:30</time><p>因為它可以把兩個步驟合在一起</p></div>
+<div class="transcript-row"><time>48:32</time><p>它可以可能基於一個已有的視頻</p></div>
+<div class="transcript-row"><time>48:34</time><p>去延續這個視頻或者Roll out</p></div>
+<div class="transcript-row"><time>48:36</time><p>它可以把所有的建模都鎖定在這個網絡裡面</p></div>
+<div class="transcript-row"><time>48:38</time><p>但是基於世界模型來訓練的仿真環境</p></div>
+<div class="transcript-row"><time>48:40</time><p>有兩個很大的挑戰</p></div>
+<div class="transcript-row"><time>48:42</time><p>第一是硬件性能</p></div>
+<div class="transcript-row"><time>48:44</time><p>因為需要實施渲染場景</p></div>
+<div class="transcript-row"><time>48:46</time><p>對計算資源要求極高</p></div>
+<div class="transcript-row"><time>48:48</time><p>第二是模型表現</p></div>
+<div class="transcript-row"><time>48:50</time><p>必須要確保模型生成的世界</p></div>
+<div class="transcript-row"><time>48:52</time><p>足夠真實</p></div>
+<div class="transcript-row"><time>48:54</time><p>每項輸出得和真實世界的演變</p></div>
+<div class="transcript-row"><time>48:56</time><p>有很強的相關性</p></div>
+<div class="transcript-row"><time>48:58</time><p>在渲染的時候可能有新人在過馬路</p></div>
+<div class="transcript-row"><time>49:00</time><p>或者影響其他的車輛</p></div>
+<div class="transcript-row"><time>49:02</time><p>這個時候如何按照現實世界</p></div>
+<div class="transcript-row"><time>49:04</time><p>來模擬這些車輛和新人的反應</p></div>
+<div class="transcript-row"><time>49:06</time><p>是非常棘手的挑戰</p></div>
+<div class="transcript-row"><time>49:08</time><p>在最新的FSD算法中</p></div>
+<div class="transcript-row"><time>49:10</time><p>輸入到模型的不光是視頻數據</p></div>
+<div class="transcript-row"><time>49:12</time><p>音頻也會參與到決策當中來</p></div>
+<div class="transcript-row"><time>49:14</time><p>目前主要是用來識別環境</p></div>
+<div class="transcript-row"><time>49:16</time><p>未來還會融入到車輛控制當中</p></div>
+<div class="transcript-row"><time>49:28</time><p>除了量產車之外</p></div>
+<div class="transcript-row"><time>49:30</time><p>端道端的FSD還讓馬斯克</p></div>
+<div class="transcript-row"><time>49:32</time><p>有了更大的信心去推出Robotaxi</p></div>
+<div class="transcript-row"><time>49:58</time><p>.</p></div>
+<div class="transcript-row"><time>50:28</time><p>而關鍵的區別在於軟體上</p></div>
+<div class="transcript-row"><time>50:30</time><p>一方面Robotaxi的軟體版本</p></div>
+<div class="transcript-row"><time>50:32</time><p>相比量產車更新的更頻繁</p></div>
+<div class="transcript-row"><time>50:58</time><p>...</p></div>
+<div class="transcript-row"><time>51:28</time><p>推送到量產車中</p></div>
+<div class="transcript-row"><time>51:30</time><p>這就帶來了一個問題</p></div>
+<div class="transcript-row"><time>51:32</time><p>如果最panel軟體出問題怎麼辦呢?</p></div>
+<div class="transcript-row"><time>51:34</time><p>所以另一方面的區別就是</p></div>
+<div class="transcript-row"><time>51:36</time><p>Robotaxi是額外引入了</p></div>
+<div class="transcript-row"><time>51:38</time><p>原廠監管機制</p></div>
+<div class="transcript-row"><time>51:40</time><p>在乘坐Cybercap的過程中</p></div>
+<div class="transcript-row"><time>51:42</time><p>我其實對安全問題沒有那麼擔心</p></div>
+<div class="transcript-row"><time>51:44</time><p>因為我知道目前的階段</p></div>
+<div class="transcript-row"><time>51:46</time><p>馬斯克和特斯拉一定會盡最大的努力</p></div>
+<div class="transcript-row"><time>51:48</time><p>保證每一輛車的安全</p></div>
+<div class="transcript-row"><time>51:50</time><p>但真的等Cybercap擴張到</p></div>
+<div class="transcript-row"><time>51:52</time><p>幾千上萬</p></div>
+<div class="transcript-row"><time>51:54</time><p>乃至數十萬輛車規模的時候</p></div>
+<div class="transcript-row"><time>51:56</time><p>如何在保證安全的情況下</p></div>
+<div class="transcript-row"><time>51:58</time><p>快速擴展才是最大的挑戰</p></div>
+<div class="transcript-row"><time>52:00</time><p>這也是外界對特斯拉擴展速度的質疑</p></div>
+<div class="transcript-row"><time>52:26</time><p>在這情況下</p></div>
+<div class="transcript-row"><time>52:28</time><p>當它的安全數能夠證明</p></div>
+<div class="transcript-row"><time>52:30</time><p>自己足夠安全的時候</p></div>
+<div class="transcript-row"><time>52:32</time><p>那麼特斯拉應該就會考慮說</p></div>
+<div class="transcript-row"><time>52:34</time><p>把這些人工的比例減少</p></div>
+<div class="transcript-row"><time>52:36</time><p>然後把這個成本拉下來</p></div>
+<div class="transcript-row"><time>52:38</time><p>從奧斯汀上線後的一年時間</p></div>
+<div class="transcript-row"><time>52:40</time><p>特斯拉已陸續在加州、舊金山灣區</p></div>
+<div class="transcript-row"><time>52:42</time><p>內華達、亞利桑那等多個地區</p></div>
+<div class="transcript-row"><time>52:44</time><p>獲得不同條件下的運營許可</p></div>
+<div class="transcript-row"><time>52:46</time><p>雖然不同地區因為法規不同</p></div>
+<div class="transcript-row"><time>52:48</time><p>進度有所差異</p></div>
+<div class="transcript-row"><time>52:50</time><p>但總的來說</p></div>
+<div class="transcript-row"><time>52:52</time><p>測試和擴展都在快速進行中</p></div>
+<div class="transcript-row"><time>52:54</time><p>現在特斯拉Robotaxi的挑戰中</p></div>
+<div class="transcript-row"><time>52:56</time><p>技術已經不再是問題了</p></div>
+<div class="transcript-row"><time>52:58</time><p>我認為這已經不再是科技問題了</p></div>
+<div class="transcript-row"><time>53:00</time><p>這已經是一個</p></div>
+<div class="transcript-row"><time>53:02</time><p>通過批准和規定</p></div>
+<div class="transcript-row"><time>53:04</time><p>和擴展的遊戲</p></div>
+<div class="transcript-row"><time>53:06</time><p>如何能夠迅速擴展</p></div>
+<div class="transcript-row"><time>53:08</time><p>如何能夠得到回應</p></div>
+<div class="transcript-row"><time>53:10</time><p>如何能夠進一步擴展</p></div>
+<div class="transcript-row"><time>53:12</time><p>因為這實際上是一個</p></div>
+<div class="transcript-row"><time>53:14</time><p>擴展的挑戰</p></div>
+<div class="transcript-row"><time>53:16</time><p>而且要在不同地區進行擴展</p></div>
+<div class="transcript-row"><time>53:18</time><p>問題是誰有正確的設施</p></div>
+<div class="transcript-row"><time>53:20</time><p>才能讓它擴展得更快</p></div>
+<div class="transcript-row"><time>53:22</time><p>如果想要更好的體驗</p></div>
+<div class="transcript-row"><time>53:24</time><p>還得看下一代的硬件</p></div>
+<div class="transcript-row"><time>53:26</time><p>因為FSD V14所運行的Hardware 4.0</p></div>
+<div class="transcript-row"><time>53:28</time><p>又一次接近瓶頸了</p></div>
+<div class="transcript-row"><time>53:30</time><p>那麼最後我們來聊聊</p></div>
+<div class="transcript-row"><time>53:32</time><p>即將發布的AI5芯片的研發內部</p></div>
+<div class="transcript-row"><time>53:34</time><p>這次的難度比AI4還要更大</p></div>
+<div class="transcript-row"><time>53:36</time><p>內部還出現了對馬斯克的瞞報與欺騙的行為</p></div>
+<div class="transcript-row"><time>53:44</time><p>2015年8月</p></div>
+<div class="transcript-row"><time>53:46</time><p>一條消息在AI圈炸開了鍋</p></div>
+<div class="transcript-row"><time>53:48</time><p>號稱全球最快的AI訓練計算機</p></div>
+<div class="transcript-row"><time>53:50</time><p>斗九項目被叫停了</p></div>
+<div class="transcript-row"><time>53:52</time><p>同時馬斯克解散了斗九團隊</p></div>
+<div class="transcript-row"><time>53:54</time><p>要知道斗九曾經被馬斯克設為</p></div>
+<div class="transcript-row"><time>53:56</time><p>特斯拉AI的核心基礎設施</p></div>
+<div class="transcript-row"><time>53:58</time><p>甚至被華爾街視為</p></div>
+<div class="transcript-row"><time>54:00</time><p>價值數千億美元的潛在資產</p></div>
+<div class="transcript-row"><time>54:02</time><p>這已舉措不免讓業界懷疑</p></div>
+<div class="transcript-row"><time>54:04</time><p>特斯拉還有訓練AI的能力嗎?</p></div>
+<div class="transcript-row"><time>54:06</time><p>而馬斯克解釋說</p></div>
+<div class="transcript-row"><time>54:08</time><p>因為AI5 AI6芯片在訓練方面表現也不錯</p></div>
+<div class="transcript-row"><time>54:12</time><p>可以直接讓自研AI芯片用到訓練階段</p></div>
+<div class="transcript-row"><time>54:14</time><p>因此沒有必要浪費資源重複投入到斗九上</p></div>
+<div class="transcript-row"><time>54:18</time><p>可以看出後續的AI5 AI6芯片</p></div>
+<div class="transcript-row"><time>54:21</time><p>關乎著特斯拉模型的成敗</p></div>
+<div class="transcript-row"><time>54:23</time><p>然而 親身參與AI5研發的Carrie向我們透露說</p></div>
+<div class="transcript-row"><time>54:27</time><p>這款芯片的研發遇到了巨大的挫折與隱瞞</p></div>
+<div class="transcript-row"><time>54:30</time><p>甚至Peter Bannon的離職也與此有關</p></div>
+<div class="transcript-row"><time>54:33</time><p>故事要從AI4的研發開始說起</p></div>
+<div class="transcript-row"><time>54:36</time><p>前面我們提到當時AI4由三星來合作設計</p></div>
+<div class="transcript-row"><time>54:40</time><p>但是雙方配合的時候產生了很多摩擦</p></div>
+<div class="transcript-row"><time>54:43</time><p>於是到了AI5的研發上</p></div>
+<div class="transcript-row"><time>54:45</time><p>跟三星分手以後分手以來.</p></div>
+<div class="transcript-row"><time>55:45</time><p>在這兩個因素下</p></div>
+<div class="transcript-row"><time>55:50</time><p>AI5的研發進展非常緩慢</p></div>
+<div class="transcript-row"><time>55:52</time><p>而更致命的是其中的項目主管在工作中還存在著隱瞞與欺騙</p></div>
+<div class="transcript-row"><time>55:58</time><p>當時也跟這個項子在德中那邊的主管有一定的關係</p></div>
+<div class="transcript-row"><time>56:01</time><p>他相當於隱瞞了很多研發當中的一些 imaginar</p></div>
+<div class="transcript-row"><time>56:05</time><p>他其實遇到很多困難</p></div>
+<div class="transcript-row"><time>56:08</time><p>但他沒有真實的反應出來</p></div>
+<div class="transcript-row"><time>56:10</time><p>所以這個事情就一拖再拖</p></div>
+<div class="transcript-row"><time>56:13</time><p>AI5的芯片是要交給台積電來留片的</p></div>
+<div class="transcript-row"><time>56:15</time><p>因為那時候一直說馬上就要做好</p></div>
+<div class="transcript-row"><time>56:18</time><p>一直跟他說再有兩個月</p></div>
+<div class="transcript-row"><time>56:21</time><p>這個再有兩個月說了快一年了</p></div>
+<div class="transcript-row"><time>56:23</time><p>結果後來伊朗把這圖紙發給台積電</p></div>
+<div class="transcript-row"><time>56:26</time><p>台積電一看說這哪是再有兩個月</p></div>
+<div class="transcript-row"><time>56:28</time><p>這不就再有一年嗎</p></div>
+<div class="transcript-row"><time>56:29</time><p>你們做了這麼久怎麼做出這麼個東西</p></div>
+<div class="transcript-row"><time>56:30</time><p>說這東西根本沒辦法留片</p></div>
+<div class="transcript-row"><time>56:32</time><p>這得留片差遠的去了</p></div>
+<div class="transcript-row"><time>56:34</time><p>然後伊朗一聽這個事就知道</p></div>
+<div class="transcript-row"><time>56:37</time><p>你們這幫做芯片的人明顯就是忽悠</p></div>
+<div class="transcript-row"><time>56:41</time><p>沒跟我說實話</p></div>
+<div class="transcript-row"><time>56:43</time><p>伊朗就發了很多人</p></div>
+<div class="transcript-row"><time>56:44</time><p>包括我的老闆還有芯片的領導也都被發了</p></div>
+<div class="transcript-row"><time>56:49</time><p>Kerry對《矽谷101》表示</p></div>
+<div class="transcript-row"><time>56:51</time><p>在他的視角看來</p></div>
+<div class="transcript-row"><time>56:52</time><p>他的老闆Peter也算是受害人</p></div>
+<div class="transcript-row"><time>56:55</time><p>他認為Peter並沒有參與瞞報的過程</p></div>
+<div class="transcript-row"><time>56:57</time><p>但因為涉嫌瞞報的主管直接匯報給他</p></div>
+<div class="transcript-row"><time>57:00</time><p>導致Peter有連帶責任</p></div>
+<div class="transcript-row"><time>57:02</time><p>在此之後馬斯克便開始親自接管了芯片設計團隊</p></div>
+<div class="transcript-row"><time>57:05</time><p>並且列出了兩個方案並行</p></div>
+<div class="transcript-row"><time>57:08</time><p>方案一是找到第三方的芯片設計公司</p></div>
+<div class="transcript-row"><time>57:12</time><p>作為外包輔助現有的AI5設計</p></div>
+<div class="transcript-row"><time>57:15</time><p>並且繼續交由台積電生產</p></div>
+<div class="transcript-row"><time>57:17</time><p>另一個是找回了三星團隊</p></div>
+<div class="transcript-row"><time>57:19</time><p>讓三星來幫忙做另外一款AI5</p></div>
+<div class="transcript-row"><time>57:22</time><p>今年4月15號</p></div>
+<div class="transcript-row"><time>57:23</time><p>台積電版本的AI5已經完成了第一次留片</p></div>
+<div class="transcript-row"><time>57:26</time><p>預計將於2020年開始量產</p></div>
+<div class="transcript-row"><time>57:29</time><p>根據馬斯克的說法</p></div>
+<div class="transcript-row"><time>57:30</time><p>這款芯片在特定任務上</p></div>
+<div class="transcript-row"><time>57:32</time><p>速度將比AI4提升40倍</p></div>
+<div class="transcript-row"><time>57:35</time><p>一姐猜測搭載AI5的Hardware 5.0算力</p></div>
+<div class="transcript-row"><time>57:38</time><p>將達到2000-2500Tops</p></div>
+<div class="transcript-row"><time>57:40</time><p>這個芯片反正功能上我想應該是非常強大的</p></div>
+<div class="transcript-row"><time>57:44</time><p>而且也是用了MCM的技術</p></div>
+<div class="transcript-row"><time>57:47</time><p>可以說也是一種挑戰</p></div>
+<div class="transcript-row"><time>57:49</time><p>這還只是第一版</p></div>
+<div class="transcript-row"><time>57:50</time><p>三星的版本也在推進</p></div>
+<div class="transcript-row"><time>57:52</time><p>兩個版本最終都像AI5</p></div>
+<div class="transcript-row"><time>57:54</time><p>只是一個是台積電工藝</p></div>
+<div class="transcript-row"><time>57:56</time><p>另一個是三星工藝</p></div>
+<div class="transcript-row"><time>57:58</time><p>根據Kerry的猜測</p></div>
+<div class="transcript-row"><time>57:59</time><p>最終兩個版本的芯片可能會在同款車型上混用</p></div>
+<div class="transcript-row"><time>58:02</time><p>但消費者不會感知到差異</p></div>
+<div class="transcript-row"><time>58:04</time><p>同一款車型</p></div>
+<div class="transcript-row"><time>58:05</time><p>例如說有的用台積電的</p></div>
+<div class="transcript-row"><time>58:07</time><p>有的用三星的</p></div>
+<div class="transcript-row"><time>58:08</time><p>這個是沒有問題的</p></div>
+<div class="transcript-row"><time>58:10</time><p>它是可以混用的</p></div>
+<div class="transcript-row"><time>58:11</time><p>但是它不可能在一個電路板上混用</p></div>
+<div class="transcript-row"><time>58:14</time><p>但是最終反映到用戶上面</p></div>
+<div class="transcript-row"><time>58:16</time><p>我覺得應該不會有什麼太大的差別</p></div>
+<div class="transcript-row"><time>58:19</time><p>在FSD的使用體感上</p></div>
+<div class="transcript-row"><time>58:21</time><p>你應該沒辦法去區分</p></div>
+<div class="transcript-row"><time>58:23</time><p>它到底是三星的芯片還是台積電的芯片</p></div>
+<div class="transcript-row"><time>58:26</time><p>不過Kerry透露也有最新的內部消息說</p></div>
+<div class="transcript-row"><time>58:29</time><p>AI5芯片也有可能不會裝在車上</p></div>
+<div class="transcript-row"><time>58:32</time><p>回到</p></div>
+<div class="transcript-row"><time>59:02</time><p>汽車公司了</p></div>
+<div class="transcript-row"><time>59:03</time><p>甚至像矽谷的</p></div>
+<div class="transcript-row"><time>59:05</time><p>有些新的技術可能要衡量很久</p></div>
+<div class="transcript-row"><time>59:09</time><p>但是特斯拉一直都是非常願意去承擔風險</p></div>
+<div class="transcript-row"><time>59:14</time><p>然後能夠快速使用新的技術</p></div>
+<div class="transcript-row"><time>59:16</time><p>這就讓我們工程師做的事情就會變得非常有趣</p></div>
+<div class="transcript-row"><time>59:19</time><p>很難能夠把所有的資源都管理好</p></div>
+<div class="transcript-row"><time>59:23</time><p>你不需要把未來的技術都放在車上</p></div>
+<div class="transcript-row"><time>59:26</time><p>你也要把現有的技術都送到車上</p></div>
+<div class="transcript-row"><time>59:28</time><p>這是一種藝術</p></div>
+<div class="transcript-row"><time>59:30</time><p>所以Henry就認為</p></div>
+<div class="transcript-row"><time>59:31</time><p>因為特斯拉內部沒有繁雜的流程</p></div>
+<div class="transcript-row"><time>59:33</time><p>大家專心傾注在產品檔模上</p></div>
+<div class="transcript-row"><time>59:35</time><p>才能夠保持快速的推進</p></div>
+<div class="transcript-row"><time>01:00:00</time><p>回到13年前</p></div>
+<div class="transcript-row"><time>01:00:01</time><p>特斯拉剛開始做自動駕駛時</p></div>
+<div class="transcript-row"><time>01:00:03</time><p>它和谷歌走向了兩條完全不同的路</p></div>
+<div class="transcript-row"><time>01:00:06</time><p>谷歌也就是後來的Wemo</p></div>
+<div class="transcript-row"><time>01:00:08</time><p>選擇的是一條更謹慎的路線</p></div>
+<div class="transcript-row"><time>01:00:10</time><p>更昂貴的傳感器跟嚴格的安全榮譽</p></div>
+<div class="transcript-row"><time>01:00:13</time><p>先在有限區域裡把無人駕駛做出來</p></div>
+<div class="transcript-row"><time>01:00:16</time><p>再一點點的擴大邊界</p></div>
+<div class="transcript-row"><time>01:00:18</time><p>特斯拉的選擇恰恰相反</p></div>
+<div class="transcript-row"><time>01:00:20</time><p>它把攝像頭裝進幾百萬輛量產車</p></div>
+<div class="transcript-row"><time>01:00:23</time><p>把一個還遠沒有成熟的系統交給真實世界</p></div>
+<div class="transcript-row"><time>01:00:27</time><p>然後在一次次的事故、爭議、反攻和軟件更新中</p></div>
+<div class="transcript-row"><time>01:00:31</time><p>繼續往前走</p></div>
+<div class="transcript-row"><time>01:00:32</time><p>13年之後這兩條路線依然沒有分出勝負</p></div>
+<div class="transcript-row"><time>01:00:36</time><p>而如今自動駕駛之戰正式進入了下半場</p></div>
+<div class="transcript-row"><time>01:00:39</time><p>這場戰爭已經無關技術路線了</p></div>
+<div class="transcript-row"><time>01:00:42</time><p>它的名字叫做《經濟之戰》</p></div>
+<div class="transcript-row"><time>01:00:44</time><p>今天Wemo依然在無人駕駛商業化和實際運營上</p></div>
+<div class="transcript-row"><time>01:00:48</time><p>保持著明顯的領先</p></div>
+<div class="transcript-row"><time>01:00:50</time><p>而CyberCap才剛剛開始在奧斯丁有限區域運行</p></div>
+<div class="transcript-row"><time>01:00:53</time><p>與此同時</p></div>
+<div class="transcript-row"><time>01:00:54</time><p>與此同時</p></div>
+<div class="transcript-row"><time>01:00:55</time><p>美國聯邦監管機構已經對特斯拉FiberCap起動調查</p></div>
+<div class="transcript-row"><time>01:00:58</time><p>核查設計是否滿足安全標準</p></div>
+<div class="transcript-row"><time>01:01:01</time><p>所以前方還有諸多不確定性</p></div>
+<div class="transcript-row"><time>01:01:04</time><p>而現在還不能證明特斯拉已經贏得了自動駕駛戰爭</p></div>
+<div class="transcript-row"><time>01:01:08</time><p>在10月FSD的B15應該就要發布了</p></div>
+<div class="transcript-row"><time>01:01:10</time><p>這不宜是一個重要的里程碑</p></div>
+<div class="transcript-row"><time>01:01:13</time><p>目前媒體透露的消息</p></div>
+<div class="transcript-row"><time>01:01:15</time><p>包括它的模型參數規模較前代擴大了10倍</p></div>
+<div class="transcript-row"><time>01:01:18</time><p>但這個版本意在支持Level 4級別的無人駕駛</p></div>
+<div class="transcript-row"><time>01:01:22</time><p>.</p></div>
+</div></div></details>
+</section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

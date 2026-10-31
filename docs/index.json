@@ -1,5 +1,2462 @@
 [
   {
+    "date": "2026-10-31",
+    "title": "手机汽车大模型小米为什么总能上桌",
+    "summary": "雷军最晚进场却常上桌：中关村毒打学会听用户，错过门户时代后用「铁人三项」重做手机—生态链—汽车；中国成熟供应链是底牌，大模型接入既有账号与设备飞轮。下一程要啃基础科研，性价比与参与感不够用。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "小米",
+      "雷军",
+      "互联网公司",
+      "供应链"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/loZRN2s",
+    "duration": "16分01秒",
+    "outputs": {
+      "html": "xiaomi-phone-car-llm-table-图文实录.html",
+      "svg": "xiaomi-phone-car-llm-table-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 579,
+    "svg_height": 4122,
+    "slug": "xiaomi-phone-car-llm-table"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "没有未来？谁能拯救英国经济",
+    "summary": "英国账本：帝国红利退后靠福利/欧洲/市场化补丁；脱欧磨损效率，伦敦虹吸与 NEET 追问「同一未来」。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "英国",
+      "脱欧",
+      "区域差距",
+      "NEET",
+      "伦敦"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/YukSNWQ",
+    "duration": "16分31秒",
+    "outputs": {
+      "html": "who-saves-uk-economy-图文实录.html",
+      "svg": "who-saves-uk-economy-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 257,
+    "svg_height": 1263,
+    "slug": "who-saves-uk-economy"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "谁在抢救英特尔",
+    "summary": "美国政府入股英特尔只是「抢救」的可见一环；视频把芯片史三次洗牌、IDM 2.0 失败与 AI 从训练走向系统底座对照，说明为何供应链安全+先进封装让英特尔「不能死」，五路资本同时下注。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "英特尔",
+      "CHIPS法案",
+      "晶圆代工",
+      "AI基建"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/ARlpGj6",
+    "duration": "14分46秒",
+    "outputs": {
+      "html": "who-saves-intel-图文实录.html",
+      "svg": "who-saves-intel-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 271,
+    "svg_height": 4079,
+    "slug": "who-saves-intel"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "王自如上手 iPhone 18 Pro：苹果商业逻辑",
+    "summary": "iPhone 18 Pro 小年：别换；苹果用两波换机与克制涨价做商业驱动，社交货币转向 Duo。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "iPhone",
+      "苹果",
+      "王自如",
+      "换机",
+      "商业策略"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/3kDQTPP",
+    "duration": "19分28秒",
+    "outputs": {
+      "html": "wangziru-iphone18-pro-apple-图文实录.html",
+      "svg": "wangziru-iphone18-pro-apple-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 616,
+    "svg_height": 1263,
+    "slug": "wangziru-iphone18-pro-apple"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "特斯拉 FSD 十三年｜硅谷 101",
+    "summary": "FSD 十三年：自研芯片与去雷达、占据网络到端到端 V12–V14；Robotaxi 后半场是监管与经济之战。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "特斯拉",
+      "FSD",
+      "Robotaxi",
+      "端到端",
+      "AI芯片"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/W2Un7fN",
+    "duration": "1小时2分36秒",
+    "outputs": {
+      "html": "tesla-fsd-13years-sv101-图文实录.html",
+      "svg": "tesla-fsd-13years-sv101-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 1099,
+    "svg_height": 1311,
+    "slug": "tesla-fsd-13years-sv101"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "特斯拉的世纪阳谋",
+    "summary": "特斯拉世纪阳谋：电网瓶颈、轨道算力、物理 AI 身体与数据护城河；别只用车企报表读它。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "特斯拉",
+      "马斯克",
+      "物理AI",
+      "能源",
+      "Robotaxi"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/D9haXBu",
+    "duration": "23分52秒",
+    "outputs": {
+      "html": "tesla-century-scheme-图文实录.html",
+      "svg": "tesla-century-scheme-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 536,
+    "svg_height": 5139,
+    "slug": "tesla-century-scheme"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "每个摄影师都该学的 10 件事，不只是拍照",
+    "summary": "读天气、建设性批评、维护与地图、健康睡眠、叙事、驾照、忍耐与认知对象：十条非技术底板如何抬升长期出片。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "摄影师成长",
+      "天气预报",
+      "批评",
+      "户外",
+      "叙事"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/cBtJTnTSaT",
+    "duration": "20分46秒",
+    "outputs": {
+      "html": "ten-things-every-photographer-图文实录.html",
+      "svg": "ten-things-every-photographer-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 659,
+    "svg_height": 4241,
+    "slug": "ten-things-every-photographer"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "害怕街头摄影？试试这3个技巧",
+    "summary": "蒂姆三招降压：渔夫式等人入画、先拍影子倒影等痕迹、与同伴同拍并守尊重；本条 ASR 后半失效，以硬字幕重建。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "街头摄影",
+      "心理",
+      "构图",
+      "观察",
+      "伦理"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8438hMNuccg",
+    "duration": "7分20秒",
+    "outputs": {
+      "html": "street-photo-3-tips-2-图文实录.html",
+      "svg": "street-photo-3-tips-2-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 15,
+    "svg_height": 4650,
+    "slug": "street-photo-3-tips-2"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "炖肉软烂不塞牙：肉类锁水保嫩原理",
+    "summary": "厨艺进阶（十六）：膳食纤维不必焦虑绿叶；煎肉65–80℃锁水+短时美拉德；上浆三层；冻肉先补水后抓盐；小火炖胶原、微火焖回汁；嫩吃锁水香吃脱水，逢炖必炒。",
+    "primary": "food",
+    "skills": [],
+    "tags": [
+      "炖肉",
+      "锁水",
+      "上浆",
+      "火候",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AGPJWOhnFpV",
+    "duration": "图文 10 页",
+    "outputs": {
+      "html": "stew-meat-lock-moisture-图文实录.html",
+      "svg": "stew-meat-lock-moisture-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "stew-meat-lock-moisture"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "炖鱼不香：何时开始调味与投料时序",
+    "summary": "厨艺进阶（十四）：酸中和胺类腥、高温美拉德与油脂萃取、先调色再调味后提鲜、余温防炒老、锅边醋与起锅醋、断生调味、猪油润鱼、奶白汤乳化逻辑。",
+    "primary": "food",
+    "skills": [],
+    "tags": [
+      "炖鱼",
+      "调味顺序",
+      "去腥",
+      "火候",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5RUhNzwSEnm",
+    "duration": "图文 14 页",
+    "outputs": {
+      "html": "stew-fish-seasoning-order-图文实录.html",
+      "svg": "stew-fish-seasoning-order-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "stew-fish-seasoning-order"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "淀粉的烹饪做法：玉米/土豆/红薯淀粉怎么用",
+    "summary": "一页对照：玉米淀粉腌肉锁水；土豆淀粉（生粉）勾芡透亮；红薯淀粉耐高温炸酥肉炸虾。",
+    "primary": "food",
+    "skills": [],
+    "tags": [
+      "淀粉",
+      "勾芡",
+      "炸制",
+      "家常菜",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/81t5K5rFbmk",
+    "duration": "图文 1 页",
+    "outputs": {
+      "html": "starch-cooking-methods-2-图文实录.html",
+      "svg": "starch-cooking-methods-2-理性分析.svg"
+    },
+    "screenshot_count": 1,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "starch-cooking-methods-2"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "梨球教授打成一首曲",
+    "summary": "别死盯残影：用 1-2-3 重音与回弹音色锁定律动；路径变化即变奏。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "拳击",
+      "梨球",
+      "速度球",
+      "节奏",
+      "训练"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AxPLRS7ahkQ",
+    "duration": "1分11秒",
+    "outputs": {
+      "html": "speed-bag-professor-song-图文实录.html",
+      "svg": "speed-bag-professor-song-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 28,
+    "svg_height": 4022,
+    "slug": "speed-bag-professor-song"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "3 块多酱油跟 30 多差在哪里",
+    "summary": "酱油别只看颜色：认酿造/配制、氨基酸态氮等级、配料表，并把贵酱油用在拌蘸淋，炒菜红烧用普通的。",
+    "primary": "life",
+    "skills": [],
+    "tags": [
+      "酱油",
+      "酿造",
+      "氨基酸态氮",
+      "配料表",
+      "厨房"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/H8UjWLOREY",
+    "duration": "3分57秒",
+    "outputs": {
+      "html": "soy-sauce-3yuan-vs-30yuan-图文实录.html",
+      "svg": "soy-sauce-3yuan-vs-30yuan-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 116,
+    "svg_height": 2879,
+    "slug": "soy-sauce-3yuan-vs-30yuan"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "母语语速特辑：高级学习者与母语闲聊差在哪",
+    "summary": "对学习者改选词；用真人秀/喜剧补文化听力；英语应进入生活习惯而非只上词汇课。",
+    "primary": "language",
+    "skills": [],
+    "tags": [
+      "英语",
+      "听力",
+      "母语语速",
+      "文化"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/yE7VEkL",
+    "duration": "8分35秒",
+    "outputs": {
+      "html": "slow-english-channel-notes-图文实录.html",
+      "svg": "slow-english-channel-notes-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 71,
+    "svg_height": 2238,
+    "slug": "slow-english-channel-notes"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "成人学英语：播客为何比「佩奇」更重要（ASR 残缺）",
+    "summary": "Evie 播客谈忙人听力与兴趣驱动；反对硬看儿童动画。ASR 大段无效，仅据可得片段。",
+    "primary": "language",
+    "skills": [],
+    "tags": [
+      "英语",
+      "播客",
+      "成人学习",
+      "听力"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/ttYQfyS",
+    "duration": "15分44秒",
+    "outputs": {
+      "html": "slow-english-adult-learning-图文实录.html",
+      "svg": "slow-english-adult-learning-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 43,
+    "svg_height": 2135,
+    "slug": "slow-english-adult-learning"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "陕西省真的很散装，陕西内部有江南",
+    "summary": "北山与秦岭把陕西切成陕北/关中/陕南三块：黄土边塞、帝王平原面食帝国、秦岭以南长江水系的稻茶与移民方言；西安只是其中一面。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "陕西",
+      "陕北",
+      "关中",
+      "陕南",
+      "地域文化",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1jlX9MYfqJR",
+    "duration": "图文 11 页",
+    "outputs": {
+      "html": "shaanxi-loose-pack-jiangnan-图文实录.html",
+      "svg": "shaanxi-loose-pack-jiangnan-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 0,
+    "svg_height": 1521,
+    "slug": "shaanxi-loose-pack-jiangnan"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "每一局扑克麻将都独一无二",
+    "summary": "54 张扑克全排列约 2.3×10^71，麻将去重后约 4.3×10^162；远超宇宙寿命与原子数尺度的洗牌次数，用于引出建模思维。",
+    "primary": "science",
+    "skills": [],
+    "tags": [
+      "排列组合",
+      "阶乘",
+      "数学思维",
+      "扑克",
+      "麻将"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/RlMSxd8",
+    "duration": "2分54秒",
+    "outputs": {
+      "html": "poker-mahjong-unique-shuffle-图文实录.html",
+      "svg": "poker-mahjong-unique-shuffle-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 88,
+    "svg_height": 2270,
+    "slug": "poker-mahjong-unique-shuffle"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "摄影进化 50 年：11 台相机同场景",
+    "summary": "1972–2025 共 11 款设备同拍庄园：拍立得轮廓到数码/无人机细节，胶片味与科技跃迁对照。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "相机史",
+      "胶片",
+      "数码"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/dQqZMk2",
+    "duration": "2分45秒",
+    "outputs": {
+      "html": "photo-evolution-50years-11cameras-图文实录.html",
+      "svg": "photo-evolution-50years-11cameras-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 64,
+    "svg_height": 2184,
+    "slug": "photo-evolution-50years-11cameras"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "照片通透感到底是什么决定的（续篇）",
+    "summary": "通透=光影两端对比拉开 + 主体与背景色彩有反差；直方图两端空着不代表拍坏，缺高光/暗部才显灰闷。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "通透感",
+      "直方图",
+      "光影对比",
+      "色彩反差",
+      "后期"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2BWCUb1dmfo",
+    "duration": "3分46秒",
+    "outputs": {
+      "html": "photo-clarity-what-decides-2-图文实录.html",
+      "svg": "photo-clarity-what-decides-2-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 83,
+    "svg_height": 2270,
+    "slug": "photo-clarity-what-decides-2"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "手机或许是隐形避孕药",
+    "summary": "2007 前后多国生育率同步下行，与智能手机普及时间重叠；屏幕抹平社交摩擦，面对面与婚姻比例下降，催生政策若只算钱可能漏掉「关系链路」前置条件。",
+    "primary": "society",
+    "skills": [],
+    "tags": [
+      "生育率",
+      "智能手机",
+      "社交",
+      "人口",
+      "政策"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/AkkA4at",
+    "duration": "约10分53秒",
+    "outputs": {
+      "html": "phone-invisible-contraception-图文实录.html",
+      "svg": "phone-invisible-contraception-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 167,
+    "svg_height": 2328,
+    "slug": "phone-invisible-contraception"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "在家也能煎出完美牛排",
+    "summary": "锅前关键：厚薄均匀、回温、吸干、现撒盐胡椒、铸铁等稳高温锅；煎/醒肉章节有画面但口播 ASR 断裂。",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "牛排",
+      "煎制",
+      "美拉德",
+      "回温",
+      "锅具"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3Fc39he4SxQ",
+    "duration": "3分11秒",
+    "outputs": {
+      "html": "perfect-steak-at-home-图文实录.html",
+      "svg": "perfect-steak-at-home-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 43,
+    "svg_height": 4611,
+    "slug": "perfect-steak-at-home"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "问题跑姿：跨步跑｜手把手纠正",
+    "summary": "跨步跑把脚落在身前像硬筷子制动；改成重心下弹簧落地，并用中轴与靠墙前倾练提拉。",
+    "primary": "fitness",
+    "skills": [],
+    "tags": [
+      "跑步",
+      "跑姿",
+      "跨步跑",
+      "提拉"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/55fSmPW3Ta5",
+    "duration": "3分48秒",
+    "outputs": {
+      "html": "overstride-running-form-图文实录.html",
+      "svg": "overstride-running-form-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 72,
+    "svg_height": 2909,
+    "slug": "overstride-running-form"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "开10家关13家，奶茶是好生意吗",
+    "summary": "新茶饮：开10关13；盲测拆感知价值；毛利陷阱与盈亏杯数；规模飞轮才像护城河。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "奶茶",
+      "新茶饮",
+      "加盟",
+      "护城河",
+      "零售"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/SZ4m8sT",
+    "duration": "20分09秒",
+    "outputs": {
+      "html": "milk-tea-open10-close13-图文实录.html",
+      "svg": "milk-tea-open10-close13-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 554,
+    "svg_height": 5070,
+    "slug": "milk-tea-open10-close13"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "欲望与审美如何标价奢侈品",
+    "summary": "奢侈品定价锚在社会识别与财富效应；集团多品牌对冲扛周期；二手/假货在财报外加固「值得追逐」。",
+    "primary": "business",
+    "skills": [],
+    "tags": [
+      "奢侈品",
+      "定价",
+      "财富效应",
+      "LVMH",
+      "二手市场"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/rMA7Fhi",
+    "duration": "17分25秒",
+    "outputs": {
+      "html": "luxury-pricing-desire-aesthetics-图文实录.html",
+      "svg": "luxury-pricing-desire-aesthetics-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 258,
+    "svg_height": 1263,
+    "slug": "luxury-pricing-desire-aesthetics"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "摄影新手 Lightroom 完美调色教程",
+    "summary": "LR 校色面板按阴影/中间调/高光分区上色；与 HSL 来回打磨；互补色（蓝橙、绿红）与类似色方案可复用，夜景阴影更吃得下颜色。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "调色",
+      "色彩理论",
+      "互补色",
+      "新手"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AVdboTnWJ8z",
+    "duration": "约21分05秒",
+    "outputs": {
+      "html": "lr-perfect-grade-beginner-图文实录.html",
+      "svg": "lr-perfect-grade-beginner-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 88,
+    "svg_height": 2765,
+    "slug": "lr-perfect-grade-beginner"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "人生最顶级的清醒",
+    "summary": "十二则生活方式清醒清单：住舒服开便宜车、多睡少攀比、看淡虚名、不超前消费、远离烂人、减欲望拒无效社交、安稳过日子并照顾身体。",
+    "primary": "life",
+    "skills": [],
+    "tags": [
+      "人生感悟",
+      "清醒",
+      "生活方式",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8WYmAYbFNZ5",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "life-top-clarity-图文实录.html",
+      "svg": "life-top-clarity-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "life-top-clarity"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "语言决定思维：内耗也来自语言",
+    "summary": "外语效应让人更疏离情绪、更偏理性；极端概括词会放大内耗。换具体描述、多语言视角，可拉开与情绪的距离。",
+    "primary": "life",
+    "skills": [],
+    "tags": [
+      "语言",
+      "思维",
+      "外语效应",
+      "内耗",
+      "表达"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/NNuiaZK",
+    "duration": "3分25秒",
+    "outputs": {
+      "html": "language-shapes-thinking-inner-图文实录.html",
+      "svg": "language-shapes-thinking-inner-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 125,
+    "svg_height": 2270,
+    "slug": "language-shapes-thinking-inner"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "韩国房地产全租房为何暴雷",
+    "summary": "全租房用巨额押金换「白住两年」，曾是韩国过半租约与全民加杠杆通道；2022–2023 诈骗与倒挂叠加后信任崩塌，政策两头堵却难挡首尔房价再创新高，住房阶梯被抽掉中间一级。",
+    "primary": "finance",
+    "skills": [],
+    "tags": [
+      "全租房",
+      "韩国房价",
+      "jeonse",
+      "住房阶梯"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/yEsf7BY",
+    "duration": "16分28秒",
+    "outputs": {
+      "html": "korea-jeonse-housing-crisis-图文实录.html",
+      "svg": "korea-jeonse-housing-crisis-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 563,
+    "svg_height": 4079,
+    "slug": "korea-jeonse-housing-crisis"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Kimi 开源模型：美国吵什么",
+    "summary": "开源冲榜与代码能力、算力爆满暂停订阅，对照美方开源/IP 话术；中段 ASR 空洞已标明。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "AI",
+      "Kimi",
+      "开源",
+      "中美"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/aAQw5qV",
+    "duration": "5分14秒",
+    "outputs": {
+      "html": "kimi-k3-us-noise-图文实录.html",
+      "svg": "kimi-k3-us-noise-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 62,
+    "svg_height": 2402,
+    "slug": "kimi-k3-us-noise"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "上市越来越晚，散户越来越穷？",
+    "summary": "IPO 变晚：私募与另类资产吞掉早期成长；散户进入时公司已巨型；私募流动性基础设施兴起。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "IPO",
+      "私募",
+      "散户",
+      "VC",
+      "二级市场"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/KBYh7Se",
+    "duration": "13分30秒",
+    "outputs": {
+      "html": "ipo-later-retail-poorer-图文实录.html",
+      "svg": "ipo-later-retail-poorer-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 209,
+    "svg_height": 5070,
+    "slug": "ipo-later-retail-poorer"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "印度经济增长第一的纸面冠军",
+    "summary": "用 AKL 拆印度「纸面冠军」：跳过制造业、人才外流、外资净流入近零；7.6% 增速难对应街头体感。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "印度经济",
+      "GDP",
+      "制造业",
+      "外资",
+      "AKL"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/NyyOx5R",
+    "duration": "20分54秒",
+    "outputs": {
+      "html": "india-economy-paper-champion-图文实录.html",
+      "svg": "india-economy-paper-champion-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 719,
+    "svg_height": 5387,
+    "slug": "india-economy-paper-champion"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "万能句型 I wish：祝福例句卡片",
+    "summary": "32秒短片；ASR极短，据画面教 I wish+名词/从句及若干祝福例句，证据受限已标明。",
+    "primary": "language",
+    "skills": [],
+    "tags": [
+      "英语",
+      "I wish",
+      "祝福",
+      "口语"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/25U3OFHzlUU",
+    "duration": "32秒",
+    "outputs": {
+      "html": "i-wish-blessing-sentences-图文实录.html",
+      "svg": "i-wish-blessing-sentences-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 2,
+    "svg_height": 2207,
+    "slug": "i-wish-blessing-sentences"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "热天出门？实为万能句型资料分享（标题有偏差）",
+    "summary": "描述写妆白化出汗，口播实为逛吃开场+万能句型/词块资料与练习法；偏差已标明。",
+    "primary": "language",
+    "skills": [],
+    "tags": [
+      "英语",
+      "万能句型",
+      "口语",
+      "资料分享"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/76C8NZ6ieAn",
+    "duration": "2分34秒",
+    "outputs": {
+      "html": "hot-day-makeup-whitening-sweat-图文实录.html",
+      "svg": "hot-day-makeup-whitening-sweat-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 63,
+    "svg_height": 2402,
+    "slug": "hot-day-makeup-whitening-sweat"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "耳朵怎么听出和弦里有几个音？",
+    "summary": "单音是泛音列；大脑按共同周期与整数倍打包成「一个音」。听和弦先外后内，中间声部可早出或加颤。",
+    "primary": "science",
+    "skills": [],
+    "tags": [
+      "听觉",
+      "泛音",
+      "和弦",
+      "乐理",
+      "消失的基频"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1VSYARWlmfy",
+    "duration": "3分16秒",
+    "outputs": {
+      "html": "hear-chord-how-many-notes-图文实录.html",
+      "svg": "hear-chord-how-many-notes-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 54,
+    "svg_height": 4586,
+    "slug": "hear-chord-how-many-notes"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "哈苏X2D II环游冰岛11天：日全食、黑沙滩",
+    "summary": "英文旅拍口播：X2D II 走冰岛瀑布/地热/玄武岩/Vestrahorn；ND慢门、焦点堆叠与星芒等操作点到为止。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "哈苏",
+      "X2D II",
+      "冰岛",
+      "风光",
+      "中画幅"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1uK98irE2l9",
+    "duration": "7分48秒",
+    "outputs": {
+      "html": "hasselblad-x2d2-iceland-11days-图文实录.html",
+      "svg": "hasselblad-x2d2-iceland-11days-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 23,
+    "svg_height": 4592,
+    "slug": "hasselblad-x2d2-iceland-11days"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "1亿像素中画幅，哈苏 X2D II 值得买吗",
+    "summary": "英文评测重建：X2D II 的 100MP/高位深 RAW、1TB 与强防抖 vs 超大文件、体量、价格三 catch；作者仍认作物有所值的终局拍照机。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "哈苏",
+      "X2D II",
+      "中画幅",
+      "100MP",
+      "器材评测"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5z6URxhERoM",
+    "duration": "13分54秒",
+    "outputs": {
+      "html": "hasselblad-x2d2-100mp-worth-图文实录.html",
+      "svg": "hasselblad-x2d2-100mp-worth-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 651,
+    "svg_height": 4370,
+    "slug": "hasselblad-x2d2-100mp-worth"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "哈苏大师：简洁照片背后一点不简单",
+    "summary": "Hasselblad Master Rowan 的「简单」来自减信息：天气/潮汐/白平衡与跨领域灵感；看似轻松的画面背后是选址研究与等待条件。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "风光",
+      "极简",
+      "Hasselblad",
+      "构图",
+      "创作方法"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5MMd7RCPjAq",
+    "duration": "约11分14秒",
+    "outputs": {
+      "html": "hasselblad-master-simple-photos-图文实录.html",
+      "svg": "hasselblad-master-simple-photos-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 191,
+    "svg_height": 2517,
+    "slug": "hasselblad-master-simple-photos"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "硬光与柔光的区别是什么？分别怎么用？",
+    "summary": "看阴影边缘判软硬；关键是主体眼中光源有多大。增大发光面、靠近、白墙反射可变柔；硬光塑形纹理投影，柔光做人像产品亦可高反差。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "硬光",
+      "柔光",
+      "用光",
+      "摄影基础",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9oWVlIl8nhI",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "hard-light-vs-soft-light-2-图文实录.html",
+      "svg": "hard-light-vs-soft-light-2-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "hard-light-vs-soft-light-2"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "涂抹感严重？5 个设定提升富士清晰度",
+    "summary": "富士直出发糊别只怪镜头：分清锐度与清晰度、按场景调高感降噪、用最佳光圈、压 ISO、减快门震动——五步减少机内涂抹。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "富士",
+      "锐度",
+      "清晰度",
+      "高感降噪",
+      "直出"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ArMrVFCSCSn",
+    "duration": "3分45秒",
+    "outputs": {
+      "html": "fuji-clarity-5-settings-图文实录.html",
+      "svg": "fuji-clarity-5-settings-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 81,
+    "svg_height": 2583,
+    "slug": "fuji-clarity-5-settings"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "折叠 iPhone 用满 7 天，我还是没爱上",
+    "summary": "硬件惊艳（薄、纳米纹理内屏、用后置自拍监视器），但缺 Face ID、软件分屏别扭、无 ProRes/Apple Log；一周后仍在问「解锁了什么新能力」。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "折叠屏",
+      "iPhone",
+      "测评",
+      "影像",
+      "软件体验"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/32xkR4mbfD4",
+    "duration": "约30分32秒",
+    "outputs": {
+      "html": "fold-iphone-7days-not-love-图文实录.html",
+      "svg": "fold-iphone-7days-not-love-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 93,
+    "svg_height": 2747,
+    "slug": "fold-iphone-7days-not-love"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "风味茄子教程分享",
+    "summary": "去瓤菱形块+玉米淀粉反复拍粉；六成油温炸透并复炸；醋糖蚝油汁熬稠后少翻裹匀。",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "茄子",
+      "家常菜",
+      "炸制",
+      "酸甜",
+      "玉米淀粉"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7bcXacSy7nP",
+    "duration": "8分20秒",
+    "outputs": {
+      "html": "flavorful-eggplant-tutorial-图文实录.html",
+      "svg": "flavorful-eggplant-tutorial-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 71,
+    "svg_height": 4568,
+    "slug": "flavorful-eggplant-tutorial"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "别再乱炖肉：五种肉各对应一味香料",
+    "summary": "猪牛羊鸡鱼的腥源不同，葱姜蒜是万能但不精准：猪配八角、牛配胡椒迷迭香、羊配孜然小茴香、鸡配花椒、鱼炖白芷烧紫苏。",
+    "primary": "life",
+    "skills": [],
+    "tags": [
+      "去腥",
+      "香料",
+      "炖肉",
+      "烹饪化学"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6CvWqSy4OkI",
+    "duration": "4分36秒",
+    "outputs": {
+      "html": "five-meats-one-spice-each-图文实录.html",
+      "svg": "five-meats-one-spice-each-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 160,
+    "svg_height": 2520,
+    "slug": "five-meats-one-spice-each"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "摄影指导怎么决定机位？规则之外的答案",
+    "summary": "机位不在三分法里：从狄金斯偏好、《回3》发现镜头、《怒路》居中到《新蝙蝠侠》按角度造城，论证眼睛、理由与剪辑约束。",
+    "primary": "photography",
+    "skills": [],
+    "tags": [
+      "电影摄影",
+      "机位",
+      "构图",
+      "狄金斯",
+      "直觉"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3Fa25jwgG88",
+    "duration": "18分42秒",
+    "outputs": {
+      "html": "dp-camera-angle-beyond-rules-图文实录.html",
+      "svg": "dp-camera-angle-beyond-rules-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 820,
+    "svg_height": 4283,
+    "slug": "dp-camera-angle-beyond-rules"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "原来区别这么老大",
+    "summary": "无可用口播；画面用 1/30/200 美元价签球拍做弹跳对比，直觉展示「区别很大」。",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "乒乓球",
+      "球拍",
+      "对比",
+      "器材"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/26QmGVTv2cL",
+    "duration": "1分00秒",
+    "outputs": {
+      "html": "difference-so-big-图文实录.html",
+      "svg": "difference-so-big-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 4017,
+    "slug": "difference-so-big"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "DeepSeek 连融两轮 500 亿：梁文锋想干什么",
+    "summary": "DeepSeek 连融为期权定价留人；开源权重省推理卡并换国产算力生态，战略减法奔 AGI。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "DeepSeek",
+      "梁文锋",
+      "开源",
+      "融资",
+      "AGI"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/1LCbtK0",
+    "duration": "6分27秒",
+    "outputs": {
+      "html": "deepseek-two-rounds-50b-图文实录.html",
+      "svg": "deepseek-two-rounds-50b-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 278,
+    "svg_height": 1236,
+    "slug": "deepseek-two-rounds-50b"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "大理旅居：一场昂贵的幻觉和残酷真相",
+    "summary": "旅居≠旅游：房租开销、吃饭交通、雨天住房、噪音烟味、远程工作与情绪行李都会留下；建议先试住普通工作日与雨天再决定。",
+    "primary": "life",
+    "skills": [],
+    "tags": [
+      "大理",
+      "旅居",
+      "云南",
+      "生活方式",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/37YzEj4asZ9",
+    "duration": "图文 11 页",
+    "outputs": {
+      "html": "dali-sojourn-illusion-truth-图文实录.html",
+      "svg": "dali-sojourn-illusion-truth-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "dali-sojourn-illusion-truth"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "搞懂烹饪原理，发酵料香料干货轻松应对",
+    "summary": "厨艺进阶（九）：酯化、葱姜蒜脂溶煸香、香料油温唤醒、糖锁鲜、盐渗透压、糖盐配比、焯青保绿、凉食变甜、淡味配干货与香菇海米水回用。",
+    "primary": "food",
+    "skills": [],
+    "tags": [
+      "烹饪原理",
+      "香料",
+      "发酵料",
+      "调味",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6WyVqRefRiQ",
+    "duration": "图文 12 页",
+    "outputs": {
+      "html": "cooking-principle-ferments-spices-图文实录.html",
+      "svg": "cooking-principle-ferments-spices-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 0,
+    "svg_height": 1472,
+    "slug": "cooking-principle-ferments-spices"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "公司控制权到底怎么控",
+    "summary": "控制权≠股权：阈值、AB股、董事会与 VIE 是工具；最终能否焊住取决于车技是否被市场盖章。",
+    "primary": "business",
+    "skills": [],
+    "tags": [
+      "控制权",
+      "AB股",
+      "董事会",
+      "VIE",
+      "创始人"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/O7xEzzJ",
+    "duration": "21分28秒",
+    "outputs": {
+      "html": "company-control-rights-图文实录.html",
+      "svg": "company-control-rights-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 781,
+    "svg_height": 1263,
+    "slug": "company-control-rights"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "国产路虎保时捷汽车为什么越长越像",
+    "summary": "抠掉车标难分的轿车/SUV，背后是「合法模仿的擦边美学」：风格属公共资源、细节改到免责。视频用陆风 X7 vs 极光、双环 vs CR-V 对照侵权边界，追溯保时捷←甲壳虫←Tatra，论证模仿是后发工业必修课，遗憾在于功能导向的原创自信仍不足。",
+    "primary": "auto",
+    "skills": [],
+    "tags": [
+      "汽车设计",
+      "外观专利",
+      "借鉴边界",
+      "国产车"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/Rrvhclv",
+    "duration": "17分45秒",
+    "outputs": {
+      "html": "cars-look-alike-landrover-porsche-图文实录.html",
+      "svg": "cars-look-alike-landrover-porsche-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 530,
+    "svg_height": 4079,
+    "slug": "cars-look-alike-landrover-porsche"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "每日英语：用茶文化听力建立「英语脑」",
+    "summary": "英语口播串讲四类茶与工夫茶礼仪；以主题听力实践「英语脑」，兼记茶文化要点。",
+    "primary": "language",
+    "skills": [],
+    "tags": [
+      "英语",
+      "听力",
+      "茶文化",
+      "英语脑"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4ZIQLgjEg26",
+    "duration": "3分35秒",
+    "outputs": {
+      "html": "build-english-brain-图文实录.html",
+      "svg": "build-english-brain-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 31,
+    "svg_height": 2564,
+    "slug": "build-english-brain"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "脚踩刹车为何能刹停几吨汽车",
+    "summary": "液压刹车靠杠杆→真空助力→帕斯卡面积比三级放大；线控刹车把踏板变成传感器，仍保留机械液压冗余。踩死超过约 500 N 不再增加最大制动力。",
+    "primary": "science",
+    "skills": [],
+    "tags": [
+      "刹车",
+      "液压",
+      "真空助力",
+      "线控制动",
+      "帕斯卡原理"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/hRVfKcI",
+    "duration": "3分28秒",
+    "outputs": {
+      "html": "brake-pedal-stop-tons-图文实录.html",
+      "svg": "brake-pedal-stop-tons-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 98,
+    "svg_height": 2394,
+    "slug": "brake-pedal-stop-tons"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "彭博深度专访李飞飞：世界模型与物理智能",
+    "summary": "李飞飞谈 ImageNet 遗产与 World Labs：世界模型补上物理世界的编辑/行动/规划，并警惕神之复合。",
+    "primary": "tech",
+    "skills": [],
+    "tags": [
+      "李飞飞",
+      "世界模型",
+      "ImageNet",
+      "Marble",
+      "AI伦理"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/ukdyHwP",
+    "duration": "24分4秒",
+    "outputs": {
+      "html": "bloomberg-fei-fei-li-interview-图文实录.html",
+      "svg": "bloomberg-fei-fei-li-interview-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 918,
+    "svg_height": 1263,
+    "slug": "bloomberg-fei-fei-li-interview"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "超越马斯克？Claude 估值大战怎么看",
+    "summary": "Anthropic/Claude 天价估值=四波资本+TAM/饭碗叙事+云厂商绑定；完美定价下容错极低。",
+    "primary": "business",
+    "skills": [],
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "估值",
+      "TAM",
+      "AI"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/gvHEjOo",
+    "duration": "18分27秒",
+    "outputs": {
+      "html": "beyond-musk-claude-valuation-图文实录.html",
+      "svg": "beyond-musk-claude-valuation-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 228,
+    "svg_height": 1236,
+    "slug": "beyond-musk-claude-valuation"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "阿根廷百年经济困局",
+    "summary": "阿根廷从「富得像阿根廷人」跌成反复违约的第四种国家：潘帕斯红利→进口替代→庇隆福利刚性→外汇短缺跳探戈→印钞/1:1 兑换计划/千亿违约。对照澳大利亚多发动机出口，开源节流才是百年未解的题；米莱电锯政策是又一次尝试。",
+    "primary": "finance",
+    "skills": [],
+    "tags": [
+      "阿根廷",
+      "通胀",
+      "外汇约束",
+      "米莱"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/9RrIHtI",
+    "duration": "34分14秒",
+    "outputs": {
+      "html": "argentina-century-economy-trap-图文实录.html",
+      "svg": "argentina-century-economy-trap-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 1142,
+    "svg_height": 4217,
+    "slug": "argentina-century-economy-trap"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "中国建筑八大派系：更适合进动漫的民居美学",
+    "summary": "京派四合院、苏派园林、晋派大院、徽派马头墙、闽派红砖厝、粤派镬耳墙、川派茶居、藏派碉楼：各派核心美学与构件，希望被动漫/武侠视觉更多看见。",
+    "primary": "culture",
+    "skills": [],
+    "tags": [
+      "建筑",
+      "民居",
+      "动漫",
+      "武侠美学",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4Y3wthCZtGz",
+    "duration": "图文 9 页",
+    "outputs": {
+      "html": "anime-beijing-shanghai-wuxia-图文实录.html",
+      "svg": "anime-beijing-shanghai-wuxia-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 0,
+    "svg_height": 1512,
+    "slug": "anime-beijing-shanghai-wuxia"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "黑卡神话美国运通",
+    "summary": "黑卡先有谣言后有产品；运通从武装押运标局到汇票/旅行支票 float，再到签账卡精英梯子与闭环收单。色拉油丑闻赔信誉换巴菲特重仓；高商户费率靠优质客群反向要挟。黑卡是面子，会员制才是底子。",
+    "primary": "finance",
+    "skills": [],
+    "tags": [
+      "美国运通",
+      "黑卡",
+      "闭环支付",
+      "信用"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/WFDjbPC",
+    "duration": "20分46秒",
+    "outputs": {
+      "html": "amex-black-card-myth-图文实录.html",
+      "svg": "amex-black-card-myth-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 620,
+    "svg_height": 4122,
+    "slug": "amex-black-card-myth"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "AI助理争夺战：Muse、Grokbot、Instinct",
+    "summary": "Muse/Instinct/Grokbot：个人 Agent 入口战；分发差异、多Agent分工、隐私与平台冲突、烧钱单位经济。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "AI Agent",
+      "Meta Muse",
+      "Instinct",
+      "Grokbot",
+      "硅谷101"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/wLNaTKd",
+    "duration": "33分28秒",
+    "outputs": {
+      "html": "ai-assistant-muse-grok-instinct-图文实录.html",
+      "svg": "ai-assistant-muse-grok-instinct-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 873,
+    "svg_height": 5070,
+    "slug": "ai-assistant-muse-grok-instinct"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "智能体手机加速爆发｜硅谷101",
+    "summary": "智能体手机：换机周期拉长倒逼 Agent 叙事；整机 Agent vs Super App；端侧芯片为多步任务铺路。",
+    "primary": "auto-digital",
+    "skills": [],
+    "tags": [
+      "AI手机",
+      "Agent",
+      "高通",
+      "努比亚",
+      "端侧AI"
+    ],
+    "platform": "bilibili",
+    "url": "https://b23.tv/MDs3A6m",
+    "duration": "20分04秒",
+    "outputs": {
+      "html": "agent-phone-silicon-valley-101-图文实录.html",
+      "svg": "agent-phone-silicon-valley-101-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 552,
+    "svg_height": 5211,
+    "slug": "agent-phone-silicon-valley-101"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "红光加绿光是黄，红颜料加绿颜料是泥？",
+    "summary": "光走RGB加法、颜料走减法；红+绿在两种媒介里机制相反。并对照犬鸟感光细胞，说明人眼颜色由三通道混成。",
+    "primary": "science",
+    "skills": [],
+    "tags": [
+      "色彩",
+      "加法混色",
+      "减法混色",
+      "RGB"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8qdhDFOjr7J",
+    "duration": "2分22秒",
+    "outputs": {
+      "html": "red-green-light-vs-paint-图文实录.html",
+      "svg": "red-green-light-vs-paint-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 8,
+    "svg_height": 1236,
+    "slug": "red-green-light-vs-paint"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "【广东】为什么广东不像一个省？",
+    "summary": "广府/潮汕/客家是入口而非全部；语言层积、广州中心与珠江「连接又分异」说明：一个省可以叠很多地方身份。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "广东",
+      "广府",
+      "潮汕",
+      "客家",
+      "方言",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6ubI5C8mIZz",
+    "duration": "图文 12 页",
+    "outputs": {
+      "html": "why-guangdong-unlike-a-province-图文实录.html",
+      "svg": "why-guangdong-unlike-a-province-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 0,
+    "svg_height": 1236,
+    "slug": "why-guangdong-unlike-a-province"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "同样一桶水，分三次漂洗干净43倍！",
+    "summary": "理想模型下同样清水分三次漂，脏物残留可到约1/1331，比一次漂干净40多倍；对应化学「少量多次」，并给出牙膏漱口等适用边界。",
+    "primary": "science",
+    "skills": [],
+    "tags": [
+      "少量多次",
+      "稀释",
+      "洗衣",
+      "化学",
+      "节水"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1BWX4UU7ERi",
+    "duration": "2分13秒",
+    "outputs": {
+      "html": "rinse-three-times-43x-cleaner-图文实录.html",
+      "svg": "rinse-three-times-43x-cleaner-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 37,
+    "svg_height": 1238,
+    "slug": "rinse-three-times-43x-cleaner"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "越野跑下坡一个技巧一个坑",
+    "summary": "11秒台阶下坡演示；口播ASR几乎为空，图文以画面纪实为主并标明待补全技巧/坑细则。",
+    "primary": "sport",
+    "skills": [],
+    "tags": [
+      "越野跑",
+      "下坡",
+      "跑步",
+      "ASR不全"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Wr3ETF0tHC",
+    "duration": "11秒",
+    "outputs": {
+      "html": "trail-run-downhill-tip-pitfall-图文实录.html",
+      "svg": "trail-run-downhill-tip-pitfall-理性分析.svg"
+    },
+    "screenshot_count": 2,
+    "transcript_segments": 1,
+    "svg_height": 1236,
+    "slug": "trail-run-downhill-tip-pitfall"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "苏州经济更强，江苏省会是南京？",
+    "summary": "清代江宁/苏州双中心，民国省会迁镇江，1949分治后经1952信件于1953定南京；苏州经济体量不能回溯改写行政选址。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "江苏",
+      "南京",
+      "苏州",
+      "省会",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1hbF35jP8NI",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "jiangsu-capital-nanjing-not-suzhou-图文实录.html",
+      "svg": "jiangsu-capital-nanjing-not-suzhou-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 1292,
+    "slug": "jiangsu-capital-nanjing-not-suzhou"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "为什么一个云南，装得下这么多风景？",
+    "summary": "一省落差逾 6600 米；三江并流靠山脊分水；垂直带与干热河谷解释同海拔不同干湿；约 6% 坝子聚城，收成四个地理世界。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "云南",
+      "地理",
+      "三江并流",
+      "坝子",
+      "垂直带",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6N7CoSKA3rK",
+    "duration": "图文 6 页",
+    "outputs": {
+      "html": "yunnan-so-many-landscapes-图文实录.html",
+      "svg": "yunnan-so-many-landscapes-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 0,
+    "svg_height": 1287,
+    "slug": "yunnan-so-many-landscapes"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "陕西有多不一样？一道秦岭，三种山河",
+    "summary": "秦岭为脊分出陕北黄土、关中平原、陕南秦巴；北归黄河、南入长江，再落到十城与 5A 分布。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "陕西",
+      "秦岭",
+      "地理",
+      "黄土高原",
+      "关中",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/56Uq3sFvHia",
+    "duration": "图文 7 页",
+    "outputs": {
+      "html": "shaanxi-qinling-three-landscapes-图文实录.html",
+      "svg": "shaanxi-qinling-three-landscapes-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 0,
+    "svg_height": 1248,
+    "slug": "shaanxi-qinling-three-landscapes"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "河南省会为什么是郑州？开封、洛阳不配吗",
+    "summary": "开封因漕运而盛、因运河改线失全国枢纽；郑州凭京汉×陇海交会与纺织工业底子，在1954年接过省会。洛阳古代定都逻辑与现代居中调度需求被分开讨论。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "河南",
+      "省会",
+      "郑州",
+      "开封",
+      "洛阳",
+      "铁路",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3DTbwvDl1V5",
+    "duration": "图文 8 页",
+    "outputs": {
+      "html": "henan-capital-why-zhengzhou-图文实录.html",
+      "svg": "henan-capital-why-zhengzhou-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 0,
+    "svg_height": 2649,
+    "slug": "henan-capital-why-zhengzhou"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "一组图看懂中国地理：气候 × 河流 × 山脉",
+    "summary": "四张信息图串起气候带、山脉走向骨架、流域与十大河流、自然资源分区不均；用南北/东西差异轴复习，而不是只背地名。",
+    "primary": "geo",
+    "skills": [],
+    "tags": [
+      "地理",
+      "气候",
+      "山脉",
+      "河流",
+      "资源",
+      "图文"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6hm2svmxJZ4",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "china-geography-climate-river-mountain-图文实录.html",
+      "svg": "china-geography-climate-river-mountain-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 4319,
+    "slug": "china-geography-climate-river-mountain"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "摄影中锐利度的真相",
+    "summary": "合焦范围扩大≠画面更锐：过小光圈因衍射变软，多数镜头甜蜜点约F5.6–F11；风光可用焦点堆叠，锐度按表达取舍而非唯一目标。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "锐度",
+      "光圈",
+      "衍射",
+      "焦点堆叠",
+      "三脚架"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7yXWjJq2JlH",
+    "duration": "5分47秒",
+    "outputs": {
+      "html": "sharpness-truth-2-图文实录.html",
+      "svg": "sharpness-truth-2-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 85,
+    "svg_height": 5582,
+    "slug": "sharpness-truth-2"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Nikon Z5 IIC vs Sony A7C II/A7CR：婚礼摄影师街头对决",
+    "summary": "婚礼摄影师对比约1400美元Z5 IIC与约2500美元A7C II：屏幕与防抖不裁切偏尼康，第三方小头与紧凑感偏索尼；无EVF是硬门槛，更适合第二机或24-200旅行套装。",
+    "primary": "photo",
+    "tags": [
+      "Z5 IIC",
+      "A7C II",
+      "A7CR",
+      "婚礼摄影",
+      "防抖",
+      "取景器"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6LdGjmMTIU0",
+    "duration": "19分59秒",
+    "outputs": {
+      "html": "nikon-z5iic-vs-sony-a7c-图文实录.html",
+      "svg": "nikon-z5iic-vs-sony-a7c-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 956,
+    "svg_height": 4625,
+    "slug": "nikon-z5iic-vs-sony-a7c"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "三天拍1.9TB为什么没买尼康ZR（索尼用户视角）",
+    "summary": "索尼混摄旅拍作者借尼康ZR三天拍约1.9TB RED RAW：后期自由度高，但因文件体积、开机按钮、无EVF与握持不买，更推荐Z6III。",
+    "primary": "photo",
+    "tags": [
+      "尼康ZR",
+      "RED RAW",
+      "索尼",
+      "Z6III",
+      "旅行视频",
+      "存储成本"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5PXdltZoVZJ",
+    "duration": "17分27秒",
+    "outputs": {
+      "html": "nikon-zr-sony-1-9tb-图文实录.html",
+      "svg": "nikon-zr-sony-1-9tb-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 215,
+    "svg_height": 6810,
+    "slug": "nikon-zr-sony-1-9tb"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "一个人拍出电影感：先找到那个好故事",
+    "summary": "独立短片课：电影感先找心动的人与故事；情感定调后选音乐写旁白，Milanote收拢筹备，一半计划一半抓拍，剪辑先声后色，成片记得致谢帮手。",
+    "primary": "video",
+    "skills": [
+      "剪辑"
+    ],
+    "tags": [
+      "电影感",
+      "独立电影",
+      "故事选角",
+      "Milanote",
+      "声音设计",
+      "短片创作"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2GYRWcyrpnL",
+    "duration": "16分28秒",
+    "outputs": {
+      "html": "solo-cinematic-find-story-图文实录.html",
+      "svg": "solo-cinematic-find-story-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 6260,
+    "slug": "solo-cinematic-find-story"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "修色总翻车？先学会平衡饱和度",
+    "summary": "风光调色：颜色像待办清单分优先级，且不孤立；提暖需压冷来平衡饱和度栈，对冲色必须画面真实存在，避免用紫品红凑假平衡。",
+    "primary": "color-grade",
+    "skills": [
+      "二级调色"
+    ],
+    "tags": [
+      "饱和度",
+      "HSL",
+      "色彩平衡",
+      "风光后期",
+      "Luminar",
+      "减法增暖"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/48CRkDUg849",
+    "duration": "14分35秒",
+    "outputs": {
+      "html": "balance-saturation-grade-图文实录.html",
+      "svg": "balance-saturation-grade-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 551,
+    "svg_height": 5111,
+    "slug": "balance-saturation-grade"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "为什么我爱用全景画幅拍风光",
+    "summary": "挪威初雪秋色：全景用比例裁掉多余天空与前景，把故事压到中间内容线；16:9/X-Pan可逆，星芒与虚化是表达选择，常规画幅在需要大环境时仍更合适。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "全景",
+      "风光",
+      "哈苏",
+      "X-Pan",
+      "星芒",
+      "画幅"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4PIRD7SqXoE",
+    "duration": "13分45秒",
+    "outputs": {
+      "html": "panoramic-landscape-why-图文实录.html",
+      "svg": "panoramic-landscape-why-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 332,
+    "svg_height": 5283,
+    "slug": "panoramic-landscape-why"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "拍人像不用想姿势，先让对方自在",
+    "summary": "人像平平先查舒适感：场次压到30–60分钟，不自在就换长焦拉开距离，情绪板要具体，拍摄中闲聊夸奖，姿势只给宽松起点避免微操僵住。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "人像摄影",
+      "沟通",
+      "焦段",
+      "情绪板",
+      "姿势",
+      "拍摄时长"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6U6T6V4PbWo",
+    "duration": "9分05秒",
+    "outputs": {
+      "html": "portrait-pose-make-relaxed-图文实录.html",
+      "svg": "portrait-pose-make-relaxed-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 109,
+    "svg_height": 3293,
+    "slug": "portrait-pose-make-relaxed"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "这么贵的 X100VI你只拿来拍照？我很痛心！",
+    "summary": "大胡小胡把 X100VI 当摄影机：普通4K保视角、HQ/6.2K付裁切税；日常4K30、升格4K60；胶片模拟直出+白平衡；1/60抹糊靠ND；JJC三合一；影片宜定机位勿边走边拍。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "富士",
+      "X100VI",
+      "视频设置",
+      "胶片模拟",
+      "ND滤镜",
+      "防抖"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6meYgtVDtie",
+    "duration": "12分43秒",
+    "outputs": {
+      "html": "x100vi-more-than-photo-图文实录.html",
+      "svg": "x100vi-more-than-photo-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 198,
+    "svg_height": 6120,
+    "slug": "x100vi-more-than-photo"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "害怕街头摄影？试试这3个技巧",
+    "summary": "摄影人生转述蒂姆三招降压：渔夫式等人入画、先拍影子倒影等痕迹、与同伴同拍并守尊重；用小胜利替换脑内最坏剧本，真正对手常是恐惧而非路人。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "街头摄影",
+      "心理",
+      "构图",
+      "观察",
+      "伦理",
+      "人像"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3Py5TYjEBWQ",
+    "duration": "7分20秒",
+    "outputs": {
+      "html": "street-photo-3-tips-图文实录.html",
+      "svg": "street-photo-3-tips-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 213,
+    "svg_height": 5680,
+    "slug": "street-photo-3-tips"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "摄影大神教你 Lightroom 调色秘诀！",
+    "summary": "用 3Y Line Tri 把颜色分级三点摆成直线/三角/Y/三点组合；先调主导影调、中间调最后，配合 Shift/Command 与明亮度混合平衡，告别乱拖色轮。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "颜色分级",
+      "色轮",
+      "调色",
+      "色彩和谐",
+      "3Y Line Tri"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5zJTLtIbqH7",
+    "duration": "12分20秒",
+    "outputs": {
+      "html": "lightroom-color-secrets-图文实录.html",
+      "svg": "lightroom-color-secrets-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 374,
+    "svg_height": 3771,
+    "slug": "lightroom-color-secrets"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "【聊点真话】富士X100VI：溢价退去值得回看",
+    "summary": "江航屹半年回看X100VI：溢价退去后更偏好玩；全开解析力一般但日常够用，焦外有复古硬味，跟焦已解放而外对焦仍有声响，胶片模拟因本地源截断未展开。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "富士",
+      "X100VI",
+      "器材评测",
+      "焦外",
+      "解析力",
+      "对焦"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1FnZTYTSaUG",
+    "duration": "6分14秒",
+    "outputs": {
+      "html": "fuji-x100vi-premium-revisit-图文实录.html",
+      "svg": "fuji-x100vi-premium-revisit-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 111,
+    "svg_height": 5777,
+    "slug": "fuji-x100vi-premium-revisit"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "摄影中锐利度的真相",
+    "summary": "纠正「缩到F22就最锐」：合焦范围≠画面锐度，过小光圈会因衍射变软；多数镜头甜蜜点约F5.6–F11，风光可用焦点堆叠，锐度也不是唯一表达目标。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "锐度",
+      "光圈",
+      "衍射",
+      "焦点堆叠",
+      "最佳光圈"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/sRfGFdqPur",
+    "duration": "5分48秒",
+    "outputs": {
+      "html": "sharpness-truth-图文实录.html",
+      "svg": "sharpness-truth-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 157,
+    "svg_height": 5582,
+    "slug": "sharpness-truth"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "摄影师原地踏步的原因",
+    "summary": "李梦一拆三类原地踏步：视觉感受力弱、练习时间不够、技术平台期缺思考；建议看日系作品练眼、持续拍摄，并用找对比突破风格深度。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "原地踏步",
+      "练眼",
+      "日系摄影",
+      "时间投入",
+      "平台期"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6XWbCSDrhlf",
+    "duration": "3分25秒",
+    "outputs": {
+      "html": "photographer-stagnation-cause-图文实录.html",
+      "svg": "photographer-stagnation-cause-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 81,
+    "svg_height": 5528,
+    "slug": "photographer-stagnation-cause"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "没人帮你拍？构图+布光+调色自己搞定",
+    "summary": "独自拍完整流程：用视线五问锁死固定机位，靠引导线/层次/留白与前景、画内运动做活镜头；再以中景/特写/全景做覆盖，用窗户自然光暗侧塑脸，最后让调色服务情绪叙事。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "独自拍摄",
+      "固定镜头",
+      "构图",
+      "前景",
+      "画面内运动",
+      "镜头覆盖",
+      "窗光",
+      "调色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9DZLKSaOEkU",
+    "duration": "4分58秒",
+    "outputs": {
+      "html": "solo-video-compose-light-grade-图文实录.html",
+      "svg": "solo-video-compose-light-grade-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 132,
+    "svg_height": 5604,
+    "slug": "solo-video-compose-light-grade"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "富士X100VI 📷 新手教程｜从按键到出片",
+    "summary": "三分半上手富士X100VI：底仓装电池卡、顶盘曝光与上提ISO、背面Q键改闪光灯/胶片模拟，并给出作者CC/NC直出参数起点。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "富士",
+      "X100VI",
+      "新手教程",
+      "胶片模拟",
+      "相机上手",
+      "摄影"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4lAB5TCaBRN",
+    "duration": "3分28秒",
+    "outputs": {
+      "html": "fuji-x100vi-beginner-guide-图文实录.html",
+      "svg": "fuji-x100vi-beginner-guide-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 101,
+    "svg_height": 5535,
+    "slug": "fuji-x100vi-beginner-guide"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "为什么我要从Meta裸辞？",
+    "summary": "离开Meta两因：要横向贴近市场的成长、打破六年千篇一律；反对浪漫化裸辞，改用有成本、有假设与止损的实验框架检验离开平台后的价值与回报。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "裸辞",
+      "Meta",
+      "成长",
+      "实验思维",
+      "Pathless Path",
+      "职场"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/29WcZDwiL1u",
+    "duration": "3分23秒",
+    "outputs": {
+      "html": "quit-meta-why-图文实录.html",
+      "svg": "quit-meta-why-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 102,
+    "svg_height": 4607,
+    "slug": "quit-meta-why"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "大龄北美程序员回国求职是种怎样的体验",
+    "summary": "Meta六年产品工程师七月裸辞回国：机会主要靠猎头（约六七十个）；观察Agent需求远大于全栈、初创机会多于大厂/外企；面初创像谈恋爱，要把见面量铺大。个人见闻非行业普查。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "北美回国",
+      "猎头",
+      "Agent",
+      "初创",
+      "求职",
+      "职场"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A9Pv8Tfw7ss",
+    "duration": "2分35秒",
+    "outputs": {
+      "html": "older-na-dev-jobhunt-图文实录.html",
+      "svg": "older-na-dev-jobhunt-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 65,
+    "svg_height": 2771,
+    "slug": "older-na-dev-jobhunt"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "APS-C 的“C”是什么？",
+    "summary": "APS-C 的 C 来自 1996 年 APS 胶卷 Classic（3:2）裁切框；胶卷失败后名字变成传感器尺码，裁切系数是这把历史尺子的用法。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "APS-C",
+      "画幅",
+      "裁切系数",
+      "胶卷史",
+      "传感器",
+      "等效焦距"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2dQtePzZVtk",
+    "duration": "3分08秒",
+    "outputs": {
+      "html": "what-is-aps-c-图文实录.html",
+      "svg": "what-is-aps-c-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 39,
+    "svg_height": 5157,
+    "slug": "what-is-aps-c"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "聊聊北美程序员回国面试！",
+    "summary": "北美程序员回国面试：大厂仍偏简历深挖与算法；AI初创常先超长项目笔试（用AI设计落地交付），再考多边形能力与创业价值观。建议把简历讲到滚瓜烂熟；北美偏SD+LC，国内更抠为什么与复用。",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "北美回国",
+      "AI初创",
+      "面试",
+      "简历深挖",
+      "LeetCode",
+      "职场"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/39NlChj46LH",
+    "duration": "2分54秒",
+    "outputs": {
+      "html": "na-dev-return-interview-图文实录.html",
+      "svg": "na-dev-return-interview-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 88,
+    "svg_height": 4959,
+    "slug": "na-dev-return-interview"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "爬山下台阶技巧｜轻巧不累 膝盖友好",
+    "summary": "GluG咕噜对比三种下山台阶下法：飞蹦与直腿打桩对膝盖硬冲击，推荐髋膝弯曲的减震轻巧下法；大众选手勿飞台阶，慢而可控更划算。",
+    "primary": "sports",
+    "tags": [
+      "下山",
+      "台阶",
+      "膝盖",
+      "姿势对比",
+      "徒步",
+      "减震"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2f6uX6Xctsl",
+    "duration": "2分44秒",
+    "outputs": {
+      "html": "downhill-stairs-knee-friendly-图文实录.html",
+      "svg": "downhill-stairs-knee-friendly-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 2,
+    "svg_height": 3266,
+    "slug": "downhill-stairs-knee-friendly"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "阴天也没关系！如何利用富士NC拍出质感写真",
+    "summary": "秋冬阴郁光下富士 Classic Neg.（NC）易涂抹。先借侧前方白墙反光，再套白优先+B+1、阴影-0.5、色彩+3、Chrome弱/蓝FX强的阴天配方，不必死等完美阳光。",
+    "primary": "photo",
+    "tags": [
+      "富士",
+      "Classic Neg",
+      "NC",
+      "阴天",
+      "胶片模拟",
+      "人像"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2ZkBNL6O1Pa",
+    "duration": "1分33秒",
+    "outputs": {
+      "html": "fuji-nc-cloudy-portrait-图文实录.html",
+      "svg": "fuji-nc-cloudy-portrait-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 3,
+    "svg_height": 4920,
+    "slug": "fuji-nc-cloudy-portrait"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "为什么在阴天拍照，会把脸拍的很丑",
+    "summary": "阴天人像难看主因是云层形成的超大号死亡顶光锁死法令纹与无神眼神；调亮度或修图救不回。对策：抬头把顶光改成正面填充，或带一盏够亮的正面灯，并用哑光妆控油。",
+    "primary": "photo",
+    "tags": [
+      "阴天",
+      "死亡顶光",
+      "布光",
+      "人像",
+      "眼神光",
+      "补光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/X4LRot2mTw",
+    "duration": "2分09秒",
+    "outputs": {
+      "html": "cloudy-day-ugly-face-图文实录.html",
+      "svg": "cloudy-day-ugly-face-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 28,
+    "svg_height": 4868,
+    "slug": "cloudy-day-ugly-face"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "阴天人像不发黄的方法！摄影党必看！",
+    "summary": "富士阴天人像去黄：CC胶片模拟打底，白平衡偏蓝，关闭暖色色彩效果并把FX蓝色开强；Drive连拍提高成功率，片尾注释配方可截图，文案提示阴天慎用NC。",
+    "primary": "photo",
+    "tags": [
+      "富士",
+      "人像",
+      "阴天",
+      "白平衡",
+      "胶片模拟",
+      "CC"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9hOkRPt9YiM",
+    "duration": "32秒",
+    "outputs": {
+      "html": "cloudy-portrait-no-yellow-图文实录.html",
+      "svg": "cloudy-portrait-no-yellow-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 5,
+    "svg_height": 5223,
+    "slug": "cloudy-portrait-no-yellow"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "阴雨天才是 拍人像最好的时间",
+    "summary": "林毅39秒：阴雨天拍人像不错。拳手法看阴暗面——阴影仍在但更柔；找光以脸测光为准，头顶发光通透变弱时仍优先保面部曝光准确。",
+    "primary": "photo",
+    "tags": [
+      "人像",
+      "阴雨天",
+      "用光",
+      "测光",
+      "柔光"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3wPb54D9oDv",
+    "duration": "39秒",
+    "outputs": {
+      "html": "rainy-best-portrait-time-图文实录.html",
+      "svg": "rainy-best-portrait-time-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 5,
+    "svg_height": 5322,
+    "slug": "rainy-best-portrait-time"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "摄影进阶力：如何拍好“窄光”？",
+    "summary": "御成PHOT.讲窄光：受光面窄、暗部做减法；全局测光减曝光补偿保高光；风光等云等光，扫街找光等人抓瞬间。",
+    "primary": "photo",
+    "tags": [
+      "窄光",
+      "用光",
+      "人像",
+      "扫街",
+      "风光",
+      "曝光补偿"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6FSoHuDuWno",
+    "duration": "2分23秒",
+    "outputs": {
+      "html": "narrow-light-portrait-图文实录.html",
+      "svg": "narrow-light-portrait-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 11,
+    "svg_height": 4940,
+    "slug": "narrow-light-portrait"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "赵骏还是太权威了",
+    "summary": "《魔力歌先生》剪辑：赵骏给哈哈曹等上声乐课——断句、固定音色、纸练管道气息与「重来」咬字；制作人夸音准波动极小；收尾强调提前起范儿并睁眼看观众。",
+    "primary": "other",
+    "tags": [
+      "声乐",
+      "赵骏",
+      "综艺",
+      "气息",
+      "表演细节"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5SeFEOHj4qE",
+    "duration": "2分34秒",
+    "outputs": {
+      "html": "zhao-jun-authority-图文实录.html",
+      "svg": "zhao-jun-authority-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 76,
+    "svg_height": 5981,
+    "slug": "zhao-jun-authority"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "现代式发球你会吗?",
+    "summary": "小羊老师77秒对照传统奖杯位与现代式引拍：拍停大腿前、重心后移时手脚同向后移、不再大幅后摆，并可参考德式发球准备动作把三步连起来。",
+    "primary": "sports",
+    "tags": [
+      "网球",
+      "发球",
+      "引拍",
+      "德式发球",
+      "现代式"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AD8TBAgdvP8",
+    "duration": "1分17秒",
+    "outputs": {
+      "html": "modern-tennis-serve-图文实录.html",
+      "svg": "modern-tennis-serve-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 3,
+    "svg_height": 4077,
+    "slug": "modern-tennis-serve"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "找不到转手腕的感觉？试试四向定位画圈",
+    "summary": "41秒视觉短视频：口播ASR废稿，靠屏幕把转腕拆成上/前/下/后四点连成腕圈，并强调手柄与绳体共线、禁止用手柄拉扯绳子。",
+    "primary": "sports",
+    "tags": [
+      "跳绳",
+      "转手腕",
+      "姿势",
+      "健身",
+      "新手"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/48z0TItS9wU",
+    "duration": "41秒",
+    "outputs": {
+      "html": "wrist-turn-feel-drill-图文实录.html",
+      "svg": "wrist-turn-feel-drill-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 2,
+    "svg_height": 2808,
+    "slug": "wrist-turn-feel-drill"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "盟月地理：离太阳更近，山顶为什么更冷？",
+    "summary": "盟月地理57秒课件：日地1.5亿千米抹掉「更近」直觉，解释阳光晒热地面再烤热空气；对流层约每100米降0.6℃，2000米例题山顶约13℃。",
+    "primary": "other",
+    "tags": [
+      "地理",
+      "对流层",
+      "气温",
+      "海拔",
+      "初中"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8L4ra1jfEhb",
+    "duration": "57秒",
+    "outputs": {
+      "html": "mountain-cold-near-sun-图文实录.html",
+      "svg": "mountain-cold-near-sun-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 35,
+    "svg_height": 3779,
+    "slug": "mountain-cold-near-sun"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "跳绳正确姿势vs错误姿势对比",
+    "summary": "24秒视觉短视频用三条屏幕禁令纠偏：不要踮脚跳、不要抬小臂转绳、不要勾脚跳太高。口播几乎只有开场一句，其余靠字幕与动作示范。",
+    "primary": "sports",
+    "tags": [
+      "跳绳",
+      "姿势",
+      "健身",
+      "新手",
+      "错误动作"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2XLD0JgXrAd",
+    "duration": "24秒",
+    "outputs": {
+      "html": "jump-rope-posture-compare-图文实录.html",
+      "svg": "jump-rope-posture-compare-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 1,
+    "svg_height": 2273,
+    "slug": "jump-rope-posture-compare"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "书法的第一性原理，新手练字抓准核心",
+    "summary": "四页公式把自学练字收成：进步=看清本质×建立控制×持续校正，再落到线条（方向×力度×节奏）、结构（重心→主次→空间）、章法（行气×留白）。目标不是把字描像，而是让关系与变量可检查、可校正。",
+    "primary": "painting",
+    "skills": [],
+    "tags": [
+      "书法",
+      "临帖",
+      "线条",
+      "结构",
+      "章法"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1ngmMeddK1M",
+    "duration": "图文 4 页",
+    "outputs": {
+      "html": "calligraphy-first-principles-图文实录.html",
+      "svg": "calligraphy-first-principles-理性分析.svg"
+    },
+    "screenshot_count": 4,
+    "transcript_segments": 0,
+    "svg_height": 4907,
+    "slug": "calligraphy-first-principles"
+  },
+  {
     "date": "2026-10-17",
     "title": "曝光补偿和“调亮度”有什么本质区别？",
     "summary": "区别在测光目标，不在事后把画面拧亮拧暗。曝光补偿改的是相机要达成的18%灰，于是重算光圈、快门和ISO。封面把常见理解收成「亮了就减、暗了就加」，并写成前期的亮度微调：方向能用，原理不对。",
@@ -29239,5 +31696,169 @@
     "transcript_segments": 141,
     "svg_height": 6162,
     "slug": "self-taught-dance-five-years"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "【闲聊】最值得普通玩家入手的相机",
+    "summary": "江航屹认为普通玩家更该买索尼 A7R5：6100万像素与裁切容错能感知，堆栈/极限连拍多为焦虑；钱优先投 EVF 与屏幕。",
+    "primary": "photo",
+    "skills": [
+      "器材选购"
+    ],
+    "tags": [
+      "索尼A7R5",
+      "高像素",
+      "器材选购",
+      "普通玩家",
+      "EVF"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A7lDzmntKaD",
+    "duration": "3分42秒",
+    "outputs": {
+      "html": "best-cameras-ordinary-players-图文实录.html",
+      "svg": "best-cameras-ordinary-players-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 43,
+    "svg_height": 5010,
+    "slug": "best-cameras-ordinary-players"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "第一次拍网球的摄影记者，能拍好郑钦文吗？",
+    "summary": "温十楼以中网拍郑钦文复盘：第一次拍不好是常态；功课、点位试错、快门降感与决赛马甲规则，比神机位传说更有用。",
+    "primary": "photo",
+    "skills": [
+      "体育摄影",
+      "拍摄点位"
+    ],
+    "tags": [
+      "郑钦文",
+      "中网",
+      "体育摄影",
+      "点位",
+      "快门"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/sK5aFXRe3m",
+    "duration": "3分37秒",
+    "outputs": {
+      "html": "tennis-photo-zheng-qinwen-图文实录.html",
+      "svg": "tennis-photo-zheng-qinwen-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 113,
+    "svg_height": 4952,
+    "slug": "tennis-photo-zheng-qinwen"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "原来官方有答案？富士20款胶片模拟对比测试",
+    "summary": "御成萌新君拆解富士20种胶片模拟：官方坐标分全能/个性，颗粒与冷暖FX为微调，多数模式围绕Provia偏移；选型先定色彩情感。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "富士",
+      "胶片模拟",
+      "Provia",
+      "色彩",
+      "直出",
+      "Film Simulation"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Fwv2YVukF2",
+    "duration": "5分04秒",
+    "outputs": {
+      "html": "fuji-20-film-sim-compare-图文实录.html",
+      "svg": "fuji-20-film-sim-compare-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 71,
+    "svg_height": 4895,
+    "slug": "fuji-20-film-sim-compare"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "真的好用：10个富士X100VI的奇妙小连招！",
+    "summary": "御成萌新君分享X100VI十条机身连招：增距镜与控制环、胶片模拟包围与多重曝光、对焦/视频入口，以及收音、传图、静音与收窄自动ISO。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "富士",
+      "X100VI",
+      "机身设定",
+      "增距镜",
+      "胶片模拟",
+      "自动ISO"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3gZ3qFDN7Db",
+    "duration": "4分43秒",
+    "outputs": {
+      "html": "fuji-x100vi-10-tips-图文实录.html",
+      "svg": "fuji-x100vi-10-tips-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 116,
+    "svg_height": 4836,
+    "slug": "fuji-x100vi-10-tips"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "RED 用户借来尼康 ZR，真能替代 RED 吗",
+    "summary": "RED 用户借测尼康 ZR：色彩与内录 RAW 接近，28-135 与 Z 口是加分；缺 DSMC 工具、翻屏挡线、高光 DR 吃亏，故是候选而非完整替代。",
+    "primary": "photo",
+    "skills": [
+      "构图"
+    ],
+    "tags": [
+      "尼康ZR",
+      "RED",
+      "电影机",
+      "28-135",
+      "Z卡口",
+      "内录RAW"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4tMqSctgKmt",
+    "duration": "11分14秒",
+    "outputs": {
+      "html": "red-nikon-zr-2026-图文实录.html",
+      "svg": "red-nikon-zr-2026-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 325,
+    "svg_height": 5624,
+    "slug": "red-nikon-zr-2026"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "窜天猴式蓄力！19岁嗓子机能太猛！",
+    "summary": "椰子老师复盘斯丹曼簇《忘我》：气泡音标志声带激活快，支撑打开高音与弱音收拢；民族唱腔被论证为科学又洋气。",
+    "primary": "other",
+    "tags": [
+      "斯丹曼簇",
+      "忘我",
+      "气泡音",
+      "民族唱腔",
+      "中国好声音",
+      "声乐"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1X2T1UKqqEb",
+    "duration": "7分31秒",
+    "outputs": {
+      "html": "stan-vocal-power-analysis-图文实录.html",
+      "svg": "stan-vocal-power-analysis-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 187,
+    "svg_height": 5064,
+    "slug": "stan-vocal-power-analysis"
   }
 ]

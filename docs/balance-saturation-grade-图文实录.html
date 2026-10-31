@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="14.5 分钟风光调色：颜色分优先级、不孤立存在；提暖压冷平衡饱和度栈，且只用画面真实存在的色——避免假平衡。">
+  <title>修色总翻车？先学会平衡饱和度｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+.quote-block{background:#f0fdf4;border-left:4px solid #10b981;padding:12px 16px;border-radius:8px;margin:14px 0;font-size:15px;color:#166534;font-style:italic}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <h1>修色总翻车？先学会平衡饱和度</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">14:35</span>
+    <span class="meta-tag tag-topic">饱和度平衡 · HSL · Luminar</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/48CRkDUg849" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc">
+  <h3>内容导航</h3>
+  <a href="#ch1">开场：极简后期与互补色偏好</a>
+  <a href="#ch2">两条原则与全局饱和度陷阱</a>
+  <a href="#ch3">黄外套：分色处理</a>
+  <a href="#ch4">伊斯坦布尔：减蓝增暖</a>
+  <a href="#ch5">平衡饱和度栈</a>
+  <a href="#ch6">海岸：暖色需冷色对冲</a>
+  <a href="#ch7">Harris：只用画面里真实存在的色</a>
+  <a href="#ch8">Luminar 赞助与收尾</a>
+  <a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+  <div class="content-points">
+    <h2>内容要点</h2>
+    <p>约 14.5 分钟风光调色课：作者不追求绝对「准色」，但希望观众感觉不到「不准」；核心不是把所有颜色一起拉鲜，而是给颜色排优先级，并记住颜色彼此牵连——提暖往往要同步压冷，且只能用画面里真实存在的色去做「饱和度栈」平衡。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row"><span class="time-marker">[00:00→02:30]</span><div><strong>偏好与目标</strong><p>后期极简、主攻色彩；互补色为主；目标是「不准却不刺眼」。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[02:30→04:00]</span><div><strong>两条原则</strong><p>颜色像待办清单分主次；颜色不孤立存在。全局饱和度会让所有色抢注意力。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[04:00→04:45]</span><div><strong>黄外套示范</strong><p>分色提高黄饱和，再把黄的色相略推向橙。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[04:45→06:20]</span><div><strong>减蓝增暖</strong><p>伊斯坦布尔冷调：降蓝饱和（可略推青）比硬加橙更干净；摄影常做减法。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[06:20→08:10]</span><div><strong>平衡栈</strong><p>把分色饱和度想象成压在三角形上的一摞滑块，提暖就压冷。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[08:10→09:00]</span><div><strong>海岸对冲</strong><p>只拉橙黄会脏；压绿与分心的蓝，再微调色相。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[09:00→13:00]</span><div><strong>Harris 真平衡</strong><p>用画面存在的绿（及少量橙红）对冲；压紫/品红是假平衡。</p></div></div>
+    <div class="summary-row"><span class="time-marker">[13:00→14:35]</span><div><strong>赞助收束</strong><p>Luminar Mystical 常用 10–15；强调一次买断价。</p></div></div>
+    <div class="takeaway-box"><strong>总结</strong><p>分色、分优先级；提饱和要成对平衡；只用画面里有的色去压对面——否则滑块「看起来」平衡了，照片仍假。</p></div>
+  </div>
+
+  <section class="story-section" id="ch1">
+    <h2><span class="time-marker">00:00-02:30</span>开场：极简后期与互补色偏好</h2>
+    <p>视频以「五小时色彩讲座」开场玩笑，随即收束：作者承认讲色会带上个人口味。他的后期几乎不做对焦堆栈、时间融合、亮度蒙版、降噪或 AI 功能，但会认真玩颜色。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-01.jpg" alt="主讲人坐在青橙双色灯光的书房开场讲解" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:25] 开场：作者自称后期极简，但最爱折腾颜色。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c21f14af7bcd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening: he keeps editing minimal but loves playing with color.</span></div>
+<audio class="cap-audio" src="audio/c21f14af7bcd.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>目标不是绝对的色彩准确，而是希望观众<strong>感觉不到</strong>不准。审美上他自嘲偏「俗」——大多追互补色，偶尔三角或分裂互补；即便在沙漠、南极这类偏类似色/单色场景，也常主动寻找互补对比，把颜色当对比手段。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-02.jpg" alt="James Popsys 作品网站九宫格风光样片" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:35] 作品一览：他偏好互补色对比，偶尔三角或分裂互补。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2015e71769d0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Portfolio grid: he favors complementary contrast, sometimes triadic or split-complementary.</span></div>
+<audio class="cap-audio" src="audio/2015e71769d0.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <div class="quote-block">「就算忘掉别的，也请记住两件事：颜色要像待办清单排优先级；颜色不存在于真空中。」</div>
+  </section>
+
+  <section class="story-section" id="ch2">
+    <h2><span class="time-marker">02:30-04:00</span>两条原则与全局饱和度陷阱</h2>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-03.jpg" alt="黑底白字标题：1. Treat colours individually, and ranked in priority" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] 原则一：颜色要像待办清单分主次，不要一视同仁。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c14c5df340ca.mp3" type="button" aria-label="Play English audio">🔊</button><span>Principle 1: treat colors like a to-do list with priorities, not equal weight.</span></div>
+<audio class="cap-audio" src="audio/c14c5df340ca.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>原则一用待办清单类比：如果每件事都「最重要」，就等于没有重点。原则二强调颜色互相牵连——改一个通道，其它颜色的「观感强度」也会变。</p>
+    <p>中间插入赞助：演示软件是 Luminar，作者称其易用且价格结构友好。回到教学：十人同时对你说话时你听不清任何人；把全局饱和度一拉到底，就等于让所有颜色同等喊话，很容易变丑。因此建议<strong>分色单独处理</strong>。</p>
+  </section>
+
+  <section class="story-section" id="ch3">
+    <h2><span class="time-marker">04:00-04:45</span>黄外套：分色处理</h2>
+    <p>第一张样片是小孩黄外套，周围石壁上有黄橙地衣。他提高黄色饱和度，再把黄色色相略推向橙色，使地衣更「橙」、更贴他想要的观感。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-04.jpg" alt="Luminar 中黄外套小孩与石墙地衣，右侧打开 HSL 饱和度" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:55] 黄外套样片：目标是提亮黄/橙地衣，分色拉饱和。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e3ba976b2588.mp3" type="button" aria-label="Play English audio">🔊</button><span>Yellow-coat example: boost yellow/orange lichen with per-color saturation.</span></div>
+<audio class="cap-audio" src="audio/e3ba976b2588.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>作者声明：整支视频会把滑块推得比日常更狠，方便看清动作；开关对比后，改变其实很简单——分色，而不是一把全局饱和度。</p>
+  </section>
+
+  <section class="story-section" id="ch4">
+    <h2><span class="time-marker">04:45-06:20</span>伊斯坦布尔：减蓝增暖</h2>
+    <p>伊斯坦布尔码头样片整体偏冷：大片蓝天、海水、蓝衬衫甚至蓝遮阳篷。他可以改白平衡或加橙黄，但这次选择<strong>降低蓝色饱和度</strong>，并把蓝色色相略推向青色。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-05.jpg" alt="伊斯坦布尔码头小贩与渡轮，HSL 蓝色饱和度约 -30" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[05:20] 伊斯坦布尔：用减蓝饱和给画面「增暖」，而不是先加橙色。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/800490d277c8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Istanbul: warm the frame by cutting blue saturation instead of adding orange first.</span></div>
+<audio class="cap-audio" src="audio/800490d277c8.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>左右对比后画面明显变暖。他总结：摄影常常更关乎减法而非加法；去掉一种颜色，会抬高其它颜色的相对存在感——这就是「颜色不孤立」的实操版。</p>
+    <div class="quote-block">「我通过去掉一些蓝色，大幅暖化了画面。」</div>
+  </section>
+
+  <section class="story-section" id="ch5">
+    <h2><span class="time-marker">06:20-08:10</span>平衡饱和度栈</h2>
+    <p>两条原则合并成一句可操作建议：在分色饱和度上追求<strong>平衡</strong>。他把一摞饱和度滑块想象成压在三角形上——别让整摞向一边倾倒。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-06.jpg" alt="倾斜的分色饱和度面板压在白色三角形上示意平衡" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[06:40] 核心隐喻：把饱和度滑块栈放在三角形上，别让它向一边倾倒。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c02eb500d448.mp3" type="button" aria-label="Play English audio">🔊</button><span>Core metaphor: balance the saturation stack on a triangle so it does not tip.</span></div>
+<audio class="cap-audio" src="audio/c02eb500d448.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>蓝天港湾小船：提高橙、黄饱和，黄的色相略偏橙；若仍偏过，就压蓝/青饱和，并降低救生圈亮度以免抢戏。前后对比幅度不大，但相对关系更稳。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-07.jpg" alt="港湾小船与渔网，Luminar 左右 Before/After 对比" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[07:40] 港湾示例：提橙黄、压青蓝后，暖色更跳但仍相对平衡。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9e01b01dc7ee.mp3" type="button" aria-label="Play English audio">🔊</button><span>Harbor example: lift orange/yellow and cut cyan/blue so warmth pops yet stays balanced.</span></div>
+<audio class="cap-audio" src="audio/9e01b01dc7ee.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+  </section>
+
+  <section class="story-section" id="ch6">
+    <h2><span class="time-marker">08:10-09:00</span>海岸：暖色需冷色对冲</h2>
+    <p>另一张海岸沙滩：主观感受很暖，直出却不够暖。他先猛提橙黄——立刻「难看」——因为栈不平衡。于是压绿，再压上方那块分心的蓝，并把黄推向橙、橙推向红。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-08.jpg" alt="海岸沙滩与峭壁，HSL 橙黄升高、绿色大幅压低" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[08:20] 海岸第二例：只拉暖色会脏；压绿/压分心的蓝来对冲。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/14b401a5cec0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Coastal example: warming alone looks dirty; cut green and distracting blue to counter.</span></div>
+<audio class="cap-audio" src="audio/14b401a5cec0.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>完成后他认为更「接近现场感受」，也更耐看：暖色被允许变强，是因为冷色让出了注意力。</p>
+  </section>
+
+  <section class="story-section" id="ch7">
+    <h2><span class="time-marker">09:00-13:00</span>Harris：只用画面里真实存在的色</h2>
+    <p>苏格兰 Harris 橙棚屋：无蓝天，直出偏平。软件把大部分草地/岩石读成黄色而非橙色；橙色主要集中在棚屋与远处屋顶。于是他大幅提高黄色饱和，再把黄色色相推向橙，使地貌与棚屋互补。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-09.jpg" alt="苏格兰 Harris 橙棚屋与阴天草地，尚未调色显得平淡" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[09:10] Harris 原片偏平：橙棚屋是锚点，周围黄绿需要重新排队。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/78dd1f4c8943.mp3" type="button" aria-label="Play English audio">🔊</button><span>Harris starts flat: the orange shed is the anchor; yellows and greens need re-ranking.</span></div>
+<audio class="cap-audio" src="audio/78dd1f4c8943.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <p>关键避坑：把紫、品红拉到很低，滑块栈「看起来」平衡了，但照片仍过火——因为这些颜色<strong>几乎不在画面里</strong>。真正有效的是压低广泛存在的绿色；绿色一可信，其它被推高的颜色也突然可信。他再略降橙/红（红主要影响棚屋屋顶），并可略提蓝给画面一点冷意。</p>
+    <figure>
+  <img src="assets/balance-saturation-grade/shot-10.jpg" alt="Harris 棚屋已提黄橙，但紫与品红饱和被拉到 -100 的假平衡" loading="lazy">
+  <figcaption class="cap-bilingual">
+<div class="cap-zh">[10:50] 避坑：用画面里几乎不存在的紫/品红「凑平衡」无效，应压真实存在的绿。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cf281f3125f7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Pitfall: zeroing purple/magenta that barely exist is fake balance—cut real greens instead.</span></div>
+<audio class="cap-audio" src="audio/cf281f3125f7.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+    <div class="quote-block">「当一种大面积的颜色被压得更克制时，其它颜色无论多强，都会显得更可信。」</div>
+    <p>收束口诀：颜色不孤立、按优先级处理；落到手上就是——<strong>平衡饱和度栈，且只用画面中真实存在的色</strong>。</p>
+  </section>
+
+  <section class="story-section" id="ch8">
+    <h2><span class="time-marker">13:00-14:35</span>Luminar 赞助与收尾</h2>
+    <p>尾段演示 Mystical：给亮部辉光、加深颜色与对比，常用约 10–15（拉到 100 会很难看）。作者强调推荐理由之一是定价——桌面版可一次买断；Luminar Prime 订阅含大量他不用的 AI，因此未订阅。以「五小时完整版以后再说」玩笑结束。</p>
+  </section>
+</article>
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现（英文口播），可能包含识别误差。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>Hello, everybody. How&#039;s it going? Hope you&#039;re all well.</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>Welcome to this five hour long lecture</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT5S">00:05</time>
+    <p>all about color theory for photographers.</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT9S">00:09</time>
+    <p>I&#039;m kidding.</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT10S">00:10</time>
+    <p>Now, I was joking about the five hour thing,</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT12S">00:12</time>
+    <p>but I could talk ad nauseam, to be honest, about color.</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT15S">00:15</time>
+    <p>It&#039;s probably my favorite topic in photography.</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT18S">00:18</time>
+    <p>Today, what I wanted to do</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT20S">00:20</time>
+    <p>was talk about the basics of color in photography,</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT23S">00:23</time>
+    <p>at least as I see them.</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT25S">00:25</time>
+    <p>When I attempt to teach photography,</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT28S">00:28</time>
+    <p>I really struggle to leave my preferences</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT31S">00:31</time>
+    <p>and my experiences and what my eye wants at the door.</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT35S">00:35</time>
+    <p>So everything comes kind of through the prism of me.</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT40S">00:40</time>
+    <p>So if you&#039;ll indulge me a minute,</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT41S">00:41</time>
+    <p>let me talk about my favorite topic,</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT43S">00:43</time>
+    <p>which is indeed me.</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT45S">00:45</time>
+    <p>So my editing really is pretty simple for the most part.</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT49S">00:49</time>
+    <p>I don&#039;t do things like focus stacking or time blending.</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT54S">00:54</time>
+    <p>I don&#039;t use luminosity masking anymore.</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT57S">00:57</time>
+    <p>In fact, I don&#039;t really use any masking anymore.</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT59S">00:59</time>
+    <p>I don&#039;t use things like denoise or any AI features.</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT63S">01:03</time>
+    <p>There&#039;s a lot of stuff that you can do</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT64S">01:04</time>
+    <p>to photos these days that I just don&#039;t.</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT68S">01:08</time>
+    <p>But I do play around with color.</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT70S">01:10</time>
+    <p>And my goal, I suppose, with my photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT72S">01:12</time>
+    <p>when it comes to editing color</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT73S">01:13</time>
+    <p>is that even though I&#039;m not massively fussed</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT76S">01:16</time>
+    <p>about color accuracy,</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT78S">01:18</time>
+    <p>I don&#039;t necessarily want the people viewing my photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT81S">01:21</time>
+    <p>to notice that my colors aren&#039;t accurate.</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT85S">01:25</time>
+    <p>Do I achieve that? Who knows?</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT87S">01:27</time>
+    <p>Probably not, but that&#039;s my goal.</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT89S">01:29</time>
+    <p>Now if you&#039;re familiar with my photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT91S">01:31</time>
+    <p>and indeed the principles of color harmony,</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT94S">01:34</time>
+    <p>you&#039;ll know that I am basically common as muck</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT98S">01:38</time>
+    <p>in my color preferences.</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT99S">01:39</time>
+    <p>In that, I seek out complementary colors</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT103S">01:43</time>
+    <p>for the most part.</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT104S">01:44</time>
+    <p>And sometimes it veers into sort of triadic</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT106S">01:46</time>
+    <p>or split complementary colors.</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT108S">01:48</time>
+    <p>But the truth is even in places</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT109S">01:49</time>
+    <p>that tend to track towards</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT111S">01:51</time>
+    <p>kind of more analogous colors</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT112S">01:52</time>
+    <p>or more monochromatic colors,</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT114S">01:54</time>
+    <p>so other very hot places like deserts</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT116S">01:56</time>
+    <p>or very cool places like Antarctica or the Arctic,</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT119S">01:59</time>
+    <p>even in those places,</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT120S">02:00</time>
+    <p>I tend to seek out complementary colors.</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT122S">02:02</time>
+    <p>And that&#039;s partly because I like color</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT125S">02:05</time>
+    <p>for color&#039;s own sake,</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT126S">02:06</time>
+    <p>but it&#039;s also because I like to use color</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT128S">02:08</time>
+    <p>as a form of contrast.</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT130S">02:10</time>
+    <p>So for a bit of context,</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT131S">02:11</time>
+    <p>that&#039;s what I like to do.</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT132S">02:12</time>
+    <p>And that&#039;s what sort of informs the photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT134S">02:14</time>
+    <p>that we&#039;re gonna go through today</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT135S">02:15</time>
+    <p>or the colors of the photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT136S">02:16</time>
+    <p>that we&#039;re gonna go through today.</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT138S">02:18</time>
+    <p>But if there&#039;s one thing I hope you take</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT139S">02:19</time>
+    <p>from this video,</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT140S">02:20</time>
+    <p>even if you forget everything else,</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT143S">02:23</time>
+    <p>well, it&#039;s two things, actually.</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT144S">02:24</time>
+    <p>Firstly, I think it&#039;s really useful</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT146S">02:26</time>
+    <p>to think about colors in the same way</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT147S">02:27</time>
+    <p>that you think about priorities on a to-do list.</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT151S">02:31</time>
+    <p>And the second thing is that colors</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT154S">02:34</time>
+    <p>don&#039;t exist in a vacuum.</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT156S">02:36</time>
+    <p>Also, I should say,</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT158S">02:38</time>
+    <p>before we go any further,</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT159S">02:39</time>
+    <p>a big thank you to the sponsor</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT160S">02:40</time>
+    <p>of this week&#039;s video,</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT161S">02:41</time>
+    <p>which is the software that I recommend most</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT164S">02:44</time>
+    <p>to photographers wanting to edit their photos,</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT167S">02:47</time>
+    <p>partly because of the pricing structure</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT169S">02:49</time>
+    <p>and also partly because it&#039;s powerful</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT171S">02:51</time>
+    <p>and easy to use,</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT172S">02:52</time>
+    <p>it&#039;s Luminar.</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT173S">02:53</time>
+    <p>More on that later,</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT174S">02:54</time>
+    <p>but that&#039;s what I&#039;m gonna be using</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT175S">02:55</time>
+    <p>to edit the examples</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT176S">02:56</time>
+    <p>that we go through today.</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT177S">02:57</time>
+    <p>So there&#039;s a saying about priorities</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT179S">02:59</time>
+    <p>that goes something like,</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT181S">03:01</time>
+    <p>if everything is a priority,</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT184S">03:04</time>
+    <p>then nothing is a priority.</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT186S">03:06</time>
+    <p>If you look at your to-do list</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT188S">03:08</time>
+    <p>and you need to accomplish everything</p>
+  </li>
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT190S">03:10</time>
+    <p>and you think everything</p>
+  </li>
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT191S">03:11</time>
+    <p>is of equal importance,</p>
+  </li>
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT193S">03:13</time>
+    <p>it&#039;s very difficult to work out</p>
+  </li>
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT195S">03:15</time>
+    <p>what to focus your attention on first.</p>
+  </li>
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT197S">03:17</time>
+    <p>And it&#039;s much the same as</p>
+  </li>
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT198S">03:18</time>
+    <p>if you&#039;re in a room with 10 people</p>
+  </li>
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT200S">03:20</time>
+    <p>and they&#039;re all trying to talk to you</p>
+  </li>
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT202S">03:22</time>
+    <p>all at once,</p>
+  </li>
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT203S">03:23</time>
+    <p>and they&#039;re vying for your attention.</p>
+  </li>
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT204S">03:24</time>
+    <p>It&#039;s very difficult to pick up</p>
+  </li>
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT205S">03:25</time>
+    <p>what any of them are saying.</p>
+  </li>
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT207S">03:27</time>
+    <p>And I think color in photography</p>
+  </li>
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT210S">03:30</time>
+    <p>is a very similar thing.</p>
+  </li>
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT212S">03:32</time>
+    <p>I think if you place an equal level</p>
+  </li>
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT214S">03:34</time>
+    <p>of importance on all colors,</p>
+  </li>
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT217S">03:37</time>
+    <p>in other words,</p>
+  </li>
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT217S">03:37</time>
+    <p>if you use the saturation slider,</p>
+  </li>
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT219S">03:39</time>
+    <p>you can very quickly end up</p>
+  </li>
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT221S">03:41</time>
+    <p>with a pretty ugly result</p>
+  </li>
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT222S">03:42</time>
+    <p>with all colors vying</p>
+  </li>
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT223S">03:43</time>
+    <p>for your attention equally.</p>
+  </li>
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT225S">03:45</time>
+    <p>And so my first bit of advice here really</p>
+  </li>
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT227S">03:47</time>
+    <p>is to treat colors individually.</p>
+  </li>
+  <li class="transcript-row" id="transcript-112">
+    <time datetime="PT230S">03:50</time>
+    <p>So this photo,</p>
+  </li>
+  <li class="transcript-row" id="transcript-113">
+    <time datetime="PT231S">03:51</time>
+    <p>I&#039;ve got my little boy in his yellow coat</p>
+  </li>
+  <li class="transcript-row" id="transcript-114">
+    <time datetime="PT233S">03:53</time>
+    <p>and he&#039;s surrounded by yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-115">
+    <time datetime="PT234S">03:54</time>
+    <p>slash orange lichen.</p>
+  </li>
+  <li class="transcript-row" id="transcript-116">
+    <time datetime="PT236S">03:56</time>
+    <p>And my goal here</p>
+  </li>
+  <li class="transcript-row" id="transcript-117">
+    <time datetime="PT238S">03:58</time>
+    <p>is to bring those out.</p>
+  </li>
+  <li class="transcript-row" id="transcript-118">
+    <time datetime="PT240S">04:00</time>
+    <p>So I up the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-119">
+    <time datetime="PT242S">04:02</time>
+    <p>of the saturation of the yellow.</p>
+  </li>
+  <li class="transcript-row" id="transcript-120">
+    <time datetime="PT244S">04:04</time>
+    <p>Wow,James,</p>
+  </li>
+  <li class="transcript-row" id="transcript-121">
+    <time datetime="PT245S">04:05</time>
+    <p>what sage advice.</p>
+  </li>
+  <li class="transcript-row" id="transcript-122">
+    <time datetime="PT247S">04:07</time>
+    <p>I mean, I think to be honest,</p>
+  </li>
+  <li class="transcript-row" id="transcript-123">
+    <time datetime="PT248S">04:08</time>
+    <p>I need to change the hue of the yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-124">
+    <time datetime="PT249S">04:09</time>
+    <p>to be a bit more orange</p>
+  </li>
+  <li class="transcript-row" id="transcript-125">
+    <time datetime="PT251S">04:11</time>
+    <p>to get exactly the look I want here.</p>
+  </li>
+  <li class="transcript-row" id="transcript-126">
+    <time datetime="PT255S">04:15</time>
+    <p>Maybe something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-127">
+    <time datetime="PT258S">04:18</time>
+    <p>Let&#039;s turn the slider off.</p>
+  </li>
+  <li class="transcript-row" id="transcript-128">
+    <time datetime="PT259S">04:19</time>
+    <p>Before,after.</p>
+  </li>
+  <li class="transcript-row" id="transcript-129">
+    <time datetime="PT261S">04:21</time>
+    <p>Quite simple.</p>
+  </li>
+  <li class="transcript-row" id="transcript-130">
+    <time datetime="PT262S">04:22</time>
+    <p>And I will exaggerate the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-131">
+    <time datetime="PT264S">04:24</time>
+    <p>of these changes in this video</p>
+  </li>
+  <li class="transcript-row" id="transcript-132">
+    <time datetime="PT265S">04:25</time>
+    <p>to the point where</p>
+  </li>
+  <li class="transcript-row" id="transcript-133">
+    <time datetime="PT266S">04:26</time>
+    <p>they potentially look quite garish</p>
+  </li>
+  <li class="transcript-row" id="transcript-134">
+    <time datetime="PT268S">04:28</time>
+    <p>just to make sure that you can see</p>
+  </li>
+  <li class="transcript-row" id="transcript-135">
+    <time datetime="PT270S">04:30</time>
+    <p>what it is that I&#039;m doing.</p>
+  </li>
+  <li class="transcript-row" id="transcript-136">
+    <time datetime="PT271S">04:31</time>
+    <p>But yeah,</p>
+  </li>
+  <li class="transcript-row" id="transcript-137">
+    <time datetime="PT272S">04:32</time>
+    <p>off, on.</p>
+  </li>
+  <li class="transcript-row" id="transcript-138">
+    <time datetime="PT275S">04:35</time>
+    <p>Not the most interesting example.</p>
+  </li>
+  <li class="transcript-row" id="transcript-139">
+    <time datetime="PT277S">04:37</time>
+    <p>Stick with me.</p>
+  </li>
+  <li class="transcript-row" id="transcript-140">
+    <time datetime="PT278S">04:38</time>
+    <p>And the second thing I mentioned</p>
+  </li>
+  <li class="transcript-row" id="transcript-141">
+    <time datetime="PT279S">04:39</time>
+    <p>was that colors don&#039;t exist in a vacuum.</p>
+  </li>
+  <li class="transcript-row" id="transcript-142">
+    <time datetime="PT282S">04:42</time>
+    <p>What do I mean by that?</p>
+  </li>
+  <li class="transcript-row" id="transcript-143">
+    <time datetime="PT283S">04:43</time>
+    <p>So this photo</p>
+  </li>
+  <li class="transcript-row" id="transcript-144">
+    <time datetime="PT284S">04:44</time>
+    <p>that I took in Istanbul</p>
+  </li>
+  <li class="transcript-row" id="transcript-145">
+    <time datetime="PT285S">04:45</time>
+    <p>a few months back,</p>
+  </li>
+  <li class="transcript-row" id="transcript-146">
+    <time datetime="PT286S">04:46</time>
+    <p>to my eye looks a bit cold.</p>
+  </li>
+  <li class="transcript-row" id="transcript-147">
+    <time datetime="PT289S">04:49</time>
+    <p>And of course it makes sense.</p>
+  </li>
+  <li class="transcript-row" id="transcript-148">
+    <time datetime="PT290S">04:50</time>
+    <p>I think that it looks cold.</p>
+  </li>
+  <li class="transcript-row" id="transcript-149">
+    <time datetime="PT291S">04:51</time>
+    <p>We&#039;ve got a big blue sky,</p>
+  </li>
+  <li class="transcript-row" id="transcript-150">
+    <time datetime="PT293S">04:53</time>
+    <p>lots of blue water.</p>
+  </li>
+  <li class="transcript-row" id="transcript-151">
+    <time datetime="PT294S">04:54</time>
+    <p>He&#039;s even got a blue shirt on.</p>
+  </li>
+  <li class="transcript-row" id="transcript-152">
+    <time datetime="PT295S">04:55</time>
+    <p>There&#039;s a back of a blue fairy over here.</p>
+  </li>
+  <li class="transcript-row" id="transcript-153">
+    <time datetime="PT297S">04:57</time>
+    <p>There are lots of cold elements.</p>
+  </li>
+  <li class="transcript-row" id="transcript-154">
+    <time datetime="PT299S">04:59</time>
+    <p>Stands to reason</p>
+  </li>
+  <li class="transcript-row" id="transcript-155">
+    <time datetime="PT299S">04:59</time>
+    <p>that the photo looks a bit cold.</p>
+  </li>
+  <li class="transcript-row" id="transcript-156">
+    <time datetime="PT301S">05:01</time>
+    <p>Now, I could warm it up</p>
+  </li>
+  <li class="transcript-row" id="transcript-157">
+    <time datetime="PT303S">05:03</time>
+    <p>in a million different ways.</p>
+  </li>
+  <li class="transcript-row" id="transcript-158">
+    <time datetime="PT304S">05:04</time>
+    <p>I could attack the white balance.</p>
+  </li>
+  <li class="transcript-row" id="transcript-159">
+    <time datetime="PT305S">05:05</time>
+    <p>I could add orange or yellow, perhaps.</p>
+  </li>
+  <li class="transcript-row" id="transcript-160">
+    <time datetime="PT307S">05:07</time>
+    <p>But actually what I&#039;m going to do</p>
+  </li>
+  <li class="transcript-row" id="transcript-161">
+    <time datetime="PT309S">05:09</time>
+    <p>to warm up this image</p>
+  </li>
+  <li class="transcript-row" id="transcript-162">
+    <time datetime="PT310S">05:10</time>
+    <p>is remove some of the blue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-163">
+    <time datetime="PT313S">05:13</time>
+    <p>So I&#039;m gonna take down the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-164">
+    <time datetime="PT315S">05:15</time>
+    <p>of the blue saturation.</p>
+  </li>
+  <li class="transcript-row" id="transcript-165">
+    <time datetime="PT317S">05:17</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-166">
+    <time datetime="PT317S">05:17</time>
+    <p>Again, I&#039;m pushing it a bit further</p>
+  </li>
+  <li class="transcript-row" id="transcript-167">
+    <time datetime="PT319S">05:19</time>
+    <p>than I otherwise would,</p>
+  </li>
+  <li class="transcript-row" id="transcript-168">
+    <time datetime="PT320S">05:20</time>
+    <p>just to make sure that you can see it.</p>
+  </li>
+  <li class="transcript-row" id="transcript-169">
+    <time datetime="PT322S">05:22</time>
+    <p>What I might do as well</p>
+  </li>
+  <li class="transcript-row" id="transcript-170">
+    <time datetime="PT323S">05:23</time>
+    <p>is change the hue of the blue</p>
+  </li>
+  <li class="transcript-row" id="transcript-171">
+    <time datetime="PT326S">05:26</time>
+    <p>a bit more in the direction of cyan.</p>
+  </li>
+  <li class="transcript-row" id="transcript-172">
+    <time datetime="PT329S">05:29</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-173">
+    <time datetime="PT330S">05:30</time>
+    <p>Again, I&#039;m pushing the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-174">
+    <time datetime="PT332S">05:32</time>
+    <p>more than I otherwise would.</p>
+  </li>
+  <li class="transcript-row" id="transcript-175">
+    <time datetime="PT333S">05:33</time>
+    <p>Let&#039;s get the before and after.</p>
+  </li>
+  <li class="transcript-row" id="transcript-176">
+    <time datetime="PT335S">05:35</time>
+    <p>Before, if you can&#039;t see,</p>
+  </li>
+  <li class="transcript-row" id="transcript-177">
+    <time datetime="PT336S">05:36</time>
+    <p>is on the left,</p>
+  </li>
+  <li class="transcript-row" id="transcript-178">
+    <time datetime="PT337S">05:37</time>
+    <p>after on the right.</p>
+  </li>
+  <li class="transcript-row" id="transcript-179">
+    <time datetime="PT339S">05:39</time>
+    <p>Before, after.</p>
+  </li>
+  <li class="transcript-row" id="transcript-180">
+    <time datetime="PT341S">05:41</time>
+    <p>And so basically,</p>
+  </li>
+  <li class="transcript-row" id="transcript-181">
+    <time datetime="PT342S">05:42</time>
+    <p>I&#039;ve massively warmed up the image</p>
+  </li>
+  <li class="transcript-row" id="transcript-182">
+    <time datetime="PT345S">05:45</time>
+    <p>by removing some of the blue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-183">
+    <time datetime="PT347S">05:47</time>
+    <p>And photography often</p>
+  </li>
+  <li class="transcript-row" id="transcript-184">
+    <time datetime="PT348S">05:48</time>
+    <p>is more about subtraction</p>
+  </li>
+  <li class="transcript-row" id="transcript-185">
+    <time datetime="PT349S">05:49</time>
+    <p>than it is about addition,</p>
+  </li>
+  <li class="transcript-row" id="transcript-186">
+    <time datetime="PT351S">05:51</time>
+    <p>in my view.</p>
+  </li>
+  <li class="transcript-row" id="transcript-187">
+    <time datetime="PT352S">05:52</time>
+    <p>And so yes,</p>
+  </li>
+  <li class="transcript-row" id="transcript-188">
+    <time datetime="PT353S">05:53</time>
+    <p>colors don&#039;t exist in a vacuum.</p>
+  </li>
+  <li class="transcript-row" id="transcript-189">
+    <time datetime="PT354S">05:54</time>
+    <p>Removing a color</p>
+  </li>
+  <li class="transcript-row" id="transcript-190">
+    <time datetime="PT356S">05:56</time>
+    <p>can increase the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-191">
+    <time datetime="PT357S">05:57</time>
+    <p>or the perceived intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-192">
+    <time datetime="PT360S">06:00</time>
+    <p>of other colors.</p>
+  </li>
+  <li class="transcript-row" id="transcript-193">
+    <time datetime="PT361S">06:01</time>
+    <p>Now that&#039;s two different comments</p>
+  </li>
+  <li class="transcript-row" id="transcript-194">
+    <time datetime="PT362S">06:02</time>
+    <p>shown across two very simple examples.</p>
+  </li>
+  <li class="transcript-row" id="transcript-195">
+    <time datetime="PT365S">06:05</time>
+    <p>Can I merge those two things</p>
+  </li>
+  <li class="transcript-row" id="transcript-196">
+    <time datetime="PT367S">06:07</time>
+    <p>into one bit of advice,</p>
+  </li>
+  <li class="transcript-row" id="transcript-197">
+    <time datetime="PT369S">06:09</time>
+    <p>one practical tip?</p>
+  </li>
+  <li class="transcript-row" id="transcript-198">
+    <time datetime="PT372S">06:12</time>
+    <p>I think so.</p>
+  </li>
+  <li class="transcript-row" id="transcript-199">
+    <time datetime="PT373S">06:13</time>
+    <p>So here is another very simple example.</p>
+  </li>
+  <li class="transcript-row" id="transcript-200">
+    <time datetime="PT375S">06:15</time>
+    <p>And my tip is this.</p>
+  </li>
+  <li class="transcript-row" id="transcript-201">
+    <time datetime="PT377S">06:17</time>
+    <p>Particularly on the saturation sliders</p>
+  </li>
+  <li class="transcript-row" id="transcript-202">
+    <time datetime="PT380S">06:20</time>
+    <p>of the individual colors,</p>
+  </li>
+  <li class="transcript-row" id="transcript-203">
+    <time datetime="PT383S">06:23</time>
+    <p>I think what we should aim for</p>
+  </li>
+  <li class="transcript-row" id="transcript-204">
+    <time datetime="PT385S">06:25</time>
+    <p>is balance.</p>
+  </li>
+  <li class="transcript-row" id="transcript-205">
+    <time datetime="PT387S">06:27</time>
+    <p>And if we were to pretend</p>
+  </li>
+  <li class="transcript-row" id="transcript-206">
+    <time datetime="PT388S">06:28</time>
+    <p>that this stack of sliders</p>
+  </li>
+  <li class="transcript-row" id="transcript-207">
+    <time datetime="PT390S">06:30</time>
+    <p>is sat on top of a triangle,</p>
+  </li>
+  <li class="transcript-row" id="transcript-208">
+    <time datetime="PT392S">06:32</time>
+    <p>what I think we want to do</p>
+  </li>
+  <li class="transcript-row" id="transcript-209">
+    <time datetime="PT394S">06:34</time>
+    <p>to get a nice end result</p>
+  </li>
+  <li class="transcript-row" id="transcript-210">
+    <time datetime="PT395S">06:35</time>
+    <p>is to make sure that</p>
+  </li>
+  <li class="transcript-row" id="transcript-211">
+    <time datetime="PT396S">06:36</time>
+    <p>that stack of sliders</p>
+  </li>
+  <li class="transcript-row" id="transcript-212">
+    <time datetime="PT398S">06:38</time>
+    <p>doesn&#039;t tip one way or the other.</p>
+  </li>
+  <li class="transcript-row" id="transcript-213">
+    <time datetime="PT401S">06:41</time>
+    <p>Let me demonstrate.</p>
+  </li>
+  <li class="transcript-row" id="transcript-214">
+    <time datetime="PT402S">06:42</time>
+    <p>So like most of my photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-215">
+    <time datetime="PT404S">06:44</time>
+    <p>that I shoot on blue sky days,</p>
+  </li>
+  <li class="transcript-row" id="transcript-216">
+    <time datetime="PT405S">06:45</time>
+    <p>what I want to do here</p>
+  </li>
+  <li class="transcript-row" id="transcript-217">
+    <time datetime="PT406S">06:46</time>
+    <p>is up the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-218">
+    <time datetime="PT407S">06:47</time>
+    <p>of the warm colors</p>
+  </li>
+  <li class="transcript-row" id="transcript-219">
+    <time datetime="PT409S">06:49</time>
+    <p>and bring down the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-220">
+    <time datetime="PT410S">06:50</time>
+    <p>of the cool colors.</p>
+  </li>
+  <li class="transcript-row" id="transcript-221">
+    <time datetime="PT411S">06:51</time>
+    <p>So I&#039;ll up the intensity</p>
+  </li>
+  <li class="transcript-row" id="transcript-222">
+    <time datetime="PT413S">06:53</time>
+    <p>of the orange.</p>
+  </li>
+  <li class="transcript-row" id="transcript-223">
+    <time datetime="PT414S">06:54</time>
+    <p>I&#039;ll do the same for the yellow.</p>
+  </li>
+  <li class="transcript-row" id="transcript-224">
+    <time datetime="PT415S">06:55</time>
+    <p>What I might then do</p>
+  </li>
+  <li class="transcript-row" id="transcript-225">
+    <time datetime="PT416S">06:56</time>
+    <p>is change the hue of the yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-226">
+    <time datetime="PT418S">06:58</time>
+    <p>to be a touch more orange.</p>
+  </li>
+  <li class="transcript-row" id="transcript-227">
+    <time datetime="PT421S">07:01</time>
+    <p>Something like that will do.</p>
+  </li>
+  <li class="transcript-row" id="transcript-228">
+    <time datetime="PT422S">07:02</time>
+    <p>Back to saturation.</p>
+  </li>
+  <li class="transcript-row" id="transcript-229">
+    <time datetime="PT423S">07:03</time>
+    <p>And to my eye currently,</p>
+  </li>
+  <li class="transcript-row" id="transcript-230">
+    <time datetime="PT425S">07:05</time>
+    <p>this looks too much.</p>
+  </li>
+  <li class="transcript-row" id="transcript-231">
+    <time datetime="PT426S">07:06</time>
+    <p>But I can balance it</p>
+  </li>
+  <li class="transcript-row" id="transcript-232">
+    <time datetime="PT428S">07:08</time>
+    <p>by removing some of the saturation</p>
+  </li>
+  <li class="transcript-row" id="transcript-233">
+    <time datetime="PT431S">07:11</time>
+    <p>of the blue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-234">
+    <time datetime="PT432S">07:12</time>
+    <p>I also need to bring down</p>
+  </li>
+  <li class="transcript-row" id="transcript-235">
+    <time datetime="PT433S">07:13</time>
+    <p>the luminance of the life ring.</p>
+  </li>
+  <li class="transcript-row" id="transcript-236">
+    <time datetime="PT436S">07:16</time>
+    <p>I think.</p>
+  </li>
+  <li class="transcript-row" id="transcript-237">
+    <time datetime="PT439S">07:19</time>
+    <p>A bit distracting.</p>
+  </li>
+  <li class="transcript-row" id="transcript-238">
+    <time datetime="PT441S">07:21</time>
+    <p>Yeah, that&#039;s okay.</p>
+  </li>
+  <li class="transcript-row" id="transcript-239">
+    <time datetime="PT442S">07:22</time>
+    <p>So once again, you can see</p>
+  </li>
+  <li class="transcript-row" id="transcript-240">
+    <time datetime="PT443S">07:23</time>
+    <p>the before on the left</p>
+  </li>
+  <li class="transcript-row" id="transcript-241">
+    <time datetime="PT444S">07:24</time>
+    <p>and the after on the right.</p>
+  </li>
+  <li class="transcript-row" id="transcript-242">
+    <time datetime="PT446S">07:26</time>
+    <p>Subtle changes,</p>
+  </li>
+  <li class="transcript-row" id="transcript-243">
+    <time datetime="PT447S">07:27</time>
+    <p>but for me at least,</p>
+  </li>
+  <li class="transcript-row" id="transcript-244">
+    <time datetime="PT449S">07:29</time>
+    <p>they make all the difference.</p>
+  </li>
+  <li class="transcript-row" id="transcript-245">
+    <time datetime="PT450S">07:30</time>
+    <p>And you can see, hopefully,</p>
+  </li>
+  <li class="transcript-row" id="transcript-246">
+    <time datetime="PT453S">07:33</time>
+    <p>that relatively speaking,</p>
+  </li>
+  <li class="transcript-row" id="transcript-247">
+    <time datetime="PT455S">07:35</time>
+    <p>this saturation stack</p>
+  </li>
+  <li class="transcript-row" id="transcript-248">
+    <time datetime="PT457S">07:37</time>
+    <p>is fairly well balanced.</p>
+  </li>
+  <li class="transcript-row" id="transcript-249">
+    <time datetime="PT458S">07:38</time>
+    <p>I&#039;ve upped the saturation</p>
+  </li>
+  <li class="transcript-row" id="transcript-250">
+    <time datetime="PT460S">07:40</time>
+    <p>of the orange and the yellow,</p>
+  </li>
+  <li class="transcript-row" id="transcript-251">
+    <time datetime="PT461S">07:41</time>
+    <p>but I&#039;ve brought down</p>
+  </li>
+  <li class="transcript-row" id="transcript-252">
+    <time datetime="PT462S">07:42</time>
+    <p>the saturation of the blue</p>
+  </li>
+  <li class="transcript-row" id="transcript-253">
+    <time datetime="PT463S">07:43</time>
+    <p>and the cyan.</p>
+  </li>
+  <li class="transcript-row" id="transcript-254">
+    <time datetime="PT464S">07:44</time>
+    <p>And I think, you may disagree,</p>
+  </li>
+  <li class="transcript-row" id="transcript-255">
+    <time datetime="PT466S">07:46</time>
+    <p>but I think that leads to</p>
+  </li>
+  <li class="transcript-row" id="transcript-256">
+    <time datetime="PT468S">07:48</time>
+    <p>quite a nice looking result.</p>
+  </li>
+  <li class="transcript-row" id="transcript-257">
+    <time datetime="PT469S">07:49</time>
+    <p>Another example.</p>
+  </li>
+  <li class="transcript-row" id="transcript-258">
+    <time datetime="PT470S">07:50</time>
+    <p>This is a photo I took</p>
+  </li>
+  <li class="transcript-row" id="transcript-259">
+    <time datetime="PT471S">07:51</time>
+    <p>earlier this year.</p>
+  </li>
+  <li class="transcript-row" id="transcript-260">
+    <time datetime="PT472S">07:52</time>
+    <p>And it feels like</p>
+  </li>
+  <li class="transcript-row" id="transcript-261">
+    <time datetime="PT473S">07:53</time>
+    <p>a really warm image to me,</p>
+  </li>
+  <li class="transcript-row" id="transcript-262">
+    <time datetime="PT475S">07:55</time>
+    <p>but I don&#039;t think it looks</p>
+  </li>
+  <li class="transcript-row" id="transcript-263">
+    <time datetime="PT477S">07:57</time>
+    <p>particularly warm out of camera.</p>
+  </li>
+  <li class="transcript-row" id="transcript-264">
+    <time datetime="PT479S">07:59</time>
+    <p>So once again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-265">
+    <time datetime="PT480S">08:00</time>
+    <p>I&#039;m going to up the saturation</p>
+  </li>
+  <li class="transcript-row" id="transcript-266">
+    <time datetime="PT481S">08:01</time>
+    <p>of the oranges.</p>
+  </li>
+  <li class="transcript-row" id="transcript-267">
+    <time datetime="PT483S">08:03</time>
+    <p>I&#039;m going to do the same</p>
+  </li>
+  <li class="transcript-row" id="transcript-268">
+    <time datetime="PT484S">08:04</time>
+    <p>for the yellow.</p>
+  </li>
+  <li class="transcript-row" id="transcript-269">
+    <time datetime="PT484S">08:04</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-270">
+    <time datetime="PT486S">08:06</time>
+    <p>But that looks horrible.</p>
+  </li>
+  <li class="transcript-row" id="transcript-271">
+    <time datetime="PT488S">08:08</time>
+    <p>And part of the reason</p>
+  </li>
+  <li class="transcript-row" id="transcript-272">
+    <time datetime="PT489S">08:09</time>
+    <p>I think it looks horrible</p>
+  </li>
+  <li class="transcript-row" id="transcript-273">
+    <time datetime="PT490S">08:10</time>
+    <p>is that it&#039;s not balanced.</p>
+  </li>
+  <li class="transcript-row" id="transcript-274">
+    <time datetime="PT491S">08:11</time>
+    <p>So I need to take away</p>
+  </li>
+  <li class="transcript-row" id="transcript-275">
+    <time datetime="PT493S">08:13</time>
+    <p>some of this green, I think.</p>
+  </li>
+  <li class="transcript-row" id="transcript-276">
+    <time datetime="PT496S">08:16</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-277">
+    <time datetime="PT497S">08:17</time>
+    <p>And also even some of the blue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-278">
+    <time datetime="PT498S">08:18</time>
+    <p>This blue up here</p>
+  </li>
+  <li class="transcript-row" id="transcript-279">
+    <time datetime="PT499S">08:19</time>
+    <p>is a bit distracting</p>
+  </li>
+  <li class="transcript-row" id="transcript-280">
+    <time datetime="PT501S">08:21</time>
+    <p>and I don&#039;t think</p>
+  </li>
+  <li class="transcript-row" id="transcript-281">
+    <time datetime="PT501S">08:21</time>
+    <p>it needs to be there.</p>
+  </li>
+  <li class="transcript-row" id="transcript-282">
+    <time datetime="PT503S">08:23</time>
+    <p>Just take down</p>
+  </li>
+  <li class="transcript-row" id="transcript-283">
+    <time datetime="PT503S">08:23</time>
+    <p>the intensity of that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-284">
+    <time datetime="PT505S">08:25</time>
+    <p>Now I need to play around</p>
+  </li>
+  <li class="transcript-row" id="transcript-285">
+    <time datetime="PT506S">08:26</time>
+    <p>with the hues.</p>
+  </li>
+  <li class="transcript-row" id="transcript-286">
+    <time datetime="PT506S">08:26</time>
+    <p>So I&#039;m going to go to hue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-287">
+    <time datetime="PT508S">08:28</time>
+    <p>And again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-288">
+    <time datetime="PT508S">08:28</time>
+    <p>I&#039;m going to make the yellows</p>
+  </li>
+  <li class="transcript-row" id="transcript-289">
+    <time datetime="PT510S">08:30</time>
+    <p>a bit more orange.</p>
+  </li>
+  <li class="transcript-row" id="transcript-290">
+    <time datetime="PT511S">08:31</time>
+    <p>And I&#039;m going to make the oranges</p>
+  </li>
+  <li class="transcript-row" id="transcript-291">
+    <time datetime="PT513S">08:33</time>
+    <p>a touch more red.</p>
+  </li>
+  <li class="transcript-row" id="transcript-292">
+    <time datetime="PT515S">08:35</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-293">
+    <time datetime="PT516S">08:36</time>
+    <p>But again, broadly speaking,</p>
+  </li>
+  <li class="transcript-row" id="transcript-294">
+    <time datetime="PT518S">08:38</time>
+    <p>I have balanced</p>
+  </li>
+  <li class="transcript-row" id="transcript-295">
+    <time datetime="PT519S">08:39</time>
+    <p>the saturation stack.</p>
+  </li>
+  <li class="transcript-row" id="transcript-296">
+    <time datetime="PT521S">08:41</time>
+    <p>And let&#039;s have a look</p>
+  </li>
+  <li class="transcript-row" id="transcript-297">
+    <time datetime="PT521S">08:41</time>
+    <p>at the before and after.</p>
+  </li>
+  <li class="transcript-row" id="transcript-298">
+    <time datetime="PT522S">08:42</time>
+    <p>Before on the left,</p>
+  </li>
+  <li class="transcript-row" id="transcript-299">
+    <time datetime="PT523S">08:43</time>
+    <p>after on the right.</p>
+  </li>
+  <li class="transcript-row" id="transcript-300">
+    <time datetime="PT525S">08:45</time>
+    <p>I think it&#039;s a much more</p>
+  </li>
+  <li class="transcript-row" id="transcript-301">
+    <time datetime="PT525S">08:45</time>
+    <p>engaging photo</p>
+  </li>
+  <li class="transcript-row" id="transcript-302">
+    <time datetime="PT526S">08:46</time>
+    <p>and much truer</p>
+  </li>
+  <li class="transcript-row" id="transcript-303">
+    <time datetime="PT528S">08:48</time>
+    <p>to how I think the scene felt</p>
+  </li>
+  <li class="transcript-row" id="transcript-304">
+    <time datetime="PT530S">08:50</time>
+    <p>than how the original looked.</p>
+  </li>
+  <li class="transcript-row" id="transcript-305">
+    <time datetime="PT532S">08:52</time>
+    <p>Okay, that I think is enough</p>
+  </li>
+  <li class="transcript-row" id="transcript-306">
+    <time datetime="PT534S">08:54</time>
+    <p>of sort of sunny coastal photos,</p>
+  </li>
+  <li class="transcript-row" id="transcript-307">
+    <time datetime="PT536S">08:56</time>
+    <p>orange and blue.</p>
+  </li>
+  <li class="transcript-row" id="transcript-308">
+    <time datetime="PT538S">08:58</time>
+    <p>Let&#039;s have a look at something</p>
+  </li>
+  <li class="transcript-row" id="transcript-309">
+    <time datetime="PT539S">08:59</time>
+    <p>not massively different,</p>
+  </li>
+  <li class="transcript-row" id="transcript-310">
+    <time datetime="PT540S">09:00</time>
+    <p>but slightly different.</p>
+  </li>
+  <li class="transcript-row" id="transcript-311">
+    <time datetime="PT542S">09:02</time>
+    <p>No blue sky, basically.</p>
+  </li>
+  <li class="transcript-row" id="transcript-312">
+    <time datetime="PT544S">09:04</time>
+    <p>So this is Harris in Scotland</p>
+  </li>
+  <li class="transcript-row" id="transcript-313">
+    <time datetime="PT546S">09:06</time>
+    <p>and I really like this photo.</p>
+  </li>
+  <li class="transcript-row" id="transcript-314">
+    <time datetime="PT548S">09:08</time>
+    <p>But at the moment,</p>
+  </li>
+  <li class="transcript-row" id="transcript-315">
+    <time datetime="PT549S">09:09</time>
+    <p>with no colour adjustment,</p>
+  </li>
+  <li class="transcript-row" id="transcript-316">
+    <time datetime="PT551S">09:11</time>
+    <p>I think it looks</p>
+  </li>
+  <li class="transcript-row" id="transcript-317">
+    <time datetime="PT552S">09:12</time>
+    <p>really quite flat.</p>
+  </li>
+  <li class="transcript-row" id="transcript-318">
+    <time datetime="PT554S">09:14</time>
+    <p>So let&#039;s try and change that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-319">
+    <time datetime="PT556S">09:16</time>
+    <p>And to do so,</p>
+  </li>
+  <li class="transcript-row" id="transcript-320">
+    <time datetime="PT557S">09:17</time>
+    <p>I&#039;m going to stick with</p>
+  </li>
+  <li class="transcript-row" id="transcript-321">
+    <time datetime="PT558S">09:18</time>
+    <p>exactly the same principles.</p>
+  </li>
+  <li class="transcript-row" id="transcript-322">
+    <time datetime="PT560S">09:20</time>
+    <p>So I know, for example,</p>
+  </li>
+  <li class="transcript-row" id="transcript-323">
+    <time datetime="PT562S">09:22</time>
+    <p>that I want to boost</p>
+  </li>
+  <li class="transcript-row" id="transcript-324">
+    <time datetime="PT563S">09:23</time>
+    <p>the saturation of the yellows.</p>
+  </li>
+  <li class="transcript-row" id="transcript-325">
+    <time datetime="PT565S">09:25</time>
+    <p>I basically want the yellows</p>
+  </li>
+  <li class="transcript-row" id="transcript-326">
+    <time datetime="PT566S">09:26</time>
+    <p>to look orange,</p>
+  </li>
+  <li class="transcript-row" id="transcript-327">
+    <time datetime="PT567S">09:27</time>
+    <p>but I suspect that a lot</p>
+  </li>
+  <li class="transcript-row" id="transcript-328">
+    <time datetime="PT569S">09:29</time>
+    <p>of this stuff round here</p>
+  </li>
+  <li class="transcript-row" id="transcript-329">
+    <time datetime="PT572S">09:32</time>
+    <p>is actually yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-330">
+    <time datetime="PT573S">09:33</time>
+    <p>rather than orange.</p>
+  </li>
+  <li class="transcript-row" id="transcript-331">
+    <time datetime="PT574S">09:34</time>
+    <p>Let&#039;s have a look.</p>
+  </li>
+  <li class="transcript-row" id="transcript-332">
+    <time datetime="PT575S">09:35</time>
+    <p>Yes, it&#039;s changing</p>
+  </li>
+  <li class="transcript-row" id="transcript-333">
+    <time datetime="PT576S">09:36</time>
+    <p>quite significantly</p>
+  </li>
+  <li class="transcript-row" id="transcript-334">
+    <time datetime="PT578S">09:38</time>
+    <p>on the yellow slider.</p>
+  </li>
+  <li class="transcript-row" id="transcript-335">
+    <time datetime="PT580S">09:40</time>
+    <p>So it&#039;s considered</p>
+  </li>
+  <li class="transcript-row" id="transcript-336">
+    <time datetime="PT580S">09:40</time>
+    <p>much more yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-337">
+    <time datetime="PT581S">09:41</time>
+    <p>than it is orange.</p>
+  </li>
+  <li class="transcript-row" id="transcript-338">
+    <time datetime="PT582S">09:42</time>
+    <p>It looks like</p>
+  </li>
+  <li class="transcript-row" id="transcript-339">
+    <time datetime="PT583S">09:43</time>
+    <p>the software thinks</p>
+  </li>
+  <li class="transcript-row" id="transcript-340">
+    <time datetime="PT584S">09:44</time>
+    <p>the only orange thing really</p>
+  </li>
+  <li class="transcript-row" id="transcript-341">
+    <time datetime="PT587S">09:47</time>
+    <p>is this garage here</p>
+  </li>
+  <li class="transcript-row" id="transcript-342">
+    <time datetime="PT589S">09:49</time>
+    <p>and this roof</p>
+  </li>
+  <li class="transcript-row" id="transcript-343">
+    <time datetime="PT590S">09:50</time>
+    <p>in the background.</p>
+  </li>
+  <li class="transcript-row" id="transcript-344">
+    <time datetime="PT591S">09:51</time>
+    <p>So for the most part,</p>
+  </li>
+  <li class="transcript-row" id="transcript-345">
+    <time datetime="PT592S">09:52</time>
+    <p>everything&#039;s yellow.</p>
+  </li>
+  <li class="transcript-row" id="transcript-346">
+    <time datetime="PT593S">09:53</time>
+    <p>So let&#039;s take yellows way up.</p>
+  </li>
+  <li class="transcript-row" id="transcript-347">
+    <time datetime="PT597S">09:57</time>
+    <p>And I know</p>
+  </li>
+  <li class="transcript-row" id="transcript-348">
+    <time datetime="PT597S">09:57</time>
+    <p>that looks disgusting,</p>
+  </li>
+  <li class="transcript-row" id="transcript-349">
+    <time datetime="PT598S">09:58</time>
+    <p>but let&#039;s then go to hue</p>
+  </li>
+  <li class="transcript-row" id="transcript-350">
+    <time datetime="PT601S">10:01</time>
+    <p>and take hue of the yellow</p>
+  </li>
+  <li class="transcript-row" id="transcript-351">
+    <time datetime="PT604S">10:04</time>
+    <p>over towards orange</p>
+  </li>
+  <li class="transcript-row" id="transcript-352">
+    <time datetime="PT606S">10:06</time>
+    <p>to the point where</p>
+  </li>
+  <li class="transcript-row" id="transcript-353">
+    <time datetime="PT608S">10:08</time>
+    <p>the landscape basically</p>
+  </li>
+  <li class="transcript-row" id="transcript-354">
+    <time datetime="PT609S">10:09</time>
+    <p>complements the colour</p>
+  </li>
+  <li class="transcript-row" id="transcript-355">
+    <time datetime="PT610S">10:10</time>
+    <p>of the garage.</p>
+  </li>
+  <li class="transcript-row" id="transcript-356">
+    <time datetime="PT611S">10:11</time>
+    <p>I mean, I have to bring down</p>
+  </li>
+  <li class="transcript-row" id="transcript-357">
+    <time datetime="PT611S">10:11</time>
+    <p>the luminance of the garage.</p>
+  </li>
+  <li class="transcript-row" id="transcript-358">
+    <time datetime="PT613S">10:13</time>
+    <p>Let&#039;s do that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-359">
+    <time datetime="PT614S">10:14</time>
+    <p>Something like that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-360">
+    <time datetime="PT615S">10:15</time>
+    <p>But broadly speaking,</p>
+  </li>
+  <li class="transcript-row" id="transcript-361">
+    <time datetime="PT616S">10:16</time>
+    <p>I&#039;m pretty happy with that.</p>
+  </li>
+  <li class="transcript-row" id="transcript-362">
+    <time datetime="PT617S">10:17</time>
+    <p>In fact,</p>
+  </li>
+  <li class="transcript-row" id="transcript-363">
+    <time datetime="PT618S">10:18</time>
+    <p>I think I can go even harder</p>
+  </li>
+  <li class="transcript-row" id="transcript-364">
+    <time datetime="PT620S">10:20</time>
+    <p>with the yellow.</p>
+  </li>
+  <li class="transcript-row" id="transcript-365">
+    <time datetime="PT620S">10:20</time>
+    <p>Let&#039;s just go to 100%.</p>
+  </li>
+  <li class="transcript-row" id="transcript-366">
+    <time datetime="PT622S">10:22</time>
+    <p>Now I don&#039;t mind that,</p>
+  </li>
+  <li class="transcript-row" id="transcript-367">
+    <time datetime="PT624S">10:24</time>
+    <p>but I think it&#039;s a bit intense.</p>
+  </li>
+  <li class="transcript-row" id="transcript-368">
+    <time datetime="PT628S">10:28</time>
+    <p>I do think it&#039;s a bit intense.</p>
+  </li>
+  <li class="transcript-row" id="transcript-369">
+    <time datetime="PT630S">10:30</time>
+    <p>So I still want to make</p>
+  </li>
+  <li class="transcript-row" id="transcript-370">
+    <time datetime="PT631S">10:31</time>
+    <p>a few more changes</p>
+  </li>
+  <li class="transcript-row" id="transcript-371">
+    <time datetime="PT631S">10:31</time>
+    <p>because as things stand,</p>
+  </li>
+  <li class="transcript-row" id="transcript-372">
+    <time datetime="PT634S">10:34</time>
+    <p>this saturation stack</p>
+  </li>
+  <li class="transcript-row" id="transcript-373">
+    <time datetime="PT635S">10:35</time>
+    <p>is not balanced.</p>
+  </li>
+  <li class="transcript-row" id="transcript-374">
+    <time datetime="PT637S">10:37</time>
+    <p>Now the thing I probably</p>
+  </li>
+  <li class="transcript-row" id="transcript-375">
+    <time datetime="PT637S">10:37</time>
+    <p>should have said earlier</p>
+  </li>
+  <li class="transcript-row" id="transcript-376">
+    <time datetime="PT639S">10:39</time>
+    <p>about a saturation stack</p>
+  </li>
+  <li class="transcript-row" id="transcript-377">
+    <time datetime="PT640S">10:40</time>
+    <p>is that it&#039;s all well and good</p>
+  </li>
+  <li class="transcript-row" id="transcript-378">
+    <time datetime="PT641S">10:41</time>
+    <p>balancing it with colours</p>
+  </li>
+  <li class="transcript-row" id="transcript-379">
+    <time datetime="PT643S">10:43</time>
+    <p>that aren&#039;t really in the scene.</p>
+  </li>
+  <li class="transcript-row" id="transcript-380">
+    <time datetime="PT644S">10:44</time>
+    <p>Like if I take down the purple</p>
+  </li>
+  <li class="transcript-row" id="transcript-381">
+    <time datetime="PT646S">10:46</time>
+    <p>and I take down the magenta,</p>
+  </li>
+  <li class="transcript-row" id="transcript-382">
+    <time datetime="PT648S">10:48</time>
+    <p>this is now</p>
+  </li>
+  <li class="transcript-row" id="transcript-383">
+    <time datetime="PT649S">10:49</time>
+    <p>quite a balanced stack.</p>
+  </li>
+  <li class="transcript-row" id="transcript-384">
+    <time datetime="PT651S">10:51</time>
+    <p>But the photo is still</p>
+  </li>
+  <li class="transcript-row" id="transcript-385">
+    <time datetime="PT652S">10:52</time>
+    <p>not balanced.</p>
+  </li>
+  <li class="transcript-row" id="transcript-386">
+    <time datetime="PT653S">10:53</time>
+    <p>It&#039;s still way too much,</p>
+  </li>
+  <li class="transcript-row" id="transcript-387">
+    <time datetime="PT655S">10:55</time>
+    <p>I think.</p>
+  </li>
+  <li class="transcript-row" id="transcript-388">
+    <time datetime="PT655S">10:55</time>
+    <p>And so when you&#039;re</p>
+  </li>
+  <li class="transcript-row" id="transcript-389">
+    <time datetime="PT656S">10:56</time>
+    <p>balancing the stack,</p>
+  </li>
+  <li class="transcript-row" id="transcript-390">
+    <time datetime="PT657S">10:57</time>
+    <p>you need to do so with colours</p>
+  </li>
+  <li class="transcript-row" id="transcript-391">
+    <time datetime="PT658S">10:58</time>
+    <p>that are at least present,</p>
+  </li>
+  <li class="transcript-row" id="transcript-392">
+    <time datetime="PT663S">11:03</time>
+    <p>which makes sense,</p>
+  </li>
+  <li class="transcript-row" id="transcript-393">
+    <time datetime="PT663S">11:03</time>
+    <p>doesn&#039;t it?</p>
+  </li>
+  <li class="transcript-row" id="transcript-394">
+    <time datetime="PT664S">11:04</time>
+    <p>So what is a colour</p>
+  </li>
+  <li class="transcript-row" id="transcript-395">
+    <time datetime="PT665S">11:05</time>
+    <p>that&#039;s present</p>
+  </li>
+  <li class="transcript-row" id="transcript-396">
+    <time datetime="PT666S">11:06</time>
+    <p>that I could use</p>
+  </li>
+  <li class="transcript-row" id="transcript-397">
+    <time datetime="PT666S">11:06</time>
+    <p>to balance the stack?</p>
+  </li>
+  <li class="transcript-row" id="transcript-398">
+    <time datetime="PT668S">11:08</time>
+    <p>I know green.</p>
+  </li>
+  <li class="transcript-row" id="transcript-399">
+    <time datetime="PT670S">11:10</time>
+    <p>Let&#039;s take down</p>
+  </li>
+  <li class="transcript-row" id="transcript-400">
+    <time datetime="PT670S">11:10</time>
+    <p>the saturation of the green</p>
+  </li>
+  <li class="transcript-row" id="transcript-401">
+    <time datetime="PT672S">11:12</time>
+    <p>and immediately</p>
+  </li>
+  <li class="transcript-row" id="transcript-402">
+    <time datetime="PT673S">11:13</time>
+    <p>that looks a million times better</p>
+  </li>
+  <li class="transcript-row" id="transcript-403">
+    <time datetime="PT676S">11:16</time>
+    <p>to my eye.</p>
+  </li>
+  <li class="transcript-row" id="transcript-404">
+    <time datetime="PT676S">11:16</time>
+    <p>I mean,I&#039;ve maybe gone</p>
+  </li>
+  <li class="transcript-row" id="transcript-405">
+    <time datetime="PT677S">11:17</time>
+    <p>a touch too hard with it.</p>
+  </li>
+  <li class="transcript-row" id="transcript-406">
+    <time datetime="PT679S">11:19</time>
+    <p>But if I go back to how it was,</p>
+  </li>
+  <li class="transcript-row" id="transcript-407">
+    <time datetime="PT681S">11:21</time>
+    <p>something like that,</p>
+  </li>
+  <li class="transcript-row" id="transcript-408">
+    <time datetime="PT682S">11:22</time>
+    <p>and then I take</p>
+  </li>
+  <li class="transcript-row" id="transcript-409">
+    <time datetime="PT683S">11:23</time>
+    <p>the green down again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-410">
+    <time datetime="PT684S">11:24</time>
+    <p>as soon as I make</p>
+  </li>
+  <li class="transcript-row" id="transcript-411">
+    <time datetime="PT685S">11:25</time>
+    <p>the saturation levels</p>
+  </li>
+  <li class="transcript-row" id="transcript-412">
+    <time datetime="PT686S">11:26</time>
+    <p>of the greens more believable,</p>
+  </li>
+  <li class="transcript-row" id="transcript-413">
+    <time datetime="PT688S">11:28</time>
+    <p>everything else</p>
+  </li>
+  <li class="transcript-row" id="transcript-414">
+    <time datetime="PT689S">11:29</time>
+    <p>looks more believable.</p>
+  </li>
+  <li class="transcript-row" id="transcript-415">
+    <time datetime="PT690S">11:30</time>
+    <p>Because again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-416">
+    <time datetime="PT690S">11:30</time>
+    <p>individual colours</p>
+  </li>
+  <li class="transcript-row" id="transcript-417">
+    <time datetime="PT691S">11:31</time>
+    <p>do not exist in a vacuum.</p>
+  </li>
+  <li class="transcript-row" id="transcript-418">
+    <time datetime="PT694S">11:34</time>
+    <p>And if you have one muted colour,</p>
+  </li>
+  <li class="transcript-row" id="transcript-419">
+    <time datetime="PT696S">11:36</time>
+    <p>one widespread muted colour,</p>
+  </li>
+  <li class="transcript-row" id="transcript-420">
+    <time datetime="PT698S">11:38</time>
+    <p>it makes all the other colours,</p>
+  </li>
+  <li class="transcript-row" id="transcript-421">
+    <time datetime="PT699S">11:39</time>
+    <p>regardless of how intense</p>
+  </li>
+  <li class="transcript-row" id="transcript-422">
+    <time datetime="PT700S">11:40</time>
+    <p>they are,</p>
+  </li>
+  <li class="transcript-row" id="transcript-423">
+    <time datetime="PT701S">11:41</time>
+    <p>look more believable.</p>
+  </li>
+  <li class="transcript-row" id="transcript-424">
+    <time datetime="PT703S">11:43</time>
+    <p>I have always found.</p>
+  </li>
+  <li class="transcript-row" id="transcript-425">
+    <time datetime="PT704S">11:44</time>
+    <p>That said,</p>
+  </li>
+  <li class="transcript-row" id="transcript-426">
+    <time datetime="PT704S">11:44</time>
+    <p>I could probably take down</p>
+  </li>
+  <li class="transcript-row" id="transcript-427">
+    <time datetime="PT706S">11:46</time>
+    <p>the saturation of the orange</p>
+  </li>
+  <li class="transcript-row" id="transcript-428">
+    <time datetime="PT708S">11:48</time>
+    <p>just a touch.</p>
+  </li>
+  <li class="transcript-row" id="transcript-429">
+    <time datetime="PT709S">11:49</time>
+    <p>And I&#039;ll probably take down</p>
+  </li>
+  <li class="transcript-row" id="transcript-430">
+    <time datetime="PT711S">11:51</time>
+    <p>the saturation of the red as well.</p>
+  </li>
+  <li class="transcript-row" id="transcript-431">
+    <time datetime="PT713S">11:53</time>
+    <p>You can see red only really</p>
+  </li>
+  <li class="transcript-row" id="transcript-432">
+    <time datetime="PT714S">11:54</time>
+    <p>affects the roof of this garage.</p>
+  </li>
+  <li class="transcript-row" id="transcript-433">
+    <time datetime="PT716S">11:56</time>
+    <p>But if I take it way down,</p>
+  </li>
+  <li class="transcript-row" id="transcript-434">
+    <time datetime="PT718S">11:58</time>
+    <p>I think again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-435">
+    <time datetime="PT719S">11:59</time>
+    <p>it makes the orange look</p>
+  </li>
+  <li class="transcript-row" id="transcript-436">
+    <time datetime="PT720S">12:00</time>
+    <p>much more believable.</p>
+  </li>
+  <li class="transcript-row" id="transcript-437">
+    <time datetime="PT721S">12:01</time>
+    <p>So that&#039;s fairly balanced.</p>
+  </li>
+  <li class="transcript-row" id="transcript-438">
+    <time datetime="PT723S">12:03</time>
+    <p>But what I might also do</p>
+  </li>
+  <li class="transcript-row" id="transcript-439">
+    <time datetime="PT724S">12:04</time>
+    <p>is just up the saturation</p>
+  </li>
+  <li class="transcript-row" id="transcript-440">
+    <time datetime="PT726S">12:06</time>
+    <p>of the blue</p>
+  </li>
+  <li class="transcript-row" id="transcript-441">
+    <time datetime="PT727S">12:07</time>
+    <p>to make the image a bit cooler.</p>
+  </li>
+  <li class="transcript-row" id="transcript-442">
+    <time datetime="PT729S">12:09</time>
+    <p>And that all looks</p>
+  </li>
+  <li class="transcript-row" id="transcript-443">
+    <time datetime="PT730S">12:10</time>
+    <p>much better to my eye.</p>
+  </li>
+  <li class="transcript-row" id="transcript-444">
+    <time datetime="PT732S">12:12</time>
+    <p>This is how we started</p>
+  </li>
+  <li class="transcript-row" id="transcript-445">
+    <time datetime="PT734S">12:14</time>
+    <p>and this is how we&#039;ve ended.</p>
+  </li>
+  <li class="transcript-row" id="transcript-446">
+    <time datetime="PT735S">12:15</time>
+    <p>And it can be difficult</p>
+  </li>
+  <li class="transcript-row" id="transcript-447">
+    <time datetime="PT736S">12:16</time>
+    <p>when you look at a before and after,</p>
+  </li>
+  <li class="transcript-row" id="transcript-448">
+    <time datetime="PT738S">12:18</time>
+    <p>because the after can look</p>
+  </li>
+  <li class="transcript-row" id="transcript-449">
+    <time datetime="PT740S">12:20</time>
+    <p>when it&#039;s not in isolation,</p>
+  </li>
+  <li class="transcript-row" id="transcript-450">
+    <time datetime="PT742S">12:22</time>
+    <p>a bit garish.</p>
+  </li>
+  <li class="transcript-row" id="transcript-451">
+    <time datetime="PT743S">12:23</time>
+    <p>But if it was in isolation,</p>
+  </li>
+  <li class="transcript-row" id="transcript-452">
+    <time datetime="PT745S">12:25</time>
+    <p>I think I wouldn&#039;t bat an eyelid</p>
+  </li>
+  <li class="transcript-row" id="transcript-453">
+    <time datetime="PT747S">12:27</time>
+    <p>at these colours.</p>
+  </li>
+  <li class="transcript-row" id="transcript-454">
+    <time datetime="PT748S">12:28</time>
+    <p>I think it looks</p>
+  </li>
+  <li class="transcript-row" id="transcript-455">
+    <time datetime="PT749S">12:29</time>
+    <p>I think it looks really quite nice.</p>
+  </li>
+  <li class="transcript-row" id="transcript-456">
+    <time datetime="PT751S">12:31</time>
+    <p>Again,</p>
+  </li>
+  <li class="transcript-row" id="transcript-457">
+    <time datetime="PT752S">12:32</time>
+    <p>you may disagree.</p>
+  </li>
+  <li class="transcript-row" id="transcript-458">
+    <time datetime="PT754S">12:34</time>
+    <p>But yeah,</p>
+  </li>
+  <li class="transcript-row" id="transcript-459">
+    <time datetime="PT754S">12:34</time>
+    <p>that&#039;s basically it</p>
+  </li>
+  <li class="transcript-row" id="transcript-460">
+    <time datetime="PT755S">12:35</time>
+    <p>for a very,</p>
+  </li>
+  <li class="transcript-row" id="transcript-461">
+    <time datetime="PT756S">12:36</time>
+    <p>very quick look</p>
+  </li>
+  <li class="transcript-row" id="transcript-462">
+    <time datetime="PT757S">12:37</time>
+    <p>at how I think about colour</p>
+  </li>
+  <li class="transcript-row" id="transcript-463">
+    <time datetime="PT759S">12:39</time>
+    <p>in photography.</p>
+  </li>
+  <li class="transcript-row" id="transcript-464">
+    <time datetime="PT761S">12:41</time>
+    <p>They don&#039;t exist in a vacuum</p>
+  </li>
+  <li class="transcript-row" id="transcript-465">
+    <time datetime="PT762S">12:42</time>
+    <p>and it&#039;s best to treat them</p>
+  </li>
+  <li class="transcript-row" id="transcript-466">
+    <time datetime="PT764S">12:44</time>
+    <p>in an order of priority.</p>
+  </li>
+  <li class="transcript-row" id="transcript-467">
+    <time datetime="PT765S">12:45</time>
+    <p>Basically,</p>
+  </li>
+  <li class="transcript-row" id="transcript-468">
+    <time datetime="PT766S">12:46</time>
+    <p>just balance the saturation stack</p>
+  </li>
+  <li class="transcript-row" id="transcript-469">
+    <time datetime="PT768S">12:48</time>
+    <p>is what it comes down to</p>
+  </li>
+  <li class="transcript-row" id="transcript-470">
+    <time datetime="PT769S">12:49</time>
+    <p>in my view.</p>
+  </li>
+  <li class="transcript-row" id="transcript-471">
+    <time datetime="PT770S">12:50</time>
+    <p>But thank you for watching</p>
+  </li>
+  <li class="transcript-row" id="transcript-472">
+    <time datetime="PT771S">12:51</time>
+    <p>and I hope that was helpful.</p>
+  </li>
+  <li class="transcript-row" id="transcript-473">
+    <time datetime="PT772S">12:52</time>
+    <p>And a big thank you also</p>
+  </li>
+  <li class="transcript-row" id="transcript-474">
+    <time datetime="PT773S">12:53</time>
+    <p>to the sponsor of this week&#039;s video,</p>
+  </li>
+  <li class="transcript-row" id="transcript-475">
+    <time datetime="PT774S">12:54</time>
+    <p>as I mentioned,</p>
+  </li>
+  <li class="transcript-row" id="transcript-476">
+    <time datetime="PT776S">12:56</time>
+    <p>Luminar.</p>
+  </li>
+  <li class="transcript-row" id="transcript-477">
+    <time datetime="PT777S">12:57</time>
+    <p>If you&#039;ve watched this channel</p>
+  </li>
+  <li class="transcript-row" id="transcript-478">
+    <time datetime="PT778S">12:58</time>
+    <p>for a while,</p>
+  </li>
+  <li class="transcript-row" id="transcript-479">
+    <time datetime="PT778S">12:58</time>
+    <p>you&#039;ll know</p>
+  </li>
+  <li class="transcript-row" id="transcript-480">
+    <time datetime="PT779S">12:59</time>
+    <p>that I&#039;m a big fan</p>
+  </li>
+  <li class="transcript-row" id="transcript-481">
+    <time datetime="PT780S">13:00</time>
+    <p>of a couple of the tools in Luminar.</p>
+  </li>
+  <li class="transcript-row" id="transcript-482">
+    <time datetime="PT781S">13:01</time>
+    <p>Most notably,</p>
+  </li>
+  <li class="transcript-row" id="transcript-483">
+    <time datetime="PT783S">13:03</time>
+    <p>the mystical tool.</p>
+  </li>
+  <li class="transcript-row" id="transcript-484">
+    <time datetime="PT785S">13:05</time>
+    <p>And if you&#039;ve not seen this before,</p>
+  </li>
+  <li class="transcript-row" id="transcript-485">
+    <time datetime="PT786S">13:06</time>
+    <p>click on the info.</p>
+  </li>
+  <li class="transcript-row" id="transcript-486">
+    <time datetime="PT787S">13:07</time>
+    <p>Basically,</p>
+  </li>
+  <li class="transcript-row" id="transcript-487">
+    <time datetime="PT788S">13:08</time>
+    <p>it says it gives photos</p>
+  </li>
+  <li class="transcript-row" id="transcript-488">
+    <time datetime="PT789S">13:09</time>
+    <p>a soft dreamy look</p>
+  </li>
+  <li class="transcript-row" id="transcript-489">
+    <time datetime="PT791S">13:11</time>
+    <p>by enhancing glow</p>
+  </li>
+  <li class="transcript-row" id="transcript-490">
+    <time datetime="PT792S">13:12</time>
+    <p>in light areas</p>
+  </li>
+  <li class="transcript-row" id="transcript-491">
+    <time datetime="PT793S">13:13</time>
+    <p>and deepening colours</p>
+  </li>
+  <li class="transcript-row" id="transcript-492">
+    <time datetime="PT794S">13:14</time>
+    <p>and contrast.</p>
+  </li>
+  <li class="transcript-row" id="transcript-493">
+    <time datetime="PT795S">13:15</time>
+    <p>And I&#039;ve used this tool</p>
+  </li>
+  <li class="transcript-row" id="transcript-494">
+    <time datetime="PT796S">13:16</time>
+    <p>for a long time now.</p>
+  </li>
+  <li class="transcript-row" id="transcript-495">
+    <time datetime="PT797S">13:17</time>
+    <p>If I boost the amount to 100,</p>
+  </li>
+  <li class="transcript-row" id="transcript-496">
+    <time datetime="PT799S">13:19</time>
+    <p>it looks disgusting,</p>
+  </li>
+  <li class="transcript-row" id="transcript-497">
+    <time datetime="PT800S">13:20</time>
+    <p>but it gives you a sense</p>
+  </li>
+  <li class="transcript-row" id="transcript-498">
+    <time datetime="PT802S">13:22</time>
+    <p>of what the tool does.</p>
+  </li>
+  <li class="transcript-row" id="transcript-499">
+    <time datetime="PT803S">13:23</time>
+    <p>And on my photos,</p>
+  </li>
+  <li class="transcript-row" id="transcript-500">
+    <time datetime="PT804S">13:24</time>
+    <p>I typically set it</p>
+  </li>
+  <li class="transcript-row" id="transcript-501">
+    <time datetime="PT805S">13:25</time>
+    <p>somewhere between 10 and 15.</p>
+  </li>
+  <li class="transcript-row" id="transcript-502">
+    <time datetime="PT806S">13:26</time>
+    <p>Let&#039;s stick it on 15.</p>
+  </li>
+  <li class="transcript-row" id="transcript-503">
+    <time datetime="PT808S">13:28</time>
+    <p>And I can show you it before</p>
+  </li>
+  <li class="transcript-row" id="transcript-504">
+    <time datetime="PT810S">13:30</time>
+    <p>and after.</p>
+  </li>
+  <li class="transcript-row" id="transcript-505">
+    <time datetime="PT811S">13:31</time>
+    <p>You might not be able to see much</p>
+  </li>
+  <li class="transcript-row" id="transcript-506">
+    <time datetime="PT813S">13:33</time>
+    <p>with YouTube compression,</p>
+  </li>
+  <li class="transcript-row" id="transcript-507">
+    <time datetime="PT814S">13:34</time>
+    <p>but it just softens everything</p>
+  </li>
+  <li class="transcript-row" id="transcript-508">
+    <time datetime="PT816S">13:36</time>
+    <p>in a really controllable way</p>
+  </li>
+  <li class="transcript-row" id="transcript-509">
+    <time datetime="PT818S">13:38</time>
+    <p>that you don&#039;t get</p>
+  </li>
+  <li class="transcript-row" id="transcript-510">
+    <time datetime="PT819S">13:39</time>
+    <p>by just sticking a mist filter</p>
+  </li>
+  <li class="transcript-row" id="transcript-511">
+    <time datetime="PT822S">13:42</time>
+    <p>on the front of your lens.</p>
+  </li>
+  <li class="transcript-row" id="transcript-512">
+    <time datetime="PT823S">13:43</time>
+    <p>I love it.</p>
+  </li>
+  <li class="transcript-row" id="transcript-513">
+    <time datetime="PT823S">13:43</time>
+    <p>It&#039;s fantastic.</p>
+  </li>
+  <li class="transcript-row" id="transcript-514">
+    <time datetime="PT824S">13:44</time>
+    <p>And Luminar is full of tools</p>
+  </li>
+  <li class="transcript-row" id="transcript-515">
+    <time datetime="PT825S">13:45</time>
+    <p>like this that you might find useful.</p>
+  </li>
+  <li class="transcript-row" id="transcript-516">
+    <time datetime="PT827S">13:47</time>
+    <p>And the best thing</p>
+  </li>
+  <li class="transcript-row" id="transcript-517">
+    <time datetime="PT828S">13:48</time>
+    <p>I think about Luminar,</p>
+  </li>
+  <li class="transcript-row" id="transcript-518">
+    <time datetime="PT829S">13:49</time>
+    <p>and one of the reasons,</p>
+  </li>
+  <li class="transcript-row" id="transcript-519">
+    <time datetime="PT830S">13:50</time>
+    <p>as I mentioned,</p>
+  </li>
+  <li class="transcript-row" id="transcript-520">
+    <time datetime="PT831S">13:51</time>
+    <p>that I recommend it so much,</p>
+  </li>
+  <li class="transcript-row" id="transcript-521">
+    <time datetime="PT832S">13:52</time>
+    <p>is the pricing structure.</p>
+  </li>
+  <li class="transcript-row" id="transcript-522">
+    <time datetime="PT834S">13:54</time>
+    <p>There&#039;s no subscription needed.</p>
+  </li>
+  <li class="transcript-row" id="transcript-523">
+    <time datetime="PT835S">13:55</time>
+    <p>You can choose desktop only</p>
+  </li>
+  <li class="transcript-row" id="transcript-524">
+    <time datetime="PT837S">13:57</time>
+    <p>or desktop and mobile,</p>
+  </li>
+  <li class="transcript-row" id="transcript-525">
+    <time datetime="PT838S">13:58</time>
+    <p>but either way,</p>
+  </li>
+  <li class="transcript-row" id="transcript-526">
+    <time datetime="PT839S">13:59</time>
+    <p>it&#039;s a one-time payment.</p>
+  </li>
+  <li class="transcript-row" id="transcript-527">
+    <time datetime="PT841S">14:01</time>
+    <p>Now there is something</p>
+  </li>
+  <li class="transcript-row" id="transcript-528">
+    <time datetime="PT841S">14:01</time>
+    <p>called Luminar Prime,</p>
+  </li>
+  <li class="transcript-row" id="transcript-529">
+    <time datetime="PT842S">14:02</time>
+    <p>which is a subscription service,</p>
+  </li>
+  <li class="transcript-row" id="transcript-530">
+    <time datetime="PT844S">14:04</time>
+    <p>and it includes the use</p>
+  </li>
+  <li class="transcript-row" id="transcript-531">
+    <time datetime="PT845S">14:05</time>
+    <p>of big powerful AI tools</p>
+  </li>
+  <li class="transcript-row" id="transcript-532">
+    <time datetime="PT846S">14:06</time>
+    <p>that I don&#039;t really use,</p>
+  </li>
+  <li class="transcript-row" id="transcript-533">
+    <time datetime="PT848S">14:08</time>
+    <p>so I don&#039;t have a subscription to it.</p>
+  </li>
+  <li class="transcript-row" id="transcript-534">
+    <time datetime="PT849S">14:09</time>
+    <p>But for my uses,</p>
+  </li>
+  <li class="transcript-row" id="transcript-535">
+    <time datetime="PT851S">14:11</time>
+    <p>it&#039;s just a one-time payment,</p>
+  </li>
+  <li class="transcript-row" id="transcript-536">
+    <time datetime="PT853S">14:13</time>
+    <p>and I love that about it.</p>
+  </li>
+  <li class="transcript-row" id="transcript-537">
+    <time datetime="PT855S">14:15</time>
+    <p>It&#039;s increasingly rare,</p>
+  </li>
+  <li class="transcript-row" id="transcript-538">
+    <time datetime="PT856S">14:16</time>
+    <p>as I&#039;m sure you&#039;ve noticed.</p>
+  </li>
+  <li class="transcript-row" id="transcript-539">
+    <time datetime="PT857S">14:17</time>
+    <p>So if you&#039;re interested,</p>
+  </li>
+  <li class="transcript-row" id="transcript-540">
+    <time datetime="PT858S">14:18</time>
+    <p>check out Luminar details</p>
+  </li>
+  <li class="transcript-row" id="transcript-541">
+    <time datetime="PT859S">14:19</time>
+    <p>in the description,</p>
+  </li>
+  <li class="transcript-row" id="transcript-542">
+    <time datetime="PT860S">14:20</time>
+    <p>and a big thank you to them</p>
+  </li>
+  <li class="transcript-row" id="transcript-543">
+    <time datetime="PT861S">14:21</time>
+    <p>for the support of this channel.</p>
+  </li>
+  <li class="transcript-row" id="transcript-544">
+    <time datetime="PT863S">14:23</time>
+    <p>And yeah,</p>
+  </li>
+  <li class="transcript-row" id="transcript-545">
+    <time datetime="PT863S">14:23</time>
+    <p>hopefully this was useful.</p>
+  </li>
+  <li class="transcript-row" id="transcript-546">
+    <time datetime="PT865S">14:25</time>
+    <p>Five-hour version coming soon.</p>
+  </li>
+  <li class="transcript-row" id="transcript-547">
+    <time datetime="PT868S">14:28</time>
+    <p>Probably not that soon,</p>
+  </li>
+  <li class="transcript-row" id="transcript-548">
+    <time datetime="PT869S">14:29</time>
+    <p>but at some point,</p>
+  </li>
+  <li class="transcript-row" id="transcript-549">
+    <time datetime="PT871S">14:31</time>
+    <p>I&#039;ll do a really long one.</p>
+  </li>
+  <li class="transcript-row" id="transcript-550">
+    <time datetime="PT872S">14:32</time>
+    <p>Yeah.</p>
+  </li>
+  <li class="transcript-row" id="transcript-551">
+    <time datetime="PT873S">14:33</time>
+    <p>End color.</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

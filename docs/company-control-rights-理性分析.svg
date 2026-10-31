@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1263" viewBox="0 0 1320 1263">
+  <foreignObject x="0" y="0" width="1320" height="1263">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;color:#1e40af;margin-bottom:8px}
+.meta{margin:10px 0 18px;font-size:14px;color:#64748b}
+.summary{background:#fff;padding:18px 22px;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;line-height:1.7;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:14px;padding:22px 24px;margin:12px 0;border-left:5px solid #3b82f6;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.card h3{font-size:18px;color:#1e40af;margin-bottom:10px}
+.card li{margin:6px 0 6px 18px;line-height:1.7;color:#475569;font-size:15px}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:26px;margin-top:16px}
+.conclusion h2{color:#fff;font-size:22px;margin-bottom:10px}
+.conclusion li{color:rgba(255,255,255,.95);margin:6px 0 6px 18px;line-height:1.7}
+.footer{text-align:center;color:#94a3b8;padding:14px;font-size:12px}
+a{color:#1d4ed8}</style>
+      <div class="container">
+<h1>公司控制权到底怎么控</h1>
+<div class="meta">控制权 · AB股 · 董事会 · VIE · 创始人 · <a href="https://b23.tv/O7xEzzJ">原视频</a></div>
+<div class="summary"><strong>核心判断：</strong>控制权≠股权：阈值、AB股、董事会与 VIE 是工具；最终能否焊住取决于车技是否被市场盖章。</div>
+<div class="card"><h3>结构重组</h3><ul><li><strong>[00:00→04:30] 概念与病症</strong> — 所有权≠控制权；情怀与 50/50 是常见自杀结构。</li><li><strong>[04:30→09:00] 股权层工具</strong> — 阈值、AB 股、一致行动、委托/放弃表决权。</li><li><strong>[09:00→15:00] 董事会与隐身</strong> — 抢座位/开会权；基金会套娃与 VIE 抽利润。</li><li><strong>[15:00→21:27] 车技与野蛮人</strong> — 焊死假车会加速翻车；乔布斯们靠能力杀回；下期预告门口野蛮人。</li></ul></div>
+<div class="card"><h3>适用边界</h3><ul>
+<li>纪实作者观点与口播口径，金额/车队数为约数，勿当投研结论。</li>
+<li>ASR 专名已校正；细节以原视频与官方披露为准。</li>
+</ul></div>
+<div class="conclusion"><h2>行动结论</h2><ul><li>控制权技能树可以点满，但最高境界是确认自己真会开车——愿意在必要时把方向盘交给下一个会开的人。</li></ul></div>
+<div class="footer">video-notes · company-control-rights</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

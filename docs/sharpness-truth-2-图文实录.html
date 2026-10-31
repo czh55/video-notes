@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="小红书「摄影人生」讲解锐度真相：合焦范围≠画面锐度，F22因衍射未必最锐，多数镜头甜蜜点约F5.6–F11；风光可用焦点堆叠，锐度也不是唯一表达目标。">
+  <title>摄影中锐利度的真相｜图文实录</title>
+  <style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}.transcript-collapsible .transcript-body{margin-top:0}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.note{font-size:14px;color:#78716c;background:#f5f5f4;padding:12px 14px;border-radius:10px;margin:12px 0}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>摄影中锐利度的真相</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">5分48秒</span>
+    <span class="meta-tag tag-topic">摄影 锐度 光圈 衍射 焦点堆叠</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/7yXWjJq2JlH" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+
+<nav class="toc">
+  <h3>内容导航</h3>
+  <a href="#ch-myth">开场：浅景深与「缩到F22就最锐」</a>
+  <a href="#ch-diffraction">衍射：合焦变大不等于更锐</a>
+  <a href="#ch-sweet">最佳光圈甜蜜点 F5.6–F11</a>
+  <a href="#ch-stack">焦点堆叠：风光为何不爱一味F22</a>
+  <a href="#ch-balance">定焦、ISO与三脚架的平衡</a>
+  <a href="#ch-choice">锐度不是唯一目标</a>
+  <a href="#transcript">完整转录</a>
+</nav>
+
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>账号「摄影人生」以约六分钟口播，纠正初学者对锐度的根深蒂固误解：大光圈带来<strong>浅景深</strong>、小光圈扩大<strong>合焦范围</strong>，这都成立；但「把光圈缩到 F22 就一定最锐」并不成立——过小光圈会引入<strong>衍射</strong>，让细节变软。视频给出多数镜头的最佳光圈区间（约 F5.6–F11）、风光常用的焦点堆叠，以及 ISO/三脚架在曝光三角里的位置，最后强调锐度只是画面质量的一部分，应按表达主动选择。以下为视频作者观点纪实；口播 ASR 中「眼射/相差/三角架」等已按语境校正为「衍射/像差/三脚架」。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00→00:38]</span><div><strong>认知纠偏</strong><p>合焦多少与照片有多锐利是两件事；不必执着每张绝对锐利。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[00:38→01:21]</span><div><strong>衍射机制</strong><p>光圈过小，光波弯曲干扰，F22 虽「都在焦点里」却未必处于镜头最佳锐利状态。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[01:21→02:23]</span><div><strong>甜蜜点</strong><p>多数镜头最锐约在 F5.6–F11：躲开大光圈像差与小光圈衍射。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[02:23→02:52]</span><div><strong>焦点堆叠</strong><p>风光在 F8/F10 分段对焦再堆叠，兼顾前后清晰与最佳锐度。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[02:52→03:56]</span><div><strong>其他锐度因子</strong><p>定焦常比变焦更易锐；尽量低 ISO；慢门靠三脚架稳住。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[03:56→05:48]</span><div><strong>表达优先</strong><p>慢门朦胧合法；商业要锐可以追；最终看画面是否符合想说的话。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>想要更锐：定焦 + 最佳光圈 + 必要时三脚架/堆叠；但先弄清「合焦≠锐度」，再决定这张照片到底要不要极致清晰。</p></div>
+</div>
+
+<section class="story-section" id="ch-myth">
+  <h2><span class="time-marker">00:00–00:38</span>开场：浅景深与「缩到F22就最锐」</h2>
+  <p>讲述者以「很多摄影初学者都会有一个根深蒂固的认知」开场：用 F1.8 是为了拿<strong>浅景深</strong>（ASR 作「前景深」，按语境校正），缩到 F22 则是为了让画面「更清晰」。他自己也曾这么想，后来发现远没有这么简单。</p>
+  <p>大光圈确实能让主体从背景分离；小光圈也确实能让更多区域落入焦点范围。但「画面里有多少东西合焦」和「照片到底有多锐利」是两件不同的事——甚至到最后，摄影师未必需要执着让每一张都绝对锐利。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-01.jpg" alt="人物背对栏杆眺望小镇山脉，字幕谈把光圈缩到 F22" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:08] 开场对比：许多人以为缩到 F22 就能让画面「更清晰」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/deeafc841dba.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening contrast: many assume stopping down to F22 makes the frame “sharper.”</span></div>
+<audio class="cap-audio" src="audio/deeafc841dba.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-diffraction">
+  <h2><span class="time-marker">00:38–01:21</span>衍射：合焦变大不等于更锐</h2>
+  <p>基础课没错：光圈越大景深越浅，光圈越小景深越深，更多区域处于焦点范围——于是很多人自然推出「缩到最小就一定最锐」。视频明确说：这种理解并不完全正确。</p>
+  <p>当光圈缩得过小时，会出现<strong>衍射</strong>（ASR「眼射」）：光线通过极小孔径时，光波弯曲并相互干扰，最终降低画面锐利程度。因此 F22 可以让更多区域「看起来在焦点里」，但这些区域并不一定处在镜头能呈现的最佳锐利状态。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-02.jpg" alt="衍射示意图：平面波穿过小孔径后波前弯曲扩散" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:02] 衍射示意：光穿过极小光圈孔径时，波前弯曲干扰，锐度反而下降</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9ba0d0a49420.mp3" type="button" aria-label="Play English audio">🔊</button><span>Diffraction diagram: through a tiny aperture, wavefronts bend and interfere, so sharpness falls.</span></div>
+<audio class="cap-audio" src="audio/9ba0d0a49420.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-sweet">
+  <h2><span class="time-marker">01:21–02:23</span>最佳光圈甜蜜点 F5.6–F11</h2>
+  <p>镜头到底在什么光圈下最锐？讲述者引入「最佳光圈区间」：不同镜头表现不同，但多数镜头最锐往往落在约 <strong>F5.6 到 F11</strong>。过大时易出<strong>像差</strong>（ASR「相差」）——边缘画质下降、色散、紫边；过小时又吃衍射。F5.6–F11 常处在两者之间的甜蜜点。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-03.jpg" alt="讲述者口播：多数镜头最锐光圈约在 F5.6 到 F11" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:32] 最佳光圈区间：多数镜头最锐往往落在约 F5.6 到 F11</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e617da2d4e5c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Sweet-spot range: most lenses are sharpest around F5.6 to F11.</span></div>
+<audio class="cap-audio" src="audio/e617da2d4e5c.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+  <p>这里必须再拆一层：<strong>合焦范围 ≠ 画面锐度</strong>。在 F22，整幅从前景到背景也许都在焦点范围内，但因衍射，实际细节可能不如 F8 或 F11 锐利。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-04.jpg" alt="讲述者比划：合焦范围与画面锐度并不相同" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:05] 关键区分：合焦范围变大，不等于画面实际锐度更高</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5a4403877013.mp3" type="button" aria-label="Play English audio">🔊</button><span>Key split: a wider in-focus zone does not mean higher actual sharpness.</span></div>
+<audio class="cap-audio" src="audio/5a4403877013.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-stack">
+  <h2><span class="time-marker">02:23–02:52</span>焦点堆叠：风光为何不爱一味F22</h2>
+  <p>许多风光摄影师不会简单用 F22 拍一张「全景深」照片，而是在镜头最佳光圈（如 F8 或 F10）分别对前景、中景、背景对焦，再靠<strong>焦点堆叠</strong>融合成一张。好处是：前后都清晰，同时每个区域尽量保住镜头最佳锐度。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-05.jpg" alt="口播说明在最佳光圈分段对焦后做焦点堆叠" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:32] 风光做法：在 F8/F10 等最佳光圈分段对焦，再用焦点堆叠合成</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7d2edd2b908a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Landscape approach: focus stack at sweet-spot apertures like F8/F10 instead of one F22 frame.</span></div>
+<audio class="cap-audio" src="audio/7d2edd2b908a.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-balance">
+  <h2><span class="time-marker">02:52–03:56</span>定焦、ISO与三脚架的平衡</h2>
+  <p>锐度因子不止光圈。一般而言<strong>定焦</strong>往往比变焦更容易锐——光学结构相对简单，光线穿过的镜片与复杂结构更少。此外，无论胶片还是数码，想要干净锐利的画面，通常应<strong>尽可能</strong>使用较低 ISO。</p>
+  <p>但降 ISO 可能逼你开大光圈或降低快门：开大可能进入像差更明显的区域，降快门则手持易抖——这就是摄影里常面对的平衡。也因此很多风光摄影师使用<strong>三脚架</strong>：尽量低 ISO、光圈放在 F8/F11 一类最佳范围，进光量有限时用更慢快门，三脚架负责稳住机身。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-06.jpg" alt="口播谈低 ISO、最佳光圈与三脚架稳住慢门" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[03:45] 曝光平衡：低 ISO + 最佳光圈常逼出慢门，三脚架用来保稳定</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6f7a23491eda.mp3" type="button" aria-label="Play English audio">🔊</button><span>Exposure trade-off: low ISO plus sweet-spot aperture often forces a slow shutter—use a tripod.</span></div>
+<audio class="cap-audio" src="audio/6f7a23491eda.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-choice">
+  <h2><span class="time-marker">03:56–05:48</span>锐度不是唯一目标</h2>
+  <p>讲述者话锋一转：锐利不应成为摄影唯一追求。他自己常拍慢快门，并不过分在意极致锐利——慢快门本身带来运动感、纹理与朦胧梦幻；这类作品里即便为了更慢快门而用 F22，也未必「破坏」照片，因为目标本就不是绝对清晰。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-07.jpg" alt="讲述者举手势，提出更值得思考的问题" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[04:25] 反问收束：为什么一定要让照片那么锐利？</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/77425324d1e8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Closing question: why must a photo be that sharp?</span></div>
+<audio class="cap-audio" src="audio/77425324d1e8.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+  <p>于是问题变成：为什么一定要让照片那么锐利？专业商业摄影，或个人就是喜欢干净、细节丰富，追求锐度完全没问题；但一张照片是否优秀，并不取决于它是否绝对锐利。锐利只是画面质量的一部分；打动人的往往还有构图、光线、情绪、色彩与想表达的内容。适当柔软可以梦幻空灵，适当纹理可以更自然——它们不是「比锐度差」，只是不同视觉选择。</p>
+  <p>摄影不存在简单的「锐就好、不锐就差」。真正重要的是理解技术原理，再根据想表达的内容主动选择。若确实想要更锐：可用定焦、尽量选最佳光圈、必要时配合三脚架——但不必每张都这样拍。掌握更多知识，就拥有更多选择；最终一张照片是否锐利并不是最重要的，最重要的是画面是否真正符合摄影师想表达的东西。</p>
+  <figure>
+    <img src="assets/sharpness-truth-2/shot-08.jpg" alt="口播收尾：理解技术后按表达主动选择" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[05:20] 结论：掌握原理是为了更多选择；画面是否符合表达比绝对锐利更重要</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2643c0ec9b39.mp3" type="button" aria-label="Play English audio">🔊</button><span>Takeaway: learn the physics for more choices; fit to intent matters more than absolute sharpness.</span></div>
+<audio class="cap-audio" src="audio/2643c0ec9b39.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+  <p class="note">转录区保留 Whisper 原始分段（含「眼射」「相差」「三角架」等识别误差）；正文已按术语表校正并注明。</p>
+</section>
+</article>
+
+<section class="transcript-section" id="transcript">
+  <details class="transcript-collapsible">
+    <summary>详细文字转录</summary>
+    <div class="transcript-body">
+      <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。</p>
+      <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>很多摄影初学者都会有一个根深蒂固的认知</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT3S">00:03</time>
+    <p>使用F1.8的大光圈是为了获得前景深</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT7S">00:07</time>
+    <p>而把光圈缩小到F22</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT9S">00:09</time>
+    <p>则是为了让画面变得更加清晰</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT12S">00:12</time>
+    <p>肯特曾经也是这么认为的</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT13S">00:13</time>
+    <p>但随着对摄影的深入了解</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT15S">00:15</time>
+    <p>他发现事情其实远没有这么简单</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT18S">00:18</time>
+    <p>大光圈确实能够带来前景深</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT20S">00:20</time>
+    <p>让主体从背景中分离出来</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT22S">00:22</time>
+    <p>小光圈也确实能够让更多画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT25S">00:25</time>
+    <p>处于焦点范围之内</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT26S">00:26</time>
+    <p>然而画面中有多少东西</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT28S">00:28</time>
+    <p>和焦和照片到底有多锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT30S">00:30</time>
+    <p>其实是两件不同的事情</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT32S">00:32</time>
+    <p>甚至到了最后</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT33S">00:33</time>
+    <p>也许摄影师根本不需要执着于</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT36S">00:36</time>
+    <p>让每一张照片都绝对锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT38S">00:38</time>
+    <p>当人们刚开始学习摄影时</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT40S">00:40</time>
+    <p>通常都会了解到一个基础知识</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT42S">00:42</time>
+    <p>光圈越大景深越浅</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT44S">00:44</time>
+    <p>光圈越小景深越深</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT45S">00:45</time>
+    <p>画面中更多区域会处于焦点范围</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT48S">00:48</time>
+    <p>因此很多人自然会认为</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT50S">00:50</time>
+    <p>把光圈缩到最小</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT51S">00:51</time>
+    <p>就一定能够获得最锐利的照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT53S">00:53</time>
+    <p>但实际上这种理解并不完全正确</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT56S">00:56</time>
+    <p>当光圈缩得过小时</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT57S">00:57</time>
+    <p>会出现一种叫做眼射的现象</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT59S">00:59</time>
+    <p>简单来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT60S">01:00</time>
+    <p>当光线通过一个非常小的光圈孔径时</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT63S">01:03</time>
+    <p>光波会发生弯曲和相互干扰</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT66S">01:06</time>
+    <p>从而降低最终画面的锐利程度</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT68S">01:08</time>
+    <p>这也意味着</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT69S">01:09</time>
+    <p>虽然F22可以让画面中</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT71S">01:11</time>
+    <p>更多区域看起来处于焦点范围</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT74S">01:14</time>
+    <p>但这些区域并不一定处于</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT75S">01:15</time>
+    <p>镜头能够呈现的最佳锐利状态</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT78S">01:18</time>
+    <p>那么镜头到底在什么光圈下最锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT80S">01:20</time>
+    <p>肯特介绍了一个非常重要的概念</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT83S">01:23</time>
+    <p>那就是最佳光圈区间</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT85S">01:25</time>
+    <p>不同镜头的表现会有所不同</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT87S">01:27</time>
+    <p>但通常来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT89S">01:29</time>
+    <p>大多数镜头最锐利的光圈</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT91S">01:31</time>
+    <p>往往位于F5.6到F11之间</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT94S">01:34</time>
+    <p>原因就在于</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT95S">01:35</time>
+    <p>这个范围通常处于一个非常理想的平衡点</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT98S">01:38</time>
+    <p>当光圈开得过大时</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT100S">01:40</time>
+    <p>镜头容易出现各种相差</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT102S">01:42</time>
+    <p>例如边缘画质下降</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT103S">01:43</time>
+    <p>色散和紫边等问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT105S">01:45</time>
+    <p>而当光圈缩得过小时</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT107S">01:47</time>
+    <p>又会受到眼射的影响</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT109S">01:49</time>
+    <p>因此F5.6到F11</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT112S">01:52</time>
+    <p>往往处于两者之间的甜蜜点</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT114S">01:54</time>
+    <p>在这个范围内</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT115S">01:55</time>
+    <p>镜头既不会受到明显的大光圈相差影响</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT118S">01:58</time>
+    <p>也不会受到严重的眼射影响</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT121S">02:01</time>
+    <p>这里也需要区分一个概念</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT122S">02:02</time>
+    <p>合焦范围和画面锐度并不是完全相同的</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT126S">02:06</time>
+    <p>在F22时</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT127S">02:07</time>
+    <p>也许整个画面从前景到背景</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT129S">02:09</time>
+    <p>都处于焦点范围之内</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT131S">02:11</time>
+    <p>但由于眼射的存在</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT132S">02:12</time>
+    <p>画面的实际细节</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT133S">02:13</time>
+    <p>可能并没有在F8或F11时那么锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT137S">02:17</time>
+    <p>这也是为什么许多风光摄影师</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT139S">02:19</time>
+    <p>不会简单的使用F22来拍摄一张照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT143S">02:23</time>
+    <p>而是会选择在镜头的最佳光圈</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT145S">02:25</time>
+    <p>例如F8或F10分别对前景</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT149S">02:29</time>
+    <p>中景和背景进行对焦拍摄</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT151S">02:31</time>
+    <p>随后再通过焦点堆叠</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT153S">02:33</time>
+    <p>将多张照片融合在一起</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT155S">02:35</time>
+    <p>这样做的好处是</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT156S">02:36</time>
+    <p>既能够获得从前景到背景都清晰的画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT160S">02:40</time>
+    <p>又可以让每一个区域</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT161S">02:41</time>
+    <p>都尽可能保持镜头最佳的锐利程度</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT164S">02:44</time>
+    <p>当然影响照片锐度的因素远远不止光圈</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT167S">02:47</time>
+    <p>镜头本身的质量</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT168S">02:48</time>
+    <p>同样会带来明显影响</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT169S">02:49</time>
+    <p>一般来说</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT170S">02:50</time>
+    <p>定焦镜头往往比变焦镜头</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT172S">02:52</time>
+    <p>更容易获得锐利的画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT174S">02:54</time>
+    <p>原因之一是</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT175S">02:55</time>
+    <p>定焦镜头的光学结构通常相对简单</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT179S">02:59</time>
+    <p>光线需要穿过的镜片和复杂结构更少</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT182S">03:02</time>
+    <p>因此更容易获得出色的成像效果</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT184S">03:04</time>
+    <p>除了镜头和光圈之外</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT185S">03:05</time>
+    <p>ISO也是一个非常重要的因素</p>
+  </li>
+  <li class="transcript-row" id="transcript-89">
+    <time datetime="PT188S">03:08</time>
+    <p>无论使用胶片还是数码相机</p>
+  </li>
+  <li class="transcript-row" id="transcript-90">
+    <time datetime="PT190S">03:10</time>
+    <p>想要获得最干净最锐利的画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-91">
+    <time datetime="PT192S">03:12</time>
+    <p>通常都应该仅可能使用较低的ISO</p>
+  </li>
+  <li class="transcript-row" id="transcript-92">
+    <time datetime="PT196S">03:16</time>
+    <p>不过这里又会出现新的问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-93">
+    <time datetime="PT198S">03:18</time>
+    <p>如果为了降低ISO而减少曝光量</p>
+  </li>
+  <li class="transcript-row" id="transcript-94">
+    <time datetime="PT200S">03:20</time>
+    <p>那么摄影师可能需要进一步开大光圈</p>
+  </li>
+  <li class="transcript-row" id="transcript-95">
+    <time datetime="PT203S">03:23</time>
+    <p>或者降低快门速度</p>
+  </li>
+  <li class="transcript-row" id="transcript-96">
+    <time datetime="PT204S">03:24</time>
+    <p>开大光圈可能会影响景深</p>
+  </li>
+  <li class="transcript-row" id="transcript-97">
+    <time datetime="PT206S">03:26</time>
+    <p>甚至进入镜头相差更加明显的区域</p>
+  </li>
+  <li class="transcript-row" id="transcript-98">
+    <time datetime="PT209S">03:29</time>
+    <p>而降低快门速度</p>
+  </li>
+  <li class="transcript-row" id="transcript-99">
+    <time datetime="PT211S">03:31</time>
+    <p>则可能导致手持拍摄时出现抖动</p>
+  </li>
+  <li class="transcript-row" id="transcript-100">
+    <time datetime="PT214S">03:34</time>
+    <p>这就是摄影中经常需要面对的平衡</p>
+  </li>
+  <li class="transcript-row" id="transcript-101">
+    <time datetime="PT216S">03:36</time>
+    <p>也正因如此</p>
+  </li>
+  <li class="transcript-row" id="transcript-102">
+    <time datetime="PT217S">03:37</time>
+    <p>很多风光摄影师都会使用三角架</p>
+  </li>
+  <li class="transcript-row" id="transcript-103">
+    <time datetime="PT220S">03:40</time>
+    <p>他们会尽可能降低ISO</p>
+  </li>
+  <li class="transcript-row" id="transcript-104">
+    <time datetime="PT222S">03:42</time>
+    <p>同时把光圈设置在F8或F11这样的最佳范围内</p>
+  </li>
+  <li class="transcript-row" id="transcript-105">
+    <time datetime="PT226S">03:46</time>
+    <p>由于近光量有限</p>
+  </li>
+  <li class="transcript-row" id="transcript-106">
+    <time datetime="PT228S">03:48</time>
+    <p>为了保证正确曝光</p>
+  </li>
+  <li class="transcript-row" id="transcript-107">
+    <time datetime="PT229S">03:49</time>
+    <p>就只能使用更慢的快门速度</p>
+  </li>
+  <li class="transcript-row" id="transcript-108">
+    <time datetime="PT231S">03:51</time>
+    <p>三角架的作用就是在这种情况下</p>
+  </li>
+  <li class="transcript-row" id="transcript-109">
+    <time datetime="PT234S">03:54</time>
+    <p>保证相机保持稳定</p>
+  </li>
+  <li class="transcript-row" id="transcript-110">
+    <time datetime="PT236S">03:56</time>
+    <p>不过锐利并不应该成为摄影唯一追求的目标</p>
+  </li>
+  <li class="transcript-row" id="transcript-111">
+    <time datetime="PT239S">03:59</time>
+    <p>他自己经常拍摄慢快门照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-112">
+    <time datetime="PT242S">04:02</time>
+    <p>而在这种情况下</p>
+  </li>
+  <li class="transcript-row" id="transcript-113">
+    <time datetime="PT243S">04:03</time>
+    <p>他并不会过分在意画面是否达到了极致锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-114">
+    <time datetime="PT246S">04:06</time>
+    <p>因为慢快门本身就会为照片带来运动感</p>
+  </li>
+  <li class="transcript-row" id="transcript-115">
+    <time datetime="PT249S">04:09</time>
+    <p>纹理和一种朦胧的梦幻气氛</p>
+  </li>
+  <li class="transcript-row" id="transcript-116">
+    <time datetime="PT252S">04:12</time>
+    <p>在这样的作品中</p>
+  </li>
+  <li class="transcript-row" id="transcript-117">
+    <time datetime="PT253S">04:13</time>
+    <p>即使为了获得更慢的快门速度而使用F22</p>
+  </li>
+  <li class="transcript-row" id="transcript-118">
+    <time datetime="PT256S">04:16</time>
+    <p>也未必会破坏照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-119">
+    <time datetime="PT258S">04:18</time>
+    <p>因为这时候</p>
+  </li>
+  <li class="transcript-row" id="transcript-120">
+    <time datetime="PT259S">04:19</time>
+    <p>摄影师追求的可能根本不是所谓的绝对清晰</p>
+  </li>
+  <li class="transcript-row" id="transcript-121">
+    <time datetime="PT262S">04:22</time>
+    <p>于是一个更值得思考的问题出现了</p>
+  </li>
+  <li class="transcript-row" id="transcript-122">
+    <time datetime="PT265S">04:25</time>
+    <p>为什么一定要让照片那么锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-123">
+    <time datetime="PT267S">04:27</time>
+    <p>当然如果是专业商业摄影</p>
+  </li>
+  <li class="transcript-row" id="transcript-124">
+    <time datetime="PT269S">04:29</time>
+    <p>或者摄影师个人喜欢干净</p>
+  </li>
+  <li class="transcript-row" id="transcript-125">
+    <time datetime="PT271S">04:31</time>
+    <p>清晰 细节丰富的画面</p>
+  </li>
+  <li class="transcript-row" id="transcript-126">
+    <time datetime="PT274S">04:34</time>
+    <p>那么追求锐度完全没有问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-127">
+    <time datetime="PT276S">04:36</time>
+    <p>但一张照片是否优秀</p>
+  </li>
+  <li class="transcript-row" id="transcript-128">
+    <time datetime="PT277S">04:37</time>
+    <p>并不取决于它是不是绝对锐利</p>
+  </li>
+  <li class="transcript-row" id="transcript-129">
+    <time datetime="PT279S">04:39</time>
+    <p>锐利只是画面质量的一部分</p>
+  </li>
+  <li class="transcript-row" id="transcript-130">
+    <time datetime="PT281S">04:41</time>
+    <p>而真正让一张照片打动人的</p>
+  </li>
+  <li class="transcript-row" id="transcript-131">
+    <time datetime="PT284S">04:44</time>
+    <p>往往还有构图 光线 情绪 色彩</p>
+  </li>
+  <li class="transcript-row" id="transcript-132">
+    <time datetime="PT288S">04:48</time>
+    <p>以及摄影师想要表达的内容</p>
+  </li>
+  <li class="transcript-row" id="transcript-133">
+    <time datetime="PT290S">04:50</time>
+    <p>适当的柔软可以让画面显得梦幻而空灵</p>
+  </li>
+  <li class="transcript-row" id="transcript-134">
+    <time datetime="PT293S">04:53</time>
+    <p>适当的纹理则能够让照片拥有更加自然的质感</p>
+  </li>
+  <li class="transcript-row" id="transcript-135">
+    <time datetime="PT296S">04:56</time>
+    <p>这些效果并不比锐利更差</p>
+  </li>
+  <li class="transcript-row" id="transcript-136">
+    <time datetime="PT298S">04:58</time>
+    <p>它们只是不同的视觉选择</p>
+  </li>
+  <li class="transcript-row" id="transcript-137">
+    <time datetime="PT301S">05:01</time>
+    <p>摄影并不存在简单的锐利就是好</p>
+  </li>
+  <li class="transcript-row" id="transcript-138">
+    <time datetime="PT303S">05:03</time>
+    <p>不锐利就是差</p>
+  </li>
+  <li class="transcript-row" id="transcript-139">
+    <time datetime="PT304S">05:04</time>
+    <p>不同的画面风格会带来不同的情绪和表达</p>
+  </li>
+  <li class="transcript-row" id="transcript-140">
+    <time datetime="PT307S">05:07</time>
+    <p>真正重要的是</p>
+  </li>
+  <li class="transcript-row" id="transcript-141">
+    <time datetime="PT309S">05:09</time>
+    <p>摄影师要理解这些技术背后的原理</p>
+  </li>
+  <li class="transcript-row" id="transcript-142">
+    <time datetime="PT311S">05:11</time>
+    <p>然后根据自己想要表达的内容</p>
+  </li>
+  <li class="transcript-row" id="transcript-143">
+    <time datetime="PT313S">05:13</time>
+    <p>主动做出选择</p>
+  </li>
+  <li class="transcript-row" id="transcript-144">
+    <time datetime="PT315S">05:15</time>
+    <p>如果摄影师确实想获得更加锐利的照片</p>
+  </li>
+  <li class="transcript-row" id="transcript-145">
+    <time datetime="PT318S">05:18</time>
+    <p>那么可以使用定焦镜头</p>
+  </li>
+  <li class="transcript-row" id="transcript-146">
+    <time datetime="PT319S">05:19</time>
+    <p>尽量选择镜头的最佳光圈</p>
+  </li>
+  <li class="transcript-row" id="transcript-147">
+    <time datetime="PT321S">05:21</time>
+    <p>并且在必要时配合三角架</p>
+  </li>
+  <li class="transcript-row" id="transcript-148">
+    <time datetime="PT323S">05:23</time>
+    <p>但与此同时也应该记住</p>
+  </li>
+  <li class="transcript-row" id="transcript-149">
+    <time datetime="PT325S">05:25</time>
+    <p>这并不意味着每一张照片都必须这样拍</p>
+  </li>
+  <li class="transcript-row" id="transcript-150">
+    <time datetime="PT328S">05:28</time>
+    <p>因为摄影真正的乐趣也许就在于理解技术之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-151">
+    <time datetime="PT332S">05:32</time>
+    <p>在决定自己到底想说什么</p>
+  </li>
+  <li class="transcript-row" id="transcript-152">
+    <time datetime="PT334S">05:34</time>
+    <p>以及想用什么方式去表达</p>
+  </li>
+  <li class="transcript-row" id="transcript-153">
+    <time datetime="PT336S">05:36</time>
+    <p>当摄影师掌握了更多知识</p>
+  </li>
+  <li class="transcript-row" id="transcript-154">
+    <time datetime="PT338S">05:38</time>
+    <p>就拥有了更多选择</p>
+  </li>
+  <li class="transcript-row" id="transcript-155">
+    <time datetime="PT339S">05:39</time>
+    <p>而最终一张照片是否锐利并不是最重要的</p>
+  </li>
+  <li class="transcript-row" id="transcript-156">
+    <time datetime="PT343S">05:43</time>
+    <p>最重要的是</p>
+  </li>
+  <li class="transcript-row" id="transcript-157">
+    <time datetime="PT344S">05:44</time>
+    <p>这种画面是否真正符合摄影师想要表达的东西</p>
+  </li></ol>
+    </div>
+  </details>
+</section>
+</main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

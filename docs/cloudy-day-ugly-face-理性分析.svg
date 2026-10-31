@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4868" viewBox="0 0 1320 4868">
+  <foreignObject x="0" y="0" width="1320" height="4868">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>为什么在阴天拍照，会把脸拍的很丑</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-orange">阴天</span>
+    <span class="tag tag-red">死亡顶光</span>
+    <span class="tag tag-green">布光</span>
+    <span class="tag tag-purple">人像</span>
+    <span class="tag tag-gray">时长 2分09秒</span>
+    <span class="tag tag-gray">理性分析 · 用光</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/X4LRot2mTw">原视频</a>
+  <div class="summary-line">核心命题：阴天人像难看，主因是云层形成的超大号「死亡顶光」把面部阴影结构锁死；调亮度或修图救不回光塑形，要用抬头改光或正面灯具先改相对光位。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">光源来自大气层/云层 → 超大号死亡顶光</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:44</span><span class="timeline-text">脸上阴影已被光线决定；调亮度改不了法令纹</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:51</span><span class="timeline-text">修图也难救脸颊过黑、眼睛无神</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:05</span><span class="timeline-text">转动脸朝天：顶光变正面填充</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:36</span><span class="timeline-text">建议带灯出门；正面光冲淡瑕疵并出眼神光</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:52</span><span class="timeline-text">哑光粉底+散粉防油；灯形不限只要够亮</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">阴天云层<br/>死亡顶光</div>
+      <span class="arrow">→</span>
+      <div class="node-orange">阴影锁死<br/>修图无效</div>
+      <span class="arrow">→</span>
+      <div class="node-green">改光位<br/>抬头 / 正面灯</div>
+      <span class="arrow">→</span>
+      <div class="node">脸部填充<br/>+ 哑光控油</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：阴天丑是因为画面太暗，提亮就好。纠偏：顶光塑形（法令纹、无神）不随整体亮度消失。</p>
+    <p>误解：后期磨皮能解决一切。纠偏：视频明确说脸颊过黑、眼睛无神修不好——先改光。</p>
+    <p>误解：必须买特定造型的灯。纠偏：作者观点是形状随意，关键是足够亮的正面光。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+    <div class="card card-red">
+      <h3>在讲什么：死亡顶光锁死面部结构</h3>
+      <p>阴天不是「没光」，而是光几乎全部从上方大面积落下，形成不利于人像的顶光造型。</p>
+      <div class="quote">「主要是所有的光源都来自于大气层或者云层，是属于一个超大号的死亡顶光」</div>
+      <div class="highlight">关键理解：难看来自光向，不是相机故障。</div>
+      <div class="action">怎么用：阴天外拍先抬头看一眼「光从哪来」，再决定站位与脸朝向。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>在讲什么：曝光与修图的边界</h3>
+      <p>亮度滑条和软件修图改变的是全局或局部像素，改变不了已被光线写死的明暗交界。</p>
+      <div class="quote">「因为脸上的阴影情况已经被光线决定了」</div>
+      <div class="pitfall">避坑：别把光位问题甩给磨皮；越修越假也救不回无神眼神。</div>
+    </div>
+    <div class="card card-green">
+      <h3>在讲什么：姿态改光 vs 灯具改光</h3>
+      <p>两条可执行路径：① 脸朝天，把顶光变成正面填充；② 正面灯具冲淡阴影并做眼神光，再用哑光妆控油。</p>
+      <div class="quote">「比如我们可以转动脸部，让脸朝向天上」 / 「我会非常建议至少带一个灯具出门」</div>
+      <div class="action">怎么用：无灯时优先仰头构图；有灯则正打，妆面哑光+散粉。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：三种「救脸」路径</h3>
+    <table>
+      <thead><tr><th>路径</th><th>改什么</th><th>适用</th><th>边界</th></tr></thead>
+      <tbody>
+        <tr><td>提亮 / 修图</td><td>像素亮度与皮肤细节</td><td>轻微瑕疵</td><td>救不了顶光塑形与无神</td></tr>
+        <tr><td>抬头朝天</td><td>脸与光源的相对角度</td><td>无灯、可配合仰拍</td><td>姿态可能略猎奇</td></tr>
+        <tr><td>正面灯具</td><td>增加正面填充光</td><td>出门可带灯</td><td>易油光，需哑光妆</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>阴天人像难看 = 死亡顶光塑形，不是单纯欠曝。</li>
+      <li>阴影结构由光线决定，调亮度与硬修图优先级更低。</li>
+      <li>先改光位（抬头或正面灯），再谈后期。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>外拍前观察头顶是否是大面积顶光。</li>
+      <li>无灯时试「脸朝天」填充阴影，可拍仰头看天构图。</li>
+      <li>有条件带一盏够亮的正面灯，做出眼神光。</li>
+      <li>补光后用哑光粉底+散粉，避免膏状产品返油。</li>
+      <li>灯形随意，优先保证亮度与正对脸部。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：阴天丑 → 提亮/磨皮。现在：阴天丑 → 先改相对光位。</li>
+      <li>以前：修图万能。现在：光塑形有修图边界。</li>
+      <li>以前：必须买造型对的灯。现在：够亮的正面光才是关键。</li>
+    </ul>
+  </div>
+  <div class="footer">来源：小红书「奶茶配西瓜」· 分析基于口播与画面演示 · 非通用布光定论</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

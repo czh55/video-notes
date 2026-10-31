@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4241" viewBox="0 0 1320 4241">
+  <foreignObject x="0" y="0" width="1320" height="4241">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:72px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>摄影师的 10 件非拍照功课</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影师成长</span><span class="tag tag-blue">天气预报</span><span class="tag tag-blue">批评</span><span class="tag tag-blue">户外</span><span class="tag tag-blue">叙事</span>
+    <span class="tag tag-gray">20分46秒</span>
+    <span class="tag tag-purple">理性分析 · 能力模型</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/cBtJTnTSaT" target="_blank" rel="noopener">原视频（小红书短链）</a>
+  <div class="summary-line">核心判断：长期出好片的瓶颈常在「能否出现在对的条件、带着清醒身体与可传播故事」，不在又一条锐化技巧。10 项把气象解读、反馈质量、维护导航、健康睡眠、叙事机动、忍耐与对象认知，收成可训练的底板。</div>
+  <div class="timeline"><h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:50</div><div class="timeline-text">读天气预报：坏天气里的好光信号</div></div><div class="timeline-item"><div class="timeline-time">02:20</div><div class="timeline-text">给予/接受批评：可执行建议</div></div><div class="timeline-item"><div class="timeline-time">04:40</div><div class="timeline-text">清洁传感器与脚架</div></div><div class="timeline-item"><div class="timeline-time">06:10</div><div class="timeline-text">纸质地图与指北针</div></div><div class="timeline-item"><div class="timeline-time">07:40</div><div class="timeline-text">健康：种子油/加工食品/走路</div></div><div class="timeline-item"><div class="timeline-time">10:45</div><div class="timeline-text">睡眠服务日出</div></div><div class="timeline-item"><div class="timeline-time">13:00</div><div class="timeline-text">配文叙事：老虎案例</div></div><div class="timeline-item"><div class="timeline-time">16:40</div><div class="timeline-text">驾照=追条件自由</div></div><div class="timeline-item"><div class="timeline-time">18:20</div><div class="timeline-text">忍耐风暴；认识拍摄对象</div></div><div class="timeline-item"><div class="timeline-time">20:20</div><div class="timeline-text">邀请补充生活技能型条目</div></div>
+  </div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram">
+    
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">目标</div>长期出片
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">条件</div>读天气
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">反馈</div>真批评
+      </div><div class="arrow">→</div>
+      <div class="node ">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">在场</div>健康睡眠
+      </div><div class="arrow">→</div>
+      <div class="node node-orange">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">传播</div>会讲故事
+      </div><div class="arrow">→</div>
+      <div class="node node-green">
+        <div style="font-size:12px;opacity:.75;margin-bottom:4px">抵达</div>机动忍耐
+      </div>
+  </div></div>
+  <div class="correction"><h3>常见误解与认知纠偏</h3>
+    <p>误解：摄影师成长=堆叠拍摄技术。纠偏：作者把「生活技能」当作摄影的副作用引擎。</p><p>误解：批评越狠越专业。纠偏：无可执行建议的贬低只满足自我，不改进照片。</p><p>误解：GPS 时代地图无用。纠偏：地图训练降低依赖，并改变你发现机位的方式。</p><p>误解：忍是苦修玄学。纠偏：忍的是具体风暴与负重，换的是事后光线概率。</p><p>广告：风光书推销可与十条主论分开。</p>
+  </div>
+  <h2 class="sec-title">观点卡片</h2>
+  
+    <div class="card card"><h3>在讲什么：把气象翻译成光线语言</h3>
+      <p>关键理解：阵雨/高压/露点不是无聊数据，而是彩虹、云海、雾的概率标签。用法：出发前用「等于什么光」翻译一句话。</p>
+      <div class="quote">bad weather can very much be good weather</div>
+      <div class="relation">预报语汇 → 光线假说 → 是否值得出门</div>
+      
+      
+    </div>
+    <div class="card card-purple"><h3>在讲什么：批评是可设计的对话</h3>
+      <p>关键理解：好批评=优点识别+问题机制+可试行改动。用法：给人意见前强制写「可以试的一步」。</p>
+      
+      
+      <div class="pitfall">只砸「没新意/过处理」等身份攻击。</div>
+      <div class="action">接收批评时先分类：可执行 / 口味 / 喷子。</div>
+    </div>
+    <div class="card card-orange"><h3>在讲什么：身体与睡眠是拍摄系统的一部分</h3>
+      <p>关键理解：乏力宿醉直接降低外拍质量；日出场依赖可重复的睡眠。用法：把作息当成器材清单外的「系统设置」。</p>
+      
+      <div class="relation">饮食运动睡眠 → 出勤率 → 作品数量与质量</div>
+      
+      
+    </div>
+    <div class="card card-green"><h3>在讲什么：故事与知识让照片可被记住</h3>
+      <p>关键理解：同图不同配文，传播与意义差一个数量级；知道拍的是峰色落叶松而不是「一棵树」，过程与文本都更厚。用法：发布前补 3 句过程冲突，补 1 个对象专名。</p>
+      
+      
+      
+      
+    </div>
+  <h2 class="sec-title">对照表</h2><div class="card"><table>
+    <tr><th>条目</th><th>摄影收益</th><th>生活收益</th></tr>
+    <tr><td>读天气</td><td>出现在好光</td><td>少盲出门</td></tr><tr><td>批评</td><td>加速迭代</td><td>更好协作</td></tr><tr><td>维护/地图</td><td>器材可靠/新点</td><td>自立与户外安全</td></tr><tr><td>健康睡眠</td><td>更长出勤</td><td>长期可持续</td></tr><tr><td>叙事/开车/忍耐/认知</td><td>作品可传播/可抵达</td><td>表达力与自由</td></tr>
+  </table></div>
+  <div class="conclusion"><h2>行动结论</h2>
+    <ul><li>下次出发把天气预报翻译成一句「可能的光」。</li><li>给人反馈强制：1 优点 + 1 机制 + 1 可试行。</li><li>选一项维护：脚架或传感器，完整做完一次。</li><li>连续 7 天记录睡眠与是否赶上日出/黄金小时。</li><li>发图时重写配文：冲突→转折→结果；并补一个对象专名。</li></ul>
+  </div>
+  <div class="footer">video-notes · ten-things-every-photographer · 理性分析</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

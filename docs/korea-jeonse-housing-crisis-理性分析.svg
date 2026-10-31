@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4079" viewBox="0 0 1320 4079">
+  <foreignObject x="0" y="0" width="1320" height="4079">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:28px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#1e40af;margin:22px 0 12px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+h3{font-size:16px;font-weight:700;color:#334155;margin-bottom:8px}
+p,li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:5px}
+ul,ol{padding-left:20px}
+.tag{display:inline-block;padding:3px 10px;border-radius:16px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:8px 0 12px}
+.summary-line{font-size:16px;line-height:1.65;padding:16px 18px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:14px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:10px;padding:5px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:12px;font-weight:700;color:#3b82f6;min-width:58px}
+.timeline-text{font-size:13px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:22px;margin-bottom:14px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:12px;padding:12px 16px;text-align:center;min-width:118px;font-weight:700;font-size:13px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:20px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:14px 16px;border-radius:10px;margin-bottom:12px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:18px;font-weight:700;color:#1e40af;margin:6px 0 10px;padding-left:10px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:10px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:15px;color:#1e40af}
+.card .quote{background:#f8fafc;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 10px;border-radius:8px;font-size:12px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#991b1b;border-left:3px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f1f5f9;padding:8px;text-align:left;color:#1e40af}
+td{padding:8px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:22px;margin-top:16px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:10px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:16px 0}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:10px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap"><h1>韩国全租房暴雷｜民间杠杆与下行阶梯</h1><div class="meta"><span class="tag tag-blue">全租房</span><span class="tag tag-green">韩国</span><span class="tag tag-orange">住房</span><span class="tag tag-purple">杠杆</span><span class="tag tag-gray">时长 16分28秒</span><span class="tag tag-gray">理性分析 · 制度金融</span></div><a class="source-link" href="https://b23.tv/yEsf7BY">原视频</a><div class="summary-line">核心判断：全租房把「强制储蓄+免息融资」做成全民杠杆；顺风时人人上车，逆风时押金链条断裂。政策两头堵难改供给收缩后的价格反弹，真正代价是住房阶梯中间一级被抽掉。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:45</span><span class="timeline-text">全租机制图</span></div><div class="timeline-item"><span class="timeline-time">03:40</span><span class="timeline-text">全租价率</span></div><div class="timeline-item"><span class="timeline-time">05:40</span><span class="timeline-text">空罐头诈骗</span></div><div class="timeline-item"><span class="timeline-time">07:00</span><span class="timeline-text">倒挂崩盘</span></div><div class="timeline-item"><span class="timeline-time">09:20</span><span class="timeline-text">三补丁</span></div><div class="timeline-item"><span class="timeline-time">11:20</span><span class="timeline-text">房价反弹</span></div><div class="timeline-item"><span class="timeline-time">13:20</span><span class="timeline-text">月租化</span></div><div class="timeline-item"><span class="timeline-time">15:00</span><span class="timeline-text">下行滑梯</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">机制<br/>押金换白住</div><span class="arrow">→</span><div class="node-green">异化<br/>缺口投资</div><span class="arrow">→</span><div class="node-orange">崩盘<br/>诈骗+倒挂</div><span class="arrow">→</span><div class="node">后果<br/>阶梯下行</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：全租=零租金福利。纠偏：本质是大额押金民间借贷。</p><p>误解：爆雷后房价应长期下跌。纠偏：供给与续约结构可推公寓价格再创新高。</p><p>误解：只有诈骗受害者受伤。纠偏：月租化与挤出效应打击未上车年轻人。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-purple"><h3>制度原点：互助变杠杆</h3><p>高利率年代全租像互助；金融自由化后押金变首付燃料，全租价率决定杠杆倍数。</p><div class="quote">缺口投资</div><div class="relation">顺风局放大参与面。</div></div><div class="card card-red"><h3>爆雷结构：空罐头×倒挂</h3><p>villa 估价真空制造空罐头；加息后高点押金无法滚动，合规公寓也违约。</p><div class="quote">全租倒挂</div><div class="relation">信任比单笔诈骗更脆弱。</div></div><div class="card card-orange"><h3>政策两头堵的上限</h3><p>兜底租客+DSR/公示价/土地许可敲房东；HUG 亏损转嫁纳税人，难补供给缺口。</p><div class="quote">villa 恐惧症</div><div class="relation">心理阴影改租赁结构快于法条。</div></div><div class="card card-green"><h3>阶梯抽芯</h3><p>月租不可退还侵蚀储蓄；青年自有率下滑；首尔挤出成家年龄段。</p><div class="quote">梯子改成往下滑</div><div class="relation">有房/无房资产分化加深。</div></div></div><div class="section"><h2 class="sec-title">观察指标</h2><div class="card"><table><thead><tr><th>指标</th><th>含义</th><th>信号</th></tr></thead><tbody><tr><td>全租押金</td><td>是否回历史高点</td><td>杠杆是否回潮</td></tr><tr><td>国企垫付</td><td>事故金额走势</td><td>财政窟窿</td></tr><tr><td>月租占比</td><td>强制储蓄消失度</td><td>阶梯形态</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>口播数字为视频口径，非官方统计复核。</li><li>中韩制度不可直接类比月租市场。</li></ul><div class="pitfall">把全租简单骂成骗局而忽略其储蓄功能史。</div><div class="pitfall">只盯房价涨跌忽略租赁结构切换。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>全租=民间杠杆制度。</li><li>崩盘账单社会化。</li><li>阶梯下行才是长期伤痕。</li></ul><h3>行动清单</h3><ol><li>看月租占比与青年自有率，不只看公寓均价。</li><li>评估「保险+公示价」能否堵住空罐头。</li><li>对标本国租赁金融的杠杆隐性风险。</li></ol><h3>关键认知转变</h3><p>从「韩国房价疯不疯」转向「住房阶梯中间级是否还在」。</p></div><div class="footer">双轨产物之二 · 理性分析 · korea-jeonse-housing-crisis</div></div>
+    </div>
+  </foreignObject>
+</svg>

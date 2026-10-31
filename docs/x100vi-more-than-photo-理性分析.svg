@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6120" viewBox="0 0 1320 6120">
+  <foreignObject x="0" y="0" width="1320" height="6120">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#2563eb;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{border-radius:16px;padding:18px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:2px solid #6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border:2px solid #fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border:2px solid #c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#94a3b8}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#ecfdf5;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#065f46;border-left:4px solid #14b8a6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#2563eb;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+<div class="container root-wrap">
+  <h1>这么贵的 X100VI 你只拿来拍照？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">富士</span>
+    <span class="tag tag-green">X100VI</span>
+    <span class="tag tag-orange">视频设置</span>
+    <span class="tag tag-purple">胶片模拟</span>
+    <span class="tag tag-gray">12分43秒</span>
+    <span class="tag tag-gray">作者观点</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/6meYgtVDtie">原视频链接</a>
+  <div class="summary-line">核心命题：X100VI 不只是「拍立得相机」——用一套可执行的录影默认（规格→习惯→色彩→快门/ND→对焦稳定），就能把它当日常摄影机，而不是只压快门出静帧。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:42</span><span class="timeline-text">切录影模式，分栏设分辨率/帧率</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">6.2K/HQ 裁切 ~1.23×：35→约43mm</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">日常 4K30；升格普通 4K60；HQ/6.2K 顶30</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:20</span><span class="timeline-text">自动模式 + 每镜8–10秒习惯</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:20</span><span class="timeline-text">胶片模拟直出；偏色查白平衡</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:00</span><span class="timeline-text">1/60 动态抹糊；白天 ND 保光圈快门</span></div>
+    <div class="timeline-item"><span class="timeline-time">09:50</span><span class="timeline-text">JJC：可调ND+CPL+黑柔</span></div>
+    <div class="timeline-item"><span class="timeline-time">10:46</span><span class="timeline-text">M/C/S 与影片防抖边界：宜定机位</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node node-blue">规格<br/>4K×帧率</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">习惯<br/>自动起步</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">观感<br/>模拟+1/60</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">边界<br/>ND/对焦/稳定</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>观点卡 1｜分辨率是「视角预算」</h3>
+    <p><strong>在讲什么：</strong>普通 4K / 4K HQ / 6.2K 不是单纯画质阶梯，而是视角与后期空间的交换。</p>
+    <div class="highlight">关键理解：要广就普通 4K；要细腻/放大就付裁切税。</div>
+    <div class="action">怎么用：街拍跟拍优先普通 4K；静物特写或后期裁再上 HQ/6.2K。</div>
+    <div class="quote">原文依据：「会有1.23倍的裁切…35毫米…变成了大约43毫米。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>观点卡 2｜帧率绑定用途，不要和分辨率绑死</h3>
+    <p><strong>在讲什么：</strong>30 帧够日常；60 帧留给升格，且只能走普通 4K 通道。</p>
+    <div class="action">默认：4K30；要慢动作先确认当前不是 HQ/6.2K。</div>
+    <div class="pitfall">避坑：在 6.2K 里找 60 帧——作者明确说顶 30。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>观点卡 3｜电影感来自快门角近似，不是盲目高快门</h3>
+    <p><strong>在讲什么：</strong>30 帧配约 1/60，动作才有抹糊；白天要虚化就用 ND 而不是狂提快门。</p>
+    <div class="quote">「快门很快…动作却可能有点生硬；快门慢一点…运动的抹糊。」</div>
+    <div class="action">流程：定光圈与 1/60 → 降 ISO → 不够再 ND（机内或外接可调）。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>观点卡 4｜色彩：先模拟，后白平衡，最后才后期</h3>
+    <p><strong>在讲什么：</strong>富士机内胶片模拟已是专业起点；颜色不对先修 WB，而不是立刻上 Log。</p>
+    <div class="pitfall">避坑：新手第一天就 Log+LUT，把「拍起来」拖死。</div>
+  </div>
+
+  <div class="card card-red">
+    <h3>观点卡 5｜稳定与对焦的诚实边界</h3>
+    <p><strong>在讲什么：</strong>照片 IBIS 强 ≠ 影片可边走边拍；障碍物场景要会切 M。</p>
+    <div class="quote">「即使防抖开到最高档，也不适合拿着它边走边拍运动镜头。」</div>
+    <div class="action">跟拍上云台；日常定机位慢摇；人脸运动主体用 C。</div>
+  </div>
+
+  <h2>横向对比：三种分辨率</h2>
+  <table>
+    <tr><th>模式</th><th>视角</th><th>细节/后期</th><th>作者偏好场景</th></tr>
+    <tr><td>普通 4K</td><td>无额外裁切（~35mm）</td><td>够用、文件更小</td><td>日常广角记录</td></tr>
+    <tr><td>4K HQ</td><td>~1.23× 裁切（~43mm）</td><td>超采样更细</td><td>要清晰又仍出 4K</td></tr>
+    <tr><td>6.2K</td><td>同 HQ 裁切</td><td>分辨率最高</td><td>后期放大/重构图</td></tr>
+  </table>
+
+  <h2>行动清单</h2>
+  <ol>
+    <li>把默认规格设成普通 4K30 + 常用胶片模拟。</li>
+    <li>用自动模式连拍 10 个「8–10 秒」固定镜头热身。</li>
+    <li>实拍时把快门钉在约 1/60，过曝只动 ISO→ND。</li>
+    <li>需要追人再开 C+人脸；有栏杆树叶抢焦就切 M。</li>
+    <li>移动镜头改用稳定器，机身留给定机位叙事。</li>
+  </ol>
+
+  <h2>避坑总结</h2>
+  <ul>
+    <li>为了「更清」无脑开 6.2K，结果视角变窄还占满卡。</li>
+    <li>白天大光圈放任自动快门飙到上千，动作像幻灯片。</li>
+    <li>把照片防抖当成运动摄影许可证。</li>
+    <li>暗光还挂着黑柔/ND，画面发闷却不知道拆。</li>
+  </ul>
+
+  <h2>方法边界</h2>
+  <p>以上为创作者个人工作流，参数（1/60、1.23×、JJC 型号）来自视频口述与演示，非官方规格书核对。内建 ND 档位、各模拟在不同光线下的偏差，需以你的机身菜单与实拍为准。影片防抖结论针对「手持边走」场景，上脚架/云台不在否定范围。</p>
+
+  <div class="conclusion">
+    <h2>结论</h2>
+    <h3>核心要点</h3>
+    <p>把 X100VI 当摄影机：先定规格与习惯，再管色彩与快门角，最后用滤镜和对焦补边界。</p>
+    <h3>行动清单</h3>
+    <p>今天就设 4K30 默认，拍一杯咖啡的 10 秒固定镜头；明天再试 1/60 + ND。</p>
+    <h3>认知转变</h3>
+    <p>贵的不是「只能出大片静帧」——贵在同一套胶片逻辑能覆盖拍与录；限制主要在影片稳定与裁切预算，不在「会不会拍视频」。</p>
+  </div>
+  <div class="footer">双轨产物 · 理性分析 · 2026-10-28 · primary=photo</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="APS-C 的 C 来自 1996 年 APS 胶卷 Classic 裁切框；胶卷失败后名字变成传感器尺码，裁切系数是这把历史尺子的用法。">
+  <title>APS-C 的“C”是什么？｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}
+.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-list{list-style:none;padding:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  header h1{font-size:24px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <h1>APS-C 的“C”是什么？</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">3分08秒</span>
+    <span class="meta-tag tag-topic">APS-C 画幅 胶卷史 裁切系数</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/2dQtePzZVtk" target="_blank" rel="noopener">→ 原视频链接</a>
+  <p style="margin-top:16px;color:#57534e;font-size:15px;">作者：所以然｜OnaFab · 平台：小红书 · 日期：2026-10-28</p>
+</header>
+
+<nav class="toc">
+  <h3>内容导航</h3>
+  <a href="#ch1">失败的胶卷留下的名字</a>
+  <a href="#ch2">H / C / P：C 从第一天起就是裁出来的</a>
+  <a href="#ch3">胶卷死了，名字成了传感器尺码</a>
+  <a href="#ch4">同一支镜头只接住中间一块</a>
+  <a href="#transcript">详细文字转录</a>
+</nav>
+
+<article class="documentary">
+  <div class="content-points">
+    <h2>内容要点</h2>
+    <p>所以然｜OnaFab 用三维示意把「APS-C」拆开：它不是天生的数码规格，而是 1996 年先进摄影系统（APS）胶卷里 <strong>Classic（经典 3:2）裁切框</strong> 留下的名字。胶卷格式失败后，早期小数码单反传感器尺寸碰巧接近那一框，「APS-C」才变成今天的传感器尺码；同一支镜头在 APS-C 上只接住成像圈中间一块，所以要乘 1.5 / 1.6 做等效焦距。</p>
+    <h3>知识结构</h3>
+    <div class="summary-row">
+      <span class="time-marker">[00:00→00:40]</span>
+      <div>
+        <strong>胶卷出身</strong>
+        <p>1996 年五家厂推 APS：暗盒投片、四格状态图标、磁性层记录拍摄信息；片基本身按 H 宽屏记录。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[00:40→01:08]</span>
+      <div>
+        <strong>C = Classic 裁切</strong>
+        <p>H / C / P 三种比例可选，但底片都是 H；你的选择只是旁边记号，冲印机读记号再裁。所以 C 从第一天起就是裁出来的。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[01:08→02:05]</span>
+      <div>
+        <strong>格式死、尺码活</strong>
+        <p>市场远未达八成目标；2004 柯达退出 APS 相机，2011 胶卷停产。早期数码单反小一号传感器接近胶卷 C 画幅，佳能从「尺寸相当」到直接写 APS-C；更大一号曾叫 APS-H（约 1.3 倍）。</p>
+      </div>
+    </div>
+    <div class="summary-row">
+      <span class="time-marker">[02:05→03:08]</span>
+      <div>
+        <strong>裁切系数尺子</strong>
+        <p>同一支镜头，APS-C 只接住中间一块；焦距×1.5（佳能常×1.6）。这把尺子的「1」是全画幅，升级路径也按倍数排好。格式死了，名字成了尺码。</p>
+      </div>
+    </div>
+    <div class="takeaway-box">
+      <strong>总结</strong>
+      <p>看见机身上的 APS-C，先把它读成「接近当年 APS 胶卷 Classic 裁切框的小传感器」——C 从来不是整卷底片，而是裁切；今天的裁切系数，是胶卷史留下的尺子。</p>
+    </div>
+  </div>
+
+  <section class="story-section" id="ch1">
+    <h2><span class="time-marker">00:00-00:40</span>失败的胶卷留下的名字</h2>
+    <p>视频开场直接把字母拆开：很多相机写着 APS-C，但 APS 是什么、C 又是什么？画面叠出「IMAGE SENSOR · 图像传感器」和约 23.5×15.6mm 比例的传感器模型，旁边是标着 C · H · P 的紫黑暗盒——整支片子的核心判断写在标题区：这是<strong>一个失败的胶卷留下来的名字</strong>。</p>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-01.jpg" alt="APS 与紫色 C 字母旁的图像传感器三维示意" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:06] 标题提问 APS-C 的 C 是什么；旁为约 23.5×15.6mm 传感器示意</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2003477a4e97.mp3" type="button" aria-label="Play English audio">🔊</button><span>Title asks what the C in APS-C means; beside it, a ~23.5×15.6mm sensor diagram</span></div>
+<audio class="cap-audio" src="audio/2003477a4e97.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>时间拨到 1996：柯达、富士、佳能、美能达、尼康五家推出 Advanced Photo System。胶片收在约 39mm 高的暗盒里，不露片头，丢进相机就能拍。暗盒一头有四格图标——未曝光、拍了一部分、拍完未冲洗、已冲洗；胶片上还有几乎透明的磁性层（IX），把拍摄时间、闪光、加印张数等信息写在上面。口播里 Whisper 把「冲洗」听成「充足」，画面图例仍清楚对应四态。</p>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-02.jpg" alt="1996 年五家公司推出 APS，旁为紫色暗盒" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:18] 1996 年柯达、富士、佳能、美能达、尼康推出 APS，旁为紫黑暗盒</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e6a9a36f17bb.mp3" type="button" aria-label="Play English audio">🔊</button><span>In 1996 Kodak, Fujifilm, Canon, Minolta, and Nikon launched APS; purple cartridge beside</span></div>
+<audio class="cap-audio" src="audio/e6a9a36f17bb.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-03.jpg" alt="APS 暗盒顶部四格状态图标特写" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:30] APS 暗盒顶部四格：未曝光、拍了一部分、拍完未冲洗、已冲洗</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c2754e43aded.mp3" type="button" aria-label="Play English audio">🔊</button><span>Four status icons on the APS cartridge: unexposed, partly shot, finished unprocessed, processed</span></div>
+<audio class="cap-audio" src="audio/c2754e43aded.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch2">
+    <h2><span class="time-marker">00:40-01:08</span>H / C / P：C 从第一天起就是裁出来的</h2>
+    <p>APS 照片有三种比例：H 像宽屏电视，P 是全景，C 是 Classic——经典的 3:2。关键一句是：<strong>不管选哪种，底片上都是 H</strong>；你的选择只是旁边一个记号，重印机读到记号才去裁画面。三种照片都从同一个 H 里裁出来，所以 C 从第一天起就是裁出来的——不是整卷底片天生叫 C。</p>
+    <div class="quote">「所以 C，从第一天起就是裁出来的。」——视频口播（画面亦写「裁」）</div>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-04.jpg" alt="APS 底片上标注 H 宽屏与 P 全景裁切框" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:48] 同一 H 画幅底片上标注 H 宽屏与 P 全景；C 为 Classic 3:2 裁切</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a3e749477d0f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Same H-frame negative labeled H widescreen and P panorama; C is Classic 3:2 crop</span></div>
+<audio class="cap-audio" src="audio/a3e749477d0f.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch3">
+    <h2><span class="time-marker">01:08-02:05</span>胶卷死了，名字成了传感器尺码</h2>
+    <p>柯达曾称这是 1963 年以来最重要的发布，厂商目标是 2000 年占相机销量八成；可第一年在美国大约只占 7%。得买新相机，胶卷冲印还贵约 15%。数码浪潮来了：2004 年柯达退出 APS 相机，2011 年最后的 APS 胶卷宣布停产——「相机还在，新胶卷没了」。视频引用尼康设计师的话：似乎没了未来。</p>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-05.jpg" alt="1996 至 2011 时间轴与 APS 相机销量目标示意" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:12] 时间轴 1996–2011；厂商目标 2000 年占相机销量八成</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b075f2ea0d7b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Timeline 1996–2011; makers aimed for 80% of camera sales by 2000</span></div>
+<audio class="cap-audio" src="audio/b075f2ea0d7b.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>小数码单反登场：传感器比 36×24 小一号、更便宜，大小恰好接近 APS 胶卷的 C 画幅。2003 年佳能写的是「APS-C 尺寸相当」，一年后「相当」两个字没了——名字被直接征用。可各家 APS-C 并不一样大，佳能自己也说它不是精确尺寸；更大一号曾叫 APS-H，约 1.3 倍。胶卷没了，H 和 C 成了尺码。</p>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-06.jpg" alt="全画幅框内叠放胶片 C 画幅与数码 APS-C 尺寸对比" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:45] 早期数码单反传感器叠在全画幅框内，大小接近 APS 胶卷 C 画幅</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/139aaf603310.mp3" type="button" aria-label="Play English audio">🔊</button><span>Early digital SLR sensors nested in a full-frame box, close to APS film C frame size</span></div>
+<audio class="cap-audio" src="audio/139aaf603310.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-07.jpg" alt="胶卷消失后 H 与 C 成为传感器尺码示意" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:03] 胶卷没了之后，H 与 C 变成传感器尺码；示意含 APS-H×1.3</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6491831cfd8a.mp3" type="button" aria-label="Play English audio">🔊</button><span>After film died, H and C became sensor size codes; includes APS-H ×1.3</span></div>
+<audio class="cap-audio" src="audio/6491831cfd8a.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+  </section>
+
+  <section class="story-section" id="ch4">
+    <h2><span class="time-marker">02:05-03:08</span>同一支镜头只接住中间一块</h2>
+    <p>同一支镜头，APS-C 只接住成像圈中间一块，所以焦距要换算：乘 1.5，佳能常乘 1.6。50 毫米拍出来，像 75 毫米的视角。这把尺子的「1」是全画幅，别的画幅都写成几倍；升级的路也沿着这把尺子排好了。</p>
+    <figure>
+      <img src="assets/what-is-aps-c/shot-08.jpg" alt="成像圈内全画幅与 APS-C 取景框及 50×1.5=75 换算" loading="lazy">
+      <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:15] 成像圈内 APS-C 只接中间一块；50mm×1.5≈75mm 等效视角</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d739fe4debe3.mp3" type="button" aria-label="Play English audio">🔊</button><span>In the image circle APS-C takes only the center; 50mm ×1.5 ≈ 75mm equivalent view</span></div>
+<audio class="cap-audio" src="audio/d739fe4debe3.mp3" preload="none"></audio>
+</figcaption>
+    </figure>
+    <p>收束句把整条史线拧紧：<strong>格式死了，名字成了尺码；C 从第一天起就是裁出来的。</strong>片尾还把「全画幅」溯源到电影胶片、「一英寸」溯源到电视摄像管——提醒读者：今天嘴里的画幅名，往往都是别的媒介留下的尺子。片尾提问「你的相机，是哪种画幅？」并预告下一期宽银幕 2.39:1。</p>
+  </section>
+</article>
+
+    <section class="transcript-section" id="transcript">
+      <details class="transcript-collapsible">
+        <summary>详细文字转录</summary>
+        <div class="transcript-body">
+          <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现（已转简体），可能包含识别误差；正文叙述已对照画面字幕校正「裁 / 冲洗」等关键词。</p>
+          <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>很多相机都写着APSC</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT30S">00:30</time>
+    <p>拍了一半,拍完,充足</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT33S">00:33</time>
+    <p>胶片上还涂着一层透明的磁性涂</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT36S">00:36</time>
+    <p>拍摄时间,印几张,都写在上面</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT40S">00:40</time>
+    <p>APSC的照片有三种比例</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT43S">00:43</time>
+    <p>H,C,P,H像宽带电视</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT46S">00:46</time>
+    <p>P是全景,C是Classic,经典的3比2</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT51S">00:51</time>
+    <p>可不管选哪种,底片上都是H</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT55S">00:55</time>
+    <p>你的选择,只是旁边的一个记号</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT58S">00:58</time>
+    <p>重印机读到记号,才把画面猜想</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT61S">01:01</time>
+    <p>三种照片,都从同一个H里猜</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT64S">01:04</time>
+    <p>所以C,从第一天起就是猜出来的</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT68S">01:08</time>
+    <p>柯达称,1963年以来最重要的发布</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT71S">01:11</time>
+    <p>厂商的目标,2000年占相机销量八成</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT74S">01:14</time>
+    <p>可第一年,在美国只占约7%</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT78S">01:18</time>
+    <p>得买新相机,胶卷重印还贵约15%</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT81S">01:21</time>
+    <p>数码来了,2004年,柯达退出APSC相机</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT85S">01:25</time>
+    <p>2011年,最后的APSC胶卷宣布停产</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT88S">01:28</time>
+    <p>相机还在,新胶卷没了</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT91S">01:31</time>
+    <p>尼康的设计师写,似乎没了未来</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT95S">01:35</time>
+    <p>小七色码单看,传感器比36乘24小</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT99S">01:39</time>
+    <p>小一号,更便宜</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT102S">01:42</time>
+    <p>大小恰好接近APSC胶卷的C画幅</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT105S">01:45</time>
+    <p>2003年,佳能写的是APSC尺寸相当</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT109S">01:49</time>
+    <p>一年后,相当两个字没了</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT112S">01:52</time>
+    <p>可各家的APSC并不一样大</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT115S">01:55</time>
+    <p>佳能自己也说,它不是精确尺寸</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT119S">01:59</time>
+    <p>大一号的叫APSH,1.3倍</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT122S">02:02</time>
+    <p>胶卷没了,H和C成了尺码</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT125S">02:05</time>
+    <p>同一支镜头,APSC只接住中间一块</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT130S">02:10</time>
+    <p>所以胶具要换算,乘1.5,乘1.6</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT134S">02:14</time>
+    <p>50毫米拍出来,像75毫米的视角</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT137S">02:17</time>
+    <p>这把尺子的1是全画幅</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT140S">02:20</time>
+    <p>别的画幅都写成几倍</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT143S">02:23</time>
+    <p>升级的路也沿着这把尺子排好了</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT150S">02:30</time>
+    <p>格式死了,名字成了尺码</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT155S">02:35</time>
+    <p>C从第一天起就是裁出来的</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT161S">02:41</time>
+    <p>第一期的全画幅来自电影胶片</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT164S">02:44</time>
+    <p>第二期的一英寸来自电视摄像管</p>
+  </li></ol>
+        </div>
+      </details>
+    </section>
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

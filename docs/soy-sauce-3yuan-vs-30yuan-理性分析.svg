@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2879" viewBox="0 0 1320 2879">
+  <foreignObject x="0" y="0" width="1320" height="2879">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.8;color:#475569}ul{padding-left:22px;margin:8px 0}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}.tag-gray{background:#f1f5f9;color:#64748b}.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:16px 0 20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:22px 26px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-weight:700;color:#3b82f6;min-width:56px}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:16px 0}
+.node{border-radius:14px;padding:14px 18px;font-weight:700;font-size:14px;text-align:center;min-width:120px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{color:#94a3b8;font-size:20px}
+.correction{background:#fef9c3;border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin:16px 0;color:#92400e}
+.card{background:#fff;border-radius:16px;padding:24px;margin-bottom:16px;border-left:5px solid #3b82f6;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.card.card-orange{border-left-color:#f59e0b}.card.card-purple{border-left-color:#8b5cf6}.card.card-green{border-left-color:#10b981}
+.card h3{color:#1e40af}.action{background:#ecfdf5;padding:10px 14px;border-radius:10px;margin-top:10px;color:#065f46;border-left:4px solid #14b8a6}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:10px;margin-top:10px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+th,td{padding:10px 12px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top}th{background:#f8fafc;color:#1e40af}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:24px}
+.conclusion h2,.conclusion h3,.conclusion p,.conclusion li{color:#fff;border:none}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:24px 0}
+.root-wrap{background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px}</style>
+      <div class="container root-wrap">
+<h1>3 块 vs 30 块酱油：差在哪</h1>
+<div class="meta"><span class="tag tag-orange">厨房消费</span><span class="tag tag-blue">酿造/配制</span><span class="tag tag-green">用法分工</span></div>
+<div class="summary-line">核心判断：价差主要来自发酵深度与用途匹配，不是瓶身颜色；用三行标签筛身份，再用「冷吃贵、热炒平」把钱花在刀刃上。</div>
+<div class="timeline"><h3>关键证据时间轴</h3>
+<div class="timeline-item"><span class="timeline-time">00:00</span><span>颜色陷阱：两瓶都黑</span></div>
+<div class="timeline-item"><span class="timeline-time">00:28</span><span>酿造 vs 配制</span></div>
+<div class="timeline-item"><span class="timeline-time">01:12</span><span>氨基酸态氮=鲜味分</span></div>
+<div class="timeline-item"><span class="timeline-time">01:49</span><span>配料与 0 添加误读</span></div>
+<div class="timeline-item"><span class="timeline-time">02:37</span><span>白饭实验 + 用法分工</span></div>
+</div>
+<div class="diagram">
+<div class="node node">读背面三行</div>
+<div class="arrow">→</div>
+<div class="node node node-orange">分清身份</div>
+<div class="arrow">→</div>
+<div class="node node node-green">分场景用</div>
+</div>
+<div class="correction"><h3>常见误解纠偏</h3><p>「配制=有毒」「0 添加=最好」「越贵炒菜越香」都不成立；配制合法，0 添加只管防腐，贵酱油怕大火。</p></div>
+<div class="card "><h3>三行身份证</h3>
+<table><tr><th>行</th><th>看什么</th><th>怎么用</th></tr>
+<tr><td>品名</td><td>酿造/配制</td><td>机制不同，都能吃</td></tr>
+<tr><td>氨基酸态氮</td><td>≥0.8 特级门槛</td><td>同勺鲜味厚度</td></tr>
+<tr><td>配料</td><td>是否短而清</td><td>长名单多看一眼</td></tr>
+</table>
+<div class="action">买前翻面 10 秒，比听广告有效。</div>
+<div class="pitfall">只看「特级」二字却忽略数值单位。</div>
+</div>
+<div class="card card-green"><h3>钱花在哪</h3>
+<p>发酵香气适合凉拌、蒸鱼出锅、热面、蘸饺；红烧大火会挥发。</p>
+<div class="action">一贵一平两瓶策略。</div>
+</div>
+<div class="conclusion"><h2>总结与行动</h2>
+<h3>核心要点</h3><ul><li>颜色不可比价</li><li>三行标签可筛</li><li>用法错配浪费钱</li></ul>
+<h3>行动清单</h3><ul><li>翻面拍一张配料对照</li><li>贵酱油只开小瓶冷用</li><li>红烧改回平价酿造</li></ul>
+</div><div class="footer">video-notes · b65p · 理性分析</div></div>
+    </div>
+  </foreignObject>
+</svg>

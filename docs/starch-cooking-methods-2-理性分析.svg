@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1472" viewBox="0 0 1320 1472">
+  <foreignObject x="0" y="0" width="1320" height="1472">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.root{padding:48px 60px;background:linear-gradient(135deg,#fff7ed,#ffedd5)}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;color:#c2410c;margin-bottom:8px}
+.meta{color:#78716c;font-size:13px;margin-bottom:12px}
+a{color:#c2410c}
+.summary{background:#fff;padding:16px;border-left:4px solid #ea580c;border-radius:12px;margin:14px 0;line-height:1.7;color:#44403c}
+.card{background:#fff;padding:18px;border-radius:14px;margin:12px 0;border-left:5px solid #ea580c}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+li{margin:6px 0;line-height:1.7;color:#475569}
+.conclusion{background:linear-gradient(135deg,#c2410c,#ea580c);color:#fff;padding:22px;border-radius:16px;margin-top:14px}
+.conclusion h2,.conclusion li{color:#fff}
+.footer{text-align:center;color:#94a3b8;padding:14px;font-size:12px}</style>
+      <div class="container root">
+<h1>三种淀粉：锁水 / 勾芡 / 炸壳</h1>
+<div class="meta">淀粉 · 勾芡 · 炸制 · 家常菜 · 图文 · 图文 1 页</div>
+<a href="https://xhslink.cn/o/81t5K5rFbmk">原笔记</a>
+<div class="summary">核心判断：同叫淀粉，功能按颗粒与糊化行为分岔——腌制保嫩、芡汁透亮、高温脆壳各用其材。</div>
+<div class="card"><h3>玉米淀粉</h3><ul><li>腌肉抓拌锁水</li><li>翻炒仍嫩滑</li></ul></div>
+<div class="card"><h3>土豆淀粉</h3><ul><li>生粉勾芡</li><li>汁清亮有卖相</li></ul></div>
+<div class="card"><h3>红薯淀粉</h3><ul><li>颗粒粗耐高温</li><li>酥肉炸虾掉渣脆</li></ul></div>
+<div class="conclusion"><h2>行动</h2><ul><li>腌肉抓玉米淀粉</li><li>溜菜勾芡用土豆淀粉</li><li>炸壳换红薯淀粉</li></ul></div>
+<div class="footer">video-notes · starch-cooking-methods-2</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="越野跑教练李猛 11 秒下坡台阶演示；口播 ASR 几乎为空，图文实录以标题与画面为主并标明听不清。">
+<title>越野跑下坡一个技巧一个坑｜图文实录</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}
+.note{background:#fef3c7;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:10px;color:#92400e}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+img{display:block;max-width:100%;height:auto}figcaption{padding:14px 18px}
+</style><style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+<h1>越野跑下坡一个技巧一个坑</h1>
+<p><span class="meta-tag tag-platform">小红书</span><span class="meta-tag tag-duration">11秒</span>
+<a href="https://xhslink.cn/o/Wr3ETF0tHC">原视频</a></p>
+<p class="note">本条口播 Whisper 仅识别出残片「先把这2…」，无法还原「技巧/坑」具体口令；以下按可见画面纪实，待有更清晰音源或作者文案再补全。</p>
+</header>
+<article>
+<section>
+<h2>画面纪实</h2>
+<p>账号「越野跑教练李猛」在小区户外台阶做下坡跑演示：骨传导耳机、短袖短裤跑鞋，身体略前倾、屈膝连续落阶。标题承诺「一个技巧一个坑」，但 11 秒成片内未见清晰大字幕，音频可辨口播极短。</p>
+<figure>
+<img src="assets/trail-run-downhill-tip-pitfall/shot-01.jpg" alt="教练在台阶下坡跑，背景为小区绿植与高层">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 教练在小区台阶演示下坡跑姿态（口播 ASR 几乎未识别）</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e3e566cf3a76.mp3" type="button" aria-label="Play English audio">🔊</button><span>Coach demo of downhill stair running posture (ASR nearly empty).</span></div>
+<audio class="cap-audio" src="audio/e3e566cf3a76.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+<figure>
+<img src="assets/trail-run-downhill-tip-pitfall/shot-02.jpg" alt="高角度俯拍下坡落脚动作">
+<figcaption class="cap-bilingual">
+<div class="cap-zh">[00:06] 下坡台阶连续落脚；标题提示「一个技巧一个坑」，细节以画面为准</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/303b5c60869a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Continuous downhill steps; title says one tip and one pitfall—details rely on visuals.</span></div>
+<audio class="cap-audio" src="audio/303b5c60869a.mp3" preload="none"></audio>
+</figcaption>
+</figure>
+</section>
+<section>
+<h2>完整转录</h2>
+<p>（几乎为空）先把这2…</p>
+</section>
+</article>
+</main><script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

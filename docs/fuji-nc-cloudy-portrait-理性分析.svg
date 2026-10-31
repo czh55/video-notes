@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4920" viewBox="0 0 1320 4920">
+  <foreignObject x="0" y="0" width="1320" height="4920">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>阴天也没关系！如何利用富士NC拍出质感写真</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-purple">富士 NC</span>
+    <span class="tag tag-orange">Classic Neg.</span>
+    <span class="tag tag-green">阴天</span>
+    <span class="tag tag-red">胶片模拟</span>
+    <span class="tag tag-gray">时长 1分33秒</span>
+    <span class="tag tag-gray">理性分析 · 配方</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/2ZkBNL6O1Pa">原视频</a>
+  <div class="summary-line">核心命题：秋冬阴郁光线下 Classic Neg.（NC）易涂抹、缺质感；先借白墙等环境反光稳住脸部，再用「白优先 + B+1 + 阴影-0.5 + 色彩+3 + 蓝FX强」配方，而不是等完美阳光。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:02</span><span class="timeline-text">完美阳光环境难求（字幕）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08</span><span class="timeline-text">阴郁天空：光线条件一般</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:15</span><span class="timeline-text">此时使用 NC 拍摄的观感问题（衔接到涂抹感）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">侧前方白墙反光作填充</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:02</span><span class="timeline-text">机身参数条：白优先 / B+1 / 阴影-0.5 / 色彩+3</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:15</span><span class="timeline-text">点名阴影色调 -0.5</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">阴天光线<br/>一般</div>
+      <span class="arrow">→</span>
+      <div class="node-orange">NC 涂抹<br/>质感不足</div>
+      <span class="arrow">→</span>
+      <div class="node-green">白墙反光<br/>+ 机身配方</div>
+      <span class="arrow">→</span>
+      <div class="node">阴郁也能<br/>出质感写真</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解与认知纠偏</h3>
+    <p>误解：阴天就别用 NC。纠偏：作者给出阴郁专用配方，目标是压涂抹、保质感。</p>
+    <p>误解：只要改胶片模拟就够。纠偏：视频同时强调现场白墙反光，配方与用光是一套。</p>
+    <p>误解：口播参数最准。纠偏：本片 Whisper 失效，以画面配方条与笔记文案为准。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+    <div class="card card-orange">
+      <h3>在讲什么：阴天 NC 的失败模式</h3>
+      <p>秋冬缺硬阳光时，Classic Neg. 直出容易「涂抹」、层次塌掉——这是选场景与默认设定叠加的结果，不是机身坏了。</p>
+      <div class="quote">笔记：「会发现这时用 NC 拍摄的图片色彩会有涂抹感，质感表现也不到位。」</div>
+      <div class="highlight">关键理解：问题定义在「阴郁光 + NC」，所以解法是专用配方而非换模拟。</div>
+    </div>
+    <div class="card card-green">
+      <h3>在讲什么：环境反光先于菜单</h3>
+      <p>复杂光场景里，侧前方白墙被明确标出——先让脸吃到反射填充，再谈色调菜单。</p>
+      <div class="quote">字幕：「因为地面和侧前方有一面粉刷为白色的墙面」</div>
+      <div class="action">怎么用：阴天人像优先找浅色墙/地面反光位，再锁定 NC 配方。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>在讲什么：可照抄的 Classic Neg. 阴天档</h3>
+      <p>白优先稳住冷白平衡；B+1 微偏蓝；阴影 -0.5 略压；色彩 +3；Chrome 弱 + 蓝 FX 强；颗粒关。阴影 -0.5 被单独点名。</p>
+      <div class="quote">画面配方条 + 字幕「阴影色调为 -0.5」</div>
+      <div class="pitfall">边界：此为作者机身设定观点，不同机型菜单名可能略有差异；未宣称适用所有肤色与场景。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>配方速查表（作者观点）</h3>
+    <table>
+      <thead><tr><th>项目</th><th>设定</th><th>意图（推断）</th></tr></thead>
+      <tbody>
+        <tr><td>白平衡</td><td>AUTO 白色优先 / R0 B+1</td><td>控冷白，微偏蓝</td></tr>
+        <tr><td>高光 / 阴影</td><td>+0 / -0.5</td><td>略压阴影层次</td></tr>
+        <tr><td>色彩</td><td>+3</td><td>抬饱和，抗涂抹灰感</td></tr>
+        <tr><td>Chrome / 蓝 FX</td><td>弱 / 强</td><td>强化空气与蓝色层次</td></tr>
+        <tr><td>锐度 / 清晰度 / 颗粒</td><td>0 / 0 / 无</td><td>保持干净直出</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>阴天 NC 易涂抹，不等于不能拍。</li>
+      <li>先借白墙等反光，再套阴郁配方。</li>
+      <li>阴影 -0.5 + 色彩 +3 + 蓝 FX 强是本片关键旋钮。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>秋冬阴天先观察有无浅色墙/地面可作反光。</li>
+      <li>胶片模拟切 Classic Neg.，白平衡白色优先，B 偏移 +1。</li>
+      <li>阴影调到 -0.5，色彩 +3，Chrome 弱、蓝 FX 强，颗粒关。</li>
+      <li>实拍对比默认 NC 与本配方，确认涂抹感是否下降。</li>
+      <li>肤色偏差时优先微调 WB 偏移，而不是先开颗粒。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：阴天放弃 NC。现在：阴天用专用 NC 档。</li>
+      <li>以前：只改菜单。现在：白墙反光 + 菜单一起做。</li>
+      <li>以前：等阳光。现在：阴郁光也可作为写真条件。</li>
+    </ul>
+  </div>
+  <div class="footer">来源：小红书「御成富士」· 以画面配方条与笔记文案为准 · Whisper 口播不可用</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

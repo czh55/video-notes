@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="智能体手机：换机周期拉长倒逼 Agent 叙事；整机 Agent vs Super App；端侧芯片为多步任务铺路。">
+<title>智能体手机加速爆发｜硅谷101｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.lead{font-size:17px;color:#44403c;margin:18px 0 0;padding:16px 18px;background:#fff;border-radius:12px;border-left:4px solid #00a1d6;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin:28px 0 32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1d4ed8;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>智能体手机加速爆发｜硅谷101</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">B站</span><span class="meta-tag tag-duration">20分04秒</span><span class="meta-tag tag-topic">智能体手机 端侧AI</span></div>
+<a class="source-link" href="https://b23.tv/MDs3A6m" target="_blank" rel="noopener">→ 原视频链接</a>
+<p class="lead">换机周期逼近四年，厂商急需新故事；端侧算力与小模型让 Agent 从「能用」走向「好用」。硅谷101陈茜梳理整机 Agent vs Super App 两条路线，并以努比亚 NaviX Ultra + 豆包助手为例，说明感知—推理—后台执行—记忆的范式，以及骁龙侧为 Agent 准备的 CPU/GPU/NPU。</p>
+</header>
+<nav class="toc"><h3>内容导航</h3><a href="#ch1">换机周期与 Agent 故事</a><a href="#ch2">端侧条件与两条路线</a><a href="#ch3">硅谷中国体验与骁龙</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2>
+<p>三股力量：换机刺激枯竭、端侧 AI 就绪、模型变小+端云协同。行业分叉为系统级 Agent 与超级入口；苹果/谷歌/OpenAI 与国内备案落地并行。硬件要点是低功耗感知、异构调度、端云协同与缓存共享。</p>
+<h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→03:20]</span><div><strong>为何现在</strong><p>折叠屏热闹之外，换机周期→48 月；Agent 把「等人操作」变成「替你办事」。</p></div></div><div class="summary-row"><span class="time-marker">[03:20→08:00]</span><div><strong>条件与分叉</strong><p>NPU/小模型/端云协同具备；整机嵌入 vs Super App 入口。</p></div></div><div class="summary-row"><span class="time-marker">[08:00→20:03]</span><div><strong>体验与芯片</strong><p>苹果/谷歌/OpenAI；nubia 跨 App 后台执行；FlexCache 与三加速器。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>下一轮入口之争不只是镜头参数，而是谁成为最懂用户、最值得信任、能替用户办完事的 Agent。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-03:20</span>手机需要新刺激：Agent 之年</h2><p>开场并置折叠屏硬件秀与存储涨价收缩中低端，但更前沿的是 AI Agent 手机：过去十几年交互几乎没变，若手机开始替你完成任务，叙事就变了。高通称 2026 是 Agent 之年；阶跃星辰、荣耀 Robot Phone、努比亚 NaviX Ultra（豆包助手）与硅谷巨头同时加压。</p><p>第一股力量是换机理由枯竭：Counterpoint 显示全球换机周期从约 43 个月向 48 个月靠拢，代际感知差缩小。厂商需要 Agent——订餐不再自己跳 App，而是一句话完成搜索比较预订，手机从工具变助理。</p><figure><img src="assets/agent-phone-silicon-valley-101/shot-01.jpg" alt="AI智能体手机开场" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 比折叠屏更前沿：手机不再等你点，而是替你办事</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/01cdbf5e6436.mp3" type="button" aria-label="Play English audio">🔊</button><span>Beyond foldables: phones act for you, not wait for taps</span></div>
+<audio class="cap-audio" src="audio/01cdbf5e6436.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-02.jpg" alt="换机周期拉长数据" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:20] 换机周期向 48 个月靠拢：代际刺激变弱，急需新故事</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8e8142a6e2db.mp3" type="button" aria-label="Play English audio">🔊</button><span>Upgrade cycle nears 48 months; need a new stimulus story</span></div>
+<audio class="cap-audio" src="audio/8e8142a6e2db.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-03.jpg" alt="Agent订餐场景示意" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:20] Agent：一句话订餐，搜索比较预订交给系统</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/713889ddae35.mp3" type="button" aria-label="Play English audio">🔊</button><span>Agent: one ask books dinner—search, compare, reserve</span></div>
+<audio class="cap-audio" src="audio/713889ddae35.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">03:20-08:00</span>算力/模型就绪，行业分叉</h2><p>第二股力量是端侧算力：从骁龙早期 AI Engine、拍照语音固定任务，到 8 Gen2 的低精度与 Transformer 优化、8 Gen3 宣称端侧百亿参数，再到至尊版把个人知识图谱与 Agent 写进目标——芯片一步步为本地大模型与记忆准备。</p><p>第三股是模型变小与端云协同：同等智能所需参数下降，本地预处理+云端规划降低延迟与隐私暴露。条件齐备后问题变成：谁定义操作方式？整机 Agent（系统里嵌助手，如 NaviX+豆包）体验直接；Super App（先进入 ChatGPT/豆包/Gemini 再调服务）落地更快、厂商改造 OS 压力更小。两边都在找平衡。</p><figure><img src="assets/agent-phone-silicon-valley-101/shot-04.jpg" alt="骁龙端侧大模型能力演进" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:00] 芯片路径：拍照辅助→跑大模型→写入个人记忆与 Agent 目标</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b21e30401f9a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Chips: camera AI → on-device LLM → personal memory &amp; agents</span></div>
+<audio class="cap-audio" src="audio/b21e30401f9a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-05.jpg" alt="整机Agent与Super App分叉" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:20] 两条路：整机系统 Agent vs 超级 AI 入口 App</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6348ad7f51a8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Two paths: system-wide agent vs super-app AI entry</span></div>
+<audio class="cap-audio" src="audio/6348ad7f51a8.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">08:00-20:03</span>产品体验、备案与异构算力</h2><p>苹果把 Siri 往系统级 Agent / Intelligent Personal Hub 推，端侧+私有云，体验统一但生态开放有限、迭代曾慢于预期。谷歌 Gemini 既像系统 Agent 又像 Super App，服务链完整，却要在分散 Android 与第三方权限里稳定跨 App 执行。OpenAI 与 Jony Ive 硬件合作仍偏终端层探索，量产时间表靠后。</p><p>国内端侧大模型备案后，智能体手机进入有监管落地阶段。nubia 演示：AI 键唤醒、授权后跨 App、虚拟屏后台跑、可记忆行程——理解规划执行链路已通，但第三方 App 覆盖仍早期，类似自动驾驶先铺底层再迭代。</p><p>硬件三要求：低功耗感知待命、CPU/GPU/NPU 异构无短板、端云协同控延迟。新骁龙强调共享缓存（任务切换不丢上下文）、GPU 内 AI、NPU 向量/标量与近端内存、MoE 多精度——为多步骤 Agent 服务。竞争焦点：谁成为最值得信任的入口 Agent。</p><figure><img src="assets/agent-phone-silicon-valley-101/shot-06.jpg" alt="苹果系统级Agent叙事" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:30] 苹果：Siri→系统级 Agent，端侧+私有云，生态相对封闭</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0651d23915f1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Apple: Siri→system agent; on-device+Private Cloud; tighter ecosystem</span></div>
+<audio class="cap-audio" src="audio/0651d23915f1.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-07.jpg" alt="nubia跨App执行演示" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11:20] nubia：授权后跨 App，虚拟屏后台执行不占主屏</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e6e46cfa9a2b.mp3" type="button" aria-label="Play English audio">🔊</button><span>nubia: after consent, cross-app work on a virtual screen</span></div>
+<audio class="cap-audio" src="audio/e6e46cfa9a2b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-08.jpg" alt="AI原生交互范式" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13:00] 感知·推理·执行·记忆：AI 原生交互范式初成型</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/14bd5af51ae8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Sense·reason·act·remember: AI-native UX emerging</span></div>
+<audio class="cap-audio" src="audio/14bd5af51ae8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-09.jpg" alt="低功耗感知与主NPU" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] 硬件：低功耗感知待命，重活才唤醒主 NPU</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/203d772f0283.mp3" type="button" aria-label="Play English audio">🔊</button><span>Hardware: low-power sensing; wake main NPU for heavy AI</span></div>
+<audio class="cap-audio" src="audio/203d772f0283.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-10.jpg" alt="FlexCache与三加速器" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[17:00] 共享缓存+CPU/GPU/NPU 皆有 AI：服务多步 Agent</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/00581c9705cd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Shared cache + AI on CPU/GPU/NPU for multi-step agents</span></div>
+<audio class="cap-audio" src="audio/00581c9705cd.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/agent-phone-silicon-valley-101/shot-11.jpg" alt="入口之争收束" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[19:00] 下轮竞争：谁成为最懂、最可信、能办完事的 Agent</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0bbf082db7cc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Next fight: who is the trusted agent that finishes jobs</span></div>
+<audio class="cap-audio" src="audio/0bbf082db7cc.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（552段）</summary>
+<div class="transcript-body"><p class="transcript-note">Whisper 转录；已校正：智能体、阶跃星辰、高通安蒙、INT4、Gemini、Jony Ive/LoveFrom、异构计算、FlexCache 等。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>最近手机大战又打响了</p></div>
+<div class="transcript-row"><time>00:02</time><p>苹果正式进入折叠屏</p></div>
+<div class="transcript-row"><time>00:04</time><p>三星把折叠屏拆成多种形态</p></div>
+<div class="transcript-row"><time>00:07</time><p>小米展示了18 Fold</p></div>
+<div class="transcript-row"><time>00:09</time><p>与此同时存储芯片价格持续上涨</p></div>
+<div class="transcript-row"><time>00:11</time><p>推动整个行业进入新一辆周期</p></div>
+<div class="transcript-row"><time>00:13</time><p>并迫使厂商进一步收缩中低端产品线</p></div>
+<div class="transcript-row"><time>00:17</time><p>但是更前沿也更让人关注的是</p></div>
+<div class="transcript-row"><time>00:19</time><p>AI智能体手机 AI Agent Fold</p></div>
+<div class="transcript-row"><time>00:22</time><p>过去十几年手机一直在变得更强</p></div>
+<div class="transcript-row"><time>00:24</time><p>摄像头越来越多</p></div>
+<div class="transcript-row"><time>00:26</time><p>芯片越来越快</p></div>
+<div class="transcript-row"><time>00:27</time><p>但是我们操作手机的方式</p></div>
+<div class="transcript-row"><time>00:29</time><p>几乎没怎么变</p></div>
+<div class="transcript-row"><time>00:30</time><p>但如果有一天手机不再等你操作</p></div>
+<div class="transcript-row"><time>00:33</time><p>而是直接替你完成事情呢</p></div>
+<div class="transcript-row"><time>00:35</time><p>2026年这件事突然开始加速了</p></div>
+<div class="transcript-row"><time>00:38</time><p>高通CEO安蒙此前说过</p></div>
+<div class="transcript-row"><time>00:40</time><p>2026是Agent之年</p></div>
+<div class="transcript-row"><time>00:42</time><p>我们也看到今年7月</p></div>
+<div class="transcript-row"><time>00:43</time><p>阶跃星辰发布了AI手机StepX Neo</p></div>
+<div class="transcript-row"><time>00:46</time><p>荣耀发布了Robot Phone</p></div>
+<div class="transcript-row"><time>00:48</time><p>还有最近努比亚发布了nubia NaviX Ultra</p></div>
+<div class="transcript-row"><time>00:50</time><p>搭载了新版豆包手机助手消费者版</p></div>
+<div class="transcript-row"><time>00:53</time><p>是官方认证的全球首款AI智能体手机</p></div>
+<div class="transcript-row"><time>00:56</time><p>而在硅谷 苹果</p></div>
+<div class="transcript-row"><time>00:58</time><p>五个OpenEye纷纷下场发力</p></div>
+<div class="transcript-row"><time>01:00</time><p>一时间AI手机市场热闹了起来</p></div>
+<div class="transcript-row"><time>01:03</time><p>Hello 大家好</p></div>
+<div class="transcript-row"><time>01:03</time><p>欢迎收看硅谷101</p></div>
+<div class="transcript-row"><time>01:04</time><p>我是陈茜</p></div>
+<div class="transcript-row"><time>01:05</time><p>那么这期视频呢</p></div>
+<div class="transcript-row"><time>01:06</time><p>我们就想聊聊手机的下一步在往哪里走</p></div>
+<div class="transcript-row"><time>01:09</time><p>行业里面正在出现如何的变果</p></div>
+<div class="transcript-row"><time>01:12</time><p>为什么手机厂商开始压住Agent</p></div>
+<div class="transcript-row"><time>01:15</time><p>像努比亚nubia NaviX Ultra这样的产品上手体验如何</p></div>
+<div class="transcript-row"><time>01:19</time><p>以及智能体手机</p></div>
+<div class="transcript-row"><time>01:20</time><p>真的是AI硬件的未来吗</p></div>
+<div class="transcript-row"><time>01:22</time><p>那为什么最近手机厂商都来压住智能体手机了呢</p></div>
+<div class="transcript-row"><time>01:26</time><p>这背后其实是有三股力量汇聚在了一起</p></div>
+<div class="transcript-row"><time>01:30</time><p>第一呢</p></div>
+<div class="transcript-row"><time>01:30</time><p>是传统手机行业需要新的换机理由了</p></div>
+<div class="transcript-row"><time>01:33</time><p>过去几十年</p></div>
+<div class="transcript-row"><time>01:34</time><p>智能手机的升级逻辑非常清楚</p></div>
+<div class="transcript-row"><time>01:37</time><p>屏幕越来越大</p></div>
+<div class="transcript-row"><time>01:38</time><p>摄像头越来越多</p></div>
+<div class="transcript-row"><time>01:40</time><p>处理器越来越快</p></div>
+<div class="transcript-row"><time>01:41</time><p>电池越来越持久</p></div>
+<div class="transcript-row"><time>01:43</time><p>每隔一两年总会有一个明显的硬件升级</p></div>
+<div class="transcript-row"><time>01:46</time><p>让消费者觉得这台手机是一个优秀的手机</p></div>
+<div class="transcript-row"><time>01:49</time><p>但最近几年这种刺激正在明显变弱</p></div>
+<div class="transcript-row"><time>01:52</time><p>CounterPoint的数据显示</p></div>
+<div class="transcript-row"><time>01:54</time><p>全球智能手机换机周期已经明显拉长</p></div>
+<div class="transcript-row"><time>01:57</time><p>2023和2024年这个数据都是在43个月左右</p></div>
+<div class="transcript-row"><time>02:01</time><p>到了2026年</p></div>
+<div class="transcript-row"><time>02:03</time><p>CounterPoint最新判断是</p></div>
+<div class="transcript-row"><time>02:04</time><p>受存储芯片等零部件价格上涨影响</p></div>
+<div class="transcript-row"><time>02:08</time><p>全球换机周期正在向48个月</p></div>
+<div class="transcript-row"><time>02:10</time><p>也就是四年靠拢</p></div>
+<div class="transcript-row"><time>02:12</time><p>在分析换机周期拉长的原因是</p></div>
+<div class="transcript-row"><time>02:15</time><p>也就是新手机和上一代手机之间的差距</p></div>
+<div class="transcript-row"><time>02:18</time><p>消费者越来越感知不到了</p></div>
+<div class="transcript-row"><time>02:20</time><p>所以对于厂商们来说</p></div>
+<div class="transcript-row"><time>02:22</time><p>他们急需去找到一个新的刺激点</p></div>
+<div class="transcript-row"><time>02:25</time><p>来重新点燃大家的购买欲望</p></div>
+<div class="transcript-row"><time>02:28</time><p>当然就是AI了</p></div>
+<div class="transcript-row"><time>02:29</time><p>更准确的来说是Agent智能体</p></div>
+<div class="transcript-row"><time>02:34</time><p>过去几年</p></div>
+<div class="transcript-row"><time>02:35</time><p>CounterPoint的优秀手机的优秀性</p></div>
+<div class="transcript-row"><time>02:37</time><p>也都在增加了</p></div>
+<div class="transcript-row"><time>02:39</time><p>这些优秀手机的优秀性</p></div>
+<div class="transcript-row"><time>02:41</time><p>也都在增加了</p></div>
+<div class="transcript-row"><time>02:42</time><p>智能体</p></div>
+<div class="transcript-row"><time>02:44</time><p>过去几年</p></div>
+<div class="transcript-row"><time>02:45</time><p>手机AI功能已经越来越多</p></div>
+<div class="transcript-row"><time>02:47</time><p>但是Agent带来的想象空间是完全不同的</p></div>
+<div class="transcript-row"><time>02:50</time><p>比如之前想订一家餐厅</p></div>
+<div class="transcript-row"><time>02:52</time><p>你可能需要打开手机地图搜索餐厅</p></div>
+<div class="transcript-row"><time>02:54</time><p>看评价 查时间</p></div>
+<div class="transcript-row"><time>02:56</time><p>再跳转到订餐平台</p></div>
+<div class="transcript-row"><time>02:58</time><p>而在智能体时代</p></div>
+<div class="transcript-row"><time>02:59</time><p>你只需要告诉手机</p></div>
+<div class="transcript-row"><time>03:00</time><p>帮我找一个离我近一点</p></div>
+<div class="transcript-row"><time>03:02</time><p>适合两个人吃饭</p></div>
+<div class="transcript-row"><time>03:03</time><p>今晚7点还有位置的餐厅</p></div>
+<div class="transcript-row"><time>03:05</time><p>那后面的搜索 比较 预定</p></div>
+<div class="transcript-row"><time>03:07</time><p>都可以由Agent来完成</p></div>
+<div class="transcript-row"><time>03:09</time><p>那这样一来</p></div>
+<div class="transcript-row"><time>03:10</time><p>手机的角色就彻底变了</p></div>
+<div class="transcript-row"><time>03:12</time><p>从等人操作的工具直接变成了</p></div>
+<div class="transcript-row"><time>03:14</time><p>能够替你办事的智能助理</p></div>
+<div class="transcript-row"><time>03:17</time><p>而这对于手机厂商来说</p></div>
+<div class="transcript-row"><time>03:19</time><p>可能就是下一轮</p></div>
+<div class="transcript-row"><time>03:20</time><p>换机周期所需要的新故事</p></div>
+<div class="transcript-row"><time>03:24</time><p>那我收到的第二股力量就是算力</p></div>
+<div class="transcript-row"><time>03:27</time><p>端侧AI从能用进入到了好用</p></div>
+<div class="transcript-row"><time>03:29</time><p>开始能够支撑这个新故事的落地</p></div>
+<div class="transcript-row"><time>03:32</time><p>以前手机上的AI</p></div>
+<div class="transcript-row"><time>03:33</time><p>主要还是语音识别 图像识别</p></div>
+<div class="transcript-row"><time>03:35</time><p>拍照算法等相对固定的任务</p></div>
+<div class="transcript-row"><time>03:38</time><p>任务不复杂</p></div>
+<div class="transcript-row"><time>03:39</time><p>模型也不大</p></div>
+<div class="transcript-row"><time>03:40</time><p>NPU针对性的优化一下也就够了</p></div>
+<div class="transcript-row"><time>03:42</time><p>但是Agent要进入手机之后</p></div>
+<div class="transcript-row"><time>03:44</time><p>任务的复杂程度大大提高</p></div>
+<div class="transcript-row"><time>03:46</time><p>它可能会涉及语音 文字 图像</p></div>
+<div class="transcript-row"><time>03:49</time><p>AI推理 操作等一系列的事情</p></div>
+<div class="transcript-row"><time>03:51</time><p>手机不仅需要大量的计算</p></div>
+<div class="transcript-row"><time>03:53</time><p>CPU GPU NPU</p></div>
+<div class="transcript-row"><time>03:54</time><p>以及其他专用计算单元</p></div>
+<div class="transcript-row"><time>03:56</time><p>还要围绕着任务进行动态的切换与协同</p></div>
+<div class="transcript-row"><time>03:59</time><p>端侧AI能力就成为了关键问题</p></div>
+<div class="transcript-row"><time>04:03</time><p>在过去几年的时间中</p></div>
+<div class="transcript-row"><time>04:04</time><p>手机芯片正在针对性的解决这个问题</p></div>
+<div class="transcript-row"><time>04:07</time><p>我们翻了一下骁龙的叠外记录</p></div>
+<div class="transcript-row"><time>04:10</time><p>发现AI计算是从早期的一个辅助能力</p></div>
+<div class="transcript-row"><time>04:13</time><p>已经逐渐变成了SOC中的核心能力</p></div>
+<div class="transcript-row"><time>04:16</time><p>早在2015年</p></div>
+<div class="transcript-row"><time>04:17</time><p>高通的骁龙820就搭载了第一代Qualcomm AI Engine</p></div>
+<div class="transcript-row"><time>04:21</time><p>芯片开始帮助处理影像 语音和传感器上的AI任务</p></div>
+<div class="transcript-row"><time>04:25</time><p>2018年的骁龙855又给它加进了张量加速器</p></div>
+<div class="transcript-row"><time>04:29</time><p>不过这时候的AI干的还是拍照 语音这类固定活</p></div>
+<div class="transcript-row"><time>04:32</time><p>真正的转折</p></div>
+<div class="transcript-row"><time>04:33</time><p>在2022年底的骁龙8Gen2</p></div>
+<div class="transcript-row"><time>04:36</time><p>这一代第一次支持INT4低精度计算</p></div>
+<div class="transcript-row"><time>04:39</time><p>也专门针对Transformer做了优化</p></div>
+<div class="transcript-row"><time>04:42</time><p>高通公布的数据显示</p></div>
+<div class="transcript-row"><time>04:43</time><p>在部分AI工作负载上</p></div>
+<div class="transcript-row"><time>04:45</time><p>性能最高提升4.35倍</p></div>
+<div class="transcript-row"><time>04:48</time><p>从这一代开始</p></div>
+<div class="transcript-row"><time>04:49</time><p>手机芯片开始为本地跑大模型做准备了</p></div>
+<div class="transcript-row"><time>04:53</time><p>2023年的骁龙8Gen3更是宣布</p></div>
+<div class="transcript-row"><time>04:56</time><p>支持最高100亿参数的生成式AI模型在手机端运行</p></div>
+<div class="transcript-row"><time>05:00</time><p>到去年骁龙峰会发布的第五代骁龙8至尊版</p></div>
+<div class="transcript-row"><time>05:04</time><p>高通第一次把手机上的智能体写进了设计目标</p></div>
+<div class="transcript-row"><time>05:08</time><p>NPU相比上一代提升37%</p></div>
+<div class="transcript-row"><time>05:10</time><p>同时加入了个人素级</p></div>
+<div class="transcript-row"><time>05:12</time><p>Personal Scribe</p></div>
+<div class="transcript-row"><time>05:13</time><p>个人知识图谱</p></div>
+<div class="transcript-row"><time>05:14</time><p>Personal Knowledge Graph的能力</p></div>
+<div class="transcript-row"><time>05:16</time><p>这两个东西的作用就是让端侧的Agent能够记住你</p></div>
+<div class="transcript-row"><time>05:19</time><p>能够持续学习</p></div>
+<div class="transcript-row"><time>05:22</time><p>你看看这个节奏</p></div>
+<div class="transcript-row"><time>05:23</time><p>从帮拍照到算神经网络</p></div>
+<div class="transcript-row"><time>05:26</time><p>然后能够跑大模型</p></div>
+<div class="transcript-row"><time>05:27</time><p>再到现在开始有记忆</p></div>
+<div class="transcript-row"><time>05:29</time><p>芯片厂商其实是一步一步在往Agent这个方向挪</p></div>
+<div class="transcript-row"><time>05:33</time><p>只不过前几年没有人把这个词儿呈挂在嘴边</p></div>
+<div class="transcript-row"><time>05:37</time><p>不过芯片跑得快还不够</p></div>
+<div class="transcript-row"><time>05:39</time><p>你还得有一个真的能够塞进手机里面的模型</p></div>
+<div class="transcript-row"><time>05:45</time><p>云端的大模型参数动辄上千亿</p></div>
+<div class="transcript-row"><time>05:48</time><p>无论如何是塞不进一块手机里的</p></div>
+<div class="transcript-row"><time>05:50</time><p>所以过去很长一段时间</p></div>
+<div class="transcript-row"><time>05:52</time><p>大模型和手机几乎是两个世界的事儿</p></div>
+<div class="transcript-row"><time>05:55</time><p>但是这两年</p></div>
+<div class="transcript-row"><time>05:56</time><p>这两个世界开始快速的靠近</p></div>
+<div class="transcript-row"><time>05:59</time><p>一方面模型本身正在快速的变小</p></div>
+<div class="transcript-row"><time>06:02</time><p>高通全球副总裁徐浩博士</p></div>
+<div class="transcript-row"><time>06:03</time><p>就在我们之前的采访中就表示说</p></div>
+<div class="transcript-row"><time>06:05</time><p>同样的智能需要的参数是越来越少了</p></div>
+<div class="transcript-row"><time>06:09</time><p>比如说我们做过一个研究</p></div>
+<div class="transcript-row"><time>06:10</time><p>在2024年最好的拉玛出来的一个模型</p></div>
+<div class="transcript-row"><time>06:13</time><p>比如说它的Performance</p></div>
+<div class="transcript-row"><time>06:14</time><p>它的表现能够到某一个数量级</p></div>
+<div class="transcript-row"><time>06:19</time><p>在几个月小于一年的时间内</p></div>
+<div class="transcript-row"><time>06:22</time><p>这个一百多个billion或者几百billion的这些model</p></div>
+<div class="transcript-row"><time>06:26</time><p>它用很小的模型</p></div>
+<div class="transcript-row"><time>06:27</time><p>比如四个billion或者几十个billion的</p></div>
+<div class="transcript-row"><time>06:29</time><p>它就能达到同样的效果</p></div>
+<div class="transcript-row"><time>06:32</time><p>在另外一方面端云协同的架构</p></div>
+<div class="transcript-row"><time>06:35</time><p>也让agent在手机上的能力</p></div>
+<div class="transcript-row"><time>06:37</time><p>有了更大的发挥空间</p></div>
+<div class="transcript-row"><time>06:38</time><p>随着需求、算力、模型这三股力量</p></div>
+<div class="transcript-row"><time>06:41</time><p>是汇聚到一起之后</p></div>
+<div class="transcript-row"><time>06:43</time><p>AI智能体手机需要的基本条件</p></div>
+<div class="transcript-row"><time>06:45</time><p>就已经具备了</p></div>
+<div class="transcript-row"><time>06:47</time><p>这个时候问题也就出现了</p></div>
+<div class="transcript-row"><time>06:49</time><p>当AI开始替用户操作手机之后</p></div>
+<div class="transcript-row"><time>06:51</time><p>谁来决定它应该怎么操作</p></div>
+<div class="transcript-row"><time>06:53</time><p>这也就是目前行业正在分岔的地方</p></div>
+<div class="transcript-row"><time>06:57</time><p>那目前行业里主要有两条不一样的思路</p></div>
+<div class="transcript-row"><time>07:00</time><p>第一种思路可以理解成整机agent</p></div>
+<div class="transcript-row"><time>07:03</time><p>你打开手机</p></div>
+<div class="transcript-row"><time>07:04</time><p>看起来还是我们熟悉的样子</p></div>
+<div class="transcript-row"><time>07:06</time><p>常用的APP都不少</p></div>
+<div class="transcript-row"><time>07:08</time><p>而AI功能被集成到了系统里</p></div>
+<div class="transcript-row"><time>07:10</time><p>市中路线最大的优势是体验足够直接</p></div>
+<div class="transcript-row"><time>07:14</time><p>那我们这次体验的Nubia NaviX Ultra</p></div>
+<div class="transcript-row"><time>07:17</time><p>搭载的豆包手机助手</p></div>
+<div class="transcript-row"><time>07:18</time><p>和骁龙旗舰移动平台</p></div>
+<div class="transcript-row"><time>07:20</time><p>就是走的这条路线</p></div>
+<div class="transcript-row"><time>07:22</time><p>具体体验呢</p></div>
+<div class="transcript-row"><time>07:23</time><p>咱们后面来慢慢聊</p></div>
+<div class="transcript-row"><time>07:24</time><p>而第二种思路呢</p></div>
+<div class="transcript-row"><time>07:25</time><p>就是在手机里面放一个super app</p></div>
+<div class="transcript-row"><time>07:28</time><p>也就是超级AI入口</p></div>
+<div class="transcript-row"><time>07:30</time><p>用户先进入一个AI APP</p></div>
+<div class="transcript-row"><time>07:32</time><p>比如说ChatGPT豆包Gemini等等</p></div>
+<div class="transcript-row"><time>07:34</time><p>然后呢</p></div>
+<div class="transcript-row"><time>07:35</time><p>由它去调用地图购物外卖等各种服务</p></div>
+<div class="transcript-row"><time>07:38</time><p>这种路线的优势是落地相对容易</p></div>
+<div class="transcript-row"><time>07:41</time><p>手机厂商呢</p></div>
+<div class="transcript-row"><time>07:42</time><p>不需要一下子重构整个操作系统</p></div>
+<div class="transcript-row"><time>07:44</time><p>只需要能先把AI入口做好</p></div>
+<div class="transcript-row"><time>07:46</time><p>再不断增加它能够调用的服务</p></div>
+<div class="transcript-row"><time>07:49</time><p>用户的学习门槛也不需要太多</p></div>
+<div class="transcript-row"><time>07:52</time><p>用户的学习门槛也会比较低</p></div>
+<div class="transcript-row"><time>07:54</time><p>网页现在呢</p></div>
+<div class="transcript-row"><time>07:55</time><p>其实是在两个方向的探索</p></div>
+<div class="transcript-row"><time>07:57</time><p>都在进行</p></div>
+<div class="transcript-row"><time>07:57</time><p>也在寻找平衡和突破</p></div>
+<div class="transcript-row"><time>08:03</time><p>我们先来看看硅谷这一边的一些动作</p></div>
+<div class="transcript-row"><time>08:05</time><p>首先呢就是最近刚召开发布会的苹果了</p></div>
+<div class="transcript-row"><time>08:08</time><p>最近苹果刚刚发布了iPhone 18系列</p></div>
+<div class="transcript-row"><time>08:11</time><p>从今年的WWDC开始</p></div>
+<div class="transcript-row"><time>08:13</time><p>苹果最大的变化之一呢</p></div>
+<div class="transcript-row"><time>08:14</time><p>就是正在把Siri</p></div>
+<div class="transcript-row"><time>08:16</time><p>从只会回答问题的助手</p></div>
+<div class="transcript-row"><time>08:18</time><p>往系统及agent推进</p></div>
+<div class="transcript-row"><time>08:20</time><p>在今年的发布会中</p></div>
+<div class="transcript-row"><time>08:21</time><p>苹果甚至在开场就直接提出了</p></div>
+<div class="transcript-row"><time>08:23</time><p>Intelligent Personal Hub这个概念</p></div>
+<div class="transcript-row"><time>08:26</time><p>把新一代iPhone描述成智能个人中书</p></div>
+<div class="transcript-row"><time>08:29</time><p>而在计算方式上</p></div>
+<div class="transcript-row"><time>08:30</time><p>Apple Intelligence也继续采用端侧处理</p></div>
+<div class="transcript-row"><time>08:33</time><p>加私有云计算相结合的方式</p></div>
+<div class="transcript-row"><time>08:36</time><p>能够在设备上完成的</p></div>
+<div class="transcript-row"><time>08:37</time><p>尽量放在设备上</p></div>
+<div class="transcript-row"><time>08:39</time><p>需要更强能力的时候</p></div>
+<div class="transcript-row"><time>08:41</time><p>再交给苹果的云端</p></div>
+<div class="transcript-row"><time>08:43</time><p>它的好处是体验比较容易统一</p></div>
+<div class="transcript-row"><time>08:45</time><p>但是相应的</p></div>
+<div class="transcript-row"><time>08:46</time><p>它对第三方生态的开放程度相对有限</p></div>
+<div class="transcript-row"><time>08:49</time><p>很多AI能力需要在苹果自己的规则</p></div>
+<div class="transcript-row"><time>08:51</time><p>和框架下去运行</p></div>
+<div class="transcript-row"><time>08:53</time><p>这带来的潜在问题</p></div>
+<div class="transcript-row"><time>08:55</time><p>可能就是迭代速度会慢一些了</p></div>
+<div class="transcript-row"><time>08:57</time><p>你看这几年苹果AI的推进</p></div>
+<div class="transcript-row"><time>08:59</time><p>一度是落后于市场预期的</p></div>
+<div class="transcript-row"><time>09:01</time><p>那另一边</p></div>
+<div class="transcript-row"><time>09:02</time><p>谷歌的路线有点不同</p></div>
+<div class="transcript-row"><time>09:04</time><p>它看起来是在做Android系统及agent</p></div>
+<div class="transcript-row"><time>09:06</time><p>但是从它背后的生态来看</p></div>
+<div class="transcript-row"><time>09:09</time><p>又非常像一种Super App</p></div>
+<div class="transcript-row"><time>09:11</time><p>因为谷歌手里面本身就有一条</p></div>
+<div class="transcript-row"><time>09:13</time><p>非常完整的服务体系</p></div>
+<div class="transcript-row"><time>09:15</time><p>所以当Gemini进入Android之后</p></div>
+<div class="transcript-row"><time>09:17</time><p>它同时获得了两个优势</p></div>
+<div class="transcript-row"><time>09:19</time><p>一方面它可以深入操作系统</p></div>
+<div class="transcript-row"><time>09:21</time><p>理解用户正在做什么</p></div>
+<div class="transcript-row"><time>09:23</time><p>另一方面</p></div>
+<div class="transcript-row"><time>09:24</time><p>它自己又拥有大量可以直接调用的服务</p></div>
+<div class="transcript-row"><time>09:27</time><p>不过谷歌的优势同时</p></div>
+<div class="transcript-row"><time>09:29</time><p>也是它最大的难题</p></div>
+<div class="transcript-row"><time>09:31</time><p>用户真正使用的手机</p></div>
+<div class="transcript-row"><time>09:33</time><p>要使用的远不止有谷歌的这些服务</p></div>
+<div class="transcript-row"><time>09:36</time><p>当agent开始跨APP执行任务</p></div>
+<div class="transcript-row"><time>09:38</time><p>就需要不同的第三方应用开放权限</p></div>
+<div class="transcript-row"><time>09:41</time><p>缺口和执行能力</p></div>
+<div class="transcript-row"><time>09:42</time><p>再加上Android设备众多</p></div>
+<div class="transcript-row"><time>09:45</time><p>不同厂商的硬件、系统和权限机制都有差异</p></div>
+<div class="transcript-row"><time>09:49</time><p>所以Google可能要解决的问题是</p></div>
+<div class="transcript-row"><time>09:51</time><p>如何让Gemini在一个开放、庞大</p></div>
+<div class="transcript-row"><time>09:54</time><p>又高度分散的Android生态里</p></div>
+<div class="transcript-row"><time>09:56</time><p>稳定地替用户把事情做完</p></div>
+<div class="transcript-row"><time>09:59</time><p>当然硅谷还有一类新玩家</p></div>
+<div class="transcript-row"><time>10:01</time><p>比如说OpenAI</p></div>
+<div class="transcript-row"><time>10:03</time><p>2015年5月</p></div>
+<div class="transcript-row"><time>10:04</time><p>OpenAI宣布与前苹果首席设计师</p></div>
+<div class="transcript-row"><time>10:07</time><p>Jony Ive的设计公司LoveFrom合作</p></div>
+<div class="transcript-row"><time>10:09</time><p>并收购其硬件团队io products</p></div>
+<div class="transcript-row"><time>10:12</time><p>一开始Ive和Symmotron设想的</p></div>
+<div class="transcript-row"><time>10:15</time><p>是希望摆脱屏幕加APP的交互方式</p></div>
+<div class="transcript-row"><time>10:18</time><p>甚至一度设想为没有屏幕的设备</p></div>
+<div class="transcript-row"><time>10:20</time><p>有消息称</p></div>
+<div class="transcript-row"><time>10:21</time><p>OpenAI的产品设计</p></div>
+<div class="transcript-row"><time>10:23</time><p>可能还会是基于传统智能手机的形态</p></div>
+<div class="transcript-row"><time>10:26</time><p>目标在2027年的上半年量产</p></div>
+<div class="transcript-row"><time>10:30</time><p>那硅谷现在的探索</p></div>
+<div class="transcript-row"><time>10:32</time><p>更多还是集中在系统层和终端层</p></div>
+<div class="transcript-row"><time>10:35</time><p>而在中国市场</p></div>
+<div class="transcript-row"><time>10:36</time><p>厂商的打靶则是更加的多样化</p></div>
+<div class="transcript-row"><time>10:38</time><p>也更热闹了</p></div>
+<div class="transcript-row"><time>10:42</time><p>今年7月</p></div>
+<div class="transcript-row"><time>10:43</time><p>网信办第一次集中公布了</p></div>
+<div class="transcript-row"><time>10:45</time><p>端侧大模型的备案信息</p></div>
+<div class="transcript-row"><time>10:47</time><p>苹果小米OPPO Vivo华为三星努比亚</p></div>
+<div class="transcript-row"><time>10:50</time><p>7家主流厂商全部完成了</p></div>
+<div class="transcript-row"><time>10:52</time><p>端侧AI深层式服务的备案</p></div>
+<div class="transcript-row"><time>10:55</time><p>那这也意味着智能体手机在国内</p></div>
+<div class="transcript-row"><time>10:57</time><p>已经从厂商自己的产品探索</p></div>
+<div class="transcript-row"><time>11:00</time><p>逐渐进入到有备案有监管的落地阶段</p></div>
+<div class="transcript-row"><time>11:03</time><p>在这当中</p></div>
+<div class="transcript-row"><time>11:04</time><p>努比亚的做法有点特别</p></div>
+<div class="transcript-row"><time>11:06</time><p>他走的是整机 Agent路线</p></div>
+<div class="transcript-row"><time>11:08</time><p>那他的体验如何呢</p></div>
+<div class="transcript-row"><time>11:13</time><p>我们先来聊聊</p></div>
+<div class="transcript-row"><time>11:14</time><p>努比亚nubia NaviX Ultra相比</p></div>
+<div class="transcript-row"><time>11:16</time><p>传统智能手机</p></div>
+<div class="transcript-row"><time>11:17</time><p>感受非常不一样的起点</p></div>
+<div class="transcript-row"><time>11:19</time><p>但第一个变化最直观</p></div>
+<div class="transcript-row"><time>11:21</time><p>有一些APP的操作</p></div>
+<div class="transcript-row"><time>11:22</time><p>在获得授权之后</p></div>
+<div class="transcript-row"><time>11:24</time><p>我就不用自己动手了</p></div>
+<div class="transcript-row"><time>11:26</time><p>过去我们想做什么事</p></div>
+<div class="transcript-row"><time>11:27</time><p>得点开对应的APP</p></div>
+<div class="transcript-row"><time>11:29</time><p>然后逐步的搜索 翻页 查询</p></div>
+<div class="transcript-row"><time>11:32</time><p>而到了智能体手机上</p></div>
+<div class="transcript-row"><time>11:33</time><p>只要长按独立的AI键</p></div>
+<div class="transcript-row"><time>11:35</time><p>输出我的要求</p></div>
+<div class="transcript-row"><time>11:36</time><p>它就会在获得授权之后</p></div>
+<div class="transcript-row"><time>11:38</time><p>自动帮我操作</p></div>
+<div class="transcript-row"><time>11:39</time><p>第二是执行能力提升</p></div>
+<div class="transcript-row"><time>11:41</time><p>它可以跨APP操作</p></div>
+<div class="transcript-row"><time>11:43</time><p>具体转分三步</p></div>
+<div class="transcript-row"><time>11:44</time><p>在感知方面</p></div>
+<div class="transcript-row"><time>11:46</time><p>豆包手机助手</p></div>
+<div class="transcript-row"><time>11:47</time><p>拥有全局独屏的能力</p></div>
+<div class="transcript-row"><time>11:48</time><p>比如说刷视频的时候</p></div>
+<div class="transcript-row"><time>11:50</time><p>可以直接问</p></div>
+<div class="transcript-row"><time>11:51</time><p>屏幕中的内容是什么</p></div>
+<div class="transcript-row"><time>11:52</time><p>在哪里</p></div>
+<div class="transcript-row"><time>11:53</time><p>不需要再截图</p></div>
+<div class="transcript-row"><time>11:54</time><p>单独打开AI软件去问</p></div>
+<div class="transcript-row"><time>11:56</time><p>在推理方面</p></div>
+<div class="transcript-row"><time>11:57</time><p>对于一些</p></div>
+<div class="transcript-row"><time>11:58</time><p>需要其他APP协助的人物</p></div>
+<div class="transcript-row"><time>12:00</time><p>它能自动换取对应的APP</p></div>
+<div class="transcript-row"><time>12:02</time><p>不需要我再手动打开</p></div>
+<div class="transcript-row"><time>12:04</time><p>更重要的是执行方面</p></div>
+<div class="transcript-row"><time>12:06</time><p>它可以在后台的</p></div>
+<div class="transcript-row"><time>12:07</time><p>虚拟屏幕上跑</p></div>
+<div class="transcript-row"><time>12:08</time><p>画面不占用主屏</p></div>
+<div class="transcript-row"><time>12:09</time><p>我可以同时做其他事</p></div>
+<div class="transcript-row"><time>12:11</time><p>第三就是记忆能力</p></div>
+<div class="transcript-row"><time>12:13</time><p>只要我授权了</p></div>
+<div class="transcript-row"><time>12:14</time><p>或者主动告诉他一些信息</p></div>
+<div class="transcript-row"><time>12:16</time><p>他就能够帮我记住</p></div>
+<div class="transcript-row"><time>12:18</time><p>比如说我的行程跳价</p></div>
+<div class="transcript-row"><time>12:20</time><p>当我需要的时候</p></div>
+<div class="transcript-row"><time>12:21</time><p>可以直接问豆包</p></div>
+<div class="transcript-row"><time>12:22</time><p>不再需要打开APP去寻找</p></div>
+<div class="transcript-row"><time>12:25</time><p>这些体验加起来</p></div>
+<div class="transcript-row"><time>12:27</time><p>就构成了</p></div>
+<div class="transcript-row"><time>12:28</time><p>AI原生交互的一个范式</p></div>
+<div class="transcript-row"><time>12:30</time><p>我们的采访嘉宾徐浩</p></div>
+<div class="transcript-row"><time>12:31</time><p>就认为AI</p></div>
+<div class="transcript-row"><time>12:32</time><p>将会重构交互体验</p></div>
+<div class="transcript-row"><time>12:34</time><p>它是个全新的一个</p></div>
+<div class="transcript-row"><time>12:35</time><p>User Interface</p></div>
+<div class="transcript-row"><time>12:36</time><p>从我们选APP到不用选APP</p></div>
+<div class="transcript-row"><time>12:38</time><p>这些都是我们的</p></div>
+<div class="transcript-row"><time>12:40</time><p>慢慢的我们会适应的一些</p></div>
+<div class="transcript-row"><time>12:42</time><p>用户体验</p></div>
+<div class="transcript-row"><time>12:43</time><p>以及交互方式的转变</p></div>
+<div class="transcript-row"><time>12:44</time><p>当然作为一个全新的品类</p></div>
+<div class="transcript-row"><time>12:46</time><p>这种比手机的体验</p></div>
+<div class="transcript-row"><time>12:48</time><p>还有很多的提升空间</p></div>
+<div class="transcript-row"><time>12:50</time><p>我们试用的时候发现</p></div>
+<div class="transcript-row"><time>12:51</time><p>现在各种流畅的体验</p></div>
+<div class="transcript-row"><time>12:53</time><p>主要是围绕系统应用</p></div>
+<div class="transcript-row"><time>12:55</time><p>中心还有字节系的APP上</p></div>
+<div class="transcript-row"><time>12:57</time><p>想调用更多第三方APP的话</p></div>
+<div class="transcript-row"><time>13:00</time><p>还得等待未来逐步介入</p></div>
+<div class="transcript-row"><time>13:02</time><p>不过从基础角度上来看</p></div>
+<div class="transcript-row"><time>13:03</time><p>这套理解规划执行的</p></div>
+<div class="transcript-row"><time>13:05</time><p>完整链路已经跑通了</p></div>
+<div class="transcript-row"><time>13:07</time><p>这就像自动驾驶行业早期的状态</p></div>
+<div class="transcript-row"><time>13:10</time><p>先把技术底层搭好</p></div>
+<div class="transcript-row"><time>13:12</time><p>那接下来更重要的是</p></div>
+<div class="transcript-row"><time>13:13</time><p>到真实的商业环境里</p></div>
+<div class="transcript-row"><time>13:15</time><p>去反复验证和迭代</p></div>
+<div class="transcript-row"><time>13:23</time><p>这些复杂的能力</p></div>
+<div class="transcript-row"><time>13:24</time><p>在手机上要跑得好</p></div>
+<div class="transcript-row"><time>13:26</time><p>还要跑得久</p></div>
+<div class="transcript-row"><time>13:27</time><p>底层硬件需要什么样的支持呢</p></div>
+<div class="transcript-row"><time>13:29</time><p>那首先Agent要随时待命</p></div>
+<div class="transcript-row"><time>13:31</time><p>但是如果芯片一直全功率运行</p></div>
+<div class="transcript-row"><time>13:34</time><p>电量就撑不了多久</p></div>
+<div class="transcript-row"><time>13:36</time><p>这就需要低功耗感知</p></div>
+<div class="transcript-row"><time>13:38</time><p>第二点硬件要能够更好地支持多任务</p></div>
+<div class="transcript-row"><time>13:42</time><p>并行调度</p></div>
+<div class="transcript-row"><time>13:43</time><p>过去CPU GPU NPU</p></div>
+<div class="transcript-row"><time>13:45</time><p>各自承担比较明确的任务</p></div>
+<div class="transcript-row"><time>13:47</time><p>但是到了Agent上</p></div>
+<div class="transcript-row"><time>13:48</time><p>又是任务调度</p></div>
+<div class="transcript-row"><time>13:49</time><p>又是推理计算</p></div>
+<div class="transcript-row"><time>13:50</time><p>后台还得渲染操作界面</p></div>
+<div class="transcript-row"><time>13:52</time><p>这些任务需要在不同的计算单元之间</p></div>
+<div class="transcript-row"><time>13:55</time><p>高效切换</p></div>
+<div class="transcript-row"><time>13:56</time><p>每一块都不能有短板</p></div>
+<div class="transcript-row"><time>13:59</time><p>而且手机上的算力毕竟是有限的</p></div>
+<div class="transcript-row"><time>14:01</time><p>这就要收到第三个要求</p></div>
+<div class="transcript-row"><time>14:03</time><p>那就是云端与本地的协同</p></div>
+<div class="transcript-row"><time>14:05</time><p>我们在手机端侧</p></div>
+<div class="transcript-row"><time>14:07</time><p>我们会做预处理</p></div>
+<div class="transcript-row"><time>14:09</time><p>就把有个人的信息</p></div>
+<div class="transcript-row"><time>14:11</time><p>做一个简化和这个压缩</p></div>
+<div class="transcript-row"><time>14:14</time><p>做一个local memory</p></div>
+<div class="transcript-row"><time>14:15</time><p>就是本地的一个存储</p></div>
+<div class="transcript-row"><time>14:17</time><p>如果我要做一个大的规划</p></div>
+<div class="transcript-row"><time>14:20</time><p>如果手机上能做</p></div>
+<div class="transcript-row"><time>14:21</time><p>那我们就在手机上能做出来</p></div>
+<div class="transcript-row"><time>14:24</time><p>如果手机上不能做</p></div>
+<div class="transcript-row"><time>14:25</time><p>那规划我们可以把它放到云端</p></div>
+<div class="transcript-row"><time>14:27</time><p>我给它提供某些信息</p></div>
+<div class="transcript-row"><time>14:29</time><p>然后云端做出规划</p></div>
+<div class="transcript-row"><time>14:30</time><p>然后再传回来</p></div>
+<div class="transcript-row"><time>14:31</time><p>端云协同的时候</p></div>
+<div class="transcript-row"><time>14:33</time><p>最影响体验的就是延迟</p></div>
+<div class="transcript-row"><time>14:35</time><p>而且智能体的计算不是集中式的</p></div>
+<div class="transcript-row"><time>14:37</time><p>那这也更考验分布式动态调度的能力</p></div>
+<div class="transcript-row"><time>14:40</time><p>那把这几条换在现实里面对照一下</p></div>
+<div class="transcript-row"><time>14:43</time><p>我们已经走到哪一步了呢</p></div>
+<div class="transcript-row"><time>14:45</time><p>那可以说基础框架已经搭好了</p></div>
+<div class="transcript-row"><time>14:47</time><p>但是未来更加值得期待</p></div>
+<div class="transcript-row"><time>14:51</time><p>拿我们手上这台Nubia NaviX Ultra来说</p></div>
+<div class="transcript-row"><time>14:55</time><p>它用的是骁龙旗舰移动平台</p></div>
+<div class="transcript-row"><time>14:57</time><p>针对前面说的低功耗感知</p></div>
+<div class="transcript-row"><time>14:59</time><p>还有两个micro MPU</p></div>
+<div class="transcript-row"><time>15:01</time><p>行时就盯着语音唤醒和运动状态</p></div>
+<div class="transcript-row"><time>15:04</time><p>功耗压得很低</p></div>
+<div class="transcript-row"><time>15:05</time><p>只有需要AI干重活的时候</p></div>
+<div class="transcript-row"><time>15:07</time><p>才会唤醒主NPU</p></div>
+<div class="transcript-row"><time>15:09</time><p>至于多任务调度</p></div>
+<div class="transcript-row"><time>15:11</time><p>它的思路是异构计算</p></div>
+<div class="transcript-row"><time>15:12</time><p>把不同的活交给最适合的单元</p></div>
+<div class="transcript-row"><time>15:15</time><p>我们这里面加个包括CPU</p></div>
+<div class="transcript-row"><time>15:18</time><p>GPU</p></div>
+<div class="transcript-row"><time>15:20</time><p>NPU</p></div>
+<div class="transcript-row"><time>15:22</time><p>所以它的每个的功能不大一样</p></div>
+<div class="transcript-row"><time>15:25</time><p>就是CPU它主要是管控制</p></div>
+<div class="transcript-row"><time>15:28</time><p>然后我们大部分的算力</p></div>
+<div class="transcript-row"><time>15:31</time><p>实际上是在NPU上面</p></div>
+<div class="transcript-row"><time>15:33</time><p>所以NPU它能够把AI的这些运算</p></div>
+<div class="transcript-row"><time>15:36</time><p>能够在降低功耗的情况下</p></div>
+<div class="transcript-row"><time>15:39</time><p>能够做到极致</p></div>
+<div class="transcript-row"><time>15:41</time><p>NPU最大的一个优势是</p></div>
+<div class="transcript-row"><time>15:43</time><p>它是定点的</p></div>
+<div class="transcript-row"><time>15:45</time><p>所以它是为AI来量身定造的</p></div>
+<div class="transcript-row"><time>15:48</time><p>做一个最节能的一个方式</p></div>
+<div class="transcript-row"><time>15:52</time><p>CPU它大部分的说是它比较灵活</p></div>
+<div class="transcript-row"><time>15:55</time><p>但是它的能耗会更高</p></div>
+<div class="transcript-row"><time>15:57</time><p>所以我们这个易购的架构的话</p></div>
+<div class="transcript-row"><time>16:00</time><p>可以把每一个硬件的部分</p></div>
+<div class="transcript-row"><time>16:02</time><p>都能够用到它的特长</p></div>
+<div class="transcript-row"><time>16:05</time><p>那些端侧确实搞不定的</p></div>
+<div class="transcript-row"><time>16:07</time><p>就利用5G的低延迟链路</p></div>
+<div class="transcript-row"><time>16:09</time><p>去和云端协同</p></div>
+<div class="transcript-row"><time>16:11</time><p>让我们有非常强大的5G连接</p></div>
+<div class="transcript-row"><time>16:13</time><p>把这个数据传到云端</p></div>
+<div class="transcript-row"><time>16:15</time><p>让云端做完训练再传回来</p></div>
+<div class="transcript-row"><time>16:18</time><p>所以这些所有的这些解决方案</p></div>
+<div class="transcript-row"><time>16:21</time><p>都是统一的一个解决方案的一部分</p></div>
+<div class="transcript-row"><time>16:26</time><p>这么看来智能体手机的硬件需求</p></div>
+<div class="transcript-row"><time>16:28</time><p>已经基本上满足了</p></div>
+<div class="transcript-row"><time>16:30</time><p>为什么说是基本呢</p></div>
+<div class="transcript-row"><time>16:32</time><p>毕竟今年agent概念才刚刚开始落地</p></div>
+<div class="transcript-row"><time>16:34</time><p>随着AI能力的增长</p></div>
+<div class="transcript-row"><time>16:36</time><p>虽然利益的需求还会不断的提升</p></div>
+<div class="transcript-row"><time>16:38</time><p>但我们再来看看移动芯片行业</p></div>
+<div class="transcript-row"><time>16:41</time><p>将会属何去应对</p></div>
+<div class="transcript-row"><time>16:42</time><p>比如说高通</p></div>
+<div class="transcript-row"><time>16:43</time><p>刚刚举办了2026骁龙峰会</p></div>
+<div class="transcript-row"><time>16:45</time><p>发布了新一代双旗舰移动平台</p></div>
+<div class="transcript-row"><time>16:48</time><p>国内方宣称是专为智能体时代设计的</p></div>
+<div class="transcript-row"><time>16:50</time><p>旗舰移动平台</p></div>
+<div class="transcript-row"><time>16:52</time><p>那第一块是CPU</p></div>
+<div class="transcript-row"><time>16:54</time><p>单从参数上来看</p></div>
+<div class="transcript-row"><time>16:55</time><p>主频是达到了5GHz</p></div>
+<div class="transcript-row"><time>16:57</time><p>但比主频更值得说的是</p></div>
+<div class="transcript-row"><time>16:59</time><p>它带来的一个叫FlexCache的缓存架构</p></div>
+<div class="transcript-row"><time>17:02</time><p>简单解释一下</p></div>
+<div class="transcript-row"><time>17:03</time><p>就是让不同的计算核心</p></div>
+<div class="transcript-row"><time>17:05</time><p>共享同一个缓存池</p></div>
+<div class="transcript-row"><time>17:07</time><p>并且可以根据任务负载动态调整分配</p></div>
+<div class="transcript-row"><time>17:10</time><p>因为agent的工作方式是</p></div>
+<div class="transcript-row"><time>17:12</time><p>一个警球进来</p></div>
+<div class="transcript-row"><time>17:13</time><p>被拆成一串子任务</p></div>
+<div class="transcript-row"><time>17:15</time><p>这些子任务要在不同的核心之间轮流跑</p></div>
+<div class="transcript-row"><time>17:18</time><p>传统的架构下</p></div>
+<div class="transcript-row"><time>17:19</time><p>任务每切换一次核心</p></div>
+<div class="transcript-row"><time>17:21</time><p>数据就可能要重新从内存里加载一遍</p></div>
+<div class="transcript-row"><time>17:25</time><p>而FlexCache让大家共用一个缓存池</p></div>
+<div class="transcript-row"><time>17:29</time><p>任务交接的时候数据还在原地</p></div>
+<div class="transcript-row"><time>17:31</time><p>就不用从头再来</p></div>
+<div class="transcript-row"><time>17:33</time><p>这样带来的好处就是可以支持智能体</p></div>
+<div class="transcript-row"><time>17:35</time><p>保留更长的上下温</p></div>
+<div class="transcript-row"><time>17:37</time><p>更快的响应速度</p></div>
+<div class="transcript-row"><time>17:38</time><p>延迟更低</p></div>
+<div class="transcript-row"><time>17:40</time><p>那第二块是GPU</p></div>
+<div class="transcript-row"><time>17:41</time><p>这次的思路是让GPU自己也具备AI能力</p></div>
+<div class="transcript-row"><time>17:45</time><p>新发布的Adreno neural fusion</p></div>
+<div class="transcript-row"><time>17:47</time><p>是把AI加速直接放进图形管线里</p></div>
+<div class="transcript-row"><time>17:50</time><p>另外还加了一组专门跑AI的GPU核心</p></div>
+<div class="transcript-row"><time>17:53</time><p>叫Adreno matrix course</p></div>
+<div class="transcript-row"><time>17:55</time><p>用来做AI超分</p></div>
+<div class="transcript-row"><time>17:56</time><p>真深层和transformer计算这类事儿</p></div>
+<div class="transcript-row"><time>17:58</time><p>第三块就是NPU</p></div>
+<div class="transcript-row"><time>18:00</time><p>这里主要是两项更新</p></div>
+<div class="transcript-row"><time>18:02</time><p>首先是专门transformer优化的element accelerator</p></div>
+<div class="transcript-row"><time>18:06</time><p>里面有两组单元</p></div>
+<div class="transcript-row"><time>18:07</time><p>向量计算单元</p></div>
+<div class="transcript-row"><time>18:08</time><p>负责高吞吐量的AI数学计算</p></div>
+<div class="transcript-row"><time>18:11</time><p>就是让运算更快</p></div>
+<div class="transcript-row"><time>18:12</time><p>还有就是标量计算单元</p></div>
+<div class="transcript-row"><time>18:14</time><p>负责决策逻辑路由和编排</p></div>
+<div class="transcript-row"><time>18:16</time><p>让推理更准确同时功耗更低</p></div>
+<div class="transcript-row"><time>18:19</time><p>另一个是大容量共享内存</p></div>
+<div class="transcript-row"><time>18:22</time><p>让模型状态</p></div>
+<div class="transcript-row"><time>18:23</time><p>上下温和KV cache</p></div>
+<div class="transcript-row"><time>18:24</time><p>能存在离加速器更近的地方</p></div>
+<div class="transcript-row"><time>18:27</time><p>这样智能体在多个工具和任务之间切换的时候</p></div>
+<div class="transcript-row"><time>18:30</time><p>不用每次都从头加载</p></div>
+<div class="transcript-row"><time>18:32</time><p>另外它还支持MoE混合专项模型</p></div>
+<div class="transcript-row"><time>18:35</time><p>以及从INT2到FP16的多种精度策略</p></div>
+<div class="transcript-row"><time>18:39</time><p>在执行任务时谁擅长谁上</p></div>
+<div class="transcript-row"><time>18:42</time><p>让简单任务审点</p></div>
+<div class="transcript-row"><time>18:43</time><p>复杂任务效果更好</p></div>
+<div class="transcript-row"><time>18:45</time><p>所以接下来行业的动向是</p></div>
+<div class="transcript-row"><time>18:47</time><p>让NPU CPU GPU三条线上都有AI加速</p></div>
+<div class="transcript-row"><time>18:52</time><p>这恰好是agent这种多步骤任务最看重的东西</p></div>
+<div class="transcript-row"><time>18:56</time><p>好了那我们这个视频呢</p></div>
+<div class="transcript-row"><time>18:57</time><p>说了这么多的agent风</p></div>
+<div class="transcript-row"><time>18:58</time><p>智能体手机的底层技术升级</p></div>
+<div class="transcript-row"><time>19:01</time><p>和正在推出的一些产品范式的变化</p></div>
+<div class="transcript-row"><time>19:04</time><p>其实呢在这背后是AI浪潮来临之际呢</p></div>
+<div class="transcript-row"><time>19:07</time><p>是场对下一代交互体验的畅想</p></div>
+<div class="transcript-row"><time>19:10</time><p>说实话手机对人们现在来说实在是太重要了</p></div>
+<div class="transcript-row"><time>19:14</time><p>无论是看小说的老年人</p></div>
+<div class="transcript-row"><time>19:16</time><p>还是刷社媒的Gen Z</p></div>
+<div class="transcript-row"><time>19:18</time><p>也或是同时好几部手机</p></div>
+<div class="transcript-row"><time>19:19</time><p>把他们当移动电脑的上班族</p></div>
+<div class="transcript-row"><time>19:22</time><p>这样形态的硬件呢</p></div>
+<div class="transcript-row"><time>19:23</time><p>已经成为我们生活和工作的必不可少</p></div>
+<div class="transcript-row"><time>19:26</time><p>而如此由移动互联网形成的紧密关系</p></div>
+<div class="transcript-row"><time>19:29</time><p>正在AI的加持下</p></div>
+<div class="transcript-row"><time>19:30</time><p>面临一次巨大的升级</p></div>
+<div class="transcript-row"><time>19:32</time><p>从我来操作到它替我完成</p></div>
+<div class="transcript-row"><time>19:35</time><p>而当这个变化真正发生的时候</p></div>
+<div class="transcript-row"><time>19:37</time><p>下一代手机的竞争</p></div>
+<div class="transcript-row"><time>19:39</time><p>可能也就不再只是参数镜头和芯片的竞争了</p></div>
+<div class="transcript-row"><time>19:43</time><p>谁能成为离用户最近</p></div>
+<div class="transcript-row"><time>19:45</time><p>最懂用户</p></div>
+<div class="transcript-row"><time>19:46</time><p>也最值得用户信任的那个agent</p></div>
+<div class="transcript-row"><time>19:49</time><p>可能才是下一轮移动计算真正的入口之争</p></div>
+<div class="transcript-row"><time>19:52</time><p>那以上就是这些视频的全部内容了</p></div>
+<div class="transcript-row"><time>19:54</time><p>欢迎你们的留言点赞还有转发</p></div>
+<div class="transcript-row"><time>19:56</time><p>是支持我们硅谷101做好深度科技和商业内容的最佳动力</p></div>
+<div class="transcript-row"><time>20:00</time><p>那我是陈茜</p></div>
+<div class="transcript-row"><time>20:01</time><p>我们下期再见了</p></div>
+<div class="transcript-row"><time>20:03</time><p>bye</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script>
+document.querySelectorAll('a[href="#transcript"]').forEach(function(a){
+  a.addEventListener('click',function(){
+    var d=document.querySelector('#transcript details');
+    if(d) d.open=true;
+  });
+});
+if(location.hash==='#transcript'){
+  var d=document.querySelector('#transcript details');
+  if(d) d.open=true;
+}
+</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2207" viewBox="0 0 1320 2207">
+  <foreignObject x="0" y="0" width="1320" height="2207">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#1e40af;margin:24px 0 12px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+h3{font-size:17px;font-weight:700;color:#334155;margin-bottom:8px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:16px;line-height:1.7;padding:16px 20px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:16px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:18px 22px;margin-bottom:16px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;padding:12px 0;background:#fff;border-radius:14px;margin-bottom:16px}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:12px;padding:12px 14px;text-align:center;min-width:120px;font-weight:700;font-size:13px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:20px;color:#94a3b8}
+.card{background:#fff;border-radius:14px;padding:18px;margin-bottom:12px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-orange{border-left-color:#f59e0b}.card.card-green{border-left-color:#10b981}.card.card-red{border-left-color:#ef4444}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:14px 18px;border-radius:12px;margin-bottom:14px}
+.correction h3,.correction p{color:#92400e}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}td{padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border:none;margin-top:0}.conclusion li,.conclusion p{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}
+.root-wrap{background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:8px}</style>
+      <div xmlns="http://www.w3.org/1999/xhtml"><div class="container root-wrap">
+  <h1>I wish 祝福句：证据极短的卡片课</h1>
+  <div class="meta"><span class="tag tag-blue">英语</span><span class="tag tag-purple">I wish</span><span class="tag tag-gray">32秒</span><span class="tag tag-red">ASR受限</span></div>
+  <div class="summary-line">可确认框架：I wish + 名词/从句用于祝福；例句主要来自画面字幕。口播 ASR 仅两条，不能当完整语法课。</div>
+  <div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:01</span><span class="timeline-text">口播祝福 + 万能句型标题</span></div><div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">happiness in every moment</span></div><div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">I wish you luck</span></div><div class="timeline-item"><span class="timeline-time">00:25</span><span class="timeline-text">always be positive…</span></div><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">互动：还有什么</span></div></div>
+  <div class="diagram"><div class="node">I wish</div><div class="arrow">+</div><div class="node node-green">名词 / 从句</div><div class="arrow">→</div><div class="node node-orange">祝福语块</div></div>
+  <div class="correction"><h3>边界 / 证据限制</h3><p>必须以画面+两条 ASR 为上限；不补造未出现例句的讲解。</p></div>
+  <h2>结构化观点</h2>
+  <div class="card "><h3>可得结论</h3><p>创作者把 I wish 包装成可批量替换的祝福模板。</p></div><div class="card card-red"><h3>证据边界</h3><p>Whisper 非空仅 2 段；更多例句依赖 OCR/字幕，可能有时间对齐误差。</p><div class="pitfall">勿把本页写成系统语法讲义。</div></div>
+  
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <ul><li>记住框架即可迁移。</li><li>完整语音示范不足，需回看原片字幕。</li></ul>
+    <h3>行动</h3>
+    <ol><li>抄 3 条画面例句替换名词练习。</li><li>自己补 2 条真实祝福并录音。</li></ol>
+    <h3>避坑</h3>
+    <ul><li>把「I wish」虚拟语气后悔义与祝福义混为一谈（本片未展开）。</li></ul>
+  </div>
+  <div class="footer">双轨产物 · 理性分析 · 证据来自转录与画面</div>
+</div></div>
+    </div>
+  </foreignObject>
+</svg>

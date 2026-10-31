@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="彭博专访：ImageNet 遗产、World Labs/Marble、世界模型三功能，以及对政策与神之复合的提醒。">
+<title>彭博深度专访李飞飞：世界模型与物理智能｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1e40af;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.note{font-size:14px;color:#78716c;background:#f5f5f4;padding:12px 14px;border-radius:10px;margin:12px 0}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <h1>彭博深度专访李飞飞：世界模型与物理智能</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">B站</span>
+    <span class="meta-tag tag-duration">24分4秒</span>
+    <span class="meta-tag tag-topic">李飞飞 世界模型 ImageNet 空间智能</span>
+  </div>
+  <a class="source-link" href="https://b23.tv/ukdyHwP" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">从 ImageNet 到拒绝人设</a>
+<a href="#ch2">世界模型：编辑、行动、规划</a>
+<a href="#ch3">学生情绪、政策与神之复合</a>
+<a href="#transcript">完整转录</a>
+</nav>
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>彭博记者与李飞飞边走边聊：从「AI 教母」标签与 ImageNet 遗产，谈到她创办 World Labs、押注世界模型/空间智能——认为若要让机器成为科学与现实世界的伙伴，不能只靠大语言模型预测下一个词。访谈覆盖成长移民史、AlexNet 转折、Marble 可漫游 3D 世界、融资早期状态，以及她如何与政治人物沟通、为何警惕「神之复合」。口播为英语访谈的中文转述混杂，正文按公开身份与产品名校正。</p>
+  <p class="note">ASR 多为英语口播的混乱转写：统一为李飞飞、ImageNet、AlexNet、World Labs、Marble、空间智能/世界模型；「神母」→教母称谓讨论。</p>
+  <h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→06:00]</span><div><strong>看的遗产</strong><p>ImageNet 竞赛 + AlexNet/GPU 打开现代深度学习叙事。</p></div></div>
+<div class="summary-row"><span class="time-marker">[06:00→12:00]</span><div><strong>世界模型</strong><p>编辑、行动、规划三功能；Marble 生成可探索 3D。</p></div></div>
+<div class="summary-row"><span class="time-marker">[12:00→18:00]</span><div><strong>创业早期</strong><p>专注单点；资本与算力需求不确定；类比 LLM 爆发前。</p></div></div>
+<div class="summary-row"><span class="time-marker">[18:00→24:05]</span><div><strong>责任与边界</strong><p>向领导人给科学事实；强技术可被滥用；民主社会需共同掌控而非停摆。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>从「看图」到「在物理世界里行动与规划」是下一章；技术越强，越要拒绝个人神谕式叙事。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-07:30</span>从 ImageNet 到拒绝人设</h2><p>开场在公园：李飞飞被介绍为计算机视觉与 ImageNet 关键人物，也曾任斯坦福教授、谷歌云 AI、白宫顾问等。她强调自己更常谈 AI 与工作/人，而非空泛概念。</p><p>回顾成都童年、移民美国、普林斯顿与家庭清洁工周末、再到 Caltech 读博——强调那个「没钱没权力幻想」的科学家年代。ImageNet 把数据重要性推到台前，2012 AlexNet 用 GPU 训练成为转折；她不自然接受「教母」称呼，但拒绝让女性贡献再次被抹去。</p><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-01.jpg" alt="公园散步开场：从 ImageNet「教机器看」到世界模型" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 公园散步开场：从 ImageNet「教机器看」到世界模型</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ca4f68e3723f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Park-walk open: from ImageNet teaching machines to see, to world models</span></div>
+<audio class="cap-audio" src="audio/ca4f68e3723f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-02.jpg" alt="成都到普林斯顿：移民 generational 转折与科" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:00] 成都到普林斯顿：移民 generational 转折与科学家年代</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2634b63cb9f4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Chengdu to Princeton: immigrant turning point and a lean scientist era</span></div>
+<audio class="cap-audio" src="audio/2634b63cb9f4.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-03.jpg" alt="ImageNet→AlexNet：数据+神经网络+GPU" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:00] ImageNet→AlexNet：数据+神经网络+GPU 成为现代 AI 配方</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/24fd1abfad82.mp3" type="button" aria-label="Play English audio">🔊</button><span>ImageNet→AlexNet: data + nets + GPUs became modern AI’s recipe</span></div>
+<audio class="cap-audio" src="audio/24fd1abfad82.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-04.jpg" alt="拒绝「教母」人设：专注工作，也拒绝女性贡献被抹去" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:00] 拒绝「教母」人设：专注工作，也拒绝女性贡献被抹去</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f5f074f11ec4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Rejects ‘godmother’ branding: focus on work, refuse erased credit</span></div>
+<audio class="cap-audio" src="audio/f5f074f11ec4.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">07:30-15:00</span>世界模型：编辑、行动、规划</h2><p>相对 LLM 预测下一词，世界模型要对齐物理世界的状态：可编辑的场景、供机器人行动的状态估计、以及下一步规划（如杯子拿起放下）。Marble 作为一步：从图像/文本生成可前进转向的稳定 3D 世界，服务电影、游戏与机器人仿真数据。</p><p>训练依赖更丰富的视觉/相机数据与架构创新；业务仍早。对比桌上堆满项目的大公司，她强调小团队单点专注；领域仍早，类似聊天机器人爆发前夜。</p><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-05.jpg" alt="世界模型三功能：编辑、行动、规划——语言不够用" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:00] 世界模型三功能：编辑、行动、规划——语言不够用</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1f39b8d48869.mp3" type="button" aria-label="Play English audio">🔊</button><span>World models’ three jobs: edit, act, plan—language alone is not enough</span></div>
+<audio class="cap-audio" src="audio/1f39b8d48869.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-06.jpg" alt="Marble：从提示生成可漫游的稳定 3D 世界" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] Marble：从提示生成可漫游的稳定 3D 世界</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1bb5dd088fa8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Marble: prompt-to-explorable stable 3D worlds</span></div>
+<audio class="cap-audio" src="audio/1bb5dd088fa8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-07.jpg" alt="资金与专注：世界模型早期，像 LLM 爆发前夜" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[18:00] 资金与专注：世界模型早期，像 LLM 爆发前夜</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f53a8b91509a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Capital and focus: world models early, like pre-LLM takeoff</span></div>
+<audio class="cap-audio" src="audio/f53a8b91509a.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">15:00-24:05</span>学生情绪、政策与神之复合</h2><p>学生同时有焦虑、希望、兴奋与迷茫；若美国在技术变革中失去示范，全球信任会受损——应用超级技术创造经济与文化正向外溢。她向领导人沟通时自认角色是提供科学事实并纠正错误，而非站队极端批评。</p><p>担忧包括：更强世界模型被恶意武器化、教育沦为懒惰工具、CEO「神之复合」自以为知道人类最佳利益。主张民主社会共同掌控，而不是因恐惧把婴儿与洗澡水一起倒掉。结尾轻松谈到喜欢电影《超时空接触》（Contact）与保持好奇。</p><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-08.jpg" alt="学生情绪与美国角色：焦虑希望并存，需示范正确方向" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[20:00] 学生情绪与美国角色：焦虑希望并存，需示范正确方向</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2d35178a70b9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Student moods &amp; US role: anxiety plus hope; model the right path</span></div>
+<audio class="cap-audio" src="audio/2d35178a70b9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-09.jpg" alt="政策沟通：提供科学事实，反对神之复合物语" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[22:00] 政策沟通：提供科学事实，反对神之复合物语</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c4c7c84d4410.mp3" type="button" aria-label="Play English audio">🔊</button><span>Policy talk: give scientific facts; reject god-complex narratives</span></div>
+<audio class="cap-audio" src="audio/c4c7c84d4410.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bloomberg-fei-fei-li-interview/shot-10.jpg" alt="收束：联系（Contact）与保持好奇" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[23:20] 收束：联系（Contact）与保持好奇</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6535fdb06ed7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Close: Contact the film—and staying curious</span></div>
+<audio class="cap-audio" src="audio/6535fdb06ed7.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>完整转录（918段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">以下文本由 Whisper 自动转录，可能存在识别误差；正文已按语境校正专有名词。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>我聽說你喜歡走路聊天</p></div>
+<div class="transcript-row"><time>00:06</time><p>是的,因為我們說了太多</p></div>
+<div class="transcript-row"><time>00:09</time><p>而且我們公司也在這個公園旁邊</p></div>
+<div class="transcript-row"><time>00:13</time><p>所以很棒</p></div>
+<div class="transcript-row"><time>00:14</time><p>這裡的人都是人工智能者嗎?</p></div>
+<div class="transcript-row"><time>00:17</time><p>我不知道其他人的說話</p></div>
+<div class="transcript-row"><time>00:18</time><p>但我經常跟人工智能者聊天</p></div>
+<div class="transcript-row"><time>00:21</time><p>但這是我唯一知道的</p></div>
+<div class="transcript-row"><time>00:23</time><p>Fei-Fei Li是一個在電腦視覺界的巨型</p></div>
+<div class="transcript-row"><time>00:26</time><p>一群人工智能者</p></div>
+<div class="transcript-row"><time>00:27</time><p>專注於教導機器</p></div>
+<div class="transcript-row"><time>00:30</time><p>她與Imagenet做了一段分析</p></div>
+<div class="transcript-row"><time>00:32</time><p>一間視覺圖書</p></div>
+<div class="transcript-row"><time>00:33</time><p>批評了現代人工智能的改革</p></div>
+<div class="transcript-row"><time>00:35</time><p>獲得了她的名字</p></div>
+<div class="transcript-row"><time>00:37</time><p>《人工智能的母親》</p></div>
+<div class="transcript-row"><time>00:38</time><p>她從來都是人工智能中心的創始人</p></div>
+<div class="transcript-row"><time>00:41</time><p>她是一位 Stanford 教授</p></div>
+<div class="transcript-row"><time>00:43</time><p>一位 Google 執行官</p></div>
+<div class="transcript-row"><time>00:44</time><p>一位美國總統的指導人</p></div>
+<div class="transcript-row"><time>00:46</time><p>一位無可挑剔的人工智能協助者</p></div>
+<div class="transcript-row"><time>00:49</time><p>我覺得人工智能的領導人</p></div>
+<div class="transcript-row"><time>00:51</time><p>並不談論人工智能</p></div>
+<div class="transcript-row"><time>00:54</time><p>他們談論人工智能和工作</p></div>
+<div class="transcript-row"><time>00:57</time><p>並不談論人工智能</p></div>
+<div class="transcript-row"><time>00:58</time><p>現在,她在她的職業簽證中</p></div>
+<div class="transcript-row"><time>01:00</time><p>加入了一位創始人</p></div>
+<div class="transcript-row"><time>01:02</time><p>你覺得在做什麼?</p></div>
+<div class="transcript-row"><time>01:04</time><p>我感覺像一個老虎</p></div>
+<div class="transcript-row"><time>01:06</time><p>而其餘的人工智能世界</p></div>
+<div class="transcript-row"><time>01:07</time><p>雙倍增加了大型的語言模式</p></div>
+<div class="transcript-row"><time>01:09</time><p>例如 chat.gpt 和 Claude</p></div>
+<div class="transcript-row"><time>01:11</time><p>Li 正在考慮一個新的前線</p></div>
+<div class="transcript-row"><time>01:13</time><p>世界模式</p></div>
+<div class="transcript-row"><time>01:14</time><p>她在建立了人工智能</p></div>
+<div class="transcript-row"><time>01:15</time><p>目標地預測</p></div>
+<div class="transcript-row"><time>01:16</time><p>未來發生的事情</p></div>
+<div class="transcript-row"><time>01:17</time><p>在現實世界中</p></div>
+<div class="transcript-row"><time>01:18</time><p>而不是在一句話中的下一句話</p></div>
+<div class="transcript-row"><time>01:21</time><p>所以,世界模式究竟能做到什麼?</p></div>
+<div class="transcript-row"><time>01:23</time><p>LLMs 永遠無法做到</p></div>
+<div class="transcript-row"><time>01:25</time><p>能否把言語燒掉?</p></div>
+<div class="transcript-row"><time>01:27</time><p>Li 和她的創始人 World Labs</p></div>
+<div class="transcript-row"><time>01:29</time><p>正在競爭在一場很激烈的競爭中</p></div>
+<div class="transcript-row"><time>01:31</time><p>全都在同一邊</p></div>
+<div class="transcript-row"><time>01:32</time><p>世界模式是世界智能的</p></div>
+<div class="transcript-row"><time>01:34</time><p>未來發生的最大進步</p></div>
+<div class="transcript-row"><time>01:36</time><p>你曾經想像過人工智能會這麼大?</p></div>
+<div class="transcript-row"><time>01:38</time><p>我曾經想像過</p></div>
+<div class="transcript-row"><time>01:40</time><p>整個世界會被人工智能</p></div>
+<div class="transcript-row"><time>01:42</time><p>改變成人工智能的形式</p></div>
+<div class="transcript-row"><time>01:45</time><p>文化的變化</p></div>
+<div class="transcript-row"><time>01:47</time><p>社會的環境</p></div>
+<div class="transcript-row"><time>01:49</time><p>我從來沒有想像過</p></div>
+<div class="transcript-row"><time>01:58</time><p>她之前成為了領導人工智能的科學家</p></div>
+<div class="transcript-row"><time>02:00</time><p>Li 只是個很奇怪的小孩</p></div>
+<div class="transcript-row"><time>02:02</time><p>在世界觀看</p></div>
+<div class="transcript-row"><time>02:03</time><p>你小時候是怎樣的?</p></div>
+<div class="transcript-row"><time>02:06</time><p>我小時候在中國是80年代和90年代</p></div>
+<div class="transcript-row"><time>02:09</time><p>我的城市是成都</p></div>
+<div class="transcript-row"><time>02:11</time><p>我爸爸是個很奇怪的靈魂</p></div>
+<div class="transcript-row"><time>02:13</time><p>所以我得到了一大堆的</p></div>
+<div class="transcript-row"><time>02:15</time><p>追逐蚊子</p></div>
+<div class="transcript-row"><time>02:17</time><p>和追逐寶寶</p></div>
+<div class="transcript-row"><time>02:19</time><p>到山上去</p></div>
+<div class="transcript-row"><time>02:21</time><p>畫畫和畫畫</p></div>
+<div class="transcript-row"><time>02:23</time><p>和,你知道,讀書</p></div>
+<div class="transcript-row"><time>02:25</time><p>剪髮、短髮、愛愛空氣和物理</p></div>
+<div class="transcript-row"><time>02:29</time><p>你當時看到自己是個寶寶嗎?</p></div>
+<div class="transcript-row"><time>02:31</time><p>當小孩的時候,你很年輕</p></div>
+<div class="transcript-row"><time>02:34</time><p>你幾乎必須是個寶寶</p></div>
+<div class="transcript-row"><time>02:36</time><p>只是因為你想要為自己發聲</p></div>
+<div class="transcript-row"><time>02:38</time><p>但我喜歡自然、科學和物理</p></div>
+<div class="transcript-row"><time>02:42</time><p>愛愛空氣和空氣</p></div>
+<div class="transcript-row"><time>02:45</time><p>這些都是我的身份</p></div>
+<div class="transcript-row"><time>02:47</time><p>你從中國移民到美國</p></div>
+<div class="transcript-row"><time>02:49</time><p>在90年代</p></div>
+<div class="transcript-row"><time>02:50</time><p>對</p></div>
+<div class="transcript-row"><time>02:51</time><p>你當時是個年輕人嗎?</p></div>
+<div class="transcript-row"><time>02:54</time><p>那是困難的</p></div>
+<div class="transcript-row"><time>02:55</time><p>整個文化、語言、生活的轉變</p></div>
+<div class="transcript-row"><time>03:01</time><p>作為一個年輕人</p></div>
+<div class="transcript-row"><time>03:03</time><p>是最困難的一次</p></div>
+<div class="transcript-row"><time>03:05</time><p>因為你發現自己是誰</p></div>
+<div class="transcript-row"><time>03:07</time><p>突然間,你甚至不知道世界</p></div>
+<div class="transcript-row"><time>03:11</time><p>李學了英文</p></div>
+<div class="transcript-row"><time>03:12</time><p>畢業高中</p></div>
+<div class="transcript-row"><time>03:13</time><p>在 Princeton 讀了科學</p></div>
+<div class="transcript-row"><time>03:15</time><p>在週末進行家庭乾淨清潔的工作</p></div>
+<div class="transcript-row"><time>03:17</time><p>然後追逐她的夢想到 Caltech</p></div>
+<div class="transcript-row"><time>03:19</time><p>她得到她的 Ph.D.</p></div>
+<div class="transcript-row"><time>03:21</time><p>並成為電腦科學家</p></div>
+<div class="transcript-row"><time>03:23</time><p>你從小就研究藝術</p></div>
+<div class="transcript-row"><time>03:25</time><p>對你來說是很神奇的</p></div>
+<div class="transcript-row"><time>03:26</time><p>對</p></div>
+<div class="transcript-row"><time>03:27</time><p>當時你覺得怎樣?</p></div>
+<div class="transcript-row"><time>03:28</time><p>那是一個很美麗的時代</p></div>
+<div class="transcript-row"><time>03:30</time><p>那是一個很正確的時代</p></div>
+<div class="transcript-row"><time>03:32</time><p>因為沒有錢、沒有力量</p></div>
+<div class="transcript-row"><time>03:34</time><p>沒有幻想、沒有興趣</p></div>
+<div class="transcript-row"><time>03:36</time><p>我們當時就像科學家一樣</p></div>
+<div class="transcript-row"><time>03:40</time><p>看著天空、看著海洋</p></div>
+<div class="transcript-row"><time>03:43</time><p>我非常感興趣</p></div>
+<div class="transcript-row"><time>03:45</time><p>AIC 如何?</p></div>
+<div class="transcript-row"><time>03:46</time><p>你和我看到的不同嗎?</p></div>
+<div class="transcript-row"><time>03:49</time><p>我們用眼睛</p></div>
+<div class="transcript-row"><time>03:50</time><p>和眼睛</p></div>
+<div class="transcript-row"><time>03:51</time><p>來推動感應器</p></div>
+<div class="transcript-row"><time>03:54</time><p>來把這變成了腦中的信號</p></div>
+<div class="transcript-row"><time>03:57</time><p>而腦中是在做電腦的</p></div>
+<div class="transcript-row"><time>03:58</time><p>電腦不一樣</p></div>
+<div class="transcript-row"><time>04:00</time><p>我們需要學習世界的模式</p></div>
+<div class="transcript-row"><time>04:02</time><p>和理解物質、顏色、環境</p></div>
+<div class="transcript-row"><time>04:07</time><p>很多的目的</p></div>
+<div class="transcript-row"><time>04:08</time><p>就是為人們做出行動</p></div>
+<div class="transcript-row"><time>04:11</time><p>你早上醒來</p></div>
+<div class="transcript-row"><time>04:12</time><p>你抱著孩子</p></div>
+<div class="transcript-row"><time>04:13</time><p>你下樓</p></div>
+<div class="transcript-row"><time>04:14</time><p>準備早餐</p></div>
+<div class="transcript-row"><time>04:16</time><p>拿著你的鑰匙</p></div>
+<div class="transcript-row"><time>04:17</time><p>去做你的工作</p></div>
+<div class="transcript-row"><time>04:19</time><p>我所說的一切</p></div>
+<div class="transcript-row"><time>04:21</time><p>到目前為止</p></div>
+<div class="transcript-row"><time>04:22</time><p>你已經做到了</p></div>
+<div class="transcript-row"><time>04:23</time><p>用你的宇宙智慧</p></div>
+<div class="transcript-row"><time>04:24</time><p>所以要用電腦才能做到</p></div>
+<div class="transcript-row"><time>04:26</time><p>對</p></div>
+<div class="transcript-row"><time>04:27</time><p>李是在2006年</p></div>
+<div class="transcript-row"><time>04:30</time><p>她建立了Imagenet</p></div>
+<div class="transcript-row"><time>04:31</time><p>一張14萬張照片的大型圖案</p></div>
+<div class="transcript-row"><time>04:34</time><p>在那時最大的</p></div>
+<div class="transcript-row"><time>04:36</time><p>21,000張圖案中</p></div>
+<div class="transcript-row"><time>04:37</time><p>成立了</p></div>
+<div class="transcript-row"><time>04:38</time><p>因為李看到</p></div>
+<div class="transcript-row"><time>04:39</time><p>機械人物需要數據</p></div>
+<div class="transcript-row"><time>04:41</time><p>才能變得更聰明</p></div>
+<div class="transcript-row"><time>04:42</time><p>所以Imagenet的目的</p></div>
+<div class="transcript-row"><time>04:43</time><p>是什麼呢?</p></div>
+<div class="transcript-row"><time>04:44</time><p>沒有人在數據上</p></div>
+<div class="transcript-row"><time>04:45</time><p>重視數據</p></div>
+<div class="transcript-row"><time>04:47</time><p>我的學生們</p></div>
+<div class="transcript-row"><time>04:49</time><p>和我都覺得</p></div>
+<div class="transcript-row"><time>04:51</time><p>學習要被數據引導</p></div>
+<div class="transcript-row"><time>04:53</time><p>在2010年</p></div>
+<div class="transcript-row"><time>04:55</time><p>李把Imagenet</p></div>
+<div class="transcript-row"><time>04:56</time><p>變成了比賽</p></div>
+<div class="transcript-row"><time>04:57</time><p>誰能建立最好的策略</p></div>
+<div class="transcript-row"><time>04:59</time><p>去正確地分析</p></div>
+<div class="transcript-row"><time>05:00</time><p>最多的圖案</p></div>
+<div class="transcript-row"><time>05:01</time><p>在2012年</p></div>
+<div class="transcript-row"><time>05:02</time><p>傑弗·亨特恩的</p></div>
+<div class="transcript-row"><time>05:03</time><p>特朗普大學隊</p></div>
+<div class="transcript-row"><time>05:04</time><p>加入了AlexNet</p></div>
+<div class="transcript-row"><time>05:06</time><p>是NVIDIA的</p></div>
+<div class="transcript-row"><time>05:07</time><p>Graphics Cards的</p></div>
+<div class="transcript-row"><time>05:09</time><p>結果是一個轉捩點</p></div>
+<div class="transcript-row"><time>05:11</time><p>那組合</p></div>
+<div class="transcript-row"><time>05:12</time><p>數量大量的數據</p></div>
+<div class="transcript-row"><time>05:13</time><p>機械人物</p></div>
+<div class="transcript-row"><time>05:14</time><p>和GPU的數據力量</p></div>
+<div class="transcript-row"><time>05:16</time><p>成為了</p></div>
+<div class="transcript-row"><time>05:17</time><p>Modern AI的金屬</p></div>
+<div class="transcript-row"><time>05:19</time><p>以及李的歷史</p></div>
+<div class="transcript-row"><time>05:22</time><p>你覺得什麼</p></div>
+<div class="transcript-row"><time>05:23</time><p>當你看到這個</p></div>
+<div class="transcript-row"><time>05:24</time><p>這並不是為了我們</p></div>
+<div class="transcript-row"><time>05:26</time><p>這是整個人類</p></div>
+<div class="transcript-row"><time>05:28</time><p>這真是主要的故事</p></div>
+<div class="transcript-row"><time>05:30</time><p>因為這張照片</p></div>
+<div class="transcript-row"><time>05:32</time><p>是在100年前</p></div>
+<div class="transcript-row"><time>05:36</time><p>當工廠生產</p></div>
+<div class="transcript-row"><time>05:38</time><p>在進一步的過程中</p></div>
+<div class="transcript-row"><time>05:40</time><p>而大型的</p></div>
+<div class="transcript-row"><time>05:41</time><p>城市界線</p></div>
+<div class="transcript-row"><time>05:42</time><p>正在被建造</p></div>
+<div class="transcript-row"><time>05:43</time><p>那是一個</p></div>
+<div class="transcript-row"><time>05:44</time><p>歷史上的一刻</p></div>
+<div class="transcript-row"><time>05:45</time><p>很驚訝</p></div>
+<div class="transcript-row"><time>05:46</time><p>你在這裡</p></div>
+<div class="transcript-row"><time>05:47</time><p>被認識了</p></div>
+<div class="transcript-row"><time>05:48</time><p>但他們可以</p></div>
+<div class="transcript-row"><time>05:49</time><p>把這張照片中央了嗎</p></div>
+<div class="transcript-row"><time>05:51</time><p>快點</p></div>
+<div class="transcript-row"><time>05:52</time><p>是真的</p></div>
+<div class="transcript-row"><time>05:53</time><p>因為這裡</p></div>
+<div class="transcript-row"><time>05:54</time><p>有更多空間</p></div>
+<div class="transcript-row"><time>05:55</time><p>我問過你</p></div>
+<div class="transcript-row"><time>05:56</time><p>在幾年前</p></div>
+<div class="transcript-row"><time>05:57</time><p>你當了</p></div>
+<div class="transcript-row"><time>05:58</time><p>AI的神母</p></div>
+<div class="transcript-row"><time>05:59</time><p>你確實</p></div>
+<div class="transcript-row"><time>06:00</time><p>你覺得</p></div>
+<div class="transcript-row"><time>06:01</time><p>這張照片如何</p></div>
+<div class="transcript-row"><time>06:02</time><p>你知道嗎</p></div>
+<div class="transcript-row"><time>06:03</time><p>Emily</p></div>
+<div class="transcript-row"><time>06:04</time><p>我永遠不會</p></div>
+<div class="transcript-row"><time>06:05</time><p>稱自己為神母</p></div>
+<div class="transcript-row"><time>06:06</time><p>任何一件事</p></div>
+<div class="transcript-row"><time>06:07</time><p>記得Emily</p></div>
+<div class="transcript-row"><time>06:08</time><p>當你問我</p></div>
+<div class="transcript-row"><time>06:09</time><p>我回答</p></div>
+<div class="transcript-row"><time>06:10</time><p>因為我沒有</p></div>
+<div class="transcript-row"><time>06:12</time><p>自然地</p></div>
+<div class="transcript-row"><time>06:13</time><p>認為自己</p></div>
+<div class="transcript-row"><time>06:14</time><p>是神母</p></div>
+<div class="transcript-row"><time>06:15</time><p>任何一件事</p></div>
+<div class="transcript-row"><time>06:16</time><p>這不是我的性格</p></div>
+<div class="transcript-row"><time>06:17</time><p>我專注於工作</p></div>
+<div class="transcript-row"><time>06:19</time><p>如果我拒絕了</p></div>
+<div class="transcript-row"><time>06:20</time><p>在那個地方</p></div>
+<div class="transcript-row"><time>06:22</time><p>我們再次</p></div>
+<div class="transcript-row"><time>06:24</time><p>會在一個</p></div>
+<div class="transcript-row"><time>06:25</time><p>女性不被認識的</p></div>
+<div class="transcript-row"><time>06:26</time><p>情況下</p></div>
+<div class="transcript-row"><time>06:28</time><p>就像男性一樣</p></div>
+<div class="transcript-row"><time>06:30</time><p>我想女性</p></div>
+<div class="transcript-row"><time>06:32</time><p>是神母</p></div>
+<div class="transcript-row"><time>06:33</time><p>任何創造</p></div>
+<div class="transcript-row"><time>06:34</time><p>創造</p></div>
+<div class="transcript-row"><time>06:35</time><p>創造</p></div>
+<div class="transcript-row"><time>06:36</time><p>發掘</p></div>
+<div class="transcript-row"><time>06:37</time><p>他們所做的</p></div>
+<div class="transcript-row"><time>06:38</time><p>你現在</p></div>
+<div class="transcript-row"><time>06:39</time><p>接受這個詞嗎</p></div>
+<div class="transcript-row"><time>06:41</time><p>接受這個詞</p></div>
+<div class="transcript-row"><time>06:42</time><p>是個很大的詞</p></div>
+<div class="transcript-row"><time>06:43</time><p>我不會</p></div>
+<div class="transcript-row"><time>06:44</time><p>說</p></div>
+<div class="transcript-row"><time>06:45</time><p>我是菲菲</p></div>
+<div class="transcript-row"><time>06:46</time><p>我是AI的神母</p></div>
+<div class="transcript-row"><time>06:48</time><p>但是</p></div>
+<div class="transcript-row"><time>06:49</time><p>人們</p></div>
+<div class="transcript-row"><time>06:50</time><p>因為你</p></div>
+<div class="transcript-row"><time>06:51</time><p>接受這個詞</p></div>
+<div class="transcript-row"><time>06:52</time><p>藝術知識</p></div>
+<div class="transcript-row"><time>06:53</time><p>長期被討論</p></div>
+<div class="transcript-row"><time>06:54</time><p>在科技圈</p></div>
+<div class="transcript-row"><time>06:55</time><p>和政策圈中</p></div>
+<div class="transcript-row"><time>06:56</time><p>成為</p></div>
+<div class="transcript-row"><time>06:57</time><p>直到</p></div>
+<div class="transcript-row"><time>06:58</time><p>直到</p></div>
+<div class="transcript-row"><time>06:59</time><p>恰恰PT</p></div>
+<div class="transcript-row"><time>07:01</time><p>AI從一個</p></div>
+<div class="transcript-row"><time>07:02</time><p>虛擬資源</p></div>
+<div class="transcript-row"><time>07:03</time><p>到世界上</p></div>
+<div class="transcript-row"><time>07:04</time><p>最討論科技的</p></div>
+<div class="transcript-row"><time>07:05</time><p>大型語言模式</p></div>
+<div class="transcript-row"><time>07:07</time><p>圖像</p></div>
+<div class="transcript-row"><time>07:08</time><p>影片</p></div>
+<div class="transcript-row"><time>07:09</time><p>突然</p></div>
+<div class="transcript-row"><time>07:10</time><p>就像</p></div>
+<div class="transcript-row"><time>07:11</time><p>所有人</p></div>
+<div class="transcript-row"><time>07:12</time><p>都想成為</p></div>
+<div class="transcript-row"><time>07:13</time><p>AI商業</p></div>
+<div class="transcript-row"><time>07:14</time><p>坦白說</p></div>
+<div class="transcript-row"><time>07:15</time><p>事情</p></div>
+<div class="transcript-row"><time>07:16</time><p>已經很遠了</p></div>
+<div class="transcript-row"><time>07:18</time><p>李莉</p></div>
+<div class="transcript-row"><time>07:19</time><p>在2024年</p></div>
+<div class="transcript-row"><time>07:20</time><p>創立了</p></div>
+<div class="transcript-row"><time>07:21</time><p>自己的商店</p></div>
+<div class="transcript-row"><time>07:22</time><p>你覺得</p></div>
+<div class="transcript-row"><time>07:23</time><p>自己的商店</p></div>
+<div class="transcript-row"><time>07:24</time><p>如何</p></div>
+<div class="transcript-row"><time>07:25</time><p>我認為</p></div>
+<div class="transcript-row"><time>07:26</time><p>在公司</p></div>
+<div class="transcript-row"><time>07:27</time><p>我最擅長的</p></div>
+<div class="transcript-row"><time>07:28</time><p>是從</p></div>
+<div class="transcript-row"><time>07:29</time><p>我的創作者</p></div>
+<div class="transcript-row"><time>07:30</time><p>和研究者</p></div>
+<div class="transcript-row"><time>07:31</time><p>和科學家</p></div>
+<div class="transcript-row"><time>07:32</time><p>他們都很擅長</p></div>
+<div class="transcript-row"><time>07:33</time><p>但他們也很年輕</p></div>
+<div class="transcript-row"><time>07:34</time><p>我感覺</p></div>
+<div class="transcript-row"><time>07:35</time><p>像個媽媽</p></div>
+<div class="transcript-row"><time>07:37</time><p>而且</p></div>
+<div class="transcript-row"><time>07:38</time><p>很多時候</p></div>
+<div class="transcript-row"><time>07:39</time><p>我會感覺</p></div>
+<div class="transcript-row"><time>07:40</time><p>像個老虎媽媽</p></div>
+<div class="transcript-row"><time>07:41</time><p>我經營這個商店</p></div>
+<div class="transcript-row"><time>07:42</time><p>我會說</p></div>
+<div class="transcript-row"><time>07:43</time><p>是高級的</p></div>
+<div class="transcript-row"><time>07:44</time><p>李莉</p></div>
+<div class="transcript-row"><time>07:45</time><p>正在進一步</p></div>
+<div class="transcript-row"><time>07:46</time><p>向世界模式進展</p></div>
+<div class="transcript-row"><time>07:47</time><p>如果</p></div>
+<div class="transcript-row"><time>07:48</time><p>Imagenet教導AI</p></div>
+<div class="transcript-row"><time>07:49</time><p>如何看</p></div>
+<div class="transcript-row"><time>07:50</time><p>這個技術</p></div>
+<div class="transcript-row"><time>07:51</time><p>是為了</p></div>
+<div class="transcript-row"><time>07:52</time><p>帶領AI</p></div>
+<div class="transcript-row"><time>07:53</time><p>到物理世界</p></div>
+<div class="transcript-row"><time>07:54</time><p>因為</p></div>
+<div class="transcript-row"><time>07:55</time><p>描寫</p></div>
+<div class="transcript-row"><time>07:56</time><p>如何捕捉一個球</p></div>
+<div class="transcript-row"><time>07:57</time><p>和捕捉一個球</p></div>
+<div class="transcript-row"><time>07:58</time><p>是非常不同的</p></div>
+<div class="transcript-row"><time>07:59</time><p>所以</p></div>
+<div class="transcript-row"><time>08:00</time><p>她認為</p></div>
+<div class="transcript-row"><time>08:01</time><p>這個技術</p></div>
+<div class="transcript-row"><time>08:02</time><p>比 chatbots還要好</p></div>
+<div class="transcript-row"><time>08:03</time><p>其他AI工業</p></div>
+<div class="transcript-row"><time>08:04</time><p>都專注於LLM</p></div>
+<div class="transcript-row"><time>08:06</time><p>LLM不可以做什麼</p></div>
+<div class="transcript-row"><time>08:09</time><p>如果我們想</p></div>
+<div class="transcript-row"><time>08:10</time><p>創造一個世界</p></div>
+<div class="transcript-row"><time>08:12</time><p>讓我們繼續</p></div>
+<div class="transcript-row"><time>08:14</time><p>推動科學發掘</p></div>
+<div class="transcript-row"><time>08:16</time><p>讓我們希望</p></div>
+<div class="transcript-row"><time>08:17</time><p>機械像機械</p></div>
+<div class="transcript-row"><time>08:19</time><p>成為我們的夥伴</p></div>
+<div class="transcript-row"><time>08:21</time><p>這全是</p></div>
+<div class="transcript-row"><time>08:22</time><p>語言不可以</p></div>
+<div class="transcript-row"><time>08:23</time><p>獨自做</p></div>
+<div class="transcript-row"><time>08:24</time><p>建立世界模式</p></div>
+<div class="transcript-row"><time>08:25</time><p>和宇宙智能</p></div>
+<div class="transcript-row"><time>08:26</time><p>不是關於LLM</p></div>
+<div class="transcript-row"><time>08:28</time><p>而是關於</p></div>
+<div class="transcript-row"><time>08:29</time><p>未來的前線</p></div>
+<div class="transcript-row"><time>08:30</time><p>和未來的章節</p></div>
+<div class="transcript-row"><time>08:31</time><p>所以</p></div>
+<div class="transcript-row"><time>08:32</time><p>世界模式</p></div>
+<div class="transcript-row"><time>08:33</time><p>究竟是什麼</p></div>
+<div class="transcript-row"><time>08:34</time><p>世界模式</p></div>
+<div class="transcript-row"><time>08:35</time><p>在這點上</p></div>
+<div class="transcript-row"><time>08:36</time><p>是一個擁擠的詞</p></div>
+<div class="transcript-row"><time>08:37</time><p>我們看</p></div>
+<div class="transcript-row"><time>08:38</time><p>宇宙智能</p></div>
+<div class="transcript-row"><time>08:39</time><p>有三種</p></div>
+<div class="transcript-row"><time>08:40</time><p>不同的功能</p></div>
+<div class="transcript-row"><time>08:42</time><p>一種是編輯</p></div>
+<div class="transcript-row"><time>08:43</time><p>另一種是企圖</p></div>
+<div class="transcript-row"><time>08:45</time><p>第三種是計劃</p></div>
+<div class="transcript-row"><time>08:48</time><p>編輯是</p></div>
+<div class="transcript-row"><time>08:50</time><p>世界模式</p></div>
+<div class="transcript-row"><time>08:51</time><p>出現了</p></div>
+<div class="transcript-row"><time>08:52</time><p>美麗的畫面</p></div>
+<div class="transcript-row"><time>08:53</time><p>讓人類</p></div>
+<div class="transcript-row"><time>08:54</time><p>可以用</p></div>
+<div class="transcript-row"><time>08:55</time><p>你可能</p></div>
+<div class="transcript-row"><time>08:56</time><p>你正在思考Sora</p></div>
+<div class="transcript-row"><time>08:57</time><p>世界模式的第二種</p></div>
+<div class="transcript-row"><time>08:59</time><p>是進行企圖</p></div>
+<div class="transcript-row"><time>09:01</time><p>但並不僅供人</p></div>
+<div class="transcript-row"><time>09:03</time><p>還供機械人</p></div>
+<div class="transcript-row"><time>09:05</time><p>他們專注於</p></div>
+<div class="transcript-row"><time>09:06</time><p>在世界上</p></div>
+<div class="transcript-row"><time>09:07</time><p>實際的狀態</p></div>
+<div class="transcript-row"><time>09:09</time><p>基於物理上的</p></div>
+<div class="transcript-row"><time>09:10</time><p>地區狀態</p></div>
+<div class="transcript-row"><time>09:12</time><p>第三種世界模式</p></div>
+<div class="transcript-row"><time>09:14</time><p>是計劃</p></div>
+<div class="transcript-row"><time>09:15</time><p>讓人知道</p></div>
+<div class="transcript-row"><time>09:16</time><p>接下來要做什麼</p></div>
+<div class="transcript-row"><time>09:18</time><p>例如</p></div>
+<div class="transcript-row"><time>09:19</time><p>如果你有杯子</p></div>
+<div class="transcript-row"><time>09:22</time><p>世界模式</p></div>
+<div class="transcript-row"><time>09:23</time><p>作為計劃人</p></div>
+<div class="transcript-row"><time>09:24</time><p>計劃人</p></div>
+<div class="transcript-row"><time>09:25</time><p>會讓機械人</p></div>
+<div class="transcript-row"><time>09:26</time><p>知道</p></div>
+<div class="transcript-row"><time>09:27</time><p>拿起來</p></div>
+<div class="transcript-row"><time>09:28</time><p>然後放到</p></div>
+<div class="transcript-row"><time>09:29</time><p>其他地方</p></div>
+<div class="transcript-row"><time>09:30</time><p>這就是世界模式</p></div>
+<div class="transcript-row"><time>09:32</time><p>與機械人</p></div>
+<div class="transcript-row"><time>09:33</time><p>非常密切的</p></div>
+<div class="transcript-row"><time>09:34</time><p>合作</p></div>
+<div class="transcript-row"><time>09:36</time><p>Marble是世界模式的</p></div>
+<div class="transcript-row"><time>09:37</time><p>第一步</p></div>
+<div class="transcript-row"><time>09:38</time><p>創造世界模式的</p></div>
+<div class="transcript-row"><time>09:39</time><p>第一步</p></div>
+<div class="transcript-row"><time>09:40</time><p>它是讓任何人</p></div>
+<div class="transcript-row"><time>09:41</time><p>生產一個</p></div>
+<div class="transcript-row"><time>09:42</time><p>可以探索</p></div>
+<div class="transcript-row"><time>09:43</time><p>可以編輯</p></div>
+<div class="transcript-row"><time>09:44</time><p>的3D世界</p></div>
+<div class="transcript-row"><time>09:45</time><p>從一個</p></div>
+<div class="transcript-row"><time>09:46</time><p>視覺或文字標誌</p></div>
+<div class="transcript-row"><time>09:47</time><p>這是一些</p></div>
+<div class="transcript-row"><time>09:49</time><p>用家創造世界</p></div>
+<div class="transcript-row"><time>09:50</time><p>的展示圖</p></div>
+<div class="transcript-row"><time>09:51</time><p>你可以看到</p></div>
+<div class="transcript-row"><time>09:52</time><p>他們設立了</p></div>
+<div class="transcript-row"><time>09:53</time><p>一個房間</p></div>
+<div class="transcript-row"><time>09:54</time><p>一個美麗的房間</p></div>
+<div class="transcript-row"><time>09:55</time><p>現在你看著</p></div>
+<div class="transcript-row"><time>09:56</time><p>你會覺得</p></div>
+<div class="transcript-row"><time>09:57</time><p>這跟一張照片</p></div>
+<div class="transcript-row"><time>09:58</time><p>完全不一樣</p></div>
+<div class="transcript-row"><time>09:59</time><p>但這就是</p></div>
+<div class="transcript-row"><time>10:00</time><p>世界模式的</p></div>
+<div class="transcript-row"><time>10:01</time><p>實際上</p></div>
+<div class="transcript-row"><time>10:02</time><p>是世界</p></div>
+<div class="transcript-row"><time>10:03</time><p>因為我可以</p></div>
+<div class="transcript-row"><time>10:04</time><p>透過它</p></div>
+<div class="transcript-row"><time>10:05</time><p>就像遊戲</p></div>
+<div class="transcript-row"><time>10:06</time><p>我可以向前移動</p></div>
+<div class="transcript-row"><time>10:07</time><p>我可以轉圈</p></div>
+<div class="transcript-row"><time>10:09</time><p>我可以去任何地方</p></div>
+<div class="transcript-row"><time>10:11</time><p>這裡是一個</p></div>
+<div class="transcript-row"><time>10:12</time><p>完全穩定的3D世界</p></div>
+<div class="transcript-row"><time>10:15</time><p>所以現在</p></div>
+<div class="transcript-row"><time>10:16</time><p>哪些公司</p></div>
+<div class="transcript-row"><time>10:17</time><p>使用Marble</p></div>
+<div class="transcript-row"><time>10:18</time><p>為什麼Marble是有用的</p></div>
+<div class="transcript-row"><time>10:20</time><p>例如</p></div>
+<div class="transcript-row"><time>10:21</time><p>在電影中</p></div>
+<div class="transcript-row"><time>10:22</time><p>人們使用Marble</p></div>
+<div class="transcript-row"><time>10:24</time><p>因為他們可以</p></div>
+<div class="transcript-row"><time>10:26</time><p>在任何環境中</p></div>
+<div class="transcript-row"><time>10:28</time><p>拍攝演員</p></div>
+<div class="transcript-row"><time>10:29</time><p>遊戲開發者</p></div>
+<div class="transcript-row"><time>10:30</time><p>Marble完全</p></div>
+<div class="transcript-row"><time>10:32</time><p>減少了</p></div>
+<div class="transcript-row"><time>10:33</time><p>需要的</p></div>
+<div class="transcript-row"><time>10:34</time><p>資源和時間</p></div>
+<div class="transcript-row"><time>10:35</time><p>我們也有</p></div>
+<div class="transcript-row"><time>10:37</time><p>機械模式的例子</p></div>
+<div class="transcript-row"><time>10:38</time><p>這是NVIDIA的</p></div>
+<div class="transcript-row"><time>10:39</time><p>合作</p></div>
+<div class="transcript-row"><time>10:41</time><p>他們使用</p></div>
+<div class="transcript-row"><time>10:42</time><p>Marble的環境</p></div>
+<div class="transcript-row"><time>10:43</time><p>來增加</p></div>
+<div class="transcript-row"><time>10:44</time><p>機械模式的訓練</p></div>
+<div class="transcript-row"><time>10:46</time><p>你用的是什麼訓練</p></div>
+<div class="transcript-row"><time>10:47</time><p>其他人沒有的</p></div>
+<div class="transcript-row"><time>10:48</time><p>這些模式</p></div>
+<div class="transcript-row"><time>10:49</time><p>我們訓練</p></div>
+<div class="transcript-row"><time>10:50</time><p>我們訓練這些模式</p></div>
+<div class="transcript-row"><time>10:52</time><p>在兩件事上</p></div>
+<div class="transcript-row"><time>10:54</time><p>一是特別準備的數據</p></div>
+<div class="transcript-row"><time>10:57</time><p>畫面數據</p></div>
+<div class="transcript-row"><time>10:58</time><p>比語言數據</p></div>
+<div class="transcript-row"><time>11:00</time><p>更加有趣</p></div>
+<div class="transcript-row"><time>11:01</time><p>在畫面上</p></div>
+<div class="transcript-row"><time>11:03</time><p>有更多的資訊</p></div>
+<div class="transcript-row"><time>11:06</time><p>還有鏡頭的資訊</p></div>
+<div class="transcript-row"><time>11:08</time><p>另一方面</p></div>
+<div class="transcript-row"><time>11:09</time><p>是機械模式</p></div>
+<div class="transcript-row"><time>11:10</time><p>和建築設計的創新</p></div>
+<div class="transcript-row"><time>11:12</time><p>因為沒有人</p></div>
+<div class="transcript-row"><time>11:14</time><p>做過</p></div>
+<div class="transcript-row"><time>11:16</time><p>創造世界的模式</p></div>
+<div class="transcript-row"><time>11:18</time><p>對我們來說</p></div>
+<div class="transcript-row"><time>11:19</time><p>創造3D世界</p></div>
+<div class="transcript-row"><time>11:21</time><p>和4D世界的模式</p></div>
+<div class="transcript-row"><time>11:22</time><p>你會說</p></div>
+<div class="transcript-row"><time>11:23</time><p>這是秘密嗎</p></div>
+<div class="transcript-row"><time>11:24</time><p>是的</p></div>
+<div class="transcript-row"><time>11:25</time><p>我猜是</p></div>
+<div class="transcript-row"><time>11:26</time><p>真正的秘密</p></div>
+<div class="transcript-row"><time>11:27</time><p>是人類</p></div>
+<div class="transcript-row"><time>11:28</time><p>就像我經常說的</p></div>
+<div class="transcript-row"><time>11:29</time><p>但是的</p></div>
+<div class="transcript-row"><time>11:30</time><p>我們建立了</p></div>
+<div class="transcript-row"><time>11:31</time><p>資料、機械模式</p></div>
+<div class="transcript-row"><time>11:32</time><p>和系統</p></div>
+<div class="transcript-row"><time>11:33</time><p>你增加了一億美元</p></div>
+<div class="transcript-row"><time>11:34</time><p>那你做的生意如何</p></div>
+<div class="transcript-row"><time>11:36</time><p>生意還很早</p></div>
+<div class="transcript-row"><time>11:37</time><p>我們在建築技術</p></div>
+<div class="transcript-row"><time>11:39</time><p>的這段時間</p></div>
+<div class="transcript-row"><time>11:40</time><p>還在做</p></div>
+<div class="transcript-row"><time>11:41</time><p>建築技術</p></div>
+<div class="transcript-row"><time>11:42</time><p>建築技術</p></div>
+<div class="transcript-row"><time>11:43</time><p>並不是唯一的工作</p></div>
+<div class="transcript-row"><time>11:44</time><p>當李晨</p></div>
+<div class="transcript-row"><time>11:45</time><p>在建築技術上</p></div>
+<div class="transcript-row"><time>11:46</time><p>落實了</p></div>
+<div class="transcript-row"><time>11:47</time><p>建築技術的</p></div>
+<div class="transcript-row"><time>11:48</time><p>未來的前線</p></div>
+<div class="transcript-row"><time>11:49</time><p>建築技術</p></div>
+<div class="transcript-row"><time>11:57</time><p>歡迎Fei-Fei Li</p></div>
+<div class="transcript-row"><time>11:58</time><p>創作者和CEO</p></div>
+<div class="transcript-row"><time>11:59</time><p>在世界的工廠</p></div>
+<div class="transcript-row"><time>12:00</time><p>與劉伯格的</p></div>
+<div class="transcript-row"><time>12:01</time><p>Emily Che</p></div>
+<div class="transcript-row"><time>12:02</time><p>討論</p></div>
+<div class="transcript-row"><time>12:05</time><p>所有的工作</p></div>
+<div class="transcript-row"><time>12:06</time><p>都投放在機械模式</p></div>
+<div class="transcript-row"><time>12:07</time><p>所以我想</p></div>
+<div class="transcript-row"><time>12:08</time><p>在這個領域</p></div>
+<div class="transcript-row"><time>12:09</time><p>特別是人類</p></div>
+<div class="transcript-row"><time>12:10</time><p>人類資金</p></div>
+<div class="transcript-row"><time>12:11</time><p>達到6億美元</p></div>
+<div class="transcript-row"><time>12:12</time><p>但是</p></div>
+<div class="transcript-row"><time>12:13</time><p>他們還是</p></div>
+<div class="transcript-row"><time>12:14</time><p>不可以</p></div>
+<div class="transcript-row"><time>12:15</time><p>盛載我的工具</p></div>
+<div class="transcript-row"><time>12:16</time><p>我還是不可以</p></div>
+<div class="transcript-row"><time>12:17</time><p>盛載我的亞馬遜工具</p></div>
+<div class="transcript-row"><time>12:18</time><p>會不會</p></div>
+<div class="transcript-row"><time>12:19</time><p>世界模式</p></div>
+<div class="transcript-row"><time>12:20</time><p>世界工廠</p></div>
+<div class="transcript-row"><time>12:21</time><p>關閉了</p></div>
+<div class="transcript-row"><time>12:22</time><p>虛擬和現實的間隔</p></div>
+<div class="transcript-row"><time>12:24</time><p>這是一個很大的問題</p></div>
+<div class="transcript-row"><time>12:25</time><p>Emily</p></div>
+<div class="transcript-row"><time>12:26</time><p>首先</p></div>
+<div class="transcript-row"><time>12:27</time><p>機械模式</p></div>
+<div class="transcript-row"><time>12:28</time><p>將會是</p></div>
+<div class="transcript-row"><time>12:29</time><p>人類工廠</p></div>
+<div class="transcript-row"><time>12:30</time><p>最重要的</p></div>
+<div class="transcript-row"><time>12:31</time><p>改革</p></div>
+<div class="transcript-row"><time>12:33</time><p>6億美元</p></div>
+<div class="transcript-row"><time>12:34</time><p>太小了</p></div>
+<div class="transcript-row"><time>12:36</time><p>如果您看</p></div>
+<div class="transcript-row"><time>12:37</time><p>自駕車的投資</p></div>
+<div class="transcript-row"><time>12:39</time><p>如果您看</p></div>
+<div class="transcript-row"><time>12:40</time><p>語言模式的投資</p></div>
+<div class="transcript-row"><time>12:42</time><p>花了</p></div>
+<div class="transcript-row"><time>12:43</time><p>超過6億美元</p></div>
+<div class="transcript-row"><time>12:44</time><p>我們會關閉</p></div>
+<div class="transcript-row"><time>12:45</time><p>我們會關閉</p></div>
+<div class="transcript-row"><time>12:46</time><p>我相信</p></div>
+<div class="transcript-row"><time>12:47</time><p>世界工廠</p></div>
+<div class="transcript-row"><time>12:48</time><p>是一種</p></div>
+<div class="transcript-row"><time>12:49</time><p>最重要的技術</p></div>
+<div class="transcript-row"><time>12:51</time><p>在虛擬和現實的間隔</p></div>
+<div class="transcript-row"><time>12:54</time><p>當然</p></div>
+<div class="transcript-row"><time>12:55</time><p>這就是希望</p></div>
+<div class="transcript-row"><time>12:58</time><p>但Lee並不獨自</p></div>
+<div class="transcript-row"><time>12:59</time><p>世界模式</p></div>
+<div class="transcript-row"><time>13:00</time><p>是技術工廠</p></div>
+<div class="transcript-row"><time>13:01</time><p>最新的承諾</p></div>
+<div class="transcript-row"><time>13:02</time><p>與開發商</p></div>
+<div class="transcript-row"><time>13:03</time><p>和技術巨頭</p></div>
+<div class="transcript-row"><time>13:04</time><p>一同</p></div>
+<div class="transcript-row"><time>13:05</time><p>努力建造</p></div>
+<div class="transcript-row"><time>13:06</time><p>從設計</p></div>
+<div class="transcript-row"><time>13:07</time><p>自駕車</p></div>
+<div class="transcript-row"><time>13:08</time><p>機械模式</p></div>
+<div class="transcript-row"><time>13:09</time><p>工廠</p></div>
+<div class="transcript-row"><time>13:10</time><p>到</p></div>
+<div class="transcript-row"><time>13:11</time><p>最終</p></div>
+<div class="transcript-row"><time>13:12</time><p>機械模式</p></div>
+<div class="transcript-row"><time>13:13</time><p>能夠</p></div>
+<div class="transcript-row"><time>13:14</time><p>建造</p></div>
+<div class="transcript-row"><time>13:15</time><p>虛擬工綜機器</p></div>
+<div class="transcript-row"><time>13:16</time><p>你知道</p></div>
+<div class="transcript-row"><time>13:17</time><p>這事</p></div>
+<div class="transcript-row"><time>13:19</time><p>是意識不到</p></div>
+<div class="transcript-row"><time>13:20</time><p>投 trousers</p></div>
+<div class="transcript-row"><time>13:21</time><p>真正開發的</p></div>
+<div class="transcript-row"><time>13:22</time><p>最新開發的</p></div>
+<div class="transcript-row"><time>13:23</time><p>兩個營運</p></div>
+<div class="transcript-row"><time>13:24</time><p>應該也是</p></div>
+<div class="transcript-row"><time>13:28</time><p>世界有 Perseus</p></div>
+<div class="transcript-row"><time>13:30</time><p>比你</p></div>
+<div class="transcript-row"><time>13:31</time><p>對 reduce</p></div>
+<div class="transcript-row"><time>13:32</time><p>例如</p></div>
+<div class="transcript-row"><time>13:33</time><p>在</p></div>
+<div class="transcript-row"><time>13:35</time><p>報告</p></div>
+<div class="transcript-row"><time>13:37</time><p>感覺</p></div>
+<div class="transcript-row"><time>13:39</time><p>讓我</p></div>
+<div class="transcript-row"><time>13:40</time><p>變取不了</p></div>
+<div class="transcript-row"><time>13:41</time><p>我</p></div>
+<div class="transcript-row"><time>13:42</time><p>幫助你們</p></div>
+<div class="transcript-row"><time>13:43</time><p>我們也有專注力</p></div>
+<div class="transcript-row"><time>13:45</time><p>你知道,很多大公司</p></div>
+<div class="transcript-row"><time>13:47</time><p>他們有很多東西在桌子上</p></div>
+<div class="transcript-row"><time>13:51</time><p>我們有一個東西在桌子上</p></div>
+<div class="transcript-row"><time>13:53</time><p>我們專注在那個東西上</p></div>
+<div class="transcript-row"><time>13:55</time><p>Emily,很高興認識你</p></div>
+<div class="transcript-row"><time>13:57</time><p>戰爭是如此嚴格的</p></div>
+<div class="transcript-row"><time>13:59</time><p>為何要跟菲菲合作呢?</p></div>
+<div class="transcript-row"><time>14:00</time><p>因為那裡有很多</p></div>
+<div class="transcript-row"><time>14:03</time><p>強大的AI公司</p></div>
+<div class="transcript-row"><time>14:05</time><p>我開始跟菲菲合作</p></div>
+<div class="transcript-row"><time>14:06</time><p>以前很酷</p></div>
+<div class="transcript-row"><time>14:07</time><p>2012年</p></div>
+<div class="transcript-row"><time>14:10</time><p>對,我跟菲菲合作</p></div>
+<div class="transcript-row"><time>14:12</time><p>我跟菲菲合作</p></div>
+<div class="transcript-row"><time>14:13</time><p>你可以跟很多大公司合作</p></div>
+<div class="transcript-row"><time>14:15</time><p>但你手上不可以改變</p></div>
+<div class="transcript-row"><time>14:17</time><p>這個距離</p></div>
+<div class="transcript-row"><time>14:19</time><p>這裡有50個人</p></div>
+<div class="transcript-row"><time>14:21</time><p>你手上可以改變這個公司的距離</p></div>
+<div class="transcript-row"><time>14:23</time><p>這是一個很美麗的事情</p></div>
+<div class="transcript-row"><time>14:25</time><p>世界大公司可能是一個小團隊</p></div>
+<div class="transcript-row"><time>14:27</time><p>但世界大公司的投資是巨大的</p></div>
+<div class="transcript-row"><time>14:30</time><p>3億美元和增長</p></div>
+<div class="transcript-row"><time>14:32</time><p>仍然是早期</p></div>
+<div class="transcript-row"><time>14:34</time><p>這個領域還沒有決定如何建立</p></div>
+<div class="transcript-row"><time>14:37</time><p>你會說是2019年</p></div>
+<div class="transcript-row"><time>14:39</time><p>在聊天機上</p></div>
+<div class="transcript-row"><time>14:40</time><p>所有人都在追求LLM</p></div>
+<div class="transcript-row"><time>14:42</time><p>並在努力做到</p></div>
+<div class="transcript-row"><time>14:43</time><p>但他們還沒有破壞數據</p></div>
+<div class="transcript-row"><time>14:45</time><p>這就是世界大公司的狀況嗎?</p></div>
+<div class="transcript-row"><time>14:47</time><p>對,這是一個很公平的描述</p></div>
+<div class="transcript-row"><time>14:49</time><p>我們是早期的</p></div>
+<div class="transcript-row"><time>14:50</time><p>我們比LLM早期</p></div>
+<div class="transcript-row"><time>14:53</time><p>但會不會是一種爆炸</p></div>
+<div class="transcript-row"><time>14:55</time><p>一種啊哈的一刻</p></div>
+<div class="transcript-row"><time>14:56</time><p>我們會說</p></div>
+<div class="transcript-row"><time>14:57</time><p>哦,現在我們明白了</p></div>
+<div class="transcript-row"><time>14:59</time><p>如果我們做得對,是的</p></div>
+<div class="transcript-row"><time>15:00</time><p>這就是科技和科技的魔法</p></div>
+<div class="transcript-row"><time>15:03</time><p>當它碰到那一刻</p></div>
+<div class="transcript-row"><time>15:06</time><p>它就變成魔法了</p></div>
+<div class="transcript-row"><time>15:08</time><p>在AI和機械世界上</p></div>
+<div class="transcript-row"><time>15:10</time><p>有些人說</p></div>
+<div class="transcript-row"><time>15:11</time><p>這不是下一步的破壞</p></div>
+<div class="transcript-row"><time>15:13</time><p>只是下一步的爆炸</p></div>
+<div class="transcript-row"><time>15:14</time><p>你會說什麼呢?</p></div>
+<div class="transcript-row"><time>15:15</time><p>我覺得</p></div>
+<div class="transcript-row"><time>15:16</time><p>即使是好科技</p></div>
+<div class="transcript-row"><time>15:18</time><p>也能夠爆炸</p></div>
+<div class="transcript-row"><time>15:20</time><p>我認為</p></div>
+<div class="transcript-row"><time>15:21</time><p>宇宙智慧和物理智慧</p></div>
+<div class="transcript-row"><time>15:24</time><p>是基於機械智慧的</p></div>
+<div class="transcript-row"><time>15:27</time><p>這是我認為的</p></div>
+<div class="transcript-row"><time>15:29</time><p>最前線的問題</p></div>
+<div class="transcript-row"><time>15:32</time><p>作為科學家、技術家</p></div>
+<div class="transcript-row"><time>15:34</time><p>也作為企業家</p></div>
+<div class="transcript-row"><time>15:36</time><p>我認為它們會提供</p></div>
+<div class="transcript-row"><time>15:38</time><p>極佳的市場價值</p></div>
+<div class="transcript-row"><time>15:40</time><p>建設世界模特兒</p></div>
+<div class="transcript-row"><time>15:41</time><p>是非常具資源的</p></div>
+<div class="transcript-row"><time>15:42</time><p>你需要更多的力量嗎?</p></div>
+<div class="transcript-row"><time>15:43</time><p>你需要更多的資金</p></div>
+<div class="transcript-row"><time>15:44</time><p>達到你想要的地步嗎?</p></div>
+<div class="transcript-row"><time>15:46</time><p>我們還不知道</p></div>
+<div class="transcript-row"><time>15:47</time><p>我們太早了</p></div>
+<div class="transcript-row"><time>15:48</time><p>我們可能需要更多的力量</p></div>
+<div class="transcript-row"><time>15:50</time><p>和更多的資源</p></div>
+<div class="transcript-row"><time>15:52</time><p>你能得到嗎?</p></div>
+<div class="transcript-row"><time>15:53</time><p>我不知道</p></div>
+<div class="transcript-row"><time>15:54</time><p>哈哈</p></div>
+<div class="transcript-row"><time>15:55</time><p>我們必須做好工作</p></div>
+<div class="transcript-row"><time>15:57</time><p>才能獲得</p></div>
+<div class="transcript-row"><time>15:58</time><p>建設世界模特兒</p></div>
+<div class="transcript-row"><time>15:59</time><p>在示範階段</p></div>
+<div class="transcript-row"><time>16:00</time><p>會花更多的時間和金錢</p></div>
+<div class="transcript-row"><time>16:02</time><p>在這段時間</p></div>
+<div class="transcript-row"><time>16:03</time><p>發展智慧的投資</p></div>
+<div class="transcript-row"><time>16:05</time><p>已經增長了</p></div>
+<div class="transcript-row"><time>16:06</time><p>美國人對它有強烈的感受</p></div>
+<div class="transcript-row"><time>16:08</time><p>我相信你已經看過</p></div>
+<div class="transcript-row"><time>16:09</time><p>前Google的CEO</p></div>
+<div class="transcript-row"><time>16:10</time><p>Erik Schmidt</p></div>
+<div class="transcript-row"><time>16:11</time><p>在學校畢業時</p></div>
+<div class="transcript-row"><time>16:12</time><p>在學校畢業時</p></div>
+<div class="transcript-row"><time>16:13</time><p>今天我們站在</p></div>
+<div class="transcript-row"><time>16:15</time><p>另一個技術變化的邊界</p></div>
+<div class="transcript-row"><time>16:21</time><p>你和學生花了很多時間</p></div>
+<div class="transcript-row"><time>16:23</time><p>他們在說什麼?</p></div>
+<div class="transcript-row"><time>16:25</time><p>如果他們害怕</p></div>
+<div class="transcript-row"><time>16:26</time><p>恐懼是否正確?</p></div>
+<div class="transcript-row"><time>16:28</time><p>是的</p></div>
+<div class="transcript-row"><time>16:29</time><p>我和學生花了很多時間</p></div>
+<div class="transcript-row"><time>16:30</time><p>甚至是學生</p></div>
+<div class="transcript-row"><time>16:32</time><p>反映了一些</p></div>
+<div class="transcript-row"><time>16:33</time><p>混淆的情緒</p></div>
+<div class="transcript-row"><time>16:35</time><p>有焦慮</p></div>
+<div class="transcript-row"><time>16:37</time><p>有希望</p></div>
+<div class="transcript-row"><time>16:38</time><p>也有興奮</p></div>
+<div class="transcript-row"><time>16:40</time><p>也有迷惘</p></div>
+<div class="transcript-row"><time>16:42</time><p>也有同時</p></div>
+<div class="transcript-row"><time>16:44</time><p>有一種勇氣和勇氣</p></div>
+<div class="transcript-row"><time>16:46</time><p>當AI可以幫助我</p></div>
+<div class="transcript-row"><time>16:48</time><p>做一些我以前做不到的事</p></div>
+<div class="transcript-row"><time>16:50</time><p>還有一種勇氣和勇氣</p></div>
+<div class="transcript-row"><time>16:52</time><p>如果AI能夠接受我的工作</p></div>
+<div class="transcript-row"><time>16:55</time><p>嘿嘿</p></div>
+<div class="transcript-row"><time>16:56</time><p>喔喔</p></div>
+<div class="transcript-row"><time>16:57</time><p>AI必須走</p></div>
+<div class="transcript-row"><time>16:59</time><p>如果美國</p></div>
+<div class="transcript-row"><time>17:00</time><p>在這個技術變化中</p></div>
+<div class="transcript-row"><time>17:01</time><p>失去信仰</p></div>
+<div class="transcript-row"><time>17:02</time><p>讓全世界的人</p></div>
+<div class="transcript-row"><time>17:03</time><p>向前走?</p></div>
+<div class="transcript-row"><time>17:05</time><p>美國是一個</p></div>
+<div class="transcript-row"><time>17:06</time><p>很重要的國家</p></div>
+<div class="transcript-row"><time>17:07</time><p>對世界的影響</p></div>
+<div class="transcript-row"><time>17:09</time><p>來說</p></div>
+<div class="transcript-row"><time>17:11</time><p>如果我們不展示</p></div>
+<div class="transcript-row"><time>17:13</time><p>一種正確的態度</p></div>
+<div class="transcript-row"><time>17:16</time><p>和正確的方向</p></div>
+<div class="transcript-row"><time>17:17</time><p>對於AI</p></div>
+<div class="transcript-row"><time>17:18</time><p>所有人都會失去信仰</p></div>
+<div class="transcript-row"><time>17:20</time><p>我並不願意</p></div>
+<div class="transcript-row"><time>17:21</time><p>因為美國</p></div>
+<div class="transcript-row"><time>17:22</time><p>在世界上</p></div>
+<div class="transcript-row"><time>17:23</time><p>已經是一個</p></div>
+<div class="transcript-row"><time>17:24</time><p>思考領導</p></div>
+<div class="transcript-row"><time>17:25</time><p>在技術、科學、經濟上</p></div>
+<div class="transcript-row"><time>17:27</time><p>如果我們能展示</p></div>
+<div class="transcript-row"><time>17:29</time><p>我們可以製造</p></div>
+<div class="transcript-row"><time>17:31</time><p>超級高的技術</p></div>
+<div class="transcript-row"><time>17:33</time><p>和超級高的經濟價值</p></div>
+<div class="transcript-row"><time>17:35</time><p>利用AI</p></div>
+<div class="transcript-row"><time>17:37</time><p>產生一個</p></div>
+<div class="transcript-row"><time>17:38</time><p>正確的文化影響</p></div>
+<div class="transcript-row"><time>17:39</time><p>世界會看見</p></div>
+<div class="transcript-row"><time>17:41</time><p>它作為一個角色</p></div>
+<div class="transcript-row"><time>17:43</time><p>李也知道</p></div>
+<div class="transcript-row"><time>17:44</time><p>AI和其影響的一部分</p></div>
+<div class="transcript-row"><time>17:46</time><p>在她的歷史中</p></div>
+<div class="transcript-row"><time>17:47</time><p>她在大型技術公司</p></div>
+<div class="transcript-row"><time>17:48</time><p>和投資公司</p></div>
+<div class="transcript-row"><time>17:49</time><p>創立了一個AI博物館</p></div>
+<div class="transcript-row"><time>17:51</time><p>在斯坦福</p></div>
+<div class="transcript-row"><time>17:52</time><p>並提醒了</p></div>
+<div class="transcript-row"><time>17:53</time><p>美國總統</p></div>
+<div class="transcript-row"><time>17:54</time><p>和美國的</p></div>
+<div class="transcript-row"><time>17:55</time><p>AI政策</p></div>
+<div class="transcript-row"><time>17:56</time><p>AI政策</p></div>
+<div class="transcript-row"><time>17:57</time><p>AI的藝術知識</p></div>
+<div class="transcript-row"><time>17:58</time><p>沒有任何藝術</p></div>
+<div class="transcript-row"><time>18:00</time><p>它是人類所啟發的</p></div>
+<div class="transcript-row"><time>18:02</time><p>人類所創造的</p></div>
+<div class="transcript-row"><time>18:04</time><p>最重要的是</p></div>
+<div class="transcript-row"><time>18:05</time><p>它對人類有影響</p></div>
+<div class="transcript-row"><time>18:07</time><p>你提醒了</p></div>
+<div class="transcript-row"><time>18:09</time><p>拜登總統</p></div>
+<div class="transcript-row"><time>18:10</time><p>川普總統</p></div>
+<div class="transcript-row"><time>18:11</time><p>聯合國</p></div>
+<div class="transcript-row"><time>18:12</time><p>在技術和AI政策上</p></div>
+<div class="transcript-row"><time>18:14</time><p>你如何向世界領導人</p></div>
+<div class="transcript-row"><time>18:16</time><p>進行交流</p></div>
+<div class="transcript-row"><time>18:17</time><p>我不會進行派對</p></div>
+<div class="transcript-row"><time>18:19</time><p>我不會進行</p></div>
+<div class="transcript-row"><time>18:21</time><p>提供極端的批評</p></div>
+<div class="transcript-row"><time>18:23</time><p>或者是說</p></div>
+<div class="transcript-row"><time>18:24</time><p>這是一個極端的批評</p></div>
+<div class="transcript-row"><time>18:26</time><p>或者是說這是一個極端的批評</p></div>
+<div class="transcript-row"><time>18:28</time><p>我提到的人</p></div>
+<div class="transcript-row"><time>18:29</time><p>很重要知道</p></div>
+<div class="transcript-row"><time>18:31</time><p>我是一個科學家</p></div>
+<div class="transcript-row"><time>18:33</time><p>他們需要什麼</p></div>
+<div class="transcript-row"><time>18:34</time><p>他們需要科學的事實</p></div>
+<div class="transcript-row"><time>18:36</time><p>但我覺得</p></div>
+<div class="transcript-row"><time>18:37</time><p>他們需要在他們的服務中</p></div>
+<div class="transcript-row"><time>18:39</time><p>在他們的行為中</p></div>
+<div class="transcript-row"><time>18:41</time><p>說出自己的意見</p></div>
+<div class="transcript-row"><time>18:43</time><p>去推翻他們的錯誤</p></div>
+<div class="transcript-row"><time>18:45</time><p>因為那是我的責任</p></div>
+<div class="transcript-row"><time>18:47</time><p>他們錯誤了嗎</p></div>
+<div class="transcript-row"><time>18:49</time><p>當然錯誤了</p></div>
+<div class="transcript-row"><time>18:51</time><p>我們都錯誤了</p></div>
+<div class="transcript-row"><time>18:52</time><p>這技術的動作很快</p></div>
+<div class="transcript-row"><time>18:54</time><p>我沒有責怪他們</p></div>
+<div class="transcript-row"><time>18:55</time><p>大部分的政策家</p></div>
+<div class="transcript-row"><time>18:57</time><p>不從科學家的背景來源</p></div>
+<div class="transcript-row"><time>18:59</time><p>什麼是政策的角色</p></div>
+<div class="transcript-row"><time>19:00</time><p>那應該如何</p></div>
+<div class="transcript-row"><time>19:02</time><p>首先</p></div>
+<div class="transcript-row"><time>19:03</time><p>在科學上</p></div>
+<div class="transcript-row"><time>19:05</time><p>而非在科技上</p></div>
+<div class="transcript-row"><time>19:07</time><p>很多在AI政策世界</p></div>
+<div class="transcript-row"><time>19:10</time><p>和人類從斯里克湖</p></div>
+<div class="transcript-row"><time>19:13</time><p>討論人類的死亡</p></div>
+<div class="transcript-row"><time>19:47</time><p>你擔心什麼</p></div>
+<div class="transcript-row"><time>19:48</time><p>會錯誤的世界模式</p></div>
+<div class="transcript-row"><time>19:50</time><p>如果我們給人們</p></div>
+<div class="transcript-row"><time>19:51</time><p>更為現實的</p></div>
+<div class="transcript-row"><time>19:52</time><p>更為強烈的AI</p></div>
+<div class="transcript-row"><time>19:54</time><p>那會造成更多的機會</p></div>
+<div class="transcript-row"><time>19:57</time><p>讓很壞的事情發生</p></div>
+<div class="transcript-row"><time>19:59</time><p>世界模式</p></div>
+<div class="transcript-row"><time>20:00</time><p>語言模式</p></div>
+<div class="transcript-row"><time>20:01</time><p>這些是強烈的模式</p></div>
+<div class="transcript-row"><time>20:03</time><p>可以造成錯誤和錯誤的情形</p></div>
+<div class="transcript-row"><time>20:06</time><p>強烈的機械人物</p></div>
+<div class="transcript-row"><time>20:07</time><p>可以被壞演員武器</p></div>
+<div class="transcript-row"><time>20:09</time><p>而學生</p></div>
+<div class="transcript-row"><time>20:11</time><p>沒有正確的目標</p></div>
+<div class="transcript-row"><time>20:14</time><p>我擔心</p></div>
+<div class="transcript-row"><time>20:15</time><p>科技能夠成為</p></div>
+<div class="transcript-row"><time>20:17</time><p>一個懶惰的技術</p></div>
+<div class="transcript-row"><time>20:19</time><p>而非一個</p></div>
+<div class="transcript-row"><time>20:21</time><p>強烈的學習工具</p></div>
+<div class="transcript-row"><time>20:22</time><p>我非常擔心</p></div>
+<div class="transcript-row"><time>20:24</time><p>所以我覺得</p></div>
+<div class="transcript-row"><time>20:25</time><p>很多事情</p></div>
+<div class="transcript-row"><time>20:26</time><p>可以跟科技有關</p></div>
+<div class="transcript-row"><time>20:27</time><p>不只是AI</p></div>
+<div class="transcript-row"><time>20:28</time><p>可以跟電力有關</p></div>
+<div class="transcript-row"><time>20:30</time><p>跟車子</p></div>
+<div class="transcript-row"><time>20:31</time><p>跟PC</p></div>
+<div class="transcript-row"><time>20:33</time><p>跟網路有關</p></div>
+<div class="transcript-row"><time>20:34</time><p>現在最強烈的</p></div>
+<div class="transcript-row"><time>20:35</time><p>AI總裁</p></div>
+<div class="transcript-row"><time>20:37</time><p>被控告</p></div>
+<div class="transcript-row"><time>20:38</time><p>有神的複雜</p></div>
+<div class="transcript-row"><time>20:39</time><p>因為他們認為</p></div>
+<div class="transcript-row"><time>20:40</time><p>他們知道</p></div>
+<div class="transcript-row"><time>20:41</time><p>人類最好的東西</p></div>
+<div class="transcript-row"><time>20:42</time><p>我認為</p></div>
+<div class="transcript-row"><time>20:43</time><p>這對任何人來說</p></div>
+<div class="transcript-row"><time>20:44</time><p>是危險的</p></div>
+<div class="transcript-row"><time>20:45</time><p>因為他們認為</p></div>
+<div class="transcript-row"><time>20:46</time><p>他們知道</p></div>
+<div class="transcript-row"><time>20:47</time><p>人類最好的東西</p></div>
+<div class="transcript-row"><time>20:48</time><p>作為一位行政總裁</p></div>
+<div class="transcript-row"><time>20:49</time><p>作為一位行政總裁</p></div>
+<div class="transcript-row"><time>20:50</time><p>我們所建立的目標</p></div>
+<div class="transcript-row"><time>20:52</time><p>就是我們要</p></div>
+<div class="transcript-row"><time>20:53</time><p>對社會的貢獻</p></div>
+<div class="transcript-row"><time>20:55</time><p>和對人類的力量</p></div>
+<div class="transcript-row"><time>20:57</time><p>這不是我們所做的</p></div>
+<div class="transcript-row"><time>20:59</time><p>每一個決定</p></div>
+<div class="transcript-row"><time>21:00</time><p>對人類的決定</p></div>
+<div class="transcript-row"><time>21:02</time><p>但這不是我們所走的路嗎</p></div>
+<div class="transcript-row"><time>21:04</time><p>這些是非常強烈的人</p></div>
+<div class="transcript-row"><time>21:06</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:07</time><p>這太早了</p></div>
+<div class="transcript-row"><time>21:08</time><p>來告訴Emily</p></div>
+<div class="transcript-row"><time>21:09</time><p>我並不自私</p></div>
+<div class="transcript-row"><time>21:10</time><p>我知道你所說的</p></div>
+<div class="transcript-row"><time>21:12</time><p>但我也擔心</p></div>
+<div class="transcript-row"><time>21:14</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:15</time><p>神的複雜性</p></div>
+<div class="transcript-row"><time>21:16</time><p>並不強烈</p></div>
+<div class="transcript-row"><time>21:17</time><p>我也不想這樣做</p></div>
+<div class="transcript-row"><time>21:19</time><p>但我們有一個</p></div>
+<div class="transcript-row"><time>21:20</time><p>民主社會</p></div>
+<div class="transcript-row"><time>21:22</time><p>這是另一個原因</p></div>
+<div class="transcript-row"><time>21:23</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:24</time><p>我們民主社會</p></div>
+<div class="transcript-row"><time>21:25</time><p>不應該放棄AI</p></div>
+<div class="transcript-row"><time>21:27</time><p>我們需要聲音</p></div>
+<div class="transcript-row"><time>21:28</time><p>我們需要</p></div>
+<div class="transcript-row"><time>21:29</time><p>共同的掌控</p></div>
+<div class="transcript-row"><time>21:31</time><p>但現在</p></div>
+<div class="transcript-row"><time>21:32</time><p>我們不要</p></div>
+<div class="transcript-row"><time>21:33</time><p>用洗澡水</p></div>
+<div class="transcript-row"><time>21:34</time><p>掌控</p></div>
+<div class="transcript-row"><time>21:35</time><p>我們不應該</p></div>
+<div class="transcript-row"><time>21:36</time><p>停止AI</p></div>
+<div class="transcript-row"><time>21:37</time><p>因為這是一種</p></div>
+<div class="transcript-row"><time>21:38</time><p>掌控的技術</p></div>
+<div class="transcript-row"><time>21:39</time><p>可以探索</p></div>
+<div class="transcript-row"><time>21:40</time><p>病毒的治癒</p></div>
+<div class="transcript-row"><time>21:42</time><p>可以讓學生</p></div>
+<div class="transcript-row"><time>21:44</time><p>和教授</p></div>
+<div class="transcript-row"><time>21:45</time><p>可以幫助年輕人</p></div>
+<div class="transcript-row"><time>21:47</time><p>所以這就是孩子</p></div>
+<div class="transcript-row"><time>21:49</time><p>但現在</p></div>
+<div class="transcript-row"><time>21:50</time><p>我們處於非常混亂的一段時間</p></div>
+<div class="transcript-row"><time>21:52</time><p>這也是為什麼</p></div>
+<div class="transcript-row"><time>21:54</time><p>我感到</p></div>
+<div class="transcript-row"><time>21:55</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:56</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:57</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:58</time><p>我認為</p></div>
+<div class="transcript-row"><time>21:59</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:00</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:01</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:02</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:03</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:04</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:05</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:06</time><p>我認為</p></div>
+<div class="transcript-row"><time>22:07</time><p>現在</p></div>
+<div class="transcript-row"><time>22:08</time><p>在她的第二次演出</p></div>
+<div class="transcript-row"><time>22:09</time><p>她正在努力</p></div>
+<div class="transcript-row"><time>22:10</time><p>讓它成為一個世界</p></div>
+<div class="transcript-row"><time>22:11</time><p>讓它成為一個世界</p></div>
+<div class="transcript-row"><time>22:12</time><p>作為科學家</p></div>
+<div class="transcript-row"><time>22:13</time><p>為了助人</p></div>
+<div class="transcript-row"><time>22:14</time><p>發展著新的AI戰略</p></div>
+<div class="transcript-row"><time>22:15</time><p>我們應該不應該</p></div>
+<div class="transcript-row"><time>22:16</time><p>讓它過渡</p></div>
+<div class="transcript-row"><time>22:17</time><p>這在哪裡</p></div>
+<div class="transcript-row"><time>22:18</time><p>這在哪裡</p></div>
+<div class="transcript-row"><time>22:19</time><p>我們在五年內</p></div>
+<div class="transcript-row"><time>22:20</time><p>這就是我</p></div>
+<div class="transcript-row"><time>22:21</time><p>這就是我</p></div>
+<div class="transcript-row"><time>22:22</time><p>我變得很自信</p></div>
+<div class="transcript-row"><time>22:23</time><p>我變得很自信</p></div>
+<div class="transcript-row"><time>22:24</time><p>歷史的循環</p></div>
+<div class="transcript-row"><time>22:25</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:26</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:27</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:28</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:29</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:30</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:31</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:32</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:33</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:34</time><p>我可以說</p></div>
+<div class="transcript-row"><time>22:35</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:06</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:07</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:08</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:09</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:10</time><p>我可以說</p></div>
+<div class="transcript-row"><time>23:11</time><p>所有人都рим</p></div>
+<div class="transcript-row"><time>23:12</time><p>人人我都值永無</p></div>
+<div class="transcript-row"><time>23:12</time><p>人人我都值得</p></div>
+<div class="transcript-row"><time>23:13</time><p>人人我都值得</p></div>
+<div class="transcript-row"><time>23:14</time><p>t wheel</p></div>
+<div class="transcript-row"><time>23:15</time><p>t wheel</p></div>
+<div class="transcript-row"><time>23:16</time><p>t wheel</p></div>
+<div class="transcript-row"><time>23:17</time><p>t wheel</p></div>
+<div class="transcript-row"><time>23:18</time><p>人人都只要</p></div>
+<div class="transcript-row"><time>23:19</time><p>人人都值得</p></div>
+<div class="transcript-row"><time>23:20</time><p>人人都值得</p></div>
+<div class="transcript-row"><time>23:21</time><p>萬萬 of all</p></div>
+<div class="transcript-row"><time>23:22</time><p>萬萬</p></div>
+<div class="transcript-row"><time>23:25</time><p>其實</p></div>
+<div class="transcript-row"><time>23:26</time><p>我們在我們在我們在</p></div>
+<div class="transcript-row"><time>23:29</time><p>革命中</p></div>
+<div class="transcript-row"><time>23:30</time><p>沒有一個意義</p></div>
+<div class="transcript-row"><time>23:31</time><p>我們其實</p></div>
+<div class="transcript-row"><time>23:32</time><p>....</p></div>
+<div class="transcript-row"><time>23:33</time><p>你覺得外星人在那裡嗎?</p></div>
+<div class="transcript-row"><time>23:36</time><p>作為一個物理學生,你會學習Drake&#x27;s equation</p></div>
+<div class="transcript-row"><time>23:39</time><p>Drake&#x27;s equation computes the probability of potential of outer space aliens</p></div>
+<div class="transcript-row"><time>23:45</time><p>所以有可能會有數字</p></div>
+<div class="transcript-row"><time>23:48</time><p>哇,你最喜歡的電影是哪一部呢?</p></div>
+<div class="transcript-row"><time>23:50</time><p>《聯繫》,我的最愛是《聯繫》</p></div>
+<div class="transcript-row"><time>23:53</time><p>對,《靈魂》在那裡</p></div>
+<div class="transcript-row"><time>24:03</time><p>《聯繫》</p></div>
+</div></div></details>
+</section>
+</article>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

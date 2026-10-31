@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5680" viewBox="0 0 1320 5680">
+  <foreignObject x="0" y="0" width="1320" height="5680">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#2563eb;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{border-radius:16px;padding:18px 22px;text-align:center;min-width:130px;font-weight:700;font-size:15px}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:2px solid #6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border:2px solid #fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border:2px solid #c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#94a3b8}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#ecfdf5;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#065f46;border-left:4px solid #14b8a6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#2563eb;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+<div class="container root-wrap">
+  <h1>害怕街头摄影？三招降压</h1>
+  <div class="meta">
+    <span class="tag tag-blue">街头摄影</span>
+    <span class="tag tag-green">心理</span>
+    <span class="tag tag-orange">观察</span>
+    <span class="tag tag-purple">伦理</span>
+    <span class="tag tag-gray">7分20秒</span>
+    <span class="tag tag-gray">作者转述观点</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3Py5TYjEBWQ">原视频链接</a>
+  <div class="summary-line">核心命题：害羞摄影师缺的往往不是胆量表演，而是一套把压力从「追人冲突」降到「场景等待→痕迹练习→结伴适应」的阶梯；真正对手常是脑内恐惧，不是街上的陌生人。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">症状：想拍却被「被发现/质问/冲突」卡住</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:27</span><span class="timeline-text">诊断：怕的是预演的最坏结果</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:51</span><span class="timeline-text">猎人 vs 渔夫：等人入画</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:05</span><span class="timeline-text">选位三词：光线、结构、背景</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:55</span><span class="timeline-text">痕迹：影子/倒影/遗物/局部</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:45</span><span class="timeline-text">把场景拍透，而不是赶场扫街</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:36</span><span class="timeline-text">结伴降低「拍完焦虑」；守尊重</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:15</span><span class="timeline-text">小胜利替换想象恐惧</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node node-blue">恐惧<br/>脑内剧本</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">降级1<br/>渔夫等待</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">降级2<br/>拍痕迹</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">降级3<br/>结伴+伦理</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>观点卡 1｜恐惧机制：预演 ≠ 概率</h3>
+    <p><strong>在讲什么：</strong>害羞不是「没天赋」，而是行动前把冲突剧本演完了。</p>
+    <div class="highlight">关键理解：很少被讲述的是「拍了很久什么都没发生」。</div>
+    <div class="quote">「已经在脑海里把最坏的结果想了一遍。」</div>
+    <div class="action">怎么用：把目标从「大胆」改成「收集无冲突的小样本」。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>观点卡 2｜渔夫法：把决定权交给场景</h3>
+    <p><strong>在讲什么：</strong>猎人追人压力最大；渔夫先成为环境的一部分。</p>
+    <div class="action">选人流密处 → 锁光/结构/干净背景 → 预设曝光对焦 → 等人入画。</div>
+    <div class="pitfall">避坑：站都没站稳就举机跟拍，最容易被注意。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>观点卡 3｜痕迹练习：故事不必长在脸上</h3>
+    <p><strong>在讲什么：</strong>影子、倒影、遗物、手部局部同样是街头叙事；顺带逼你观察。</p>
+    <div class="action">同一潜力场景多拍几张：换角度、距离、等待不同人进入。</div>
+    <div class="pitfall">避坑：一天扫几十个点却每处只按一两下——压力不降、观察也不长。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>观点卡 4｜结伴是心理支架，不是伦理豁免</h3>
+    <p><strong>在讲什么：</strong>群体安全感降低「拍完焦虑」；维也纳车站例子说明质疑目光≠冲突。</p>
+    <div class="quote">「群体带来的安全感，不是冒犯别人的通行证。」</div>
+    <div class="action">找同行或发起小局；同时把尊重写进默认规则。</div>
+  </div>
+
+  <h2>横向对比：猎人 vs 渔夫</h2>
+  <table>
+    <tr><th>维度</th><th>猎人</th><th>渔夫（新手优先）</th></tr>
+    <tr><td>移动</td><td>主动追随目标</td><td>先定场景再等</td></tr>
+    <tr><td>时间压力</td><td>决定性瞬间极短</td><td>可观察、可换站位</td></tr>
+    <tr><td>被注意风险</td><td>突然举机更高</td><td>融入环境后更低</td></tr>
+    <tr><td>练习重点</td><td>反应与胆量</td><td>选景、光线、构图</td></tr>
+  </table>
+
+  <h2>行动清单</h2>
+  <ol>
+    <li>本周只练渔夫：选一个人流点，站满 10 分钟只等人入画。</li>
+    <li>若仍紧张，改拍影子/倒影 20 张，禁止强迫自己拍脸。</li>
+    <li>同一场景至少拍 4–5 个变体再离开。</li>
+    <li>约一位朋友同拍一小时，事后复盘「被注视」实际后果。</li>
+    <li>出发前默念边界：安全感 ≠ 可以冒犯。</li>
+  </ol>
+
+  <h2>避坑总结</h2>
+  <ul>
+    <li>用「变大胆」自我攻击，却从不设计降压阶梯。</li>
+    <li>第一天就逼自己猎人式贴脸跟拍。</li>
+    <li>结伴后仗着人多不顾被摄者感受。</li>
+    <li>把「没被骂」当成唯一成功标准，忽略观察力成长。</li>
+  </ul>
+
+  <h2>方法边界</h2>
+  <p>内容为「摄影人生」转述蒂姆经验，属作者观点与方法建议，不是法律意见或各地街头法规指南。不同城市对街拍、肖像权与公共场所拍摄的规范不同；尊重礼貌是视频强调的底线，具体合规需自行确认当地规则。人名 ASR 有「地母/定姆/蒂姆」变体，正文统一作蒂姆。</p>
+
+  <div class="conclusion">
+    <h2>结论</h2>
+    <h3>核心要点</h3>
+    <p>降压三阶：等人入画 → 拍痕迹 → 结伴适应；对手是脑内恐惧。</p>
+    <h3>行动清单</h3>
+    <p>今天只完成一次「无人冲突的按快门」——路人、影子或倒影都可以。</p>
+    <h3>认知转变</h3>
+    <p>街头摄影入门不是胆量表演，而是用可重复的小胜利改写风险想象。</p>
+  </div>
+  <div class="footer">双轨产物 · 理性分析 · 2026-10-28 · primary=photo</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4895" viewBox="0 0 1320 4895">
+  <foreignObject x="0" y="0" width="1320" height="4895">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>原来官方有答案？富士20款胶片模拟对比测试</h1>
+  <div class="meta"><span class="tag tag-blue">摄影</span><span class="tag tag-green">富士</span><span class="tag tag-orange">胶片模拟</span><span class="tag tag-purple">Provia</span><span class="tag tag-red">色彩</span><span class="tag tag-gray">直出</span>
+    <span class="tag tag-gray">5分04秒</span>
+    <span class="tag tag-blue">理性分析 · 摄影色彩</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/Fwv2YVukF2">原视频链接</a>
+  <div class="summary-line">核心命题：富士 20 种胶片模拟不是互不相关的滤镜，而是可放进「对比度×饱和度」坐标、并以 Provia 为原点理解的一套色彩态度。全能型靠近中心好控；个性型靠边需明确情绪目标。颗粒、色彩效果、彩色 FX 蓝色是微调三因子。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:05</div><div class="timeline-text">开场：要讲清模拟的色彩与表达</div></div><div class="timeline-item"><div class="timeline-time">00:35</div><div class="timeline-text">同场景多模拟并排对比</div></div><div class="timeline-item"><div class="timeline-time">00:40</div><div class="timeline-text">官方 Film Simulation 网页</div></div><div class="timeline-item"><div class="timeline-time">01:50</div><div class="timeline-text">全能型示例：MONO Std 黑白</div></div><div class="timeline-item"><div class="timeline-time">02:10</div><div class="timeline-text">纵横坐标：对比度 × 饱和度</div></div><div class="timeline-item"><div class="timeline-time">02:43</div><div class="timeline-text">边缘风格难控，需清晰色彩方向</div></div><div class="timeline-item"><div class="timeline-time">03:02</div><div class="timeline-text">三因子：颗粒 / 色彩效果 / FX 蓝</div></div><div class="timeline-item"><div class="timeline-time">03:10</div><div class="timeline-text">颗粒＝噪点；粗糙度×尺寸</div></div><div class="timeline-item"><div class="timeline-time">04:06</div><div class="timeline-text">Provia 为标准；各模拟是其变体</div></div><div class="timeline-item"><div class="timeline-time">04:51</div><div class="timeline-text">核心：想赋予画面什么色彩情感</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">要什么色彩情感？</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">坐标：对比度×饱和度</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">全能居中 / 个性靠边</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">颗粒+冷暖FX微调</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>避坑总结 · 常见误解纠偏</h3>
+    <p>「胶片模拟=随便选个好看的滤镜」不成立：官方有系统讲解与纵横坐标。边缘个性型（如 Classic Neg）不是「高级」代名词——作者明确提醒新手容易封神或翻车，前提是场景色彩方向不清晰。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点卡片</h2>
+
+    <div class="card">
+      <h3>先看官方结构，再记二十个名字</h3>
+      <p><strong>在讲什么：</strong>Film Simulation 有官方网页与坐标图，可拆成全能型与个性型。</p>
+      <p><strong>关键理解：</strong>记忆负担应从「背名单」转到「看位置」：中心好控，边缘态度强。</p>
+      <p><strong>怎么用：</strong>不确定时先用靠近 Provia/Astia 的全能型；要强风格再选靠边模式并预留试错。</p>
+      <div class="quote">原文依据：「富士官方其实有一个专门的网页」「全能选手」「个人主义风格」「纵横解释图」</div>
+      <div class="relation">立场：作者教学框架 + 官方页面/坐标为可核验画面</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>三因子决定「同模拟下的直出观感」</h3>
+      <p><strong>在讲什么：</strong>颗粒（粗糙度×尺寸）、色彩效果、彩色 FX 蓝色。</p>
+      <p><strong>关键理解：</strong>选对模拟只是第一步；颗粒与冷暖 FX 会显著改变噪点与肤色/天空倾向。</p>
+      <p><strong>怎么用：</strong>先固定模拟，再只改一个因子做 A/B，避免同时拧三个旋钮。</p>
+      <div class="quote">原文依据：「三个重要的风格因素」「颗粒效果就是我们日常会说的噪点」「冷暖色对比」</div>
+      <div class="pitfall">边界：具体菜单路径因机身而异；本片讲的是因子逻辑，不是某型号逐步点击教程。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>Provia 是原点，情感是选题标准</h3>
+      <p><strong>在讲什么：</strong>多数模拟可理解为对 Provia 的对比度/饱和度偏移。</p>
+      <p><strong>关键理解：</strong>真正要决定的是「想给观看者什么情绪」，而不是追网红配方。</p>
+      <p><strong>怎么用：</strong>按场景光线与饱和需求映射到 Velvia / Classic Chrome / Nostalgic Neg 等象限，再微调三因子。</p>
+      <div class="quote">原文依据：「围绕着Provia这个色彩核心」「赋予画面怎样的色彩情感」「决定成片对于观看者的情绪表达」</div>
+      <div class="action">立刻可做：同一场景拍 Provia 与一个靠边模拟，对照坐标解释差异。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>方法边界与证据层级</h3>
+      <ul>
+        <li><strong>可验证事实：</strong>官方页与对比度-饱和度图存在；样片展示颗粒与 FX 开关差异。</li>
+        <li><strong>作者观点：</strong>七全能 / 十三个性的归类；边缘风格更难控；情感优先于参数堆叠。</li>
+        <li><strong>推断：</strong>各模拟相对 Provia 的「偏移描述」是口播概括，非实验室测色数据。</li>
+        <li><strong>ASR：</strong>英文模拟名多处乱码，正文已按画面标签校正。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：选型象限（作者框架）</h3>
+    <table>
+      <thead><tr><th>类型</th><th>坐标位置</th><th>代表（口播/画面）</th><th>使用提示</th></tr></thead>
+      <tbody>
+        <tr><td>全能型</td><td>靠近中心</td><td>Provia、Astia、MONO Std 等</td><td>默认安全，适合多数场景</td></tr>
+        <tr><td>高饱和高对比</td><td>右上</td><td>Velvia</td><td>态度强，需场景撑得住</td></tr>
+        <tr><td>低饱和偏硬</td><td>偏左/上</td><td>Classic Chrome、漂白旁路等</td><td>纪实/电影感，注意肤色</td></tr>
+        <tr><td>高饱和低对比</td><td>右下</td><td>Nostalgic Neg</td><td>暖调情绪强，对比弱</td></tr>
+        <tr><td>高对比偏低饱和</td><td>偏上</td><td>Classic Neg</td><td>易封神也易翻车</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>用官方坐标理解 20 模拟：中心好控，边缘要有明确情绪目标。</li>
+      <li>Provia 是多数变体的原点；颗粒与冷暖 FX 是第二层旋钮。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>打开官方 Film Simulation 页，对照机内名单建立「中心/边缘」直觉。</li>
+      <li>不确定时先 Provia/Astia，再只换一个靠边模拟做同场景对比。</li>
+      <li>固定模拟后，单独调颗粒粗糙度或尺寸，观察噪点观感。</li>
+      <li>再试色彩效果 / 彩色 FX 蓝色，感受冷暖偏移，一次只改一项。</li>
+      <li>拍摄前先写一句「本张要什么情绪」，再选模拟，避免无目标乱转盘。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：背配方、追网红模拟 → 现在：先定位坐标，再谈配方。</li>
+      <li>以前：个性模拟=高级 → 现在：靠边=难控，要有色彩方向。</li>
+      <li>以前：调完模拟就交差 → 现在：颗粒与冷暖 FX 同样决定直出。</li>
+    </ul>
+  </div>
+
+  <div class="footer">双轨分析 · 基于本地转录与画面标签 · 不替代原视频</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

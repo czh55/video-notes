@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4217" viewBox="0 0 1320 4217">
+  <foreignObject x="0" y="0" width="1320" height="4217">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:28px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#1e40af;margin:22px 0 12px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+h3{font-size:16px;font-weight:700;color:#334155;margin-bottom:8px}
+p,li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:5px}
+ul,ol{padding-left:20px}
+.tag{display:inline-block;padding:3px 10px;border-radius:16px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:8px 0 12px}
+.summary-line{font-size:16px;line-height:1.65;padding:16px 18px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:14px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:10px;padding:5px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:12px;font-weight:700;color:#3b82f6;min-width:58px}
+.timeline-text{font-size:13px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:22px;margin-bottom:14px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:12px;padding:12px 16px;text-align:center;min-width:118px;font-weight:700;font-size:13px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:20px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:14px 16px;border-radius:10px;margin-bottom:12px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:18px;font-weight:700;color:#1e40af;margin:6px 0 10px;padding-left:10px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:10px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:15px;color:#1e40af}
+.card .quote{background:#f8fafc;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 10px;border-radius:8px;font-size:12px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#991b1b;border-left:3px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f1f5f9;padding:8px;text-align:left;color:#1e40af}
+td{padding:8px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:22px;margin-top:16px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:10px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:16px 0}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:10px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap"><h1>阿根廷百年困局｜外汇约束与捷径成瘾</h1><div class="meta"><span class="tag tag-blue">阿根廷</span><span class="tag tag-green">通胀</span><span class="tag tag-orange">外汇</span><span class="tag tag-purple">米莱</span><span class="tag tag-gray">时长 34分14秒</span><span class="tag tag-gray">理性分析 · 宏观史</span></div><a class="source-link" href="https://b23.tv/9RrIHtI">原视频</a><div class="summary-line">核心判断：富裕记忆+福利刚性+创汇能力不足，使每次缺口都滑向印钱/借钱。1:1 兑换计划能锁印钞机却锁不住竞争力；澳大利亚对照说明多发动机出口与制度稳定的差额。米莱开源节流方向对，社会耐受度决定结局。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">美元化心理</span></div><div class="timeline-item"><span class="timeline-time">03:20</span><span class="timeline-text">潘帕斯红利</span></div><div class="timeline-item"><span class="timeline-time">05:40</span><span class="timeline-text">被迫内向</span></div><div class="timeline-item"><span class="timeline-time">10:00</span><span class="timeline-text">剪刀差</span></div><div class="timeline-item"><span class="timeline-time">13:20</span><span class="timeline-text">温室工业</span></div><div class="timeline-item"><span class="timeline-time">16:40</span><span class="timeline-text">恶性通胀</span></div><div class="timeline-item"><span class="timeline-time">20:00</span><span class="timeline-text">1:1计划</span></div><div class="timeline-item"><span class="timeline-time">26:40</span><span class="timeline-text">银行围栏</span></div><div class="timeline-item"><span class="timeline-time">30:00</span><span class="timeline-text">澳阿对照</span></div><div class="timeline-item"><span class="timeline-time">32:30</span><span class="timeline-text">米莱</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">红利<br/>资源致富</div><span class="arrow">→</span><div class="node-green">契约<br/>福利刚性</div><span class="arrow">→</span><div class="node-orange">约束<br/>美元缺口</div><span class="arrow">→</span><div class="node">捷径<br/>印/借</div><span class="arrow">→</span><div class="node">尝试<br/>开源节流</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：阿根廷人蠢。纠偏：路径是理性自救叠加路径依赖。</p><p>误解：固定汇率万能。纠偏：无创汇能力时变成被动紧缩机器。</p><p>误解：违约结束问题。纠偏：底层外汇约束仍在。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-blue"><h3>家庭账本模型</h3><p>农场主赚美元、工业烧美元、福利要刚性——缺口是结构不是道德。</p><div class="quote">骑在牛背上</div><div class="relation">内销繁荣放大外汇压力。</div></div><div class="card card-orange"><h3>stop-go 探戈</h3><p>衰退攒汇→扩张烧汇→再衰退；印钱把压力变成行为美元化。</p><div class="quote">走走停停</div><div class="relation">精气神被磨掉。</div></div><div class="card card-red"><h3>兑换计划悖论</h3><p>控通胀成功，外债替代印钞；逃生按钮（贬值）被焊死。</p><div class="quote">强心针无造血</div><div class="relation">2001 自我实现挤兑。</div></div><div class="card card-green"><h3>澳阿差额</h3><p>多出口部门+可预期规则 vs 政策善变难投十年项目。</p><div class="quote">开源或节流</div><div class="relation">米莱电锯对准同一方程。</div></div></div><div class="section"><h2 class="sec-title">危机工具箱</h2><div class="card"><table><thead><tr><th>工具</th><th>短效</th><th>长伤</th></tr></thead><tbody><tr><td>印钞</td><td>填福利</td><td>美元化/通胀</td></tr><tr><td>钉住汇率</td><td>稳信心</td><td>高估+外债</td></tr><tr><td>违约/比索化</td><td>甩包袱</td><td>信用死亡</td></tr><tr><td>开源节流</td><td>慢</td><td>唯一可持续</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>长视频叙事压缩复杂政治联盟。</li><li>米莱数据截至视频口径，后续需更新。</li></ul><div class="pitfall">用段子代替外汇约束分析。</div><div class="pitfall">把财政紧缩道德化而忽略创汇侧。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>约束是美元缺口。</li><li>捷径成瘾是制度。</li><li>开源节流仍是药方。</li></ul><h3>行动清单</h3><ol><li>评估资源国：创汇部门数量与政策久期。</li><li>看财政盈余是否伴随出口能力上升。</li><li>对「电锯政治」区分表演与方程。</li></ol><h3>关键认知转变</h3><p>从「阿根廷笑话」转向「富裕记忆下的外汇会计」。</p></div><div class="footer">双轨产物之二 · 理性分析 · argentina-century-economy-trap</div></div>
+    </div>
+  </foreignObject>
+</svg>

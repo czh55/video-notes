@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1287" viewBox="0 0 1320 1287">
+  <foreignObject x="0" y="0" width="1320" height="1287">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f0fdf4,#dcfce7);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#166534,#16a34a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#166534;margin:24px 0 12px}
+p,li{font-size:15px;line-height:1.75;color:#475569}ul{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin:0 8px 6px 0;background:#dcfce7;color:#166534}
+.summary{padding:16px 20px;background:#fff;border-radius:12px;border-left:4px solid #16a34a;margin:14px 0 18px;font-size:16px}
+.card{background:#fff;border-radius:14px;padding:20px;margin:12px 0;border-left:5px solid #16a34a;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card h3{color:#166534;margin-bottom:8px}
+.conclusion{background:linear-gradient(135deg,#166534,#16a34a);color:#fff;border-radius:16px;padding:24px;margin-top:20px}
+.conclusion h2,.conclusion li,.conclusion p{color:#fff}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0}
+.root{background:linear-gradient(135deg,#f0fdf4,#dcfce7);padding:48px 60px}
+a{color:#166534;text-decoration:none}</style>
+      <div class="container root">
+  <h1>云南：为何装得下这么多风景</h1>
+  <span class="tag">山河志</span><span class="tag">图文</span>
+  <div><a href="https://xhslink.cn/o/6N7CoSKA3rK">原笔记短链</a></div>
+  <div class="summary">核心判断：巨大落差 + 纵列山脉分水 + 垂直带与干湿分异，再加稀缺坝子供城市——多样性来自地形机制，不是景点堆砌。</div>
+  <div class="card"><h3>结构抓手</h3><ul><li>6740→76.4 m，一省落差逾 6600 米</li><li>三江并流：山脊作分水岭各走其谷</li><li>同海拔可干热可雨林；约 6% 坝子聚城</li><li>四世界：纵谷 / 热带河谷 / 湖盆 / 喀斯特梯田</li></ul></div>
+  <div class="conclusion"><h2>行动</h2><ul><li>先画西北高东南低剖面</li><li>解释三江「近而不交」用分水岭一句</li><li>旅行选线：先认四世界再点景点</li></ul></div>
+  <div class="footer">video-notes · yunnan-so-many-landscapes</div></div>
+    </div>
+  </foreignObject>
+</svg>

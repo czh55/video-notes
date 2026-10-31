@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4625" viewBox="0 0 1320 4625">
+  <foreignObject x="0" y="0" width="1320" height="4625">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:18px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:72px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;text-align:center;min-width:140px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 14px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:16px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 12px;border-radius:8px;font-size:13px;color:#166534;margin:6px 0}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#1e40af;border-left:3px solid #3b82f6}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:20px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.92);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:20px 0 8px}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:12px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      
+<div class="container root-wrap">
+  <h1>Nikon Z5 IIC vs Sony A7C II/A7CR</h1>
+  <div class="meta"><span class="tag tag-blue">Z5 IIC</span><span class="tag tag-green">A7C II</span><span class="tag tag-orange">婚礼摄影</span><span class="tag tag-purple">防抖</span><span class="tag tag-red">取景器</span><span class="tag tag-gray">性价比</span>
+    <span class="tag tag-gray">19分59秒</span>
+    <span class="tag tag-blue">理性分析 · 紧凑全画幅选型</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/6LdGjmMTIU0">原视频链接</a>
+  <div class="summary-line">核心命题：在婚礼摄影师场景里，Z5 IIC 用约 1400 美元换到更好屏幕、开稳像不裁切、混光 RAW 更好洗与 1/8000 快门，性价比压过约 2500 美元的 A7C II；但它没有 EVF、体感不够「真·紧凑」，更适合第二机/旅行机，而不是默认替换索尼婚礼主机。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:35</div><div class="timeline-text">统一 Imagine 后期；画质不作胜负点</div></div><div class="timeline-item"><div class="timeline-time">01:35</div><div class="timeline-text">屏幕：尼康观感优于同场索尼</div></div><div class="timeline-item"><div class="timeline-time">02:10</div><div class="timeline-text">无 EVF 是核心争议；OVF 附件玩笑</div></div><div class="timeline-item"><div class="timeline-time">04:10</div><div class="timeline-text">定价：约 1400 vs 约 2500</div></div><div class="timeline-item"><div class="timeline-time">05:20</div><div class="timeline-text">婚礼混光：尼康 RAW 更好清理</div></div><div class="timeline-item"><div class="timeline-time">06:30</div><div class="timeline-text">24-200 旅行套装样片</div></div><div class="timeline-item"><div class="timeline-time">09:00</div><div class="timeline-text">IBIS：尼康开稳像不额外裁切</div></div><div class="timeline-item"><div class="timeline-time">10:25</div><div class="timeline-text">索尼赢：第三方镜头与单价</div></div><div class="timeline-item"><div class="timeline-time">14:35</div><div class="timeline-text">胶片模拟/自定义外观</div></div><div class="timeline-item"><div class="timeline-time">18:15</div><div class="timeline-text">定位：第二机或旅行套装</div></div><div class="timeline-item"><div class="timeline-time">19:15</div><div class="timeline-text">续航与 1/8000 快门加分</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">紧凑全画幅需求</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">比屏幕 / EVF / 价 / 防抖</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">性价比偏尼康</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">定位=第二机/旅行</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>「C = Cinema」→ 实为 Compact。网传「烂屏」→ 口播实测相对索尼反而更好看。「无 EVF = 废机」→ 取决于你是否已改用后屏跟拍；对仍依赖取景器的人确实是硬门槛。「画质分高下」→ 双方都过关，且 Z5 IIC 传感器本属索尼阵营。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">维度拆解</h2>
+    <div class="card card-green">
+      <h3>尼康侧硬优势</h3>
+      <ul>
+        <li>机身价差约 1000 美元，可转投镜头预算</li>
+        <li>屏幕观感、开 IBIS 不额外裁切、婚礼混光 RAW 清理</li>
+        <li>机械快门可达 1/8000；续航在同场实测更耐</li>
+        <li>胶片模拟/自定义外观命名，直出玩法更完整</li>
+      </ul>
+      <div class="quote">It would be a great second camera… 24-200 and maybe the 40 f2… perfect kit.</div>
+    </div>
+    <div class="card card-purple">
+      <h3>索尼侧仍成立的理由</h3>
+      <ul>
+        <li>第三方紧凑镜头生态与单价（光圈环、AF/MF 切换更常见）</li>
+        <li>体感更「真紧凑」；Z5 IIC 只是砍掉凸包，仍偏沉</li>
+        <li>有 EVF（尽管 A7C 系取景器也被嫌小）</li>
+        <li>同系统镜头/工作流零切换成本；未来 C3 可能再拉大对焦差距</li>
+      </ul>
+      <div class="relation">关系：价差买得起尼康参数，但生态惯性仍可能锁在索尼。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>风险与避坑</h3>
+      <div class="pitfall">只看参数下单、忽略「举机找取景器」的肌肉记忆——无 EVF 会天天烦你。</div>
+      <div class="pitfall">用转接环硬上索尼头：法兰距允许，但体积优势立刻消失。</div>
+      <div class="pitfall">把 A7C II（较旧）的对焦弱点外推到整个索尼阵营；要比就比同世代。</div>
+      <div class="pitfall">为省两三百美元选 C 版，却真正需要双卡与 EVF——不如直接 Z5 II / 二手双机。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对照（口播口径）</h3>
+    <table>
+      <thead><tr><th>维度</th><th>Z5 IIC</th><th>A7C II / A7CR</th></tr></thead>
+      <tbody>
+        <tr><td>大约价格</td><td>约 1400 美元</td><td>A7C II 约 2500</td></tr>
+        <tr><td>屏幕</td><td>口播认为更好</td><td>偏光竖拍易黑；观感偏弱</td></tr>
+        <tr><td>取景器</td><td>无 EVF</td><td>有，但偏小偏糊</td></tr>
+        <tr><td>视频稳像</td><td>开 IBIS 不额外裁切</td><td>常用稳像易裁切/需后期</td></tr>
+        <tr><td>镜头生态</td><td>小头选择较少</td><td>第三方丰富、单价友好</td></tr>
+        <tr><td>快门上限</td><td>机械 1/8000</td><td>常见 1/4000</td></tr>
+        <tr><td>适合角色</td><td>第二机 / 旅行套装</td><td>已有索尼体系的紧凑主机</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>胜负不在「谁传感器更好」，而在屏幕、EVF、价差、稳像裁切与生态。</li>
+      <li>性价比与视频可用性偏 Z5 IIC；紧凑生态与取景器习惯偏索尼。</li>
+      <li>作者结论是角色定位，不是品牌皈依：第二机/旅行机很香，婚礼主机另议。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先自测：鸡尾酒时间你是否已几乎只用后屏？是→无 EVF 门槛下降。</li>
+      <li>列镜头清单：若依赖大量第三方小头与光圈环，先算索尼总成本。</li>
+      <li>店内对比握持：确认「去凸包」是否真的满足你对 compact 的预期。</li>
+      <li>婚礼体系用户：优先评估双 Z5 II 统一操作，再考虑 C 版当差异化第二机。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <p>从「选更强的紧凑全画幅品牌」转向「为具体角色（主机/第二机/旅行）匹配不可妥协项」——对很多人，不可妥协的是 EVF 或镜头生态，而不是多一块更好的后屏。</p>
+  </div>
+
+  <div class="footer">双轨产物 · SVG 理性分析 · 基于 Whisper 全文与口播证据</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

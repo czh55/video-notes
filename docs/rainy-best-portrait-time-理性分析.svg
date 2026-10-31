@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5322" viewBox="0 0 1320 5322">
+  <foreignObject x="0" y="0" width="1320" height="5322">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>阴雨天才是拍人像最好的时间</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影</span>
+    <span class="tag tag-green">人像</span>
+    <span class="tag tag-orange">阴雨天</span>
+    <span class="tag tag-purple">测光</span>
+    <span class="tag tag-gray">39秒</span>
+    <span class="tag tag-blue">理性分析 · 用光</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3wPb54D9oDv">原视频链接</a>
+  <div class="summary-line">核心命题：阴雨天不是「没光」，而是柔光更适合人像——阴影仍在但对比更小；找光时以脸部测光为准，接受头顶发光通透感变弱，优先保证面部曝光准确。证据来自林毅现场手势、烧录字幕与末段口播。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-text">主张：阴雨天拍人像是不错的选择</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:05</div><div class="timeline-text">「相对来说」——相对硬光场景</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:09</div><div class="timeline-text">提醒：阴天仍有阴暗面</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:13</div><div class="timeline-text">拳头演示看阴暗面</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:17</div><div class="timeline-text">阴暗面相对不大、比较柔和</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:23</div><div class="timeline-text">找光位置；以脸部测光为准</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:31</div><div class="timeline-text">头顶发光仍在，但不够通透</div></div>
+    <div class="timeline-item"><div class="timeline-time">00:35</div><div class="timeline-text">关键：面部曝光准确</div></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">阴雨天能拍人像？</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">阴影更软、对比更小</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">脸部测光找光位</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">曝光准 &gt; 追通透</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解：阴天＝没有阴影、可以随便拍。纠偏：阴天仍有阴暗面，只是对比更小、过渡更柔；仍需找光位并以脸测光。误解：阴雨天也要拍出晴天的「通透」。纠偏：头顶发光可能还在，但整体通透感会弱，应优先保证面部曝光准确。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+    <div class="card">
+      <h3>在讲什么 → 阴雨天相对适合人像</h3>
+      <p>林毅把「最好时间」落在相对表述：相对晴天硬光，阴雨漫射更利于很多人像。</p>
+      <div class="quote">「阴雨天拍人像其实是一个不错的选择」（开场/收束字幕与口播）</div>
+      <div class="relation">关系：选题是光质，不是机身档次。</div>
+      <div class="action">用法：阴雨档期优先安排人像外拍，而不是一味等晴天。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>关键理解 → 用拳头判断「阴暗面」软硬</h3>
+      <p>作者观点：举起拳头看背光侧——阴天阴影「没那么大」「还是比较柔和」。</p>
+      <div class="quote">字幕：「用拳头来看它的阴暗面」「还是比较柔和的」</div>
+      <div class="relation">推断：这是可现场复现的光质检查动作，不是实验室数据。</div>
+      <div class="action">用法：到场先拳手法看阴影过渡，再决定是否补反光或换位。</div>
+    </div>
+    <div class="card card-green">
+      <h3>怎么用 → 脸部测光 + 接受通透变弱</h3>
+      <p>可验证操作：找光时「以脸部测光为准」；口播确认头顶发光仍在但「不会那么通透」，所以盯面部曝光。</p>
+      <div class="quote">「头上的发光依旧有」「它不会那么通透」「所以要注意就是面部曝光准确」</div>
+      <div class="action">用法：点测/人脸优先；背景暗一点可接受，脸过曝或欠曝不可接受。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>边界与风险</h3>
+      <div class="pitfall">视频未给具体测光模式、ISO 或机型参数；「最好」是作者经验判断，不是普适公式。</div>
+      <div class="pitfall">极暗阴雨、色温怪异或主体反光差异大时，仅靠「阴天=柔光」仍可能翻车，需另判。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比：阴雨漫射 vs 晴天硬光（人像）</h3>
+    <table>
+      <thead><tr><th>维度</th><th>阴雨 / 阴天漫射</th><th>晴天直射硬光</th></tr></thead>
+      <tbody>
+        <tr><td>阴影对比</td><td>更小、更柔（拳手法可见）</td><td>更大、边缘更硬</td></tr>
+        <tr><td>通透感</td><td>头顶发光可有，整体偏弱</td><td>常更「透」，但易半边脸炸</td></tr>
+        <tr><td>操作重点</td><td>脸部测光、曝光准</td><td>躲硬光 / 挡光 / 进阴影</td></tr>
+        <tr><td>视频立场</td><td>推荐作人像时间窗口</td><td>未展开，暗示相对更难控</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>阴雨天适合人像，因为光更软，不是因为没有阴影。</li>
+      <li>用拳头检查阴暗面：对比小、过渡柔，才是可用柔光。</li>
+      <li>找光以脸测光为准；通透感变弱时仍优先保面部曝光。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>阴雨档期直接排人像，到场先拳手法看阴影。</li>
+      <li>测光锚定脸部，背景稍暗可接受。</li>
+      <li>不要用晴天通透标准硬拉曝光，避免脸部过曝。</li>
+      <li>若阴影仍发硬，先换位找更开的天空或补反光，而不是盲目加闪光。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：阴天＝没法拍 / 没阴影。→ 现在：阴天＝软阴影，仍要找光。</li>
+      <li>以前：人像先追通透。→ 现在：先追脸部曝光准确。</li>
+      <li>以前：等晴天。→ 现在：阴雨天可能是更好窗口。</li>
+    </ul>
+  </div>
+  <div class="footer">基于小红书视频本地转录与字幕证据 · 理性分析视角 · 非品牌背书</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

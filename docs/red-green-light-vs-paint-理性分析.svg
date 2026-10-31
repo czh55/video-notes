@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1236" viewBox="0 0 1320 1236">
+  <foreignObject x="0" y="0" width="1320" height="1236">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:#faf5ff;padding:48px 60px}
+.container{max-width:1100px;margin:0 auto}h1{font-size:28px;font-weight:900;color:#6b21a8}
+.summary{background:#fff;padding:16px;border-left:4px solid #8b5cf6;border-radius:12px;margin:12px 0;line-height:1.7}
+.card{background:#fff;padding:16px;border-radius:12px;margin:10px 0;border-left:5px solid #8b5cf6}li{margin:6px 0;line-height:1.7}
+.conclusion{background:linear-gradient(135deg,#6b21a8,#8b5cf6);color:#fff;padding:20px;border-radius:14px;margin-top:12px}
+.conclusion li{color:#fff}.footer{text-align:center;color:#94a3b8;padding:12px;font-size:12px}
+.root{padding:48px 60px;background:#faf5ff}</style>
+      <div class="container root"><h1>光加法 / 颜料减法</h1>
+<a href="https://xhslink.cn/o/8qdhDFOjr7J">原视频</a>
+<div class="summary">核心判断：「红+绿」在光里是能量叠加（黄），在颜料里是吸收叠加（近泥）。课堂红黄蓝是实用系，不是物理 RGB 的否定。</div>
+<div class="card"><ul>
+<li>眼睛加总光；耳朵可拆声</li>
+<li>物种锥细胞数不同 → 色世界不同</li>
+</ul></div>
+<div class="conclusion"><ul><li>调光用加法思维；调颜料用减法思维</li></ul></div>
+<div class="footer">video-notes · red-green-light-vs-paint</div></div>
+    </div>
+  </foreignObject>
+</svg>

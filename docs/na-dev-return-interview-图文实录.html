@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="金黄说AI分享北美程序员回国后的面试体验：大厂仍偏简历深挖与算法题；AI初创常见超长项目笔试、多边形能力与价值观考察；建议把简历讲到滚瓜烂熟。">
+  <title>聊聊北美程序员回国面试！｜图文实录</title>
+  <style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}
+.tag-duration{background:#f1f5f9;color:#64748b}
+.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.source-link:hover{text-decoration:underline}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}
+.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.quote{background:#f8fafc;border-left:4px solid #cbd5e1;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:15px;color:#57534e;font-style:italic}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}
+.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+@media(max-width:640px){
+  .container{padding:28px 18px 56px}
+  header h1{font-size:24px}
+  .transcript-row{grid-template-columns:56px 1fr;gap:10px}
+}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+  <main class="container">
+    
+<header>
+  <h1>聊聊北美程序员回国面试！</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">2分54秒</span>
+    <span class="meta-tag tag-topic">职场求职 · AI 初创面试</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/39NlChj46LH" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch-hook">开场：回国求职续集与面试主题</a>
+<a href="#ch-bigco">大厂简历深挖 vs AI 初创转向</a>
+<a href="#ch-takehome">AI 初创笔试：长作业式项目交付</a>
+<a href="#ch-poly">多面能力、场景题与价值观</a>
+<a href="#ch-advice">建议与中美对比</a>
+<a href="#transcript">完整转录</a>
+</nav>
+
+<article class="documentary">
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「金黄说AI」约 2 分 54 秒竖屏口播：接上集找机会之后，讲述北美程序员回国后最近在面什么。大厂仍偏简历深挖与算法题；作者当前主战场是 AI 初创——笔试可长达一下午甚至近 10 小时，常见是把公司大项目交给你，考察用 AI 设计、落地与交付。正式面试继续深挖简历与场景题，并观察初创更要「多边形」能力（工程 + 产品/业务/AI）与创业价值观匹配。给北美朋友的核心建议：简历必须滚瓜烂熟；相对北美偏 system design + LeetCode，国内更抠「为什么这样做、思考如何复用」。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00→00:34]</span><div><strong>开场与主题</strong><p>续写回国求职故事；调侃评论区「小鲜肉/绞肉机」；切入「最近面试在面什么」。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[00:34→00:48]</span><div><strong>大厂 vs 初创</strong><p>大厂变化不大：深挖简历、偏 LeetCode；作者最近面得最多的是 AI 初创，题目五花八门。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[00:48→01:14]</span><div><strong>长笔试项目</strong><p>先笔试再面试；笔试常要一个下午，最长近 10 小时：公司大项目交给你，看你如何用 AI 设计并交付。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[01:14→02:05]</span><div><strong>多面能力与价值观</strong><p>面试仍深挖简历与场景题；AI 企业要多边形能力；还会问工程师职能观与是否适合高风险创业环境。</p></div></div>
+  <div class="summary-row"><span class="time-marker">[02:05→02:54]</span><div><strong>建议与对比</strong><p>对北美朋友：简历讲到滚瓜烂熟（作者称 ROI 很高）；北美偏 system design + LeetCode，国内更强调可迁移的「为什么」。</p></div></div>
+  <div class="takeaway-box"><strong>总结</strong><p>回国面试的差异重点不在「会不会刷题」，而在是否能把简历故事讲透，以及是否扛得住 AI 初创那种超长项目笔试与多面考核——属作者近期经历分享，非全行业统计。</p></div>
+  <div class="warn">Whisper 原稿含同音误识：绞肉鸡→绞肉机、立刻→LeetCode、写作效率→协作效率、RI→ROI、Leco→LeetCode；正文引用已按语境校正，文末转录仍保留原始分段。</div>
+</div>
+
+<section class="story-section" id="ch-hook">
+  <h2><span class="time-marker">00:00–00:34</span>开场：回国求职续集与面试主题</h2>
+  <p>视频承接上一期「如何找机会」：作者继续讲北美程序员回国求职。评论区有人说「北美的小鲜肉没有感受过国内的绞肉机」——作者自称只听清「小鲜肉」三个字，心里暖暖的，并开玩笑欢迎继续这么叫。</p>
+  <p>随即点题：找到机会之后，国内流程通常会很快推进后续面试；本期聚焦「最近面试在面什么」以及他经历多场面试后的感受。</p>
+  <p class="quote">「今天我们来聊一聊面试……我们讲一讲我们最近的面试在面什么东西，以及我最近经历了这么多面试的感受。」</p>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-01.jpg" alt="开场字幕：北美程序员回国求职" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:03] 开场字幕点题：北美程序员回国求职的故事续集</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b6173c9e929b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Opening subtitle: sequel on North American programmers returning to China for jobs</span></div>
+<audio class="cap-audio" src="audio/b6173c9e929b.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-02.jpg" alt="字幕：今天来聊一聊面试" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:23] 转入正题：找到机会后，国内流程会很快推进面试</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9b0eee1737d7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Onto the point: once you land an opportunity, domestic pipelines move interviews fast</span></div>
+<audio class="cap-audio" src="audio/9b0eee1737d7.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-bigco">
+  <h2><span class="time-marker">00:34–00:48</span>大厂简历深挖 vs 转向 AI 初创</h2>
+  <p>先谈大厂：作者认为和大厂以往差别不大——仍是深挖简历，并可能以 LeetCode 类题目为主。但他强调，自己现在面得最多的是 AI 初创企业，题目「非常杂、五花八门」。</p>
+  <p class="quote">「我现在面的主要最多的还是 AI 的一些初创企业……面的东西是非常非常杂的，真的是五花八门。」</p>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-03.jpg" alt="字幕：AI初创企业面的东西" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[00:45] 主战场：最近面试最多的是 AI 初创，题目五花八门</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c4cb70599f4f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Main battlefield: mostly AI startups lately, with wide-ranging interview topics</span></div>
+<audio class="cap-audio" src="audio/c4cb70599f4f.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-takehome">
+  <h2><span class="time-marker">00:48–01:14</span>AI 初创笔试：长作业式项目交付</h2>
+  <p>初创侧会主动考察「AI 的使用」。常见流程是面试前先做笔试，过了才进入面试。许多笔试非常长：可能要一个下午；作者提到最长的一份估计接近 10 小时。</p>
+  <p>题型多为：把公司想解决的问题或一个较大项目交给你，看你会怎么用 AI 去设计、落地，再交付成果。这不是短答题，而是接近真实项目的作业。</p>
+  <p class="quote">「把他公司在想要解决或者说一个比较大的项目交给你，然后看你用 AI 会怎么去设计并且把它给落地，然后再交付。」</p>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-04.jpg" alt="字幕：一个比较大的一个项目" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:08] 笔试常见形态：把公司想解决的大项目交给你，要求用 AI 设计并落地交付</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ebd94d2273c7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Common take-home: you get a large company project and must design, ship, and deliver with AI</span></div>
+<audio class="cap-audio" src="audio/ebd94d2273c7.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-poly">
+  <h2><span class="time-marker">01:14–02:05</span>简历深挖、多边形能力与价值观</h2>
+  <p>进入面试后，主轴仍是简历深挖：不仅问做过什么，还问当时为什么这么做；并会基于履历出场景题（「如果发生这件事，你会怎么做」），也会穿插技术问题。</p>
+  <p>作者的观察是：更多 AI 企业要的是「多边形」能力——工程交付之外，还考察产品理解、业务理解，甚至对 AI 本身的理解。他被问过「如何看待 AI 时代工程师的职能」，以及企业间协作效率会如何改变。</p>
+  <p>另有一块他认为很重要：价值观题——考察你是否适合创业公司那种不确定性与风险更高的环境。</p>
+  <p class="quote">「他们需要的人员的能力是非常多边形的……不光会需要……工程上的交付能力，也要去考察……对产品的理解、对业务的理解，甚至对 AI 的理解。」</p>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-05.jpg" alt="字幕：是非常多边形的" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[01:36] 观察：AI 企业对能力要求很「多边形」——工程交付之外还看产品、业务与 AI 理解</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b1a879c10709.mp3" type="button" aria-label="Play English audio">🔊</button><span>Observation: AI firms want “polygonal” skills—delivery plus product, business, and AI sense</span></div>
+<audio class="cap-audio" src="audio/b1a879c10709.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+
+<section class="story-section" id="ch-advice">
+  <h2><span class="time-marker">02:05–02:54</span>给北美朋友的建议与中美对比</h2>
+  <p>作者给其他北美朋友的建议很集中：一定要深挖自己的简历，讲到滚瓜烂熟——他认为这是 ROI 很高的准备，因为几乎任何公司都会问得很深。</p>
+  <p>对比：北美面试大多仍以 system design + LeetCode 为主；国内则更强调简历深挖——不但讲清做了什么，还要讲清为什么、当时思考是什么，以及如何把思考复用到其他场景。</p>
+  <p>片尾预告会持续更新国内求职近况与感悟，欢迎留言，并以「欢迎继续叫我小鲜肉」收束。</p>
+  <p class="quote">「北美那边的面试主要还是以 system design 加 LeetCode 为主……国内其实对于简历的深挖是特别理解的。」</p>
+  <figure>
+    <img src="assets/na-dev-return-interview/shot-06.jpg" alt="字幕：主要还是以 system design" loading="lazy">
+    <figcaption class="cap-bilingual">
+<div class="cap-zh">[02:19] 对比：北美面试多以 system design + LeetCode；国内更强调简历深挖与可迁移思考</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4c326ef3169c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Contrast: NA leans system design + LeetCode; China digs deeper into resume why-and-reuse</span></div>
+<audio class="cap-audio" src="audio/4c326ef3169c.mp3" preload="none"></audio>
+</figcaption>
+  </figure>
+</section>
+</article>
+
+<section class="transcript-section" id="transcript">
+  <details class="transcript-collapsible">
+    <summary>详细文字转录</summary>
+    <div class="transcript-body">
+      <p class="transcript-note">以下内容按 Whisper 原始分段完整呈现，可能包含识别误差。</p>
+      <ol class="transcript-list">
+  <li class="transcript-row" id="transcript-1">
+    <time datetime="PT0S">00:00</time>
+    <p>朋友们我们今天继续来聊一聊</p>
+  </li>
+  <li class="transcript-row" id="transcript-2">
+    <time datetime="PT2S">00:02</time>
+    <p>一个北美程序员回国求职的故事</p>
+  </li>
+  <li class="transcript-row" id="transcript-3">
+    <time datetime="PT5S">00:05</time>
+    <p>上一次讲完了一些我是如何找机会的视频之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-4">
+    <time datetime="PT8S">00:08</time>
+    <p>有个朋友在我的视频下面评论</p>
+  </li>
+  <li class="transcript-row" id="transcript-5">
+    <time datetime="PT10S">00:10</time>
+    <p>说北美的小鲜肉没有感受过国内的绞肉鸡</p>
+  </li>
+  <li class="transcript-row" id="transcript-6">
+    <time datetime="PT14S">00:14</time>
+    <p>我也不知道这个朋友到底在说什么东西</p>
+  </li>
+  <li class="transcript-row" id="transcript-7">
+    <time datetime="PT17S">00:17</time>
+    <p>我只听见小鲜肉这三个字</p>
+  </li>
+  <li class="transcript-row" id="transcript-8">
+    <time datetime="PT18S">00:18</time>
+    <p>特别的开心</p>
+  </li>
+  <li class="transcript-row" id="transcript-9">
+    <time datetime="PT19S">00:19</time>
+    <p>非常感谢这位朋友诚挚的评论心里暖暖的</p>
+  </li>
+  <li class="transcript-row" id="transcript-10">
+    <time datetime="PT21S">00:21</time>
+    <p>今天我们来聊一聊面试</p>
+  </li>
+  <li class="transcript-row" id="transcript-11">
+    <time datetime="PT23S">00:23</time>
+    <p>找到机会之后</p>
+  </li>
+  <li class="transcript-row" id="transcript-12">
+    <time datetime="PT24S">00:24</time>
+    <p>其实一般国内的制度就很快的开始推进后续的面试了</p>
+  </li>
+  <li class="transcript-row" id="transcript-13">
+    <time datetime="PT28S">00:28</time>
+    <p>我们讲一讲我们最近的面试在面什么东西</p>
+  </li>
+  <li class="transcript-row" id="transcript-14">
+    <time datetime="PT30S">00:30</time>
+    <p>以及我最近经历了这么多面试的感受</p>
+  </li>
+  <li class="transcript-row" id="transcript-15">
+    <time datetime="PT34S">00:34</time>
+    <p>首先我们还是先来聊一下大厂的面试</p>
+  </li>
+  <li class="transcript-row" id="transcript-16">
+    <time datetime="PT35S">00:35</time>
+    <p>大厂的面试其实跟平常之前没什么太大的区别</p>
+  </li>
+  <li class="transcript-row" id="transcript-17">
+    <time datetime="PT39S">00:39</time>
+    <p>就还是深挖自己的简历</p>
+  </li>
+  <li class="transcript-row" id="transcript-18">
+    <time datetime="PT40S">00:40</time>
+    <p>然后可能会做一些立刻的为主</p>
+  </li>
+  <li class="transcript-row" id="transcript-19">
+    <time datetime="PT42S">00:42</time>
+    <p>然后我现在面的主要最多的还是AI的一些初创企业</p>
+  </li>
+  <li class="transcript-row" id="transcript-20">
+    <time datetime="PT44S">00:44</time>
+    <p>然后AI初创企业面的东西是非常非常杂的</p>
+  </li>
+  <li class="transcript-row" id="transcript-21">
+    <time datetime="PT47S">00:47</time>
+    <p>真的是五花八门</p>
+  </li>
+  <li class="transcript-row" id="transcript-22">
+    <time datetime="PT48S">00:48</time>
+    <p>首先他们会考 主动考你很多AI的使用</p>
+  </li>
+  <li class="transcript-row" id="transcript-23">
+    <time datetime="PT51S">00:51</time>
+    <p>然后具体的表现形式就会一般</p>
+  </li>
+  <li class="transcript-row" id="transcript-24">
+    <time datetime="PT53S">00:53</time>
+    <p>会让你在面试前都做一个笔试</p>
+  </li>
+  <li class="transcript-row" id="transcript-25">
+    <time datetime="PT55S">00:55</time>
+    <p>过了这个笔试才会面试</p>
+  </li>
+  <li class="transcript-row" id="transcript-26">
+    <time datetime="PT57S">00:57</time>
+    <p>然后很多这个笔试都非常长</p>
+  </li>
+  <li class="transcript-row" id="transcript-27">
+    <time datetime="PT58S">00:58</time>
+    <p>可能就要做一个下午</p>
+  </li>
+  <li class="transcript-row" id="transcript-28">
+    <time datetime="PT59S">00:59</time>
+    <p>甚至最长的有一个我做了估计的有快10个小时</p>
+  </li>
+  <li class="transcript-row" id="transcript-29">
+    <time datetime="PT62S">01:02</time>
+    <p>然后基本上题目就是那种</p>
+  </li>
+  <li class="transcript-row" id="transcript-30">
+    <time datetime="PT64S">01:04</time>
+    <p>把他公司在想要解决或者说一个比较大的项目</p>
+  </li>
+  <li class="transcript-row" id="transcript-31">
+    <time datetime="PT69S">01:09</time>
+    <p>交给你</p>
+  </li>
+  <li class="transcript-row" id="transcript-32">
+    <time datetime="PT70S">01:10</time>
+    <p>然后看你用AI会怎么去设计</p>
+  </li>
+  <li class="transcript-row" id="transcript-33">
+    <time datetime="PT71S">01:11</time>
+    <p>并且把它给落地</p>
+  </li>
+  <li class="transcript-row" id="transcript-34">
+    <time datetime="PT72S">01:12</time>
+    <p>然后再交付</p>
+  </li>
+  <li class="transcript-row" id="transcript-35">
+    <time datetime="PT74S">01:14</time>
+    <p>然后在面试的过程当中</p>
+  </li>
+  <li class="transcript-row" id="transcript-36">
+    <time datetime="PT75S">01:15</time>
+    <p>其实最主要的也还是去进行简历的深挖</p>
+  </li>
+  <li class="transcript-row" id="transcript-37">
+    <time datetime="PT78S">01:18</time>
+    <p>就是不光会去问你过往做了什么</p>
+  </li>
+  <li class="transcript-row" id="transcript-38">
+    <time datetime="PT80S">01:20</time>
+    <p>可能还去问一下自己当时是为什么这么做的</p>
+  </li>
+  <li class="transcript-row" id="transcript-39">
+    <time datetime="PT82S">01:22</time>
+    <p>然后也会根据你简历上面写的一些过往的内容</p>
+  </li>
+  <li class="transcript-row" id="transcript-40">
+    <time datetime="PT85S">01:25</time>
+    <p>来问你一些场景题</p>
+  </li>
+  <li class="transcript-row" id="transcript-41">
+    <time datetime="PT86S">01:26</time>
+    <p>比如说如果发生发生这个事情</p>
+  </li>
+  <li class="transcript-row" id="transcript-42">
+    <time datetime="PT88S">01:28</time>
+    <p>我们怎么怎么去做</p>
+  </li>
+  <li class="transcript-row" id="transcript-43">
+    <time datetime="PT89S">01:29</time>
+    <p>也会有一些技术的问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-44">
+    <time datetime="PT91S">01:31</time>
+    <p>但现在一个观察就是更多的AI企业</p>
+  </li>
+  <li class="transcript-row" id="transcript-45">
+    <time datetime="PT93S">01:33</time>
+    <p>他们需要的人员的能力是非常多边形的</p>
+  </li>
+  <li class="transcript-row" id="transcript-46">
+    <time datetime="PT96S">01:36</time>
+    <p>不光会需要交付工程上的交付能力也要去考察</p>
+  </li>
+  <li class="transcript-row" id="transcript-47">
+    <time datetime="PT100S">01:40</time>
+    <p>比如说他对于产品的理解</p>
+  </li>
+  <li class="transcript-row" id="transcript-48">
+    <time datetime="PT102S">01:42</time>
+    <p>对于业务的理解</p>
+  </li>
+  <li class="transcript-row" id="transcript-49">
+    <time datetime="PT103S">01:43</time>
+    <p>甚至对AI的理解</p>
+  </li>
+  <li class="transcript-row" id="transcript-50">
+    <time datetime="PT104S">01:44</time>
+    <p>我有非常多的AI企业他们问我的问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-51">
+    <time datetime="PT106S">01:46</time>
+    <p>就是如何看待AI时代工程师的职能</p>
+  </li>
+  <li class="transcript-row" id="transcript-52">
+    <time datetime="PT109S">01:49</time>
+    <p>以及比如说在企业之间的写作效率</p>
+  </li>
+  <li class="transcript-row" id="transcript-53">
+    <time datetime="PT111S">01:51</time>
+    <p>会是什么样子的一个改变</p>
+  </li>
+  <li class="transcript-row" id="transcript-54">
+    <time datetime="PT112S">01:52</time>
+    <p>其实还有最重要的一点</p>
+  </li>
+  <li class="transcript-row" id="transcript-55">
+    <time datetime="PT114S">01:54</time>
+    <p>就是面与AI企业的时候</p>
+  </li>
+  <li class="transcript-row" id="transcript-56">
+    <time datetime="PT115S">01:55</time>
+    <p>就是会问你一些关于价值观的一些问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-57">
+    <time datetime="PT117S">01:57</time>
+    <p>就是可能去考察一下</p>
+  </li>
+  <li class="transcript-row" id="transcript-58">
+    <time datetime="PT118S">01:58</time>
+    <p>你到底是不是一个适合创业公司</p>
+  </li>
+  <li class="transcript-row" id="transcript-59">
+    <time datetime="PT121S">02:01</time>
+    <p>这种不缺点风险性的</p>
+  </li>
+  <li class="transcript-row" id="transcript-60">
+    <time datetime="PT122S">02:02</time>
+    <p>比较高的这么一个环境的这么一个人</p>
+  </li>
+  <li class="transcript-row" id="transcript-61">
+    <time datetime="PT124S">02:04</time>
+    <p>总之如果我要给一个建议</p>
+  </li>
+  <li class="transcript-row" id="transcript-62">
+    <time datetime="PT126S">02:06</time>
+    <p>给比如说其他北美的朋友</p>
+  </li>
+  <li class="transcript-row" id="transcript-63">
+    <time datetime="PT128S">02:08</time>
+    <p>可能会是一定要深挖自己的简历</p>
+  </li>
+  <li class="transcript-row" id="transcript-64">
+    <time datetime="PT130S">02:10</time>
+    <p>一定要讲滚瓜烂熟的</p>
+  </li>
+  <li class="transcript-row" id="transcript-65">
+    <time datetime="PT132S">02:12</time>
+    <p>因为我觉得这是一件RI非常高的事情</p>
+  </li>
+  <li class="transcript-row" id="transcript-66">
+    <time datetime="PT134S">02:14</time>
+    <p>是任何的公司都会问得比较的深</p>
+  </li>
+  <li class="transcript-row" id="transcript-67">
+    <time datetime="PT136S">02:16</time>
+    <p>北美那边的面试</p>
+  </li>
+  <li class="transcript-row" id="transcript-68">
+    <time datetime="PT138S">02:18</time>
+    <p>主要还是以system design加Leco为主</p>
+  </li>
+  <li class="transcript-row" id="transcript-69">
+    <time datetime="PT141S">02:21</time>
+    <p>大部分</p>
+  </li>
+  <li class="transcript-row" id="transcript-70">
+    <time datetime="PT142S">02:22</time>
+    <p>然后我觉得国内其实对于简历的深挖</p>
+  </li>
+  <li class="transcript-row" id="transcript-71">
+    <time datetime="PT145S">02:25</time>
+    <p>是特别理解的</p>
+  </li>
+  <li class="transcript-row" id="transcript-72">
+    <time datetime="PT145S">02:25</time>
+    <p>就是你不光要讲清楚</p>
+  </li>
+  <li class="transcript-row" id="transcript-73">
+    <time datetime="PT146S">02:26</time>
+    <p>自己到底为了做了什么</p>
+  </li>
+  <li class="transcript-row" id="transcript-74">
+    <time datetime="PT148S">02:28</time>
+    <p>然后要讲清楚为什么这么做</p>
+  </li>
+  <li class="transcript-row" id="transcript-75">
+    <time datetime="PT149S">02:29</time>
+    <p>思考时的思考是什么</p>
+  </li>
+  <li class="transcript-row" id="transcript-76">
+    <time datetime="PT151S">02:31</time>
+    <p>然后如何把这个思考</p>
+  </li>
+  <li class="transcript-row" id="transcript-77">
+    <time datetime="PT152S">02:32</time>
+    <p>附入到其他场景上面</p>
+  </li>
+  <li class="transcript-row" id="transcript-78">
+    <time datetime="PT153S">02:33</time>
+    <p>这方面的想法还是比较的深的</p>
+  </li>
+  <li class="transcript-row" id="transcript-79">
+    <time datetime="PT157S">02:37</time>
+    <p>好 总之会在这个频道里面</p>
+  </li>
+  <li class="transcript-row" id="transcript-80">
+    <time datetime="PT159S">02:39</time>
+    <p>持续更新一些</p>
+  </li>
+  <li class="transcript-row" id="transcript-81">
+    <time datetime="PT159S">02:39</time>
+    <p>我在国内求职的一些近况以及感悟</p>
+  </li>
+  <li class="transcript-row" id="transcript-82">
+    <time datetime="PT162S">02:42</time>
+    <p>有兴趣的朋友可以点个关注</p>
+  </li>
+  <li class="transcript-row" id="transcript-83">
+    <time datetime="PT164S">02:44</time>
+    <p>然后有任何的问题</p>
+  </li>
+  <li class="transcript-row" id="transcript-84">
+    <time datetime="PT164S">02:44</time>
+    <p>都可以在评论区留言</p>
+  </li>
+  <li class="transcript-row" id="transcript-85">
+    <time datetime="PT166S">02:46</time>
+    <p>我一条条都会看的</p>
+  </li>
+  <li class="transcript-row" id="transcript-86">
+    <time datetime="PT167S">02:47</time>
+    <p>欢迎大家继续叫我小鲜肉</p>
+  </li>
+  <li class="transcript-row" id="transcript-87">
+    <time datetime="PT169S">02:49</time>
+    <p>我们下期再见</p>
+  </li>
+  <li class="transcript-row" id="transcript-88">
+    <time datetime="PT169S">02:49</time>
+    <p>拜拜</p>
+  </li></ol>
+    </div>
+  </details>
+</section>
+
+  </main>
+  <script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

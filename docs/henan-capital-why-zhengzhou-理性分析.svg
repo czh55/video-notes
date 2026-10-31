@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2649" viewBox="0 0 1320 2649">
+  <foreignObject x="0" y="0" width="1320" height="2649">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fffbeb,#fef3c7);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#92400e,#b45309);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#92400e;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #fde68a}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.8;color:#475569}
+ul{padding-left:22px;margin:8px 0}.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;margin-bottom:6px}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-gray{background:#f1f5f9;color:#64748b}.tag-blue{background:#e0f2fe;color:#0369a1}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #b45309;margin:16px 0 20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:22px 26px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-weight:700;color:#b45309;min-width:48px}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:16px 0}
+.node{border-radius:14px;padding:14px 18px;font-weight:700;font-size:14px;text-align:center;min-width:110px}
+.node-a{background:#ffedd5;border:2px solid #fdba74;color:#9a3412}
+.node-b{background:#dbeafe;border:2px solid #93c5fd;color:#1e40af}
+.node-c{background:#d1fae5;border:2px solid #6ee7b7;color:#065f46}
+.arrow{color:#94a3b8;font-size:20px}
+.card{background:#fff;border-radius:16px;padding:24px;margin-bottom:16px;border-left:5px solid #b45309;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.card h3{color:#92400e}
+.action{background:#ecfdf5;padding:10px 14px;border-radius:10px;margin-top:10px;color:#065f46;border-left:4px solid #14b8a6}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:10px;margin-top:10px;color:#991b1b;border-left:4px solid #ef4444}
+.correction{background:#fef9c3;border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin:16px 0;color:#92400e}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+th,td{padding:10px 12px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top}
+th{background:#f8fafc;color:#92400e}
+.conclusion{background:linear-gradient(135deg,#92400e,#b45309);color:#fff;border-radius:18px;padding:28px;margin-top:24px}
+.conclusion h2,.conclusion h3,.conclusion p,.conclusion li{color:#fff;border:none}
+.source-link{color:#b45309;text-decoration:none;display:inline-block;margin-bottom:12px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:24px 0}
+.root-wrap{background:linear-gradient(135deg,#fffbeb,#fef3c7);padding:48px 60px}</style>
+      
+<div class="container root-wrap">
+  <h1>河南省会为什么是郑州</h1>
+  <div>
+    <span class="tag tag-orange">省会选址</span>
+    <span class="tag tag-blue">铁路枢纽</span>
+    <span class="tag tag-gray">图文 8 页</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3DTbwvDl1V5">原笔记短链</a>
+  <div class="summary-line">核心判断：开封/洛阳的「历史名城」资格，挡不住交通技术代际切换——漕运主轴东移后，京汉×陇海交会的郑州，更适合做近代省级行政与工业调度中心。</div>
+
+  <div class="timeline">
+    <h3>证据页序</h3>
+    <div class="timeline-item"><span class="timeline-time">1/8</span><span>设问：1954 迁省会，郑汴洛关系重排</span></div>
+    <div class="timeline-item"><span class="timeline-time">2–3</span><span>开封因汴河漕运而盛，因淤塞与运河改线失去全国枢纽</span></div>
+    <div class="timeline-item"><span class="timeline-time">4–5</span><span>郑州：干线交会 + 棉花/纺织工业底子</span></div>
+    <div class="timeline-item"><span class="timeline-time">6/8</span><span>1952 批、1954 迁：机关住房分批落地</span></div>
+    <div class="timeline-item"><span class="timeline-time">7–8</span><span>洛阳古代条件 vs 郑州现代居中；商城遗址补历史层</span></div>
+  </div>
+
+  <div class="diagram">
+    <div class="node node-a">漕运时代<br/>开封</div><div class="arrow">→</div>
+    <div class="node node-b">铁路交会<br/>郑州</div><div class="arrow">+</div>
+    <div class="node node-c">工业底子<br/>迁省会</div>
+  </div>
+
+  <div class="correction">
+    <h3>纠偏</h3>
+    <p>「洛阳/开封更配」把古代定都条件直接平移到 1950 年代省级治理需求；笔记把「名城声誉」与「当代联系全省的交通结构」拆开（第 7 页）。</p>
+  </div>
+
+  <div class="card">
+    <h3>三城对照</h3>
+    <table>
+      <tr><th>城市</th><th>历史优势</th><th>近代转折</th></tr>
+      <tr><td>开封</td><td>北宋漕运 + 明清省城</td><td>运河改线，失全国枢纽</td></tr>
+      <tr><td>洛阳</td><td>盆地防御、隋唐运河</td><td>偏西，难兼顾南北调度</td></tr>
+      <tr><td>郑州</td><td>商城遗址层</td><td>京汉×陇海 + 纺织工业</td></tr>
+    </table>
+    <div class="action">怎么记：先答「技术代际」（水运→铁路），再答「交会点+工业」，最后补 1952–1954 时间线。</div>
+    <div class="pitfall">避坑：只用「开封被黄河淹了」单因解释；笔记强调运河干线改经山东同样关键。</div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>省会选择是交通—产业—行政成本的函数，不是纯历史声望赛。</li>
+      <li>郑州近现代身份可叠：枢纽 / 工业 / 省会；更早还有商都层。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>画一张「汴河→山东运河」「陇海×京汉」简图，口述迁省会逻辑。</li>
+      <li>把同类问题迁移到其他省：找「旧枢纽失效点」与「新交会点」。</li>
+    </ul>
+  </div>
+  <div class="footer">video-notes · b65j · 理性分析</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

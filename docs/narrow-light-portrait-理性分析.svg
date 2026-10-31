@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4940" viewBox="0 0 1320 4940">
+  <foreignObject x="0" y="0" width="1320" height="4940">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>摄影进阶力：如何拍好“窄光”？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">小红书</span>
+    <span class="tag tag-green">2分23秒</span>
+    <span class="tag tag-orange">摄影 / 用光</span>
+    <span class="tag tag-purple">理性分析</span>
+    <span class="tag tag-gray">御成PHOT.</span>
+  </div>
+  <div class="summary-line">窄光不是「把脸打亮」，而是主动制造<strong>受光面窄 + 暗部面积大</strong>：亮部当舞台、暗部做减法；测光上优先保住高光不过曝，场景上分流为风光「等光」与扫街「找光等人」。</div>
+  <a class="source-link" href="https://xhslink.cn/o/6FSoHuDuWno">原视频 →</a>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">点题：十年顺光无人知；进入窄光例图教学</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:08–00:45</span><span class="timeline-text">画面定义：只有一小条/一块亮，用来收敛情绪</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:45–02:00</span><span class="timeline-text">暗部减法、缝隙门窗巷找光、先定光区再等人</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:00–02:22</span><span class="timeline-text">口播：减曝光补偿保高光；风光等光 / 扫街抓瞬间</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">问题<br/>如何拍出有情绪的窄光？</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">证据<br/>局部亮区 + 大面积暗部</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">判断<br/>亮部舞台 / 暗部减法</div>
+      <div class="arrow">→</div>
+      <div class="node">行动<br/>等光·找光·压曝光</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>窄光 ≠ 人像棚拍里的「窄光布光位」术语唯一含义。本片语境是<strong>画面中受光面积很窄的高对比自然光/环境光</strong>，目标是简化与戏剧性，不是把主体均匀照亮。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">观点拆解</h2>
+    <div class="card">
+      <h3>1. 定义：受光面窄，亮部吸睛</h3>
+      <p>笔记明确：窄光核心是受光面窄、暗部面积大，亮部吸引视线。例图反复展示「只有一小条或一块是亮的」。</p>
+      <div class="quote">「用来收敛画面情绪」——作者立场：暗部不是浪费，而是情绪控制器。</div>
+      <div class="relation">关系：亮区越小 → 焦点越集中 → 情绪越收敛（作者主张，非物理定律）。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>2. 构图：暗部做减法，缝隙是入口</h3>
+      <p>作者把暗部包围亮部称为减法；找光入口指向缝隙、门洞、窗、巷口。扫街顺序可改成「先找光区，再等人物」。</p>
+      <div class="quote">口播：「寻找或者等待一块局部的亮区」「让主体进入其中」</div>
+      <div class="action">用法：到场先扫光不扫人；光区稳定后再等人/等云进入。</div>
+    </div>
+    <div class="card card-green">
+      <h3>3. 曝光：高光优先于提亮暗部</h3>
+      <p>全局测光时可减少曝光补偿，以高光不过曝为准——适合灯火、窗亮、蒸汽等高对比场景。</p>
+      <div class="quote">「或者在全局测光中减少曝光补偿」「以高光不过曝为准」</div>
+      <div class="pitfall">陷阱：为了把暗部提亮而推高曝光，会先毁掉窄光赖以成立的高光层次。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>4. 场景分流：风光等 vs 扫街抓</h3>
+      <p>同一窄光逻辑，动作不同：风光依赖天气与地形等待；扫街依赖预判与快门时机。</p>
+      <div class="quote">「等云等光等山脊」／「找光等人抓瞬间」</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对比</h3>
+    <table>
+      <thead><tr><th>维度</th><th>顺光 / 均匀光</th><th>窄光（本片）</th></tr></thead>
+      <tbody>
+        <tr><td>受光面积</td><td>大、均匀</td><td>小条 / 小块</td></tr>
+        <tr><td>暗部角色</td><td>常被提亮或忽略</td><td>主动做减法、收敛情绪</td></tr>
+        <tr><td>测光倾向</td><td>保脸 / 中间调</td><td>保高光不过曝</td></tr>
+        <tr><td>操作重点</td><td>补光、均光</td><td>找/等局部亮区 + 主体入位</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>窄光 = 窄受光面 + 大暗部 + 亮部舞台</li>
+      <li>暗部是构图工具，不是失败曝光</li>
+      <li>高光不过曝优先于「全画面可读」</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>到场先找缝隙/窗/巷口形成的局部亮区</li>
+      <li>让主体进入亮区，而不是追着人满画面打光</li>
+      <li>全局测光场景试着减 EV，盯死高光</li>
+      <li>风光：等云层开口与山脊受光；扫街：光区架好再等人</li>
+      <li>成片检查：暗部是否真的在「做减法」而非脏乱</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：缺光就补、暗部就怕 → 现在：暗部可设计</li>
+      <li>以前：跟人走 → 现在：跟光走，等人入光</li>
+      <li>以前：测光保中间调 → 现在：窄光片优先保高光</li>
+    </ul>
+  </div>
+  <div class="footer">基于小红书视频与 Whisper 转录整理 · 区分画面事实与作者观点</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

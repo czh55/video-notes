@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="特斯拉世纪阳谋：电网瓶颈、轨道算力、物理 AI 身体与数据护城河；别只用车企报表读它。">
+<title>特斯拉的世纪阳谋｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}header{margin-bottom:40px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#00a1d6;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}.source-link:hover{text-decoration:underline}
+.lead{font-size:17px;color:#44403c;margin:18px 0 0;padding:16px 18px;background:#fff;border-radius:12px;border-left:4px solid #00a1d6;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin:28px 0 32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}.toc a:hover{color:#3b82f6}
+.documentary{font-size:17px}.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}
+.transcript-collapsible{border:none;margin:0;padding:0}.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}.transcript-collapsible[open] summary{margin-bottom:16px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#1d4ed8;margin:0;font-size:15px}
+.content-points h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.content-points h3{font-size:20px;font-weight:700;color:#1c1917;margin:22px 0 14px}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header><h1>特斯拉的世纪阳谋</h1>
+<div class="meta-row"><span class="meta-tag tag-platform">B站</span><span class="meta-tag tag-duration">23分52秒</span><span class="meta-tag tag-topic">特斯拉 物理AI</span></div>
+<a class="source-link" href="https://b23.tv/D9haXBu" target="_blank" rel="noopener">→ 原视频链接</a>
+<p class="lead">若只把特斯拉当电车公司，会错过马斯克公开写出的世纪布局：AI 的指数需求撞上线性电网，于是把耗电计算搬到轨道、用星舰做太空物流，并幻想月球工业降低入轨成本；特斯拉负责给 AI 物理身体（车、Robotaxi、Optimus）并生产现实世界数据。华尔街用车企模型盯交付，容易误判。</p>
+</header>
+<nav class="toc"><h3>内容导航</h3><a href="#ch1">AI 撞上电网</a><a href="#ch2">轨道算力与物理身体</a><a href="#ch3">财报、误判与质疑清单</a><a href="#transcript">完整转录</a></nav>
+<article class="documentary"><div class="content-points"><h2>内容要点</h2>
+<p>能源瓶颈→轨道算力与星舰→月球发射想象；特斯拉在生态中是身体与数据；Q1 交付平平但软件订阅抬利润；质疑包括效率悖论、发射成本、在轨维护；阳谋写在宏图里，时间线常延期但压力驱动工程。</p>
+<h3>知识结构</h3>
+<div class="summary-row"><span class="time-marker">[00:00→06:30]</span><div><strong>能源瓶颈</strong><p>吹风机类比功率阶梯；电厂节奏跟不上 AI。</p></div></div><div class="summary-row"><span class="time-marker">[06:30→14:30]</span><div><strong>太空解与身体</strong><p>轨道算力、星舰、月球；车/Robotaxi/Optimus 是 AI 躯壳。</p></div></div><div class="summary-row"><span class="time-marker">[14:30→23:52]</span><div><strong>财报误判与质疑</strong><p>软件利润；宏图历史类比；杰文斯与工程风险。</p></div></div>
+<div class="takeaway-box"><strong>总结</strong><p>用「物理 AI 平台」而不是「季度交付车企」阅读特斯拉；乐观有洞，悲观有清单，关键看你信哪一部分会落地。</p></div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00-06:30</span>功率阶梯与线性电力</h2><p>开场断言：特斯拉终极目标不是把车卖给你；Robotaxi、机器人配送、电价与电网都会被卷入。多数人盯交付与毛利时，马斯克视野已到太瓦级算力与月球距离。</p><p>用吹风机功率类比：社区同时吹风→兆瓦，数据中心→百兆瓦，训练集群→吉瓦级，仿佛百万吹风机同开，局部电网可能跳闸；再叠加机器人与自动驾驶进入物理世界，需求可指向百吉瓦甚至太瓦。芯片与模型迭代快，电厂审批建设慢、核电更慢，太阳能有昼夜——AI 竞争尾声或是能源竞争。</p><figure><img src="assets/tesla-century-scheme/shot-01.jpg" alt="特斯拉不止卖车" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 若只看成电车公司，可能错过世纪级布局</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a1e3c2c89da5.mp3" type="button" aria-label="Play English audio">🔊</button><span>See only EVs and you may miss a century-scale bet</span></div>
+<audio class="cap-audio" src="audio/a1e3c2c89da5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-02.jpg" alt="吹风机功率类比" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] 功率阶梯：吹风机→兆瓦卫星→数据中心→吉瓦训练集群</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/aa881e714cd6.mp3" type="button" aria-label="Play English audio">🔊</button><span>Power ladder: hairdryer→MW sat→datacenter→GW training</span></div>
+<audio class="cap-audio" src="audio/aa881e714cd6.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-03.jpg" alt="电厂建设周期" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:00] AI 指数需求 vs 电厂线性扩容：物理瓶颈</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/30f830b080e6.mp3" type="button" aria-label="Play English audio">🔊</button><span>AI demand exponential vs plants linear: physical bottleneck</span></div>
+<audio class="cap-audio" src="audio/30f830b080e6.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">06:30-14:30</span>太空解法与特斯拉定位</h2><p>解法不是太空发电传回地球，而是把最耗电的计算搬走，只传回结果：轨道 AI 卫星展开太阳能板，效率潜在数倍于地面，但太瓦级意味着海量卫星与巨大板阵面积。关键障碍是入轨物流——星舰若真正高频低成本复用，太空物流才像基础设施；芯片自建、xAI 做脑、地面物理需求来自自动驾驶与机器人。</p><p>更大想象：月球低重力与资源支持电磁弹射（Mass Driver）向轨道投送，降低对地球发射的依赖——内容写在 2025 宏图相关叙事里。回头看特斯拉：第一代身体是车与 FSD，Robotaxi 转移驾驶劳动，Optimus 瞄准广义体力劳动；SpaceX 物流、算力硬件、xAI 大脑，特斯拉让智能下场干活，并积累雨天刹车、抓取力度等互联网爬不到的现实数据与制造 know-how。</p><figure><img src="assets/tesla-century-scheme/shot-04.jpg" alt="轨道AI卫星构想" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:30] 把耗电计算搬到轨道，只传回结果</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5f6c4979756d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Move power-hungry compute to orbit; downlink results</span></div>
+<audio class="cap-audio" src="audio/5f6c4979756d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-05.jpg" alt="太空vs地面太阳能" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:00] 轨道光照：少大气损耗，有效发电时间潜力数倍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/678d0d590815.mp3" type="button" aria-label="Play English audio">🔊</button><span>Orbital solar: less atmosphere loss; far higher uptime potential</span></div>
+<audio class="cap-audio" src="audio/678d0d590815.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-06.jpg" alt="马斯克生态闭环" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10:00] 星舰物流·芯片·xAI·物理需求：生态环环相扣</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/62b28646799a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Starship, chips, xAI, physical demand: one interlocking stack</span></div>
+<audio class="cap-audio" src="audio/62b28646799a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-07.jpg" alt="车与Optimus作为身体" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:30] 特斯拉：给 AI 物理身体——车、Robotaxi、Optimus</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b11e9efbac20.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tesla: bodies for AI—cars, Robotaxi, Optimus</span></div>
+<audio class="cap-audio" src="audio/b11e9efbac20.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-08.jpg" alt="现实世界数据护城河" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14:00] 护城河：真实世界试错数据，不是网页爬虫</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3b189491a8a4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Moat: real-world trial data, not web scrapes</span></div>
+<audio class="cap-audio" src="audio/3b189491a8a4.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">14:30-23:52</span>软件利润、宏图历史与工程风险</h2><p>2026Q1 叙事：交付平平、储能亦非高点，但收入与毛利因 FSD 订阅等软件服务改善——车成为持续数据采集与订阅节点。停产部分旧车型、叙事转向 Robotaxi/Optimus，是平台转型信号，不等于已成功；监管与延期仍在。</p><p>华尔街用季度交付模型，只能看到压力，看不到宏图里已写明的远未来。电动车与 Starlink 曾被当成天方夜谭。质疑清单：模型效率是否消解太瓦需求（杰文斯悖论：效率或成油门）；星舰成本降不下来则轨道算力是实验；在轨维护、散热、监管与安全恐惧。马斯克用极端时间线压迫现实，常延期，但行动者属性明确。读特斯拉需要想象力，也需要把风险逐条钉在工程上。</p><figure><img src="assets/tesla-century-scheme/shot-09.jpg" alt="软件订阅抬升利润" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[16:00] 交付平平但毛利改善：软件订阅与数据节点价值</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/426565888f0f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Flat deliveries, better margin: subscriptions &amp; data nodes</span></div>
+<audio class="cap-audio" src="audio/426565888f0f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-10.jpg" alt="车企模型误判" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[18:00] 只用车企报表：看见压力，看不见平台野心</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2e4053d57af8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Auto comps show stress, miss the platform ambition</span></div>
+<audio class="cap-audio" src="audio/2e4053d57af8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-11.jpg" alt="宏图历史类比" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[20:30] 宏图写得很白：电车与火箭也曾「不可能」</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/fbefdfc5c7cc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Master Plans were clear; EVs &amp; rockets once &#x27;impossible&#x27;</span></div>
+<audio class="cap-audio" src="audio/fbefdfc5c7cc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/tesla-century-scheme/shot-12.jpg" alt="质疑与杰文斯悖论" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[22:00] 质疑：效率、星舰成本、在轨维护；杰文斯或让效率变油门</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e95bc0277334.mp3" type="button" aria-label="Play English audio">🔊</button><span>Risks: efficiency, Starship cost, on-orbit repair; Jevons</span></div>
+<audio class="cap-audio" src="audio/e95bc0277334.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript"><details class="transcript-collapsible"><summary>完整转录（536段）</summary>
+<div class="transcript-body"><p class="transcript-note">Whisper 转录；已校正：阳谋、吉瓦/太瓦、星舰、Starlink、宏图（Master Plan）、杰文斯悖论等。口播功率类比以视频定义为准。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>你一定不知道</p></div>
+<div class="transcript-row"><time>00:01</time><p>你现在看到的</p></div>
+<div class="transcript-row"><time>00:04</time><p>和特斯拉有关</p></div>
+<div class="transcript-row"><time>00:08</time><p>他的终极目标</p></div>
+<div class="transcript-row"><time>00:10</time><p>不是要卖车给你</p></div>
+<div class="transcript-row"><time>00:12</time><p>可马斯克的世纪阳谋</p></div>
+<div class="transcript-row"><time>00:14</time><p>99%的人</p></div>
+<div class="transcript-row"><time>00:16</time><p>还没有看懂</p></div>
+<div class="transcript-row"><time>00:28</time><p>如果你认为特斯拉</p></div>
+<div class="transcript-row"><time>00:29</time><p>只是一家电车公司</p></div>
+<div class="transcript-row"><time>00:31</time><p>那么你可能错过了</p></div>
+<div class="transcript-row"><time>00:32</time><p>这个时代</p></div>
+<div class="transcript-row"><time>00:33</time><p>最有野心的一场布局</p></div>
+<div class="transcript-row"><time>00:35</time><p>如果你认为</p></div>
+<div class="transcript-row"><time>00:36</time><p>你和这些风马牛不相及</p></div>
+<div class="transcript-row"><time>00:39</time><p>很遗憾</p></div>
+<div class="transcript-row"><time>00:40</time><p>这些变化正在像空气一样</p></div>
+<div class="transcript-row"><time>00:42</time><p>悄无声息的</p></div>
+<div class="transcript-row"><time>00:43</time><p>渗入你的生活</p></div>
+<div class="transcript-row"><time>00:46</time><p>在不久的将来</p></div>
+<div class="transcript-row"><time>00:47</time><p>你叫的车可能没有司机</p></div>
+<div class="transcript-row"><time>00:49</time><p>你点的外卖</p></div>
+<div class="transcript-row"><time>00:50</time><p>可能由机器人分减配送</p></div>
+<div class="transcript-row"><time>00:52</time><p>甚至你家里的电价</p></div>
+<div class="transcript-row"><time>00:54</time><p>城市的电网</p></div>
+<div class="transcript-row"><time>00:55</time><p>工厂的生产成本</p></div>
+<div class="transcript-row"><time>00:57</time><p>都会被这场变化</p></div>
+<div class="transcript-row"><time>00:58</time><p>时刻牵引</p></div>
+<div class="transcript-row"><time>01:01</time><p>无论你喜不喜欢</p></div>
+<div class="transcript-row"><time>01:02</time><p>AI时代已经到来</p></div>
+<div class="transcript-row"><time>01:05</time><p>当大多数人</p></div>
+<div class="transcript-row"><time>01:06</time><p>还在盯着特斯拉车的</p></div>
+<div class="transcript-row"><time>01:07</time><p>交付量和毛利率时</p></div>
+<div class="transcript-row"><time>01:09</time><p>马斯克的视野</p></div>
+<div class="transcript-row"><time>01:10</time><p>已经到达了挂在太空的</p></div>
+<div class="transcript-row"><time>01:12</time><p>太瓦级算力中心</p></div>
+<div class="transcript-row"><time>01:14</time><p>甚至伸向了</p></div>
+<div class="transcript-row"><time>01:14</time><p>38万公里外的月球</p></div>
+<div class="transcript-row"><time>01:20</time><p>为什么一家表面上的车企</p></div>
+<div class="transcript-row"><time>01:22</time><p>要不停地折腾自动驾驶</p></div>
+<div class="transcript-row"><time>01:24</time><p>折腾机器人</p></div>
+<div class="transcript-row"><time>01:25</time><p>甚至是能源 算力</p></div>
+<div class="transcript-row"><time>01:27</time><p>这些看似毫无相干的领域</p></div>
+<div class="transcript-row"><time>01:29</time><p>最终都会汇聚成异点</p></div>
+<div class="transcript-row"><time>01:32</time><p>AI不会永远是那个</p></div>
+<div class="transcript-row"><time>01:33</time><p>看不见 摸不着的东西</p></div>
+<div class="transcript-row"><time>01:36</time><p>它会通过不同的物理躯壳</p></div>
+<div class="transcript-row"><time>01:38</time><p>进入现实世界</p></div>
+<div class="transcript-row"><time>01:40</time><p>今天马斯克这场疯狂</p></div>
+<div class="transcript-row"><time>01:43</time><p>但逻辑清晰的大布局</p></div>
+<div class="transcript-row"><time>01:45</time><p>我会带你看懂它</p></div>
+<div class="transcript-row"><time>01:55</time><p>要理解这场大布局</p></div>
+<div class="transcript-row"><time>01:56</time><p>我们得先回到你家的吹风机</p></div>
+<div class="transcript-row"><time>01:58</time><p>一个普通的电吹风</p></div>
+<div class="transcript-row"><time>02:00</time><p>功率是1000瓦</p></div>
+<div class="transcript-row"><time>02:02</time><p>很多人分不清电量和功率</p></div>
+<div class="transcript-row"><time>02:04</time><p>如果把电能比作水</p></div>
+<div class="transcript-row"><time>02:06</time><p>电量就是桶里接到的总水量</p></div>
+<div class="transcript-row"><time>02:08</time><p>而功率就是水龙头喷水的流速</p></div>
+<div class="transcript-row"><time>02:11</time><p>当你打开吹风机的那一秒</p></div>
+<div class="transcript-row"><time>02:13</time><p>你就是要求电王</p></div>
+<div class="transcript-row"><time>02:14</time><p>以1000瓦的速度向你家里喷水</p></div>
+<div class="transcript-row"><time>02:17</time><p>如果只有你一个人</p></div>
+<div class="transcript-row"><time>02:18</time><p>在吹风机里吹水</p></div>
+<div class="transcript-row"><time>02:19</time><p>那你就是要求电王</p></div>
+<div class="transcript-row"><time>02:21</time><p>以1000瓦的速度向你家里喷水</p></div>
+<div class="transcript-row"><time>02:24</time><p>如果只有你一个人</p></div>
+<div class="transcript-row"><time>02:25</time><p>在吹头发</p></div>
+<div class="transcript-row"><time>02:26</time><p>电网很轻松</p></div>
+<div class="transcript-row"><time>02:27</time><p>但如果此时</p></div>
+<div class="transcript-row"><time>02:28</time><p>你所在的社区</p></div>
+<div class="transcript-row"><time>02:29</time><p>有一千个家庭</p></div>
+<div class="transcript-row"><time>02:30</time><p>同时打开了吹风机</p></div>
+<div class="transcript-row"><time>02:32</time><p>流速就变成了1兆瓦</p></div>
+<div class="transcript-row"><time>02:34</time><p>1兆瓦</p></div>
+<div class="transcript-row"><time>02:35</time><p>已经接近一颗大型AI卫星</p></div>
+<div class="transcript-row"><time>02:37</time><p>在太空时刻运转所需的流速</p></div>
+<div class="transcript-row"><time>02:40</time><p>在这一集</p></div>
+<div class="transcript-row"><time>02:41</time><p>你附近的变电站还能从容应对</p></div>
+<div class="transcript-row"><time>02:44</time><p>如果规模再扩大到10万个家庭</p></div>
+<div class="transcript-row"><time>02:47</time><p>那就是100兆瓦</p></div>
+<div class="transcript-row"><time>02:49</time><p>到了这个量级</p></div>
+<div class="transcript-row"><time>02:50</time><p>我们就正式进入了</p></div>
+<div class="transcript-row"><time>02:52</time><p>大型数据中心的用电范围</p></div>
+<div class="transcript-row"><time>02:54</time><p>在这个级别</p></div>
+<div class="transcript-row"><time>02:55</time><p>目前的城市电网</p></div>
+<div class="transcript-row"><time>02:56</time><p>还可以通过局部增强来勉强适应</p></div>
+<div class="transcript-row"><time>02:59</time><p>但真正的能源瓶颈从这里开始</p></div>
+<div class="transcript-row"><time>03:02</time><p>为了训练顶级大模型</p></div>
+<div class="transcript-row"><time>03:04</time><p>巨头们正在推进超级算力集群</p></div>
+<div class="transcript-row"><time>03:07</time><p>流速要求直接跳到了一吉瓦</p></div>
+<div class="transcript-row"><time>03:10</time><p>一吉瓦是这个什么概念</p></div>
+<div class="transcript-row"><time>03:12</time><p>就是100万个吹风机</p></div>
+<div class="transcript-row"><time>03:14</time><p>在同一秒钟被同时打开</p></div>
+<div class="transcript-row"><time>03:17</time><p>那现有的电力系统</p></div>
+<div class="transcript-row"><time>03:18</time><p>有可能瞬间就要跳闸了</p></div>
+<div class="transcript-row"><time>03:21</time><p>如果没有提前扩容和变网设计</p></div>
+<div class="transcript-row"><time>03:23</time><p>很多区域电网很难在一瞬间</p></div>
+<div class="transcript-row"><time>03:25</time><p>承接这样的功率负荷</p></div>
+<div class="transcript-row"><time>03:27</time><p>那为了维持这个流速</p></div>
+<div class="transcript-row"><time>03:29</time><p>你几乎要在这座数据中心旁边</p></div>
+<div class="transcript-row"><time>03:31</time><p>配一座大型核电站</p></div>
+<div class="transcript-row"><time>03:33</time><p>24小时全功率的向里喷电</p></div>
+<div class="transcript-row"><time>03:36</time><p>这就是阻碍AI进化的物理瓶颈</p></div>
+<div class="transcript-row"><time>03:39</time><p>AI的需求是指数级扩张的</p></div>
+<div class="transcript-row"><time>03:42</time><p>10倍、100倍、1000倍</p></div>
+<div class="transcript-row"><time>03:45</time><p>但物理世界的扩张却是线性的</p></div>
+<div class="transcript-row"><time>03:48</time><p>芯片可以一代一代升级</p></div>
+<div class="transcript-row"><time>03:50</time><p>模型可以几个月就迭代一次</p></div>
+<div class="transcript-row"><time>03:52</time><p>但电厂不会平地拔起而起</p></div>
+<div class="transcript-row"><time>03:55</time><p>电网也不会一夜之间变宽</p></div>
+<div class="transcript-row"><time>03:57</time><p>太阳能当然是重要的补充</p></div>
+<div class="transcript-row"><time>03:59</time><p>但太阳会落山</p></div>
+<div class="transcript-row"><time>04:02</time><p>AI数据中心不是白天上班</p></div>
+<div class="transcript-row"><time>04:04</time><p>晚上睡觉的工厂</p></div>
+<div class="transcript-row"><time>04:05</time><p>它要的是24小时的稳定功率供给</p></div>
+<div class="transcript-row"><time>04:08</time><p>电力是一个重资产</p></div>
+<div class="transcript-row"><time>04:10</time><p>长周期强监管的传统行业</p></div>
+<div class="transcript-row"><time>04:13</time><p>建设一座常规电厂</p></div>
+<div class="transcript-row"><time>04:15</time><p>从选址、审批、并网到最终的投产</p></div>
+<div class="transcript-row"><time>04:17</time><p>往往需要数年</p></div>
+<div class="transcript-row"><time>04:19</time><p>而建设一座安全达标的大型核电站</p></div>
+<div class="transcript-row"><time>04:22</time><p>周期更是长达10-15年</p></div>
+<div class="transcript-row"><time>04:25</time><p>同时受到地理水源和核监管的重重限制</p></div>
+<div class="transcript-row"><time>04:28</time><p>所以核电当然是极好的补丁</p></div>
+<div class="transcript-row"><time>04:31</time><p>但它不是一颗能随时插上的充电宝</p></div>
+<div class="transcript-row"><time>04:34</time><p>当AI的需求已经开始指数及跃升时</p></div>
+<div class="transcript-row"><time>04:37</time><p>电力系统却还在按照传统工业的速度</p></div>
+<div class="transcript-row"><time>04:40</time><p>一点点的缓慢挪动</p></div>
+<div class="transcript-row"><time>04:43</time><p>这就是问题的核心</p></div>
+<div class="transcript-row"><time>04:45</time><p>过去绝大多数国家的电力系统</p></div>
+<div class="transcript-row"><time>04:47</time><p>并不是按照AI算力突然爆发来规划的</p></div>
+<div class="transcript-row"><time>04:50</time><p>原本够用的电网在面对这种新型复合时</p></div>
+<div class="transcript-row"><time>04:53</time><p>突然显得太窄太急了</p></div>
+<div class="transcript-row"><time>04:56</time><p>如果按照马斯克的设想</p></div>
+<div class="transcript-row"><time>04:58</time><p>AI不止是帮你写邮件、画图、聊天</p></div>
+<div class="transcript-row"><time>05:00</time><p>而是进入了医院、工厂、物流、科研、娱乐</p></div>
+<div class="transcript-row"><time>05:03</time><p>自动驾驶让机器人代替人类工作</p></div>
+<div class="transcript-row"><time>05:06</time><p>开始实施判断、吞理、干活</p></div>
+<div class="transcript-row"><time>05:09</time><p>那么功率需求就会继续往上跳</p></div>
+<div class="transcript-row"><time>05:12</time><p>从一吉瓦到一百吉瓦</p></div>
+<div class="transcript-row"><time>05:14</time><p>甚至是一太瓦</p></div>
+<div class="transcript-row"><time>05:16</time><p>一百吉瓦是什么概念</p></div>
+<div class="transcript-row"><time>05:18</time><p>就是一亿个吹风机同时打开</p></div>
+<div class="transcript-row"><time>05:21</time><p>如果这套系统连续运行一年</p></div>
+<div class="transcript-row"><time>05:23</time><p>消耗的电量接近一个大型八大经济体</p></div>
+<div class="transcript-row"><time>05:26</time><p>一年的用电规模</p></div>
+<div class="transcript-row"><time>05:28</time><p>而一太瓦就是一千吉瓦</p></div>
+<div class="transcript-row"><time>05:30</time><p>也就是十亿个吹风机同时打开</p></div>
+<div class="transcript-row"><time>05:33</time><p>这个量级已经是全球级电力系统</p></div>
+<div class="transcript-row"><time>05:36</time><p>所需要面对的共同的终极命题了</p></div>
+<div class="transcript-row"><time>05:39</time><p>想象一下</p></div>
+<div class="transcript-row"><time>05:40</time><p>为了使AI发展不受制约</p></div>
+<div class="transcript-row"><time>05:42</time><p>人类必须在未来的数年内</p></div>
+<div class="transcript-row"><time>05:44</time><p>给现有的电网叠上一层庞大的新需求</p></div>
+<div class="transcript-row"><time>05:48</time><p>那地球的电网</p></div>
+<div class="transcript-row"><time>05:49</time><p>真的会被这些吹风机烧到冒烟了</p></div>
+<div class="transcript-row"><time>05:56</time><p>所以很多人已经意识到</p></div>
+<div class="transcript-row"><time>05:57</time><p>AI最后的竞争可能并不是模型和算力的竞争</p></div>
+<div class="transcript-row"><time>06:01</time><p>而是能源和电力的竞争</p></div>
+<div class="transcript-row"><time>06:04</time><p>如果不想让AI的进化在这里停滞</p></div>
+<div class="transcript-row"><time>06:06</time><p>或许可以跳出地球的限制</p></div>
+<div class="transcript-row"><time>06:09</time><p>去寻找一个能支撑指数级增长的新空间呢</p></div>
+<div class="transcript-row"><time>06:14</time><p>于是马斯克想出了一套惊人的解法</p></div>
+<div class="transcript-row"><time>06:33</time><p>你现在看到的是</p></div>
+<div class="transcript-row"><time>06:34</time><p>一颗未来在轨道上飞行的AI卫星</p></div>
+<div class="transcript-row"><time>06:37</time><p>它不是传统的通信卫星</p></div>
+<div class="transcript-row"><time>06:39</time><p>你可以把它理解成一座被搬到了地球轨道上</p></div>
+<div class="transcript-row"><time>06:42</time><p>绕着地球飞行的小型移动数据中心</p></div>
+<div class="transcript-row"><time>06:46</time><p>它进入轨道后会展开巨大的太阳能板</p></div>
+<div class="transcript-row"><time>06:49</time><p>接收太阳辐射 开始自己发电</p></div>
+<div class="transcript-row"><time>06:52</time><p>然后驱动内部的AI推理芯片和服务器集群</p></div>
+<div class="transcript-row"><time>06:56</time><p>去处理地面 交给他们的海量任务</p></div>
+<div class="transcript-row"><time>06:58</time><p>那计算完成后 它把结果发回地球</p></div>
+<div class="transcript-row"><time>07:01</time><p>注意 这里破解地球能源平静的思路</p></div>
+<div class="transcript-row"><time>07:04</time><p>并不是要在太空发电 再传回地球</p></div>
+<div class="transcript-row"><time>07:07</time><p>而是直接把最耗电的计算过程搬走</p></div>
+<div class="transcript-row"><time>07:10</time><p>只传回计算结果</p></div>
+<div class="transcript-row"><time>07:12</time><p>因为在物理世界里 电的远距离传输会耗损</p></div>
+<div class="transcript-row"><time>07:16</time><p>但数据的传输容易得多</p></div>
+<div class="transcript-row"><time>07:19</time><p>这并不是什么科幻故事啊</p></div>
+<div class="transcript-row"><time>07:21</time><p>GPS卫星在天上给你定位</p></div>
+<div class="transcript-row"><time>07:23</time><p>天气卫星监控云层</p></div>
+<div class="transcript-row"><time>07:25</time><p>Starlink在天上给飞机 船和极偏远的地区</p></div>
+<div class="transcript-row"><time>07:28</time><p>转发互联网信号</p></div>
+<div class="transcript-row"><time>07:30</time><p>这早已是我们的日常</p></div>
+<div class="transcript-row"><time>07:32</time><p>只是过去的卫星主要负责通信 导航 遥感</p></div>
+<div class="transcript-row"><time>07:35</time><p>而未来的AI卫星负责计算</p></div>
+<div class="transcript-row"><time>07:38</time><p>那为什么要把计算搬到天上呢</p></div>
+<div class="transcript-row"><time>07:40</time><p>在地面上 同样一束阳光要穿过厚厚的大气层和云层</p></div>
+<div class="transcript-row"><time>07:44</time><p>强度大约只有每平米1000瓦</p></div>
+<div class="transcript-row"><time>07:47</time><p>但在太空 少了这些耗损</p></div>
+<div class="transcript-row"><time>07:49</time><p>接收到的能量会多出40%左右</p></div>
+<div class="transcript-row"><time>07:51</time><p>更重要的是 地面会有黑夜 阴天和季节更替</p></div>
+<div class="transcript-row"><time>07:55</time><p>全年真正有效发电的时间通常只有15%-25%</p></div>
+<div class="transcript-row"><time>08:00</time><p>但在轨道上 虽然卫星也会进入地影</p></div>
+<div class="transcript-row"><time>08:03</time><p>但几乎可以连续直射阳光</p></div>
+<div class="transcript-row"><time>08:05</time><p>有效时间是地面的3-5倍</p></div>
+<div class="transcript-row"><time>08:08</time><p>这意味着 同样一片面积的太阳能板</p></div>
+<div class="transcript-row"><time>08:11</time><p>放在轨道上的效率 比较理想的状态下</p></div>
+<div class="transcript-row"><time>08:13</time><p>可以达到地面的4-7倍</p></div>
+<div class="transcript-row"><time>08:16</time><p>那听到这里你可能觉得 这不才几倍吗</p></div>
+<div class="transcript-row"><time>08:19</time><p>也就那样啊</p></div>
+<div class="transcript-row"><time>08:20</time><p>那我们再来看</p></div>
+<div class="transcript-row"><time>08:21</time><p>要支持一颗1兆瓦公寓的卫星</p></div>
+<div class="transcript-row"><time>08:24</time><p>相当于同时打开1000个吹风机</p></div>
+<div class="transcript-row"><time>08:26</time><p>需要大约2500平方米的太阳能板</p></div>
+<div class="transcript-row"><time>08:29</time><p>半个足球场那么大</p></div>
+<div class="transcript-row"><time>08:31</time><p>如果你想要100吉瓦 就需要10万颗这样的卫星</p></div>
+<div class="transcript-row"><time>08:35</time><p>那如果你想要1太瓦 就是100万颗</p></div>
+<div class="transcript-row"><time>08:38</time><p>那到了1太瓦这个级别</p></div>
+<div class="transcript-row"><time>08:40</time><p>太阳能板的总面积会达到2500平方公里左右</p></div>
+<div class="transcript-row"><time>08:44</time><p>这相当于大约4个新加坡的大小</p></div>
+<div class="transcript-row"><time>08:47</time><p>在地球上 你要找出一片相当于4个新加坡的土地</p></div>
+<div class="transcript-row"><time>08:50</time><p>还能配上储能 审批和巨大的散热冷却系统</p></div>
+<div class="transcript-row"><time>08:54</time><p>还那么简单吗</p></div>
+<div class="transcript-row"><time>08:55</time><p>所以当地面间电厂的速度缓慢</p></div>
+<div class="transcript-row"><time>08:58</time><p>赶不上AI的需求时</p></div>
+<div class="transcript-row"><time>09:00</time><p>当太阳能在地面的效率低占地质大时</p></div>
+<div class="transcript-row"><time>09:03</time><p>对比之下 也许AI卫星的解法并不是什么天方夜谭呢</p></div>
+<div class="transcript-row"><time>09:08</time><p>不过这里有个关键的障碍</p></div>
+<div class="transcript-row"><time>09:11</time><p>这些卫星怎么上去呀</p></div>
+<div class="transcript-row"><time>09:13</time><p>所以马斯克需要太空物流</p></div>
+<div class="transcript-row"><time>09:16</time><p>用飞船把地面上测试好的算力模块</p></div>
+<div class="transcript-row"><time>09:19</time><p>像集装箱一样高频 低成本的送入轨道</p></div>
+<div class="transcript-row"><time>09:22</time><p>如果 Starship 真能做到大运力可附用高频发射</p></div>
+<div class="transcript-row"><time>09:26</time><p>把每次运输的成本降下来</p></div>
+<div class="transcript-row"><time>09:28</time><p>那么太空物流就会从想象变成像快递一样的基础设施</p></div>
+<div class="transcript-row"><time>09:32</time><p>他还需要海量的芯片放到AI卫星上</p></div>
+<div class="transcript-row"><time>09:35</time><p>来支持他物理世界无尽的AI需求</p></div>
+<div class="transcript-row"><time>09:38</time><p>可现有的工厂在量级上都是无法支持的</p></div>
+<div class="transcript-row"><time>09:41</time><p>所以马斯克还要自己造</p></div>
+<div class="transcript-row"><time>09:43</time><p>那么物理世界无尽的AI需求又是从哪里来的呀</p></div>
+<div class="transcript-row"><time>09:47</time><p>自动驾驶</p></div>
+<div class="transcript-row"><time>09:48</time><p>Robotaxi</p></div>
+<div class="transcript-row"><time>09:49</time><p>机器人等等</p></div>
+<div class="transcript-row"><time>09:50</time><p>也许以后还会有新的物理媒介</p></div>
+<div class="transcript-row"><time>09:52</time><p>谁知道呢</p></div>
+<div class="transcript-row"><time>09:53</time><p>比如说机器宠物之类的</p></div>
+<div class="transcript-row"><time>09:55</time><p>那么连接这些所有的AI大脑就是XAI</p></div>
+<div class="transcript-row"><time>09:59</time><p>到这里我们就复现了马斯克太空经济的全貌</p></div>
+<div class="transcript-row"><time>10:03</time><p>你也可以叫马斯克生态</p></div>
+<div class="transcript-row"><time>10:09</time><p>看似互不相干的公司实则各司其职 环环相扣</p></div>
+<div class="transcript-row"><time>10:13</time><p>但如果你以为把AI算力搬上星际轨道就是终点</p></div>
+<div class="transcript-row"><time>10:17</time><p>那你还是小看了马斯克的野心</p></div>
+<div class="transcript-row"><time>10:19</time><p>因为只是运一个AI卫星是不够的</p></div>
+<div class="transcript-row"><time>10:22</time><p>他的目标是从100兆瓦到1太瓦</p></div>
+<div class="transcript-row"><time>10:26</time><p>甚至更高的量级啊</p></div>
+<div class="transcript-row"><time>10:28</time><p>组成一个庞大的AI算力网络</p></div>
+<div class="transcript-row"><time>10:31</time><p>那一旦进入这个规模</p></div>
+<div class="transcript-row"><time>10:32</time><p>如果所有的材料都依赖地球发射</p></div>
+<div class="transcript-row"><time>10:35</time><p>成本和复杂度依然会有天花板</p></div>
+<div class="transcript-row"><time>10:42</time><p>那从哪里发射可能更经济呢</p></div>
+<div class="transcript-row"><time>10:45</time><p>这一集确实开发我们的想象力啊</p></div>
+<div class="transcript-row"><time>10:48</time><p>月球 没错 月球</p></div>
+<div class="transcript-row"><time>10:51</time><p>因为月球上有丰富的矿产资源</p></div>
+<div class="transcript-row"><time>10:53</time><p>引力也只有地球的六分之一</p></div>
+<div class="transcript-row"><time>10:55</time><p>而且几乎没有大气层</p></div>
+<div class="transcript-row"><time>10:57</time><p>从月球表面把物资送入轨道</p></div>
+<div class="transcript-row"><time>10:59</time><p>所需要克服的阻力和能量远低于从地球发射</p></div>
+<div class="transcript-row"><time>11:03</time><p>如果在月球上建一条类似于磁悬浮列车的电磁发射轨道</p></div>
+<div class="transcript-row"><time>11:08</time><p>也就是Mass Driver</p></div>
+<div class="transcript-row"><time>11:10</time><p>就有可能把材料燃料和结构件直接加速后</p></div>
+<div class="transcript-row"><time>11:14</time><p>甩入太空的指定轨道</p></div>
+<div class="transcript-row"><time>11:16</time><p>马斯克设想用他的物流系统</p></div>
+<div class="transcript-row"><time>11:18</time><p>把他的AI物理大军运到月球</p></div>
+<div class="transcript-row"><time>11:20</time><p>在那里建一个月球工业基地</p></div>
+<div class="transcript-row"><time>11:22</time><p>来实现从月球发射AI卫星</p></div>
+<div class="transcript-row"><time>11:25</time><p>同时维护AI卫星网络的任务</p></div>
+<div class="transcript-row"><time>11:27</time><p>甚至一步步建立更完整的太空工业系统</p></div>
+<div class="transcript-row"><time>11:31</time><p>那至此我们才真正说完了他的世纪阳谋</p></div>
+<div class="transcript-row"><time>11:35</time><p>其中的很多内容发表在了</p></div>
+<div class="transcript-row"><time>11:37</time><p>特斯拉2025年9月的《Master Plan / 宏图》第四篇</p></div>
+<div class="transcript-row"><time>11:41</time><p>所以这并不是我脑补的科幻啊</p></div>
+<div class="transcript-row"><time>11:43</time><p>他已经告诉你了</p></div>
+<div class="transcript-row"><time>11:45</time><p>他要用地球以外的资源和空间</p></div>
+<div class="transcript-row"><time>11:47</time><p>给人类提供充足的算力和生产力</p></div>
+<div class="transcript-row"><time>11:50</time><p>同时尽量不破坏地球的生态</p></div>
+<div class="transcript-row"><time>11:52</time><p>让机器人代替人类去做繁琐危险的劳动</p></div>
+<div class="transcript-row"><time>11:55</time><p>让智慧不再受算力和能源的约束</p></div>
+<div class="transcript-row"><time>11:58</time><p>这就是他构想的那个</p></div>
+<div class="transcript-row"><time>12:00</time><p>消除稀缺性的属于全人类的</p></div>
+<div class="transcript-row"><time>12:03</time><p>可持续的丰饶时代</p></div>
+<div class="transcript-row"><time>12:07</time><p>你能想象的最开心的未来是什么</p></div>
+<div class="transcript-row"><time>12:09</time><p>这是你能想象的</p></div>
+<div class="transcript-row"><time>12:10</time><p>最开心的未来是什么</p></div>
+<div class="transcript-row"><time>12:15</time><p>怎么样啊</p></div>
+<div class="transcript-row"><time>12:16</time><p>马斯克的这张大饼你啃得下吗</p></div>
+<div class="transcript-row"><time>12:19</time><p>说实话我是差点没啃下来</p></div>
+<div class="transcript-row"><time>12:21</time><p>到这里我们再回头看特斯拉</p></div>
+<div class="transcript-row"><time>12:24</time><p>你还觉得他只是一家卖电车的公司吗</p></div>
+<div class="transcript-row"><time>12:27</time><p>马斯克这套生态里</p></div>
+<div class="transcript-row"><time>12:29</time><p>特斯拉要创造的不是一款更便宜的电动车</p></div>
+<div class="transcript-row"><time>12:32</time><p>也不只是一个更聪明的自动驾驶软件</p></div>
+<div class="transcript-row"><time>12:35</time><p>他真正要创造的是一只进入物理世界的AI大军</p></div>
+<div class="transcript-row"><time>12:40</time><p>电车是他的第一代身体</p></div>
+<div class="transcript-row"><time>12:42</time><p>自动驾驶系统判断路况激化路线</p></div>
+<div class="transcript-row"><time>12:45</time><p>替人完成从A点到B点的位移</p></div>
+<div class="transcript-row"><time>12:47</time><p>而Robotaxi是更彻底的机器劳动</p></div>
+<div class="transcript-row"><time>12:50</time><p>它不是简单的出租车业务</p></div>
+<div class="transcript-row"><time>12:52</time><p>它本质上是把司机这份劳动</p></div>
+<div class="transcript-row"><time>12:54</time><p>从人完全转移到了机器</p></div>
+<div class="transcript-row"><time>12:57</time><p>而Optimus是第二代身体</p></div>
+<div class="transcript-row"><time>12:59</time><p>它延续了特斯拉在汽车上积累的</p></div>
+<div class="transcript-row"><time>13:02</time><p>视觉感知、空间理解、边缘计算和工业制造能力</p></div>
+<div class="transcript-row"><time>13:06</time><p>但把任务从开车扩展到了更复杂的现实世界</p></div>
+<div class="transcript-row"><time>13:10</time><p>工厂、仓库、家庭、物流</p></div>
+<div class="transcript-row"><time>13:12</time><p>甚至未来更危险、更偏远的工作环境</p></div>
+<div class="transcript-row"><time>13:15</time><p>比如说月球</p></div>
+<div class="transcript-row"><time>13:16</time><p>如果说自动驾驶系统和Robotaxi替代的是驾驶劳动</p></div>
+<div class="transcript-row"><time>13:21</time><p>那么Optimus要瞄准的就是更广义的体力劳动</p></div>
+<div class="transcript-row"><time>13:24</time><p>未来也许还会有第三代、第四代身体</p></div>
+<div class="transcript-row"><time>13:27</time><p>不一定是车,也不一定是人形</p></div>
+<div class="transcript-row"><time>13:30</time><p>甚至不一定是地面形态</p></div>
+<div class="transcript-row"><time>13:32</time><p>但它们的核心非常统一</p></div>
+<div class="transcript-row"><time>13:34</time><p>让AI拥有进入物理世界的载体</p></div>
+<div class="transcript-row"><time>13:38</time><p>这也是特斯拉在整个马斯克生态里最特殊的位置</p></div>
+<div class="transcript-row"><time>13:42</time><p>SpaceX负责太空物流</p></div>
+<div class="transcript-row"><time>13:44</time><p>芯片代工/自建产能叙事负责算力硬件</p></div>
+<div class="transcript-row"><time>13:46</time><p>XAI负责大脑</p></div>
+<div class="transcript-row"><time>13:48</time><p>特斯拉负责让这些智能真正下场干活</p></div>
+<div class="transcript-row"><time>13:52</time><p>这件事不能小看</p></div>
+<div class="transcript-row"><time>13:54</time><p>因为AI如果只停留在屏幕里</p></div>
+<div class="transcript-row"><time>13:56</time><p>它需要的是网页、文字、图片和影像</p></div>
+<div class="transcript-row"><time>13:58</time><p>但AI如果要进入现实世界</p></div>
+<div class="transcript-row"><time>14:00</time><p>它需要的是更多的数据</p></div>
+<div class="transcript-row"><time>14:02</time><p>比如它要知道车在雨天怎么刹车呢?</p></div>
+<div class="transcript-row"><time>14:05</time><p>行人突然横穿马路怎么判断?</p></div>
+<div class="transcript-row"><time>14:08</time><p>机器人抓一个杯子要用多大的劲?</p></div>
+<div class="transcript-row"><time>14:11</time><p>工厂里的零件怎么办?</p></div>
+<div class="transcript-row"><time>14:12</time><p>一条产线会在哪里卡住?</p></div>
+<div class="transcript-row"><time>14:14</time><p>那一个动作失败了,下次要怎么改呢?</p></div>
+<div class="transcript-row"><time>14:17</time><p>这些数据不是能从互联网上爬出来的</p></div>
+<div class="transcript-row"><time>14:20</time><p>而是来自真实世界里一次次的学习、失败、修正、再学习</p></div>
+<div class="transcript-row"><time>14:26</time><p>这种现实世界的数据才是特斯拉最深、最厚的护城河</p></div>
+<div class="transcript-row"><time>14:31</time><p>它不仅是马斯克生态里最重要的算力需求方</p></div>
+<div class="transcript-row"><time>14:34</time><p>它也是现实世界数据的生产方</p></div>
+<div class="transcript-row"><time>14:37</time><p>这些数据会强化特斯拉自己的自动驾驶和机器人系统</p></div>
+<div class="transcript-row"><time>14:41</time><p>未来也可能与XAI协同让整个马斯克生态变得更智能</p></div>
+<div class="transcript-row"><time>14:47</time><p>同时,特斯拉还在不断的积累工业制造的knowhow</p></div>
+<div class="transcript-row"><time>14:51</time><p>从车到储能系统到机器人</p></div>
+<div class="transcript-row"><time>14:53</time><p>特斯拉的机器人把复杂的硬件用仅可能低的成本规模化生产</p></div>
+<div class="transcript-row"><time>14:58</time><p>这套能力会反补整个马斯克生态</p></div>
+<div class="transcript-row"><time>15:01</time><p>因为未来,不管你要造AI卫星、机器人、能源系统</p></div>
+<div class="transcript-row"><time>15:05</time><p>还是造月球基地里的自动化设备</p></div>
+<div class="transcript-row"><time>15:07</time><p>最终都绕不开一个问题</p></div>
+<div class="transcript-row"><time>15:09</time><p>你能不能把一个复杂的系统变成可复制、可量产、可迭代的工业产品</p></div>
+<div class="transcript-row"><time>15:15</time><p>这正是特斯拉最擅长的领域</p></div>
+<div class="transcript-row"><time>15:18</time><p>现在我们来看点实际的</p></div>
+<div class="transcript-row"><time>15:20</time><p>特斯拉2026年第一季度的财报揭示了一件很重要的事</p></div>
+<div class="transcript-row"><time>15:24</time><p>这家公司正在从电车向物理AI平台惊险一跃</p></div>
+<div class="transcript-row"><time>15:29</time><p>为什么说惊险呢?</p></div>
+<div class="transcript-row"><time>15:31</time><p>因为如果你只看车,特斯拉这个季度并不亮眼</p></div>
+<div class="transcript-row"><time>15:34</time><p>交付约为35.8万辆车,生产约为40.8万</p></div>
+<div class="transcript-row"><time>15:38</time><p>储能部署8.8吉瓦时</p></div>
+<div class="transcript-row"><time>15:40</time><p>交付数字不算惊艳,能源部署也低于上一季度的高点</p></div>
+<div class="transcript-row"><time>15:44</time><p>你会觉得它遇到的平静</p></div>
+<div class="transcript-row"><time>15:46</time><p>车卖的没有以前快了,库存变多了</p></div>
+<div class="transcript-row"><time>15:49</time><p>中国市场的竞争好像也更凶险了</p></div>
+<div class="transcript-row"><time>15:53</time><p>但如果只看这些,你会错过更本质的变化</p></div>
+<div class="transcript-row"><time>15:56</time><p>在交付平平的情况下</p></div>
+<div class="transcript-row"><time>15:58</time><p>特斯拉的收入同比增长了16%</p></div>
+<div class="transcript-row"><time>16:01</time><p>毛利率不降反升,总毛利率提升到了21%</p></div>
+<div class="transcript-row"><time>16:06</time><p>这背后最核心的推手</p></div>
+<div class="transcript-row"><time>16:08</time><p>就是自动驾驶的活跃订阅用户达到了128万</p></div>
+<div class="transcript-row"><time>16:11</time><p>软件和服务收入在利润结构里的占比显著提升</p></div>
+<div class="transcript-row"><time>16:16</time><p>这意味着特斯拉的价值越来越不是一锤子买卖</p></div>
+<div class="transcript-row"><time>16:19</time><p>车卖出去之后,故事才刚刚开始</p></div>
+<div class="transcript-row"><time>16:22</time><p>它持续产生软件订阅费,贡献驾驶数据</p></div>
+<div class="transcript-row"><time>16:25</time><p>持续成为AI训练的活体节点</p></div>
+<div class="transcript-row"><time>16:28</time><p>传统车企卖的更都是硬件</p></div>
+<div class="transcript-row"><time>16:30</time><p>而特斯拉卖的既是交通工具,也是数据采集器</p></div>
+<div class="transcript-row"><time>16:34</time><p>也是算力需求源,更是未来机器劳动网络里的一个终端</p></div>
+<div class="transcript-row"><time>16:38</time><p>如果说Model S和Model X代表的是旧的特斯拉</p></div>
+<div class="transcript-row"><time>16:42</time><p>Model X证明了,电动车可以不是廉价小玩具</p></div>
+<div class="transcript-row"><time>16:45</time><p>而是性能、设计、科技感都能打的高端产品</p></div>
+<div class="transcript-row"><time>16:48</time><p>Model X证明了,特斯拉可以从小众跑车走向主流家庭</p></div>
+<div class="transcript-row"><time>16:53</time><p>但当特斯拉把它们都停产了</p></div>
+<div class="transcript-row"><time>16:55</time><p>开始把产能和叙事中心转向了Robotaxi和Optimus时</p></div>
+<div class="transcript-row"><time>16:59</time><p>这是一个信号,旧时代,谢幕了</p></div>
+<div class="transcript-row"><time>17:03</time><p>自动驾驶和Robotaxi的上限是物理AI平台的开场</p></div>
+<div class="transcript-row"><time>17:08</time><p>当然,这并不意味着转型已经成功</p></div>
+<div class="transcript-row"><time>17:11</time><p>还有很多监管风险和技术障碍依然是摆在眼前的挑战</p></div>
+<div class="transcript-row"><time>17:15</time><p>而且如果你是长期跟踪特斯拉的老观众</p></div>
+<div class="transcript-row"><time>17:18</time><p>你一定知道马斯克通常会给出最激进的时间线</p></div>
+<div class="transcript-row"><time>17:22</time><p>放最狠的话,然后经常性的延期</p></div>
+<div class="transcript-row"><time>17:26</time><p>他2006年成录的愿景可能到2026年才刚刚看到曙光</p></div>
+<div class="transcript-row"><time>17:30</time><p>但如果你亲自试过他最新的自动驾驶系统</p></div>
+<div class="transcript-row"><time>17:33</time><p>或者看到在工厂里工作的机器人</p></div>
+<div class="transcript-row"><time>17:36</time><p>我相信你会和我一样</p></div>
+<div class="transcript-row"><time>17:38</time><p>但是一点点触碰到那个想象中的未来</p></div>
+<div class="transcript-row"><time>17:41</time><p>那么当特斯拉展示出物理AI平台的出行时</p></div>
+<div class="transcript-row"><time>17:44</time><p>你就不能再用一家电车公司的标准去衡量它了</p></div>
+<div class="transcript-row"><time>17:55</time><p>这可能就是华尔街经常误判特斯拉的原因</p></div>
+<div class="transcript-row"><time>17:58</time><p>实际上特斯拉一直是资本市场上最具争议</p></div>
+<div class="transcript-row"><time>18:02</time><p>也最常被做空的公司之一</p></div>
+<div class="transcript-row"><time>18:04</time><p>因为它从来不是一个能轻易塞进传统故事模型的乖孩子</p></div>
+<div class="transcript-row"><time>18:09</time><p>传统投资人习惯看当下</p></div>
+<div class="transcript-row"><time>18:11</time><p>看这个季度的交付量,毛利率变化</p></div>
+<div class="transcript-row"><time>18:14</time><p>库存天数,竞争价格占,现金流波动等等</p></div>
+<div class="transcript-row"><time>18:17</time><p>这些数据当然非常重要</p></div>
+<div class="transcript-row"><time>18:20</time><p>但如果你的视线只盯着这些</p></div>
+<div class="transcript-row"><time>18:22</time><p>你只能看到特斯拉此刻的压力</p></div>
+<div class="transcript-row"><time>18:24</time><p>从而彻底忽略了它布局未来的野心</p></div>
+<div class="transcript-row"><time>18:28</time><p>它一直是一个更加关于未来的创新型公司</p></div>
+<div class="transcript-row"><time>18:32</time><p>而它的未来非常远</p></div>
+<div class="transcript-row"><time>18:34</time><p>回看马斯克的几份Master Plan / 宏图</p></div>
+<div class="transcript-row"><time>18:36</time><p>你会发现它从来没有遮遮掩掩</p></div>
+<div class="transcript-row"><time>18:38</time><p>路线图一直写得明明白白</p></div>
+<div class="transcript-row"><time>18:40</time><p>2006年的Master Plan / 宏图第一篇</p></div>
+<div class="transcript-row"><time>18:42</time><p>讲的是如何从一辆昂贵且小众的电动跑车起步</p></div>
+<div class="transcript-row"><time>18:46</time><p>逐步把电车推向大众</p></div>
+<div class="transcript-row"><time>18:48</time><p>虽然现在我们已经习惯看到电车满街跑</p></div>
+<div class="transcript-row"><time>18:51</time><p>但当时很少有人相信电动车会有未来</p></div>
+<div class="transcript-row"><time>18:55</time><p>电池太贵,续航太短,充电太难</p></div>
+<div class="transcript-row"><time>18:58</time><p>传统车企随时可以碾压你</p></div>
+<div class="transcript-row"><time>19:01</time><p>这些质疑听起来都很合理</p></div>
+<div class="transcript-row"><time>19:03</time><p>但短短二十年</p></div>
+<div class="transcript-row"><time>19:05</time><p>电动车不再是边缘产品</p></div>
+<div class="transcript-row"><time>19:07</time><p>中国的新能源汽车百花齐放</p></div>
+<div class="transcript-row"><time>19:09</time><p>电车渗透率已经超过了一半</p></div>
+<div class="transcript-row"><time>19:11</time><p>Model Y也已然成为了全球最畅销的车型之一</p></div>
+<div class="transcript-row"><time>19:15</time><p>同样的一幕也发生在SpaceX身上</p></div>
+<div class="transcript-row"><time>19:18</time><p>曾几何时,私人公司独立搞火箭</p></div>
+<div class="transcript-row"><time>19:21</time><p>再把全球卫星互联网做到大规模商业化</p></div>
+<div class="transcript-row"><time>19:24</time><p>被视为天方夜谭</p></div>
+<div class="transcript-row"><time>19:26</time><p>可现在呢</p></div>
+<div class="transcript-row"><time>19:27</time><p>Starlink已经成了全球最大的卫星网络</p></div>
+<div class="transcript-row"><time>19:30</time><p>Starship虽然还在路上</p></div>
+<div class="transcript-row"><time>19:31</time><p>但它已经让低成本、高频率、重载发射</p></div>
+<div class="transcript-row"><time>19:35</time><p>不再只是科幻小说里的桥段</p></div>
+<div class="transcript-row"><time>19:41</time><p>他们需要确定性</p></div>
+<div class="transcript-row"><time>19:42</time><p>需要财务数据的支撑</p></div>
+<div class="transcript-row"><time>19:44</time><p>要看可比公司</p></div>
+<div class="transcript-row"><time>19:45</time><p>要看估值的毛</p></div>
+<div class="transcript-row"><time>19:47</time><p>但特斯拉最重要的部分</p></div>
+<div class="transcript-row"><time>19:49</time><p>恰恰是还没有完全出现在财务报表里的东西</p></div>
+<div class="transcript-row"><time>19:52</time><p>Robotaxi刚刚在达拉斯和休斯顿上线</p></div>
+<div class="transcript-row"><time>19:55</time><p>Optimus还在工厂里试错学习</p></div>
+<div class="transcript-row"><time>19:57</time><p>太空算力和月球工业更是遥远的愿景</p></div>
+<div class="transcript-row"><time>20:01</time><p>物理AI还只是雏形</p></div>
+<div class="transcript-row"><time>20:03</time><p>正如今天我没有像一个传统的分析员那样</p></div>
+<div class="transcript-row"><time>20:06</time><p>带你去抠财务报表一样</p></div>
+<div class="transcript-row"><time>20:09</time><p>如果你只用车企的模型去衡量它</p></div>
+<div class="transcript-row"><time>20:12</time><p>你永远看不懂它</p></div>
+<div class="transcript-row"><time>20:13</time><p>它也永远贵得离谱</p></div>
+<div class="transcript-row"><time>20:15</time><p>这也是为什么</p></div>
+<div class="transcript-row"><time>20:16</time><p>过去十几年里</p></div>
+<div class="transcript-row"><time>20:17</time><p>很多人一边觉得特斯拉荒谬</p></div>
+<div class="transcript-row"><time>20:19</time><p>一边眼睁睁地错过了它最惊人的行情</p></div>
+<div class="transcript-row"><time>20:22</time><p>我很喜欢一句话</p></div>
+<div class="transcript-row"><time>20:31</time><p>悲观的人可以指出每一个风险和漏洞</p></div>
+<div class="transcript-row"><time>20:34</time><p>显得严谨周密</p></div>
+<div class="transcript-row"><time>20:36</time><p>而乐观的人常常显得天真</p></div>
+<div class="transcript-row"><time>20:38</time><p>但真正能改变世界的恰恰是那一点</p></div>
+<div class="transcript-row"><time>20:41</time><p>不合时宜的乐观</p></div>
+<div class="transcript-row"><time>20:43</time><p>看特斯拉这种公司需要想象力</p></div>
+<div class="transcript-row"><time>20:46</time><p>而大多数投资人缺乏想象力</p></div>
+<div class="transcript-row"><time>20:49</time><p>当然这并不意味着马斯克的宏图第四篇</p></div>
+<div class="transcript-row"><time>20:52</time><p>无懈可击</p></div>
+<div class="transcript-row"><time>20:53</time><p>恰恰相反</p></div>
+<div class="transcript-row"><time>20:54</time><p>在工程和商业上</p></div>
+<div class="transcript-row"><time>20:55</time><p>它有很多值得质疑的地方</p></div>
+<div class="transcript-row"><time>20:57</time><p>那第一个质疑</p></div>
+<div class="transcript-row"><time>20:58</time><p>是能源瓶颈会不会被模型效率解决</p></div>
+<div class="transcript-row"><time>21:01</time><p>有人认为如果未来芯片更省电</p></div>
+<div class="transcript-row"><time>21:04</time><p>模型更高效</p></div>
+<div class="transcript-row"><time>21:05</time><p>AI真的需要一泰瓦这种夸张的能量吗</p></div>
+<div class="transcript-row"><time>21:08</time><p>但马斯克的判断更接近杰文斯悖论</p></div>
+<div class="transcript-row"><time>21:12</time><p>效率提升</p></div>
+<div class="transcript-row"><time>21:13</time><p>不一定会减少总消耗</p></div>
+<div class="transcript-row"><time>21:15</time><p>反而可能释放更多的需求</p></div>
+<div class="transcript-row"><time>21:17</time><p>就像灯泡越来越省电</p></div>
+<div class="transcript-row"><time>21:19</time><p>人反而点亮了更多城市</p></div>
+<div class="transcript-row"><time>21:21</time><p>比如汽车发动机效率提高</p></div>
+<div class="transcript-row"><time>21:23</time><p>人反而开得更远</p></div>
+<div class="transcript-row"><time>21:24</time><p>物流跑得更频繁</p></div>
+<div class="transcript-row"><time>21:26</time><p>那AI也可能一样</p></div>
+<div class="transcript-row"><time>21:28</time><p>当单次推力变得更便宜</p></div>
+<div class="transcript-row"><time>21:30</time><p>并不会让人少用AI</p></div>
+<div class="transcript-row"><time>21:32</time><p>反而会让AI无处不在</p></div>
+<div class="transcript-row"><time>21:34</time><p>所以效率可能不是刹车</p></div>
+<div class="transcript-row"><time>21:36</time><p>而是油门啊</p></div>
+<div class="transcript-row"><time>21:38</time><p>那第二个质疑</p></div>
+<div class="transcript-row"><time>21:39</time><p>是星舰的经济性</p></div>
+<div class="transcript-row"><time>21:41</time><p>整个太空AI叙事的基石</p></div>
+<div class="transcript-row"><time>21:43</time><p>基于星舰能否实现真正的高频</p></div>
+<div class="transcript-row"><time>21:45</time><p>低成本复用</p></div>
+<div class="transcript-row"><time>21:47</time><p>如果发射成本降不下来</p></div>
+<div class="transcript-row"><time>21:49</time><p>AI卫星网络就只能是昂贵的太空实验</p></div>
+<div class="transcript-row"><time>21:52</time><p>无法成为普惠的基础设施</p></div>
+<div class="transcript-row"><time>21:54</time><p>第三个质疑</p></div>
+<div class="transcript-row"><time>21:55</time><p>是太空硬件的维护</p></div>
+<div class="transcript-row"><time>21:57</time><p>地面的数据中心坏了</p></div>
+<div class="transcript-row"><time>21:59</time><p>工程师可以随时维修</p></div>
+<div class="transcript-row"><time>22:01</time><p>但在轨道上辐射</p></div>
+<div class="transcript-row"><time>22:02</time><p>极端温差和微隐时带来的损害</p></div>
+<div class="transcript-row"><time>22:05</time><p>那维护难度完全不在一个量级</p></div>
+<div class="transcript-row"><time>22:07</time><p>除此之外</p></div>
+<div class="transcript-row"><time>22:08</time><p>还有三个问题</p></div>
+<div class="transcript-row"><time>22:09</time><p>除此之外</p></div>
+<div class="transcript-row"><time>22:10</time><p>还有散热监管等等质疑</p></div>
+<div class="transcript-row"><time>22:12</time><p>甚至有人已经开始害怕</p></div>
+<div class="transcript-row"><time>22:14</time><p>AI的大规模应用会给人类带来毁灭</p></div>
+<div class="transcript-row"><time>22:17</time><p>整体来说</p></div>
+<div class="transcript-row"><time>22:18</time><p>红土第四篇的物理逻辑虽然成立</p></div>
+<div class="transcript-row"><time>22:21</time><p>但工程和商业化还有很长的路要走</p></div>
+<div class="transcript-row"><time>22:24</time><p>没有人真的知道这条路最后能不能走通</p></div>
+<div class="transcript-row"><time>22:28</time><p>不过唯一确定的是</p></div>
+<div class="transcript-row"><time>22:29</time><p>马斯克是一个行动者</p></div>
+<div class="transcript-row"><time>22:32</time><p>他从来不等风险消失在行动</p></div>
+<div class="transcript-row"><time>22:34</time><p>他习惯先抛出目标</p></div>
+<div class="transcript-row"><time>22:37</time><p>再利用这种极端的压力</p></div>
+<div class="transcript-row"><time>22:39</time><p>倒逼工程资本和供应链去追赶</p></div>
+<div class="transcript-row"><time>22:42</time><p>这也是为什么他经常延期</p></div>
+<div class="transcript-row"><time>22:44</time><p>他的时间线可不是对现实的预测</p></div>
+<div class="transcript-row"><time>22:47</time><p>而是用来压迫现实世界加速的工具</p></div>
+<div class="transcript-row"><time>22:50</time><p>这确实非常让人崩溃</p></div>
+<div class="transcript-row"><time>22:52</time><p>但也正是这种极端的目标感</p></div>
+<div class="transcript-row"><time>22:54</time><p>推动了许多看起来不可能的事儿</p></div>
+<div class="transcript-row"><time>22:56</time><p>一点点变成了现实</p></div>
+<div class="transcript-row"><time>22:59</time><p>现在人们对太空AI的质疑</p></div>
+<div class="transcript-row"><time>23:01</time><p>性质不就和当年对电动车</p></div>
+<div class="transcript-row"><time>23:03</time><p>对可回收火箭是一样的吗</p></div>
+<div class="transcript-row"><time>23:06</time><p>几十年后当我们回头再看这家公司时</p></div>
+<div class="transcript-row"><time>23:09</time><p>也许会觉得好笑</p></div>
+<div class="transcript-row"><time>23:11</time><p>我们当年怎么会只把它看成一家电车公司</p></div>
+<div class="transcript-row"><time>23:15</time><p>如果你完全不相信物理AI</p></div>
+<div class="transcript-row"><time>23:18</time><p>不相信机器劳动会成为新的生产力</p></div>
+<div class="transcript-row"><time>23:20</time><p>不相信太空算力</p></div>
+<div class="transcript-row"><time>23:22</time><p>那么特斯拉的固执确实贵得离谱</p></div>
+<div class="transcript-row"><time>23:25</time><p>但如果你认为哪怕只有一部分成为现实</p></div>
+<div class="transcript-row"><time>23:29</time><p>那么特斯拉的故事可能才刚刚开始</p></div>
+<div class="transcript-row"><time>23:34</time><p>这不是说不可以错过</p></div>
+<div class="transcript-row"><time>23:36</time><p>但我认为可能会正确</p></div>
+<div class="transcript-row"><time>23:38</time><p>是你爱的未来</p></div>
+</div></div></details></section>
+</article>
+</main>
+<script>
+document.querySelectorAll('a[href="#transcript"]').forEach(function(a){
+  a.addEventListener('click',function(){
+    var d=document.querySelector('#transcript details');
+    if(d) d.open=true;
+  });
+});
+if(location.hash==='#transcript'){
+  var d=document.querySelector('#transcript details');
+  if(d) d.open=true;
+}
+</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

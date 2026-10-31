@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1472" viewBox="0 0 1320 1472">
+  <foreignObject x="0" y="0" width="1320" height="1472">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.root{padding:48px 60px;background:linear-gradient(135deg,#fff7ed,#ffedd5)}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;color:#c2410c;margin-bottom:8px}
+.meta{color:#78716c;font-size:13px;margin-bottom:12px}
+a{color:#c2410c}
+.summary{background:#fff;padding:16px;border-left:4px solid #ea580c;border-radius:12px;margin:14px 0;line-height:1.7;color:#44403c}
+.card{background:#fff;padding:18px;border-radius:14px;margin:12px 0;border-left:5px solid #ea580c}
+.card h3{font-size:18px;color:#9a3412;margin-bottom:8px}
+li{margin:6px 0;line-height:1.7;color:#475569}
+.conclusion{background:linear-gradient(135deg,#c2410c,#ea580c);color:#fff;padding:22px;border-radius:16px;margin-top:14px}
+.conclusion h2,.conclusion li{color:#fff}
+.footer{text-align:center;color:#94a3b8;padding:14px;font-size:12px}</style>
+      <div class="container root">
+<h1>肉类：锁水窗口 × 炖焖两段火</h1>
+<div class="meta">炖肉 · 锁水 · 上浆 · 火候 · 图文 · 图文 10 页</div>
+<a href="https://xhslink.cn/o/AGPJWOhnFpV">原笔记</a>
+<div class="summary">核心判断：嫩靠蛋白窗口与上浆锁水；香靠短时美拉德或先脱水；炖软靠小火胶原水解，润靠微火回汁；冻肉补水后于盐。</div>
+<div class="card"><h3>炒嫩</h3><ul><li>65–80℃中心</li><li>盐+淀粉+蛋清三层</li></ul></div>
+<div class="card"><h3>炖软润</h3><ul><li>80–95℃水解胶原</li><li>再微火焖回汁</li></ul></div>
+<div class="card"><h3>目标分岔</h3><ul><li>嫩→锁水；香→先脱水</li><li>逢炖必炒</li></ul></div>
+<div class="conclusion"><h2>行动</h2><ul><li>冻肉：水→盐→浆</li><li>炖肉：大火开→小火烂→微火润</li><li>先问这道菜要嫩还是要香</li></ul></div>
+<div class="footer">video-notes · stew-meat-lock-moisture</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

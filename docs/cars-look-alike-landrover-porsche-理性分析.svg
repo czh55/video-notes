@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4079" viewBox="0 0 1320 4079">
+  <foreignObject x="0" y="0" width="1320" height="4079">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:28px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#1e40af;margin:22px 0 12px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+h3{font-size:16px;font-weight:700;color:#334155;margin-bottom:8px}
+p,li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:5px}
+ul,ol{padding-left:20px}
+.tag{display:inline-block;padding:3px 10px;border-radius:16px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:8px 0 12px}
+.summary-line{font-size:16px;line-height:1.65;padding:16px 18px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:14px;color:#334155;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline-item{display:flex;gap:10px;padding:5px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:12px;font-weight:700;color:#3b82f6;min-width:58px}
+.timeline-text{font-size:13px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:22px;margin-bottom:14px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:12px;padding:12px 16px;text-align:center;min-width:118px;font-weight:700;font-size:13px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:20px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:14px 16px;border-radius:10px;margin-bottom:12px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:18px;font-weight:700;color:#1e40af;margin:6px 0 10px;padding-left:10px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:10px;border-left:5px solid #3b82f6;box-shadow:0 3px 16px rgba(0,0,0,.04)}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:15px;color:#1e40af}
+.card .quote{background:#f8fafc;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 10px;border-radius:8px;font-size:12px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:8px 10px;border-radius:8px;margin:6px 0;font-size:12px;color:#991b1b;border-left:3px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f1f5f9;padding:8px;text-align:left;color:#1e40af}
+td{padding:8px;border-bottom:1px solid #e2e8f0;vertical-align:top;color:#475569}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:22px;margin-top:16px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:10px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:16px 0}
+.source-link{color:#3b82f6;font-size:13px;text-decoration:none;display:inline-block;margin-bottom:10px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}</style>
+      <div class="container root-wrap"><h1>汽车越长越像｜擦边美学与工业补课</h1><div class="meta"><span class="tag tag-blue">设计</span><span class="tag tag-green">专利</span><span class="tag tag-orange">模仿</span><span class="tag tag-purple">国产车</span><span class="tag tag-gray">时长 17分45秒</span><span class="tag tag-gray">理性分析 · 工业设计法</span></div><a class="source-link" href="https://b23.tv/Rrvhclv">原视频</a><div class="summary-line">核心判断：同质化是法律与经营的均衡点——风格公共、细节免责。模仿是后发工业补课；遗憾是功能驱动的原创自信不足，曝光效应把「熟悉的高级」固化成审美天花板。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:50</span><span class="timeline-text">轿车对比</span></div><div class="timeline-item"><span class="timeline-time">02:40</span><span class="timeline-text">陆风案</span></div><div class="timeline-item"><span class="timeline-time">04:40</span><span class="timeline-text">双环案</span></div><div class="timeline-item"><span class="timeline-time">06:40</span><span class="timeline-text">公共风格</span></div><div class="timeline-item"><span class="timeline-time">08:40</span><span class="timeline-text">Tatra血脉</span></div><div class="timeline-item"><span class="timeline-time">10:50</span><span class="timeline-text">日系逆向</span></div><div class="timeline-item"><span class="timeline-time">13:00</span><span class="timeline-text">鸥翼误用</span></div><div class="timeline-item"><span class="timeline-time">16:40</span><span class="timeline-text">曝光效应</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">现象<br/>抠标难辨</div><span class="arrow">→</span><div class="node-green">法律<br/>整体观察</div><span class="arrow">→</span><div class="node-orange">历史<br/>护钞史</div><span class="arrow">→</span><div class="node">方向<br/>功能原创</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>误解：长得像=一定侵权。纠偏：看整体视觉效果与差异点权重。</p><p>误解：保时捷从未被抄/从不抄。纠偏：源流可溯 Tatra/甲壳虫。</p><p>误解：新能源该为造型上鸥翼。纠偏：经典鸥翼是工程妥协。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-orange"><h3>两案对照</h3><p>陆风因整体雷同败诉；双环因部件差异胜诉甚至反赔——抄与侵之间是可操作空间。</p><div class="quote">整体无显著区别</div><div class="relation">法条激励擦边而非鼓励冒险原创。</div></div><div class="card card-purple"><h3>公共气场</h3><p>低趴溜背、方盒子属行业语言；改灯罩轮毂即可合法趋同。</p><div class="quote">擦边美学</div><div class="relation">经营最优点。</div></div><div class="card card-blue"><h3>护钞史常态</h3><p>流线型、尾鳍、丰田缝合怪、中国早期逆向同一逻辑：站巨人肩上补基础课。</p><div class="quote">摸着石头过河</div><div class="relation">后发速度的代价与收益。</div></div><div class="card card-green"><h3>功能&gt;符号</h3><p>好设计多来自约束；为符号而符号（长车头、鸥翼）易踩体验坑。</p><div class="quote">以形补形</div><div class="relation">代表性启发解释市场偏好。</div></div></div><div class="section"><h2 class="sec-title">模仿层级</h2><div class="card"><table><thead><tr><th>层</th><th>例子</th><th>风险</th></tr></thead><tbody><tr><td>风格</td><td>溜背/方盒子</td><td>低（公共）</td></tr><tr><td>整体造型</td><td>极光级雷同</td><td>高（侵权）</td></tr><tr><td>功能误用</td><td>为鸥翼而鸥翼</td><td>体验/成本</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>未提供律师意见；个案判决不可直接外推新品。</li><li>审美评价主观，曝光效应有时间尺度。</li></ul><div class="pitfall">用「致敬」话术掩盖整体抄袭风险。</div><div class="pitfall">把销量失败的原创车简单嘲笑而不分析定价与渠道。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>同质化是均衡。</li><li>补课需要模仿。</li><li>崛起需要功能原创。</li></ul><h3>行动清单</h3><ol><li>评审外观时先问工程约束再问像谁。</li><li>建立「整体观察」清单规避陆风式风险。</li><li>给原创车时间换曝光，而非首月定生死。</li></ol><h3>关键认知转变</h3><p>从「国产又抄了」转向「法律激励下的理性模仿与下一步原创条件」。</p></div><div class="footer">双轨产物之二 · 理性分析 · cars-look-alike-landrover-porsche</div></div>
+    </div>
+  </foreignObject>
+</svg>

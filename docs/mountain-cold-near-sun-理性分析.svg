@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3779" viewBox="0 0 1320 3779">
+  <foreignObject x="0" y="0" width="1320" height="3779">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:8px}
+ul{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.meta{margin:12px 0 16px}
+.summary-line{font-size:17px;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04);color:#334155;line-height:1.7}
+.timeline{background:#fff;border-radius:16px;padding:22px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.map{background:#fff;border-radius:20px;padding:28px;margin:20px 0;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;padding:16px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;font-weight:700;color:#1e40af;text-align:center;min-width:140px}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{color:#94a3b8;font-size:22px}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin:16px 0}
+.correction h3,.correction p{color:#92400e}
+.card{background:#fff;border-radius:16px;padding:24px;margin:14px 0;border-left:5px solid #3b82f6;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-orange{border-left-color:#f59e0b}
+.quote{background:#f8fafc;padding:12px 14px;border-radius:10px;margin:10px 0;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.pitfall{background:#fef2f2;padding:12px 14px;border-radius:10px;margin:10px 0;color:#991b1b;border-left:4px solid #ef4444}
+.action{background:#eff6ff;padding:12px 14px;border-radius:10px;margin:10px 0;color:#1e40af;border-left:4px solid #3b82f6}
+.highlight{background:#fef3c7;padding:12px 14px;border-radius:10px;margin:10px 0;color:#92400e;border-left:4px solid #f59e0b}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+th{background:#f1f5f9;padding:10px 14px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:10px 14px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:32px;margin-top:28px}
+.conclusion h2,.conclusion h3{color:#fff;border:none;padding:0}
+.conclusion h2{margin-top:0;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion h3{margin:18px 0 8px;font-size:17px}
+.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:24px 0}</style>
+      
+<div class="container">
+  <h1>离太阳更近，山顶为什么更冷？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">盟月地理 · 57秒</span>
+    <span class="tag tag-green">对流层气温</span>
+    <span class="tag tag-orange">初中地理冷知识</span>
+  </div>
+  <div class="summary-line"><strong>核心命题：</strong>山顶冷不是因为「离太阳更近无效」，而是近地面空气主要由地面加热；在对流层里，离地面越远得到的热量越少，气温随海拔下降。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span>生活经验：山脚短袖、山顶棉衣，抛出「更近却更冷」</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span>日地约1.5亿千米，几千米海拔差可忽略</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:26</span><span>阳光晒热地面 → 地面烤热近地面空气</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:39</span><span>对流层：海拔越高气温越低；约每100米降0.6℃</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:48</span><span>例题：山脚25℃、高差2000米 → 山顶约13℃</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">直觉：更近该更热</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">否证：日地距离</div>
+      <div class="arrow">→</div>
+      <div class="node">机制：地面加热空气</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">规律：对流层递减率</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解纠偏</h3>
+    <p>误解把气温差归因于「山顶离太阳近了几米」。课件先算清：相对 1.5 亿千米，几千米可以忽略；真正变量是「离地面多远」，不是「离太阳多近」。</p>
+  </div>
+
+  <div class="card">
+    <h3>机制卡：加热链</h3>
+    <p>阳光先加热地面，地面再把热量传给贴近地面的空气。离地面越远，得到热量越少；高处空气稀薄，也更难「存住」热量。</p>
+    <div class="quote">口播依据：「阳光先把地面晒热……近地面的空气主要是被地面烤热的。」</div>
+    <div class="highlight">可操作理解：把「热源」想成脚下的地面，而不是头顶的太阳距离差。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>UP 主立场（课件结论）</h3>
+    <p>冷不冷和离太阳远近没什么关系；对流层里一般海拔越高气温越低，并给出课堂常用近似：每升高 100 米约降 0.6℃。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑与边界</h3>
+    <div class="pitfall">避坑1：别用「离太阳近一点」解释山脚山顶温差——数量级对不上。</div>
+    <div class="pitfall">避坑2：别把 0.6℃/100m 当成全球处处精确常数；课件说的是对流层「一般」近似，用于算清例题来源。</div>
+    <div class="pitfall">避坑3：别推广到平流层等更高层；本片只讲对流层里的递减。</div>
+    <p>边界：未讨论逆温、天气系统、季节、纬度与山地局部环流；例题假设均匀递减。</p>
+  </div>
+
+  <div class="card">
+    <h3>对比：错误归因 vs 课件归因</h3>
+    <table>
+      <thead><tr><th>问题</th><th>错误直觉</th><th>课件判断</th></tr></thead>
+      <tbody>
+        <tr><td>为什么山顶冷？</td><td>离太阳近却仍冷，矛盾</td><td>日地距离差可忽略；热源在地面</td></tr>
+        <tr><td>空气怎么变热？</td><td>太阳直接烤空气</td><td>阳光→地面→近地面空气</td></tr>
+        <tr><td>怎么算温差？</td><td>凭感觉估</td><td>约每100米降0.6℃（例：2000米→12℃）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>「更近一点」相对日地距离可忽略，不是温差主因。</li>
+      <li>近地面空气主要被地面加热；离地面越远越冷。</li>
+      <li>对流层常用近似：每升高100米约降0.6℃。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>先问学生：热源是太阳距离差，还是地面？</li>
+      <li>用 1.5 亿千米 vs 几千米做数量级对比。</li>
+      <li>画「阳光→地面→空气」两步箭头，再写递减率公式。</li>
+      <li>用山脚温度与高差当场算山顶气温，核对数字来源。</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：离太阳近近远远决定冷热 → 现在：离地面远近决定得到多少地面热量。</li>
+      <li>以前：背「越高越冷」 → 现在：能说出加热链 + 0.6℃/100m 从哪来。</li>
+    </ul>
+  </div>
+  <div class="footer">依据 b64l Whisper 全部分段与课件画面；分析视角：初中地理概念纠偏。</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

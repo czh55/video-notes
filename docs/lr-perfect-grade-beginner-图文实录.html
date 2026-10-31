@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LR 校色面板按阴影/中间调/高光分区上色；与 HSL 来回打磨；互补色（蓝橙、绿红）与类似色方案可复用，夜景阴影更吃得下颜色。">
+<title>摄影新手 Lightroom 完美调色教程｜图文实录</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+a{color:#b45309}.kicker{font-size:13px;letter-spacing:.08em;color:#b45309;font-weight:700}
+h1{font-size:32px;line-height:1.35;margin:8px 0 12px;color:#1c1917}
+.meta{color:#78716c;font-size:14px;margin-bottom:18px}
+.lede{font-size:17px;color:#44403c;background:#fff7ed;border-left:4px solid #f59e0b;padding:14px 18px;border-radius:12px}
+.story-section{margin:40px 0}.story-section h2{font-size:22px;margin:0 0 8px;color:#1c1917}
+.time-range{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff7ed;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+img{display:block;max-width:100%;height:auto}
+figure{margin:24px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.08)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.quote{border-left:3px solid #d6d3d1;margin:12px 0;padding:4px 0 4px 14px;color:#57534e}
+.takeaway{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:14px 18px;margin-top:16px}
+.transcript-collapsible summary{cursor:pointer;font-size:22px;font-weight:700;color:#1c1917;margin-bottom:12px}
+.transcript-row{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{color:#b45309;font-weight:700;font-variant-numeric:tabular-nums}
+@media(max-width:640px){.container{padding:28px 16px 56px}h1{font-size:26px}}
+</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+<p class="kicker">图文实录 · 小红书 · </p>
+<h1>摄影新手 Lightroom 完美调色教程</h1>
+<p class="meta">2026-10-31 · 约21分05秒 · <a href="https://xhslink.cn/o/AVdboTnWJ8z">原视频</a></p>
+<p class="lede">英语教程：颜色对了照片有情绪，错了就假。路径：白平衡可偏暖/冷定气质→认识校色（Color Grading）里阴影/中灰/高光色轮与混合/平衡→解释为何黑要先抬起才吃得到阴影色→对比 HSL：校色偏氛围分区，HSL 偏单色精修，两者来回。示范互补色蓝橙（日间增强、夜景尤其强）、绿红，以及类似色/单色族；纽约冬日灰城加蓝中间调例子说明「小改也能换气质」。风格是练出来的偏好，不是唯一正确。</p>
+</header>
+<article>
+<section class="story-section"><span class="time-range">00:00–06:00</span><h2>白平衡与校色基础</h2>
+<p>先白平衡：可准，也可故意偏暖/冷。校色不是全局刷色那么简单：阴影里的纯黑吃不到颜色，需把黑抬出一点灰；高光同理。混合控制过渡软硬，平衡决定偏阴影池还是高光池。</p>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-01.jpg" alt="开场" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:40] 调色目标：自然又有电影感——先建立可重复流程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7b386f7d70f8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Goal: natural yet cinematic color—build a repeatable path.</span></div>
+<audio class="cap-audio" src="audio/7b386f7d70f8.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-02.jpg" alt="白平衡" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:00] 白平衡可校正也可创作；Auto 常常够用，再按气质微调</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/69f4807c0072.mp3" type="button" aria-label="Play English audio">🔊</button><span>WB can correct or create; Auto is often fine, then vibe-tweak.</span></div>
+<audio class="cap-audio" src="audio/69f4807c0072.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-03.jpg" alt="阴影抬黑" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:30] 纯黑吃不到阴影色：先把黑抬出灰，颜色才进得去</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/68a7e65f70d5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Pure black won’t take shadow tint—lift blacks into gray first.</span></div>
+<audio class="cap-audio" src="audio/68a7e65f70d5.mp3" preload="none"></audio>
+</figcaption></figure>
+</section><section class="story-section"><span class="time-range">06:00–12:30</span><h2>为何用校色 + 蓝橙示范</h2>
+<p>已有 HSL 仍要用校色：一个管分区氛围，一个管具体色相净化，常来回。互补色：色轮对面，如蓝橙。加州日间片先做基础与略暖 WB，再给阴影/高光对侧色，前后对比更有层次；夜景阴影面积大，蓝橙更易活。</p>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-04.jpg" alt="校色vs HSL" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:30] 校色=分区氛围；HSL=单色精修——两人搭档，不是互斥</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5e6fd52b55b9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Grading = zonal mood; HSL = per-color cleanup—partners, not rivals.</span></div>
+<audio class="cap-audio" src="audio/5e6fd52b55b9.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-05.jpg" alt="蓝橙日间" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:30] 互补色蓝橙：在已有对比的日间片上增强气质</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/235f2cf4ca0f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Blue–orange complementary grade boosts an already contrasted day scene.</span></div>
+<audio class="cap-audio" src="audio/235f2cf4ca0f.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-06.jpg" alt="夜景蓝橙" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11:00] 夜景阴影更多，蓝进暗部、橙进灯区，组合更醒目</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5a2f939e38a9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Nights have more shadow mass—blue/orange pops harder.</span></div>
+<audio class="cap-audio" src="audio/5a2f939e38a9.mp3" preload="none"></audio>
+</figcaption></figure>
+</section><section class="story-section"><span class="time-range">12:30–21:00</span><h2>绿红、类似色与克制</h2>
+<p>另一常用互补：绿与红。类似色/单色族则靠近色轮邻居，强化单一气质。纽约冬日灰景给中间调/高光加蓝，阴影可留中性形成对比。也可极轻全局着色。提醒：不必极端，小改足以换情绪；最终风格来自十年偏好，找到适合自己题材的组合即可。</p>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-07.jpg" alt="绿红" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13:00] 绿红互补：另一套常用电影感配方</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/69cf0cbf839d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Green–red complementary: another cinematic staple.</span></div>
+<audio class="cap-audio" src="audio/69cf0cbf839d.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-08.jpg" alt="类似色" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15:00] 类似色/单色族：靠近色轮，把一种气质推满</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a8b67c923a5a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Analogous/mono families push one vibe by staying near on the wheel.</span></div>
+<audio class="cap-audio" src="audio/a8b67c923a5a.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-09.jpg" alt="冬日加蓝" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[16:00] 灰城加蓝中间调：很小的校色也能从「灰nonsense」变有角色</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5a45097f99b1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Winter gray city + blue midtones: tiny grade, big character.</span></div>
+<audio class="cap-audio" src="audio/5a45097f99b1.mp3" preload="none"></audio>
+</figcaption></figure>
+<figure><img src="assets/lr-perfect-grade-beginner/shot-10.jpg" alt="风格总结" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[19:00] 来回打磨、保持克制；蓝橙/绿色偏好是风格，不是标准答案</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1a4d97424b49.mp3" type="button" aria-label="Play English audio">🔊</button><span>Iterate gently; blue-orange/green bias is style, not law.</span></div>
+<audio class="cap-audio" src="audio/1a4d97424b49.mp3" preload="none"></audio>
+</figcaption></figure>
+<div class="takeaway"><strong>小结</strong><p>新手抓住：分区上色 + 与 HSL 合唱 + 先试互补再试类似，夜景更大胆、日景更克制。</p></div>
+</section>
+</article>
+<details class="transcript-collapsible" open>
+<summary>完整转录</summary>
+<p style="color:#78716c;font-size:14px">英语教学口播，正文译写为简体操作说明。</p>
+<div class="transcript-row"><time>00:00</time><p>Color is one of those things that can completely change the way a photo feels.</p></div>
+<div class="transcript-row"><time>00:05</time><p>When it's done right, it can add a ton of emotion and feeling to a photo.</p></div>
+<div class="transcript-row"><time>00:09</time><p>But when it's off, your photo can start to look a bit funky and unnatural.</p></div>
+<div class="transcript-row"><time>00:13</time><p>So today in this video, I'm going to show you exactly how to color grade your photos using Adobe Lightroom.</p></div>
+<div class="transcript-row"><time>00:18</time><p>I'll cover everything you need to know in order to get natural and cinematic looking colors in your photos.</p></div>
+<div class="transcript-row"><time>00:23</time><p>And I'll even show you a secret tip that you can use to take your photos to the next level.</p></div>
+<div class="transcript-row"><time>00:27</time><p>And by the way, all of my presets in my FilmVibes preset pack have color grades built into them.</p></div>
+<div class="transcript-row"><time>00:31</time><p>I spent hours and hours and hours dialing in those colors.</p></div>
+<div class="transcript-row"><time>00:34</time><p>So if you guys watch this video and you just want an easier solution, I would highly recommend checking those out.</p></div>
+<div class="transcript-row"><time>00:39</time><p>I'll put a link down in the description.</p></div>
+<div class="transcript-row"><time>00:40</time><p>But okay, when it comes to color grading in Lightroom, of course, we're talking about the color grading panel that you can see here.</p></div>
+<div class="transcript-row"><time>00:46</time><p>But you should not even be touching that color grading panel until you first set a foundation of color for your image.</p></div>
+<div class="transcript-row"><time>00:53</time><p>And you can do that by using the temperature in the tint sliders up here in the basic adjustments panel.</p></div>
+<div class="transcript-row"><time>00:58</time><p>This is the first place I always recommend starting out when you're editing color because it allows us to establish a general mood for the photo,</p></div>
+<div class="transcript-row"><time>01:04</time><p>which we can then build upon using the color grading tools.</p></div>
+<div class="transcript-row"><time>01:07</time><p>And they're also incredibly easy to understand.</p></div>
+<div class="transcript-row"><time>01:09</time><p>If I drag the temperature slider to the right, the image gets warmer.</p></div>
+<div class="transcript-row"><time>01:12</time><p>If I drag it to the left, it gets cooler.</p></div>
+<div class="transcript-row"><time>01:14</time><p>And for the tint slider, instead of blue and yellow or blue and orange, we have green and red.</p></div>
+<div class="transcript-row"><time>01:18</time><p>And together, these two sliders establish the white balance of our photo.</p></div>
+<div class="transcript-row"><time>01:22</time><p>Ideally, we want to start our edit with this being as balanced as possible.</p></div>
+<div class="transcript-row"><time>01:26</time><p>So then we can add creative color over the top using the color grading panel.</p></div>
+<div class="transcript-row"><time>01:30</time><p>But I also do like to use the white balance adjustments creatively as well.</p></div>
+<div class="transcript-row"><time>01:34</time><p>There's no correct white balance that you have to choose to start your edit out.</p></div>
+<div class="transcript-row"><time>01:37</time><p>Sometimes I lean a little bit warm or cool, depending on the overall vibe of that photo and how it looks.</p></div>
+<div class="transcript-row"><time>01:42</time><p>But if you shot an auto white balance, your camera probably did a fantastic job of balancing that scene.</p></div>
+<div class="transcript-row"><time>01:46</time><p>And if not, all you have to do is go up here and select auto.</p></div>
+<div class="transcript-row"><time>01:50</time><p>And chances are it's going to select a pretty accurate white balance for your image.</p></div>
+<div class="transcript-row"><time>01:53</time><p>But now that we have our color foundation, it's time to move on to the color grading panel.</p></div>
+<div class="transcript-row"><time>01:57</time><p>Now the difference between the color grading panel and all the other color features in Lightroom is that the color grading panel allows us to add colors into our image instead of editing colors that are already there.</p></div>
+<div class="transcript-row"><time>02:08</time><p>And it adds that color into different tonal ranges of our photo.Let me show you.</p></div>
+<div class="transcript-row"><time>02:12</time><p>Now when you look at the color grading panel in its default view, you see three different circles.</p></div>
+<div class="transcript-row"><time>02:16</time><p>And each of these circles corresponds to a different tonal range in our image.</p></div>
+<div class="transcript-row"><time>02:20</time><p>For example, the shadows over here is going to target the shadowed areas of our image.</p></div>
+<div class="transcript-row"><time>02:25</time><p>The highlight circle is going to target the highlights in our photo.</p></div>
+<div class="transcript-row"><time>02:28</time><p>And the midtones is going to target the middle part of our image or the gray part of our image.</p></div>
+<div class="transcript-row"><time>02:32</time><p>And with each of these, we can control the hue, which is the actual color itself, the saturation, which is the purity of that color, and the luminance, which is the brightness of that color.</p></div>
+<div class="transcript-row"><time>02:42</time><p>And if I click and drag on the shadow wheel here, you'll see that I'm introducing color into the shadowed parts of our image.</p></div>
+<div class="transcript-row"><time>02:48</time><p>If I move it further from the center, I'm going to be increasing saturation.</p></div>
+<div class="transcript-row"><time>02:52</time><p>And when I move it around the circle, I'm going to be selecting different hues for that image.</p></div>
+<div class="transcript-row"><time>02:56</time><p>But one thing you might have noticed is that the black section here is not being affected at all.</p></div>
+<div class="transcript-row"><time>03:01</time><p>And that's because this is affecting the shadows.There is no light in black that can be edited.And that's why black is going to stay black.</p></div>
+<div class="transcript-row"><time>03:09</time><p>But if we change the luminance values of those shadows, we can bring those blacks up.And you can do that with this little bar here on the bottom.</p></div>
+<div class="transcript-row"><time>03:15</time><p>If I drag that slider to the right, I'm going to be adding gray into that black, allowing it to be affected by that shadow adjustment, because those blacks are now considered a shadow.</p></div>
+<div class="transcript-row"><time>03:24</time><p>And it works the same way with the highlights as well.Say I want to add some pink into the highlights there.As you can see, it's not affecting the white areas.</p></div>
+<div class="transcript-row"><time>03:31</time><p>But if I bring the luminance value down of those whites, you can see now we have some pink showing up in those brightest areas of the image.</p></div>
+<div class="transcript-row"><time>03:39</time><p>Now I think it's also important to note that these black and white levels are also affected by other adjustments in Lightroom, not just the color grading panel.</p></div>
+<div class="transcript-row"><time>03:46</time><p>So if I reset these here, you can see we don't have any adjustments in the black and the white sections.But if I come up to the tone curve and I drag that black point up, you can see now we have color in the black areas.</p></div>
+<div class="transcript-row"><time>03:57</time><p>And if I drag the highlights down, you can see now we have color in the highlighted areas as well.So nothing really exists on its own in Lightroom.</p></div>
+<div class="transcript-row"><time>04:04</time><p>And that's why I think it's important to learn how all of the tools work together.This particular video is focused on color grading.</p></div>
+<div class="transcript-row"><time>04:10</time><p>But if you do want to learn how every slider works and how everything is tied together, I would highly recommend checking out my Lightroom Masterclass.I'll put a link down below.You guys can check that out.</p></div>
+<div class="transcript-row"><time>04:18</time><p>But back to the color grading panel here, you'll notice that we also have two more adjustments, those being blending and balance.And if I add some color into the midtones here, let's say let's go with blue.</p></div>
+<div class="transcript-row"><time>04:28</time><p>And then I come down here to blending and I drag that to the right.The blending adjustment is basically going to smooth out that gradients between the different colors in your photo.So if I drag it to the right, it's going to smooth it out.</p></div>
+<div class="transcript-row"><time>04:40</time><p>But if I drag it to the left, it's going to make those changes a little bit more abrupt.And this is an adjustment that's going to be different with every single photo that you work on.</p></div>
+<div class="transcript-row"><time>04:47</time><p>So one of the things that I like to do first is add the colors to my image and then come down and play around with blending and see how it looks.Now the other adjustment that we have here is balance.And if I drag that to the right, it's going to favor the highlighted adjustments in our image.And you can see we have a lot more pink coming into our image now.</p></div>
+<div class="transcript-row"><time>05:04</time><p>And if I drag that to the left, you can see it's going to be focusing more on the shadowed section of the image, which at this point in time is focused on green.So we have a lot more green coming into that image.And just like blending, this is something that you're going to want to play around with because every photo is a little bit different.Sometimes it looks better to the right, sometimes it looks better to the left.You just need to experiment a little bit.Now lastly, if you look at the top of the color grading panel here, you'll see a few different circles.We have one for shadows, midtones, and highlights.And this basically just opens up a bigger panel, making it a lot easier to make finer adjustments.And that's it.</p></div>
+<div class="transcript-row"><time>05:34</time><p>When you're working with a smaller circle, it's a little bit difficult to select the right color.But when you're working with a big circle like this, you can really find the perfect color that you want to add to your image.It also gives us sliders to work with as well.You can see we now have a hue sliders.You can select the hue here.You can select the saturation here.You can also change the luminance as well.So if you'd rather use sliders, you can easily do that by clicking on these individual channels here.And lastly, we also have a global color panel as well.And this is going to add color over your entire image.</p></div>
+<div class="transcript-row"><time>06:04</time><p>You can see if I add blue, it's going to add blue to the entire photo here.And this is great if you really want to lean into a certain color or the temperature sliders just aren't doing it for you.The global color adjustment here can be really useful.And I'll show you a little bit more about this a little bit later on in the video.OK, but why would you want to use the color grading feature when we have a bunch of other great color editing tools available to us in Lightroom, like the HSL sliders or the point color feature?Well, like I said earlier, the color grading panel allows us to add color into specific tonal ranges of our photo, right?The highlights.</p></div>
+<div class="transcript-row"><time>06:34</time><p>The shadows and the midtones, but the HSL sliders only allow us to edit colors that are already in our image, and we can't add color with the HSL sliders.So for example, if we go back to our example here and I scroll down to the color mixer, if I take the red saturation and bring it to the right, it's not going to do anything to the photo because there's no red in that image.We have to come down here to the color grading panel and actually add those colors in for them to show up in our image.Now you'll also notice that the HSL sliders don't affect color that we added.</p></div>
+<div class="transcript-row"><time>07:04</time><p>We can add in with the color grading panel.So for example, if I add some red here and then I come up to the HSL sliders, if I increase the red saturation, it's not going to do anything to our photo.The color grading panel kind of sits on top of the edit and is not affected by the other color adjustments in Lightroom.And that's why a lot of photographers will tell you that you should dial in your color using the HSL sliders first before you apply the color grading feature to your image.But I personally don't think there's any strict order that you need to follow here, and I often find myself working</p></div>
+<div class="transcript-row"><time>07:34</time><p>forth between the color grading panel and the HSL sliders to really get my color dialed in.But OK, let's see the system in action and also talk about a few specific color combinations that you can use in your photos.And the first one is to use two colors that are opposite of each other on the color wheel.Now we would also call these complementary colors.And this is where we start getting into color theory a little bit.And I'm not going to go too in-depth into this because I already made a super detailed 25 minute tutorial on color theory.I'll put a link to it up there.You guys can check that out after this video.But in short, some colors</p></div>
+<div class="transcript-row"><time>08:04</time><p>just look really, really good together.And we call these complementary colors.And the easiest way to find complementary colors is through a color wheel.And Adobe has one.If you go to color.adobe.com, they have this little color wheel that you can play around with.If you come down here to color harmonies and select complementary, you'll see that when you drag these points around the circle here, it's going to select the opposite color on the color wheel.And this color wheel works exactly like the color grading panel circles in Lightroom.You can drag it in and around and just kind of play around with it.But some of the most common</p></div>
+<div class="transcript-row"><time>08:34</time><p>color combinations that we often see, especially in photography, are blue and orange.We see green and red sometimes.And if you're shooting at night, you can start playing around with some really unique colors like purple and green, things like that.But probably the most common is blue and orange.And this is a color combination that I use in so many of my images because it's incredibly pleasing on the eye.And it's also naturally occurring.So a lot of our scenes already have these complementary colors built into them.And with the color grading tools, we can enhance those complementary colors even more.</p></div>
+<div class="transcript-row"><time>09:04</time><p>So for example, this is a photo that I shot in California of last year.Absolutely love this image.And as you can see, I did some basic adjustments to it.I wanted to give it kind of a film look.And I also set the white balance at a pretty balanced point, maybe a little bit towards the warmer side here.But if we scroll down to the color grading panel, this is where we can really add a lot of color depth and interest to this photo.And the first thing I'm going to do is come down here to shadows, and I'm going to add some blue into the shadows there.Now the image is definitely going to look a little bit cool here.</p></div>
+<div class="transcript-row"><time>09:34</time><p>So if I come over to the highlights and I add some warm tones into those highlights, that's going to balance that out.And you can see these colors are opposite of each other on the color wheel here.Now we can also go into the midtones because we do have a lot of midtones in this image.And we can also experiment with adding some warmth in there.I typically love to add warmth into the midtones, especially if I'm adding blues into their shadows.And already I think this adds so much color depth to this image.I think it looks really nice.It kind of has that classic film style vibe.One thing I am noticing though,</p></div>
+<div class="transcript-row"><time>10:04</time><p>I like a little bit more blue in the sky.So maybe we come up here to the saturation slider and we increase that blue a little bit, something like that.And of course we can also come down here to the blending, play around with that a little bit.I think I do like a smoother gradient here.And then we can also play around with the balance as well.Do we want it more warm or more cool?I think in this situation I do want it more warm because I want to really get that kind of classic California film vibe across in this image.Maybe bring those shadows down a little bit.</p></div>
+<div class="transcript-row"><time>10:34</time><p>And I think that looks pretty good.Here's before without the color grading and here it is with the color grading applied.Now this scene does already have a lot of complementary colors in it.But by adding this in, I think we can really enhance those colors and enhance the overall vibe of our photo.But I think this blue and orange combo really comes to life when you're shooting at night.And that's simply because you have a lot more shadows that you can add color into.And I personally love to add blues into their shadows.So for example, here's a photo that I shot in Hong Kong.It's quite abstract, which is really cool, which means we can play around with color a little bit more than usual.</p></div>
+<div class="transcript-row"><time>11:04</time><p>So I'm going to come down here to shadows and I'm going to add some blues into their shadows.And already it's cooling down our image quite a bit, but I'm just looking at the darker areas of our image here and it just looks so, so cool.And to balance that out, we're going to come over here to the highlights and we're going to add some warmer, some yellow, some oranges into those highlighted sections of the image.And then also maybe do that with the midtones as well.Maybe more towards the orange side, right about there.And I think that</p></div>
+<div class="transcript-row"><time>11:34</time><p>looks pretty cool there.And then we can also come up to the saturation sliders and maybe increase the saturation on those warmer colors there.Maybe even the blue as well.And just bring a lot more color back into this image.Yeah, I think that looks pretty, pretty cool.We can also come down here and play around with the blending and the balance.Smooth it out a little bit.Maybe have it lean more towards the warm side there.Add some more blue.And I think that looks pretty cool.And here's</p></div>
+<div class="transcript-row"><time>12:04</time><p>the image before and here's the image after with those color grades applied.I really love to use this blue and orange color combo when I'm shooting at night.And actually two of the presets in my FilmVibes preset pack have this color grade built in to use specifically on night photos.And I use them to edit so many of my night images.Now another complimentary color combination I like to use in a lot of my images is green and red.And the reason I like to use this is because while it's not entirely natural, like we would see with blue and orange, it kind of gives your images a classic Fuji film aesthetic.And I</p></div>
+</details>
+</main>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5777" viewBox="0 0 1320 5777">
+  <foreignObject x="0" y="0" width="1320" height="5777">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action,.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      
+<div class="container">
+  <h1>富士 X100VI：溢价退去后怎么回看</h1>
+  <div class="meta">
+    <span class="tag tag-blue">摄影器材</span>
+    <span class="tag tag-green">X100VI</span>
+    <span class="tag tag-orange">作者观点</span>
+    <span class="tag tag-gray">6分14秒 · 本地源截断</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/1FnZTYTSaUG">原视频 · 江航屹</a>
+  <div class="summary-line">核心命题：溢价退去后，X100VI 更值得用「好玩 + 复古直出性格」来评估，而不是用「新传感器是否显著更锐」这一条尺子。</div>
+
+  <div class="timeline">
+    <h3>关键证据时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">电子茅台叙事 → 半年回看；好玩优先于好用</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:37</span><span class="timeline-text">F2 标板：全开一般，边角不崩；极致锐度约 F5.6–F8</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:38</span><span class="timeline-text">最近对焦约 10cm，近极限柔光，微距弱</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:48</span><span class="timeline-text">焦外圆斑/布丁/二线性；F2.8 多边形；硬味复古</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:12</span><span class="timeline-text">轴向色散与紫边可控，非 APO</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:31</span><span class="timeline-text">跟焦解放；外对焦声响震动 → 预期七代优化</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:14</span><span class="timeline-text">胶片模拟话题刚起，本地源截断</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">溢价退去<br/>还该不该买/留？</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">证据：锐度·近摄<br/>焦外·色散·对焦</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">判断：好玩优先<br/>性格镜头</div>
+      <div class="arrow">→</div>
+      <div class="node">行动：按场景选<br/>别用实验室尺子</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「升到 40MP 就一定明显更锐」在本片证据下不成立：全开发挥不出传感器全部实力，日常感知升级「吃力不讨好」。够用 ≠ 冲解析力换代。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">分项判断</h2>
+
+    <div class="card">
+      <h3>解析力：实验室尴尬，日常够用</h3>
+      <p><strong>在讲什么：</strong>全开 F2 标板中央/四角；收光圈到 F2.8 仅略增；极致约 F5.6–F8。</p>
+      <p><strong>关键理解：</strong>新传感器实力被定焦全开光学限制；边角无断崖是加分项。</p>
+      <p><strong>怎么用：</strong>街拍/人像日常放心；要贴标板级锐度就收光圈或别拿它当风光墙。</p>
+      <div class="quote">「对日常拍摄来说，这个升级完全是吃力不讨好的……实际用起来完全够用。」</div>
+      <div class="relation">立场：可验证画面（标板）+ 作者购买观点（五代或许更有理由）分层。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>焦外：性格件，不是奶油完美虚化</h3>
+      <p><strong>在讲什么：</strong>圆斑、布丁猫眼、偏心同心圆、亮圈二线性；F2.8 多边形；边缘泡泡糖感；实拍偏硬。</p>
+      <p><strong>关键理解：</strong>硬味被作者正面叙事为「复古」，并与胶片模拟卖点对齐（深讲未收录）。</p>
+      <p><strong>怎么用：</strong>喜欢奶油无瑕光斑的人会失望；喜欢复古硬焦外可视为特征。作者提到美科 35/1.8 Pro 作相似参考（画面有对照标注）。</p>
+      <div class="highlight">F2 看圆斑性格；需要更圆更干净时别默认收到 F2.8——本片显示多边形几乎全屏。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>对焦：能力升级最「可感知」的一项</h3>
+      <p><strong>在讲什么：</strong>跑断腿连拍/视频跟焦稳；外对焦有声响震动。</p>
+      <p><strong>关键理解：</strong>相对解析力，跟焦解放更符合「第六代处理器红利」的体感。</p>
+      <p><strong>怎么用：</strong>动态主体、视频可用；安静场合注意对焦噪音；期待无声内对焦留给下一代。</p>
+      <div class="quote">「在实拍中基本没有对焦的焦虑……这个镜头应该会是下一代要着重优化的地方。」</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>近摄与色散：边界条件</h3>
+      <ul>
+        <li>最近对焦约 10cm + 近极限柔光 → 不当微距机</li>
+        <li>轴向色散/紫边良好但不 APO → 高对比边缘放大会看见</li>
+        <li>适配复古表达是作者审美判断，不是光学无色差证明</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>横向对照（片中信息）</h3>
+    <table>
+      <thead>
+        <tr><th>维度</th><th>X100VI（本片）</th><th>对照/边界</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>解析力升级感知</td><td>日常够用，全开不锐</td><td>作者认为五代或更有购买理由（观点）</td></tr>
+        <tr><td>焦外</td><td>圆斑+二线性+硬味</td><td>喜好可看美科 35/1.8 Pro 相似风格</td></tr>
+        <tr><td>对焦</td><td>连拍/视频跟得住</td><td>外对焦噪音震动待七代</td></tr>
+        <tr><td>近摄</td><td>~10cm，近距柔</td><td>不胜任真正微距</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card card-red">
+    <h3>避坑</h3>
+    <div class="pitfall">别用「40MP 标板全开」当唯一购买理由——本片证据显示感知弱。</div>
+    <div class="pitfall">别默认收光圈到 F2.8 焦外更好看——多边形几乎全屏。</div>
+    <div class="pitfall">别当静音微距机：外对焦有声，近距易软。</div>
+    <div class="pitfall">胶片模拟深讲本地缺失：勿把本篇当成完整直出配方指南。</div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>回看尺子：好玩与性格 &gt; 传感器纸面升级</li>
+      <li>光学：日常够锐、焦外有瑕有味、近摄弱</li>
+      <li>系统：对焦已解放，外对焦仍是短板</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ul>
+      <li>试机时专门看：取景器切换乐趣、F2 焦外、跟焦噪音</li>
+      <li>需要墙级锐度：规划 F5.6–F8 或换系统，不赌全开 40MP</li>
+      <li>动态拍摄：可依赖跟焦；安静场合先试对焦声</li>
+      <li>对比五代：若只为解析力，按作者观点重新算账</li>
+      <li>等胶片模拟结论：补看完整片或作者其他直出专题</li>
+    </ul>
+    <h3>关键认知转变</h3>
+    <ul>
+      <li>以前：新传感器 = 明显更锐 → 现在：全开光学可能吃掉升级</li>
+      <li>以前：焦外瑕疵 = 差 → 现在：硬味可被叙事成复古特征</li>
+      <li>以前：旁轴味机对焦焦虑 → 现在：VI 跟焦体感已换代，噪音另算</li>
+    </ul>
+  </div>
+
+  <div class="footer">基于 Whisper 111 段非空转录 + 画面证据 · 本地源约 06:14 截断 · 分析视角：决策分层而非安利</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

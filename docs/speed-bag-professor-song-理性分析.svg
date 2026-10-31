@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4022" viewBox="0 0 1320 4022">
+  <foreignObject x="0" y="0" width="1320" height="4022">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p,li{font-size:15px;line-height:1.75;color:#475569;margin-bottom:6px}
+ul,ol{padding-left:22px}
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04);color:#334155}
+.timeline{background:#fff;border-radius:16px;padding:22px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:18px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;padding:14px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:16px 20px;text-align:center;min-width:130px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin-bottom:18px}
+.correction h3,.correction p{color:#92400e}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:8px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:12px;box-shadow:0 4px 20px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:17px;color:#1e40af;margin-bottom:8px}
+.card .quote{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:8px 12px;border-radius:8px;font-size:13px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:10px 12px;border-radius:8px;margin:8px 0;font-size:13px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0}
+th{background:#f1f5f9;padding:10px;text-align:left;color:#1e40af}
+td{padding:10px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:22px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:12px 0 6px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9)}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:22px 0 8px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;display:inline-block;margin-bottom:14px}
+.root-wrap{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+</style>
+      <div class="container root-wrap"><h1>梨球教授：用耳朵打节奏</h1><div class="meta"><span class="tag tag-blue">梨球</span><span class="tag tag-green">节奏</span><span class="tag tag-orange">听觉</span><span class="tag tag-purple">拳击</span><span class="tag tag-gray">时长 1分11秒</span><span class="tag tag-gray">理性分析 · 训练方法</span></div><a class="source-link" href="https://xhslink.cn/o/AxPLRS7ahkQ">原视频</a><div class="summary-line">核心判断：梨球顺畅依赖听觉重音锁定；把回弹当成旋律，比紧盯残影更稳。</div><div class="timeline"><h3>关键证据时间轴</h3><div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">别用眼睛</span></div><div class="timeline-item"><span class="timeline-time">00:10</span><span class="timeline-text">1-2-3重音</span></div><div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">路径变奏</span></div><div class="timeline-item"><span class="timeline-time">00:55</span><span class="timeline-text">节奏变化</span></div></div><div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node">问题<br/>打不顺</div><span class="arrow">→</span><div class="node-green">证据<br/>听重音</div><span class="arrow">→</span><div class="node-orange">判断<br/>听觉主导</div><span class="arrow">→</span><div class="node">行动<br/>数拍练习</div></div></div><div class="correction"><h3>常见误解与认知纠偏</h3><p>英文口播 ASR 繁中乱码：以字幕「不能用眼睛打它/节奏发生了变化」为准。</p></div><div class="section"><h2 class="sec-title">观点拆解</h2><div class="card card-purple"><h3>感官策略</h3><p>残影太多，耳朵更可靠。</p><div class="quote">你不能用眼睛打它</div><div class="relation">降低视觉过载。</div></div><div class="card "><h3>重音口令</h3><p>1-2-3 里盯住发声的 1。</p><div class="quote">重要的是那个1是发出声音</div><div class="relation">可立刻数拍开练。</div></div><div class="card card-green"><h3>旋律隐喻</h3><p>回弹音色=曲子；变路径=变奏。</p><div class="quote">它其实有自己的旋律</div><div class="relation">提升持续性与乐趣。</div></div></div><div class="section"><h2 class="sec-title">练习提示</h2><div class="card"><table><thead><tr><th>做</th><th>避免</th></tr></thead><tbody><tr><td>闭一只眼/弱化注视听声</td><td>死盯球体残影</td></tr><tr><td>固定 1-2-3 重音</td><td>无计数乱打</td></tr></tbody></table></div></div><div class="section"><h2 class="sec-title">方法边界与避坑</h2><div class="card card-red"><h3>适用边界</h3><ul><li>短演示非完整教学大纲。</li><li>需正确高度与充气。</li></ul><div class="pitfall">只追求速度忽略节奏。</div><div class="pitfall">忽略护手与肩肘负荷。</div></div></div><div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>听觉锁节奏</li><li>重音在1</li><li>变奏靠路径</li></ul><h3>行动清单</h3><ol><li>慢速数拍1-2-3</li><li>录下回弹自己听</li></ol><h3>关键认知转变</h3><p>从「看球打」转向「听球打」。</p></div><div class="footer">双轨产物之二 · 理性分析 · 1分11秒</div></div>
+    </div>
+  </foreignObject>
+</svg>
