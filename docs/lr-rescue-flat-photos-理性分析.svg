@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2282" viewBox="0 0 1320 2282">
+  <foreignObject x="0" y="0" width="1320" height="2282">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>灰片、烂片就用它轻松逆袭！</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们，今天给大家分享 L</h3><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div><div class="card"><h3>第5/10页：灰片、烂片就用它轻松逆袭！</h3><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div><div class="card"><h3>第9/10页：灰片、烂片就用它轻松逆袭！</h3><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

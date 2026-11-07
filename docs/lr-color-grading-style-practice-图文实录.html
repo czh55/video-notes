@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图">
+<title>🔥风格调色必学｜LR颜色分级实战教程｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>🔥风格调色必学｜LR颜色分级实战教程</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">0秒</span>
+    <span class="meta-tag tag-topic">Lightroom · 修图 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/58b8PZFe6OS" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">封面/要点：[种草R]家人们，之前给大家讲了颜色</a>
+<a href="#ch2">第5/15页：🔥风格调色必学｜LR颜色分级实战教</a>
+<a href="#ch3">第9/15页：🔥风格调色必学｜LR颜色分级实战教</a>
+<a href="#ch4">第13/15页：🔥风格调色必学｜LR颜色分级实战</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[1/15–4/15]</span><div><strong>封面/要点：[种草R]家人们，之前给大家讲了颜色</strong><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</p></div></div>
+<div class="summary-row"><span class="time-marker">[5/15–8/15]</span><div><strong>第5/15页：🔥风格调色必学｜LR颜色分级实战教</strong><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</p></div></div>
+<div class="summary-row"><span class="time-marker">[9/15–12/15]</span><div><strong>第9/15页：🔥风格调色必学｜LR颜色分级实战教</strong><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</p></div></div>
+<div class="summary-row"><span class="time-marker">[13/15–15/15]</span><div><strong>第13/15页：🔥风格调色必学｜LR颜色分级实战</strong><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运</p></div>
+  <div class="bound"><strong>适用边界</strong>：图文轮播笔记；无时间轴口播。</div><div class="pitfall"><strong>踩坑</strong>：以图内文字为准；文案话题标签已剥离。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">1/15–4/15</span>封面/要点：[种草R]家人们，之前给大家讲了颜色</h2><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</p><figure><img src="assets/lr-color-grading-style-practice/shot-01.jpg" alt="封面/要点：[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[1/15] 封面/要点：[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/deab79e053f3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cover and key takeaways</span></div>
+<audio class="cap-audio" src="audio/a8018d5789c9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-02.jpg" alt="第2/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[2/15] 第2/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b07293ae7b87.mp3" type="button" aria-label="Play English audio">🔊</button><span>2/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/28b7f61764ae.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-03.jpg" alt="第3/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[3/15] 第3/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/258827d10a4f.mp3" type="button" aria-label="Play English audio">🔊</button><span>3/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/c75a773c3d41.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-04.jpg" alt="第4/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[4/15] 第4/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a96333538c12.mp3" type="button" aria-label="Play English audio">🔊</button><span>4/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/36f1dccc3e3b.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">5/15–8/15</span>第5/15页：🔥风格调色必学｜LR颜色分级实战教</h2><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</p><figure><img src="assets/lr-color-grading-style-practice/shot-05.jpg" alt="第5/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[5/15] 第5/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/22451d71ccd1.mp3" type="button" aria-label="Play English audio">🔊</button><span>5/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/cff6b2ae86cf.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-06.jpg" alt="第6/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[6/15] 第6/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/61cf227c95a4.mp3" type="button" aria-label="Play English audio">🔊</button><span>6/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/c329180eca5d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-07.jpg" alt="第7/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[7/15] 第7/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/36275ce19161.mp3" type="button" aria-label="Play English audio">🔊</button><span>7/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/487dc74fb34b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-08.jpg" alt="第8/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[8/15] 第8/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/70461cda90a8.mp3" type="button" aria-label="Play English audio">🔊</button><span>8/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/e96bd73b0158.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">9/15–12/15</span>第9/15页：🔥风格调色必学｜LR颜色分级实战教</h2><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</p><figure><img src="assets/lr-color-grading-style-practice/shot-09.jpg" alt="第9/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[9/15] 第9/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e35515982496.mp3" type="button" aria-label="Play English audio">🔊</button><span>9/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/08fe3619d4f9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-10.jpg" alt="第10/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10/15] 第10/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1f7a89e521f9.mp3" type="button" aria-label="Play English audio">🔊</button><span>10/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/e9be25b427ca.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-11.jpg" alt="第11/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11/15] 第11/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/80042aaba82c.mp3" type="button" aria-label="Play English audio">🔊</button><span>11/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/32777bbfd910.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-12.jpg" alt="第12/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12/15] 第12/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e0fbb3f9e224.mp3" type="button" aria-label="Play English audio">🔊</button><span>12/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/21829ceee423.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch4"><h2><span class="time-marker">13/15–15/15</span>第13/15页：🔥风格调色必学｜LR颜色分级实战</h2><p>[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。
+	
+🎨前期分析
+先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但咱想要图3那种高级感，主要保留蓝色，同时红色得留住，毕竟建筑上的logo可起到丰富画面的作用。
+	
+📝修图思路
+去色处理（混合工具）----微调保留色饱和度和明亮度----染色处理（分级工具）
+	
+[彩虹R]去色处理：打开LR，先把除了红色和蓝色之外的颜色都去掉。按照红橙黄绿青蓝紫洋红的顺序逐个操作。
+	
+[种草R]红色是咱要保留的，先放一边。
+	
+[种草R]橙色、黄色、绿色都不是我们想要的，直接把它们的饱和度拉到负100，瞬间消失！（图3-图5）
+	
+[种草R]因为我们要保留蓝色（不动它），青色往蓝色方向调，紫色也往蓝色方向调。（图6、图7）
+	
+[种草R]因为我们要保留红色，洋红色往红色方向调。（图8）
+	
+[彩虹R]微调相近色：去色完成之后再返回去，把保留的红色、洋红色、青色和蓝色的饱和度和明亮度调整一下，使其更接近于我们所需要蓝色和红色。（图</p><figure><img src="assets/lr-color-grading-style-practice/shot-13.jpg" alt="第13/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13/15] 第13/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2c05a3afe5f2.mp3" type="button" aria-label="Play English audio">🔊</button><span>13/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/f860df1fc3b3.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-14.jpg" alt="第14/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14/15] 第14/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/655a6d1d39a4.mp3" type="button" aria-label="Play English audio">🔊</button><span>14/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/b8a4379a869b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-color-grading-style-practice/shot-15.jpg" alt="第15/15页：🔥风格调色必学｜LR颜色分级实战教程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15/15] 第15/15页：🔥风格调色必学｜LR颜色分级实战教程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ecccf99452e7.mp3" type="button" aria-label="Play English audio">🔊</button><span>15/15 ：🔥 color grade ｜LR</span></div>
+<audio class="cap-audio" src="audio/05f5f3167530.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（15段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>1/15</time><p>封面/要点：[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我</p></div>
+<div class="transcript-row"><time>2/15</time><p>第2/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>3/15</time><p>第3/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>4/15</time><p>第4/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>5/15</time><p>第5/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>6/15</time><p>第6/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>7/15</time><p>第7/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>8/15</time><p>第8/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>9/15</time><p>第9/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>10/15</time><p>第10/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>11/15</time><p>第11/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>12/15</time><p>第12/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>13/15</time><p>第13/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>14/15</time><p>第14/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+<div class="transcript-row"><time>15/15</time><p>第15/15页：🔥风格调色必学｜LR颜色分级实战教程</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

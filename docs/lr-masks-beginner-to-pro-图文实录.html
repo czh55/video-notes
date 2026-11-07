@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪">
+<title>🔥LR蒙版｜小白到大师的关键一步｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>🔥LR蒙版｜小白到大师的关键一步</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">0秒</span>
+    <span class="meta-tag tag-topic">Lightroom · 修图 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/4r9cw5XpW7l" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">封面/要点：[种草R]家人们，东哥上线！今天带大</a>
+<a href="#ch2">第5/18页：🔥LR蒙版｜小白到大师的关键一步</a>
+<a href="#ch3">第9/18页：🔥LR蒙版｜小白到大师的关键一步</a>
+<a href="#ch4">第13/18页：🔥LR蒙版｜小白到大师的关键一步</a>
+<a href="#ch5">第17/18页：🔥LR蒙版｜小白到大师的关键一步</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[1/18–4/18]</span><div><strong>封面/要点：[种草R]家人们，东哥上线！今天带大</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div></div>
+<div class="summary-row"><span class="time-marker">[5/18–8/18]</span><div><strong>第5/18页：🔥LR蒙版｜小白到大师的关键一步</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div></div>
+<div class="summary-row"><span class="time-marker">[9/18–12/18]</span><div><strong>第9/18页：🔥LR蒙版｜小白到大师的关键一步</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div></div>
+<div class="summary-row"><span class="time-marker">[13/18–16/18]</span><div><strong>第13/18页：🔥LR蒙版｜小白到大师的关键一步</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div></div>
+<div class="summary-row"><span class="time-marker">[17/18–18/18]</span><div><strong>第17/18页：🔥LR蒙版｜小白到大师的关键一步</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮</p></div>
+  <div class="bound"><strong>适用边界</strong>：图文轮播笔记；无时间轴口播。</div><div class="pitfall"><strong>踩坑</strong>：以图内文字为准；文案话题标签已剥离。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">1/18–4/18</span>封面/要点：[种草R]家人们，东哥上线！今天带大</h2><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p><figure><img src="assets/lr-masks-beginner-to-pro/shot-01.jpg" alt="封面/要点：[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[1/18] 封面/要点：[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a76b5b1bbd79.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cover and key takeaways</span></div>
+<audio class="cap-audio" src="audio/6b5fa20b2195.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-02.jpg" alt="第2/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[2/18] 第2/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/37837b5a13d7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 2/18 LR</span></div>
+<audio class="cap-audio" src="audio/009f98b8b4d4.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-03.jpg" alt="第3/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[3/18] 第3/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/77d541d82ff0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 3/18 LR</span></div>
+<audio class="cap-audio" src="audio/d8f8a30517ac.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-04.jpg" alt="第4/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[4/18] 第4/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8724529bfa48.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 4/18 LR</span></div>
+<audio class="cap-audio" src="audio/d66bae3b2fdd.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">5/18–8/18</span>第5/18页：🔥LR蒙版｜小白到大师的关键一步</h2><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p><figure><img src="assets/lr-masks-beginner-to-pro/shot-05.jpg" alt="第5/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[5/18] 第5/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9df1ff830569.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 5/18 LR</span></div>
+<audio class="cap-audio" src="audio/709a341118b9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-06.jpg" alt="第6/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[6/18] 第6/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cbf5448c40ac.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 6/18 LR</span></div>
+<audio class="cap-audio" src="audio/bd7dc06762d6.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-07.jpg" alt="第7/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[7/18] 第7/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/36a5281061ec.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 7/18 LR</span></div>
+<audio class="cap-audio" src="audio/9bd8f237fe7d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-08.jpg" alt="第8/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[8/18] 第8/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/45893858da7a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 8/18 LR</span></div>
+<audio class="cap-audio" src="audio/7da9a8257220.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">9/18–12/18</span>第9/18页：🔥LR蒙版｜小白到大师的关键一步</h2><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p><figure><img src="assets/lr-masks-beginner-to-pro/shot-09.jpg" alt="第9/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[9/18] 第9/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d6c3274fbb50.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 9/18 LR</span></div>
+<audio class="cap-audio" src="audio/bedaeb58e483.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-10.jpg" alt="第10/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10/18] 第10/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a8113a8131aa.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 10/18 LR</span></div>
+<audio class="cap-audio" src="audio/f9d0213a827d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-11.jpg" alt="第11/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11/18] 第11/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0c508fe2f645.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 11/18 LR</span></div>
+<audio class="cap-audio" src="audio/d39d7efaf81f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-12.jpg" alt="第12/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12/18] 第12/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b90f71e68dd1.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 12/18 LR</span></div>
+<audio class="cap-audio" src="audio/b8abfe70eacc.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch4"><h2><span class="time-marker">13/18–16/18</span>第13/18页：🔥LR蒙版｜小白到大师的关键一步</h2><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p><figure><img src="assets/lr-masks-beginner-to-pro/shot-13.jpg" alt="第13/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13/18] 第13/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a5ede24d153c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 13/18 LR</span></div>
+<audio class="cap-audio" src="audio/85ae19d76a2d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-14.jpg" alt="第14/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14/18] 第14/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/77201148dad7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 14/18 LR</span></div>
+<audio class="cap-audio" src="audio/e16a90d183b5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-15.jpg" alt="第15/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15/18] 第15/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/adbec00c0815.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 15/18 LR</span></div>
+<audio class="cap-audio" src="audio/d69977600d11.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-16.jpg" alt="第16/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[16/18] 第16/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e1e6b77ed91e.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 16/18 LR</span></div>
+<audio class="cap-audio" src="audio/cc09194b1cc6.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch5"><h2><span class="time-marker">17/18–18/18</span>第17/18页：🔥LR蒙版｜小白到大师的关键一步</h2><p>[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙板就能精准局部调整了！但今天只作粗略认识，后边会以实际案例详讲。
+	
+[一R]蒙版分类大盘点
+	
+[种草R]AI 识别蒙版：手机 LR 的 AI 超给力！“选择主体” 能自动锁定画面主角；“选择天空”“选择背景” 一键选中对应区域，轻松调整。（图3-图5）
+	
+[种草R]颜色蒙版：点击 “颜色范围”，光标戳戳想调整的颜色，比如草地，LR 就会自动识别相似颜色区域，方便调色。（图6）
+	
+[种草R]亮度蒙版：选择 “明亮度范围”，点选照片中想调整的亮度区域，就能对不同亮度部分分别调整。（图7）
+	
+[种草R]径向渐变蒙版：点击 “径向渐变”，拖动蓝色方框圈出想调整的圆形或椭圆形区域，突出主体超好用。（图8）
+	
+[种草R]线性渐变蒙版：选择 “线性渐变”，在照片上拖动创建直线选区，对选区内进行单独调整。（图9）
+	
+[种草R]画笔蒙版：手动涂抹选区，哪</p><figure><img src="assets/lr-masks-beginner-to-pro/shot-17.jpg" alt="第17/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[17/18] 第17/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a934820a7352.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 17/18 LR</span></div>
+<audio class="cap-audio" src="audio/b1dcaf180355.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-masks-beginner-to-pro/shot-18.jpg" alt="第18/18页：🔥LR蒙版｜小白到大师的关键一步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[18/18] 第18/18页：🔥LR蒙版｜小白到大师的关键一步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/69682926d07b.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 18/18 LR</span></div>
+<audio class="cap-audio" src="audio/485fee3414c8.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（18段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>1/18</time><p>封面/要点：[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。</p></div>
+<div class="transcript-row"><time>2/18</time><p>第2/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>3/18</time><p>第3/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>4/18</time><p>第4/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>5/18</time><p>第5/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>6/18</time><p>第6/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>7/18</time><p>第7/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>8/18</time><p>第8/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>9/18</time><p>第9/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>10/18</time><p>第10/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>11/18</time><p>第11/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>12/18</time><p>第12/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>13/18</time><p>第13/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>14/18</time><p>第14/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>15/18</time><p>第15/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>16/18</time><p>第16/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>17/18</time><p>第17/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+<div class="transcript-row"><time>18/18</time><p>第18/18页：🔥LR蒙版｜小白到大师的关键一步</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2345" viewBox="0 0 1320 2345">
+  <foreignObject x="0" y="0" width="1320" height="2345">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>LR亮度底层逻辑大揭秘｜告别瞎调乱调</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是用得最多的 LR 亮度调整工具，进入正题前还是提醒一下，需要最新版APP的关注➕</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们👋，我是东哥～今天是</h3><p>[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是</p></div><div class="card"><h3>第5/9页：LR亮度底层逻辑大揭秘｜告别瞎调乱调</h3><p>[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是</p></div><div class="card"><h3>第9/9页：LR亮度底层逻辑大揭秘｜告别瞎调乱调</h3><p>[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是用得最多的 LR 亮度调整工具，进入正题前还是提醒一下，需要最新版APP的关注➕群哦！✨
+	
+[种草R]“亮度”在软件下边“编辑”工具栏中的第二个，是个类似太阳的图标🌞。咱平常拍照，相机或手机不给力，照片不是暗了、曝了，就是灰扑扑的，这个工具就能让照片变得干净又通透，超厉害！
+	
+[种草R]今天这期只讲怎么用，搞懂基础理论🧐，下期再举例实操哈。
+	
+[种草R]一张照片有不同亮度区域，人眼能分辨，但软件不行。所以开发者用 0 - 255 这 256 个数字代表不同亮度，数字越小越暗，越大越亮。
+	
+[种草R]还把这些数字归成五类：0 - 38 是黑色，39 - 77 是阴影，78 - 166 是曝光，167 - 227 是高光，218 - 255 是白色。对应到照片上，最暗是黑色，较暗是阴影，正常亮是曝光，较亮是高光，最亮是白色。咱们就用这五个工具调不同亮度区域。（图2、图3）
+	
+[向右R]现在打开 Lightroom，用一张图演示，大家可以下载图3用LR打开边学习边操作哦。点“编辑”里那个像太阳的亮度工具</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是用得最多的 LR 亮度调整工具，进入正题前还是提醒一下，需要最新版APP的关注➕</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

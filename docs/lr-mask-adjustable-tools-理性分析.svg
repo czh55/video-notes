@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2337" viewBox="0 0 1320 2337">
+  <foreignObject x="0" y="0" width="1320" height="2337">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>解锁隐藏功能｜LR蒙版可调工具详解！</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里的修图选项和编辑里的选项到底有啥不一样！
+	
+[种草R]点开蒙版能看到 “亮度、</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们！东哥又来带着大家玩</h3><p>[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里</p></div><div class="card"><h3>第5/10页：解锁隐藏功能｜LR蒙版可调工具详解</h3><p>[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里</p></div><div class="card"><h3>第9/10页：解锁隐藏功能｜LR蒙版可调工具详解</h3><p>[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里的修图选项和编辑里的选项到底有啥不一样！
+	
+[种草R]点开蒙版能看到 “亮度、颜色、效果、细节、光学” 几个工具（图2），编辑里有 “自动、亮度、颜色、模糊、效果、细节、光学、配置文件”（图3）。编辑里的工具之前都讲过，今天就主攻蒙版和编辑里都有的工具用法差异～
+	
+[彩虹R]亮度工具
+蒙版里的 “亮度” 少了曲线功能，其他和编辑里的基本一致！虽然少了曲线，但该调亮调暗还是能满足日常修图需求哒
+	
+[彩虹R]颜色工具
+这个工具差异超大，家人们快拿小本本记好📒！
+	
+[种草R]蒙版颜色：少了 “分级”“混合” 和 “自然饱和度”，但多了 “色相” 和 “颜色” 小工具！
+	
+[烟花R]色相：条形色块被黑线分成两部分，下边的小圆圈会自动定位到蒙版区域主色调位置，右上角显示 “0.0” 说明没调整过色相（图4）
+	
+[种草R]左右滑动圆圈就能改变色相，简单来说就是原色相 + 滑动到位置上方的色彩 = 新色彩！你可以把色相看做一个360度的圆环：红→橙→黄→绿→青→蓝→品红→红，循环往复。图4青色滑到最右边加上红</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里的修图选项和编辑里的选项到底有啥不一样！
+	
+[种草R]点开蒙版能看到 “亮度、</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

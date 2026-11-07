@@ -1,8 +1,1473 @@
 [
   {
     "date": "2026-11-07",
+    "title": "你拍的天空一片死白，真不是相机不行",
+    "summary": "「你拍的天空一片死白，真不是相机不行」教程要点：你拍的天空一片死白 → 真不是相机不行 → 是你从买相机那天起 → 就被默认设置给带偏了；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Sa8JgmJxhp",
+    "duration": "3分46秒",
+    "outputs": {
+      "html": "why-sky-blows-out-white-图文实录.html",
+      "svg": "why-sky-blows-out-white-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "why-sky-blows-out-white"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "为什么你的风景照片没有现场震撼？",
+    "summary": "「为什么你的风景照片没有现场震撼？」教程要点：拍风景总翻车 → 明明亲眼看到的山河超震撼 → 一按快门就变普通 → 照片里完全找不到现场的壮阔感；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/76UK1yWzUut",
+    "duration": "4分37秒",
+    "outputs": {
+      "html": "why-landscapes-lack-impact-图文实录.html",
+      "svg": "why-landscapes-lack-impact-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "why-landscapes-lack-impact"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "渐变为什么总是脏？",
+    "summary": "「渐变为什么总是脏？」教程要点：都是蓝配成,左边怎么就脏兮兮的 → 凑近看,中间这一段,其实是灰的,难怪看着脏 → 因为软件拉键片是超近到走直线 → 两个颜色离得远,中间就路过灰色了；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4S5vzrrqlec",
+    "duration": "36秒",
+    "outputs": {
+      "html": "why-gradients-look-dirty-图文实录.html",
+      "svg": "why-gradients-look-dirty-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 14,
+    "svg_height": 2172,
+    "slug": "why-gradients-look-dirty"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "⭐什么是明度~",
+    "summary": "明度就是色彩的明亮程度。可以简单地理解为颜色的深浅变化。比如，在无彩色中，白色是明度最高的，黑色则是明度最低的。在色彩加入白色（图中向上的变化），你会发现色彩明显变亮了；如果加入黑色（向下的变化），那你会发现色彩变暗了，这就是色彩明度（亮度",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9XlEsa9Dj4Q",
+    "duration": "0秒",
+    "outputs": {
+      "html": "what-is-value-lightness-图文实录.html",
+      "svg": "what-is-value-lightness-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 3,
+    "svg_height": 1778,
+    "slug": "what-is-value-lightness"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "场馆一混光，肤色先乱",
+    "summary": "室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜色的光。顶灯可能偏绿，墙面反射可能偏暖，电子屏又会带来青色。逐张凭感觉调白平衡，整组肤色很容易忽冷忽热。\n\t\n处理时先把主脸作为基准。选择主体状态、曝光和对焦都",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AJdE1sTIBzk",
+    "duration": "0秒",
+    "outputs": {
+      "html": "venue-mixed-light-skin-tone-fix-图文实录.html",
+      "svg": "venue-mixed-light-skin-tone-fix-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2093,
+    "slug": "venue-mixed-light-skin-tone-fix"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "新手小白 | 揭秘！三点布光法玩法！",
+    "summary": "今天来学习三点布光法！\n三点布光是好莱坞、人像棚拍基础万能布光，三灯各司其职：主光塑形、辅光补阴影、轮廓光分离主体，布光顺序固定：先主光→再辅光→最后轮廓光。\n\t\n人像摄影中最经典、最常用的一种布光方式，由主光、辅光和轮廓光这三个光源组成，",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/81LPMBhwNbQ",
+    "duration": "0秒",
+    "outputs": {
+      "html": "three-point-lighting-basics-图文实录.html",
+      "svg": "three-point-lighting-basics-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 7,
+    "svg_height": 2048,
+    "slug": "three-point-lighting-basics"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "网球三大常见发球问题",
+    "summary": "「网球三大常见发球问题」教程要点：請不吝點贊訂閱轉發打賞支持明鏡與點點欄目",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "网球",
+      "发球",
+      "技巧"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/33JNrzKEjUS",
+    "duration": "16秒",
+    "outputs": {
+      "html": "tennis-serve-three-common-issues-图文实录.html",
+      "svg": "tennis-serve-three-common-issues-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 1,
+    "svg_height": 1583,
+    "slug": "tennis-serve-three-common-issues"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "为什么别人拍向日葵像电影你拍出来像游客照",
+    "summary": "「为什么别人拍向日葵像电影你拍出来像游客照」教程要点：为什么别人拍向日葵能拍出高级大片质感 → 氛围感直接拉满 → 而你随手一拍就是普通游客照 → 画面平平无奇 毫无质感；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/bBC6L5TBgA",
+    "duration": "10分04秒",
+    "outputs": {
+      "html": "sunflower-cinematic-vs-tourist-图文实录.html",
+      "svg": "sunflower-cinematic-vs-tourist-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "sunflower-cinematic-vs-tourist"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "会说话吗，会了，就会唱了",
+    "summary": "「会说话吗，会了，就会唱了」教程要点：你还记得以前的人怎么说话吗? → 哎,三嫂子,这儿吧他娘,你怎么才回来呀? → 无论多大年纪都是声音哄亮的,包括老一半的那个春晚什么的。 → 他是不用麦克风就可以把声音传得很远很远。；详见正文。",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "音乐",
+      "表达",
+      "观点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4icncxacxE7",
+    "duration": "10分56秒",
+    "outputs": {
+      "html": "speak-then-sing-vocal-tip-图文实录.html",
+      "svg": "speak-then-sing-vocal-tip-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "speak-then-sing-vocal-tip"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "随手拿一张废纸即兴画山水，核心就三根竖线。零基础也",
+    "summary": "「随手拿一张废纸即兴画山水，核心就三根竖线。零基础也」教程要点：想不想在别人面前露一手 → 想 → 非常简单 → 画个竖线；详见正文。",
+    "primary": "painting",
+    "skills": [],
+    "tags": [
+      "绘画",
+      "构图",
+      "入门"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/umAZhJAcUp",
+    "duration": "2分40秒",
+    "outputs": {
+      "html": "sketch-landscape-three-vertical-lines-图文实录.html",
+      "svg": "sketch-landscape-three-vertical-lines-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "sketch-landscape-three-vertical-lines"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "简单调色的秘密，新手必学❗",
+    "summary": "「简单调色的秘密，新手必学❗」教程要点：今天说调色 → 一条彩虹加上了阳红色 → 就构成了混色器的八种色彩 → 一张普通的照片把它分成一个个色彩像素；详见正文。",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "调色",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7mkv0Zl1mLs",
+    "duration": "1分17秒",
+    "outputs": {
+      "html": "simple-color-mixer-grading-secret-图文实录.html",
+      "svg": "simple-color-mixer-grading-secret-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 30,
+    "svg_height": 2172,
+    "slug": "simple-color-mixer-grading-secret"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🎨拯救配色废柴！照片从土味到高级",
+    "summary": "「🎨拯救配色废柴！照片从土味到高级」教程要点：拍摄的时候总把控不好画面色彩关系 → 来试试黄金配色6比3比1法则 → 它的逻辑其实很简单 → 集在一个画面中；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8SkmOzpve26",
+    "duration": "2分35秒",
+    "outputs": {
+      "html": "rescue-bad-color-palettes-图文实录.html",
+      "svg": "rescue-bad-color-palettes-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "rescue-bad-color-palettes"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "身边人是人是鬼一秒看清！！！",
+    "summary": "身边人是人是鬼一秒看清！！！",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "成长",
+      "人际",
+      "观点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/58MboO2cTyR",
+    "duration": "0秒",
+    "outputs": {
+      "html": "read-people-around-you-fast-图文实录.html",
+      "svg": "read-people-around-you-fast-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 14,
+    "svg_height": 2279,
+    "slug": "read-people-around-you-fast"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "99% 摄影师都会经历 4 个创作阶段",
+    "summary": "「99% 摄影师都会经历 4 个创作阶段」教程要点：你有没有一段时间连碰相机都提不起兴趣 → 别怀疑自己不爱摄影 → 这真的太正常了 → 今天聊一卷几乎所有摄影师都经历过；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7chGucDPnks",
+    "duration": "6分58秒",
+    "outputs": {
+      "html": "photographer-four-creative-stages-图文实录.html",
+      "svg": "photographer-four-creative-stages-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "photographer-four-creative-stages"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "手机拍照总是不出片 面部暗淡无光？",
+    "summary": "「手机拍照总是不出片 面部暗淡无光？」教程要点：暗淡无光 → 巧妙地利用白衫衫补光 → 现在我们把它换成纸 → 面部更光滑的纸；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3JqcDogmK7k",
+    "duration": "30秒",
+    "outputs": {
+      "html": "phone-portrait-fix-underexposure-图文实录.html",
+      "svg": "phone-portrait-fix-underexposure-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 14,
+    "svg_height": 2172,
+    "slug": "phone-portrait-fix-underexposure"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "保姆级灯光教程|今日分享【PHOEBE 】品牌灯光",
+    "summary": "为什么这张时装人像，人物立体、背景干净通透，衣服质感还能全部保留？\n大家可以参考一下我们的布光思路哦\n\t\n👉 A 灯｜后顶光｜长条 1×4 柔光箱\n它就是顶光，功率 1/32＋0.2。\n专门打亮头顶、肩膀和后背，\n\t\n👉 B 灯｜主光｜3×",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Ab6WXrExyMx",
+    "duration": "0秒",
+    "outputs": {
+      "html": "phoebe-brand-lighting-tutorial-图文实录.html",
+      "svg": "phoebe-brand-lighting-tutorial-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2022,
+    "slug": "phoebe-brand-lighting-tutorial"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "为什么巴黎大师赛的画面看着难受",
+    "summary": "一看感觉就和其他网球比赛的转播画面不同，看着很难受。\n不知道有没有同感的人。\n对比可以明显发现，机位远、视角平，球场压缩得扁平，网带遮挡视线...",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3kq0N3RRg3s",
+    "duration": "0秒",
+    "outputs": {
+      "html": "paris-masters-broadcast-look-critique-图文实录.html",
+      "svg": "paris-masters-broadcast-look-critique-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 5,
+    "svg_height": 1860,
+    "slug": "paris-masters-broadcast-look-critique"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "张力：音乐的第一性原理？",
+    "summary": "「张力：音乐的第一性原理？」教程要点：我们听到的大部分音乐 → 本质上都在做同一件事情 → 就到张力 然后回归 → 这几乎可以说是音乐的第一性原理；详见正文。",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "音乐",
+      "表达",
+      "观点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3SA1TJYzgo7",
+    "duration": "4分32秒",
+    "outputs": {
+      "html": "musical-tension-first-principles-图文实录.html",
+      "svg": "musical-tension-first-principles-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "musical-tension-first-principles"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "摄影底层逻辑 ：像素越大，画质越好？",
+    "summary": "「摄影底层逻辑 ：像素越大，画质越好？」教程要点：为什么很多2400万像素相机 → 在夜景高感下看起来反而比4500万像素更干净 → 为什么手机不断提高像素数量 → 很多专业相机的主流机型；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7QFCaIdTYxF",
+    "duration": "4分36秒",
+    "outputs": {
+      "html": "more-pixels-better-quality-myth-图文实录.html",
+      "svg": "more-pixels-better-quality-myth-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "more-pixels-better-quality-myth"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "机械快门为什么还没被电子快门淘汰？",
+    "summary": "「机械快门为什么还没被电子快门淘汰？」教程要点：现在的相机,电子快门已经这么快了 → 为什么机械快门到今天还没有被淘汰 → 先看机械快门 → 第一连打开,传感器开始曝光；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2dXFGC3GfnT",
+    "duration": "2分27秒",
+    "outputs": {
+      "html": "mechanical-vs-electronic-shutter-图文实录.html",
+      "svg": "mechanical-vs-electronic-shutter-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "mechanical-vs-electronic-shutter"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "从新手到高手｜掌控LR白色曲线的神奇魔力",
+    "summary": "[种草R]家人们，今天来给大家分享Lightroom里超实用的白色曲线工具，学会了它，修图水平直接起飞！\n\t\n🎨曲线工具在哪？\n\t\n[种草R]打开Lightroom，点击“编辑”，再点击“亮度”，在右上角就可以看到“曲线”啦（图2）。里面有",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/42MQtucYcdq",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-white-curve-mastery-图文实录.html",
+      "svg": "lr-white-curve-mastery-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 2300,
+    "slug": "lr-white-curve-mastery"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "新手必看！LR色彩曲线秘籍，变身修图大师！",
+    "summary": "[种草R]家人们，今天带大家玩转LR颜色曲线工具🚀这可是调色大神都爱用的“调色之王”，掌握它，绝美色调轻松拿捏，晋升大神不是梦！\n\t\n[种草R]简单回顾下白色曲线。曲线由横、纵坐标和45度直线构成，从下到上对应黑、阴影、曝光、高光、白色5区",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/768xU1xCt7e",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-tone-curve-secrets-图文实录.html",
+      "svg": "lr-tone-curve-secrets-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 13,
+    "svg_height": 2574,
+    "slug": "lr-tone-curve-secrets"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "超实用！Lightroom修图技巧大课堂",
+    "summary": "[种草R]宝子们，继续和大家聊修图技巧，带大家初步认识Lightroom，下期开始细讲每个工具的具体用法，仔仔细细地教大家怎么用。\n\t\n[种草R]这软件有免费功能，也有付费的。需要全功能免费安装包的，关注➕群获取哦，开始进入正题。\n\t\n▶️",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/x8erfCKZ52",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-retouch-classroom-continue-图文实录.html",
+      "svg": "lr-retouch-classroom-continue-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 13,
+    "svg_height": 2562,
+    "slug": "lr-retouch-classroom-continue"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "灰片、烂片就用它轻松逆袭！",
+    "summary": "[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！\n\t\n[彩虹R]清晰度调整双神器\n\t\n[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/TjURXUqUYN",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-rescue-flat-photos-图文实录.html",
+      "svg": "lr-rescue-flat-photos-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 2282,
+    "slug": "lr-rescue-flat-photos"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR“移除”工具｜一键除杂物，秒变干净大片",
+    "summary": "[种草R]家人们🙋今天东哥带大家解锁LR的“移除”工具！用它能快速去掉照片里不想要的东西，让画面秒变简洁好看～下面我就详细讲讲使用方法，手把手教你！\n\t\n[彩虹R]功能总览\n[种草R]“移除”工具集合了生成式移除、普通移除、仿制和修复功能。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3hGD52KOLsR",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-remove-tool-cleanup-图文实录.html",
+      "svg": "lr-remove-tool-cleanup-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 18,
+    "svg_height": 2796,
+    "slug": "lr-remove-tool-cleanup"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "学会颜色与明亮度范围蒙版｜修图超自如",
+    "summary": "家人们，东哥又来带大家实操LR蒙版工具啦！今天讲讲最后两个超实用的蒙版——颜色范围和明亮度范围，掌握了它们，你的修图技术直接起飞🛫\n🎨颜色范围蒙版\n这个蒙版可以根据颜色来精准选择图像中的特定区域。比如风景照里，想单独把绿色植物颜色变得更鲜艳",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9hHC9lLucpE",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-range-mask-color-luminance-图文实录.html",
+      "svg": "lr-range-mask-color-luminance-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2111,
+    "slug": "lr-range-mask-color-luminance"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR必学｜径向渐变蒙版大揭秘！",
+    "summary": "[种草R]家人们，上回东哥带大家实操了画笔蒙版，不少小伙伴直呼打开新世界大门！今天，咱们接着冲，深挖蒙版工具——径向渐变蒙版！\n\t\n🎨径向渐变蒙版大揭秘\n径向渐变蒙版，能打造圆形或椭圆形的调整区域，调整效果从中心向边缘逐渐过渡。简单来说，调",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6ojuvlQ9CFF",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-radial-gradient-mask-图文实录.html",
+      "svg": "lr-radial-gradient-mask-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 18,
+    "svg_height": 2807,
+    "slug": "lr-radial-gradient-mask"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "超实用！Lightroom开课了（配置文件&自动）",
+    "summary": "宝子们👋，今天接着聊 Lightroom 的使用方法。东哥会把修图核心步骤拆解成 “傻瓜操作”，让大家看完马上就能上手！👇​\n\t\n[种草R]在开始前，跟大家说一下，Lightroom 已升级到 10.0 版本，有些地方有变化。从今天起，我都",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6maEPc4NgwW",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-profile-and-auto-图文实录.html",
+      "svg": "lr-profile-and-auto-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 6,
+    "svg_height": 2037,
+    "slug": "lr-profile-and-auto"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR预设保姆级教程｜3分钟解锁滤镜魔法",
+    "summary": "[种草R]家人们！今天来教大家玩转Lightroom预设的魔法🔮进入正题前，需要安装包的家人们，➕群找我拿最新APP安装包。\n\t\n💡预设是什么？\n简单讲就是“懒人滤镜包”，类似美图秀秀的一键滤镜，把调好的参数存为模板，下次直接套到其他照片上",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/282ClGWQfNS",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-presets-filter-magic-图文实录.html",
+      "svg": "lr-presets-filter-magic-理性分析.svg"
+    },
+    "screenshot_count": 7,
+    "transcript_segments": 7,
+    "svg_height": 2123,
+    "slug": "lr-presets-filter-magic"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔥LR蒙版｜小白到大师的关键一步",
+    "summary": "[种草R]家人们，东哥上线！今天带大家认识修图界的 “手术刀”——LR 蒙版🩹。要是把修图比作手术，蒙版就是那把又锋利又精准的手术刀，能帮咱们选中特定区域，对亮度、颜色、效果、细节等进行单独调整（图2）。之前讲的工具都是针对照片整体，学会蒙",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4r9cw5XpW7l",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-masks-beginner-to-pro-图文实录.html",
+      "svg": "lr-masks-beginner-to-pro-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 18,
+    "svg_height": 2801,
+    "slug": "lr-masks-beginner-to-pro"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "解锁隐藏功能｜LR蒙版可调工具详解！",
+    "summary": "[种草R]家人们！东哥又来带着大家玩转 LR 修图啦💥！今天咱们重点盘一盘蒙版里的修图选项和编辑里的选项到底有啥不一样！\n\t\n[种草R]点开蒙版能看到 “亮度、颜色、效果、细节、光学” 几个工具（图2），编辑里有 “自动、亮度、颜色、模糊、",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A9k8Bqy1wBk",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-mask-adjustable-tools-图文实录.html",
+      "svg": "lr-mask-adjustable-tools-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 2337,
+    "slug": "lr-mask-adjustable-tools"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR亮度底层逻辑大揭秘｜告别瞎调乱调",
+    "summary": "[种草R]家人们👋，我是东哥～今天是咱们的第六节修图课，来讲最基础、超重要但又是用得最多的 LR 亮度调整工具，进入正题前还是提醒一下，需要最新版APP的关注➕群哦！✨\n\t\n[种草R]“亮度”在软件下边“编辑”工具栏中的第二个，是个类似太阳",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/63R7bOkwZn0",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-luminance-underlying-logic-图文实录.html",
+      "svg": "lr-luminance-underlying-logic-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 9,
+    "svg_height": 2345,
+    "slug": "lr-luminance-underlying-logic"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "必学！｜LR亮度工具保姆级实操教程来了！",
+    "summary": "🎨家人们！东哥带着超实用的 LR 亮度工具修图干货来啦，零基础也能轻松上手～​\n\t\n📌修图前先回忆，亮度从暗到明分 5 个区域：黑色 - 阴影 - 曝光 - 高光 - 白色，对应 LR 里的黑色色阶（最暗） - 阴影（较暗） - 曝光度（正",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2sL0rrabbq4",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-luminance-tool-practice-图文实录.html",
+      "svg": "lr-luminance-tool-practice-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 13,
+    "svg_height": 2508,
+    "slug": "lr-luminance-tool-practice"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR 线性蒙版实操干货！看完还不会你找我！",
+    "summary": "[种草R]家人们，上一期东哥带大家初步认识了蒙版的分类和基本工具。这一期，直接上实操，教大家 AI 识别蒙版和线性蒙版究竟怎么用！\n\t\n🎈AI 识别蒙版回顾\nAI 识别蒙版包含选择主体、选择天空和选择背景。这仨都是自动识别，随后再按需调整，",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1TcBjTLGYSY",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-linear-gradient-mask-图文实录.html",
+      "svg": "lr-linear-gradient-mask-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 18,
+    "svg_height": 2807,
+    "slug": "lr-linear-gradient-mask"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "超实用！Lightroom修图技巧开课了！",
+    "summary": "▶️认识Lightroom\n\t\n🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色APP，叫Lightroom。不管你是摄影小白，还是修图大神，都能在里面找到乐趣。今天主要就是带大家初步认识一下它，后面我会一步一步，从简单到复杂，仔仔细细地教",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/H7xjRuXtWz",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-intro-classroom-图文实录.html",
+      "svg": "lr-intro-classroom-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 6,
+    "svg_height": 2063,
+    "slug": "lr-intro-classroom"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "不藏了！巧用直方图｜3 分钟调出大师级照片",
+    "summary": "[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感照片！\n\t\n🎈分析大师作品\n先看图 2，是日本摄影师滨田英明的作品。再看图 3，其直方图显示绝大多数像素集中在高光区域和白色区域。这就是我们修图要参考的方向啦。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/49oST0OiOtT",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-histogram-3min-master-图文实录.html",
+      "svg": "lr-histogram-3min-master-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 14,
+    "svg_height": 2568,
+    "slug": "lr-histogram-3min-master"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔥2分钟看懂直方图｜轻松告别瞎调乱调！",
+    "summary": "[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直接上手修图，可它绝对是修图的关键密码，掌握看直方图的技巧，修图能力直接起飞🛫今天东哥手把手带家人们认识这个“修图神器”，赶紧先码住🌟\n\t\n[一R]快速锁定直方图",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6hzzq78g2lC",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-histogram-2min-guide-图文实录.html",
+      "svg": "lr-histogram-2min-guide-理性分析.svg"
+    },
+    "screenshot_count": 18,
+    "transcript_segments": 18,
+    "svg_height": 2813,
+    "slug": "lr-histogram-2min-guide"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR 细节调整工具，90%的人没搞懂它✨",
+    "summary": "[种草R]家人们，我是东哥。今天给大家讲解 Lightroom 里细节调整工具！\n\t\n🎈前期准备\n[种草R]打开 Lightroom 软件，在“编辑”里就可以找到“细节”工具了。点开“细节”可以看到有“锐化”和两个“杂色”，实际上第一个“杂",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AAY47qtIPFu",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-detail-panel-explained-图文实录.html",
+      "svg": "lr-detail-panel-explained-理性分析.svg"
+    },
+    "screenshot_count": 9,
+    "transcript_segments": 9,
+    "svg_height": 2253,
+    "slug": "lr-detail-panel-explained"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "超实用！Lightroom修图技巧大课堂（裁剪）",
+    "summary": "🌱家人们，今天来继续唠手机Lightroom！\n\t\n🌱这软件有免费功能，也有付费的。需要全功能免费安装包的，关注➕群获取哦，开始进入正题\n\t\n▶️下面进入正题：🖌️裁剪工具及神奇操作\n\t\n[一R]自由旋转：点开“裁剪”，能看到图片下面有一排",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5OYkRkeWTgw",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-crop-classroom-图文实录.html",
+      "svg": "lr-crop-classroom-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 14,
+    "svg_height": 2570,
+    "slug": "lr-crop-classroom"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "吐血整理❗LR 色彩理论基础干货",
+    "summary": "[种草R]家人门，咱们马上要进入 Lightroom 颜色工具的学习啦，像颜色曲线、颜色分级、颜色混合这些。不过在这之前，今天专门出一期色彩基础知识📖 这可太重要了，一定要拿小本本记好，最好刻进 DNA 里，后面用工具的时候才能游刃有余～\n",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/99XPstCkig3",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-theory-basics-图文实录.html",
+      "svg": "lr-color-theory-basics-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 6,
+    "svg_height": 2106,
+    "slug": "lr-color-theory-basics"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR 修图干货 | 手把手教你拿捏色彩密码",
+    "summary": "[种草R]家人们👋，我是东哥，今儿带大家解锁 LR 里超牛的 “颜色” 工具！打开 LR 的 “编辑”，再点 “颜色”，一堆调色法宝就出现啦。\n\t\n[种草R]这里有 “黑白”“分级”“混合”，下面一行是 “白平衡”“原照设置” （点开旁边下",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2eIWVLHnqRz",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-secrets-hands-on-图文实录.html",
+      "svg": "lr-color-secrets-hands-on-理性分析.svg"
+    },
+    "screenshot_count": 16,
+    "transcript_segments": 16,
+    "svg_height": 2490,
+    "slug": "lr-color-secrets-hands-on"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "别再乱调LR参数啦！颜色混合工具很关键！",
+    "summary": "[种草R]家人们，今天来唠唠Lightroom里超重要的颜色混合调整工具-颜色混合，真的很重要哦！\n\t\n🎨前期准备\n[种草R]我们先看看图2中间个粉红色的气球，用三句话描述：这个气球是“粉红色”，它的颜色很“淡”，这个气球很“亮”。其实这三",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1XSQlxr9QZx",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-mixer-why-it-matters-图文实录.html",
+      "svg": "lr-color-mixer-why-it-matters-理性分析.svg"
+    },
+    "screenshot_count": 14,
+    "transcript_segments": 14,
+    "svg_height": 2520,
+    "slug": "lr-color-mixer-why-it-matters"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "一招告别小白称号|LR 颜色混合实战来了！",
+    "summary": "[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片，轻松把枫叶原图调出不同风格，让春天秒变秋天或夏天🍁，小白也能秒上手，赶紧学起来！\n\t\n🌟先来看看案例\n图2是枫叶原图，颜色以绿色、橙色、红色为主，整体偏黄绿。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7znHzTpZKjO",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-mixer-practice-图文实录.html",
+      "svg": "lr-color-mixer-practice-理性分析.svg"
+    },
+    "screenshot_count": 17,
+    "transcript_segments": 17,
+    "svg_height": 2814,
+    "slug": "lr-color-mixer-practice"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔥LR颜色分级｜风格调色必学工具",
+    "summary": "[种草R]家人们，今天东哥带你们玩转 Lightroom 里超牛的颜色分级工具！打开 Lightroom，打开颜色便可找到颜色分级工具\n\t\n一、颜色分级是啥\n[种草R]简单讲，它如同厉害的 “分区染色师”，把照片按明暗分成阴影、中间调、高光",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6CXXFtWmZlO",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-grading-tool-intro-图文实录.html",
+      "svg": "lr-color-grading-tool-intro-理性分析.svg"
+    },
+    "screenshot_count": 11,
+    "transcript_segments": 11,
+    "svg_height": 2253,
+    "slug": "lr-color-grading-tool-intro"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔥风格调色必学｜LR颜色分级实战教程",
+    "summary": "[种草R]家人们，之前给大家讲了颜色混合和颜色分级工具的原理和使用方法。今天，我想通过详细解析从图2到图3的蜕变过程，为大家带来一场颜色混合与颜色分级工具协同运用的实战演示。\n\t\n🎨前期分析\n先看图2，颜色较丰富，黄的蓝的红的棕的啥都有。但",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/58b8PZFe6OS",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-color-grading-style-practice-图文实录.html",
+      "svg": "lr-color-grading-style-practice-理性分析.svg"
+    },
+    "screenshot_count": 15,
+    "transcript_segments": 15,
+    "svg_height": 2573,
+    "slug": "lr-color-grading-style-practice"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "掌握LR 画笔蒙版！👉1 招搞定随性修图",
+    "summary": "[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！\n\t\n🎨画笔蒙版使用要点\n[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3cpYJkMLlnk",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-brush-mask-图文实录.html",
+      "svg": "lr-brush-mask-理性分析.svg"
+    },
+    "screenshot_count": 15,
+    "transcript_segments": 15,
+    "svg_height": 2573,
+    "slug": "lr-brush-mask"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "必须玩明白的LR修图工具：模糊！",
+    "summary": "[种草R]大家好！我是东哥😭！之前居然把超好用的“模糊”工具讲漏了！收到小伙伴提醒才发现，今天必须补上这份保姆级教程！\n\t\n💡功能作用\n这个镜头模糊功能简直是手机摄影的“外挂”！能一键虚化背景，完美模拟大光圈镜头的浅景深效果✨。\n\t\n📱操作",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AqxKKmnaXcs",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-blur-tool-explained-图文实录.html",
+      "svg": "lr-blur-tool-explained-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 2339,
+    "slug": "lr-blur-tool-explained"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "五一必学｜ LR 批量修图｜5秒调出100张照片",
+    "summary": "​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR 的批量修图功能直接封神！手残党也能秒变修图大师✨，手把手教你快速出片，5秒搞定 100 张照片，赶紧码住学起来！​\n\t\n一、导入照片​\n1⃣ 打开 Light",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/59aSU3Rzdzo",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-batch-edit-100-photos-图文实录.html",
+      "svg": "lr-batch-edit-100-photos-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 10,
+    "svg_height": 2312,
+    "slug": "lr-batch-edit-100-photos"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "LR修图党狂喜！动作（魔法棒）功能全解析！",
+    "summary": "家人们！东哥带着新版LR超神功能来啦💥！今天掰开揉碎讲新版LR的动作（魔法棒）功能，手把手教你从修图小白逆袭成大神！​\n\t\n✨【魔法棒工具大揭秘】​\n点开LR首页第一个图标🪄，这里面藏着5个宝藏工具（图2），每个都超实用！​\n\t\n1⃣自动：",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8l8ulTlqMUP",
+    "duration": "0秒",
+    "outputs": {
+      "html": "lr-actions-magic-wand-图文实录.html",
+      "svg": "lr-actions-magic-wand-理性分析.svg"
+    },
+    "screenshot_count": 12,
+    "transcript_segments": 12,
+    "svg_height": 2355,
+    "slug": "lr-actions-magic-wand"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "【灯光教程三】5个神器提升视频氛围感！",
+    "summary": "「【灯光教程三】5个神器提升视频氛围感！」教程要点：好各位我是Tim → 欢迎收看本期视剧风 → 灯光这个东西真的特别爆炸 → 尤其是对于UP主来说；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ANFQz9qfQjM",
+    "duration": "9分07秒",
+    "outputs": {
+      "html": "lighting-tutorial-3-atmosphere-tools-图文实录.html",
+      "svg": "lighting-tutorial-3-atmosphere-tools-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "lighting-tutorial-3-atmosphere-tools"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "【灯光教程二】为什么我打的灯这么暗？",
+    "summary": "「【灯光教程二】为什么我打的灯这么暗？」教程要点：好各位我是Tim → 欢迎收看本期影视飓风 → 这是我们灯光科普的第二期 → 上一次我们理解了灯光的性质；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A6FBKccmiJE",
+    "duration": "8分48秒",
+    "outputs": {
+      "html": "lighting-tutorial-2-why-so-dim-图文实录.html",
+      "svg": "lighting-tutorial-2-why-so-dim-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "lighting-tutorial-2-why-so-dim"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "【灯光教程一】摄影灯和你家里的灯有啥区别",
+    "summary": "「【灯光教程一】摄影灯和你家里的灯有啥区别」教程要点：这是一盏灯 它的功率是800瓦 → 而它现在发射出的光是映光 → 打到我的脸上是这样的 → 丑陋又无趣；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/99fTyeOqujC",
+    "duration": "9分05秒",
+    "outputs": {
+      "html": "lighting-tutorial-1-photo-vs-home-lights-图文实录.html",
+      "svg": "lighting-tutorial-1-photo-vs-home-lights-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "lighting-tutorial-1-photo-vs-home-lights"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "吃透光影色彩摄影底层原理实拍落地全套实操",
+    "summary": "「吃透光影色彩摄影底层原理实拍落地全套实操」教程要点：很多朋友学光影色彩都习惯死计固定参数 → 其实搞懂核心原理后完全可以按需调整 → 甚至突破常规规则 → 咱今天直接从光线落在物体上的实际呈现逻辑讲起；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5WcLPFCPkQt",
+    "duration": "13分05秒",
+    "outputs": {
+      "html": "light-shadow-color-full-practice-图文实录.html",
+      "svg": "light-shadow-color-full-practice-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "light-shadow-color-full-practice"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "人性真相｜善良的人，一定要带点锋芒",
+    "summary": "你是那个实在善良的人吗？ 有没有因为太真诚受过委屈？👇",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "成长",
+      "人际",
+      "观点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4nx9hbI1IAX",
+    "duration": "0秒",
+    "outputs": {
+      "html": "kindness-with-edge-human-nature-图文实录.html",
+      "svg": "kindness-with-edge-human-nature-理性分析.svg"
+    },
+    "screenshot_count": 13,
+    "transcript_segments": 13,
+    "svg_height": 2285,
+    "slug": "kindness-with-edge-human-nature"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "ISO 25600，真的是相机犯蠢了吗？",
+    "summary": "「ISO 25600，真的是相机犯蠢了吗？」教程要点：你拍鸟,快门射1600分之一秒,光圈射F9,结果相机直接给你ISO25600,你第一反应是什么? → 这自动ISO也太蠢了吧,但我们今天就算一笔账,在这个光线条件下,你坚持1600分之一",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9tpjqka4kX6",
+    "duration": "5分31秒",
+    "outputs": {
+      "html": "iso-25600-camera-not-stupid-图文实录.html",
+      "svg": "iso-25600-camera-not-stupid-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "iso-25600-camera-not-stupid"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "华为→阿里云跳槽复盘",
+    "summary": "分享一个真实的求职陪跑案例，华为跳槽阿里云。\n\t\n先说我带的这个案例。\n\t\nBG：学员之前在华为，做偏硬件和交付的技术活，底子很扎实，扛过不少复杂交付。\n这种人在体系里是被认真打磨过的：流程、闭环、对齐、扛指标，样样在行。\n他想往 AI 云",
+    "primary": "workplace",
+    "skills": [],
+    "tags": [
+      "求职",
+      "跳槽",
+      "复盘"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3gJQUxGgiWW",
+    "duration": "0秒",
+    "outputs": {
+      "html": "huawei-to-aliyun-job-switch-review-图文实录.html",
+      "svg": "huawei-to-aliyun-job-switch-review-理性分析.svg"
+    },
+    "screenshot_count": 5,
+    "transcript_segments": 5,
+    "svg_height": 2093,
+    "slug": "huawei-to-aliyun-job-switch-review"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "拿哈苏和手机拍完一组照片我开始怀疑清晰了",
+    "summary": "「拿哈苏和手机拍完一组照片我开始怀疑清晰了」教程要点：如果今天只能带一台出门 → 我可能会把这台几万块的哈苏放在家里 → 带一台手机 → 不是因为手机已经超过了哈苏；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/92vE9LIZ9YQ",
+    "duration": "3分38秒",
+    "outputs": {
+      "html": "hasselblad-vs-phone-sharpness-图文实录.html",
+      "svg": "hasselblad-vs-phone-sharpness-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "hasselblad-vs-phone-sharpness"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "害怕和陌生人搭话？这五招让你轻松开口",
+    "summary": "「害怕和陌生人搭话？这五招让你轻松开口」教程要点：You're at a party you didn't want to come to. → You walk into the kitchen and there's a strange",
+    "primary": "other",
+    "skills": [],
+    "tags": [
+      "成长",
+      "人际",
+      "观点"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AxxGjOQm4th",
+    "duration": "9分34秒",
+    "outputs": {
+      "html": "five-tips-talking-to-strangers-图文实录.html",
+      "svg": "five-tips-talking-to-strangers-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "five-tips-talking-to-strangers"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "摄影的底层逻辑：4分钟彻底搞懂曝光补偿",
+    "summary": "「摄影的底层逻辑：4分钟彻底搞懂曝光补偿」教程要点：为什么你眼里的白雪,一进相机就变成了灰雪? → 为什么月亮明明有纹理,相机偏要拍成一个白灯泡? → 相机不是不会拍,它是故意这么拍的 → 因为它有一套自己的曝光标准；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5C6jMA81Jfb",
+    "duration": "4分30秒",
+    "outputs": {
+      "html": "exposure-compensation-4min-图文实录.html",
+      "svg": "exposure-compensation-4min-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "exposure-compensation-4min"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色思路｜基于明暗实现颜色分级",
+    "summary": "「达芬奇调色思路｜基于明暗实现颜色分级」教程要点：大家在调色的时候你一定要关注你索条画面的明暗的分布 → 因为它会影响你整个画面的风格化的颜色的处理 → 包括在这个里面的肤色的控制 → 你只要理清了你画面的明暗的分布；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "Lightroom",
+      "修图",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9Lh0DyANH7A",
+    "duration": "6分38秒",
+    "outputs": {
+      "html": "davinci-luma-based-color-grading-图文实录.html",
+      "svg": "davinci-luma-based-color-grading-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-luma-based-color-grading"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "100年来拍电影只用三盏灯",
+    "summary": "💡 给你一个数字：\n100。\n影视行业用了100年，拍电影用的最经典的布光法则——\n三盏灯。\n\t\n对，你没看错。\n三盏。\n\t\n从好莱坞大片到电视剧到短视频，\n不管你看到画面多复杂，\n底层逻辑都是这三盏灯。\n\t\n哪三盏？\n🎯 第1盏：轮廓光（",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/68e8mATwpbs",
+    "duration": "0秒",
+    "outputs": {
+      "html": "century-three-point-cinema-lights-图文实录.html",
+      "svg": "century-three-point-cinema-lights-理性分析.svg"
+    },
+    "screenshot_count": 3,
+    "transcript_segments": 3,
+    "svg_height": 1854,
+    "slug": "century-three-point-cinema-lights"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "拍鸟总糊？3 个对焦技巧比动物眼识别好用",
+    "summary": "「拍鸟总糊？3 个对焦技巧比动物眼识别好用」教程要点：为什么你拍鸟,明明开着动物眼识别 → 最后还是一段废片,很可能不是相机不行 → 是你太相信自动对焦了 → 我以前也一样,有一次拍一只环；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8tBNOZikg65",
+    "duration": "3分11秒",
+    "outputs": {
+      "html": "bird-focus-three-tips-图文实录.html",
+      "svg": "bird-focus-three-tips-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "bird-focus-three-tips"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "一学就会｜头像照基础布光保姆级教程！📸",
+    "summary": "「一学就会｜头像照基础布光保姆级教程！📸」教程要点：早上晚點吃飯 → 繼續做我的akers → 舞蹈練習 → 早上做個智力；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "光影",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Ax8Q63F7OP8",
+    "duration": "1分10秒",
+    "outputs": {
+      "html": "avatar-portrait-basic-lighting-图文实录.html",
+      "svg": "avatar-portrait-basic-lighting-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 2172,
+    "slug": "avatar-portrait-basic-lighting"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "为什么你的照片没有高级感是颜色没说对话",
+    "summary": "「为什么你的照片没有高级感是颜色没说对话」教程要点：为什么同样一台相机 → 别人拍出来像电影海报 → 你拍出来却像朋友圈记录 → 很多人第一反应是；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "小红书",
+      "教程"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4l1uo4gq2p3",
+    "duration": "4分24秒",
+    "outputs": {
+      "html": "advanced-look-is-color-dialogue-图文实录.html",
+      "svg": "advanced-look-is-color-dialogue-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "advanced-look-is-color-dialogue"
+  },
+  {
+    "date": "2026-11-07",
     "title": "达芬奇高级穿梭缩放遮罩转场｜氛围感镜头切",
-    "summary": "达芬奇高级穿梭缩放遮罩转场｜氛围感镜头切",
+    "summary": "「达芬奇高级穿梭缩放遮罩转场｜氛围感镜头切」教程要点：想在达芬奇里做出丝滑的穿梭缩放就照转场 → 跟着这几步操作就可以轻松完成 → 第一步先给第一段素材打上位移加缩放的关键针 → 让画面在结尾这一针完全移出屏幕…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -20,8 +1485,7 @@
     "screenshot_count": 8,
     "transcript_segments": 21,
     "svg_height": 2172,
-    "slug": "davinci-zoom-shuttle-mask-transition",
-    "tool": "davinci"
+    "slug": "davinci-zoom-shuttle-mask-transition"
   },
   {
     "date": "2026-11-07",
@@ -46,13 +1510,12 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 2172,
-    "slug": "davinci-wongkarwai-freeze-frames",
-    "tool": "davinci"
+    "slug": "davinci-wongkarwai-freeze-frames"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇水波滑动转场开场制作动画教程",
-    "summary": "达芬奇水波滑动转场开场制作动画教程",
+    "summary": "「达芬奇水波滑动转场开场制作动画教程」教程要点：今天教大家如何在达芬奇里面制作出水波滑动的效果 → 先把音频拖动到时间线上 → 删除多余的音频轨道 → 然后右键音频显示音乐协拍…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -70,13 +1533,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2204,
-    "slug": "davinci-water-slide-transition",
-    "tool": "davinci"
+    "slug": "davinci-water-slide-transition"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇水波文字水面漂浮文字动画制作教程",
-    "summary": "达芬奇水波文字水面漂浮文字动画制作教程",
+    "summary": "「达芬奇水波文字水面漂浮文字动画制作教程」教程要点：今天教大家在达奔起里面 → 如何做出这种漂浮在水面上的水波文字的效果 → 首先第一步打开媒体池 → 拨入我们的水面素材到第一条视频轨道上…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -94,13 +1556,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-water-ripple-text",
-    "tool": "davinci"
+    "slug": "davinci-water-ripple-text"
   },
   {
     "date": "2026-11-07",
     "title": "✅达芬奇竖版文字幕制作教程",
-    "summary": "✅达芬奇竖版文字幕制作教程",
+    "summary": "「✅达芬奇竖版文字幕制作教程」教程要点：在达分器中如何制作竖板的文字 → 先选对工具,必须用Text加 → 功能全,可调参数多 → 在特效库中找到Text加…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -118,8 +1579,7 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 2172,
-    "slug": "davinci-vertical-text-subtitles",
-    "tool": "davinci"
+    "slug": "davinci-vertical-text-subtitles"
   },
   {
     "date": "2026-11-07",
@@ -143,8 +1603,7 @@
     "screenshot_count": 8,
     "transcript_segments": 4,
     "svg_height": 2141,
-    "slug": "davinci-typewriter-text-effect",
-    "tool": "davinci"
+    "slug": "davinci-typewriter-text-effect"
   },
   {
     "date": "2026-11-07",
@@ -167,14 +1626,13 @@
     "screenshot_count": 8,
     "transcript_segments": 7,
     "svg_height": 2204,
-    "slug": "davinci-timeline-zoom",
-    "tool": "davinci"
+    "slug": "davinci-timeline-zoom"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色提速🔥时间线缩略图模式🔥新手和",
-    "summary": "达芬奇调色提速🔥时间线缩略图模式🔥新手和",
-    "primary": "color-grade",
+    "summary": "「达芬奇调色提速🔥时间线缩略图模式🔥新手和」教程要点：一个设置让你达芬奇的调色效率提升10倍 → 使用达芬奇调色 → 你还在跟着剪辑时间线一个一个镜头往下调吗 → 镜头少的时候这么做完全没有问题…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -191,13 +1649,12 @@
     "screenshot_count": 8,
     "transcript_segments": 34,
     "svg_height": 2172,
-    "slug": "davinci-thumbnail-mode-speedup",
-    "tool": "davinci"
+    "slug": "davinci-thumbnail-mode-speedup"
   },
   {
     "date": "2026-11-07",
     "title": "穩定防抖：达芬奇的三种稳定方式",
-    "summary": "穩定防抖：达芬奇的三种稳定方式",
+    "summary": "「穩定防抖：达芬奇的三种稳定方式」教程要点：达芬奇里面三种稳定方式 → 1. 剪辑面板、检查器,选择素材,稳定 → 2. 调色面板,找到跟踪与稳定,选择第二个,点击稳定 → 3. Fusion界面…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -215,13 +1672,12 @@
     "screenshot_count": 8,
     "transcript_segments": 12,
     "svg_height": 2109,
-    "slug": "davinci-three-stabilization-methods",
-    "tool": "davinci"
+    "slug": "davinci-three-stabilization-methods"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇文字穿越片头转场做法 用达芬奇做文",
-    "summary": "达芬奇文字穿越片头转场做法 用达芬奇做文",
+    "summary": "「达芬奇文字穿越片头转场做法 用达芬奇做文」教程要点：达芬奇做出超有氛围感的文字穿越片头转场 → 步骤简单,新手也能轻松上手 → 首先打开达芬奇,导入第一段视频素材 → 在一段视频主体出画的时候进行裁切…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -239,13 +1695,12 @@
     "screenshot_count": 8,
     "transcript_segments": 14,
     "svg_height": 2172,
-    "slug": "davinci-text-pass-through-intro",
-    "tool": "davinci"
+    "slug": "davinci-text-pass-through-intro"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇切换中文版本 达芬奇中英文版本切换",
-    "summary": "达芬奇切换中文版本 达芬奇中英文版本切换",
+    "summary": "「达芬奇切换中文版本 达芬奇中英文版本切换」教程要点：如果你的达芬奇是英文版本的,如何切换到中文版本 → 首先在软件左上角点击达芬奇,选择倒数第二个 → 在打开的菜单页面里面,选择第二个 → 在第一列里面改成中文就可以了,点击保存…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -263,8 +1718,7 @@
     "screenshot_count": 8,
     "transcript_segments": 5,
     "svg_height": 1940,
-    "slug": "davinci-switch-chinese-ui",
-    "tool": "davinci"
+    "slug": "davinci-switch-chinese-ui"
   },
   {
     "date": "2026-11-07",
@@ -287,13 +1741,12 @@
     "screenshot_count": 8,
     "transcript_segments": 15,
     "svg_height": 2172,
-    "slug": "davinci-surface-tracker",
-    "tool": "davinci"
+    "slug": "davinci-surface-tracker"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇分屏效果 达芬奇分屏 达芬奇分屏效果",
-    "summary": "达芬奇分屏效果 达芬奇分屏 达芬奇分屏效果",
+    "summary": "「达芬奇分屏效果 达芬奇分屏 达芬奇分屏效果」教程要点：还在到处找达芬奇分评教程 → 今天一条视频讲完四种主流做法 → 看完直接上手 → 第一种方法,利用参考线…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -311,13 +1764,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-split-screen",
-    "tool": "davinci"
+    "slug": "davinci-split-screen"
   },
   {
     "date": "2026-11-07",
     "title": "音乐突然骤停？达芬奇这样处理超丝滑！ 很多",
-    "summary": "音乐突然骤停？达芬奇这样处理超丝滑！ 很多",
+    "summary": "「音乐突然骤停？达芬奇这样处理超丝滑！ 很多」教程要点：音乐咔一下就停了,特别突兀,听着贼难受 → 像这样的音乐骤停,其实处理方法特别简单 → 最常用最好用的一招,就是给音乐加个键出 → 轻轻一拉,声音慢慢变小再结束,瞬间就自然了…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -335,13 +1787,12 @@
     "screenshot_count": 8,
     "transcript_segments": 10,
     "svg_height": 2172,
-    "slug": "davinci-smooth-music-cutoff",
-    "tool": "davinci"
+    "slug": "davinci-smooth-music-cutoff"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇遮罩转场｜简单遮罩转场技巧教程   高",
-    "summary": "达芬奇遮罩转场｜简单遮罩转场技巧教程   高",
+    "summary": "「达芬奇遮罩转场｜简单遮罩转场技巧教程   高」教程要点：在达芬奇里面,如何制作这种遮罩转场 → 很简单,首先将需要转场的两段素材上下排列 → 接着切换到调色页面 → 利用窗口工具对转场出现的画面进行抠像…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -359,13 +1810,12 @@
     "screenshot_count": 8,
     "transcript_segments": 11,
     "svg_height": 2172,
-    "slug": "davinci-simple-mask-transition",
-    "tool": "davinci"
+    "slug": "davinci-simple-mask-transition"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇场景剪切探测，自动识别剪切点，方便日",
-    "summary": "达芬奇场景剪切探测，自动识别剪切点，方便日",
+    "summary": "「达芬奇场景剪切探测，自动识别剪切点，方便日」教程要点：达芬奇场景剪写探测,自动识别剪写点,方便日常拉片或者预览 → 总共有两个地方可以进行操作 → 一,在媒体面板里面找到需要剪写的素材 → 右键点击场景剪写探测…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -383,13 +1833,12 @@
     "screenshot_count": 8,
     "transcript_segments": 11,
     "svg_height": 2172,
-    "slug": "davinci-scene-cut-detection",
-    "tool": "davinci"
+    "slug": "davinci-scene-cut-detection"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇保存和归档方式",
-    "summary": "达芬奇保存和归档方式",
+    "summary": "「达芬奇保存和归档方式」教程要点：达芬奇集中保存和归档方式 → 达芬奇提供了多种保存与归档方案 → 覆盖从实时自动保护到完整项目打包的全流程需求 → 1.实时自动保存…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -407,8 +1856,7 @@
     "screenshot_count": 8,
     "transcript_segments": 25,
     "svg_height": 2172,
-    "slug": "davinci-save-and-archive",
-    "tool": "davinci"
+    "slug": "davinci-save-and-archive"
   },
   {
     "date": "2026-11-07",
@@ -431,13 +1879,12 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 2172,
-    "slug": "davinci-ripple-audio-breath-cuts",
-    "tool": "davinci"
+    "slug": "davinci-ripple-audio-breath-cuts"
   },
   {
     "date": "2026-11-07",
     "title": "口播气口停顿处理四楼达芬奇平滑剪切教程",
-    "summary": "口播气口停顿处理四楼达芬奇平滑剪切教程",
+    "summary": "「口播气口停顿处理四楼达芬奇平滑剪切教程」教程要点：剪辑口播视频,很容易出现气口或者停顿 → 剪辑掉这些无效片段后,又会出现卡顿和明显的剪辑感 → 使用达芬奇的平滑剪接,可以一键处理掉这个问题 → 这段视频我把中间的一段剪辑掉了…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -455,8 +1902,7 @@
     "screenshot_count": 8,
     "transcript_segments": 9,
     "svg_height": 2172,
-    "slug": "davinci-ripple-audio-breath-cuts-2",
-    "tool": "davinci"
+    "slug": "davinci-ripple-audio-breath-cuts-2"
   },
   {
     "date": "2026-11-07",
@@ -480,13 +1926,12 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 1908,
-    "slug": "davinci-replace-preview-cover",
-    "tool": "davinci"
+    "slug": "davinci-replace-preview-cover"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇远程版本 达芬奇远程版本 达芬奇远程",
-    "summary": "达芬奇远程版本 达芬奇远程版本 达芬奇远程",
+    "summary": "「达芬奇远程版本 达芬奇远程版本 达芬奇远程」教程要点：什么是达芬奇的远程版本? → 通俗讲解,远程版本就是达芬奇里全局同步的调色版本 → 只要是同一个原始素材,不管放在多少条时间线、多少个位置 → 用了同一个远程版本,改一处,全部同步变…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -504,14 +1949,13 @@
     "screenshot_count": 8,
     "transcript_segments": 16,
     "svg_height": 2172,
-    "slug": "davinci-remote-versions",
-    "tool": "davinci"
+    "slug": "davinci-remote-versions"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇暗部恢复 达芬奇暗部 达芬奇暗部恢复",
-    "summary": "达芬奇暗部恢复 达芬奇暗部 达芬奇暗部恢复",
-    "primary": "color-grade",
+    "summary": "「达芬奇暗部恢复 达芬奇暗部 达芬奇暗部恢复」教程要点：暗部细节全没了 → 拉亮度就发挥国报 → 打分期一分钟就回你的废片 → 第一步,打开曲线面板…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -528,8 +1972,7 @@
     "screenshot_count": 8,
     "transcript_segments": 13,
     "svg_height": 2172,
-    "slug": "davinci-recover-shadows",
-    "tool": "davinci"
+    "slug": "davinci-recover-shadows"
   },
   {
     "date": "2026-11-07",
@@ -552,13 +1995,12 @@
     "screenshot_count": 8,
     "transcript_segments": 9,
     "svg_height": 2172,
-    "slug": "davinci-recover-lost-project",
-    "tool": "davinci"
+    "slug": "davinci-recover-lost-project"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇项目帧率设置！ 达芬奇帧率设置 达芬奇",
-    "summary": "达芬奇项目帧率设置！ 达芬奇帧率设置 达芬奇",
+    "summary": "「达芬奇项目帧率设置！ 达芬奇帧率设置 达芬奇」教程要点：在拖动视频素材到达分歧中会提示更改项目帧率 → 这个时候千万别点更改 → 因为剪片子肯定会混着不同帧率的素材 → 现在改了后面容易出问题…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -576,14 +2018,13 @@
     "screenshot_count": 8,
     "transcript_segments": 18,
     "svg_height": 2172,
-    "slug": "davinci-project-framerate",
-    "tool": "davinci"
+    "slug": "davinci-project-framerate"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇最科学的精准白平衡技巧教程方法示波",
-    "summary": "达芬奇最科学的精准白平衡技巧教程方法示波",
-    "primary": "color-grade",
+    "summary": "「达芬奇最科学的精准白平衡技巧教程方法示波」教程要点：传分器里面目前最科学的精准白平衡矫正方法 → 很多人调达分器白平衡的时候 → 还在靠肉眼去调整或者用吸管工具去吸 → 这样子很容易调不准…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -600,14 +2041,13 @@
     "screenshot_count": 8,
     "transcript_segments": 39,
     "svg_height": 2172,
-    "slug": "davinci-precise-white-balance",
-    "tool": "davinci"
+    "slug": "davinci-precise-white-balance"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇神器遮罩教程教学局部调色再也不用苦",
     "summary": "「达芬奇神器遮罩教程教学局部调色再也不用苦」教程要点：神奇遮罩绝对是大分期里面提升调色效率最重要的AI工具 → 做局部调色,单独给画面某个物体加效果,基本都离不开它 → 绝大多数常规场景下都能省下大量时间,而且上手门槛很低 → 操作步骤也很",
-    "primary": "color-grade",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -624,13 +2064,12 @@
     "screenshot_count": 8,
     "transcript_segments": 12,
     "svg_height": 2172,
-    "slug": "davinci-power-window-mask",
-    "tool": "davinci"
+    "slug": "davinci-power-window-mask"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇人物擦除显现字幕特效! 超好用的达芬",
-    "summary": "达芬奇人物擦除显现字幕特效! 超好用的达芬",
+    "summary": "「达芬奇人物擦除显现字幕特效! 超好用的达芬」教程要点：用达芬奇制作超实用的字幕显现消失擦除效果 → 步骤很简单,跟着操作就能学会 → 这个效果理解起来很简单 → 最底层是原视频背景,中间一层是字幕,最上层是人物…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -648,13 +2087,12 @@
     "screenshot_count": 8,
     "transcript_segments": 23,
     "svg_height": 2172,
-    "slug": "davinci-person-reveal-subtitle",
-    "tool": "davinci"
+    "slug": "davinci-person-reveal-subtitle"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇人物遮挡文字 达芬奇遮挡文字 达芬奇",
-    "summary": "达芬奇人物遮挡文字 达芬奇遮挡文字 达芬奇",
+    "summary": "「达芬奇人物遮挡文字 达芬奇遮挡文字 达芬奇」教程要点：达芬奇一分钟制作人物遮挡文字效果 → 步骤简单,跟着操作就行了 → 先导入素材 → 接着添加需要展示的文字…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -672,13 +2110,12 @@
     "screenshot_count": 8,
     "transcript_segments": 22,
     "svg_height": 2172,
-    "slug": "davinci-person-occlude-text",
-    "tool": "davinci"
+    "slug": "davinci-person-occlude-text"
   },
   {
     "date": "2026-11-07",
     "title": "🔮达芬奇｜如何制作翻页效果",
-    "summary": "🔮达芬奇｜如何制作翻页效果",
+    "summary": "「🔮达芬奇｜如何制作翻页效果」教程要点：如何用达芬奇做出这样的翻页效果 → 首先把素材依次拖到剪辑轨道 → 让每个素材都铺满全屏 → 再调整片段的时长…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -696,13 +2133,12 @@
     "screenshot_count": 8,
     "transcript_segments": 26,
     "svg_height": 2172,
-    "slug": "davinci-page-turn-effect",
-    "tool": "davinci"
+    "slug": "davinci-page-turn-effect"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇光流补帧 达芬奇光流补帧 达芬奇光流",
-    "summary": "达芬奇光流补帧 达芬奇光流补帧 达芬奇光流",
+    "summary": "「达芬奇光流补帧 达芬奇光流补帧 达芬奇光流」教程要点：视频慢放掉真卡顿,使用达芬奇一键解决 → 方法超简单,现在剪辑界面把视频做好变速 → 我的时间线是30帧的,素材是60帧 → 我直接一个0.1倍速…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -720,13 +2156,12 @@
     "screenshot_count": 8,
     "transcript_segments": 9,
     "svg_height": 2172,
-    "slug": "davinci-optical-flow-retiming",
-    "tool": "davinci"
+    "slug": "davinci-optical-flow-retiming"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇物体划屏超酷足球滑屏遮罩转场效果",
-    "summary": "达芬奇物体划屏超酷足球滑屏遮罩转场效果",
+    "summary": "「达芬奇物体划屏超酷足球滑屏遮罩转场效果」教程要点：一分钟教会你在达芬奇里面制作物体滑屏遮罩转场 → 首先把三段素材分层摆放到时间轴上 → 踩掉多余的时长 → 选中这三段素材右键新键飞旋频段…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -744,13 +2179,12 @@
     "screenshot_count": 8,
     "transcript_segments": 22,
     "svg_height": 2172,
-    "slug": "davinci-object-wipe-transition",
-    "tool": "davinci"
+    "slug": "davinci-object-wipe-transition"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇剪辑面板自带的Fusion特效挨个做个介",
-    "summary": "达芬奇剪辑面板自带的Fusion特效挨个做个介",
+    "summary": "「达芬奇剪辑面板自带的Fusion特效挨个做个介」教程要点：达芬奇剪辑面板自带的Fusion特效挨个做个介绍 → 达芬奇剪辑面板自带的特效并不是很多 → 但都是比较具有代表性的 → 如果觉得比较少的话…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -768,14 +2202,13 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-note-25",
-    "tool": "davinci"
+    "slug": "davinci-note-25"
   },
   {
     "date": "2026-11-07",
     "title": "使用达芬奇轻松让人物肤色高级自然皮肤调整",
-    "summary": "使用达芬奇轻松让人物肤色高级自然皮肤调整",
-    "primary": "color-grade",
+    "summary": "「使用达芬奇轻松让人物肤色高级自然皮肤调整」教程要点：使用达芬奇轻松浪人物肤色高级自然 → 首先打开HSL限定器 → 吸取正常的皮肤 → 把人物的皮肤选取出来…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -792,13 +2225,12 @@
     "screenshot_count": 8,
     "transcript_segments": 26,
     "svg_height": 2172,
-    "slug": "davinci-natural-skin-tone",
-    "tool": "davinci"
+    "slug": "davinci-natural-skin-tone"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇制作超酷人物运动背景流动模糊特效",
-    "summary": "达芬奇制作超酷人物运动背景流动模糊特效",
+    "summary": "「达芬奇制作超酷人物运动背景流动模糊特效」教程要点：使用达芬奇轻松做出超有电影感的人物运动背景模糊效果 → 首先来到剪辑页面 → 把素材向上复制一个 → 选中上下两段素材右键…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -816,13 +2248,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-motion-blur-background",
-    "tool": "davinci"
+    "slug": "davinci-motion-blur-background"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇蒙版错位 达芬奇蒙版 达芬奇蒙版错位",
-    "summary": "达芬奇蒙版错位 达芬奇蒙版 达芬奇蒙版错位",
+    "summary": "「达芬奇蒙版错位 达芬奇蒙版 达芬奇蒙版错位」教程要点：在调色界面使用神器遮罩抠完物体后 → 二法通道也输出好了 → 剪辑页看着抠图完全正常,没有问题 → 但是,只要你在剪辑面板拖动画面…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -840,14 +2271,13 @@
     "screenshot_count": 8,
     "transcript_segments": 29,
     "svg_height": 2172,
-    "slug": "davinci-mask-misalignment",
-    "tool": "davinci"
+    "slug": "davinci-mask-misalignment"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇LUT安装加载和正确使用方法教程  #达",
-    "summary": "达芬奇LUT安装加载和正确使用方法教程  #达",
-    "primary": "color-grade",
+    "summary": "「达芬奇LUT安装加载和正确使用方法教程  #达」教程要点：达芬奇LUT安装加载和正确使用方法 → 首先LUT分为还原LUT和风格化LUT → 如果你拍摄的素材是灰片 → 那么就要进行一个灰片的还原…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -864,14 +2294,13 @@
     "screenshot_count": 8,
     "transcript_segments": 25,
     "svg_height": 2172,
-    "slug": "davinci-lut-install-and-use",
-    "tool": "davinci"
+    "slug": "davinci-lut-install-and-use"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇灰片还原 达芬奇灰片 达芬奇灰片还原",
-    "summary": "达芬奇灰片还原 达芬奇灰片 达芬奇灰片还原",
-    "primary": "color-grade",
+    "summary": "「达芬奇灰片还原 达芬奇灰片 达芬奇灰片还原」教程要点：log灰片还原的几种方法和最佳方式 → log灰片就是拍出来发灰发淡对比度低的素材 → 目的是保留更多细节,方便后期调色 → 介绍四种达芬奇里面不同的还原方式…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -888,14 +2317,13 @@
     "screenshot_count": 8,
     "transcript_segments": 24,
     "svg_height": 2172,
-    "slug": "davinci-log-to-rec709",
-    "tool": "davinci"
+    "slug": "davinci-log-to-rec709"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇本地版本🔥一个片段存N种调色太香了",
     "summary": "「达芬奇本地版本🔥一个片段存N种调色太香了」教程要点：什么是达芬奇的本地版本,在达芬奇里,本地版本是调色页面里,用来给单个片段单独存调色方案的功能,什么意思呢?举个例子,你在调色页面,随便找一段素材,改完色之后,想保存不同的调色方案,怎么办",
-    "primary": "color-grade",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -912,13 +2340,12 @@
     "screenshot_count": 8,
     "transcript_segments": 2,
     "svg_height": 1998,
-    "slug": "davinci-local-versions-multi-grades",
-    "tool": "davinci"
+    "slug": "davinci-local-versions-multi-grades"
   },
   {
     "date": "2026-11-07",
     "title": "🔥达芬奇光线分屏切割开场｜高级片头氛围感",
-    "summary": "🔥达芬奇光线分屏切割开场｜高级片头氛围感",
+    "summary": "「🔥达芬奇光线分屏切割开场｜高级片头氛围感」教程要点：一分鐘教會你在達芬器裡 → 製作光線分屏切割開場的效果 → 首先導入需要的素材到天線 → 再加兩段素材上下疊放…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -936,8 +2363,7 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-light-split-intro",
-    "tool": "davinci"
+    "slug": "davinci-light-split-intro"
   },
   {
     "date": "2026-11-07",
@@ -961,13 +2387,12 @@
     "screenshot_count": 8,
     "transcript_segments": 6,
     "svg_height": 1793,
-    "slug": "davinci-layer-nodes-intro",
-    "tool": "davinci"
+    "slug": "davinci-layer-nodes-intro"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇关键帧基础介绍丨常用技巧干货剪辑",
-    "summary": "达芬奇关键帧基础介绍丨常用技巧干货剪辑",
+    "summary": "「达芬奇关键帧基础介绍丨常用技巧干货剪辑」教程要点：如果达芬奇剪辑的时候 → 很多小伙伴都没有搞懂关键帧 → 今天一次性讲个不败 → 剪辑页面角色页面还有Fish页面都有关键帧…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -985,13 +2410,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-keyframes-basics",
-    "tool": "davinci"
+    "slug": "davinci-keyframes-basics"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇快捷键 达芬奇快捷键 达芬奇快捷键",
-    "summary": "达芬奇快捷键 达芬奇快捷键 达芬奇快捷键",
+    "summary": "「达芬奇快捷键 达芬奇快捷键 达芬奇快捷键」教程要点：很多刚从Pr减硬设备剪辑软件转到大奔起的小伙伴都会卡在快捷键适应之快 → 操作手感完全不对,剪辑效率直接大折扣 → 其实大奔起官方早就做好了适配方案 → 不用大家一个个手动许感线位…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1009,13 +2433,12 @@
     "screenshot_count": 8,
     "transcript_segments": 16,
     "svg_height": 2172,
-    "slug": "davinci-keyboard-shortcuts",
-    "tool": "davinci"
+    "slug": "davinci-keyboard-shortcuts"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇零基础教程｜做片头开场+片尾落幕效果",
-    "summary": "达芬奇零基础教程｜做片头开场+片尾落幕效果",
+    "summary": "「达芬奇零基础教程｜做片头开场+片尾落幕效果」教程要点：用达芬奇如何制作这样上下黑边片头开场片尾落幕效果 → 超简单,不用复杂插件,新手也能一秒搞定 → 选中需要的片段,打开检查器,找到裁切 → 再起始针给裁切顶部底部打上关键针…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1033,13 +2456,12 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 2172,
-    "slug": "davinci-intro-outro-basics",
-    "tool": "davinci"
+    "slug": "davinci-intro-outro-basics"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇导入字幕超简单!一键导入零乱码! 别",
-    "summary": "达芬奇导入字幕超简单!一键导入零乱码! 别",
+    "summary": "「达芬奇导入字幕超简单!一键导入零乱码! 别」教程要点：达芬奇一键导入字幕 → 首先记住重点 → 达芬奇指认SRT格式字幕 → 而且文件编码必须是有提拔…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1057,13 +2479,12 @@
     "screenshot_count": 8,
     "transcript_segments": 20,
     "svg_height": 2172,
-    "slug": "davinci-import-subtitles",
-    "tool": "davinci"
+    "slug": "davinci-import-subtitles"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇镂空文字穿越 达芬奇文字穿越 达芬奇",
-    "summary": "达芬奇镂空文字穿越 达芬奇文字穿越 达芬奇",
+    "summary": "「达芬奇镂空文字穿越 达芬奇文字穿越 达芬奇」教程要点：今天教大家用达芬奇 → 做出镂空文字穿越片头效果 → 新手也能一学就会 → 首先新建项目…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1081,13 +2502,12 @@
     "screenshot_count": 8,
     "transcript_segments": 20,
     "svg_height": 2172,
-    "slug": "davinci-hollow-text-pass-through",
-    "tool": "davinci"
+    "slug": "davinci-hollow-text-pass-through"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇模拟耳机听歌效果：人物戴上耳机，声音",
-    "summary": "达芬奇模拟耳机听歌效果：人物戴上耳机，声音",
+    "summary": "「达芬奇模拟耳机听歌效果：人物戴上耳机，声音」教程要点：打分起模拟耳机听歌效果,首先把歌曲拖入到实践线中 → 采集掉后面多余的片段 → 找到人物戴上耳机的那一人 → 对音频进行采集…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1105,13 +2525,12 @@
     "screenshot_count": 8,
     "transcript_segments": 11,
     "svg_height": 2172,
-    "slug": "davinci-headphone-audio-effect",
-    "tool": "davinci"
+    "slug": "davinci-headphone-audio-effect"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇 FUSION转场 达芬奇转场效果 达芬奇",
-    "summary": "达芬奇 FUSION转场 达芬奇转场效果 达芬奇",
+    "summary": "「达芬奇 FUSION转场 达芬奇转场效果 达芬奇」教程要点：达芬奇Fusion转场挨个演示 → 新手也能做出高级感转场 → 转场挨个演示 → 新手也能做出高级感转场…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1129,13 +2548,12 @@
     "screenshot_count": 8,
     "transcript_segments": 7,
     "svg_height": 2172,
-    "slug": "davinci-fusion-transitions",
-    "tool": "davinci"
+    "slug": "davinci-fusion-transitions"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇Fusion竖屏横屏切换宽高比比例调整教",
-    "summary": "达芬奇Fusion竖屏横屏切换宽高比比例调整教",
+    "summary": "「达芬奇Fusion竖屏横屏切换宽高比比例调整教」教程要点：很多同学做书版视频的时候会遇到这样一个问题 → 把横版的素材拨动到剪辑的时间线里 → 在剪辑页面看着是竖屏的效果 → 但是我们只要切回到Fish页面…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1153,13 +2571,12 @@
     "screenshot_count": 8,
     "transcript_segments": 11,
     "svg_height": 2172,
-    "slug": "davinci-fusion-aspect-ratio",
-    "tool": "davinci"
+    "slug": "davinci-fusion-aspect-ratio"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇 4 种调音量方法！ 达芬奇调整音量的",
-    "summary": "达芬奇 4 种调音量方法！ 达芬奇调整音量的",
+    "summary": "「达芬奇 4 种调音量方法！ 达芬奇调整音量的」教程要点：达芬奇调整音量的四种方法 → 第一种,直接调整音频轨道的白色控制线 → 上下滑动可以直接控制音量大小 → 按照Shift可以更加精准的控制…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1177,13 +2594,12 @@
     "screenshot_count": 8,
     "transcript_segments": 8,
     "svg_height": 2172,
-    "slug": "davinci-four-volume-methods",
-    "tool": "davinci"
+    "slug": "davinci-four-volume-methods"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇！4 种导入素材方法！  新手剪辑别再乱",
-    "summary": "达芬奇！4 种导入素材方法！  新手剪辑别再乱",
+    "summary": "「达芬奇！4 种导入素材方法！  新手剪辑别再乱」教程要点：达芬奇导入素材的四种方式 → 第一种直接拖拽 → 找到需要的素材直接拖拽到达芬奇里面就行 → 第二种在媒体存储中找到需要的素材选择添加到媒体池…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1201,13 +2617,12 @@
     "screenshot_count": 8,
     "transcript_segments": 7,
     "svg_height": 2172,
-    "slug": "davinci-four-import-methods",
-    "tool": "davinci"
+    "slug": "davinci-four-import-methods"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇闪白运动模糊转场制作教程教学   还",
-    "summary": "达芬奇闪白运动模糊转场制作教程教学   还",
+    "summary": "「达芬奇闪白运动模糊转场制作教程教学   还」教程要点：一分钟教会你在达芬奇里面制作这种闪白运动模糊转场 → 第一步先把素材都放在时间线上 → 可以根据自己的需求调整片段的时长 → 接下来是制作转场…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1225,14 +2640,13 @@
     "screenshot_count": 8,
     "transcript_segments": 33,
     "svg_height": 2172,
-    "slug": "davinci-flash-white-motion-blur",
-    "tool": "davinci"
+    "slug": "davinci-flash-white-motion-blur"
   },
   {
     "date": "2026-11-07",
     "title": "天空色彩断层？达芬奇一键修复！ 前期没调好，",
     "summary": "「天空色彩断层？达芬奇一键修复！ 前期没调好，」教程要点：前期拍摄设置不正确,导致后期天空的颜色过度不均匀出现色彩断层 → 在达芬奇里面一个操作就可以轻松搞定,在特效库里面找到去色带,拖动到节点上面 → 立马就可以看见效果,在优化下参数,色",
-    "primary": "color-grade",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1249,13 +2663,12 @@
     "screenshot_count": 8,
     "transcript_segments": 3,
     "svg_height": 1877,
-    "slug": "davinci-fix-sky-banding",
-    "tool": "davinci"
+    "slug": "davinci-fix-sky-banding"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇渲染失败？一招搞定！ 达芬奇渲染失败",
-    "summary": "达芬奇渲染失败？一招搞定！ 达芬奇渲染失败",
+    "summary": "「达芬奇渲染失败？一招搞定！ 达芬奇渲染失败」教程要点：达芬奇最头疼的问题 → 渲染失败,导出失败,导出到一半爆错 → 渲染失败最常见的几个原因 → 1.有些视频素材本身就有些莫名其妙的问题…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1273,13 +2686,12 @@
     "screenshot_count": 8,
     "transcript_segments": 19,
     "svg_height": 2204,
-    "slug": "davinci-fix-render-fail",
-    "tool": "davinci"
+    "slug": "davinci-fix-render-fail"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇显示离线媒体？一招搞定！",
-    "summary": "达芬奇显示离线媒体？一招搞定！",
+    "summary": "「达芬奇显示离线媒体？一招搞定！」教程要点：达芬奇出现离线媒体如何解决? → 离线媒体的意思是,达芬奇找不到原始素材文件 → 首先判断下离线的原因,是不是有以下几个问题 → 1.素材是否被移动,从命名或者删除…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1297,13 +2709,12 @@
     "screenshot_count": 8,
     "transcript_segments": 13,
     "svg_height": 2078,
-    "slug": "davinci-fix-offline-media",
-    "tool": "davinci"
+    "slug": "davinci-fix-offline-media"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇显示重复帧？一招搞定！",
-    "summary": "达芬奇显示重复帧？一招搞定！",
+    "summary": "「达芬奇显示重复帧？一招搞定！」教程要点：剪辑的时候肯定会反复用一些素材 → 复制多了之后满屏都是 → 看着特别乱还容易视觉疲劳 → 教你个小妙招…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1321,13 +2732,12 @@
     "screenshot_count": 8,
     "transcript_segments": 7,
     "svg_height": 2172,
-    "slug": "davinci-fix-duplicate-frames",
-    "tool": "davinci"
+    "slug": "davinci-fix-duplicate-frames"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇里面五种不同的代理优化模式！",
-    "summary": "达芬奇里面五种不同的代理优化模式！",
+    "summary": "「达芬奇里面五种不同的代理优化模式！」教程要点：达芬奇里面五种不同的代理优化模式 → 一达芬奇自带的代理生成器 Blackmagic Proxy Generator → 独立于达芬奇的专用工具 → 批量生成标准格式代理…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1345,13 +2755,12 @@
     "screenshot_count": 8,
     "transcript_segments": 22,
     "svg_height": 2172,
-    "slug": "davinci-five-proxy-modes",
-    "tool": "davinci"
+    "slug": "davinci-five-proxy-modes"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇特有的文件格式！ 达芬奇文件格式  达芬",
-    "summary": "达芬奇特有的文件格式！ 达芬奇文件格式  达芬",
+    "summary": "「达芬奇特有的文件格式！ 达芬奇文件格式  达芬」教程要点：达芬奇的文件格式一堆后缀到底啥区别 → 今天一分钟全给你讲明白 → DRX纯纯的调色信息文件 → 不带任何媒体素材…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1369,14 +2778,13 @@
     "screenshot_count": 8,
     "transcript_segments": 36,
     "svg_height": 2172,
-    "slug": "davinci-file-formats",
-    "tool": "davinci"
+    "slug": "davinci-file-formats"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇面部油光处理反光人像后期处理教程",
-    "summary": "达芬奇面部油光处理反光人像后期处理教程",
-    "primary": "color-grade",
+    "summary": "「达芬奇面部油光处理反光人像后期处理教程」教程要点：在达芬奇里面,如何处理人物皮肤油光 → 两个节点就能轻松搞定,全程只需要一分钟 → 首先进入调色页面 → 打开限定器…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1393,13 +2801,12 @@
     "screenshot_count": 8,
     "transcript_segments": 23,
     "svg_height": 2172,
-    "slug": "davinci-face-oil-shine-fix",
-    "tool": "davinci"
+    "slug": "davinci-face-oil-shine-fix"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇交付输出最终成片导出参数设置教程视",
-    "summary": "达芬奇交付输出最终成片导出参数设置教程视",
+    "summary": "「达芬奇交付输出最终成片导出参数设置教程视」教程要点：达芬奇的交付设置直接决定成品画质和文件大小 → 输出设置出错会导致画面变色、画质模糊 → 首先要确保剪辑时间线设置正确 → 时间线参数是输出的基础…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1417,13 +2824,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-export-delivery-settings",
-    "tool": "davinci"
+    "slug": "davinci-export-delivery-settings"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇电梯开门转场 达芬奇电梯开门 达芬奇",
-    "summary": "达芬奇电梯开门转场 达芬奇电梯开门 达芬奇",
+    "summary": "「达芬奇电梯开门转场 达芬奇电梯开门 达芬奇」教程要点：用达芬奇做出超有意思的电梯开门转场 → 操作简单,一步步跟着做就行了 → 首先打开软件,导入两段准备好的视频素材 → 将电梯视频素材放置到上层…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1441,8 +2847,7 @@
     "screenshot_count": 8,
     "transcript_segments": 16,
     "svg_height": 2172,
-    "slug": "davinci-elevator-door-transition",
-    "tool": "davinci"
+    "slug": "davinci-elevator-door-transition"
   },
   {
     "date": "2026-11-07",
@@ -1465,13 +2870,12 @@
     "screenshot_count": 8,
     "transcript_segments": 5,
     "svg_height": 1940,
-    "slug": "davinci-edit-text-animation",
-    "tool": "davinci"
+    "slug": "davinci-edit-text-animation"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇特效库:边缘检测   不用第三方插件，",
-    "summary": "达芬奇特效库:边缘检测   不用第三方插件，",
+    "summary": "「达芬奇特效库:边缘检测   不用第三方插件，」教程要点：用达芬奇自带特效铺的边缘检测 → 能够轻松做出超多的创意效果 → 像发光描边、信号故障、 → 风格画动画都可以实现…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1489,14 +2893,13 @@
     "screenshot_count": 8,
     "transcript_segments": 24,
     "svg_height": 2172,
-    "slug": "davinci-edge-detect-fx",
-    "tool": "davinci"
+    "slug": "davinci-edge-detect-fx"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色｜DRX和LUT到底有什么本质区别",
     "summary": "「达芬奇调色｜DRX和LUT到底有什么本质区别」教程要点：导出LAT文件时,只能保留画面最终的色彩结果,不会记录中间所有的调色操作,而达芬奇的DRX文件可以完整的爆出调色解变性。 → 经常我们在调色页面选择抓取竞争,然后在画廊选择导出。 →",
-    "primary": "color-grade",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1513,13 +2916,12 @@
     "screenshot_count": 8,
     "transcript_segments": 5,
     "svg_height": 1940,
-    "slug": "davinci-drx-vs-lut",
-    "tool": "davinci"
+    "slug": "davinci-drx-vs-lut"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇深度贴图｜一键分离物体超省事 达芬奇",
-    "summary": "达芬奇深度贴图｜一键分离物体超省事 达芬奇",
+    "summary": "「达芬奇深度贴图｜一键分离物体超省事 达芬奇」教程要点：今天教大家用达芬奇深度贴图做物体分离 → 深度贴图是靠AI神经引擎计算摄像机距离来分层的 → 方便我们用距离对物体进行分别选择 → 操作很简单…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1537,13 +2939,12 @@
     "screenshot_count": 8,
     "transcript_segments": 19,
     "svg_height": 2172,
-    "slug": "davinci-depth-map-separate",
-    "tool": "davinci"
+    "slug": "davinci-depth-map-separate"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇剪辑操作复制粘贴快捷键技巧",
-    "summary": "达芬奇剪辑操作复制粘贴快捷键技巧",
+    "summary": "「达芬奇剪辑操作复制粘贴快捷键技巧」教程要点：分享达芬奇里面三个复制操作的技巧 → 先讲通用复制粘贴操作 → 现在时间轴选中需要复制的镜头片段 → 按下ctrl加c完成复制…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1561,14 +2962,13 @@
     "screenshot_count": 8,
     "transcript_segments": 39,
     "svg_height": 2172,
-    "slug": "davinci-copy-paste-shortcuts",
-    "tool": "davinci"
+    "slug": "davinci-copy-paste-shortcuts"
   },
   {
     "date": "2026-11-07",
     "title": "色彩扭曲器才是风格调色神器✨达芬奇蜘蛛网",
-    "summary": "色彩扭曲器才是风格调色神器✨达芬奇蜘蛛网",
-    "primary": "color-grade",
+    "summary": "「色彩扭曲器才是风格调色神器✨达芬奇蜘蛛网」教程要点：色彩扭曲器是达芬奇利超好用的二级调色工具 → 能够清晰高效的做色彩归笼 → 这期完整教学带你吃透色彩扭曲器 → 它的核心能力是重新映射画面色彩…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1585,14 +2985,13 @@
     "screenshot_count": 8,
     "transcript_segments": 36,
     "svg_height": 2172,
-    "slug": "davinci-color-warper-spider",
-    "tool": "davinci"
+    "slug": "davinci-color-warper-spider"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色干货｜色彩归拢一键告别画面脏杂",
-    "summary": "达芬奇调色干货｜色彩归拢一键告别画面脏杂",
-    "primary": "color-grade",
+    "summary": "「达芬奇调色干货｜色彩归拢一键告别画面脏杂」教程要点：想调出电影感画面 → 色彩归笼这个技巧一定要掌握 → 很多人好奇为什么院线大片的画面色调干净又统一 → 前期灯光、美术、浮华道固然是基础…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1609,14 +3008,13 @@
     "screenshot_count": 8,
     "transcript_segments": 24,
     "svg_height": 2172,
-    "slug": "davinci-color-unify-cleanup",
-    "tool": "davinci"
+    "slug": "davinci-color-unify-cleanup"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色快捷键 达芬奇快捷键 达芬奇快捷",
-    "summary": "达芬奇调色快捷键 达芬奇快捷键 达芬奇快捷",
-    "primary": "color-grade",
+    "summary": "「达芬奇调色快捷键 达芬奇快捷键 达芬奇快捷」教程要点：达芬奇调色最常用的几个快节件 → 不啰嗦 → 直接上手试操 → 达芬奇的调色页面是节点逻辑…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1633,14 +3031,13 @@
     "screenshot_count": 8,
     "transcript_segments": 26,
     "svg_height": 2172,
-    "slug": "davinci-color-shortcuts",
-    "tool": "davinci"
+    "slug": "davinci-color-shortcuts"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色节点｜新手一看就懂🔥 刚打开达芬",
-    "summary": "达芬奇调色节点｜新手一看就懂🔥 刚打开达芬",
-    "primary": "color-grade",
+    "summary": "「达芬奇调色节点｜新手一看就懂🔥 刚打开达芬」教程要点：刚接触达芬奇,一打开节点面板就头晕眼花,无从下手 → 不用死计复杂操作,一分钟理清节点底层逻辑 → 零基础新手也能快速上手 → 核心底层逻辑先劳计,达芬奇里的每一个节点…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1657,14 +3054,13 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-color-nodes-beginner",
-    "tool": "davinci"
+    "slug": "davinci-color-nodes-beginner"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调色万能公式🔥新手直接抄作业 新手",
-    "summary": "达芬奇调色万能公式🔥新手直接抄作业 新手",
-    "primary": "color-grade",
+    "summary": "「达芬奇调色万能公式🔥新手直接抄作业 新手」教程要点：达芬奇调色万能公式 → 新手学达芬奇调色,别再瞎堆节点,乱拉色轮了 → 很多人越调越脏,越调越乱,核心就是没找对思路 → 今天给你们一套万能调色公式…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1681,13 +3077,12 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-color-grade-formula",
-    "tool": "davinci"
+    "slug": "davinci-color-grade-formula"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇素材选择技巧大揭秘快捷键",
-    "summary": "达芬奇素材选择技巧大揭秘快捷键",
+    "summary": "「达芬奇素材选择技巧大揭秘快捷键」教程要点：重剪辑经常要批量选中时间线片段 → 很多人都只会鼠标框选 → 传轨道一拉 → 要么漏选音频…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1705,13 +3100,12 @@
     "screenshot_count": 8,
     "transcript_segments": 35,
     "svg_height": 2172,
-    "slug": "davinci-clip-select-shortcuts",
-    "tool": "davinci"
+    "slug": "davinci-clip-select-shortcuts"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇如何清理缓存教程",
-    "summary": "达芬奇如何清理缓存教程",
+    "summary": "「达芬奇如何清理缓存教程」教程要点：达芬奇用的时间越久,月卡如何解决 → 占用大量电脑空间如何解决 → 首先是达芬奇的设置一定要搞对 → 在项目设置里面,主设置,找到工作文件夹…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1729,14 +3123,13 @@
     "screenshot_count": 8,
     "transcript_segments": 6,
     "svg_height": 2172,
-    "slug": "davinci-clear-cache",
-    "tool": "davinci"
+    "slug": "davinci-clear-cache"
   },
   {
     "date": "2026-11-07",
     "title": "新手调色必看！调色通透感秘诀在这✨ 新手零",
-    "summary": "新手调色必看！调色通透感秘诀在这✨ 新手零",
-    "primary": "color-grade",
+    "summary": "「新手调色必看！调色通透感秘诀在这✨ 新手零」教程要点：如何让画面更加清晰通透 → 先讲清晰通透的核心原理 → 画面通透本质是光影干净,反差合理 → 亮部透气,暗部扎实…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1753,14 +3146,13 @@
     "screenshot_count": 8,
     "transcript_segments": 28,
     "svg_height": 2172,
-    "slug": "davinci-clarity-grade-secrets",
-    "tool": "davinci"
+    "slug": "davinci-clarity-grade-secrets"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇制作真实电影雾气氛围感   不用复杂",
     "summary": "「达芬奇制作真实电影雾气氛围感   不用复杂」教程要点：想在大分歧裏面製作出真實電影感霧氣氛圍,只需要一個節點就可以搞定。 → 首先,打開調色面板,在特效庫裏面找到電影感霧消,選擇並拖動到節點上。 → 首先選擇深度貼圖這個板塊,來調整霧氣的",
-    "primary": "color-grade",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1777,14 +3169,13 @@
     "screenshot_count": 8,
     "transcript_segments": 13,
     "svg_height": 2172,
-    "slug": "davinci-cinematic-fog",
-    "tool": "davinci"
+    "slug": "davinci-cinematic-fog"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇分通道降噪_视频画面噪点精细处理",
-    "summary": "达芬奇分通道降噪_视频画面噪点精细处理",
-    "primary": "color-grade",
+    "summary": "「达芬奇分通道降噪_视频画面噪点精细处理」教程要点：达芬奇分通道降噪,可以精准的控制噪点牢牢保住画面的质感 → 操作上手也很简单 → 首先切换到达芬奇调色界面 → 按下快捷键AVT加Y…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1801,13 +3192,12 @@
     "screenshot_count": 8,
     "transcript_segments": 14,
     "svg_height": 2172,
-    "slug": "davinci-channel-denoise",
-    "tool": "davinci"
+    "slug": "davinci-channel-denoise"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇数据烧录 达芬奇数据烧录 达芬奇数据",
-    "summary": "达芬奇数据烧录 达芬奇数据烧录 达芬奇数据",
+    "summary": "「达芬奇数据烧录 达芬奇数据烧录 达芬奇数据」教程要点：发小样给客户审核 → 对方想改画面却只说中间那段跳一下前面 → 几秒画面不对说不清具体位置 → 来回沟通反复反攻白白浪费了大把时间…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1825,13 +3215,12 @@
     "screenshot_count": 8,
     "transcript_segments": 28,
     "svg_height": 2172,
-    "slug": "davinci-burn-in-metadata",
-    "tool": "davinci"
+    "slug": "davinci-burn-in-metadata"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇数据烧录   达芬奇数据烧录核心不是",
-    "summary": "达芬奇数据烧录   达芬奇数据烧录核心不是",
+    "summary": "「达芬奇数据烧录   达芬奇数据烧录核心不是」教程要点：一分钟教会你在达分期里完成数据烧录 → 先切到剪辑面板,找到工作区 → 打开数据烧录功能 → 数据烧录范围分为两种,项目和片段…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1849,8 +3238,7 @@
     "screenshot_count": 8,
     "transcript_segments": 13,
     "svg_height": 2172,
-    "slug": "davinci-burn-in-metadata-2",
-    "tool": "davinci"
+    "slug": "davinci-burn-in-metadata-2"
   },
   {
     "date": "2026-11-07",
@@ -1873,8 +3261,7 @@
     "screenshot_count": 8,
     "transcript_segments": 3,
     "svg_height": 1877,
-    "slug": "davinci-builtin-transitions-demo",
-    "tool": "davinci"
+    "slug": "davinci-builtin-transitions-demo"
   },
   {
     "date": "2026-11-07",
@@ -1898,14 +3285,13 @@
     "screenshot_count": 8,
     "transcript_segments": 6,
     "svg_height": 1812,
-    "slug": "davinci-bilingual-subtitles",
-    "tool": "davinci"
+    "slug": "davinci-bilingual-subtitles"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇批量调色教程",
-    "summary": "达芬奇批量调色教程",
-    "primary": "color-grade",
+    "summary": "「达芬奇批量调色教程」教程要点：达芬奇批量复制调色 → 先说下达芬奇常见的几种复制调色的方式 → 1.鼠标中键 → 2.右键应用调色…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -1922,8 +3308,7 @@
     "screenshot_count": 8,
     "transcript_segments": 10,
     "svg_height": 2109,
-    "slug": "davinci-batch-color-grade",
-    "tool": "davinci"
+    "slug": "davinci-batch-color-grade"
   },
   {
     "date": "2026-11-07",
@@ -1947,13 +3332,12 @@
     "screenshot_count": 6,
     "transcript_segments": 3,
     "svg_height": 1908,
-    "slug": "davinci-audio-auto-beat-sync",
-    "tool": "davinci"
+    "slug": "davinci-audio-auto-beat-sync"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇AI画质放大一键模糊视频秒变4K超清",
-    "summary": "达芬奇AI画质放大一键模糊视频秒变4K超清",
+    "summary": "「达芬奇AI画质放大一键模糊视频秒变4K超清」教程要点：达芬奇AI超级放大一键提升4K画质 → 这个AI超级放大功能只有达芬奇专业版 → Studio版才有,免费版是没有的 → 它的原理特别简单,不是那种单纯拉伸画面的假放大…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -1971,8 +3355,7 @@
     "screenshot_count": 8,
     "transcript_segments": 19,
     "svg_height": 2172,
-    "slug": "davinci-ai-upscale-4k",
-    "tool": "davinci"
+    "slug": "davinci-ai-upscale-4k"
   },
   {
     "date": "2026-11-07",
@@ -1995,14 +3378,13 @@
     "screenshot_count": 8,
     "transcript_segments": 5,
     "svg_height": 1940,
-    "slug": "davinci-ai-face-person-detect",
-    "tool": "davinci"
+    "slug": "davinci-ai-face-person-detect"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇视频降噪｜弱光素材救星✨Ai噪点去除",
-    "summary": "达芬奇视频降噪｜弱光素材救星✨Ai噪点去除",
-    "primary": "color-grade",
+    "summary": "「达芬奇视频降噪｜弱光素材救星✨Ai噪点去除」教程要点：一分钟教会你最新版本达芬奇降噪 → 很多人拍夜景落光素材满屏噪点 → 调色之后反而更难看 → 其实达芬奇自带的降噪功能非常强大…",
+    "primary": "video",
     "skills": [],
     "tags": [
       "达芬奇",
@@ -2019,8 +3401,7 @@
     "screenshot_count": 8,
     "transcript_segments": 40,
     "svg_height": 2172,
-    "slug": "davinci-ai-denoise-lowlight",
-    "tool": "davinci"
+    "slug": "davinci-ai-denoise-lowlight"
   },
   {
     "date": "2026-11-07",
@@ -2043,13 +3424,12 @@
     "screenshot_count": 8,
     "transcript_segments": 4,
     "svg_height": 1908,
-    "slug": "davinci-ai-chinese-subtitles",
-    "tool": "davinci"
+    "slug": "davinci-ai-chinese-subtitles"
   },
   {
     "date": "2026-11-07",
     "title": "达芬奇调整片段 达芬奇调整片段 达芬奇调整",
-    "summary": "达芬奇调整片段 达芬奇调整片段 达芬奇调整",
+    "summary": "「达芬奇调整片段 达芬奇调整片段 达芬奇调整」教程要点：达芬奇调整片段超使用技巧,效率直接翻倍 → 调整片段拖到时间线上,它能直接作用于下方所有片段 → 一,代替关键针,不用在原片段打关键针 → 直接拉个调整片段到要改变的位置…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -2067,13 +3447,12 @@
     "screenshot_count": 8,
     "transcript_segments": 22,
     "svg_height": 2172,
-    "slug": "davinci-adjust-clips",
-    "tool": "davinci"
+    "slug": "davinci-adjust-clips"
   },
   {
     "date": "2026-11-07",
     "title": "视频封面常用文字排版盘点｜新手也能秒变高",
-    "summary": "视频封面常用文字排版盘点｜新手也能秒变高",
+    "summary": "「视频封面常用文字排版盘点｜新手也能秒变高」教程要点：剪视频做封面的时候,文字怎么排都丑 → 今天手把手教大家博主高频在用的文字排版公式 → 零基础一看就会,套用就能拉高封面高级感 → 万能居中排版,闭眼用不出错…",
     "primary": "video",
     "skills": [],
     "tags": [
@@ -2091,8 +3470,7 @@
     "screenshot_count": 8,
     "transcript_segments": 22,
     "svg_height": 2172,
-    "slug": "cover-text-layout-patterns",
-    "tool": "davinci"
+    "slug": "cover-text-layout-patterns"
   },
   {
     "date": "2026-11-07",
@@ -2117,8 +3495,7 @@
     "screenshot_count": 8,
     "transcript_segments": 9,
     "svg_height": 2172,
-    "slug": "copy-sd-card-correct-flow",
-    "tool": "davinci"
+    "slug": "copy-sd-card-correct-flow"
   },
   {
     "date": "2026-10-31",

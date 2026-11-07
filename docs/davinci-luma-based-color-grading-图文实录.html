@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「达芬奇调色思路｜基于明暗实现颜色分级」教程要点：大家在调色的时候你一定要关注你索条画面的明暗的分布 → 因为它会影响你整个画面的风格化的颜色的处理 → 包括在这个里面的肤色的控制 → 你只要理清了你画面的明暗的分布；详见正文。">
+<title>达芬奇调色思路｜基于明暗实现颜色分级｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>达芬奇调色思路｜基于明暗实现颜色分级</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">6分38秒</span>
+    <span class="meta-tag tag-topic">Lightroom · 修图 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/9Lh0DyANH7A" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">大家在调色的时候你一定要关注你索条画面的明暗的分</a>
+<a href="#ch2">那我在7号节点这边做的是RGB混合器</a>
+<a href="#ch3">所以说我在这边大概让皮肤稍微突出了一些</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「达芬奇调色思路｜基于明暗实现颜色分级」教程要点：大家在调色的时候你一定要关注你索条画面的明暗的分布 → 因为它会影响你整个画面的风格化的颜色的处理 → 包括在这个里面的肤色的控制 → 你只要理清了你画面的明暗的分布；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–02:35]</span><div><strong>大家在调色的时候你一定要关注你索条画面的明暗的分</strong><p>大家在调色的时候你一定要关注你索条画面的明暗的分布</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:34–04:38]</span><div><strong>那我在7号节点这边做的是RGB混合器</strong><p>那我在7号节点这边做的是RGB混合器</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:37–06:37]</span><div><strong>所以说我在这边大概让皮肤稍微突出了一些</strong><p>所以说我在这边大概让皮肤稍微突出了一些</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>大家在调色的时候你一定要关注你索条画面的明暗的分布</li><li>因为它会影响你整个画面的风格化的颜色的处理</li><li>包括在这个里面的肤色的控制</li><li>你只要理清了你画面的明暗的分布</li><li>你对颜色的节点的控制的思路就会非常清晰</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>大家在调色的时候你一定要关注你索条画面的明暗的分布</p></div>
+  <div class="bound"><strong>适用边界</strong>：适合 LR 修图学习；版本菜单名可能略有差异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–02:35</span>大家在调色的时候你一定要关注你索条画面的明暗的分</h2><p>大家在调色的时候你一定要关注你索条画面的明暗的分布；因为它会影响你整个画面的风格化的颜色的处理；包括在这个里面的肤色的控制；你只要理清了你画面的明暗的分布；你对颜色的节点的控制的思路就会非常清晰；颜色的控制在这个画面里面的调整就会非常轻松的控制过来；比如说在这个画面的原片；大家可以得到一个这样的状态；那我们如何去给这个画面不仅做到足够多的蓝青色的同时；也让肤色得到很好的保留；那这个过程是怎么实现的；大家来看我们右边的所有的节点；你看它的肤色的控制节点实际上主要的变化就在10号和7号节点；开关这两个节点大家来看；这个肤色会带来非常直观的变化；直接来看这边的还原节点2号和3号节点；3号节点首先做的内容就是放大画面的明暗；所以说我需要压低暗部并且去提亮亮部；然后压暗部我采用曲线压到这个位置；那有的时候我们也会去压这个暗部色轮；或者说去压曲线上这个黑点；也可以在这个画面里边；我没有去直接压暗部色轮是因为；这个暗部色轮一旦下压的话；大家可以看到这个位置；它会暗的特别快；我希望这个位置得到一些保留；所以说我这边在曲线上做的这个黑点；我是没有去动的；这个不同的画面都不一样；结合你的画面来；这个是好理解的；前置节点2号节点对比都做了1.17就OK了；到了之后我发现这个画面的饱和度是不够的；虽然说我在3号节点这边HDR小轮是做了；这个饱和度拉满的状态；但是依旧不够；所以说我需要再补；再补的话4号节点我这边用的是这个饱和度的插件；在之前给到过大家；如果说大家新关注的小伙伴没有；可以单独点准或者私信；单独管我要就可以了；把饱和度放大；饱和度放大；这个是空饱和；高饱和的这种红色的饱和度会放大的太高；我在这边做了一点红色的饱和度；我的控制；这个看情况来少空了一点点；那这边的饱和度加出来之后；大家可以看到肤色的饱和会比没做之前更加的自然一些；那我在这边就彻底给它拉出来；回到这个位置之后；前置的有一个节点是做的HDR色轮；这边做了一点点轻微的偏移；偏出来之后这个画面的迷暗关系是不够的；不强烈的；所以说补了一个这样的曲线；那这个曲线做过来之后；大家可以看到这个画面的对比就会被彻底打开；到这个位置大家应该比较好理解；如果说你觉得到达这一步之后；这个画面的迷暗关系还有问题；你可以在它的前边；或者说它的后边；或者说一级还原的前面都可以；你可以去补局部调整；这个局部调整的内容可以结合你的画面；比如说有些地方我觉得它的亮度应该更高一点；但是显然没有；你可以适当的再去补亮度；这种节点往哪放都可以；那整体得到的效果其实大差不差都行</p><figure><img src="assets/davinci-luma-based-color-grading/shot-01.jpg" alt="大家在调色的时候你一定要关注你索条画面的明暗的分布" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 大家在调色的时候你一定要关注你索条画面的明暗的分布</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/207108192774.mp3" type="button" aria-label="Play English audio">🔊</button><span>color grade</span></div>
+<audio class="cap-audio" src="audio/207108192774.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-luma-based-color-grading/shot-02.jpg" alt="因为它会影响你整个画面的风格化的颜色的处理" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:07] 因为它会影响你整个画面的风格化的颜色的处理</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4a304a3f48eb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Lightroom editing tip</span></div>
+<audio class="cap-audio" src="audio/4a304a3f48eb.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">02:34–04:38</span>那我在7号节点这边做的是RGB混合器</h2><p>那我在7号节点这边做的是RGB混合器；我重新给大家调一遍；这个节点我先关掉；在这边的话调的这个部分是皮肤；皮肤的话它是橙黄色居多；有红又有绿；并且红色居多；你要做什么位置；你就要去找什么位置对吧；那回到这边大家都清楚的是；在RGB混合器这边；你不管拉大红色输出的红色；还是这边的绿色蓝色；它都会起到一样的效果；什么效果；加红色；但是加的多少加的力度是不一样的；你要做哪个部分；你要去看哪个部分；在皮肤的这个位置的话；一定是红色会居多；因为红色特别少的话；那这个地方蓝绿居多；那皮肤它就不是橙黄色；当我把这个地方放大的时候；你可以看到皮肤的这个颜色就会被加强；同样的话在RGB混合器里边；它每一个通道里边的调整；都是全局的调整；也就是说它不会是针对一个位置去加；所以说你在这个地方去加红色的同时；如果对环境实现了多加；那你去给它减掉就可以了；也就是说你的调整实际上是；这样的一个调整；我调的幅度大一点；就是皮肤加强环境的蓝色也会变多；因为我在这边去减红色的时候；红色的补色不就是青色吗；那这个平衡力度结合你的实际画面来看；如果说你希望皮肤的橙黄色再居多一点；你可以来这边继续去补绿；它也会往黄色去走；这个看着画面来；我这边不多说；大家如果有往期我们参加过西洋科的学员；你们如果关于RGB红额器有学得不清楚的；直接去看我们往期课程的第一节课的后半集；大概有半个小时关于RGB红额器的讲解；看完你们就会了；我这边就不多说；因为这个一说的话太长了；补一个什么样的节点；补一个这样的调整；就是色彩切片器这边去找蓝色；我这边调的力度比较弱；如果说你希望它力度更大一点；你可以把这个拉大；这个蓝色就会更强；这个看情况来吧；我这边是有蓝有青的；都动了一点点；包括它的亮度调整都行；我这边就还行；我就不动了；这一步调完之后；我需要给这个画面进暖色；你只要去动你的亮部的话；它会带着皮肤和这种位置的变色一起走；并且随着你的控制的不同；有可能也会影响到这种中灰；或者这种偏暗部一点的位置；都有可能；这个的控制完全看你自己</p><figure><img src="assets/davinci-luma-based-color-grading/shot-03.jpg" alt="那我在7号节点这边做的是RGB混合器" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:34] 那我在7号节点这边做的是RGB混合器</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0956ae3e2e7d.mp3" type="button" aria-label="Play English audio">🔊</button><span>7 node RGB</span></div>
+<audio class="cap-audio" src="audio/0956ae3e2e7d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-luma-based-color-grading/shot-04.jpg" alt="我重新给大家调一遍" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:37] 我重新给大家调一遍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9008aed97770.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/9008aed97770.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">04:37–06:37</span>所以说我在这边大概让皮肤稍微突出了一些</h2><p>所以说我在这边大概让皮肤稍微突出了一些；其实皮肤是有一点点偏品偏红的；那我就不管了；因为我后边会有一个亮部加暖色的控制；那我这个后边亮部加暖色的控制；如果控完了之后；皮肤还有问题；我来这边再细控；因为我之前调过的东西不代表调完之后我就不动了；我随之可能还会再改的；回到后边的10号节点；那我做的就是曲线打点；提这种位置的红色和绿色；红加绿不是得黄色吗；那这个地方的橙黄色就会偏高一点点；如果说你希望这种地方受影响的比较弱；你可以拆开打点往下控；我这边觉得含星我是不控的；我就直接放到这儿了；中间的这个节点是；你可以把它做到和10号节点一样；完全没有关系；我就分开了；9号节点这边；我觉得暗部的亮度少来了一点点；如果觉得不做；那就不做；如果想要合并也可以；那这个画面的颜色是一张；你的肤色以及环境的颜色整体的控制；大概它就从最开始的这个样子；就过到了这个状态；那大家可能有的时候会把这个10号节点；像这种加暖色的控制也会往前放；就是有的时候大家也会习惯以这样的调整；也可以；取决于你的画面；往前放的话；你们一般做的就可能是前置节点；这边把这个颜色偏出来；偏出来之后我用这种位置；我把这个线关了；我在这种位置去往暖色推；在暖色推的同时；你的前边的这个节点继续放大；放大什么；放大它的蓝色；就不停的让它们之间去做对冲；最终起到亮部偏暖色；然后环境偏蓝青的调整；那我这边的话就放到了最后；同样后边的这个画面；想要匹配我们刚刚做好的这个颜色；是不是就很简单；直接把这个节点套过来；套过来之后两个画面它如果；比如说不同的画面它的对比是不同；就是明暗的分布是不同；轻微的调整就可以了；整体过来的颜色差别不会太大；比如说它对比有点不同；你可以来一级还原这边；继续去调整你的下压的位置；都是可以的；那对于这个画面里面；其实我们就是依据画面的；明暗分布；实现了皮肤环境颜色的隔离；大家可以看到这个皮肤和这个环境的颜色；好了；那这个调色的话就给大家说完了；大家如果有不清楚的；可以点主页或者单独私信；再问我</p><figure><img src="assets/davinci-luma-based-color-grading/shot-05.jpg" alt="所以说我在这边大概让皮肤稍微突出了一些" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:37] 所以说我在这边大概让皮肤稍微突出了一些</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dc79e737825a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/dc79e737825a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-luma-based-color-grading/shot-06.jpg" alt="其实皮肤是有一点点偏品偏红的" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:40] 其实皮肤是有一点点偏品偏红的</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ef681deacc80.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/ef681deacc80.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-luma-based-color-grading/shot-07.jpg" alt="再问我" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:22] 再问我</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2177ac5752be.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/2177ac5752be.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-luma-based-color-grading/shot-08.jpg" alt="再问我" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:12] 再问我</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2177ac5752be.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/2177ac5752be.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>大家在调色的时候你一定要关注你索条画面的明暗的分布</p></div>
+<div class="transcript-row"><time>00:07</time><p>因为它会影响你整个画面的风格化的颜色的处理</p></div>
+<div class="transcript-row"><time>00:11</time><p>包括在这个里面的肤色的控制</p></div>
+<div class="transcript-row"><time>00:13</time><p>你只要理清了你画面的明暗的分布</p></div>
+<div class="transcript-row"><time>00:15</time><p>你对颜色的节点的控制的思路就会非常清晰</p></div>
+<div class="transcript-row"><time>00:18</time><p>颜色的控制在这个画面里面的调整就会非常轻松的控制过来</p></div>
+<div class="transcript-row"><time>00:22</time><p>比如说在这个画面的原片</p></div>
+<div class="transcript-row"><time>00:23</time><p>大家可以得到一个这样的状态</p></div>
+<div class="transcript-row"><time>00:25</time><p>那我们如何去给这个画面不仅做到足够多的蓝青色的同时</p></div>
+<div class="transcript-row"><time>00:29</time><p>也让肤色得到很好的保留</p></div>
+<div class="transcript-row"><time>00:31</time><p>那这个过程是怎么实现的</p></div>
+<div class="transcript-row"><time>00:33</time><p>大家来看我们右边的所有的节点</p></div>
+<div class="transcript-row"><time>00:35</time><p>你看它的肤色的控制节点实际上主要的变化就在10号和7号节点</p></div>
+<div class="transcript-row"><time>00:40</time><p>开关这两个节点大家来看</p></div>
+<div class="transcript-row"><time>00:41</time><p>这个肤色会带来非常直观的变化</p></div>
+<div class="transcript-row"><time>00:43</time><p>直接来看这边的还原节点2号和3号节点</p></div>
+<div class="transcript-row"><time>00:46</time><p>3号节点首先做的内容就是放大画面的明暗</p></div>
+<div class="transcript-row"><time>00:49</time><p>所以说我需要压低暗部并且去提亮亮部</p></div>
+<div class="transcript-row"><time>00:52</time><p>然后压暗部我采用曲线压到这个位置</p></div>
+<div class="transcript-row"><time>00:54</time><p>那有的时候我们也会去压这个暗部色轮</p></div>
+<div class="transcript-row"><time>00:56</time><p>或者说去压曲线上这个黑点</p></div>
+<div class="transcript-row"><time>00:59</time><p>也可以在这个画面里边</p></div>
+<div class="transcript-row"><time>01:00</time><p>我没有去直接压暗部色轮是因为</p></div>
+<div class="transcript-row"><time>01:02</time><p>这个暗部色轮一旦下压的话</p></div>
+<div class="transcript-row"><time>01:03</time><p>大家可以看到这个位置</p></div>
+<div class="transcript-row"><time>01:05</time><p>它会暗的特别快</p></div>
+<div class="transcript-row"><time>01:07</time><p>我希望这个位置得到一些保留</p></div>
+<div class="transcript-row"><time>01:09</time><p>所以说我这边在曲线上做的这个黑点</p></div>
+<div class="transcript-row"><time>01:11</time><p>我是没有去动的</p></div>
+<div class="transcript-row"><time>01:12</time><p>这个不同的画面都不一样</p></div>
+<div class="transcript-row"><time>01:14</time><p>结合你的画面来</p></div>
+<div class="transcript-row"><time>01:15</time><p>这个是好理解的</p></div>
+<div class="transcript-row"><time>01:16</time><p>前置节点2号节点对比都做了1.17就OK了</p></div>
+<div class="transcript-row"><time>01:19</time><p>到了之后我发现这个画面的饱和度是不够的</p></div>
+<div class="transcript-row"><time>01:22</time><p>虽然说我在3号节点这边HDR小轮是做了</p></div>
+<div class="transcript-row"><time>01:24</time><p>这个饱和度拉满的状态</p></div>
+<div class="transcript-row"><time>01:26</time><p>但是依旧不够</p></div>
+<div class="transcript-row"><time>01:27</time><p>所以说我需要再补</p></div>
+<div class="transcript-row"><time>01:28</time><p>再补的话4号节点我这边用的是这个饱和度的插件</p></div>
+<div class="transcript-row"><time>01:31</time><p>在之前给到过大家</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

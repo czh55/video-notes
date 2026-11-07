@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2063" viewBox="0 0 1320 2063">
+  <foreignObject x="0" y="0" width="1320" height="2063">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>超实用！Lightroom修图技巧开课了！</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">▶️认识Lightroom
+	
+🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色APP，叫Lightroom。不管你是摄影小白，还是修图大神，都能在里面找到乐趣</p>
+  <div class="card"><h3>封面/要点：▶️认识Lightroom
+	
+🌱宝</h3><p>▶️认识Lightroom
+	
+🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色</p></div><div class="card"><h3>第5/6页：超实用！Lightroom修图技巧开</h3><p>▶️认识Lightroom
+	
+🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">▶️认识Lightroom
+	
+🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色APP，叫Lightroom。不管你是摄影小白，还是修图大神，都能在里面找到乐趣。今天主要就是带大家初步认识一下它，后面我会一步一步，从简单到复杂，仔仔细细地教大家怎么用。
+这软件有免费的功能，也有付费的。需要全功能免费安装包的，关注➕群获取哦。
+	
+▶️功能详解
+	
+[一R]裁剪工具：这个工具就像是给照片“整容”。有时候咱们拍的照片，构图不太满意，就可以用它二次构图。你想把照片裁剪成正方形，就选一比一的比例，然后在照片上拖动调整，把你想要的部分框起来，一张新构图的照片就诞生啦！除了一比一，还有像五比四、十六比九等比例，你要是有特殊要求，注意：横构图、竖构图切换点“完成”左边的“小框”哦。（图2）
+	
+[二R]一键滤镜（预设）：这个功能简直是懒人的福音！里面有一大堆现成的滤镜。什么现代风、艺术效果，各种风格都有。随便选一个滤镜，照片马上就换上了新“妆容”，调色就这么简单，分分钟让你的照片变得高大上。（图3）
+	
+[三R]自动功能：它能根据照片的情况，自动帮你调色修图。如果你一次性有好多照片要处理，这个自动功</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>▶️认识Lightroom
+	
+🌱宝子们，今天东哥给你们唠唠一款超好用的修图调色APP，叫Lightroom。不管你是摄影小白，还是修图大神，都能在里面找到乐趣</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

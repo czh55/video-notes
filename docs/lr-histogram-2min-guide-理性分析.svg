@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2813" viewBox="0 0 1320 2813">
+  <foreignObject x="0" y="0" width="1320" height="2813">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>🔥2分钟看懂直方图｜轻松告别瞎调乱调！</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直接上手修图，可它绝对是修图的关键密码，掌握看直方图的技巧，修图能力直接起飞🛫今天</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们，今天必须给你们分享</h3><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直</p></div><div class="card"><h3>第5/18页：🔥2分钟看懂直方图｜轻松告别瞎调乱</h3><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直</p></div><div class="card"><h3>第9/18页：🔥2分钟看懂直方图｜轻松告别瞎调乱</h3><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直</p></div><div class="card"><h3>第13/18页：🔥2分钟看懂直方图｜轻松告别瞎调</h3><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直</p></div><div class="card"><h3>第17/18页：🔥2分钟看懂直方图｜轻松告别瞎调</h3><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直接上手修图，可它绝对是修图的关键密码，掌握看直方图的技巧，修图能力直接起飞🛫今天东哥手把手带家人们认识这个“修图神器”，赶紧先码住🌟
+	
+[一R]快速锁定直方图
+[种草R]打开LR，点击右上角三个点的工具（图2），找到“视图选项”（图3），再点“直方图”，直方图就会出现在照片一角啦✨
+	
+[种草R]直方图里有灰色、红色、绿色和蓝色，灰色是照片三种颜色信息叠加而成（图4）。横坐标代表亮度，从0到255，最左边是纯黑，最右边是纯白；纵坐标代表对应亮度的像素数量，堆积得越高，说明对应亮度和色彩的像素越多（图5）。
+	
+[种草R]举个例子，一张全灰照片，直方图只会在横坐标正中间显示像素，意味着照片既没亮部，也没暗部，只有灰色（图6）。
+	
+[二R]用直方图拿捏照片明暗
+[彩虹R]高亮（调）照片：这张照片整体超亮，直方图较亮部分高高耸起，黑色阴影信息少得可怜，白色区域蓝色最多，红色和绿色集中在高光区域（图7）。
+	
+[种草R]降低曝光，直方图信息就会往左边中间调区域跑（图8）；要是继续提升曝光，直方图信息会向右边区域</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们，今天必须给你们分享修图界的“隐藏神器”——直方图📊别看它不能直接上手修图，可它绝对是修图的关键密码，掌握看直方图的技巧，修图能力直接起飞🛫今天</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

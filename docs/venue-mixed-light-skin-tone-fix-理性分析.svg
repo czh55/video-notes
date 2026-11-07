@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2093" viewBox="0 0 1320 2093">
+  <foreignObject x="0" y="0" width="1320" height="2093">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>场馆一混光，肤色先乱</h1>
+  <div><span class="tag">摄影</span><span class="tag">光影</span><span class="tag">教程</span></div>
+  <p class="summary-line">室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜色的光。顶灯可能偏绿，墙面反射可能偏暖，电子屏又会带来青色。逐张凭感觉调白平衡，</p>
+  <div class="card"><h3>封面/要点：室内体育照片常见的麻烦，不是背景不够</h3><p>室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜</p></div><div class="card"><h3>第5/8页：场馆一混光，肤色先乱</h3><p>室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜色的光。顶灯可能偏绿，墙面反射可能偏暖，电子屏又会带来青色。逐张凭感觉调白平衡，整组肤色很容易忽冷忽热。
+	
+处理时先把主脸作为基准。选择主体状态、曝光和对焦都过关的一张，判断脸是偏青、偏橙还是偏洋红，再看手部和受光球衣是否朝同一方向。背景里的看台、广告牌和反光地板颜色不稳定，不能只因接近白就当成中性面。
+	
+顺序可以固定成三步。第一步把脸与球衣的亮度拉到可判断，第二步确定色温与色调，第三步让同场照片向这张基准靠。如果现场有稳定白墙、灰卡或白标，可以用它辅助判断；没有可靠中性面时，先守住肤色方向。
+	
+降噪要分彩色与明度两层。先压掉暗部红绿斑，再处理颗粒，并在100%查看眼睛、眉毛、发丝和球衣字边。明度降噪拉得太重，皮肤会失去纹理，头发和衣料也会被磨成一团。缩略图看起来干净，不代表放大后仍然可信。
+	
+锐化只照顾主次。脸、手和球衣文字可以获得少量局部锐化，观众席、墙面和失焦背景保持保守。全图一起提高细节，会把原本需要退后的环境重新推到前景，也会放大高ISO区域的颗粒和边缘伪影。
+	
+这组图使用一张可商用体育</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>室内体育照片常见的麻烦，不是背景不够白，而是脸、手、球衣和观众席分别接到了不同颜色的光。顶灯可能偏绿，墙面反射可能偏暖，电子屏又会带来青色。逐张凭感觉调白平衡，</p></div>
+  <p class="footer">来源：小红书 · 摄影自修室 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

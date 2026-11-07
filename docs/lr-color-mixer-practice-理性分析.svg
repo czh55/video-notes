@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2814" viewBox="0 0 1320 2814">
+  <foreignObject x="0" y="0" width="1320" height="2814">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>一招告别小白称号|LR 颜色混合实战来了！</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片，轻松把枫叶原图调出不同风格，让春天秒变秋天或夏天🍁，小白也能秒上手，赶紧学起来</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们👋，今天来给大家分享</h3><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片</p></div><div class="card"><h3>第5/17页：一招告别小白称号|LR 颜色混合实</h3><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片</p></div><div class="card"><h3>第9/17页：一招告别小白称号|LR 颜色混合实</h3><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片</p></div><div class="card"><h3>第13/17页：一招告别小白称号|LR 颜色混合</h3><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片</p></div><div class="card"><h3>第17/17页：一招告别小白称号|LR 颜色混合</h3><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片，轻松把枫叶原图调出不同风格，让春天秒变秋天或夏天🍁，小白也能秒上手，赶紧学起来！
+	
+🌟先来看看案例
+图2是枫叶原图，颜色以绿色、橙色、红色为主，整体偏黄绿。图3、图4是调色后的成片。
+	
+🎯分析图3：秋天风格
+这张图整体偏红橙色，春天的感觉一下子就变成秋天啦🍂。
+[种草R]思路：把绿色调为红橙色，去掉其他没用的颜色。
+	
+[向右R]回忆一下“混合”工具里“红、橙、黄、绿、青、蓝、紫、洋红”的变色规律：往横条左边拉，颜色就往左边色彩方向变；往右边拉，就往右边色彩方向变。
+	
+[彩虹R]实操步骤来咯👇
+[向右R]红色、橙色咱要保留，先别动它们
+[向右R]要调出红橙色，把黄色往左拉，就变成橙色啦，然后根据自己喜好调整下饱和度和明亮度（图5）
+[向右R]绿色不要，往左拉向橙色方向调整，加点饱和度，降低明亮度，让它更接近橙色（图6）
+[向右R]青、蓝、紫图里本来没有，不确定的话，直接把它们饱和度拉到-100（图7）
+[向右R]洋红图片里没有，不用管，如果有就往右拉，让它变成红色
+[向右R]最后再返回去对红色、橙色</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们👋，今天来给大家分享超简单的LR调色技巧，颜色“混合”工具实战片，轻松把枫叶原图调出不同风格，让春天秒变秋天或夏天🍁，小白也能秒上手，赶紧学起来</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

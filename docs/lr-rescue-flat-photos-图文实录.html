@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6">
+<title>灰片、烂片就用它轻松逆袭！｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>灰片、烂片就用它轻松逆袭！</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">0秒</span>
+    <span class="meta-tag tag-topic">Lightroom · 修图 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/TjURXUqUYN" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">封面/要点：[种草R]家人们，今天给大家分享 L</a>
+<a href="#ch2">第5/10页：灰片、烂片就用它轻松逆袭！</a>
+<a href="#ch3">第9/10页：灰片、烂片就用它轻松逆袭！</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[1/10–4/10]</span><div><strong>封面/要点：[种草R]家人们，今天给大家分享 L</strong><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div></div>
+<div class="summary-row"><span class="time-marker">[5/10–8/10]</span><div><strong>第5/10页：灰片、烂片就用它轻松逆袭！</strong><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div></div>
+<div class="summary-row"><span class="time-marker">[9/10–10/10]</span><div><strong>第9/10页：灰片、烂片就用它轻松逆袭！</strong><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能</p></div>
+  <div class="bound"><strong>适用边界</strong>：图文轮播笔记；无时间轴口播。</div><div class="pitfall"><strong>踩坑</strong>：以图内文字为准；文案话题标签已剥离。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">1/10–4/10</span>封面/要点：[种草R]家人们，今天给大家分享 L</h2><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</p><figure><img src="assets/lr-rescue-flat-photos/shot-01.jpg" alt="封面/要点：[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[1/10] 封面/要点：[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f985c2da74a0.mp3" type="button" aria-label="Play English audio">🔊</button><span>/ ：[ R] ， Lightroom ，</span></div>
+<audio class="cap-audio" src="audio/f2910d51c94b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-02.jpg" alt="第2/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[2/10] 第2/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/273d861770c8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 2/10</span></div>
+<audio class="cap-audio" src="audio/f0679c32f37d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-03.jpg" alt="第3/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[3/10] 第3/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cc3c0faa5b69.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 3/10</span></div>
+<audio class="cap-audio" src="audio/2576d6659e46.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-04.jpg" alt="第4/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[4/10] 第4/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a5febfec6cf0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 4/10</span></div>
+<audio class="cap-audio" src="audio/7921716abaf3.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">5/10–8/10</span>第5/10页：灰片、烂片就用它轻松逆袭！</h2><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</p><figure><img src="assets/lr-rescue-flat-photos/shot-05.jpg" alt="第5/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[5/10] 第5/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f2b24637f239.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 5/10</span></div>
+<audio class="cap-audio" src="audio/57e757702b81.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-06.jpg" alt="第6/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[6/10] 第6/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/500ae48affdd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 6/10</span></div>
+<audio class="cap-audio" src="audio/8e399b028277.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-07.jpg" alt="第7/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[7/10] 第7/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cd090b499dfc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 7/10</span></div>
+<audio class="cap-audio" src="audio/4f3c8344cfe8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-08.jpg" alt="第8/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[8/10] 第8/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bd0bfa6cfce5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 8/10</span></div>
+<audio class="cap-audio" src="audio/bb29d03b7186.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">9/10–10/10</span>第9/10页：灰片、烂片就用它轻松逆袭！</h2><p>[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清晰度和质感！
+	
+[彩虹R]清晰度调整双神器
+	
+[种草R]纹理和清晰度工具都能调整画面清晰度。当照片灰蒙蒙、不清晰时，向右滑动就能提升清晰度。纹理工具往左降低、往右提升；清晰度工具相较纹理工具调整效果更显著，就像前边讲的自然饱和度和饱和度工具的区别。
+	
+[种草R]以图2为例，将纹理工具调至正 100，画面清晰度提升（图3），把清晰度工具调至 100（图4），对比更明显。当然，向左滑动，画面会越来越模糊，这里就不作展示。
+	
+[彩虹R]去朦胧工具：告别雾气感
+	
+[种草R]去朦胧工具能去除画面朦胧感。当照片因拍摄环境灰蒙蒙时，向右滑动滑块，雾气消失，细节尽显。回忆一下前边我们讲的“亮度”工具里边的“对比度”也有类似的效果，但它们之间还是有区别的。去朦胧工具不仅能去灰，还能保留各个明暗区域的细节，层次更清晰。而对比度调整主要是提升亮度降低暗部，对白色区域和黑色区域虽影响较小，画面层次不足，甚至有的拉的太多还会引起过曝或死黑。而向左滑动去朦胧工具，能给人像调色营造朦胧的年代感。
+	
+[种草R]图5为原片，图6</p><figure><img src="assets/lr-rescue-flat-photos/shot-09.jpg" alt="第9/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[9/10] 第9/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/215a58e77621.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 9/10</span></div>
+<audio class="cap-audio" src="audio/a67a809add48.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-rescue-flat-photos/shot-10.jpg" alt="第10/10页：灰片、烂片就用它轻松逆袭！" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10/10] 第10/10页：灰片、烂片就用它轻松逆袭！</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dfce2353ca0d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 10/10</span></div>
+<audio class="cap-audio" src="audio/84ebd2ffb779.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（10段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>1/10</time><p>封面/要点：[种草R]家人们，今天给大家分享 Lightroom 里效果工具，轻松提升照片清</p></div>
+<div class="transcript-row"><time>2/10</time><p>第2/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>3/10</time><p>第3/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>4/10</time><p>第4/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>5/10</time><p>第5/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>6/10</time><p>第6/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>7/10</time><p>第7/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>8/10</time><p>第8/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>9/10</time><p>第9/10页：灰片、烂片就用它轻松逆袭！</p></div>
+<div class="transcript-row"><time>10/10</time><p>第10/10页：灰片、烂片就用它轻松逆袭！</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

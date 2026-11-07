@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2568" viewBox="0 0 1320 2568">
+  <foreignObject x="0" y="0" width="1320" height="2568">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>不藏了！巧用直方图｜3 分钟调出大师级照片</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感照片！
+	
+🎈分析大师作品
+先看图 2，是日本摄影师滨田英明的作品。再看图 3，</p>
+  <div class="card"><h3>封面/要点：[种草R]家人们，今天东哥手把手教大</h3><p>[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感</p></div><div class="card"><h3>第5/14页：不藏了！巧用直方图｜3 分钟调出大</h3><p>[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感</p></div><div class="card"><h3>第9/14页：不藏了！巧用直方图｜3 分钟调出大</h3><p>[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感</p></div><div class="card"><h3>第13/14页：不藏了！巧用直方图｜3 分钟调出</h3><p>[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感照片！
+	
+🎈分析大师作品
+先看图 2，是日本摄影师滨田英明的作品。再看图 3，其直方图显示绝大多数像素集中在高光区域和白色区域。这就是我们修图要参考的方向啦。
+	
+🎨模拟修图实战
+这次用图 4 来实操，图 5 是最终成片。先分析图 4 的直方图，能看到大多数像素集中在中间区域。
+	
+1⃣ 光影调整：我们的思路是整体提高亮度，尤其要调亮蓝色背景暗部，让直方图往右移动。
+	
+[种草R]打开 “亮度” 工具，把曝光度、对比度、高光、阴影、黑色色阶、白色色阶都调高（看图 6、图 7）。这时直方图成功右移，整体调性已经和图 2 很接近了。
+	
+[种草R]此时中间区域仍有大量蓝色，如果继续整体提亮，其他区域容易过曝。这时候，就可以通过 “颜色混合” 工具，调整特定颜色的明亮度，减少对其他区域的影响。
+	
+2⃣ 色调模仿：图 2 的色调以青绿色、蓝色为主，饱和度很低，绿色还稍带点黄。
+	
+[种草R]这就轮到 “颜色混合” 工具登场啦！按照 “红橙黄绿青蓝紫洋红” 的顺序逐个调整。就拿图 4 来说，重点是把草地调整为低饱</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>[种草R]家人们，今天东哥手把手教大家借助直方图模仿修图，轻松拿捏大师同款氛围感照片！
+	
+🎈分析大师作品
+先看图 2，是日本摄影师滨田英明的作品。再看图 3，</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

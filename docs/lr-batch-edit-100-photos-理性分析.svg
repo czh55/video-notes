@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2312" viewBox="0 0 1320 2312">
+  <foreignObject x="0" y="0" width="1320" height="2312">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>五一必学｜ LR 批量修图｜5秒调出100张照片</h1>
+  <div><span class="tag">Lightroom</span><span class="tag">修图</span><span class="tag">教程</span></div>
+  <p class="summary-line">​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR 的批量修图功能直接封神！手残党也能秒变修图大师✨，手把手教你快速出片，5秒搞定</p>
+  <div class="card"><h3>封面/要点：​[种草R]家人们！五一旅行拍了几百</h3><p>​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR</p></div><div class="card"><h3>第5/10页：五一必学｜ LR 批量修图｜5秒调</h3><p>​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR</p></div><div class="card"><h3>第9/10页：五一必学｜ LR 批量修图｜5秒调</h3><p>​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR 的批量修图功能直接封神！手残党也能秒变修图大师✨，手把手教你快速出片，5秒搞定 100 张照片，赶紧码住学起来！​
+	
+一、导入照片​
+1⃣ 打开 Lightroom，点击底部 “图库”，长按选中要修的所有照片（记得要是相同或相近场景拍的哦📷），再点击 “导入”，把照片统统导入 LR（图 2）。​
+	
+2⃣ 点击下方的 “lightroom”，接着点击左上角 “下箭头”（图 3），再点 “导入”，就能看到刚才导入的照片啦（图 4、图 5）！​
+	
+二、复制粘贴​
+1⃣ 选样片精修：从导入的照片里挑一张最有代表性的当样片🌟，比如光线、色调最典型的那张。用 LR 的各种神仙工具（曝光、对比度、白平衡、HSL 等等）精细调整，调出你梦中情图的效果！​
+	
+2⃣ 复制参数：样片修完后，点击右上角的三个点图标（图 6），选择 “复制设置”（图 7）。裁剪、移除、蒙版、镜头模糊这些参数一般不选，当然也可以按实际需求来～选好后点击右上角的 “勾”（图 8），所有调整参数就保存好啦！​
+	
+3⃣ 批量粘贴：回到导入照片的</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>​[种草R]家人们！五一旅行拍了几百张美照📸，却被修图累到崩溃？别慌！手机 LR 的批量修图功能直接封神！手残党也能秒变修图大师✨，手把手教你快速出片，5秒搞定</p></div>
+  <p class="footer">来源：小红书 · 东哥调色坊 · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2093" viewBox="0 0 1320 2093">
+  <foreignObject x="0" y="0" width="1320" height="2093">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>华为→阿里云跳槽复盘</h1>
+  <div><span class="tag">求职</span><span class="tag">跳槽</span><span class="tag">复盘</span></div>
+  <p class="summary-line">分享一个真实的求职陪跑案例，华为跳槽阿里云。
+	
+先说我带的这个案例。
+	
+BG：学员之前在华为，做偏硬件和交付的技术活，底子很扎实，扛过不少复杂交付。
+这种人</p>
+  <div class="card"><h3>封面/要点：分享一个真实的求职陪跑案例，华为跳槽</h3><p>分享一个真实的求职陪跑案例，华为跳槽阿里云。
+	
+先说我带的这个案例。
+	
+BG</p></div><div class="card"><h3>第5/5页：华为→阿里云跳槽复盘</h3><p>分享一个真实的求职陪跑案例，华为跳槽阿里云。
+	
+先说我带的这个案例。
+	
+BG</p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">分享一个真实的求职陪跑案例，华为跳槽阿里云。
+	
+先说我带的这个案例。
+	
+BG：学员之前在华为，做偏硬件和交付的技术活，底子很扎实，扛过不少复杂交付。
+这种人在体系里是被认真打磨过的：流程、闭环、对齐、扛指标，样样在行。
+他想往 AI 云方向走，目标锁定阿里云的BTE解决方案工程师。
+	
+这个学员背景没有什么特别特殊的地方，今天想聊的特殊之处是2家公司的差异化。
+	
+华为待久了，会养成一套很深的表达惯性。
+简历写出来，像一份述职报告，我负责了什么模块、对齐了哪些流程、完成了多少闭环；
+面试一开口，像一场晋升汇报，我跨过多大规模、扛了多少指标、怎么把一个事从零推到落地。
+这套东西放华为是加分，放阿里云上，或许成了减分项。
+	
+还有价值观的碰撞。
+华为讲流程、纪律、艰苦奋斗，在体系里把事做成；
+阿里云更多讲客户第一、拥抱变化，面向市场去创造价值。
+这套差异会从一个人的谈吐、叙事、取舍里漏出来，面试官未必说得出哪里不对，但就是觉得这个人味儿不对、接不上茬。
+	
+整个陪跑的流程，和其他跳槽的同学不一样，他专业上没有太多的短板，但是能不能拿offer，还缺的系统性的认知转化。
+【为什么这么说，</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>分享一个真实的求职陪跑案例，华为跳槽阿里云。
+	
+先说我带的这个案例。
+	
+BG：学员之前在华为，做偏硬件和交付的技术活，底子很扎实，扛过不少复杂交付。
+这种人</p></div>
+  <p class="footer">来源：小红书 · 木梓MUZI · 2026-11-07</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>

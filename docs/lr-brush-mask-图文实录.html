@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙">
+<title>掌握LR 画笔蒙版！👉1 招搞定随性修图｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>掌握LR 画笔蒙版！👉1 招搞定随性修图</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">0秒</span>
+    <span class="meta-tag tag-topic">Lightroom · 修图 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3cpYJkMLlnk" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">封面/要点：[种草R]家人们，上一期东哥带大家实</a>
+<a href="#ch2">第5/15页：掌握LR 画笔蒙版！👉1 招搞定随</a>
+<a href="#ch3">第9/15页：掌握LR 画笔蒙版！👉1 招搞定随</a>
+<a href="#ch4">第13/15页：掌握LR 画笔蒙版！👉1 招搞定</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[1/15–4/15]</span><div><strong>封面/要点：[种草R]家人们，上一期东哥带大家实</strong><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</p></div></div>
+<div class="summary-row"><span class="time-marker">[5/15–8/15]</span><div><strong>第5/15页：掌握LR 画笔蒙版！👉1 招搞定随</strong><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</p></div></div>
+<div class="summary-row"><span class="time-marker">[9/15–12/15]</span><div><strong>第9/15页：掌握LR 画笔蒙版！👉1 招搞定随</strong><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</p></div></div>
+<div class="summary-row"><span class="time-marker">[13/15–15/15]</span><div><strong>第13/15页：掌握LR 画笔蒙版！👉1 招搞定</strong><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用</p></div>
+  <div class="bound"><strong>适用边界</strong>：图文轮播笔记；无时间轴口播。</div><div class="pitfall"><strong>踩坑</strong>：以图内文字为准；文案话题标签已剥离。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">1/15–4/15</span>封面/要点：[种草R]家人们，上一期东哥带大家实</h2><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</p><figure><img src="assets/lr-brush-mask/shot-01.jpg" alt="封面/要点：[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[1/15] 封面/要点：[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c8f92b3cd442.mp3" type="button" aria-label="Play English audio">🔊</button><span>Cover and key takeaways</span></div>
+<audio class="cap-audio" src="audio/3f3990208deb.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-02.jpg" alt="第2/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[2/15] 第2/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/fe5285002f65.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 2/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/ca668c59ecf6.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-03.jpg" alt="第3/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[3/15] 第3/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2f9bde46e0af.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 3/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/90c3214e78ce.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-04.jpg" alt="第4/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[4/15] 第4/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c769a6cda31d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 4/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/67393d426d3d.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">5/15–8/15</span>第5/15页：掌握LR 画笔蒙版！👉1 招搞定随</h2><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</p><figure><img src="assets/lr-brush-mask/shot-05.jpg" alt="第5/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[5/15] 第5/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a79f2f5cb176.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 5/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/7277fafecafc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-06.jpg" alt="第6/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[6/15] 第6/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d41041622bc7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 6/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/2cf6f3e1df14.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-07.jpg" alt="第7/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[7/15] 第7/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5cc00c231981.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 7/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/bb60fc6985c2.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-08.jpg" alt="第8/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[8/15] 第8/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/61aec0901a26.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 8/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/42dca144268f.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">9/15–12/15</span>第9/15页：掌握LR 画笔蒙版！👉1 招搞定随</h2><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</p><figure><img src="assets/lr-brush-mask/shot-09.jpg" alt="第9/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[9/15] 第9/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/237b9a735333.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 9/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/922350db26e1.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-10.jpg" alt="第10/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10/15] 第10/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3b555a3b64b7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 10/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/8df8469522ed.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-11.jpg" alt="第11/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[11/15] 第11/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a8f5df0b4444.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 11/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/d8e7d68f29e1.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-12.jpg" alt="第12/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12/15] 第12/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6bbb54a7f3b8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 12/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/1bcdaa6bf7d0.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch4"><h2><span class="time-marker">13/15–15/15</span>第13/15页：掌握LR 画笔蒙版！👉1 招搞定</h2><p>[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天，咱们继续深挖蒙版工具，重点讲讲画笔蒙版，实操干货直接拉满！
+	
+🎨画笔蒙版使用要点
+[种草R]局部精准调控：画笔蒙版堪称局部调整神器，无论画面区域形状多奇葩、面积大或小，都能通过画笔轻松圈定。
+	
+[种草R]三属性自由调控（图2）
+[烟花R]大小：大面积涂抹就调大画笔，快速覆盖；处理睫毛、发丝等细节时，缩小画笔精准描绘。图 3 里画笔大小 1、20、40 的效果，差别一目了然。
+	
+[烟花R]羽化：羽化值越高，画笔边缘越柔和，过渡超自然；羽化值越低，边界越清晰。参考图 4，羽化值 1、50、100 下，边缘变化超明显。
+	
+[烟花R]流畅度：等同于墨水流量。低流量每次上色浅，适合多次叠加；高流量一次上色浓。看一下图 5，流畅度 30、50、100，颜色浓度大不同。
+	
+[种草R]橡皮擦纠错功能：创建画笔蒙版后，橡皮擦自动上线。画错位置、涂多了？一键擦除，毫无压力！
+	
+🖼实操案例：光影氛围升级
+[种草R]以图 7 为例，水岸两边高光部分想让它更亮更暖，强化光影效果。但区域不规则，AI 识别蒙版、线性渐变蒙</p><figure><img src="assets/lr-brush-mask/shot-13.jpg" alt="第13/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[13/15] 第13/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/54b76b59bc16.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 13/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/461bb8c7215b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-14.jpg" alt="第14/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[14/15] 第14/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ae5fc19c284d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 14/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/0d139b4808f8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/lr-brush-mask/shot-15.jpg" alt="第15/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[15/15] 第15/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/54f6caa6f4e4.mp3" type="button" aria-label="Play English audio">🔊</button><span>Page note: 15/15 LR  1</span></div>
+<audio class="cap-audio" src="audio/96dcce16aaca.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（15段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>1/15</time><p>封面/要点：[种草R]家人们，上一期东哥带大家实操了线性渐变蒙版，领略了蒙版的神奇魔力。今天</p></div>
+<div class="transcript-row"><time>2/15</time><p>第2/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>3/15</time><p>第3/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>4/15</time><p>第4/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>5/15</time><p>第5/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>6/15</time><p>第6/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>7/15</time><p>第7/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>8/15</time><p>第8/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>9/15</time><p>第9/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>10/15</time><p>第10/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>11/15</time><p>第11/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>12/15</time><p>第12/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>13/15</time><p>第13/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>14/15</time><p>第14/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+<div class="transcript-row"><time>15/15</time><p>第15/15页：掌握LR 画笔蒙版！👉1 招搞定随性修图</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

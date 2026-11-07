@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「摄影的底层逻辑：4分钟彻底搞懂曝光补偿」教程要点：为什么你眼里的白雪,一进相机就变成了灰雪? → 为什么月亮明明有纹理,相机偏要拍成一个白灯泡? → 相机不是不会拍,它是故意这么拍的 → 因为它有一套自己的曝光标准；详见正文。">
+<title>摄影的底层逻辑：4分钟彻底搞懂曝光补偿｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>摄影的底层逻辑：4分钟彻底搞懂曝光补偿</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">4分30秒</span>
+    <span class="meta-tag tag-topic">摄影 · 光影 · 教程</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5C6jMA81Jfb" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">为什么你眼里的白雪,一进相机就变成了灰雪?</a>
+<a href="#ch2">这里给大家一句六字口诀</a>
+<a href="#ch3">下次开拍忘了改</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「摄影的底层逻辑：4分钟彻底搞懂曝光补偿」教程要点：为什么你眼里的白雪,一进相机就变成了灰雪? → 为什么月亮明明有纹理,相机偏要拍成一个白灯泡? → 相机不是不会拍,它是故意这么拍的 → 因为它有一套自己的曝光标准；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–01:47]</span><div><strong>为什么你眼里的白雪,一进相机就变成了灰雪?</strong><p>为什么你眼里的白雪,一进相机就变成了灰雪?</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:47–03:13]</span><div><strong>这里给大家一句六字口诀</strong><p>这里给大家一句六字口诀</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:12–04:30]</span><div><strong>下次开拍忘了改</strong><p>下次开拍忘了改</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>为什么你眼里的白雪,一进相机就变成了灰雪?</li><li>为什么月亮明明有纹理,相机偏要拍成一个白灯泡?</li><li>相机不是不会拍,它是故意这么拍的</li><li>因为它有一套自己的曝光标准</li><li>今天几分钟,我让你彻底看懂曝光补偿</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>为什么你眼里的白雪,一进相机就变成了灰雪?</p></div>
+  <div class="bound"><strong>适用边界</strong>：摄影基础向；器材与场地条件不同时参数需微调。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–01:47</span>为什么你眼里的白雪,一进相机就变成了灰雪?</h2><p>为什么你眼里的白雪,一进相机就变成了灰雪?；为什么月亮明明有纹理,相机偏要拍成一个白灯泡?；相机不是不会拍,它是故意这么拍的；因为它有一套自己的曝光标准；今天几分钟,我让你彻底看懂曝光补偿；先给大家看一个最直观的测试；一张白纸,一张黑纸；用相机自动模式拍出来,两张居然全是灰色的；如果相机真知道白纸就是白,黑纸就是黑；他们怎么可能拍成一个颜色?；道理很简单；相机只会把所有东西往一个中间亮度拉；它就像个特别死板的人；不管画面里是雪还是没球；都非要拧成不亮不暗的中间色才算完；相机没有拍错,它只是按自己的标准拍；可惜那个标准很多时候不是你的标准；所以我们拍照才会频繁翻车；亮背景的时候,相机觉得太亮,主动压暗；拍雪地,白雪拍成灰水泥；拍逆光自拍,人脸直接黑成剪影；拍亮天空下的花儿连颜色都乏闷；暗背景的时候,相机又觉得太暗,主动提亮；夜里拍月亮,亮成大白饼,纹理全丢；暗环境拍白露,羽毛过曝糊成一片；暗光下拍鹦鹉,毛发细节直接没了；到这我问大家一个问题；为什么雪会被相机拍成灰色?；知道答案的答1,还没搞懂的答2；解决方法就是相机自带的曝光补偿；先给大家说透本质；曝光补偿并不会改变相机测到的画面亮度；它改变的是相机最终采用的曝光目标；简单说就是告诉相机；这一次别按中间亮度的标准拍；相机测不准的地方；你手动掰回你想要的效果；操作很简单；相机上找带加减号的标识；按钮、拨轮、屏幕、菜单里都能调；往正方向拨加曝光,画面变亮；往负方向拨减曝光,画面变暗</p><figure><img src="assets/exposure-compensation-4min/shot-01.jpg" alt="为什么你眼里的白雪,一进相机就变成了灰雪?" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 为什么你眼里的白雪,一进相机就变成了灰雪?</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0ec922633d65.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/0ec922633d65.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/exposure-compensation-4min/shot-02.jpg" alt="为什么月亮明明有纹理,相机偏要拍成一个白灯泡?" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:03] 为什么月亮明明有纹理,相机偏要拍成一个白灯泡?</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a3fac39afc25.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/a3fac39afc25.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">01:47–03:13</span>这里给大家一句六字口诀</h2><p>这里给大家一句六字口诀；先记死、量加、按减、看图；这里的图指的就是直方图；量背景就加曝光,暗背景就减曝光；拿不准就看直方图；简称就是这六个字；不同相机调法不一样；给大家最实用的方案；单反用户先拍一张样片；看屏幕或者直方图判断；太暗就加,太亮就减；直方图通常比直接看屏幕更可靠；微单用户更省事；电子取景器能实时看到最终效果；把曝光补偿设到快捷波轮；眼睛不离开取景器就能盲跳；拍动态主体特别好用；拍的多了不用试拍；直接预判数值；拍雪地亮天空下的深色主体；直接加一档甚至更多；如果希望黑色主体保留更多层次；往往需要适当加一点曝光；避免拍出来发闷发灰；暗背景下拍白色主体；比如月亮、白露；通常需要减曝光保住亮部细节；给大家看个实拍对比；浅色的鸟站在暗背景前；相机自动提亮后羽毛直接过曝发白；把曝光补偿往负方向拨几格再拍；羽毛纹理清清楚楚；这才是我们要的效果；练多了就是肌肉记忆；我现在拍黑鸟自动加四格；拍雪霄自动减三格；亮天空拍飞鸟直接加五格；不用想抬手就调；这里提醒一个所有人都踩过的大坑；每次换新场景拍摄前；一定要把曝光补偿归零；很多人上一场调了正负补偿</p><figure><img src="assets/exposure-compensation-4min/shot-03.jpg" alt="这里给大家一句六字口诀" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:47] 这里给大家一句六字口诀</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5d57bf0a3b8a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/5d57bf0a3b8a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/exposure-compensation-4min/shot-04.jpg" alt="先记死、量加、按减、看图" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:49] 先记死、量加、按减、看图</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7b24898a3abe.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/7b24898a3abe.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">03:12–04:30</span>下次开拍忘了改</h2><p>下次开拍忘了改；前几十张照片全废；白白浪费机会；最后教大家一个保护高光的实用技巧；现在的数码相机暗部适度欠曝的细节；后期通常更容易恢复；但亮部过曝变成纯白的地方；是永远找不回来的；RAW格式能旧一点；但RAW也不是万能；真过曝成纯白谁都救不回来；所以尤其是在对底度很大的强光场景；尤其是用小尺寸传感器的相机；可以故意把曝光调低1-2%；相当于给高光上一层保险；后期再拉暗部就行；我自己用小底相机拍户外；大晴天基本都这么用；说到这补充个小知识点；摄影里通常会用18%中性灰；来帮助理解相机默认参考的这种中间亮度；大多数相机的侧光系统；都围绕这种参考亮度来设计；想要用的更精；后面还可以搭配测光模式一起学；控制相机优先测画面哪个区域；效果会更好；如果今天你只能记住一句话；那就是曝光补偿；不是修照片；是修正相机默认的判断；说到底就是让相机拍成你真正想要的样子；最后两个小互动；第一；大家把口诀打在评论区；量加按减看图；第二考大家一道题；拍雪地你会怎么调；A加曝光；B减曝光</p><figure><img src="assets/exposure-compensation-4min/shot-05.jpg" alt="下次开拍忘了改" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:12] 下次开拍忘了改</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5295a31482e7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/5295a31482e7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/exposure-compensation-4min/shot-06.jpg" alt="前几十张照片全废" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:14] 前几十张照片全废</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0e0444c8a375.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip from the note</span></div>
+<audio class="cap-audio" src="audio/0e0444c8a375.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/exposure-compensation-4min/shot-07.jpg" alt="B减曝光" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:39] B减曝光</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a3dd9a4c6f51.mp3" type="button" aria-label="Play English audio">🔊</button><span>Photography fundamentals tip</span></div>
+<audio class="cap-audio" src="audio/a3dd9a4c6f51.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/exposure-compensation-4min/shot-08.jpg" alt="B减曝光" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:13] B减曝光</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a3dd9a4c6f51.mp3" type="button" aria-label="Play English audio">🔊</button><span>Photography fundamentals tip</span></div>
+<audio class="cap-audio" src="audio/a3dd9a4c6f51.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>为什么你眼里的白雪,一进相机就变成了灰雪?</p></div>
+<div class="transcript-row"><time>00:03</time><p>为什么月亮明明有纹理,相机偏要拍成一个白灯泡?</p></div>
+<div class="transcript-row"><time>00:07</time><p>相机不是不会拍,它是故意这么拍的</p></div>
+<div class="transcript-row"><time>00:10</time><p>因为它有一套自己的曝光标准</p></div>
+<div class="transcript-row"><time>00:12</time><p>今天几分钟,我让你彻底看懂曝光补偿</p></div>
+<div class="transcript-row"><time>00:14</time><p>先给大家看一个最直观的测试</p></div>
+<div class="transcript-row"><time>00:16</time><p>一张白纸,一张黑纸</p></div>
+<div class="transcript-row"><time>00:18</time><p>用相机自动模式拍出来,两张居然全是灰色的</p></div>
+<div class="transcript-row"><time>00:22</time><p>如果相机真知道白纸就是白,黑纸就是黑</p></div>
+<div class="transcript-row"><time>00:25</time><p>他们怎么可能拍成一个颜色?</p></div>
+<div class="transcript-row"><time>00:27</time><p>道理很简单</p></div>
+<div class="transcript-row"><time>00:28</time><p>相机只会把所有东西往一个中间亮度拉</p></div>
+<div class="transcript-row"><time>00:32</time><p>它就像个特别死板的人</p></div>
+<div class="transcript-row"><time>00:34</time><p>不管画面里是雪还是没球</p></div>
+<div class="transcript-row"><time>00:35</time><p>都非要拧成不亮不暗的中间色才算完</p></div>
+<div class="transcript-row"><time>00:39</time><p>相机没有拍错,它只是按自己的标准拍</p></div>
+<div class="transcript-row"><time>00:41</time><p>可惜那个标准很多时候不是你的标准</p></div>
+<div class="transcript-row"><time>00:44</time><p>所以我们拍照才会频繁翻车</p></div>
+<div class="transcript-row"><time>00:46</time><p>亮背景的时候,相机觉得太亮,主动压暗</p></div>
+<div class="transcript-row"><time>00:49</time><p>拍雪地,白雪拍成灰水泥</p></div>
+<div class="transcript-row"><time>00:52</time><p>拍逆光自拍,人脸直接黑成剪影</p></div>
+<div class="transcript-row"><time>00:54</time><p>拍亮天空下的花儿连颜色都乏闷</p></div>
+<div class="transcript-row"><time>00:57</time><p>暗背景的时候,相机又觉得太暗,主动提亮</p></div>
+<div class="transcript-row"><time>01:00</time><p>夜里拍月亮,亮成大白饼,纹理全丢</p></div>
+<div class="transcript-row"><time>01:03</time><p>暗环境拍白露,羽毛过曝糊成一片</p></div>
+<div class="transcript-row"><time>01:06</time><p>暗光下拍鹦鹉,毛发细节直接没了</p></div>
+<div class="transcript-row"><time>01:09</time><p>到这我问大家一个问题</p></div>
+<div class="transcript-row"><time>01:11</time><p>为什么雪会被相机拍成灰色?</p></div>
+<div class="transcript-row"><time>01:14</time><p>知道答案的答1,还没搞懂的答2</p></div>
+<div class="transcript-row"><time>01:17</time><p>解决方法就是相机自带的曝光补偿</p></div>
+<div class="transcript-row"><time>01:20</time><p>先给大家说透本质</p></div>
+<div class="transcript-row"><time>01:21</time><p>曝光补偿并不会改变相机测到的画面亮度</p></div>
+<div class="transcript-row"><time>01:24</time><p>它改变的是相机最终采用的曝光目标</p></div>
+<div class="transcript-row"><time>01:27</time><p>简单说就是告诉相机</p></div>
+<div class="transcript-row"><time>01:29</time><p>这一次别按中间亮度的标准拍</p></div>
+<div class="transcript-row"><time>01:32</time><p>相机测不准的地方</p></div>
+<div class="transcript-row"><time>01:33</time><p>你手动掰回你想要的效果</p></div>
+<div class="transcript-row"><time>01:36</time><p>操作很简单</p></div>
+<div class="transcript-row"><time>01:37</time><p>相机上找带加减号的标识</p></div>
+<div class="transcript-row"><time>01:39</time><p>按钮、拨轮、屏幕、菜单里都能调</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>
