@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="用 Fusion Title <strong>Text+</strong> 做类似剪映的打字机：字逐个出现；<strong>拖动字幕时长即可调快慢，不需要关键帧</strong>。注意点击方向会决定逐个出现还是逐个消失。">
+<title>在达芬奇当中如何制作剪映一样的打字机效果｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>在达芬奇当中如何制作剪映一样的打字机效果</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">26秒</span>
+    <span class="meta-tag tag-topic">达芬奇 · Text+ · 打字机 · 标题</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/8EGO6khUcV0" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">Text+ 上屏与目标</a>
+<a href="#ch2">一步搞定：拖时长调速度</a>
+<a href="#ch3">方向与排版收尾</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>用 Fusion Title <strong>Text+</strong> 做类似剪映的打字机：字逐个出现；<strong>拖动字幕时长即可调快慢，不需要关键帧</strong>。注意点击方向会决定逐个出现还是逐个消失。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–00:08]</span><div><strong>Text+ 上屏与目标</strong><p>像剪映一样的打字机效果。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:08–00:18]</span><div><strong>一步搞定：拖时长调速度</strong><p>不需要关键帧。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:18–00:26]</span><div><strong>方向与排版收尾</strong><p>确认逐字出现；检查位置。</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>时间线加 Text+ 写入文案</li><li>打开写入/打字机类动画</li><li>拖长或缩短片段调速度</li><li>确认方向是出现而非消失</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>打字机=Text+ 写入动画；时长控制速度；点左边可能变成逐字消失——方向别点反。</p></div>
+  <div class="bound"><strong>适用边界</strong>：适合剪辑页 Text+ 标题；复杂逐字样式/路径动画仍可能要 Fusion 细调。</div><div class="pitfall"><strong>踩坑</strong>：点错写入方向会变成「逐个消失」；字号过小（如 0.055）在竖屏要再放大；误以为必须打关键帧。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–00:08</span>Text+ 上屏与目标</h2><p>片头提问如何做剪映式打字机。时间线使用 Text+，检查器设定字体（例：钉钉进步体）与字号，预览黑底白字逐行出现。</p><figure><img src="assets/davinci-typewriter-text-effect/shot-01.jpg" alt="Text+ 文案上屏，提问如何做打字机" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] Text+ 文案上屏，提问如何做打字机</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2823de081ad7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Text+ on screen: how to make a typewriter effect</span></div>
+<audio class="cap-audio" src="audio/2823de081ad7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-typewriter-text-effect/shot-02.jpg" alt="检查器设定字体与字号" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:05] 检查器设定字体与字号</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cc02b06a1e1a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Inspector: set font and size</span></div>
+<audio class="cap-audio" src="audio/cc02b06a1e1a.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">00:08–00:18</span>一步搞定：拖时长调速度</h2><p>口播要点：<strong>拖动时长就可以调整快慢，也不需要关键帧</strong>。把 Text+ 片段拉长→打字变慢；缩短→变快。画面提示「只需一步轻松搞定」。</p><figure><img src="assets/davinci-typewriter-text-effect/shot-03.jpg" alt="只需一步：拖动时长调快慢" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:10] 只需一步：拖动时长调快慢</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ab0f51ed8967.mp3" type="button" aria-label="Play English audio">🔊</button><span>One step: drag clip length to change speed</span></div>
+<audio class="cap-audio" src="audio/ab0f51ed8967.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-typewriter-text-effect/shot-04.jpg" alt="拉长片段字出得更慢" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:14] 拉长片段字出得更慢</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/552f4228ccd0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Longer clip = slower type-on</span></div>
+<audio class="cap-audio" src="audio/552f4228ccd0.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-typewriter-text-effect/shot-05.jpg" alt="注意：点左边可能变成字逐个消失" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:17] 注意：点左边可能变成字逐个消失</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e4e212107f18.mp3" type="button" aria-label="Play English audio">🔊</button><span>Caution: left control may type-off instead</span></div>
+<audio class="cap-audio" src="audio/e4e212107f18.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">00:18–00:26</span>方向与排版收尾</h2><p>写入方向点反会出现「逐个消失」。检查器可调位置/锚点；双轨 Text+（V1/V2）时可一轨标题一轨正文。成片黑底白字逐字显现即可交付。</p><figure><img src="assets/davinci-typewriter-text-effect/shot-06.jpg" alt="确认写入方向为逐字出现" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:20] 确认写入方向为逐字出现</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bae6ee8e49a5.mp3" type="button" aria-label="Play English audio">🔊</button><span>Confirm write-on direction = appear</span></div>
+<audio class="cap-audio" src="audio/bae6ee8e49a5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-typewriter-text-effect/shot-07.jpg" alt="检查器微调位置与字距" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:23] 检查器微调位置与字距</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f4e3ec9a2f82.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tweak position and tracking in Inspector</span></div>
+<audio class="cap-audio" src="audio/f4e3ec9a2f82.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-typewriter-text-effect/shot-08.jpg" alt="成片：打字机效果预览" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:25] 成片：打字机效果预览</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0d6e59eefedb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Final typewriter preview</span></div>
+<audio class="cap-audio" src="audio/0d6e59eefedb.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（4段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>在达芬奇当中如何制作像剪映一样的打字机效果</p></div>
+<div class="transcript-row"><time>00:04</time><p>拖动时长就可以调整快慢，也不需要关键帧</p></div>
+<div class="transcript-row"><time>00:10</time><p>只需一步轻松搞定</p></div>
+<div class="transcript-row"><time>00:17</time><p>注意点击左边是字逐个消失</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

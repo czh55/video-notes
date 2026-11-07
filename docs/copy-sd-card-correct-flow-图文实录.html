@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="严肃数据拷贝不要用系统复制粘贴。达芬奇媒体页用<strong>克隆工具</strong>：校验类型选 <strong>MD5</strong>，添加源/目标文件夹后点克隆，确保拷贝可校验、可追溯。">
+<title>正确拷卡流程，复制粘贴内存卡数据到电脑，快｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>正确拷卡流程，复制粘贴内存卡数据到电脑，快</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">32秒</span>
+    <span class="meta-tag tag-topic">达芬奇 · 拷卡 · 克隆 · MD5</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3FTvbwLrQyJ" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">为什么不是复制粘贴</a>
+<a href="#ch2">媒体页：克隆工具 + MD5</a>
+<a href="#ch3">添加文件夹并开始克隆</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>严肃数据拷贝不要用系统复制粘贴。达芬奇媒体页用<strong>克隆工具</strong>：校验类型选 <strong>MD5</strong>，添加源/目标文件夹后点克隆，确保拷贝可校验、可追溯。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–00:09]</span><div><strong>为什么不是复制粘贴</strong><p>数据无价；用达芬奇严肃拷贝。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:09–00:24]</span><div><strong>媒体页：克隆工具 + MD5</strong><p>点媒体→克隆→校验 MD5。</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:24–00:32]</span><div><strong>添加文件夹并开始克隆</strong><p>添加文件夹 → 点击克隆。</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>打开媒体页</li><li>点克隆工具</li><li>校验类型选 MD5</li><li>添加源与目标文件夹</li><li>点击克隆并等待完成</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>拷卡=媒体页克隆工具+MD5校验；别靠资源管理器复制粘贴。</p></div>
+  <div class="bound"><strong>适用边界</strong>：适合卡到盘/盘到盘的素材归档；不等同于项目归档（.dra）或代理生成。</div><div class="pitfall"><strong>踩坑</strong>：忘记开 MD5 就只是快拷；源目标选反会覆盖；克隆中勿拔卡。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–00:09</span>为什么不是复制粘贴</h2><p>正确拷卡流程<strong>绝对不是简单的复制粘贴</strong>。用达芬奇做可校验的数据拷贝，避免坏习惯留下隐患。</p><figure><img src="assets/copy-sd-card-correct-flow/shot-01.jpg" alt="正确拷卡不是简单复制粘贴" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 正确拷卡不是简单复制粘贴</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/47b51a16031f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Correct ingest is not plain copy-paste</span></div>
+<audio class="cap-audio" src="audio/47b51a16031f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/copy-sd-card-correct-flow/shot-02.jpg" alt="媒体页准备：数据无价" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:06] 媒体页准备：数据无价</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e1df8d9f439f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Media page: data is priceless</span></div>
+<audio class="cap-audio" src="audio/e1df8d9f439f.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">00:09–00:24</span>媒体页：克隆工具 + MD5</h2><p>①点击媒体菜单；②选择克隆工具；③校验类型选择 <strong>MD5</strong>。MD5 用于拷完比对，确认比特级一致。</p><figure><img src="assets/copy-sd-card-correct-flow/shot-03.jpg" alt="1. 点击媒体菜单" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:12] 1. 点击媒体菜单</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6f33c3faf442.mp3" type="button" aria-label="Play English audio">🔊</button><span>1. Open Media page</span></div>
+<audio class="cap-audio" src="audio/6f33c3faf442.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/copy-sd-card-correct-flow/shot-04.jpg" alt="2. 选择克隆工具" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:16] 2. 选择克隆工具</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2392f36e7e06.mp3" type="button" aria-label="Play English audio">🔊</button><span>2. Select Clone Tool</span></div>
+<audio class="cap-audio" src="audio/2392f36e7e06.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/copy-sd-card-correct-flow/shot-05.jpg" alt="3. 校验类型选择 MD5" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:20] 3. 校验类型选择 MD5</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c032dc249026.mp3" type="button" aria-label="Play English audio">🔊</button><span>3. Validation type = MD5</span></div>
+<audio class="cap-audio" src="audio/c032dc249026.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/copy-sd-card-correct-flow/shot-06.jpg" alt="作业面板准备源与目标" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:23] 作业面板准备源与目标</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/498e13cccf85.mp3" type="button" aria-label="Play English audio">🔊</button><span>Job panel: set source and destination</span></div>
+<audio class="cap-audio" src="audio/498e13cccf85.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">00:24–00:32</span>添加文件夹并开始克隆</h2><p>④添加文件夹（源卡/源目录与目标盘）；⑤点击克隆。进度条走完且校验通过即完成。</p><figure><img src="assets/copy-sd-card-correct-flow/shot-07.jpg" alt="4. 添加文件夹" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:27] 4. 添加文件夹</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ad3cd5c28b02.mp3" type="button" aria-label="Play English audio">🔊</button><span>4. Add folders</span></div>
+<audio class="cap-audio" src="audio/ad3cd5c28b02.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/copy-sd-card-correct-flow/shot-08.jpg" alt="5. 点击克隆并等待" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:30] 5. 点击克隆并等待</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0575bf90afda.mp3" type="button" aria-label="Play English audio">🔊</button><span>5. Click Clone and wait</span></div>
+<audio class="cap-audio" src="audio/0575bf90afda.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（9段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>正确的拷卡流程绝对不是简单的复制粘贴</p></div>
+<div class="transcript-row"><time>00:02</time><p>今天分享使用达芬奇如何进行严肃的数据拷贝</p></div>
+<div class="transcript-row"><time>00:06</time><p>数据无价</p></div>
+<div class="transcript-row"><time>00:07</time><p>不要让坏习惯埋下无穷的隐患</p></div>
+<div class="transcript-row"><time>00:09</time><p>1. 点击媒体菜单</p></div>
+<div class="transcript-row"><time>00:12</time><p>2. 选择克隆工具</p></div>
+<div class="transcript-row"><time>00:20</time><p>3. 校验类型选择MD5</p></div>
+<div class="transcript-row"><time>00:23</time><p>4. 添加文件夹</p></div>
+<div class="transcript-row"><time>00:29</time><p>5. 点击克隆</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

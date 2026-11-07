@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「达芬奇关键帧基础介绍丨常用技巧干货剪辑」教程要点：如果达芬奇剪辑的时候 → 很多小伙伴都没有搞懂关键帧 → 今天一次性讲个不败 → 剪辑页面角色页面还有Fish页面都有关键帧…">
+<title>达芬奇关键帧基础介绍丨常用技巧干货剪辑｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>达芬奇关键帧基础介绍丨常用技巧干货剪辑</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">2分36秒</span>
+    <span class="meta-tag tag-topic">达芬奇 · 教程 · 小红书</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/4DGBtPL5hxM" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">如果达芬奇剪辑的时候</a>
+<a href="#ch2">关键帧分为关键帧曲线跟关键帧通道</a>
+<a href="#ch3">也可以在关键帧的上方点击上方的</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「达芬奇关键帧基础介绍丨常用技巧干货剪辑」教程要点：如果达芬奇剪辑的时候 → 很多小伙伴都没有搞懂关键帧 → 今天一次性讲个不败 → 剪辑页面角色页面还有Fish页面都有关键帧…</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–00:53]</span><div><strong>如果达芬奇剪辑的时候</strong><p>如果达芬奇剪辑的时候</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:53–01:41]</span><div><strong>关键帧分为关键帧曲线跟关键帧通道</strong><p>关键帧分为关键帧曲线跟关键帧通道</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:42–02:36]</span><div><strong>也可以在关键帧的上方点击上方的</strong><p>也可以在关键帧的上方点击上方的</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>如果达芬奇剪辑的时候</li><li>很多小伙伴都没有搞懂关键帧</li><li>今天一次性讲个不败</li><li>剪辑页面角色页面还有Fish页面都有关键帧</li><li>但是底层逻辑是完全一样的</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>如果达芬奇剪辑的时候</p></div>
+  <div class="bound"><strong>适用边界</strong>：短视频速览；具体菜单名以你安装的 Resolve 语言包为准。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字，已按画面步骤校对；参数以检查器实值为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–00:53</span>如果达芬奇剪辑的时候</h2><p>如果达芬奇剪辑的时候；很多小伙伴都没有搞懂关键帧；今天一次性讲个不败；剪辑页面角色页面还有Fish页面都有关键帧；但是底层逻辑是完全一样的；先看剪辑页面我们打开检查器；几乎每一项选项都可以打上关键帧；这个小菱形的图标就是关键帧的意思；我们现在在时间线上点一下；红色就代表已经打上了关键帧；我们把时间线往后拖动；再点击这个小菱形；那么在两个时间线中间；就会自动产生关键帧的变化；我现在把这个缩放的数字给它调大一点；播放欲望看一下效果；这就是关键帧最基础的操作；软件左上方还有一个关键帧的面板；点开之后就可以查看我们的关键帧</p><figure><img src="assets/davinci-keyframes-basics/shot-01.jpg" alt="如果达芬奇剪辑的时候" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 如果达芬奇剪辑的时候</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ff6c447e2f85.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/ff6c447e2f85.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-keyframes-basics/shot-02.jpg" alt="很多小伙伴都没有搞懂关键帧" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:01] 很多小伙伴都没有搞懂关键帧</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6f03064a7d19.mp3" type="button" aria-label="Play English audio">🔊</button><span>keyframes</span></div>
+<audio class="cap-audio" src="audio/6f03064a7d19.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">00:53–01:41</span>关键帧分为关键帧曲线跟关键帧通道</h2><p>关键帧分为关键帧曲线跟关键帧通道；关键帧曲线和关键帧通道是相互对应的；只是展示的形式不同；在做变速效果的时候；我们主要用到的是关键帧曲线；这里我选择直显示带有关键帧的参数；方便大家理解；刚才只给缩放打了关键帧；贴保就会出现缩放这一个选项；拖动时间线指针画面就会跟着一起变换；我们刚刚打了两个关键帧；所以这里出现了两个关键帧；点击这两个它都会同步进行调整；在这里进行修改；那么其他画面也会进行同步的修改；添加关键帧的方式有很多种；第一种就是像刚才讲在检查器面板里面；点击零行直接添加关键帧；也可以打开关键帧面板添加</p><figure><img src="assets/davinci-keyframes-basics/shot-03.jpg" alt="关键帧分为关键帧曲线跟关键帧通道" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:53] 关键帧分为关键帧曲线跟关键帧通道</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/07509ce1c2a8.mp3" type="button" aria-label="Play English audio">🔊</button><span>keyframes keyframes keyframes</span></div>
+<audio class="cap-audio" src="audio/07509ce1c2a8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-keyframes-basics/shot-04.jpg" alt="关键帧曲线和关键帧通道是相互对应的" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:57] 关键帧曲线和关键帧通道是相互对应的</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4326fd49baff.mp3" type="button" aria-label="Play English audio">🔊</button><span>keyframes keyframes</span></div>
+<audio class="cap-audio" src="audio/4326fd49baff.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">01:42–02:36</span>也可以在关键帧的上方点击上方的</h2><p>也可以在关键帧的上方点击上方的；工具栏进行添加；或者是按住Alt键快速进行添加；我们可以给关键帧的变换做缓入缓出；现在的这条直线动画过渡是很生硬的；我们选中曲线；顶部工具栏有线性缓入；缓入如缓出；选择缓入如缓出；那么这部变换就会变得柔和；曲线还有调节控制线；可以精准的去调整动画的节奏；这里的X左右就代表着我们的时间线；我们的播放头跟随时间线变换；外轴代表的是参数变换；那么这里代表的是我们变换的起点；上方代表的是我们变换的终点；上下拖动就代表是变换的辅助</p><figure><img src="assets/davinci-keyframes-basics/shot-05.jpg" alt="也可以在关键帧的上方点击上方的" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:42] 也可以在关键帧的上方点击上方的</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c0569de96cf5.mp3" type="button" aria-label="Play English audio">🔊</button><span>keyframes click</span></div>
+<audio class="cap-audio" src="audio/c0569de96cf5.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-keyframes-basics/shot-06.jpg" alt="工具栏进行添加" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:45] 工具栏进行添加</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/650699230cc8.mp3" type="button" aria-label="Play English audio">🔊</button><span>add</span></div>
+<audio class="cap-audio" src="audio/650699230cc8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-keyframes-basics/shot-07.jpg" alt="上下拖动就代表是变换的辅助" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:07] 上下拖动就代表是变换的辅助</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c27513cd7933.mp3" type="button" aria-label="Play English audio">🔊</button><span>drag</span></div>
+<audio class="cap-audio" src="audio/c27513cd7933.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-keyframes-basics/shot-08.jpg" alt="上下拖动就代表是变换的辅助" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:26] 上下拖动就代表是变换的辅助</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c27513cd7933.mp3" type="button" aria-label="Play English audio">🔊</button><span>drag</span></div>
+<audio class="cap-audio" src="audio/c27513cd7933.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>如果达芬奇剪辑的时候</p></div>
+<div class="transcript-row"><time>00:01</time><p>很多小伙伴都没有搞懂关键帧</p></div>
+<div class="transcript-row"><time>00:03</time><p>今天一次性讲个不败</p></div>
+<div class="transcript-row"><time>00:04</time><p>剪辑页面角色页面还有Fish页面都有关键帧</p></div>
+<div class="transcript-row"><time>00:08</time><p>但是底层逻辑是完全一样的</p></div>
+<div class="transcript-row"><time>00:11</time><p>先看剪辑页面我们打开检查器</p></div>
+<div class="transcript-row"><time>00:14</time><p>几乎每一项选项都可以打上关键帧</p></div>
+<div class="transcript-row"><time>00:16</time><p>这个小菱形的图标就是关键帧的意思</p></div>
+<div class="transcript-row"><time>00:19</time><p>我们现在在时间线上点一下</p></div>
+<div class="transcript-row"><time>00:21</time><p>红色就代表已经打上了关键帧</p></div>
+<div class="transcript-row"><time>00:24</time><p>我们把时间线往后拖动</p></div>
+<div class="transcript-row"><time>00:27</time><p>再点击这个小菱形</p></div>
+<div class="transcript-row"><time>00:29</time><p>那么在两个时间线中间</p></div>
+<div class="transcript-row"><time>00:31</time><p>就会自动产生关键帧的变化</p></div>
+<div class="transcript-row"><time>00:34</time><p>我现在把这个缩放的数字给它调大一点</p></div>
+<div class="transcript-row"><time>00:39</time><p>播放欲望看一下效果</p></div>
+<div class="transcript-row"><time>00:43</time><p>这就是关键帧最基础的操作</p></div>
+<div class="transcript-row"><time>00:47</time><p>软件左上方还有一个关键帧的面板</p></div>
+<div class="transcript-row"><time>00:50</time><p>点开之后就可以查看我们的关键帧</p></div>
+<div class="transcript-row"><time>00:53</time><p>关键帧分为关键帧曲线跟关键帧通道</p></div>
+<div class="transcript-row"><time>00:57</time><p>关键帧曲线和关键帧通道是相互对应的</p></div>
+<div class="transcript-row"><time>00:59</time><p>只是展示的形式不同</p></div>
+<div class="transcript-row"><time>01:01</time><p>在做变速效果的时候</p></div>
+<div class="transcript-row"><time>01:02</time><p>我们主要用到的是关键帧曲线</p></div>
+<div class="transcript-row"><time>01:05</time><p>这里我选择直显示带有关键帧的参数</p></div>
+<div class="transcript-row"><time>01:08</time><p>方便大家理解</p></div>
+<div class="transcript-row"><time>01:09</time><p>刚才只给缩放打了关键帧</p></div>
+<div class="transcript-row"><time>01:11</time><p>贴保就会出现缩放这一个选项</p></div>
+<div class="transcript-row"><time>01:14</time><p>拖动时间线指针画面就会跟着一起变换</p></div>
+<div class="transcript-row"><time>01:19</time><p>我们刚刚打了两个关键帧</p></div>
+<div class="transcript-row"><time>01:20</time><p>所以这里出现了两个关键帧</p></div>
+<div class="transcript-row"><time>01:23</time><p>点击这两个它都会同步进行调整</p></div>
+<div class="transcript-row"><time>01:26</time><p>在这里进行修改</p></div>
+<div class="transcript-row"><time>01:27</time><p>那么其他画面也会进行同步的修改</p></div>
+<div class="transcript-row"><time>01:30</time><p>添加关键帧的方式有很多种</p></div>
+<div class="transcript-row"><time>01:33</time><p>第一种就是像刚才讲在检查器面板里面</p></div>
+<div class="transcript-row"><time>01:36</time><p>点击零行直接添加关键帧</p></div>
+<div class="transcript-row"><time>01:38</time><p>也可以打开关键帧面板添加</p></div>
+<div class="transcript-row"><time>01:42</time><p>也可以在关键帧的上方点击上方的</p></div>
+<div class="transcript-row"><time>01:45</time><p>工具栏进行添加</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

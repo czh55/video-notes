@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「达芬奇交付输出最终成片导出参数设置教程视」教程要点：达芬奇的交付设置直接决定成品画质和文件大小 → 输出设置出错会导致画面变色、画质模糊 → 首先要确保剪辑时间线设置正确 → 时间线参数是输出的基础…">
+<title>达芬奇交付输出最终成片导出参数设置教程视｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>达芬奇交付输出最终成片导出参数设置教程视</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">2分04秒</span>
+    <span class="meta-tag tag-topic">达芬奇 · 教程 · 小红书</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/AgTonDMgLUe" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">达芬奇的交付设置直接决定成品画质和文件大小</a>
+<a href="#ch2">通用场景、自媒体、朋友圈、本地播放</a>
+<a href="#ch3">4K的视频可以限制在4万左右</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「达芬奇交付输出最终成片导出参数设置教程视」教程要点：达芬奇的交付设置直接决定成品画质和文件大小 → 输出设置出错会导致画面变色、画质模糊 → 首先要确保剪辑时间线设置正确 → 时间线参数是输出的基础…</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–00:48]</span><div><strong>达芬奇的交付设置直接决定成品画质和文件大小</strong><p>达芬奇的交付设置直接决定成品画质和文件大小</p></div></div>
+<div class="summary-row"><span class="time-marker">[00:48–01:27]</span><div><strong>通用场景、自媒体、朋友圈、本地播放</strong><p>通用场景、自媒体、朋友圈、本地播放</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:28–02:04]</span><div><strong>4K的视频可以限制在4万左右</strong><p>4K的视频可以限制在4万左右</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>达芬奇的交付设置直接决定成品画质和文件大小</li><li>输出设置出错会导致画面变色、画质模糊</li><li>首先要确保剪辑时间线设置正确</li><li>时间线参数是输出的基础</li><li>必须与素材参数最终需求一致</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>达芬奇的交付设置直接决定成品画质和文件大小</p></div>
+  <div class="bound"><strong>适用边界</strong>：短视频速览；具体菜单名以你安装的 Resolve 语言包为准。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字，已按画面步骤校对；参数以检查器实值为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–00:48</span>达芬奇的交付设置直接决定成品画质和文件大小</h2><p>达芬奇的交付设置直接决定成品画质和文件大小；输出设置出错会导致画面变色、画质模糊；首先要确保剪辑时间线设置正确；时间线参数是输出的基础；必须与素材参数最终需求一致；否则会出现画面拉伸、卡顿等问题；做好前期准备后进入核心的交付设置环节；默认导出整个时间线；若只需导出部分片段；可以手动设置入点和出点；左侧最上方是预设模板；下方是自定义参数；先设置文件名和保存路径；渲染单个片段和多个片段的；就是一整个视频导出；还是按照剪辑点的位置分多个视频导出；这边选择单个片段；格式选择MP4；达芬奇支持多种格式；不同格式适配不同场景</p><figure><img src="assets/davinci-export-delivery-settings/shot-01.jpg" alt="达芬奇的交付设置直接决定成品画质和文件大小" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 达芬奇的交付设置直接决定成品画质和文件大小</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e392c78b7d20.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/e392c78b7d20.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-export-delivery-settings/shot-02.jpg" alt="输出设置出错会导致画面变色、画质模糊" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:04] 输出设置出错会导致画面变色、画质模糊</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8e16c68a00ec.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/8e16c68a00ec.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">00:48–01:27</span>通用场景、自媒体、朋友圈、本地播放</h2><p>通用场景、自媒体、朋友圈、本地播放；格式选MP4；编码选H264；MP4兼容性最强；几乎所有设备、平台都支持；H264编码压缩率适中；能在保证画质的同时控制文件大小；导出速度也较快；适合网络传播和移动设备观看；分辨率和帧率；默认与时间线相同；无需手动调整；质量就是码率；直接决定视频画质；码率越高,画质越好；但文件体积越大,导出速度越慢；新手默认自动即可；若想手动优化；选择限制为输入具体码率值；1080P的视频可以限制在1万左右</p><figure><img src="assets/davinci-export-delivery-settings/shot-03.jpg" alt="通用场景、自媒体、朋友圈、本地播放" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:48] 通用场景、自媒体、朋友圈、本地播放</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b3b4d9021d96.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve tutorial step</span></div>
+<audio class="cap-audio" src="audio/b3b4d9021d96.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-export-delivery-settings/shot-04.jpg" alt="格式选MP4" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:51] 格式选MP4</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1ce5fc88a770.mp3" type="button" aria-label="Play English audio">🔊</button><span>MP4</span></div>
+<audio class="cap-audio" src="audio/1ce5fc88a770.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">01:28–02:04</span>4K的视频可以限制在4万左右</h2><p>4K的视频可以限制在4万左右；重点提醒下；不要将码率设得过低；比如低于5000；画面会出现模糊、色块；也不要过高；会造成存储空间浪费；平台上传时会自动压缩；下面的这些参数都默认就可以了；调整完毕后；点击添加到渲染对列；会出现渲染任务；再点击全部渲染即可开始导出；导出期间注意两点；一不要关闭达芬奇；不要操作电脑大型软件；二导出完成后；先打开文件预览一遍；检查画质、色彩、樱花是否同步；确认无误后再交付或上传</p><figure><img src="assets/davinci-export-delivery-settings/shot-05.jpg" alt="4K的视频可以限制在4万左右" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:28] 4K的视频可以限制在4万左右</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/16c6900cb5b1.mp3" type="button" aria-label="Play English audio">🔊</button><span>4K 4</span></div>
+<audio class="cap-audio" src="audio/16c6900cb5b1.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-export-delivery-settings/shot-06.jpg" alt="重点提醒下" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:30] 重点提醒下</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/13a7c2d6d1be.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/13a7c2d6d1be.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-export-delivery-settings/shot-07.jpg" alt="确认无误后再交付或上传" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:40] 确认无误后再交付或上传</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a9e2640e71f7.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/a9e2640e71f7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-export-delivery-settings/shot-08.jpg" alt="确认无误后再交付或上传" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:56] 确认无误后再交付或上传</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a9e2640e71f7.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/a9e2640e71f7.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>达芬奇的交付设置直接决定成品画质和文件大小</p></div>
+<div class="transcript-row"><time>00:04</time><p>输出设置出错会导致画面变色、画质模糊</p></div>
+<div class="transcript-row"><time>00:07</time><p>首先要确保剪辑时间线设置正确</p></div>
+<div class="transcript-row"><time>00:10</time><p>时间线参数是输出的基础</p></div>
+<div class="transcript-row"><time>00:12</time><p>必须与素材参数最终需求一致</p></div>
+<div class="transcript-row"><time>00:15</time><p>否则会出现画面拉伸、卡顿等问题</p></div>
+<div class="transcript-row"><time>00:18</time><p>做好前期准备后进入核心的交付设置环节</p></div>
+<div class="transcript-row"><time>00:21</time><p>默认导出整个时间线</p></div>
+<div class="transcript-row"><time>00:23</time><p>若只需导出部分片段</p></div>
+<div class="transcript-row"><time>00:25</time><p>可以手动设置入点和出点</p></div>
+<div class="transcript-row"><time>00:27</time><p>左侧最上方是预设模板</p></div>
+<div class="transcript-row"><time>00:29</time><p>下方是自定义参数</p></div>
+<div class="transcript-row"><time>00:31</time><p>先设置文件名和保存路径</p></div>
+<div class="transcript-row"><time>00:33</time><p>渲染单个片段和多个片段的</p></div>
+<div class="transcript-row"><time>00:36</time><p>就是一整个视频导出</p></div>
+<div class="transcript-row"><time>00:37</time><p>还是按照剪辑点的位置分多个视频导出</p></div>
+<div class="transcript-row"><time>00:40</time><p>这边选择单个片段</p></div>
+<div class="transcript-row"><time>00:42</time><p>格式选择MP4</p></div>
+<div class="transcript-row"><time>00:44</time><p>达芬奇支持多种格式</p></div>
+<div class="transcript-row"><time>00:45</time><p>不同格式适配不同场景</p></div>
+<div class="transcript-row"><time>00:48</time><p>通用场景、自媒体、朋友圈、本地播放</p></div>
+<div class="transcript-row"><time>00:51</time><p>格式选MP4</p></div>
+<div class="transcript-row"><time>00:52</time><p>编码选H264</p></div>
+<div class="transcript-row"><time>00:54</time><p>MP4兼容性最强</p></div>
+<div class="transcript-row"><time>00:56</time><p>几乎所有设备、平台都支持</p></div>
+<div class="transcript-row"><time>00:58</time><p>H264编码压缩率适中</p></div>
+<div class="transcript-row"><time>01:00</time><p>能在保证画质的同时控制文件大小</p></div>
+<div class="transcript-row"><time>01:03</time><p>导出速度也较快</p></div>
+<div class="transcript-row"><time>01:04</time><p>适合网络传播和移动设备观看</p></div>
+<div class="transcript-row"><time>01:07</time><p>分辨率和帧率</p></div>
+<div class="transcript-row"><time>01:08</time><p>默认与时间线相同</p></div>
+<div class="transcript-row"><time>01:10</time><p>无需手动调整</p></div>
+<div class="transcript-row"><time>01:11</time><p>质量就是码率</p></div>
+<div class="transcript-row"><time>01:13</time><p>直接决定视频画质</p></div>
+<div class="transcript-row"><time>01:14</time><p>码率越高,画质越好</p></div>
+<div class="transcript-row"><time>01:16</time><p>但文件体积越大,导出速度越慢</p></div>
+<div class="transcript-row"><time>01:18</time><p>新手默认自动即可</p></div>
+<div class="transcript-row"><time>01:20</time><p>若想手动优化</p></div>
+<div class="transcript-row"><time>01:22</time><p>选择限制为输入具体码率值</p></div>
+<div class="transcript-row"><time>01:24</time><p>1080P的视频可以限制在1万左右</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

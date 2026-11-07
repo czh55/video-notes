@@ -1,5 +1,2126 @@
 [
   {
+    "date": "2026-11-07",
+    "title": "达芬奇高级穿梭缩放遮罩转场｜氛围感镜头切",
+    "summary": "达芬奇高级穿梭缩放遮罩转场｜氛围感镜头切",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5Job8j9hstF",
+    "duration": "1分03秒",
+    "outputs": {
+      "html": "davinci-zoom-shuttle-mask-transition-图文实录.html",
+      "svg": "davinci-zoom-shuttle-mask-transition-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 21,
+    "svg_height": 2172,
+    "slug": "davinci-zoom-shuttle-mask-transition",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇制作王家卫风格视频，电影抽帧，定格动",
+    "summary": "用 Resolve FX「定格动画」抽帧（调重复帧数），再叠「运动拖尾」增强电影感/王家卫式顿挫。路径：特效库 → 时域 → 定格动画，拖到素材；检查器调重复帧；需要时再加运动拖尾。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "定格动画",
+      "抽帧",
+      "王家卫",
+      "运动拖尾"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6c64dQ3k9BN",
+    "duration": "29秒",
+    "outputs": {
+      "html": "davinci-wongkarwai-freeze-frames-图文实录.html",
+      "svg": "davinci-wongkarwai-freeze-frames-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "davinci-wongkarwai-freeze-frames",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇水波滑动转场开场制作动画教程",
+    "summary": "达芬奇水波滑动转场开场制作动画教程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/lGYTs3K24i",
+    "duration": "5分10秒",
+    "outputs": {
+      "html": "davinci-water-slide-transition-图文实录.html",
+      "svg": "davinci-water-slide-transition-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2204,
+    "slug": "davinci-water-slide-transition",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇水波文字水面漂浮文字动画制作教程",
+    "summary": "达芬奇水波文字水面漂浮文字动画制作教程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/I3ZcxGZIpk",
+    "duration": "2分10秒",
+    "outputs": {
+      "html": "davinci-water-ripple-text-图文实录.html",
+      "svg": "davinci-water-ripple-text-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-water-ripple-text",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "✅达芬奇竖版文字幕制作教程",
+    "summary": "✅达芬奇竖版文字幕制作教程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7Q3GtvpTale",
+    "duration": "26秒",
+    "outputs": {
+      "html": "davinci-vertical-text-subtitles-图文实录.html",
+      "svg": "davinci-vertical-text-subtitles-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "davinci-vertical-text-subtitles",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "在达芬奇当中如何制作剪映一样的打字机效果",
+    "summary": "用 Fusion Title <strong>Text+</strong> 做类似剪映的打字机：字逐个出现；<strong>拖动字幕时长即可调快慢，不需要关键帧</strong>。注意点击方向会决定逐个出现还是逐个消失。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "Text+",
+      "打字机",
+      "标题"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8EGO6khUcV0",
+    "duration": "26秒",
+    "outputs": {
+      "html": "davinci-typewriter-text-effect-图文实录.html",
+      "svg": "davinci-typewriter-text-effect-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 4,
+    "svg_height": 2141,
+    "slug": "davinci-typewriter-text-effect",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇时间线缩放 达芬奇时间线缩放 达芬奇",
+    "summary": "「达芬奇时间线缩放 达芬奇时间线缩放 达芬奇」教程要点：平时剪辑时,大家都应该发现了窗口大小不一样,时间线能显示的片段范围也会跟着变。 → 如果想一键完整查看整条工程,不用来回拖拽滑动条,直接按下键盘的shift的加字力,软件会自动适配画面",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6l4OF7yEV9d",
+    "duration": "1分34秒",
+    "outputs": {
+      "html": "davinci-timeline-zoom-图文实录.html",
+      "svg": "davinci-timeline-zoom-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 7,
+    "svg_height": 2204,
+    "slug": "davinci-timeline-zoom",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色提速🔥时间线缩略图模式🔥新手和",
+    "summary": "达芬奇调色提速🔥时间线缩略图模式🔥新手和",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9Q2ePQHAVvH",
+    "duration": "1分27秒",
+    "outputs": {
+      "html": "davinci-thumbnail-mode-speedup-图文实录.html",
+      "svg": "davinci-thumbnail-mode-speedup-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 34,
+    "svg_height": 2172,
+    "slug": "davinci-thumbnail-mode-speedup",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "穩定防抖：达芬奇的三种稳定方式",
+    "summary": "穩定防抖：达芬奇的三种稳定方式",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8AF741jzImr",
+    "duration": "1分21秒",
+    "outputs": {
+      "html": "davinci-three-stabilization-methods-图文实录.html",
+      "svg": "davinci-three-stabilization-methods-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 12,
+    "svg_height": 2109,
+    "slug": "davinci-three-stabilization-methods",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇文字穿越片头转场做法 用达芬奇做文",
+    "summary": "达芬奇文字穿越片头转场做法 用达芬奇做文",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6npPRNxw0nX",
+    "duration": "43秒",
+    "outputs": {
+      "html": "davinci-text-pass-through-intro-图文实录.html",
+      "svg": "davinci-text-pass-through-intro-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 14,
+    "svg_height": 2172,
+    "slug": "davinci-text-pass-through-intro",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇切换中文版本 达芬奇中英文版本切换",
+    "summary": "达芬奇切换中文版本 达芬奇中英文版本切换",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1yyT1hvohnB",
+    "duration": "16秒",
+    "outputs": {
+      "html": "davinci-switch-chinese-ui-图文实录.html",
+      "svg": "davinci-switch-chinese-ui-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 5,
+    "svg_height": 1940,
+    "slug": "davinci-switch-chinese-ui",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇表面跟踪器｜图像附加在墙面物体上",
+    "summary": "「达芬奇表面跟踪器｜图像附加在墙面物体上」教程要点：在达分器里面,只需要一个节点,就能轻松地把物体贴在墙面上。 → 首先先切换到调色页面,然后打开特效库,找到表面跟踪器,把表面跟踪器拖动到节点窗口。 → 接着把1号节点的输出连接到表面跟踪器",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9UYU2NdnDe8",
+    "duration": "1分37秒",
+    "outputs": {
+      "html": "davinci-surface-tracker-图文实录.html",
+      "svg": "davinci-surface-tracker-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 15,
+    "svg_height": 2172,
+    "slug": "davinci-surface-tracker",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇分屏效果 达芬奇分屏 达芬奇分屏效果",
+    "summary": "达芬奇分屏效果 达芬奇分屏 达芬奇分屏效果",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3acrJOf7tOm",
+    "duration": "2分11秒",
+    "outputs": {
+      "html": "davinci-split-screen-图文实录.html",
+      "svg": "davinci-split-screen-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-split-screen",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "音乐突然骤停？达芬奇这样处理超丝滑！ 很多",
+    "summary": "音乐突然骤停？达芬奇这样处理超丝滑！ 很多",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9WaVXoJJ5yu",
+    "duration": "32秒",
+    "outputs": {
+      "html": "davinci-smooth-music-cutoff-图文实录.html",
+      "svg": "davinci-smooth-music-cutoff-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 10,
+    "svg_height": 2172,
+    "slug": "davinci-smooth-music-cutoff",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇遮罩转场｜简单遮罩转场技巧教程   高",
+    "summary": "达芬奇遮罩转场｜简单遮罩转场技巧教程   高",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9233ls0aYcZ",
+    "duration": "1分15秒",
+    "outputs": {
+      "html": "davinci-simple-mask-transition-图文实录.html",
+      "svg": "davinci-simple-mask-transition-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 11,
+    "svg_height": 2172,
+    "slug": "davinci-simple-mask-transition",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇场景剪切探测，自动识别剪切点，方便日",
+    "summary": "达芬奇场景剪切探测，自动识别剪切点，方便日",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/Yg1LKsTmdo",
+    "duration": "50秒",
+    "outputs": {
+      "html": "davinci-scene-cut-detection-图文实录.html",
+      "svg": "davinci-scene-cut-detection-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 11,
+    "svg_height": 2172,
+    "slug": "davinci-scene-cut-detection",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇保存和归档方式",
+    "summary": "达芬奇保存和归档方式",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A6BstF8i0st",
+    "duration": "1分07秒",
+    "outputs": {
+      "html": "davinci-save-and-archive-图文实录.html",
+      "svg": "davinci-save-and-archive-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 25,
+    "svg_height": 2172,
+    "slug": "davinci-save-and-archive",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🎧：波纹音频✂️：达芬奇",
+    "summary": "「🎧：波纹音频✂️：达芬奇」教程要点：达芬奇一键处理口播视频气口停顿问题 → 选择片段 audio operations,repo delete silence → 预指判断是否为静音音量的零介质 → pre-head再是别为静音的音频段开",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9HTYUWzHoRm",
+    "duration": "33秒",
+    "outputs": {
+      "html": "davinci-ripple-audio-breath-cuts-图文实录.html",
+      "svg": "davinci-ripple-audio-breath-cuts-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "davinci-ripple-audio-breath-cuts",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "口播气口停顿处理四楼达芬奇平滑剪切教程",
+    "summary": "口播气口停顿处理四楼达芬奇平滑剪切教程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A1fP6hax8br",
+    "duration": "31秒",
+    "outputs": {
+      "html": "davinci-ripple-audio-breath-cuts-2-图文实录.html",
+      "svg": "davinci-ripple-audio-breath-cuts-2-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 9,
+    "svg_height": 2172,
+    "slug": "davinci-ripple-audio-breath-cuts-2",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "✨达芬奇｜封面替换",
+    "summary": "媒体池里给素材<strong>自定义预览封面</strong>：找到要当封面的画面，在预览窗<strong>右键 → 设定为标志帧/标注帧</strong>，媒体池缩略图立刻换成该帧，方便一秒定位关键画面。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "标注帧",
+      "封面",
+      "媒体池"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5RrqmtMsp9N",
+    "duration": "13秒",
+    "outputs": {
+      "html": "davinci-replace-preview-cover-图文实录.html",
+      "svg": "davinci-replace-preview-cover-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 1908,
+    "slug": "davinci-replace-preview-cover",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇远程版本 达芬奇远程版本 达芬奇远程",
+    "summary": "达芬奇远程版本 达芬奇远程版本 达芬奇远程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/55ZfEp1giMz",
+    "duration": "59秒",
+    "outputs": {
+      "html": "davinci-remote-versions-图文实录.html",
+      "svg": "davinci-remote-versions-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 16,
+    "svg_height": 2172,
+    "slug": "davinci-remote-versions",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇暗部恢复 达芬奇暗部 达芬奇暗部恢复",
+    "summary": "达芬奇暗部恢复 达芬奇暗部 达芬奇暗部恢复",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/16Cl9jr0zns",
+    "duration": "25秒",
+    "outputs": {
+      "html": "davinci-recover-shadows-图文实录.html",
+      "svg": "davinci-recover-shadows-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 13,
+    "svg_height": 2172,
+    "slug": "davinci-recover-shadows",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇工程进度丢失找回 达芬奇工程进度丢",
+    "summary": "「达芬奇工程进度丢失找回 达芬奇工程进度丢」教程要点：达芬奇文件没有保存,文件损坏,软件崩溃,工程文件进度丢失,如何找回修复 → 只要你打开了这三个设置,那么文件就能找回来 → 第一步,点击达芬奇偏好设置,用户项目保存和加载 → 确保这三个",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8yLD38gUN03",
+    "duration": "40秒",
+    "outputs": {
+      "html": "davinci-recover-lost-project-图文实录.html",
+      "svg": "davinci-recover-lost-project-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 9,
+    "svg_height": 2172,
+    "slug": "davinci-recover-lost-project",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇项目帧率设置！ 达芬奇帧率设置 达芬奇",
+    "summary": "达芬奇项目帧率设置！ 达芬奇帧率设置 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5JwVRfsa0Xf",
+    "duration": "49秒",
+    "outputs": {
+      "html": "davinci-project-framerate-图文实录.html",
+      "svg": "davinci-project-framerate-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 18,
+    "svg_height": 2172,
+    "slug": "davinci-project-framerate",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇最科学的精准白平衡技巧教程方法示波",
+    "summary": "达芬奇最科学的精准白平衡技巧教程方法示波",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2NHSyxpfTz9",
+    "duration": "2分04秒",
+    "outputs": {
+      "html": "davinci-precise-white-balance-图文实录.html",
+      "svg": "davinci-precise-white-balance-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 39,
+    "svg_height": 2172,
+    "slug": "davinci-precise-white-balance",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇神器遮罩教程教学局部调色再也不用苦",
+    "summary": "「达芬奇神器遮罩教程教学局部调色再也不用苦」教程要点：神奇遮罩绝对是大分期里面提升调色效率最重要的AI工具 → 做局部调色,单独给画面某个物体加效果,基本都离不开它 → 绝大多数常规场景下都能省下大量时间,而且上手门槛很低 → 操作步骤也很",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5kKkDFINTZh",
+    "duration": "1分12秒",
+    "outputs": {
+      "html": "davinci-power-window-mask-图文实录.html",
+      "svg": "davinci-power-window-mask-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 12,
+    "svg_height": 2172,
+    "slug": "davinci-power-window-mask",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇人物擦除显现字幕特效! 超好用的达芬",
+    "summary": "达芬奇人物擦除显现字幕特效! 超好用的达芬",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ACkwZkXmXEW",
+    "duration": "59秒",
+    "outputs": {
+      "html": "davinci-person-reveal-subtitle-图文实录.html",
+      "svg": "davinci-person-reveal-subtitle-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 23,
+    "svg_height": 2172,
+    "slug": "davinci-person-reveal-subtitle",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇人物遮挡文字 达芬奇遮挡文字 达芬奇",
+    "summary": "达芬奇人物遮挡文字 达芬奇遮挡文字 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8uyDco7tkv3",
+    "duration": "41秒",
+    "outputs": {
+      "html": "davinci-person-occlude-text-图文实录.html",
+      "svg": "davinci-person-occlude-text-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 22,
+    "svg_height": 2172,
+    "slug": "davinci-person-occlude-text",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔮达芬奇｜如何制作翻页效果",
+    "summary": "🔮达芬奇｜如何制作翻页效果",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/57j2vHQA9pr",
+    "duration": "44秒",
+    "outputs": {
+      "html": "davinci-page-turn-effect-图文实录.html",
+      "svg": "davinci-page-turn-effect-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 26,
+    "svg_height": 2172,
+    "slug": "davinci-page-turn-effect",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇光流补帧 达芬奇光流补帧 达芬奇光流",
+    "summary": "达芬奇光流补帧 达芬奇光流补帧 达芬奇光流",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6KBpPQAzBxl",
+    "duration": "31秒",
+    "outputs": {
+      "html": "davinci-optical-flow-retiming-图文实录.html",
+      "svg": "davinci-optical-flow-retiming-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 9,
+    "svg_height": 2172,
+    "slug": "davinci-optical-flow-retiming",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇物体划屏超酷足球滑屏遮罩转场效果",
+    "summary": "达芬奇物体划屏超酷足球滑屏遮罩转场效果",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6aViY3lkaG",
+    "duration": "1分31秒",
+    "outputs": {
+      "html": "davinci-object-wipe-transition-图文实录.html",
+      "svg": "davinci-object-wipe-transition-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 22,
+    "svg_height": 2172,
+    "slug": "davinci-object-wipe-transition",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇剪辑面板自带的Fusion特效挨个做个介",
+    "summary": "达芬奇剪辑面板自带的Fusion特效挨个做个介",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3PTTl9s8jOn",
+    "duration": "5分06秒",
+    "outputs": {
+      "html": "davinci-note-25-图文实录.html",
+      "svg": "davinci-note-25-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-note-25",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "使用达芬奇轻松让人物肤色高级自然皮肤调整",
+    "summary": "使用达芬奇轻松让人物肤色高级自然皮肤调整",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1pk7ywkmZGu",
+    "duration": "1分35秒",
+    "outputs": {
+      "html": "davinci-natural-skin-tone-图文实录.html",
+      "svg": "davinci-natural-skin-tone-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 26,
+    "svg_height": 2172,
+    "slug": "davinci-natural-skin-tone",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇制作超酷人物运动背景流动模糊特效",
+    "summary": "达芬奇制作超酷人物运动背景流动模糊特效",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4doAJZbD0lQ",
+    "duration": "3分30秒",
+    "outputs": {
+      "html": "davinci-motion-blur-background-图文实录.html",
+      "svg": "davinci-motion-blur-background-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-motion-blur-background",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇蒙版错位 达芬奇蒙版 达芬奇蒙版错位",
+    "summary": "达芬奇蒙版错位 达芬奇蒙版 达芬奇蒙版错位",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3dTKghFaNYF",
+    "duration": "1分10秒",
+    "outputs": {
+      "html": "davinci-mask-misalignment-图文实录.html",
+      "svg": "davinci-mask-misalignment-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 29,
+    "svg_height": 2172,
+    "slug": "davinci-mask-misalignment",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇LUT安装加载和正确使用方法教程  #达",
+    "summary": "达芬奇LUT安装加载和正确使用方法教程  #达",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AL44VhT7CnR",
+    "duration": "49秒",
+    "outputs": {
+      "html": "davinci-lut-install-and-use-图文实录.html",
+      "svg": "davinci-lut-install-and-use-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 25,
+    "svg_height": 2172,
+    "slug": "davinci-lut-install-and-use",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇灰片还原 达芬奇灰片 达芬奇灰片还原",
+    "summary": "达芬奇灰片还原 达芬奇灰片 达芬奇灰片还原",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4shMc3QIZTM",
+    "duration": "1分15秒",
+    "outputs": {
+      "html": "davinci-log-to-rec709-图文实录.html",
+      "svg": "davinci-log-to-rec709-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 24,
+    "svg_height": 2172,
+    "slug": "davinci-log-to-rec709",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇本地版本🔥一个片段存N种调色太香了",
+    "summary": "「达芬奇本地版本🔥一个片段存N种调色太香了」教程要点：什么是达芬奇的本地版本,在达芬奇里,本地版本是调色页面里,用来给单个片段单独存调色方案的功能,什么意思呢?举个例子,你在调色页面,随便找一段素材,改完色之后,想保存不同的调色方案,怎么办",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6dEAw9TcxAo",
+    "duration": "45秒",
+    "outputs": {
+      "html": "davinci-local-versions-multi-grades-图文实录.html",
+      "svg": "davinci-local-versions-multi-grades-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 2,
+    "svg_height": 1998,
+    "slug": "davinci-local-versions-multi-grades",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "🔥达芬奇光线分屏切割开场｜高级片头氛围感",
+    "summary": "🔥达芬奇光线分屏切割开场｜高级片头氛围感",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2v8iIgJk1HI",
+    "duration": "6分45秒",
+    "outputs": {
+      "html": "davinci-light-split-intro-图文实录.html",
+      "svg": "davinci-light-split-intro-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-light-split-intro",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇图层节点27种混合模式详解",
+    "summary": "图层节点混合模式六类约27种：覆盖/差值/色彩/对比/去暗/去亮的用途、边界与踩坑。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "图层节点",
+      "混合模式",
+      "调色"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1dyxuYBhe8t",
+    "duration": "29秒",
+    "outputs": {
+      "html": "davinci-layer-nodes-intro-图文实录.html",
+      "svg": "davinci-layer-nodes-intro-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 1793,
+    "slug": "davinci-layer-nodes-intro",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇关键帧基础介绍丨常用技巧干货剪辑",
+    "summary": "达芬奇关键帧基础介绍丨常用技巧干货剪辑",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4DGBtPL5hxM",
+    "duration": "2分36秒",
+    "outputs": {
+      "html": "davinci-keyframes-basics-图文实录.html",
+      "svg": "davinci-keyframes-basics-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-keyframes-basics",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇快捷键 达芬奇快捷键 达芬奇快捷键",
+    "summary": "达芬奇快捷键 达芬奇快捷键 达芬奇快捷键",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/57zumZrkYm8",
+    "duration": "43秒",
+    "outputs": {
+      "html": "davinci-keyboard-shortcuts-图文实录.html",
+      "svg": "davinci-keyboard-shortcuts-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 16,
+    "svg_height": 2172,
+    "slug": "davinci-keyboard-shortcuts",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇零基础教程｜做片头开场+片尾落幕效果",
+    "summary": "达芬奇零基础教程｜做片头开场+片尾落幕效果",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/98k0tw3uk9B",
+    "duration": "25秒",
+    "outputs": {
+      "html": "davinci-intro-outro-basics-图文实录.html",
+      "svg": "davinci-intro-outro-basics-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "davinci-intro-outro-basics",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇导入字幕超简单!一键导入零乱码! 别",
+    "summary": "达芬奇导入字幕超简单!一键导入零乱码! 别",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2t1oVlIey1I",
+    "duration": "30秒",
+    "outputs": {
+      "html": "davinci-import-subtitles-图文实录.html",
+      "svg": "davinci-import-subtitles-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 20,
+    "svg_height": 2172,
+    "slug": "davinci-import-subtitles",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇镂空文字穿越 达芬奇文字穿越 达芬奇",
+    "summary": "达芬奇镂空文字穿越 达芬奇文字穿越 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/vCBtAbye9E",
+    "duration": "40秒",
+    "outputs": {
+      "html": "davinci-hollow-text-pass-through-图文实录.html",
+      "svg": "davinci-hollow-text-pass-through-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 20,
+    "svg_height": 2172,
+    "slug": "davinci-hollow-text-pass-through",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇模拟耳机听歌效果：人物戴上耳机，声音",
+    "summary": "达芬奇模拟耳机听歌效果：人物戴上耳机，声音",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5sUTQeohqXY",
+    "duration": "1分06秒",
+    "outputs": {
+      "html": "davinci-headphone-audio-effect-图文实录.html",
+      "svg": "davinci-headphone-audio-effect-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 11,
+    "svg_height": 2172,
+    "slug": "davinci-headphone-audio-effect",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇 FUSION转场 达芬奇转场效果 达芬奇",
+    "summary": "达芬奇 FUSION转场 达芬奇转场效果 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2xvkCvnI8ML",
+    "duration": "2分33秒",
+    "outputs": {
+      "html": "davinci-fusion-transitions-图文实录.html",
+      "svg": "davinci-fusion-transitions-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 7,
+    "svg_height": 2172,
+    "slug": "davinci-fusion-transitions",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇Fusion竖屏横屏切换宽高比比例调整教",
+    "summary": "达芬奇Fusion竖屏横屏切换宽高比比例调整教",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2vxn0dZr4UJ",
+    "duration": "31秒",
+    "outputs": {
+      "html": "davinci-fusion-aspect-ratio-图文实录.html",
+      "svg": "davinci-fusion-aspect-ratio-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 11,
+    "svg_height": 2172,
+    "slug": "davinci-fusion-aspect-ratio",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇 4 种调音量方法！ 达芬奇调整音量的",
+    "summary": "达芬奇 4 种调音量方法！ 达芬奇调整音量的",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/196cABfS83r",
+    "duration": "26秒",
+    "outputs": {
+      "html": "davinci-four-volume-methods-图文实录.html",
+      "svg": "davinci-four-volume-methods-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "davinci-four-volume-methods",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇！4 种导入素材方法！  新手剪辑别再乱",
+    "summary": "达芬奇！4 种导入素材方法！  新手剪辑别再乱",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A2dHIR3TUOj",
+    "duration": "28秒",
+    "outputs": {
+      "html": "davinci-four-import-methods-图文实录.html",
+      "svg": "davinci-four-import-methods-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 7,
+    "svg_height": 2172,
+    "slug": "davinci-four-import-methods",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇闪白运动模糊转场制作教程教学   还",
+    "summary": "达芬奇闪白运动模糊转场制作教程教学   还",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9aL9LuQZrXE",
+    "duration": "2分05秒",
+    "outputs": {
+      "html": "davinci-flash-white-motion-blur-图文实录.html",
+      "svg": "davinci-flash-white-motion-blur-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 33,
+    "svg_height": 2172,
+    "slug": "davinci-flash-white-motion-blur",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "天空色彩断层？达芬奇一键修复！ 前期没调好，",
+    "summary": "「天空色彩断层？达芬奇一键修复！ 前期没调好，」教程要点：前期拍摄设置不正确,导致后期天空的颜色过度不均匀出现色彩断层 → 在达芬奇里面一个操作就可以轻松搞定,在特效库里面找到去色带,拖动到节点上面 → 立马就可以看见效果,在优化下参数,色",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/oWh9KsRn2y",
+    "duration": "19秒",
+    "outputs": {
+      "html": "davinci-fix-sky-banding-图文实录.html",
+      "svg": "davinci-fix-sky-banding-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 3,
+    "svg_height": 1877,
+    "slug": "davinci-fix-sky-banding",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇渲染失败？一招搞定！ 达芬奇渲染失败",
+    "summary": "达芬奇渲染失败？一招搞定！ 达芬奇渲染失败",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8WIncWjNwVJ",
+    "duration": "57秒",
+    "outputs": {
+      "html": "davinci-fix-render-fail-图文实录.html",
+      "svg": "davinci-fix-render-fail-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 19,
+    "svg_height": 2204,
+    "slug": "davinci-fix-render-fail",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇显示离线媒体？一招搞定！",
+    "summary": "达芬奇显示离线媒体？一招搞定！",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/688hZTQPWbS",
+    "duration": "49秒",
+    "outputs": {
+      "html": "davinci-fix-offline-media-图文实录.html",
+      "svg": "davinci-fix-offline-media-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 13,
+    "svg_height": 2078,
+    "slug": "davinci-fix-offline-media",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇显示重复帧？一招搞定！",
+    "summary": "达芬奇显示重复帧？一招搞定！",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8cdA1vbCmad",
+    "duration": "15秒",
+    "outputs": {
+      "html": "davinci-fix-duplicate-frames-图文实录.html",
+      "svg": "davinci-fix-duplicate-frames-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 7,
+    "svg_height": 2172,
+    "slug": "davinci-fix-duplicate-frames",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇里面五种不同的代理优化模式！",
+    "summary": "达芬奇里面五种不同的代理优化模式！",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/A1re4hSZwa5",
+    "duration": "53秒",
+    "outputs": {
+      "html": "davinci-five-proxy-modes-图文实录.html",
+      "svg": "davinci-five-proxy-modes-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 22,
+    "svg_height": 2172,
+    "slug": "davinci-five-proxy-modes",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇特有的文件格式！ 达芬奇文件格式  达芬",
+    "summary": "达芬奇特有的文件格式！ 达芬奇文件格式  达芬",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8A8yhFYUSt2",
+    "duration": "1分12秒",
+    "outputs": {
+      "html": "davinci-file-formats-图文实录.html",
+      "svg": "davinci-file-formats-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 36,
+    "svg_height": 2172,
+    "slug": "davinci-file-formats",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇面部油光处理反光人像后期处理教程",
+    "summary": "达芬奇面部油光处理反光人像后期处理教程",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8ivUVaAaCEA",
+    "duration": "1分34秒",
+    "outputs": {
+      "html": "davinci-face-oil-shine-fix-图文实录.html",
+      "svg": "davinci-face-oil-shine-fix-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 23,
+    "svg_height": 2172,
+    "slug": "davinci-face-oil-shine-fix",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇交付输出最终成片导出参数设置教程视",
+    "summary": "达芬奇交付输出最终成片导出参数设置教程视",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AgTonDMgLUe",
+    "duration": "2分04秒",
+    "outputs": {
+      "html": "davinci-export-delivery-settings-图文实录.html",
+      "svg": "davinci-export-delivery-settings-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-export-delivery-settings",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇电梯开门转场 达芬奇电梯开门 达芬奇",
+    "summary": "达芬奇电梯开门转场 达芬奇电梯开门 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/5wueWEKym7G",
+    "duration": "50秒",
+    "outputs": {
+      "html": "davinci-elevator-door-transition-图文实录.html",
+      "svg": "davinci-elevator-door-transition-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 16,
+    "svg_height": 2172,
+    "slug": "davinci-elevator-door-transition",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇自带的特效文字如何修改入场出场动画",
+    "summary": "「达芬奇自带的特效文字如何修改入场出场动画」教程要点：达芬奇自带的特效文字,如何修改入场动画时间? → 很多小伙伴在使用达芬奇自带的特效文字时,觉得这个入场的时间太慢,想要修改却不知道如何操作,其实很简单。 → 先选中文字新建复合对象。 →",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/AmwSwLQDNHy",
+    "duration": "26秒",
+    "outputs": {
+      "html": "davinci-edit-text-animation-图文实录.html",
+      "svg": "davinci-edit-text-animation-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 5,
+    "svg_height": 1940,
+    "slug": "davinci-edit-text-animation",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇特效库:边缘检测   不用第三方插件，",
+    "summary": "达芬奇特效库:边缘检测   不用第三方插件，",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/75tawLofePD",
+    "duration": "1分13秒",
+    "outputs": {
+      "html": "davinci-edge-detect-fx-图文实录.html",
+      "svg": "davinci-edge-detect-fx-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 24,
+    "svg_height": 2172,
+    "slug": "davinci-edge-detect-fx",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色｜DRX和LUT到底有什么本质区别",
+    "summary": "「达芬奇调色｜DRX和LUT到底有什么本质区别」教程要点：导出LAT文件时,只能保留画面最终的色彩结果,不会记录中间所有的调色操作,而达芬奇的DRX文件可以完整的爆出调色解变性。 → 经常我们在调色页面选择抓取竞争,然后在画廊选择导出。 →",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7hQpXVUNcSE",
+    "duration": "39秒",
+    "outputs": {
+      "html": "davinci-drx-vs-lut-图文实录.html",
+      "svg": "davinci-drx-vs-lut-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 5,
+    "svg_height": 1940,
+    "slug": "davinci-drx-vs-lut",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇深度贴图｜一键分离物体超省事 达芬奇",
+    "summary": "达芬奇深度贴图｜一键分离物体超省事 达芬奇",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2tccHbumxiB",
+    "duration": "1分17秒",
+    "outputs": {
+      "html": "davinci-depth-map-separate-图文实录.html",
+      "svg": "davinci-depth-map-separate-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 19,
+    "svg_height": 2172,
+    "slug": "davinci-depth-map-separate",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇剪辑操作复制粘贴快捷键技巧",
+    "summary": "达芬奇剪辑操作复制粘贴快捷键技巧",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/4JSWfcjvLMJ",
+    "duration": "1分26秒",
+    "outputs": {
+      "html": "davinci-copy-paste-shortcuts-图文实录.html",
+      "svg": "davinci-copy-paste-shortcuts-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 39,
+    "svg_height": 2172,
+    "slug": "davinci-copy-paste-shortcuts",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "色彩扭曲器才是风格调色神器✨达芬奇蜘蛛网",
+    "summary": "色彩扭曲器才是风格调色神器✨达芬奇蜘蛛网",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ONgMs72syE",
+    "duration": "1分39秒",
+    "outputs": {
+      "html": "davinci-color-warper-spider-图文实录.html",
+      "svg": "davinci-color-warper-spider-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 36,
+    "svg_height": 2172,
+    "slug": "davinci-color-warper-spider",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色干货｜色彩归拢一键告别画面脏杂",
+    "summary": "达芬奇调色干货｜色彩归拢一键告别画面脏杂",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/2PGLMcel1o6",
+    "duration": "53秒",
+    "outputs": {
+      "html": "davinci-color-unify-cleanup-图文实录.html",
+      "svg": "davinci-color-unify-cleanup-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 24,
+    "svg_height": 2172,
+    "slug": "davinci-color-unify-cleanup",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色快捷键 达芬奇快捷键 达芬奇快捷",
+    "summary": "达芬奇调色快捷键 达芬奇快捷键 达芬奇快捷",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3FwippaMDZJ",
+    "duration": "48秒",
+    "outputs": {
+      "html": "davinci-color-shortcuts-图文实录.html",
+      "svg": "davinci-color-shortcuts-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 26,
+    "svg_height": 2172,
+    "slug": "davinci-color-shortcuts",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色节点｜新手一看就懂🔥 刚打开达芬",
+    "summary": "达芬奇调色节点｜新手一看就懂🔥 刚打开达芬",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8dw5329LXmH",
+    "duration": "2分04秒",
+    "outputs": {
+      "html": "davinci-color-nodes-beginner-图文实录.html",
+      "svg": "davinci-color-nodes-beginner-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-color-nodes-beginner",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调色万能公式🔥新手直接抄作业 新手",
+    "summary": "达芬奇调色万能公式🔥新手直接抄作业 新手",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8kLbzvwhZMK",
+    "duration": "3分44秒",
+    "outputs": {
+      "html": "davinci-color-grade-formula-图文实录.html",
+      "svg": "davinci-color-grade-formula-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-color-grade-formula",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇素材选择技巧大揭秘快捷键",
+    "summary": "达芬奇素材选择技巧大揭秘快捷键",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1VmdB7w395u",
+    "duration": "1分10秒",
+    "outputs": {
+      "html": "davinci-clip-select-shortcuts-图文实录.html",
+      "svg": "davinci-clip-select-shortcuts-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 35,
+    "svg_height": 2172,
+    "slug": "davinci-clip-select-shortcuts",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇如何清理缓存教程",
+    "summary": "达芬奇如何清理缓存教程",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8Lc3ve48f3d",
+    "duration": "17秒",
+    "outputs": {
+      "html": "davinci-clear-cache-图文实录.html",
+      "svg": "davinci-clear-cache-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 2172,
+    "slug": "davinci-clear-cache",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "新手调色必看！调色通透感秘诀在这✨ 新手零",
+    "summary": "新手调色必看！调色通透感秘诀在这✨ 新手零",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9FotFyuSl1B",
+    "duration": "1分11秒",
+    "outputs": {
+      "html": "davinci-clarity-grade-secrets-图文实录.html",
+      "svg": "davinci-clarity-grade-secrets-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 28,
+    "svg_height": 2172,
+    "slug": "davinci-clarity-grade-secrets",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇制作真实电影雾气氛围感   不用复杂",
+    "summary": "「达芬奇制作真实电影雾气氛围感   不用复杂」教程要点：想在大分歧裏面製作出真實電影感霧氣氛圍,只需要一個節點就可以搞定。 → 首先,打開調色面板,在特效庫裏面找到電影感霧消,選擇並拖動到節點上。 → 首先選擇深度貼圖這個板塊,來調整霧氣的",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7WhysIqB3Xb",
+    "duration": "1分41秒",
+    "outputs": {
+      "html": "davinci-cinematic-fog-图文实录.html",
+      "svg": "davinci-cinematic-fog-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 13,
+    "svg_height": 2172,
+    "slug": "davinci-cinematic-fog",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇分通道降噪_视频画面噪点精细处理",
+    "summary": "达芬奇分通道降噪_视频画面噪点精细处理",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/ARVuDupzPbn",
+    "duration": "44秒",
+    "outputs": {
+      "html": "davinci-channel-denoise-图文实录.html",
+      "svg": "davinci-channel-denoise-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 14,
+    "svg_height": 2172,
+    "slug": "davinci-channel-denoise",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇数据烧录 达芬奇数据烧录 达芬奇数据",
+    "summary": "达芬奇数据烧录 达芬奇数据烧录 达芬奇数据",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/tDfbQVtcwo",
+    "duration": "59秒",
+    "outputs": {
+      "html": "davinci-burn-in-metadata-图文实录.html",
+      "svg": "davinci-burn-in-metadata-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 28,
+    "svg_height": 2172,
+    "slug": "davinci-burn-in-metadata",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇数据烧录   达芬奇数据烧录核心不是",
+    "summary": "达芬奇数据烧录   达芬奇数据烧录核心不是",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/48IcKzjChzo",
+    "duration": "48秒",
+    "outputs": {
+      "html": "davinci-burn-in-metadata-2-图文实录.html",
+      "svg": "davinci-burn-in-metadata-2-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 13,
+    "svg_height": 2172,
+    "slug": "davinci-burn-in-metadata-2",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇自带转场全演示！  达芬奇默认转场挨",
+    "summary": "「达芬奇自带转场全演示！  达芬奇默认转场挨」教程要点：达芬奇默认转场挨个掩饰 每一个都超实用 → 达芬奇默认转场挨个掩饰 每一个都超实用 → 达芬奇默认转场挨个掩饰 每一个都超实用",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8U8urRUjVBV",
+    "duration": "1分06秒",
+    "outputs": {
+      "html": "davinci-builtin-transitions-demo-图文实录.html",
+      "svg": "davinci-builtin-transitions-demo-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 3,
+    "svg_height": 1877,
+    "slug": "davinci-builtin-transitions-demo",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "在达芬奇当中如何制作中英文字幕？",
+    "summary": "达芬奇默认一次只启用一条字幕轨；用「添加字幕区域」实现中英同屏，并错开字体字号位置。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "字幕",
+      "双语",
+      "字幕区域"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9c0mfPJXn7I",
+    "duration": "23秒",
+    "outputs": {
+      "html": "davinci-bilingual-subtitles-图文实录.html",
+      "svg": "davinci-bilingual-subtitles-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 6,
+    "svg_height": 1812,
+    "slug": "davinci-bilingual-subtitles",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇批量调色教程",
+    "summary": "达芬奇批量调色教程",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6SRba6cHGSu",
+    "duration": "34秒",
+    "outputs": {
+      "html": "davinci-batch-color-grade-图文实录.html",
+      "svg": "davinci-batch-color-grade-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 10,
+    "svg_height": 2109,
+    "slug": "davinci-batch-color-grade",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇音频自动卡点，Ai自动踩节拍，卡鼓点",
+    "summary": "薯条演示音频自动卡点：在剪辑页对音乐<strong>右键 → 选择最下方「显示音乐节拍 / Show Music Beats」</strong>，等待软件分析完成后自动在时间线标记鼓点，便于卡点剪辑。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "音频",
+      "卡点",
+      "AI"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/9EYYRBTCku9",
+    "duration": "10秒",
+    "outputs": {
+      "html": "davinci-audio-auto-beat-sync-图文实录.html",
+      "svg": "davinci-audio-auto-beat-sync-理性分析.svg"
+    },
+    "screenshot_count": 6,
+    "transcript_segments": 3,
+    "svg_height": 1908,
+    "slug": "davinci-audio-auto-beat-sync",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇AI画质放大一键模糊视频秒变4K超清",
+    "summary": "达芬奇AI画质放大一键模糊视频秒变4K超清",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/15y5lEYFgzp",
+    "duration": "51秒",
+    "outputs": {
+      "html": "davinci-ai-upscale-4k-图文实录.html",
+      "svg": "davinci-ai-upscale-4k-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 19,
+    "svg_height": 2172,
+    "slug": "davinci-ai-upscale-4k",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇 AI 自动识别人物！识别人物脸部！素材",
+    "summary": "「达芬奇 AI 自动识别人物！识别人物脸部！素材」教程要点：达芬奇 AI 人脸自动识别,自动分类人物素材 → 右键全选所有需要分析的素材,选择 AI 分析片段,查找人物信息 → 等待分析完成后,软件会对素材的面板进行分类整理 → 如果你的素",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/99RxHdJqD0c",
+    "duration": "29秒",
+    "outputs": {
+      "html": "davinci-ai-face-person-detect-图文实录.html",
+      "svg": "davinci-ai-face-person-detect-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 5,
+    "svg_height": 1940,
+    "slug": "davinci-ai-face-person-detect",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇视频降噪｜弱光素材救星✨Ai噪点去除",
+    "summary": "达芬奇视频降噪｜弱光素材救星✨Ai噪点去除",
+    "primary": "color-grade",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1pJQgaPSK7U",
+    "duration": "2分04秒",
+    "outputs": {
+      "html": "davinci-ai-denoise-lowlight-图文实录.html",
+      "svg": "davinci-ai-denoise-lowlight-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 40,
+    "svg_height": 2172,
+    "slug": "davinci-ai-denoise-lowlight",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇AI中文字幕｜一键生成超省事 终于发现",
+    "summary": "「达芬奇AI中文字幕｜一键生成超省事 终于发现」教程要点：阿芬奇也支持中文字幕识别,操作使用也是非常简单,选择时间线,AI tools,从音频创建字幕,语言选择中文普通话,简体。 → 最大值可以改小一点,因为这个字符数是按照英文的标准,还可",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/8jGtoQUBPNB",
+    "duration": "38秒",
+    "outputs": {
+      "html": "davinci-ai-chinese-subtitles-图文实录.html",
+      "svg": "davinci-ai-chinese-subtitles-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 4,
+    "svg_height": 1908,
+    "slug": "davinci-ai-chinese-subtitles",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "达芬奇调整片段 达芬奇调整片段 达芬奇调整",
+    "summary": "达芬奇调整片段 达芬奇调整片段 达芬奇调整",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/6wQMAD4QXuy",
+    "duration": "59秒",
+    "outputs": {
+      "html": "davinci-adjust-clips-图文实录.html",
+      "svg": "davinci-adjust-clips-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 22,
+    "svg_height": 2172,
+    "slug": "davinci-adjust-clips",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "视频封面常用文字排版盘点｜新手也能秒变高",
+    "summary": "视频封面常用文字排版盘点｜新手也能秒变高",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "教程",
+      "小红书"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3ZX1FdgbauU",
+    "duration": "52秒",
+    "outputs": {
+      "html": "cover-text-layout-patterns-图文实录.html",
+      "svg": "cover-text-layout-patterns-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 22,
+    "svg_height": 2172,
+    "slug": "cover-text-layout-patterns",
+    "tool": "davinci"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "正确拷卡流程，复制粘贴内存卡数据到电脑，快",
+    "summary": "严肃数据拷贝不要用系统复制粘贴。达芬奇媒体页用<strong>克隆工具</strong>：校验类型选 <strong>MD5</strong>，添加源/目标文件夹后点克隆，确保拷贝可校验、可追溯。",
+    "primary": "video",
+    "skills": [],
+    "tags": [
+      "达芬奇",
+      "拷卡",
+      "克隆",
+      "MD5",
+      "媒体"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/3FTvbwLrQyJ",
+    "duration": "32秒",
+    "outputs": {
+      "html": "copy-sd-card-correct-flow-图文实录.html",
+      "svg": "copy-sd-card-correct-flow-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 9,
+    "svg_height": 2172,
+    "slug": "copy-sd-card-correct-flow",
+    "tool": "davinci"
+  },
+  {
     "date": "2026-10-31",
     "title": "一支镜头怎么造出来？老蛙工厂实拍全过程",
     "summary": "镜头不是「装几片玻璃」：光学面形靠磨抛、通光靠镀膜、结构靠胶合与精密装配，变形镜头还多一道角度校准——差一点就是鬼影与糊。老蛙把这条链摊开给人看，爱折腾器材的人能直接对照产线理解手感从哪来。",

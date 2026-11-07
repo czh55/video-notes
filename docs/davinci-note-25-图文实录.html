@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「达芬奇剪辑面板自带的Fusion特效挨个做个介」教程要点：达芬奇剪辑面板自带的Fusion特效挨个做个介绍 → 达芬奇剪辑面板自带的特效并不是很多 → 但都是比较具有代表性的 → 如果觉得比较少的话…">
+<title>达芬奇剪辑面板自带的Fusion特效挨个做个介｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>达芬奇剪辑面板自带的Fusion特效挨个做个介</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">5分06秒</span>
+    <span class="meta-tag tag-topic">达芬奇 · 教程 · 小红书</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3PTTl9s8jOn" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">达芬奇剪辑面板自带的Fusion特效挨个做个介绍</a>
+<a href="#ch2">一下就出来了</a>
+<a href="#ch3">把高光区域向暗部或边缘拉伸</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「达芬奇剪辑面板自带的Fusion特效挨个做个介」教程要点：达芬奇剪辑面板自带的Fusion特效挨个做个介绍 → 达芬奇剪辑面板自带的特效并不是很多 → 但都是比较具有代表性的 → 如果觉得比较少的话…</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–01:34]</span><div><strong>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</strong><p>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:32–03:11]</span><div><strong>一下就出来了</strong><p>一下就出来了</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:10–05:05]</span><div><strong>把高光区域向暗部或边缘拉伸</strong><p>把高光区域向暗部或边缘拉伸</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</li><li>达芬奇剪辑面板自带的特效并不是很多</li><li>但都是比较具有代表性的</li><li>如果觉得比较少的话</li><li>可以后期自己安装第三方的插件</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</p></div>
+  <div class="bound"><strong>适用边界</strong>：短视频速览；具体菜单名以你安装的 Resolve 语言包为准。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字，已按画面步骤校对；参数以检查器实值为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–01:34</span>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</h2><p>达芬奇剪辑面板自带的Fusion特效挨个做个介绍；达芬奇剪辑面板自带的特效并不是很多；但都是比较具有代表性的；如果觉得比较少的话；可以后期自己安装第三方的插件；也是非常简单方便的；挨个演示看一下效果；在左上角的特效库里面找到Fusion特效；第一个特效是双筒望远镜；选中这个特效；然后拖动到需要的片段上；这个特效是模拟望远镜观察的效果；画面中心清晰；边缘有圆形暗角和模糊；一般应用在第一人称视角镜头里面；在右侧检查器特效这里可以调节具体的参数；接下来是监控摄像头；会模拟那种老式壁录电视的画面；有隔离感扫描线；还能加上时间戳；色彩也会有点偏移；一般用在监控录像回放；悬疑片或者犯罪片里；营造那种复古又紧张的氛围；在右侧检查器里；你还能调分辨率造点多少；然后是彩色边框；还能给画面加一圈边框；颜色粗细都能自己调；还能改透明度；这个特效很实用；做视频包装；社交媒体封面都能用；也能用来突出画面主体；或者模拟老照片；胶片的黑边效果；下一个是漫画书；把它拖到片段上；画面立刻就变成漫画风格了；会加上粗黑的轮廓线；平涂的色彩；还有网点纹理；就像从漫画书里截出来的一样；适合用在漫画改编视频；创意广告或者MV里；复古短片也很搭；再然后是数字故障；拖到片段上；画面就会出现那种；信号错乱的效果；有画面撕裂；色彩分离；像素快；科技感和混乱感</p><figure><img src="assets/davinci-note-25/shot-01.jpg" alt="达芬奇剪辑面板自带的Fusion特效挨个做个介绍" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 达芬奇剪辑面板自带的Fusion特效挨个做个介绍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d643bd092c81.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve Fusion</span></div>
+<audio class="cap-audio" src="audio/d643bd092c81.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-note-25/shot-02.jpg" alt="达芬奇剪辑面板自带的特效并不是很多" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:03] 达芬奇剪辑面板自带的特效并不是很多</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/795088621d31.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/795088621d31.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">01:32–03:11</span>一下就出来了</h2><p>一下就出来了；赛博朋克风格；科技故障转场都用它；MV和游戏预告里也很常见；接下来无人机叠加；拖到航拍片段上；就会出现无人机的铁底界面；像高度、速度、指南针、电池图标；这些飞行数据都能加上；看起来就像真的在飞无人机一样；主要用在航拍视频；无人机FPV镜头；或者做科技感Vlog；检查器里可以开关不同的QD元素；然后是单反相机；拖到片段上；就能模拟单反取景器的效果；有对焦框、曝光指示；还能加快门声；就像你正在用单反拍照一样；摄影教学视频Vlog里用的比较多；也能用来模拟拍照的过程；下一个是DV数字视频特效；你就可以对画面做缩放、旋转、位移；还能做3D变换；让画面动起来；它是个基础的画面变换工具；画面分屏、画中画、动态转场；视频包装都离不开它；再然后是飘扬旗帜；把它拖到你要当旗帜的素材上；不管是图片还是视频；都能像旗子一样飘起来；模拟风吹动的动态效果；品牌宣传、活动片头、体育赛事；历史题材视频里都能用；接下来是图形十字叠加；画面就会出现一个十字准星；颜色、粗细、位置都能自己调；像瞄准镜一样；FPS游戏视频；瞄准镜视角；科技界面里用的比较多；也能用来做测量或定位指示；图形形状叠加；能在画面上加各种几何图形；比如矩形、圆形；还能当蒙版用；或者做装饰；信息图表、视频包装、蒙版遮罩；突出显示特定区域都很方便；下一个是高光拉伸；拖到片段上；画面的高光部分会向外移出来</p><figure><img src="assets/davinci-note-25/shot-03.jpg" alt="一下就出来了" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:32] 一下就出来了</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0b1d1055b7ff.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/0b1d1055b7ff.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-note-25/shot-04.jpg" alt="赛博朋克风格" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:33] 赛博朋克风格</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c55205c096e2.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/c55205c096e2.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">03:10–05:05</span>把高光区域向暗部或边缘拉伸</h2><p>把高光区域向暗部或边缘拉伸；模拟镜头眩光、光溢出的效果；用来增强画面氛围感；或者做梦幻、超现实的风格都很合适；再然后是夜视仪；画面就变成夜视仪的绿色画面；有绿色调、颗粒感、扫描线；中心还会更亮；像真的夜视仪一样；军事题材、夜间行动、悬疑片、游戏视频里都能用；接下来是噪点失真；画面会出现很多噪点和色彩扭曲；模拟信号干扰或老旧设备的画面；有随机噪点和色彩偏移；复古风格、VHS录像带效果、转场都能用；也能用来营造紧张或不安的氛围；然后是外部描边；拖到图形或文字上；就能给它们加一圈轮廓线；颜色、粗细都能自己调；让图形或文字更突出；增强文字可读性；突出图形元素、视频包装、信息图表里都很实用；下一个是纸张边缘；拖到片段上；画面边缘会像纸一样撕裂、磨损；模拟纸张边缘的毛边、撕裂效果很有复古感；复古风格、手张视频、模拟旧照片或文件都能用；也能做创意转场；再然后是重复；画面内容会在水平或垂直方向重复平铺；像万花筒一样；把画面复制成很多份；拼成图案或背景；创意背景、万花筒效果、视觉艺术、MV里都能用；接下来是圆形遮罩；画面会出现一个圆形蒙版；只显示圆内的内容；圆的大小位置都能调；用来聚焦画面中心；突出主体、模拟镜头、光运、转场都很合适；然后是切片；画面会被切成很多条带；还能独立移动；把画面切割成水平或垂直的条带；做出动态分割的效果；创意转场、信息图表、MV、科技感视频里都能用；最后一个是区域拉伸；拖到片段上；选中画面的一块区域就能把它拉伸或挤压；对特定区域做变形；可夸张也可细腻；用来做特效；喜剧效果、模拟镜头激变、转场都很合适</p><figure><img src="assets/davinci-note-25/shot-05.jpg" alt="把高光区域向暗部或边缘拉伸" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:10] 把高光区域向暗部或边缘拉伸</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/aaf7a3eb89ca.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/aaf7a3eb89ca.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-note-25/shot-06.jpg" alt="模拟镜头眩光、光溢出的效果" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:13] 模拟镜头眩光、光溢出的效果</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4af05a68bf85.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial step in DaVinci Resolve</span></div>
+<audio class="cap-audio" src="audio/4af05a68bf85.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-note-25/shot-07.jpg" alt="喜剧效果、模拟镜头激变、转场都很合适" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:08] 喜剧效果、模拟镜头激变、转场都很合适</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3b4bf2cc1511.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve tutorial step</span></div>
+<audio class="cap-audio" src="audio/3b4bf2cc1511.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/davinci-note-25/shot-08.jpg" alt="喜剧效果、模拟镜头激变、转场都很合适" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:46] 喜剧效果、模拟镜头激变、转场都很合适</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3b4bf2cc1511.mp3" type="button" aria-label="Play English audio">🔊</button><span>DaVinci Resolve tutorial step</span></div>
+<audio class="cap-audio" src="audio/3b4bf2cc1511.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>达芬奇剪辑面板自带的Fusion特效挨个做个介绍</p></div>
+<div class="transcript-row"><time>00:03</time><p>达芬奇剪辑面板自带的特效并不是很多</p></div>
+<div class="transcript-row"><time>00:06</time><p>但都是比较具有代表性的</p></div>
+<div class="transcript-row"><time>00:08</time><p>如果觉得比较少的话</p></div>
+<div class="transcript-row"><time>00:10</time><p>可以后期自己安装第三方的插件</p></div>
+<div class="transcript-row"><time>00:12</time><p>也是非常简单方便的</p></div>
+<div class="transcript-row"><time>00:13</time><p>挨个演示看一下效果</p></div>
+<div class="transcript-row"><time>00:15</time><p>在左上角的特效库里面找到Fusion特效</p></div>
+<div class="transcript-row"><time>00:18</time><p>第一个特效是双筒望远镜</p></div>
+<div class="transcript-row"><time>00:20</time><p>选中这个特效</p></div>
+<div class="transcript-row"><time>00:21</time><p>然后拖动到需要的片段上</p></div>
+<div class="transcript-row"><time>00:23</time><p>这个特效是模拟望远镜观察的效果</p></div>
+<div class="transcript-row"><time>00:26</time><p>画面中心清晰</p></div>
+<div class="transcript-row"><time>00:27</time><p>边缘有圆形暗角和模糊</p></div>
+<div class="transcript-row"><time>00:29</time><p>一般应用在第一人称视角镜头里面</p></div>
+<div class="transcript-row"><time>00:32</time><p>在右侧检查器特效这里可以调节具体的参数</p></div>
+<div class="transcript-row"><time>00:35</time><p>接下来是监控摄像头</p></div>
+<div class="transcript-row"><time>00:37</time><p>会模拟那种老式壁录电视的画面</p></div>
+<div class="transcript-row"><time>00:39</time><p>有隔离感扫描线</p></div>
+<div class="transcript-row"><time>00:41</time><p>还能加上时间戳</p></div>
+<div class="transcript-row"><time>00:42</time><p>色彩也会有点偏移</p></div>
+<div class="transcript-row"><time>00:44</time><p>一般用在监控录像回放</p></div>
+<div class="transcript-row"><time>00:45</time><p>悬疑片或者犯罪片里</p></div>
+<div class="transcript-row"><time>00:47</time><p>营造那种复古又紧张的氛围</p></div>
+<div class="transcript-row"><time>00:49</time><p>在右侧检查器里</p></div>
+<div class="transcript-row"><time>00:51</time><p>你还能调分辨率造点多少</p></div>
+<div class="transcript-row"><time>00:53</time><p>然后是彩色边框</p></div>
+<div class="transcript-row"><time>00:54</time><p>还能给画面加一圈边框</p></div>
+<div class="transcript-row"><time>00:56</time><p>颜色粗细都能自己调</p></div>
+<div class="transcript-row"><time>00:58</time><p>还能改透明度</p></div>
+<div class="transcript-row"><time>00:59</time><p>这个特效很实用</p></div>
+<div class="transcript-row"><time>01:01</time><p>做视频包装</p></div>
+<div class="transcript-row"><time>01:02</time><p>社交媒体封面都能用</p></div>
+<div class="transcript-row"><time>01:03</time><p>也能用来突出画面主体</p></div>
+<div class="transcript-row"><time>01:05</time><p>或者模拟老照片</p></div>
+<div class="transcript-row"><time>01:06</time><p>胶片的黑边效果</p></div>
+<div class="transcript-row"><time>01:08</time><p>下一个是漫画书</p></div>
+<div class="transcript-row"><time>01:09</time><p>把它拖到片段上</p></div>
+<div class="transcript-row"><time>01:10</time><p>画面立刻就变成漫画风格了</p></div>
+<div class="transcript-row"><time>01:12</time><p>会加上粗黑的轮廓线</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>
