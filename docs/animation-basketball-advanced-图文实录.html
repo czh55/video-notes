@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「一个动画看懂篮球进阶教学🏀」教程要点：NBA球员的罚球命中率平均是7×8 → 物理引擎反推 → 这相当于每次出手 → 角度误差1.5度；详见正文。">
+<title>一个动画看懂篮球进阶教学🏀｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>一个动画看懂篮球进阶教学🏀</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">4分20秒</span>
+    <span class="meta-tag tag-topic">运动 · 动画科普 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5M6PPhGi2iB" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">NBA球员的罚球命中率平均是7×8</a>
+<a href="#ch2">打板却有7×4</a>
+<a href="#ch3">往下压的力量就要越大</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「一个动画看懂篮球进阶教学🏀」教程要点：NBA球员的罚球命中率平均是7×8 → 物理引擎反推 → 这相当于每次出手 → 角度误差1.5度；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–01:32]</span><div><strong>NBA球员的罚球命中率平均是7×8</strong><p>NBA球员的罚球命中率平均是7×8</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:29–02:54]</span><div><strong>打板却有7×4</strong><p>打板却有7×4</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:52–04:19]</span><div><strong>往下压的力量就要越大</strong><p>往下压的力量就要越大</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>NBA球员的罚球命中率平均是7×8</li><li>物理引擎反推</li><li>这相当于每次出手</li><li>角度误差1.5度</li><li>速度误差1.5%</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>NBA球员的罚球命中率平均是7×8</p></div>
+  <div class="bound"><strong>适用边界</strong>：运动原理科普；实战请结合自身身体条件与教练指导。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–01:32</span>NBA球员的罚球命中率平均是7×8</h2><p>NBA球员的罚球命中率平均是7×8；物理引擎反推；这相当于每次出手；角度误差1.5度；速度误差1.5%；速度多1%；罚球就远9厘米；三分球远13厘米；篮球的容错比你想的小得多；所以 投篮不只靠手感；出手角度 瞄准点 旋转；要不要打板都能用物理算出最优解；上一期讲了规则和基础；这一期进阶篇；我们用物理引擎；把投篮 篮板 运球和传球；一个一个算给你看；先看罚球；物理引擎让同一个人；带着同样的误差；用不同的角度；各投几百次；40度出手；球落得太平；篮框的开口被压扁；命中率只有3×9；角度抬到52到56度；开口变大；命中率升到7×8；这是罚球的最佳区间；再往上抬；球在空中飞得太久；速度上的误差被放大；命中率又开始下降；三分球的最佳角度稍低一点；在48到52度之间；有意思的是；在最佳角度附近；角度偏移度；落点只差2厘米；速度多1%；所以练投篮；先练力量的稳定；还有一个反直觉的结论；把出手点；从2米一抬到2米7；三分命中率几乎不变；跳投的价值；不是投得更准；而是堵开封盖；投篮到底该瞄哪里；篮框前沿；中心；还是后沿；物理引擎；把瞄准点前后移动；每个位置都投几百次；瞄准中心；命中率7×8；往后4厘米；升到8×1；往前3厘米；降到7×4；往前5厘米；只剩6×8；原因在于不对称；偏短的球杂；在前沿；几乎都弹出去；偏长的球碰到后沿或篮板；还有机会掉进来；所以凝常物短；从45度角；离篮框3米5的位置；直接投命中；率5×9</p><figure><img src="assets/animation-basketball-advanced/shot-01.jpg" alt="NBA球员的罚球命中率平均是7×8" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] NBA球员的罚球命中率平均是7×8</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d40b4105455a.mp3" type="button" aria-label="Play English audio">🔊</button><span>NBA 7×8</span></div>
+<audio class="cap-audio" src="audio/d40b4105455a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-advanced/shot-02.jpg" alt="物理引擎反推" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 物理引擎反推</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/5501b974def0.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/5501b974def0.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">01:29–02:54</span>打板却有7×4</h2><p>打板却有7×4；因为篮板；先卸掉了球的一部分速度；球是减速以后；才落进篮框的；所以对力量的误差更宽容；在45度到75度之间；打板都明显占优；越是正对篮框；打板越是亏；打板的瞄准点；在篮板小方框；靠近你这一侧的上脚附近；都说投篮要有后旋；手感才软；真的吗；不离引擎的答案有点意外；直接投篮时；后旋对命中率几乎没有影响；转得太快；反而略有下降；但是打板的时候；后旋的作用很大；不转的球命中率不到7成；每秒转四圈；能提高到接近8成；原理是摩擦；带着后旋的球撞上篮板；从板上弹回来的方向更朝下；不转是29度；转起来是40度；更容易掉进篮框；另外；稳定的后旋说明；手指最后撥球的动作是一致的；这本身就是好投手的标志；投不进的球会弹到哪；物理引擎把几百个失误的轨迹；都画了出来；从底角出手；6成的篮板会弹到另一侧；也就是弱侧；从弧顶出手；8成的篮板；会弹回投篮的人这一边；三分不中；球落到2米高的时候；平均离篮框1米5；罚球和中投；只有一米2；所以卡威要看出手点；底角出手往弱侧抢；弧顶出手往前面抢；三分出手；要站得更靠外；运球时；球离开手的每一刻；都是对手的机会；在腰的高度运球；一个来回要0.36秒；压到膝盖的高度；只要0.24秒；体前变向更明显；高位变向；球；从一只手到另一只手；要0.42秒；低位变向；只要0.28秒；防守者的反应时间；大约是0.2秒；低位变向；几乎在它反应过来的同时；就完成了；代价是；运得越低越快</p><figure><img src="assets/animation-basketball-advanced/shot-03.jpg" alt="打板却有7×4" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:29] 打板却有7×4</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/02b71b01f7d6.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/02b71b01f7d6.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-advanced/shot-04.jpg" alt="因为篮板" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:31] 因为篮板</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e7d636650fea.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/e7d636650fea.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">02:52–04:19</span>往下压的力量就要越大</h2><p>往下压的力量就要越大；所以便向前先降重心；便向大一下；用力往下拔；传球比运球快；但不同的传球；快慢也差很多；5米的距离；同样的出手速度；胸前传球0.63秒就到；基地传球要0.73秒；因为球在地板上损失了速度；给基地传球加上旋；球弹起来更快；只要0.68秒；加下旋就更慢；要0.8秒；所以基地传球；只在需要从防守者手下；穿过去时才用；快攻长传；用胸前传球；或者单手推传；最后；把这些结论变成训练方法；第一；用命中率反推你的误差；罚球7成；说明误差在1.75%左右；想到9成；要缩小到1%以内；第二；检查弧线；罚球的最高点；大约3米7；接近篮板上岩；如果最高点明显低于篮板；说明弧线太平了；第三；检查后旋；罚球在空中飞不到一秒；按每秒两圈的转速；从出手到入矿；大约转两圈；第四；练打板就去45度角；2米5到3米5的位置；2米5处打板命中率超过9成；直接投还不到6成；第五；练运球时；把球压到膝盖高度做变向；计时一次变向；控制在0.3秒以内；最后；投篮练习宁长务短；偏长的球还有机会进；偏短的几乎都是打铁；最后；用几句话；带走全部进阶要点；罚球52到56度；3分48到52度；先练力量的稳定；瞄准中心偏后几厘米；宁长务短；45度角打板更稳；后旋在打板时最有用；底角出手抢落侧；五顶出手抢前面；地位变向0.28秒；基地传球比胸前传球慢；篮筐只有45厘米；投篮比的是手感；更是物理</p><figure><img src="assets/animation-basketball-advanced/shot-05.jpg" alt="往下压的力量就要越大" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:52] 往下压的力量就要越大</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/19a34fd14e48.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/19a34fd14e48.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-advanced/shot-06.jpg" alt="所以便向前先降重心" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:53] 所以便向前先降重心</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/0628e1ee5643.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/0628e1ee5643.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-advanced/shot-07.jpg" alt="更是物理" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:31] 更是物理</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/aeda1c13fc1b.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/aeda1c13fc1b.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-advanced/shot-08.jpg" alt="更是物理" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:03] 更是物理</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/aeda1c13fc1b.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/aeda1c13fc1b.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>NBA球员的罚球命中率平均是7×8</p></div>
+<div class="transcript-row"><time>00:02</time><p>物理引擎反推</p></div>
+<div class="transcript-row"><time>00:03</time><p>这相当于每次出手</p></div>
+<div class="transcript-row"><time>00:04</time><p>角度误差1.5度</p></div>
+<div class="transcript-row"><time>00:05</time><p>速度误差1.5%</p></div>
+<div class="transcript-row"><time>00:07</time><p>速度多1%</p></div>
+<div class="transcript-row"><time>00:08</time><p>罚球就远9厘米</p></div>
+<div class="transcript-row"><time>00:09</time><p>三分球远13厘米</p></div>
+<div class="transcript-row"><time>00:10</time><p>篮球的容错比你想的小得多</p></div>
+<div class="transcript-row"><time>00:12</time><p>所以 投篮不只靠手感</p></div>
+<div class="transcript-row"><time>00:13</time><p>出手角度 瞄准点 旋转</p></div>
+<div class="transcript-row"><time>00:15</time><p>要不要打板都能用物理算出最优解</p></div>
+<div class="transcript-row"><time>00:17</time><p>上一期讲了规则和基础</p></div>
+<div class="transcript-row"><time>00:19</time><p>这一期进阶篇</p></div>
+<div class="transcript-row"><time>00:19</time><p>我们用物理引擎</p></div>
+<div class="transcript-row"><time>00:20</time><p>把投篮 篮板 运球和传球</p></div>
+<div class="transcript-row"><time>00:22</time><p>一个一个算给你看</p></div>
+<div class="transcript-row"><time>00:25</time><p>先看罚球</p></div>
+<div class="transcript-row"><time>00:26</time><p>物理引擎让同一个人</p></div>
+<div class="transcript-row"><time>00:27</time><p>带着同样的误差</p></div>
+<div class="transcript-row"><time>00:28</time><p>用不同的角度</p></div>
+<div class="transcript-row"><time>00:29</time><p>各投几百次</p></div>
+<div class="transcript-row"><time>00:30</time><p>40度出手</p></div>
+<div class="transcript-row"><time>00:30</time><p>球落得太平</p></div>
+<div class="transcript-row"><time>00:31</time><p>篮框的开口被压扁</p></div>
+<div class="transcript-row"><time>00:32</time><p>命中率只有3×9</p></div>
+<div class="transcript-row"><time>00:34</time><p>角度抬到52到56度</p></div>
+<div class="transcript-row"><time>00:35</time><p>开口变大</p></div>
+<div class="transcript-row"><time>00:36</time><p>命中率升到7×8</p></div>
+<div class="transcript-row"><time>00:37</time><p>这是罚球的最佳区间</p></div>
+<div class="transcript-row"><time>00:39</time><p>再往上抬</p></div>
+<div class="transcript-row"><time>00:39</time><p>球在空中飞得太久</p></div>
+<div class="transcript-row"><time>00:40</time><p>速度上的误差被放大</p></div>
+<div class="transcript-row"><time>00:41</time><p>命中率又开始下降</p></div>
+<div class="transcript-row"><time>00:43</time><p>三分球的最佳角度稍低一点</p></div>
+<div class="transcript-row"><time>00:44</time><p>在48到52度之间</p></div>
+<div class="transcript-row"><time>00:46</time><p>有意思的是</p></div>
+<div class="transcript-row"><time>00:47</time><p>在最佳角度附近</p></div>
+<div class="transcript-row"><time>00:48</time><p>角度偏移度</p></div>
+<div class="transcript-row"><time>00:48</time><p>落点只差2厘米</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

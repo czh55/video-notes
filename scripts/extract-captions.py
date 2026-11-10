@@ -21,7 +21,7 @@ from pathlib import Path
 DOCS = Path(__file__).resolve().parent.parent / "docs"
 OUT = Path(__file__).resolve().parent.parent / "caption-extract.json"
 
-TIME_RE = re.compile(r"\[(\d{1,2}:\d{2}(?::\d{2})?)\]")
+TIME_RE = re.compile(r"\[(\d{1,2}:\d{2}(?::\d{2})?|\d+/\d+)\]")
 BADGE_RE = re.compile(r"<span class=\"time-badge\">\[.*?\]</span>", re.S)
 
 

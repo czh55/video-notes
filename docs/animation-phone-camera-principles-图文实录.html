@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「用最简单的动画让你看懂手机拍照原理」教程要点：你每天按下的手机快门背后发生了什么 → 一块指甲盖大小的传感器 → 几片塑料镜片 → 再加上每秒数万一次的计算；详见正文。">
+<title>用最简单的动画让你看懂手机拍照原理｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>用最简单的动画让你看懂手机拍照原理</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">5分19秒</span>
+    <span class="meta-tag tag-topic">摄影 · 相机 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/Ae3EwCFTCZ8" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">你每天按下的手机快门背后发生了什么</a>
+<a href="#ch2">推动镜片前后移动</a>
+<a href="#ch3">逐块对其手抖造成的位移</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「用最简单的动画让你看懂手机拍照原理」教程要点：你每天按下的手机快门背后发生了什么 → 一块指甲盖大小的传感器 → 几片塑料镜片 → 再加上每秒数万一次的计算；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–02:10]</span><div><strong>你每天按下的手机快门背后发生了什么</strong><p>你每天按下的手机快门背后发生了什么</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:08–03:46]</span><div><strong>推动镜片前后移动</strong><p>推动镜片前后移动</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:44–05:18]</span><div><strong>逐块对其手抖造成的位移</strong><p>逐块对其手抖造成的位移</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>你每天按下的手机快门背后发生了什么</li><li>一块指甲盖大小的传感器</li><li>几片塑料镜片</li><li>再加上每秒数万一次的计算</li><li>要拍出媲美单反的照片</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>你每天按下的手机快门背后发生了什么</p></div>
+  <div class="bound"><strong>适用边界</strong>：影像原理向；机身与镜头组合不同结论会有差异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–02:10</span>你每天按下的手机快门背后发生了什么</h2><p>你每天按下的手机快门背后发生了什么；一块指甲盖大小的传感器；几片塑料镜片；再加上每秒数万一次的计算；要拍出媲美单反的照片；这一集把手机拍照的硬件和算法一次讲透；先拆开手机的摄像头模组；最上面是一组塑料镜片；6到8片；形状像起伏的波浪；这叫非球面镜片；下面是红外绿光片；传感器；四周是对胶马达和防抖机构；整部手机只有8毫米厚；留给镜头的距离不到1厘米；所以主摄的真实焦距只有7毫米左右；那为什么标志24毫米；这是等效焦距真实焦距乘以传感器的裁切系数；7毫米乘3.5；约等于全画幅的24毫米；光圈也一样；F1.8乘3.5；景深相当于全画幅的F6.3；这就是手机天生拍不出大光圈虚化的原因；手机像素只有0.8微米；比头发丝细100倍；怎么让这么小的像素接触更多的光；第一招 备照式；传统传感器的金属电路挡在感光层上方；备照式把电路翻到背面；光线直接照到光电二级管上；第二招 对战式；把像素层和处理电路上下叠在一起；像素面积更大；读取速度也更快；第三招 像素合并；四个耳针列里；四个相邻像素是同一种颜色；暗光时把它们合成一个大像素；信号变成4倍；噪点减半；所以；4800万像素的传感器；常常输出1200万像素的照片；2亿像素的传感器；甚至16合1；光线充足时；再拆开输出全像素；手机镜头没法像单反一样变焦；于是干脆装上好几颗；超广角；主摄；长焦；各管一段焦距；长焦需要更长的焦距；可手机没有厚度；解决办法是前望式；用棱镜把光线折转90度；让镜头躺进机身里；变焦的时候；手机在几颗镜头之间；无缝切换；两个焦段之间；用主摄才切；再靠多帧算法补回细节；这就是混合变焦；手机对焦靠的是樱圈马达；线圈通电；在磁场中受力</p><figure><img src="assets/animation-phone-camera-principles/shot-01.jpg" alt="你每天按下的手机快门背后发生了什么" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 你每天按下的手机快门背后发生了什么</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b2f4773649aa.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/b2f4773649aa.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-phone-camera-principles/shot-02.jpg" alt="一块指甲盖大小的传感器" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:03] 一块指甲盖大小的传感器</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/56f48295051a.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/56f48295051a.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">02:08–03:46</span>推动镜片前后移动</h2><p>推动镜片前后移动；判断往哪里推；靠全像素双合对焦；每个像素一分为二；左右两半看到的画面有位移；就能算出失焦的方向和距离；光线太暗时；还有激光和TOF；发出一束光；测量它飞回来的时间；一米的距离；往返只需要6.7纳秒；再说防抖；陀螺仪每秒上千次；测量手的抖动；马达就朝相反方向移动镜片；或传感器；把画面稳住；这是光学防抖；电子防抖则预留一圈画面边缘；根据陀螺仪数据；每一帧反向平移裁切框；光学加电子；就是拍视频也稳如云台的秘密；传感器输出的；只是一堆原始数字；把它变成照片的；是手机芯片里的；图像信号处理器ISP；第一步；校正黑电屏和镜头暗角；第二步；去马赛克补漆颜色；第三步；白平衡；让白色真的是白色；然后是色彩校正；降噪；色调映射和锐化；最后压缩成照片文件；整条流水线；在几十毫秒内完成；手机拍照真正的魔法；是多帧合成；打开相机的那一刻；它就在不停拍摄；把最近的画面；存在缓存里；你按下快门时；照片其实已经拍好了；这叫零延迟快门；逆光场景；天空太亮；人脸太暗；手机连拍多张；不同曝光的照片；亮处取暗针；暗处取亮针；合成一张高动态范围的照片；为什么多拍几张；就能降噪；因为噪点是随机的；而画面是固定的；九帧叠加；信号增加九倍；噪声只增加三倍；画面干净三倍；夜景模式；把这件事做到极致；几秒内连拍十几帧</p><figure><img src="assets/animation-phone-camera-principles/shot-03.jpg" alt="推动镜片前后移动" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:08] 推动镜片前后移动</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3e1355078503.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/3e1355078503.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-phone-camera-principles/shot-04.jpg" alt="判断往哪里推" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:10] 判断往哪里推</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3ba88b9379d8.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/3ba88b9379d8.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">03:44–05:18</span>逐块对其手抖造成的位移</h2><p>逐块对其手抖造成的位移；剔除运动的物体；再叠加成一张；手抖甚至还能变成优势；每一帧之间；亚像素计的微小位移；让传感器从不同位置；采样同一个场景；拼合出比单帧更高的分辨率；这叫超分辨率；既然手机拍不出真正的虚化；那就算出来；两颗镜头；就像两只眼睛；近处的物体；在两幅画面中错位大；远处的物体错位小；由视差；就能算出每个像素的距离；得到深度图；再用神经网络；把人物精确抠出来；按照每个像素的深度；模拟真实镜头的弥散源；逐层虚化背景；难点在边缘；发丝；眼镜；透明的杯子；都容易露现；这正是各家算法比拼的地方；现在的手机；还会先看懂画面；天空；人脸；植物；水面；被神经网络分成不同区域；各自调整亮度和色彩；最后一步；压缩；JPEG把画面切成8x8的小块；转换成不同频域的波纹；丢掉人眼部敏感的高频细节；体积缩小10倍；更新的HEIF格式；同样画质下；文件还能再小一半；最后；六句话；带走全部原理；空间太小；所以焦距短；传感器小；背照；背站；像素合并；榨干每一个光子；多颗镜头加前望；接力完成变焦；马达对焦；陀螺仪防抖；多帧合成；用计算换画质；手机拍照；一半是光学；一半是算法；MING PAO CANADA www.MING PAO TORONTO</p><figure><img src="assets/animation-phone-camera-principles/shot-05.jpg" alt="逐块对其手抖造成的位移" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:44] 逐块对其手抖造成的位移</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c5df4c674e5c.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/c5df4c674e5c.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-phone-camera-principles/shot-06.jpg" alt="剔除运动的物体" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:46] 剔除运动的物体</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/412fc59d6d26.mp3" type="button" aria-label="Play English audio">🔊</button><span>On-screen tutorial tip</span></div>
+<audio class="cap-audio" src="audio/412fc59d6d26.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-phone-camera-principles/shot-07.jpg" alt="MING PAO CANADA www.MING PAO TORONTO" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:18] MING PAO CANADA www.MING PAO TORONTO</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9369b48b4e99.mp3" type="button" aria-label="Play English audio">🔊</button><span>MING PAO CANADA www.MING PAO TORONTO</span></div>
+<audio class="cap-audio" src="audio/9369b48b4e99.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-phone-camera-principles/shot-08.jpg" alt="MING PAO CANADA www.MING PAO TORONTO" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:58] MING PAO CANADA www.MING PAO TORONTO</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9369b48b4e99.mp3" type="button" aria-label="Play English audio">🔊</button><span>MING PAO CANADA www.MING PAO TORONTO</span></div>
+<audio class="cap-audio" src="audio/9369b48b4e99.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>你每天按下的手机快门背后发生了什么</p></div>
+<div class="transcript-row"><time>00:03</time><p>一块指甲盖大小的传感器</p></div>
+<div class="transcript-row"><time>00:05</time><p>几片塑料镜片</p></div>
+<div class="transcript-row"><time>00:06</time><p>再加上每秒数万一次的计算</p></div>
+<div class="transcript-row"><time>00:08</time><p>要拍出媲美单反的照片</p></div>
+<div class="transcript-row"><time>00:10</time><p>这一集把手机拍照的硬件和算法一次讲透</p></div>
+<div class="transcript-row"><time>00:16</time><p>先拆开手机的摄像头模组</p></div>
+<div class="transcript-row"><time>00:18</time><p>最上面是一组塑料镜片</p></div>
+<div class="transcript-row"><time>00:20</time><p>6到8片</p></div>
+<div class="transcript-row"><time>00:21</time><p>形状像起伏的波浪</p></div>
+<div class="transcript-row"><time>00:22</time><p>这叫非球面镜片</p></div>
+<div class="transcript-row"><time>00:23</time><p>下面是红外绿光片</p></div>
+<div class="transcript-row"><time>00:25</time><p>传感器</p></div>
+<div class="transcript-row"><time>00:26</time><p>四周是对胶马达和防抖机构</p></div>
+<div class="transcript-row"><time>00:29</time><p>整部手机只有8毫米厚</p></div>
+<div class="transcript-row"><time>00:30</time><p>留给镜头的距离不到1厘米</p></div>
+<div class="transcript-row"><time>00:32</time><p>所以主摄的真实焦距只有7毫米左右</p></div>
+<div class="transcript-row"><time>00:36</time><p>那为什么标志24毫米</p></div>
+<div class="transcript-row"><time>00:37</time><p>这是等效焦距真实焦距乘以传感器的裁切系数</p></div>
+<div class="transcript-row"><time>00:41</time><p>7毫米乘3.5</p></div>
+<div class="transcript-row"><time>00:42</time><p>约等于全画幅的24毫米</p></div>
+<div class="transcript-row"><time>00:45</time><p>光圈也一样</p></div>
+<div class="transcript-row"><time>00:46</time><p>F1.8乘3.5</p></div>
+<div class="transcript-row"><time>00:48</time><p>景深相当于全画幅的F6.3</p></div>
+<div class="transcript-row"><time>00:50</time><p>这就是手机天生拍不出大光圈虚化的原因</p></div>
+<div class="transcript-row"><time>00:55</time><p>手机像素只有0.8微米</p></div>
+<div class="transcript-row"><time>00:57</time><p>比头发丝细100倍</p></div>
+<div class="transcript-row"><time>00:59</time><p>怎么让这么小的像素接触更多的光</p></div>
+<div class="transcript-row"><time>01:01</time><p>第一招 备照式</p></div>
+<div class="transcript-row"><time>01:02</time><p>传统传感器的金属电路挡在感光层上方</p></div>
+<div class="transcript-row"><time>01:05</time><p>备照式把电路翻到背面</p></div>
+<div class="transcript-row"><time>01:07</time><p>光线直接照到光电二级管上</p></div>
+<div class="transcript-row"><time>01:10</time><p>第二招 对战式</p></div>
+<div class="transcript-row"><time>01:11</time><p>把像素层和处理电路上下叠在一起</p></div>
+<div class="transcript-row"><time>01:13</time><p>像素面积更大</p></div>
+<div class="transcript-row"><time>01:14</time><p>读取速度也更快</p></div>
+<div class="transcript-row"><time>01:16</time><p>第三招 像素合并</p></div>
+<div class="transcript-row"><time>01:18</time><p>四个耳针列里</p></div>
+<div class="transcript-row"><time>01:19</time><p>四个相邻像素是同一种颜色</p></div>
+<div class="transcript-row"><time>01:21</time><p>暗光时把它们合成一个大像素</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「相机视频录制Log模式是什么？Slog3曲线原理」教程要点：同一个画面里,逆光的太阳比树荫底下亮了一万多倍。 → 可一段十倍的视频,每种颜色只有1024个台阶, → 一万多倍的明暗要怎么装进这一千多格里? → 答案就是Loud曲线。；详见">
+<title>相机视频录制Log模式是什么？Slog3曲线原理｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>相机视频录制Log模式是什么？Slog3曲线原理</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">5分35秒</span>
+    <span class="meta-tag tag-topic">摄影 · 相机 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/AGGag6jw3KF" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</a>
+<a href="#ch2">右边是RED的LOCK3G10,中晖只在三分之一</a>
+<a href="#ch3">第二,LOCK按中灰和波形来曝光,画面看着偏灰,</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「相机视频录制Log模式是什么？Slog3曲线原理」教程要点：同一个画面里,逆光的太阳比树荫底下亮了一万多倍。 → 可一段十倍的视频,每种颜色只有1024个台阶, → 一万多倍的明暗要怎么装进这一千多格里? → 答案就是Loud曲线。；详见</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–01:48]</span><div><strong>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</strong><p>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</p></div></div>
+<div class="summary-row"><span class="time-marker">[01:49–03:32]</span><div><strong>右边是RED的LOCK3G10,中晖只在三分之一</strong><p>右边是RED的LOCK3G10,中晖只在三分之一,往上流足了10档。</p></div></div>
+<div class="summary-row"><span class="time-marker">[03:34–05:34]</span><div><strong>第二,LOCK按中灰和波形来曝光,画面看着偏灰,</strong><p>第二,LOCK按中灰和波形来曝光,画面看着偏灰,还是正常的。</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</li><li>可一段十倍的视频,每种颜色只有1024个台阶,</li><li>一万多倍的明暗要怎么装进这一千多格里?</li><li>答案就是Loud曲线。</li><li>先看传感器,每个像素就像一只接光的小桶,</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</p></div>
+  <div class="bound"><strong>适用边界</strong>：影像原理向；机身与镜头组合不同结论会有差异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–01:48</span>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</h2><p>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。；可一段十倍的视频,每种颜色只有1024个台阶,；一万多倍的明暗要怎么装进这一千多格里?；答案就是Loud曲线。；先看传感器,每个像素就像一只接光的小桶,；光子落进来,就被数下来。；光子越多,毒树越大,光翻一倍,毒树也翻一倍,这就叫线性。；摄影里,亮一档就是光多一倍。；如果按光量的比例直接存,最亮的那一档一口气就占一半,512格。；往下每暗一档,格子就在减半到最暗的几档,只剩下一格、二格。；调色时,想把暗部提亮一点,原本平滑的渐变就碎成一道道台阶,这就是断层。；可人也不是这样看的,我们感受的是倍数,一变二和一千变两千,看起来都只是亮了一截。；对数正好对上人眼,它不管多了多少光,只问一件事,翻了几倍。；一、二、四、八,每翻一倍就往前走同样的一步。；LOCK曲线就是这么存的,不按光量分格子,按档分,每一档都分到差不多的格子,暗部不再矮。；化成曲线,中间是一段直线,每亮一档,数值就涨同样多,18%的灰卡落在偏下的位置。；所以LOCK拍出来的画面是灰的,一万多倍的明暗全被压进了中间这一段。；到调色时,再把它还原回来,高光和暗部都还在。；代价也很直接,把格子按档均分之后,每一档能分到多少。；8-bit只有20个左右,10-bit大约79个。；所以PILOT一定要用10-bit。；暗部被抬起来,藏在里面的噪点也一起被看见了。；所以LOCK模式的起步ISO往往比普通模式高。；曝光也要按曲线规定的中晖来给,欠曝了噪点多,过曝了高光被窃屏。；左边是索尼S-LOCK3,中晖在420,大约41%。</p><figure><img src="assets/camera-log-slog3-explained/shot-01.jpg" alt="同一个画面里,逆光的太阳比树荫底下亮了一万多倍。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4d55aafbff19.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/4d55aafbff19.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/camera-log-slog3-explained/shot-02.jpg" alt="可一段十倍的视频,每种颜色只有1024个台阶," loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:05] 可一段十倍的视频,每种颜色只有1024个台阶,</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7822809a14ed.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/7822809a14ed.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">01:49–03:32</span>右边是RED的LOCK3G10,中晖只在三分之一</h2><p>右边是RED的LOCK3G10,中晖只在三分之一,往上流足了10档。；尼康Z2更新固件2.0之后,LOCK3G10也能直接录成H,265 10-bit。；两边都是10-bit,差别就只剩曲线本身。；叠在一起看,S-LOCK3中晖更高,曲线更陡。LOCK3G10更平缓,把空间留给了高光。；中间调,S-LOCK3每档有79格,LOCK3G10是69格。；往暗部数到第5档,38格对23格。；高光纳头,S-LOCK3到中晖以上7.7档就用完了,LOCK3G10能撑到10档。；但传感器本身有天花板。；如果上线在中晖以上6档,S-LOCK3能用上791格,LOCK3G10只用到653格。；只有上线超过7.7档,S-LOCK3才会先被切掉。；最容易踩的坑,两条曲线的中晖位置不一样。；拿S-LOCK3的41%曲爆LOCK3G10等于过曝了大约1.3档。；动态范围由传感器决定,两台都标称15档以上。；420只是颜色分辨率低一些,明暗台阶只看倍数和曲线。；所以S-LOCK3把格子花在中间调和暗部,LOCK3G10把余量留给了高光。；拍不拍LOCK,前期的差别从取景器就开始了。；普通模式下,屏幕上看到的就是成片。；拍LOCK,画面灰蒙蒙的,对焦和曝光都不好判断。；要打开显示辅助,套一个还原的LUT来看。；注意,显示辅助只改屏幕,录下来的依然是LOCK。；第二是感光度,普通模式能从ISO100拍起。；LOCK的起步往往就是800,足足高了三档。；大晴天想开大光圈,快门又要守住50分之一秒,；就得加一片ND8减光镜,把这三档光压回去。；第三是曝光标准,普通模式按眼睛看着舒服来曝光,高光一过就白掉。</p><figure><img src="assets/camera-log-slog3-explained/shot-03.jpg" alt="右边是RED的LOCK3G10,中晖只在三分之一,往上流足了10档。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:49] 右边是RED的LOCK3G10,中晖只在三分之一,往上流足了10档。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c08f6bfe8f05.mp3" type="button" aria-label="Play English audio">🔊</button><span>RED LOCK3G10, , 10 。</span></div>
+<audio class="cap-audio" src="audio/c08f6bfe8f05.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/camera-log-slog3-explained/shot-04.jpg" alt="尼康Z2更新固件2.0之后,LOCK3G10也能直接录成H,265 10-bit。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:55] 尼康Z2更新固件2.0之后,LOCK3G10也能直接录成H,265 10-bit。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a5c35bc41be9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Z2 2.0 ,LOCK3G10 H,265 10-bit。</span></div>
+<audio class="cap-audio" src="audio/a5c35bc41be9.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">03:34–05:34</span>第二,LOCK按中灰和波形来曝光,画面看着偏灰,</h2><p>第二,LOCK按中灰和波形来曝光,画面看着偏灰,还是正常的。；白平衡也要拍准,录H265这类压缩格式,白平衡是烧进文件里的。；后期大幅修正,颜色容易出断层。；所以,光比不大,要快速出片的时候,比如活动跟拍,室内屏光,直接用普通模式更省事。；遇到逆光,日落这种大光比,或者后期要认真调色,再拍LOCK。；落到实拍,先说SLOCK3。；ISO从原生的800起步,光线暗了,就切到另一档原生的12800。；灰卡按41%曝光是标准,只要高光不易出,可以再多给一档,让灰卡到49%左右。；多给的这一档,后期再压回来,暗部的噪点会干净一点。；同时盯住波形顶端,一旦被削成一条平线,那里就没有数据了。；SLOCK3的后期,第一步是色彩空间转换,输入选拍摄时用的色域和SLOCK3输出REC709。；前期多给了一档,就在转换之前,先把曝光降回一档。；降噪放在最前面,再做风格调色,暗部会更干净。；再看LOCK3G时,尼康Z2并没有改这条曲线,它和RED电影机用的是同一条LOCK3G时,后期流程才能通用。；灰卡按33%曝光。；在ISO800下,传感器大约在中灰以上6-7档就到顶,波形只到7成多,最上面两三档曲线确实用不上。；所以Z2从固件1.10起,在波形上加了一条红色裁切线,让最亮的部分贴着红线下面,就是曝光的上限,不用去追100%。；想用上更多高光空间,可以把ISO往上调。；中灰位置不变,传感器的顶会跟着往上移,代价是暗部噪点更多。；LOCK3G时的后期,输入选REDWIDE GAMET RGB和LOCK3G时,用RED的IPP2转到REC709。；SLOCK3的LUT和预设不能直接套,两条曲线每一档的数值都不一样。；它的暗部格子更少,又经过H265压缩,深暗部别硬拉,剪辑卡顿就先转成代理文件。；所以,你更怕断层,还是更怕国宝?</p><figure><img src="assets/camera-log-slog3-explained/shot-05.jpg" alt="第二,LOCK按中灰和波形来曝光,画面看着偏灰,还是正常的。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:34] 第二,LOCK按中灰和波形来曝光,画面看着偏灰,还是正常的。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/81e25b678b60.mp3" type="button" aria-label="Play English audio">🔊</button><span>LOCK , , 。</span></div>
+<audio class="cap-audio" src="audio/81e25b678b60.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/camera-log-slog3-explained/shot-06.jpg" alt="白平衡也要拍准,录H265这类压缩格式,白平衡是烧进文件里的。" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:38] 白平衡也要拍准,录H265这类压缩格式,白平衡是烧进文件里的。</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d01948c37ae7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d01948c37ae7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/camera-log-slog3-explained/shot-07.jpg" alt="所以,你更怕断层,还是更怕国宝?" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:31] 所以,你更怕断层,还是更怕国宝?</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/af9b03354e33.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/af9b03354e33.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/camera-log-slog3-explained/shot-08.jpg" alt="所以,你更怕断层,还是更怕国宝?" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:13] 所以,你更怕断层,还是更怕国宝?</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/af9b03354e33.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/af9b03354e33.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>同一个画面里,逆光的太阳比树荫底下亮了一万多倍。</p></div>
+<div class="transcript-row"><time>00:05</time><p>可一段十倍的视频,每种颜色只有1024个台阶,</p></div>
+<div class="transcript-row"><time>00:09</time><p>一万多倍的明暗要怎么装进这一千多格里?</p></div>
+<div class="transcript-row"><time>00:12</time><p>答案就是Loud曲线。</p></div>
+<div class="transcript-row"><time>00:14</time><p>先看传感器,每个像素就像一只接光的小桶,</p></div>
+<div class="transcript-row"><time>00:17</time><p>光子落进来,就被数下来。</p></div>
+<div class="transcript-row"><time>00:19</time><p>光子越多,毒树越大,光翻一倍,毒树也翻一倍,这就叫线性。</p></div>
+<div class="transcript-row"><time>00:24</time><p>摄影里,亮一档就是光多一倍。</p></div>
+<div class="transcript-row"><time>00:26</time><p>如果按光量的比例直接存,最亮的那一档一口气就占一半,512格。</p></div>
+<div class="transcript-row"><time>00:31</time><p>往下每暗一档,格子就在减半到最暗的几档,只剩下一格、二格。</p></div>
+<div class="transcript-row"><time>00:36</time><p>调色时,想把暗部提亮一点,原本平滑的渐变就碎成一道道台阶,这就是断层。</p></div>
+<div class="transcript-row"><time>00:42</time><p>可人也不是这样看的,我们感受的是倍数,一变二和一千变两千,看起来都只是亮了一截。</p></div>
+<div class="transcript-row"><time>00:48</time><p>对数正好对上人眼,它不管多了多少光,只问一件事,翻了几倍。</p></div>
+<div class="transcript-row"><time>00:53</time><p>一、二、四、八,每翻一倍就往前走同样的一步。</p></div>
+<div class="transcript-row"><time>00:57</time><p>LOCK曲线就是这么存的,不按光量分格子,按档分,每一档都分到差不多的格子,暗部不再矮。</p></div>
+<div class="transcript-row"><time>01:04</time><p>化成曲线,中间是一段直线,每亮一档,数值就涨同样多,18%的灰卡落在偏下的位置。</p></div>
+<div class="transcript-row"><time>01:12</time><p>所以LOCK拍出来的画面是灰的,一万多倍的明暗全被压进了中间这一段。</p></div>
+<div class="transcript-row"><time>01:17</time><p>到调色时,再把它还原回来,高光和暗部都还在。</p></div>
+<div class="transcript-row"><time>01:22</time><p>代价也很直接,把格子按档均分之后,每一档能分到多少。</p></div>
+<div class="transcript-row"><time>01:27</time><p>8-bit只有20个左右,10-bit大约79个。</p></div>
+<div class="transcript-row"><time>01:30</time><p>所以PILOT一定要用10-bit。</p></div>
+<div class="transcript-row"><time>01:33</time><p>暗部被抬起来,藏在里面的噪点也一起被看见了。</p></div>
+<div class="transcript-row"><time>01:36</time><p>所以LOCK模式的起步ISO往往比普通模式高。</p></div>
+<div class="transcript-row"><time>01:40</time><p>曝光也要按曲线规定的中晖来给,欠曝了噪点多,过曝了高光被窃屏。</p></div>
+<div class="transcript-row"><time>01:45</time><p>左边是索尼S-LOCK3,中晖在420,大约41%。</p></div>
+<div class="transcript-row"><time>01:49</time><p>右边是RED的LOCK3G10,中晖只在三分之一,往上流足了10档。</p></div>
+<div class="transcript-row"><time>01:55</time><p>尼康Z2更新固件2.0之后,LOCK3G10也能直接录成H,265 10-bit。</p></div>
+<div class="transcript-row"><time>02:01</time><p>两边都是10-bit,差别就只剩曲线本身。</p></div>
+<div class="transcript-row"><time>02:04</time><p>叠在一起看,S-LOCK3中晖更高,曲线更陡。LOCK3G10更平缓,把空间留给了高光。</p></div>
+<div class="transcript-row"><time>02:11</time><p>中间调,S-LOCK3每档有79格,LOCK3G10是69格。</p></div>
+<div class="transcript-row"><time>02:16</time><p>往暗部数到第5档,38格对23格。</p></div>
+<div class="transcript-row"><time>02:19</time><p>高光纳头,S-LOCK3到中晖以上7.7档就用完了,LOCK3G10能撑到10档。</p></div>
+<div class="transcript-row"><time>02:25</time><p>但传感器本身有天花板。</p></div>
+<div class="transcript-row"><time>02:27</time><p>如果上线在中晖以上6档,S-LOCK3能用上791格,LOCK3G10只用到653格。</p></div>
+<div class="transcript-row"><time>02:33</time><p>只有上线超过7.7档,S-LOCK3才会先被切掉。</p></div>
+<div class="transcript-row"><time>02:37</time><p>最容易踩的坑,两条曲线的中晖位置不一样。</p></div>
+<div class="transcript-row"><time>02:40</time><p>拿S-LOCK3的41%曲爆LOCK3G10等于过曝了大约1.3档。</p></div>
+<div class="transcript-row"><time>02:45</time><p>动态范围由传感器决定,两台都标称15档以上。</p></div>
+<div class="transcript-row"><time>02:49</time><p>420只是颜色分辨率低一些,明暗台阶只看倍数和曲线。</p></div>
+<div class="transcript-row"><time>02:54</time><p>所以S-LOCK3把格子花在中间调和暗部,LOCK3G10把余量留给了高光。</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

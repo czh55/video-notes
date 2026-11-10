@@ -25,7 +25,8 @@ TRANSLATIONS = json.loads(
     (Path(__file__).resolve().parent.parent / "translations.json").read_text(encoding="utf-8")
 )
 
-TIME_RE = re.compile(r"\[(\d{1,2}:\d{2}(?::\d{2})?)\]")
+# 视频时间戳 [MM:SS] / [HH:MM:SS]，或图文页码 [1/12]
+TIME_RE = re.compile(r"\[(\d{1,2}:\d{2}(?::\d{2})?|\d+/\d+)\]")
 CAP_RE = re.compile(r"<figcaption>(.*?)</figcaption>", re.S)
 FIGURE_RE = re.compile(r"<figure>.*?</figure>", re.S)
 

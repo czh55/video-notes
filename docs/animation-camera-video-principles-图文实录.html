@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「硬核动画弄懂相机视频拍摄原理」教程要点：同一台相机,拍照和录像,其实是两套完全不同的物理和工程 → 1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则 → 这一集,把相机和电影记录视频的原理">
+<title>硬核动画弄懂相机视频拍摄原理｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>硬核动画弄懂相机视频拍摄原理</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">10分38秒</span>
+    <span class="meta-tag tag-topic">摄影 · 相机 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/3XBTZ2WOtrP" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">同一台相机,拍照和录像,其实是两套完全不同的物理</a>
+<a href="#ch2">电影机最常用的传感器尺寸叫超35,大约25毫米宽</a>
+<a href="#ch3">编码器先把画面拆成两部分,黑白的亮度和单独的颜色</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「硬核动画弄懂相机视频拍摄原理」教程要点：同一台相机,拍照和录像,其实是两套完全不同的物理和工程 → 1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则 → 这一集,把相机和电影记录视频的原理</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–04:20]</span><div><strong>同一台相机,拍照和录像,其实是两套完全不同的物理</strong><p>同一台相机,拍照和录像,其实是两套完全不同的物理和工程</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:27–07:32]</span><div><strong>电影机最常用的传感器尺寸叫超35,大约25毫米宽</strong><p>电影机最常用的传感器尺寸叫超35,大约25毫米宽,接近APS-C,它源自35毫米</p></div></div>
+<div class="summary-row"><span class="time-marker">[07:35–10:37]</span><div><strong>编码器先把画面拆成两部分,黑白的亮度和单独的颜色</strong><p>编码器先把画面拆成两部分,黑白的亮度和单独的颜色</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>同一台相机,拍照和录像,其实是两套完全不同的物理和工程</li><li>1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则</li><li>这一集,把相机和电影记录视频的原理,一次讲透</li><li>视频的本质是一连串静止的照片,当静止画面以足够快的速度连续播放,大脑就会自动把他们脑补成连续的运动</li><li>电影的标准是每秒24帧,这是上世纪20年代有声电影诞生时定下的,既能保证声音质量,又最节省胶片</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>同一台相机,拍照和录像,其实是两套完全不同的物理和工程</p></div>
+  <div class="bound"><strong>适用边界</strong>：影像原理向；机身与镜头组合不同结论会有差异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–04:20</span>同一台相机,拍照和录像,其实是两套完全不同的物理</h2><p>同一台相机,拍照和录像,其实是两套完全不同的物理和工程；1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则；这一集,把相机和电影记录视频的原理,一次讲透；视频的本质是一连串静止的照片,当静止画面以足够快的速度连续播放,大脑就会自动把他们脑补成连续的运动；电影的标准是每秒24帧,这是上世纪20年代有声电影诞生时定下的,既能保证声音质量,又最节省胶片；电视和网络视频常用25,30或60帧,帧率越高运动越流畅,而24帧那一点点顿错,恰恰成了电影感的来源；拍照时,快门越快越清晰,但录视频,快门反而不能太快,这是为什么；先分清两个时间,帧率,决定一秒拍几张,24帧就是每隔24分之一秒拍一张,快门速度,决定每一张曝光多久；每一张的曝光时间,最长也不能超过两张之间的间隔,电影行业习惯把这段间隔画成一整个圆；曝光占满整个间隔就是360度,占一半就是180度,占四分之一就是90度,这个角度就叫快门角；这个说法来自胶片电影机,里面有一个旋转的圆盘,每转一圈拍一帧,圆盘缺口的角度就是光线能通过的时间比例；换算很简单,180度快门,快门速度就是帧率乘二分之一,24帧用五十分之一秒,60帧用一百二十分之一秒；为什么偏偏是180多,因为人眼看运动的物体本来就带一点模糊,每一帧留下恰到好处的拖影,连起来播放,动作就和肉眼看到的一样自然；快门太快,每一帧都像定格照片,连起来播放,动作一顿一顿的,太慢,拖影太长,画面又糊成一片；拯救大兵瑞恩的战争场面就故意用了很小的快门角,让每一颗飞舰的杀力都锐利得刺眼,营造紧张感；快门被锁定之后,就少了一个调节亮度的手段,晴天光线太强,画面一定过曝,办法是给镜头戴上墨镜,也就是ND减光镜；晴天用F2.8拍,要只让六十四分之一的光通过,也就是减掉六档；还有灯光屏闪,国内交流电视五十赫兹,灯光每秒闪一百次,快门设成五十分之一或一百分之一秒,每一帧都恰好包含完整的闪烁,画面就不会忽明忽暗；拍照只需读一次传感器,录视频要每秒读取几十次,一刻不停；大多数传感器逐行读取,读完一整帧需要十几毫秒,快速横摇时,画面就会歪斜,这是滚动快门,全局快门让所有像素同时曝光,彻底消除变形；为了读得够快,一些相机会跳行读取,只用一部分像素,采样不足,细密的纹理就会出现彩色波纹,也就是摩尔纹；更好的做法是抄彩样,读出全部像素,比如6K再缩小到4K,细节更锐,噪点更低,无耳纹也更少；代价是数据量和热量,4K60帧,10比特的原始画面每秒将近十几比特,持续读出河边马让芯片发热,这就是为什么专业电影机都装着风扇；我们常说的4K,其实有两种,电视用的3840x2160和电影院用的4096x2160</p><figure><img src="assets/animation-camera-video-principles/shot-01.jpg" alt="同一台相机,拍照和录像,其实是两套完全不同的物理和工程" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 同一台相机,拍照和录像,其实是两套完全不同的物理和工程</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/8afc706774ec.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/8afc706774ec.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-02.jpg" alt="1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:07] 1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/602a1ea8f031.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/602a1ea8f031.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-03.jpg" alt="这一集,把相机和电影记录视频的原理,一次讲透" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:17] 这一集,把相机和电影记录视频的原理,一次讲透</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ac35a06b4d3c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/ac35a06b4d3c.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">04:27–07:32</span>电影机最常用的传感器尺寸叫超35,大约25毫米宽</h2><p>电影机最常用的传感器尺寸叫超35,大约25毫米宽,接近APS-C,它源自35毫米电影胶片的画面尺寸；那种宽的惊人的电影画面,很多是用变形宽荧幕镜头拍的,镜头把画面水平压缩一半,塞进传感器,后期再拉伸回来,得到2.39比1的超宽画幅；压缩和拉伸也留下了标志性的痕迹,椭圆形的胶外光斑和横贯画面的蓝色拉丝光域；先理解什么是动态范围,一个画面里,从最暗到最亮,能同时看清多少层次；比如站在屋里拍窗外,普通相机要么拍清屋里,窗外一片死白,要么拍清窗外,屋里一片漆黑；亮度每翻一倍,角一档,电影机的传感器能记录十几档,而普通的视频格式和屏幕只能容纳七档左右；如果直接按普通格式录,超出的亮部变成死白,暗部变成死黑,这些细节就永远丢了；Log的做法,就像把一床后背紫鸦进行理箱,把十几档亮度按比例压扁,全部塞进视频文件里；所以Log原片看起来灰蒙蒙的,没有对比度,像一张褪色的就照片,但窗外的云和屋里的暗部,细节一个都没丢；为什么叫Log?普通格式里,一半的数值都用在了最亮的那一档上；Log用对数来分配,让每一档都分到差不多多的数值；压扁之后,每一档分到的数值更少,所以卫生特别重要；8比特只有256级,调色时,天空容易出现一道道断层,10比特有1024级,渐变依然顺滑；灰蒙蒙的Log,要怎么变回正常画面?答案是LUT,也就是查找表；LUT本质上就是一张颜色对照表,原片里的每一种颜色都对应着一个输出颜色；比如这种灰灰的蓝,查表之后就变成饱满的天空蓝；相机厂商会提供官方LUT,一键把Log还原成正常画面；调色师也可以用风格化的LUT,一键套上电影色调；所谓三维LUT,就是把所有颜色放进一个红绿蓝立方体,每个格点都记着自己该变成什么颜色；如果显示器足够亮,还可以直接输出HDR,把更亮的高光也原样显示出来；先算一笔账,4K60帧的原始画面,每秒将近十几比特,一分钟就要70多GB；视频编码,就是在人眼几乎看不出来的前提下,把数据变小；它主要靠三招；第一招,少记颜色,人眼对明暗很敏感,对颜色却很迟钝</p><figure><img src="assets/animation-camera-video-principles/shot-04.jpg" alt="电影机最常用的传感器尺寸叫超35,大约25毫米宽,接近APS-C,它源自35毫米电影胶片的画面尺寸" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:27] 电影机最常用的传感器尺寸叫超35,大约25毫米宽,接近APS-C,它源自35毫米电影胶片的画面尺寸</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/951c13c744bb.mp3" type="button" aria-label="Play English audio">🔊</button><span>35, 25 , APS-C, 35</span></div>
+<audio class="cap-audio" src="audio/951c13c744bb.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-05.jpg" alt="那种宽的惊人的电影画面,很多是用变形宽荧幕镜头拍的,镜头把画面水平压缩一半,塞进传感器,后期再拉伸回来,得到2.39比1" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:38] 那种宽的惊人的电影画面,很多是用变形宽荧幕镜头拍的,镜头把画面水平压缩一半,塞进传感器,后期再拉伸回来,得到2.39比1</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e39ab04ddec3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/e39ab04ddec3.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-06.jpg" alt="压缩和拉伸也留下了标志性的痕迹,椭圆形的胶外光斑和横贯画面的蓝色拉丝光域" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:51] 压缩和拉伸也留下了标志性的痕迹,椭圆形的胶外光斑和横贯画面的蓝色拉丝光域</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9f071c1bc4dd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/9f071c1bc4dd.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">07:35–10:37</span>编码器先把画面拆成两部分,黑白的亮度和单独的颜色</h2><p>编码器先把画面拆成两部分,黑白的亮度和单独的颜色；亮度每个像素都记,颜色四个像素共用一个,这就是4比2比0；数据少了一半,你却几乎看不出区别；第二招,纸记变化,视频里相邻两帧,大部分内容一模一样；比如一段固定镜头里,只有一只船在动；那就没必要每一帧都完整保存,只需要告诉电脑,这几块画面往右移了几个像素,这叫运动矢量；所以,一段视频里,只有少数帧是完整保存的,叫关键帧,也叫安一帧；其余的帧指记录变化,叫P帧和B帧,就像连环画,只有第一页是完整的,后面每页只写着和上一页,你哪里变了；第三招,丢掉看不出的细节,编码器把画面切成小方块,把人眼不敏感的细碎纹理舍弃掉；三招加起来,数据能缩小几十倍,甚至上百倍,代价是,剪辑时电脑要把每一帧重新算出来,所以这种素材剪起来会卡,压得太狠,还会出现方块和色块；常见的H264和H265就是这种压缩,专业拍摄更常用每帧完整保存的ProRes,甚至直接记录传感器原始数据的RAW文件大,但画质和后期空间最好；用120帧拍摄,再按24帧播放,时间就被放慢了五倍,这就是升格慢动作,反过来,隔几秒拍一帧,就是延时摄影；要让画面稳,除了机身防抖,还有稳定器,三轴无刷电机,加上高速陀螺仪,每秒上千次反向修正,让镜头向悬浮在空中；声音同样重要,专业拍摄通常单独录音,48000Hz采样,32位辅点录音几乎不可能爆音；画面和声音靠时间码合场基本对齐,啪的一声就是后期同步的锚点；最后,六句话带走全部原理；视频是连续的照片,电影是每秒24帧；快门角是曝光占一帧时间的比例,180度最自然；持续读出,带来滚动快门,木耳纹和热量；LUT把宽广的亮度压扁保存,LUT再把它还原；编码少记颜色,纸记变化,把数据压小几十倍；拍照记录瞬间,而视频记录时间；感谢观看</p><figure><img src="assets/animation-camera-video-principles/shot-07.jpg" alt="编码器先把画面拆成两部分,黑白的亮度和单独的颜色" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:35] 编码器先把画面拆成两部分,黑白的亮度和单独的颜色</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d79bc1ab0c22.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d79bc1ab0c22.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-08.jpg" alt="亮度每个像素都记,颜色四个像素共用一个,这就是4比2比0" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:41] 亮度每个像素都记,颜色四个像素共用一个,这就是4比2比0</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/1d521a2c97b7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/1d521a2c97b7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-09.jpg" alt="数据少了一半,你却几乎看不出区别" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:48] 数据少了一半,你却几乎看不出区别</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/3d1ab1a4a49a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/3d1ab1a4a49a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-camera-video-principles/shot-10.jpg" alt="感谢观看" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[10:05] 感谢观看</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6f9b0a728643.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/6f9b0a728643.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>同一台相机,拍照和录像,其实是两套完全不同的物理和工程</p></div>
+<div class="transcript-row"><time>00:07</time><p>1秒24张画面,每秒近10个吉比特的原始数据,一直在发热的传感器,还有拍照时从来不用考虑的快门规则</p></div>
+<div class="transcript-row"><time>00:17</time><p>这一集,把相机和电影记录视频的原理,一次讲透</p></div>
+<div class="transcript-row"><time>00:28</time><p>视频的本质是一连串静止的照片,当静止画面以足够快的速度连续播放,大脑就会自动把他们脑补成连续的运动</p></div>
+<div class="transcript-row"><time>00:39</time><p>电影的标准是每秒24帧,这是上世纪20年代有声电影诞生时定下的,既能保证声音质量,又最节省胶片</p></div>
+<div class="transcript-row"><time>00:50</time><p>电视和网络视频常用25,30或60帧,帧率越高运动越流畅,而24帧那一点点顿错,恰恰成了电影感的来源</p></div>
+<div class="transcript-row"><time>01:05</time><p>拍照时,快门越快越清晰,但录视频,快门反而不能太快,这是为什么</p></div>
+<div class="transcript-row"><time>01:13</time><p>先分清两个时间,帧率,决定一秒拍几张,24帧就是每隔24分之一秒拍一张,快门速度,决定每一张曝光多久</p></div>
+<div class="transcript-row"><time>01:25</time><p>每一张的曝光时间,最长也不能超过两张之间的间隔,电影行业习惯把这段间隔画成一整个圆</p></div>
+<div class="transcript-row"><time>01:34</time><p>曝光占满整个间隔就是360度,占一半就是180度,占四分之一就是90度,这个角度就叫快门角</p></div>
+<div class="transcript-row"><time>01:46</time><p>这个说法来自胶片电影机,里面有一个旋转的圆盘,每转一圈拍一帧,圆盘缺口的角度就是光线能通过的时间比例</p></div>
+<div class="transcript-row"><time>01:57</time><p>换算很简单,180度快门,快门速度就是帧率乘二分之一,24帧用五十分之一秒,60帧用一百二十分之一秒</p></div>
+<div class="transcript-row"><time>02:08</time><p>为什么偏偏是180多,因为人眼看运动的物体本来就带一点模糊,每一帧留下恰到好处的拖影,连起来播放,动作就和肉眼看到的一样自然</p></div>
+<div class="transcript-row"><time>02:22</time><p>快门太快,每一帧都像定格照片,连起来播放,动作一顿一顿的,太慢,拖影太长,画面又糊成一片</p></div>
+<div class="transcript-row"><time>02:33</time><p>拯救大兵瑞恩的战争场面就故意用了很小的快门角,让每一颗飞舰的杀力都锐利得刺眼,营造紧张感</p></div>
+<div class="transcript-row"><time>02:41</time><p>快门被锁定之后,就少了一个调节亮度的手段,晴天光线太强,画面一定过曝,办法是给镜头戴上墨镜,也就是ND减光镜</p></div>
+<div class="transcript-row"><time>02:52</time><p>晴天用F2.8拍,要只让六十四分之一的光通过,也就是减掉六档</p></div>
+<div class="transcript-row"><time>02:58</time><p>还有灯光屏闪,国内交流电视五十赫兹,灯光每秒闪一百次,快门设成五十分之一或一百分之一秒,每一帧都恰好包含完整的闪烁,画面就不会忽明忽暗</p></div>
+<div class="transcript-row"><time>03:15</time><p>拍照只需读一次传感器,录视频要每秒读取几十次,一刻不停</p></div>
+<div class="transcript-row"><time>03:22</time><p>大多数传感器逐行读取,读完一整帧需要十几毫秒,快速横摇时,画面就会歪斜,这是滚动快门,全局快门让所有像素同时曝光,彻底消除变形</p></div>
+<div class="transcript-row"><time>03:37</time><p>为了读得够快,一些相机会跳行读取,只用一部分像素,采样不足,细密的纹理就会出现彩色波纹,也就是摩尔纹</p></div>
+<div class="transcript-row"><time>03:48</time><p>更好的做法是抄彩样,读出全部像素,比如6K再缩小到4K,细节更锐,噪点更低,无耳纹也更少</p></div>
+<div class="transcript-row"><time>03:59</time><p>代价是数据量和热量,4K60帧,10比特的原始画面每秒将近十几比特,持续读出河边马让芯片发热,这就是为什么专业电影机都装着风扇</p></div>
+<div class="transcript-row"><time>04:17</time><p>我们常说的4K,其实有两种,电视用的3840x2160和电影院用的4096x2160</p></div>
+<div class="transcript-row"><time>04:27</time><p>电影机最常用的传感器尺寸叫超35,大约25毫米宽,接近APS-C,它源自35毫米电影胶片的画面尺寸</p></div>
+<div class="transcript-row"><time>04:38</time><p>那种宽的惊人的电影画面,很多是用变形宽荧幕镜头拍的,镜头把画面水平压缩一半,塞进传感器,后期再拉伸回来,得到2.39比1的超宽画幅</p></div>
+<div class="transcript-row"><time>04:51</time><p>压缩和拉伸也留下了标志性的痕迹,椭圆形的胶外光斑和横贯画面的蓝色拉丝光域</p></div>
+<div class="transcript-row"><time>04:59</time><p>先理解什么是动态范围,一个画面里,从最暗到最亮,能同时看清多少层次</p></div>
+<div class="transcript-row"><time>05:09</time><p>比如站在屋里拍窗外,普通相机要么拍清屋里,窗外一片死白,要么拍清窗外,屋里一片漆黑</p></div>
+<div class="transcript-row"><time>05:18</time><p>亮度每翻一倍,角一档,电影机的传感器能记录十几档,而普通的视频格式和屏幕只能容纳七档左右</p></div>
+<div class="transcript-row"><time>05:29</time><p>如果直接按普通格式录,超出的亮部变成死白,暗部变成死黑,这些细节就永远丢了</p></div>
+<div class="transcript-row"><time>05:38</time><p>Log的做法,就像把一床后背紫鸦进行理箱,把十几档亮度按比例压扁,全部塞进视频文件里</p></div>
+<div class="transcript-row"><time>05:48</time><p>所以Log原片看起来灰蒙蒙的,没有对比度,像一张褪色的就照片,但窗外的云和屋里的暗部,细节一个都没丢</p></div>
+<div class="transcript-row"><time>05:59</time><p>为什么叫Log?普通格式里,一半的数值都用在了最亮的那一档上</p></div>
+<div class="transcript-row"><time>06:05</time><p>Log用对数来分配,让每一档都分到差不多多的数值</p></div>
+<div class="transcript-row"><time>06:09</time><p>压扁之后,每一档分到的数值更少,所以卫生特别重要</p></div>
+<div class="transcript-row"><time>06:15</time><p>8比特只有256级,调色时,天空容易出现一道道断层,10比特有1024级,渐变依然顺滑</p></div>
+<div class="transcript-row"><time>06:24</time><p>灰蒙蒙的Log,要怎么变回正常画面?答案是LUT,也就是查找表</p></div>
+<div class="transcript-row"><time>06:31</time><p>LUT本质上就是一张颜色对照表,原片里的每一种颜色都对应着一个输出颜色</p></div>
+<div class="transcript-row"><time>06:38</time><p>比如这种灰灰的蓝,查表之后就变成饱满的天空蓝</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「台球进阶原理，看懂台球的物理几何」教程要点：一颗台球170克 → 皮头和他接触的时间 → 只有千分之一秒左右 → 就在这一瞬间打高一点；详见正文。">
+<title>台球进阶原理，看懂台球的物理几何｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>台球进阶原理，看懂台球的物理几何</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">7分34秒</span>
+    <span class="meta-tag tag-topic">运动 · 动画科普 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/2qyGDUKpwGg" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">一颗台球170克</a>
+<a href="#ch2">母球停住了</a>
+<a href="#ch3">左塞和右塞完全对称</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「台球进阶原理，看懂台球的物理几何」教程要点：一颗台球170克 → 皮头和他接触的时间 → 只有千分之一秒左右 → 就在这一瞬间打高一点；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–02:32]</span><div><strong>一颗台球170克</strong><p>一颗台球170克</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:30–04:52]</span><div><strong>母球停住了</strong><p>母球停住了</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:50–07:34]</span><div><strong>左塞和右塞完全对称</strong><p>左塞和右塞完全对称</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>一颗台球170克</li><li>皮头和他接触的时间</li><li>只有千分之一秒左右</li><li>就在这一瞬间打高一点</li><li>他会追着目标球往前冲</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>一颗台球170克</p></div>
+  <div class="bound"><strong>适用边界</strong>：运动原理科普；实战请结合自身身体条件与教练指导。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–02:32</span>一颗台球170克</h2><p>一颗台球170克；皮头和他接触的时间；只有千分之一秒左右；就在这一瞬间打高一点；他会追着目标球往前冲；打低一点他会倒着滚回来；打偏一点他还会拐弯；更奇怪的是；母球撞完目标球明明已经停住了；下一刻却又自己动了起来；这些现象背后只有两样东西；皮头的一推和台尼的摩擦；这一期不看结果；只看原因把每一个打点；每一种情况一次讲透；先看出竿的那一瞬间；皮头给母球的；是一个沿着球竿方向的推力；这个推力同时做了两件事；一是推着整颗球往前走；二是像扳手拧螺丝一样；让球转起来；转不转；取决于推力离球星有多远；推力穿过球星；力臂是零；球直走不转；打在中心上方；推力从球星上面经过；把球向前拧；这是上旋；打在中心下方；把球向后拧；这是下旋；力臂越长；转得越快；触感每秒两米；达在半径一半的位置；母球每秒要转将近14圈；而前进的速度；只看你推了多大力；和打在哪里几乎无关；速度和旋转；是两笔分开的帐；打点能偏多远；不是越偏越好；皮头碰到的球面；离中心越远；就越斜；打在半径四分之一的位置；球面斜了14度；打在一半的位置；斜了30度；打在60%的位置；斜了将近37度；皮头靠巧粉的摩擦；咬住球面；擦了巧粉的皮头；最多只能在31度左右的；斜面上站稳；超过这个角度；皮头就顺着斜面滑出去；力量传不进球里；这就是滑感；所以所有打点；不要花在半径一半的圈里；在这个圈里；打点越偏；旋转就越多；打在上下半个半径；旋转带来的速度；是前进速度的1.25倍；母球出干以后；接下来发生什么；全看一个点；球和台尼接触的那个点；这个点的速度；有两部分叠加；整颗球往前走的速度；加上旋转让底部往后甩的速度；两者正好抵消时；接触点相对台尼是静止的；这就是纯滚动；像车轮一样；几乎没有摩擦；打中心的球没有旋转；接触点跟着球一起往前滑；台尼的摩擦力朝后拽住它；一边让球减速；一边因为拽在球的底部；把球向前搓转；速度越来越慢；转速越来越快；直到两者对上；滑动停止；每秒两米打中心；母球要滑半米；才变成纯滚动；速度只剩7分之5；打在中心上方；五分之二半径的位置；出干时；转速就正好匹配；接触点从一开始；就是静止的；一点都不滑；打得再高一点；转得比走得快；接触点反而往后蹭；摩擦力变成朝前推；母球出干以后；还会自己加速；大约7%；撞上目标球的那一刻；两颗球之间；几乎没有摩擦；母球的速度；被整颗浇了出去；可它身上的旋转；一点都带不走；如果撞上去时；母球正好不转；速度浇完；就什么都不剩；母球停在原地；这就是定干；如果带着上旋；母球停下的那一刻；还在向前翻滚；接触点往后蹭；摩擦力朝前推；母球重新加速；跟着往前走；这就是高干；带着下旋就反过来；接触点往前蹭；摩擦力朝后拉；把母球拽回来；这就是定干；所以；抬头的问题有了答案</p><figure><img src="assets/animation-billiards-physics/shot-01.jpg" alt="一颗台球170克" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 一颗台球170克</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/46a7aba26b91.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/46a7aba26b91.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-billiards-physics/shot-02.jpg" alt="皮头和他接触的时间" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:01] 皮头和他接触的时间</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d8c4b142500f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d8c4b142500f.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">02:30–04:52</span>母球停住了</h2><p>母球停住了；旋转还在；是台尼的摩擦；让它重新动了起来；这也是远抬定干难的原因；下旋在路上；一直被摩擦磨掉；每秒2米；达最低点；走25厘米；还剩7成多；走半米；只剩4成；走到70多厘米；就完全磨光了；知道了原理；再来看上下打点；到底差多少；先看高干；直线撞球；每秒2米；母球离目标球25厘米；打中心；撞上时；几乎还没转起来；母球只跟进几厘米；打在中心上方5分之1半径；跟进80厘米；5分之2半径；1米半；半个半径；1米7；但距离一远；情况就变了；母球离目标球60厘米时；打中心也会跟进70多厘米；因为打中心的球；滑行半米；就变成了纯滚动；撞上去的时候；已经带着上旋；所以；远距离的中干；本质上就是高干；想让它停住；就得打得更低；再看低干；同样每秒2米；打在最低的半个半径；离目标球30厘米；母球拉回1米；60厘米；只拉回16厘米；一米远；下旋已经磨光；母球反而往前；蹲了15厘米；打点的高低也一样；离60厘米时；打低五分之一半径；母球还往前跟8厘米；打低三分之一多一点；正好停住；打到最低；才拉回16厘米；远抬想拉回来；要靠速度；初干速度提到每秒3米；一米远；照样能拉回1米；因为下旋还没被磨光；就已经撞上了目标球；切球时；母球撞完；沿着切线离开；可如果它带着高干或低干；走的不是直线；而是一道弧线；原因还是接触点；撞完以后；母球的速度；转了一个方向；旋转却还朝着原来的方向；接触点的滑动方向；和行进方向不再一致；摩擦力就斜着拉住母球；而且方向一直不变；一个方向不变的力；拉着一个运动的物体；路线就是一条抛物线；和抛出去的石头一样；只不过拉它的不是重力；是摩擦力；等滑动停止；母球变成纯滚动；弧线就结束了；之后走直线；高干往前弯；低干往回弯；打得越快；弧线越晚才弯过来；把打点从高到低排开；同样切30度；离目标球20厘米；打最高母球偏34度；打中心49度；打低四分之一半径73度；打到最低107度；被拉向了后方；接下来是加塞；打母球的左边或右边；母球会绕着竖直的轴旋转；奇怪的是；这种旋转在台面上；几乎不改变路线；因为竖直的转轴；正好穿过球；和台尼的接触点；接触点就在转轴上；转得再快；它自己也不动；相对台尼没有滑动；摩擦力就不会把球往旁边拉；可是加了右塞的母球；竹竿就往左偏一点；这叫挤压偏移；原因不在台尼；在皮头；皮头打在母球右侧；半径一半的地方；球面在这里是斜的；斜了30度；皮头顶在斜面上；球被往左推；皮头被往右推开；杆头越重越推不开；球就被推得越偏；普通球杆偏大约2度；一米半偏出5厘米多；轻杆头的低偏移球杆；只偏1.4度</p><figure><img src="assets/animation-billiards-physics/shot-03.jpg" alt="母球停住了" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:30] 母球停住了</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b4dbacb6df59.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/b4dbacb6df59.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-billiards-physics/shot-04.jpg" alt="旋转还在" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:31] 旋转还在</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/dba3c9c8d770.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/dba3c9c8d770.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">04:50–07:34</span>左塞和右塞完全对称</h2><p>左塞和右塞完全对称；右塞往左偏；左塞往右偏；偏多少也和塞成正比；打四分之一半径；一米半偏2.8厘米；打一半偏5.5厘米；那加塞什么时候会拐弯；答案是；竿尾抬起来的时候；球杆斜着向下击球；推力不再是水平的；母球的转轴也跟着倾斜；斜的转轴不再穿过接触点；接触点被旋转带着往侧面甩；抬腻的摩擦力朝反方向拉；把母球拉向加塞的那边；于是右塞的母球；先被挤压片一推向左边；再被摩擦慢慢拉回右边；走出一道弯；竿尾抬得越高；转轴越斜；弯得越厉害；几乎竖着打；就是闸杆；母球能绕过挡在前面的球；再看裤边；裤边胶条的高度；比球心高一点；转裤时正好顶在球心上方；这样裤边的推力是斜着朝下的；把球压在台面上；球就不会跳起来；加了塞的球转裤；接触点会贴着裤边横着蹭；裤边的摩擦力朝反方向推球；改变它弹出的角度；顺塞时；摩擦把球沿着裤边往前推；反弹角变大；逆塞把它往回拽；反弹角变小；引擎里同样30度转裤；不加塞；最后的路线是41度；顺塞；55度；逆塞；只有16度；塞越多；变化越大；同样30度转裤；逆塞一半；16度；逆塞四分之一；31度；不加塞；41度；顺塞四分之一；49度；顺塞一半；55度；高低杆也会影响裤边；转裤以后剩下的上旋；会让路线继续往前弯；下旋；则会把这道弯拉回来；同样30度转裤；高杆最后走41度；低杆只有34度；最后是两颗球之间的摩擦；切球时；在两颗球接触的地方；母球的表面会贴着目标；球横着蹭过去；这一层；摩擦力就把目标球；往母球前进的方向带偏一点；切30度；每秒一米的定杆；目标球偏了将近两度；解决办法；是给母球加一点外侧塞；母球表面反着转；正好抵消这一层；两颗球就像一对咬合的齿轮；一起转动；不再滑动；引擎里加上五分之一半径的外侧塞；偏差几乎变成了零；这就是齿轮效应名字的由来；反过来；内侧塞会让偏差更大；同样的球；加五分之一半径的内侧塞；目标球偏了2.4度；外侧塞加过头；又会往反方向偏；最后；把上下和左右组合起来；九个打点；其实就是两笔杖叠在一起；上下这笔杖；决定母球转完以后；往前还是往后；高杆往前弯；低杆往回拉；左右这笔杖；决定母球碰到裤边以后怎么弹；顺塞弹得开；逆塞弹得窄；同时还带来挤压偏移；和齿轮效应；看这一杆；同一个切球；高杆左塞；还是弹窄；最后；把这一期的原理收一收；推力决定速度；力臂决定旋转；打点不能超过半径的一半；接触点在滑；摩擦就在改；滑动停止；才是纯滚动；撞击交出速度；留下旋转；距离和速度；决定撞上时；还剩多少旋转；转轴穿过接触点；塞不拐弯；挤压偏移；弧线；裤边和齿轮效应；才是塞起作用的地方；台球没有魔法；只有一推和一路的摩擦</p><figure><img src="assets/animation-billiards-physics/shot-05.jpg" alt="左塞和右塞完全对称" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:50] 左塞和右塞完全对称</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d32678eff4d9.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d32678eff4d9.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-billiards-physics/shot-06.jpg" alt="右塞往左偏" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:52] 右塞往左偏</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d50736c60a80.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d50736c60a80.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-billiards-physics/shot-07.jpg" alt="只有一推和一路的摩擦" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:09] 只有一推和一路的摩擦</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/85eed04b5a75.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/85eed04b5a75.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-billiards-physics/shot-08.jpg" alt="只有一推和一路的摩擦" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:05] 只有一推和一路的摩擦</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/85eed04b5a75.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/85eed04b5a75.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>一颗台球170克</p></div>
+<div class="transcript-row"><time>00:01</time><p>皮头和他接触的时间</p></div>
+<div class="transcript-row"><time>00:02</time><p>只有千分之一秒左右</p></div>
+<div class="transcript-row"><time>00:04</time><p>就在这一瞬间打高一点</p></div>
+<div class="transcript-row"><time>00:05</time><p>他会追着目标球往前冲</p></div>
+<div class="transcript-row"><time>00:06</time><p>打低一点他会倒着滚回来</p></div>
+<div class="transcript-row"><time>00:07</time><p>打偏一点他还会拐弯</p></div>
+<div class="transcript-row"><time>00:09</time><p>更奇怪的是</p></div>
+<div class="transcript-row"><time>00:10</time><p>母球撞完目标球明明已经停住了</p></div>
+<div class="transcript-row"><time>00:12</time><p>下一刻却又自己动了起来</p></div>
+<div class="transcript-row"><time>00:13</time><p>这些现象背后只有两样东西</p></div>
+<div class="transcript-row"><time>00:15</time><p>皮头的一推和台尼的摩擦</p></div>
+<div class="transcript-row"><time>00:16</time><p>这一期不看结果</p></div>
+<div class="transcript-row"><time>00:17</time><p>只看原因把每一个打点</p></div>
+<div class="transcript-row"><time>00:19</time><p>每一种情况一次讲透</p></div>
+<div class="transcript-row"><time>00:22</time><p>先看出竿的那一瞬间</p></div>
+<div class="transcript-row"><time>00:23</time><p>皮头给母球的</p></div>
+<div class="transcript-row"><time>00:24</time><p>是一个沿着球竿方向的推力</p></div>
+<div class="transcript-row"><time>00:25</time><p>这个推力同时做了两件事</p></div>
+<div class="transcript-row"><time>00:27</time><p>一是推着整颗球往前走</p></div>
+<div class="transcript-row"><time>00:28</time><p>二是像扳手拧螺丝一样</p></div>
+<div class="transcript-row"><time>00:30</time><p>让球转起来</p></div>
+<div class="transcript-row"><time>00:31</time><p>转不转</p></div>
+<div class="transcript-row"><time>00:32</time><p>取决于推力离球星有多远</p></div>
+<div class="transcript-row"><time>00:33</time><p>推力穿过球星</p></div>
+<div class="transcript-row"><time>00:34</time><p>力臂是零</p></div>
+<div class="transcript-row"><time>00:35</time><p>球直走不转</p></div>
+<div class="transcript-row"><time>00:36</time><p>打在中心上方</p></div>
+<div class="transcript-row"><time>00:37</time><p>推力从球星上面经过</p></div>
+<div class="transcript-row"><time>00:38</time><p>把球向前拧</p></div>
+<div class="transcript-row"><time>00:39</time><p>这是上旋</p></div>
+<div class="transcript-row"><time>00:40</time><p>打在中心下方</p></div>
+<div class="transcript-row"><time>00:41</time><p>把球向后拧</p></div>
+<div class="transcript-row"><time>00:41</time><p>这是下旋</p></div>
+<div class="transcript-row"><time>00:42</time><p>力臂越长</p></div>
+<div class="transcript-row"><time>00:43</time><p>转得越快</p></div>
+<div class="transcript-row"><time>00:44</time><p>触感每秒两米</p></div>
+<div class="transcript-row"><time>00:45</time><p>达在半径一半的位置</p></div>
+<div class="transcript-row"><time>00:46</time><p>母球每秒要转将近14圈</p></div>
+<div class="transcript-row"><time>00:48</time><p>而前进的速度</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

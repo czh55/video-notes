@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「硬核动画拆解发动机原理」教程要点：一台两升涡轮发动机 → 在每分钟6000转的时候 → 每个活塞每秒要上下跑100趟 → 最大加速度超过2400G；详见正文。">
+<title>硬核动画拆解发动机原理｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>硬核动画拆解发动机原理</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">8分15秒</span>
+    <span class="meta-tag tag-topic">机械 · 动画科普 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5CXVrcDgRzT" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">一台两升涡轮发动机</a>
+<a href="#ch2">牺牲一点效率来换安全</a>
+<a href="#ch3">三元催化器</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「硬核动画拆解发动机原理」教程要点：一台两升涡轮发动机 → 在每分钟6000转的时候 → 每个活塞每秒要上下跑100趟 → 最大加速度超过2400G；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–02:41]</span><div><strong>一台两升涡轮发动机</strong><p>一台两升涡轮发动机</p></div></div>
+<div class="summary-row"><span class="time-marker">[02:39–05:26]</span><div><strong>牺牲一点效率来换安全</strong><p>牺牲一点效率来换安全</p></div></div>
+<div class="summary-row"><span class="time-marker">[05:25–08:14]</span><div><strong>三元催化器</strong><p>三元催化器</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>一台两升涡轮发动机</li><li>在每分钟6000转的时候</li><li>每个活塞每秒要上下跑100趟</li><li>最大加速度超过2400G</li><li>每一次燃烧</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>一台两升涡轮发动机</p></div>
+  <div class="bound"><strong>适用边界</strong>：结构原理科普；具体车型/机型参数以官方资料为准。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–02:41</span>一台两升涡轮发动机</h2><p>一台两升涡轮发动机；在每分钟6000转的时候；每个活塞每秒要上下跑100趟；最大加速度超过2400G；每一次燃烧；钢里的压强冲到90多个大气压；温度超过2000度；可燃油的能量里；真正变成动力的只有三成多；剩下的都去了哪；这期视频；我们用物理引擎；把发动机一层一层拆开；结构 原理 数据；还有各种发动机的区别；一次讲透；我们以一台典型的两升涡轮；直列四缸为例；把它一层一层拆开；最下面是有底壳；装着机油；上面是钢体；四个气缸就藏在里面；周围是冷却液流过的水套；气缸里是活塞；活塞上有三道活塞环；上面两道密封燃气；最下面一道；刮掉缸壁上多余的机油；活塞通过活塞销和连杆；连到曲轴上；曲轴把活塞的上下运动；变成连续的旋转；再通过飞轮输出；钢体上面是缸盖；每个气缸有四个气门；一个火花塞；和一个喷油嘴；头顶是两根凸轮轴；凸轮轴通过正实链条和曲轴；严格同步；两侧是进气气管和排气气管；排气后面；接着涡轮增压气；发动机的一个工作循环；有四个冲程；曲轴要转两圈；也就是720度；第一 进气；活塞下行；进气门打开；新清空气被吸进气缸；喷油嘴；喷入汽油；第二 压缩；两个气门都关闭；活塞上行；把混合器压缩到原来的九分之一左右；物理引擎算出；压缩终点的压墙；有20多个大气压；温度400多度；第三 做工；活塞接近顶部时；火花塞跳火；火焰在几毫秒内；烧遍整个燃烧室；压墙冲到峰值；把活塞猛推下去；第四 排气；排气门打开；活塞上行；把废气推出去；四个冲程里；只有做工这一个；在输出动力；所以；四缸发动机；让四个气缸轮流做工；曲轴每转半圈；就有一个气缸在燃烧；曲柄连杆机构；把直线运动变成旋转；但活塞的运动；一点都不均匀；每分钟6千转时；活塞的平均速度；是每秒18.6米；最快的时候；超过每秒30米；而在上指点；活塞要在一瞬间掉头；加速度达到2400G；半公斤重的活塞组件；会用一吨多的力；拉扯连杆；惯性力和转速的平方程正比；转速翻倍；惯性力变成四倍；这也是普通发动机红线；停在六七千转的原因之一；连杆还带来一个不对称；活塞在上半程；走得比下半程快；这一点不对称；就是后面要讲的；二阶震动的来源；钢镜和行程的比例也有讲教；长行程适合低转油举和省油；大钢镜能装下更大的气门；适合高转速；现在看杆内的压强；物理引擎一边转动曲轴；一边算出每一度的压强和温度；把压强和气缸融集化在一起；就得到施工图；这个环保围的面积；就是一次循环做地工；点火时机很关键；点的太晚；燃烧拖到活塞下行以后；压强起不来；点的太早；活塞还在上行；就要和燃烧对着干；物理引擎扫描点火脚；最佳的位置让一半燃料；在上指点后十度左右烧完；扭举最大；但增压越高；压缩越狠；还没烧到的那部分混合器；会被挤压加热到自己爆炸；这就是爆震；爆震产生剧烈的压力波；敲击活塞和钢壁；所以波轮发动机在大负荷时；只能推迟点火</p><figure><img src="assets/animation-engine-principles/shot-01.jpg" alt="一台两升涡轮发动机" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 一台两升涡轮发动机</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7535691accc7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/7535691accc7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-engine-principles/shot-02.jpg" alt="在每分钟6000转的时候" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:01] 在每分钟6000转的时候</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7185cdbded45.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/7185cdbded45.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">02:39–05:26</span>牺牲一点效率来换安全</h2><p>牺牲一点效率来换安全；燃油的能量去哪吗；物理引擎给这台发动机；记了一笔账；在中等负荷；大约三乘四变成曲轴上地宫；两乘三倍冷却液带走；将近四乘根据废弃排出；还有三个多点号在摩擦上；想提高效率；最直接的办法是提高压缩比；理论上压缩比从10提高到14；效率上限能从6乘提高到6乘5；但压缩比越高；越容易爆震；丰田的2.0升发动机；把压缩比做到13；热效率40%；混动版做到14%；41%；中国的混动专用发动机更进一步；比亚迪宣布46.06%；吉利宣布46.5%；重型柴油机；维柴已经做到了53%；日常开车；发动机大部分时间；只用很小的负荷；这世界气门几乎关闭；活塞要使劲；把空气从很低的压墙里吸进来；这叫蹦气损失；物理引擎算出；每分钟2000转；小负荷时；蹦气损失；失掉了两成地宫；效率只剩2成1；阿特金森循环的办法；是让静气门网关；活塞上行的前一段；把一部分空气推回静气道；实际的压缩充成变短；膨胀充成却不变；膨胀比大于压缩比；能从废气里多榨出一点能量；同时；节气门可以开得更大；蹦气损失也小了；物理引擎算出；同样的负荷；效率能提高2个百分点左右；代价是同样排量出力更小；所以；它最适合有电机帮忙的混动车；米勒循环则是静气门早关；再用涡轮把空气补回来；控制静气和排气的；是配气机构；凸轮轴上的凸轮；每转一圈；就把气门顶开一次；凸轮轴的转速；只有曲轴的一半；因为四个充成要转两圈；每个气门只开一次；一个气门；大约开200多度曲轴转角；最大生成；只有1厘米左右；在每分钟6000转时；每个气门每秒开合50次；静气门和排气门；同时打开的那一小段；叫气门重叠；高转速时重叠大一点；泄气流的惯性；多吸进空气；低转速时重叠小一点；带速更稳；可变气门正时；就是用油压转动凸轮轴的向位；在不同工况下；改变气门的开关时刻；有的发动机；还能切换凸轮；改变气门生成；发动机能出多大力；取决于每次能吸进多少空气；自然吸气发动机；最多只能吸进；大约一个大气压的空气；涡轮增压器；用废气推动涡轮；涡轮带动同一根轴上的压气机；把空气压缩后；小涡轮的转速；可以超过每分钟20万转；空气被压缩到两个大气压；温度会升到100多度；所以中间要用中冷气降温；让同样的体积装进更多空气；物理引擎；同一台两升发动机；不增压最大扭矩160多牛米；增压到两个大气压；从1500转开始就有350牛米；代价是涡轮持质；低转速时；废气能量不够；涡轮转不起来；现在的发动机；用小半辆涡轮；双涡管；甚至电动涡轮来解决；机械增压；则直接由曲轴驱动；没有持质；但要消耗发动机；自己的一部分功率；燃油怎么进入气缸；早期是在进气道里喷油；现在主流是缸内直喷；大众这台发动机的喷油压强；从280提高到358；最新一代达到580；压强越高；油污越细；燃烧越干净；直喷的另一个好处是；汽油在缸内蒸发时会吸热；给混合器降温；让发动机更不容易暴震；压缩比可以做得更高；汽油机靠火花塞点火；几万伏的高压机；传点集间的空气；空燃表控制在14.7比1附近</p><figure><img src="assets/animation-engine-principles/shot-03.jpg" alt="牺牲一点效率来换安全" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:39] 牺牲一点效率来换安全</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/76678d104022.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/76678d104022.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-engine-principles/shot-04.jpg" alt="燃油的能量去哪吗" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:42] 燃油的能量去哪吗</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/e4b7be5f1ad2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/e4b7be5f1ad2.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">05:25–08:14</span>三元催化器</h2><p>三元催化器；才能同时净化三者污染物；柴油机没有火花塞；压缩比16以上；物理引擎算出；压缩终点的空气将近600度；柴油一喷进去；就会自燃；共轨系统的喷油压强；超过2800；为什么有三缸；四缸；六缸；八缸；关键在于；牛举是否平顺；振动能否平衡；物理引擎把每个七缸的牛举；叠加起来；单缸的牛举忽正忽负；四缸在两次做工之间；仍会掉到负值；六缸的牛举始终为正；八缸更平；振动来自往复运动的惯性力；直列四缸的一阶力；正好两两抵消；但二阶力全部同向叠加；每分钟6000转时；超过1万牛；所以很多四缸要加平横轴；直列三缸的一阶；二阶力都能抵消；却留下一个；让发动机前后摇摆的力矩；这就是三缸带速抖动的来源；直列六缸；一阶；二阶的力和力矩；全部自己平衡；所以被称为最平顺的布局；C型和水平对峙；是为了把发动机做短；做矮；水平对峙的活塞两两对冲；惯性力互相抵消；重心也最低；发动机内部的金属；大多不是直接接触的；曲轴轴承和缸壁上；只隔着机微米后的油膜；机油泵把机油压到每个摩擦面；再通过活塞底部的喷嘴；冷却活塞；机油一旦断流；几秒钟就能把轴瓦烧坏；冷却系统；要带走两成多的燃油能量；节温器让冷却液保持在90度左右；冷车时先不让冷却液流过散热器；帮助发动机快速升温；冷车时既有粘稠；摩擦损失明显更大；燃烧时也更容易积碳；所以冷车阶段的油耗和磨损都更高；再看参数表上的两个数字；扭矩和功率；扭矩是曲轴的转动力；取决于每次燃烧做多少功；功率等于扭矩乘以转速；决定了加速和极速的上限；物理引擎算出这台发动机的外特性；350牛米从1500转保持到4000多转；功率在4500转达到162000瓦；然后维持到6000多转；再看效率地图；效率最高的区域；在中等转速大富贺的地方；轻踩油门巡航时；发动机其实在低效区工作；所以混动车的思路；是让发动机尽量只在高效区工作；多余的能量存进电池；需要时再用电机放出来；最后比较几种不同的发动机；茶油机压缩比高；没有节气门；混合气息；物理引擎算出它的效率；比汽油机高出几个百分点；低转油举也大；代价是更重更贵；维修处理更复杂；转子发动机；一个三角形转子；在枪体里旋转；三个枪是同时完成四个冲程；它体积小；转速高；非常平顺；但密封困难；油耗偏高；二冲程发动机；去轴每转一圈就做工一次；结构简单；功率大；但换气时；会有一部分新鲜混合气直接跑掉；现在主要用在小型机械上；还有正在发展的氢内燃机；以及只为混动设计的高效发动机；不管哪一种；都是在和同样的物理规律较量；最后；用几句话带走发动机的全部要点；四个冲程；去轴两圈；进气；压缩；做工；排气；6000转时；搏塞加速度2400个G；惯性力随转速平方增长；三成多变成动力；其余变成热；压缩比；阿特金森和混动；都是为了多抢回一点；涡轮板扭矩翻倍；直喷合可变气门；让它更高效；直6最平顺；4缸靠平衡轴；3缸天生汇通；几千的零件；每分钟几千次爆炸；把燃油变成前进的力量</p><figure><img src="assets/animation-engine-principles/shot-05.jpg" alt="三元催化器" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:25] 三元催化器</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/486e3d2d21bb.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/486e3d2d21bb.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-engine-principles/shot-06.jpg" alt="才能同时净化三者污染物" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:26] 才能同时净化三者污染物</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/6c28240d3fec.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/6c28240d3fec.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-engine-principles/shot-07.jpg" alt="把燃油变成前进的力量" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:42] 把燃油变成前进的力量</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/051a5119cda3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/051a5119cda3.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-engine-principles/shot-08.jpg" alt="把燃油变成前进的力量" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:43] 把燃油变成前进的力量</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/051a5119cda3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/051a5119cda3.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>一台两升涡轮发动机</p></div>
+<div class="transcript-row"><time>00:01</time><p>在每分钟6000转的时候</p></div>
+<div class="transcript-row"><time>00:02</time><p>每个活塞每秒要上下跑100趟</p></div>
+<div class="transcript-row"><time>00:04</time><p>最大加速度超过2400G</p></div>
+<div class="transcript-row"><time>00:06</time><p>每一次燃烧</p></div>
+<div class="transcript-row"><time>00:07</time><p>钢里的压强冲到90多个大气压</p></div>
+<div class="transcript-row"><time>00:08</time><p>温度超过2000度</p></div>
+<div class="transcript-row"><time>00:10</time><p>可燃油的能量里</p></div>
+<div class="transcript-row"><time>00:11</time><p>真正变成动力的只有三成多</p></div>
+<div class="transcript-row"><time>00:13</time><p>剩下的都去了哪</p></div>
+<div class="transcript-row"><time>00:14</time><p>这期视频</p></div>
+<div class="transcript-row"><time>00:15</time><p>我们用物理引擎</p></div>
+<div class="transcript-row"><time>00:15</time><p>把发动机一层一层拆开</p></div>
+<div class="transcript-row"><time>00:17</time><p>结构 原理 数据</p></div>
+<div class="transcript-row"><time>00:18</time><p>还有各种发动机的区别</p></div>
+<div class="transcript-row"><time>00:19</time><p>一次讲透</p></div>
+<div class="transcript-row"><time>00:21</time><p>我们以一台典型的两升涡轮</p></div>
+<div class="transcript-row"><time>00:23</time><p>直列四缸为例</p></div>
+<div class="transcript-row"><time>00:24</time><p>把它一层一层拆开</p></div>
+<div class="transcript-row"><time>00:25</time><p>最下面是有底壳</p></div>
+<div class="transcript-row"><time>00:27</time><p>装着机油</p></div>
+<div class="transcript-row"><time>00:27</time><p>上面是钢体</p></div>
+<div class="transcript-row"><time>00:28</time><p>四个气缸就藏在里面</p></div>
+<div class="transcript-row"><time>00:29</time><p>周围是冷却液流过的水套</p></div>
+<div class="transcript-row"><time>00:31</time><p>气缸里是活塞</p></div>
+<div class="transcript-row"><time>00:32</time><p>活塞上有三道活塞环</p></div>
+<div class="transcript-row"><time>00:33</time><p>上面两道密封燃气</p></div>
+<div class="transcript-row"><time>00:34</time><p>最下面一道</p></div>
+<div class="transcript-row"><time>00:35</time><p>刮掉缸壁上多余的机油</p></div>
+<div class="transcript-row"><time>00:36</time><p>活塞通过活塞销和连杆</p></div>
+<div class="transcript-row"><time>00:38</time><p>连到曲轴上</p></div>
+<div class="transcript-row"><time>00:39</time><p>曲轴把活塞的上下运动</p></div>
+<div class="transcript-row"><time>00:40</time><p>变成连续的旋转</p></div>
+<div class="transcript-row"><time>00:41</time><p>再通过飞轮输出</p></div>
+<div class="transcript-row"><time>00:42</time><p>钢体上面是缸盖</p></div>
+<div class="transcript-row"><time>00:43</time><p>每个气缸有四个气门</p></div>
+<div class="transcript-row"><time>00:45</time><p>一个火花塞</p></div>
+<div class="transcript-row"><time>00:45</time><p>和一个喷油嘴</p></div>
+<div class="transcript-row"><time>00:46</time><p>头顶是两根凸轮轴</p></div>
+<div class="transcript-row"><time>00:47</time><p>凸轮轴通过正实链条和曲轴</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

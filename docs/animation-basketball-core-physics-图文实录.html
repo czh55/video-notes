@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「一个动画完全看懂篮球硬核原理🏀」教程要点：一颗球 一个篮筐 十个人 → 篮球是全世界最受欢迎的运动之一 → 可是 走步到底是几步 → 挡拆是什么；详见正文。">
+<title>一个动画完全看懂篮球硬核原理🏀｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>一个动画完全看懂篮球硬核原理🏀</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">12分39秒</span>
+    <span class="meta-tag tag-topic">运动 · 动画科普 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/5w5hhFFmPV1" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">一颗球 一个篮筐 十个人</a>
+<a href="#ch2">掉在1米2到1米4之间</a>
+<a href="#ch3">双脚不交叉</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「一个动画完全看懂篮球硬核原理🏀」教程要点：一颗球 一个篮筐 十个人 → 篮球是全世界最受欢迎的运动之一 → 可是 走步到底是几步 → 挡拆是什么；详见正文。</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–05:08]</span><div><strong>一颗球 一个篮筐 十个人</strong><p>一颗球 一个篮筐 十个人</p></div></div>
+<div class="summary-row"><span class="time-marker">[05:06–09:06]</span><div><strong>掉在1米2到1米4之间</strong><p>掉在1米2到1米4之间</p></div></div>
+<div class="summary-row"><span class="time-marker">[09:04–12:38]</span><div><strong>双脚不交叉</strong><p>双脚不交叉</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>一颗球 一个篮筐 十个人</li><li>篮球是全世界最受欢迎的运动之一</li><li>可是 走步到底是几步</li><li>挡拆是什么</li><li>连防和人盯人有什么区别</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>一颗球 一个篮筐 十个人</p></div>
+  <div class="bound"><strong>适用边界</strong>：运动原理科普；实战请结合自身身体条件与教练指导。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–05:08</span>一颗球 一个篮筐 十个人</h2><p>一颗球 一个篮筐 十个人；篮球是全世界最受欢迎的运动之一；可是 走步到底是几步；挡拆是什么；连防和人盯人有什么区别；打铁 三双 绝杀；又都是什么意思；这期视频从技术到规则；战术 再到物理和行话；一次把篮球讲透；先认识球场；国际篮连的标准球场长28米；宽15米 篮筐离的3米05；篮下的长方形区域叫限制区；也叫三秒区 俗称油漆区；它前端的那条线是罚球线；离篮板4米6；外面那条大弧线是三分线；国际篮连是6米75；MBA更远是7米24；线外头进得3分 线内得2分；罚球一次一分；篮下还有一条小半圆；叫合理冲撞区；后面讲犯规时会用到；一场比赛分四节；国际篮连每节10分钟；MBA每节12分钟；平局就打加时 每个加时5分钟；每队场上5个人；进攻方拿球后；要在24秒内出手；而且球必须碰到篮筐；这就是24秒进攻时间；场上5个人；传统上分5个位置；用1到5号来称呼；1号位 控球后位；球队的组织者；负责运球过半场；发起进攻 分配球；2号位 得分后位；主要负责外线投篮和得分；3号位 小前锋；身材和技术都比较全面；能突破 能投篮 能防守；4号位 大前锋；在内线抢篮板 做掩护 防守；现在也要求能投中远距离；5号位 中锋；通常是全队最高的人；守护篮下；负责篮板 盖帽和篮下得分；现代篮球的位置越来越模糊；摇摆人能打2号位和3号位；3D球员专门投3分 做防守；空间型4号位；能拉到3分线外投篮；把内线空出来；运球是篮球最技术的技术；运球要用手指和指跟控球；而不是用手掌拍球；手腕和手指像弹簧一样下压；球弹回来时顺势接住 再往下压；眼睛不要看球；要抬头看场上的队友和防守者；身体压低 运球的高度越低；越不容易被断；用身体和飞运球守护球；让自己始终挡在防守者和球之间；体前变相也叫交叉步运球；在身体前面；把球从一只手快速拍到另一只手；同时向另一侧突破；胯下运球 从两腿之间换手；背后运球 从背后换手；这两种都能在换手时；用身体挡住球；转身运球 以一只脚为轴；背对防守者转身 带球换方向；还有节奏的变化；运球中突然停顿 又突然加速；脚急停急起；假装要变相；却继续向原方向突破；叫内外运球；好的运球不在于花样多；而在于改变速度和方向；篮球的最终目的是把球投进篮筐；投篮的基本要领可以继承四个词；平衡 瞄准 肘部 跟随；平衡 双脚与肩同宽；膝盖微屈 力量从腿开始；瞄准 眼睛盯住篮筐前沿；肘部 投篮手的肘关节；对准篮筐 不要往外撇；跟随 出手后手腕自然下压；像把手伸进饼干灌篱一样；保持这个动作；出手的弧度很重要；弧度太平；球几乎是凭着撞向篮筐；能进的空间很小；弧度高一些球从上方落下；篮筐看起来就变大了；一般来说；出手角度在45-55度之间比较理想；正确的出手会让球向后旋转；碰到篮筐时；后旋能卸掉一部分速度；让球更容易弹进去；这叫投篮手干软；投篮的种类；原地投篮 跳投 几天跳投；还有向后撤一步；拉开空间 带投的后撤步；罚球是唯一没人防守的投篮；好的罚球手都有固定的准备动作；比如运气下球 深呼吸；每次都一模一样；这叫罚球节奏；篮下的技术；最基本的是上篮；一般用离篮筐远的那只守护球；进的那只手上篮；还有从篮筐另一侧出手的反手上篮；高难度的终结方式；抛投 也叫高抛；在大个的前面把球高高抛出去；欧洲步 上篮时左右两步大幅度变向；躲开防守；勾手 侧身用一只手把球勾向篮筐；很难被封盖；最后是扣篮；直接把球按进篮筐；最稳 也最能点燃全场；篮球场上处处是物理；我们来算几道题；第一道；篮球能不能从篮筐里轻松穿过；篮筐的内径是45厘米；标准7号球的直径大约24厘米；差不多能并排放下两颗球；但球是斜着落下来的；从球的角度看；篮筐的开口被压扁了；落得越平 开口越窄；算一下；入射角低于大约32度；开口就比球还窄；根本不可能空心入网；这就是投篮一定要有弧度的原因；第二道；罚球最省力的出手角度是多少；罚球限离篮筐中心大约4米2；出手点比篮筐低大约1米；用抛物线攻势算出来；最省力的出手角度大约52度；出手速度只要每秒7.2米左右；球在空中飞不到一秒；犯成三分球；距离远了一半多；出手速度要提高到每秒8.5米左右；最省力的角度反而降到48度上下；越远出手越要平一点；力量越大一点；第三道；篮球的弹性；国际蓝连规定；球从1米8的高度落下；弹起后量到球顶</p><figure><img src="assets/animation-basketball-core-physics/shot-01.jpg" alt="一颗球 一个篮筐 十个人" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 一颗球 一个篮筐 十个人</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/fb95d16a6c24.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/fb95d16a6c24.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-02.jpg" alt="篮球是全世界最受欢迎的运动之一" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:02] 篮球是全世界最受欢迎的运动之一</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/87cb4c61c6b2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/87cb4c61c6b2.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-03.jpg" alt="可是 走步到底是几步" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:05] 可是 走步到底是几步</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/479b6820f2a0.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/479b6820f2a0.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">05:06–09:06</span>掉在1米2到1米4之间</h2><p>掉在1米2到1米4之间；算下来球每落地一次；大约要损失四成的能量；这也是基地传球比胸前传球慢的原因；第四道；制空时间；原地起跳80厘米；在空中的时间大约只有0.8秒；但其中有七成的时间；人都待在跳跃高度的上半段；所以扣篮的人看起来像飘在空中；传球永远比运球快；好的传球能让整个球队活起来；胸前传球；双手持球在胸前；向前推出；手腕外翻；最常用；最稳定；基地传球；让球在两人之间；大约三分之二的位置落地弹起；从防守者的手下面穿过去；高调传球；从防守者的头顶传过去；常用在给内线和空气的队友；还有单手侧传；背后传球；和不看人传球；他们都能骗过防守者的眼睛；空中接力；把球传到篮筐附近的空中；队友起跳后；在空中接住；直接扣进；传球直接帮助队友得分；叫助攻；传球被抢断；出界；或者违例丢球；叫失误；投篮不进；谁抢到球；谁就得到球权；这叫篮板球；抢篮板的关键是卡位；投篮出手后；先转身；用身体和臀部顶住对手；把它挡在身后；再起跳抢球；卡位比跳得高更重要；抢到自己投失的球；叫进攻篮板；也叫前场篮板；能带来二次进攻；抢到对方投失的球；叫防守篮板；也叫后场篮板；抢到进攻篮板后；在空中直接把球补进去；叫补篮或者补扣；内线的另一个技术；是背身单打；背对篮筐接球；用身体一点点把防守者挤向篮下；再转身；勾手或者假动作终结；内线的脚步变化；比如连续的假动作加转身；被称为梦幻脚步；围力是违反了规则；但没有身体接触；围力的惩罚是交换球权；最常见的是走步；打着球移动时；中枢脚离地后右落下；或者迈出的步数超过规定；就是走步；很多人说三步上篮；其实规则允许的是两步；现在的规则里；运球中收球那一步叫零步；不算步数；零步之后还能再走两步；所以看起来像三步；两次运球；运球结束；双手持球之后；又重新开始运球；翻腕也叫携带球；运球实手；掌握住球的下半步；把球翻起来；等于短暂的拿住了球；还有几个和时间有关的围力；进攻队员在三秒区里；停留超过三秒；叫三秒围力；持球队员被严密防守；五秒不出手；不运球；叫五秒围力；后场拿球八秒内没过半场；叫八秒围力；二十四秒内没有出手碰筐；叫二十四秒围力；回场；球已经过了半场；进攻方又让球回到后场；并且自己先碰到球；干扰球；球在下落过程中；已经高于篮筐时；防守队员去碰它；或者球在篮筐上方的时候去拍它；干扰球直接判进球有效；犯规是违反规则的身体接触；每名球员的犯规次数有上限；国际篮联是五次；NBA是六次；满了就要被罚下；打手；防守时打到了进攻球员持球的手；推人；拉人；扮人；也都属于亲人犯规；阻挡和带球撞人；是最难判的一对犯规；防守球员已经站好位置；身体正对进攻者；被进攻者撞上；是进攻犯规；也叫撞人；如果防守球员还在移动；没站稳；就发生接触；是防守犯规；叫阻挡；但如果防守球员；站在篮下的合理冲撞区里；就不能造进攻犯规；这是为了鼓励进攻；保护突破的球员；投篮时被犯规；如果球没进；罚两次球；三分出手就罚三次；如果球进了；得分有效；还有拳队犯规；国际蓝联规定；每节拳队犯规满四次之后；再犯规；就直接罚球；更严重的有技术犯规；比如对裁判不礼貌；还有违体犯规；也就是没有去抢球；动作过大的犯规；NBA叫恶意犯规；进攻赢得比赛；防守赢得冠军；防守姿势；双脚略宽一肩；膝盖弯曲；重心压低；一只手干扰传球；一只手干扰投篮；移动时用滑步</p><figure><img src="assets/animation-basketball-core-physics/shot-04.jpg" alt="掉在1米2到1米4之间" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:06] 掉在1米2到1米4之间</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/cddce46229fe.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/cddce46229fe.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-05.jpg" alt="算下来球每落地一次" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:08] 算下来球每落地一次</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f92c25aad51f.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/f92c25aad51f.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-06.jpg" alt="大约要损失四成的能量" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:09] 大约要损失四成的能量</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2956113c2941.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/2956113c2941.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">09:04–12:38</span>双脚不交叉</h2><p>双脚不交叉；防守分两大类；人丁人；每个人负责盯防一名对手；对手去哪你跟到哪；联防；每个人负责防守一块区域；谁进了你的区域你就防谁；最常见的是二三联防；前面两个人；后面三个人；还有三二联防；一三一联防；协防；队友被突破时；其他人及时补上去；包夹；两个人同时防守持球的人；换防；遇到掩护时；两名防守者交换防守对象；防守的高光时刻；戴帽把对手的投篮在空中拍掉；俗称吃火锅；抢断把对手的球断走；还有站好位置；吃下进攻犯规；这叫造犯规；篮球是五个人的运动；战术就是让五个人配合起来；最经典的战术是挡拆；一名队友站到持球人的防守者身边；用身体做一堵墙；这叫掩护；也就是挡；持球人借着这堵墙；甩开防守者；掩护完成后；掩护的人立刻转身往篮下跑；接球上篮；这叫顺下；也就是拆；如果掩护的人；向外跑到三分线投篮；叫外弹；同线；没有球的队员；趁防守者看球的时候；突然切向篮下接球；从防守者背后切入；叫后门；快攻；抢到篮板或者断球后；趁对方还没退防；快速推进；以多打少；拉开单打；把队友都拉到两边；给球队最好的得分手；一个人单挑的空间；而所有进攻战术的基础；都是空间；外线的人站开；防守就要扩大范围；内线和突破的通道就打开了；最后；认识一些常见的数据和行话；两双；得分；篮板；助攻；抢断；盖帽这五项里；有两项达到十个以上；三双；有三项达到十个以上；正负值；一名球员在场上时；球队得分；减去失分；它能反映一名球员；对比赛的整体影响；空心；球不碰篮筐；直接入网；打铁；投篮碰筐不进；三步粘；连篮筐和篮板；都没碰到；打板；借助篮板把球弹进去；绝杀；在比赛最后时刻；投进决定胜负的球；压少；在时间结束的哨声；或者风鸣声响起前；球已经出手并投进；垃圾时间；比赛胜负已定；双方都换上替补的时段；抢七；七场四胜的系列赛；打到最后一场；吃饼；接队友的传球；轻松得分；大心脏；关键时刻赶出手；能投进的球员；想打好篮球；也有一些经验之谈；运动前一定要充分热身；尤其是脚踝和心肝；篮球最常见的伤病；就是崴脚；可以带护踝穿合适的篮球鞋；多练弱侧手；只会用一只手运球和上篮；防守者很容易预判你的方向；投篮练习要先进后远；先在篮下把动作练对；再慢慢拉远距离；动作比距离更重要；场上要多沟通；喊掩护；喊换防；喊要球；篮球是团队运动；会说话的球队防守更好；最后多看比赛；看高手怎么跑位；怎么选择；比单纯练花样；比单纯练花样；更能提高篮球智商；最后；用几句话；带走篮球的全部门道；1号组织；2号投篮；3号全面；4号内线；5号护框；运球靠节奏；投篮靠平衡；瞄准；手部和跟随；弧度要够高；入射角太平；连空心的可能都没有；违例交换球权；犯规要法；阻挡还是撞人；看防守者；站没站好；挡拆；空切；是进攻的核心；卡位和沟通；是防守的根本；热身防伤；多练弱侧守；多看比赛；一颗球；十个人；打的是配合；也是智慧</p><figure><img src="assets/animation-basketball-core-physics/shot-07.jpg" alt="双脚不交叉" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:04] 双脚不交叉</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/bb8376012bed.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/bb8376012bed.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-08.jpg" alt="防守分两大类" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:07] 防守分两大类</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/100f4f31dafc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/100f4f31dafc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-09.jpg" alt="人丁人" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:08] 人丁人</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/62457eeb8edc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/62457eeb8edc.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/animation-basketball-core-physics/shot-10.jpg" alt="也是智慧" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:00] 也是智慧</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7c8ef8d81bb7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/7c8ef8d81bb7.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（40段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>一颗球 一个篮筐 十个人</p></div>
+<div class="transcript-row"><time>00:02</time><p>篮球是全世界最受欢迎的运动之一</p></div>
+<div class="transcript-row"><time>00:05</time><p>可是 走步到底是几步</p></div>
+<div class="transcript-row"><time>00:06</time><p>挡拆是什么</p></div>
+<div class="transcript-row"><time>00:07</time><p>连防和人盯人有什么区别</p></div>
+<div class="transcript-row"><time>00:09</time><p>打铁 三双 绝杀</p></div>
+<div class="transcript-row"><time>00:11</time><p>又都是什么意思</p></div>
+<div class="transcript-row"><time>00:13</time><p>这期视频从技术到规则</p></div>
+<div class="transcript-row"><time>00:15</time><p>战术 再到物理和行话</p></div>
+<div class="transcript-row"><time>00:16</time><p>一次把篮球讲透</p></div>
+<div class="transcript-row"><time>00:21</time><p>先认识球场</p></div>
+<div class="transcript-row"><time>00:22</time><p>国际篮连的标准球场长28米</p></div>
+<div class="transcript-row"><time>00:24</time><p>宽15米 篮筐离的3米05</p></div>
+<div class="transcript-row"><time>00:27</time><p>篮下的长方形区域叫限制区</p></div>
+<div class="transcript-row"><time>00:29</time><p>也叫三秒区 俗称油漆区</p></div>
+<div class="transcript-row"><time>00:31</time><p>它前端的那条线是罚球线</p></div>
+<div class="transcript-row"><time>00:33</time><p>离篮板4米6</p></div>
+<div class="transcript-row"><time>00:35</time><p>外面那条大弧线是三分线</p></div>
+<div class="transcript-row"><time>00:37</time><p>国际篮连是6米75</p></div>
+<div class="transcript-row"><time>00:38</time><p>MBA更远是7米24</p></div>
+<div class="transcript-row"><time>00:40</time><p>线外头进得3分 线内得2分</p></div>
+<div class="transcript-row"><time>00:42</time><p>罚球一次一分</p></div>
+<div class="transcript-row"><time>00:44</time><p>篮下还有一条小半圆</p></div>
+<div class="transcript-row"><time>00:45</time><p>叫合理冲撞区</p></div>
+<div class="transcript-row"><time>00:46</time><p>后面讲犯规时会用到</p></div>
+<div class="transcript-row"><time>00:49</time><p>一场比赛分四节</p></div>
+<div class="transcript-row"><time>00:50</time><p>国际篮连每节10分钟</p></div>
+<div class="transcript-row"><time>00:52</time><p>MBA每节12分钟</p></div>
+<div class="transcript-row"><time>00:53</time><p>平局就打加时 每个加时5分钟</p></div>
+<div class="transcript-row"><time>00:56</time><p>每队场上5个人</p></div>
+<div class="transcript-row"><time>00:58</time><p>进攻方拿球后</p></div>
+<div class="transcript-row"><time>00:59</time><p>要在24秒内出手</p></div>
+<div class="transcript-row"><time>01:00</time><p>而且球必须碰到篮筐</p></div>
+<div class="transcript-row"><time>01:01</time><p>这就是24秒进攻时间</p></div>
+<div class="transcript-row"><time>01:07</time><p>场上5个人</p></div>
+<div class="transcript-row"><time>01:08</time><p>传统上分5个位置</p></div>
+<div class="transcript-row"><time>01:09</time><p>用1到5号来称呼</p></div>
+<div class="transcript-row"><time>01:11</time><p>1号位 控球后位</p></div>
+<div class="transcript-row"><time>01:12</time><p>球队的组织者</p></div>
+<div class="transcript-row"><time>01:13</time><p>负责运球过半场</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

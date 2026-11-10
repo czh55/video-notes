@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2325" viewBox="0 0 1320 2325">
+  <foreignObject x="0" y="0" width="1320" height="2325">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+p,li{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul{padding-left:24px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px;background:#dbeafe;color:#1e40af}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .bound{background:#f0fdf4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#166534;border-left:4px solid #22c55e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,.2)}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.92)}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>怎么画倒影？看看吉田博和莫奈怎么画</h1>
+  <div><span class="tag">绘画</span><span class="tag">上色</span><span class="tag">教程</span></div>
+  <p class="summary-line">画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B 把树的倒影压得比树还黑，A 是原图：吉田博画的黑松，倒影反而比黑松亮。
+	
+我找</p>
+  <div class="card"><h3>封面/要点：画倒影，你是不是也听过“倒影要比实物</h3><p>画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B </p></div><div class="card"><h3>第5/10页：怎么画倒影？看看吉田博和莫奈怎么画</h3><p>画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B </p></div><div class="card"><h3>第9/10页：怎么画倒影？看看吉田博和莫奈怎么画</h3><p>画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B </p></div>
+  <div class="card"><h3>行动清单</h3><div class="action">画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B 把树的倒影压得比树还黑，A 是原图：吉田博画的黑松，倒影反而比黑松亮。
+	
+我找了吉田博、川瀬巴水、莫奈、列维坦这些画水出名的画家，加上几位当代插画师，一共 38 张画，在每张画里把实物和它的倒影各取一块来比。亮的东西，雪、白墙、受光的树，19 处倒影全都比实物暗；暗的树林、船身、塔，41 处里有 33 处倒影比实物亮。
+	
+说到底是一句话：倒影是水面反射回来的一点光，加上水底和水里透上来的光。往脚下的水看，水面只反射约 2%；越往远处看得越斜，反射越多，贴着水面看才接近一面镜子。两份光哪份更显眼，要看角度，也要看各自有多亮。所以倒影往水的颜色靠：亮的东西反射回来打了折，就暗一点；黑的东西本来没多少光，水的颜色补进来，就亮了。拉斯金在威尼斯的日记里也写过，黑色的船身，倒影是淡淡的海绿色。
+	
+顺着这句话，例外也说得通。没变亮的 8 处，一半是吉田博帆船上的灰帆，本来不算黑，另一半是近黑的树和墙，倒影也一样黑，照这个道理推，这几处水的颜色不比它们亮；水清见底的时候，暗处的倒影几乎看不见，全是水底的颜色。天映进</div>
+  <div class='pitfall'>以图内文字为准；文案话题标签已剥离。</div>
+  <div class='bound'>图文轮播笔记；无时间轴口播。</div>
+  </div>
+  <div class="conclusion"><h2>结论</h2><p>画倒影，你是不是也听过“倒影要比实物画暗一点”？封面是同一张吉田博《铃川》，B 把树的倒影压得比树还黑，A 是原图：吉田博画的黑松，倒影反而比黑松亮。
+	
+我找</p></div>
+  <p class="footer">来源：小红书 · 慢慢拆画 · 2026-11-10</p>
+</div>
+    </div>
+  </foreignObject>
+</svg>
