@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="「拜耳滤镜和10bit422都是什么？这期详解」教程要点：这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透 → 打开相机的录像菜单 → 你看到的就是这样一串字 → 4K、10比特、422、100M；详见正文">
+<title>拜耳滤镜和10bit422都是什么？这期详解｜图文实录</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
+.container{width:min(960px,100%);margin:0 auto;padding:48px 32px 80px}
+header h1{font-size:32px;font-weight:900;color:#1c1917;margin:0 0 12px;line-height:1.3}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.meta-tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600}
+.tag-platform{background:#ff2442;color:#fff}.tag-duration{background:#f1f5f9;color:#64748b}.tag-topic{background:#dbeafe;color:#1e40af}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none}
+.toc{background:#fff;border-radius:16px;padding:20px 24px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h3{font-size:16px;color:#1e40af;margin:0 0 12px}.toc a{display:block;color:#475569;font-size:14px;text-decoration:none;padding:4px 0;border-bottom:1px solid #f1f5f9}
+.story-section{margin:48px 0}
+.story-section h2{font-size:24px;font-weight:700;color:#1c1917;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.story-section p{margin:0 0 14px;color:#44403c}
+.time-marker{display:inline-block;padding:2px 8px;background:#fef3c7;border-radius:6px;font-size:13px;font-weight:700;color:#b45309;margin-right:6px;font-variant-numeric:tabular-nums}
+img{display:block;max-width:100%;height:auto}
+figure{margin:28px 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(41,37,36,.1)}
+figcaption{padding:14px 18px;color:#57534e;font-size:14px}
+.summary-row{display:flex;gap:12px;padding:16px 20px;background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 2px 12px rgba(0,0,0,.04);align-items:flex-start}
+.summary-row .time-marker{flex-shrink:0;margin-top:2px}
+.summary-row strong{display:block;font-size:16px;color:#1c1917;margin-bottom:4px}
+.summary-row p{color:#57534e;margin:0;font-size:15px}
+.takeaway-box{background:#eff6ff;border-left:4px solid #3b82f6;border-radius:12px;padding:16px 20px;margin-top:20px}
+.takeaway-box strong{display:block;font-size:16px;color:#1e40af;margin-bottom:6px}
+.takeaway-box p{color:#3b82f6;margin:0;font-size:15px}
+.warn{background:#fff7ed;border-left:4px solid #f59e0b;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#9a3412}
+.bound{background:#f0fdf4;border-left:4px solid #22c55e;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#166534}
+.pitfall{background:#fef2f2;border-left:4px solid #ef4444;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:14px;color:#991b1b}
+.steps{background:#fff;border-radius:12px;padding:16px 20px;margin:16px 0;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.steps ol{margin:8px 0 0;padding-left:22px;color:#44403c}
+.steps li{margin-bottom:8px}
+.param{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;padding:1px 6px;border-radius:4px;font-size:13px}
+.transcript-section{margin-top:48px}
+.transcript-note{font-size:14px;color:#78716c;margin-bottom:24px}
+.transcript-list{list-style:none;padding:0;margin:0}
+.transcript-row{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #e7e5e4}
+.transcript-row time{font-variant-numeric:tabular-nums;color:#b45309;font-weight:700}.transcript-row p{margin:0}
+.transcript-collapsible{border:none;margin:0;padding:0}
+.transcript-collapsible summary{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none;font-size:24px;font-weight:700;color:#1c1917;margin:0;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+.transcript-collapsible summary::-webkit-details-marker,.transcript-collapsible summary::marker{display:none}
+.transcript-collapsible summary::before{content:"▶";font-size:12px;color:#b45309;transition:transform .2s;flex-shrink:0}
+.transcript-collapsible[open] summary::before{transform:rotate(90deg)}
+.transcript-collapsible[open] summary{margin-bottom:16px}
+@media(max-width:640px){.container{padding:28px 18px 56px}header h1{font-size:24px}.transcript-row{grid-template-columns:56px 1fr;gap:10px}}</style>
+<style id="cap-en-style">
+.cap-bilingual{padding:14px 18px}.cap-bilingual .cap-zh{color:#57534e;font-size:14px;line-height:1.7}.cap-bilingual .cap-zh .time-badge{font-weight:700;color:#b45309;margin-right:6px}.cap-bilingual .cap-en{display:flex;align-items:flex-start;gap:10px;margin-top:8px;padding-top:8px;border-top:1px dashed #e7e5e4;color:#0f766e;font-size:14px;line-height:1.7}.cap-speak{flex:none;width:34px;height:34px;border:none;border-radius:50%;background:#0f766e;color:#fff;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s,background .2s}.cap-speak:hover{background:#115e59;transform:scale(1.08)}.cap-speak.playing{background:#b45309;animation:capPulse 1s infinite}@keyframes capPulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+</head>
+<body><main class="container">
+<header>
+  <h1>拜耳滤镜和10bit422都是什么？这期详解</h1>
+  <div class="meta-row">
+    <span class="meta-tag tag-platform">小红书</span>
+    <span class="meta-tag tag-duration">13分13秒</span>
+    <span class="meta-tag tag-topic">摄影 · 视频技术 · 原理</span>
+  </div>
+  <a class="source-link" href="https://xhslink.cn/o/1TqHWSh198d" target="_blank" rel="noopener">→ 原视频链接</a>
+</header>
+<nav class="toc"><h3>内容导航</h3>
+<a href="#ch1">这一期我们把视频的422、420、444、8比特</a>
+<a href="#ch2">华为的RYYB</a>
+<a href="#ch3">第一行只留两个颜色</a>
+<a href="#transcript">口述/画面要点</a>
+</nav>
+<article>
+<div class="content-points">
+  <h2>内容要点</h2>
+  <p>「拜耳滤镜和10bit422都是什么？这期详解」教程要点：这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透 → 打开相机的录像菜单 → 你看到的就是这样一串字 → 4K、10比特、422、100M；详见正文</p>
+  <h3>知识结构</h3>
+  <div class="summary-row"><span class="time-marker">[00:00–04:13]</span><div><strong>这一期我们把视频的422、420、444、8比特</strong><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲</p></div></div>
+<div class="summary-row"><span class="time-marker">[04:12–08:34]</span><div><strong>华为的RYYB</strong><p>华为的RYYB</p></div></div>
+<div class="summary-row"><span class="time-marker">[08:32–13:13]</span><div><strong>第一行只留两个颜色</strong><p>第一行只留两个颜色</p></div></div>
+
+  <div class="steps"><strong>总步骤</strong><ol><li>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</li><li>打开相机的录像菜单</li><li>你看到的就是这样一串字</li><li>4K、10比特、422、100M</li><li>这串字背后有几件很反常的事</li></ol></div>
+  <div class="takeaway-box"><strong>总结</strong><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</p></div>
+  <div class="bound"><strong>适用边界</strong>：影像技术科普；机身/编码参数因型号而异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+</div>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–04:13</span>这一期我们把视频的422、420、444、8比特</h2><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透；打开相机的录像菜单；你看到的就是这样一串字；4K、10比特、422、100M；这串字背后有几件很反常的事；一段4K的422、10比特视频；不压缩的话；每秒差不多4000Mbps；相机实际只存100Mbps；少了将近40倍；传感器上每个格子其实只知道一种颜色；录进去的颜色信息又被丢掉一半；和你看画面几乎看不出来；从传感器到文件一共四步；第一步传感器怎么拿到颜色；这是拜尔滤镜；第二步每个数用多少位来存；这是8比特和10比特；第三步颜色信息留下多少；这是422；第四步怎么压缩；这是马滤；我们一步一步走；光子撞进传感器的归里；打出电子；电子被存起来；这就是拍照的原理；问题是；红光打出来的电子；和蓝光打出来的电子一模一样；传感器只知道来了多少光；不知道是什么颜色；它天生是色盲；要知道颜色；就得把红绿蓝分开亮；最直接的办法；是用棱镜把光分成三数；送给三块传感器；老式的广播摄像机就是这么做的；可是体积大成本高；1976年；科达的工程师布莱斯；拜尔拿到了一项专利；只用一块传感器；在每个格子上盖一片小滤镜；一个格子只放一种颜色进去；这就是拜尔滤镜；到今天还是相机的主流；拜尔的排法；是两行两列一组；一个红；两个绿；一个蓝；绿色占一半；红和蓝各占四分之一；一块3300万像素的传感器；实际是1650万个绿格子；825万个红格子；825万个蓝格子；为什么绿色最多；因为人眼对明暗的感受；大部分来自绿色；高清视频的标准里；算亮度时；绿色占72%；红色占21%；蓝色只占7%；绿格子多；明暗的细节就准；这时候；每个格子只有一个数；只知道一种颜色；直接显示出来；就是这样一张红绿蓝的马赛克；每个格子缺的两种颜色；只能看周围的邻居来猜；这一步叫反败尔；也叫去马赛克；最简单的办法；就是取周围几个格子的平均值；可是平均法碰到边缘就出错；边缘两边的亮度被混在一起；好的算法；会先把最密的绿色重建出来；判断边缘朝哪个方向；再沿着边缘去猜；不跨过去；猜错的时候；画面就会出现不存在的颜色；比如特别细的条纹；红绿蓝格子；刚好踩在不同的条纹上；就冒出彩色的波纹；这叫尾色和姆尔纹；传统的办法；是在传感器前面；加一层低通滤镜；把抄袭的细节弄糊一点；代价是锐度下降；所以3300万像素；说的是3300万个格子；每个格子只量一种颜色；另外2%的颜色是算出来的；录视频；反占了便宜；尼康Z8用8K下彩样成4K时；四个格子变一个像素；正好是一红两绿一蓝；三种颜色都是真实量到的；基本不用猜；索尼A7M5是7K下彩样到4K；大约3.3个格子变一个像素；也比一个格子一个像素扎实得多；Dyre不是唯一的排法；相机和手机上常见的；还有四种；富士的X-Trans；世马的Phobium；华为的RYYB；还有四合一；富士的X-Trans；把重复单元从2x2变成了6x6；排列更不规律；不容易出母耳闻；所以可以不要低通滤镜；代价是反败耳的算法更难做；世马的Phobium不用马赛克；硅吸收光有深浅之分；蓝光停在浅层；红光砖的最深；三层叠起来；一个位置就能量三种颜色；代价是层与层之间；颜色分得不够干净</p><figure><img src="assets/bayer-filter-and-10bit422/shot-01.jpg" alt="这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:00] 这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/ce8388b92780.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/ce8388b92780.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-02.jpg" alt="打开相机的录像菜单" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:09] 打开相机的录像菜单</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9c02fc000514.mp3" type="button" aria-label="Play English audio">🔊</button><span>open</span></div>
+<audio class="cap-audio" src="audio/9c02fc000514.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-03.jpg" alt="你看到的就是这样一串字" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:11] 你看到的就是这样一串字</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/7123dba7adcf.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/7123dba7adcf.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">04:12–08:34</span>华为的RYYB</h2><p>华为的RYYB；把绿色滤镜换成黄色；黄色同时放红光和绿光进去；华为撑近光亮多了四成；代价试算颜色更蓝；白平衡也更难做准；四合一；是四个同色的小格子；当成一个大格子用；大格子再按败耳排列；手机上最常见；反败耳之后；每个像素有了红绿蓝三个数；这三个数要存进文件；就要决定用多少位来存；位就是二进制的一位；只能是0或者1；每多一位；能表示的极数就翻一倍；8比特是256级；10比特是1024级；12比特是4096级；14比特是16384级；你可以把从最暗到最亮；想成一段楼梯；8比特是256级台阶；10比特是1024级；楼一样高；台阶更细；红绿蓝三个通道盛起来；8比特是1677万种颜色；10比特是10.7一种；多出来的；不是更鲜艳的颜色；而是更细腻的过程；注意；卫生不是动态范围；动态范围是楼有多高；卫生是楼梯分了多少级；这是两回事；动态范围到底是什么；我们前面有一期专门讲透了；感兴趣的朋友可以去看；视频的标准里；亮度并没有用满；8比特通常只用16-235；实际220级；10比特用64-940；实际877级；两头流出来的部分；是给超黑和超白的余量；台阶太粗会出什么问题；看天空；天空的亮度变化非常缓；从这里到那里；也许只跨过几级台阶；台阶的边界就显出来了；变成一条一条的色带；这叫断层；Log让问题更严重；Log要把十几档亮度塞进同一个范围；每一档分到的台阶就少了；Log的原理；我们前面也有一期详细讲过；感兴趣可以回去看；按Sony S-Log3的公式；每一档亮度大约分到79个码值；换成8比特只有20个；调色时把对比度拉开；这20级台阶也被拉开；断层就出来了；所以High Log一定要用10比特；有意思的是；噪点反而有帮助；噪点会把台阶的边界打散；眼睛就看不出色带；所以降噪太狠；压缩太狠的时候；断层法更明显；那10比特是给观众看的吗；大多不是；很多显示器只能显示8比特；平台上的普通视频也基本是8比特；10比特真正的价值；是给调色留空间；现在到第三步；如果红绿蓝每个像素都存；数据量非常大；工程师利用了人眼的一个弱点；人眼看细节主要靠明暗；对颜色的细节就没那么明暗；实验测出来；人眼能分辨的颜色条纹；人眼的线线约是每度视角11-12条；而明暗条纹能分辨的细得多；这个弱点；在上世纪50年代发明彩色电视时；就被用上了亮度信号走宽的通道；颜色信号走窄的通道；这样既省带宽；黑白电视也能继续看；视频不直接存红绿蓝；而是换算成三个数；一个亮度Y；两个色差CB和C2；CB大致是蓝色减去亮度；C2大致是红色减去亮度；换算本身几乎不丢信息；只是换了一种表达方式；亲眼看一下；亮度这一张有全部的细节；两张色差本来就是模糊的色块；把色差缩小一半再放大回去；和亮度合起来你几乎看不出区别；这就是色度抽样；常见的色度抽样有四种；444；422；420；还有比较老的411；这三个数字描述的是一个四格宽；二行高的小方块；第一个4是这个小方块的宽度；第二个数是第一行保留几个颜色；第三个数是第二行相对第一行；颜色变化了几次；亮度每个像素都保留；下面说的都只是颜色；444；第一行四个颜色；第二行也变化四次；每个像素都有自己的颜色；一点没少；422</p><figure><img src="assets/bayer-filter-and-10bit422/shot-04.jpg" alt="华为的RYYB" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:12] 华为的RYYB</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/2cddd03e3d20.mp3" type="button" aria-label="Play English audio">🔊</button><span>RYYB</span></div>
+<audio class="cap-audio" src="audio/2cddd03e3d20.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-05.jpg" alt="把绿色滤镜换成黄色" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:14] 把绿色滤镜换成黄色</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d9515ee0811d.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d9515ee0811d.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-06.jpg" alt="黄色同时放红光和绿光进去" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[04:16] 黄色同时放红光和绿光进去</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/4cdef91a9a5a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/4cdef91a9a5a.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">08:32–13:13</span>第一行只留两个颜色</h2><p>第一行只留两个颜色；第二行也变化两次；左右相邻的两个像素共用一个颜色；上下不变；数据量是444的三分之二；420；第一行留两个颜色；第二行变化零次；也就是第二行直接沿用第一行的颜色；四个像素共用一个颜色；数据量是一半；注意这里的零不是没有颜色；也不是少了一种颜色；只是第二行没有自己单独的颜色；411；成像四个像素；共用一个颜色；纵向不变；数据量也是一半；老是DV上用过；换算成分辨率；就更直观了；4K视频的亮度永远是3840x2160；422的颜色分辨率是1920x2160；420的颜色只有1920x1080；也就是说；4K420的视频；明暗是4K；颜色其实只有1080P；人眼好骗；电脑不好骗；什么时候能看出差别；一是绿目抠向；电脑靠颜色找边缘；颜色越粗；边缘越糙；索尼的说明书里；也专门提到这一点；二是大幅度调色和拉薄合度；三是纯红；纯蓝的细小文字和图形；现在把卫生和色度抽样；放到一起算；平均每个像素；4208比特要12位；42010比特要15位；42210比特要20位；44410比特要30位；乘上4K的829万的像素；再乘每秒24帧；4208比特是每秒2.4千兆比特；42210比特是4千兆比特；44410比特接近6千兆比特；相机实际存多少；A7M5的4K 24P42210比特；有100兆的档位；也有240兆的全帧内档位；相比不压缩；分别压缩了大约40倍和17倍；压缩大致分两种；全帧内每一帧单独压；码率高 剪辑轻松；长距OP是隔一段存一张完整的帧；其他帧只存变化的部分；省空间但剪辑时电脑更吃力；422是留下多少信息；码率是压缩的多痕；这是两回事；A7M5里100兆的420和100兆的422都有；同样的码率；422要多色三分之一的数据；每份数据分到的码率就更少；所以422不是越选越好；码率要跟上；前面讲的色度抽样都发生在反败尔之后；RAW视频存的是传感器的原始读数；一个格子一个数；还没有亮度和色度之分；所以RAW谈不上422；尼康G8的NRAW就是12比特；同一台Z8还能录ProRes 422H2；名字里的422就是42210比特；它已经完成了反败尔；码率大约每秒700兆；文件也大得多；视频最后发到网上；YouTube官方建议的就是420；B站普通视频也基本是4208比特；观众最终看到的大多是420；那拍422还有什么用；用在中间的过程；抠像和调色都发生在压缩之前；素材的颜色越完整；处理的余量就越大；最后才压回420；还有一个常见说法；4K420缩成1080P就变成了444；这是对的；4K的颜色分辨率正好是1920；剩1080；虽然每个像素都有自己的颜色；但说它同时变成了10比特；就不准确了；缩小时亮度确实能多出一点精度；但颜色还是8比特；也不等于真正的10比特；最后说怎么选；不调色；直接出片；8比特；420就够了；索尼的说明也是这么建议的；拍Log要调色；必须10比特；要抠绿幕；或者调色幅度很大；用422同时把码率开高；想要最大的后期空间；拍Roll代价是存储和剪辑的压力；如果只能优先选一个；拍Log时；先保10比特；再保码率；最后才是422；从一粒光子到一个视频文件；拜尔滤镜丢掉了2%的颜色测量；色度抽样又丢掉一半数据；压缩再丢掉几十倍；可画面看起来依然完整；因为这串数字背后；工程师一直在回答同一个问题；哪些信息；原眼其实不在乎；请不吝点赞 订阅 转发 转发</p><figure><img src="assets/bayer-filter-and-10bit422/shot-07.jpg" alt="第一行只留两个颜色" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:32] 第一行只留两个颜色</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/b606b7ec586a.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/b606b7ec586a.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-08.jpg" alt="第二行也变化两次" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:33] 第二行也变化两次</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/d21ae958ab5c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/d21ae958ab5c.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-09.jpg" alt="左右相邻的两个像素共用一个颜色" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[08:35] 左右相邻的两个像素共用一个颜色</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/a0f257358cf7.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/a0f257358cf7.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/bayer-filter-and-10bit422/shot-10.jpg" alt="请不吝点赞 订阅 转发 转发" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:33] 请不吝点赞 订阅 转发 转发</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/f2cbd7bfd626.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
+<audio class="cap-audio" src="audio/f2cbd7bfd626.mp3" preload="none"></audio>
+</figcaption></figure></section>
+<section class="transcript-section" id="transcript">
+<details class="transcript-collapsible"><summary>口述/画面要点（402段）</summary>
+<div class="transcript-body">
+<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
+<div class="transcript-list">
+<div class="transcript-row"><time>00:00</time><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</p></div>
+<div class="transcript-row"><time>00:09</time><p>打开相机的录像菜单</p></div>
+<div class="transcript-row"><time>00:11</time><p>你看到的就是这样一串字</p></div>
+<div class="transcript-row"><time>00:13</time><p>4K、10比特、422、100M</p></div>
+<div class="transcript-row"><time>00:17</time><p>这串字背后有几件很反常的事</p></div>
+<div class="transcript-row"><time>00:20</time><p>一段4K的422、10比特视频</p></div>
+<div class="transcript-row"><time>00:22</time><p>不压缩的话</p></div>
+<div class="transcript-row"><time>00:23</time><p>每秒差不多4000Mbps</p></div>
+<div class="transcript-row"><time>00:25</time><p>相机实际只存100Mbps</p></div>
+<div class="transcript-row"><time>00:27</time><p>少了将近40倍</p></div>
+<div class="transcript-row"><time>00:29</time><p>传感器上每个格子其实只知道一种颜色</p></div>
+<div class="transcript-row"><time>00:32</time><p>录进去的颜色信息又被丢掉一半</p></div>
+<div class="transcript-row"><time>00:34</time><p>和你看画面几乎看不出来</p></div>
+<div class="transcript-row"><time>00:38</time><p>从传感器到文件一共四步</p></div>
+<div class="transcript-row"><time>00:40</time><p>第一步传感器怎么拿到颜色</p></div>
+<div class="transcript-row"><time>00:42</time><p>这是拜尔滤镜</p></div>
+<div class="transcript-row"><time>00:44</time><p>第二步每个数用多少位来存</p></div>
+<div class="transcript-row"><time>00:46</time><p>这是8比特和10比特</p></div>
+<div class="transcript-row"><time>00:48</time><p>第三步颜色信息留下多少</p></div>
+<div class="transcript-row"><time>00:50</time><p>这是422</p></div>
+<div class="transcript-row"><time>00:52</time><p>第四步怎么压缩</p></div>
+<div class="transcript-row"><time>00:53</time><p>这是马滤</p></div>
+<div class="transcript-row"><time>00:54</time><p>我们一步一步走</p></div>
+<div class="transcript-row"><time>00:57</time><p>光子撞进传感器的归里</p></div>
+<div class="transcript-row"><time>00:59</time><p>打出电子</p></div>
+<div class="transcript-row"><time>01:00</time><p>电子被存起来</p></div>
+<div class="transcript-row"><time>01:01</time><p>这就是拍照的原理</p></div>
+<div class="transcript-row"><time>01:02</time><p>问题是</p></div>
+<div class="transcript-row"><time>01:03</time><p>红光打出来的电子</p></div>
+<div class="transcript-row"><time>01:05</time><p>和蓝光打出来的电子一模一样</p></div>
+<div class="transcript-row"><time>01:07</time><p>传感器只知道来了多少光</p></div>
+<div class="transcript-row"><time>01:09</time><p>不知道是什么颜色</p></div>
+<div class="transcript-row"><time>01:11</time><p>它天生是色盲</p></div>
+<div class="transcript-row"><time>01:13</time><p>要知道颜色</p></div>
+<div class="transcript-row"><time>01:14</time><p>就得把红绿蓝分开亮</p></div>
+<div class="transcript-row"><time>01:16</time><p>最直接的办法</p></div>
+<div class="transcript-row"><time>01:17</time><p>是用棱镜把光分成三数</p></div>
+<div class="transcript-row"><time>01:19</time><p>送给三块传感器</p></div>
+<div class="transcript-row"><time>01:21</time><p>老式的广播摄像机就是这么做的</p></div>
+<div class="transcript-row"><time>01:23</time><p>可是体积大成本高</p></div>
+<div class="transcript-row"><time>01:26</time><p>1976年</p></div>
+<div class="transcript-row"><time>01:27</time><p>科达的工程师布莱斯</p></div>
+<div class="transcript-row"><time>01:29</time><p>拜尔拿到了一项专利</p></div>
+<div class="transcript-row"><time>01:30</time><p>只用一块传感器</p></div>
+<div class="transcript-row"><time>01:32</time><p>在每个格子上盖一片小滤镜</p></div>
+<div class="transcript-row"><time>01:34</time><p>一个格子只放一种颜色进去</p></div>
+<div class="transcript-row"><time>01:36</time><p>这就是拜尔滤镜</p></div>
+<div class="transcript-row"><time>01:37</time><p>到今天还是相机的主流</p></div>
+<div class="transcript-row"><time>01:41</time><p>拜尔的排法</p></div>
+<div class="transcript-row"><time>01:42</time><p>是两行两列一组</p></div>
+<div class="transcript-row"><time>01:43</time><p>一个红</p></div>
+<div class="transcript-row"><time>01:44</time><p>两个绿</p></div>
+<div class="transcript-row"><time>01:45</time><p>一个蓝</p></div>
+<div class="transcript-row"><time>01:46</time><p>绿色占一半</p></div>
+<div class="transcript-row"><time>01:47</time><p>红和蓝各占四分之一</p></div>
+<div class="transcript-row"><time>01:48</time><p>一块3300万像素的传感器</p></div>
+<div class="transcript-row"><time>01:51</time><p>实际是1650万个绿格子</p></div>
+<div class="transcript-row"><time>01:53</time><p>825万个红格子</p></div>
+<div class="transcript-row"><time>01:55</time><p>825万个蓝格子</p></div>
+<div class="transcript-row"><time>01:58</time><p>为什么绿色最多</p></div>
+<div class="transcript-row"><time>01:59</time><p>因为人眼对明暗的感受</p></div>
+<div class="transcript-row"><time>02:01</time><p>大部分来自绿色</p></div>
+<div class="transcript-row"><time>02:02</time><p>高清视频的标准里</p></div>
+<div class="transcript-row"><time>02:04</time><p>算亮度时</p></div>
+<div class="transcript-row"><time>02:05</time><p>绿色占72%</p></div>
+<div class="transcript-row"><time>02:06</time><p>红色占21%</p></div>
+<div class="transcript-row"><time>02:08</time><p>蓝色只占7%</p></div>
+<div class="transcript-row"><time>02:09</time><p>绿格子多</p></div>
+<div class="transcript-row"><time>02:10</time><p>明暗的细节就准</p></div>
+<div class="transcript-row"><time>02:13</time><p>这时候</p></div>
+<div class="transcript-row"><time>02:14</time><p>每个格子只有一个数</p></div>
+<div class="transcript-row"><time>02:15</time><p>只知道一种颜色</p></div>
+<div class="transcript-row"><time>02:16</time><p>直接显示出来</p></div>
+<div class="transcript-row"><time>02:18</time><p>就是这样一张红绿蓝的马赛克</p></div>
+<div class="transcript-row"><time>02:21</time><p>每个格子缺的两种颜色</p></div>
+<div class="transcript-row"><time>02:22</time><p>只能看周围的邻居来猜</p></div>
+<div class="transcript-row"><time>02:24</time><p>这一步叫反败尔</p></div>
+<div class="transcript-row"><time>02:26</time><p>也叫去马赛克</p></div>
+<div class="transcript-row"><time>02:27</time><p>最简单的办法</p></div>
+<div class="transcript-row"><time>02:28</time><p>就是取周围几个格子的平均值</p></div>
+<div class="transcript-row"><time>02:32</time><p>可是平均法碰到边缘就出错</p></div>
+<div class="transcript-row"><time>02:34</time><p>边缘两边的亮度被混在一起</p></div>
+<div class="transcript-row"><time>02:36</time><p>好的算法</p></div>
+<div class="transcript-row"><time>02:37</time><p>会先把最密的绿色重建出来</p></div>
+<div class="transcript-row"><time>02:39</time><p>判断边缘朝哪个方向</p></div>
+<div class="transcript-row"><time>02:41</time><p>再沿着边缘去猜</p></div>
+<div class="transcript-row"><time>02:42</time><p>不跨过去</p></div>
+<div class="transcript-row"><time>02:44</time><p>猜错的时候</p></div>
+<div class="transcript-row"><time>02:45</time><p>画面就会出现不存在的颜色</p></div>
+<div class="transcript-row"><time>02:47</time><p>比如特别细的条纹</p></div>
+<div class="transcript-row"><time>02:49</time><p>红绿蓝格子</p></div>
+<div class="transcript-row"><time>02:50</time><p>刚好踩在不同的条纹上</p></div>
+<div class="transcript-row"><time>02:52</time><p>就冒出彩色的波纹</p></div>
+<div class="transcript-row"><time>02:53</time><p>这叫尾色和姆尔纹</p></div>
+<div class="transcript-row"><time>02:55</time><p>传统的办法</p></div>
+<div class="transcript-row"><time>02:56</time><p>是在传感器前面</p></div>
+<div class="transcript-row"><time>02:57</time><p>加一层低通滤镜</p></div>
+<div class="transcript-row"><time>02:59</time><p>把抄袭的细节弄糊一点</p></div>
+<div class="transcript-row"><time>03:01</time><p>代价是锐度下降</p></div>
+<div class="transcript-row"><time>03:04</time><p>所以3300万像素</p></div>
+<div class="transcript-row"><time>03:06</time><p>说的是3300万个格子</p></div>
+<div class="transcript-row"><time>03:08</time><p>每个格子只量一种颜色</p></div>
+<div class="transcript-row"><time>03:10</time><p>另外2%的颜色是算出来的</p></div>
+<div class="transcript-row"><time>03:13</time><p>录视频</p></div>
+<div class="transcript-row"><time>03:14</time><p>反占了便宜</p></div>
+<div class="transcript-row"><time>03:15</time><p>尼康Z8用8K下彩样成4K时</p></div>
+<div class="transcript-row"><time>03:18</time><p>四个格子变一个像素</p></div>
+<div class="transcript-row"><time>03:20</time><p>正好是一红两绿一蓝</p></div>
+<div class="transcript-row"><time>03:22</time><p>三种颜色都是真实量到的</p></div>
+<div class="transcript-row"><time>03:24</time><p>基本不用猜</p></div>
+<div class="transcript-row"><time>03:25</time><p>索尼A7M5是7K下彩样到4K</p></div>
+<div class="transcript-row"><time>03:28</time><p>大约3.3个格子变一个像素</p></div>
+<div class="transcript-row"><time>03:30</time><p>也比一个格子一个像素扎实得多</p></div>
+<div class="transcript-row"><time>03:34</time><p>Dyre不是唯一的排法</p></div>
+<div class="transcript-row"><time>03:35</time><p>相机和手机上常见的</p></div>
+<div class="transcript-row"><time>03:37</time><p>还有四种</p></div>
+<div class="transcript-row"><time>03:38</time><p>富士的X-Trans</p></div>
+<div class="transcript-row"><time>03:40</time><p>世马的Phobium</p></div>
+<div class="transcript-row"><time>03:41</time><p>华为的RYYB</p></div>
+<div class="transcript-row"><time>03:43</time><p>还有四合一</p></div>
+<div class="transcript-row"><time>03:45</time><p>富士的X-Trans</p></div>
+<div class="transcript-row"><time>03:46</time><p>把重复单元从2x2变成了6x6</p></div>
+<div class="transcript-row"><time>03:50</time><p>排列更不规律</p></div>
+<div class="transcript-row"><time>03:51</time><p>不容易出母耳闻</p></div>
+<div class="transcript-row"><time>03:52</time><p>所以可以不要低通滤镜</p></div>
+<div class="transcript-row"><time>03:54</time><p>代价是反败耳的算法更难做</p></div>
+<div class="transcript-row"><time>03:57</time><p>世马的Phobium不用马赛克</p></div>
+<div class="transcript-row"><time>04:00</time><p>硅吸收光有深浅之分</p></div>
+<div class="transcript-row"><time>04:02</time><p>蓝光停在浅层</p></div>
+<div class="transcript-row"><time>04:03</time><p>红光砖的最深</p></div>
+<div class="transcript-row"><time>04:04</time><p>三层叠起来</p></div>
+<div class="transcript-row"><time>04:06</time><p>一个位置就能量三种颜色</p></div>
+<div class="transcript-row"><time>04:08</time><p>代价是层与层之间</p></div>
+<div class="transcript-row"><time>04:10</time><p>颜色分得不够干净</p></div>
+<div class="transcript-row"><time>04:12</time><p>华为的RYYB</p></div>
+<div class="transcript-row"><time>04:14</time><p>把绿色滤镜换成黄色</p></div>
+<div class="transcript-row"><time>04:16</time><p>黄色同时放红光和绿光进去</p></div>
+<div class="transcript-row"><time>04:18</time><p>华为撑近光亮多了四成</p></div>
+<div class="transcript-row"><time>04:20</time><p>代价试算颜色更蓝</p></div>
+<div class="transcript-row"><time>04:22</time><p>白平衡也更难做准</p></div>
+<div class="transcript-row"><time>04:25</time><p>四合一</p></div>
+<div class="transcript-row"><time>04:26</time><p>是四个同色的小格子</p></div>
+<div class="transcript-row"><time>04:27</time><p>当成一个大格子用</p></div>
+<div class="transcript-row"><time>04:29</time><p>大格子再按败耳排列</p></div>
+<div class="transcript-row"><time>04:31</time><p>手机上最常见</p></div>
+<div class="transcript-row"><time>04:33</time><p>反败耳之后</p></div>
+<div class="transcript-row"><time>04:34</time><p>每个像素有了红绿蓝三个数</p></div>
+<div class="transcript-row"><time>04:37</time><p>这三个数要存进文件</p></div>
+<div class="transcript-row"><time>04:39</time><p>就要决定用多少位来存</p></div>
+<div class="transcript-row"><time>04:41</time><p>位就是二进制的一位</p></div>
+<div class="transcript-row"><time>04:43</time><p>只能是0或者1</p></div>
+<div class="transcript-row"><time>04:45</time><p>每多一位</p></div>
+<div class="transcript-row"><time>04:46</time><p>能表示的极数就翻一倍</p></div>
+<div class="transcript-row"><time>04:48</time><p>8比特是256级</p></div>
+<div class="transcript-row"><time>04:50</time><p>10比特是1024级</p></div>
+<div class="transcript-row"><time>04:52</time><p>12比特是4096级</p></div>
+<div class="transcript-row"><time>04:54</time><p>14比特是16384级</p></div>
+<div class="transcript-row"><time>04:58</time><p>你可以把从最暗到最亮</p></div>
+<div class="transcript-row"><time>04:59</time><p>想成一段楼梯</p></div>
+<div class="transcript-row"><time>05:01</time><p>8比特是256级台阶</p></div>
+<div class="transcript-row"><time>05:03</time><p>10比特是1024级</p></div>
+<div class="transcript-row"><time>05:05</time><p>楼一样高</p></div>
+<div class="transcript-row"><time>05:06</time><p>台阶更细</p></div>
+<div class="transcript-row"><time>05:08</time><p>红绿蓝三个通道盛起来</p></div>
+<div class="transcript-row"><time>05:10</time><p>8比特是1677万种颜色</p></div>
+<div class="transcript-row"><time>05:12</time><p>10比特是10.7一种</p></div>
+<div class="transcript-row"><time>05:14</time><p>多出来的</p></div>
+<div class="transcript-row"><time>05:15</time><p>不是更鲜艳的颜色</p></div>
+<div class="transcript-row"><time>05:16</time><p>而是更细腻的过程</p></div>
+<div class="transcript-row"><time>05:19</time><p>注意</p></div>
+<div class="transcript-row"><time>05:20</time><p>卫生不是动态范围</p></div>
+<div class="transcript-row"><time>05:21</time><p>动态范围是楼有多高</p></div>
+<div class="transcript-row"><time>05:23</time><p>卫生是楼梯分了多少级</p></div>
+<div class="transcript-row"><time>05:25</time><p>这是两回事</p></div>
+<div class="transcript-row"><time>05:26</time><p>动态范围到底是什么</p></div>
+<div class="transcript-row"><time>05:27</time><p>我们前面有一期专门讲透了</p></div>
+<div class="transcript-row"><time>05:29</time><p>感兴趣的朋友可以去看</p></div>
+<div class="transcript-row"><time>05:32</time><p>视频的标准里</p></div>
+<div class="transcript-row"><time>05:33</time><p>亮度并没有用满</p></div>
+<div class="transcript-row"><time>05:34</time><p>8比特通常只用16-235</p></div>
+<div class="transcript-row"><time>05:37</time><p>实际220级</p></div>
+<div class="transcript-row"><time>05:38</time><p>10比特用64-940</p></div>
+<div class="transcript-row"><time>05:41</time><p>实际877级</p></div>
+<div class="transcript-row"><time>05:42</time><p>两头流出来的部分</p></div>
+<div class="transcript-row"><time>05:44</time><p>是给超黑和超白的余量</p></div>
+<div class="transcript-row"><time>05:47</time><p>台阶太粗会出什么问题</p></div>
+<div class="transcript-row"><time>05:49</time><p>看天空</p></div>
+<div class="transcript-row"><time>05:50</time><p>天空的亮度变化非常缓</p></div>
+<div class="transcript-row"><time>05:52</time><p>从这里到那里</p></div>
+<div class="transcript-row"><time>05:53</time><p>也许只跨过几级台阶</p></div>
+<div class="transcript-row"><time>05:55</time><p>台阶的边界就显出来了</p></div>
+<div class="transcript-row"><time>05:57</time><p>变成一条一条的色带</p></div>
+<div class="transcript-row"><time>05:58</time><p>这叫断层</p></div>
+<div class="transcript-row"><time>06:00</time><p>Log让问题更严重</p></div>
+<div class="transcript-row"><time>06:02</time><p>Log要把十几档亮度塞进同一个范围</p></div>
+<div class="transcript-row"><time>06:05</time><p>每一档分到的台阶就少了</p></div>
+<div class="transcript-row"><time>06:07</time><p>Log的原理</p></div>
+<div class="transcript-row"><time>06:08</time><p>我们前面也有一期详细讲过</p></div>
+<div class="transcript-row"><time>06:10</time><p>感兴趣可以回去看</p></div>
+<div class="transcript-row"><time>06:12</time><p>按Sony S-Log3的公式</p></div>
+<div class="transcript-row"><time>06:14</time><p>每一档亮度大约分到79个码值</p></div>
+<div class="transcript-row"><time>06:17</time><p>换成8比特只有20个</p></div>
+<div class="transcript-row"><time>06:19</time><p>调色时把对比度拉开</p></div>
+<div class="transcript-row"><time>06:21</time><p>这20级台阶也被拉开</p></div>
+<div class="transcript-row"><time>06:23</time><p>断层就出来了</p></div>
+<div class="transcript-row"><time>06:24</time><p>所以High Log一定要用10比特</p></div>
+<div class="transcript-row"><time>06:28</time><p>有意思的是</p></div>
+<div class="transcript-row"><time>06:29</time><p>噪点反而有帮助</p></div>
+<div class="transcript-row"><time>06:30</time><p>噪点会把台阶的边界打散</p></div>
+<div class="transcript-row"><time>06:32</time><p>眼睛就看不出色带</p></div>
+<div class="transcript-row"><time>06:34</time><p>所以降噪太狠</p></div>
+<div class="transcript-row"><time>06:35</time><p>压缩太狠的时候</p></div>
+<div class="transcript-row"><time>06:36</time><p>断层法更明显</p></div>
+<div class="transcript-row"><time>06:39</time><p>那10比特是给观众看的吗</p></div>
+<div class="transcript-row"><time>06:41</time><p>大多不是</p></div>
+<div class="transcript-row"><time>06:42</time><p>很多显示器只能显示8比特</p></div>
+<div class="transcript-row"><time>06:44</time><p>平台上的普通视频也基本是8比特</p></div>
+<div class="transcript-row"><time>06:47</time><p>10比特真正的价值</p></div>
+<div class="transcript-row"><time>06:49</time><p>是给调色留空间</p></div>
+<div class="transcript-row"><time>06:52</time><p>现在到第三步</p></div>
+<div class="transcript-row"><time>06:53</time><p>如果红绿蓝每个像素都存</p></div>
+<div class="transcript-row"><time>06:55</time><p>数据量非常大</p></div>
+<div class="transcript-row"><time>06:57</time><p>工程师利用了人眼的一个弱点</p></div>
+<div class="transcript-row"><time>07:00</time><p>人眼看细节主要靠明暗</p></div>
+<div class="transcript-row"><time>07:02</time><p>对颜色的细节就没那么明暗</p></div>
+<div class="transcript-row"><time>07:05</time><p>实验测出来</p></div>
+<div class="transcript-row"><time>07:06</time><p>人眼能分辨的颜色条纹</p></div>
+<div class="transcript-row"><time>07:08</time><p>人眼的线线约是每度视角11-12条</p></div>
+<div class="transcript-row"><time>07:11</time><p>而明暗条纹能分辨的细得多</p></div>
+<div class="transcript-row"><time>07:14</time><p>这个弱点</p></div>
+<div class="transcript-row"><time>07:15</time><p>在上世纪50年代发明彩色电视时</p></div>
+<div class="transcript-row"><time>07:18</time><p>就被用上了亮度信号走宽的通道</p></div>
+<div class="transcript-row"><time>07:21</time><p>颜色信号走窄的通道</p></div>
+<div class="transcript-row"><time>07:23</time><p>这样既省带宽</p></div>
+<div class="transcript-row"><time>07:24</time><p>黑白电视也能继续看</p></div>
+<div class="transcript-row"><time>07:27</time><p>视频不直接存红绿蓝</p></div>
+<div class="transcript-row"><time>07:29</time><p>而是换算成三个数</p></div>
+<div class="transcript-row"><time>07:30</time><p>一个亮度Y</p></div>
+<div class="transcript-row"><time>07:31</time><p>两个色差CB和C2</p></div>
+<div class="transcript-row"><time>07:34</time><p>CB大致是蓝色减去亮度</p></div>
+<div class="transcript-row"><time>07:36</time><p>C2大致是红色减去亮度</p></div>
+<div class="transcript-row"><time>07:38</time><p>换算本身几乎不丢信息</p></div>
+<div class="transcript-row"><time>07:40</time><p>只是换了一种表达方式</p></div>
+<div class="transcript-row"><time>07:43</time><p>亲眼看一下</p></div>
+<div class="transcript-row"><time>07:44</time><p>亮度这一张有全部的细节</p></div>
+<div class="transcript-row"><time>07:47</time><p>两张色差本来就是模糊的色块</p></div>
+<div class="transcript-row"><time>07:49</time><p>把色差缩小一半再放大回去</p></div>
+<div class="transcript-row"><time>07:51</time><p>和亮度合起来你几乎看不出区别</p></div>
+<div class="transcript-row"><time>07:54</time><p>这就是色度抽样</p></div>
+<div class="transcript-row"><time>07:57</time><p>常见的色度抽样有四种</p></div>
+<div class="transcript-row"><time>07:59</time><p>444</p></div>
+<div class="transcript-row"><time>08:00</time><p>422</p></div>
+<div class="transcript-row"><time>08:01</time><p>420</p></div>
+<div class="transcript-row"><time>08:02</time><p>还有比较老的411</p></div>
+<div class="transcript-row"><time>08:04</time><p>这三个数字描述的是一个四格宽</p></div>
+<div class="transcript-row"><time>08:07</time><p>二行高的小方块</p></div>
+<div class="transcript-row"><time>08:09</time><p>第一个4是这个小方块的宽度</p></div>
+<div class="transcript-row"><time>08:11</time><p>第二个数是第一行保留几个颜色</p></div>
+<div class="transcript-row"><time>08:14</time><p>第三个数是第二行相对第一行</p></div>
+<div class="transcript-row"><time>08:17</time><p>颜色变化了几次</p></div>
+<div class="transcript-row"><time>08:18</time><p>亮度每个像素都保留</p></div>
+<div class="transcript-row"><time>08:20</time><p>下面说的都只是颜色</p></div>
+<div class="transcript-row"><time>08:24</time><p>444</p></div>
+<div class="transcript-row"><time>08:25</time><p>第一行四个颜色</p></div>
+<div class="transcript-row"><time>08:26</time><p>第二行也变化四次</p></div>
+<div class="transcript-row"><time>08:27</time><p>每个像素都有自己的颜色</p></div>
+<div class="transcript-row"><time>08:29</time><p>一点没少</p></div>
+<div class="transcript-row"><time>08:31</time><p>422</p></div>
+<div class="transcript-row"><time>08:32</time><p>第一行只留两个颜色</p></div>
+<div class="transcript-row"><time>08:33</time><p>第二行也变化两次</p></div>
+<div class="transcript-row"><time>08:35</time><p>左右相邻的两个像素共用一个颜色</p></div>
+<div class="transcript-row"><time>08:37</time><p>上下不变</p></div>
+<div class="transcript-row"><time>08:38</time><p>数据量是444的三分之二</p></div>
+<div class="transcript-row"><time>08:42</time><p>420</p></div>
+<div class="transcript-row"><time>08:43</time><p>第一行留两个颜色</p></div>
+<div class="transcript-row"><time>08:44</time><p>第二行变化零次</p></div>
+<div class="transcript-row"><time>08:45</time><p>也就是第二行直接沿用第一行的颜色</p></div>
+<div class="transcript-row"><time>08:48</time><p>四个像素共用一个颜色</p></div>
+<div class="transcript-row"><time>08:50</time><p>数据量是一半</p></div>
+<div class="transcript-row"><time>08:51</time><p>注意这里的零不是没有颜色</p></div>
+<div class="transcript-row"><time>08:53</time><p>也不是少了一种颜色</p></div>
+<div class="transcript-row"><time>08:55</time><p>只是第二行没有自己单独的颜色</p></div>
+<div class="transcript-row"><time>08:59</time><p>411</p></div>
+<div class="transcript-row"><time>09:00</time><p>成像四个像素</p></div>
+<div class="transcript-row"><time>09:01</time><p>共用一个颜色</p></div>
+<div class="transcript-row"><time>09:02</time><p>纵向不变</p></div>
+<div class="transcript-row"><time>09:03</time><p>数据量也是一半</p></div>
+<div class="transcript-row"><time>09:04</time><p>老是DV上用过</p></div>
+<div class="transcript-row"><time>09:07</time><p>换算成分辨率</p></div>
+<div class="transcript-row"><time>09:08</time><p>就更直观了</p></div>
+<div class="transcript-row"><time>09:09</time><p>4K视频的亮度永远是3840x2160</p></div>
+<div class="transcript-row"><time>09:13</time><p>422的颜色分辨率是1920x2160</p></div>
+<div class="transcript-row"><time>09:18</time><p>420的颜色只有1920x1080</p></div>
+<div class="transcript-row"><time>09:21</time><p>也就是说</p></div>
+<div class="transcript-row"><time>09:22</time><p>4K420的视频</p></div>
+<div class="transcript-row"><time>09:24</time><p>明暗是4K</p></div>
+<div class="transcript-row"><time>09:25</time><p>颜色其实只有1080P</p></div>
+<div class="transcript-row"><time>09:28</time><p>人眼好骗</p></div>
+<div class="transcript-row"><time>09:29</time><p>电脑不好骗</p></div>
+<div class="transcript-row"><time>09:30</time><p>什么时候能看出差别</p></div>
+<div class="transcript-row"><time>09:32</time><p>一是绿目抠向</p></div>
+<div class="transcript-row"><time>09:33</time><p>电脑靠颜色找边缘</p></div>
+<div class="transcript-row"><time>09:35</time><p>颜色越粗</p></div>
+<div class="transcript-row"><time>09:36</time><p>边缘越糙</p></div>
+<div class="transcript-row"><time>09:37</time><p>索尼的说明书里</p></div>
+<div class="transcript-row"><time>09:38</time><p>也专门提到这一点</p></div>
+<div class="transcript-row"><time>09:39</time><p>二是大幅度调色和拉薄合度</p></div>
+<div class="transcript-row"><time>09:42</time><p>三是纯红</p></div>
+<div class="transcript-row"><time>09:43</time><p>纯蓝的细小文字和图形</p></div>
+<div class="transcript-row"><time>09:47</time><p>现在把卫生和色度抽样</p></div>
+<div class="transcript-row"><time>09:49</time><p>放到一起算</p></div>
+<div class="transcript-row"><time>09:50</time><p>平均每个像素</p></div>
+<div class="transcript-row"><time>09:51</time><p>4208比特要12位</p></div>
+<div class="transcript-row"><time>09:53</time><p>42010比特要15位</p></div>
+<div class="transcript-row"><time>09:55</time><p>42210比特要20位</p></div>
+<div class="transcript-row"><time>09:57</time><p>44410比特要30位</p></div>
+<div class="transcript-row"><time>10:01</time><p>乘上4K的829万的像素</p></div>
+<div class="transcript-row"><time>10:03</time><p>再乘每秒24帧</p></div>
+<div class="transcript-row"><time>10:05</time><p>4208比特是每秒2.4千兆比特</p></div>
+<div class="transcript-row"><time>10:08</time><p>42210比特是4千兆比特</p></div>
+<div class="transcript-row"><time>10:11</time><p>44410比特接近6千兆比特</p></div>
+<div class="transcript-row"><time>10:15</time><p>相机实际存多少</p></div>
+<div class="transcript-row"><time>10:17</time><p>A7M5的4K 24P42210比特</p></div>
+<div class="transcript-row"><time>10:21</time><p>有100兆的档位</p></div>
+<div class="transcript-row"><time>10:22</time><p>也有240兆的全帧内档位</p></div>
+<div class="transcript-row"><time>10:24</time><p>相比不压缩</p></div>
+<div class="transcript-row"><time>10:25</time><p>分别压缩了大约40倍和17倍</p></div>
+<div class="transcript-row"><time>10:29</time><p>压缩大致分两种</p></div>
+<div class="transcript-row"><time>10:31</time><p>全帧内每一帧单独压</p></div>
+<div class="transcript-row"><time>10:33</time><p>码率高 剪辑轻松</p></div>
+<div class="transcript-row"><time>10:35</time><p>长距OP是隔一段存一张完整的帧</p></div>
+<div class="transcript-row"><time>10:38</time><p>其他帧只存变化的部分</p></div>
+<div class="transcript-row"><time>10:40</time><p>省空间但剪辑时电脑更吃力</p></div>
+<div class="transcript-row"><time>10:44</time><p>422是留下多少信息</p></div>
+<div class="transcript-row"><time>10:46</time><p>码率是压缩的多痕</p></div>
+<div class="transcript-row"><time>10:47</time><p>这是两回事</p></div>
+<div class="transcript-row"><time>10:48</time><p>A7M5里100兆的420和100兆的422都有</p></div>
+<div class="transcript-row"><time>10:52</time><p>同样的码率</p></div>
+<div class="transcript-row"><time>10:53</time><p>422要多色三分之一的数据</p></div>
+<div class="transcript-row"><time>10:55</time><p>每份数据分到的码率就更少</p></div>
+<div class="transcript-row"><time>10:58</time><p>所以422不是越选越好</p></div>
+<div class="transcript-row"><time>11:00</time><p>码率要跟上</p></div>
+<div class="transcript-row"><time>11:02</time><p>前面讲的色度抽样都发生在反败尔之后</p></div>
+<div class="transcript-row"><time>11:05</time><p>RAW视频存的是传感器的原始读数</p></div>
+<div class="transcript-row"><time>11:08</time><p>一个格子一个数</p></div>
+<div class="transcript-row"><time>11:09</time><p>还没有亮度和色度之分</p></div>
+<div class="transcript-row"><time>11:11</time><p>所以RAW谈不上422</p></div>
+<div class="transcript-row"><time>11:13</time><p>尼康G8的NRAW就是12比特</p></div>
+<div class="transcript-row"><time>11:17</time><p>同一台Z8还能录ProRes 422H2</p></div>
+<div class="transcript-row"><time>11:21</time><p>名字里的422就是42210比特</p></div>
+<div class="transcript-row"><time>11:24</time><p>它已经完成了反败尔</p></div>
+<div class="transcript-row"><time>11:25</time><p>码率大约每秒700兆</p></div>
+<div class="transcript-row"><time>11:27</time><p>文件也大得多</p></div>
+<div class="transcript-row"><time>11:29</time><p>视频最后发到网上</p></div>
+<div class="transcript-row"><time>11:31</time><p>YouTube官方建议的就是420</p></div>
+<div class="transcript-row"><time>11:33</time><p>B站普通视频也基本是4208比特</p></div>
+<div class="transcript-row"><time>11:37</time><p>观众最终看到的大多是420</p></div>
+<div class="transcript-row"><time>11:41</time><p>那拍422还有什么用</p></div>
+<div class="transcript-row"><time>11:43</time><p>用在中间的过程</p></div>
+<div class="transcript-row"><time>11:44</time><p>抠像和调色都发生在压缩之前</p></div>
+<div class="transcript-row"><time>11:47</time><p>素材的颜色越完整</p></div>
+<div class="transcript-row"><time>11:48</time><p>处理的余量就越大</p></div>
+<div class="transcript-row"><time>11:50</time><p>最后才压回420</p></div>
+<div class="transcript-row"><time>11:53</time><p>还有一个常见说法</p></div>
+<div class="transcript-row"><time>11:54</time><p>4K420缩成1080P就变成了444</p></div>
+<div class="transcript-row"><time>11:58</time><p>这是对的</p></div>
+<div class="transcript-row"><time>11:59</time><p>4K的颜色分辨率正好是1920</p></div>
+<div class="transcript-row"><time>12:02</time><p>剩1080</p></div>
+<div class="transcript-row"><time>12:03</time><p>虽然每个像素都有自己的颜色</p></div>
+<div class="transcript-row"><time>12:06</time><p>但说它同时变成了10比特</p></div>
+<div class="transcript-row"><time>12:08</time><p>就不准确了</p></div>
+<div class="transcript-row"><time>12:09</time><p>缩小时亮度确实能多出一点精度</p></div>
+<div class="transcript-row"><time>12:12</time><p>但颜色还是8比特</p></div>
+<div class="transcript-row"><time>12:14</time><p>也不等于真正的10比特</p></div>
+<div class="transcript-row"><time>12:17</time><p>最后说怎么选</p></div>
+<div class="transcript-row"><time>12:18</time><p>不调色</p></div>
+<div class="transcript-row"><time>12:19</time><p>直接出片</p></div>
+<div class="transcript-row"><time>12:20</time><p>8比特</p></div>
+<div class="transcript-row"><time>12:21</time><p>420就够了</p></div>
+<div class="transcript-row"><time>12:22</time><p>索尼的说明也是这么建议的</p></div>
+<div class="transcript-row"><time>12:25</time><p>拍Log要调色</p></div>
+<div class="transcript-row"><time>12:26</time><p>必须10比特</p></div>
+<div class="transcript-row"><time>12:28</time><p>要抠绿幕</p></div>
+<div class="transcript-row"><time>12:29</time><p>或者调色幅度很大</p></div>
+<div class="transcript-row"><time>12:30</time><p>用422同时把码率开高</p></div>
+<div class="transcript-row"><time>12:34</time><p>想要最大的后期空间</p></div>
+<div class="transcript-row"><time>12:36</time><p>拍Roll代价是存储和剪辑的压力</p></div>
+<div class="transcript-row"><time>12:40</time><p>如果只能优先选一个</p></div>
+<div class="transcript-row"><time>12:41</time><p>拍Log时</p></div>
+<div class="transcript-row"><time>12:42</time><p>先保10比特</p></div>
+<div class="transcript-row"><time>12:43</time><p>再保码率</p></div>
+<div class="transcript-row"><time>12:44</time><p>最后才是422</p></div>
+<div class="transcript-row"><time>12:47</time><p>从一粒光子到一个视频文件</p></div>
+<div class="transcript-row"><time>12:49</time><p>拜尔滤镜丢掉了2%的颜色测量</p></div>
+<div class="transcript-row"><time>12:52</time><p>色度抽样又丢掉一半数据</p></div>
+<div class="transcript-row"><time>12:54</time><p>压缩再丢掉几十倍</p></div>
+<div class="transcript-row"><time>12:56</time><p>可画面看起来依然完整</p></div>
+<div class="transcript-row"><time>12:58</time><p>因为这串数字背后</p></div>
+<div class="transcript-row"><time>12:59</time><p>工程师一直在回答同一个问题</p></div>
+<div class="transcript-row"><time>13:02</time><p>哪些信息</p></div>
+<div class="transcript-row"><time>13:03</time><p>原眼其实不在乎</p></div>
+<div class="transcript-row"><time>13:11</time><p>请不吝点赞 订阅 转发 转发</p></div>
+</div>
+</div></details></section>
+</article></main>
+<script>(function(){var d=document.querySelector(".transcript-collapsible");if(!d)return;function open(){d.setAttribute("open","")}document.querySelectorAll('a[href="#transcript"]').forEach(function(a){a.addEventListener("click",open)});if(location.hash==="#transcript")open()})();</script>
+<script id="cap-en-script">
+(function(){
+  function stopOthers(except){
+    document.querySelectorAll('.cap-audio').forEach(function(a){
+      if(a!==except){a.pause();a.currentTime=0;}
+    });
+    document.querySelectorAll('.cap-speak.playing').forEach(function(b){
+      if(!except||b.dataset.audio!==except.dataset.audio){b.classList.remove('playing');}
+    });
+  }
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.cap-speak');
+    if(!btn)return;
+    var cap=btn.closest('.cap-bilingual');
+    if(!cap)return;
+    var au=cap.querySelector('.cap-audio');
+    if(!au)return;
+    if(au.paused){
+      stopOthers(au);
+      btn.classList.add('playing');
+      au.play();
+    }else{
+      au.pause();au.currentTime=0;btn.classList.remove('playing');
+    }
+  });
+  ['pause','ended'].forEach(function(ev){
+    document.addEventListener(ev,function(e){
+      if(e.target.classList&&e.target.classList.contains('cap-audio')){
+        var cap=e.target.closest('.cap-bilingual');
+        if(cap){var b=cap.querySelector('.cap-speak');if(b)b.classList.remove('playing');}
+      }
+    },true);
+  });
+})();
+</script>
+</body></html>

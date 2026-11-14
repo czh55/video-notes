@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-11-14",
+    "title": "05从零玩转视频创作 为什么要开Log拍灰片",
+    "summary": "「05从零玩转视频创作 为什么要开Log拍灰片」教程要点：你要是懶成这样的话 → 咱们也就你这你也别看了好吧 → 这个 → 好的各位朋友大家好；详见正文。",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "视频技术",
+      "原理"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/17qneAzhyQK",
+    "duration": "8分52秒",
+    "outputs": {
+      "html": "why-shoot-log-grey-图文实录.html",
+      "svg": "why-shoot-log-grey-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 221,
+    "svg_height": 2172,
+    "slug": "why-shoot-log-grey"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "H.264、H.265、AV1 到底差在哪？讲透视频压缩",
+    "summary": "「H.264、H.265、AV1 到底差在哪？讲透视频压缩」教程要点：這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。 → 一部兩個小時的4K電影,如果不壓縮,要佔2.15",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "视频技术",
+      "原理"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/vrlJMDmovO",
+    "duration": "13分15秒",
+    "outputs": {
+      "html": "h264-h265-av1-video-codecs-图文实录.html",
+      "svg": "h264-h265-av1-video-codecs-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 88,
+    "svg_height": 2204,
+    "slug": "h264-h265-av1-video-codecs"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "假如球桌无限长，一杆最多能连撞几颗球？",
+    "summary": "「假如球桌无限长，一杆最多能连撞几颗球？」教程要点：假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身 → 一杆下去，球撞球、球再撞球——最多能连着撞到第几颗？ → 答案和手稳不稳关系不大 → 先看一次碰撞：出杆只偏半毫米",
+    "primary": "sports",
+    "skills": [],
+    "tags": [
+      "台球",
+      "物理",
+      "趣味"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/7y6lMDYyr6D",
+    "duration": "1分34秒",
+    "outputs": {
+      "html": "billiards-infinite-table-max-hits-图文实录.html",
+      "svg": "billiards-infinite-table-max-hits-理性分析.svg"
+    },
+    "screenshot_count": 8,
+    "transcript_segments": 8,
+    "svg_height": 2172,
+    "slug": "billiards-infinite-table-max-hits"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "拜耳滤镜和10bit422都是什么？这期详解",
+    "summary": "「拜耳滤镜和10bit422都是什么？这期详解」教程要点：这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透 → 打开相机的录像菜单 → 你看到的就是这样一串字 → 4K、10比特、422、100M；详见正文",
+    "primary": "photo",
+    "skills": [],
+    "tags": [
+      "摄影",
+      "视频技术",
+      "原理"
+    ],
+    "platform": "xiaohongshu",
+    "url": "https://xhslink.cn/o/1TqHWSh198d",
+    "duration": "13分13秒",
+    "outputs": {
+      "html": "bayer-filter-and-10bit422-图文实录.html",
+      "svg": "bayer-filter-and-10bit422-理性分析.svg"
+    },
+    "screenshot_count": 10,
+    "transcript_segments": 402,
+    "svg_height": 2172,
+    "slug": "bayer-filter-and-10bit422"
+  },
+  {
     "date": "2026-11-10",
     "title": "暖光冷影风景篇：影子什么时候涂蓝",
     "summary": "封面两张图，哪张是原图？ 答案是 B。《起风了》里，二郎站在晴天的云底下，白西装的影子是蓝灰的，脸上的暗部却还保留着肤色。 上一篇看的是暖光下的脸。这次换到晴天户外：头顶有蓝天，地面、衣服和脸上的影子，会不会都画成蓝色？ 先看地上。我挑了",
