@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2172" viewBox="0 0 1320 2172">
-  <foreignObject x="0" y="0" width="1320" height="2172">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1554" viewBox="0 0 1320 1554">
+  <foreignObject x="0" y="0" width="1320" height="1554">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -25,16 +25,16 @@ td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-alig
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
       
 <div class="container">
-  <h1>假如球桌无限长，一杆最多能连撞几颗球？</h1>
+  <h1>无限长球桌：误差如何指数放大</h1>
   <div><span class="tag">台球</span><span class="tag">物理</span><span class="tag">趣味</span></div>
-  <p class="summary-line">假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身</p>
-  <div class="card"><h3>假如有一张无限长的球桌，球一颗接一颗摆下去，每两</h3><p>假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身</p></div><div class="card"><h3>先看一次碰撞：出杆只偏半毫米，被撞的球方向就歪了</h3><p>先看一次碰撞：出杆只偏半毫米，被撞的球方向就歪了一点；它再滚过十个球身，到下一颗</p></div><div class="card"><h3>所以每想多撞一颗，就得再准 10 倍</h3><p>所以每想多撞一颗，就得再准 10 倍</p></div>
-  <div class="card"><h3>行动清单</h3><div class="action">假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身<br/>一杆下去，球撞球、球再撞球——最多能连着撞到第几颗？<br/>答案和手稳不稳关系不大<br/>先看一次碰撞：出杆只偏半毫米，被撞的球方向就歪了一点；它再滚过十个球身，到下一颗跟前，已经偏了 5 毫米<br/>每撞一次，偏差放大 10 倍</div>
-  <div class='pitfall'>本条口播极弱/偏画面驱动，要点主要来自作品描述与画面抽帧；细节以原笔记为准。</div>
-  <div class='bound'>理想化物理模型；实战受摩擦与出杆误差影响。</div>
-  </div>
-  <div class="conclusion"><h2>结论</h2><p>假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身</p></div>
-  <p class="footer">来源：小红书 · 真和理 · 2026-11-14</p>
+  <p class="summary-line">一杆最多能连撞几颗球，答案不在手稳，而在误差每撞一次放大 10 倍——超过一个球身就断链。</p>
+  <div class="card"><h3>核心机制</h3>
+  <p>出杆偏半毫米 → 被撞球方向歪一点 → 滚过十个球身到下一颗已偏 5 毫米 → 每撞一次偏差×10 → 偏差超过一个球身即断。</p>
+  <div class="relation">误差是指数累积，不是靠手感能线性修正的。</div></div>
+  <div class="card card-purple"><h3>反直觉之处</h3>
+  <p>「手稳不稳关系不大」——因为在指数放大面前，再多练习也只能多撞有限的几颗。</p></div>
+  <div class="card card-orange"><h3>边界</h3><div class="pitfall">理想化模型，忽略摩擦、滚动衰减与非理想碰撞；实战台呢摩擦会让偏差衰减更快。</div></div>
+  <div class="conclusion"><h2>结论</h2><p>每想多撞一颗，就得再准 10 倍；所以「一杆清台」式的无限连撞，在这个模型里本就不存在。</p></div>
 </div>
     </div>
   </foreignObject>

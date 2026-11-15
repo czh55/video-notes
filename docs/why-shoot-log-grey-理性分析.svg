@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2172" viewBox="0 0 1320 2172">
-  <foreignObject x="0" y="0" width="1320" height="2172">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2171" viewBox="0 0 1320 2171">
+  <foreignObject x="0" y="0" width="1320" height="2171">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -25,16 +25,24 @@ td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-alig
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
       
 <div class="container">
-  <h1>05从零玩转视频创作 为什么要开Log拍灰片</h1>
-  <div><span class="tag">摄影</span><span class="tag">视频技术</span><span class="tag">原理</span></div>
-  <p class="summary-line">你要是懶成这样的话</p>
-  <div class="card"><h3>你要是懶成这样的话</h3><p>你要是懶成这样的话</p></div><div class="card"><h3>那其实上周末带娃去玩水</h3><p>那其实上周末带娃去玩水</p></div><div class="card"><h3>F-Log2C</h3><p>F-Log2C</p></div>
-  <div class="card"><h3>行动清单</h3><div class="action">你要是懶成这样的话<br/>咱们也就你这你也别看了好吧<br/>这个<br/>好的各位朋友大家好<br/>欢迎来到高老师新的一期视频</div>
-  <div class='pitfall'>口播可能有同音错字；菜单名/参数以软件实机为准。</div>
-  <div class='bound'>影像技术科普；机身/编码参数因型号而异。</div>
-  </div>
-  <div class="conclusion"><h2>结论</h2><p>你要是懶成这样的话</p></div>
-  <p class="footer">来源：小红书 · 摄影高老师 · 2026-11-14</p>
+  <h1>为什么要开 Log 拍灰片：视频版的 RAW</h1>
+  <div><span class="tag">视频拍摄</span><span class="tag">Log</span><span class="tag">灰片</span></div>
+  <p class="summary-line">开 Log 拍灰片，相当于拍「RAW 格式的视频」：把高光压低、阴影提亮集中到中灰区，配 4:2:2 10bit 保留最大后期空间。</p>
+  <div class="card"><h3>照片的启示</h3>
+  <p>JPEG 是 8bit、后期空间小；RAW 是 14bit、14–15 档动态范围。视频同理：直出（JPEG 风格）波形图顶天立地，开 Log（RAW 风格）波形图集中在中间。</p>
+  <div class="relation">波形图顶到 100 或贴到 0 = 明暗信息已丢；集中在中间 = 上下都有余量。</div></div>
+  <div class="card card-purple"><h3>作者澄清</h3>
+  <p>灰片不是真 RAW（4K/8K RAW 内录才是），但开 Log 的调色流程更简单、门槛更低，所以用这个比喻。</p></div>
+  <div class="card"><h3>各家 Log</h3><table>
+  <tr><th>品牌</th><th>Log</th></tr>
+  <tr><td>索尼</td><td>S-Log3</td></tr>
+  <tr><td>佳能</td><td>Canon Log 3 / Log 2</td></tr>
+  <tr><td>尼康</td><td>N-Log</td></tr>
+  <tr><td>富士</td><td>F-Log2</td></tr>
+  <tr><td>松下</td><td>V-Log</td></tr>
+  </table></div>
+  <div class="card card-orange"><h3>边界</h3><div class="pitfall">开 Log 要配合后期（不套 LUT 回放就是灰蒙蒙）；通常拍 4:2:2 10bit，比 8bit 色彩空间大得多。</div></div>
+  <div class="conclusion"><h2>结论</h2><p>拍视频强烈建议开 Log：动态范围高、色彩丰富、后期空间最大；头疼后期的话，先记住「灰片要调」，具体流程后续有专门教程。</p></div>
 </div>
     </div>
   </foreignObject>

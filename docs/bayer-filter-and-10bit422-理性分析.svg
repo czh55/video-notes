@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2172" viewBox="0 0 1320 2172">
-  <foreignObject x="0" y="0" width="1320" height="2172">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2157" viewBox="0 0 1320 2157">
+  <foreignObject x="0" y="0" width="1320" height="2157">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -25,16 +25,23 @@ td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-alig
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
       
 <div class="container">
-  <h1>拜耳滤镜和10bit422都是什么？这期详解</h1>
-  <div><span class="tag">摄影</span><span class="tag">视频技术</span><span class="tag">原理</span></div>
-  <p class="summary-line">这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</p>
-  <div class="card"><h3>这一期我们把视频的422、420、444、8比特</h3><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲</p></div><div class="card"><h3>华为的RYYB</h3><p>华为的RYYB</p></div><div class="card"><h3>第一行只留两个颜色</h3><p>第一行只留两个颜色</p></div>
-  <div class="card"><h3>行动清单</h3><div class="action">这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透<br/>打开相机的录像菜单<br/>你看到的就是这样一串字<br/>4K、10比特、422、100M<br/>这串字背后有几件很反常的事</div>
-  <div class='pitfall'>口播可能有同音错字；菜单名/参数以软件实机为准。</div>
-  <div class='bound'>影像技术科普；机身/编码参数因型号而异。</div>
-  </div>
-  <div class="conclusion"><h2>结论</h2><p>这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透</p></div>
-  <p class="footer">来源：小红书 · 克劳德知识科普 · 2026-11-14</p>
+  <h1>拜耳滤镜 · 位深 · 色度抽样：一串参数的来龙去脉</h1>
+  <div><span class="tag">相机科普</span><span class="tag">传感器原理</span><span class="tag">色度抽样</span></div>
+  <p class="summary-line">从一粒光子到一个视频文件，拜耳滤镜丢掉 2/3 颜色测量、色度抽样再丢掉一半、压缩再丢几十倍，但画面几乎不变——因为人眼不在乎这些。</p>
+  <div class="card"><h3>四步链路</h3>
+  <p>传感器拿颜色（拜耳滤镜）→ 定多少位存（位深）→ 留多少颜色（色度抽样）→ 怎么压缩（码率）。每一步都在问「哪些信息人眼其实不在乎」。</p></div>
+  <div class="card card-purple"><h3>三个常被混淆的概念</h3>
+  <p>位深 ≠ 动态范围：位深是楼梯分多少级，动态范围是楼有多高。4:2:2 ≠ 高码率：4:2:2 是留多少信息，码率是压得多狠。RAW 谈不上 4:2:2：它存的是反拜耳前的原始读数。</p></div>
+  <div class="card"><h3>选型对照</h3><table>
+  <tr><th>场景</th><th>建议</th><th>原因</th></tr>
+  <tr><td>直出不调色</td><td>4:2:0 8bit</td><td>人眼/平台都够用</td></tr>
+  <tr><td>拍 Log 要调色</td><td>必须 10bit</td><td>Log 压缩台阶，8bit 会断层</td></tr>
+  <tr><td>绿幕抠像/大调色</td><td>4:2:2 + 高码率</td><td>色度细、余量足</td></tr>
+  <tr><td>最大后期空间</td><td>RAW</td><td>原始读数，代价是存储/剪辑压力</td></tr>
+  </table></div>
+  <div class="card card-orange"><h3>避坑</h3><div class="pitfall">4K 4:2:0 缩成 1080p 会变成 4:4:4，但不会变 10bit；10bit 不是给观众看的，是给调色留空间。</div></div>
+  <div class="conclusion"><h2>结论与行动</h2>
+  <p>拍 Log 优先级：先保 10bit，再保码率，最后才是 4:2:2。同一码率下 4:2:2 反而更挤，码率跟不上别硬上。</p></div>
 </div>
     </div>
   </foreignObject>

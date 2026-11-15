@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="「H.264、H.265、AV1 到底差在哪？讲透视频压缩」教程要点：這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。 → 一部兩個小時的4K電影,如果不壓縮,要佔2.15">
+<meta name="description" content="讲透视频压缩原理与 H.264/H.265/AV1 三代标准：四种冗余如何被压缩、单帧五步流水线、40 年标准演进（每 10 年码率减半），以及拍摄/剪辑/导出/存档该选哪个编码。">
 <title>H.264、H.265、AV1 到底差在哪？讲透视频压缩｜图文实录</title>
 <style>*{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#292524;background:#fafaf9}
@@ -61,157 +61,156 @@ figcaption{padding:14px 18px;color:#57534e;font-size:14px}
   <a class="source-link" href="https://xhslink.cn/o/vrlJMDmovO" target="_blank" rel="noopener">→ 原视频链接</a>
 </header>
 <nav class="toc"><h3>内容导航</h3>
-<a href="#ch1">這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼</a>
-<a href="#ch2">1988年的H261,才是第一個真正能用的標準,</a>
-<a href="#ch3">把這40年放到一起規律很清楚,每隔大約10年,碼</a>
+<a href="#ch1">压缩原理：四种冗余 + 单帧五步流水线</a>
+<a href="#ch2">40 年标准演进：从 H.120 到 AV1/VVC/AVS3</a>
+<a href="#ch3">现实怎么选：发布 / 剪辑 / RAW 三类编码</a>
 <a href="#transcript">口述/画面要点</a>
 </nav>
 <article>
 <div class="content-points">
   <h2>内容要点</h2>
-  <p>「H.264、H.265、AV1 到底差在哪？讲透视频压缩」教程要点：這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。 → 一部兩個小時的4K電影,如果不壓縮,要佔2.15</p>
+  <p>讲透视频压缩原理与 H.264/H.265/AV1 三代标准：四种冗余如何被压缩、单帧五步流水线、40 年标准演进（每 10 年码率减半），以及拍摄/剪辑/导出/存档该选哪个编码。</p>
   <h3>知识结构</h3>
-  <div class="summary-row"><span class="time-marker">[00:00–05:07]</span><div><strong>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼</strong><p>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的</p></div></div>
-<div class="summary-row"><span class="time-marker">[05:12–09:32]</span><div><strong>1988年的H261,才是第一個真正能用的標準,</strong><p>1988年的H261,才是第一個真正能用的標準,為視頻會議而生,切塊運動補償,變</p></div></div>
-<div class="summary-row"><span class="time-marker">[09:37–13:15]</span><div><strong>把這40年放到一起規律很清楚,每隔大約10年,碼</strong><p>把這40年放到一起規律很清楚,每隔大約10年,碼率減半,付出的代價是計算量成倍增</p></div></div>
+  <div class="summary-row"><span class="time-marker">[00:00–05:04]</span><div><strong>压缩原理：四种冗余 + 单帧五步流水线</strong><p>视频能被压缩，靠的是空间、时间、视觉、统计四种重复；单帧压缩从 1988 年至今都是切块→预测→变换→量化→熵编码五步。</p></div></div>
+<div class="summary-row"><span class="time-marker">[05:04–09:32]</span><div><strong>40 年标准演进：从 H.120 到 AV1/VVC/AVS3</strong><p>标准由 ITU 与 MPEG 两个组织制定；从 H.120、H.261、MPEG-1/2 到 H.264 称霸，再到 H.265 专利混乱逼出免版税的 AV1。</p></div></div>
+<div class="summary-row"><span class="time-marker">[09:37–13:15]</span><div><strong>现实怎么选：发布 / 剪辑 / RAW 三类编码</strong><p>拍视频的编码分发布、剪辑、RAW 三类；MP4/MOV/MKV 只是容器。2026 年调查里 H.264 仍占 85%，未来最想用的是 AV1。</p></div></div>
 
-  <div class="steps"><strong>总步骤</strong><ol><li>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。</li><li>一部兩個小時的4K電影,如果不壓縮,要佔2.15TB,按流媒體常見的每秒15兆來算,只要13.5GB小了大約160倍,丟掉了這麼多數據,畫面看起來卻幾乎沒變,這是怎麼做到的?</li><li>這一期分三部分,先講壓縮的原理,再講40年的歷史,最後講現狀,和你到底該選哪一個。</li><li>視頻能被壓縮是因為裡面有大量重複,一共四種,空間上的重複,時間上的重複,視覺上的多餘,還有統計上的重複。</li><li>第一種,空間重複,一片藍天,相鄰的像素幾乎一模一樣,沒必要每個都存一遍。</li></ol></div>
-  <div class="takeaway-box"><strong>总结</strong><p>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。</p></div>
-  <div class="bound"><strong>适用边界</strong>：影像技术科普；机身/编码参数因型号而异。</div><div class="pitfall"><strong>踩坑</strong>：口播可能有同音错字；菜单名/参数以软件实机为准。</div>
+  <div class="takeaway-box"><strong>总结</strong><p>视频压缩本质是用算力换带宽。选格式不只看压缩率，更要看硬件解码与专利是否清楚：H.264 兼容最稳、H.265/AV1 更省流量、剪辑用 ProRes/全帧内、存档留高码率原素材。</p></div>
+  <div class="bound"><strong>适用边界</strong>：影像技术科普；码率、编码参数与行业调查数据为视频作者口径，具体机型参数以相机说明书为准。</div>
+  <div class="pitfall"><strong>踩坑</strong>：口播含较多专业同音词，已按语境校正（如熵编码、运动矢量、HEVC、AV1、On2、思科、Mozilla 等）；个别口误以原视频为准。</div>
 </div>
-<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–05:07</span>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼</h2><p>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。；一部兩個小時的4K電影,如果不壓縮,要佔2.15TB,按流媒體常見的每秒15兆來算,只要13.5GB小了大約160倍,丟掉了這麼多數據,畫面看起來卻幾乎沒變,這是怎麼做到的?；這一期分三部分,先講壓縮的原理,再講40年的歷史,最後講現狀,和你到底該選哪一個。；視頻能被壓縮是因為裡面有大量重複,一共四種,空間上的重複,時間上的重複,視覺上的多餘,還有統計上的重複。；第一種,空間重複,一片藍天,相鄰的像素幾乎一模一樣,沒必要每個都存一遍。；第二種,時間重複,每秒24幀,相鄰兩幀的大部分內容都沒有變,只需要存變化的部分。；第三種,視覺上的多餘,人眼對細碎的紋理和顏色細節不明感,這些信息丟掉一部分,我們也看不出來。；顏色這部分就是上一期講的色度抽樣,感興趣可以回去看。；第四種,統計上的重複,有的數字特別常見,就用很短的編碼表示,少見的才用長編碼。；壓縮分兩種,無損壓縮,解壓之後一模一樣,但壓不了多少。；視頻用的幾乎都是有損壓縮,主動丟掉一部分信息,換來幾十倍甚至上百倍的壓縮比。；先看單獨一幀,從1988年到今天,主流的視頻編碼都是這五步,切塊,預測,變換,量化,商編碼,我們一步一步來看。；第一步,把畫面切成小塊,H264的基本單位是16×16的紅塊,新的格式最大到128×128,天空這種平坦的地方用大塊,細節多的地方切成小塊。；第二步,預測,根據旁邊已經編碼好的像素,沿某個方向猜這一塊長什麼樣,然後只存猜錯的那部分,這叫殘差。；殘差幾乎全黑,數據量小得多,猜的方向越多,猜的越準。H264有九種,H265有35種,H266有67種。；第三步,變換,1974年提出的離散餘弦變換,把一塊向速換一種方式描述,不再說每個點多量,而是說這一塊有多少頻款的變化,多少細碎的變化,大部分信息集中到了少數幾個數上。；第四步,量化,也是真正丟信息的一步,把這些數除以一個數,再四捨五入,細碎的部分大多變成零。除得越狠,文件越小,畫面越差,所謂碼率高低,主要就是再調這一步。；第五步,傷編碼,把這些數用盡量短的編碼存下來。H264引入的Cutback,比同一標準里較簡單的方法,還能再省大約10%。；因為是按快壓的,快與快的邊界容易露出來,這叫快效益,所以解碼時還要加一道區塊濾波,把邊界抹平。H264把這一步放進了編碼循環里,後面的針也能參考濾波後的乾淨畫面。；視頻最大的壓縮,來自時間。編碼器在上一針里,找到和當前這塊最像的位置,只存一個箭頭,這叫運動時量,再存一點殘差。這一步叫運動補償。；針分三種,I針,只靠自己,體積最大。P針,參考前面的針。B針,同時參考前後的針,體積最小。；從一個I針到下一個I針,這一組叫GOP,這就是為什麼長G,OP的素材拖進補調會卡。你要看的這一針,得從前面的I針一路算過來。；所以最難壓的,是下雨,水面,止洩,每個小塊都在亂動,運動補償幫不上忙。造點也是一樣,造點每一針都不同,等於全是新信息。；馬律怎麼分配,常見的有三種,固定馬律,可變馬律,恆定畫質。；固定馬律,每秒的數據量基本不變,網絡和設備最好處理,常用於直播,但簡單的畫面浪費,複雜的畫面不夠用。；可變馬律,設定一個平均值,簡單的畫面少給,複雜的畫面多給。兩遍編碼,就是第一遍先分析全片,第二遍再分配。；恆定畫質,就是CRF,不管馬律,只保證畫質一致,所以事先不知道文件多大,數值越小,畫質越高,文件越大。；馬律不夠實,畫面會一步步變差,先是暗部和天空出現斷層,再是邊緣出現細碎的紋造,最後整片變成方塊。；視頻編碼的標準,主要由兩個組織制定,國際電聯的ITU負責通信,國際標準化組織的MPEG負責媒體,他們十二各做各的,十二聯手。；1984年的H120,是第一個數字視頻編碼標準,但效果太差,幾乎沒有實際用上。</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-01.jpg" alt="這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[00:00] 這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/1724950185dd.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/1724950185dd.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-02.jpg" alt="一部兩個小時的4K電影,如果不壓縮,要佔2.15TB,按流媒體常見的每秒15兆來算,只要13.5GB小了大約160倍,丟" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[00:10] 一部兩個小時的4K電影,如果不壓縮,要佔2.15TB,按流媒體常見的每秒15兆來算,只要13.5GB小了大約160倍,丟</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/8ab7ab6effbc.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/8ab7ab6effbc.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-03.jpg" alt="這一期分三部分,先講壓縮的原理,再講40年的歷史,最後講現狀,和你到底該選哪一個。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[00:27] 這一期分三部分,先講壓縮的原理,再講40年的歷史,最後講現狀,和你到底該選哪一個。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/0e0c764dc3a3.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/0e0c764dc3a3.mp3" preload="none"></audio>
-</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">05:12–09:32</span>1988年的H261,才是第一個真正能用的標準,</h2><p>1988年的H261,才是第一個真正能用的標準,為視頻會議而生,切塊運動補償,變換編碼,這套骨架從它開始一直用到今天。；1993年的MPEG-1,加入了避震,把電影壓進了VCD,很多人的第一部數字電影就是這個格式。；1995年前後的MPEG-2,也叫H262,是兩個組織聯手的成果,撐起了DVD和數字電視用了很多年。；網絡時代來了,低碼率成了重點,H263用於視頻通話。；1999年的MPEG-4,第二部分,催生了DIVX和ATID,微軟也推出了自己的VCE。；2003年,兩個組織再次聯手,推出了H264,也叫AVC,同樣的畫質,碼率大約只有MPEG-2的一半。；它的進步來自一堆工具,快的大小可以變,可以參考多個針,還有更高效的商編碼和區塊濾波。；真正讓它稱霸的是生態,幾乎所有設備都能應節,專利也基本集中在一個專利池,規則簡單,網上免費觀看的視頻也不用交費。；到了2026年,一份行業調查顯示,85%的受訪者仍在生產環境使用H264。；2013年的H265,也叫HEDC,最大的快從16漲到64,預測方向增加到35種。；官方的主觀測試顯示,同等畫質碼率能省一半以上,按客觀指標算,省大約40%到45%。；4K藍光用的就是它,2017年蘋果在IOS11上全面支持,才真正推動了普及。；可H265有一個大問題,專利太亂,H264基本一個池的收費,H265的專利卻分散在三個專利池,還有不少公司單獨收費。；一家公司想用,根本算不清要交給誰,交多少。；這幾年情況在收攏,2023年Vellos不再運營專利池,2025年底Access Advance收購了VLA的HEDC和VVC專利池業務,但已經造成的傷害改變了整個行業的走向。；Google早就不想交專利費了,2010年它收購了ONR,開源了VP8,2013年推出VP9,用在YouTube上。；H265的專利混亂把大公司推到了一起,2015年Google、亞馬遜、司科、英特爾、微軟、Mazilla、奈飛組成開放媒體聯盟,目標是做一個免版稅的編碼。；2018年發布了AVE,AVE的快最大到128×128,還有一招很聰明,膠片顆粒和噪點最難壓,AVE也可以把顆粒去掉單獨描述,播放時再合成回去。；多項測試顯示,它比H265大約省10%到20%,不同的內容和指標差別很大。；2025年底,奈飛說AVE已經佔到它全部觀看量的30%,iPhone 15 Pro、蘋果M3、英偉達RTX40系列開始,硬件支持逐步普及。；代價是編碼很慢,多項研究顯示,它的複雜度大約是H265的4-10倍。；另外,連版稅也不等於沒有風險,杜比已經就AVE和H265專利起訴了Snap。；2020年的H266也叫VVC,官方說法是比H265再省一半。；學術測試裡,用參考軟體大約省36%,代價是編碼時間大幅增加。；它也有專利費的問題,目前用的最多的是廣播領域,比如巴西的下一代電視標準TV3.0。；在2016年的調查裡,只有5%的受訪者在生產環境使用。；2026年5月,AV2的1.0規範正式發布,測試顯示比AVE再省大約三成同樣免版稅。；但是解碼的負擔也重了好幾倍,目前還沒有硬件支持。；中國也有自己的標準AVS,第三代AVS3的基準檔次在2020年發布。；官方稱編碼效率與H266相當,也被用在8K超高清轉播上,並被歐洲的DVB標準體系坦納。</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-04.jpg" alt="1988年的H261,才是第一個真正能用的標準,為視頻會議而生,切塊運動補償,變換編碼,這套骨架從它開始一直用到今天。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[05:12] 1988年的H261,才是第一個真正能用的標準,為視頻會議而生,切塊運動補償,變換編碼,這套骨架從它開始一直用到今天。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/cfc16f9d4f21.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/cfc16f9d4f21.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-05.jpg" alt="1993年的MPEG-1,加入了避震,把電影壓進了VCD,很多人的第一部數字電影就是這個格式。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[05:24] 1993年的MPEG-1,加入了避震,把電影壓進了VCD,很多人的第一部數字電影就是這個格式。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/d7139bc68360.mp3" type="button" aria-label="Play English audio">🔊</button><span>1993 MPEG-1, , VCD, 。</span></div>
-<audio class="cap-audio" src="audio/d7139bc68360.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-06.jpg" alt="1995年前後的MPEG-2,也叫H262,是兩個組織聯手的成果,撐起了DVD和數字電視用了很多年。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[05:34] 1995年前後的MPEG-2,也叫H262,是兩個組織聯手的成果,撐起了DVD和數字電視用了很多年。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/fdb293b04334.mp3" type="button" aria-label="Play English audio">🔊</button><span>1995 MPEG-2, H262, , DVD 。</span></div>
-<audio class="cap-audio" src="audio/fdb293b04334.mp3" preload="none"></audio>
-</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">09:37–13:15</span>把這40年放到一起規律很清楚,每隔大約10年,碼</h2><p>把這40年放到一起規律很清楚,每隔大約10年,碼率減半,付出的代價是計算量成倍增長。；壓縮,本質上是在用算力換代寬。；把主要的格式放到一張表裡,發布年份,相對效率,編碼複雜度,專利情況和主要用途都在這裡。；上面講的主要是發布用的編碼,實際拍視頻,編碼分三類,發布用的,剪輯用的,還有RAW。；相機裡常見的H264和H265屬於發布用的編碼技術,省空間,但剪輯時電腦很吃力。；索尼的X-AVC-S是H264,X-AVC-HS是H265,X-AVC-SI是全幀內,每一幀單獨壓,碼率高,剪輯輕鬆。；專門用來剪輯的有蘋果的ProRes和Avid的DNX,全部幀內壓縮,解碼輕鬆,畫質高,就是文件大。；ProRes 422HQ在1080P 30幀下,碼率大約220兆。；RAW不等於不壓縮。；尼康的NRAW,ProResRAW,BlackMagicRAW,RED的RedCode壓的都是傳感器的原始數據,只是方法不同。；其中BlackMagicRAW有一部分反拜爾在機內就做了,所以也有人覺得它不算純粹的RAW。；電影院放映用的數字拷貝用的又是另一種,JPEG 2000,每一幀單獨壓,最高每秒250兆,追求的是畫質和穩定,不在乎文件大小。；還有一個常見的誤會,MP4,MOV,MPV不是編碼,是裝飾品的盒子。；同樣一段H264,從MPV換到MP4,畫質一點不變,也幾乎不花時間。；2026年的一份行業調查,生產環境里H264是85%,H265是58%,AVE是19%,H266是5%,而未來一年計劃採用的AV一排第一35%。；所以,大平台不會只選一種,同一個視頻壓好幾份,老設備拿H264兜底,新設備拿更省流量的H265或AVE。；一個新格式能不能普及,技術只是一半,更重要的是有沒有硬件解碼,專利是否說得清。；從標準發布到真正普及,往往要十年左右。；最後說怎麼選,拍攝時,空間夠就選碼率高的,要重度調色就選10比特。；H265省空間,全真內好剪輯,RAW後期,空間最大。；剪輯時,如果電腦帶不動長GOP的素材,就轉成ProRes,或者生成代理。；導出上傳,H264兼容性最好,碼率給足就行,H265同樣的畫質文件更小。；上傳之後,平台都會重新壓縮,所以盡量給它一個高質量的原文件。；存檔就留原素材或者高碼率的版本,每壓縮一次就會多丟一點。；四十年,從幾乎不能用的H120到今天的AVR,每一代都在回答同一個問題。；哪些信息可以不存,哪些信息可以用算的。；你現在看到的每一幀,其實大部分都不是存下來的,而是被算出來了。；MING PAO CANADA .COM</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-07.jpg" alt="把這40年放到一起規律很清楚,每隔大約10年,碼率減半,付出的代價是計算量成倍增長。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[09:37] 把這40年放到一起規律很清楚,每隔大約10年,碼率減半,付出的代價是計算量成倍增長。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/c93a9a24dc9c.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/c93a9a24dc9c.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-08.jpg" alt="壓縮,本質上是在用算力換代寬。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[09:45] 壓縮,本質上是在用算力換代寬。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/4c81e87429e2.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/4c81e87429e2.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-09.jpg" alt="把主要的格式放到一張表裡,發布年份,相對效率,編碼複雜度,專利情況和主要用途都在這裡。" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[09:48] 把主要的格式放到一張表裡,發布年份,相對效率,編碼複雜度,專利情況和主要用途都在這裡。</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/76c83951bbec.mp3" type="button" aria-label="Play English audio">🔊</button><span>Tutorial tip</span></div>
-<audio class="cap-audio" src="audio/76c83951bbec.mp3" preload="none"></audio>
-</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-10.jpg" alt="MING PAO CANADA .COM" loading="lazy"><figcaption class="cap-bilingual">
-<div class="cap-zh">[12:35] MING PAO CANADA .COM</div>
-<div class="cap-en"><button class="cap-speak" data-audio="audio/410a69a82782.mp3" type="button" aria-label="Play English audio">🔊</button><span>MING PAO CANADA .COM</span></div>
-<audio class="cap-audio" src="audio/410a69a82782.mp3" preload="none"></audio>
+<section class="story-section" id="ch1"><h2><span class="time-marker">00:00–05:04</span>压缩原理：四种冗余 + 单帧五步流水线</h2><p>视频之所以能压上百倍，是因为里面全是重复：空间重复（蓝天相邻像素几乎一样）、时间重复（相邻帧大部分没变）、视觉冗余（人眼对细纹理不敏感）、统计重复（常见数字用短编码）。压缩分无损与有损，视频几乎都用有损，主动丢掉信息换压缩比。单帧编码从 1988 年至今都是五步：切块（H.264 基本单位是 16×16 宏块，新格式最大 128×128）→ 预测（按方向猜这一块，只存残差，H.264 有 9 种方向、H.265 35 种、H.266 67 种）→ 变换（离散余弦变换，把像素转成频率描述）→ 量化（真正丢信息的一步，码率高低主要调这里）→ 熵编码（H.264 引入 CABAC 能再省约 10%）。更大的压缩来自时间：编码器在上一帧找最像的位置只存一个运动矢量，帧分 I/P/B 三种，从 I 帧到下一个 I 帧为一组 GOP——这也是长 GOP 素材拖进剪辑软件会卡的原因。码率分配有固定码率、可变码率、恒定画质（CRF）三种。</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-01.jpg" alt="开场：一部 2 小时的 4K 电影不压缩要 2.15TB，按流媒体 15Mbps 只要 13.5GB，小了约 160 倍" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:10] 开场：一部 2 小时的 4K 电影不压缩要 2.15TB，按流媒体 15Mbps 只要 13.5GB，小了约 160 倍</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/722308de59af.mp3" type="button" aria-label="Play English audio">🔊</button><span>A 2-hour 4K movie shrinks ~160× when compressed</span></div>
+<audio class="cap-audio" src="audio/722308de59af.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-02.jpg" alt="四种重复之一：空间重复——一片蓝天的相邻像素几乎一样，没必要每个都存" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[00:46] 四种重复之一：空间重复——一片蓝天的相邻像素几乎一样，没必要每个都存</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/62dbefbf8b30.mp3" type="button" aria-label="Play English audio">🔊</button><span>Spatial redundancy: adjacent pixels in a blue sky are nearly identical</span></div>
+<audio class="cap-audio" src="audio/62dbefbf8b30.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-03.jpg" alt="单帧五步第一步「切块」：H.264 的基本单位是 16×16 宏块" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[01:47] 单帧五步第一步「切块」：H.264 的基本单位是 16×16 宏块</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/304937717eec.mp3" type="button" aria-label="Play English audio">🔊</button><span>Step 1 partitioning: H.264&#x27;s basic unit is the 16×16 macroblock</span></div>
+<audio class="cap-audio" src="audio/304937717eec.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-04.jpg" alt="第四步「量化」：真正丢信息的一步，码率高低主要调这里" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[02:36] 第四步「量化」：真正丢信息的一步，码率高低主要调这里</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/14571c6891f8.mp3" type="button" aria-label="Play English audio">🔊</button><span>Step 4 quantization: where data is actually dropped</span></div>
+<audio class="cap-audio" src="audio/14571c6891f8.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-05.jpg" alt="帧分三种：I 帧只靠自己、P 帧参考前帧、B 帧参考前后，体积依次最小" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[03:30] 帧分三种：I 帧只靠自己、P 帧参考前帧、B 帧参考前后，体积依次最小</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/c845ca787492.mp3" type="button" aria-label="Play English audio">🔊</button><span>I/P/B frames: reference themselves, the previous, or both neighbours</span></div>
+<audio class="cap-audio" src="audio/c845ca787492.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch2"><h2><span class="time-marker">05:04–09:32</span>40 年标准演进：从 H.120 到 AV1/VVC/AVS3</h2><p>标准由国际电联 ITU（管通信）与国际标准化组织 MPEG（管媒体）制定，时而各自为政、时而联手。1984 年 H.120 几乎不能用；1988 年 H.261 为视频会议而生，奠定切块+运动补偿+变换编码的骨架；MPEG-1 加入 B 帧成就 VCD；MPEG-2（H.262）撑起 DVD 与数字电视。2003 年 H.264（AVC）以一半码率称霸，靠的是生态与集中在单一专利池的收费。2013 年 H.265（HEVC）更省一半，但专利分散在三个池、算不清该交谁；这直接逼出 2015 年开放媒体联盟与 2018 年免版税的 AV1（块更大、可分离胶片颗粒），比 H.265 再省 10–20%。其后还有 H.266/VVC、2026 年发布的 AV2，以及中国的 AVS3。</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-06.jpg" alt="1988 年 H.261 是第一个能用的标准，为视频会议而生，骨架沿用至今" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[05:12] 1988 年 H.261 是第一个能用的标准，为视频会议而生，骨架沿用至今</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/447f9608b639.mp3" type="button" aria-label="Play English audio">🔊</button><span>H.261 (1988), the first usable standard, built for video conferencing</span></div>
+<audio class="cap-audio" src="audio/447f9608b639.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-07.jpg" alt="2013 年 H.265（HEVC）最大的块从 16 涨到 64，预测方向增加到 35 种" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[06:35] 2013 年 H.265（HEVC）最大的块从 16 涨到 64，预测方向增加到 35 种</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/419f7e3d7387.mp3" type="button" aria-label="Play English audio">🔊</button><span>H.265/HEVC: blocks grew to 64, prediction directions to 35</span></div>
+<audio class="cap-audio" src="audio/419f7e3d7387.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-08.jpg" alt="2018 年免版税的 AV1：块最大 128×128，胶片颗粒可分离后合成" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[07:54] 2018 年免版税的 AV1：块最大 128×128，胶片颗粒可分离后合成</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/9d07c9e78619.mp3" type="button" aria-label="Play English audio">🔊</button><span>Royalty-free AV1 (2018): 128×128 blocks and separable film grain</span></div>
+<audio class="cap-audio" src="audio/9d07c9e78619.mp3" preload="none"></audio>
+</figcaption></figure></section><section class="story-section" id="ch3"><h2><span class="time-marker">09:37–13:15</span>现实怎么选：发布 / 剪辑 / RAW 三类编码</h2><p>拍视频的编码分三类：发布用（H.264/H.265，省空间但剪辑吃力）、剪辑用（ProRes、DNxHR，全帧内好剪但文件大）、RAW（N-RAW、ProRes RAW、Blackmagic RAW、REDCODE，压的是传感器原始数据）。MP4/MOV/MKV 只是容器，换容器不损画质。2026 年行业调查：生产环境 H.264 85%、H.265 58%、AV1 19%、H.266 5%，而未来一年最想采用的是 AV1（35%）。选型建议：拍摄空间够就选高码率、重度调色选 10bit；剪辑卡就转 ProRes 或生成代理；导出 H.264 兼容最稳、H.265 文件更小；上传前给高质量原文件；存档留原素材——每压缩一次就多丢一点。四十年都在回答同一个问题：哪些信息可以不存，哪些信息可以用算的。</p><figure><img src="assets/h264-h265-av1-video-codecs/shot-09.jpg" alt="主要格式对照表：发布年份 / 相对效率 / 编码复杂度 / 专利 / 主要用途" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[09:48] 主要格式对照表：发布年份 / 相对效率 / 编码复杂度 / 专利 / 主要用途</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/72af7163e006.mp3" type="button" aria-label="Play English audio">🔊</button><span>Codec comparison table: year, efficiency, complexity, patents, use cases</span></div>
+<audio class="cap-audio" src="audio/72af7163e006.mp3" preload="none"></audio>
+</figcaption></figure><figure><img src="assets/h264-h265-av1-video-codecs/shot-10.jpg" alt="选型建议：拍摄 / 剪辑 / 导出 / 存档各该用什么编码" loading="lazy"><figcaption class="cap-bilingual">
+<div class="cap-zh">[12:14] 选型建议：拍摄 / 剪辑 / 导出 / 存档各该用什么编码</div>
+<div class="cap-en"><button class="cap-speak" data-audio="audio/869d6ee4e056.mp3" type="button" aria-label="Play English audio">🔊</button><span>Choosing a codec by use case: capture, edit, export, archive</span></div>
+<audio class="cap-audio" src="audio/869d6ee4e056.mp3" preload="none"></audio>
 </figcaption></figure></section>
 <section class="transcript-section" id="transcript">
 <details class="transcript-collapsible"><summary>口述/画面要点（88段）</summary>
 <div class="transcript-body">
-<p class="transcript-note">结合 Whisper medium 与画面大字整理；专有名词已校对。</p>
-<div class="transcript-list">
-<div class="transcript-row"><time>00:00</time><p>這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。</p></div>
-<div class="transcript-row"><time>00:10</time><p>一部兩個小時的4K電影,如果不壓縮,要佔2.15TB,按流媒體常見的每秒15兆來算,只要13.5GB小了大約160倍,丟掉了這麼多數據,畫面看起來卻幾乎沒變,這是怎麼做到的?</p></div>
-<div class="transcript-row"><time>00:27</time><p>這一期分三部分,先講壓縮的原理,再講40年的歷史,最後講現狀,和你到底該選哪一個。</p></div>
-<div class="transcript-row"><time>00:35</time><p>視頻能被壓縮是因為裡面有大量重複,一共四種,空間上的重複,時間上的重複,視覺上的多餘,還有統計上的重複。</p></div>
-<div class="transcript-row"><time>00:46</time><p>第一種,空間重複,一片藍天,相鄰的像素幾乎一模一樣,沒必要每個都存一遍。</p></div>
-<div class="transcript-row"><time>00:53</time><p>第二種,時間重複,每秒24幀,相鄰兩幀的大部分內容都沒有變,只需要存變化的部分。</p></div>
-<div class="transcript-row"><time>01:01</time><p>第三種,視覺上的多餘,人眼對細碎的紋理和顏色細節不明感,這些信息丟掉一部分,我們也看不出來。</p></div>
-<div class="transcript-row"><time>01:09</time><p>顏色這部分就是上一期講的色度抽樣,感興趣可以回去看。</p></div>
-<div class="transcript-row"><time>01:15</time><p>第四種,統計上的重複,有的數字特別常見,就用很短的編碼表示,少見的才用長編碼。</p></div>
-<div class="transcript-row"><time>01:22</time><p>壓縮分兩種,無損壓縮,解壓之後一模一樣,但壓不了多少。</p></div>
-<div class="transcript-row"><time>01:28</time><p>視頻用的幾乎都是有損壓縮,主動丟掉一部分信息,換來幾十倍甚至上百倍的壓縮比。</p></div>
-<div class="transcript-row"><time>01:36</time><p>先看單獨一幀,從1988年到今天,主流的視頻編碼都是這五步,切塊,預測,變換,量化,商編碼,我們一步一步來看。</p></div>
-<div class="transcript-row"><time>01:47</time><p>第一步,把畫面切成小塊,H264的基本單位是16×16的紅塊,新的格式最大到128×128,天空這種平坦的地方用大塊,細節多的地方切成小塊。</p></div>
-<div class="transcript-row"><time>02:01</time><p>第二步,預測,根據旁邊已經編碼好的像素,沿某個方向猜這一塊長什麼樣,然後只存猜錯的那部分,這叫殘差。</p></div>
-<div class="transcript-row"><time>02:09</time><p>殘差幾乎全黑,數據量小得多,猜的方向越多,猜的越準。H264有九種,H265有35種,H266有67種。</p></div>
-<div class="transcript-row"><time>02:21</time><p>第三步,變換,1974年提出的離散餘弦變換,把一塊向速換一種方式描述,不再說每個點多量,而是說這一塊有多少頻款的變化,多少細碎的變化,大部分信息集中到了少數幾個數上。</p></div>
-<div class="transcript-row"><time>02:36</time><p>第四步,量化,也是真正丟信息的一步,把這些數除以一個數,再四捨五入,細碎的部分大多變成零。除得越狠,文件越小,畫面越差,所謂碼率高低,主要就是再調這一步。</p></div>
-<div class="transcript-row"><time>02:51</time><p>第五步,傷編碼,把這些數用盡量短的編碼存下來。H264引入的Cutback,比同一標準里較簡單的方法,還能再省大約10%。</p></div>
-<div class="transcript-row"><time>03:03</time><p>因為是按快壓的,快與快的邊界容易露出來,這叫快效益,所以解碼時還要加一道區塊濾波,把邊界抹平。H264把這一步放進了編碼循環里,後面的針也能參考濾波後的乾淨畫面。</p></div>
-<div class="transcript-row"><time>03:18</time><p>視頻最大的壓縮,來自時間。編碼器在上一針里,找到和當前這塊最像的位置,只存一個箭頭,這叫運動時量,再存一點殘差。這一步叫運動補償。</p></div>
-<div class="transcript-row"><time>03:30</time><p>針分三種,I針,只靠自己,體積最大。P針,參考前面的針。B針,同時參考前後的針,體積最小。</p></div>
-<div class="transcript-row"><time>03:40</time><p>從一個I針到下一個I針,這一組叫GOP,這就是為什麼長G,OP的素材拖進補調會卡。你要看的這一針,得從前面的I針一路算過來。</p></div>
-<div class="transcript-row"><time>03:52</time><p>所以最難壓的,是下雨,水面,止洩,每個小塊都在亂動,運動補償幫不上忙。造點也是一樣,造點每一針都不同,等於全是新信息。</p></div>
-<div class="transcript-row"><time>04:04</time><p>馬律怎麼分配,常見的有三種,固定馬律,可變馬律,恆定畫質。</p></div>
-<div class="transcript-row"><time>04:11</time><p>固定馬律,每秒的數據量基本不變,網絡和設備最好處理,常用於直播,但簡單的畫面浪費,複雜的畫面不夠用。</p></div>
-<div class="transcript-row"><time>04:21</time><p>可變馬律,設定一個平均值,簡單的畫面少給,複雜的畫面多給。兩遍編碼,就是第一遍先分析全片,第二遍再分配。</p></div>
-<div class="transcript-row"><time>04:31</time><p>恆定畫質,就是CRF,不管馬律,只保證畫質一致,所以事先不知道文件多大,數值越小,畫質越高,文件越大。</p></div>
-<div class="transcript-row"><time>04:42</time><p>馬律不夠實,畫面會一步步變差,先是暗部和天空出現斷層,再是邊緣出現細碎的紋造,最後整片變成方塊。</p></div>
-<div class="transcript-row"><time>04:52</time><p>視頻編碼的標準,主要由兩個組織制定,國際電聯的ITU負責通信,國際標準化組織的MPEG負責媒體,他們十二各做各的,十二聯手。</p></div>
-<div class="transcript-row"><time>05:04</time><p>1984年的H120,是第一個數字視頻編碼標準,但效果太差,幾乎沒有實際用上。</p></div>
-<div class="transcript-row"><time>05:12</time><p>1988年的H261,才是第一個真正能用的標準,為視頻會議而生,切塊運動補償,變換編碼,這套骨架從它開始一直用到今天。</p></div>
-<div class="transcript-row"><time>05:24</time><p>1993年的MPEG-1,加入了避震,把電影壓進了VCD,很多人的第一部數字電影就是這個格式。</p></div>
-<div class="transcript-row"><time>05:34</time><p>1995年前後的MPEG-2,也叫H262,是兩個組織聯手的成果,撐起了DVD和數字電視用了很多年。</p></div>
-<div class="transcript-row"><time>05:44</time><p>網絡時代來了,低碼率成了重點,H263用於視頻通話。</p></div>
-<div class="transcript-row"><time>05:50</time><p>1999年的MPEG-4,第二部分,催生了DIVX和ATID,微軟也推出了自己的VCE。</p></div>
-<div class="transcript-row"><time>05:58</time><p>2003年,兩個組織再次聯手,推出了H264,也叫AVC,同樣的畫質,碼率大約只有MPEG-2的一半。</p></div>
-<div class="transcript-row"><time>06:08</time><p>它的進步來自一堆工具,快的大小可以變,可以參考多個針,還有更高效的商編碼和區塊濾波。</p></div>
-<div class="transcript-row"><time>06:16</time><p>真正讓它稱霸的是生態,幾乎所有設備都能應節,專利也基本集中在一個專利池,規則簡單,網上免費觀看的視頻也不用交費。</p></div>
-<div class="transcript-row"><time>06:27</time><p>到了2026年,一份行業調查顯示,85%的受訪者仍在生產環境使用H264。</p></div>
-<div class="transcript-row"><time>06:35</time><p>2013年的H265,也叫HEDC,最大的快從16漲到64,預測方向增加到35種。</p></div>
-<div class="transcript-row"><time>06:43</time><p>官方的主觀測試顯示,同等畫質碼率能省一半以上,按客觀指標算,省大約40%到45%。</p></div>
-<div class="transcript-row"><time>06:52</time><p>4K藍光用的就是它,2017年蘋果在IOS11上全面支持,才真正推動了普及。</p></div>
-<div class="transcript-row"><time>07:00</time><p>可H265有一個大問題,專利太亂,H264基本一個池的收費,H265的專利卻分散在三個專利池,還有不少公司單獨收費。</p></div>
-<div class="transcript-row"><time>07:12</time><p>一家公司想用,根本算不清要交給誰,交多少。</p></div>
-<div class="transcript-row"><time>07:17</time><p>這幾年情況在收攏,2023年Vellos不再運營專利池,2025年底Access Advance收購了VLA的HEDC和VVC專利池業務,但已經造成的傷害改變了整個行業的走向。</p></div>
-<div class="transcript-row"><time>07:31</time><p>Google早就不想交專利費了,2010年它收購了ONR,開源了VP8,2013年推出VP9,用在YouTube上。</p></div>
-<div class="transcript-row"><time>07:42</time><p>H265的專利混亂把大公司推到了一起,2015年Google、亞馬遜、司科、英特爾、微軟、Mazilla、奈飛組成開放媒體聯盟,目標是做一個免版稅的編碼。</p></div>
-<div class="transcript-row"><time>07:54</time><p>2018年發布了AVE,AVE的快最大到128×128,還有一招很聰明,膠片顆粒和噪點最難壓,AVE也可以把顆粒去掉單獨描述,播放時再合成回去。</p></div>
-<div class="transcript-row"><time>08:09</time><p>多項測試顯示,它比H265大約省10%到20%,不同的內容和指標差別很大。</p></div>
-<div class="transcript-row"><time>08:16</time><p>2025年底,奈飛說AVE已經佔到它全部觀看量的30%,iPhone 15 Pro、蘋果M3、英偉達RTX40系列開始,硬件支持逐步普及。</p></div>
-<div class="transcript-row"><time>08:29</time><p>代價是編碼很慢,多項研究顯示,它的複雜度大約是H265的4-10倍。</p></div>
-<div class="transcript-row"><time>08:35</time><p>另外,連版稅也不等於沒有風險,杜比已經就AVE和H265專利起訴了Snap。</p></div>
-<div class="transcript-row"><time>08:42</time><p>2020年的H266也叫VVC,官方說法是比H265再省一半。</p></div>
-<div class="transcript-row"><time>08:49</time><p>學術測試裡,用參考軟體大約省36%,代價是編碼時間大幅增加。</p></div>
-<div class="transcript-row"><time>08:56</time><p>它也有專利費的問題,目前用的最多的是廣播領域,比如巴西的下一代電視標準TV3.0。</p></div>
-<div class="transcript-row"><time>09:03</time><p>在2016年的調查裡,只有5%的受訪者在生產環境使用。</p></div>
-<div class="transcript-row"><time>09:08</time><p>2026年5月,AV2的1.0規範正式發布,測試顯示比AVE再省大約三成同樣免版稅。</p></div>
-<div class="transcript-row"><time>09:17</time><p>但是解碼的負擔也重了好幾倍,目前還沒有硬件支持。</p></div>
-<div class="transcript-row"><time>09:22</time><p>中國也有自己的標準AVS,第三代AVS3的基準檔次在2020年發布。</p></div>
-<div class="transcript-row"><time>09:29</time><p>官方稱編碼效率與H266相當,也被用在8K超高清轉播上,並被歐洲的DVB標準體系坦納。</p></div>
-<div class="transcript-row"><time>09:37</time><p>把這40年放到一起規律很清楚,每隔大約10年,碼率減半,付出的代價是計算量成倍增長。</p></div>
-<div class="transcript-row"><time>09:45</time><p>壓縮,本質上是在用算力換代寬。</p></div>
-<div class="transcript-row"><time>09:48</time><p>把主要的格式放到一張表裡,發布年份,相對效率,編碼複雜度,專利情況和主要用途都在這裡。</p></div>
-<div class="transcript-row"><time>10:07</time><p>上面講的主要是發布用的編碼,實際拍視頻,編碼分三類,發布用的,剪輯用的,還有RAW。</p></div>
-<div class="transcript-row"><time>10:15</time><p>相機裡常見的H264和H265屬於發布用的編碼技術,省空間,但剪輯時電腦很吃力。</p></div>
-<div class="transcript-row"><time>10:24</time><p>索尼的X-AVC-S是H264,X-AVC-HS是H265,X-AVC-SI是全幀內,每一幀單獨壓,碼率高,剪輯輕鬆。</p></div>
-<div class="transcript-row"><time>10:36</time><p>專門用來剪輯的有蘋果的ProRes和Avid的DNX,全部幀內壓縮,解碼輕鬆,畫質高,就是文件大。</p></div>
-<div class="transcript-row"><time>10:46</time><p>ProRes 422HQ在1080P 30幀下,碼率大約220兆。</p></div>
-<div class="transcript-row"><time>10:51</time><p>RAW不等於不壓縮。</p></div>
-<div class="transcript-row"><time>10:54</time><p>尼康的NRAW,ProResRAW,BlackMagicRAW,RED的RedCode壓的都是傳感器的原始數據,只是方法不同。</p></div>
-<div class="transcript-row"><time>11:02</time><p>其中BlackMagicRAW有一部分反拜爾在機內就做了,所以也有人覺得它不算純粹的RAW。</p></div>
-<div class="transcript-row"><time>11:10</time><p>電影院放映用的數字拷貝用的又是另一種,JPEG 2000,每一幀單獨壓,最高每秒250兆,追求的是畫質和穩定,不在乎文件大小。</p></div>
-<div class="transcript-row"><time>11:21</time><p>還有一個常見的誤會,MP4,MOV,MPV不是編碼,是裝飾品的盒子。</p></div>
-<div class="transcript-row"><time>11:27</time><p>同樣一段H264,從MPV換到MP4,畫質一點不變,也幾乎不花時間。</p></div>
-<div class="transcript-row"><time>11:34</time><p>2026年的一份行業調查,生產環境里H264是85%,H265是58%,AVE是19%,H266是5%,而未來一年計劃採用的AV一排第一35%。</p></div>
-<div class="transcript-row"><time>11:51</time><p>所以,大平台不會只選一種,同一個視頻壓好幾份,老設備拿H264兜底,新設備拿更省流量的H265或AVE。</p></div>
-<div class="transcript-row"><time>12:02</time><p>一個新格式能不能普及,技術只是一半,更重要的是有沒有硬件解碼,專利是否說得清。</p></div>
-<div class="transcript-row"><time>12:10</time><p>從標準發布到真正普及,往往要十年左右。</p></div>
-<div class="transcript-row"><time>12:14</time><p>最後說怎麼選,拍攝時,空間夠就選碼率高的,要重度調色就選10比特。</p></div>
-<div class="transcript-row"><time>12:21</time><p>H265省空間,全真內好剪輯,RAW後期,空間最大。</p></div>
-<div class="transcript-row"><time>12:26</time><p>剪輯時,如果電腦帶不動長GOP的素材,就轉成ProRes,或者生成代理。</p></div>
-<div class="transcript-row"><time>12:33</time><p>導出上傳,H264兼容性最好,碼率給足就行,H265同樣的畫質文件更小。</p></div>
-<div class="transcript-row"><time>12:40</time><p>上傳之後,平台都會重新壓縮,所以盡量給它一個高質量的原文件。</p></div>
-<div class="transcript-row"><time>12:46</time><p>存檔就留原素材或者高碼率的版本,每壓縮一次就會多丟一點。</p></div>
-<div class="transcript-row"><time>12:52</time><p>四十年,從幾乎不能用的H120到今天的AVR,每一代都在回答同一個問題。</p></div>
+<p class="transcript-note">结合 Whisper medium 转录与画面大字整理；专有名词与同音错字已按语境校正，个别口误以原视频为准。</p>
+<div class="transcript-list"><div class="transcript-row"><time>00:00</time><p>这一期,我们把视频压缩从头到尾讲透,它到底是怎么压的,这些格式是怎么一代一代来的,各自有什么区别,现在又该用每一个。</p></div>
+<div class="transcript-row"><time>00:10</time><p>一部两个小时的4K电影,如果不压缩,要占2.15TB,按流媒体常见的每秒15兆来算,只要13.5GB小了大约160倍,丢掉了这么多数据,画面看起来却几乎没变,这是怎么做到的?</p></div>
+<div class="transcript-row"><time>00:27</time><p>这一期分三部分,先讲压缩的原理,再讲40年的历史,最后讲现状,和你到底该选哪一个。</p></div>
+<div class="transcript-row"><time>00:35</time><p>视频能被压缩是因为里面有大量重复,一共四种,空间上的重复,时间上的重复,视觉上的多余,还有统计上的重复。</p></div>
+<div class="transcript-row"><time>00:46</time><p>第一种,空间重复,一片蓝天,相邻的像素几乎一模一样,没必要每个都存一遍。</p></div>
+<div class="transcript-row"><time>00:53</time><p>第二种,时间重复,每秒24帧,相邻两帧的大部分内容都没有变,只需要存变化的部分。</p></div>
+<div class="transcript-row"><time>01:01</time><p>第三种,视觉上的多余,人眼对细碎的纹理和颜色细节不敏感,这些信息丢掉一部分,我们也看不出来。</p></div>
+<div class="transcript-row"><time>01:09</time><p>颜色这部分就是上一期讲的色度抽样,感兴趣可以回去看。</p></div>
+<div class="transcript-row"><time>01:15</time><p>第四种,统计上的重复,有的数字特别常见,就用很短的编码表示,少见的才用长编码。</p></div>
+<div class="transcript-row"><time>01:22</time><p>压缩分两种,无损压缩,解压之后一模一样,但压不了多少。</p></div>
+<div class="transcript-row"><time>01:28</time><p>视频用的几乎都是有损压缩,主动丢掉一部分信息,换来几十倍甚至上百倍的压缩比。</p></div>
+<div class="transcript-row"><time>01:36</time><p>先看单独一帧,从1988年到今天,主流的视频编码都是这五步,切块,预测,变换,量化,熵编码,我们一步一步来看。</p></div>
+<div class="transcript-row"><time>01:47</time><p>第一步,把画面切成小块,H.264的基本单位是16×16的宏块,新的格式最大到128×128,天空这种平坦的地方用大块,细节多的地方切成小块。</p></div>
+<div class="transcript-row"><time>02:01</time><p>第二步,预测,根据旁边已经编码好的像素,沿某个方向猜这一块长什么样,然后只存猜错的那部分,这叫残差。</p></div>
+<div class="transcript-row"><time>02:09</time><p>残差几乎全黑,数据量小得多,猜的方向越多,猜的越准。H.264有九种,H.265有35种,H.266有67种。</p></div>
+<div class="transcript-row"><time>02:21</time><p>第三步,变换,1974年提出的离散余弦变换,把一块像素换一种方式描述,不再说每个点的亮度,而是说这一块有多少频率的变化,多少细碎的变化,大部分信息集中到了少数几个数上。</p></div>
+<div class="transcript-row"><time>02:36</time><p>第四步,量化,也是真正丢信息的一步,把这些数除以一个数,再四舍五入,细碎的部分大多变成零。除得越狠,文件越小,画面越差,所谓码率高低,主要就是再调这一步。</p></div>
+<div class="transcript-row"><time>02:51</time><p>第五步,熵编码,把这些数用尽量短的编码存下来。H.264引入的CABAC,比同一标准里较简单的方法,还能再省大约10%。</p></div>
+<div class="transcript-row"><time>03:03</time><p>因为是按块压的,块与块的边界容易露出来,这叫块效应,所以解码时还要加一道去块滤波,把边界抹平。H.264把这一步放进了编码循环里,后面的帧也能参考滤波后的干净画面。</p></div>
+<div class="transcript-row"><time>03:18</time><p>视频最大的压缩,来自时间。编码器在上一帧里,找到和当前这块最像的位置,只存一个箭头,这叫运动矢量,再存一点残差。这一步叫运动补偿。</p></div>
+<div class="transcript-row"><time>03:30</time><p>帧分三种,I帧,只靠自己,体积最大。P帧,参考前面的帧。B帧,同时参考前后的帧,体积最小。</p></div>
+<div class="transcript-row"><time>03:40</time><p>从一个I帧到下一个I帧,这一组叫GOP,这就是为什么长GOP的素材拖进剪辑软件会卡。你要看的这一帧,得从前面的I帧一路算过来。</p></div>
+<div class="transcript-row"><time>03:52</time><p>所以最难压的,是下雨,水面,纸屑,每个小块都在乱动,运动补偿帮不上忙。噪点也是一样,噪点每一帧都不同,等于全是新信息。</p></div>
+<div class="transcript-row"><time>04:04</time><p>码率怎么分配,常见的有三种,固定码率,可变码率,恒定画质。</p></div>
+<div class="transcript-row"><time>04:11</time><p>固定码率,每秒的数据量基本不变,网络和设备最好处理,常用于直播,但简单的画面浪费,复杂的画面不够用。</p></div>
+<div class="transcript-row"><time>04:21</time><p>可变码率,设定一个平均值,简单的画面少给,复杂的画面多给。两遍编码,就是第一遍先分析全片,第二遍再分配。</p></div>
+<div class="transcript-row"><time>04:31</time><p>恒定画质,就是CRF,不管码率,只保证画质一致,所以事先不知道文件多大,数值越小,画质越高,文件越大。</p></div>
+<div class="transcript-row"><time>04:42</time><p>码率不够时,画面会一步步变差,先是暗部和天空出现断层,再是边缘出现细碎的噪点,最后整片变成方块。</p></div>
+<div class="transcript-row"><time>04:52</time><p>视频编码的标准,主要由两个组织制定,国际电联的ITU负责通信,国际标准化组织的MPEG负责媒体,他们时而各做各的,时而联手。</p></div>
+<div class="transcript-row"><time>05:04</time><p>1984年的H.120,是第一个数字视频编码标准,但效果太差,几乎没有实际用上。</p></div>
+<div class="transcript-row"><time>05:12</time><p>1988年的H.261,才是第一个真正能用的标准,为视频会议而生,切块运动补偿,变换编码,这套骨架从它开始一直用到今天。</p></div>
+<div class="transcript-row"><time>05:24</time><p>1993年的MPEG-1,加入了B帧,把电影压进了VCD,很多人的第一部数字电影就是这个格式。</p></div>
+<div class="transcript-row"><time>05:34</time><p>1995年前后的MPEG-2,也叫H.262,是两个组织联手的成果,撑起了DVD和数字电视用了很多年。</p></div>
+<div class="transcript-row"><time>05:44</time><p>网络时代来了,低码率成了重点,H.263用于视频通话。</p></div>
+<div class="transcript-row"><time>05:50</time><p>1999年的MPEG-4,第二部分,催生了DivX和Xvid,微软也推出了自己的VC-1。</p></div>
+<div class="transcript-row"><time>05:58</time><p>2003年,两个组织再次联手,推出了H.264,也叫AVC,同样的画质,码率大约只有MPEG-2的一半。</p></div>
+<div class="transcript-row"><time>06:08</time><p>它的进步来自一堆工具,块的大小可以变,可以参考多个帧,还有更高效的熵编码和去块滤波。</p></div>
+<div class="transcript-row"><time>06:16</time><p>真正让它称霸的是生态,几乎所有设备都能硬解,专利也基本集中在一个专利池,规则简单,网上免费观看的视频也不用交费。</p></div>
+<div class="transcript-row"><time>06:27</time><p>到了2026年,一份行业调查显示,85%的受访者仍在生产环境使用H.264。</p></div>
+<div class="transcript-row"><time>06:35</time><p>2013年的H.265,也叫HEVC,最大的块从16涨到64,预测方向增加到35种。</p></div>
+<div class="transcript-row"><time>06:43</time><p>官方的主观测试显示,同等画质码率能省一半以上,按客观指标算,省大约40%到45%。</p></div>
+<div class="transcript-row"><time>06:52</time><p>4K蓝光用的就是它,2017年苹果在iOS 11上全面支持,才真正推动了普及。</p></div>
+<div class="transcript-row"><time>07:00</time><p>可H.265有一个大问题,专利太乱,H.264基本一个池的收费,H.265的专利却分散在三个专利池,还有不少公司单独收费。</p></div>
+<div class="transcript-row"><time>07:12</time><p>一家公司想用,根本算不清要交给谁,交多少。</p></div>
+<div class="transcript-row"><time>07:17</time><p>这几年情况在收拢,2023年Velos不再运营专利池,2025年底Access Advance收购了Vela的HEVC和VVC专利池业务,但已经造成的伤害改变了整个行业的走向。</p></div>
+<div class="transcript-row"><time>07:31</time><p>Google早就不想交专利费了,2010年它收购了On2,开源了VP8,2013年推出VP9,用在YouTube上。</p></div>
+<div class="transcript-row"><time>07:42</time><p>H.265的专利混乱把大公司推到了一起,2015年Google、亚马逊、思科、英特尔、微软、Mozilla、奈飞组成开放媒体联盟,目标是做一个免版税的编码。</p></div>
+<div class="transcript-row"><time>07:54</time><p>2018年发布了AV1,AV1的块最大到128×128,还有一招很聪明,胶片颗粒和噪点最难压,AV1也可以把颗粒去掉单独描述,播放时再合成回去。</p></div>
+<div class="transcript-row"><time>08:09</time><p>多项测试显示,它比H.265大约省10%到20%,不同的内容和指标差别很大。</p></div>
+<div class="transcript-row"><time>08:16</time><p>2025年底,奈飞说AV1已经占到它全部观看量的30%,iPhone 15 Pro、苹果M3、英伟达RTX40系列开始,硬件支持逐步普及。</p></div>
+<div class="transcript-row"><time>08:29</time><p>代价是编码很慢,多项研究显示,它的复杂度大约是H.265的4–10 倍。</p></div>
+<div class="transcript-row"><time>08:35</time><p>另外,免版税也不等于没有风险,杜比已经就AV1和H.265专利起诉了Snap。</p></div>
+<div class="transcript-row"><time>08:42</time><p>2020年的H.266也叫VVC,官方说法是比H.265再省一半。</p></div>
+<div class="transcript-row"><time>08:49</time><p>学术测试里,用参考软体大约省36%,代价是编码时间大幅增加。</p></div>
+<div class="transcript-row"><time>08:56</time><p>它也有专利费的问题,目前用的最多的是广播领域,比如巴西的下一代电视标准TV 3.0。</p></div>
+<div class="transcript-row"><time>09:03</time><p>在2016年的调查里,只有5%的受访者在生产环境使用。</p></div>
+<div class="transcript-row"><time>09:08</time><p>2026年5月,AV2的1.0规范正式发布,测试显示比AV1再省大约三成同样免版税。</p></div>
+<div class="transcript-row"><time>09:17</time><p>但是解码的负担也重了好几倍,目前还没有硬件支持。</p></div>
+<div class="transcript-row"><time>09:22</time><p>中国也有自己的标准AVS,第三代AVS3的基准档次在2020年发布。</p></div>
+<div class="transcript-row"><time>09:29</time><p>官方称编码效率与H.266相当,也被用在8K超高清转播上,并被欧洲的DVB标准体系采纳。</p></div>
+<div class="transcript-row"><time>09:37</time><p>把这40年放到一起规律很清楚,每隔大约10年,码率减半,付出的代价是计算量成倍增长。</p></div>
+<div class="transcript-row"><time>09:45</time><p>压缩,本质上是在用算力换带宽。</p></div>
+<div class="transcript-row"><time>09:48</time><p>把主要的格式放到一张表里,发布年份,相对效率,编码复杂度,专利情况和主要用途都在这里。</p></div>
+<div class="transcript-row"><time>10:07</time><p>上面讲的主要是发布用的编码,实际拍视频,编码分三类,发布用的,剪辑用的,还有RAW。</p></div>
+<div class="transcript-row"><time>10:15</time><p>相机里常见的H.264和H.265属于发布用的编码技术,省空间,但剪辑时电脑很吃力。</p></div>
+<div class="transcript-row"><time>10:24</time><p>索尼的XAVC-S是H.264,XAVC-HS是H.265,XAVC-SI是全帧内,每一帧单独压,码率高,剪辑轻松。</p></div>
+<div class="transcript-row"><time>10:36</time><p>专门用来剪辑的有苹果的ProRes和Avid的DNxHR,全部帧内压缩,解码轻松,画质高,就是文件大。</p></div>
+<div class="transcript-row"><time>10:46</time><p>ProRes 422 HQ在1080P 30帧下,码率大约220兆。</p></div>
+<div class="transcript-row"><time>10:51</time><p>RAW不等于不压缩。</p></div>
+<div class="transcript-row"><time>10:54</time><p>尼康的N-RAW,ProRes RAW,Blackmagic RAW,RED的RedCode压的都是传感器的原始数据,只是方法不同。</p></div>
+<div class="transcript-row"><time>11:02</time><p>其中Blackmagic RAW有一部分去拜耳在机内就做了,所以也有人觉得它不算纯粹的RAW。</p></div>
+<div class="transcript-row"><time>11:10</time><p>电影院放映用的数字拷贝用的又是另一种,JPEG 2000,每一帧单独压,最高每秒250兆,追求的是画质和稳定,不在乎文件大小。</p></div>
+<div class="transcript-row"><time>11:21</time><p>还有一个常见的误会,MP4,MOV,MKV不是编码,是装视频的盒子（容器）。</p></div>
+<div class="transcript-row"><time>11:27</time><p>同样一段H.264,从MKV换到MP4,画质一点不变,也几乎不花时间。</p></div>
+<div class="transcript-row"><time>11:34</time><p>2026年的一份行业调查,生产环境里H.264是85%,H.265是58%,AV1是19%,H.266是5%,而未来一年计划采用的AV1 排第一35%。</p></div>
+<div class="transcript-row"><time>11:51</time><p>所以,大平台不会只选一种,同一个视频压好几份,老设备拿H.264兜底,新设备拿更省流量的H.265或AV1。</p></div>
+<div class="transcript-row"><time>12:02</time><p>一个新格式能不能普及,技术只是一半,更重要的是有没有硬件解码,专利是否说得清。</p></div>
+<div class="transcript-row"><time>12:10</time><p>从标准发布到真正普及,往往要十年左右。</p></div>
+<div class="transcript-row"><time>12:14</time><p>最后说怎么选,拍摄时,空间够就选码率高的,要重度调色就选10比特。</p></div>
+<div class="transcript-row"><time>12:21</time><p>H.265省空间,全帧内好剪辑,RAW后期,空间最大。</p></div>
+<div class="transcript-row"><time>12:26</time><p>剪辑时,如果电脑带不动长GOP的素材,就转成ProRes,或者生成代理。</p></div>
+<div class="transcript-row"><time>12:33</time><p>导出上传,H.264兼容性最好,码率给足就行,H.265同样的画质文件更小。</p></div>
+<div class="transcript-row"><time>12:40</time><p>上传之后,平台都会重新压缩,所以尽量给它一个高质量的原文件。</p></div>
+<div class="transcript-row"><time>12:46</time><p>存档就留原素材或者高码率的版本,每压缩一次就会多丢一点。</p></div>
+<div class="transcript-row"><time>12:52</time><p>四十年,从几乎不能用的H.120到今天的AV1,每一代都在回答同一个问题。</p></div>
 <div class="transcript-row"><time>12:59</time><p>哪些信息可以不存,哪些信息可以用算的。</p></div>
-<div class="transcript-row"><time>13:02</time><p>你現在看到的每一幀,其實大部分都不是存下來的,而是被算出來了。</p></div>
+<div class="transcript-row"><time>13:02</time><p>你现在看到的每一帧,其实大部分都不是存下来的,而是被算出来了。</p></div>
 <div class="transcript-row"><time>13:10</time><p>MING PAO CANADA .COM</p></div>
 </div>
 </div></details></section>

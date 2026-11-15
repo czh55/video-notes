@@ -2,7 +2,7 @@
   {
     "date": "2026-11-14",
     "title": "05从零玩转视频创作 为什么要开Log拍灰片",
-    "summary": "「05从零玩转视频创作 为什么要开Log拍灰片」教程要点：你要是懶成这样的话 → 咱们也就你这你也别看了好吧 → 这个 → 好的各位朋友大家好；详见正文。",
+    "summary": "为什么拍视频要开 Log 拍灰片：用 JPEG 与 RAW 的类比讲清「灰片≈视频版 RAW」的道理，实拍对比直方图与波形图的区别，再梳理索尼/佳能/尼康/富士/松下各家 Log。",
     "primary": "photo",
     "skills": [],
     "tags": [
@@ -18,14 +18,14 @@
       "svg": "why-shoot-log-grey-理性分析.svg"
     },
     "screenshot_count": 8,
-    "transcript_segments": 221,
-    "svg_height": 2172,
+    "transcript_segments": 263,
+    "svg_height": 2171,
     "slug": "why-shoot-log-grey"
   },
   {
     "date": "2026-11-14",
     "title": "H.264、H.265、AV1 到底差在哪？讲透视频压缩",
-    "summary": "「H.264、H.265、AV1 到底差在哪？讲透视频压缩」教程要点：這一期,我們把視頻壓縮從頭到尾講透,它到底是怎麼壓的,這些格式是怎麼一代一代來的,各自有什麼區別,現在又該用每一個。 → 一部兩個小時的4K電影,如果不壓縮,要佔2.15",
+    "summary": "讲透视频压缩原理与 H.264/H.265/AV1 三代标准：四种冗余如何被压缩、单帧五步流水线、40 年标准演进（每 10 年码率减半），以及拍摄/剪辑/导出/存档该选哪个编码。",
     "primary": "photo",
     "skills": [],
     "tags": [
@@ -42,13 +42,13 @@
     },
     "screenshot_count": 10,
     "transcript_segments": 88,
-    "svg_height": 2204,
+    "svg_height": 2076,
     "slug": "h264-h265-av1-video-codecs"
   },
   {
     "date": "2026-11-14",
     "title": "假如球桌无限长，一杆最多能连撞几颗球？",
-    "summary": "「假如球桌无限长，一杆最多能连撞几颗球？」教程要点：假如有一张无限长的球桌，球一颗接一颗摆下去，每两颗之间空着十个球身 → 一杆下去，球撞球、球再撞球——最多能连着撞到第几颗？ → 答案和手稳不稳关系不大 → 先看一次碰撞：出杆只偏半毫米",
+    "summary": "一个理想化台球问题：无限长球桌、每两颗球之间空十个球身，一杆最多连撞几颗？答案不在手稳，而在误差每撞一次放大 10 倍。",
     "primary": "sports",
     "skills": [],
     "tags": [
@@ -63,20 +63,20 @@
       "html": "billiards-infinite-table-max-hits-图文实录.html",
       "svg": "billiards-infinite-table-max-hits-理性分析.svg"
     },
-    "screenshot_count": 8,
+    "screenshot_count": 6,
     "transcript_segments": 8,
-    "svg_height": 2172,
+    "svg_height": 1554,
     "slug": "billiards-infinite-table-max-hits"
   },
   {
     "date": "2026-11-14",
     "title": "拜耳滤镜和10bit422都是什么？这期详解",
-    "summary": "「拜耳滤镜和10bit422都是什么？这期详解」教程要点：这一期我们把视频的422、420、444、8比特、10比特还有拜尔滤镜从头到尾讲透 → 打开相机的录像菜单 → 你看到的就是这样一串字 → 4K、10比特、422、100M；详见正文",
+    "summary": "从一粒光子到一个视频文件：拜耳滤镜为何只测 1/3 颜色、8bit/10bit 的位深差别、4:2:2/4:2:0 色度抽样怎么省数据，以及拍 Log、抠像、直出各该选什么。",
     "primary": "photo",
     "skills": [],
     "tags": [
       "摄影",
-      "视频技术",
+      "相机",
       "原理"
     ],
     "platform": "xiaohongshu",
@@ -88,7 +88,7 @@
     },
     "screenshot_count": 10,
     "transcript_segments": 402,
-    "svg_height": 2172,
+    "svg_height": 2157,
     "slug": "bayer-filter-and-10bit422"
   },
   {
